@@ -11,7 +11,7 @@ repository `aai-open`.
 |---|---|
 | [`ricdomolm/aai-open-sft-v0`](https://huggingface.co/datasets/ricdomolm/aai-open-sft-v0) | the decontaminated SFT mixture (`m5l2-full`), one split per target benchmark, training records in message form; built by `m5/ladder_sft/` (frozen renderer pinned by tag `aai-open-sft-v0-build`) |
 
-Status: dry-run export, under review. Generated from private trunk commit `43d7f73b07a3` (see `CORE_VERSION`).
+Status: dry-run export, under review. Generated from private trunk commit `6ac53bcf97aa` (see `CORE_VERSION`).
 
 ## What is here
 
