@@ -7,7 +7,7 @@ ROOT = Path("/data/aai/tbench/nemotron-super")
 STUDIES = {
     "b200-study-v1": ("b200", [5, 1, 0]),
     "b200-omp1-v2": ("b200", [5]),
-    "h100-80gb-study-v4": ("hgpu100", [3, 1, 0]),
+    "h100-80gb-study-v4": ("h100", [3, 1, 0]),
 }
 
 
@@ -17,7 +17,7 @@ def report(root=ROOT):
         for mtp in mtps:
             run = root / study / f"mtp{mtp}"
             complete = (run / "COMPLETE").is_file()
-            profile = {"study": study, "hardware": hardware, "gpus": 2 if hardware == "hgpu100" else 1,
+            profile = {"study": study, "hardware": hardware, "gpus": 2 if hardware == "h100" else 1,
                        "mtp": mtp, "complete": complete, "source": str(run)}
             profiles.append(profile)
             path = run / "results.jsonl"
@@ -34,7 +34,7 @@ def report(root=ROOT):
                 row["generated_tokens_per_gpu_second"] = row.get("srv_gen_tok_s", 0) / profile["gpus"]
                 windows.append(row)
     best = {}
-    for hardware in ["hgpu100", "b200"]:
+    for hardware in ["h100", "b200"]:
         candidates = [row for row in windows if row["hardware"] == hardware and row["eligible"] and row.get("srv_gen_tok_s", 0) > 0]
         stable = [row for row in candidates if row.get("preemptions", 0) == 0]
         best[hardware] = {

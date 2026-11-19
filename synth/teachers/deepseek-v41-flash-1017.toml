@@ -144,7 +144,7 @@ cpus = 16
 memory_gib = 192      # 128 GiB workers were held (cgroup page cache from 32 sandboxes' /data writes, 10-25); Super runs 192 without holds
 disk_gib = 320
 bid = 56                  # user 2026-10-25: at 36 ~120 worker jobs sat queued and capped live agents
-exclude_nodes = ["gpu132", "gpu110", "cpu105", "cpu301", "cpu208", "gpu158"]   # gpu132/g110: unreachable /data OST; cpu105/i301: crawling /data I/O (10-23); cpu208: workers stall (10-26); gpu158: /data I/O hung a pack job (10-25)
+exclude_nodes = ["gpu132", "gpu110", "cpu105", "cpu301", "cpu208", "gpu158"]   # gpu132/gpu110: unreachable /data OST; cpu105/cpu301: crawling /data I/O (10-23); cpu208: workers stall (10-26); gpu158: /data I/O hung a pack job (10-25)
 
 [admission]               # one dp_internal backend per job: the limit covers all four ranks
 # 2026-10-24 (issue #6): kv_fit with slope search and DeepSeek priors. Admission-driven replays (cpu308, 4 coordinated

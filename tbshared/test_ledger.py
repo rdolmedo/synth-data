@@ -210,7 +210,7 @@ def test_floors_and_kinds(tmp_path):
         assert L.node_floor(host, f) == (None, 'unknown', 'unknown')
     new, old = tmp_path / 'new.txt', tmp_path / 'old.txt'
     new.write_text('gpu101 25 8.0\n')
-    old.write_text('gpu101 15 8.0\ni305 55 10.0\n')
+    old.write_text('gpu101 15 8.0\ncpu305 55 10.0\n')
     assert L.load_floors(new, old) == {'gpu101': (25, 'A100'), 'cpu305': (55, 'B200')}     # the first file wins
     calls = []
 

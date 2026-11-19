@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """GPU-hours per full AAI-open eval of a model under test, from output tokens and a served generation rate (#176).
 
-  python eval_gpu_hours.py [--ratio 1.24] [--rate hgpu100=1750,b200=4900] [--util 0.75] [--json]
+  python eval_gpu_hours.py [--ratio 1.24] [--rate h100=1750,b200=4900] [--util 0.75] [--json]
 
 GPU-h = sum over benchmarks of (output tokens x ratio) / (rate x util) / 3600.
 * output tokens: Qwen3.8-27B medium's measured totals on our harnesses at ~128k (BASE below, with their runs), the only
@@ -31,7 +31,7 @@ BASE = {
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--ratio', type=float, default=1.24)
-    ap.add_argument('--rate', default='hgpu100=1750,b200=4900')
+    ap.add_argument('--rate', default='h100=1750,b200=4900')
     ap.add_argument('--util', type=float, default=0.75)
     ap.add_argument('--json', action='store_true')
     a = ap.parse_args()

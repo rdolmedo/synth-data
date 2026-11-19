@@ -71,14 +71,14 @@ def stop(proc):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--hardware", choices=["hgpu100", "b200"], required=True)
+    ap.add_argument("--hardware", choices=["h100", "b200"], required=True)
     ap.add_argument("--mode", choices=["study", "serve", "smoke", "admission"], default="study")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--levels", default=os.environ.get("BENCH_LEVELS", "64:300:480,128:300:480,256:420:600,512:420:600"))
     ap.add_argument("--max-clients", type=int, default=2048)
     ap.add_argument("--mtps", default=os.environ.get("BENCH_MTPS", ""))
     a = ap.parse_args()
-    mtps = [3, 1, 0] if a.hardware == "hgpu100" else [5, 1, 0]
+    mtps = [3, 1, 0] if a.hardware == "h100" else [5, 1, 0]
     if a.mtps:
         mtps = [int(n) for n in a.mtps.split(",")]
     if a.mode != "study":

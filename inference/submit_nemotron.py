@@ -12,7 +12,7 @@ ROOT = Path("/data/aai/tbench/nemotron-super")
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("hardware", choices=["hgpu100", "b200"])
+    ap.add_argument("hardware", choices=["h100", "b200"])
     ap.add_argument("--mode", choices=["smoke", "study", "serve", "admission"], default="smoke")
     ap.add_argument("--name", required=True)
     ap.add_argument("--bid", type=int, default=61)
@@ -31,7 +31,7 @@ def main():
     if (run / "submission.json").exists() and not a.dry_run:
         raise SystemExit(f"Already submitted: {run}")
     # Exclude the 94 GB H100 NVL nodes: the baseline is two 80 GB H100s.
-    resources = (2, 9.0, " && (TARGET.CUDAGlobalMemoryMb < 90000)") if a.hardware == "hgpu100" else (1, 10.0, "")
+    resources = (2, 9.0, " && (TARGET.CUDAGlobalMemoryMb < 90000)") if a.hardware == "h100" else (1, 10.0, "")
     if any(not node.replace("-", "").isalnum() for node in a.exclude_node):
         raise SystemExit("invalid node name")
     exclusions = "".join(f' && (TARGET.UtsnameNodename != "{node}")' for node in

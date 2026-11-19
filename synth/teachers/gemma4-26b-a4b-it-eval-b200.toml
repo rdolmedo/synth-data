@@ -83,7 +83,7 @@ memory_gib_per_gpu = 64   # peak 6 GiB text, 19 GiB with images (condor RSS); se
 cuda_capability = "10.0"   # B200
 disk_gib = 120
 bid_per_job = { 1 = 61 }   # B200 single-GPU (brief, #176)
-exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/g123/g143: /data lost writes (coordinator, 2026-11-05)
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/gpu123/gpu143: /data lost writes (coordinator, 2026-11-05)
 
 [worker_resources]
 slots = 11

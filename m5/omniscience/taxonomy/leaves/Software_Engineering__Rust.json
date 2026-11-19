@@ -100,7 +100,7 @@
   },
   {
    "leaf": "Primitive numeric types, overflow and casts",
-   "scope": "Integer and floating-point primitives (including cpu128, f16, f128 and NonZero), overflow behavior in debug and release builds, wrapping/checked/saturating/overflowing methods, numeric literal suffixes and the semantics of as casts.",
+   "scope": "Integer and floating-point primitives (including i128, f16, f128 and NonZero), overflow behavior in debug and release builds, wrapping/checked/saturating/overflowing methods, numeric literal suffixes and the semantics of as casts.",
    "queries": [
     "integer overflow wrapping checked saturating arithmetic",
     "as cast float to integer saturating",

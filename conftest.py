@@ -1,5 +1,6 @@
-"""Skip the tests listed in CLUSTER_ONLY_TESTS (they need the original cluster: HTCondor, shared filesystems,
-GPUs or prebuilt container images). One pytest node id or file path per line; '#' starts a comment."""
+"""Skip the tests listed in CLUSTER_ONLY_TESTS: they need the original cluster (HTCondor, shared filesystems, GPUs,
+prebuilt container images) or parts of the private trunk that this export leaves out. One pytest node id or file
+path per line; '#' starts a comment."""
 import os
 
 import pytest
@@ -29,4 +30,4 @@ def pytest_ignore_collect(collection_path, config):
 def pytest_collection_modifyitems(config, items):
     for item in items:
         if item.nodeid in _SKIP:
-            item.add_marker(pytest.mark.skip(reason="needs the original cluster (CLUSTER_ONLY_TESTS)"))
+            item.add_marker(pytest.mark.skip(reason="needs the original cluster or unexported trunk code (CLUSTER_ONLY_TESTS)"))

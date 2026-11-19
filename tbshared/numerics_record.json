@@ -8028,17 +8028,17 @@
     },
     "k2_horizon/h100": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu hgpu100 --harness pi",
+     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu h100 --harness pi",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "k2_horizon/h100/pi180": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu hgpu100 --harness pi180",
+     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu h100 --harness pi180",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "k2_horizon/h100/terminus-2": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu hgpu100 --harness terminus-2",
+     "config": "eval_q35/submit.py init --family k2_horizon --serve-gpu h100 --harness terminus-2",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/legacy/b200": {
@@ -8058,17 +8058,17 @@
     },
     "nemotron_h/legacy/h100": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu hgpu100 --harness pi",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu h100 --harness pi",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/legacy/h100/pi180": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu hgpu100 --harness pi180",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu h100 --harness pi180",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/legacy/h100/terminus-2": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu hgpu100 --harness terminus-2",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving legacy --serve-gpu h100 --harness terminus-2",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/legacy/h100x2": {
@@ -8103,17 +8103,17 @@
     },
     "nemotron_h/v032/h100": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu hgpu100 --harness pi",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu h100 --harness pi",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/v032/h100/pi180": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu hgpu100 --harness pi180",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu h100 --harness pi180",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/v032/h100/terminus-2": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu hgpu100 --harness terminus-2",
+     "config": "eval_q35/submit.py init --family nemotron_h --serving v032 --serve-gpu h100 --harness terminus-2",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "nemotron_h/v032/h100x2": {
@@ -8148,17 +8148,17 @@
     },
     "qwen3_5/bf16/h100": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu hgpu100 --harness pi",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu h100 --harness pi",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/bf16/h100/pi180": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu hgpu100 --harness pi180",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu h100 --harness pi180",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/bf16/h100/terminus-2": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu hgpu100 --harness terminus-2",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving bf16 --serve-gpu h100 --harness terminus-2",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/bf16/h100x2": {
@@ -8193,17 +8193,17 @@
     },
     "qwen3_5/fp8kv/h100": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu hgpu100 --harness pi",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu h100 --harness pi",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/fp8kv/h100/pi180": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu hgpu100 --harness pi180",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu h100 --harness pi180",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/fp8kv/h100/terminus-2": {
      "common": "eval_q35/common.py",
-     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu hgpu100 --harness terminus-2",
+     "config": "eval_q35/submit.py init --family qwen3_5 --serving fp8kv --serve-gpu h100 --harness terminus-2",
      "serve_job": "eval_q35/serve_job.sh"
     },
     "qwen3_5/fp8kv/h100x2": {

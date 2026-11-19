@@ -540,7 +540,7 @@ def main():
     ap.add_argument('--model')
     ap.add_argument('--family', default='qwen3_5')
     ap.add_argument('--serving', default='fp8kv')
-    ap.add_argument('--serve-gpu', default='hgpu100')
+    ap.add_argument('--serve-gpu', default='h100')
     ap.add_argument('--harness', default=None)
     ap.add_argument('--finish-notice', default=None)
     a = ap.parse_args()
@@ -614,7 +614,7 @@ def eval_repo(tmp_path, seed='0', extra='pass', insert=''):
 def test_eval_extraction_runs_submit_init_and_serve_job(tmp_path):
     full = numerics.extract_full('eval', eval_repo(tmp_path))
     assert full['skipped'] == [] and full['warnings'] == []
-    assert set(full['specs']) == {f'qwen3_5/fp8kv/{g}{h}' for g in ('hgpu100', 'h100x2', 'b200') for h in ('', '/terminus-2')}
+    assert set(full['specs']) == {f'qwen3_5/fp8kv/{g}{h}' for g in ('h100', 'h100x2', 'b200') for h in ('', '/terminus-2')}
     h, b = full['specs']['qwen3_5/fp8kv/h100'], full['specs']['qwen3_5/fp8kv/b200']
     assert h['kv_cache_dtype'] == 'fp8' and h['attention_backend'] == 'FLASHINFER'       # serving_args['9.0']
     assert b['attention_backend'] == 'vllm default'                                         # no '10.0' entry
@@ -627,7 +627,7 @@ def test_eval_extraction_runs_submit_init_and_serve_job(tmp_path):
     assert h['request.pi_thinking'] == 'max' and h['protocol.harness'] == 'pi'
     assert h['chat_template.path'].startswith('per run')
     assert numerics.compare(full['specs'], numerics.extract('eval', eval_repo(tmp_path / 'b', seed='1'))) == [
-        f'qwen3_5/fp8kv/{g}{h}: changed seed: "0" -> "1"' for g in ('b200', 'hgpu100', 'h100x2')
+        f'qwen3_5/fp8kv/{g}{h}: changed seed: "0" -> "1"' for g in ('b200', 'h100', 'h100x2')
         for h in ('', '/terminus-2')]
 
 
@@ -663,7 +663,7 @@ def test_eval_init_runs_with_no_file_or_process_access(tmp_path):
     # an unknown command substitution in a guard: unparsed, never "always false"
     ('[ "$(nvidia-smi --query-gpu=name --format=csv,noheader)" = "NVIDIA H100" ] && '
      'FAMILY_FLAGS+=(--kv-cache-dtype fp8_e5m2)', 'new extractor warning'),
-    ('[ "$NODE_KIND" = hgpu100 ] && FAMILY_FLAGS+=(--kv-cache-dtype fp8_e5m2)', 'new extractor warning'),
+    ('[ "$NODE_KIND" = h100 ] && FAMILY_FLAGS+=(--kv-cache-dtype fp8_e5m2)', 'new extractor warning'),
 ])
 def test_serve_job_changes_the_interpreter_cannot_follow_fail(tmp_path, insert, expect):
     rec = tmp_path / 'record.json'

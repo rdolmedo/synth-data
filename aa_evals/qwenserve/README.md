@@ -441,7 +441,7 @@ window; engine = h-ref):
 No preemptions in any arm. The B200 profile keeps #70's default policy (not re-measured on Qwen3.6; its 10M-token KV
 never passed 0.56 in the replays).
 
-**GPU-hours per full eval** (`eval_gpu_hours.py --rate hgpu100=1800,b200=5000`: Qwen3.8 medium's measured output tokens
+**GPU-hours per full eval** (`eval_gpu_hours.py --rate h100=1800,b200=5000`: Qwen3.8 medium's measured output tokens
 per benchmark x 1.24, util 0.75; GDPval not counted): ~70M output tokens, **~14 H100-h or ~5.2 B200-h**. The live
 TB 2.1 pass (89 x 1, at most 64 in flight) reached 50 / 90 / 95% of its attempts in 23 / 46 / 50 min on one H100 NVL.
 

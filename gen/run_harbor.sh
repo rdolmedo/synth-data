@@ -4,7 +4,7 @@
 #
 #   run_harbor.sh <tasks_dir> <jobs_dir> <job_name> <api_base> <n_concurrent> [extra harbor args...]
 #
-# e.g. run_harbor.sh /tmp/x/tasks /tmp/x/jobs glm-shard00 http://i404:8001/v1 64 -k 8
+# e.g. run_harbor.sh /tmp/x/tasks /tmp/x/jobs glm-shard00 http://cpu404:8001/v1 64 -k 8
 # AGENT_KIND selects the harness (api_base = the OpenAI-style base, http://host:port/v1):
 #   terminus-2   (default) Harbor's terminus-2, driven from this host through litellm.
 #                AGENT=oracle forces the oracle (api_base ignored).

@@ -2,7 +2,7 @@
 # as the MODEL UNDER TEST on 1xH100, reasoning on (AA scored it so), NVIDIA's sampling (T 1.0, top_p 0.95; model card),
 # NVIDIA's parsers (nemotron_v3 reasoning, qwen3_coder tools; model card), the checkpoint's own chat template.
 # Port, without re-tuning, of eval_q35's tuned Lightning eval serving `v032` (branch eval, common.LIGHTNING_SERVING,
-# GPU set hgpu100; measurements in serve_lightning/README.md): vLLM 0.32 (venvs/vllm032), online FP8 weights (W8A8; served
+# GPU set h100; measurements in serve_lightning/README.md): vLLM 0.32 (venvs/vllm032), online FP8 weights (W8A8; served
 # BPB +0.0017), FP8 KV (+0.0006; together +0.0023), FlashInfer attention with a bf16 query on H100, a 128 GiB native CPU
 # KV tier (SimpleCPUOffloadConnector), MTP k=2 with the checkpoint's own MTP head (num_nextn_predict_layers 1) and
 # vLLM 0.32's shared-prefix Mamba checkpoint + prefix-match unit 16, 512 sequences, gpu_memory_utilization 0.90, and
@@ -92,7 +92,7 @@ memory_gib_per_gpu = 168    # 128 GiB pinned CPU KV tier + engine: peak 133 GiB 
 cuda_capability = "9.0"     # H100
 disk_gib = 150
 bid_per_job = { 1 = 101 }
-exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/g123/g143: /data lost writes (coordinator, 2026-11-05)
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/gpu123/gpu143: /data lost writes (coordinator, 2026-11-05)
 
 [worker_resources]
 slots = 11

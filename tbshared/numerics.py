@@ -1067,7 +1067,7 @@ EVAL = 'eval_q35'
 # Repository templates a family's runs use by default (submit.py docstring: base Qwen3.5 models get
 # --chat-template sft_qwen35/chat_template.jinja), recorded with their sha256.
 EVAL_FAMILY_TEMPLATES = {'qwen3_5': ['sft_qwen35/chat_template.jinja']}
-GPU_CC = {'hgpu100': '9.0', 'h100x2': '9.0', 'b200': '10.0', 'b200x2': '10.0'}
+GPU_CC = {'h100': '9.0', 'h100x2': '9.0', 'b200': '10.0', 'b200x2': '10.0'}
 
 
 class _FakePath:
@@ -1658,12 +1658,12 @@ def eval_specs(tree: Tree) -> dict:
     combos = []
     for variant in sorted(getattr(common, 'QWEN35_SERVING', {})):
         combos += [(f'qwen3_5/{variant}/{g}', ['--family', 'qwen3_5', '--serving', variant, '--serve-gpu', g])
-                   for g in ('hgpu100', 'h100x2', 'b200')]
+                   for g in ('h100', 'h100x2', 'b200')]
     for variant, prof in sorted(getattr(common, 'LIGHTNING_SERVING', {}).items()):
         combos += [(f'nemotron_h/{variant}/{g}', ['--family', 'nemotron_h', '--serving', variant, '--serve-gpu', g])
                    for g in sorted(prof.get('gpus', {}))]
     if 'k2_horizon' in getattr(common, 'VLLM_VENVS', {}):
-        combos.append(('k2_horizon/h100', ['--family', 'k2_horizon', '--serve-gpu', 'hgpu100']))
+        combos.append(('k2_horizon/h100', ['--family', 'k2_horizon', '--serve-gpu', 'h100']))
     for fam in sorted(getattr(common, 'GRUG_TEMPLATES', {})):
         combos += [(f'{fam}/{g}', ['--family', fam, '--serve-gpu', g]) for g in sorted(common.SNOWBALL_PROFILES)]
     harnesses = sorted(getattr(common, 'PROTOCOLS', {'pi': None}), key=lambda h: (h != 'pi', h))

@@ -692,7 +692,7 @@ def test_bad_nodes_reads_the_file_and_the_live_list_at_each_call(tmp_path, monke
     """A long-lived process that imported the module sees an edited BAD_NODES (its file, re-read) and the live file's
     additions at its next call, without a restart (the m5l grade watcher put a collector on gpu103)."""
     assert C.bad_nodes() == tuple(sorted(C.BAD_NODES))                         # no live file
-    live.write_text('# reason, date\ng999  # EIO on /data (11-18)\n\n cpu998 \nbad"name\n')
+    live.write_text('# reason, date\ngpu999  # EIO on /data (11-18)\n\n cpu998 \nbad"name\n')
     assert C.bad_nodes() == tuple(sorted({*C.BAD_NODES, 'gpu999', 'cpu998'}))      # comments, blanks; a bad line skipped
     src = tmp_path / 'condor_cost.py'                                          # an edited checkout, same process
     for text, want in (("BAD_NODES = ('g1',  # EIO\n             'g2')\n", {'g1', 'g2'}),
@@ -710,7 +710,7 @@ def test_bad_nodes_reads_the_file_and_the_live_list_at_each_call(tmp_path, monke
 def test_live_file_formats_and_bad_bytes(live):
     """Spaces and commas between names, fully qualified host names (UtsnameNodename is the short name), and a bad
     byte (skipped, never an exception: one bad byte must not stop every submitter)."""
-    live.write_bytes(b'gpu901, gpu902 gpu903\ng904.internal.cluster.internal\n\xff\xfe\ng905\n'
+    live.write_bytes(b'gpu901, gpu902 gpu903\ngpu904.internal.cluster.internal\n\xff\xfe\ngpu905\n'
                      b'gpu906 EIO on /data since 11-19\n')   # a reason without its '#': the words are not nodes
     got = set(C.bad_nodes()) - set(C.BAD_NODES)
     assert got == {'gpu901', 'gpu902', 'gpu903', 'gpu904', 'gpu905', 'gpu906'}, got

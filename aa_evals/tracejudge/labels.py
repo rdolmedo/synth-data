@@ -224,7 +224,7 @@ def inject(t, spec):
             t.turns.append(Turn(n, 'assistant', 'error', 'Connection error. (fetch failed: connect ECONNREFUSED '
                                 '10.0.2.2:40417; 4 retries exhausted)', ref))
             r.update(end_state='error', exception_type=None)
-            t.events.append(Event('proxy.log', 'upstream http://i302.internal.cluster.internal:32034/v1/chat/completions '
+            t.events.append(Event('proxy.log', 'upstream http://cpu302.internal.cluster.internal:32034/v1/chat/completions '
                                   'failed: ClientConnectorError: Cannot connect to host (Connection refused)', 'pi-cont16k/proxy.log:3'))
         elif typ == 'fork_failure':
             for j in range(3):

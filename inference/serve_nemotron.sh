@@ -5,7 +5,7 @@ set -euo pipefail
 PORT=$1; shift
 VENV=${VENV:-/opt/aai/venvs/vllm032}
 MODEL=${MODEL:-/data/aai/models/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4}
-HARDWARE=${HARDWARE:?set HARDWARE to hgpu100 or b200}
+HARDWARE=${HARDWARE:?set HARDWARE to h100 or b200}
 SCRATCH=${SCRATCH:?set a per-job cache directory}
 mkdir -p "$SCRATCH"
 export CUDA_HOME=$SCRATCH/cuda_home
@@ -30,7 +30,7 @@ export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export no_proxy="localhost,127.0.0.1,::1,localnet,${no_proxy:-}" NO_PROXY="localhost,127.0.0.1,::1,localnet,${NO_PROXY:-}"
 OPT=()
 case "$HARDWARE" in
-  hgpu100) TP=2; SEQS=128; BATCH=16384; PMU=64; MTP=3
+  h100) TP=2; SEQS=128; BATCH=16384; PMU=64; MTP=3
     OPT+=(--block-size 64 --compilation_config.max_cudagraph_capture_size 256) ;;
   b200) TP=1; SEQS=512; BATCH=32768; PMU=16; MTP=5
     OPT+=(--kernel-config '{"linear_backend_per_quant":{"fp8_w8a8":"torch"}}'

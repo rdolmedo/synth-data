@@ -1,19 +1,29 @@
-This repository is released under the MIT License (LICENSE), except for the third-party components below, which
-keep their own licenses.
+This repository is released under the MIT License (LICENSE), except for the third-party material below, which
+keeps its own license or terms.
 
-Third-party components
-----------------------
-- aa_evals/scicode/vendor/scicode/  SciCode benchmark code (https://github.com/scicode-bench/SciCode).
-  Apache License 2.0; the full text is in aa_evals/scicode/vendor/LICENSE. Modified: see the files' history notes.
-- tb_agents/deepseek_v41_encoding.py  Text encoding adapted from the DeepSeek V4.1 reference encoder as shipped in
-  vLLM. Apache License 2.0 (SPDX header in the file); copyright the vLLM project contributors.
-- synth/vllm_plugins/  Runtime patches to vLLM (https://github.com/vllm-project/vllm), which is licensed under the
-  Apache License 2.0. Where a patch reproduces vLLM code, that code remains under Apache-2.0.
+Third-party code and text included
+----------------------------------
+- aa_evals/scicode/vendor/scicode/ and aa_evals/scicode/templates/  SciCode helpers and prompt templates
+  (https://github.com/scicode-bench/SciCode). Apache License 2.0; full text in aa_evals/scicode/vendor/LICENSE.
+- tb_agents/deepseek_v41_encoding.py  adapted from the DeepSeek V4.1 reference encoder as shipped in vLLM
+  (https://github.com/vllm-project/vllm). Apache License 2.0; copyright the vLLM project contributors (SPDX header).
+- aa_evals/hle/prompts.py  answer and judge prompts of Humanity's Last Exam
+  (https://github.com/centerforaisafety/hle). MIT License.
+- aa_evals/omniscience/prompts.py  answer and grader templates from the AA-Omniscience public dataset card
+  (https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1). Apache License 2.0.
+- aa_evals/gdpval/aa_prompts.py and quoted methodology passages in aa_evals/*/README.md  text quoted from Artificial
+  Analysis' published methodology (https://artificialanalysis.ai/methodology), to reproduce their protocol.
+- aa_evals/gdppdf/judge.py  judge prompt from the GDP.pdf harness (https://github.com/surge-ai/gdp-pdf), to
+  reproduce its grading.
+- m5/automationbench/ (synth-data)  uses schema code of AutomationBench (https://github.com/zapier/AutomationBench), MIT License,
+  Copyright (c) 2026 Zapier, Inc.; generated problems may contain derived schema text.
+- tb_agents/pi_continuation.py  short patch snippets against the Pi coding agent's CLI
+  (npm @earendil-works/pi-coding-agent), MIT License.
+- synth/vllm_plugins/  runtime plugins for vLLM (Apache License 2.0); no vLLM source is copied.
 
 External tools used but not included: Harbor (harbor-framework/harbor), Terminal-Bench, the Pi coding agent,
-mini-swe-agent, vLLM, Apptainer. Their licenses apply to them.
+mini-swe-agent, Stirrup, vLLM, Apptainer. Their licenses apply to them.
 
 Benchmarks: this repository ships no benchmark items. Item ID lists and download scripts fetch each benchmark from
-its official source under that benchmark's own terms (see each benchmark's README).
-
-This file is a dry-run draft; the license inventory that finalises it is in progress.
+its official source under that benchmark's own terms (see each benchmark's README; HLE, for example, asks that its
+questions not be redistributed). Canary strings in filter code are kept on purpose.
