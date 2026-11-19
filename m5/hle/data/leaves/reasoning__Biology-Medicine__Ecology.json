@@ -1,0 +1,151 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Ecology",
+ "target_leaves": 8,
+ "expected_problems": 44,
+ "leaves": [
+  {
+   "leaf": "Stage-structured matrix population projection analysis",
+   "scope": "Problems give a Lefkovitch or Leslie matrix, possibly periodic, seasonal or with parameterised vital rates, and ask for exact demographic quantities derived from it. They are hard because the answer needs symbolic eigen-analysis, perturbation formulas and careful life-cycle-graph bookkeeping (pre- vs post-breeding census, the order of seasonal matrices) rather than numerical iteration.",
+   "techniques": [
+    "Characteristic equation from the life-cycle graph via loop analysis or z-transform",
+    "Sensitivity and elasticity from left/right eigenvectors, s_ij = v_i w_j / <v,w>, with elasticities summing to one",
+    "Net reproductive rate R0 as the spectral radius of F(I - T)^-1 and its threshold equivalence with lambda = 1",
+    "Fundamental matrix (I - T)^-1 for life expectancy, stage-specific residence and probability of reaching maturity",
+    "Periodic matrix products and how the choice of census phase changes eigenvectors but not lambda",
+    "Generation time definitions (ln R0 / ln lambda vs mean age of mothers of offspring) and when they diverge"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Predator-prey bifurcations with nonlinear functional responses",
+   "scope": "Problems analyse ODE consumer-resource systems (Holling II/III, Beddington-DeAngelis, ratio-dependent, prey Allee effects, three-level food chains) to find equilibria, their stability and the exact parameter thresholds where qualitative dynamics change. They are hard because results depend on the signs of Jacobian entries, degenerate cases and the geometry of the isoclines rather than on simulation.",
+   "techniques": [
+    "Hopf bifurcation where the predator isocline crosses the hump of the prey isocline (Rosenzweig-MacArthur)",
+    "Paradox-of-enrichment threshold carrying capacity expressed in handling and attack parameters",
+    "Transcritical invasion thresholds for predator or top-predator establishment",
+    "Routh-Hurwitz conditions for three-dimensional food-chain equilibria",
+    "Dulac functions or Kolmogorov's theorem to rule out or guarantee limit cycles",
+    "Counting interior equilibria with Allee effects or sigmoid responses via sign changes of a polynomial"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "small set",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Mechanistic resource-ratio competition geometry",
+   "scope": "Problems use Tilman-style or MacArthur consumer-resource models with two or more essential, substitutable or antagonistic resources and ask which species persist or coexist for a given supply point, dilution rate or parameter set. They are hard because the answer depends on combining ZNGIs, consumption vectors and supply-point regions correctly, and on whether the two-species equilibrium is stable or a saddle.",
+   "techniques": [
+    "R* from Monod or linear uptake kinetics with mortality or chemostat dilution",
+    "ZNGI shapes for essential (Liebig), perfectly substitutable and complementary resources",
+    "Stability criterion that each species consumes relatively more of the resource limiting itself",
+    "Partitioning supply space by rays through the equilibrium parallel to consumption vectors",
+    "Mutual invasibility analysis for three or more species on two resources",
+    "Reduction of consumer-resource dynamics to effective Lotka-Volterra coefficients"
+   ],
+   "answer_forms": [
+    "small set",
+    "ordered tuple",
+    "closed-form expression",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Spatially realistic metapopulation capacity and persistence",
+   "scope": "Problems pose Levins-type or incidence-function patch-occupancy models on explicit small networks of patches with given areas and distances and ask for exact persistence thresholds, equilibrium occupancies or the effect of removing or adding patches. They are hard because persistence is governed by the leading eigenvalue of a landscape matrix, patch contributions need eigenvector perturbation, and extensions such as the rescue effect change the shape of the equilibrium equations.",
+   "techniques": [
+    "Levins equilibrium p* = 1 - e/c and the habitat-destruction extension 1 - D - e/c",
+    "Metapopulation capacity as the dominant eigenvalue of M_ij = exp(-alpha d_ij) A_i^x A_j^y",
+    "Patch value from squared leading-eigenvector components and first-order eigenvalue perturbation",
+    "Rescue effect and propagule-rain (mainland-island) models giving quadratic equilibria",
+    "Symmetric network constructions (rings, stars, regular graphs) that allow closed-form eigenvalues",
+    "Mean-field vs spatially explicit threshold comparisons"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Reaction-diffusion and integrodifference spread thresholds",
+   "scope": "Problems set up continuous-space population models (Fisher-KPP, KISS-type habitat patches, advective river populations, integrodifference equations with explicit dispersal kernels) and ask for exact invasion speeds, critical patch sizes or persistence conditions. They are hard because they need linearisation, eigenvalue problems on bounded domains with mixed boundary conditions, or minimisation over the kernel's moment-generating function.",
+   "techniques": [
+    "Linear spreading speed c = 2 sqrt(rD) and its stage-structured or two-sex generalisations",
+    "Critical patch length from the principal Dirichlet, Neumann or Robin eigenvalue",
+    "Integrodifference speed c = min_s (1/s) ln(R0 M(s)) for Laplace, Gaussian or mixed kernels",
+    "Drift-paradox persistence criterion under advection, v < 2 sqrt(rD), and downstream boundary effects",
+    "Patchy or periodic habitat homogenisation (harmonic means of diffusivity)",
+    "Allee-effect pushed fronts with exact travelling-wave solutions for cubic growth"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number in exact form"
+   ]
+  },
+  {
+   "leaf": "Hill-number diversity partitioning and sampling estimators",
+   "scope": "Problems give small abundance or incidence tables, sometimes with phylogenies or trait distances, and ask for exact diversities of order q, alpha-beta-gamma decompositions, overlap measures or expected richness under subsampling. They are hard because weighting conventions, the q -> 1 limits and combinatorial rarefaction formulas are easy to misapply, and different indices can rank communities in opposite orders.",
+   "techniques": [
+    "Hill numbers qD and the exponential-of-Shannon limit at q = 1",
+    "Jost multiplicative partitioning with unequal community weights and the overlap family C_qN",
+    "Hurlbert/Sanders rarefaction expected richness via hypergeometric terms",
+    "Chao1 and Good-Turing sample-coverage estimators from singletons and doubletons",
+    "Rao's quadratic entropy and Leinster-Cobbold similarity-sensitive diversity",
+    "Phylogenetic Hill numbers on small ultrametric trees"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Ecosystem flow network and trophic aggregation analysis",
+   "scope": "Problems describe steady-state compartment models of energy or nutrient flows (input-output or Ecopath-like mass balance, including detritus) and ask for exact throughflows, cycling indices, effective trophic levels or indirect-effect measures. They are hard because these quantities come from the Leontief-type fundamental matrix of flow fractions and depend on how flows are normalised and how cycles through detritus are handled.",
+   "techniques": [
+    "Finn cycling index from the diagonal of (I - G)^-1 and total system throughflow",
+    "Average path length and residence times in donor-controlled linear compartment models",
+    "Prey-weighted effective trophic level found by solving a linear system with omnivory",
+    "Lindeman trophic aggregation into a canonical chain and trophic transfer efficiencies",
+    "Mixed trophic impact matrix and the sign of indirect effects",
+    "Mass-balance closure to infer an unknown flow or ecotrophic efficiency"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Optimal foraging and ideal free distribution games",
+   "scope": "Behavioural-ecology optimisation and population-game problems on diet choice, patch residence, state-dependent foraging under predation risk and the distribution of competitors among habitats. They ask for exact optimal policies or equilibrium distributions and are hard because thresholds create discontinuous all-or-nothing rules, equilibria can sit at corners, and interference or unequal competitive weights change the answer.",
+   "techniques": [
+    "Zero-one prey inclusion rule, ranking prey by e/h and checking the marginal-type inequality",
+    "Marginal value theorem tangent construction with explicit gain functions (closed forms via Lambert W)",
+    "Ideal free distribution with input matching, Sutherland interference constant m, and unequal competitors",
+    "Despotic and pre-emptive (Fretwell-Lucas) distributions as alternatives to the ideal free distribution",
+    "Small-grid stochastic dynamic programming for state-dependent foraging and starvation risk",
+    "Risk-sensitive choice via Jensen's inequality and the expected-energy-budget rule"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "small set",
+    "ordered tuple"
+   ]
+  }
+ ]
+}

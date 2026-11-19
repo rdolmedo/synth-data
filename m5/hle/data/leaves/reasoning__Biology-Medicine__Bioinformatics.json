@@ -1,0 +1,150 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Bioinformatics",
+ "target_leaves": 8,
+ "expected_problems": 58,
+ "leaves": [
+  {
+   "leaf": "Affine-gap and constrained pairwise alignment DP",
+   "scope": "Problems give short sequences, a substitution matrix and a non-standard gap model (affine, convex, free end-gaps, banded) and ask for the optimal score, the number of co-optimal alignments, or the parameter value at which the optimal alignment changes. They are hard because tie handling across Gotoh's three coupled matrices and parametric breakpoints are easy to get wrong when worked by hand.",
+   "techniques": [
+    "Gotoh three-state (M/X/Y) recurrences with correct inter-state transitions and opening costs",
+    "Counting co-optimal alignments by DP over traceback pointers without double-counting state-equivalent paths",
+    "Global vs semi-global vs Smith-Waterman local boundary conditions",
+    "Parametric alignment: breakpoints of the optimal alignment as gap-open/extend penalties vary (alignment polytope)",
+    "Counting all alignments or gap patterns via Delannoy-type combinatorics",
+    "Hirschberg divide-and-conquer midpoint determination"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Hidden Markov model decoding for sequence annotation",
+   "scope": "Small explicit HMMs (CpG-island detectors, gene-structure models, profile HMMs with match/insert/delete states) come with an observed sequence, and the problem asks for the Viterbi path, the forward probability, a posterior state probability, or the number of state paths meeting a constraint. They are hard because silent states, delete-state chains and exact rational arithmetic all have to be handled without approximation.",
+   "techniques": [
+    "Viterbi recursion with explicit tie-breaking rules",
+    "Forward-backward posterior marginals and maximum-expected-accuracy decoding",
+    "Silent delete-state propagation in Plan7-style profile HMMs",
+    "One-step Baum-Welch expected transition and emission counts",
+    "Duration modeling via chained states giving negative-binomial length distributions",
+    "Cases where Viterbi and posterior decoding disagree"
+   ],
+   "answer_forms": [
+    "rational number",
+    "state sequence (word)",
+    "integer",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "RNA secondary structure enumeration and folding",
+   "scope": "Problems ask for the maximum pairing, the number of admissible non-crossing structures, or a partition function or base-pair probability for a short RNA under simplified energy rules (minimum hairpin loop, canonical plus GU pairs, stacking-only energies). They are hard because hairpin-length and allowed-pair constraints break the textbook Catalan/Motzkin counts.",
+   "techniques": [
+    "Nussinov recursion with minimum hairpin-loop length",
+    "Generating functions for loop-constrained Motzkin-type structure counts and their asymptotic growth",
+    "McCaskill partition function and exact base-pair probabilities",
+    "Toy nearest-neighbor stacking-energy models with helix nucleation penalties",
+    "Dot-bracket / arc-diagram bijections and shape abstractions",
+    "Pseudoknot classes (H-type, kissing hairpins) and genus of arc diagrams"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "dot-bracket string",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "de Bruijn graph genome reconstruction counting",
+   "scope": "Given a k-mer spectrum or a set of read pairs, problems ask how many distinct cyclic or linear genomes fit the data, the smallest k that gives a unique reconstruction, or the result of graph simplification. They are hard because the number of Eulerian circuits differs from the number of distinct strings once repeats create parallel edges and rotational symmetry.",
+   "techniques": [
+    "BEST theorem with matrix-tree determinant on the k-mer graph",
+    "Correcting circuit counts for edge multiplicities and cyclic rotations to get distinct strings",
+    "Paired/gapped de Bruijn graphs and read-pair distance constraints",
+    "Interleaved-repeat and triple-repeat conditions for unique reconstruction (minimal k)",
+    "Compaction into unitigs and tip/bubble removal",
+    "Counting de Bruijn sequences over the 4-letter DNA alphabet"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "small set of strings"
+   ]
+  },
+  {
+   "leaf": "Burrows-Wheeler transform and FM-index computation",
+   "scope": "Problems ask to invert or build BWTs of DNA strings, run backward search with mismatches, compute suffix-array or LCP values, or count strings whose BWT has a given property. They are hard because LF-mapping and rank bookkeeping must be exact, and combinatorial questions about which strings are BWT images are subtle.",
+   "techniques": [
+    "LF-mapping inversion using rank/Occ and C arrays",
+    "Backward-search SA intervals with bounded mismatches and BWA-style lower-bound (D array) pruning",
+    "Multi-string / extended BWT with distinct or shared terminators",
+    "Number of BWT runs (r) as a repetitiveness measure and its change under edits",
+    "Characterizing valid BWT images via cycle structure of the standard permutation",
+    "Sampled suffix array locate-step counting"
+   ],
+   "answer_forms": [
+    "string",
+    "integer",
+    "ordered tuple of interval bounds",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Genome rearrangement distances via breakpoint graphs",
+   "scope": "Problems ask for reversal, DCJ or transposition distances between signed permutations or multichromosomal genomes, or for the number of optimal sorting scenarios. They are hard because hurdles, fortresses, telomeric path parities and indels change the answer in ways that are not obvious.",
+   "techniques": [
+    "Cycle and odd/even path counting in breakpoint/adjacency graphs",
+    "Hannenhalli-Pevzner reversal distance with hurdles and fortresses",
+    "DCJ distance N - (C + I/2) for linear and circular chromosomes",
+    "Counting optimal DCJ sorting scenarios as products of multinomial and component-wise terms",
+    "DCJ-indel distance with runs of unique markers",
+    "Small-genome median and genome-halving problems"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form count",
+    "ordered sequence of operations"
+   ]
+  },
+  {
+   "leaf": "Phylogenetic likelihood under substitution models",
+   "scope": "Problems ask for site-pattern likelihoods, transition probabilities, corrected evolutionary distances, or consistency thresholds on 3-5-taxon trees under JC69/K80/F81/HKY/CFN, with or without gamma rates. They are hard because exact closed forms need eigendecomposition and pruning sums, and saturation and limiting behaviors are subtle.",
+   "techniques": [
+    "Felsenstein pruning on small rooted and unrooted trees",
+    "Closed-form transition matrices via spectral decomposition of the rate matrix",
+    "Distance corrections (JC, K2P, LogDet) and delta-method variances",
+    "Gamma rate heterogeneity integrals over site rates",
+    "Hadamard conjugation and phylogenetic invariants for the CFN/Kimura models",
+    "Felsenstein-zone conditions where parsimony is inconsistent but ML is not"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Spectrum and restriction-map reconstruction from difference multisets",
+   "scope": "Problems ask to recover peptide sequences or restriction-site positions from MS/MS spectra or pairwise-distance multisets (partial digest/turnpike, cyclopeptide spectra, b/y-ion ladders), or to count how many distinct solutions exist. They are hard because isobaric residues and homometric point sets create degeneracies that must be enumerated exactly.",
+   "techniques": [
+    "Backtracking reconstruction for partial-digest (turnpike) instances",
+    "Homometric set construction via polynomial factorization A(x)A(1/x) = B(x)B(1/x)",
+    "Spectrum-graph longest-path de novo sequencing with b- and y-ion offsets",
+    "Cyclopeptide theoretical spectra and branch-and-bound consistency pruning",
+    "Isobaric and near-isobaric ambiguities (I/L, GG vs N, AG vs Q)",
+    "Double-digest problem consistency counting"
+   ],
+   "answer_forms": [
+    "integer",
+    "sequence of residues",
+    "small set of positions"
+   ]
+  }
+ ]
+}

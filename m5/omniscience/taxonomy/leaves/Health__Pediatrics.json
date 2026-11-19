@@ -1,0 +1,452 @@
+{
+ "domain": "Health",
+ "subtopic": "Pediatrics",
+ "weight": 0.0053745,
+ "leaves": [
+  {
+   "leaf": "Neonatal resuscitation, Apgar scoring and hypoxic-ischemic encephalopathy",
+   "scope": "Delivery-room stabilization and resuscitation algorithms (NRP), Apgar and cord-gas assessment, umbilical cord management, and the diagnosis, Sarnat staging and therapeutic hypothermia treatment of neonatal hypoxic-ischemic encephalopathy.",
+   "queries": [
+    "Neonatal Resuscitation Program algorithm positive pressure ventilation",
+    "Apgar score Virginia Apgar components newborn",
+    "therapeutic hypothermia hypoxic ischemic encephalopathy Sarnat stage",
+    "delayed umbilical cord clamping preterm infants trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neonatal hyperbilirubinemia and kernicterus",
+   "scope": "Physiologic and pathologic newborn jaundice, hour-specific bilirubin nomograms, phototherapy and exchange-transfusion thresholds, bilirubin encephalopathy, and inherited disorders of bilirubin conjugation.",
+   "queries": [
+    "Bhutani nomogram hour-specific total serum bilirubin",
+    "AAP 2022 hyperbilirubinemia phototherapy threshold gestational age",
+    "kernicterus spectrum disorder bilirubin encephalopathy",
+    "Crigler-Najjar syndrome UGT1A1 Gilbert neonatal jaundice"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Complications of prematurity",
+   "scope": "Major morbidities of preterm infants (bronchopulmonary dysplasia, retinopathy of prematurity, necrotizing enterocolitis, intraventricular hemorrhage, patent ductus arteriosus, apnea of prematurity) and their grading systems, definitions and treatments.",
+   "queries": [
+    "retinopathy of prematurity ICROP classification zone stage",
+    "necrotizing enterocolitis Bell staging preterm infants",
+    "intraventricular hemorrhage Papile grade preterm",
+    "bronchopulmonary dysplasia definition 36 weeks postmenstrual age"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Newborn screening and inborn errors of metabolism",
+   "scope": "Dried-blood-spot and point-of-care newborn screening programs (RUSP, Guthrie card, tandem mass spectrometry, newborn hearing screening), plus the enzymology, presentation and treatment of amino acid, organic acid, fatty acid oxidation, urea cycle and carbohydrate metabolism disorders.",
+   "queries": [
+    "Recommended Uniform Screening Panel core conditions",
+    "phenylketonuria Guthrie test phenylalanine hydroxylase",
+    "tandem mass spectrometry newborn screening MCAD deficiency",
+    "urea cycle disorder ornithine transcarbamylase hyperammonemia neonate"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Congenital infections and neonatal sepsis",
+   "scope": "Vertically transmitted TORCH and related infections (CMV, toxoplasmosis, rubella, syphilis, HSV, Zika, HIV), plus early- and late-onset neonatal bacterial sepsis, including GBS intrapartum prophylaxis and sepsis risk calculators.",
+   "queries": [
+    "congenital cytomegalovirus sensorineural hearing loss valganciclovir",
+    "intrapartum antibiotic prophylaxis group B streptococcus early-onset",
+    "neonatal early-onset sepsis calculator Kaiser",
+    "congenital syphilis toxoplasmosis TORCH clinical features"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Childhood immunization schedules and vaccine-preventable diseases",
+   "scope": "Recommended pediatric vaccine schedules (ACIP/AAP, WHO EPI), individual vaccine products and their licensing history, contraindications and adverse events, and newer infant immunizations such as RSV monoclonal antibodies.",
+   "queries": [
+    "ACIP recommended child immunization schedule doses",
+    "rotavirus vaccine intussusception RotaShield withdrawal",
+    "nirsevimab infant RSV prevention approval",
+    "DTaP Hib pneumococcal conjugate vaccine infant series"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Growth assessment, growth charts and pediatric obesity",
+   "scope": "Anthropometric reference standards (WHO 2006, CDC 2000, Fenton, IOTF), interpreting growth velocity and BMI percentiles, and the definition, comorbidities and guideline-based treatment of childhood obesity.",
+   "queries": [
+    "WHO Child Growth Standards Multicentre Growth Reference Study",
+    "CDC growth charts BMI-for-age percentile children",
+    "Fenton preterm growth chart revision",
+    "AAP 2023 childhood obesity clinical practice guideline"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infant feeding, micronutrients and childhood undernutrition",
+   "scope": "Breastfeeding and formula composition, complementary feeding, vitamin K, vitamin D and iron supplementation and their deficiency states, and WHO management of acute malnutrition, wasting and stunting.",
+   "queries": [
+    "exclusive breastfeeding WHO six months human milk composition",
+    "vitamin K deficiency bleeding newborn prophylaxis",
+    "nutritional rickets vitamin D supplementation infants 400 IU",
+    "severe acute malnutrition MUAC ready-to-use therapeutic food kwashiorkor"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Developmental milestones, screening instruments and neurodevelopmental disorders",
+   "scope": "Normal motor, language and social milestones, primitive reflexes, standardized developmental, autism and ADHD screening tools (ASQ, Denver II, Bayley, M-CHAT, Vanderbilt), and childhood diagnosis and treatment of autism spectrum disorder, ADHD and intellectual disability.",
+   "queries": [
+    "developmental milestones gross motor language age months",
+    "primitive reflexes Moro asymmetric tonic neck disappearance",
+    "M-CHAT revised autism screening toddlers",
+    "Vanderbilt ADHD rating scale methylphenidate preschool"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sudden unexpected infant death, safe sleep and childhood injury prevention",
+   "scope": "SIDS epidemiology and the Back to Sleep and safe-sleep recommendations, BRUE (formerly ALTE) evaluation, and prevention of leading childhood injuries such as motor vehicle crashes, drowning, burns, firearms, poisonings, lead exposure and button-battery ingestion.",
+   "queries": [
+    "SIDS Back to Sleep campaign prone sleeping",
+    "brief resolved unexplained event BRUE lower-risk criteria",
+    "child passenger safety rear-facing car seat recommendations",
+    "button battery ingestion children esophageal injury honey"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adolescent medicine",
+   "scope": "Care specific to teenagers: HEADSSS psychosocial screening, confidentiality and minor consent, eating disorders, contraception and STI care, substance-use screening, and adolescent depression and suicide risk.",
+   "queries": [
+    "HEADSSS psychosocial assessment adolescent interview",
+    "CRAFFT adolescent substance use screening",
+    "anorexia nervosa adolescents refeeding syndrome hospitalization criteria",
+    "adolescent long-acting reversible contraception confidentiality minors"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Congenital heart disease",
+   "scope": "Anatomy, genetics, presentation and staged surgical or catheter repair of structural heart defects (tetralogy of Fallot, TGA, HLHS, AVSD, coarctation, truncus arteriosus), ductal-dependent lesions, and newborn CCHD pulse-oximetry screening.",
+   "queries": [
+    "tetralogy of Fallot hypercyanotic spells repair",
+    "hypoplastic left heart syndrome Norwood Glenn Fontan",
+    "transposition great arteries arterial switch operation Jatene",
+    "critical congenital heart disease pulse oximetry screening newborn"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric rheumatology and vasculitis",
+   "scope": "Juvenile idiopathic arthritis (ILAR subtypes, uveitis screening, biologics), macrophage activation syndrome, juvenile dermatomyositis and childhood SLE, plus pediatric inflammatory and vasculitic syndromes including Kawasaki disease, MIS-C, IgA vasculitis and acute rheumatic fever.",
+   "queries": [
+    "juvenile idiopathic arthritis ILAR classification subtypes",
+    "Kawasaki disease coronary artery aneurysm IVIG criteria",
+    "multisystem inflammatory syndrome children MIS-C case definition",
+    "acute rheumatic fever revised Jones criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric respiratory and ear infections",
+   "scope": "Acute otitis media, streptococcal pharyngitis, croup, epiglottitis, bronchiolitis, pertussis and community-acquired pneumonia in children, including clinical severity scores, causative organisms and guideline-based management.",
+   "queries": [
+    "acute otitis media AAP guideline amoxicillin observation",
+    "croup Westley score dexamethasone parainfluenza",
+    "bronchiolitis respiratory syncytial virus AAP guideline infants",
+    "pertussis infants paroxysmal cough azithromycin"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric asthma and cystic fibrosis",
+   "scope": "Childhood asthma diagnosis, wheezing phenotypes, severity scores and stepwise therapy (GINA/NAEPP), plus cystic fibrosis genetics, sweat-test diagnosis, complications and CFTR modulator therapy.",
+   "queries": [
+    "sweat chloride test cystic fibrosis diagnosis threshold",
+    "CFTR modulator elexacaftor tezacaftor ivacaftor children",
+    "childhood asthma stepwise therapy inhaled corticosteroids GINA",
+    "Asthma Predictive Index preschool wheeze"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric allergy and primary immunodeficiency",
+   "scope": "Food allergy and early allergen introduction, oral immunotherapy, anaphylaxis and weight-based epinephrine dosing, plus inborn errors of immunity such as SCID, X-linked agammaglobulinemia, chronic granulomatous disease, Wiskott-Aldrich syndrome and hyper-IgM syndromes.",
+   "queries": [
+    "LEAP trial early peanut introduction infants",
+    "pediatric anaphylaxis epinephrine autoinjector dose weight",
+    "severe combined immunodeficiency TREC newborn screening",
+    "X-linked agammaglobulinemia chronic granulomatous disease Wiskott-Aldrich"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric oncology",
+   "scope": "Childhood leukemias and lymphomas and pediatric solid tumors (neuroblastoma, Wilms tumor, retinoblastoma, medulloblastoma, Ewing sarcoma, osteosarcoma, hepatoblastoma), with their staging and risk systems, driver genetics, cooperative-group protocols and late effects.",
+   "queries": [
+    "acute lymphoblastic leukemia children risk stratification COG",
+    "neuroblastoma MYCN amplification INRG staging",
+    "Wilms tumor WT1 nephroblastoma staging children",
+    "retinoblastoma RB1 leukocoria classification"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric hematology",
+   "scope": "Childhood anemias and hemoglobinopathies (sickle cell disease, thalassemias, Diamond-Blackfan and Fanconi anemia), and bleeding and platelet disorders (hemophilia, von Willebrand disease, immune thrombocytopenia), with their screening, prophylaxis, transfusion and gene-therapy management.",
+   "queries": [
+    "sickle cell disease children transcranial Doppler stroke hydroxyurea",
+    "immune thrombocytopenia children IVIG observation",
+    "hemophilia A factor VIII emicizumab pediatric",
+    "Diamond-Blackfan anemia Fanconi anemia bone marrow failure"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric endocrinology and diabetes",
+   "scope": "Type 1 diabetes and DKA in children (ISPAD protocols, cerebral edema, autoantibodies, disease-modifying therapy), short stature and growth hormone therapy, precocious and delayed puberty, congenital hypothyroidism, congenital adrenal hyperplasia and differences of sex development.",
+   "queries": [
+    "diabetic ketoacidosis children cerebral edema fluid ISPAD",
+    "congenital adrenal hyperplasia 21-hydroxylase 17-hydroxyprogesterone",
+    "central precocious puberty GnRH agonist girls",
+    "growth hormone deficiency short stature recombinant somatropin"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric nephrology and urology",
+   "scope": "Childhood nephrotic and nephritic syndromes, hemolytic uremic syndrome, febrile UTI and vesicoureteral reflux, congenital anomalies of the kidney and urinary tract (posterior urethral valves, hydronephrosis, hypospadias, cryptorchidism) and enuresis.",
+   "queries": [
+    "idiopathic nephrotic syndrome children minimal change steroid-sensitive",
+    "hemolytic uremic syndrome Shiga toxin E. coli O157",
+    "vesicoureteral reflux grading RIVUR trial",
+    "posterior urethral valves hypospadias cryptorchidism orchiopexy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric surgical conditions",
+   "scope": "Congenital and acquired surgical conditions of infants and children: esophageal atresia/tracheoesophageal fistula, congenital diaphragmatic hernia, gastroschisis and omphalocele, pyloric stenosis, malrotation with volvulus, intussusception, Hirschsprung disease, anorectal malformations and appendicitis.",
+   "queries": [
+    "infantile hypertrophic pyloric stenosis pyloromyotomy Ramstedt",
+    "esophageal atresia tracheoesophageal fistula Gross classification",
+    "congenital diaphragmatic hernia Bochdalek ECMO",
+    "intussusception children air enema reduction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric gastroenterology and hepatology",
+   "scope": "Medical digestive and liver disease of childhood: infant GERD and functional disorders (Rome IV), celiac disease, pediatric IBD, eosinophilic esophagitis, neonatal cholestasis and biliary atresia, Alagille and Wilson disease, and pediatric liver transplantation.",
+   "queries": [
+    "biliary atresia Kasai portoenterostomy outcome",
+    "celiac disease children tissue transglutaminase ESPGHAN",
+    "pediatric Crohn disease exclusive enteral nutrition",
+    "Alagille syndrome JAG1 cholestasis"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric epilepsy syndromes and febrile seizures",
+   "scope": "Febrile seizures and ILAE-defined epilepsy syndromes of infancy and childhood (infantile spasms/West, Dravet, Lennox-Gastaut, childhood absence, self-limited epilepsy with centrotemporal spikes), their genetics and EEG signatures, and treatments such as ACTH, vigabatrin, cannabidiol and the ketogenic diet.",
+   "queries": [
+    "simple febrile seizures AAP guideline children",
+    "infantile spasms hypsarrhythmia ACTH vigabatrin",
+    "Dravet syndrome SCN1A fenfluramine cannabidiol",
+    "childhood absence epilepsy ethosuximide 3 Hz spike-wave"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cerebral palsy and pediatric neuromuscular disorders",
+   "scope": "Cerebral palsy classification and functional scales (GMFCS, MACS), spasticity management, and childhood neuromuscular diseases such as spinal muscular atrophy and Duchenne/Becker muscular dystrophy, including their genetics and gene-targeted therapies.",
+   "queries": [
+    "Gross Motor Function Classification System cerebral palsy levels",
+    "spinal muscular atrophy nusinersen onasemnogene SMN2 copies",
+    "Duchenne muscular dystrophy dystrophin exon skipping eteplirsen",
+    "selective dorsal rhizotomy botulinum toxin spasticity children"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genetic syndromes and dysmorphology",
+   "scope": "Chromosomal, microdeletion, imprinting and single-gene malformation syndromes seen in pediatrics (Down, Turner, Noonan, Williams, 22q11.2 deletion, Prader-Willi/Angelman, Beckwith-Wiedemann, fragile X, CHARGE), plus teratogenic syndromes such as fetal alcohol spectrum disorder.",
+   "queries": [
+    "22q11.2 deletion syndrome DiGeorge features",
+    "Prader-Willi Angelman imprinting chromosome 15",
+    "Noonan syndrome PTPN11 RASopathy",
+    "fetal alcohol syndrome facial features philtrum palpebral fissure"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric emergency medicine and critical care",
+   "scope": "Pediatric Advanced Life Support algorithms and weight-based resuscitation tools, pediatric sepsis definitions and severity scores (Phoenix criteria, PRISM), febrile young infant evaluation rules, and PECARN-style clinical decision rules for head trauma and other acute presentations.",
+   "queries": [
+    "PECARN pediatric head injury clinical decision rule CT",
+    "febrile infant 8-60 days AAP guideline",
+    "Phoenix sepsis criteria children score",
+    "Pediatric Advanced Life Support Broselow tape epinephrine dose"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Child maltreatment and child abuse pediatrics",
+   "scope": "Recognizing and evaluating physical abuse (abusive head trauma, sentinel injuries, classic metaphyseal lesions, the TEN-4-FACESp bruising rule), sexual abuse, neglect and medical child abuse, plus the field's history, legislation and reporting duties.",
+   "queries": [
+    "abusive head trauma retinal hemorrhage subdural infants",
+    "TEN-4-FACESp bruising clinical decision rule",
+    "Munchausen syndrome by proxy factitious disorder imposed",
+    "Kempe battered child syndrome 1962"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric pharmacology and drug regulation",
+   "scope": "Developmental pharmacokinetics, weight- and surface-area-based dosing, age-specific drug toxicities (gray baby syndrome, Reye syndrome, codeine ultra-rapid metabolism, ceftriaxone in neonates), and pediatric drug legislation such as BPCA, PREA and the EU Paediatric Regulation.",
+   "queries": [
+    "Best Pharmaceuticals for Children Act pediatric exclusivity",
+    "Pediatric Research Equity Act pediatric study plan",
+    "gray baby syndrome chloramphenicol neonates",
+    "Reye syndrome aspirin children epidemiology"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric orthopedics",
+   "scope": "Musculoskeletal disorders of growing children (developmental dysplasia of the hip, clubfoot, slipped capital femoral epiphysis, Legg-Calvé-Perthes disease, idiopathic scoliosis, osteochondroses, growth-plate fractures) and their examination signs, classification systems and treatments.",
+   "queries": [
+    "developmental dysplasia hip Ortolani Barlow Pavlik harness",
+    "clubfoot Ponseti method casting tenotomy",
+    "slipped capital femoral epiphysis Legg-Calve-Perthes classification",
+    "Salter-Harris physeal fracture classification children"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric dermatology and childhood exanthems",
+   "scope": "Neonatal and childhood skin conditions (transient newborn rashes, infantile hemangioma and other vascular birthmarks, atopic and diaper dermatitis, genodermatoses) and the classic viral and toxin-mediated exanthems such as roseola, erythema infectiosum, hand-foot-and-mouth disease and scarlet fever.",
+   "queries": [
+    "infantile hemangioma propranolol PHACE syndrome",
+    "roseola infantum human herpesvirus 6 exanthem subitum",
+    "erythema infectiosum parvovirus B19 slapped cheek",
+    "erythema toxicum neonatorum transient neonatal pustular melanosis"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  }
+ ]
+}

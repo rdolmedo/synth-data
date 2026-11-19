@@ -1,0 +1,1543 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Chemistry",
+ "weight": 0.024,
+ "leaves": [
+  {
+   "leaf": "Named organic reactions and rearrangements",
+   "scope": "Organic reactions named after people (e.g. Wittig, Claisen, Baeyer–Villiger, Mannich): who discovered them and when, typical conditions, scope and mechanism.",
+   "queries": [
+    "name reaction discovered rearrangement mechanism year",
+    "Wittig reaction phosphonium ylide Georg Wittig",
+    "Claisen Cope sigmatropic rearrangement conditions",
+    "Baeyer-Villiger oxidation peroxyacid migratory aptitude"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Synthetic reagents, redox methods and protecting groups",
+   "scope": "Standard reagents for organic synthesis (oxidants, hydride reductants, organolithiums), their abbreviations and how they are made, plus protecting groups and the conditions that install and remove them.",
+   "queries": [
+    "Dess-Martin periodinane oxidation reagent preparation",
+    "tert-butyldimethylsilyl ether protecting group TBAF cleavage",
+    "lithium aluminium hydride DIBAL ester reduction",
+    "Jones reagent pyridinium chlorochromate alcohol oxidation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical organic chemistry, reactive intermediates and orbital symmetry",
+   "scope": "Linear free-energy relationships, kinetic isotope effects, carbocations, carbenes and radicals, and the Woodward–Hoffmann rules for pericyclic reactions.",
+   "queries": [
+    "Hammett equation substituent constants sigma rho",
+    "kinetic isotope effect deuterium primary secondary",
+    "Woodward-Hoffmann rules electrocyclic conrotatory disrotatory",
+    "nonclassical norbornyl carbocation Winstein Brown"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stereochemistry and asymmetric synthesis",
+   "scope": "Stereochemical descriptors and conventions (CIP rules, optical rotation, atropisomerism) and the enantioselective catalytic methods and reagents used to control them, with their inventors.",
+   "queries": [
+    "Cahn-Ingold-Prelog priority rules stereodescriptor",
+    "Sharpless asymmetric epoxidation titanium tartrate",
+    "Noyori asymmetric hydrogenation BINAP ruthenium",
+    "atropisomerism axial chirality biaryl rotation barrier"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Landmark total syntheses of natural products",
+   "scope": "Historic total syntheses of complex molecules (quinine, strychnine, vitamin B12, Taxol, palytoxin): the research groups, years, step counts and key strategic steps.",
+   "queries": [
+    "strychnine total synthesis Woodward 1954",
+    "Taxol total synthesis Holton Nicolaou",
+    "vitamin B12 total synthesis Woodward Eschenmoser",
+    "palytoxin Kishi total synthesis steps"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Natural product isolation and biosynthesis",
+   "scope": "Where alkaloids, terpenoids, polyketides, nonribosomal peptides and other secondary metabolites come from, how their structures were solved, and the biosynthetic pathways that make them.",
+   "queries": [
+    "alkaloid isolated from plant structure elucidation",
+    "terpenoid biosynthesis mevalonate pathway isoprene units",
+    "polyketide synthase erythromycin biosynthesis",
+    "nonribosomal peptide synthetase antibiotic biosynthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Heterocyclic chemistry",
+   "scope": "Structure, naming, aromaticity, basicity, reactivity and classic ring-forming syntheses of heterocycles such as pyridines, indoles, azoles and furans.",
+   "queries": [
+    "Hantzsch pyridine synthesis dihydropyridine",
+    "Fischer indole synthesis phenylhydrazine",
+    "Hantzsch-Widman nomenclature heterocycle ring",
+    "oxazole thiazole imidazole basicity aromaticity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medicinal chemistry and drug synthesis",
+   "scope": "Drug-design principles (drug-likeness rules, bioisosteres, prodrugs, SAR) and the discovery stories, structures and synthetic routes of specific drugs.",
+   "queries": [
+    "Lipinski rule of five drug-likeness",
+    "bioisostere replacement carboxylic acid medicinal chemistry",
+    "lead compound structure activity relationship optimization",
+    "atorvastatin industrial synthesis route"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Organometallic chemistry and homogeneous catalysis",
+   "scope": "Metallocenes, metal carbonyls and metal–carbon bonded compounds, electron-counting rules, and catalytic cycles for cross-coupling, metathesis and hydrogenation.",
+   "queries": [
+    "ferrocene discovery sandwich compound structure",
+    "Suzuki coupling palladium catalyst boronic acid",
+    "Grubbs catalyst olefin metathesis ruthenium carbene",
+    "Wilkinson's catalyst Zeise's salt 18-electron rule"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coordination chemistry and ligand field theory",
+   "scope": "Transition-metal complexes: Werner's theory, crystal and ligand field splitting, the spectrochemical series, isomerism, magnetism, Jahn–Teller effects and well-known named complexes.",
+   "queries": [
+    "crystal field splitting octahedral high spin low spin",
+    "spectrochemical series ligand field strength",
+    "Werner coordination theory cobalt ammine complexes",
+    "Tanabe-Sugano diagram d-d transitions Jahn-Teller"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Main-group element chemistry",
+   "scope": "Compounds and bonding of s- and p-block elements: boranes and Wade's rules, silicon, phosphorus and sulfur compounds, interhalogens, allotropes and noble-gas compounds.",
+   "queries": [
+    "borane cluster Wade's rules closo nido",
+    "xenon hexafluoroplatinate Bartlett noble gas compound",
+    "interhalogen compounds chlorine trifluoride structure",
+    "allotropes of phosphorus sulfur structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lanthanide and actinide chemistry",
+   "scope": "f-block chemistry: the lanthanide contraction, oxidation states, rare-earth separation, uranium and plutonium compounds, and organo-f-element complexes.",
+   "queries": [
+    "lanthanide contraction ionic radii f-block",
+    "plutonium oxidation states aqueous solution chemistry",
+    "rare earth separation ion exchange solvent extraction",
+    "uranocene uranyl uranium hexafluoride compounds"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Discovery, naming and periodic properties of the elements",
+   "scope": "Who isolated each element and when, the origin of element names, how the periodic table was developed, how superheavy elements are confirmed and named, and periodic-trend data.",
+   "queries": [
+    "element discovered isolated named etymology",
+    "Mendeleev periodic table predicted eka-aluminium",
+    "superheavy element synthesis IUPAC naming nihonium",
+    "Pauling electronegativity ionization energy atomic radius"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nuclear chemistry, radiochemistry and isotopes",
+   "scope": "Radioactive decay modes and half-lives, isotope abundances, radionuclide production and generators, fuel-reprocessing chemistry, radiometric dating and radiotracers.",
+   "queries": [
+    "isotope half-life decay mode radionuclide",
+    "technetium-99m generator molybdenum medical isotope",
+    "PUREX process tributyl phosphate reprocessing",
+    "fluorine-18 FDG radiotracer synthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical nomenclature, identifiers and cheminformatics",
+   "scope": "IUPAC naming recommendations (Blue and Red Books), CAS Registry Numbers, and machine-readable notations and databases such as SMILES, InChI and PubChem.",
+   "queries": [
+    "IUPAC organic nomenclature recommendations Blue Book",
+    "SMILES notation Weininger canonical",
+    "InChI identifier InChIKey layers",
+    "CAS Registry Number Chemical Abstracts Service"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum chemistry: bonding theories and computational methods",
+   "scope": "Bonding models (VSEPR, molecular orbital, valence bond, Hückel theory) and computational methods: wavefunction methods, density functionals, basis sets and quantum chemistry software.",
+   "queries": [
+    "B3LYP hybrid exchange correlation functional",
+    "Pople basis set 6-31G Gaussian orbitals",
+    "coupled cluster CCSD(T) post-Hartree-Fock",
+    "Hückel molecular orbital theory pi electrons"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical thermodynamics and thermochemistry",
+   "scope": "Enthalpies of formation and combustion, Born–Haber cycles, calorimetry, entropy and Gibbs energy, vapor pressure and phase equilibria.",
+   "queries": [
+    "standard enthalpy of formation kJ/mol table",
+    "Born-Haber cycle lattice energy",
+    "bomb calorimetry heat of combustion",
+    "Clausius-Clapeyron vapor pressure enthalpy vaporization"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical kinetics and reaction dynamics",
+   "scope": "Rate laws and mechanisms, Arrhenius and transition-state theory, theories of unimolecular reactions, chain and oscillating reactions, and molecular-beam and femtosecond dynamics.",
+   "queries": [
+    "Arrhenius equation activation energy pre-exponential factor",
+    "Eyring equation transition state theory",
+    "Lindemann mechanism unimolecular RRKM theory",
+    "Belousov-Zhabotinsky oscillating reaction mechanism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electrochemistry and battery chemistry",
+   "scope": "Electrode potentials, the Nernst equation, reference electrodes, electrolysis, corrosion, and the chemistry of batteries and fuel cells.",
+   "queries": [
+    "standard electrode potential reduction table volts",
+    "Nernst equation cell potential concentration",
+    "reference electrode saturated calomel silver chloride",
+    "lithium-ion battery cathode cobalt oxide"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Acid-base and solution equilibria",
+   "scope": "Acid–base theories, pKa values and buffers, superacids, HSAB theory, solubility products and other solution equilibria.",
+   "queries": [
+    "acid dissociation constant pKa values table",
+    "superacid fluoroantimonic magic acid Olah",
+    "solubility product constant Ksp table",
+    "Pearson hard soft acids bases HSAB"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "NMR spectroscopy",
+   "scope": "Chemical shifts and references, coupling constants, relaxation, multidimensional pulse sequences, NMR-active nuclei, deuterated solvents and solid-state NMR.",
+   "queries": [
+    "NMR chemical shift ppm tetramethylsilane reference",
+    "spin-spin coupling constant Karplus equation",
+    "two-dimensional NMR COSY NOESY HSQC",
+    "magic angle spinning solid-state NMR"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vibrational, electronic and EPR/Mössbauer spectroscopy",
+   "scope": "IR, Raman, UV–visible, fluorescence, EPR and Mössbauer spectroscopy: characteristic bands, selection rules, empirical absorption rules and parameters.",
+   "queries": [
+    "infrared carbonyl stretching frequency cm-1",
+    "Woodward-Fieser rules UV absorption maximum",
+    "electron paramagnetic resonance g-factor hyperfine coupling",
+    "Mössbauer spectroscopy iron-57 isomer shift"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mass spectrometry",
+   "scope": "Ionization methods, mass analyzers, fragmentation rules, isotope patterns, and the people who invented mass spectrometry techniques.",
+   "queries": [
+    "electrospray ionization Fenn mass spectrometry",
+    "MALDI matrix laser desorption Tanaka",
+    "McLafferty rearrangement fragmentation mass spectrum",
+    "Orbitrap mass analyzer Makarov resolution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chromatography and separation science",
+   "scope": "Chromatography and electrophoresis: plate theory and the van Deemter equation, columns and stationary phases, detectors, retention indices and the history of the techniques.",
+   "queries": [
+    "van Deemter equation plate height",
+    "gas chromatography flame ionization detector",
+    "reversed-phase HPLC C18 stationary phase",
+    "Kovats retention index gas chromatography"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical wet-chemical and elemental analysis",
+   "scope": "Titrimetric and gravimetric methods, indicators, Karl Fischer and Kjeldahl determinations, and elemental techniques such as AAS, ICP-OES/MS and CHN combustion analysis.",
+   "queries": [
+    "acid-base indicator transition range phenolphthalein",
+    "Karl Fischer titration water determination",
+    "complexometric EDTA titration eriochrome black T",
+    "atomic absorption hollow cathode lamp ICP"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "X-ray crystallography and diffraction methods",
+   "scope": "Bragg's law, crystal systems and space groups, solving the phase problem, structure refinement, neutron diffraction, and crystallographic file formats and databases.",
+   "queries": [
+    "space group crystal system unit cell",
+    "Bragg's law X-ray diffraction",
+    "Patterson function phase problem direct methods",
+    "Cambridge Structural Database crystal structures"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inorganic solid-state chemistry and electronic materials",
+   "scope": "Crystal structure types (perovskite, spinel, rock salt), point defects and Kröger–Vink notation, ionic conductors, superconductors and semiconductors.",
+   "queries": [
+    "perovskite structure ABX3 tolerance factor",
+    "spinel structure normal inverse cations",
+    "YBCO cuprate superconductor critical temperature",
+    "Kröger-Vink notation point defects"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polymer chemistry",
+   "scope": "Polymerization mechanisms and catalysts, tacticity, glass transition and other polymer properties, and commercial polymers with their inventors and dates.",
+   "queries": [
+    "Ziegler-Natta catalyst polypropylene tacticity",
+    "nylon Carothers DuPont condensation polymer",
+    "living polymerization ATRP RAFT",
+    "polytetrafluoroethylene Plunkett discovery"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Zeolites, metal-organic and covalent organic frameworks",
+   "scope": "Porous crystalline solids: zeolite framework codes, notable MOFs and COFs, how they are made, reticular chemistry and gas adsorption.",
+   "queries": [
+    "metal-organic frameworks Kitagawa Robson Yaghi",
+    "zeolite framework type code ZSM-5",
+    "covalent organic framework COF synthesis",
+    "HKUST-1 ZIF-8 MOF-5 surface area"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Carbon allotropes and nanomaterials",
+   "scope": "Fullerenes, carbon nanotubes, graphene and other nanomaterials such as quantum dots and metal nanoparticles: their discovery, structure and synthesis.",
+   "queries": [
+    "buckminsterfullerene C60 discovery Kroto Smalley",
+    "carbon nanotube chirality armchair zigzag",
+    "graphene isolation Geim Novoselov",
+    "cadmium selenide quantum dots synthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surface and colloid chemistry",
+   "scope": "Adsorption isotherms and surface-area measurement, surface tension and wetting, surfactants and micelles, and colloid stability.",
+   "queries": [
+    "Langmuir adsorption isotherm BET surface area",
+    "critical micelle concentration sodium dodecyl sulfate",
+    "DLVO theory colloid stability zeta potential",
+    "hydrophilic-lipophilic balance HLB Griffin"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial chemical processes and petrochemicals",
+   "scope": "Large-scale processes and catalysts for commodity chemicals and fuels (ammonia, sulfuric acid, soda ash, chlorine, ethylene, acetic acid, synthetic fuels).",
+   "queries": [
+    "Haber-Bosch process ammonia iron catalyst",
+    "contact process sulfuric acid vanadium pentoxide",
+    "Solvay process sodium carbonate",
+    "Fischer-Tropsch synthesis steam cracking ethylene"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photochemistry and photophysics",
+   "scope": "Excited-state processes (Jablonski diagram, quantum yields, fluorescence and phosphorescence), photochemical reactions and photoredox catalysis.",
+   "queries": [
+    "Jablonski diagram intersystem crossing phosphorescence",
+    "Norrish type II reaction Paternò-Büchi",
+    "photoredox catalysis ruthenium bipyridine iridium",
+    "quantum yield ferrioxalate chemical actinometer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bioinorganic chemistry",
+   "scope": "Metal ions in biology and medicine: metalloenzyme active sites, oxygen carriers, nitrogenase, metal-based drugs and imaging agents.",
+   "queries": [
+    "nitrogenase iron-molybdenum cofactor structure",
+    "hemocyanin hemerythrin oxygen transport",
+    "cisplatin mechanism DNA binding platinum",
+    "gadolinium MRI contrast agent chelate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical synthesis of biomolecules and bioorthogonal chemistry",
+   "scope": "Solid-phase peptide synthesis, phosphoramidite oligonucleotide chemistry, glycosylation methods, bioconjugation and click/bioorthogonal reactions.",
+   "queries": [
+    "solid-phase peptide synthesis Merrifield resin",
+    "phosphoramidite oligonucleotide synthesis cycle",
+    "Koenigs-Knorr glycosylation glycosyl donor",
+    "bioorthogonal chemistry Bertozzi Staudinger ligation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental and atmospheric chemistry",
+   "scope": "Stratospheric ozone chemistry, CFCs, photochemical smog, tropospheric oxidants, acid rain, and the fate of persistent organic pollutants and pesticides.",
+   "queries": [
+    "Chapman cycle stratospheric ozone",
+    "chlorofluorocarbon ozone depletion Molina Rowland",
+    "photochemical smog peroxyacetyl nitrate nitrogen oxides",
+    "persistent organic pollutants Stockholm Convention"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical toxicology, hazard classification and regulation",
+   "scope": "Toxicity data, GHS and NFPA hazard labels, occupational exposure limits, and chemical regulations and treaty schedules (REACH, TSCA, the Chemical Weapons Convention).",
+   "queries": [
+    "GHS hazard statement pictogram classification",
+    "NFPA 704 fire diamond rating",
+    "OSHA permissible exposure limit threshold limit value",
+    "REACH substances of very high concern"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Supramolecular and host-guest chemistry",
+   "scope": "Crown ethers, cryptands, cyclodextrins, calixarenes, mechanically interlocked molecules and molecular machines, and the chemists who developed them.",
+   "queries": [
+    "crown ether Pedersen 18-crown-6 potassium",
+    "cryptand Lehn cryptate complex",
+    "rotaxane catenane mechanically interlocked molecules",
+    "molecular machines Feringa Stoddart Sauvage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dyes, pigments and colour chemistry",
+   "scope": "Synthetic dyes and pigments: chemical classes and chromophores, Colour Index designations, and key historical discoveries and syntheses.",
+   "queries": [
+    "mauveine Perkin synthetic dye 1856",
+    "azo dye diazonium coupling reaction",
+    "Colour Index pigment number designation",
+    "Prussian blue phthalocyanine pigment composition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of chemistry and chemical theories",
+   "scope": "How chemical theories and laws developed from alchemy through the 20th century, landmark experiments and congresses, notable chemists, and Nobel Prizes in Chemistry.",
+   "queries": [
+    "phlogiston theory Stahl Lavoisier oxygen",
+    "Karlsruhe Congress 1860 Cannizzaro atomic weights",
+    "Kekulé benzene structure history",
+    "Nobel Prize in Chemistry awarded for"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Heterogeneous catalysis and catalyst characterization",
+   "scope": "Solid catalysts, their supports and promoters, active-site and surface-kinetic models, catalyst deactivation, and characterization methods such as chemisorption and temperature-programmed techniques.",
+   "queries": [
+    "Sabatier principle volcano plot catalytic activity",
+    "supported metal catalyst promoter dispersion alumina",
+    "temperature programmed reduction desorption catalyst",
+    "catalyst deactivation sintering coking poisoning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Organofluorine chemistry and fluorinating agents",
+   "scope": "Synthesis and properties of carbon-fluorine compounds, including electrophilic and nucleophilic fluorinating reagents, trifluoromethylation methods and perfluorinated compounds.",
+   "queries": [
+    "electrophilic fluorinating agent Selectfluor NFSI",
+    "DAST deoxofluorination reagent alcohols",
+    "trifluoromethylation Ruppert-Prakash reagent Togni",
+    "perfluorocarbon carbon-fluorine bond strength properties"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Organosilicon chemistry and silicones",
+   "scope": "Silanes, siloxanes and silicone polymers, the Müller-Rochow direct process, hydrosilylation catalysts, hypervalent silicon and silicone M/D/T/Q nomenclature.",
+   "queries": [
+    "Müller-Rochow direct process methylchlorosilanes",
+    "polydimethylsiloxane silicone MDTQ nomenclature",
+    "hydrosilylation Karstedt catalyst Speier",
+    "hypervalent silicon silatrane pentacoordinate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Organosulfur, organoselenium and organophosphorus compounds",
+   "scope": "Structure, bonding and characteristic reactions of thiols, sulfides, sulfoxides, sulfonium salts, organoselenium and organotellurium compounds, phosphines, phosphonates and related compound classes.",
+   "queries": [
+    "sulfoxide sulfone sulfonium ylide organosulfur",
+    "organoselenium selenoxide elimination ebselen",
+    "phosphonate phosphine oxide organophosphorus compounds",
+    "thiol disulfide thioether organosulfur chemistry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Carbohydrate chemistry and glycosylation",
+   "scope": "Monosaccharide structure and conventions (Fischer and Haworth projections, anomers, mutarotation), classical sugar chain extensions and degradations, glycosyl donors and oligosaccharide synthesis.",
+   "queries": [
+    "mutarotation anomeric effect glucopyranose",
+    "Koenigs-Knorr glycosylation glycosyl donor",
+    "Kiliani-Fischer synthesis Ruff degradation aldose",
+    "trichloroacetimidate thioglycoside oligosaccharide synthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lipids, fats and oleochemistry",
+   "scope": "Fatty acid and triglyceride chemistry, oil characterization indices (iodine, saponification and acid values), hydrogenation and interesterification, soaps, waxes and oleochemical derivatives.",
+   "queries": [
+    "iodine value saponification value fats oils",
+    "fatty acid omega nomenclature cis double bond",
+    "interesterification hydrogenation vegetable oil trans fat",
+    "oleochemicals fatty alcohol methyl ester"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Food chemistry and food additives",
+   "scope": "Chemistry of food components and processing, including Maillard browning and caramelization, process contaminants such as acrylamide, and additives with their E numbers, sweeteners and preservatives.",
+   "queries": [
+    "Maillard reaction Amadori product melanoidins",
+    "food additive E number preservative antioxidant",
+    "artificial sweetener sucralose aspartame relative sweetness",
+    "acrylamide formation fried food asparagine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Flavour and fragrance chemistry",
+   "scope": "Odorant and flavour molecules, synthetic and natural musks, aroma chemicals used in perfumery, odour thresholds and structure-odour relationships.",
+   "queries": [
+    "synthetic musk macrocyclic nitro musk odorant",
+    "aroma chemical odor threshold perfumery",
+    "ambergris Ambroxan Iso E Super fragrance",
+    "vanillin coumarin flavor compound synthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Explosives, propellants and energetic materials",
+   "scope": "Classes and properties of energetic compounds (primary and secondary explosives, nitramines, nitrate esters, propellants, pyrotechnics), including detonation velocity, oxygen balance and sensitivity data.",
+   "queries": [
+    "detonation velocity RDX HMX nitramine",
+    "oxygen balance explosive impact sensitivity",
+    "primary explosive lead azide lead styphnate",
+    "pyrotechnic colorant oxidizer firework composition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electroanalytical methods",
+   "scope": "Voltammetric, polarographic, potentiometric, amperometric and coulometric techniques, their electrodes (including ion-selective electrodes), governing equations and diagnostic criteria.",
+   "queries": [
+    "cyclic voltammetry peak separation Randles-Sevcik",
+    "polarography dropping mercury electrode Heyrovsky",
+    "ion-selective electrode Nikolsky-Eisenman selectivity coefficient",
+    "anodic stripping voltammetry coulometric titration"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atomic spectrometry: AAS, ICP and XRF",
+   "scope": "Atomic absorption, emission and fluorescence methods and X-ray fluorescence, covering atomizers, plasma sources, spectral and matrix interferences, detection limits and instrument components.",
+   "queries": [
+    "graphite furnace atomic absorption hollow cathode lamp",
+    "inductively coupled plasma optical emission spectrometry",
+    "ICP-MS polyatomic interference collision cell",
+    "X-ray fluorescence wavelength dispersive energy dispersive"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surface analysis and microscopy techniques",
+   "scope": "Instrumental methods for probing surfaces and nanostructures (XPS, Auger, LEED, STM, AFM and electron microscopy), with their physical principles, inventors and resolution limits.",
+   "queries": [
+    "X-ray photoelectron spectroscopy binding energy chemical shift",
+    "Auger electron spectroscopy low-energy electron diffraction",
+    "scanning tunneling microscope Binnig Rohrer",
+    "transmission electron microscopy resolution aberration correction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thermal analysis methods",
+   "scope": "Thermoanalytical techniques (DSC, DTA, TGA, TMA, DMA, evolved gas analysis) and calorimeter types, including calibration standards and characteristic thermal events.",
+   "queries": [
+    "differential scanning calorimetry glass transition melting",
+    "thermogravimetric analysis calcium oxalate decomposition steps",
+    "differential thermal analysis indium calibration standard",
+    "dynamic mechanical analysis isothermal titration calorimetry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Molecular mechanics force fields and molecular dynamics simulation",
+   "scope": "Classical force fields (AMBER, CHARMM, OPLS, GROMOS, UFF), water models, integrators and thermostats, enhanced sampling and free-energy methods, and molecular simulation software.",
+   "queries": [
+    "AMBER CHARMM OPLS force field parameters",
+    "TIP3P SPC water model molecular dynamics",
+    "Verlet integrator Nose-Hoover thermostat",
+    "free energy perturbation umbrella sampling metadynamics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Phase equilibria and equations of state",
+   "scope": "Real-gas equations of state, critical and triple points, the Gibbs phase rule, binary phase diagrams, azeotropes and vapour-liquid equilibria of specific substances.",
+   "queries": [
+    "Peng-Robinson Redlich-Kwong cubic equation of state",
+    "critical temperature pressure triple point substance",
+    "Gibbs phase rule eutectic binary phase diagram",
+    "azeotrope composition boiling point Raoult's law"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Solvents, solvent polarity scales and ionic liquids",
+   "scope": "Solvent properties and classification, empirical polarity and donor scales (Reichardt ET30, Kamlet-Taft, Gutmann donor number), supercritical fluids, ionic liquids and deep eutectic solvents.",
+   "queries": [
+    "Reichardt dye ET30 solvent polarity scale",
+    "Kamlet-Taft parameters Gutmann donor number",
+    "ionic liquid imidazolium cation anion",
+    "deep eutectic solvent choline chloride urea"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Green chemistry principles and metrics",
+   "scope": "The Anastas-Warner twelve principles, sustainability metrics such as atom economy, E-factor and process mass intensity, solvent selection guides and award-winning greener processes.",
+   "queries": [
+    "twelve principles green chemistry Anastas Warner",
+    "atom economy E-factor Sheldon process mass intensity",
+    "solvent selection guide pharmaceutical green chemistry",
+    "Presidential Green Chemistry Challenge Award winner"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geochemistry and mineral chemistry",
+   "scope": "Chemical composition of Earth materials, the Goldschmidt classification, crustal element abundances, trace-element partitioning, mineral formulas and groups, and geochemical element cycles.",
+   "queries": [
+    "Goldschmidt classification lithophile siderophile chalcophile",
+    "mineral chemical formula silicate group",
+    "crustal abundance elements geochemistry",
+    "partition coefficient incompatible elements magma"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Astrochemistry and interstellar molecules",
+   "scope": "Molecules detected in interstellar and circumstellar space, comets and meteorites, how they are detected spectroscopically, and gas-phase and grain-surface interstellar chemistry.",
+   "queries": [
+    "interstellar molecule detected radio telescope",
+    "astrochemistry molecular cloud ion-molecule reactions",
+    "diffuse interstellar bands buckminsterfullerene cation",
+    "carbonaceous chondrite amino acids Murchison meteorite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Enzyme mechanisms, kinetics and biocatalysis",
+   "scope": "Enzyme kinetic models and inhibition types, catalytic mechanisms of named enzymes, EC classification, coenzymes, and engineered enzymes used in chemical synthesis.",
+   "queries": [
+    "Michaelis-Menten kinetics competitive inhibition Lineweaver-Burk",
+    "EC number enzyme commission classification",
+    "catalytic triad serine protease mechanism",
+    "directed evolution biocatalysis ketoreductase transaminase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Agrochemicals: herbicides, insecticides and fungicides",
+   "scope": "Chemical classes of crop-protection agents and plant growth regulators, their modes of action and HRAC/IRAC/FRAC groupings, discovery history and notable compounds.",
+   "queries": [
+    "herbicide mode of action HRAC group",
+    "neonicotinoid insecticide nicotinic acetylcholine receptor",
+    "strobilurin fungicide FRAC respiration inhibitor",
+    "organophosphate pyrethroid insecticide chemical class"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pharmaceutical solid forms: polymorphs, salts and cocrystals",
+   "scope": "Polymorphism, solvates and hydrates, salt selection, cocrystals and amorphous dispersions of drug substances, notable polymorph cases, and solid-form screening and characterization.",
+   "queries": [
+    "ritonavir polymorph crystal form crisis",
+    "pharmaceutical cocrystal coformer salt selection",
+    "amorphous solid dispersion drug solubility",
+    "disappearing polymorphs Ostwald rule of stages"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Process chemistry, flow chemistry and reaction safety",
+   "scope": "Development and scale-up of synthetic routes, continuous-flow and microreactor chemistry, reaction calorimetry and thermal runaway hazards, and investigated process-safety incidents.",
+   "queries": [
+    "process chemistry route scale-up pharmaceutical",
+    "continuous flow chemistry microreactor synthesis",
+    "thermal runaway reaction calorimetry adiabatic temperature rise",
+    "runaway reaction explosion Chemical Safety Board investigation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Laboratory apparatus and preparative techniques",
+   "scope": "Named glassware and apparatus (Soxhlet, Dean-Stark, Kipp, Schlenk line, Liebig and Vigreux) and bench techniques such as distillation, recrystallization, sublimation, drying and inert-atmosphere handling.",
+   "queries": [
+    "Soxhlet extractor Dean-Stark apparatus",
+    "Schlenk line glovebox air-sensitive techniques",
+    "Liebig condenser Vigreux column fractional distillation",
+    "Kipp's apparatus laboratory glassware history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inorganic reaction mechanisms and electron transfer",
+   "scope": "Ligand substitution mechanisms (associative, dissociative, interchange), the trans effect, water-exchange rates and lability, and inner- and outer-sphere electron transfer between metal complexes.",
+   "queries": [
+    "trans effect square planar substitution platinum",
+    "inner sphere electron transfer Taube Creutz-Taube ion",
+    "water exchange rate constant metal ion lability",
+    "Eigen-Wilkins mechanism dissociative interchange"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polyoxometalates, metal clusters and metal-metal bonds",
+   "scope": "Polyoxometalate structure types (Keggin, Wells-Dawson, Anderson, Lindqvist), metal carbonyl and chalcogenide clusters, Zintl clusters, and metal-metal multiple bonding.",
+   "queries": [
+    "Keggin structure Wells-Dawson polyoxometalate",
+    "quadruple bond octachlorodirhenate Cotton",
+    "metal carbonyl cluster polyhedral skeletal electron pair",
+    "Zintl ion cluster anion structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Liquid crystals and mesogens",
+   "scope": "Mesophase types (nematic, smectic, cholesteric, columnar), mesogen molecular design, the history of liquid-crystal discovery, phase characterization and display materials.",
+   "queries": [
+    "nematic smectic cholesteric mesophase",
+    "Reinitzer cholesteryl benzoate liquid crystal discovery",
+    "cyanobiphenyl 5CB liquid crystal display",
+    "discotic columnar liquid crystal mesogen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glass, ceramic and cement chemistry",
+   "scope": "Composition and structure of glasses, traditional and advanced ceramics, Portland cement clinker phases and cement chemist notation, and hydration and setting reactions.",
+   "queries": [
+    "cement chemist notation alite belite clinker",
+    "borosilicate soda-lime glass composition",
+    "Portland cement hydration calcium silicate hydrate",
+    "glass network former modifier Zachariasen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corrosion chemistry and protection",
+   "scope": "Mechanisms and forms of corrosion, Pourbaix diagrams, passivation, galvanic series, cathodic protection, corrosion inhibitors and conversion coatings.",
+   "queries": [
+    "Pourbaix diagram iron passivation",
+    "galvanic series cathodic protection sacrificial anode",
+    "pitting crevice corrosion stress corrosion cracking",
+    "corrosion inhibitor chromate conversion coating"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Combustion chemistry and fuel properties",
+   "scope": "Flame chemistry and ignition mechanisms, octane and cetane ratings, flash points, autoignition temperatures and flammability limits, soot formation and fuel compositions.",
+   "queries": [
+    "research octane number isooctane n-heptane",
+    "cetane number diesel fuel ignition delay",
+    "flammability limits autoignition temperature flash point",
+    "flame chemistry radicals soot formation mechanism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lignocellulosic biomass and biorefinery chemistry",
+   "scope": "Chemistry of cellulose, hemicellulose and lignin, pulping and pretreatment processes, and biomass-derived platform chemicals such as HMF, furfural and levulinic acid.",
+   "queries": [
+    "lignin monolignol coniferyl alcohol structure",
+    "kraft pulping sulfite process wood chemistry",
+    "hydroxymethylfurfural levulinic acid platform chemical",
+    "cellulose hemicellulose pretreatment biorefinery"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forensic chemistry and presumptive tests",
+   "scope": "Chemical methods in forensic science: presumptive colour tests for drugs and blood, latent fingerprint reagents, gunshot residue and accelerant analysis, and forensic toxicology screening.",
+   "queries": [
+    "Marquis reagent presumptive drug test color",
+    "ninhydrin latent fingerprint development reagent",
+    "gunshot residue analysis lead barium antimony",
+    "luminol Kastle-Meyer presumptive blood test"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemistry prizes, medals and learned societies",
+   "scope": "Major chemistry awards (Nobel Prize in Chemistry, Priestley, Davy, Wolf and Welch awards), their laureates and citations, and the founding history of chemical societies and IUPAC.",
+   "queries": [
+    "Nobel Prize in Chemistry awarded for",
+    "Priestley Medal American Chemical Society recipient",
+    "Davy Medal Royal Society chemistry recipients",
+    "Wolf Prize in Chemistry laureates"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mechanochemistry, sonochemistry and unconventional activation",
+   "scope": "Reactions driven by ball milling, ultrasound, microwave heating, high pressure and plasma, covering their mechanisms, equipment and landmark examples.",
+   "queries": [
+    "mechanochemistry ball milling solvent-free synthesis",
+    "sonochemistry acoustic cavitation hot spot",
+    "microwave-assisted organic synthesis dielectric heating",
+    "high pressure chemistry diamond anvil cell"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Molecular magnetism and spin crossover",
+   "scope": "Single-molecule and single-chain magnets, spin-crossover complexes, magnetic exchange coupling, and landmark compounds such as Mn12 acetate and dysprosium metallocenes.",
+   "queries": [
+    "single-molecule magnet Mn12 acetate",
+    "spin crossover iron(II) complex thermal hysteresis",
+    "superexchange Goodenough-Kanamori rules magnetic coupling",
+    "dysprosium metallocene magnetic blocking temperature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Organic electronics and conducting polymers",
+   "scope": "Conducting polymers, small-molecule organic semiconductors, OLED emitters and hosts, organic photovoltaic donors and acceptors, and charge-transport materials.",
+   "queries": [
+    "conductive polymer polyacetylene doping Heeger",
+    "OLED emitter Alq3 phosphorescent iridium",
+    "organic photovoltaic fullerene acceptor PCBM",
+    "pentacene organic field-effect transistor mobility"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Strained hydrocarbons, annulenes and non-benzenoid aromatics",
+   "scope": "Synthesis and properties of strained cage and ring hydrocarbons (cubane, prismane, propellanes), annulenes, non-benzenoid aromatics, helicenes and polycyclic aromatic hydrocarbons.",
+   "queries": [
+    "cubane synthesis Eaton strained hydrocarbon",
+    "annulene aromaticity Hückel rule",
+    "helicene azulene non-benzenoid aromatic",
+    "propellane prismane ring strain energy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analytical method validation and chemometrics",
+   "scope": "Statistics applied to analytical data: detection and quantification limits, outlier tests, calibration, method-validation parameters, proficiency testing and multivariate chemometric methods.",
+   "queries": [
+    "limit of detection quantification calibration curve",
+    "Grubbs test Dixon Q test outlier",
+    "analytical method validation ICH Q2 precision accuracy",
+    "principal component analysis partial least squares chemometrics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rotational spectroscopy and gas-phase structure determination",
+   "scope": "Microwave and millimetre-wave rotational spectroscopy, rotational constants, centrifugal distortion, the Stark effect, and gas-phase electron diffraction for determining molecular structure.",
+   "queries": [
+    "rotational spectroscopy rigid rotor rotational constant",
+    "microwave spectroscopy Stark effect dipole moment",
+    "centrifugal distortion asymmetric top molecule",
+    "gas electron diffraction molecular structure bond length"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thin-film deposition chemistry: CVD, ALD and sol-gel",
+   "scope": "Precursor chemistry and surface-reaction mechanisms of chemical vapour deposition, atomic layer deposition and sol-gel processing for making thin films and coatings.",
+   "queries": [
+    "atomic layer deposition trimethylaluminum precursor",
+    "metalorganic chemical vapor deposition precursor MOCVD",
+    "sol-gel process tetraethyl orthosilicate hydrolysis",
+    "self-limiting surface reaction ALD cycle growth"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Molecular symmetry, point groups and character tables",
+   "scope": "Symmetry elements and operations, assigning molecules to point groups, character tables, Mulliken labels and group-theory selection rules for spectroscopic transitions.",
+   "queries": [
+    "molecular point group symmetry elements operations",
+    "character table irreducible representation Mulliken symbols",
+    "D3h C2v point group example molecules",
+    "group theory selection rules IR Raman active modes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical thermodynamics and partition functions",
+   "scope": "Molecular partition functions, the Boltzmann distribution, ensembles, symmetry numbers, residual entropy and the thermodynamic results derived from them, such as the Sackur–Tetrode equation.",
+   "queries": [
+    "molecular partition function rotational vibrational translational",
+    "Sackur-Tetrode equation entropy monatomic gas",
+    "rotational symmetry number partition function",
+    "residual entropy ice carbon monoxide Pauling"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical quantities, units and fundamental constants in chemistry",
+   "scope": "SI and non-SI units as used in chemistry, the 2019 SI redefinition of the mole, IUPAC Green Book conventions for quantities and symbols, and CODATA values of constants.",
+   "queries": [
+    "mole redefinition 2019 Avogadro constant exact",
+    "IUPAC Green Book quantities units symbols",
+    "CODATA recommended values fundamental physical constants",
+    "non-SI units angstrom debye torr conversion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atomic structure, term symbols and atomic spectra",
+   "scope": "Electron configurations and their anomalies, Russell–Saunders and jj coupling, term symbols, Hund's rules, hydrogen spectral series, and fine and hyperfine structure of atomic spectra.",
+   "queries": [
+    "Russell-Saunders coupling term symbol ground state",
+    "hydrogen spectral series Lyman Balmer Paschen Brackett",
+    "Hund's rules electron configuration exceptions chromium copper",
+    "fine structure hyperfine splitting atomic selection rules"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intermolecular forces, hydrogen bonding and halogen bonding",
+   "scope": "Keesom, Debye and London interactions, van der Waals radii, how hydrogen bonds are classified and how strong they are, and halogen and chalcogen bonding through sigma holes.",
+   "queries": [
+    "London dispersion Keesom Debye interaction energy",
+    "hydrogen bond strength classification low-barrier",
+    "halogen bonding sigma hole IUPAC definition",
+    "van der Waals radii Bondi table"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chiroptical spectroscopy and optical activity",
+   "scope": "Measuring optical rotation, ORD, electronic and vibrational circular dichroism, the Cotton effect, and empirical rules such as the octant rule and the exciton chirality method for assigning absolute configuration.",
+   "queries": [
+    "specific rotation polarimetry sodium D line",
+    "circular dichroism Cotton effect octant rule ketones",
+    "vibrational circular dichroism absolute configuration",
+    "exciton chirality method optical rotatory dispersion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Oscillating reactions and nonlinear chemical dynamics",
+   "scope": "Chemical oscillators such as the Belousov–Zhabotinsky, Briggs–Rauscher and Bray–Liebhafsky reactions, their mechanistic models (Oregonator, Brusselator), chemical waves, Turing patterns and chemical chaos.",
+   "queries": [
+    "Belousov-Zhabotinsky reaction oscillation mechanism",
+    "Briggs-Rauscher oscillating reaction iodine starch",
+    "Oregonator Brusselator model chemical oscillator",
+    "Turing patterns chemical waves CIMA reaction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Prebiotic chemistry and origins of life",
+   "scope": "Abiotic synthesis of biomolecules (Miller–Urey, formose, Strecker and HCN chemistry), prebiotic nucleotide routes, the RNA world, hydrothermal scenarios and how homochirality arose.",
+   "queries": [
+    "Miller-Urey experiment amino acids spark discharge",
+    "formose reaction sugar prebiotic synthesis",
+    "prebiotic nucleotide synthesis RNA world Sutherland",
+    "homochirality origin Soai reaction autocatalysis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radiation chemistry and radiolysis",
+   "scope": "Chemical effects of ionizing radiation: water radiolysis, the hydrated electron, G-values, pulse radiolysis, chemical dosimeters and radiation processing of materials.",
+   "queries": [
+    "water radiolysis hydrated electron G value",
+    "Fricke dosimeter ferrous sulfate radiation yield",
+    "pulse radiolysis technique radical kinetics",
+    "radiation crosslinking polymers gamma irradiation sterilization"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Relativistic effects and superheavy element chemistry",
+   "scope": "How relativistic contraction and spin-orbit coupling shape heavy-element properties (the colour of gold, liquid mercury, the inert pair effect, aurophilicity), plus experimental chemistry of the transactinides.",
+   "queries": [
+    "relativistic effects gold color mercury liquid",
+    "inert pair effect thallium lead bismuth",
+    "aurophilicity aurophilic interaction gold complexes",
+    "superheavy element chemistry flerovium copernicium volatility"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Superacids, superbases and acidity functions",
+   "scope": "Brønsted and Lewis superacids (magic acid, fluoroantimonic acid, carborane acids), the Hammett acidity function and related scales, and organic and inorganic superbases such as phosphazenes and proton sponges.",
+   "queries": [
+    "magic acid fluoroantimonic acid superacid",
+    "Hammett acidity function H0 values",
+    "carborane acid strongest Bronsted acid",
+    "phosphazene superbase proton sponge pKa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Boron hydrides, carboranes and boron cluster chemistry",
+   "scope": "Boranes and their three-centre two-electron bonding, styx numbers and Wade–Mingos electron-counting rules, carboranes and metallacarboranes, and structural chemistry of boronic acids and esters.",
+   "queries": [
+    "diborane three-center two-electron bond",
+    "Wade's rules closo nido arachno boranes",
+    "icosahedral carborane ortho meta para isomers",
+    "boronic acid pinacol ester structure properties"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polar organometallics: organolithium, Grignard and organozinc reagents",
+   "scope": "How organoalkali, organomagnesium and organozinc reagents are prepared, how they aggregate in solution, their structures and reactivity, including the Schlenk equilibrium, turbo-Grignards and Reformatsky reagents.",
+   "queries": [
+    "organolithium aggregation structure n-butyllithium",
+    "Schlenk equilibrium Grignard reagent",
+    "turbo Grignard isopropylmagnesium chloride lithium chloride",
+    "organozinc reagents Reformatsky diethylzinc"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Porphyrins, phthalocyanines and tetrapyrrole macrocycles",
+   "scope": "Synthesis, nomenclature, structure, absorption spectroscopy (Soret and Q bands) and uses of porphyrins, chlorins, corroles, phthalocyanines and expanded porphyrins.",
+   "queries": [
+    "porphyrin Soret band Q bands absorption",
+    "Rothemund Lindsey porphyrin synthesis",
+    "copper phthalocyanine synthesis structure",
+    "corrole expanded porphyrin sapphyrin texaphyrin"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Water treatment and water chemistry",
+   "scope": "Chemistry of drinking-water and wastewater treatment: hardness and softening, coagulation, disinfection and its by-products, ion exchange, membrane desalination and water-quality parameters.",
+   "queries": [
+    "water hardness calcium carbonate lime softening",
+    "chlorination disinfection byproducts trihalomethanes chloramine",
+    "coagulation flocculation alum ferric chloride",
+    "reverse osmosis ion exchange resin desalination"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fertilizer and soil chemistry",
+   "scope": "Chemistry of nitrogen, phosphate and potash fertilizers (NPK grades, urea, superphosphates, nitrification and urease inhibitors) and soil properties such as cation exchange capacity and soil pH.",
+   "queries": [
+    "superphosphate triple superphosphate fertilizer production",
+    "NPK fertilizer grade potash K2O equivalent",
+    "urease nitrification inhibitor NBPT dicyandiamide",
+    "soil cation exchange capacity pH buffering"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cosmetic and personal-care chemistry",
+   "scope": "Ingredients and formulation of cosmetics: INCI naming, emollients, preservatives, UV filters, oxidative hair dyes, antiperspirant actives and regulated ingredient lists.",
+   "queries": [
+    "sunscreen UV filters avobenzone octocrylene",
+    "cosmetic preservatives parabens phenoxyethanol",
+    "permanent hair dye p-phenylenediamine oxidation",
+    "INCI name cosmetic ingredient emollient"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coatings, paints, adhesives and sealants",
+   "scope": "Binder chemistries (alkyds, epoxies, polyurethanes, acrylics), curing and crosslinking, driers, cyanoacrylate and anaerobic adhesives, and the vocabulary of paint formulation.",
+   "queries": [
+    "alkyd resin oxidative drying cobalt drier",
+    "epoxy resin curing agent amine hardener",
+    "cyanoacrylate adhesive anionic polymerization",
+    "two-component polyurethane coating isocyanate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lubricants, lubricant additives and tribochemistry",
+   "scope": "Base oil classification, viscosity index, greases and their thickeners, antiwear and extreme-pressure additives such as ZDDP, solid lubricants, and how tribochemical films form.",
+   "queries": [
+    "API base oil groups classification",
+    "zinc dialkyldithiophosphate antiwear additive",
+    "viscosity index improver polymer lubricant",
+    "lithium grease thickener molybdenum disulfide"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photographic and lithographic imaging chemistry",
+   "scope": "Silver halide photography (latent image formation, developers, fixers, C-41 and E-6 colour processes), historical processes such as the daguerreotype and cyanotype, and photoresist and xerographic chemistry.",
+   "queries": [
+    "silver halide latent image developer fixer",
+    "C-41 E-6 color film processing chemistry",
+    "cyanotype daguerreotype collodion process chemistry",
+    "chemically amplified photoresist photoacid generator"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Extractive metallurgy and metal refining",
+   "scope": "Chemistry of ore roasting, smelting, leaching, flotation and refining: blast furnace, Hall–Héroult, Kroll and Mond processes, cyanidation, electrorefining and Ellingham diagrams.",
+   "queries": [
+    "Ellingham diagram metal oxide reduction",
+    "Kroll process titanium tetrachloride magnesium",
+    "gold cyanidation heap leaching",
+    "Mond process nickel carbonyl refining"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Carbon capture and CO2 conversion chemistry",
+   "scope": "Chemical routes for capturing CO2 (amine scrubbing, calcium looping, direct air capture, mineralization) and converting it by catalytic, electrochemical and photochemical reduction.",
+   "queries": [
+    "monoethanolamine carbon dioxide capture absorption",
+    "direct air capture sorbent calcium looping",
+    "electrochemical CO2 reduction copper products",
+    "mineral carbonation CO2 olivine serpentine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical warfare agents and the Chemical Weapons Convention",
+   "scope": "Classes, properties and history of chemical warfare agents (nerve, blister, choking and blood agents), the CWC schedules, OPCW verification and how stockpiles are destroyed.",
+   "queries": [
+    "nerve agents sarin VX tabun soman",
+    "Chemical Weapons Convention schedule 1 chemicals",
+    "sulfur mustard lewisite blister agent",
+    "OPCW chemical weapons stockpile destruction"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chemical accidents and industrial disasters",
+   "scope": "Major chemical incidents (Bhopal, Seveso, Flixborough, Texas City, Tianjin, Beirut), the chemistry that caused them, their investigations, and the regulations that followed, such as the Seveso directives.",
+   "queries": [
+    "Bhopal disaster methyl isocyanate Union Carbide",
+    "Seveso dioxin release 1976 TCDD",
+    "ammonium nitrate explosion Beirut Texas City",
+    "Chemical Safety Board investigation report explosion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical literature, databases and reference works",
+   "scope": "Major chemistry reference works and information services (Beilstein, Gmelin, Chemical Abstracts, CRC Handbook, Merck Index, Houben-Weyl, Organic Syntheses, Reaxys, SciFinder) and the history of chemistry journals.",
+   "queries": [
+    "Beilstein Handbuch der organischen Chemie Reaxys",
+    "Gmelin Handbook inorganic chemistry",
+    "Chemical Abstracts Service SciFinder history",
+    "Organic Syntheses Houben-Weyl Merck Index"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Heritage science and archaeological chemistry",
+   "scope": "Chemical analysis and conservation of artworks, artefacts and archaeological materials: pigment degradation, varnishes, bronze disease, paper deacidification, organic residue analysis and dating methods.",
+   "queries": [
+    "bronze disease copper chloride conservation",
+    "lead white pigment degradation painting analysis",
+    "paper deacidification mass conservation treatment",
+    "archaeological organic residue analysis pottery lipids"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analytical sample preparation and extraction techniques",
+   "scope": "Preparing samples for analysis: liquid-liquid extraction, SPE, SPME, QuEChERS, Soxhlet and pressurized extraction, microwave digestion, derivatization and preconcentration.",
+   "queries": [
+    "solid phase extraction sorbent conditioning elution",
+    "solid-phase microextraction SPME fiber coating",
+    "QuEChERS method pesticide residue extraction",
+    "microwave acid digestion sample preparation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pharmaceutical impurities and pharmacopoeial standards",
+   "scope": "ICH impurity guidelines (Q3A–Q3D, M7), residual solvent classes and limits, elemental and mutagenic impurities including nitrosamines, and USP and Ph. Eur. monograph conventions.",
+   "queries": [
+    "ICH Q3C residual solvents class limits",
+    "nitrosamine impurities NDMA sartan recall",
+    "ICH Q3D elemental impurities permitted daily exposure",
+    "USP European Pharmacopoeia monograph test"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "High-pressure chemistry",
+   "scope": "Chemistry at extreme pressures: diamond anvil cells and pressure calibration, high-pressure phases and polymorphs, superhydrides, polymeric nitrogen, and high-pressure synthesis such as HPHT diamond.",
+   "queries": [
+    "diamond anvil cell ruby fluorescence pressure",
+    "lanthanum superhydride superconductivity high pressure",
+    "polymeric nitrogen cubic gauche high pressure",
+    "high pressure high temperature diamond synthesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemiluminescence, bioluminescence and persistent luminescence",
+   "scope": "Light-emitting reactions (luminol, peroxyoxalate, dioxetanes, acridinium esters), bioluminescent systems (luciferins, aequorin, coelenterazine) and long-afterglow phosphors.",
+   "queries": [
+    "luminol chemiluminescence mechanism",
+    "peroxyoxalate glow stick chemiluminescence",
+    "firefly luciferin luciferase bioluminescence",
+    "strontium aluminate persistent phosphor afterglow"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

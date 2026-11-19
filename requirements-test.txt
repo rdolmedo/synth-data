@@ -1,0 +1,21 @@
+# unit-test dependencies (CPU only); installed one by one in CI and in the clean-container check
+pytest
+pytest-timeout
+pyyaml
+httpx
+aiohttp
+openai
+numpy
+pyarrow
+pillow
+pydantic
+sympy
+lmdb
+tokenizers
+jinja2
+zstandard
+scipy
+pandas
+openpyxl
+harbor==0.24.0
+stirrup

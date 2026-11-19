@@ -1,0 +1,189 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Classical Ballet",
+ "target_leaves": 11,
+ "expected_problems": 128,
+ "leaves": [
+  {
+   "leaf": "Ballet de cour and Acad\u00e9mie Royale de Danse",
+   "scope": "French court ballets from 1581 to 1670: the Ballet comique de la Reine, the Ballet royal de la Nuit (1653), the roles Louis XIV danced, Benserade's livrets, the work of Lully and Beauchamp, and the 1661 letters patent founding the Acad\u00e9mie and naming its academicians. Questions can date productions, count roles, or link performers across works.",
+   "queries": [
+    "Ballet comique de la Reine",
+    "Ballet royal de la Nuit",
+    "Benserade livret ballet",
+    "Acad\u00e9mie royale de danse 1661",
+    "Beaujoyeulx ballet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Beauchamp\u2013Feuillet notation and baroque dance manuals",
+   "scope": "Notation rules and step-signs in Feuillet's Chor\u00e9graphie (1700), P\u00e9cour's notated collections, Rameau's Le Ma\u00eetre \u00e0 danser (1725), Weaver's Orchesography and Tomlinson's treatise. Questions can decode notated steps, count bars or steps in a notated dance, or compare what different manuals prescribe for the same step.",
+   "queries": [
+    "Feuillet Chor\u00e9graphie notation",
+    "Rameau Ma\u00eetre \u00e0 danser",
+    "P\u00e9cour recueil de danses",
+    "Weaver Orchesography",
+    "Tomlinson art of dancing",
+    "minuet notation baroque"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Noverre, Angiolini and the ballet d'action",
+   "scope": "The editions of Noverre's Lettres sur la danse and how they differ, his works in Stuttgart, Vienna and Paris (M\u00e9d\u00e9e et Jason, Les Horaces), Hilverding's pantomime ballets, Gluck and Angiolini's Don Juan, and the Angiolini\u2013Noverre dispute. Questions can ask which edition or letter makes a claim, or put productions in order.",
+   "queries": [
+    "Noverre Lettres sur la danse",
+    "Angiolini Noverre polemic",
+    "M\u00e9d\u00e9e et Jason ballet",
+    "Hilverding pantomime ballet",
+    "Gluck Don Juan ballet",
+    "ballet d'action Stuttgart"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Blasis treatises and the La Scala academy",
+   "scope": "What Carlo Blasis prescribed in his Trait\u00e9 \u00e9l\u00e9mentaire (1820), Code of Terpsichore (1828) and Notes upon Dancing (1847): positions, the attitude modelled on Giambologna's Mercury, lesson structure and academy rules, plus his famous pupils. Questions can combine his technical prescriptions or trace teacher-pupil lines.",
+   "queries": [
+    "Blasis Code of Terpsichore",
+    "Blasis Trait\u00e9 \u00e9l\u00e9mentaire danse",
+    "Blasis Notes upon Dancing",
+    "La Scala ballet academy",
+    "attitude Giambologna Mercury"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Paris Op\u00e9ra Romantic ballet premieres and criticism",
+   "scope": "Casts, dates, composers, librettists and critical reception of Op\u00e9ra ballets from the 1830s and 1840s (La Sylphide, Le Diable boiteux, Giselle, La P\u00e9ri), as recorded by Gautier, Janin and memoirs of the period. Questions can compare one dancer's roles across productions or work out intervals and performance counts.",
+   "queries": [
+    "Gautier feuilleton Giselle",
+    "Taglioni Sylphide 1832",
+    "Fanny Elssler cachucha",
+    "Carlotta Grisi La P\u00e9ri",
+    "Janin Journal des D\u00e9bats ballet",
+    "Op\u00e9ra Le Peletier ballet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Bournonville repertoire and Royal Danish Ballet",
+   "scope": "August Bournonville's ballets (the 1836 La Sylphide with L\u00f8venskiold's score, Napoli, Konservatoriet, Kermesse in Bruges), his memoir Mit Theaterliv, the weekday Bournonville schools that Hans Beck codified, and how the repertoire was handed down. Questions can compare Copenhagen versions with the Paris originals or trace casting and revival history.",
+   "queries": [
+    "Bournonville Mit Theaterliv",
+    "Bournonville schools Hans Beck",
+    "L\u00f8venskiold Sylphide score",
+    "Napoli Bournonville ballet",
+    "Royal Danish Ballet tradition"
+   ],
+   "sources": [
+    "doab",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Stepanov notation and Sergeyev Collection reconstructions",
+   "scope": "Stepanov's 1892 Alphabet des mouvements du corps humain, Gorsky's use of the system, the Sergeyev Collection's notated Petipa and Ivanov ballets, and modern reconstructions based on them. Questions can ask what the notation records compared with today's versions, and work out differences in steps, counts or casting.",
+   "queries": [
+    "Stepanov notation Alphabet mouvements",
+    "Sergeyev collection Harvard notation",
+    "Petipa reconstruction notation",
+    "Gorsky Stepanov notation",
+    "Paquita reconstruction Petipa"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Petipa-era ballet scores and their revisions",
+   "scope": "How the ballet scores of Pugni, Minkus, Drigo and Tchaikovsky are organised into numbers, how the 1877 Moscow Swan Lake differs from the 1895 Petipa\u2013Ivanov version with Drigo's changes, interpolated variations, and Petipa's written instructions to Tchaikovsky. Questions can trace where a number moved, identify who composed an interpolation, or count acts and numbers.",
+   "queries": [
+    "Tchaikovsky Petipa instructions Sleeping Beauty",
+    "Drigo Swan Lake 1895",
+    "Minkus ballet score",
+    "Pugni ballet music",
+    "interpolated variation ballet",
+    "Swan Lake 1877 Reisinger"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Diaghilev Ballets Russes productions 1909\u20131929",
+   "scope": "Premiere dates, venues, choreographers, composers, designers and original casts of Ballets Russes works such as Firebird, Petrushka, Jeux, Les Noces, Les Biches and Apollon musag\u00e8te, from books of the time and later scholarship. Questions can cross-reference collaborators or count the works a particular designer and choreographer did together.",
+   "queries": [
+    "Diaghilev Ballets Russes premiere",
+    "Bakst d\u00e9cor ballet",
+    "Fokine Petrushka 1911",
+    "Nijinska Les Noces",
+    "Svetlov contemporary ballet",
+    "Russian ballet Ch\u00e2telet 1909"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Cecchetti method in the 1922 manual",
+   "scope": "Beaumont and Idzikowski's 1922 Manual of the Theory and Practice of Classical Theatrical Dancing: Cecchetti's set exercises for each weekday, his numbering of arabesques, positions of the body, the numbered directions of the room, and port de bras sequences. Questions can map Cecchetti terms onto French or Russian equivalents, or work out where a dancer faces after a sequence.",
+   "queries": [
+    "Cecchetti method manual",
+    "Beaumont Idzikowski 1922",
+    "Cecchetti days of the week",
+    "Cecchetti arabesques numbering",
+    "crois\u00e9 effac\u00e9 \u00e9cart\u00e9 positions"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Dancer turnout and pointe biomechanics",
+   "scope": "Published measurements in ballet dancers: how much turnout comes from hip external rotation versus compensated turnout below the hip, the plantarflexion range needed for pointe work, injury rates per 1,000 dance hours, and how common os trigonum, stress fractures and FHL tendinopathy are. Questions can compute compensated turnout or compare injury rates across groups of dancers.",
+   "queries": [
+    "ballet dancers turnout hip rotation",
+    "compensated turnout dancers",
+    "pointe readiness adolescent dancers",
+    "ballet injury incidence 1000 hours",
+    "os trigonum dancers",
+    "flexor hallucis longus dancers"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  }
+ ]
+}

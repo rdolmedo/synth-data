@@ -1,0 +1,437 @@
+{
+ "domain": "Health",
+ "subtopic": "Oncology",
+ "weight": 0.0053745,
+ "leaves": [
+  {
+   "leaf": "Oncogenes, tumor suppressor genes and hallmarks of cancer",
+   "scope": "Molecular mechanisms of malignant transformation, including how proto-oncogenes are activated and tumor suppressors inactivated, the Knudson two-hit model, key signaling pathways and the Hanahan-Weinberg hallmarks.",
+   "queries": [
+    "proto-oncogene activation amplification point mutation translocation",
+    "Knudson two-hit hypothesis RB1 tumor suppressor",
+    "TP53 hotspot mutation codon MDM2 degradation",
+    "Hanahan Weinberg hallmarks of cancer"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hereditary cancer predisposition syndromes",
+   "scope": "Germline cancer syndromes: their causative genes, chromosomal loci, inheritance patterns, named diagnostic criteria (Amsterdam, Chompret, Bethesda) and typical tumor spectra.",
+   "queries": [
+    "Li-Fraumeni syndrome germline TP53 Chompret criteria",
+    "Lynch syndrome mismatch repair Amsterdam criteria",
+    "multiple endocrine neoplasia MEN1 RET germline",
+    "von Hippel-Lindau Cowden PTEN hamartoma syndrome"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Oncogenic infections and environmental carcinogens",
+   "scope": "Cancer-causing infections (HPV, EBV, HBV, HCV, HTLV-1, KSHV, Merkel cell polyomavirus, H. pylori, liver flukes) and chemical, physical and occupational carcinogens, including IARC Monographs group classifications and how they cause cancer.",
+   "queries": [
+    "IARC Monographs Group 1 carcinogen classification",
+    "HPV E6 E7 oncoprotein p53 Rb degradation",
+    "Epstein-Barr virus latent membrane protein malignancy",
+    "aflatoxin asbestos benzene occupational cancer risk"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Cancer epidemiology, registries and screening",
+   "scope": "Cancer incidence, mortality and survival statistics, registries and coding systems (SEER, GLOBOCAN, ICD-O-3), and population screening tests, guidelines and landmark screening trials.",
+   "queries": [
+    "GLOBOCAN global cancer incidence mortality estimates",
+    "SEER five-year relative survival statistics",
+    "USPSTF cancer screening recommendation age interval",
+    "National Lung Screening Trial low-dose CT mortality"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tumor markers, molecular diagnostics and liquid biopsy",
+   "scope": "Serum tumor markers, immunohistochemical and molecular biomarkers, next-generation sequencing panels, companion diagnostics, MSI and TMB testing, and circulating tumor DNA assays.",
+   "queries": [
+    "serum tumor marker CA-125 CEA AFP",
+    "FDA companion diagnostic next-generation sequencing panel",
+    "circulating tumor DNA liquid biopsy assay",
+    "tumor mutational burden microsatellite instability testing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cytotoxic chemotherapy pharmacology and regimens",
+   "scope": "Classes of cytotoxic drugs (alkylating agents, platinums, antimetabolites, anthracyclines, taxanes, vinca alkaloids, topoisomerase inhibitors): mechanisms, dose-limiting toxicities, antidotes, dosing formulas and named combination regimens.",
+   "queries": [
+    "alkylating agent mechanism cyclophosphamide nitrogen mustard",
+    "anthracycline cardiotoxicity cumulative dose doxorubicin",
+    "high-dose methotrexate leucovorin rescue glucarpidase",
+    "carboplatin Calvert formula cisplatin nephrotoxicity"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Molecularly targeted therapies and antibody-drug conjugates",
+   "scope": "Small-molecule kinase inhibitors, PARP inhibitors, non-immune monoclonal antibodies and antibody-drug conjugates, covered drug by drug: targets, resistance mutations, payloads and approval milestones.",
+   "queries": [
+    "tyrosine kinase inhibitor gatekeeper resistance mutation",
+    "antibody-drug conjugate payload linker deruxtecan",
+    "PARP inhibitor synthetic lethality BRCA olaparib",
+    "KRAS G12C inhibitor sotorasib adagrasib approval"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Immune checkpoint inhibitors and immune-related adverse events",
+   "scope": "PD-1, PD-L1, CTLA-4 and LAG-3 inhibitors: their approvals, PD-L1 scoring biomarkers and pivotal trials, plus how immune-related toxicities are graded and managed.",
+   "queries": [
+    "pembrolizumab nivolumab PD-1 inhibitor approval indication",
+    "ipilimumab CTLA-4 blockade melanoma survival",
+    "PD-L1 tumor proportion score combined positive score",
+    "immune-related adverse events colitis hypophysitis myocarditis management"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "CAR-T cells, bispecific antibodies and hematopoietic cell transplantation",
+   "scope": "Adoptive cell therapies (CAR-T, TIL, TCR-T), T-cell-engaging bispecifics, autologous and allogeneic stem cell transplantation, conditioning regimens, GVHD, and CRS and ICANS grading.",
+   "queries": [
+    "chimeric antigen receptor CD19 costimulatory domain 4-1BB",
+    "cytokine release syndrome ICANS ASTCT consensus grading",
+    "bispecific T-cell engager blinatumomab teclistamab",
+    "allogeneic transplant conditioning regimen graft-versus-host disease"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radiation oncology and radiobiology",
+   "scope": "Radiobiology (the 4 Rs, linear-quadratic model, alpha/beta ratios), fractionation schedules, normal-tissue dose constraints, brachytherapy isotopes, SBRT, particle therapy and therapeutic radiopharmaceuticals.",
+   "queries": [
+    "linear-quadratic model alpha beta ratio",
+    "stereotactic body radiotherapy dose fractionation schedule",
+    "brachytherapy iodine-125 iridium-192 half-life",
+    "QUANTEC normal tissue dose constraints"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Oncologic emergencies and supportive care",
+   "scope": "Tumor lysis syndrome, febrile neutropenia, hypercalcemia of malignancy, SVC syndrome, malignant spinal cord compression, chemotherapy-induced nausea and vomiting, cancer-associated thrombosis, cachexia and palliative care.",
+   "queries": [
+    "tumor lysis syndrome Cairo-Bishop rasburicase",
+    "febrile neutropenia MASCC risk index",
+    "malignant spinal cord compression dexamethasone radiotherapy",
+    "chemotherapy-induced nausea vomiting NK1 antagonist"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Oncology trial design, response criteria and toxicity grading",
+   "scope": "How Phase I-III oncology trials are designed and what endpoints they use, response criteria (RECIST 1.1, iRECIST, RANO, Lugano, mRECIST, PERCIST), CTCAE grading and performance status scales.",
+   "queries": [
+    "RECIST 1.1 target lesion partial response",
+    "Common Terminology Criteria for Adverse Events grade",
+    "ECOG performance status Karnofsky score",
+    "3+3 dose escalation maximum tolerated dose"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of oncology and landmark discoveries",
+   "scope": "Key people, discoveries, dates and institutions in cancer research and treatment, from early pathology and radical surgery to the first chemotherapies, radiotherapy, cancer legislation and molecular oncology.",
+   "queries": [
+    "history cancer chemotherapy nitrogen mustard Farber aminopterin",
+    "Halsted radical mastectomy history surgery",
+    "Philadelphia chromosome discovery Nowell Hungerford",
+    "National Cancer Act 1971 war on cancer"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Breast cancer",
+   "scope": "Breast cancer histology, molecular subtypes, receptor testing, staging, multigene assays, and endocrine, HER2-directed and CDK4/6 therapies with their pivotal trials.",
+   "queries": [
+    "HER2-positive breast cancer trastuzumab pertuzumab trial",
+    "Oncotype DX recurrence score TAILORx",
+    "CDK4/6 inhibitor palbociclib hormone receptor-positive",
+    "triple-negative breast cancer neoadjuvant chemotherapy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lung cancer and thoracic malignancies",
+   "scope": "Histology, driver alterations, targeted therapy and staging of non-small cell and small cell lung cancer, plus other thoracic tumors such as mesothelioma and thymic epithelial tumors.",
+   "queries": [
+    "EGFR exon 19 deletion osimertinib non-small cell",
+    "ALK ROS1 rearrangement lung adenocarcinoma",
+    "small cell lung cancer extensive stage chemoimmunotherapy",
+    "malignant pleural mesothelioma thymoma Masaoka staging"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Colorectal and anal cancer",
+   "scope": "How colorectal cancer develops, polyp pathology, staging, MSI/RAS/BRAF biomarkers, chemotherapy and biologics, multimodality treatment of rectal cancer, and anal squamous cell carcinoma.",
+   "queries": [
+    "adenoma-carcinoma sequence APC KRAS colorectal",
+    "metastatic colorectal cancer cetuximab RAS wild-type",
+    "rectal cancer total neoadjuvant therapy watch-and-wait",
+    "anal squamous cell carcinoma Nigro mitomycin chemoradiation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Esophageal and gastric cancer and GIST",
+   "scope": "Esophageal squamous cell carcinoma and adenocarcinoma, gastric cancer (Lauren classification, HER2, Claudin 18.2), perioperative regimens, and gastrointestinal stromal tumors (KIT/PDGFRA, imatinib).",
+   "queries": [
+    "esophageal cancer CROSS trial neoadjuvant chemoradiotherapy",
+    "gastric cancer Lauren classification diffuse intestinal",
+    "perioperative FLOT gastric adenocarcinoma Claudin 18.2",
+    "gastrointestinal stromal tumor KIT PDGFRA imatinib"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hepatocellular, biliary tract and pancreatic cancers",
+   "scope": "HCC staging (BCLC) and systemic therapy, cholangiocarcinoma and gallbladder cancer (FGFR2, IDH1), pancreatic ductal adenocarcinoma and its regimens, and pancreatic precursor lesions.",
+   "queries": [
+    "hepatocellular carcinoma BCLC staging atezolizumab bevacizumab",
+    "cholangiocarcinoma FGFR2 fusion IDH1 inhibitor",
+    "pancreatic ductal adenocarcinoma FOLFIRINOX gemcitabine nab-paclitaxel",
+    "intraductal papillary mucinous neoplasm pancreaticoduodenectomy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gynecologic cancers",
+   "scope": "Ovarian, endometrial, cervical, vulvar and vaginal cancers and gestational trophoblastic neoplasia, including FIGO staging, molecular classification and pivotal trials.",
+   "queries": [
+    "FIGO staging cervical cancer 2018 revision",
+    "high-grade serous ovarian carcinoma PARP maintenance",
+    "endometrial cancer molecular classification POLE p53",
+    "gestational trophoblastic neoplasia hCG methotrexate"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genitourinary cancers",
+   "scope": "Prostate cancer (PSA, Gleason/ISUP grade groups, androgen deprivation, PSMA), and urothelial, renal cell, testicular germ cell and penile cancers.",
+   "queries": [
+    "prostate cancer Gleason ISUP grade group androgen deprivation",
+    "clear cell renal cell carcinoma VHL IMDC risk",
+    "non-muscle-invasive bladder cancer intravesical BCG",
+    "testicular germ cell tumor seminoma BEP IGCCCG"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Head and neck cancers",
+   "scope": "Squamous cancers of the oral cavity, oropharynx, larynx and hypopharynx, nasopharyngeal carcinoma, salivary gland and sinonasal tumors, HPV/EBV status and organ-preservation strategies.",
+   "queries": [
+    "HPV-positive oropharyngeal squamous cell carcinoma p16",
+    "nasopharyngeal carcinoma EBV DNA induction chemotherapy",
+    "larynx preservation induction chemotherapy radiotherapy trial",
+    "salivary gland mucoepidermoid adenoid cystic carcinoma"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thyroid, adrenal and neuroendocrine tumors",
+   "scope": "Differentiated, medullary and anaplastic thyroid cancer, adrenocortical carcinoma, pheochromocytoma/paraganglioma, and gastroenteropancreatic and lung neuroendocrine neoplasms, including Ki-67 grading, somatostatin analogs and PRRT.",
+   "queries": [
+    "papillary thyroid carcinoma BRAF V600E radioactive iodine",
+    "medullary thyroid carcinoma calcitonin RET",
+    "neuroendocrine tumor Ki-67 grade lutetium dotatate",
+    "pheochromocytoma paraganglioma SDH adrenocortical carcinoma mitotane"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Central nervous system tumors",
+   "scope": "Primary brain and spinal tumors under the WHO CNS5 classification, including gliomas (IDH, 1p/19q, MGMT), meningiomas, medulloblastoma, ependymoma and primary CNS lymphoma, and their treatment.",
+   "queries": [
+    "WHO CNS5 classification IDH-mutant glioma",
+    "glioblastoma temozolomide MGMT promoter methylation",
+    "medulloblastoma molecular subgroups WNT SHH",
+    "meningioma grading ependymoma molecular groups"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Melanoma and skin cancers",
+   "scope": "Cutaneous, acral, mucosal and uveal melanoma (Breslow thickness, BRAF, staging), basal cell and cutaneous squamous cell carcinoma, and Merkel cell carcinoma.",
+   "queries": [
+    "melanoma Breslow thickness ulceration staging",
+    "BRAF V600 melanoma dabrafenib trametinib",
+    "uveal melanoma GNAQ tebentafusp",
+    "Merkel cell carcinoma polyomavirus basal cell hedgehog inhibitor"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bone and soft tissue sarcomas",
+   "scope": "Osteosarcoma, Ewing sarcoma, chondrosarcoma, rhabdomyosarcoma, liposarcoma, synovial sarcoma and other mesenchymal tumors, including their defining translocations, FNCLCC grading and treatment.",
+   "queries": [
+    "Ewing sarcoma EWSR1 FLI1 translocation",
+    "synovial sarcoma SS18 SSX fusion",
+    "osteosarcoma MAP chemotherapy high-dose methotrexate",
+    "FNCLCC grade dedifferentiated liposarcoma MDM2 amplification"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric embryonal and solid tumors",
+   "scope": "Neuroblastoma, Wilms tumor, retinoblastoma, hepatoblastoma and other childhood solid tumors, with their risk classification systems, cooperative-group protocols and late effects in survivors.",
+   "queries": [
+    "neuroblastoma MYCN amplification risk group",
+    "Wilms tumor nephroblastoma WT1 staging",
+    "retinoblastoma RB1 international classification",
+    "hepatoblastoma PRETEXT childhood cancer survivor late effects"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Acute leukemias",
+   "scope": "AML, ALL, APL and mixed-phenotype acute leukemia: WHO 5th edition and ICC 2022 classification, cytogenetic and molecular risk (ELN 2022), induction regimens and targeted agents.",
+   "queries": [
+    "acute myeloid leukemia ELN 2022 risk FLT3 NPM1",
+    "acute promyelocytic leukemia PML RARA arsenic trioxide",
+    "Philadelphia chromosome-positive acute lymphoblastic leukemia",
+    "AML induction cytarabine daunorubicin venetoclax azacitidine"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chronic myeloid leukemia, myeloproliferative neoplasms and myelodysplastic syndromes",
+   "scope": "CML (BCR-ABL1, TKIs, response milestones), polycythemia vera, essential thrombocythemia, primary myelofibrosis, MDS and MDS/MPN overlap neoplasms, with their driver mutations and prognostic scores.",
+   "queries": [
+    "chronic myeloid leukemia BCR-ABL1 imatinib major molecular response",
+    "JAK2 V617F CALR MPL polycythemia vera",
+    "primary myelofibrosis DIPSS ruxolitinib",
+    "myelodysplastic syndrome IPSS-R SF3B1 luspatercept"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lymphomas and chronic lymphoid leukemias",
+   "scope": "Hodgkin and non-Hodgkin lymphomas and other mature lymphoid neoplasms including CLL, defined by immunophenotype, translocations, prognostic indices and frontline regimens.",
+   "queries": [
+    "diffuse large B-cell lymphoma R-CHOP International Prognostic Index",
+    "classical Hodgkin lymphoma Reed-Sternberg CD30 ABVD",
+    "chronic lymphocytic leukemia IGHV del17p ibrutinib",
+    "mantle cell lymphoma cyclin D1 follicular BCL2 translocation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Plasma cell neoplasms",
+   "scope": "Multiple myeloma, MGUS, smoldering myeloma, AL amyloidosis, Waldenström macroglobulinemia and POEMS syndrome, including IMWG criteria, R-ISS staging, cytogenetics and therapy.",
+   "queries": [
+    "multiple myeloma IMWG diagnostic criteria CRAB",
+    "Revised International Staging System myeloma high-risk cytogenetics",
+    "AL amyloidosis light chain cardiac staging",
+    "Waldenström macroglobulinemia MYD88 L265P"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Economics",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Edition variants in classical political economy",
+   "scope": "Documented changes between editions of the core classical treatises: Ricardo's 1821 addition of the chapter 'On Machinery', Malthus's rewrites of the Essay on Population between 1798 and 1803 (including the new 'moral restraint' check), and Mill's revisions to the Principles on the wages-fund and socialism. A question can ask which edition first contained a doctrine and then date it, or check whether two authors' positions could have influenced each other given those dates.",
+   "queries": [
+    "Ricardo On Machinery chapter",
+    "Malthus moral restraint 1803",
+    "Mill wages fund recantation",
+    "Principles of Political Economy third edition",
+    "Essay on Population second edition"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US antebellum free banking state regimes",
+   "scope": "State-specific facts about free banking laws from 1837 to 1863: which bonds could back note issues, how the backing was valued (par or market), how many banks failed and how much noteholders lost in states like Michigan, New York, Indiana and Wisconsin, plus banknote discount tables. Questions can ask the solver to compare the rules with the loss rates, or to work out a noteholder's recovery from the stated backing rule.",
+   "queries": [
+    "free banking era failures",
+    "wildcat banking Michigan 1837",
+    "banknote reporter discount",
+    "bond-secured note issue states",
+    "New York free banking law"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "US tariff schedules, McKinley to Smoot-Hawley",
+   "scope": "Specific duty rates, schedule letters, reciprocity clauses and legislative details of the McKinley (1890), Wilson-Gorman, Dingley, Payne-Aldrich, Underwood, Fordney-McCumber and Smoot-Hawley acts, as recorded by Taussig and in Tariff Commission reports. Questions can ask the solver to compute the ad valorem equivalent of a compound duty, or to track how the rate on one good changed across successive acts.",
+   "queries": [
+    "Taussig tariff history",
+    "Dingley tariff schedule rates",
+    "Payne-Aldrich wool schedule",
+    "ad valorem equivalent duty",
+    "Fordney-McCumber flexible provision"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Public utility rate-base valuation case law",
+   "scope": "Holdings and reasoning in US cases on what utilities may charge, from Smyth v. Ames's 'fair value' standard to Hope Natural Gas's end-result test, including how state commissions treated reproduction cost versus original cost and what rates of return they allowed. Questions can ask which doctrine a later decision applied, or have the solver compute the allowed revenue requirement that the court's valuation method implies.",
+   "queries": [
+    "Smyth v. Ames fair value",
+    "Hope Natural Gas end result",
+    "reproduction cost rate base",
+    "confiscatory utility rates",
+    "original cost valuation commission"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Microcredit and cash transfer randomized evaluations",
+   "scope": "Study-specific details from the main development RCTs, such as the six microcredit evaluations (Morocco, Bosnia, Mongolia, Ethiopia, Mexico, India), GiveDirectly's Kenya transfers and Progresa/Oportunidades: sample sizes, take-up rates, interest rates and point estimates. A question can ask the solver to compare effects across sites, scale estimates by take-up to get treatment-on-treated effects, or say which study design would identify a spillover.",
+   "queries": [
+    "microcredit randomized evaluation take-up",
+    "GiveDirectly unconditional cash transfers",
+    "Progresa school enrollment experiment",
+    "Compartamos Mexico microloans",
+    "general equilibrium cash transfer"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Spectrum auction design and outcomes",
+   "scope": "Rule details and documented results of spectrum auctions: FCC simultaneous multiple-round auctions, the 2016-17 broadcast incentive auction and its clock phases, combinatorial clock auctions in the UK, Canada and India, and the European 3G auctions (activity rules, reserve prices, round counts, revenues). Questions can ask how a given activity rule would treat a stated bid sequence, or compare revenue per MHz-pop across auctions.",
+   "queries": [
+    "simultaneous multiple round auction",
+    "combinatorial clock auction spectrum",
+    "FCC incentive auction reverse",
+    "3G auction UK revenue",
+    "activity rule eligibility points"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Sovereign debt restructuring haircuts and litigation",
+   "scope": "Documented terms of specific sovereign restructurings (Argentina 2005/2010, Greece 2012 PSI, Ecuador, Uruguay 2003): exchange-offer participation rates, discount rates, Cruces-Trebesch haircut figures, collective action clause thresholds, and holdings in holdout litigation such as NML Capital v. Argentina on pari passu clauses. A question can ask the solver to compute a present-value haircut from the stated terms, or to check whether a CAC vote reached its threshold.",
+   "queries": [
+    "sovereign debt haircut estimates",
+    "Greek PSI exchange 2012",
+    "pari passu clause Argentina",
+    "collective action clauses bonds",
+    "holdout creditors litigation"
+   ],
+   "sources": [
+    "peS2o",
+    "caselaw_access_project",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Economic games in small-scale societies",
+   "scope": "Society-level results from cross-cultural ultimatum, dictator and public-goods experiments, such as the fifteen-society project (Machiguenga, Lamalera, Au, Gnau, Hadza and others): mean offers, rejection rates, stake sizes and the ethnographic correlates the authors reported. Questions can ask the solver to rank societies, test a claimed link between market integration and offers, or infer a minimum acceptable offer from the reported rejection data.",
+   "queries": [
+    "ultimatum game small-scale societies",
+    "Machiguenga ultimatum offers",
+    "Lamalera whale hunters fairness",
+    "market integration fairness norms",
+    "cross-cultural dictator game"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

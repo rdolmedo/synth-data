@@ -1,0 +1,185 @@
+{
+ "partition": "knowledge",
+ "category": "Engineering",
+ "subject": "broad",
+ "target_leaves": 11,
+ "expected_problems": 127,
+ "leaves": [
+  {
+   "leaf": "Nineteenth-century patented metal truss bridges",
+   "scope": "Facts on patented truss types (Bollman, Fink, Whipple, Post, Pratt, Howe, Pennsylvania/Petit, Lenticular/Pauli), including patentees, patent years, panel layouts, typical spans, and individual surviving bridges with their builders and lengths. A question could ask the solver to count members or panels, work out a member force from a described layout, or put designs in chronological order to identify one.",
+   "queries": [
+    "Bollman suspension truss",
+    "Whipple bowstring truss patent",
+    "lenticular truss Berlin Iron Bridge",
+    "Fink truss railroad bridge",
+    "Pratt truss panel spans"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Mechanical clock and watch escapement trains",
+   "scope": "Documented details of escapements (deadbeat, pin-wheel, gravity/Denison, detent chronometer, lever, cylinder, duplex) and the wheel and pinion tooth counts of named regulators, turret clocks and watch calibres. A question could ask the solver to get the beat rate, pendulum length, or going duration from the stated tooth counts and escape-wheel geometry.",
+   "queries": [
+    "double three-legged gravity escapement",
+    "chronometer detent escapement",
+    "watch train tooth counts",
+    "pin-wheel escapement turret clock",
+    "duplex escapement watch"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Warship stability and hull form coefficients",
+   "scope": "Historical design data for particular ships and classes (displacement, metacentric height, block and prismatic coefficients, Admiralty constant, range of stability), plus capsizes linked to stability flaws such as HMS Captain. A question could ask the solver to compute a righting moment, the speed or power implied by the Admiralty coefficient, or to compare stability margins between two documented designs.",
+   "queries": [
+    "metacentric height ironclad",
+    "HMS Captain capsize stability",
+    "Admiralty coefficient displacement speed",
+    "curve of statical stability",
+    "block coefficient battleship design"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Victorian heavy-chemical process engineering",
+   "scope": "Plant-level facts on the Leblanc soda process, the Solvay ammonia-soda process, the lead-chamber and Glover/Gay-Lussac tower sulfuric acid process, the Deacon and Weldon chlorine processes, and the Claus\u2013Chance sulfur recovery: reactor dimensions, operating temperatures, nitre consumption, and reported yields. A question could ask for a mass balance, the limiting reagent, or the theoretical versus reported yield from the figures given in the period sources.",
+   "queries": [
+    "Gay-Lussac tower nitre",
+    "Leblanc black ash revolver",
+    "Weldon process manganese recovery",
+    "Deacon chlorine process",
+    "Chance sulphur recovery process"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Early aerofoil and wind-tunnel experiments",
+   "scope": "Measured lift and drag data from Eiffel's Auteuil tunnel, the NPL/RAF aerofoil series, G\u00f6ttingen profiles, and Langley's and Lilienthal's experiments, including test speeds, aspect ratios, and the camber of named sections. A question could ask the solver to compute lift on a wing of given area from a tabulated coefficient, or to convert between the coefficient conventions of the period.",
+   "queries": [
+    "Eiffel wind tunnel Auteuil",
+    "RAF 6 aerofoil section",
+    "Lilienthal lift coefficient table",
+    "Langley aerodromics experiments",
+    "Gottingen profile polar"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Prototype and research reactor core parameters",
+   "scope": "Specific design figures for experimental and early power reactors (MSRE, EBR-I/II, Shippingport, Magnox stations, the AGR prototype, Dragon, Peach Bottom HTGR, BORAX, SL-1): fuel form, enrichment, moderator, coolant temperatures, thermal power, and core dimensions. A question could ask for power density, burnup over a stated operating period, or which reactor fits a combined set of features.",
+   "queries": [
+    "Molten Salt Reactor Experiment",
+    "Dragon reactor HTGR Winfrith",
+    "SL-1 reactor excursion",
+    "Magnox fuel element design",
+    "EBR-II core parameters"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "In-situ test correlations and liquefaction triggering",
+   "scope": "The empirical correlations geotechnical engineers rely on, between SPT/CPT measurements and friction angle, relative density, shear-wave velocity, or cyclic resistance ratio. This includes the energy and overburden corrections and the curves calibrated on particular earthquake case histories. A question could give site data, ask the solver to apply the correct correction chain, and then ask for a factor of safety or a classification.",
+   "queries": [
+    "cyclic resistance ratio CPT",
+    "SPT energy correction N60",
+    "liquefaction case history database",
+    "shear wave velocity liquefaction",
+    "overburden correction factor sand"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Activated sludge model stoichiometric matrices",
+   "scope": "Default kinetic and stoichiometric parameters and process-matrix entries from the IWA activated sludge models (ASM1, ASM2d, ASM3) and their later extensions, including yields, decay rates, nitrogen fractions, and the switching-function constants. A question could ask the solver to derive an oxygen demand, a sludge production figure, or a missing matrix coefficient from the continuity of COD and nitrogen.",
+   "queries": [
+    "ASM1 stoichiometric matrix",
+    "ASM2d phosphorus accumulating organisms",
+    "heterotrophic yield coefficient",
+    "activated sludge model calibration",
+    "COD fractionation wastewater"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Cornish engines and historic mine drainage",
+   "scope": "Recorded duty figures, cylinder diameters, stroke lengths, and pump-lift depths for named Cornish beam engines and mines (Austen's engine at Fowey Consols, Taylor's engine at United Mines, the Harlem Lake engines), along with the reporters' duty conventions. A question could ask the solver to convert duty into thermal efficiency, or to compute the water raised per stroke from the stated pump dimensions.",
+   "queries": [
+    "Cornish engine duty bushel",
+    "Lean's Engine Reporter",
+    "Fowey Consols Austen's engine",
+    "mine pumping plunger lift",
+    "Harlem lake drainage engine"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Dam failure litigation and engineering findings",
+   "scope": "Court opinions and engineering reports on dam and reservoir failures (St. Francis, South Fork, Austin PA, Baldwin Hills, Teton, Buffalo Creek), giving dam heights, storage volumes, failure mechanisms, and the liability doctrines applied. A question could ask the solver to combine a documented hydraulic or geologic finding with the court's holding, or to compare failures by a stated parameter.",
+   "queries": [
+    "dam failure strict liability",
+    "Baldwin Hills reservoir failure",
+    "Buffalo Creek coal slurry dam",
+    "Teton Dam failure piping",
+    "reservoir collapse negligence damages"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Mechanical heart valve design evolution",
+   "scope": "Design specifics of named prosthetic valves (Starr-Edwards caged ball, Bj\u00f6rk-Shiley tilting disc and its strut fractures, Medtronic-Hall, St. Jude bileaflet, Lillehei-Kaster), including occluder materials, opening angles, effective orifice areas, and failure modes. A question could ask the solver to compute a pressure gradient with the Gorlin or Bernoulli relation, or to identify a valve from a combination of features.",
+   "queries": [
+    "Bjork-Shiley strut fracture",
+    "Starr-Edwards ball valve",
+    "tilting disc opening angle",
+    "bileaflet valve effective orifice",
+    "pyrolytic carbon heart valve"
+   ],
+   "sources": [
+    "peS2o",
+    "caselaw_access_project",
+    "doab"
+   ]
+  }
+ ]
+}

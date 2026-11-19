@@ -1,0 +1,150 @@
+{
+ "partition": "reasoning",
+ "category": "Physics",
+ "subject": "Fluid Mechanics",
+ "target_leaves": 8,
+ "expected_problems": 39,
+ "leaves": [
+  {
+   "leaf": "Linear stability of exactly solvable base flows",
+   "scope": "Problems ask for critical parameters (critical Rayleigh, Taylor or Richardson numbers, critical wavenumbers, growth rates) or a stability verdict for base states whose perturbation equations reduce to constant-coefficient or exactly integrable eigenvalue problems, with unusual boundary conditions, layering or extra physics added. They are hard because the solver must set up the normal-mode problem correctly, impose the right boundary conditions, and then minimize over wavenumber or apply integral theorems exactly.",
+   "techniques": [
+    "normal-mode reduction to a dispersion relation followed by analytic minimization over wavenumber",
+    "Rayleigh/Fj\u00f8rtoft inflection-point criteria and Howard's semicircle theorem bounds",
+    "Squire's transformation reducing 3D disturbances to equivalent 2D ones",
+    "Rayleigh circulation criterion and Synge's extension for swirling or Taylor\u2013Couette flows",
+    "energy-method variational bounds for unconditional (global) stability",
+    "Kelvin\u2013Helmholtz analysis with stratification and surface tension, Miles\u2013Howard Ri > 1/4 criterion"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to specified precision",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Point vortex equilibria in bounded domains",
+   "scope": "Problems ask for rotation rates, translation speeds, stability, collapse conditions or stationary positions of finite systems of point vortices in the plane, in wedges, strips, disks or multiply connected domains, found with images and conformal maps. They are hard because image systems, Routh's correction and the conserved quantities must be combined exactly, and stability of relative equilibria needs a careful eigenvalue analysis.",
+   "techniques": [
+    "Kirchhoff\u2013Routh Hamiltonian with Routh's conformal-map correction term",
+    "method of images in wedges, channels and circular domains (Milne-Thomson circle theorem)",
+    "conserved linear and angular impulse and Hamiltonian as constraints for self-similar collapse",
+    "linearization about rotating Thomson-polygon configurations and counting unstable modes",
+    "generating-polynomial methods (Stieltjes / Adler\u2013Moser type) for stationary vortex configurations",
+    "Blasius theorem for forces and moments on bodies in the presence of vortices"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "rational number",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Stokes singularities and microswimmer kinematics",
+   "scope": "Problems ask for drag, torque, mobility coefficients, induced far-field velocities or swimming speeds of rigid particles, droplets and model squirmers in creeping flow, possibly near walls or interfaces. They are hard because they need exact singularity representations, reciprocal-theorem manipulations and image systems rather than recalled formulas.",
+   "techniques": [
+    "Lorentz reciprocal theorem giving swimming velocity from prescribed surface slip",
+    "superposition of Stokeslets, rotlets, stresslets and source dipoles to satisfy boundary conditions",
+    "Fax\u00e9n laws for force and torque on spheres in nonuniform ambient flow",
+    "Blake image system for singularities near a no-slip wall and resulting reorientation rates",
+    "Hadamard\u2013Rybczynski interior/exterior matching including Marangoni stresses",
+    "scallop theorem and geometric-phase formulation of net displacement per stroke as an area integral"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered tuple of coefficients"
+   ]
+  },
+  {
+   "leaf": "Similarity exponents for viscous spreading and fronts",
+   "scope": "Problems ask for scaling exponents, prefactors or exact profiles of self-similar solutions to nonlinear diffusive PDEs such as viscous gravity currents, porous-medium spreading, capillary droplet spreading and converging flows. This includes similarity of the second kind, where the exponent is set by an eigenvalue condition. They are hard because naive integral constraints may fail and the exponent must come from a phase-plane or nonlinear eigenvalue analysis.",
+   "techniques": [
+    "first-kind similarity fixed by mass or flux integral constraints",
+    "second-kind similarity from saddle-to-saddle connections in a reduced phase plane",
+    "Barenblatt-type closed-form profiles for porous-medium and gravity-current equations",
+    "dipole or weighted-moment invariants when total volume is not conserved (draining edges)",
+    "inner\u2013outer matching at moving contact lines (Tanner's law, Cox\u2013Voinov relation)",
+    "front behavior analysis: finite propagation speed, waiting times and local power-law profiles"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "real number to specified precision"
+   ]
+  },
+  {
+   "leaf": "Shocks, Riemann problems and characteristics in gas dynamics",
+   "scope": "Problems ask for post-shock states, wave patterns, maximum flow deflections, limiting ratios or interaction outcomes in inviscid compressible flow of perfect or nonideal gases. They are hard because they involve several interacting waves, choosing the physically admissible branch, and exact limits in \u03b3 or Mach number.",
+   "techniques": [
+    "Rankine\u2013Hugoniot jump conditions and Hugoniot-curve geometry, including strong-shock limits",
+    "Riemann invariants and simple-wave (centered rarefaction) solutions",
+    "Prandtl\u2013Meyer function, maximum turning angle and expansion into vacuum",
+    "shock-polar analysis for attached/detached shocks and regular vs Mach reflection",
+    "exact Riemann-problem wave-pattern classification (shock, rarefaction, contact, vacuum)",
+    "quasi-one-dimensional isentropic nozzle relations, choking and normal-shock placement"
+   ],
+   "answer_forms": [
+    "closed-form expression in \u03b3 and Mach number",
+    "real number to specified precision",
+    "name of wave configuration",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Internal and inertial wave beam geometry",
+   "scope": "Problems ask for ray angles, reflection focusing factors, wave-attractor periods, cutoff frequencies or resonance conditions for waves in uniformly stratified and/or rotating fluids, including beams reflecting from sloping boundaries in closed basins. They are hard because the anisotropic dispersion relation ties frequency to propagation direction rather than wavelength, which gives counterintuitive geometric consequences.",
+   "techniques": [
+    "dispersion relation \u03c9\u00b2 = N\u00b2 sin\u00b2\u03b8 + f\u00b2 cos\u00b2\u03b8 and orthogonality of group and phase velocity",
+    "angle-preserving reflection off slopes and the resulting wavelength/energy focusing ratio",
+    "ray tracing and wave-attractor periodic orbits in trapezoidal or parallelogram basins",
+    "critical-slope condition where the ray angle matches the boundary inclination",
+    "triad resonance conditions and parametric subharmonic instability frequency selection",
+    "vertical mode decomposition with free-slip or rigid-lid boundary conditions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "real number to specified precision"
+   ]
+  },
+  {
+   "leaf": "Lubrication in bearings, Hele-Shaw cells and coating",
+   "scope": "Problems ask for load capacity, pressure maxima, flow rates, optimal gap geometries, drainage times or interfacial instability thresholds in thin-gap viscous flows governed by the Reynolds lubrication equation or Darcy-type Hele-Shaw models. They are hard because the reduced equation must be derived and integrated with the correct flux and cavitation conditions, then optimized or analyzed for stability.",
+   "techniques": [
+    "integration of the Reynolds equation with unknown flux constants fixed by end pressures",
+    "optimization of slider, tilted-pad and Rayleigh-step bearing geometries for maximum load",
+    "cavitation boundary conditions (half-Sommerfeld, Swift\u2013Stieber) in journal bearings",
+    "squeeze-film force and finite drainage time between approaching surfaces",
+    "Saffman\u2013Taylor dispersion relation with surface-tension cutoff and most-unstable wavelength",
+    "Landau\u2013Levich\u2013Derjaguin matched asymptotics for entrained film thickness"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to specified precision"
+   ]
+  },
+  {
+   "leaf": "Exact statistical laws and cascade scaling in turbulence",
+   "scope": "Problems ask for exact coefficients in structure-function laws, spectral exponents, cascade directions or intermittency corrections in 3D, 2D, d-dimensional and passive-scalar turbulence, derived from the dynamical equations or from well-defined phenomenological models. They are hard because nonstandard settings (other dimensions, dual cascades, mixed-order correlators, forced scalars) need careful use of isotropy, budget equations and dimensional constraints.",
+   "techniques": [
+    "K\u00e1rm\u00e1n\u2013Howarth\u2013Monin equation and its d-dimensional generalization for third-order laws",
+    "Yaglom relation for mixed velocity\u2013scalar correlators under scalar flux",
+    "Fj\u00f8rtoft-type arguments fixing energy and enstrophy cascade directions in 2D",
+    "zero-mode anomalous exponents in the Kraichnan passive scalar model in perturbative limits",
+    "multifractal and log-Poisson (She\u2013Leveque type) intermittency exponent formulas",
+    "Batchelor, Obukhov\u2013Corrsin and inertial-diffusive regimes for scalar spectra"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in dimension or model parameters",
+    "real number to specified precision",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

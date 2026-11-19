@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Game Design",
+ "target_leaves": 8,
+ "expected_problems": 57,
+ "leaves": [
+  {
+   "leaf": "Dice-pool and roll-resolution mechanic probabilities",
+   "scope": "Problems define an original tabletop resolution system, such as success-counting pools, exploding or rerolled dice, keep-highest-k, opposed rolls or step-die upgrades. They ask for exact success probabilities, expected margins, or the threshold or pool size that makes two designs equivalent. These are hard because the dice interact in nonlinear ways that resist naive calculation and require careful generating-function or recursive treatment.",
+   "techniques": [
+    "probability generating functions for sums and success counts of mixed dice",
+    "order statistics for keep-highest/keep-lowest and advantage-style mechanics",
+    "geometric-series treatment of exploding and open-ended rerolls",
+    "convolution of opposed-roll distributions to compute tie and margin probabilities",
+    "inclusion-exclusion for 'at least one die shows X' and botch/critical conditions",
+    "solving for the minimal pool size or target number achieving a probability bound"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "closed-form expression",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Pity timers and controlled-randomness systems",
+   "scope": "Problems specify a loot or gacha system with soft or hard pity, guarantee carryover, pseudo-random distribution with an incrementing proc chance, or shuffle-bag randomizers. They ask for expected draws, exact acquisition probabilities, or the constant that hits a target long-run rate. The difficulty lies in setting up the correct Markov chain with memory carried across pulls and solving it exactly.",
+   "techniques": [
+    "absorbing Markov chains and fundamental-matrix expected hitting times",
+    "renewal-reward arguments for long-run effective proc rates",
+    "solving for the increment constant C in linearly increasing proc chance to match a nominal rate",
+    "state augmentation for 50/50 guarantee flags that carry over between banners",
+    "drought-length distributions under bag-based randomizers",
+    "variance and tail probabilities of cost-to-completion for collection goals"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Equilibrium cost-balancing of intransitive rosters",
+   "scope": "Problems give an original roster of units, characters, or strategies with matchup payoffs and resource costs. They ask for the equilibrium pick distribution, or for the cost or stat adjustment that makes a target mix (e.g., uniform) the unique equilibrium. This is hard because the designer must reason about the whole payoff structure, not pairwise matchups, and dominated or degenerate cases are easy to overlook.",
+   "techniques": [
+    "solving symmetric zero-sum matrix games via indifference conditions",
+    "iterated elimination of dominated strategies before solving the support",
+    "inverse design: choosing payoff parameters so a prescribed mixed strategy is an equilibrium",
+    "Lanchester-style attrition models converting stats into matchup outcomes",
+    "cost-efficiency normalization of units with different prices in budget-constrained armies",
+    "checking uniqueness and stability of the equilibrium under perturbation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple",
+    "small set",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Combat formula breakpoints and time-to-kill analysis",
+   "scope": "Problems define original damage, armor, resistance, critical-hit and attack-speed formulas. They ask for exact time-to-kill, effective-HP equivalences, breakpoint stat values where hits-to-kill drops, or optimal allocation of a fixed stat budget. Discrete hit counts, multiplicative versus additive stacking, and diminishing-returns curves create nonsmooth optimization that intuition gets wrong.",
+   "techniques": [
+    "ceiling-function breakpoint analysis for discrete hits-to-kill",
+    "effective HP under hyperbolic armor formulas like 100/(100+A)",
+    "Lagrangian or marginal-value optimization of split stat budgets with integer constraints",
+    "expected DPS with crit chance, crit multiplier and attack-speed caps",
+    "distribution of hits-to-kill when damage is randomized per hit",
+    "comparing additive versus multiplicative modifier stacking orders"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Deck consistency, mulligans, and draw engines",
+   "scope": "Problems describe an original card game's deck size, card types, opening-hand and mulligan rules, and draw/tutor effects. They ask for the exact probability of a target hand state by a given turn, or the optimal number of a card type to include. Sequential mulligan decisions and conditional draw effects turn simple hypergeometric reasoning into multi-stage stochastic optimization.",
+   "techniques": [
+    "multivariate hypergeometric probabilities for multi-type hand requirements",
+    "dynamic programming over mulligan decisions with keep/redraw thresholds",
+    "modeling bottom-of-deck placement and scry-style filtering effects",
+    "optimizing land/resource counts against flood and screw probabilities",
+    "inclusion-exclusion for hitting at least one of several combo pieces",
+    "expected cards seen under chained conditional draw effects"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "closed-form expression",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Incremental-game economy and purchase scheduling",
+   "scope": "Problems specify an idle or incremental game with geometric cost growth, production multipliers, prestige resets and milestone bonuses. They ask for the minimal time to reach a target, the optimal purchase order, or the reset point that maximizes long-run growth. This is hard because greedy heuristics fail near milestones and prestige decisions require comparing exponential trajectories exactly.",
+   "techniques": [
+    "closed-form sums of geometric cost sequences for bulk purchases",
+    "payback-period comparison to determine optimal next purchase",
+    "exchange arguments proving optimality of a purchase ordering",
+    "optimal prestige timing via maximizing gain rate per unit time",
+    "continuous-time ODE approximation versus exact discrete schedules",
+    "handling milestone discontinuities that multiply production at fixed counts"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "a word/move/sequence",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Tile-based puzzle mechanic invariants and optimal solutions",
+   "scope": "Problems define an original grid puzzle mechanic, such as pushing, sliding, rotating, toggling, or linked movement, together with a specific level. They ask whether it is solvable, the minimum move count, or the number of distinct solutions. This is hard because the solver must find conserved invariants or exhaustive arguments rather than trial and error, as a puzzle designer verifying uniqueness must.",
+   "techniques": [
+    "parity and coloring invariants ruling out unreachable configurations",
+    "linear algebra over GF(2) for toggle-based mechanics",
+    "dead-state detection (corners, frozen blocks) to prune state spaces",
+    "lower bounds on move counts via relaxation or matching arguments",
+    "symmetry reduction when counting distinct solutions",
+    "BFS state-space reasoning on small configurations with canonical encodings"
+   ],
+   "answer_forms": [
+    "integer",
+    "a word/move/sequence",
+    "small set",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Turn-order fairness and first-player compensation",
+   "scope": "Problems present an original competitive game or draft format where acting first or picking first confers an advantage. They ask for the exact compensation (bonus points, extra resources, pick ordering, pie-rule placement) that equalizes win probability or value. This is hard because it requires solving the game or draft under optimal play and then inverting for the balancing parameter.",
+   "techniques": [
+    "backward induction on small race or accumulation games to find first-mover value",
+    "pie-rule (cut-and-choose) analysis of the opener's indifferent move",
+    "snake, Thue\u2013Morse, and alternating draft orders for equalizing sequential picks",
+    "computing komi-style point compensation as a game value with ties broken",
+    "Markov analysis of win probability in stochastic race games with turn advantage",
+    "catch-up mechanic design to bound leader advantage"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "a word/move/sequence",
+    "ordered tuple"
+   ]
+  }
+ ]
+}

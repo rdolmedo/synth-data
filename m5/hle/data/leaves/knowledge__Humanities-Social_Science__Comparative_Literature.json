@@ -1,0 +1,200 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Comparative Literature",
+ "target_leaves": 12,
+ "expected_problems": 146,
+ "leaves": [
+  {
+   "leaf": "Cinderella cycle variants in folklore comparatism",
+   "scope": "Documented details from comparative collections of Cinderella-type tales (ATU 510A/510B, Cap o' Rushes, Catskin), such as Marian Roalfe Cox's 1893 abstracts: which motifs (helpful animal, slipper test, incest flight, grave tree) show up in which national variants, and who collected them where. A question could ask the solver to cross-tabulate motifs across named variants, or to work out which subtype a described variant belongs to.",
+   "queries": [
+    "Cinderella three hundred variants",
+    "Catskin Cap o' Rushes variants",
+    "Roalfe Cox Cinderella abstracts",
+    "ATU 510A tale type",
+    "slipper test motif variants"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Kalila wa-Dimna translation lineage into Europe",
+   "scope": "The chain of translations of the Panchatantra/Kalila wa-Dimna frame tales: Pahlavi (Burzoy), Old Syriac, Ibn al-Muqaffa's Arabic, Rabbi Joel's Hebrew, John of Capua's Directorium humanae vitae, the Castilian Calila e Digna, and Thomas North's English. A question could ask how many intermediary languages separate two versions, or which fable was added or dropped at a given stage.",
+   "queries": [
+    "Fables of Bidpai transmission",
+    "Directorium humanae vitae Capua",
+    "Kalila wa-Dimna translations",
+    "Ibn al-Muqaffa Kalila",
+    "Calila e Digna Castilian",
+    "North Morall Philosophie Doni"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Liber Scalae Machometi and Dante's eschatology",
+   "scope": "Philological facts about the Mi'raj narrative's Latin and Old French versions made at Alfonso X's court (translators such as Abraham of Toledo and Bonaventura of Siena), plus the As\u00edn Palacios debate over Islamic sources for the Commedia. A question could combine manuscript and translation dates with Dante's biography to test whether he could have had access, or match specific parallels to cantos.",
+   "queries": [
+    "Liber Scalae Machometi",
+    "As\u00edn Palacios Divina Commedia",
+    "Mi'raj Dante Islamic sources",
+    "Bonaventura da Siena Scala",
+    "Escatolog\u00eda musulmana Dante"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Old Norse riddaras\u00f6gur translations of French romance",
+   "scope": "Facts about the translated chivalric sagas made under King H\u00e1kon IV H\u00e1konarson: Brother Robert's Tristrams saga (1226), the Strengleikar's renderings of Marie de France's lais, Elis saga, \u00cdvens saga, and the manuscripts they survive in. A question could ask the solver to compare a saga with its French source (which episodes were omitted or condensed) or to order the translations chronologically from their prologues.",
+   "queries": [
+    "Tristrams saga Brother Robert",
+    "Strengleikar Marie de France",
+    "riddaras\u00f6gur translated romances",
+    "H\u00e1kon H\u00e1konarson translations",
+    "\u00cdvens saga Chr\u00e9tien"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Galland's Nights and the orphan tales",
+   "scope": "The textual history of Antoine Galland's Les Mille et une nuits: which volumes contain tales with no known Arabic manuscript (Aladdin, Ali Baba), Hanna Diyab's role in supplying them, the Syrian manuscript, and later editions such as Calcutta II and Breslau. A question could have the solver work out where a given tale comes from, or how many tales in a set of volumes rest on Diyab's oral telling.",
+   "queries": [
+    "Galland Mille et une nuits",
+    "Hanna Diyab orphan tales",
+    "Aladdin Arabic manuscript forgery",
+    "Calcutta II Nights edition",
+    "Burton Terminal Essay Nights"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "European adaptations of The Orphan of Zhao",
+   "scope": "How Ji Junxiang's Yuan drama reached Europe: Pr\u00e9mare's partial translation in Du Halde's Description (1735), then the adaptations by Hatchett, Metastasio (L'eroe cinese), Voltaire (L'Orphelin de la Chine) and Arthur Murphy. A question could ask which adaptation keeps or changes specific plot features, or work out a relative chronology from dates of performance and publication.",
+   "queries": [
+    "Orphan of Zhao Pr\u00e9mare",
+    "Orphelin de la Chine Voltaire",
+    "Du Halde Chinese tragedy",
+    "Murphy Orphan of China",
+    "Metastasio eroe cinese"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Continental translations of Macpherson's Ossian",
+   "scope": "Facts about how Ossian was received across Europe: Cesarotti's Italian translation, Michael Denis's German hexameters, Le Tourneur's French, translations into Polish, Hungarian and Russian, and their dates, verse forms and intermediary source texts. A question could ask which translations were made from another translation rather than from English, or have the solver compare verse forms across languages.",
+   "queries": [
+    "Cesarotti Poesie di Ossian",
+    "Denis Ossian hexameter",
+    "Ossian reception Europe",
+    "Le Tourneur Ossian traduction",
+    "Macpherson Ossian translations"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "FitzGerald's Rub\u00e1iy\u00e1t editions and Persian sources",
+   "scope": "Quatrain counts and how they were reordered across FitzGerald's five editions, and how particular quatrains trace back to the Bodleian Ouseley and Calcutta manuscripts, as tabulated by Heron-Allen and others. A question could ask the solver to follow one quatrain's number from edition to edition, or to identify which Persian ruba'i lies behind it.",
+   "queries": [
+    "FitzGerald Rubaiyat editions",
+    "Heron-Allen Persian sources",
+    "Ouseley manuscript Omar Khayyam",
+    "Rubaiyat quatrain concordance",
+    "Calcutta manuscript Khayyam"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "South Slavic guslar epic and Homeric comparison",
+   "scope": "Documented details from the Parry-Lord fieldwork: singers such as Avdo Me\u0111edovi\u0107, how long their recorded performances ran, formula density, and variation between versions of the same song. A question could ask the solver to compare line counts or formula statistics with Homeric figures, or to explain what a documented re-performance shows about oral composition.",
+   "queries": [
+    "Avdo Me\u0111edovi\u0107 Smailagi\u0107 Meho",
+    "Parry Lord guslar",
+    "oral-formulaic South Slavic",
+    "Singer of Tales formula",
+    "Milman Parry Collection epic"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Fenollosa manuscripts and Pound's Noh translations",
+   "scope": "Facts about how Ernest Fenollosa's notes were edited into Pound's 'Noh, or Accomplishment' and Cathay: which plays were included, the Japanese masters and informants credited, and how Pound's versions differ from the source play's structure or roles (shite, waki). A question could ask the solver to map a translated play to its Japanese original, or to count what Pound cut.",
+   "queries": [
+    "Fenollosa Pound Noh",
+    "Noh or Accomplishment",
+    "Nishikigi Pound translation",
+    "Cathay Fenollosa notebooks",
+    "Umewaka Minoru Fenollosa"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Founding institutions of comparative literature",
+   "scope": "Little-known facts about the discipline's beginnings: Hugo Meltzl's Acta Comparationis Litterarum Universarum at Kolozsv\u00e1r and its 'decaglottism' (ten official languages), Posnett's 1886 Comparative Literature, Max Koch's Zeitschrift, and the first university chairs (Texte, Baldensperger). A question could ask the solver to rank these by founding date or to name the languages common to two of the programmes.",
+   "queries": [
+    "Meltzl Acta Comparationis",
+    "decaglottism comparative literature",
+    "Posnett Comparative Literature 1886",
+    "Zeitschrift vergleichende Litteraturgeschichte",
+    "Joseph Texte Lyon chair"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Rub\u00e9n Dar\u00edo's Los raros portraits",
+   "scope": "The make-up of Dar\u00edo's Los raros (1896) and its expanded 1905 edition: which French, Belgian, Portuguese and other writers it profiles, and what it shows about modernismo's debt to Symbolism and Decadence. A question could ask the solver to count the profiled writers by nationality, or to work out which portraits were added between editions.",
+   "queries": [
+    "Dar\u00edo Los raros",
+    "Los raros 1905 edition",
+    "modernismo French symbolism",
+    "Dar\u00edo Lautr\u00e9amont Verlaine",
+    "Rub\u00e9n Dar\u00edo decadentismo"
+   ],
+   "sources": [
+    "peS2o",
+    "project_gutenberg",
+    "doab"
+   ]
+  }
+ ]
+}

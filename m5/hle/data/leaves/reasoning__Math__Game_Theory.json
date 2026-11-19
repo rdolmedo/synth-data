@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Math",
+ "subject": "Game Theory",
+ "target_leaves": 8,
+ "expected_problems": 40,
+ "leaves": [
+  {
+   "leaf": "Thermography of sums of partizan games",
+   "scope": "Problems ask for exact canonical forms, means, temperatures, or atomic weights of positions in original partizan rulesets (such as Hackenbush- or Domineering-style variants) and their disjunctive sums, or ask which move wins. They are hard because the solver has to simplify dominated and reversible options by hand and build thermographs exactly, with no software, where one slip changes the answer.",
+   "techniques": [
+    "reduction to canonical form by deleting dominated options and bypassing reversible ones",
+    "thermograph construction by cooling, with Left/Right walls and the mast",
+    "infinitesimals (up, star, tiny/miny) and atomic weight using the two-ahead rule",
+    "Norton multiplication and overheating operators",
+    "simplicity rule for number-valued positions and dyadic surreal arithmetic",
+    "temperature-guided strategies (hotstrat, sentestrat) and orthodox play in sums"
+   ],
+   "answer_forms": [
+    "dyadic rational",
+    "canonical form written as {A|B}",
+    "ordered pair (mean, temperature)",
+    "small set of winning moves"
+   ]
+  },
+  {
+   "leaf": "Nim-sequences of original take-and-break games",
+   "scope": "Problems ask for Grundy values, the preperiod and period, or normal- and mis\u00e8re-play outcomes of newly defined octal, hexadecimal, or subtraction-type heap games and their sums. They are hard because sequences can settle into a period only after long irregular stretches, and mis\u00e8re play breaks the Sprague\u2013Grundy reduction.",
+   "techniques": [
+    "mex recursion and nim-sum decomposition of split heaps",
+    "Guy\u2013Smith periodicity theorem with its finite verification bound",
+    "mis\u00e8re quotients and Conway's genus theory",
+    "rare-value and sparse-space arguments for arithmetic-periodic sequences",
+    "strategy-stealing and pairing arguments for poset or graph heap games",
+    "reduction of compound rules to equivalent octal codes"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (preperiod, period)",
+    "a specific winning move",
+    "count of P-positions in a given range"
+   ]
+  },
+  {
+   "leaf": "Nash and correlated equilibrium sets of small games",
+   "scope": "Problems ask for the complete set of Nash equilibria, the vertices of the correlated-equilibrium polytope, or welfare-optimal correlated or coarse correlated equilibria of purpose-built 3x3, 4x4, or three-player games. They are hard because degenerate supports, continuous equilibrium components, and mixed-strategy dominance all have to be found and accounted for.",
+   "techniques": [
+    "support enumeration with indifference equations",
+    "best-response polytopes, labeling, and Lemke\u2013Howson paths",
+    "equilibrium index theory (indices summing to +1) as a counting check",
+    "linear programming over correlated-equilibrium incentive constraints, with LP duality",
+    "iterated elimination of strategies strictly dominated by mixed strategies",
+    "handling degenerate games and connected components of equilibria"
+   ],
+   "answer_forms": [
+    "integer (number of equilibria or vertices)",
+    "rational number (optimal welfare)",
+    "ordered tuple of probabilities",
+    "closed-form expression in a game parameter"
+   ]
+  },
+  {
+   "leaf": "Belief refinements in signaling and extensive-form games",
+   "scope": "Problems ask which perfect Bayesian, sequential, or refinement-surviving equilibria exist in original multi-type signaling games, cheap-talk games, or imperfect-information game trees. They are hard because off-path beliefs have to be pinned down through consistency, tremble arguments, or forward-induction reasoning.",
+   "techniques": [
+    "Kreps\u2013Wilson consistency through sequences of fully mixed strategies",
+    "intuitive criterion, D1, and divinity tests on equilibrium-dominated types",
+    "Crawford\u2013Sobel partition equilibria and the largest possible number of intervals",
+    "Bayesian updating when types play mixed strategies",
+    "trembling-hand perfect and proper equilibria via epsilon-perturbations",
+    "reduced normal form and forward-induction or strategic-stability arguments"
+   ],
+   "answer_forms": [
+    "integer (number of equilibria or partition cells)",
+    "rational belief or parameter threshold",
+    "ordered tuple describing a strategy profile",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nucleolus, kernel, and power indices of TU games",
+   "scope": "Problems ask for the nucleolus, kernel, Shapley value, or Banzhaf, Deegan\u2013Packel, or Holler indices of structured transferable-utility games (weighted majority, airport, assignment, network-flow, or minimum-cost spanning tree games). They are hard because they need sequences of lexicographic linear programs or exact combinatorial counts of swing coalitions.",
+   "techniques": [
+    "Maschler\u2013Peleg\u2013Shapley sequence of linear programs for the nucleolus",
+    "kernel conditions balancing players' maximum surpluses against each other",
+    "generating-function counting of swings and pivots in weighted voting games",
+    "Littlechild\u2013Owen decomposition for airport and cost-sharing games",
+    "Bondareva\u2013Shapley balancedness test for whether the core is nonempty",
+    "Shapley\u2013Shubik duality between the assignment-game core and an LP"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple of payoffs",
+    "integer swing count",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Bayes\u2013Nash bidding in nonstandard auctions",
+   "scope": "Problems ask for equilibrium bid functions, expected revenue, or optimal reserve prices and mechanisms in auctions with asymmetric bidders, interdependent or affiliated values, all-pay rules, or budget and entry constraints. They are hard because equilibria come from coupled differential equations with free boundary conditions, or from virtual-value arguments that need ironing.",
+   "techniques": [
+    "revenue equivalence via the envelope theorem",
+    "Myerson virtual valuations and ironing for distributions that are not regular",
+    "coupled inverse-bid ODE systems with a shared top bid in asymmetric first-price auctions",
+    "mixed equilibria of all-pay auctions and wars of attrition",
+    "linkage principle with affiliated signals",
+    "Bulow\u2013Klemperer comparisons of extra bidders against optimal reserves"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "explicit bid function of the value",
+    "real number given in exact form"
+   ]
+  },
+  {
+   "leaf": "Evolutionary and stochastic stability in population games",
+   "scope": "Problems ask for ESSs, stable rest points of replicator or best-response dynamics, stochastically stable states under rare mutations, or fixation probabilities in finite populations playing an original game. They are hard because local stability, resistance-tree long-run analysis, and finite-population effects can each pick out a different answer.",
+   "techniques": [
+    "ESS and neutrally stable set conditions, including mixed ESS tests",
+    "linearization and Lyapunov or relative-entropy functions for replicator dynamics, including heteroclinic cycles",
+    "Young's resistance trees and Ellison's radius\u2013coradius method",
+    "Moran-process fixation probabilities and the one-third law",
+    "Bishop\u2013Cannings theorem on supports of ESSs",
+    "structured-population thresholds for cooperation, such as b/c > k on regular graphs"
+   ],
+   "answer_forms": [
+    "rational number",
+    "small set of strategies",
+    "closed-form expression in population size N",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Zero-sum duels, timing games, and Blotto",
+   "scope": "Problems ask for the value and optimal strategies of zero-sum continuous games, such as silent, noisy, or mixed duels with original accuracy functions, multi-shot variants, or Colonel Blotto allocations with unequal budgets. They are hard because optimal strategies combine densities on subintervals with point masses at the endpoints, and these have to be found by solving integral equations.",
+   "techniques": [
+    "equalizing densities on [a,1], found by solving integral equations",
+    "information asymmetry in silent-versus-noisy duels and its effect on atoms",
+    "Karlin-type kernels for games of timing, together with Glicksberg's minimax theorem",
+    "equilibria of continuous Colonel Blotto via prescribed uniform marginals",
+    "indifference principle and checking that no deviation outside the support pays",
+    "recursive reduction for duels with several bullets"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number given in exact form",
+    "ordered pair (support start point, atom mass)",
+    "rational number"
+   ]
+  }
+ ]
+}

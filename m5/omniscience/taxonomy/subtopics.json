@@ -1,0 +1,465 @@
+{
+ "source": "AA-Omniscience public v1.1 (label counts) + v1.0 (label counts)",
+ "domains": {
+  "Finance": {
+   "weight": 0.15,
+   "subtopics": {
+    "Accounting": {
+     "weight": 0.10854,
+     "n_v11": 5,
+     "n_v10": 13
+    },
+    "Auditing": {
+     "weight": 0.05437,
+     "n_v11": 3,
+     "n_v10": 2
+    },
+    "Banking": {
+     "weight": 0.04771,
+     "n_v11": 1,
+     "n_v10": 10
+    },
+    "Corporate finance": {
+     "weight": 0.09854,
+     "n_v11": 5,
+     "n_v10": 9
+    },
+    "Derivatives investments": {
+     "weight": 0.07521,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "Equity investments": {
+     "weight": 0.06187,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Fixed income investments": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Insurance": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Macroeconomics": {
+     "weight": 0.06687,
+     "n_v11": 3,
+     "n_v10": 7
+    },
+    "Marketing": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Mergers and acquisitions": {
+     "weight": 0.05104,
+     "n_v11": 2,
+     "n_v10": 6
+    },
+    "Microeconomics": {
+     "weight": 0.08271,
+     "n_v11": 4,
+     "n_v10": 8
+    },
+    "Operations": {
+     "weight": 0.06187,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Public Finance": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Risk management": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Taxation": {
+     "weight": 0.04854,
+     "n_v11": 2,
+     "n_v10": 5
+    }
+   }
+  },
+  "Health": {
+   "weight": 0.15,
+   "subtopics": {
+    "Anatomy": {
+     "weight": 0.11583,
+     "n_v11": 7,
+     "n_v10": 5
+    },
+    "Dentistry": {
+     "weight": 0.04917,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Epidemiology": {
+     "weight": 0.1025,
+     "n_v11": 6,
+     "n_v10": 5
+    },
+    "Genetics": {
+     "weight": 0.03333,
+     "n_v11": 1,
+     "n_v10": 4
+    },
+    "Global Health": {
+     "weight": 0.08917,
+     "n_v11": 5,
+     "n_v10": 5
+    },
+    "Internal Medicine": {
+     "weight": 0.04083,
+     "n_v11": 1,
+     "n_v10": 7
+    },
+    "Neurology": {
+     "weight": 0.04833,
+     "n_v11": 1,
+     "n_v10": 10
+    },
+    "Obstetrics and Gynecology": {
+     "weight": 0.1025,
+     "n_v11": 6,
+     "n_v10": 5
+    },
+    "Oncology": {
+     "weight": 0.03583,
+     "n_v11": 1,
+     "n_v10": 5
+    },
+    "Pathology": {
+     "weight": 0.04333,
+     "n_v11": 1,
+     "n_v10": 8
+    },
+    "Pediatrics": {
+     "weight": 0.03583,
+     "n_v11": 1,
+     "n_v10": 5
+    },
+    "Pharmacy": {
+     "weight": 0.06167,
+     "n_v11": 2,
+     "n_v10": 10
+    },
+    "Physiology": {
+     "weight": 0.07833,
+     "n_v11": 4,
+     "n_v10": 6
+    },
+    "Psychiatry": {
+     "weight": 0.08833,
+     "n_v11": 4,
+     "n_v10": 10
+    },
+    "Surgery": {
+     "weight": 0.075,
+     "n_v11": 3,
+     "n_v10": 10
+    }
+   }
+  },
+  "Humanities and Social Sciences": {
+   "weight": 0.15,
+   "subtopics": {
+    "Abrahamic traditions": {
+     "weight": 0.07583,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "Ancient history": {
+     "weight": 0.10167,
+     "n_v11": 5,
+     "n_v10": 10
+    },
+    "Classical medieval world literature": {
+     "weight": 0.04417,
+     "n_v11": 2,
+     "n_v10": 3
+    },
+    "Dharmic traditions": {
+     "weight": 0.04917,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "East asian religions": {
+     "weight": 0.0625,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "History of philosophy": {
+     "weight": 0.04917,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "International relations": {
+     "weight": 0.08833,
+     "n_v11": 4,
+     "n_v10": 10
+    },
+    "Literature Theory": {
+     "weight": 0.10167,
+     "n_v11": 5,
+     "n_v10": 10
+    },
+    "Logic and the philosophy language": {
+     "weight": 0.03583,
+     "n_v11": 1,
+     "n_v10": 5
+    },
+    "Medieval modern history": {
+     "weight": 0.04333,
+     "n_v11": 1,
+     "n_v10": 8
+    },
+    "Metaphysics and epistemology": {
+     "weight": 0.04917,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "Military history": {
+     "weight": 0.0675,
+     "n_v11": 3,
+     "n_v10": 7
+    },
+    "Modern world literature": {
+     "weight": 0.04167,
+     "n_v11": 2,
+     "n_v10": 2
+    },
+    "Political theory": {
+     "weight": 0.10167,
+     "n_v11": 5,
+     "n_v10": 10
+    },
+    "Public policy administration": {
+     "weight": 0.08833,
+     "n_v11": 4,
+     "n_v10": 10
+    }
+   }
+  },
+  "Law": {
+   "weight": 0.15,
+   "subtopics": {
+    "US Administrative Law": {
+     "weight": 0.0606,
+     "n_v11": 2,
+     "n_v10": 5
+    },
+    "US Constitutional Law": {
+     "weight": 0.15226,
+     "n_v11": 7,
+     "n_v10": 15
+    },
+    "US Contract Law": {
+     "weight": 0.19143,
+     "n_v11": 9,
+     "n_v10": 20
+    },
+    "US Corporations Law": {
+     "weight": 0.12476,
+     "n_v11": 4,
+     "n_v10": 20
+    },
+    "US Criminal Law": {
+     "weight": 0.2181,
+     "n_v11": 11,
+     "n_v10": 20
+    },
+    "US Property Law": {
+     "weight": 0.13976,
+     "n_v11": 7,
+     "n_v10": 10
+    },
+    "US Torts Law": {
+     "weight": 0.1131,
+     "n_v11": 5,
+     "n_v10": 10
+    }
+   }
+  },
+  "Science Engineering and Mathematics": {
+   "weight": 0.2,
+   "subtopics": {
+    "Biology": {
+     "weight": 0.085,
+     "n_v11": 5,
+     "n_v10": 10
+    },
+    "Chemistry": {
+     "weight": 0.12,
+     "n_v11": 8,
+     "n_v10": 12
+    },
+    "Civil Engineering": {
+     "weight": 0.04,
+     "n_v11": 1,
+     "n_v10": 8
+    },
+    "Electrical Engineering": {
+     "weight": 0.07,
+     "n_v11": 4,
+     "n_v10": 8
+    },
+    "Geography environmental science": {
+     "weight": 0.0725,
+     "n_v11": 5,
+     "n_v10": 5
+    },
+    "Geology": {
+     "weight": 0.0625,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "Geometry": {
+     "weight": 0.0525,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Industrial Engineering": {
+     "weight": 0.0675,
+     "n_v11": 4,
+     "n_v10": 7
+    },
+    "Linear algebra": {
+     "weight": 0.0275,
+     "n_v11": 1,
+     "n_v10": 3
+    },
+    "Mechanical Engineering": {
+     "weight": 0.0725,
+     "n_v11": 5,
+     "n_v10": 5
+    },
+    "Physics": {
+     "weight": 0.105,
+     "n_v11": 7,
+     "n_v10": 10
+    },
+    "Probability statistics": {
+     "weight": 0.0775,
+     "n_v11": 5,
+     "n_v10": 7
+    },
+    "Psychology": {
+     "weight": 0.0525,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Real analysis calculus": {
+     "weight": 0.0525,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Upstream Energy Engineering": {
+     "weight": 0.0425,
+     "n_v11": 2,
+     "n_v10": 5
+    }
+   }
+  },
+  "Software Engineering": {
+   "weight": 0.2,
+   "subtopics": {
+    "C programming language": {
+     "weight": 0.09411,
+     "n_v11": 6,
+     "n_v10": 10
+    },
+    "Java general purpose libraries": {
+     "weight": 0.02349,
+     "n_v11": 1,
+     "n_v10": 2
+    },
+    "Java testing libraries": {
+     "weight": 0.02349,
+     "n_v11": 1,
+     "n_v10": 2
+    },
+    "R programming language": {
+     "weight": 0.05122,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "Rust": {
+     "weight": 0.05122,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "dart": {
+     "weight": 0.06122,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "go": {
+     "weight": 0.06122,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "html": {
+     "weight": 0.06122,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "java": {
+     "weight": 0.0538,
+     "n_v11": 3,
+     "n_v10": 6
+    },
+    "javascript": {
+     "weight": 0.09153,
+     "n_v11": 6,
+     "n_v10": 9
+    },
+    "julia": {
+     "weight": 0.03607,
+     "n_v11": 2,
+     "n_v10": 3
+    },
+    "kotlin": {
+     "weight": 0.06122,
+     "n_v11": 4,
+     "n_v10": 5
+    },
+    "php": {
+     "weight": 0.05122,
+     "n_v11": 3,
+     "n_v10": 5
+    },
+    "python": {
+     "weight": 0.11699,
+     "n_v11": 7,
+     "n_v10": 15
+    },
+    "python data analytics and visualisation libraries": {
+     "weight": 0.02349,
+     "n_v11": 1,
+     "n_v10": 2
+    },
+    "python web framework libraries": {
+     "weight": 0.02349,
+     "n_v11": 1,
+     "n_v10": 2
+    },
+    "swift": {
+     "weight": 0.04349,
+     "n_v11": 3,
+     "n_v10": 2
+    },
+    "typescript": {
+     "weight": 0.07153,
+     "n_v11": 4,
+     "n_v10": 9
+    }
+   }
+  }
+ }
+}

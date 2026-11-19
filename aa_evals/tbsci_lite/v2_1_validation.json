@@ -1,0 +1,2777 @@
+{
+ "pool": "TB-Science-lite pool v2.1",
+ "frozen_on": "2026-11-06",
+ "n_pool": 141,
+ "n_retained": 135,
+ "gate": "Each retained task has three resolved oracle passes and one resolved no-op failure; no retained infra or pending attempts.",
+ "audit_exclusions": {
+  "asd-brainspan-enrichment": "hidden gates pass only near an unexplained reference constant that public validation argues against (upstream reviewer, on our pin); no clean fix",
+  "calf20-humid-co2": "the reference passes only by optimizer luck: a lower-loss optimum of its own objective fails the gate; no clean fix",
+  "eis-aging-trajectory": "reference fails reporting reconstruction on 2 of 8 sampled fresh suites; no clean fix established; thresholds and task files unchanged",
+  "grothendieck-pseudofunctor": "our runtime can't build its verifier image: a build-time `runuser -u verifier -- test ! -w` self-check needs real ids at build time (not supported by harbor_ns builds); task content not audited in depth",
+  "landslide-spatiotemporal-reconstruction": "per-frame gates depend on an unstated simulator frame clock (a one-frame shift of the truth fails); fixing it would disclose the approach",
+  "splicing-response-transfer": "a model that never reads the required RNA responses passes every gate, and the reference barely beats it; not tightenable"
+ },
+ "oracle_nonpasses": {
+  "eis-aging-trajectory": {
+   "attempts": 3,
+   "pass": 2,
+   "fail": 1,
+   "infra": 0,
+   "pending": 0
+  },
+  "grothendieck-pseudofunctor": {
+   "attempts": 3,
+   "pass": 0,
+   "fail": 0,
+   "infra": 3,
+   "pending": 0
+  }
+ },
+ "retained_tasks": [
+  "acrobot-swingup-effort",
+  "align-blocks-mujoco",
+  "alphafold-pocket-rescue",
+  "analytical-hillslope-flow",
+  "anonymous-modular-reconstruction",
+  "apo-holo-docking",
+  "as-installed-identification",
+  "asparagine-hydrolysis-smiles",
+  "battery-dfn-gitt",
+  "bcc-screw-peierls",
+  "bearing-candidate-curation",
+  "bosch-drie-control",
+  "bridge-damage-forensics",
+  "c14h14o-afm-identification",
+  "calibration-drift-localisation",
+  "capsid-rate-inversion",
+  "casemix-discrimination-gap",
+  "causal-proxy-audit",
+  "ccf-top-p",
+  "cfn-panel-mixture",
+  "cg-forcefield-audit",
+  "chatter-stability-lobes",
+  "clockface-rail-timetable",
+  "coherent-freeze-out",
+  "concentrated-electrolyte-transport",
+  "connector-press-commissioning",
+  "conveyor-bottle-interception",
+  "cosco-busan-forensics",
+  "cosco-calibration-forensics",
+  "coupled-climate-recovery",
+  "curvature-descriptor-recovery",
+  "dlpno-ccsd-t0",
+  "dmm-amm-discrimination",
+  "dogma-trimodal-perturbation",
+  "dqd-transport",
+  "early-crc-pipeline",
+  "epr-spin-quantitation",
+  "evidence-route-repair",
+  "fet-biosensor-design",
+  "flux-rope-reconstruction",
+  "fraud-score-recalibration",
+  "friction-tray-transfer",
+  "full-duplex-recovery",
+  "gene-partner-census",
+  "geomagnetic-conjugate-mapping",
+  "glacier-surface-event",
+  "glycan-stereo-audit",
+  "grad-student-descent",
+  "grantfree-collision-recovery",
+  "gravity-shuttle-docking",
+  "gwas-meta-finemapping",
+  "halide-segregation-forecast",
+  "heom-exciton-spectra",
+  "hla-motif-deconvolution",
+  "holter-hrv-recovery",
+  "interim-alpha-recycling",
+  "kepler-phase-curves",
+  "keyed-coupler-assembly",
+  "landsat-coreg-change",
+  "large-scale-dfo",
+  "layer-aware-influence",
+  "lns-operator-vrp",
+  "malaria-fitness",
+  "microbiome-diffabund",
+  "mitogenome-cohort-reconstruction",
+  "mixture-distribution-1d",
+  "mossbauer-speciation-kinetics",
+  "mps-vqe-refinement",
+  "multi-material-wannierisation",
+  "neuroimaging-evidence-audit",
+  "nonlinear-causal-recovery",
+  "nonnegative-orthogonal-optimization",
+  "nqs-energy-measurement",
+  "online-cloud-scheduling",
+  "online-vne",
+  "oriented-graph-reduction",
+  "orr-somm",
+  "oscillator-gate-design",
+  "packing-feasibility",
+  "paired-link-limits",
+  "pastrel-protection-inference",
+  "pcasl-cbf-quantifier",
+  "peanut-homeolog-editing",
+  "peanut-pql-reconstruction",
+  "phenotype-guided-ranking",
+  "pipelined-sar-adc",
+  "plasmid-clone-forensics",
+  "polymer-constrained-design",
+  "proton-transfer-audit",
+  "quasar-time-delays",
+  "ra-taper-risk",
+  "recover-enzyme-inhibition",
+  "refinement-ordered-optimization",
+  "replicate-detection-snrna",
+  "robust-transmon-gate",
+  "rotor-bar-mcsa",
+  "rv-activity-disentangling",
+  "sar-adc",
+  "satellite-reservoir-estimation",
+  "semantic-splat-calibration",
+  "sensor-rig-calibration",
+  "seven-axis-commissioning",
+  "side-channel-task",
+  "sidechannel-recovery",
+  "sin-grating-coupler",
+  "sky130-multiphase-pll",
+  "sommerfeld-enhancement",
+  "southern-ocean-attribution",
+  "spatial-rna-decontamination",
+  "specimen-provenance",
+  "specimen-swap-contamination",
+  "spring-clamp-locking",
+  "sum-diff-exponent",
+  "survival-band-screening",
+  "suspended-load-antisway",
+  "sv-qtl-coloc",
+  "symplectic-eigenpairs",
+  "symplectic-rom-nls",
+  "t1-t2-mapping",
+  "tandem-repeat-adjudication",
+  "tautomerization-barrier",
+  "te5-mode-router",
+  "thermoelectric-imc-growth",
+  "thin-film-inverse",
+  "tp53-regulatory-prioritization",
+  "trial-eligibility-matching",
+  "tumor-area-selection",
+  "two-bounce-slam",
+  "unknown-payload-balancing",
+  "usct-soundspeed-fwi",
+  "vertecs-astrometry-coaddition",
+  "weighted-vaccine-inference",
+  "wse2-emitter-design",
+  "xxz-qmc-energy",
+  "zak-pulse"
+ ],
+ "tasks": {
+  "acrobot-swingup-effort": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "align-blocks-mujoco": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "alphafold-pocket-rescue": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "analytical-hillslope-flow": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "anonymous-modular-reconstruction": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "apo-holo-docking": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "as-installed-identification": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "asd-brainspan-enrichment": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "asparagine-hydrolysis-smiles": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "battery-dfn-gitt": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "bcc-screw-peierls": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "bearing-candidate-curation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "bosch-drie-control": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "bridge-damage-forensics": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "c14h14o-afm-identification": {
+   "class": "unclear",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "calf20-humid-co2": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "calibration-drift-localisation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "capsid-rate-inversion": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "casemix-discrimination-gap": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "causal-proxy-audit": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "ccf-top-p": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "cfn-panel-mixture": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "cg-forcefield-audit": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "chatter-stability-lobes": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "clockface-rail-timetable": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "coherent-freeze-out": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "concentrated-electrolyte-transport": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "connector-press-commissioning": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "conveyor-bottle-interception": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "cosco-busan-forensics": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "cosco-calibration-forensics": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "coupled-climate-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "curvature-descriptor-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "dlpno-ccsd-t0": {
+   "class": "unclear",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "dmm-amm-discrimination": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "dogma-trimodal-perturbation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "dqd-transport": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "early-crc-pipeline": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "eis-aging-trajectory": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 2,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "epr-spin-quantitation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "evidence-route-repair": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "fet-biosensor-design": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "flux-rope-reconstruction": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "fraud-score-recalibration": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "friction-tray-transfer": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "full-duplex-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "gene-partner-census": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "geomagnetic-conjugate-mapping": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "glacier-surface-event": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "glycan-stereo-audit": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "grad-student-descent": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "grantfree-collision-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "gravity-shuttle-docking": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "grothendieck-pseudofunctor": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 0,
+    "fail": 0,
+    "infra": 3,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 0,
+    "infra": 1,
+    "pending": 0
+   }
+  },
+  "gwas-meta-finemapping": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "halide-segregation-forecast": {
+   "class": "unclear",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "heom-exciton-spectra": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "hla-motif-deconvolution": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "holter-hrv-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "interim-alpha-recycling": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "kepler-phase-curves": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "keyed-coupler-assembly": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "landsat-coreg-change": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "landslide-spatiotemporal-reconstruction": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "large-scale-dfo": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "layer-aware-influence": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "lns-operator-vrp": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "malaria-fitness": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "microbiome-diffabund": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "mitogenome-cohort-reconstruction": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "mixture-distribution-1d": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "mossbauer-speciation-kinetics": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "mps-vqe-refinement": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "multi-material-wannierisation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "neuroimaging-evidence-audit": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "nonlinear-causal-recovery": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "nonnegative-orthogonal-optimization": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   },
+   "oracle_run": "audit-nonnegative-v21r2-oracle-x3",
+   "noop_run": "audit-nonnegative-v21r2-negative",
+   "noop_item_id": "nonnegative-orthogonal-optimization-pm-nop"
+  },
+  "nqs-energy-measurement": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "online-cloud-scheduling": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "online-vne": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "oriented-graph-reduction": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "orr-somm": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "oscillator-gate-design": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "packing-feasibility": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "paired-link-limits": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "pastrel-protection-inference": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "pcasl-cbf-quantifier": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "peanut-homeolog-editing": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "peanut-pql-reconstruction": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "phenotype-guided-ranking": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "pipelined-sar-adc": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "plasmid-clone-forensics": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "polymer-constrained-design": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "proton-transfer-audit": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "quasar-time-delays": {
+   "class": "unclear",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "ra-taper-risk": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "recover-enzyme-inhibition": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "refinement-ordered-optimization": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "replicate-detection-snrna": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "robust-transmon-gate": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "rotor-bar-mcsa": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "rv-activity-disentangling": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sar-adc": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "satellite-reservoir-estimation": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "semantic-splat-calibration": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sensor-rig-calibration": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "seven-axis-commissioning": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "side-channel-task": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sidechannel-recovery": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sin-grating-coupler": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sky130-multiphase-pll": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sommerfeld-enhancement": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "southern-ocean-attribution": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "spatial-rna-decontamination": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "specimen-provenance": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "specimen-swap-contamination": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "splicing-response-transfer": {
+   "class": "excluded",
+   "retained": false,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "spring-clamp-locking": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sum-diff-exponent": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "survival-band-screening": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "suspended-load-antisway": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "sv-qtl-coloc": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "symplectic-eigenpairs": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "symplectic-rom-nls": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "t1-t2-mapping": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "tandem-repeat-adjudication": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "tautomerization-barrier": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "te5-mode-router": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "thermoelectric-imc-growth": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "thin-film-inverse": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "tp53-regulatory-prioritization": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "trial-eligibility-matching": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "tumor-area-selection": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "two-bounce-slam": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "unknown-payload-balancing": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "usct-soundspeed-fwi": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "vertecs-astrometry-coaddition": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "weighted-vaccine-inference": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "wse2-emitter-design": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "xxz-qmc-energy": {
+   "class": "ok",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  },
+  "zak-pulse": {
+   "class": "fixed",
+   "retained": true,
+   "oracle": {
+    "attempts": 3,
+    "pass": 3,
+    "fail": 0,
+    "infra": 0,
+    "pending": 0
+   },
+   "noop": {
+    "attempts": 1,
+    "pass": 0,
+    "fail": 1,
+    "infra": 0,
+    "pending": 0
+   }
+  }
+ },
+ "pool_sha256": {
+  "tbsci_lite_pool_v2.1.tar": "daa5d86afc2faf065a5830639610b256e61e6694cd7e6a26a78c50b34694f65c",
+  "tbsci_lite_pool_v2.1.tar.manifest.json": "e5ea6cdc8600c59480ac8bd6e067721d8d86f41fbe1d442c0e3d0a44c3b51c06"
+ },
+ "base_pool_sha256": {
+  "tbsci_lite_pool_v2.tar": "34e68fa9a360cda2e7244944890745b793b4c40d5bab3aa72b219714f01c4c20",
+  "tbsci_lite_pool_v2.tar.manifest.json": "0f322c495fbf10c0461f30440cc392a088aac8c2805e6246ad9e9e52e515a00a"
+ },
+ "base_validation_sha256": "775615d8e617af3f6e7fffda85eed0c5c478d1df0d6b781440b6f6e8af427fc4",
+ "revalidated_tasks": [
+  "nonnegative-orthogonal-optimization"
+ ],
+ "inherited_unchanged_retained_tasks": 134,
+ "oracle_evidence": [
+  {
+   "run": "oracle-v2-x3",
+   "code_commit": "cd0d415b6d8c39bcc0812a9a2a66624832e5fe9b",
+   "items_sha256": "cab4429db546370a5d05441bc0f7e3b5cd59ffd0ad8a884f49c2d4352c78c13b",
+   "scope": "All unchanged task evidence inherited from frozen v2; nonnegative is superseded below."
+  },
+  {
+   "run": "audit-nonnegative-v21r2-oracle-x3",
+   "code_commit": "6bd026d37909978a44fea32ec7e24c61fd68061b",
+   "items_sha256": "61a9ac34eaff1f75f426623216923e82d6f1b1b46ac8e0a0610973022a718973",
+   "scope": "nonnegative-orthogonal-optimization"
+  }
+ ],
+ "noop_evidence": [
+  {
+   "run": "nop-v2",
+   "items_sha256": "1901f8bcecc9579d3dddb72dfc33e7ebda139bdce8d61cf45bff8afc21220a59",
+   "scope": "All unchanged task evidence inherited from frozen v2; nonnegative is superseded below."
+  },
+  {
+   "run": "audit-nonnegative-v21r2-negative",
+   "code_commit": "6bd026d37909978a44fea32ec7e24c61fd68061b",
+   "items_sha256": "ff453ee209385dd41d43da77405e704ef30c1ef4b4b87d58d0496aa463cf834d",
+   "scope": "nonnegative-orthogonal-optimization-pm-nop"
+  }
+ ],
+ "negative_controls": {
+  "nonnegative-orthogonal-optimization-pm-m34-a3": {
+   "score": 0,
+   "status": "ok",
+   "report_written": true,
+   "failure_reason": "submitted oracle query caused a floating-point range error",
+   "run": "audit-nonnegative-v21r2-negative",
+   "key": "nonnegative-orthogonal-optimization-pm-m34-a3__a0__r0"
+  },
+  "nonnegative-orthogonal-optimization-pm-nop": {
+   "score": 0,
+   "status": "ok",
+   "report_written": true,
+   "failure_reason": null,
+   "run": "audit-nonnegative-v21r2-negative",
+   "key": "nonnegative-orthogonal-optimization-pm-nop__a0__r0"
+  },
+  "nonnegative-orthogonal-optimization-pm-overflow": {
+   "score": 0,
+   "status": "ok",
+   "report_written": true,
+   "failure_reason": "submitted oracle query caused a floating-point range error",
+   "run": "audit-nonnegative-v21r2-negative",
+   "key": "nonnegative-orthogonal-optimization-pm-overflow__a0__r0"
+  }
+ }
+}

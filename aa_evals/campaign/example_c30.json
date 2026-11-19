@@ -1,0 +1,264 @@
+{
+ "name": "cNN",
+ "why": "Template from the c30 campaign (#375/#378): copy, set name/plan, check models. Budgets are each server's knee.",
+ "plan": "/data/aai/aa_evals/plans/c30/cheap_full_v1.json",
+ "serving_workdir": "/opt/aai/worktrees/c30-serving",
+ "code": "/opt/aai/worktrees/c30-run",
+ "dispatch_root": "/data/aai/aa_evals/dispatch",
+ "release_server_after": 600,
+ "suites": {
+  "context_window": 131072,
+  "cap_sec": 7200,
+  "tb_cache": [
+   "/data/aai/aa_evals/runtime_packages/pi/v6/manifest.json",
+   "d9bcbf4231b1b2e449dd011840d4a58d4211f57b808543b1c1fc6b2b8394e5e4"
+  ],
+  "lite_cache": [
+   "/data/aai/aa_evals/runtime_packages/pi/v5/manifest.json",
+   "d7fcf56be3d5c3d79d7d50e8b059772d4fcc2df11a22f39ef6f67737145fc317"
+  ],
+  "tb_bundle": [
+   "/data/aai/aa_evals/audits/m36_aptfix_20261108/bundle-aptfix.tar",
+   "9b0b4dbf5b1ac92cb0469d2eecf91a402afe1b1ca34f0f77905a28f4c7781ddc"
+  ],
+  "tb_toolchain_bundle": [
+   "tb21_6h",
+   "9b0b4dbf5b1ac92cb0469d2eecf91a402afe1b1ca34f0f77905a28f4c7781ddc"
+  ],
+  "capture_root": "/data/aai/aa_evals/required_outputs/{campaign}",
+  "scicode_dataset": "verified-aa-v3",
+  "canary_items": {
+   "tb21": 3,
+   "tbsci_lite": 2,
+   "gdpval": 3,
+   "critpt": 3,
+   "automationbench": 4,
+   "scicode": 2,
+   "hle": 6,
+   "omniscience": 0,
+   "gdppdf": 3
+  }
+ },
+ "models": {
+  "qwen38-xhigh": {
+   "name": "Qwen3.8-27B Xhigh",
+   "registry": "{campaign}-qwen38-xhigh",
+   "teacher": "qwen38-27b-eval-fast-text",
+   "gpus": 2,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 262144,
+    "max_output_tokens": 262144
+   },
+   "effort": "xhigh",
+   "budget": 131,
+   "m36_key": "qwen38-xhigh",
+   "ref_decode_per_gpu": {
+    "1-8": 741,
+    "9-16": 1495,
+    "17-24": 2020,
+    "25-32": 2542,
+    "33-48": 2787,
+    "49-64": 2973,
+    "65-96": 3537
+   }
+  },
+  "qwen38-medium": {
+   "name": "Qwen3.8-27B Medium",
+   "registry": "{campaign}-qwen38-medium",
+   "teacher": "qwen38-27b-eval-fast-text",
+   "gpus": 2,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 262144,
+    "max_output_tokens": 262144
+   },
+   "effort": "medium",
+   "budget": 132,
+   "m36_key": "qwen38-medium",
+   "tunables": {
+    "gate_pool": 1
+   },
+   "ref_decode_per_gpu": {
+    "1-8": 499,
+    "9-16": 1362,
+    "17-24": 1826,
+    "25-32": 2182,
+    "33-48": 2535,
+    "49-64": 2904
+   },
+   "budget_note": "no compaction: KV-bound at ~48-64 per GPU; c30 swapped it to a 2xB200 pool mid-run"
+  },
+  "super-vl": {
+   "name": "Nemotron 3.5 Super VL",
+   "registry": "{campaign}-super-vl",
+   "teacher": "nemotron35-super-mm-text",
+   "gpus": 1,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 1048576,
+    "max_output_tokens": 1048576
+   },
+   "effort": null,
+   "budget": 130,
+   "m36_key": "super-vl",
+   "ref_decode_per_gpu": {
+    "1-8": 952,
+    "9-16": 1553,
+    "17-24": 2247,
+    "49-64": 4798,
+    "65-96": 5361,
+    "97-128": 5864,
+    "129-192": 4374
+   },
+   "budget_note": "c30 ran 182 and thrashed above ~128 running (generated tok/s -25% for 4.2 h)"
+  },
+  "qwen36": {
+   "name": "Qwen3.6-35B-A3B",
+   "registry": "{campaign}-qwen36",
+   "teacher": "qwen36-35b-a3b-eval-text",
+   "gpus": 1,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": null,
+   "budget": 130,
+   "m36_key": "qwen36",
+   "ref_decode_per_gpu": {
+    "1-8": 758,
+    "9-16": 2599,
+    "17-24": 2706,
+    "25-32": 3210,
+    "33-48": 3182,
+    "49-64": 4459,
+    "65-96": 6193,
+    "97-128": 7289
+   }
+  },
+  "gemma26": {
+   "name": "Gemma 4 26B-A4B",
+   "registry": "{campaign}-gemma26",
+   "teacher": "gemma4-26b-a4b-it-eval-b200-text",
+   "gpus": 1,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": null,
+   "budget": 121,
+   "m36_key": "gemma26",
+   "ref_decode_per_gpu": {
+    "1-8": 1439,
+    "9-16": 4032,
+    "17-24": 5257,
+    "25-32": 5866,
+    "33-48": 7787,
+    "49-64": 9233,
+    "65-96": 10193,
+    "97-128": 12609
+   }
+  },
+  "lightning": {
+   "name": "Nemotron 3.5 Lightning",
+   "registry": "{campaign}-lightning",
+   "teacher": "nemotron35-lightning-eval",
+   "gpus": 1,
+   "gpu": "H100",
+   "bid": 51,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": null,
+   "budget": 139,
+   "m36_key": "lightning",
+   "ref_decode_per_gpu": {
+    "1-8": 1067,
+    "9-16": 1864,
+    "17-24": 2451,
+    "25-32": 2769,
+    "33-48": 3204,
+    "49-64": 4647,
+    "65-96": 5368,
+    "97-128": 5947
+   }
+  },
+  "qwen35-4b": {
+   "name": "Qwen3.5-4B",
+   "registry": "{campaign}-qwen35-4b",
+   "teacher": "qwen35-4b-eval-text",
+   "gpus": 1,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": null,
+   "budget": 132,
+   "m36_key": "qwen35-4b",
+   "tunables": {
+    "flashinfer_bf16q": 0
+   },
+   "ref_decode_per_gpu": {
+    "1-8": 911,
+    "9-16": 1460,
+    "17-24": 2022,
+    "25-32": 2455,
+    "33-48": 2543,
+    "49-64": 3041,
+    "65-96": 5065,
+    "97-128": 5708
+   }
+  },
+  "ds-max": {
+   "name": "DeepSeek V4.1 Flash (Max)",
+   "registry": "{campaign}-ds-max",
+   "teacher": "deepseek-v41-flash-1017",
+   "gpus": 4,
+   "gpu": "B200",
+   "bid": 63,
+   "protocol": {
+    "context_tokens": 262144,
+    "max_output_tokens": 262144
+   },
+   "effort": "max",
+   "budget": 400,
+   "m36_key": "ds-max-m35",
+   "multi_gpu_approval": "coordinator (brief: one DeepSeek server approved)"
+  },
+  "glm53-flash": {
+   "name": "GLM-5.3-Flash (Max)",
+   "registry": "{campaign}-glm53-flash",
+   "teacher": "glm53-flash-eval-text",
+   "gpus": 4,
+   "gpu": "B200",
+   "bid": 63,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": "max",
+   "budget": 247,
+   "m36_key": "glm53-flash",
+   "multi_gpu_approval": "coordinator (brief: one GLM server approved)",
+   "ref_decode_per_gpu": {
+    "1-8": 395,
+    "9-16": 1055,
+    "17-24": 1593,
+    "25-32": 2136,
+    "33-48": 2925,
+    "49-64": 3421,
+    "65-96": 3961
+   }
+  }
+ }
+}

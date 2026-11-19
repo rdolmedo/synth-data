@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Engineering",
+ "subject": "Materials Science",
+ "target_leaves": 8,
+ "expected_problems": 25,
+ "leaves": [
+  {
+   "leaf": "Dislocation reactions in close-packed lattices",
+   "scope": "Problems ask for the products, energetics or geometry of dislocation dissociations and junctions in FCC, HCP or L1\u2082 crystals, such as the stable lock, the equilibrium partial separation, or which reactions are allowed. They are hard because the solver has to keep Burgers vector, slip plane and line direction consistent across several non-coplanar slip systems while applying both elastic-energy and stacking-fault criteria.",
+   "techniques": [
+    "Thompson tetrahedron notation for identifying Shockley, Frank and stair-rod partials",
+    "Frank's |b|\u00b2 energy criterion combined with conservation of Burgers vector at a node",
+    "Lomer\u2013Cottrell and Hirth lock formation from two intersecting {111} slip systems",
+    "Equilibrium Shockley partial spacing from isotropic elasticity with edge/screw character dependence",
+    "Superpartial dissociation in ordered L1\u2082 alloys with APB and SISF/CSF energies",
+    "HCP \u27e8c+a\u27e9 pyramidal dislocation decomposition and basal/prismatic cross-slip geometry"
+   ],
+   "answer_forms": [
+    "Miller-index vector (Burgers vector of the product)",
+    "closed-form expression",
+    "rational number (energy ratio or spacing in units of b)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Symmetry reduction of anisotropic property tensors",
+   "scope": "Problems ask how many independent components, or which non-zero coefficient pattern, a property tensor has for a given crystal class, texture symmetry or Curie limiting group, or how a measured response transforms under rotation. They are hard because the solver must apply Neumann's principle rigorously to tensors of rank 2 to 4, including intrinsic index symmetries, axial versus polar character and magnetic time-reversal.",
+   "techniques": [
+    "Neumann's principle with direct inspection under generator matrices of the point group",
+    "Character-theoretic counting of invariants in symmetrized tensor powers",
+    "Voigt/Kelvin contraction and its effect on index symmetry for elastic, piezoelectric and electrostrictive tensors",
+    "Axial (pseudo-)tensor handling for optical activity, the magnetoelectric effect and gyrotropy",
+    "Curie limiting groups (\u221e, \u221em, \u221e/mm) for poled ceramics and fiber textures",
+    "Tensor rotation to compute directional Young's modulus or effective d\u2083\u2083 along arbitrary axes"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set (of non-zero independent components)",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Martensite crystallography and variant compatibility",
+   "scope": "Problems ask for habit-plane normals, the number of lattice-correspondence variants, twin systems, or whether an austenite\u2013martensite interface can be exactly compatible, given the lattice parameters of the parent and product phases. They are hard because they require the eigenvalue/polar-decomposition machinery of the phenomenological theory and careful symmetry-group cosets.",
+   "techniques": [
+    "Bain strain construction and counting variants as |P_austenite|/|P_martensite| point-group cosets",
+    "Invariant-plane-strain condition via the middle eigenvalue \u03bb\u2082 = 1 of the stretch tensor",
+    "Twinning equation Q U_j \u2212 U_i = a \u2297 n solutions (Type I/II twins, Ball\u2013James theory)",
+    "Wechsler\u2013Lieberman\u2013Read lattice-invariant shear and twin volume fraction",
+    "Cofactor conditions for supercompatibility and low-hysteresis alloy design",
+    "Orientation relationships (Kurdjumov\u2013Sachs, Nishiyama\u2013Wassermann) and their variant counts"
+   ],
+   "answer_forms": [
+    "integer",
+    "unit vector or Miller indices",
+    "closed-form expression",
+    "rational number (twin volume fraction)"
+   ]
+  },
+  {
+   "leaf": "Point-defect equilibria and Brouwer diagram slopes",
+   "scope": "Problems ask for the power-law exponent of a defect or carrier concentration against oxygen partial pressure, dopant level or temperature in a specified regime of a non-stoichiometric oxide or other ionic compound, or for the regime boundaries. They are hard because the solver must choose the right majority defects and the right electroneutrality approximation among competing intrinsic, extrinsic and associated-defect reactions.",
+   "techniques": [
+    "Kr\u00f6ger\u2013Vink notation with site, mass and charge balance of defect reactions",
+    "Mass-action laws and Brouwer approximations to the electroneutrality condition",
+    "Aliovalent dopant compensation by ionic versus electronic defects",
+    "Defect association (dopant\u2013vacancy clusters) changing the apparent exponents",
+    "Temperature dependence of conductivity yielding composite activation energies from reaction enthalpies",
+    "Transition-point pO\u2082 between regimes from the intersection of limiting expressions"
+   ],
+   "answer_forms": [
+    "rational number (slope or exponent)",
+    "closed-form expression",
+    "ordered tuple (slopes for several species)",
+    "name of the dominant defect"
+   ]
+  },
+  {
+   "leaf": "Coincidence site lattice grain-boundary geometry",
+   "scope": "Problems ask for the \u03a3 value, disorientation angle/axis, boundary-plane classification, or the outcome of combining boundaries at a triple junction for misorientations in cubic or non-cubic lattices. They are hard because the solver must handle equivalent misorientations under crystal symmetry, odd-\u03a3 reduction rules and the composition of misorientations.",
+   "techniques": [
+    "\u03a3 from rotation axis [hkl] and angle via the Ranganathan relation with odd-\u03a3 reduction",
+    "Fundamental-zone disorientation using the 24 proper cubic rotations",
+    "Triple-junction \u03a3 product/quotient rule (\u03a3a\u00b7\u03a3b = m\u00b2\u00b7\u03a3c)",
+    "Integer rotation matrices and their denominators as CSL generators",
+    "Brandon criterion deviation tolerance for classifying near-CSL boundaries",
+    "Symmetric-tilt vs twist plane identification and DSC lattice vectors"
+   ],
+   "answer_forms": [
+    "integer (\u03a3 value)",
+    "ordered tuple (axis indices and angle)",
+    "small set (of possible \u03a3 values)",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Solution-model thermodynamics and miscibility gaps",
+   "scope": "Problems ask for critical temperatures, spinodal or binodal compositions, invariant-point conditions, or tie-line results in binary and ternary systems described by regular, subregular or sublattice Gibbs energy models. They are hard because they need exact handling of the free-energy curvature, common-tangent or tangent-plane construction, and phase-rule constraints rather than reading values off a diagram.",
+   "techniques": [
+    "Regular and Redlich\u2013Kister subregular models with derivative conditions for spinodal and critical points",
+    "Common-tangent and tangent-plane constructions in ternaries",
+    "Gibbs phase rule and degrees of freedom at invariant and monovariant equilibria",
+    "Two-sublattice (compound energy formalism) site-fraction minimization",
+    "Coherent spinodal correction with elastic energy term Y\u00b7\u03b7\u00b2",
+    "Ternary lever rule and Schreinemakers rules for metastable extensions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number (composition or T_c/\u03a9 ratio)",
+    "integer (degrees of freedom or number of phases)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Network-forming polymerization and gelation statistics",
+   "scope": "Problems ask for gel-point conversion, sol fraction, number- or weight-average molecular weight, or crosslink density for step-growth or crosslinking systems with mixed functionalities, unequal reactivities or stoichiometric imbalance. They are hard because simple Carothers-type estimates fail, so the solver must use branching-process or recursive probability arguments carefully.",
+   "techniques": [
+    "Flory\u2013Stockmayer branching-coefficient criterion with stoichiometric imbalance r",
+    "Macosko\u2013Miller recursive expectation method for M_w and sol fraction beyond the gel point",
+    "Probability-generating-function treatment of mixed-functionality monomer feeds",
+    "Carothers equation versus statistical gel point and why they differ",
+    "Affine and phantom network moduli from elastically effective strand counts",
+    "Substitution effects (unequal first/second-site reactivity) on critical conversion"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression (e.g. involving square roots)",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Micromechanical bounds and inclusion-based effective properties",
+   "scope": "Problems ask for exact effective moduli, conductivities or eigenstrain-induced stresses of heterogeneous materials (particulate, fibrous, laminated or porous), or for the gap between rigorous bounds. They are hard because the solver has to choose and apply the correct Eshelby tensor, variational bound or exact laminate solution for the given geometry and anisotropy.",
+   "techniques": [
+    "Eshelby tensor for spheres, cylinders and penny-shaped cracks, with the equivalent-inclusion method",
+    "Hashin\u2013Shtrikman bounds for bulk/shear modulus and conductivity in two-phase isotropic media",
+    "Mori\u2013Tanaka and self-consistent schemes, including percolation thresholds in the self-consistent model",
+    "Exact rank-1 laminate homogenization and classical laminate theory ABD matrices",
+    "Hill's connections for fibrous composites with transversely isotropic phases",
+    "Misfit-stress fields from thermal or transformation eigenstrains in coated inclusions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number (modulus ratio or threshold volume fraction)",
+    "ordered tuple (upper and lower bounds)",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

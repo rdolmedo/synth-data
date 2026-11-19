@@ -1,0 +1,1212 @@
+{
+ "partition": "reasoning",
+ "category": "Math",
+ "subject": "Applied Mathematics",
+ "target_leaves": 70,
+ "expected_problems": 564,
+ "leaves": [
+  {
+   "leaf": "Matched asymptotics for singularly perturbed BVPs",
+   "scope": "Problems give a second-order ODE boundary-value problem with a small parameter on the highest derivative and ask for a specific coefficient of the uniformly valid expansion, the location of a boundary or interior layer, or the leading-order value at a given point. They are hard because the solver must find the layers, pick the right distinguished scalings, and carry the matching past leading order.",
+   "techniques": [
+    "dominant balance to determine inner-variable scalings",
+    "Van Dyke matching rule at second order",
+    "interior layers and turning-point resonance (Ackerberg\u2013O'Malley)",
+    "logarithmic switchback terms",
+    "additive and multiplicative composite expansions",
+    "exponential asymptotics to fix the layer position"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision"
+   ]
+  },
+  {
+   "leaf": "WKB eigenvalue asymptotics with turning points",
+   "scope": "Problems ask for large-eigenvalue asymptotics, tunnelling splittings or connection coefficients for Schr\u00f6dinger-type ODEs with polynomial or piecewise potentials. They are hard because connection formulas, Maslov indices and higher-order phase corrections all have to be exact.",
+   "techniques": [
+    "Airy-function connection formulas at simple turning points",
+    "Bohr\u2013Sommerfeld quantization with Maslov correction",
+    "Stokes lines and Stokes multipliers",
+    "exponentially small splitting from complex turning points",
+    "higher-order WKB phase integrals by contour integration",
+    "Beta-function evaluation of action integrals"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "constant involving Gamma functions",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Multiple-scales analysis of weakly nonlinear oscillators",
+   "scope": "Problems ask for amplitude-dependent frequency corrections, limit-cycle amplitudes or slow-flow equilibria of perturbed oscillators with polynomial nonlinearity, forcing or parametric excitation. They are hard because removing secular terms at second order and keeping track of resonances is error-prone.",
+   "techniques": [
+    "two-timing with solvability conditions",
+    "Lindstedt\u2013Poincar\u00e9 strained coordinates",
+    "Krylov\u2013Bogoliubov averaging over the fast phase",
+    "detuning for primary, sub- and superharmonic resonances",
+    "backbone curves of frequency-response relations",
+    "Fredholm alternative for periodic forcing"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "polynomial in the amplitude"
+   ]
+  },
+  {
+   "leaf": "Saddle-point and Laplace asymptotics of integrals",
+   "scope": "Problems ask for leading constants or the first correction terms of parameter-dependent integrals or coefficient sequences where saddles coalesce, sit at endpoints, or are degenerate. They are hard because the solver must rank the competing contributions and deform the steepest-descent contours correctly.",
+   "techniques": [
+    "Watson's lemma",
+    "steepest-descent contour deformation",
+    "uniform Airy or Pearcey expansions for coalescing saddles",
+    "endpoint versus interior critical-point contributions",
+    "Darboux and singularity analysis of generating functions",
+    "Mellin-transform asymptotics of harmonic sums"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real constant",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Periodic homogenization of elliptic coefficients",
+   "scope": "Problems ask for effective conductivity or elasticity tensors of laminates, checkerboards or other periodic microstructures, or for explicit correctors. They are hard because the cell problem must be solved exactly and the effective tensor is not a naive average.",
+   "techniques": [
+    "two-scale expansion and the cell problem",
+    "harmonic and arithmetic means for layered media",
+    "Keller\u2013Dykhne duality in two dimensions",
+    "Hashin\u2013Shtrikman bounds",
+    "Gamma-convergence of periodic integral functionals",
+    "low-frequency Bloch-wave dispersion"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "matrix",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Isoperimetric and constrained variational problems",
+   "scope": "Problems ask for the extremal value or the extremal of an integral functional under integral or pointwise constraints, with free endpoints or variable domains. They are hard because the multipliers must be found and sufficiency or conjugate-point conditions checked.",
+   "techniques": [
+    "Euler\u2013Lagrange equations with Lagrange multipliers",
+    "natural boundary and transversality conditions",
+    "Legendre and Jacobi conditions (conjugate points)",
+    "Weierstrass\u2013Erdmann corner conditions",
+    "Beltrami identity and Noether invariants",
+    "sharp Wirtinger or Poincar\u00e9 inequalities as direct methods"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "explicit function"
+   ]
+  },
+  {
+   "leaf": "Pontryagin principle and bang-bang switching structure",
+   "scope": "Problems ask for minimal times, numbers of switches, switching instants or optimal costs in time- or fuel-optimal control of low-dimensional linear or bilinear systems. They are hard because singular arcs and switching curves must be found and the synthesis verified.",
+   "techniques": [
+    "Hamiltonian maximization and costate dynamics",
+    "sign analysis of the switching function",
+    "singular arcs and the generalized Legendre\u2013Clebsch condition",
+    "phase-plane switching-curve synthesis",
+    "Fuller-type chattering phenomena",
+    "transversality for free terminal time"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "ordered tuple of switching times"
+   ]
+  },
+  {
+   "leaf": "Linear-quadratic regulators and Riccati equations",
+   "scope": "Problems ask for optimal costs, steady-state gains or closed-loop poles of continuous- or discrete-time LQ problems with given weights and structured system matrices. They are hard because the stabilizing Riccati solution has to be singled out and its dependence on the parameters tracked exactly.",
+   "techniques": [
+    "Hamiltonian-matrix invariant subspaces for the algebraic Riccati equation",
+    "selection of the stabilizing solution",
+    "discrete-time Riccati equation and Kalman duality",
+    "return-difference identity and symmetric root locus",
+    "cheap- and expensive-control limits",
+    "closed-form finite-horizon Riccati ODE solutions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "matrix",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Hamilton\u2013Jacobi equations and Hopf\u2013Lax formulas",
+   "scope": "Problems ask for viscosity-solution values at given points, kink locations, or the first time differentiability is lost, for first-order HJ equations with convex or nonconvex Hamiltonians. They are hard because characteristics cross and the correct selection principle has to be applied.",
+   "techniques": [
+    "Hopf\u2013Lax inf-convolution with the Legendre transform",
+    "Hopf formula for convex initial data",
+    "characteristics and gradient blow-up time",
+    "viscosity sub- and supersolution tests at kinks",
+    "Legendre\u2013Fenchel duality",
+    "dynamic-programming reading as minimal-time or distance functions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "piecewise-defined function"
+   ]
+  },
+  {
+   "leaf": "Riemann problems for hyperbolic conservation laws",
+   "scope": "Problems ask for wave speeds, intermediate states or interaction times in Riemann and piecewise-constant initial-value problems for scalar laws (including nonconvex and traffic fluxes) and small systems. They are hard because the right entropy conditions must be applied and the wave interactions followed exactly.",
+   "techniques": [
+    "Rankine\u2013Hugoniot and Lax entropy conditions",
+    "Oleinik convex-hull construction for nonconvex fluxes",
+    "Riemann invariants and rarefaction curves for 2x2 systems",
+    "timing of shock\u2013rarefaction interactions",
+    "front tracking",
+    "equal-area rule for N-waves"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple of states"
+   ]
+  },
+  {
+   "leaf": "Speeds of traveling fronts in reaction\u2013diffusion",
+   "scope": "Problems ask for the minimal or unique speeds of fronts and pulses in scalar or coupled reaction\u2013diffusion equations, including whether a front is pushed or pulled and whether it has an exact profile. They are hard because the speed predicted by linearization is not always the one selected.",
+   "techniques": [
+    "linear spreading speed and marginal stability",
+    "phase-plane heteroclinic connections",
+    "exact polynomial or tanh profiles for bistable kinetics",
+    "Hadeler\u2013Rothe variational speed characterization",
+    "pushed-front criteria from explicit heteroclinics",
+    "Evans-function stability of fronts"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Turing instability and pattern selection",
+   "scope": "Problems ask for critical diffusion ratios, critical wavenumbers, the number of unstable modes on bounded domains or networks, or which planform appears for given kinetics. They are hard because the diffusion-driven instability conditions have to be combined with the discrete spectrum of the domain.",
+   "techniques": [
+    "Jacobian sign patterns with trace and determinant conditions",
+    "minimizing the dispersion relation in k squared",
+    "Neumann eigenmodes of intervals, rectangles and discs",
+    "Landau coefficients from weakly nonlinear amplitude equations",
+    "network Turing instability through Laplacian eigenvalues",
+    "cross-diffusion effects"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "rational number",
+    "small set of mode indices"
+   ]
+  },
+  {
+   "leaf": "Linear hydrodynamic stability thresholds",
+   "scope": "Problems ask for critical Rayleigh, Taylor or Richardson numbers and critical wavenumbers of idealized flows whose perturbation equations can be solved exactly, such as free-slip layers or piecewise-linear profiles. They are hard because the solver must choose the right perturbation class and boundary conditions.",
+   "techniques": [
+    "normal modes and Squire's theorem",
+    "Rayleigh inflection-point and Fj\u00f8rtoft criteria",
+    "dispersion relations for piecewise-linear shear profiles",
+    "Miles\u2013Howard Richardson-number criterion",
+    "Rayleigh\u2013B\u00e9nard convection with stress-free boundaries",
+    "energy method for global stability bounds"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Lubrication theory and low-Reynolds-number flow",
+   "scope": "Problems ask for forces, torques, fluxes or film profiles in thin-film flows, slider bearings, squeeze films and Stokes flows past simple bodies. They are hard because the reduced equations must be solved exactly with the correct edge and far-field conditions.",
+   "techniques": [
+    "Reynolds lubrication equation",
+    "squeeze-film force integrals",
+    "Stokeslets and image systems near walls",
+    "Lorentz reciprocal theorem",
+    "Jeffery\u2013Hamel flows and Moffatt corner eddies",
+    "similarity solutions of viscous gravity currents"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational multiple of pi",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Conformal mapping for planar potential problems",
+   "scope": "Problems ask for lift, capacitance, field strength, flux or stagnation-point positions in 2D Laplace problems on polygonal, slit or multiply connected domains. They are hard because composite maps have to be built and every singularity accounted for.",
+   "techniques": [
+    "Schwarz\u2013Christoffel maps",
+    "Joukowski transform with the Kutta condition",
+    "Milne-Thomson circle theorem",
+    "images in the mapped domain",
+    "conformal modulus of quadrilaterals via elliptic integrals",
+    "Blasius force and moment theorems"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "complex number"
+   ]
+  },
+  {
+   "leaf": "Linear water-wave dispersion and wave kinematics",
+   "scope": "Problems ask for phase and group velocities, wake angles under modified dispersion, trapped edge-wave frequencies or energy fluxes for surface and internal waves. They are hard because capillarity, finite depth, currents and stratification interact.",
+   "techniques": [
+    "finite-depth dispersion relation with surface tension",
+    "group velocity and stationary-phase wake patterns",
+    "Doppler-shifted dispersion on currents",
+    "Stokes and Ursell edge waves on sloping beaches",
+    "internal-wave dispersion with buoyancy frequency",
+    "conservation of wave action"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "angle in radians or degrees",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Inverse scattering and soliton content",
+   "scope": "Problems ask how many solitons emerge from given initial data for KdV, NLS or Toda-type equations, and their amplitudes, phase shifts or reflectionless potentials. They are hard because the associated spectral problem must be solved exactly and the Lax structure used correctly.",
+   "techniques": [
+    "bound states of sech-squared and step potentials",
+    "Zakharov\u2013Shabat spectrum",
+    "Gelfand\u2013Levitan\u2013Marchenko equation",
+    "Hirota bilinear N-soliton phase shifts",
+    "trace formulas linking conserved quantities to the spectrum",
+    "B\u00e4cklund and Darboux transformations"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "ordered tuple of amplitudes"
+   ]
+  },
+  {
+   "leaf": "Green's functions for nonstandard boundary-value problems",
+   "scope": "Problems ask the solver to build Green's functions for ODE or PDE operators with mixed, periodic or nonlocal boundary conditions and to evaluate them at given points or in integrals. They are hard because zero modes call for modified Green's functions and solvability constraints.",
+   "techniques": [
+    "eigenfunction expansions",
+    "images in wedges and strips",
+    "modified Green's functions and the Fredholm alternative",
+    "Fourier and Hankel transform constructions",
+    "jump conditions at the source",
+    "lattice-sum evaluation of periodic Green's functions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "explicit function"
+   ]
+  },
+  {
+   "leaf": "Sturm\u2013Liouville spectra and eigenvalue bounds",
+   "scope": "Problems ask for exact eigenvalues, eigenvalue counts or sharp Rayleigh-quotient bounds for Sturm\u2013Liouville problems with piecewise coefficients, indefinite weights or eigenparameter-dependent boundary conditions. They are hard because oscillation theory and transcendental characteristic equations interact.",
+   "techniques": [
+    "Pr\u00fcfer angle and oscillation counting",
+    "transcendental characteristic equations",
+    "Rayleigh\u2013Ritz and min-max principles",
+    "Weyl asymptotics",
+    "eigenvalue interlacing when boundary conditions change",
+    "Liouville normal-form transformation"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Exactly solvable Fredholm and Volterra equations",
+   "scope": "Problems ask for exact solutions, characteristic values or solvability conditions of integral equations with degenerate, difference or Abel kernels. They are hard because the solver has to spot the reduction to linear algebra, transforms or an ODE.",
+   "techniques": [
+    "reduction of degenerate kernels to linear systems",
+    "resolvent kernels and Neumann series",
+    "Laplace transforms for convolution Volterra equations",
+    "Abel inversion",
+    "reduction to an ODE by differentiation",
+    "Fredholm alternative"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "explicit function",
+    "small set of characteristic values"
+   ]
+  },
+  {
+   "leaf": "Wiener\u2013Hopf factorization for mixed boundary problems",
+   "scope": "Problems ask for factorized kernels, edge exponents or far-field coefficients in diffraction by half-planes, semi-infinite plates and other mixed boundary problems. They are hard because exact factorization and correct edge conditions are both required.",
+   "techniques": [
+    "Fourier transform to half-line functional equations",
+    "product factorization of meromorphic kernels",
+    "Liouville's theorem with edge conditions",
+    "Cauchy-integral additive splitting",
+    "Sommerfeld half-plane diffraction",
+    "Gamma-function factorization of trigonometric kernels"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational exponent",
+    "real constant"
+   ]
+  },
+  {
+   "leaf": "Similarity solutions of nonlinear diffusion and Stefan problems",
+   "scope": "Problems ask for self-similar profiles, scaling exponents or interface positions in porous-medium, thin-film and phase-change problems. They are hard because similarity of the second kind turns the exponents into a nonlinear eigenvalue problem.",
+   "techniques": [
+    "scaling-group invariance",
+    "Barenblatt-type source solutions",
+    "Neumann solutions of the Stefan problem with transcendental equations",
+    "second-kind similarity exponents as nonlinear eigenvalues",
+    "waiting-time phenomena at free boundaries",
+    "conservation laws fixing similarity constants"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational exponent",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Normal forms and Hopf bifurcation coefficients",
+   "scope": "Problems ask for first Lyapunov coefficients, normal-form coefficients, criticality, or codimension-two unfoldings of planar and three-dimensional vector fields. They are hard because center-manifold reduction and the multilinear algebra are long and unforgiving.",
+   "techniques": [
+    "center-manifold reduction",
+    "Poincar\u00e9 normal forms with resonances",
+    "Kuznetsov's first Lyapunov coefficient formula",
+    "Bogdanov\u2013Takens and cusp unfoldings",
+    "Melnikov integrals for homoclinic bifurcation",
+    "degenerate Hopf and Bautin points"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "word (supercritical or subcritical)"
+   ]
+  },
+  {
+   "leaf": "Stability switches in delay differential equations",
+   "scope": "Problems ask for critical delays, crossing frequencies or the number of stability switches in linear and linearized DDEs. They are hard because the characteristic quasipolynomial has infinitely many roots, so crossing directions must be tracked carefully.",
+   "techniques": [
+    "D-subdivision and imaginary-axis crossing analysis",
+    "Lambert W solutions of scalar DDEs",
+    "crossing direction from the sign of dRe(lambda)/dtau",
+    "Hayes stability theorem",
+    "linear chain trick for distributed delays",
+    "Pontryagin's theory of quasipolynomials"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Floquet theory and parametric resonance",
+   "scope": "Problems ask for stability boundaries, Floquet multipliers or stabilization thresholds for Hill-type equations with smooth or piecewise-constant periodic coefficients, including inverted-pendulum stabilization. They are hard because monodromy matrices and transition curves have to be computed exactly.",
+   "techniques": [
+    "monodromy matrix and trace criterion",
+    "exact monodromy for piecewise-constant coefficients",
+    "perturbative transition curves of resonance tongues",
+    "Kapitza averaging of fast forcing",
+    "Floquet exponents via Lyapunov reduction",
+    "Hill determinants"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "interval endpoints",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Reproduction numbers for compartmental epidemic models",
+   "scope": "Problems ask for R0, type reproduction numbers, final epidemic sizes or backward-bifurcation thresholds in multi-group, vector-borne, staged-progression or metapopulation models. They are hard because the next-generation decomposition is subtle and the spectral radii involve structured matrices.",
+   "techniques": [
+    "van den Driessche\u2013Watmough next-generation matrix",
+    "spectral radius of block-structured matrices",
+    "final-size relation via Lambert W",
+    "type reproduction numbers",
+    "backward bifurcation conditions",
+    "metapopulation coupling matrices"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Reaction network deficiency and multistationarity",
+   "scope": "Problems ask for deficiencies, linkage classes, whether multiple steady states are possible, or exact steady-state counts for mass-action networks. They are hard because combinatorial network structure and polynomial algebra have to be combined.",
+   "techniques": [
+    "deficiency zero and deficiency one theorems",
+    "stoichiometric subspace and compatibility classes",
+    "complex balancing",
+    "injectivity and Jacobian sign criteria",
+    "steady-state polynomials with Descartes' rule of signs",
+    "toric steady states"
+   ],
+   "answer_forms": [
+    "integer",
+    "word (yes or no)",
+    "polynomial",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "First-passage quantities in finite Markov chains",
+   "scope": "Problems ask for expected hitting times, absorption probabilities, commute times or Kemeny constants in structured finite chains. They are hard because symmetry reductions or electrical-network identities are needed to keep the computation small.",
+   "techniques": [
+    "fundamental matrix of absorbing chains",
+    "first-step analysis",
+    "commute-time and effective-resistance identity",
+    "Kemeny's constant",
+    "lumping and symmetry reduction",
+    "martingales and optional stopping"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Queueing systems and product-form networks",
+   "scope": "Problems ask for steady-state means, waiting-time transforms or blocking probabilities in single-server, multi-server, priority and networked queues. They are hard because exact transform manipulations and decomposition results are required.",
+   "techniques": [
+    "Pollaczek\u2013Khinchine formula",
+    "Little's law",
+    "Erlang B and C formulas",
+    "Jackson traffic equations and product form",
+    "Laplace\u2013Stieltjes transforms of busy periods",
+    "vacation and priority decompositions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Exit problems for diffusions via It\u00f4 calculus",
+   "scope": "Problems ask for expected exit times, exit-location distributions or Laplace transforms of hitting times for one- and multi-dimensional diffusions. They are hard because the right boundary-value problem must be set up and solved exactly.",
+   "techniques": [
+    "Dynkin's formula",
+    "Feynman\u2013Kac representation",
+    "scale functions and speed measures",
+    "Doob h-transforms",
+    "Girsanov change of measure",
+    "Kolmogorov backward equation"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Rare-event asymptotics and quasipotentials",
+   "scope": "Problems ask for Kramers escape rates, Eyring\u2013Kramers prefactors, quasipotentials of non-gradient systems, or mean extinction times of birth\u2013death processes. They are hard because both the exponent and the prefactor must be correct.",
+   "techniques": [
+    "Freidlin\u2013Wentzell action functional",
+    "Eyring\u2013Kramers formula with Hessian determinants",
+    "orthogonal decomposition for non-gradient drifts",
+    "WKB for master equations",
+    "minimum-action paths",
+    "Laplace-method prefactors"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Linear programming duality and sensitivity",
+   "scope": "Problems ask for optimal values, dual prices, ranging intervals or vertex counts for structured parametric linear programs. They are hard because optimality has to be certified by a matching dual solution for a whole family of instances.",
+   "techniques": [
+    "weak and strong duality certificates",
+    "complementary slackness",
+    "parametric right-hand-side and cost ranging",
+    "total unimodularity",
+    "vertex enumeration of structured polytopes",
+    "Farkas lemma"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "KKT analysis of nonlinear convex programs",
+   "scope": "Problems ask for closed-form optima and multipliers of convex programs such as water-filling, simplex projections, entropy maximization or norm-constrained regressions. They are hard because the active set has to be identified exactly.",
+   "techniques": [
+    "KKT conditions and active-set identification",
+    "Fenchel conjugates",
+    "water-filling solutions",
+    "Slater constraint qualification",
+    "perspective functions and log-barriers",
+    "Lagrangian dual and duality gap"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "vector"
+   ]
+  },
+  {
+   "leaf": "Semidefinite relaxations of quadratic programs",
+   "scope": "Problems ask for optimal values or tightness of Shor and sum-of-squares relaxations of small QCQPs or structured quadratic forms. They are hard because the claim needs explicit primal and dual certificates.",
+   "techniques": [
+    "Shor relaxation",
+    "S-lemma",
+    "construction of dual certificate matrices",
+    "Pataki\u2013Barvinok rank bounds",
+    "Goemans\u2013Williamson-type rounding",
+    "sum-of-squares Gram matrices"
+   ],
+   "answer_forms": [
+    "real number",
+    "closed-form expression",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Markov decision processes and optimal stopping",
+   "scope": "Problems ask for optimal values, thresholds or policies of discounted or average-cost MDPs and of stopping problems for random walks or diffusions with running costs. They are hard because the Bellman equation must be solved exactly and the policy shown to be optimal.",
+   "techniques": [
+    "Bellman optimality equations",
+    "value and policy iteration",
+    "threshold-policy structure",
+    "Snell envelope",
+    "one-step look-ahead rules for monotone problems",
+    "relative value functions for average cost"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer threshold"
+   ]
+  },
+  {
+   "leaf": "Order conditions and stability of ODE integrators",
+   "scope": "Problems ask for the order, stability-region features, A- or L-stability, or the largest stable step for Runge\u2013Kutta, multistep or exponential integrators. They are hard because rooted-tree conditions and boundary-locus geometry are involved.",
+   "techniques": [
+    "Butcher rooted-tree order conditions",
+    "stability function R(z)",
+    "boundary-locus method",
+    "Dahlquist barriers",
+    "root condition for zero-stability",
+    "stiff decay and L-stability"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "closed-form expression",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Von Neumann analysis and modified equations",
+   "scope": "Problems ask for CFL limits, amplification factors, numerical dispersion and dissipation, or the coefficients of the modified PDE of a finite-difference scheme. They are hard because Fourier symbols and high-order Taylor bookkeeping have to be handled exactly.",
+   "techniques": [
+    "amplification-factor analysis",
+    "modified equations via Taylor expansion",
+    "Lax equivalence theorem",
+    "GKS boundary stability",
+    "group velocity of discrete schemes",
+    "Strang-splitting error terms"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Gaussian quadrature for nonclassical weights",
+   "scope": "Problems ask for nodes, weights or error constants of Gauss, Gauss\u2013Radau, Gauss\u2013Lobatto or Kronrod rules for unusual weight functions. They are hard because recurrence coefficients have to be derived from moments.",
+   "techniques": [
+    "three-term recurrences",
+    "Golub\u2013Welsch Jacobi matrix",
+    "Christoffel numbers",
+    "Peano-kernel error constants",
+    "modified Chebyshev moments",
+    "Christoffel\u2013Darboux formula"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Minimax polynomial and rational approximation",
+   "scope": "Problems ask for best uniform approximation errors, equioscillation points, Lebesgue constants or geometric convergence rates for specific functions on intervals. They are hard because the extremal structure has to be identified exactly.",
+   "techniques": [
+    "Chebyshev equioscillation theorem",
+    "Remez exchange",
+    "extremal properties of Chebyshev polynomials",
+    "Zolotarev rational approximations via elliptic functions",
+    "Bernstein-ellipse convergence rates",
+    "de la Vall\u00e9e Poussin lower bounds"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Convergence rates of stationary and Krylov solvers",
+   "scope": "Problems ask for spectral radii, optimal relaxation parameters, Krylov iteration bounds or multigrid smoothing factors for model discretized operators. They are hard because the spectra must be computed exactly and the right convergence theory applied.",
+   "techniques": [
+    "Young's SOR theory for consistently ordered matrices",
+    "Jacobi iteration spectra for model Laplacians",
+    "Chebyshev-polynomial bounds for conjugate gradients",
+    "GMRES for normal versus nonnormal matrices",
+    "local Fourier analysis of smoothers",
+    "spectral clustering under preconditioning"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Finite element matrices and error constants",
+   "scope": "Problems ask for stiffness or mass matrix entries, discrete eigenvalues, superconvergence points or inf-sup constants for simple meshes and element families. They are hard because element integrals and discrete spectra must be exact.",
+   "techniques": [
+    "element stiffness and mass assembly",
+    "Galerkin orthogonality and C\u00e9a's lemma",
+    "discrete versus continuous eigenvalue comparison",
+    "inf-sup stability of mixed elements",
+    "superconvergence at Gauss points",
+    "Aubin\u2013Nitsche duality"
+   ],
+   "answer_forms": [
+    "rational number",
+    "matrix",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Wavelet filter design and multiresolution",
+   "scope": "Problems ask for filter coefficients, regularity exponents, scaling-function moments or exact values at dyadic points for compactly supported wavelets. They are hard because the algebraic constraints have to be solved exactly and the refinement equation analysed.",
+   "techniques": [
+    "quadrature-mirror and orthogonality conditions",
+    "vanishing moments as polynomial factors",
+    "Bezout-based spectral factorization",
+    "eigenvector computation of dyadic values",
+    "transfer-operator Sobolev regularity",
+    "lifting for biorthogonal wavelets"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered tuple of filter coefficients"
+   ]
+  },
+  {
+   "leaf": "Sparse recovery guarantees for small matrices",
+   "scope": "Problems ask for the spark, mutual coherence, restricted isometry constants or null-space-property thresholds of explicit matrices or frames. They are hard because the combinatorial checks have to be exact and the bounds sharp.",
+   "techniques": [
+    "spark and uniqueness of sparse solutions",
+    "coherence-based recovery bounds",
+    "null space property",
+    "Welch bound and equiangular tight frames",
+    "dual certificates for basis pursuit",
+    "Donoho\u2013Tanner neighborliness of polytopes"
+   ],
+   "answer_forms": [
+    "integer",
+    "real number",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Regularization of ill-posed linear inverse problems",
+   "scope": "Problems ask for singular systems of integral operators, degrees of ill-posedness, optimal Tikhonov parameters or convergence rates under source conditions, including Radon-type transforms. They are hard because operator spectra and regularization theory have to be combined.",
+   "techniques": [
+    "singular value decomposition of compact operators",
+    "Picard condition",
+    "Tikhonov filter factors and the discrepancy principle",
+    "L-curve analysis",
+    "Fourier slice theorem for the Radon transform",
+    "source conditions and rate saturation"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational exponent",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Optimal transport with explicit costs",
+   "scope": "Problems ask for Wasserstein distances, optimal maps or optimal plans between one-dimensional, Gaussian or discrete measures under standard or nonstandard costs. They are hard because optimality has to be certified through duality or cyclical monotonicity.",
+   "techniques": [
+    "quantile coupling in one dimension",
+    "Bures\u2013Wasserstein formula for Gaussians",
+    "Brenier's theorem",
+    "c-cyclical monotonicity",
+    "Kantorovich duality potentials",
+    "Sinkhorn fixed points of entropic transport"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "permutation"
+   ]
+  },
+  {
+   "leaf": "Option pricing PDEs and free boundaries",
+   "scope": "Problems ask for prices, Greeks or early-exercise boundaries of perpetual, barrier, lookback or exotic options under Black\u2013Scholes-type dynamics. They are hard because free-boundary conditions and transform techniques must be used exactly.",
+   "techniques": [
+    "reduction of Black\u2013Scholes to the heat equation",
+    "risk-neutral valuation and Girsanov",
+    "smooth pasting for perpetual American options",
+    "reflection principle for barrier options",
+    "binomial-tree limits",
+    "put-call symmetry"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Elastic buckling and beam eigenproblems",
+   "scope": "Problems ask for critical loads, mode numbers or vibration frequencies of columns and beams with nonstandard supports, elastic foundations, variable stiffness or self-weight. They are hard because of transcendental eigenvalue equations and mode switching.",
+   "techniques": [
+    "Euler\u2013Bernoulli eigenvalue problems",
+    "mode switching on elastic foundations",
+    "Rayleigh\u2013Ritz energy estimates",
+    "Bessel-function solutions for self-weight buckling",
+    "Koiter imperfection sensitivity",
+    "elliptic-integral elastica solutions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "integer mode number"
+   ]
+  },
+  {
+   "leaf": "Consensus and diffusion dynamics on graphs",
+   "scope": "Problems ask for consensus convergence rates, algebraic connectivity, effective resistances or optimal edge weights on structured graph families. They are hard because the Laplacian spectra must be computed exactly and the optimization over weights solved.",
+   "techniques": [
+    "Laplacian spectra of circulant and product graphs",
+    "Fiedler value",
+    "fastest-mixing optimal edge weights",
+    "Kron reduction",
+    "effective resistance via the Laplacian pseudoinverse",
+    "matrix-tree theorem"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Symplectic integrators and modified Hamiltonians",
+   "scope": "Problems ask for modified-Hamiltonian terms, orders of composition schemes, energy-error coefficients or stability limits of geometric integrators. They are hard because nested Lie brackets and backward error analysis have to be computed exactly.",
+   "techniques": [
+    "Baker\u2013Campbell\u2013Hausdorff expansion",
+    "Lie\u2013Trotter, Strang and Yoshida compositions",
+    "backward error analysis",
+    "symplecticity conditions for Runge\u2013Kutta methods",
+    "linear stability of St\u00f6rmer\u2013Verlet",
+    "preservation of quadratic invariants"
+   ],
+   "answer_forms": [
+    "polynomial",
+    "rational number",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Invariant densities and Lyapunov exponents of interval maps",
+   "scope": "Problems ask for invariant densities, Lyapunov exponents, topological entropies or periodic-orbit counts of piecewise expanding or unimodal interval maps. They are hard because the transfer operator and the symbolic structure must be found exactly.",
+   "techniques": [
+    "Perron\u2013Frobenius transfer operator",
+    "Markov partitions and transition matrices",
+    "conjugacy to tent or doubling maps",
+    "kneading theory",
+    "topological entropy as the log of a spectral radius",
+    "Birkhoff averages"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Dimensional analysis and scaling-law exponents",
+   "scope": "Problems describe a physical setup with its governing variables and ask for the number of independent dimensionless groups, the exponent in a scaling law, or a self-similar exponent once extra physical constraints are added. They are hard because simple Pi-theorem counting is not enough: it has to be combined with conservation laws, dominant balances and the recognition that some parameters drop out in an intermediate-asymptotic regime.",
+   "techniques": [
+    "Rank of the dimension matrix in the Buckingham Pi theorem",
+    "Directional (vector) length dimensions to separate otherwise merged groups",
+    "Fixing exponents with a conserved integral quantity",
+    "Incomplete similarity and second-kind self-similar exponents",
+    "Dominant balance of terms in the governing equations to remove a parameter"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple of exponents",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Coagulation\u2013fragmentation kinetics and gelation times",
+   "scope": "Problems ask for exact cluster-size distributions, moments, gelation times or equilibrium distributions of Smoluchowski-type coagulation and fragmentation equations with given kernels and initial data. They are hard because the infinite nonlinear system has to be reduced through transforms, and mass loss after gelation has to be handled carefully.",
+   "techniques": [
+    "Generating-function transform turning the system into an inviscid Burgers-type PDE",
+    "Closed moment equations for constant, additive and multiplicative kernels",
+    "Lagrange inversion to recover individual cluster concentrations",
+    "Method of characteristics for the transformed equation and blow-up of the second moment",
+    "Detailed balance for coagulation\u2013fragmentation equilibria",
+    "Self-similar scaling profiles and their large-size tails"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "formula for the k-th cluster concentration"
+   ]
+  },
+  {
+   "leaf": "Phase-oscillator synchronization and locking thresholds",
+   "scope": "Problems ask for critical couplings at the onset of partial synchrony or full phase locking, values of the order parameter, or the stability of locked and twisted states, for finite or infinite populations of Kuramoto-type oscillators with given frequency distributions, phase lags or network structure. They are hard because self-consistency equations and stability spectra must be solved exactly rather than estimated.",
+   "techniques": [
+    "Self-consistency equation for the complex order parameter",
+    "Ott\u2013Antonsen low-dimensional reduction for rational frequency densities",
+    "Necessary and sufficient full-locking bounds for finite populations",
+    "Jacobian at a locked state as a weighted graph Laplacian",
+    "Stability of twisted states on circulant ring networks",
+    "Phase-lag (Sakaguchi) shifts of the locking condition"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "real number in closed form"
+   ]
+  },
+  {
+   "leaf": "Point-vortex relative equilibria and stability",
+   "scope": "Problems ask for rotation or translation rates, admissible configurations, conserved invariants, collapse conditions or linear stability of finite systems of point vortices in the plane, in bounded domains or on the sphere. They are hard because the Hamiltonian structure, image systems and conserved quantities must be combined with eigenvalue computations for nonstandard matrices.",
+   "techniques": [
+    "Kirchhoff Hamiltonian, center of vorticity and angular impulse invariants",
+    "Polynomial methods for stationary and uniformly rotating configurations",
+    "Method of images and the Kirchhoff\u2013Routh path function in bounded domains",
+    "Linear stability of polygonal rings with or without a central vortex",
+    "Self-similar collapse conditions derived from the invariants"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "small set of circulation ratios"
+   ]
+  },
+  {
+   "leaf": "Taylor\u2013Aris shear dispersion coefficients",
+   "scope": "Problems ask for the exact effective longitudinal dispersion coefficient of a solute carried by a laminar flow with a prescribed profile in a channel, pipe or unusual cross-section, possibly with wall reactions, adsorption, oscillatory forcing or non-Newtonian rheology. They are hard because the cross-sectional cell problem has to be solved and nontrivial weighted integrals evaluated exactly.",
+   "techniques": [
+    "Reduction to a cross-sectional cell problem by homogenization or center-manifold arguments",
+    "Solving the Neumann Poisson problem for the deviation field",
+    "Aris method of moments for the variance growth rate",
+    "Effective velocity and dispersion shifts from boundary reactions or adsorption",
+    "Period-averaged dispersion for oscillatory (Womersley-type) flows",
+    "Power-law fluid velocity profiles in the dispersion integral"
+   ],
+   "answer_forms": [
+    "rational number (coefficient of the P\u00e9clet-squared term)",
+    "closed-form expression",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Age-structured population growth and Euler\u2013Lotka analysis",
+   "scope": "Problems give survival and fecundity schedules, either continuous or as Leslie/stage matrices, and ask for intrinsic growth rates, stable age distributions, reproductive values, elasticities or generation times. They are hard because characteristic equations and eigenvalue perturbation formulas must be evaluated exactly for nontrivial schedules, and periodicity of the matrix has to be detected.",
+   "techniques": [
+    "Euler\u2013Lotka characteristic equation and its unique real root",
+    "Perron\u2013Frobenius theory and imprimitivity index of Leslie matrices",
+    "Eigenvalue sensitivities and elasticities from left and right eigenvectors",
+    "McKendrick\u2013von Foerster PDE solved along characteristics",
+    "Sign relation between the net reproductive number and the growth rate",
+    "Stage-structured (Lefkovitch) projection matrices"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "vector (stable distribution)",
+    "integer (period)"
+   ]
+  },
+  {
+   "leaf": "Replicator dynamics and evolutionarily stable strategies",
+   "scope": "For given payoff matrices or continuous-strategy games, problems ask for the ESSs, the number and stability of rest points, Lyapunov functions, or the long-run behaviour of replicator and best-response dynamics. They are hard because ESS, Nash equilibrium and asymptotic stability differ in subtle ways, and dynamics in higher dimensions can cycle or approach heteroclinic networks.",
+   "techniques": [
+    "ESS conditions and local superiority against nearby mutants",
+    "Folk theorem of evolutionary game theory linking Nash, ESS and replicator stability",
+    "Relative-entropy Lyapunov functions and permanence criteria",
+    "Equivalence of replicator dynamics with Lotka\u2013Volterra systems",
+    "Index theory for counting interior rest points",
+    "Stability of heteroclinic cycles in cyclic-dominance games"
+   ],
+   "answer_forms": [
+    "small set (ESS support)",
+    "ordered tuple of strategy frequencies",
+    "rational number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Wardrop equilibria and price of anarchy",
+   "scope": "Problems ask for user equilibria and system optima on specified networks with given latency functions, demands or tolls, and for the resulting price of anarchy or efficient toll vectors. They are hard because the set of used paths changes with demand, and the equilibrium conditions are variational inequalities rather than simple equations.",
+   "techniques": [
+    "Beckmann potential convex program for nonatomic equilibria",
+    "Marginal-cost pricing to make equilibrium coincide with the system optimum",
+    "Enumerating the support of used paths and checking the equal-cost condition",
+    "Pigou-type worst-case bounds for restricted latency classes",
+    "Parametric analysis of equilibria as demand varies",
+    "Rosenthal potential for atomic congestion games"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple of path or edge flows"
+   ]
+  },
+  {
+   "leaf": "Structural identifiability of compartmental ODE models",
+   "scope": "Problems ask which parameters, or combinations of parameters, of pharmacokinetic, compartmental or biochemical ODE models are globally or locally identifiable from specified inputs and outputs. They are hard because unobserved states have to be eliminated and the coefficients of the resulting input\u2013output equations analysed exactly.",
+   "techniques": [
+    "Input\u2013output equations obtained by differential elimination",
+    "Transfer-function coefficient matching for linear compartment models",
+    "Taylor-series (Markov-parameter) approach",
+    "Similarity-transformation approach for linear systems",
+    "Lie-symmetry scaling invariances revealing unidentifiable directions",
+    "Counting algebraically independent identifiable combinations"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of parameter combinations",
+    "name of identifiability status",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Controllability, observability and pole placement",
+   "scope": "For linear systems, possibly parametrized or structured by a graph, problems ask whether the system is controllable or observable, for the minimal number of actuators or sensors, for Gramians and minimum-energy control costs, or for feedback gains that place the poles. They are hard because the rank conditions must be argued exactly for symbolic or structured matrices rather than checked numerically.",
+   "techniques": [
+    "Kalman rank test and Popov\u2013Belevitch\u2013Hautus eigenvector test",
+    "Ackermann's formula for single-input pole placement",
+    "Controllability Gramian and minimum-energy steering cost",
+    "Structural controllability via maximum matchings and dilations",
+    "Kalman canonical decomposition",
+    "Duality between observer design and state feedback"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "vector or matrix of gains",
+    "small set of parameter values"
+   ]
+  },
+  {
+   "leaf": "Inverse spectral problems for Jacobi matrices",
+   "scope": "Problems ask for the masses and spring constants of a vibrating chain, or the entries of a Jacobi matrix, from spectral data such as two interlacing spectra or eigenvalues with normalizing constants, or ask whether such a reconstruction exists or is unique. They are hard because continued-fraction or Lanczos reconstruction has to be carried out exactly and interlacing and positivity constraints checked.",
+   "techniques": [
+    "Lanczos reconstruction from a discrete spectral measure",
+    "Continued-fraction expansion of the Weyl m-function",
+    "Cauchy interlacing as an existence criterion",
+    "Persymmetric Jacobi matrices determined by a single spectrum",
+    "Two-spectra reconstruction with fixed and free end conditions",
+    "Three-term recurrence of the associated orthogonal polynomials"
+   ],
+   "answer_forms": [
+    "ordered tuple",
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Pad\u00e9 approximants and series acceleration",
+   "scope": "Problems ask for Pad\u00e9 approximants of given series, their poles and zeros, or the output of sequence transformations (Shanks, Wynn epsilon, Richardson, Levin, Borel\u2013Pad\u00e9) on given sequences, together with exact values, error orders or limits. They are hard because they require Hankel determinants, continued fractions and analysis of spurious poles, not just routine computation.",
+   "techniques": [
+    "Hankel determinant formulas for Pad\u00e9 denominators",
+    "Wynn epsilon algorithm and its link to the Shanks transform",
+    "Convergence of diagonal sequences for Stieltjes series",
+    "Richardson extrapolation with a known error expansion",
+    "Borel summation followed by Pad\u00e9 continuation of divergent series",
+    "Froissart doublets and pole\u2013zero cancellation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "rational function",
+    "integer (order of accuracy)",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Airy stress functions in plane elasticity",
+   "scope": "Problems ask for stress concentration factors, displacements at given points, or corner singularity exponents in specific two-dimensional elastic geometries and loadings, using biharmonic stress functions or complex potentials. They are hard because compatibility and traction boundary conditions require careful polynomial, Fourier or complex-variable bookkeeping.",
+   "techniques": [
+    "Polynomial stress functions for rectangular beams with Saint-Venant end conditions",
+    "Michell general solution in polar coordinates",
+    "Kolosov\u2013Muskhelishvili complex potentials and conformal maps of holes",
+    "Williams eigenfunction expansion and transcendental equations at wedge corners",
+    "Conversion between plane-stress and plane-strain elastic constants"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Rounding-error and conditioning analysis",
+   "scope": "Problems ask for condition numbers, backward-error bounds, growth factors, or the exact floating-point result of a specified algorithm on specified inputs in IEEE arithmetic. They are hard because rounding, cancellation and worst-case structure must be tracked exactly instead of estimated.",
+   "techniques": [
+    "Componentwise (Skeel) versus normwise condition numbers",
+    "Growth factors of Gaussian elimination under different pivoting strategies",
+    "Oettli\u2013Prager componentwise backward error",
+    "Error bounds for compensated (Kahan) and pairwise summation",
+    "Exact simulation of IEEE binary64 round-to-nearest-even, including subnormals",
+    "Sterbenz lemma for exact subtraction"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "exact floating-point value",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Variance reduction for Monte Carlo estimators",
+   "scope": "Problems ask for exact variances, optimal parameters or efficiency ratios of importance sampling, control variates, antithetic or stratified sampling, multilevel schemes or quasi-Monte Carlo rules applied to given integrands. They are hard because each optimal choice comes from solving a variance-minimization problem exactly, and the competing schemes must then be compared exactly.",
+   "techniques": [
+    "Optimal control-variate coefficient and the resulting variance reduction",
+    "Exponential tilting and zero-variance importance densities",
+    "Neyman allocation in stratified sampling",
+    "Antithetic variates for monotone integrands",
+    "Cost\u2013variance balancing across levels in multilevel Monte Carlo",
+    "Discrepancy of rank-1 lattice rules and the Koksma\u2013Hlawka inequality"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer (sample allocation)",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Generating functions for chemical master equations",
+   "scope": "For stochastic reaction networks such as birth\u2013death processes, bursty or telegraph gene expression and dimerization, problems ask for exact stationary distributions, moments, Fano factors or correlation functions. They are hard because the generating-function PDEs lead to special functions, and mean-field or linear-noise approximations give wrong answers.",
+   "techniques": [
+    "Probability generating function turning the master equation into a PDE",
+    "Method of characteristics for linear propensities",
+    "Kummer confluent hypergeometric solutions for two-state promoter models",
+    "Exact moment closure when propensities are linear",
+    "Poisson representation of the master equation",
+    "Product-form Poisson stationary laws for complex-balanced networks"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "probability mass function formula"
+   ]
+  },
+  {
+   "leaf": "Explicit solutions of total-variation denoising",
+   "scope": "Problems ask for exact minimizers of the ROF functional or exact solutions of total-variation flow for piecewise-constant data such as indicators of disks, squares or annuli, together with the loss of contrast, the critical regularization parameter at which a feature vanishes, or extinction times. They are hard because they depend on calibrable and Cheeger-set analysis and on characterizing the subdifferential of total variation.",
+   "techniques": [
+    "Subdifferential of total variation via bounded divergence vector fields",
+    "Calibrable sets and the perimeter-to-area ratio",
+    "Cheeger sets and corner rounding for non-convex or polygonal shapes",
+    "Taut-string characterization of one-dimensional solutions",
+    "Meyer G-norm threshold for complete removal of a feature",
+    "Extinction times of total-variation flow"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number",
+    "piecewise-defined function"
+   ]
+  },
+  {
+   "leaf": "Linear-quadratic mean field games",
+   "scope": "Problems ask for the equilibrium mean trajectory, feedback gains, existence or uniqueness thresholds, or the efficiency gap between the Nash equilibrium and the social optimum in linear-quadratic mean field games and mean-field control problems. They are hard because they involve coupled forward\u2013backward Riccati systems and a fixed-point condition on the population mean.",
+   "techniques": [
+    "Forward\u2013backward Riccati ODE systems",
+    "Fixed-point iteration on the mean-state trajectory",
+    "Stationary solutions of ergodic mean field games",
+    "Comparison of mean-field control (social optimum) with Nash equilibrium",
+    "Lasry\u2013Lions monotonicity criterion for uniqueness",
+    "Conditional-mean dynamics under common noise"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Persistent homology of finite point clouds",
+   "scope": "For explicitly given small point sets or filtered complexes, problems ask for Vietoris\u2013Rips or \u010cech barcodes, persistence diagrams, or bottleneck and Wasserstein distances between diagrams. They are hard because the filtrations of nonobvious configurations produce subtle higher-dimensional features that are easy to miss.",
+   "techniques": [
+    "Comparing Vietoris\u2013Rips and \u010cech filtrations using minimal enclosing ball radii",
+    "Reduction of the boundary matrix to pair births and deaths",
+    "Euler characteristic bookkeeping to cross-check Betti numbers",
+    "Bottleneck distance computed as an optimal matching with the diagonal",
+    "Symmetry arguments for regular or circular configurations",
+    "Stability theorem bounding diagram distance by input perturbation"
+   ],
+   "answer_forms": [
+    "multiset of intervals",
+    "integer (Betti number)",
+    "real number (distance)",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Spiked random matrix phase transitions",
+   "scope": "In the proportional high-dimensional limit, problems ask for outlier eigenvalue locations, eigenvector overlaps, detection thresholds or optimal shrinkage values for spiked Wigner, Wishart and other deformed random matrix models. They are hard because Stieltjes transforms and free-probability subordination must be evaluated exactly.",
+   "techniques": [
+    "Stieltjes transforms of the semicircle and Marchenko\u2013Pastur laws",
+    "BBP threshold and the outlier location formula",
+    "Eigenvector overlaps from derivatives of the resolvent transform",
+    "Free additive and multiplicative convolution via R- and S-transforms",
+    "Determinant identity for finite-rank perturbations",
+    "Optimal singular-value shrinkage under a given loss"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "partition": "reasoning",
+ "category": "Chemistry",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 41,
+ "leaves": [
+  {
+   "leaf": "Symmetry-weighted isomer enumeration on polyhedral frameworks",
+   "scope": "Problems ask for the exact number of constitutional isomers, stereoisomers or enantiomeric pairs when substituents or ligands are placed on the vertices of a cage, ring or coordination polyhedron. They are hard because the proper and improper rotation groups have to be treated separately, and chiral pairs and meso forms have to be counted correctly rather than listed by hand.",
+   "techniques": [
+    "P\u00f3lya cycle index of the rotation group versus the full point group",
+    "Burnside's lemma counting of orbits under ligand permutations",
+    "Counting chiral pairs as (rotational orbits \u2212 full-group orbits)",
+    "Restricting the count to fixed substituent compositions with generating-function coefficients",
+    "Handling chelating or linked ligands that limit which vertex pairs are allowed"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple (achiral count, enantiomeric pairs)",
+    "polynomial generating function coefficient"
+   ]
+  },
+  {
+   "leaf": "Heteronuclear NMR multiplets with isotopomer statistics",
+   "scope": "Problems ask for the number of resolved lines, their relative intensities, or the fraction of total intensity in satellites for a nucleus coupled to several partly abundant spin-active isotopes (e.g. 195Pt, 117/119Sn, 183W, 103Rh, 29Si). They are hard because the answer is a sum over the binomial distribution of isotopomers, and some of those isotopomers contain magnetically inequivalent spins.",
+   "techniques": [
+    "Superposing binomial or multinomial isotopomer populations, each weighted by its own multiplet pattern",
+    "Multiplicity 2nI+1 for couplings to spin I > 1/2 nuclei",
+    "Telling chemical from magnetic equivalence (AA'XX' versus A2X2)",
+    "Overlapping lines caused by coincident coupling constants",
+    "Simplification under selective heteronuclear decoupling"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple of relative intensities"
+   ]
+  },
+  {
+   "leaf": "Graph-theoretic H\u00fcckel analysis of conjugated systems",
+   "scope": "Problems ask for exact \u03c0-orbital energies, characteristic polynomial coefficients, total \u03c0 energy, or the number of nonbonding orbitals of unusual polycyclic, heteroatom-containing or M\u00f6bius-twisted \u03c0 systems. They are hard because the secular determinant has to be factored by symmetry or by graph theory rather than diagonalized numerically.",
+   "techniques": [
+    "Sachs-graph expansion of characteristic polynomial coefficients",
+    "Factoring the secular determinant into symmetry-adapted blocks",
+    "Coulson\u2013Rushbrooke pairing in alternant hydrocarbons and the nullity from maximum matchings",
+    "M\u00f6bius (sign-inverted edge) H\u00fcckel spectra",
+    "Heteroatom parameters \u03b1 + h\u03b2 and k\u00b7\u03b2 handled perturbatively or exactly"
+   ],
+   "answer_forms": [
+    "closed-form expression in \u03b1 and \u03b2",
+    "polynomial",
+    "integer",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Skeletal electron counting for condensed cluster polyhedra",
+   "scope": "Problems ask for the skeletal electron-pair count, the predicted closo/nido/arachno structure type, or the charge of a stable species for fused boranes, carboranes, metallaboranes and transition-metal clusters. They are hard because condensed polyhedra and metal vertices need the Jemmis mno rules or the PSEPT capping and condensation corrections, not plain Wade counting.",
+   "techniques": [
+    "Wade's n+1 / n+2 / n+3 skeletal pair rules",
+    "Jemmis mno rule for macropolyhedral and condensed clusters",
+    "Isolobal replacement of BH by transition-metal fragments",
+    "Mingos condensation rule for polyhedra sharing vertices, edges or faces",
+    "Capping-principle corrections for capped closo frameworks"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of an object (polyhedron or structure type)",
+    "ordered tuple",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stereochemical outcomes of pericyclic reaction cascades",
+   "scope": "Problems describe a sequence of electrocyclizations, sigmatropic shifts and cycloadditions under specified thermal or photochemical conditions and ask for the relative configuration, ring-fusion stereochemistry or number of stereoisomeric products. They are hard because the conrotatory/disrotatory or supra/antara constraints have to be tracked through several steps, and torquoselectivity or endo preferences can interfere.",
+   "techniques": [
+    "Woodward\u2013Hoffmann rules via orbital correlation or M\u00f6bius\u2013H\u00fcckel aromatic transition states",
+    "Electron counting for 4n versus 4n+2 components under thermal versus photochemical conditions",
+    "Torquoselectivity in the ring opening of substituted cyclobutenes",
+    "Chair and boat transition-state analysis in [3,3]-sigmatropic shifts",
+    "Endo/exo and facial-selectivity bookkeeping in intramolecular Diels\u2013Alder steps"
+   ],
+   "answer_forms": [
+    "stereodescriptor set (e.g. (1R*,6S*))",
+    "integer",
+    "letter for multiple choice",
+    "name of an object"
+   ]
+  },
+  {
+   "leaf": "Space-group, Wyckoff-site and extinction reasoning in crystals",
+   "scope": "Problems give partial crystallographic data (space group, occupied Wyckoff sites, density, or observed reflections) and ask for the formula units per cell, the stoichiometry, the site symmetry, or which reflections are systematically absent. They are hard because centring, glide planes and screw axes interact, and multiplicities on special positions are easy to get wrong.",
+   "techniques": [
+    "Systematic-absence conditions from lattice centring, glides and screw axes",
+    "Wyckoff multiplicities and site-symmetry groups in standard settings",
+    "Deriving stoichiometry from site occupation and partial occupancy",
+    "Calculating Z from the measured density and the cell volume",
+    "Group\u2013subgroup (translationengleiche or klassengleiche) relations under phase transitions"
+   ],
+   "answer_forms": [
+    "integer",
+    "chemical formula",
+    "small set of Miller indices",
+    "name of an object (space-group symbol)"
+   ]
+  },
+  {
+   "leaf": "Nuclear spin statistics in molecular rotational populations",
+   "scope": "Problems ask for intensity alternation ratios, ortho/para equilibrium fractions, or the statistical weights of rotational levels for symmetric molecules made of particular isotopes, including mixed isotopologues and spherical or symmetric tops. They are hard because the permutation\u2013inversion symmetry of the total wavefunction has to be combined correctly with nuclear spin multiplicities.",
+   "techniques": [
+    "Pauli symmetry requirements for boson versus fermion nuclear permutations",
+    "Counting nuclear spin functions by irreducible representation of the molecular symmetry group",
+    "Rotational partition functions with symmetry numbers and high- and low-temperature limits",
+    "Effects of isotopic substitution that lower the permutation symmetry",
+    "Intensity ratios of alternating lines in Raman or rotational spectra"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "closed-form expression in temperature"
+   ]
+  },
+  {
+   "leaf": "Ligand-field terms, spin\u2013orbit levels and magnetism",
+   "scope": "Problems ask for ground-term symbols, the number of spin-allowed d\u2013d transitions, the splitting of free-ion terms in lowered symmetries, effective magnetic moments, or the degeneracy of the ground level for d^n and f^n ions. They are hard because correlation diagrams, descent-in-symmetry tables and spin\u2013orbit coupling must be combined, along with orbital-contribution rules.",
+   "techniques": [
+    "Russell\u2013Saunders term derivation and Hund's rules for d^n and f^n configurations",
+    "Splitting free-ion terms into Oh, Td, D4h or D3 irreducible representations by descent in symmetry",
+    "Reading Tanabe\u2013Sugano diagrams and finding spin-crossover points",
+    "Kramers degeneracy and double-group splitting with spin\u2013orbit coupling",
+    "Spin-only versus Land\u00e9 g_J magnetic moments, and orbital quenching criteria"
+   ],
+   "answer_forms": [
+    "term symbol",
+    "integer",
+    "closed-form expression (e.g. \u03bc_eff in \u03bc_B)",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

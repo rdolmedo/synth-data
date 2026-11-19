@@ -1,0 +1,62 @@
+Bootstrap: docker
+From: debian:trixie
+
+# GDPval-AA task sandbox: AA's published environment (methodology page, 2026-11-04): Debian trixie, Python 3.13,
+# 762 pinned apt packages (the full transitive closure) and 419 pinned pip packages. We install the apt names
+# from the current trixie point release (versions recorded in versions.txt) and the pip pins exactly; anything
+# that does not resolve is logged to /opt/gdpval/missing.txt rather than failing the build.
+
+%files
+    aa_apt_packages.txt /opt/gdpval/aa_apt_packages.txt
+    aa_pip_packages.txt /opt/gdpval/aa_pip_packages.txt
+
+%post
+    set -u
+    export DEBIAN_FRONTEND=noninteractive
+    export http_proxy=${BUILD_PROXY:-http://proxy.internal:8080} https_proxy=${BUILD_PROXY:-http://proxy.internal:8080}
+    export HTTP_PROXY=$http_proxy HTTPS_PROXY=$https_proxy
+    : > /opt/gdpval/missing.txt
+    # fakeroot builds can't drop to apt's _apt sandbox user (it can't write /tmp): run apt's fetchers as root
+    chmod 1777 /tmp
+    echo 'APT::Sandbox::User "root";' > /etc/apt/apt.conf.d/99-fakeroot-build
+    apt-get update
+    cut -d= -f1 /opt/gdpval/aa_apt_packages.txt > /opt/gdpval/apt_names.txt
+    if ! xargs -a /opt/gdpval/apt_names.txt apt-get install -y --no-install-recommends; then
+        # one bad name fails the batch: retry each name alone and log the misses
+        for p in $(cat /opt/gdpval/apt_names.txt); do
+            apt-get install -y --no-install-recommends "$p" >/dev/null 2>&1 || echo "apt $p" >> /opt/gdpval/missing.txt
+        done
+    fi
+    apt-get install -y --no-install-recommends python3-venv python3-pip python3-dev ca-certificates || true
+    # Python: a venv over the system 3.13 (AA: "Python 3.13"), first on PATH so python/python3/pip resolve to it
+    python3 -m venv --system-site-packages /opt/venv
+    /opt/venv/bin/pip install --no-cache-dir -U "pip<26"
+    if ! /opt/venv/bin/pip install --no-cache-dir -r /opt/gdpval/aa_pip_packages.txt; then
+        while read -r req; do
+            [ -z "$req" ] && continue
+            # the list is a full closure, so --no-deps per package; exact pin first, then the name alone
+            if /opt/venv/bin/pip install --no-cache-dir --no-deps "$req" >/dev/null 2>&1; then continue; fi
+            if /opt/venv/bin/pip install --no-cache-dir --no-deps "${req%%==*}" >/dev/null 2>&1; then
+                echo "pip-unpinned $req" >> /opt/gdpval/missing.txt
+            else
+                echo "pip $req" >> /opt/gdpval/missing.txt
+            fi
+        done < /opt/gdpval/aa_pip_packages.txt
+    fi
+    # Playwright: AA lists playwright and a system chromium; point Playwright at a downloaded browser too
+    PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright /opt/venv/bin/python -m playwright install chromium || echo "playwright-browser" >> /opt/gdpval/missing.txt
+    chmod -R a+rX /opt/ms-playwright 2>/dev/null || true
+    # the user AA's prompt names (UID 1000); at runtime apptainer runs as the invoking uid with /home/user bound
+    id user >/dev/null 2>&1 || useradd -m -u 1000 -s /bin/bash user || true
+    mkdir -p /home/user && chmod 1777 /home/user
+    dpkg-query -W -f='${Package}=${Version}\n' > /opt/gdpval/versions_apt.txt
+    /opt/venv/bin/pip freeze > /opt/gdpval/versions_pip.txt
+    apt-get clean && rm -rf /var/lib/apt/lists/* /etc/apt/apt.conf.d/99-fakeroot-build
+    echo "missing: $(wc -l < /opt/gdpval/missing.txt)"; cat /opt/gdpval/missing.txt
+
+%environment
+    export PATH=/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    export PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright
+    export HOME=/home/user
+    export LANG=C.UTF-8 LC_ALL=C.UTF-8
+    export MPLBACKEND=Agg

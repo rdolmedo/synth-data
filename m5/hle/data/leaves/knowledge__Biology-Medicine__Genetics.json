@@ -1,0 +1,130 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Genetics",
+ "target_leaves": 8,
+ "expected_problems": 19,
+ "leaves": [
+  {
+   "leaf": "Morgan-school Drosophila linkage and mutant data",
+   "scope": "Historical Drosophila melanogaster mutant descriptions, map positions, crossover counts, nondisjunction and interference data reported by Morgan, Sturtevant, Bridges and Muller (1910-1929). Questions can ask for map distances, coefficients of coincidence or expected class sizes calculated from the original counts, or ask which mutant or locus is meant by a given description.",
+   "queries": [
+    "Drosophila sex-linked mutants",
+    "Bridges nondisjunction X chromosome",
+    "Sturtevant crossing over coincidence",
+    "Morgan Bridges Sturtevant genetics",
+    "Drosophila linkage map loci"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Maize abnormal chromosome 10 and B chromosomes",
+   "scope": "Cytogenetic details of maize meiotic drive: the structure of Ab10 haplotypes, knob repeats (TR-1, knob180), kinesin drivers (KINDR, TRKIN), neocentromere activity, and B-chromosome nondisjunction at the second pollen mitosis. Questions can ask for transmission ratios or the karyotypes of progeny from defined crosses using the documented drive strengths.",
+   "queries": [
+    "abnormal chromosome 10 maize",
+    "maize knob neocentromere drive",
+    "B chromosome nondisjunction pollen",
+    "KINDR kinesin meiotic drive",
+    "Ab10 preferential segregation"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Imprinting control region disorder molecular subtypes",
+   "scope": "Molecular classes and their reported frequencies in Beckwith-Wiedemann, Silver-Russell, Temple and Kagami-Ogata syndromes (ICR1/ICR2 methylation changes, paternal UPD11, CDKN1C variants, MEG3/DLK1 IG-DMR deletions), along with tumor risks by subtype and parent-of-origin effects. Questions can ask for the recurrence risk, or the phenotype predicted, for a given mechanism and transmitting parent.",
+   "queries": [
+    "Beckwith-Wiedemann molecular subgroups",
+    "KvDMR1 loss of methylation",
+    "H19 ICR1 hypomethylation Silver-Russell",
+    "IG-DMR deletion Kagami-Ogata",
+    "CDKN1C maternal transmission"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "mtDNA pathogenic variants and heteroplasmy thresholds",
+   "scope": "Specific mitochondrial point mutations (m.3243A>G, m.8344A>G, the LHON primary mutations, m.8993T>G/C), their affected genes, tissue heteroplasmy thresholds, sex-specific penetrance and germline bottleneck estimates. Questions can ask for offspring risk, or the expected distribution of heteroplasmy levels, from the reported bottleneck size and maternal mutant load.",
+   "queries": [
+    "mitochondrial bottleneck heteroplasmy transmission",
+    "m.3243A>G MELAS heteroplasmy",
+    "LHON primary mutations penetrance",
+    "m.8993T>G NARP Leigh",
+    "mtDNA heteroplasmy threshold tissue"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Budding yeast mating-type switching and silencing",
+   "scope": "Mechanistic facts about Saccharomyces MAT switching: HO endonuclease asymmetry via Ash1, donor preference controlled by the recombination enhancer, Sir-protein silencing at HML/HMR, and the outcomes of specific mutants (sir, rad52, ash1, RE deletions). Questions can ask which mating types appear among a mother cell's descendants after a set number of divisions in a given mutant background.",
+   "queries": [
+    "HO endonuclease mating-type switching",
+    "recombination enhancer donor preference",
+    "HML HMR Sir silencing",
+    "Ash1 asymmetric HO expression",
+    "MAT locus gene conversion"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Hymenopteran complementary sex determination genetics",
+   "scope": "Single- and multi-locus complementary sex determination in bees, ants and parasitoid wasps: csd/feminizer gene structure, numbers of csd alleles estimated in particular populations, diploid-male production, and taxa where CSD has been ruled out. Questions can ask for the expected proportion of diploid males, or the effective allele number, under the documented mating system or inbreeding level.",
+   "queries": [
+    "complementary sex determination diploid males",
+    "csd allele diversity honeybee",
+    "feminizer Apis mellifera",
+    "multilocus CSD Cotesia",
+    "diploid male load Hymenoptera"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Mammalian coat color loci and epistasis",
+   "scope": "Allelic series and interactions at pigmentation loci (MC1R/Extension, ASIP/Agouti, KIT, PMEL merle, MITF, TYR Himalayan alleles, the cream/champagne dilutions) in dogs, horses, cats, rabbits and cattle, including early breeding results recorded by Castle and others. Questions can ask for the phenotypic ratios among offspring of a defined cross using the documented dominance and epistasis relations.",
+   "queries": [
+    "merle PMEL SINE insertion",
+    "Extension Agouti epistasis dog",
+    "Himalayan albino allele rabbit",
+    "horse dun cream dilution",
+    "Castle rabbit color inheritance"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Forensic DNA statistics in US case law",
+   "scope": "How US courts have treated DNA match statistics: product-rule random match probabilities, ceiling and interim-ceiling principles, the NRC I and NRC II theta corrections, cold-hit database adjustments, and probabilistic genotyping (TrueAllele, STRmix) admissibility rulings. Questions can ask for a reported statistic recomputed under a different correction the court discussed, or for the doctrinal outcome a given approach led to.",
+   "queries": [
+    "random match probability admissibility",
+    "ceiling principle DNA Frye",
+    "NRC II database search",
+    "TrueAllele probabilistic genotyping court",
+    "product rule population substructure"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  }
+ ]
+}

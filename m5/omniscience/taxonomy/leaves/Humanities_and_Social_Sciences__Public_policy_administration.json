@@ -1,0 +1,860 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Public policy administration",
+ "weight": 0.0132495,
+ "leaves": [
+  {
+   "leaf": "Founding theorists and intellectual history of public administration",
+   "scope": "The field's classic texts, thinkers and movements: Wilson's politics-administration split, Weberian bureaucracy, scientific management, Gulick's POSDCORB, Simon, Waldo, Minnowbrook and the New Public Service, plus the discipline's associations and journals.",
+   "queries": [
+    "Woodrow Wilson Study of Administration 1887 dichotomy",
+    "Gulick Urwick POSDCORB Papers on Science of Administration",
+    "Herbert Simon Administrative Behavior bounded rationality",
+    "Minnowbrook conference New Public Administration Frederickson"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Policy process theories, agenda setting and policy diffusion",
+   "scope": "Frameworks that explain how issues reach the agenda and how policies change or spread: the stages heuristic, incrementalism, multiple streams, advocacy coalitions, punctuated equilibrium and innovation diffusion among states.",
+   "queries": [
+    "Kingdon multiple streams policy window entrepreneur",
+    "advocacy coalition framework Sabatier policy subsystem",
+    "punctuated equilibrium theory Baumgartner Jones agendas",
+    "policy diffusion innovation American states Walker"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Policy implementation and bureaucratic behavior",
+   "scope": "Research on implementation and on how bureaucracies behave and are controlled: Pressman-Wildavsky, top-down versus bottom-up models, street-level bureaucracy, Niskanen's budget-maximizing model, principal-agent oversight, iron triangles and representative bureaucracy.",
+   "queries": [
+    "Pressman Wildavsky Implementation Oakland Economic Development Administration",
+    "Lipsky street-level bureaucracy discretion dilemmas",
+    "Niskanen budget-maximizing bureaucrat model",
+    "congressional oversight police patrols fire alarms McCubbins"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "New Public Management and public sector reform doctrines",
+   "scope": "Market-style and later reform movements in government: NPM, Reinventing Government and the National Performance Review, the UK Next Steps agencies, New Zealand's State Sector Act model, New Public Governance and digital-era governance.",
+   "queries": [
+    "New Public Management Hood public management all seasons",
+    "Osborne Gaebler Reinventing Government National Performance Review",
+    "Next Steps executive agencies Ibbs report 1988",
+    "New Zealand State Sector Act 1988 reforms"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US executive branch organization and reorganization",
+   "scope": "How the US federal executive is built and reshaped: the Executive Office of the President, when cabinet departments and independent agencies were created, the Brownlow Committee, the Hoover Commissions, the Ash Council and presidential reorganization authority.",
+   "queries": [
+    "Brownlow Committee 1937 Executive Office of the President",
+    "Hoover Commission 1949 executive branch reorganization recommendations",
+    "Reorganization Act presidential reorganization plan authority",
+    "United States cabinet departments order of creation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US public personnel administration and public sector labor relations",
+   "scope": "The American civil service from the spoils system to merit protections: the Pendleton and Hatch Acts, the Civil Service Reform Act of 1978, OPM and the MSPB, the General Schedule and Senior Executive Service, Schedule F, and collective bargaining by public employees.",
+   "queries": [
+    "Pendleton Civil Service Reform Act 1883 spoils system",
+    "Civil Service Reform Act 1978 Senior Executive Service",
+    "General Schedule federal pay grades locality pay",
+    "public sector collective bargaining Executive Order 10988"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Comparative civil service systems and elite administrative training",
+   "scope": "How countries outside the US recruit, train and organize civil servants and what legal status those servants hold: the Northcote-Trevelyan and Fulton reforms, France's ENA/INSP and grands corps, German Beamte, Japan's ministry bureaucracy and amakudari, the Indian Administrative Service and Singapore's Public Service Commission.",
+   "queries": [
+    "Northcote-Trevelyan Report 1854 British civil service",
+    "Ecole nationale d'administration ENA grands corps",
+    "Indian Administrative Service Union Public Service Commission recruitment",
+    "Japan national civil service examination amakudari ministries"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US federal budget process and appropriations",
+   "scope": "Congressional and executive steps for the federal budget: the Budget and Accounting Act of 1921, the Congressional Budget and Impoundment Control Act of 1974, budget resolutions, reconciliation and the Byrd rule, appropriations, continuing resolutions, shutdowns, sequestration, PAYGO and the debt limit.",
+   "queries": [
+    "Congressional Budget and Impoundment Control Act 1974",
+    "budget reconciliation Byrd rule Senate",
+    "Budget Control Act 2011 sequestration discretionary caps",
+    "continuing resolution government shutdown Antideficiency Act"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Budgeting reforms, fiscal rules and independent fiscal institutions",
+   "scope": "Budget formats and fiscal governance tools across countries: line-item, PPBS, zero-based, performance and participatory budgeting, medium-term expenditure frameworks, numerical fiscal rules such as debt brakes, and fiscal councils like the UK Office for Budget Responsibility.",
+   "queries": [
+    "Planning Programming Budgeting System McNamara PPBS",
+    "zero-based budgeting Peter Pyhrr Carter Georgia",
+    "participatory budgeting Porto Alegre 1989",
+    "fiscal rules debt brake independent fiscal council"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tax administration and tax expenditures",
+   "scope": "How governments collect taxes and account for spending through the tax code: revenue agencies such as the IRS and HMRC, withholding and self-assessment, the tax gap, VAT administration, taxpayer rights and tax expenditure budgets.",
+   "queries": [
+    "Internal Revenue Service history Commissioner Internal Revenue 1862",
+    "tax expenditure budget Stanley Surrey",
+    "IRS tax gap estimate voluntary compliance rate",
+    "HM Revenue and Customs Inland Revenue merger 2005"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Federalism, intergovernmental relations and fiscal transfers",
+   "scope": "How authority and money are split between levels of government: US grants-in-aid, categorical versus block grants, unfunded mandates, the ACIR, and equalization transfers in Canada, Australia, Germany and India.",
+   "queries": [
+    "categorical grants block grants federal grants-in-aid",
+    "Unfunded Mandates Reform Act 1995 intergovernmental mandates",
+    "equalization payments Canada provinces formula",
+    "Finance Commission India tax devolution states"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Local government forms and municipal management",
+   "scope": "How cities, counties and special districts are structured and run: mayor-council, council-manager and commission forms, the city manager profession and ICMA, Dillon's Rule versus home rule, municipal charters and special-purpose districts.",
+   "queries": [
+    "council-manager government city manager ICMA",
+    "Dillon's Rule home rule municipal authority",
+    "special district special-purpose government United States",
+    "commission form government Galveston strong mayor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rulemaking, regulatory review and regulatory impact assessment",
+   "scope": "How agencies make rules and how those rules are reviewed: the Administrative Procedure Act, notice-and-comment, the Federal Register, OIRA review under Executive Order 12866, the Regulatory Flexibility and Paperwork Reduction Acts, the Congressional Review Act and OECD-style regulatory impact assessment.",
+   "queries": [
+    "Administrative Procedure Act 1946 notice-and-comment rulemaking",
+    "Office of Information and Regulatory Affairs Executive Order 12866",
+    "Congressional Review Act joint resolution disapproval rules",
+    "regulatory impact assessment OECD better regulation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cost-benefit analysis and policy analysis methods",
+   "scope": "Techniques for appraising policy options: cost-benefit and cost-effectiveness analysis, discount rates, the value of a statistical life, OMB Circular A-4, the UK Green Book, Kaldor-Hicks efficiency and textbook frameworks such as Bardach's eightfold path.",
+   "queries": [
+    "value of a statistical life agency estimates",
+    "OMB Circular A-4 discount rate regulatory analysis",
+    "HM Treasury Green Book social time preference",
+    "Kaldor-Hicks efficiency cost-benefit analysis compensation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Program evaluation, evidence-based policy and behavioural insights",
+   "scope": "Methods and institutions for testing what works in government: randomized and quasi-experimental evaluations, landmark social experiments, the Foundations for Evidence-Based Policymaking Act, What Works centres and clearinghouses, and nudge units such as the Behavioural Insights Team.",
+   "queries": [
+    "RAND Health Insurance Experiment negative income tax experiment",
+    "Foundations for Evidence-Based Policymaking Act 2018",
+    "Behavioural Insights Team nudge unit Cabinet Office",
+    "What Works Clearinghouse evidence standards ratings"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Performance measurement and management in government",
+   "scope": "Systems for setting goals and tracking results in public agencies: GPRA 1993 and the GPRA Modernization Act 2010, the Program Assessment Rating Tool, CompStat and CitiStat, UK Public Service Agreements, the Prime Minister's Delivery Unit and balanced scorecards.",
+   "queries": [
+    "Government Performance and Results Act 1993",
+    "GPRA Modernization Act 2010 agency priority goals",
+    "CompStat CitiStat PerformanceStat Baltimore",
+    "Prime Minister's Delivery Unit Barber deliverology"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public audit, inspectors general and ombudsman institutions",
+   "scope": "Bodies that audit and investigate government: the US GAO and offices of inspector general, supreme audit institutions such as the UK National Audit Office and India's CAG, INTOSAI standards, and parliamentary and public ombudsmen dating from Sweden's 1809 Justitieombudsman.",
+   "queries": [
+    "Government Accountability Office Comptroller General fifteen-year term",
+    "Inspector General Act 1978 federal agencies",
+    "supreme audit institution INTOSAI Lima Declaration",
+    "parliamentary ombudsman Sweden 1809 Justitieombudsman"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Freedom of information and open government",
+   "scope": "Laws and initiatives that open government records and meetings to the public: the US FOIA and its exemptions, the Sunshine Act and Federal Advisory Committee Act, Sweden's 1766 press law, the UK Freedom of Information Act 2000, India's Right to Information Act 2005, open data portals and the Open Government Partnership.",
+   "queries": [
+    "Freedom of Information Act 1966 FOIA exemptions",
+    "Right to Information Act 2005 India Information Commission",
+    "Government in the Sunshine Act open meetings",
+    "Open Government Partnership founding members 2011"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public ethics, anti-corruption and lobbying regulation",
+   "scope": "Rules and agencies that govern officials' integrity: the Ethics in Government Act and the Office of Government Ethics, revolving-door limits, the Nolan principles, Hong Kong's ICAC, the UN Convention against Corruption, Transparency International's indices and lobbying disclosure laws.",
+   "queries": [
+    "Ethics in Government Act 1978 financial disclosure",
+    "Nolan principles seven principles of public life",
+    "Independent Commission Against Corruption Hong Kong 1974",
+    "Lobbying Disclosure Act 1995 lobbyist registration"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public procurement and government contracting",
+   "scope": "How governments buy goods and services: the Federal Acquisition Regulation, sealed bidding and negotiated contracts, small business set-asides, OMB Circular A-76, the WTO Government Procurement Agreement, EU procurement directives and e-procurement systems.",
+   "queries": [
+    "Federal Acquisition Regulation full and open competition",
+    "WTO Agreement on Government Procurement parties",
+    "OMB Circular A-76 competitive sourcing inherently governmental",
+    "EU public procurement directive 2014 tender procedures"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Privatization, public-private partnerships and state-owned enterprises",
+   "scope": "Shifts in service delivery and ownership between the public and private sectors: Thatcher-era privatizations and their utility regulators, RPI-X price caps, the UK Private Finance Initiative, BOT and concession PPP models, and the governance of state-owned enterprises.",
+   "queries": [
+    "Private Finance Initiative PFI United Kingdom 1992",
+    "privatisation British Telecom British Gas share sale",
+    "RPI-X price cap regulation Littlechild",
+    "build-operate-transfer concession public-private partnership model"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Digital government and e-government services",
+   "scope": "Information technology in public services and administration: the UK Government Digital Service, the US Digital Service and 18F, the E-Government Act of 2002, Estonia's X-Road and e-residency, India's Aadhaar and the UN E-Government Development Index.",
+   "queries": [
+    "Government Digital Service GOV.UK digital by default",
+    "United States Digital Service 18F healthcare.gov",
+    "Estonia X-Road e-residency digital government",
+    "UN E-Government Development Index survey ranking"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Homeland security and emergency management",
+   "scope": "How disaster and homeland security response is organized: FEMA's history, the Stafford Act and disaster declarations, the Department of Homeland Security, the Incident Command System and NIMS, the post-Katrina reforms, and the Hyogo and Sendai frameworks.",
+   "queries": [
+    "Federal Emergency Management Agency established 1979",
+    "Stafford Disaster Relief Emergency Assistance Act declaration",
+    "Incident Command System National Incident Management System",
+    "Sendai Framework Disaster Risk Reduction 2015 targets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Social welfare and means-tested assistance programs",
+   "scope": "Cash and in-kind help for low-income households and how it is administered: the English Poor Laws, AFDC and its replacement by TANF in 1996, SNAP, SSI, the EITC, the UK's Universal Credit, and conditional cash transfers such as Bolsa Família.",
+   "queries": [
+    "Personal Responsibility Work Opportunity Reconciliation Act 1996 TANF",
+    "Supplemental Nutrition Assistance Program food stamps history",
+    "Universal Credit legacy benefits Welfare Reform Act 2012",
+    "conditional cash transfer Bolsa Familia Progresa Oportunidades"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pensions and old-age social insurance policy",
+   "scope": "Public retirement, survivor and disability insurance and its reforms: Bismarck's 1889 old-age insurance, the US Social Security Act and its 1983 amendments, trust fund financing and retirement ages, Chile's 1981 privatized system, Sweden's notional defined contribution reform and the World Bank pillar models.",
+   "queries": [
+    "Social Security Amendments 1983 Greenspan Commission",
+    "Social Security trust fund full retirement age",
+    "Chile pension reform 1981 AFP individual accounts",
+    "notional defined contribution Sweden pension reform"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Health policy and health system administration",
+   "scope": "How health care systems are organized, financed and governed: Medicare and Medicaid, the Affordable Care Act, CMS payment systems such as DRGs, the NHS and its reorganizations, the Bismarck and Beveridge models, and health technology assessment bodies like NICE.",
+   "queries": [
+    "Medicare Medicaid 1965 Social Security Amendments",
+    "Affordable Care Act Medicaid expansion individual mandate",
+    "National Health Service 1948 Bevan internal market",
+    "NICE technology appraisal QALY threshold"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Education policy and school governance",
+   "scope": "How school systems are governed, funded and held accountable: the Elementary and Secondary Education Act and Title I, No Child Left Behind and ESSA, Race to the Top, charter schools and vouchers, school finance litigation and the US Department of Education.",
+   "queries": [
+    "Elementary and Secondary Education Act 1965 Title I",
+    "No Child Left Behind adequate yearly progress",
+    "charter school law Minnesota 1991 vouchers",
+    "school finance litigation San Antonio v Rodriguez"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental and climate policy instruments",
+   "scope": "Agencies, statutes and tools for environmental protection and climate mitigation: NEPA environmental impact statements, the EPA, the Clean Air and Clean Water Acts, the acid rain cap-and-trade program, carbon taxes, the EU Emissions Trading System and renewable portfolio standards.",
+   "queries": [
+    "NEPA environmental impact statement Council on Environmental Quality",
+    "Acid Rain Program sulfur dioxide allowance trading",
+    "EU Emissions Trading System phases allowances",
+    "British Columbia carbon tax revenue neutral 2008"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Housing policy, urban renewal and land-use planning",
+   "scope": "Public housing, housing subsidies and planning controls: the Housing Acts of 1937 and 1949, urban renewal, HUD, Section 8 vouchers, the Low-Income Housing Tax Credit, HOPE VI, Euclidean zoning and the UK Town and Country Planning Act 1947.",
+   "queries": [
+    "Housing Act 1949 urban renewal slum clearance",
+    "Low-Income Housing Tax Credit Housing Choice Voucher",
+    "Village of Euclid v Ambler zoning ordinance",
+    "Town and Country Planning Act 1947 green belt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transportation and infrastructure policy and finance",
+   "scope": "How transport and public works are planned, funded and governed: the Federal-Aid Highway Act of 1956, the Highway Trust Fund and gas tax, ISTEA and later surface transportation bills, metropolitan planning organizations, congestion pricing and municipal bond finance.",
+   "queries": [
+    "Federal-Aid Highway Act 1956 Interstate Highway System",
+    "Highway Trust Fund federal gasoline tax",
+    "metropolitan planning organization ISTEA 1991",
+    "London congestion charge road pricing Stockholm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Criminal justice and policing policy",
+   "scope": "Government policy for policing, courts and corrections: the Omnibus Crime Control Act of 1968 and the LEAA, the 1994 Violent Crime Control Act, community policing and COPS, sentencing guidelines and commissions, mandatory minimums, three-strikes laws and drug policy.",
+   "queries": [
+    "Omnibus Crime Control Safe Streets Act 1968 LEAA",
+    "Violent Crime Control Law Enforcement Act 1994 COPS",
+    "United States Sentencing Commission Sentencing Reform Act 1984",
+    "broken windows policing Wilson Kelling"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Immigration and citizenship administration",
+   "scope": "Laws and agencies that regulate entry, residence and naturalization: the US Immigration and Nationality Acts of 1952 and 1965, IRCA 1986, USCIS visa categories and caps, DACA, points-based selection in Canada and Australia, and the Schengen framework.",
+   "queries": [
+    "Immigration and Nationality Act 1965 Hart-Celler quotas",
+    "Immigration Reform and Control Act 1986 employer sanctions",
+    "H-1B visa annual cap USCIS lottery",
+    "points-based immigration system Canada Express Entry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Labor market and employment policy",
+   "scope": "Public programs and rules that shape employment: unemployment insurance and FUTA, active labor market policy, job training laws from MDTA and CETA to WIOA, minimum wage enforcement under the FLSA, Denmark's flexicurity and Germany's Hartz reforms.",
+   "queries": [
+    "Workforce Innovation and Opportunity Act 2014 training",
+    "Comprehensive Employment and Training Act 1973 CETA",
+    "Hartz reforms Germany Hartz IV unemployment",
+    "unemployment insurance FUTA experience rating states"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Science, technology and innovation policy",
+   "scope": "How governments organize and fund research and innovation: Vannevar Bush's Science, the Endless Frontier, the NSF, DARPA, OSTP, the Bayh-Dole Act, SBIR, the CHIPS and Science Act and the EU framework programmes.",
+   "queries": [
+    "Science the Endless Frontier Vannevar Bush 1945",
+    "Bayh-Dole Act 1980 university patents",
+    "Small Business Innovation Research program set-aside",
+    "Horizon Europe framework programme research budget"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonprofits, collaborative governance and policy networks",
+   "scope": "Governing through nonprofit partnerships and networks instead of hierarchy: third-party government, government-nonprofit contracting, co-production, collaborative governance models, Ostrom's polycentric governance of the commons, and policy network theory.",
+   "queries": [
+    "Salamon third-party government tools nonprofit",
+    "Ansell Gash collaborative governance model",
+    "Ostrom Governing the Commons design principles",
+    "Rhodes policy networks governance without government"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Think tanks, commissions and policy advisory systems",
+   "scope": "Sources of policy advice outside the line bureaucracy: think tanks such as Brookings, RAND, Heritage and Chatham House, British royal commissions, US presidential and blue-ribbon commissions, and legislative support agencies such as the Congressional Research Service.",
+   "queries": [
+    "Brookings Institution Institute for Government Research 1916",
+    "RAND Corporation Project RAND 1948 founded",
+    "royal commission United Kingdom terms of reference report",
+    "Kerner Commission National Advisory Commission Civil Disorders"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Election administration",
+   "scope": "How elections are run: US voter registration law (NVRA 1993), the Help America Vote Act and the Election Assistance Commission, voting equipment standards, voter ID and absentee rules, and electoral management bodies such as the UK Electoral Commission and the Election Commission of India.",
+   "queries": [
+    "Help America Vote Act 2002 Election Assistance Commission",
+    "National Voter Registration Act 1993 motor voter",
+    "Election Commission of India electronic voting machines",
+    "electoral management body independent model International IDEA"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Official statistics and census administration",
+   "scope": "How government statistics are produced and governed: the US decennial census and American Community Survey, the federal statistical system and OMB statistical policy directives, BLS measures such as the CPI and unemployment rate, the UK ONS and the UN Fundamental Principles of Official Statistics.",
+   "queries": [
+    "decennial census American Community Survey Census Bureau",
+    "Bureau of Labor Statistics Consumer Price Index",
+    "UN Fundamental Principles of Official Statistics",
+    "Office for National Statistics UK Statistics Authority"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Development administration and aid governance",
+   "scope": "Public administration in developing countries and the governance of international aid: the comparative and development administration movement, structural adjustment and the Washington Consensus, the Paris Declaration on Aid Effectiveness, PEFA assessments, the Worldwide Governance Indicators and the MDG and SDG targets.",
+   "queries": [
+    "Paris Declaration on Aid Effectiveness 2005",
+    "Worldwide Governance Indicators six dimensions",
+    "Washington Consensus Williamson ten policy prescriptions",
+    "PEFA Public Expenditure Financial Accountability framework"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "European Union governance and multilevel administration",
+   "scope": "How EU policy is made and carried out: the ordinary legislative procedure, comitology and implementing acts, the Commission's directorates-general, decentralized EU agencies, the open method of coordination, subsidiarity and the European Semester.",
+   "queries": [
+    "comitology implementing acts European Commission committees",
+    "open method of coordination Lisbon Strategy",
+    "European Semester country-specific recommendations",
+    "European Union decentralised agencies seat"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Government accounting standards and public financial reporting",
+   "scope": "How governments account for and report their finances, including GASB and FASAB standards, IPSAS, accrual accounting reforms, fund accounting, consolidated whole-of-government accounts and treasury single account management.",
+   "queries": [
+    "Governmental Accounting Standards Board Statement 34",
+    "IPSAS accrual accounting public sector adoption",
+    "fund accounting governmental proprietary fiduciary funds",
+    "FASAB consolidated financial report federal government"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public debt management and municipal bond finance",
+   "scope": "How governments issue and manage debt, including debt management offices, government securities auctions, general obligation and revenue bonds, tax-exempt municipal finance, municipal credit ratings and municipal bankruptcy.",
+   "queries": [
+    "municipal bonds general obligation revenue bonds",
+    "Chapter 9 municipal bankruptcy Detroit filing",
+    "debt management office gilt auctions",
+    "Municipal Securities Rulemaking Board EMMA disclosure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Administrative adjudication and judicial review of agency action",
+   "scope": "How agencies decide individual cases and how courts control them, covering APA formal adjudication, administrative law judges, deference doctrines such as Chevron and its overruling, procedural due process tests and administrative tribunals in other countries.",
+   "queries": [
+    "administrative law judge APA formal adjudication",
+    "Chevron deference overruled Loper Bright",
+    "Mathews v. Eldridge procedural due process test",
+    "administrative tribunals judicial review ultra vires"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Legislative oversight of administration and legislative support agencies",
+   "scope": "How legislatures watch over and control bureaucracies, including oversight committees and hearings, legislative vetoes, departmental select committee systems, public accounts committees and legislative research services.",
+   "queries": [
+    "congressional oversight hearings executive agencies",
+    "legislative veto INS v. Chadha",
+    "Public Accounts Committee House of Commons history",
+    "Congressional Research Service legislative support agency"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Westminster machinery of government and arm's-length bodies",
+   "scope": "How central government is structured in Westminster-system countries, including ministerial departments, Next Steps executive agencies, non-departmental public bodies and quangos, Crown entities and machinery-of-government reviews.",
+   "queries": [
+    "Next Steps executive agencies Ibbs report",
+    "non-departmental public body quango abolition review",
+    "Haldane Report machinery of government 1918",
+    "Crown entities New Zealand State Sector Act"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Territorial administration and local government reform in unitary states",
+   "scope": "How subnational administration is organized outside federal systems, compared across countries, including prefectoral systems, regionalization and devolution, administrative divisions and municipal amalgamation reforms.",
+   "queries": [
+    "prefect role French departments administration",
+    "municipal amalgamation reform Denmark 2007 kommuner",
+    "Italy regions ordinary special statute autonomy",
+    "Japan Heisei great municipal mergers"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Disability benefits and disability policy administration",
+   "scope": "Programs and laws for people with disabilities, including SSDI and SSI disability determination, work capability assessments, national disability insurance schemes, ADA implementation and the UN Convention on the Rights of Persons with Disabilities.",
+   "queries": [
+    "Social Security disability determination five-step sequential evaluation",
+    "Americans with Disabilities Act 1990 titles",
+    "National Disability Insurance Scheme Australia agency",
+    "Work Capability Assessment Employment and Support Allowance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Child welfare services and family policy",
+   "scope": "Public programs for children and families, including child protective services, foster care and adoption funding, child care subsidies, child and family allowances and parental leave schemes.",
+   "queries": [
+    "Adoption and Safe Families Act 1997 permanency",
+    "Title IV-E foster care maintenance payments",
+    "Child Care and Development Block Grant eligibility",
+    "child benefit family allowance introduced history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Agricultural and food policy",
+   "scope": "Government programs for farming and the food supply, including US farm bills and commodity support, federal crop insurance, marketing orders, the EU Common Agricultural Policy and agricultural extension services.",
+   "queries": [
+    "farm bill commodity programs price loss coverage",
+    "Common Agricultural Policy MacSharry reform pillars",
+    "federal crop insurance Risk Management Agency",
+    "Agricultural Adjustment Act 1933 parity prices"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Energy policy and public utility regulation",
+   "scope": "Regulation of electricity, gas and other utilities, and national energy policy, including rate-of-return regulation, public utility commissions, market restructuring, transmission organizations and strategic energy reserves.",
+   "queries": [
+    "public utility commission rate case rate base",
+    "FERC Order 888 open access transmission",
+    "Strategic Petroleum Reserve capacity drawdown",
+    "electricity market liberalisation unbundling directive"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Defense management and national security policy machinery",
+   "scope": "How national defense and security policy is administered, including national security councils, defense budgeting systems, military acquisition processes, joint command reforms and base closure rounds.",
+   "queries": [
+    "Goldwater-Nichols Act 1986 joint reforms",
+    "Planning Programming Budgeting Execution PPBE Pentagon",
+    "Base Realignment and Closure commission rounds",
+    "National Security Act 1947 National Security Council"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indigenous affairs administration and tribal self-governance",
+   "scope": "How governments administer their relations with Indigenous peoples, including the Bureau of Indian Affairs, self-determination contracts and self-governance compacts, allotment and termination policies, Canada's Indian Act and treaty settlement processes.",
+   "queries": [
+    "Indian Self-Determination and Education Assistance Act 1975",
+    "Bureau of Indian Affairs trust responsibility",
+    "Indian Act Canada band council amendments",
+    "Treaty of Waitangi settlements Office"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public lands and natural resource management agencies",
+   "scope": "Administration of government-owned land and resources, including the Bureau of Land Management, the Forest Service, national park services, grazing and mineral leasing, multiple-use mandates and reclamation water projects.",
+   "queries": [
+    "Federal Land Policy and Management Act 1976",
+    "Multiple-Use Sustained-Yield Act Forest Service",
+    "Taylor Grazing Act grazing districts permits",
+    "Bureau of Reclamation dams irrigation projects"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drug, alcohol, tobacco and gambling control policy",
+   "scope": "Regulation of psychoactive substances and gambling, including drug scheduling and international drug conventions, alcohol licensing and state retail monopolies, tobacco control treaties and taxes, cannabis legalization and gambling commissions.",
+   "queries": [
+    "Controlled Substances Act scheduling criteria DEA",
+    "Framework Convention on Tobacco Control measures",
+    "alcohol retail monopoly Systembolaget Alko",
+    "Gambling Act 2005 Gambling Commission licensing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Telecommunications, spectrum and broadband policy",
+   "scope": "Public regulation and support of communications networks, including communications regulators, spectrum allocation and auctions, universal service programs, net neutrality rules and public broadband funding.",
+   "queries": [
+    "FCC spectrum auction licenses gross proceeds",
+    "Universal Service Fund Lifeline E-Rate",
+    "Telecommunications Act of 1996 provisions",
+    "net neutrality Title II reclassification order"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public administration as a profession: associations, journals and MPA education",
+   "scope": "The institutions of the public administration field, including professional associations, academic journals and awards, schools of public affairs, MPA accreditation and international administrative science bodies.",
+   "queries": [
+    "American Society for Public Administration founded",
+    "NASPAA accreditation MPA programs",
+    "Public Administration Review journal history",
+    "International Institute of Administrative Sciences Brussels"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Citizen participation, participatory budgeting and deliberative mini-publics",
+   "scope": "Ways of involving citizens directly in administration and policy, including participatory budgeting, citizens' assemblies and juries, public hearings, community action participation mandates and coproduction of services.",
+   "queries": [
+    "participatory budgeting Porto Alegre 1989",
+    "citizens' assembly electoral reform British Columbia",
+    "Arnstein ladder of citizen participation",
+    "maximum feasible participation Community Action Program"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gender mainstreaming and equality policy machinery",
+   "scope": "Government institutions and tools for gender and equality policy, including gender mainstreaming, gender-responsive budgeting, women's policy agencies, public sector equality duties and board gender quotas.",
+   "queries": [
+    "gender mainstreaming Beijing Platform for Action",
+    "gender budgeting women's budget statement Australia",
+    "public sector equality duty Equality Act 2010",
+    "board gender quota law Norway"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cultural policy and arts and heritage administration",
+   "scope": "Public funding and regulation of the arts and heritage, including arts councils and the arm's-length principle, national endowments, historic preservation listing and review, and public broadcasting funding.",
+   "queries": [
+    "National Endowment for the Arts established 1965",
+    "Arts Council arm's length principle funding",
+    "National Historic Preservation Act Section 106 review",
+    "Corporation for Public Broadcasting appropriation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Government records management and public archives",
+   "scope": "How official records are managed and preserved, including national archives agencies, federal and presidential records laws, records retention schedules, closure rules for public records and digital records standards.",
+   "queries": [
+    "Presidential Records Act 1978 provisions",
+    "National Archives and Records Administration established",
+    "Public Records Act 1958 thirty year rule",
+    "records retention schedule disposition authority"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Regional and place-based economic development policy",
+   "scope": "Government efforts to develop lagging regions and places, including regional development commissions and agencies, enterprise and opportunity zones, special economic zones and structural development funds.",
+   "queries": [
+    "Appalachian Regional Commission 1965 counties",
+    "Opportunity Zones Tax Cuts and Jobs Act",
+    "enterprise zones Britain 1980s Howe",
+    "regional development agencies England abolished 2012"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

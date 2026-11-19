@@ -1,0 +1,146 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 59,
+ "leaves": [
+  {
+   "leaf": "Calendrical computation across historical calendars",
+   "scope": "Problems ask for exact dates, weekdays, intervals or coincidences across calendars such as the Julian, Gregorian, Hebrew, tabular Islamic, Maya and French Republican calendars, or for the date of a movable feast. They are hard because each intercalation rule, postponement rule and epoch convention has to be applied exactly, and a single off-by-one error changes the answer.",
+   "techniques": [
+    "Gregorian and Julian computus with Golden Number, epact and solar/lunar equations",
+    "Hebrew calendar molad arithmetic with the four dehiyyot postponement rules",
+    "Julian Day Number conversion and year-zero/proleptic conventions",
+    "Chinese Remainder Theorem on Maya Tzolk'in, Haab' and Long Count cycles",
+    "Zeller-type congruences and leap-rule periodicity (400-year, 30-year, 19-year cycles)"
+   ],
+   "answer_forms": [
+    "calendar date",
+    "integer (day count or year)",
+    "weekday name",
+    "ordered tuple (e.g. Long Count digits)"
+   ]
+  },
+  {
+   "leaf": "Celestial navigation sight reduction problems",
+   "scope": "Problems give sextant altitudes, times and almanac-style data and ask for a fix, an intercept, an azimuth, a meridian-passage time or a route distance. They are hard because every observational correction must be chained correctly and the problem has to be solved on the sphere, not on a flat chart.",
+   "techniques": [
+    "Navigational (PZX) triangle via spherical cosine and four-part formulas",
+    "Marcq Saint-Hilaire intercept method and plotting of position lines",
+    "Altitude corrections for dip, refraction, semidiameter and horizontal parallax",
+    "Mercator meridional parts for rhumb-line versus great-circle comparison",
+    "Running fix advancement of a line of position by dead reckoning",
+    "Longitude from local apparent noon using the equation of time"
+   ],
+   "answer_forms": [
+    "decimal number with stated rounding (nautical miles or degrees)",
+    "ordered pair of coordinates",
+    "clock time",
+    "integer bearing"
+   ]
+  },
+  {
+   "leaf": "Baseball and cricket scorecard reconstruction",
+   "scope": "Problems give a partial box score or cricket scorecard and ask for a missing value, the number of play sequences consistent with it, or which scoring credit is forced by the official rules. They are hard because conservation identities, earned-run reconstruction and strike-rotation constraints interact in ways that are easy to miss.",
+   "techniques": [
+    "Plate-appearance and run/out/left-on-base balance identities per inning",
+    "Earned-run determination by reconstructing the inning without errors or passed balls",
+    "Pitcher win/save/loss attribution rules applied to lead changes",
+    "Cricket strike rotation parity from odd runs and change of ends at the end of each over",
+    "Extras accounting: wides and no-balls versus byes and leg byes in bowler figures and maiden overs"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of statistics",
+    "name or label of a player",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Horological gear-train ratio design",
+   "scope": "Problems ask for wheel and pinion tooth counts that realize or approximate a target ratio, such as a lunation, sidereal day, tropical year or motion-work ratio, within practical tooth limits, or for the error that a given train accumulates. They are hard because they mix number theory, factorization constraints and mechanical feasibility.",
+   "techniques": [
+    "Continued-fraction convergents and semiconvergents for best rational approximations",
+    "Brocot-style tables to find approximations with factorable numerator and denominator",
+    "Factorizing a ratio into compound stages under minimum-pinion and maximum-wheel constraints",
+    "Train count from escapement beat rate and seconds-wheel requirements",
+    "Differential gearing to add or subtract rates (solar versus sidereal, equation of time)"
+   ],
+   "answer_forms": [
+    "ordered tuple of tooth counts",
+    "rational number",
+    "integer",
+    "drift in seconds per year as a decimal"
+   ]
+  },
+  {
+   "leaf": "Rule-based inheritance share and succession computation",
+   "scope": "Problems describe a family configuration and a legal system, such as Islamic fara'id, per-stirpes intestacy or a peerage with a special remainder, and ask for exact shares or the next heir. They are hard because exclusion, proportional reduction and representation rules interact in non-obvious ways.",
+   "techniques": [
+    "Fixed-share heirs versus residuaries ('asaba) with partial and total exclusion (hajb)",
+    "'Awl proportional reduction and radd redistribution of surplus",
+    "Per stirpes, per capita and per capita at each generation distribution schemes",
+    "Male-preference, absolute, Salic and semi-Salic primogeniture orderings",
+    "Abeyance among coheiresses and commorientes (simultaneous death) presumptions"
+   ],
+   "answer_forms": [
+    "rational number (fractional share)",
+    "ordered tuple of shares",
+    "name or label of the heir",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Juggling siteswap pattern combinatorics",
+   "scope": "Problems ask whether a siteswap is valid, how many patterns meet given constraints, or what the shortest transition between states is, including synchronous, multiplex and passing variants. They are hard because they need state-graph reasoning and careful permutation arithmetic, not pattern recognition.",
+   "techniques": [
+    "Permutation test that (i + t_i) mod n are all distinct, and the average theorem for ball count",
+    "State diagrams as binary landing schedules, with transfer-matrix counting of closed walks",
+    "Counting patterns of given period and maximum ball count via juggling-card/permutation bijections",
+    "Minimal excited-state entry and exit transitions from the ground state",
+    "Synchronous (x) and multiplex [ ] notation validity and state rules"
+   ],
+   "answer_forms": [
+    "integer",
+    "siteswap string",
+    "small set of siteswaps"
+   ]
+  },
+  {
+   "leaf": "Flat-foldability of origami crease patterns",
+   "scope": "Problems give a crease pattern or vertex angles and ask how many valid mountain-valley assignments exist, which angle makes a vertex flat-foldable, or whether a length is constructible by folding. They are hard because local conditions are necessary but not sufficient, and counting requires a recursive reduction.",
+   "techniques": [
+    "Maekawa's theorem (M \u2212 V = \u00b12) at each vertex",
+    "Kawasaki's alternating angle-sum condition",
+    "Big-little-big lemma and recursive crimp/pleat reduction for single-vertex counts",
+    "Huzita\u2013Justin axioms and constructibility of cube roots and angle trisection",
+    "Circle/river packing in tree-method design of uniaxial bases"
+   ],
+   "answer_forms": [
+    "integer count",
+    "angle in degrees or closed form",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Handweaving draft and drawdown analysis",
+   "scope": "Problems give a threading, tie-up and treadling, or a target drawdown, and ask for structural properties: maximum float length, whether the cloth hangs together, the minimum number of shafts or treadles, or the resulting color-and-weave motif. They are hard because they require exact Boolean-matrix reasoning over the interlacement.",
+   "techniques": [
+    "Drawdown as the Boolean product of threading, tie-up and treadling matrices",
+    "Minimum shafts as the number of distinct warp-column interlacement patterns",
+    "Satin counters and move numbers coprime to the shaft count",
+    "Profile drafts and block substitution (overshot, summer and winter, twill blocks)",
+    "Float-length and connectivity checks for whether the fabric hangs together",
+    "Color-and-weave effects from superimposing warp and weft color orders"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple",
+    "small set",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

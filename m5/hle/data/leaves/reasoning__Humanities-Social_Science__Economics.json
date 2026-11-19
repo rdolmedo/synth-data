@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Economics",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Bayesian persuasion with finite states",
+   "scope": "Problems give a sender with state-dependent preferences over a receiver's finite set of actions, sometimes under constraints like limited signal size, public versus private signals, or several receivers, and ask for the sender's optimal value or the posteriors used. They are hard because the solver has to build the concave envelope of a value function that is not continuous, and do it over a simplex with more than one dimension, rather than reading off a two-state picture.",
+   "techniques": [
+    "concavification of the indirect value function over the belief simplex",
+    "splitting the prior into posteriors subject to Bayes plausibility",
+    "obedience constraints in the revelation-principle formulation as a linear program",
+    "sender-preferred tie-breaking at action-indifference boundaries",
+    "bounding the number of signal realizations with Carath\u00e9odory's theorem",
+    "information design with multiple receivers when receivers' actions are strategic complements or substitutes"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple of posterior probabilities",
+    "closed-form expression in the prior",
+    "integer (minimal number of signals)"
+   ]
+  },
+  {
+   "leaf": "Optimal auctions with irregular distributions",
+   "scope": "Problems ask for the revenue-maximizing mechanism, its reserve prices, or its expected revenue when bidders are asymmetric or valuation distributions fail regularity, so virtual values must be ironed. They are hard because the allocation rule has pooling regions and bidder-specific thresholds, and the revenue has to be computed exactly.",
+   "techniques": [
+    "Myerson virtual valuations and the revenue-equivalence envelope formula",
+    "ironing over the quantile space via the convex hull of the revenue curve",
+    "bidder-specific reserve prices under asymmetric priors",
+    "comparing optimal revenue with a second-price auction with reserve or with extra bidders (Bulow\u2013Klemperer-type comparisons)",
+    "computing expected revenue through order statistics of ironed virtual values",
+    "translating the problem into a sequential posted-price mechanism"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple of reserve prices",
+    "interval of pooled valuations"
+   ]
+  },
+  {
+   "leaf": "Lattice structure of stable matchings",
+   "scope": "Problems give explicit preference profiles for small two-sided markets (marriage, college admissions with quotas, or matching with contracts) and ask for the number of stable matchings, the side-optimal matchings, or the outcomes of manipulation. They are hard because one has to enumerate rotations and reason about the distributive lattice, rather than run deferred acceptance once.",
+   "techniques": [
+    "proposer-optimal and receiver-optimal deferred acceptance",
+    "rotation posets and the bijection between closed subsets and stable matchings",
+    "the rural hospitals theorem and invariance of the set of unmatched agents",
+    "truncation strategies and profitable misreports by the receiving side",
+    "substitutable preferences and Hatfield\u2013Milgrom contract-set fixed points",
+    "median stable matchings via generalized median construction"
+   ],
+   "answer_forms": [
+    "integer",
+    "explicit matching as a set of pairs",
+    "small set of agents",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Shock propagation in production networks",
+   "scope": "Problems give an explicit input-output economy (Cobb-Douglas or nested CES, possibly with distortions such as markups) and ask for first- or second-order elasticities of aggregate output or welfare to sectoral productivity shocks. They are hard because Hulten's theorem holds only in special cases, and nonlinear or distorted economies need the Leontief inverse handled carefully together with the elasticities of substitution.",
+   "techniques": [
+    "Domar weights and Hulten's theorem as the first-order benchmark",
+    "Leontief inverse computation for small input-output matrices",
+    "second-order aggregation via input-output covariance operators with CES elasticities",
+    "wedges from markups and allocative-efficiency terms",
+    "Cobb-Douglas closed-form equilibrium log GDP",
+    "influence vectors and the network-centrality interpretation of aggregate volatility"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in elasticities",
+    "vector of sectoral weights",
+    "real number to stated precision"
+   ]
+  },
+  {
+   "leaf": "Determinacy regions in linear rational-expectations models",
+   "scope": "Problems pose small linearized forward-looking models (New Keynesian variants with interest-rate pegs, inertia, cost channels, or fiscal rules) and ask for the exact parameter region that gives a unique bounded equilibrium, or for the coefficients of the minimum-state-variable solution. They are hard because the solver has to count eigenvalues outside the unit circle for parameterized matrices and handle boundary cases correctly.",
+   "techniques": [
+    "Blanchard\u2013Kahn eigenvalue counting",
+    "Schur\u2013Cohn or Jury criteria applied to characteristic polynomials",
+    "generalized Taylor principle with lagged and forward-looking rules",
+    "method of undetermined coefficients for minimum-state-variable solutions",
+    "active/passive monetary\u2013fiscal regime classification (Leeper)",
+    "sunspot equilibria construction under indeterminacy"
+   ],
+   "answer_forms": [
+    "inequality or interval in a policy parameter",
+    "closed-form expression",
+    "ordered tuple of solution coefficients",
+    "integer (number of unstable roots)"
+   ]
+  },
+  {
+   "leaf": "Sharp bounds in partial identification",
+   "scope": "Problems give an observed distribution of outcomes, treatments, and possibly instruments, plus a set of assumptions (monotone treatment response, monotone treatment selection, bounded outcomes, missing data), and ask for the sharp identified set of a treatment effect or other parameter. They are hard because the solver must prove sharpness, not just validity, and work out how the assumptions interact.",
+   "techniques": [
+    "Manski worst-case bounds with bounded outcome supports",
+    "monotone treatment response and monotone treatment selection combined bounds",
+    "monotone instrumental variable bounds with sup\u2013inf over instrument values",
+    "the Fr\u00e9chet\u2013Hoeffding copula bounds for the joint distribution of potential outcomes",
+    "random-set and Artstein-inequality characterizations of sharp sets",
+    "linear programming over latent response types"
+   ],
+   "answer_forms": [
+    "interval with rational endpoints",
+    "closed-form expression",
+    "ordered pair",
+    "rational number (width of identified set)"
+   ]
+  },
+  {
+   "leaf": "Solution concepts for claims and cost-sharing games",
+   "scope": "Problems define bankruptcy, airport, or network cost-sharing situations with specific numbers and ask for the nucleolus, kernel, Shapley value, \u03c4-value, or the allocation from a named division rule, or for whether these coincide. They are hard because the nucleolus needs nested lexicographic optimization, and the links between the game and the rule (for example, Talmud and nucleolus) must be used correctly.",
+   "techniques": [
+    "sequential linear programs for the nucleolus",
+    "the Aumann\u2013Maschler Talmud rule and the contested-garment consistency",
+    "constrained equal awards and constrained equal losses rules",
+    "Littlechild\u2013Owen decomposition of airport games",
+    "core non-emptiness via Bondareva\u2013Shapley balancedness",
+    "consistency and the reduced-game property"
+   ],
+   "answer_forms": [
+    "ordered tuple of payoffs",
+    "rational number",
+    "name of an allocation rule",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Revealed preference tests on finite data",
+   "scope": "Problems give a small finite set of price\u2013quantity observations and ask whether it is rationalizable by some class of utilities (general, homothetic, quasilinear, separable), or for an exact efficiency index measuring how far it is from being rationalizable. They are hard because the solver must find cycles in revealed-preference graphs and solve Afriat-type inequality systems exactly.",
+   "techniques": [
+    "GARP, SARP, and WARP via directed graph cycle detection",
+    "Afriat's theorem and constructing utility numbers and multipliers",
+    "Afriat's critical cost efficiency index via threshold search over expenditure ratios",
+    "cyclical monotonicity for quasilinear rationalizability",
+    "homothetic rationalizability through Varian's log-product inequalities",
+    "Houtman\u2013Maks index as minimal observation deletion"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer (minimal deletions)",
+    "yes/no with a minimal violating cycle as a sequence",
+    "small set of observation indices"
+   ]
+  }
+ ]
+}

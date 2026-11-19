@@ -1,0 +1,437 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "python web framework libraries",
+ "weight": 0.004698000000000001,
+ "leaves": [
+  {
+   "leaf": "Django ORM QuerySet API, lookups and database expressions",
+   "scope": "QuerySet methods, field lookups, F/Q objects, aggregation and annotation, subqueries, window and database functions, and query optimisation helpers across Django releases.",
+   "queries": [
+    "QuerySet select_related prefetch_related only defer",
+    "Django F expressions Q objects field lookups",
+    "aggregate annotate Subquery OuterRef Window function",
+    "bulk_create update_or_create iterator chunk_size"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django model fields, Meta options and the migrations framework",
+   "scope": "Model field classes and their options, Meta options, constraints and indexes, model inheritance styles, and makemigrations/migrate operations including squashing and data migrations.",
+   "queries": [
+    "Django model field options null blank db_default",
+    "Meta options constraints indexes ordering unique_together",
+    "makemigrations squashmigrations RunPython RunSQL operations",
+    "abstract base classes multi-table inheritance proxy models"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django URL dispatcher, views, class-based views and middleware",
+   "scope": "path()/re_path() and path converters, URLconf namespaces, function and generic class-based views and mixins, HttpRequest/HttpResponse objects, and the middleware stack.",
+   "queries": [
+    "Django path converters re_path include namespace",
+    "class-based generic views ListView DetailView mixins",
+    "HttpRequest HttpResponse StreamingHttpResponse FileResponse attributes",
+    "middleware process_view process_exception MIDDLEWARE ordering"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django template language and template backends",
+   "scope": "DTL syntax, built-in tags and filters, template inheritance, context processors, template loaders, autoescaping, custom tag libraries and the Jinja2 backend.",
+   "queries": [
+    "Django built-in template tags filters reference",
+    "template inheritance extends block include autoescape",
+    "context processors template loaders cached Loader OPTIONS",
+    "custom template tags simple_tag inclusion_tag register"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django forms, ModelForms and formsets",
+   "scope": "The forms API: form fields and widgets, ModelForm generation, formsets and inline formsets, rendering, and the field/form validation and validator machinery.",
+   "queries": [
+    "Django form fields widgets cleaned_data",
+    "ModelForm Meta fields exclude widgets labels",
+    "formset_factory inlineformset_factory management form extra",
+    "form validation clean ValidationError validators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django admin site customisation",
+   "scope": "ModelAdmin options and hook methods, inlines, admin actions, AdminSite subclassing, admin templates and admindocs.",
+   "queries": [
+    "ModelAdmin list_display list_filter search_fields",
+    "TabularInline StackedInline InlineModelAdmin options",
+    "admin actions AdminSite custom admin site",
+    "raw_id_fields autocomplete_fields readonly_fields fieldsets"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django authentication, sessions and security features",
+   "scope": "contrib.auth users, custom user models, permissions and auth backends, password hashers and validators, session engines, CSRF protection, clickjacking defences and security-related settings.",
+   "queries": [
+    "AUTH_USER_MODEL AbstractBaseUser custom user model",
+    "PASSWORD_HASHERS PBKDF2 Argon2 iterations",
+    "SESSION_ENGINE signed cookies cached_db sessions",
+    "CSRF_COOKIE SECURE_HSTS_SECONDS X_FRAME_OPTIONS SecurityMiddleware"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django contrib apps: GeoDjango, contrib.postgres, sitemaps, syndication, staticfiles and messages",
+   "scope": "The bundled django.contrib applications other than auth and admin, including contenttypes, sites, sitemaps, syndication feeds, messages, staticfiles, humanize, flatpages, redirects, postgres and GeoDjango.",
+   "queries": [
+    "GeoDjango GEOS GDAL spatial lookups PostGIS",
+    "django.contrib.postgres ArrayField SearchVector HStoreField",
+    "sitemaps framework syndication feed framework",
+    "collectstatic ManifestStaticFilesStorage messages framework contenttypes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django caching, signals, management commands and testing tools",
+   "scope": "The cache framework and its backends, built-in and custom signals, django-admin/manage.py commands and custom commands, and the test runner, test case classes and test client.",
+   "queries": [
+    "Django cache backends Memcached Redis cache_page",
+    "signals pre_save post_save m2m_changed receiver",
+    "custom management commands BaseCommand add_arguments",
+    "TestCase TransactionTestCase LiveServerTestCase assertNumQueries"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django release history, LTS policy and deprecation timeline",
+   "scope": "Django version numbering, release dates, long-term support releases and support windows, supported Python versions, headline features by release, and the deprecation/removal schedule.",
+   "queries": [
+    "Django release notes long-term support release",
+    "Django supported Python versions compatibility",
+    "Django deprecation timeline features removed",
+    "Django Software Foundation history Lawrence Journal-World"
+   ],
+   "sources": [
+    "changelog",
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Django REST Framework serializers, viewsets and API policies",
+   "scope": "DRF serializers, generic views and viewsets, routers, authentication, permission and throttling classes, pagination, filtering, versioning, renderers/parsers and settings.",
+   "queries": [
+    "ModelSerializer HyperlinkedModelSerializer serializer validators",
+    "ModelViewSet DefaultRouter SimpleRouter action decorator",
+    "DEFAULT_AUTHENTICATION_CLASSES TokenAuthentication permissions throttling",
+    "PageNumberPagination LimitOffsetPagination CursorPagination versioning"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Django CMSs and third-party app ecosystem",
+   "scope": "Major reusable Django packages and CMSs such as Wagtail, django CMS, Mezzanine, django-allauth, django-debug-toolbar, django-filter, django-storages, django-crispy-forms and django-celery-beat.",
+   "queries": [
+    "Wagtail StreamField Page model release notes",
+    "django CMS plugins placeholders release",
+    "django-allauth social account providers settings",
+    "django-debug-toolbar panels django-filter FilterSet"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Flask core API, contexts and blueprints",
+   "scope": "The Flask application object, routing and view decorators, blueprints, the application and request contexts, configuration, sessions, signals, the flask CLI and Flask's version history.",
+   "queries": [
+    "Flask application factory blueprints register_blueprint",
+    "application context request context g current_app",
+    "Flask configuration from_object SECRET_KEY SESSION_COOKIE",
+    "Flask changelog version released async views"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Werkzeug and Pallets utility libraries (Click, ItsDangerous, MarkupSafe)",
+   "scope": "Werkzeug's routing, request/response wrappers, debugger and development server, and the companion Pallets libraries Click, ItsDangerous and MarkupSafe.",
+   "queries": [
+    "Werkzeug routing converters Map Rule",
+    "Werkzeug debugger PIN development server reloader",
+    "ItsDangerous URLSafeTimedSerializer signer salt",
+    "Click command group option argument decorators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Flask extension ecosystem",
+   "scope": "Widely used Flask extensions such as Flask-SQLAlchemy, Flask-Login, Flask-WTF, Flask-Migrate, Flask-RESTful/Flask-RESTX, Flask-Admin, Flask-Caching, Flask-Limiter and Flask-CORS.",
+   "queries": [
+    "Flask-SQLAlchemy db.Model session SQLALCHEMY_DATABASE_URI",
+    "Flask-Login LoginManager user_loader login_required",
+    "Flask-WTF CSRFProtect FlaskForm validators",
+    "Flask-Migrate Flask-RESTX Flask-Admin Flask-Caching extension"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "FastAPI path operations, dependency injection and OpenAPI",
+   "scope": "FastAPI path operation decorators, parameter declarations, dependency injection, security utilities, response models, background tasks, automatic OpenAPI/Swagger docs and release history.",
+   "queries": [
+    "FastAPI path operation response_model status_code",
+    "FastAPI Depends dependency injection yield",
+    "OAuth2PasswordBearer Security scopes FastAPI",
+    "FastAPI release notes Pydantic v2 support"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Starlette ASGI toolkit",
+   "scope": "Starlette's routing, request/response classes, middleware, WebSocket support, background tasks, lifespan handling, static files and TestClient.",
+   "queries": [
+    "Starlette routing Route Mount WebSocketRoute",
+    "Starlette CORSMiddleware GZipMiddleware TrustedHostMiddleware",
+    "Starlette StreamingResponse FileResponse BackgroundTask",
+    "Starlette TestClient lifespan startup shutdown"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Pydantic, marshmallow and request data validation libraries",
+   "scope": "Pydantic v1 and v2 model APIs, validators, pydantic-settings and pydantic-core, plus marshmallow, webargs and msgspec as used for request/response validation and serialisation in web apps.",
+   "queries": [
+    "Pydantic BaseModel model_validate model_dump ConfigDict",
+    "field_validator model_validator Pydantic v2 migration",
+    "pydantic-settings BaseSettings environment variables",
+    "marshmallow Schema fields load dump webargs"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "aiohttp server and client",
+   "scope": "aiohttp's web.Application, routing, handlers, middlewares and signals, the ClientSession HTTP client and connectors, WebSocket support and its changelog.",
+   "queries": [
+    "aiohttp web Application router add_routes RouteTableDef",
+    "aiohttp ClientSession ClientTimeout TCPConnector",
+    "aiohttp middlewares on_startup on_cleanup cleanup_ctx",
+    "aiohttp WebSocketResponse changelog release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Tornado and Twisted Web event-driven frameworks",
+   "scope": "Tornado's RequestHandler, Application settings, IOLoop and its asyncio integration, coroutines, WebSocket and HTTP client, plus Twisted Web, Klein and their history.",
+   "queries": [
+    "Tornado RequestHandler Application settings IOLoop",
+    "tornado gen coroutine asyncio IOLoop integration",
+    "Tornado WebSocketHandler AsyncHTTPClient FriendFeed",
+    "Twisted Web Resource Site reactor Klein"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Newer asyncio frameworks: Sanic, Quart, Litestar, BlackSheep and Robyn",
+   "scope": "Async-native Python frameworks created after Flask and Django, covering their APIs, configuration, worker models, distinctive features and release history.",
+   "queries": [
+    "Sanic app blueprints listeners workers configuration",
+    "Quart asyncio Flask-compatible API",
+    "Litestar Starlite rename controllers dependency injection",
+    "BlackSheep Robyn Rust runtime Python framework"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pyramid, the Pylons Project and the Zope/Plone lineage",
+   "scope": "Pyramid's Configurator, URL dispatch and traversal, view predicates and security policies, plus the history and components of Pylons, repoze.bfg, TurboGears, Zope, ZODB and Plone.",
+   "queries": [
+    "Pyramid Configurator add_route add_view",
+    "Pyramid traversal resource tree view predicates",
+    "Zope object publishing ZODB Plone",
+    "Pylons repoze.bfg TurboGears merger history"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lightweight and alternative WSGI frameworks: Bottle, CherryPy, Falcon, web.py and web2py",
+   "scope": "Smaller or alternative frameworks including Bottle, CherryPy, Falcon, web.py, web2py/py4web, Masonite and Hug, covering their APIs, built-in components and history.",
+   "queries": [
+    "Bottle single file framework SimpleTemplate",
+    "CherryPy tools engine plugins configuration",
+    "Falcon resource responders on_get middleware",
+    "web2py py4web DAL web.py framework"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "WSGI specification and WSGI servers",
+   "scope": "PEP 333/3333, the environ and start_response interface, middleware composition, and WSGI servers such as Gunicorn, uWSGI, mod_wsgi, Waitress and the reference wsgiref.",
+   "queries": [
+    "PEP 3333 WSGI environ start_response",
+    "Gunicorn worker class gevent workers timeout",
+    "uWSGI options processes threads master",
+    "mod_wsgi daemon mode Waitress server"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ASGI specification, asgiref and ASGI servers",
+   "scope": "The ASGI spec (scopes, events, lifespan protocol, versions), asgiref's sync/async adapters and Django's async support, and ASGI servers such as Uvicorn, Hypercorn, Daphne and Granian.",
+   "queries": [
+    "ASGI specification scope receive send lifespan",
+    "asgiref sync_to_async async_to_sync thread_sensitive",
+    "Uvicorn workers uvloop httptools settings",
+    "Hypercorn Daphne Granian HTTP/2 HTTP/3 server"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Real-time and WebSocket libraries: Django Channels, Socket.IO and websockets",
+   "scope": "Django Channels consumers, routing and channel layers, Flask-SocketIO and python-socketio, the websockets library, and server-sent events support.",
+   "queries": [
+    "Django Channels consumers channel layers Redis",
+    "Flask-SocketIO emit rooms namespaces async_mode",
+    "python-socketio AsyncServer python-engineio",
+    "websockets library serve connect ping_interval"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python template engines: Jinja2, Mako, Chameleon, Genshi and Cheetah",
+   "scope": "Standalone template engines used by web frameworks, covering Jinja2 Environment configuration and designer syntax, Mako, Chameleon/TAL, Genshi, Cheetah and their history.",
+   "queries": [
+    "Jinja2 Environment loaders autoescape undefined",
+    "Jinja2 template designer filters tests macros",
+    "Mako templates inheritance def namespace",
+    "Chameleon page templates TAL Genshi Cheetah"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "SQLAlchemy, Alembic and standalone Python ORMs",
+   "scope": "SQLAlchemy Core and ORM (including the 1.4/2.0 transition), engines and connection pooling, Alembic migrations, and other ORMs used with web apps such as SQLModel, Peewee, Tortoise ORM and Pony ORM.",
+   "queries": [
+    "SQLAlchemy 2.0 Session select ORM",
+    "Alembic revision autogenerate upgrade downgrade",
+    "SQLModel Tortoise ORM Peewee models",
+    "create_engine pool_size dialects connection pooling"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GraphQL libraries: Graphene, Strawberry and Ariadne",
+   "scope": "Python GraphQL server libraries and their framework integrations, covering schema definition styles, resolvers, subscriptions, DataLoaders and release history.",
+   "queries": [
+    "Graphene ObjectType schema resolvers graphene-django",
+    "Strawberry GraphQL type decorators FastAPI integration",
+    "Ariadne schema-first GraphQL bindables",
+    "GraphQL subscriptions DataLoader Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Pure-Python web UI and data-app frameworks: Dash, Streamlit, Gradio and Reflex",
+   "scope": "Frameworks for building browser UIs entirely in Python, including Plotly Dash, Streamlit, Gradio, Reflex, NiceGUI, Panel and Flet, covering their component models, execution and state, and history.",
+   "queries": [
+    "Plotly Dash callbacks Input Output layout",
+    "Streamlit session_state st.cache_data rerun",
+    "Gradio Interface Blocks components launch",
+    "Reflex NiceGUI Panel Flet Python web UI"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,875 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Industrial Engineering",
+ "weight": 0.013500000000000002,
+ "leaves": [
+  {
+   "leaf": "History of scientific management and early industrial engineering pioneers",
+   "scope": "Where scientific management and early industrial engineering came from and who shaped it: Taylor, the Gilbreths, Gantt, Emerson and Barth, the Hawthorne studies, and the founding of IE societies and academic programs.",
+   "queries": [
+    "Frederick Winslow Taylor Midvale Steel shoveling experiments",
+    "Frank Lillian Gilbreth bricklaying motion study",
+    "Hawthorne studies Western Electric illumination experiments Mayo",
+    "Henry Gantt Harrington Emerson efficiency movement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Methods engineering, motion study and process charting",
+   "scope": "Methods analysis techniques: therbligs, flow process charts and ASME symbols, operation and left-hand/right-hand charts, micromotion and simo charts, and the principles of motion economy.",
+   "queries": [
+    "therbligs list grasp transport loaded symbols",
+    "flow process chart ASME standard symbols",
+    "principles of motion economy Ralph Barnes",
+    "simo chart micromotion chronocyclegraph study"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stopwatch time study, performance rating, allowances and work sampling",
+   "scope": "Direct work measurement: stopwatch time study procedures, performance rating systems, personal/fatigue/delay allowance schedules, standard time calculation, and work sampling statistics.",
+   "queries": [
+    "stopwatch time study normal time standard time allowances",
+    "Westinghouse leveling system skill effort conditions consistency",
+    "work sampling number of observations confidence level",
+    "ILO rest allowances personal fatigue delay percentage"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Predetermined motion time systems (MTM, MOST, Work-Factor, MODAPTS)",
+   "scope": "Predetermined motion time systems such as MTM-1, MTM-2, MTM-UAS, BasicMOST, Work-Factor and MODAPTS, with their time units, motion codes and index values.",
+   "queries": [
+    "methods time measurement MTM-1 TMU reach grasp",
+    "Maynard Operation Sequence Technique BasicMOST index values",
+    "MODAPTS MOD unit modular arrangement predetermined time",
+    "Work-Factor predetermined time system Quick"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wage incentive plans and job evaluation methods",
+   "scope": "Financial incentive schemes (differential piece rate, Halsey, Rowan, Bedaux, Emerson, and gainsharing plans such as Scanlon, Rucker and Improshare) and job evaluation methods (ranking, classification, point, factor comparison, Hay).",
+   "queries": [
+    "Halsey premium plan Rowan plan wage incentive",
+    "Scanlon plan Rucker plan Improshare gainsharing",
+    "point method job evaluation factor comparison",
+    "Hay Guide Chart profile method job evaluation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Manual material handling and working posture assessment",
+   "scope": "Biomechanical and psychophysical assessment of lifting, pushing, carrying and postures, including the revised NIOSH lifting equation, Liberty Mutual (Snook-Ciriello) tables, RULA, REBA, OWAS and the Strain Index.",
+   "queries": [
+    "revised NIOSH lifting equation recommended weight limit multipliers",
+    "Snook Ciriello tables pushing pulling carrying",
+    "RULA REBA posture assessment scoring",
+    "OWAS posture classification Moore Garg strain index"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anthropometry and workstation, seating and hand tool design",
+   "scope": "Anthropometric surveys and data and the percentile design principles used for workstations, seating, reach envelopes, clearances and hand tools.",
+   "queries": [
+    "ANSUR II anthropometric survey US Army",
+    "design for extremes percentile anthropometry workstation",
+    "CAESAR 3D anthropometric body scan survey",
+    "hand tool design grip span handle diameter ergonomics"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Work physiology and occupational environment (heat, noise, illumination)",
+   "scope": "Physiological workload and the physical work environment: energy expenditure and work capacity, perceived exertion scales, heat stress indices, occupational noise exposure limits and industrial lighting levels.",
+   "queries": [
+    "physical work capacity oxygen consumption energy expenditure",
+    "wet bulb globe temperature heat stress ACGIH",
+    "OSHA noise permissible exposure limit exchange rate",
+    "recommended illuminance levels lux industrial tasks"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cognitive ergonomics, human error and human reliability analysis",
+   "scope": "Information processing in human-machine systems: Fitts's and Hick-Hyman laws, display and control design, mental workload and situation awareness, human error taxonomies, and human reliability analysis methods such as THERP, HEART and SLIM.",
+   "queries": [
+    "Fitts law index of difficulty movement time",
+    "NASA-TLX mental workload subscales",
+    "THERP human error probability Swain Guttmann",
+    "Rasmussen skill rule knowledge Reason Swiss cheese"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Occupational safety engineering and accident causation",
+   "scope": "Occupational safety practice and theory: OSHA standards and recordkeeping, injury incidence rate formulas, Heinrich and Bird accident ratios, process hazard analysis such as HAZOP, and lockout/tagout.",
+   "queries": [
+    "Heinrich accident triangle 300 29 1 ratio",
+    "OSHA recordable incidence rate 200000 hours",
+    "lockout tagout 29 CFR 1910.147 energy control",
+    "HAZOP guide words process hazard analysis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical process control charts",
+   "scope": "Shewhart variables and attributes control charts, their constants and limits, run rules, and advanced charts such as CUSUM, EWMA and their average run length behavior.",
+   "queries": [
+    "Shewhart X-bar R chart control limits constants A2",
+    "Western Electric rules control chart run tests",
+    "CUSUM EWMA control chart average run length",
+    "p chart np chart c chart u chart attributes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Acceptance sampling plans and standards",
+   "scope": "Lot acceptance sampling: MIL-STD-105E and ANSI/ASQ Z1.4, MIL-STD-414 and Z1.9, Dodge-Romig tables, AQL, LTPD and AOQL, switching rules and operating characteristic curves.",
+   "queries": [
+    "MIL-STD-105E sample size code letters inspection levels",
+    "ANSI ASQ Z1.4 AQL switching rules tightened",
+    "Dodge Romig tables LTPD AOQL",
+    "operating characteristic curve producer consumer risk"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Process capability indices and measurement systems analysis",
+   "scope": "Process capability and performance indices (Cp, Cpk, Cpm, Pp, Ppk) and measurement system analysis, including gauge R&R studies, number of distinct categories and the AIAG MSA manual.",
+   "queries": [
+    "process capability index Cpk Cpm Ppk",
+    "gage repeatability reproducibility study ANOVA method",
+    "AIAG measurement systems analysis number of distinct categories",
+    "process capability non-normal data Clements percentile method"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Design of experiments and Taguchi robust design",
+   "scope": "Experimental design for engineering: factorial and fractional factorial designs, resolution and aliasing, Plackett-Burman screening, central composite and Box-Behnken response surface designs, and Taguchi orthogonal arrays, signal-to-noise ratios and the quality loss function.",
+   "queries": [
+    "fractional factorial design resolution aliasing generator",
+    "Plackett-Burman screening design number of runs",
+    "central composite design Box-Behnken response surface",
+    "Taguchi orthogonal array L18 signal-to-noise loss function"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quality management philosophies, standards and awards",
+   "scope": "The quality philosophies of Deming, Juran, Crosby, Feigenbaum and Ishikawa, plus quality system standards and awards: ISO 9001 revisions, IATF 16949, AS9100, the Baldrige Award, the Deming Prize and the EFQM model.",
+   "queries": [
+    "Deming 14 points seven deadly diseases",
+    "Juran trilogy Crosby zero defects cost of quality",
+    "ISO 9001 2015 revision clause structure",
+    "Malcolm Baldrige National Quality Award criteria Deming Prize"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Six Sigma, DMAIC and the basic quality tools",
+   "scope": "Six Sigma: its Motorola origins, DPMO and the 1.5-sigma shift, DMAIC and DMADV/DFSS roadmaps, belt roles and certification, and the seven basic quality tools.",
+   "queries": [
+    "Six Sigma Motorola Bill Smith 3.4 DPMO",
+    "DMAIC define measure analyze improve control tools",
+    "seven basic quality tools Ishikawa Pareto check sheet",
+    "Design for Six Sigma DMADV 1.5 sigma shift"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quality function deployment, Kano model and design for manufacture and assembly",
+   "scope": "Design tools that link customer needs to product and process engineering: quality function deployment and the house of quality, the Kano model, and Boothroyd-Dewhurst design for manufacture and assembly.",
+   "queries": [
+    "house of quality matrix quality function deployment",
+    "Kano model must-be attractive one-dimensional attributes",
+    "Boothroyd Dewhurst design for assembly efficiency index",
+    "Yoji Akao QFD Mitsubishi Kobe shipyard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Failure mode and effects analysis and fault tree analysis",
+   "scope": "Systematic failure analysis: FMEA and FMECA standards, risk priority numbers and AIAG-VDA action priority, and fault tree analysis gates, minimal cut sets and their origins.",
+   "queries": [
+    "FMEA risk priority number severity occurrence detection",
+    "AIAG VDA FMEA handbook action priority",
+    "fault tree analysis minimal cut sets Bell Labs Minuteman",
+    "MIL-STD-1629A FMECA criticality analysis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reliability engineering and life data analysis",
+   "scope": "Reliability models and analysis: the bathtub curve, exponential and Weibull life distributions, MTBF and MTTF, reliability block diagrams and k-out-of-n systems, accelerated life testing and reliability prediction handbooks.",
+   "queries": [
+    "Weibull shape parameter beta life data analysis",
+    "bathtub curve infant mortality wear-out failure rate",
+    "MIL-HDBK-217 reliability prediction failure rate",
+    "accelerated life testing Arrhenius acceleration factor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Maintenance engineering: RCM, TPM and OEE",
+   "scope": "Maintenance strategy and management: reliability-centered maintenance, total productive maintenance and its pillars, overall equipment effectiveness and the six big losses, and preventive and predictive maintenance practice.",
+   "queries": [
+    "reliability centered maintenance Nowlan Heap SAE JA1011",
+    "total productive maintenance eight pillars Nakajima",
+    "overall equipment effectiveness six big losses",
+    "predictive maintenance P-F curve vibration analysis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Toyota Production System and lean manufacturing tools",
+   "scope": "The Toyota Production System and lean manufacturing: jidoka, kanban, heijunka, the seven wastes, SMED, 5S, poka-yoke, takt time and value stream mapping, with their originators and key texts.",
+   "queries": [
+    "Taiichi Ohno Toyota Production System seven wastes",
+    "single minute exchange of die Shigeo Shingo",
+    "kanban number of cards formula container",
+    "value stream mapping Learning to See Rother Shook"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theory of constraints and drum-buffer-rope",
+   "scope": "Goldratt's theory of constraints: the five focusing steps, drum-buffer-rope scheduling, throughput accounting measures and the thinking process trees.",
+   "queries": [
+    "Goldratt The Goal theory of constraints five focusing steps",
+    "drum buffer rope scheduling bottleneck",
+    "throughput accounting operating expense investment",
+    "thinking processes current reality tree evaporating cloud"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Facility layout planning methods and algorithms",
+   "scope": "Facility layout planning: layout types, Muther's systematic layout planning and activity relationship charts, from-to charts, computerized layout algorithms (CRAFT, CORELAP, ALDEP, BLOCPLAN), and quadratic assignment formulations.",
+   "queries": [
+    "systematic layout planning Muther activity relationship chart",
+    "CRAFT computerized relative allocation of facilities technique",
+    "CORELAP ALDEP BLOCPLAN layout algorithm",
+    "quadratic assignment problem facility layout"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Material handling equipment and warehousing systems",
+   "scope": "Material handling and warehouse operations: conveyors, AGVs, AS/RS, unit loads and pallet standards, the principles of material handling, order picking methods, storage assignment and slotting, and cross-docking.",
+   "queries": [
+    "automated storage retrieval system unit load AS/RS",
+    "automated guided vehicle navigation guidance types",
+    "order picking methods wave batch zone picking",
+    "cube per order index storage assignment warehouse"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Group technology, cellular manufacturing and flexible manufacturing systems",
+   "scope": "Group technology and manufacturing cells: part classification and coding systems (Opitz, MICLASS, DCLASS), cell formation algorithms such as rank order clustering, production flow analysis, and flexible manufacturing systems.",
+   "queries": [
+    "Opitz classification coding system digits",
+    "rank order clustering King machine part matrix",
+    "production flow analysis Burbidge group technology",
+    "flexible manufacturing system Molins System 24 history"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Assembly line balancing and mixed-model sequencing",
+   "scope": "Assembly line design: precedence diagrams, cycle time, line efficiency and balance delay, heuristics such as ranked positional weight and Kilbridge-Wester, SALBP problem types, and mixed-model line sequencing.",
+   "queries": [
+    "assembly line balancing ranked positional weight Helgeson Birnie",
+    "Kilbridge Wester heuristic balance delay",
+    "simple assembly line balancing problem SALBP-1 SALBP-2",
+    "mixed model assembly line sequencing Toyota goal chasing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inventory control models and policies",
+   "scope": "Deterministic and stochastic inventory models: EOQ and its extensions, quantity discounts, the newsvendor problem, (s,S), (Q,r) and base-stock policies, safety stock and service levels, and ABC classification.",
+   "queries": [
+    "economic order quantity Harris Wilson formula",
+    "newsvendor problem critical ratio overage underage",
+    "periodic review order-up-to policy Scarf optimality",
+    "safety stock cycle service level fill rate reorder point"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "MRP, ERP and hierarchical production planning",
+   "scope": "Material requirements planning and the production planning hierarchy: bills of materials, MRP records, lot-sizing heuristics (Wagner-Whitin, Silver-Meal, part-period balancing), MRP II and ERP, aggregate planning, master production scheduling and S&OP.",
+   "queries": [
+    "material requirements planning Orlicky bill of materials",
+    "Wagner Whitin Silver Meal lot sizing heuristic",
+    "master production schedule available to promise time fences",
+    "aggregate planning chase level strategy HMMS linear decision rule"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Demand forecasting methods for operations",
+   "scope": "Operational forecasting: moving averages, Brown, Holt and Winters exponential smoothing, Croston's method for intermittent demand, error measures such as MAD and MAPE, tracking signals, and forecasting competitions.",
+   "queries": [
+    "Holt Winters exponential smoothing seasonal multiplicative",
+    "Croston method intermittent demand forecasting",
+    "tracking signal mean absolute deviation forecast bias",
+    "M3 competition forecasting Makridakis accuracy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Deterministic machine scheduling theory",
+   "scope": "Machine scheduling theory: Graham's three-field notation, single-machine rules (SPT, EDD, Moore-Hodgson), Johnson's rule for flow shops, job shop scheduling and benchmark instances, dispatching rules and complexity results.",
+   "queries": [
+    "Johnson's rule two machine flow shop makespan",
+    "three field notation scheduling Graham Lawler Lenstra",
+    "Moore Hodgson algorithm number of tardy jobs",
+    "job shop scheduling Fisher Thompson benchmark instance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Project network scheduling: CPM, PERT and critical chain",
+   "scope": "Project scheduling methods: how CPM and PERT originated and how they compute schedules, float types, three-point beta estimates, time-cost crashing, resource leveling, and critical chain project management.",
+   "queries": [
+    "PERT Polaris program three time estimates beta",
+    "critical path method DuPont Kelley Walker 1957",
+    "project crashing time cost tradeoff total float",
+    "critical chain project management feeding buffer Goldratt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Queueing theory for industrial and service systems",
+   "scope": "Queueing models used for production and service systems: Kendall notation, Little's law, M/M/1 and M/M/c results, Erlang B and C, the Pollaczek-Khinchine formula, Jackson networks and call-center staffing rules.",
+   "queries": [
+    "Kendall notation queueing A/B/c/K/N",
+    "Little's law L equals lambda W proof",
+    "Erlang C formula call center square root staffing",
+    "Pollaczek Khinchine formula M/G/1 queue"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Discrete-event simulation methodology and software",
+   "scope": "Discrete-event simulation: languages and packages (GPSS, SIMSCRIPT, SIMAN/Arena, Simio, AnyLogic), random number and variate generation, input modeling, warm-up and output analysis, and variance reduction techniques.",
+   "queries": [
+    "GPSS Geoffrey Gordon simulation language IBM",
+    "SIMAN Arena simulation software Pegden",
+    "linear congruential generator random number simulation",
+    "variance reduction common random numbers antithetic variates"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Linear programming and network flow models",
+   "scope": "Linear programming and network optimization: the simplex and interior-point methods and their history, duality and sensitivity analysis, and transportation, assignment, shortest-path and maximum-flow problems and algorithms.",
+   "queries": [
+    "simplex method Dantzig 1947 linear programming",
+    "Karmarkar interior point algorithm 1984",
+    "Hungarian method assignment problem Kuhn Munkres",
+    "transportation problem Vogel approximation method MODI"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Integer programming, combinatorial optimization and metaheuristics",
+   "scope": "Discrete optimization: branch-and-bound and cutting-plane methods for integer programs, classic combinatorial problems such as the TSP and knapsack, and metaheuristics such as simulated annealing, tabu search, genetic algorithms and ant colony optimization.",
+   "queries": [
+    "branch and bound Land Doig integer programming",
+    "Gomory cutting plane mixed integer programming",
+    "traveling salesman problem Concorde solver record",
+    "simulated annealing tabu search Glover metaheuristic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering economy and cost estimation",
+   "scope": "Engineering economic analysis: interest factor notation, present, annual and future worth, IRR and incremental analysis against MARR, depreciation including MACRS, replacement analysis, benefit-cost ratios, and learning curve cost models.",
+   "queries": [
+    "MACRS depreciation recovery period half-year convention",
+    "internal rate of return incremental analysis MARR",
+    "benefit cost ratio public projects engineering economy",
+    "Wright learning curve 80 percent cumulative average Crawford"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supply chain management concepts and coordination",
+   "scope": "Supply chain management frameworks and phenomena: the bullwhip effect and beer game, the SCOR model, vendor-managed inventory and CPFR, risk pooling and postponement, and Fisher's efficient-versus-responsive framework.",
+   "queries": [
+    "bullwhip effect Lee Padmanabhan Whang causes",
+    "MIT beer distribution game Forrester system dynamics",
+    "SCOR model plan source make deliver return",
+    "risk pooling postponement Benetton supply chain"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Facility location and vehicle routing models",
+   "scope": "Location and routing models: the Weber and center-of-gravity problems, p-median, p-center and covering location models, VRP variants, heuristics such as Clarke-Wright savings and sweep, and benchmark instances.",
+   "queries": [
+    "Clarke Wright savings algorithm vehicle routing",
+    "p-median p-center facility location Hakimi",
+    "Weber problem Weiszfeld algorithm location",
+    "vehicle routing problem time windows Solomon instances"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Multi-criteria decision analysis methods",
+   "scope": "Multi-criteria decision methods used in engineering management: Saaty's analytic hierarchy process and consistency ratio, ANP, TOPSIS, ELECTRE, PROMETHEE and multi-attribute utility theory.",
+   "queries": [
+    "analytic hierarchy process Saaty consistency ratio random index",
+    "TOPSIS Hwang Yoon ideal solution",
+    "ELECTRE PROMETHEE outranking methods Roy",
+    "multi-attribute utility theory Keeney Raiffa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Manufacturing automation, industrial control and Industry 4.0",
+   "scope": "Automation and control in manufacturing: PLCs and their history, IEC 61131-3 languages, CNC G-code and M-code programming, SCADA and the ISA-95 automation hierarchy and MES, OPC UA, and Industry 4.0 reference architectures.",
+   "queries": [
+    "IEC 61131-3 PLC programming languages ladder diagram",
+    "Modicon 084 first programmable logic controller Morley",
+    "ISA-95 automation pyramid levels MES",
+    "Industry 4.0 RAMI 4.0 reference architecture model"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Metal cutting mechanics, machinability and tool life economics",
+   "scope": "Chip formation, orthogonal cutting force analysis, cutting conditions, tool materials and wear, the Taylor tool life equation, machinability ratings and economic cutting speeds for machining operations.",
+   "queries": [
+    "Taylor tool life equation exponent carbide cutting speed",
+    "Merchant force circle shear angle orthogonal cutting",
+    "machinability rating AISI 1112 free machining steel",
+    "minimum cost cutting speed maximum production rate machining"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Casting, metal forming and welding processes",
+   "scope": "Primary shaping and joining processes in manufacturing, including sand, die and investment casting, solidification rules, rolling, forging, extrusion, sheet-metal working, and arc and resistance welding processes and their designations.",
+   "queries": [
+    "Chvorinov's rule solidification time mold constant",
+    "sand casting riser gating system design",
+    "forging extrusion rolling bulk deformation processes",
+    "shielded metal arc welding electrode classification AWS"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Additive manufacturing process categories and technologies",
+   "scope": "The ISO/ASTM 52900 additive manufacturing process categories, their inventors and commercial origins (stereolithography, fused deposition, laser sintering, binder jetting, directed energy deposition), file formats and process parameters.",
+   "queries": [
+    "ISO ASTM 52900 additive manufacturing process categories",
+    "stereolithography Chuck Hull patent 3D Systems",
+    "selective laser sintering Carl Deckard powder bed fusion",
+    "fused deposition modeling Stratasys STL file format"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Numerical control, CNC part programming and CAD/CAM",
+   "scope": "The history of numerical control, CNC machine axis conventions, G-code and M-code part programming (RS-274/ISO 6983), the APT language, and toolpath generation and post-processing in CAM systems.",
+   "queries": [
+    "G-code M-code CNC part programming RS-274",
+    "APT programming language MIT Servomechanisms Laboratory",
+    "John Parsons numerical control history helicopter blades",
+    "CNC machine axis designation ISO 841 right-hand rule"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometric dimensioning and tolerancing, limits and fits",
+   "scope": "ASME Y14.5 and ISO GPS geometric tolerance symbols, datums, material condition modifiers and bonus tolerance, ISO 286 limits-and-fits designations, and worst-case and statistical tolerance stack-up analysis.",
+   "queries": [
+    "ASME Y14.5 geometric tolerance symbols datum reference frame",
+    "maximum material condition bonus tolerance true position",
+    "ISO 286 hole basis fit H7 g6",
+    "tolerance stack-up worst case root sum square"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dimensional metrology, gauging and surface texture measurement",
+   "scope": "Instruments and principles of dimensional inspection in manufacturing, including gauge blocks, micrometers, coordinate measuring machines, limit gauges and Taylor's principle of gauging, the Abbe principle, calibration traceability and surface roughness parameters.",
+   "queries": [
+    "gauge blocks Johansson grades wringing",
+    "coordinate measuring machine touch trigger probe",
+    "surface roughness Ra Rz parameters ISO 4287",
+    "go no-go limit gauge Taylor principle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Automatic identification and data capture: barcodes, RFID and GS1 standards",
+   "scope": "Linear and 2D barcode symbologies, check-digit schemes, GS1 identification keys (GTIN, SSCC, GLN), and RFID frequency bands and EPC protocols used to track items in manufacturing, warehousing and retail.",
+   "queries": [
+    "UPC EAN-13 barcode check digit calculation",
+    "Code 128 Code 39 barcode symbology specification",
+    "RFID UHF EPC Gen2 ISO 18000-63",
+    "GS1 GTIN SSCC application identifier"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Factory physics, CONWIP and quick response manufacturing",
+   "scope": "Quantitative laws of production lines from Hopp and Spearman's Factory Physics (bottleneck rate, raw process time, critical WIP, practical worst case, variability propagation) and pull-control systems such as CONWIP and POLCA.",
+   "queries": [
+    "factory physics critical WIP bottleneck rate raw process time",
+    "practical worst case performance production line",
+    "CONWIP pull system Spearman Woodruff Hopp",
+    "POLCA quick response manufacturing Suri"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Learning and experience curve models",
+   "scope": "Models of how cost or time falls with cumulative output, including Wright's cumulative-average and Crawford's unit models, typical industry learning rates, the BCG experience curve, the Stanford-B and De Jong models, and forgetting models.",
+   "queries": [
+    "Wright learning curve 1936 airplane cost",
+    "Crawford unit learning curve cumulative average",
+    "experience curve Boston Consulting Group Henderson",
+    "De Jong learning model incompressibility factor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Value engineering and value analysis",
+   "scope": "Value methodology starting from Lawrence Miles's work at General Electric, the phases of the value job plan, function analysis and FAST diagrams, SAVE International certification, and government value-engineering mandates and change proposals.",
+   "queries": [
+    "Lawrence Miles value analysis General Electric",
+    "FAST diagram function analysis system technique Bytheway",
+    "value engineering job plan phases SAVE International",
+    "value engineering change proposal federal acquisition regulation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Earned value management and project cost control",
+   "scope": "Earned value metrics (PV, EV, AC, CPI, SPI, EAC, TCPI), the EIA-748 system guidelines, earned schedule, and work breakdown structure and control account practices for project cost and schedule control.",
+   "queries": [
+    "earned value management CPI SPI estimate at completion",
+    "EIA-748 earned value management system guidelines",
+    "earned schedule Lipke schedule performance index",
+    "work breakdown structure control account planning package"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "New product development processes and design structure matrix",
+   "scope": "Structured product development methods, including Cooper's Stage-Gate, concurrent engineering, design structure matrix analysis, set-based concurrent engineering, and the phases of Ulrich and Eppinger's product development process.",
+   "queries": [
+    "Stage-Gate process Robert Cooper gates stages",
+    "design structure matrix Steward partitioning tearing",
+    "set-based concurrent engineering Toyota Ward",
+    "concurrent engineering product development phases Ulrich Eppinger"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Systems engineering lifecycle processes and standards",
+   "scope": "Systems engineering lifecycle models and standards (V-model, ISO/IEC/IEEE 15288, MIL-STD-499, IEEE 1220, NASA handbook), technology readiness levels, requirements engineering, and INCOSE and model-based practice such as SysML.",
+   "queries": [
+    "ISO IEC IEEE 15288 system life cycle processes",
+    "technology readiness level NASA scale definitions",
+    "V-model systems engineering verification validation",
+    "SysML diagram types model-based systems engineering INCOSE"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "System dynamics modeling and simulation",
+   "scope": "Forrester's system dynamics method, with stocks, flows, delays and feedback loops, causal loop diagrams and system archetypes, classic models (Industrial Dynamics, Urban Dynamics, World3), and software such as DYNAMO, Vensim and Stella.",
+   "queries": [
+    "Jay Forrester industrial dynamics system dynamics MIT",
+    "stock and flow diagram causal loop feedback delay",
+    "World3 Limits to Growth model",
+    "Vensim Stella DYNAMO system dynamics software"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Markov chains, dynamic programming and Markov decision processes",
+   "scope": "Discrete- and continuous-time Markov chains, absorbing-chain and steady-state analysis, Bellman's dynamic programming principle, and Markov decision processes solved by value and policy iteration in operations applications.",
+   "queries": [
+    "Markov chain steady state transition matrix absorbing states",
+    "Bellman principle of optimality dynamic programming",
+    "Markov decision process policy iteration Howard",
+    "continuous time Markov chain generator matrix"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonlinear programming and convex optimization",
+   "scope": "Optimality conditions (Lagrange multipliers, Karush-Kuhn-Tucker, constraint qualifications), convexity, unconstrained and constrained algorithms (Newton, quasi-Newton, SQP, penalty and barrier methods), and quadratic and geometric programming.",
+   "queries": [
+    "Karush-Kuhn-Tucker conditions constraint qualification",
+    "quasi-Newton BFGS method line search Wolfe",
+    "sequential quadratic programming penalty barrier method",
+    "geometric programming posynomial Duffin Zener"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Decision analysis under uncertainty and risk",
+   "scope": "Decision trees, expected monetary value, value of perfect and sample information, utility theory and risk attitudes, influence diagrams, and decision criteria under uncertainty (maximin, minimax regret, Hurwicz, Laplace).",
+   "queries": [
+    "expected value of perfect information decision tree",
+    "influence diagram Howard Matheson decision analysis",
+    "minimax regret Hurwicz criterion decision under uncertainty",
+    "utility function risk premium certainty equivalent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Revenue management and dynamic pricing",
+   "scope": "Capacity-control and pricing methods for perishable inventory, such as Littlewood's rule, EMSR heuristics, nested booking limits, overbooking models and bid-price controls, and the airline and hotel origins of yield management.",
+   "queries": [
+    "Littlewood's rule two fare classes protection level",
+    "EMSR-b Belobaba expected marginal seat revenue",
+    "airline yield management American Airlines DINAMO",
+    "overbooking model no-show booking limit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Workforce scheduling and crew rostering",
+   "scope": "Optimization models for staffing and shift scheduling, including Dantzig's set-covering formulation, days-off and tour scheduling, nurse rostering, airline crew pairing and rostering, and call-center staffing requirements.",
+   "queries": [
+    "Dantzig Edie shift scheduling set covering toll booth",
+    "nurse rostering problem hard soft constraints",
+    "airline crew pairing problem column generation",
+    "days off tour scheduling workforce cyclic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Freight transportation, intermodal logistics and container terminals",
+   "scope": "Freight modes and carrier operations (truckload, LTL, rail, ocean), containerization and container standards, hub-and-spoke and intermodal networks, and container terminal operations such as berth allocation and quay crane scheduling.",
+   "queries": [
+    "shipping container TEU dimensions ISO 668",
+    "Malcom McLean containerization Ideal X",
+    "berth allocation quay crane scheduling container terminal",
+    "less than truckload freight class NMFC"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Life cycle assessment and sustainable manufacturing",
+   "scope": "ISO 14040/14044 life cycle assessment phases and terminology, impact assessment methods, design for environment, remanufacturing, and reverse logistics and closed-loop supply chains.",
+   "queries": [
+    "ISO 14040 life cycle assessment functional unit",
+    "life cycle impact assessment ReCiPe Eco-indicator 99",
+    "remanufacturing closed-loop supply chain reverse logistics",
+    "cradle to cradle design for environment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial engineering profession: societies, journals and awards",
+   "scope": "The institutions of industrial engineering and operations research, including IISE (formerly AIIE/IIE), INFORMS and its predecessors ORSA and TIMS, major journals, named awards and medals, licensure exams and early academic programs.",
+   "queries": [
+    "Institute of Industrial and Systems Engineers founded 1948",
+    "Frank and Lillian Gilbreth Industrial Engineering Award recipients",
+    "INFORMS ORSA TIMS merger Franz Edelman Award",
+    "first industrial engineering program Penn State Hugo Diemer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

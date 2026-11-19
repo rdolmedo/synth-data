@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Engineering",
+ "subject": "Electrical Engineering",
+ "target_leaves": 8,
+ "expected_problems": 25,
+ "leaves": [
+  {
+   "leaf": "Victorian submarine telegraph cable engineering",
+   "scope": "Documented specs of specific 19th-century ocean cables (1858, 1865\u201366 Atlantic, Red Sea, Indian cables): conductor and gutta-percha weights per nautical mile, measured resistance and capacitance, signalling speeds, and the instruments used (mirror galvanometer, siphon recorder). A question can apply Kelvin's KR 'law of squares' to these figures to compare or predict signalling rates between two cables.",
+   "queries": [
+    "gutta-percha core per knot",
+    "Atlantic cable 1866 resistance",
+    "siphon recorder signalling speed",
+    "Thomson law of squares cable",
+    "cable electrostatic capacity microfarads"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Telephone line loading and image-parameter filters",
+   "scope": "Pupin and Campbell loading-coil practice (coil inductances, spacings, and standard loading schemes for cable and open-wire circuits) plus Campbell\u2013Zobel constant-k and m-derived wave-filter sections as set out in early Bell System literature. A question can combine a documented coil spacing and inductance with line capacitance to get a cutoff frequency, or compare attenuation between loaded and unloaded circuits.",
+   "queries": [
+    "Pupin loading coil spacing",
+    "Campbell electric wave filter",
+    "Zobel m-derived section",
+    "loaded cable cutoff frequency",
+    "H-88 loading telephone"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Spark, arc and alternator radio transmitters",
+   "scope": "Operating details of pre-1925 transmitter types: Telefunken quenched gaps, Poulsen arc stations (power, wavelength, magnetic blowout), Goldschmidt and Alexanderson high-frequency alternators (pole counts, rotor speeds, output frequencies), and logarithmic-decrement rules. A question can work out a station's wavelength or frequency from documented machine parameters, or compare the damping of two named transmitters.",
+   "queries": [
+    "Poulsen arc transmitter station",
+    "Alexanderson alternator kilocycles",
+    "quenched spark gap Telefunken",
+    "logarithmic decrement wireless",
+    "Goldschmidt reflection alternator"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "US electrical and radio patent litigation",
+   "scope": "Federal decisions on electrical inventions (incandescent lamp filaments, telephone transmitters, regenerative and feedback circuits, the Marconi tuning patents, early transistor and induction-motor claims): which claims were held valid or invalid, the prior art the court relied on, and how it read the technical terms. A question can ask which technical feature decided the outcome, or combine holdings from two related cases.",
+   "queries": [
+    "regenerative circuit patent infringement",
+    "incandescent lamp carbon filament patent",
+    "Marconi wireless telegraph patent",
+    "induction motor patent Tesla",
+    "vacuum tube audion patent"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Grid blackout and frequency-event forensic analyses",
+   "scope": "Published post-mortems of specific large disturbances (e.g. 2003 North American and Italian blackouts, the 2006 European split, the 2019 UK low-frequency event, the 2021 Texas event): recorded frequency nadirs, rate-of-change-of-frequency (ROCOF) values, MW of generation lost, under-frequency load-shedding stages, and system inertia estimates. A question can use the swing equation on these reported numbers to infer an inertia constant or check whether a shedding threshold was reached.",
+   "queries": [
+    "blackout frequency nadir ROCOF",
+    "under-frequency load shedding event",
+    "system inertia estimation disturbance",
+    "European grid split 2006",
+    "loss of infeed frequency"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Fundamental bounds for electrically small antennas",
+   "scope": "The forms and constants of the Chu, Wheeler, McLean, Thal and Gustafsson (polarizability-based) limits on radiation Q and bandwidth, and the measured Q of named small antenna designs reported against those limits. A question can compute the minimum Q for a given ka from a stated bound and compare it with a reported design to find how far the design sits from the limit.",
+   "queries": [
+    "Chu limit radiation Q",
+    "Gustafsson polarizability bound antenna",
+    "Thal bound small antenna",
+    "electrically small antenna ka",
+    "McLean minimum Q"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "ADC architecture figures of merit",
+   "scope": "Reported specs (SNDR, ENOB, sampling rate, power, process node) of specific published SAR, pipelined, delta-sigma and time-interleaved ADCs, and the definitions of the Walden and Schreier figures of merit used in ADC surveys. A question can compute and rank FoMs for given chips, or find the bandwidth at which an architecture crosses a jitter-limited SNR line.",
+   "queries": [
+    "Schreier figure of merit ADC",
+    "Walden FoM conversion energy",
+    "SAR ADC SNDR power",
+    "time-interleaved ADC mismatch calibration",
+    "aperture jitter SNR limit"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Single-event burnout in SiC power devices",
+   "scope": "Heavy-ion and neutron test results for silicon-carbide MOSFETs and Schottky diodes: threshold LET values, onset voltage as a fraction of rated breakdown, the leakage-current degradation regime, and the proposed failure mechanisms. A question can combine reported onset fractions with a device's rating to find a safe derated bus voltage, or compare how robust two device generations are.",
+   "queries": [
+    "SiC MOSFET single-event burnout",
+    "heavy ion SiC leakage degradation",
+    "single-event effects power MOSFET derating",
+    "SiC Schottky radiation LET",
+    "terrestrial neutron SiC failure"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "subtopics": [
+  {
+   "name": "Nuclear effective field theory and few-body systems",
+   "scope": "Pionless and chiral effective-field-theory descriptions of nuclear forces, applied to two-, three- and four-nucleon bound states, scattering and universal low-energy behavior.",
+   "keywords": [
+    "pionless effective field theory",
+    "chiral effective field theory",
+    "power counting",
+    "effective range expansion",
+    "Efimov effect",
+    "three-nucleon force",
+    "deuteron",
+    "unitarity limit",
+    "halo nuclei"
+   ]
+  },
+  {
+   "name": "Shell model and exactly solvable models",
+   "scope": "Configuration-interaction descriptions of nuclei, and schematic solvable Hamiltonians (pairing, seniority, Lipkin-type) used to benchmark many-body approximations.",
+   "keywords": [
+    "nuclear shell model",
+    "configuration interaction",
+    "seniority",
+    "Richardson-Gaudin",
+    "Lipkin-Meshkov-Glick",
+    "quasispin",
+    "effective interaction",
+    "valence space",
+    "exactly solvable"
+   ]
+  },
+  {
+   "name": "Nuclear density functionals and mean-field theory",
+   "scope": "Skyrme, Gogny and relativistic mean-field energy density functionals for ground-state properties, deformation and giant resonances across the nuclear chart.",
+   "keywords": [
+    "Skyrme",
+    "energy density functional",
+    "relativistic mean field",
+    "Hartree-Fock-Bogoliubov",
+    "nuclear deformation",
+    "symmetry energy",
+    "giant resonance",
+    "neutron skin",
+    "random phase approximation"
+   ]
+  },
+  {
+   "name": "Collective motion: geometric and algebraic models",
+   "scope": "Bohr-Mottelson geometric collective Hamiltonians, interacting boson models and dynamical symmetries describing vibrational, rotational and transitional nuclear spectra.",
+   "keywords": [
+    "Bohr Hamiltonian",
+    "interacting boson model",
+    "dynamical symmetry",
+    "shape phase transition",
+    "critical point symmetry",
+    "X(5)",
+    "rotational band",
+    "quantum phase transition",
+    "collective excitations"
+   ]
+  },
+  {
+   "name": "Dense matter equation of state and neutron stars",
+   "scope": "The equation of state of nuclear and quark matter at high density, and what it implies for neutron-star structure, tidal deformability, cooling and superfluidity.",
+   "keywords": [
+    "equation of state",
+    "neutron star",
+    "Tolman-Oppenheimer-Volkoff",
+    "tidal deformability",
+    "mass-radius relation",
+    "hyperons",
+    "quark matter",
+    "neutron superfluidity",
+    "speed of sound"
+   ]
+  },
+  {
+   "name": "Nuclear reaction and scattering theory",
+   "scope": "Optical-model, coupled-channels, R-matrix, eikonal and breakup descriptions of elastic, inelastic, transfer and fusion reactions.",
+   "keywords": [
+    "optical potential",
+    "coupled channels",
+    "R-matrix",
+    "distorted wave Born approximation",
+    "fusion cross section",
+    "breakup reactions",
+    "Coulomb barrier",
+    "transfer reactions",
+    "eikonal approximation"
+   ]
+  },
+  {
+   "name": "Radioactive decay, fission and barrier penetration",
+   "scope": "Alpha decay, cluster and proton emission, and fission treated as quantum tunneling through nuclear potential barriers, including half-life systematics.",
+   "keywords": [
+    "alpha decay",
+    "cluster radioactivity",
+    "proton emission",
+    "Geiger-Nuttall law",
+    "half-life",
+    "preformation factor",
+    "fission barrier",
+    "tunneling",
+    "superheavy nuclei"
+   ]
+  },
+  {
+   "name": "Thermonuclear reaction rates and nucleosynthesis",
+   "scope": "Theory of low-energy astrophysical reaction rates, plasma screening and network freeze-out, which underlie big-bang, stellar, s-process and r-process nucleosynthesis.",
+   "keywords": [
+    "astrophysical S-factor",
+    "Gamow peak",
+    "electron screening",
+    "big bang nucleosynthesis",
+    "r-process",
+    "radiative capture",
+    "thermonuclear reaction rate",
+    "neutron capture",
+    "stellar burning"
+   ]
+  },
+  {
+   "name": "Weak interactions and fundamental symmetries in nuclei",
+   "scope": "Beta decay, neutrinoless double-beta decay, neutrino-nucleus interactions, and symmetry-violating observables such as electric dipole moments in nuclear systems.",
+   "keywords": [
+    "neutrinoless double beta decay",
+    "nuclear matrix element",
+    "superallowed beta decay",
+    "CKM unitarity",
+    "Gamow-Teller",
+    "neutrino-nucleus scattering",
+    "electric dipole moment",
+    "parity violation",
+    "radiative corrections"
+   ]
+  },
+  {
+   "name": "Relativistic hydrodynamics of heavy-ion collisions",
+   "scope": "Ideal and viscous relativistic fluid dynamics, its kinetic-theory foundations and attractor behavior, applied to the expanding quark-gluon plasma.",
+   "keywords": [
+    "relativistic hydrodynamics",
+    "Bjorken flow",
+    "Gubser flow",
+    "viscous hydrodynamics",
+    "shear viscosity",
+    "hydrodynamic attractor",
+    "anisotropic flow",
+    "Israel-Stewart",
+    "relaxation time approximation"
+   ]
+  },
+  {
+   "name": "Hard probes and heavy quarks in QGP",
+   "scope": "Jet energy loss, heavy-quark diffusion and quarkonium dissociation as probes of the hot medium created in nuclear collisions.",
+   "keywords": [
+    "jet quenching",
+    "radiative energy loss",
+    "jet transport coefficient",
+    "heavy quark diffusion",
+    "quarkonium suppression",
+    "Debye screening",
+    "Langevin dynamics",
+    "complex potential",
+    "open heavy flavor"
+   ]
+  },
+  {
+   "name": "QCD phase diagram and chiral transition",
+   "scope": "Effective-model and field-theory studies of the chiral and deconfinement transitions, the critical point, and color superconductivity at finite temperature and density.",
+   "keywords": [
+    "chiral phase transition",
+    "Nambu-Jona-Lasinio",
+    "quark-meson model",
+    "QCD critical point",
+    "Polyakov loop",
+    "color superconductivity",
+    "baryon chemical potential",
+    "magnetic catalysis",
+    "conserved charge fluctuations"
+   ]
+  },
+  {
+   "name": "Hadron spectroscopy and exotic hadrons",
+   "scope": "Quark-model, heavy-quark-symmetry and hadronic-molecule descriptions of meson and baryon spectra, including tetraquark and pentaquark candidates.",
+   "keywords": [
+    "hadron spectroscopy",
+    "quark model",
+    "tetraquark",
+    "pentaquark",
+    "hadronic molecule",
+    "heavy quark spin symmetry",
+    "X(3872)",
+    "one-boson exchange",
+    "coupled-channel",
+    "decay width"
+   ]
+  },
+  {
+   "name": "Partonic structure of nucleons and nuclei",
+   "scope": "Parton distributions, form factors, generalized and transverse-momentum-dependent distributions, nuclear modifications and small-x saturation.",
+   "keywords": [
+    "parton distribution functions",
+    "generalized parton distributions",
+    "transverse momentum dependent",
+    "nucleon form factors",
+    "DGLAP evolution",
+    "EMC effect",
+    "small-x",
+    "color glass condensate",
+    "deep inelastic scattering",
+    "sum rules"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "EFT matching, power counting and loops",
+   "scope": "Build effective Lagrangians, order contributions by power counting, and evaluate loop integrals in dimensional regularization to get amplitudes, low-energy constants or corrections at a fixed order."
+  },
+  {
+   "name": "Renormalization group flow and fixed points",
+   "scope": "Derive and solve Wilsonian, functional or similarity renormalization-group equations for couplings to find fixed points, critical exponents, running behavior or limit cycles."
+  },
+  {
+   "name": "Effective-range expansion and partial-wave analysis",
+   "scope": "Decompose scattering amplitudes into partial waves and extract phase shifts, scattering lengths, effective ranges, pole positions or finite-volume energy shifts."
+  },
+  {
+   "name": "Self-consistent mean field and BCS",
+   "scope": "Use variational Hartree-Fock and BCS/Bogoliubov treatments to obtain gap equations, self-consistency conditions, and closed-form energies or critical values."
+  },
+  {
+   "name": "Random phase approximation and linear response",
+   "scope": "Linearize the equations of motion around a ground state to compute collective excitation energies, strength functions, energy-weighted sum rules or response functions."
+  },
+  {
+   "name": "Group theory and angular-momentum algebra",
+   "scope": "Use Lie-algebra Casimirs, dynamical symmetries, and Clebsch-Gordan and Racah recoupling to get spectra, selection rules and transition ratios exactly."
+  },
+  {
+   "name": "WKB and semiclassical barrier penetration",
+   "scope": "Use semiclassical quantization and tunneling integrals to obtain penetrabilities, half-lives, Gamow factors and Bohr-Sommerfeld spectra."
+  },
+  {
+   "name": "Hyperspherical and Faddeev three-body methods",
+   "scope": "Reduce three-body problems in hyperspherical coordinates, or through Faddeev equations, to transcendental equations for scaling exponents, bound-state energies or recombination rates."
+  },
+  {
+   "name": "Finite-temperature field theory and resummation",
+   "scope": "Use Matsubara sums, hard-thermal-loop resummation and thermal self-energies to compute screening masses, damping rates, pressures and the correlators behind transport coefficients."
+  },
+  {
+   "name": "Kinetic theory and analytic hydrodynamic solutions",
+   "scope": "Solve Boltzmann equations in the relaxation-time approximation or in moment expansions, and construct symmetric flow solutions, to derive transport coefficients, attractors and relaxation rates."
+  },
+  {
+   "name": "Dispersion relations and sum rules",
+   "scope": "Use analyticity, unitarity and the operator product expansion to derive dispersive representations, sum rules and bounds on spectral quantities."
+  },
+  {
+   "name": "Factorization and QCD evolution equations",
+   "scope": "Apply collinear, TMD or small-x factorization with DGLAP, BFKL or BK evolution, Mellin moments and anomalous dimensions to obtain scaling laws and asymptotic forms."
+  }
+ ],
+ "field": "nuclear physics",
+ "categories": [
+  "nucl-th",
+  "hep-ph"
+ ]
+}

@@ -1,0 +1,16 @@
+# condor_submit_bid 61 aa_evals/scicode/sandbox/submit_build.sub   (from the repo root)
+universe = vanilla
+executable = /bin/bash
+arguments = "aa_evals/scicode/sandbox/build_sif.sh /data/aai/aa_evals/data/scicode/sif"
+output = /data/aai/aa_evals/data/scicode/sif/build.$(Cluster).out
+error = /data/aai/aa_evals/data/scicode/sif/build.$(Cluster).err
+log = /data/aai/aa_evals/data/scicode/sif/build.log
+request_gpus = 0
+request_cpus = 4
+request_memory = 16384
+request_disk = 30G
++BypassLXCfs = "true"
+getenv = false
+environment = "HOME=/home/user USER=user PATH=/usr/local/bin:/usr/bin:/bin"
+requirements = (TARGET.GPUs == 0 || TARGET.GPUs =?= undefined)
+queue

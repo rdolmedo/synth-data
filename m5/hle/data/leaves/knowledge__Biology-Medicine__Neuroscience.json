@@ -1,0 +1,143 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Neuroscience",
+ "target_leaves": 9,
+ "expected_problems": 112,
+ "leaves": [
+  {
+   "leaf": "Brodmann and von Economo cytoarchitectonic areas",
+   "scope": "Early 20th-century cortical maps: area numbers and letter codes, laminar features, and how the areas correspond across species and between Brodmann's and von Economo-Koskinas's schemes. A question could ask the solver to map a described laminar profile to an area, then compare or count areas across the two schemes.",
+   "queries": [
+    "Brodmann Lokalisationslehre areas",
+    "von Economo Koskinas cytoarchitectonics",
+    "granular cortex area 4",
+    "cortical lamination cytoarchitectonic map"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century aphasia clinicopathological case reports",
+   "scope": "Specific patients, autopsy findings and diagrams from Broca, Wernicke, Lichtheim, Bastian and their contemporaries. A question could have the solver predict which syndrome a lesion would produce under a given historical model, or trace how the terminology changed.",
+   "queries": [
+    "Lichtheim aphasia schema",
+    "Bastian word-deafness case",
+    "Broca Leborgne autopsy",
+    "conduction aphasia history",
+    "Wernicke sensory aphasia"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Spontaneous cerebellar mutant mice phenotypes",
+   "scope": "Classic mouse mutants (reeler, weaver, staggerer, lurcher, nervous, pcd, and others): the genes behind them, the cell populations they affect, and when degeneration starts. A question could combine a described histological phenotype with the gene's known function to identify the mutant or the cell type that is primarily affected.",
+   "queries": [
+    "weaver mouse granule cells",
+    "staggerer RORalpha Purkinje",
+    "lurcher GluRdelta2 mutation",
+    "pcd Purkinje degeneration",
+    "reeler cerebellar lamination"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Mouse retinal ganglion cell type catalogues",
+   "scope": "Classifications of retinal ganglion cell types by morphology, function and transcriptome: dendritic stratification depth, molecular markers, and where cells project in the brain. A question could give a marker and stratification profile, have the solver identify the type, then infer its likely response properties or central target.",
+   "queries": [
+    "retinal ganglion cell types transcriptomic",
+    "ON-OFF direction-selective ganglion",
+    "intrinsically photosensitive M1 M2",
+    "inner plexiform layer stratification",
+    "alpha ganglion cells mouse"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Crustacean stomatogastric ganglion identified neurons",
+   "scope": "Identified neurons of the pyloric and gastric mill circuits (AB, PD, LP, PY, and others): their synaptic connections, the neuromodulators acting on them, and how many copies each species has. A question could have the solver deduce how the circuit's phase relationships shift when a given neuron is removed or modulated.",
+   "queries": [
+    "stomatogastric ganglion pyloric rhythm",
+    "lobster PD LP PY neurons",
+    "Cancer borealis neuromodulation",
+    "gastric mill circuit connectivity"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Songbird song control system nuclei",
+   "scope": "Song system nuclei and pathways in oscine birds (HVC, RA, LMAN, Area X, DLM), naming changes after the 2004 revision of avian brain nomenclature, and differences between species and sexes. A question could ask the solver to trace a pathway through the old and new names, or predict which song deficit follows a lesion.",
+   "queries": [
+    "HVC RA LMAN pathway",
+    "avian brain nomenclature revision",
+    "Area X basal ganglia songbird",
+    "zebra finch song learning lesion"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Cephalopod brain lobe anatomy",
+   "scope": "J. Z. Young-era descriptions of octopus and squid brain lobes (vertical, subvertical, optic and peduncle lobes), their estimated neuron counts, and their roles in learning, from classic lesion experiments. A question could combine the anatomy with lesion results to infer which memory system was disrupted.",
+   "queries": [
+    "octopus vertical lobe learning",
+    "cephalopod brain lobes anatomy",
+    "Octopus vulgaris optic lobe",
+    "squid giant fiber lobe",
+    "subfrontal lobe tactile memory"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Drosophila connectome neuron type nomenclature",
+   "scope": "Neuron types and counts from the hemibrain and FlyWire connectomes (mushroom body output neurons, central complex columnar types, lateral horn neurons) and the synaptic connections between them. A question could have the solver count types, or trace a multi-synapse path between two named neuron classes.",
+   "queries": [
+    "hemibrain connectome cell types",
+    "FlyWire whole-brain connectome",
+    "mushroom body output neurons",
+    "central complex columnar neurons",
+    "lateral horn neuron types"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Brain death determination in US case law",
+   "scope": "US court decisions on how death is determined by neurological criteria: the Uniform Determination of Death Act, the Harvard criteria, ancillary tests, and disputes over consent and religious exemptions. A question could ask the solver to apply the statutory standard to a set of clinical findings, or to compare how different jurisdictions ruled.",
+   "queries": [
+    "brain death determination court",
+    "Uniform Determination of Death Act",
+    "irreversible cessation whole brain",
+    "neurological criteria death litigation"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  }
+ ]
+}

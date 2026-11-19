@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Poetry",
+ "target_leaves": 8,
+ "expected_problems": 56,
+ "leaves": [
+  {
+   "leaf": "Greek and Latin quantitative verse scansion",
+   "scope": "Problems give a line or a short passage of dactylic hexameter, elegiac couplet, or an Aeolic or lyric stanza (Sapphic, Alcaic, Asclepiadean). The solver must find the one valid scansion or say which candidate line breaks a metrical law. They are hard because vowel quantity, position, elision, synizesis and caesura rules all interact, and a single wrong choice spreads through the rest of the line.",
+   "techniques": [
+    "Length by position versus natural length, including muta cum liquida syllables that may scan short",
+    "Elision, prodelision and hiatus, including epic correption of a long vowel before another vowel",
+    "Synizesis and the consonantal use of i/u to reduce the syllable count",
+    "Caesura and diaeresis placement (penthemimeral, trochaic, hephthemimeral, bucolic diaeresis)",
+    "Bridges and laws such as Hermann's bridge, Naeke's law and Porson's law for checking whether a line is metrical",
+    "Counting the 16 dactyl/spondee patterns of the hexameter under extra constraints"
+   ],
+   "answer_forms": [
+    "string of D/S feet",
+    "integer",
+    "letter for multiple choice",
+    "line number"
+   ]
+  },
+  {
+   "leaf": "Generative metrics of English iambic pentameter",
+   "scope": "Problems ask the solver to apply a stated formal theory (Halle\u2013Keyser, Kiparsky, or Hanson\u2013Kiparsky) to a set of constructed or historical lines and decide which lines are metrical, or which mapping of syllables to positions is the only one allowed. They are hard because the theories treat lexical stress, phrasal stress and monosyllables differently, and lines that sound acceptable can still fail.",
+   "techniques": [
+    "Stress-maximum detection (a stressed syllable between two unstressed syllables in the same phrase) and its ban from weak positions",
+    "Kiparsky's distinction between lexical stress in polysyllables and phrasal stress on monosyllables",
+    "Licensed inversion at the start of a line and after a major phrase break",
+    "Extrametrical feminine endings and the placement of an extra syllable at the caesura",
+    "Syncope, synaloepha and slurring (e.g. 'flow'ring', 'th'expense') to reduce syllables to the ten positions",
+    "Parametric comparison of constraints across authors such as Chaucer, Shakespeare, Milton and Pope"
+   ],
+   "answer_forms": [
+    "small set of line numbers",
+    "integer",
+    "letter for multiple choice",
+    "string of w/s positions"
+   ]
+  },
+  {
+   "leaf": "Sanskrit chandas enumeration: prast\u0101ra, na\u1e63\u1e6da, uddi\u1e63\u1e6da",
+   "scope": "Problems use the classical Indian combinatorial procedures for meters. They ask for the rank of a given light/heavy (laghu/guru) pattern, the pattern at a given rank, or the number of syllabic or moraic meters that satisfy given constraints. They are hard because the traditional ordering conventions, ga\u1e47a notation and moraic weights must be applied exactly, with no off-by-one errors.",
+   "techniques": [
+    "Pi\u1e45gala's prast\u0101ra ordering of laghu/guru sequences, which is a reflected binary enumeration",
+    "Na\u1e63\u1e6da (unranking) and uddi\u1e63\u1e6da (ranking) algorithms by successive halving and doubling",
+    "Meru-prast\u0101ra (a Pascal's-triangle construction) for counting patterns with exactly k gurus",
+    "M\u0101tr\u0101-v\u1e5btta counts using the Virah\u0101\u1e45ka\u2013Hemacandra recurrence (Fibonacci numbers)",
+    "Trisyllabic ga\u1e47a encoding (ya, ma, ta, ra, ja, bha, na, sa plus la/ga) and conversion to and from L/G strings",
+    "Caesura (yati) constraints and named meters such as anu\u1e63\u1e6dubh, tri\u1e63\u1e6dubh and mand\u0101kr\u0101nt\u0101 used as checks"
+   ],
+   "answer_forms": [
+    "integer",
+    "string of L/G syllables",
+    "ga\u1e47a sequence",
+    "name of a meter"
+   ]
+  },
+  {
+   "leaf": "Khal\u012blian \u02bfar\u016b\u1e0d circles and meter variants",
+   "scope": "Problems build Arabic (or Persian and Ottoman \u02bfar\u016b\u1e0d) meters by rotating al-Khal\u012bl's circles of sabab and watad units. They then apply permitted modifications (zi\u1e25\u0101f and \u02bfilla) and ask the solver to identify a meter, count the realizations that are allowed, or find the only foot sequence that fits a given line. They are hard because each modification applies only at certain positions, and paired constraints such as mu\u02bf\u0101qaba restrict which modifications can co-occur.",
+   "techniques": [
+    "Breaking feet into sabab khaf\u012bf, sabab thaq\u012bl, watad majm\u016b\u02bf and watad mafr\u016bq",
+    "Rotating the base sequence of a circle (e.g. the mukhtalif circle that yields \u1e6daw\u012bl, mad\u012bd and bas\u012b\u1e6d) to derive the meters it contains",
+    "Applying zi\u1e25\u0101f (khabn, \u1e6dayy, qab\u1e0d, kaff, \u02bfa\u1e63b, i\u1e0dm\u0101r), which can affect only the second element of a sabab",
+    "\u02bfIlla modifications (qa\u1e6d\u02bf, \u1e25adhf, tadhy\u012bl, tarf\u012bl) that apply only to the \u02bfar\u016b\u1e0d and \u1e0darb feet",
+    "The co-occurrence constraints mu\u02bf\u0101qaba, mur\u0101qaba and muk\u0101nafa on adjacent zi\u1e25\u0101fs",
+    "Reducing a written line to a moraic pattern (counting long and short syllables) and matching it to a meter"
+   ],
+   "answer_forms": [
+    "name of a meter",
+    "integer",
+    "sequence of feet (taf\u02bf\u012bl\u0101t)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Tonal templates of Chinese regulated verse",
+   "scope": "Problems ask for the level/oblique (p\u00edng/z\u00e8) template of a jintishi poem or a jueju quatrain, a check of a given poem against the du\u00ec and ni\u00e1n rules, the identification of a rescued (\u00e0oji\u00f9) line, or a count of the tonal patterns that are allowed. They are hard because the solver must classify tones as in Middle Chinese (including entering-tone characters that are now level in modern Mandarin), and because the '1-3-5 do not matter' rule has important exceptions.",
+   "techniques": [
+    "Deriving the four basic templates (starting on a level or an oblique tone, with or without a rhyme in the first line)",
+    "Du\u00ec (opposition within a couplet) and ni\u00e1n (adhesion between couplets) at the even-numbered positions",
+    "Bans on g\u016bp\u00edng (a lone level tone) and s\u0101np\u00edngdi\u00e0o or s\u0101nz\u00e8w\u011bi (three level or three oblique tones at the end of a line)",
+    "\u00c0oji\u00f9 compensation, where a missing level tone in one position is made up by a change elsewhere",
+    "Middle Chinese tone class using r\u00f9sh\u0113ng (entering tone), with -p/-t/-k codas inferred from Cantonese or from fanqie spellings",
+    "Rhyme-group (p\u00edngshu\u01d0y\u00f9n) membership for the rhyme positions"
+   ],
+   "answer_forms": [
+    "string of P/Z tones",
+    "integer",
+    "single Chinese character",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Skaldic dr\u00f3ttkv\u00e6tt: hendingar and kenning resolution",
+   "scope": "Problems give a dr\u00f3ttkv\u00e6tt helmingr (half-stanza), either constructed or quoted in normalized Old Norse with glosses. The solver must untangle the interlaced word order, resolve nested kennings to their referents, or find the internal rhymes and alliteration. They are hard because the syntax can be untangled in several ways, while only one reading satisfies both the metre and the kenning logic.",
+   "techniques": [
+    "Six-syllable lines ending in a trochee, with resolution and elision when counting syllables",
+    "Skothending (half-rhyme) in odd lines versus a\u00f0alhending (full rhyme) in even lines, including which syllables carry them",
+    "Placing the alliterating staves: two stu\u00f0lar in the odd line and the h\u00f6fu\u00f0stafr at the start of the even line",
+    "Interlaced clauses and tmesis, untangled by agreement in case, number and gender",
+    "Resolving nested (rekit) kennings by replacing base word and determinant step by step, using heiti",
+    "Oflj\u00f3st wordplay, where a homonym of a heiti gives the intended word"
+   ],
+   "answer_forms": [
+    "referent word in Old Norse or English",
+    "ordered pair of words",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Welsh cynghanedd classification and consonant matching",
+   "scope": "Problems give lines of Welsh strict-metre verse (or constructed lines with their accents marked) and ask which type of cynghanedd each line shows, whether a line is correct or faulty, or how many lines of a given type an englyn or cywydd contains. They are hard because consonant correspondence depends on where the main accents fall, on sound changes at word boundaries, and on fine rules about which consonants may be left unanswered.",
+   "techniques": [
+    "Telling croes, traws, sain and llusg apart by the consonant answering and rhymes around the caesura",
+    "Accent-pattern classes: cytbwys acennog, cytbwys diacen, anghytbwys disgynedig and anghytbwys dyrchafedig",
+    "Devoicing at word junctions (caledu, e.g. d + d \u2192 t, b + h \u2192 p) when matching consonants",
+    "Licensed unanswered n at the start or in the middle of the line (n wreiddgoll, n ganolgoll)",
+    "Detecting faults such as twyll gynghanedd, proest to the rhyme, and a wrongly answered final consonant",
+    "Line and syllable structure of the englyn unodl union (toddaid, gair cyrch) and of the cywydd couplet"
+   ],
+   "answer_forms": [
+    "name of a cynghanedd type",
+    "integer",
+    "letter for multiple choice",
+    "small set of line numbers"
+   ]
+  },
+  {
+   "leaf": "Sestina-type end-word permutations and generalizations",
+   "scope": "Problems treat the sestina's retrogradatio cruciata and related end-word repetition forms (tritina, n-ine or quenine, double sestina, terzanelle, pantoum chains) as permutations. They ask for orders, cycle structures, which n are admissible, or the word at a given stanza and line position. They are hard because the generalized spiral connects to multiplicative orders modulo 2n+1, and variant forms change the governing permutation in subtle ways.",
+   "techniques": [
+    "Writing the spiral permutation as a function of i (alternating from the end and the start) and decomposing it into cycles",
+    "Queneau numbers: when the spiral is a single n-cycle, related to the order of 2 modulo 2n+1",
+    "Composing permutations to find the end word at a given stanza and line",
+    "Placing the end words in the envoi or tornada under traditional constraints",
+    "Line-repetition graphs for pantoum, villanelle and terzanelle refrains, and how many stanzas a closing loop needs",
+    "Inverse problems: recovering the permutation rule or the original word order from fragments of later stanzas"
+   ],
+   "answer_forms": [
+    "integer",
+    "permutation in cycle notation",
+    "small set of integers",
+    "ordered tuple of end words"
+   ]
+  }
+ ]
+}

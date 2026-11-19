@@ -1,0 +1,513 @@
+{
+ "domain": "Finance",
+ "subtopic": "Mergers and acquisitions",
+ "weight": 0.007656,
+ "leaves": [
+  {
+   "leaf": "Hart-Scott-Rodino premerger notification",
+   "scope": "Filing thresholds, filing fees, waiting periods, exemptions, second requests and gun-jumping penalties under the HSR Act of 1976 and the FTC premerger notification rules.",
+   "queries": [
+    "Hart-Scott-Rodino size of transaction threshold adjusted",
+    "HSR filing fee tiers premerger notification",
+    "second request waiting period early termination FTC",
+    "gun-jumping civil penalty HSR Act violation"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US merger antitrust enforcement under Clayton Act Section 7",
+   "scope": "How the FTC and the DOJ Antitrust Division review mergers on the merits: the Merger Guidelines editions from 1968 to 2023, HHI thresholds, market definition, consent-decree divestitures and merger challenges that went to court.",
+   "queries": [
+    "Merger Guidelines HHI concentration thresholds 2023",
+    "Clayton Act Section 7 merger challenge court",
+    "FTC administrative complaint block acquisition divestiture",
+    "Brown Shoe Philadelphia National Bank merger presumption"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "EU Merger Regulation and European Commission merger review",
+   "scope": "European Commission control of concentrations under Council Regulation 139/2004, including turnover thresholds, Phase I/II deadlines, Form CO, referrals under Articles 4, 9 and 22, remedies and prohibition decisions.",
+   "queries": [
+    "EU Merger Regulation 139/2004 turnover thresholds",
+    "European Commission Phase II prohibition decision merger",
+    "Article 22 referral concentration Illumina Grail",
+    "Form CO notification remedies Commission merger"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UK CMA merger control",
+   "scope": "UK merger review under the Enterprise Act 2002 as amended by the DMCC Act 2024, including the share-of-supply and turnover tests, the Phase 1/Phase 2 process, undertakings in lieu and notable deals the CMA blocked or unwound.",
+   "queries": [
+    "Competition and Markets Authority Phase 2 merger",
+    "Enterprise Act 2002 share of supply test",
+    "CMA undertakings in lieu merger clearance",
+    "CMA blocked acquisition Microsoft Activision Meta Giphy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Merger control regimes outside the US, EU and UK",
+   "scope": "Notification thresholds, review timetables and landmark decisions of authorities such as China's SAMR (formerly MOFCOM), Japan's JFTC, Korea's KFTC, India's CCI, Australia's ACCC, Brazil's CADE and Canada's Competition Bureau.",
+   "queries": [
+    "SAMR merger review simplified procedure China anti-monopoly",
+    "MOFCOM conditional approval concentration undertakings",
+    "Competition Commission of India deal value threshold",
+    "ACCC merger authorisation CADE Competition Bureau Canada"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "CFIUS and foreign direct investment screening",
+   "scope": "National-security review of foreign acquisitions by CFIUS under Exon-Florio, FINSA and FIRRMA, plus similar regimes such as the UK National Security and Investment Act and the EU FDI Screening Regulation.",
+   "queries": [
+    "CFIUS mandatory declaration FIRRMA critical technology",
+    "Exon-Florio amendment presidential block acquisition",
+    "National Security and Investment Act mandatory notification sectors",
+    "CFIUS mitigation agreement covered transaction review period"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Williams Act tender offer and beneficial ownership rules",
+   "scope": "SEC rules for tender offers (Regulations 14D and 14E, Schedule TO, Schedule 14D-9) and for disclosing stakes (Section 13(d), Schedules 13D and 13G), including minimum offer periods, the best-price and all-holders rules, and Rule 14e-3.",
+   "queries": [
+    "Schedule TO tender offer twenty business days",
+    "Rule 14d-10 best price all holders",
+    "Schedule 13D filing deadline five percent beneficial",
+    "Rule 14e-3 insider trading tender offer"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Merger proxy statements and registration of deal securities",
+   "scope": "Disclosure documents for stock and cash mergers: Forms S-4 and F-4, DEFM14A merger proxies, Regulation M-A, Rule 145, Rule 165 communications and Form 8-K Items 1.01 and 2.01.",
+   "queries": [
+    "Form S-4 registration statement merger proxy prospectus",
+    "Regulation M-A summary term sheet Item 1004",
+    "Rule 145 business combination resale restrictions",
+    "Form 8-K Item 2.01 completion of acquisition"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Delaware board fiduciary duties in sale-of-control transactions",
+   "scope": "The standards Delaware courts apply to board decisions in M&A (business judgment rule, Revlon enhanced scrutiny, Unocal, entire fairness, MFW and Corwin cleansing) and the leading cases that set them.",
+   "queries": [
+    "Revlon duties enhanced scrutiny sale of control",
+    "Smith v Van Gorkom gross negligence directors",
+    "Kahn v M&F Worldwide controlling stockholder",
+    "Corwin cleansing fully informed uncoerced stockholder vote"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shareholder rights plans and takeover defenses",
+   "scope": "Defenses against hostile bids (flip-in and flip-over poison pills, staggered boards, dual-class stock, Pac-Man and white knight or white squire defenses, greenmail and scorched-earth tactics) and their legal history.",
+   "queries": [
+    "shareholder rights plan flip-in poison pill trigger",
+    "Moran v Household International poison pill",
+    "staggered board white knight Pac-Man defense",
+    "greenmail crown jewel scorched earth defense"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "State anti-takeover statutes",
+   "scope": "State laws that restrict hostile acquisitions (business combination statutes such as DGCL Section 203, control share acquisition acts, fair price, constituency and disgorgement statutes) and the constitutional cases that tested them, such as Edgar v. MITE and CTS v. Dynamics.",
+   "queries": [
+    "DGCL Section 203 interested stockholder business combination",
+    "control share acquisition statute CTS Dynamics",
+    "Pennsylvania anti-takeover law disgorgement constituency",
+    "Edgar v MITE Illinois Business Take-Over Act"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "UK Takeover Code and the Takeover Panel",
+   "scope": "The rules run by the Panel on Takeovers and Mergers, including Rule 2.6 put-up-or-shut-up deadlines, Rule 9 mandatory offers, Rule 21 frustrating action, schemes of arrangement and the offer timetable.",
+   "queries": [
+    "Takeover Code Rule 2.6 put up or shut up",
+    "Rule 9 mandatory offer 30 percent Panel",
+    "scheme of arrangement court sanction takeover offer",
+    "Takeover Panel Day 60 offer timetable"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Takeover bid regulation in continental Europe and Asia-Pacific",
+   "scope": "Mandatory-bid thresholds, squeeze-out levels, board-neutrality and breakthrough rules under the EU Takeover Directive 2004/25/EC and national regimes such as Germany's WpÜG, Japan's tender offer rules, Hong Kong's Takeovers Code, India's SAST Regulations and Australia's Chapter 6.",
+   "queries": [
+    "Takeover Directive 2004/25 breakthrough rule board neutrality",
+    "WpÜG mandatory offer control threshold BaFin",
+    "SEBI takeover regulations open offer 25 percent",
+    "Japan tender offer bid one third rule"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Material adverse effect clauses and deal termination disputes",
+   "scope": "How MAE/MAC conditions in merger agreements are defined, what they carve out and how courts read them, including IBP v. Tyson, Hexion v. Huntsman, Akorn v. Fresenius and the pandemic-era cases.",
+   "queries": [
+    "material adverse effect carve-outs merger agreement",
+    "Akorn Fresenius material adverse effect Delaware",
+    "Hexion Huntsman MAC claim Court of Chancery",
+    "IBP Tyson Foods material adverse change durationally significant"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Deal protection devices: termination fees, no-shops and go-shops",
+   "scope": "Lockup terms in public merger agreements (target and reverse termination fees, no-shop clauses with fiduciary outs, go-shop periods, matching rights, force-the-vote provisions and voting agreements), with their typical sizes and the case law on them.",
+   "queries": [
+    "termination fee percentage equity value merger agreement",
+    "reverse termination fee regulatory failure antitrust",
+    "go-shop period window shop provision",
+    "Omnicare NCS force the vote lockup"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Representations, warranties, indemnification and R&W insurance in private deals",
+   "scope": "How purchase agreements for private targets allocate risk: fundamental reps, survival periods, deductible and tipping baskets, caps, escrows and holdbacks, sandbagging clauses and representations and warranties insurance.",
+   "queries": [
+    "indemnification basket cap survival period escrow",
+    "representations and warranties insurance retention policy",
+    "sandbagging clause pro-sandbagging Delaware",
+    "fundamental representations survival indemnity escrow holdback"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Purchase price adjustments, earnouts and contingent value rights",
+   "scope": "Ways to adjust or defer acquisition consideration: completion-accounts and working-capital true-ups, locked-box structures, earnout milestones and disputes, and CVRs in pharmaceutical and other public deals.",
+   "queries": [
+    "working capital adjustment closing statement purchase price",
+    "locked box leakage completion accounts",
+    "earnout milestone payment dispute Delaware",
+    "contingent value right CVR milestone acquisition"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Appraisal rights and fair value litigation",
+   "scope": "Statutory dissenters' rights under DGCL Section 262 and other state laws, appraisal arbitrage, fair-value methods, and key decisions such as Weinberger, DFC Global, Dell and Aruba.",
+   "queries": [
+    "DGCL Section 262 appraisal fair value",
+    "appraisal arbitrage Dell DFC Global Chancery",
+    "Aruba Networks unaffected market price appraisal",
+    "dissenters rights statutory interest rate appraisal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Going-private transactions, freeze-outs and squeeze-outs",
+   "scope": "The mechanics of removing minority holders: SEC Rule 13e-3 and Schedule 13E-3, short-form mergers under DGCL Section 253, two-step mergers under Section 251(h), and compulsory acquisition thresholds in the UK, Germany and elsewhere.",
+   "queries": [
+    "Rule 13e-3 going private Schedule 13E-3",
+    "short-form merger DGCL 253 ninety percent",
+    "Section 251(h) two-step tender offer merger",
+    "compulsory acquisition squeeze-out threshold minority shareholders"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stockholder merger litigation and settlements",
+   "scope": "Shareholder class actions and federal disclosure suits against mergers, covering disclosure-only settlements, mootness fees, In re Trulia, Section 14(a) claims, exclusive forum bylaws, Section 220 demands and financial-advisor aiding-and-abetting liability.",
+   "queries": [
+    "In re Trulia disclosure-only settlement",
+    "mootness fee merger disclosure lawsuit Section 14(a)",
+    "exclusive forum bylaw merger litigation multi-forum",
+    "Rural Metro aiding abetting financial advisor liability"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Leveraged buyouts and private equity sponsors",
+   "scope": "Sponsor-led acquisitions: LBO capital structures, landmark buyouts such as RJR Nabisco and TXU, club deals, secondary buyouts, dividend recaps, and the histories of firms such as KKR, Blackstone and Carlyle.",
+   "queries": [
+    "RJR Nabisco leveraged buyout KKR 1989",
+    "largest leveraged buyout TXU Energy Future Holdings",
+    "private equity club deal secondary buyout",
+    "dividend recapitalization leveraged buyout debt multiple"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Acquisition financing and debt commitment terms",
+   "scope": "How acquirers pay for deals: bridge loans, committed financing letters, SunGard limited-conditionality provisions, certain-funds requirements, ticking fees, Xerox provisions, high-yield bonds and special mandatory redemption features.",
+   "queries": [
+    "bridge loan commitment letter acquisition financing",
+    "SunGard provisions limited conditionality financing",
+    "special mandatory redemption acquisition notes",
+    "certain funds requirement UK takeover financing"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "M&A valuation methods and fairness opinions",
+   "scope": "How targets are priced (DCF, comparable companies, precedent transactions, LBO analysis, control premiums and accretion/dilution) and how fairness opinions are prepared and regulated, including FINRA Rule 5150.",
+   "queries": [
+    "fairness opinion precedent transactions discounted cash flow",
+    "FINRA Rule 5150 fairness opinion disclosure",
+    "control premium average acquisition premium",
+    "accretion dilution analysis earnings per share merger"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Sell-side auction process and the M&A advisory industry",
+   "scope": "How targets are marketed and who advises them: two-stage auctions, teasers, CIMs, IOIs and LOIs, stapled financing, advisory fee structures such as the Lehman formula, and league tables of investment banks and boutiques.",
+   "queries": [
+    "two-stage auction indication of interest management presentation",
+    "confidential information memorandum letter of intent exclusivity",
+    "Lehman formula M&A advisory fee",
+    "M&A league table financial advisor boutique ranking"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Business combination accounting, purchase price allocation and goodwill",
+   "scope": "Acquisition-method accounting under ASC 805 and IFRS 3, allocating the purchase price to identifiable intangibles, bargain purchases, the end of pooling-of-interests under SFAS 141/142, and goodwill impairment testing under ASC 350 and IAS 36, including major write-downs.",
+   "queries": [
+    "ASC 805 acquisition method purchase price allocation",
+    "IFRS 3 bargain purchase gain business combination",
+    "pooling of interests SFAS 141 abolished",
+    "goodwill impairment charge ASC 350 reporting unit"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US tax structuring of acquisitions and reorganizations",
+   "scope": "Taxable versus tax-free deal structures: Section 368 Type A-G reorganizations, continuity of interest, Section 338(h)(10) and 336(e) elections, basis step-ups and the Section 382 limits on NOLs.",
+   "queries": [
+    "Section 368 reorganization continuity of interest",
+    "Section 338(h)(10) election asset purchase step-up",
+    "Section 382 ownership change NOL limitation",
+    "forward triangular merger reverse triangular merger tax"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Spin-offs, split-offs, carve-outs and Reverse Morris Trusts",
+   "scope": "Divestitures and separations: Section 355 tax-free spin-offs, equity carve-out IPOs, exchange-offer split-offs, tracking stock and Reverse Morris Trust structures, plus notable separations.",
+   "queries": [
+    "Section 355 tax-free spin-off device test",
+    "Reverse Morris Trust transaction structure",
+    "split-off exchange offer subsidiary shares",
+    "equity carve-out IPO subsidiary separation Form 10"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate tax inversions and cross-border redomiciliation",
+   "scope": "Acquisitions that move a US company's tax home abroad: the Section 7874 ownership thresholds (60% and 80%), the Treasury anti-inversion notices and rules of 2014-2016, and deals such as Medtronic-Covidien, Burger King-Tim Hortons and Pfizer-Allergan.",
+   "queries": [
+    "Section 7874 inversion 80 percent ownership",
+    "Treasury anti-inversion rules Pfizer Allergan terminated",
+    "Medtronic Covidien inversion Ireland",
+    "earnings stripping inversion Notice 2014-52"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "SPACs, de-SPAC mergers and reverse mergers",
+   "scope": "How blank-check companies work (trust accounts, redemption rights, sponsor promote, warrants, deadlines and PIPEs), the de-SPAC disclosure rules the SEC adopted in 2024, and reverse mergers into public shells.",
+   "queries": [
+    "special purpose acquisition company trust account redemption",
+    "de-SPAC business combination PIPE financing",
+    "sponsor promote founder shares 20 percent SPAC",
+    "reverse merger public shell company Form 10 information"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Distressed M&A and Section 363 bankruptcy sales",
+   "scope": "Buying insolvent businesses: Section 363 sales free and clear, stalking-horse bids and bid protections, credit bidding, bidding procedures orders and plan-based acquisitions, with cases such as Chrysler and Lehman.",
+   "queries": [
+    "Section 363 sale free and clear stalking horse",
+    "credit bidding bankruptcy auction Fisker RadLAX",
+    "stalking horse breakup fee bidding procedures order",
+    "Chrysler 363 sale Fiat bankruptcy 2009"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bank and financial institution merger regulation",
+   "scope": "Approval of bank combinations under the Bank Merger Act, the Bank Holding Company Act and Riegle-Neal: Federal Reserve, OCC and FDIC review factors, deposit caps, CRA considerations and FDIC-assisted acquisitions of failed banks.",
+   "queries": [
+    "Bank Merger Act approval OCC FDIC Federal Reserve",
+    "Riegle-Neal interstate deposit cap 10 percent",
+    "FDIC purchase and assumption failed bank loss share",
+    "Bank Holding Company Act Section 3 acquisition application"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Golden parachutes and change-in-control compensation",
+   "scope": "Payments to executives and employees that an acquisition triggers: single- and double-trigger severance, the Section 280G and 4999 excise tax rules, say-on-golden-parachute votes, retention pools and accelerated vesting of equity awards.",
+   "queries": [
+    "Section 280G excess parachute payment three times base",
+    "Section 4999 excise tax gross-up change in control",
+    "double trigger severance change in control agreement",
+    "say on golden parachute advisory vote Dodd-Frank"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Merger waves and landmark deals in M&A history",
+   "scope": "The historical waves of consolidation, from the Great Merger Movement (1895-1904) through the 1960s conglomerates, 1980s raiders and junk-bond takeovers to the megadeals of the 1990s and 2000s, including record deals such as AOL-Time Warner and Vodafone-Mannesmann.",
+   "queries": [
+    "Great Merger Movement 1895 1904 consolidation",
+    "conglomerate merger wave 1960s ITT Gulf Western",
+    "1980s corporate raiders junk bonds Drexel Burnham",
+    "largest mergers history Vodafone Mannesmann AOL Time Warner"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Merger arbitrage and deal spread trading",
+   "scope": "Event-driven strategies that trade target and acquirer securities after a deal is announced: spread calculation, hedging stock-for-stock deals, deal-break risk, arbitrage funds, and episodes such as the Boesky scandal.",
+   "queries": [
+    "merger arbitrage spread target acquirer short",
+    "risk arbitrage deal break annualized return",
+    "Ivan Boesky risk arbitrage insider trading",
+    "event-driven merger arbitrage fund strategy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Acquisition motives and empirical evidence on M&A returns",
+   "scope": "Theories and research on why firms acquire and who gains: synergy, hubris (Roll 1986), free cash flow (Jensen 1986), market timing, event-study evidence on target and bidder announcement returns, and findings on the diversification discount.",
+   "queries": [
+    "hubris hypothesis corporate takeovers Roll 1986",
+    "bidder announcement returns event study acquisitions",
+    "Jensen free cash flow agency costs takeovers",
+    "diversification discount conglomerate empirical evidence"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

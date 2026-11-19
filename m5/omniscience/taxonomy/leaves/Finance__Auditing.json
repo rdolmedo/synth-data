@@ -1,0 +1,527 @@
+{
+ "domain": "Finance",
+ "subtopic": "Auditing",
+ "weight": 0.0081555,
+ "leaves": [
+  {
+   "leaf": "PCAOB auditing standards (AS) codification and requirements",
+   "scope": "The PCAOB's numbered auditing standards for issuer audits, the 2017 reorganization into the AS 1000-6000 framework, the interim AU standards, adoption and effective dates, SEC approval and specific requirements.",
+   "queries": [
+    "PCAOB AS 2201 audit of internal control",
+    "PCAOB reorganized auditing standards AS 1000 2000 3000",
+    "PCAOB auditing standard adopted SEC approval effective date",
+    "PCAOB interim standards AU sections adopted 2003"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "PCAOB registration, inspections and enforcement",
+   "scope": "The PCAOB as an institution: board composition and funding, firm registration, inspection reports and deficiency rates, disciplinary orders and penalties, the Free Enterprise Fund decision, and foreign access issues including the HFCAA.",
+   "queries": [
+    "PCAOB inspection report Part I deficiencies audit firm",
+    "PCAOB settled disciplinary order civil money penalty",
+    "Holding Foreign Companies Accountable Act PCAOB determination China",
+    "Free Enterprise Fund v PCAOB board removal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "IAASB International Standards on Auditing (ISAs)",
+   "scope": "ISA numbering and content (ISA 200-810), the Clarity Project, revised standards such as ISA 315 (Revised 2019), ISA 540 and ISA 600, effective dates, and IAASB/IFAC/PIOB governance.",
+   "queries": [
+    "ISA 315 revised 2019 identifying assessing risks",
+    "IAASB clarity project International Standards on Auditing",
+    "ISA 200 overall objectives independent auditor",
+    "IAASB Public Interest Oversight Board IFAC standard setting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "AICPA Auditing Standards Board SASs and AU-C sections",
+   "scope": "Statements on Auditing Standards issued by the AICPA ASB for audits of nonissuers, the clarified AU-C codification, specific SAS numbers (e.g., SAS 122, 134, 143, 145, 146) and their effective dates.",
+   "queries": [
+    "SAS 145 understanding entity assessing risks material misstatement",
+    "AU-C section clarified auditing standards nonissuers",
+    "Statement on Auditing Standards No. 134 auditor reporting",
+    "AICPA Auditing Standards Board SAS 146 quality management"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sarbanes-Oxley Act provisions and ICFR reporting rules",
+   "scope": "SOX titles and sections (301, 302, 404(a)/(b), 802, 906), SEC implementing rules, management certifications and ICFR reports, filer-status exemptions from auditor attestation (Dodd-Frank 989G, JOBS Act EGCs), and compliance costs.",
+   "queries": [
+    "Sarbanes-Oxley Section 404(b) auditor attestation exemption non-accelerated filer",
+    "Section 302 906 certification principal executive officer",
+    "management's annual report internal control over financial reporting",
+    "Sarbanes-Oxley Act 2002 Title III corporate responsibility"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "COSO internal control and ERM frameworks",
+   "scope": "The Committee of Sponsoring Organizations of the Treadway Commission, its sponsoring bodies, the 1992 and 2013 Internal Control-Integrated Framework (five components, 17 principles), the 2004 and 2017 ERM frameworks, and related COSO guidance.",
+   "queries": [
+    "COSO 2013 framework 17 principles five components",
+    "COSO sponsoring organizations Treadway Commission AICPA IIA",
+    "COSO enterprise risk management integrating strategy performance 2017",
+    "COSO internal control integrated framework 1992 control environment"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Material weaknesses, control deficiencies and restatement disclosures",
+   "scope": "How control deficiencies are classified (deficiency, significant deficiency, material weakness), how issuers disclose material weaknesses and remediation plans, and restatements including Form 8-K Item 4.02 non-reliance and Big R versus little r revisions.",
+   "queries": [
+    "material weakness internal control remediation plan disclosed",
+    "significant deficiency versus material weakness definition reasonable possibility",
+    "Item 4.02 non-reliance previously issued financial statements",
+    "restatement little r revision immaterial error correction"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit risk model and risk assessment procedures",
+   "scope": "The components of audit risk (inherent, control, detection), risk assessment procedures, significant risks, the spectrum of inherent risk and inherent risk factors, and responses to assessed risks (AS 2110/2301, ISA 315/330).",
+   "queries": [
+    "audit risk inherent risk control risk detection risk",
+    "spectrum of inherent risk inherent risk factors",
+    "significant risk identified auditor response further procedures",
+    "AS 2110 identifying assessing risks material misstatement"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Materiality and misstatement evaluation",
+   "scope": "Setting overall and performance materiality, common benchmarks and percentages, clearly trivial thresholds, evaluating uncorrected misstatements, and SEC SAB 99 qualitative materiality and the SAB 108 rollover and iron curtain methods.",
+   "queries": [
+    "performance materiality percentage overall materiality benchmark",
+    "SAB 99 qualitative materiality considerations",
+    "SAB 108 rollover iron curtain method",
+    "clearly trivial threshold summary of uncorrected misstatements"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Audit sampling methods",
+   "scope": "Statistical and nonstatistical audit sampling: attribute sampling, monetary unit sampling, classical variables sampling, tolerable deviation rates, sample size tables, sampling risk and projection of misstatements (AS 2315, ISA 530).",
+   "queries": [
+    "monetary unit sampling probability proportional to size",
+    "attribute sampling tolerable deviation rate sample size",
+    "sampling risk risk of incorrect acceptance",
+    "AICPA audit guide audit sampling confidence level"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit evidence, financial statement assertions and analytical procedures",
+   "scope": "Sufficiency and appropriateness of audit evidence, how reliable different kinds of evidence are, management assertions (existence, completeness, valuation, rights and obligations, presentation), types of audit procedures, and analytical procedures (AS 1105, AS 2305, ISA 500, ISA 520).",
+   "queries": [
+    "management assertions existence completeness rights obligations",
+    "sufficient appropriate audit evidence reliability",
+    "substantive analytical procedures expectation threshold",
+    "AS 1105 audit evidence information produced by company"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Substantive testing of account balances and transaction cycles",
+   "scope": "Tests of specific accounts and cycles: external confirmations of receivables and cash (revised AS 2310), inventory observation, cutoff testing, vouching and tracing, the search for unrecorded liabilities, and payroll and fixed-asset testing.",
+   "queries": [
+    "accounts receivable confirmation positive negative requests",
+    "inventory observation physical count test counts auditor",
+    "search for unrecorded liabilities subsequent disbursements",
+    "AS 2310 confirmation process revised 2023"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Auditing accounting estimates, fair value and specialists",
+   "scope": "Auditing estimates and fair value measurements (AS 2501, ISA 540 Revised), estimation uncertainty and management bias, using the work of company and auditor specialists (AS 1210, ISA 620), and testing models such as impairment and credit loss allowances.",
+   "queries": [
+    "auditing accounting estimates fair value measurements AS 2501",
+    "ISA 540 revised estimation uncertainty management bias",
+    "auditor's specialist using work of specialist",
+    "auditing allowance for credit losses CECL model"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Related parties and significant unusual transactions",
+   "scope": "Auditor procedures for identifying and evaluating related party relationships and transactions, significant unusual transactions and relationships with executive officers (AS 2410, ISA 550, AU-C 550), and the related disclosures.",
+   "queries": [
+    "AS 2410 related parties audit procedures",
+    "significant unusual transactions outside normal course business",
+    "ISA 550 related party relationships transactions",
+    "related party transactions disclosed audit committee approval"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Group audits and reliance on other auditors",
+   "scope": "Audits of group financial statements and components, lead and other auditor responsibilities, division of responsibility, component materiality, and using internal auditors' work (ISA 600 Revised, AS 1201/1206, AS 2605, ISA 610).",
+   "queries": [
+    "ISA 600 revised group audit component auditors",
+    "AS 1206 dividing responsibility other auditor",
+    "component materiality group engagement team",
+    "using work of internal auditors direct assistance"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Going concern evaluation and reporting",
+   "scope": "How auditors evaluate substantial doubt about an entity's ability to continue as a going concern (AS 2415, ISA 570, AU-C 570), management's assessment under ASC 205-40 (ASU 2014-15), look-forward periods, and going concern paragraphs in reports.",
+   "queries": [
+    "substantial doubt ability to continue going concern",
+    "ASU 2014-15 going concern management evaluation one year",
+    "ISA 570 material uncertainty related to going concern",
+    "going concern explanatory paragraph auditor report recurring losses"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit completion: subsequent events, representations and legal letters",
+   "scope": "End-of-engagement procedures: recognized and nonrecognized subsequent events, subsequently discovered facts, management representation letters, inquiries of lawyers and the ABA Statement of Policy, dual dating, and omitted procedures.",
+   "queries": [
+    "subsequent events recognized nonrecognized type I type II",
+    "management representation letter written representations date",
+    "letter of audit inquiry lawyer ABA statement of policy",
+    "dual dating auditor report subsequent event"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Auditor's report, opinion modifications and critical audit matters",
+   "scope": "The form of the auditor's report, opinion types (unqualified, qualified, adverse, disclaimer), emphasis-of-matter and explanatory paragraphs, critical audit matters under AS 3101, key audit matters under ISA 701, and auditor tenure statements.",
+   "queries": [
+    "critical audit matters AS 3101 auditor's report",
+    "key audit matters ISA 701 communicating",
+    "qualified opinion adverse opinion disclaimer of opinion",
+    "emphasis of matter paragraph other matter paragraph"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reviews, compilations, agreed-upon procedures and comfort letters",
+   "scope": "Engagements other than audits: SSARS reviews, compilations and preparation engagements, interim reviews (AS 4105, ISRE 2410), agreed-upon procedures, comfort letters for underwriters (AS 6101), and AICPA attestation standards (SSAEs, AT-C).",
+   "queries": [
+    "SSARS 21 compilation review preparation engagement",
+    "comfort letter underwriters negative assurance cutoff date",
+    "agreed-upon procedures engagement AT-C 215",
+    "interim financial information review AS 4105"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Service organization controls reports (SOC 1, SOC 2, SOC 3)",
+   "scope": "Reporting on controls at service organizations: SSAE 16/18 and AT-C 320, Type 1 versus Type 2 reports, the Trust Services Criteria, complementary user entity controls, carve-out versus inclusive methods, ISAE 3402 and the predecessor SAS 70.",
+   "queries": [
+    "SOC 2 Type II trust services criteria",
+    "SSAE 18 SOC 1 report service organization",
+    "complementary user entity controls carve-out method",
+    "SAS 70 replaced ISAE 3402 service organization"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sustainability and ESG assurance",
+   "scope": "Assurance on sustainability and greenhouse gas information: ISSA 5000, ISAE 3000/3410, AA1000AS, limited versus reasonable assurance, EU CSRD assurance requirements, and attestation provisions in the SEC climate rule and California laws.",
+   "queries": [
+    "ISSA 5000 sustainability assurance standard IAASB",
+    "ISAE 3410 greenhouse gas statements assurance",
+    "CSRD limited assurance sustainability reporting",
+    "AA1000 assurance standard AccountAbility"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Auditor independence and professional ethics codes",
+   "scope": "Independence and ethics requirements: SEC Rule 2-01 of Regulation S-X, non-audit services prohibited by SOX Section 201, audit partner rotation and cooling-off periods, PCAOB Rules 3520-3526, the AICPA Code of Professional Conduct, the IESBA Code, and NOCLAR.",
+   "queries": [
+    "Rule 2-01 Regulation S-X auditor independence",
+    "audit partner rotation five years cooling off",
+    "prohibited non-audit services Sarbanes-Oxley Section 201",
+    "IESBA Code noncompliance with laws regulations NOCLAR"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Audit quality management and peer review",
+   "scope": "Firm-level quality control and quality management standards (ISQM 1, ISQM 2, PCAOB QC 1000, AICPA SQMS), engagement quality reviews (AS 1220), the AICPA peer review program, and audit quality indicators.",
+   "queries": [
+    "ISQM 1 quality management firms",
+    "PCAOB QC 1000 firm's system quality control",
+    "engagement quality review AS 1220 concurring partner",
+    "AICPA peer review program system review pass fail"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit planning, documentation and engagement acceptance",
+   "scope": "Engagement acceptance and engagement letters, communications between predecessor and successor auditors, initial audits and opening balances, audit strategy and planning (AS 2101), and documentation rules such as the AS 1215 45-day assembly period and seven-year retention.",
+   "queries": [
+    "AS 1215 audit documentation 45 days retention",
+    "predecessor auditor successor auditor communications",
+    "engagement letter terms of audit engagement",
+    "opening balances initial audit engagements ISA 510"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit committees and auditor communications",
+   "scope": "Audit committee composition and duties (SOX Section 301, Exchange Act Rule 10A-3, financial expert disclosure, listing rules, the Blue Ribbon Committee) and the communications auditors must make to audit committees (AS 1301, ISA 260/265).",
+   "queries": [
+    "audit committee financial expert Item 407(d)(5)",
+    "Rule 10A-3 audit committee independence listed issuers",
+    "AS 1301 communications with audit committees",
+    "Blue Ribbon Committee audit committee effectiveness 1999"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audit fees, auditor changes and auditor ratification",
+   "scope": "Public company disclosures about the independent auditor: principal accountant fees by category, pre-approval policies, shareholder ratification of the auditor, auditor changes (8-K Item 4.01, Item 304 disagreements and reportable events), Form AP, and auditor tenure.",
+   "queries": [
+    "principal accountant fees services audit-related fees tax fees",
+    "Item 4.01 changes in registrant's certifying accountant",
+    "ratification appointment independent registered public accounting firm",
+    "Form AP engagement partner name PCAOB"
+   ],
+   "sources": [
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Fraud risk in financial statement audits",
+   "scope": "The auditor's responsibility to detect fraud (AS 2401, SAS 99, ISA 240), fraud risk factors and the fraud triangle, engagement team brainstorming, the presumed risk in revenue recognition, management override, and journal entry testing.",
+   "queries": [
+    "SAS 99 consideration of fraud financial statement audit",
+    "fraud triangle incentive opportunity rationalization",
+    "journal entry testing management override of controls",
+    "presumption risk revenue recognition fraud ISA 240"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forensic accounting and fraud examination",
+   "scope": "The forensic accounting and fraud examination field: the ACFE and CFE credential, Report to the Nations statistics, the occupational fraud tree, Benford's law, the Beneish M-score, and investigative techniques.",
+   "queries": [
+    "ACFE Report to the Nations occupational fraud median loss",
+    "Benford's law first digit fraud detection",
+    "Beneish M-score earnings manipulation variables",
+    "occupational fraud tree asset misappropriation corruption"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Major audit failures and accounting scandals",
+   "scope": "Notable corporate frauds and audit failures and the auditors involved (Enron/Arthur Andersen, WorldCom, Parmalat, Satyam, Olympus, Toshiba, Wirecard/EY, Carillion/KPMG, Luckin Coffee, FTX), with dates, amounts, penalties and consequences.",
+   "queries": [
+    "Arthur Andersen Enron audit shredding conviction",
+    "Wirecard EY audit missing 1.9 billion",
+    "Satyam Computer PwC fraud Ramalinga Raju",
+    "Carillion KPMG audit Financial Reporting Council fine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Auditor legal liability and landmark cases",
+   "scope": "Common-law and statutory liability of auditors to clients and third parties: Ultramares, Credit Alliance, Bily v. Arthur Young, Caparo v Dickman, Hochfelder, Escott v. BarChris, Continental Vending, Securities Act Section 11, Rule 10b-5, and PSLRA proportionate liability.",
+   "queries": [
+    "Ultramares Corp v Touche auditor liability third parties",
+    "Caparo Industries v Dickman duty of care",
+    "Ernst Ernst v Hochfelder scienter Rule 10b-5",
+    "Section 11 Securities Act expertised portion auditors"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Accounting firm history and audit market structure",
+   "scope": "How the Big Eight, Big Six and Big Four and mid-tier networks (BDO, Grant Thornton, RSM) were founded and merged, their founders and network structures, market shares, and studies of audit market concentration.",
+   "queries": [
+    "Big Eight accounting firms mergers Big Four",
+    "Price Waterhouse Coopers Lybrand merger 1998",
+    "Ernst Whinney Arthur Young merger 1989",
+    "audit market concentration Big Four market share"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of auditing standards and the US audit profession",
+   "scope": "How auditing developed before SOX: the British Companies Acts, the AIA/AICPA, McKesson & Robbins, Statements on Auditing Procedure, SAS No. 1, the Cohen and Treadway Commissions, the expectation-gap SASs, and self-regulation under the Public Oversight Board.",
+   "queries": [
+    "McKesson Robbins 1938 auditing procedures inventory",
+    "Statement on Auditing Procedure No. 1 1939",
+    "Cohen Commission auditors' responsibilities 1978 report",
+    "Public Oversight Board AICPA SEC Practice Section"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "UK and EU audit regulation",
+   "scope": "Statutory audit regulation in the UK and EU: Companies Act 2006 audit provisions and exemption thresholds, the FRC and planned ARGA, the Kingman, Brydon and CMA reviews, EU Directive 2014/56/EU and Regulation 537/2014 (mandatory rotation, non-audit fee caps), and national oversight bodies.",
+   "queries": [
+    "EU Regulation 537/2014 mandatory audit firm rotation",
+    "Audit Reporting and Governance Authority replace FRC",
+    "Brydon review quality effectiveness audit",
+    "small company audit exemption thresholds Companies Act 2006"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Internal auditing profession and IIA standards",
+   "scope": "The internal audit function and the Institute of Internal Auditors: the IPPF, the 2024 Global Internal Audit Standards (domains and principles), CIA certification, the Three Lines Model, audit charters, reporting lines, and internal audit in banks.",
+   "queries": [
+    "Global Internal Audit Standards 2024 domains principles",
+    "Institute of Internal Auditors IPPF definition internal auditing",
+    "Three Lines Model IIA 2020 update",
+    "Certified Internal Auditor exam parts"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "IT auditing, ITGCs and audit data analytics",
+   "scope": "Information systems auditing: IT general and application controls, COBIT, ISACA and the CISA, computer-assisted audit techniques and tools (ACL, IDEA), continuous auditing, data analytics, and automation and AI in audits.",
+   "queries": [
+    "IT general controls access change management",
+    "COBIT 2019 framework ISACA governance objectives",
+    "computer-assisted audit techniques ACL IDEA",
+    "continuous auditing continuous monitoring data analytics"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US government auditing standards and Single Audits",
+   "scope": "Audits of US government entities and federal award recipients: GAO Yellow Book (GAGAS) revisions and CPE rules, the Single Audit Act, Uniform Guidance 2 CFR 200 Subpart F thresholds, major program determination, the Compliance Supplement, and federal inspectors general.",
+   "queries": [
+    "Yellow Book generally accepted government auditing standards 2024 revision",
+    "Single Audit threshold federal expenditures 2 CFR 200",
+    "major program determination type A type B",
+    "OMB Compliance Supplement single audit"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Supreme audit institutions and public-sector audit internationally",
+   "scope": "National audit offices and international public audit: INTOSAI and the ISSAIs, the Lima and Mexico Declarations, the UK NAO, the CAG of India, the European Court of Auditors, the Bundesrechnungshof and Cour des comptes, and performance (value-for-money) auditing.",
+   "queries": [
+    "INTOSAI Lima Declaration supreme audit institutions",
+    "Comptroller and Auditor General India constitutional",
+    "European Court of Auditors annual report discharge",
+    "value for money performance audit National Audit Office"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audits of regulated financial entities and employee benefit plans",
+   "scope": "Industry-specific audit requirements: bank audits under FDICIA Part 363, the NAIC Model Audit Rule for insurers, broker-dealer audits under SEC Rule 17a-5, surprise exams under the investment adviser custody rule, and ERISA benefit plan audits (Form 5500, ERISA 103(a)(3)(C) audits, SAS 136).",
+   "queries": [
+    "FDICIA Part 363 annual independent audit requirements",
+    "NAIC Model Audit Rule insurers internal control",
+    "Rule 17a-5 broker-dealer annual reports compliance report",
+    "ERISA section 103(a)(3)(C) audit employee benefit plan"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  }
+ ]
+}

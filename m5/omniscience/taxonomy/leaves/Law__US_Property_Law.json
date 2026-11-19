@@ -1,0 +1,1332 @@
+{
+ "domain": "Law",
+ "subtopic": "US Property Law",
+ "weight": 0.020964,
+ "leaves": [
+  {
+   "leaf": "Fee simple, fee tail and defeasible fees",
+   "scope": "Fee simple absolute, the fee tail and statutes abolishing it, fees simple determinable, subject to condition subsequent and subject to executory limitation, and the possibilities of reverter and rights of entry that follow them, including statutes that limit reverters.",
+   "queries": [
+    "fee simple determinable possibility of reverter",
+    "condition subsequent right of entry forfeiture",
+    "fee tail disentailing statute heirs of body",
+    "conveyance school purposes ceased reverter heirs"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Life estates and the law of waste",
+   "scope": "Life estates, including estates pur autre vie, the duties a life tenant owes the remaindermen (taxes, mortgage interest, repairs), and voluntary, permissive and ameliorative waste.",
+   "queries": [
+    "life tenant remainderman duty pay taxes",
+    "ameliorative waste life estate remainderman injunction",
+    "permissive waste voluntary waste tenant damages",
+    "life estate pur autre vie measuring life"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Remainders, executory interests and common-law future-interest doctrines",
+   "scope": "Reversions, vested and contingent remainders, springing and shifting executory interests, class gifts, and old rules such as destructibility of contingent remainders, the Rule in Shelley's Case and the Doctrine of Worthier Title, along with the statutes that abolished them.",
+   "queries": [
+    "contingent remainder vested subject to divestment",
+    "Rule in Shelley's Case abolished statute",
+    "doctrine of worthier title grantor heirs",
+    "springing executory interest destructibility contingent remainders"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rule Against Perpetuities and restraints on alienation",
+   "scope": "The common-law Rule Against Perpetuities (lives in being plus 21 years), reforms such as wait-and-see, cy pres, USRAP's 90-year period and perpetual-trust statutes, how the Rule applies to options and rights of first refusal, and direct restraints on alienation (disabling, forfeiture and promissory).",
+   "queries": [
+    "rule against perpetuities lives in being twenty-one years",
+    "Uniform Statutory Rule Against Perpetuities ninety years wait-and-see",
+    "option to purchase violates rule against perpetuities",
+    "unreasonable restraint on alienation right of first refusal"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Joint tenancy, tenancy by the entirety and survivorship",
+   "scope": "How survivorship tenancies are created (the four unities), severance by conveyance, mortgage, lease or homicide (slayer statutes), and how a tenancy by the entirety protects the property from one spouse's individual creditors and from federal tax liens.",
+   "queries": [
+    "joint tenancy four unities time title interest possession",
+    "severance of joint tenancy unilateral conveyance to self",
+    "tenancy by the entirety creditor of one spouse",
+    "slayer statute joint tenant killed cotenant"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Partition and cotenant rights and duties",
+   "scope": "Rights and duties among tenants in common (ouster, accounting for rents and profits, contribution for taxes, mortgage payments and improvements), partition in kind versus partition by sale, and heirs' property under the Uniform Partition of Heirs Property Act.",
+   "queries": [
+    "partition in kind versus partition by sale",
+    "cotenant ouster accounting rental value",
+    "Uniform Partition of Heirs Property Act",
+    "tenant in common contribution taxes improvements"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Marital property, dower, elective share and homestead",
+   "scope": "Community property and quasi-community property regimes, transmutation and characterization of assets, common-law dower and curtesy and their abolition, the spousal elective share, and homestead protections in state constitutions and statutes.",
+   "queries": [
+    "community property transmutation separate property presumption",
+    "quasi-community property acquired while domiciled elsewhere",
+    "dower curtesy abolished surviving spouse elective share",
+    "homestead exemption forced sale constitution Florida"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Leasehold estates, holdover tenants, assignment and sublease",
+   "scope": "Terms of years, periodic tenancies, tenancies at will and at sufferance, the landlord's duty to deliver possession, holdover remedies, assignment versus sublease and privity of estate, consent-to-transfer clauses, and the landlord's duty to mitigate after a tenant abandons.",
+   "queries": [
+    "holdover tenant tenancy at sufferance new term",
+    "assignment versus sublease privity of estate",
+    "landlord unreasonably withheld consent to assign",
+    "tenant abandonment landlord duty to mitigate damages"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Warranty of habitability, constructive eviction and landlord tort liability",
+   "scope": "The implied warranty of habitability in residential leases, the covenant of quiet enjoyment and constructive eviction, rent withholding and repair-and-deduct remedies, and landlord liability for dangerous conditions and for crimes against tenants.",
+   "queries": [
+    "implied warranty of habitability residential lease Javins",
+    "constructive eviction covenant of quiet enjoyment vacate",
+    "repair and deduct rent withholding housing code",
+    "landlord liability criminal attack tenant security"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eviction procedure and statutory tenant protections",
+   "scope": "Summary possession and unlawful detainer proceedings, bans on self-help eviction, retaliatory eviction defenses, security deposit statutes and their penalties, just-cause eviction laws and eviction moratoria.",
+   "queries": [
+    "unlawful detainer summary proceeding possession tenant",
+    "self-help eviction lockout landlord forcible entry",
+    "retaliatory eviction housing code complaint",
+    "security deposit return statute double damages"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Rent control and rent stabilization",
+   "scope": "Municipal and state rent regulation, such as New York rent stabilization and succession rights, California's Costa-Hawkins Act and vacancy decontrol, rent board procedures, and constitutional challenges to rent control.",
+   "queries": [
+    "rent stabilization New York succession rights",
+    "Costa-Hawkins Rental Housing Act vacancy decontrol",
+    "rent control ordinance takings challenge Yee Escondido",
+    "rent board maximum allowable rent increase"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adverse possession and boundary dispute doctrines",
+   "scope": "The elements of adverse possession (actual, open and notorious, exclusive, hostile, continuous), statutory periods, tacking, color of title and constructive possession, disabilities, possession against the government, and the related doctrines of boundary by acquiescence, agreed boundaries and estoppel.",
+   "queries": [
+    "adverse possession open notorious hostile continuous",
+    "tacking privity successive adverse possessors",
+    "color of title constructive adverse possession statutory period",
+    "boundary by acquiescence agreed boundary line"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Finders, capture and first possession of chattels",
+   "scope": "Who owns lost, mislaid, abandoned and treasure-trove property, finder-versus-landowner disputes, estray and lost-property statutes, and first-possession rules for wild animals, whales and other unowned things.",
+   "queries": [
+    "finder lost property mislaid owner of premises",
+    "treasure trove buried money finder landowner",
+    "Pierson v. Post wild animals ferae naturae",
+    "abandoned property intent to relinquish ownership"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gifts of personal property and bailments",
+   "scope": "Intent, delivery (actual, constructive, symbolic) and acceptance for inter vivos gifts and gifts causa mortis, engagement-ring and conditional-gift disputes, and the duties and standards of care between bailor and bailee.",
+   "queries": [
+    "gift causa mortis delivery contemplation of death",
+    "inter vivos gift constructive symbolic delivery",
+    "engagement ring conditional gift return",
+    "bailment bailee standard of care mutual benefit"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fixtures and accession",
+   "scope": "Tests for when a chattel becomes a fixture (annexation, adaptation, intent), trade fixtures, fixture priority disputes among mortgagees, sellers and UCC secured parties, and the doctrines of accession and confusion of goods.",
+   "queries": [
+    "fixture annexation adaptation intention test",
+    "trade fixtures tenant removal end of lease",
+    "UCC fixture filing priority real estate mortgagee",
+    "accession confusion of goods title"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real estate purchase contracts and remedies",
+   "scope": "The statute of frauds and its part-performance exception, equitable conversion and risk of loss (including the Uniform Vendor and Purchaser Risk Act), marketable title, time-is-of-the-essence and financing contingencies, and remedies such as specific performance and keeping the earnest money.",
+   "queries": [
+    "equitable conversion risk of loss purchaser",
+    "part performance exception statute of frauds land",
+    "marketable title contract encumbrance purchaser rescind",
+    "earnest money deposit liquidated damages buyer default"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seller disclosure duties and implied warranties in home sales",
+   "scope": "The decline of caveat emptor, fraudulent concealment and statutory seller disclosure forms, stigmatized property (deaths, crimes, hauntings), and builders' implied warranties of habitability and workmanlike construction, including whether they extend to later purchasers.",
+   "queries": [
+    "seller duty to disclose latent defect caveat emptor",
+    "stigmatized property haunted house disclosure",
+    "implied warranty of habitability new home builder vendor",
+    "subsequent purchaser implied warranty workmanlike construction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Deeds, delivery and covenants of title",
+   "scope": "Deed formalities and legal descriptions, delivery and escrow, general warranty, special warranty and quitclaim deeds, the six covenants of title (present versus future) and how they are breached, and estoppel by deed and after-acquired title.",
+   "queries": [
+    "general warranty deed covenant against encumbrances breach",
+    "delivery of deed intent escrow death of grantor",
+    "covenant of seisin present covenant breached at delivery",
+    "estoppel by deed after-acquired title"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Recording acts and bona fide purchasers",
+   "scope": "Race, notice and race-notice recording statutes, bona fide purchaser status, actual, constructive and inquiry notice, chain-of-title problems (wild deeds, the shelter rule), grantor-grantee and tract indexes, and marketable record title acts.",
+   "queries": [
+    "race-notice recording statute subsequent purchaser",
+    "bona fide purchaser inquiry notice possession",
+    "wild deed chain of title recorded outside",
+    "marketable record title act root of title"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Title insurance, abstracts and Torrens registration",
+   "scope": "Owner's and lender's title insurance policies (ALTA forms, exclusions and exceptions, the duty to defend, measure of loss), liability of abstractors and title examiners, and the Torrens land registration system.",
+   "queries": [
+    "title insurance policy exclusion exception coverage",
+    "ALTA owner's policy title insurer duty to defend",
+    "abstractor negligence title search liability",
+    "Torrens registration certificate of title system"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mortgage foreclosure, redemption and deficiency",
+   "scope": "Title, lien and intermediate mortgage theories, the equity of redemption and the rule against clogging it, judicial versus nonjudicial (power of sale) foreclosure, statutory redemption periods, deficiency judgments and anti-deficiency statutes, and deeds in lieu of foreclosure.",
+   "queries": [
+    "equity of redemption clogging mortgagor",
+    "nonjudicial foreclosure power of sale trustee",
+    "anti-deficiency statute purchase money mortgage",
+    "statutory right of redemption foreclosure sale period"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mortgage priority, transfer and installment land contracts",
+   "scope": "Priority among mortgages and liens (purchase-money priority, subordination, future advances, equitable subrogation), transfers of mortgaged property and of notes (assumption, due-on-sale clauses and Garn-St Germain, MERS and standing to foreclose), and equitable mortgages and installment land contracts.",
+   "queries": [
+    "purchase money mortgage priority over judgment lien",
+    "due-on-sale clause Garn-St Germain enforcement",
+    "MERS nominee assignment mortgage standing",
+    "installment land contract forfeiture equitable mortgage"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Easements, profits and licenses",
+   "scope": "Express easements, easements implied from prior use or by necessity, prescriptive easements, appurtenant versus in-gross easements, scope, overburdening and relocation, termination by abandonment, merger or misuse, profits à prendre, and irrevocable licenses.",
+   "queries": [
+    "easement by necessity landlocked parcel common grantor",
+    "prescriptive easement adverse use statutory period",
+    "easement appurtenant in gross scope overburden",
+    "irrevocable license estoppel expenditures profit a prendre"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real covenants and equitable servitudes",
+   "scope": "When covenants run with the land at law and in equity (intent, notice, horizontal and vertical privity, touch and concern), implied reciprocal negative easements under a common scheme, affirmative covenants, and termination for changed conditions.",
+   "queries": [
+    "covenant running with the land touch and concern",
+    "horizontal privity vertical privity real covenant",
+    "equitable servitude common scheme reciprocal negative easement",
+    "changed conditions doctrine restrictive covenant unenforceable"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Common interest communities: HOAs, condominiums and cooperatives",
+   "scope": "Governing documents (declarations, CC&Rs, bylaws), association assessment liens and super-priority, business-judgment and reasonableness review of association rules and board actions, condominium statutes and UCIOA, and cooperative housing corporations.",
+   "queries": [
+    "homeowners association assessment lien super-priority",
+    "condominium declaration use restriction reasonableness Nahrstedt",
+    "cooperative housing corporation board business judgment",
+    "Uniform Common Interest Ownership Act association"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Fair housing and housing discrimination",
+   "scope": "The Fair Housing Act of 1968 and its 1988 amendments (disability, familial status), 42 U.S.C. § 1982, disparate-impact liability, reasonable accommodation and modification duties, and courts' refusal to enforce racially restrictive covenants and racial zoning.",
+   "queries": [
+    "Fair Housing Act disparate impact Inclusive Communities",
+    "racially restrictive covenant Shelley v. Kraemer",
+    "reasonable accommodation handicap Fair Housing Amendments Act",
+    "42 U.S.C. 1982 Jones Alfred H. Mayer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Private and public nuisance",
+   "scope": "Substantial and unreasonable interference with use and enjoyment of land, weighing utility against harm, remedies (injunctions, permanent damages, purchased injunctions), coming to the nuisance, right-to-farm acts, and public nuisance claims by landowners.",
+   "queries": [
+    "private nuisance substantial unreasonable interference use enjoyment",
+    "permanent damages in lieu of injunction Boomer",
+    "coming to the nuisance Spur Industries feedlot",
+    "right to farm act nuisance defense"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trespass to land, airspace and support rights",
+   "scope": "Intentional intrusions and the right to exclude (including punitive damages), encroaching structures and mandatory injunctions, the ad coelum maxim and navigable airspace (overflights, drones), subsurface trespass, and rights to lateral and subjacent support.",
+   "queries": [
+    "trespass to land right to exclude punitive damages",
+    "encroaching structure mandatory injunction removal",
+    "airspace overflights navigable airspace Causby",
+    "lateral support excavation adjoining landowner"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Water rights: riparian, prior appropriation and groundwater",
+   "scope": "Riparian natural-flow and reasonable-use doctrines, Western prior appropriation (beneficial use, priority dates, abandonment and forfeiture), groundwater regimes (capture, reasonable use, correlative rights), diffuse surface water rules, and federal reserved water rights.",
+   "queries": [
+    "prior appropriation beneficial use priority date",
+    "riparian rights reasonable use natural flow",
+    "groundwater rule of capture correlative rights",
+    "Winters doctrine federal reserved water rights"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public trust doctrine and coastal property boundaries",
+   "scope": "State title to tidelands and navigable beds under the equal footing doctrine, the public trust doctrine, public beach access (custom, implied dedication), mean-high-tide boundaries, and accretion, reliction and avulsion.",
+   "queries": [
+    "public trust doctrine tidelands navigable waters",
+    "Illinois Central Railroad lakebed public trust",
+    "accretion avulsion riparian boundary shoreline",
+    "public beach access dry sand customary use"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Oil, gas and mineral estates",
+   "scope": "Severed mineral estates and the accommodation doctrine, rule of capture and correlative rights, oil and gas lease terms (habendum clauses, royalties and post-production costs, pooling, implied covenants), and hard-rock mining claims under the General Mining Law of 1872.",
+   "queries": [
+    "habendum clause production in paying quantities",
+    "severed mineral estate accommodation doctrine surface owner",
+    "royalty post-production costs deduction lessee",
+    "unpatented mining claim General Mining Law discovery"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Zoning: Euclidean districts, variances and nonconforming uses",
+   "scope": "The constitutional basis and structure of zoning (Euclid), cumulative versus exclusive districts, use and area variances, special exceptions and conditional uses, nonconforming uses and amortization, spot and contract zoning, and aesthetic regulation.",
+   "queries": [
+    "use variance unnecessary hardship zoning board",
+    "nonconforming use amortization period discontinuance",
+    "spot zoning comprehensive plan rezoning",
+    "special exception conditional use permit standards"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exclusionary zoning and land-use discrimination",
+   "scope": "Zoning that excludes low-income or nontraditional households, state fair-share obligations (Mount Laurel) and inclusionary zoning, single-family definitions (Belle Terre, Moore v. East Cleveland), group-home siting (Cleburne), and religious land uses under RLUIPA.",
+   "queries": [
+    "Mount Laurel fair share affordable housing obligation",
+    "zoning ordinance definition of family unrelated persons",
+    "group home zoning Cleburne equal protection",
+    "RLUIPA substantial burden church zoning"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Regulatory takings",
+   "scope": "When land-use and environmental rules become takings: Pennsylvania Coal, Penn Central balancing, Lucas's total-deprivation rule, the parcel-as-a-whole denominator (Murr), temporary takings and moratoria (First English, Tahoe-Sierra), ripeness (Williamson County, Knick) and judicial takings.",
+   "queries": [
+    "Penn Central investment-backed expectations character",
+    "Lucas deprivation of all economically beneficial use",
+    "parcel as a whole denominator Murr",
+    "temporary taking moratorium Tahoe-Sierra"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Physical takings and development exactions",
+   "scope": "Permanent physical occupations and appropriations (Loretto, Kaiser Aetna, Horne, Cedar Point), and permit conditions tested under Nollan's essential nexus and Dolan's rough proportionality, including monetary exactions (Koontz) and legislative impact fees (Sheetz).",
+   "queries": [
+    "permanent physical occupation Loretto cable",
+    "Cedar Point Nursery access regulation union organizers",
+    "essential nexus rough proportionality Nollan Dolan",
+    "Koontz monetary exaction permit condition"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eminent domain: public use and just compensation",
+   "scope": "The public use requirement (Berman, Midkiff, Kelo, Poletown, Hathcock) and state reforms after Kelo, blight condemnation, condemnation procedure, valuation by fair market value and highest and best use, severance damages in partial takings, and inverse condemnation actions.",
+   "queries": [
+    "public use economic development Kelo New London",
+    "just compensation fair market value highest best use",
+    "severance damages partial taking remainder",
+    "blight condemnation redevelopment public purpose"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Native American land title and tribal lands",
+   "scope": "The doctrine of discovery and aboriginal title, treaty cessions and Nonintercourse Act land claims, allotment under the Dawes Act and fractionated heirship, trust land and fee-to-trust acquisition under the IRA, and reservation boundary disputes.",
+   "queries": [
+    "aboriginal title doctrine of discovery Johnson M'Intosh",
+    "Indian Nonintercourse Act land claim tribe",
+    "General Allotment Act fractionated interests",
+    "land into trust Indian Reorganization Act Carcieri"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal public land grants, surveys and railroad rights-of-way",
+   "scope": "Disposal of the public domain (the Land Ordinance of 1785 rectangular survey, homestead and preemption acts, state school-land grants), land patents, railroad land grants and rights-of-way, and takings claims over Trails Act rail-banking.",
+   "queries": [
+    "Homestead Act entry patent public lands",
+    "township range section public land survey",
+    "railroad right-of-way 1875 Act easement abandonment",
+    "Trails Act railbanking taking reversionary owners"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Conservation easements, historic preservation and transferable development rights",
+   "scope": "Conservation easements (the Uniform Conservation Easement Act, perpetuity and deduction requirements under IRC § 170(h)), historic landmark and district designation and preservation commissions, and transferable development rights programs.",
+   "queries": [
+    "conservation easement perpetuity requirement 170(h)",
+    "Uniform Conservation Easement Act holder",
+    "historic landmark designation preservation commission",
+    "transferable development rights program sending receiving"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tax liens, tax sales and mechanics' liens",
+   "scope": "Property tax foreclosure, tax deeds and redemption periods, notice requirements (Jones v. Flowers), the owner's right to surplus equity (Tyler v. Hennepin County), and statutory mechanics' and materialmen's liens on real property, including relation-back priority and lien waivers.",
+   "queries": [
+    "tax sale deed redemption period delinquent taxes",
+    "surplus proceeds tax foreclosure equity Tyler",
+    "mechanic's lien priority relation back commencement",
+    "notice tax sale Jones Flowers due process"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Community property characterization, transmutation and tracing",
+   "scope": "How property is classified as separate or community in the nine community property states, including transmutation agreements, commingling and tracing, apportionment of business growth, quasi-community property, and division at divorce or death.",
+   "queries": [
+    "community property separate property transmutation agreement",
+    "commingled funds tracing community presumption",
+    "Pereira Van Camp apportionment separate business",
+    "Texas community property inception of title doctrine"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spanish and Mexican land grants and the Treaty of Guadalupe Hidalgo",
+   "scope": "Confirmation and adjudication of Spanish and Mexican land grants made before US rule in California, New Mexico, Arizona, Texas and Florida, including the California Land Act of 1851, the Court of Private Land Claims, and community grants.",
+   "queries": [
+    "Mexican land grant California Land Act 1851 confirmation",
+    "Court of Private Land Claims Spanish grant New Mexico",
+    "Treaty of Guadalupe Hidalgo land grant property rights",
+    "rancho diseno patent survey grant boundaries"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Escheat and unclaimed property",
+   "scope": "How states take over real and personal property that has no owner, including escheat of intestate estates, unclaimed property acts and dormancy periods, holder audits, and the Supreme Court's priority rules between states.",
+   "queries": [
+    "escheat intestate estate no heirs state",
+    "unclaimed property act dormancy period holder",
+    "Texas v. New Jersey priority rule escheat",
+    "Delaware unclaimed property audit abandoned securities"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Solar access, light and air, and wind energy rights",
+   "scope": "Rights to sunlight, light and air, views and wind flow, including the American rejection of the ancient lights doctrine, solar easements and solar access statutes, and wind energy leases and turbine setbacks.",
+   "queries": [
+    "ancient lights doctrine light and air",
+    "Prah Maretti solar collector obstruction",
+    "solar easement solar access statute shading",
+    "wind energy lease turbine setback wake"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cemeteries, burial rights and quasi-property in human remains",
+   "scope": "Property interests in burial plots and cemeteries, next of kin's right to control what happens to remains, disinterment, abandoned cemeteries, and access rights to family graves on private land.",
+   "queries": [
+    "quasi-property right next of kin dead body",
+    "cemetery lot burial right easement abandoned",
+    "disinterment remains reinterment court permission",
+    "family cemetery access private land statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Right to exclude and public access to private property",
+   "scope": "Limits on an owner's right to keep others out, including access by aid workers to farm labor camps, free-speech access to shopping centers under state constitutions, company towns, and access by nonemployee union organizers.",
+   "queries": [
+    "State v. Shack migrant farmworkers right to exclude",
+    "PruneYard shopping center free speech state constitution",
+    "Marsh v. Alabama company town",
+    "Lechmere union organizers nonemployee access property"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal residential mortgage lending and servicing regulation",
+   "scope": "Federal rules on originating and servicing home mortgages, including TILA rescission, RESPA servicing duties, HOEPA high-cost loans, Dodd-Frank ability-to-repay and qualified mortgage rules, and federal loan modification programs.",
+   "queries": [
+    "TILA rescission three-day right mortgage",
+    "RESPA qualified written request servicer",
+    "HOEPA high-cost mortgage points fees",
+    "HAMP loan modification trial period plan"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real estate brokers: commissions, agency duties and licensing",
+   "scope": "Rights and duties of real estate brokers and agents, including when a commission is earned, types of listing agreements and procuring cause, dual agency and fiduciary duties, licensing, and antitrust challenges to commission rules.",
+   "queries": [
+    "broker commission ready willing able buyer",
+    "exclusive right to sell listing procuring cause",
+    "dual agency real estate broker fiduciary duty",
+    "National Association of Realtors commission antitrust settlement"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Options, rights of first refusal and preemptive rights in land",
+   "scope": "Options to buy or lease real property and rights of first refusal or first offer, including how they are exercised and triggered, package-deal and valuation problems, assignability, and limits as restraints on alienation.",
+   "queries": [
+    "right of first refusal triggering bona fide offer",
+    "option to purchase exercise notice lease",
+    "preemptive right unreasonable restraint alienation",
+    "right of first refusal package sale real property"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Quiet title, lis pendens and slander of title",
+   "scope": "Lawsuits and filings that settle or cloud title, including quiet title actions, notices of pending litigation and their expungement, suits to cancel instruments, slander of title, and damages for wrongful lis pendens.",
+   "queries": [
+    "quiet title action cloud on title",
+    "lis pendens notice of pendency expunge",
+    "slander of title special damages malice",
+    "cancellation of instrument remove cloud equity"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Marketable record title acts and curative statutes",
+   "scope": "Statutes that wipe out stale interests and cure title defects, including marketable record title acts, root-of-title periods, preservation notices, and curative acts for defective acknowledgments and old irregularities.",
+   "queries": [
+    "marketable record title act root of title",
+    "preservation notice marketable title act extinguish",
+    "curative statute defective acknowledgment deed",
+    "Florida marketable record title act thirty years"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Subdivision regulation, plats and dedication of streets",
+   "scope": "Platting and subdivision approval, subdivision map acts, express and implied (common-law) dedication of streets and parks, public acceptance, and vacation of dedicated ways.",
+   "queries": [
+    "subdivision map act plat approval",
+    "implied dedication public use acceptance",
+    "common law dedication street plat lots",
+    "vacation of public street abutting owner"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Navigability for title, equal footing and river boundaries",
+   "scope": "State ownership of the beds of navigable rivers and lakes under the equal-footing doctrine, tests for navigability for title, and accretion, avulsion and reliction along rivers, including boundary disputes between states.",
+   "queries": [
+    "equal footing doctrine navigable riverbed title",
+    "navigability for title PPL Montana segments",
+    "avulsion accretion river boundary state",
+    "Nebraska v. Iowa Missouri River boundary"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Conversion, replevin and trover",
+   "scope": "Remedies for wrongful interference with personal property, including conversion, trover, replevin, detinue and trespass to chattels, and how damages for chattels are measured.",
+   "queries": [
+    "conversion personal property dominion exclusion owner",
+    "replevin writ possession chattel",
+    "trover damages value time of conversion",
+    "trespass to chattels intermeddling"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Stolen art, cultural property and good-faith purchasers",
+   "scope": "Title disputes over stolen or looted art and cultural objects, including the demand-and-refusal and discovery rules, good-faith purchaser and entrustment rules, Nazi-looted art claims, and repatriation statutes such as NAGPRA and ARPA.",
+   "queries": [
+    "stolen painting demand and refusal rule",
+    "O'Keeffe v. Snyder discovery rule paintings",
+    "Nazi looted art Holocaust Expropriated Art Recovery Act",
+    "NAGPRA repatriation cultural items museum"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Digital assets and intangible property",
+   "scope": "How intangibles such as domain names, online accounts, cryptocurrency and data are treated as property, including conversion of intangibles and fiduciary access to digital assets under RUFADAA.",
+   "queries": [
+    "domain name intangible property conversion Kremen",
+    "Revised Uniform Fiduciary Access Digital Assets Act",
+    "cryptocurrency property ownership claim",
+    "conversion intangible property merged document"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Timber rights, timber trespass and treble damages",
+   "scope": "Ownership and transfer of standing timber, timber deeds and cutting periods, and statutory timber trespass with double or treble damages and stumpage valuation.",
+   "queries": [
+    "timber trespass treble damages statute",
+    "standing timber deed cutting period",
+    "stumpage value timber removed boundary",
+    "willful cutting trees double damages"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "CERCLA owner liability and environmental due diligence in real estate",
+   "scope": "Liability of current and past owners of contaminated land under CERCLA and similar state laws, including the innocent landowner, bona fide prospective purchaser and contiguous owner defenses, all appropriate inquiry, and environmental liens.",
+   "queries": [
+    "CERCLA current owner liability contaminated property",
+    "bona fide prospective purchaser defense CERCLA",
+    "innocent landowner defense all appropriate inquiry",
+    "Phase I environmental site assessment ASTM"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Aesthetic regulation, signs and billboards",
+   "scope": "Land-use rules on appearance and signage, including aesthetic zoning, architectural review boards, billboard bans and amortization, the Highway Beautification Act, and First Amendment limits on sign codes.",
+   "queries": [
+    "billboard ordinance amortization nonconforming sign",
+    "Metromedia San Diego billboard ordinance",
+    "Reed v. Town of Gilbert sign code",
+    "architectural review board aesthetic zoning"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Religious land use and RLUIPA",
+   "scope": "Zoning and landmarking disputes involving churches and other religious institutions, including RLUIPA's substantial-burden, equal-terms and exclusion provisions, and religious freedom claims under state law.",
+   "queries": [
+    "RLUIPA substantial burden church zoning",
+    "equal terms provision religious assembly",
+    "Religious Land Use Institutionalized Persons Act mosque permit",
+    "City of Boerne v. Flores landmark church"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Zoning amendments: spot zoning, contract zoning, PUDs and growth controls",
+   "scope": "Legislative rezoning and flexible zoning techniques, including spot zoning, contract and conditional zoning, floating zones, planned unit developments, the requirement to be consistent with the comprehensive plan, and growth timing controls and moratoria.",
+   "queries": [
+    "spot zoning comprehensive plan rezoning",
+    "contract zoning conditional rezoning invalid",
+    "planned unit development floating zone",
+    "Golden v. Planning Board Ramapo growth timing"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vested rights, development agreements and zoning estoppel",
+   "scope": "When a developer gains a vested right to build under existing rules, including building-permit and substantial-expenditure tests, equitable estoppel against municipalities, development agreements, and the pending-ordinance doctrine.",
+   "queries": [
+    "vested rights building permit substantial expenditures",
+    "zoning estoppel good faith reliance permit",
+    "development agreement statute vested rights",
+    "pending ordinance doctrine permit application"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Real property tax assessment, exemptions and limits",
+   "scope": "Valuing and assessing real property for ad valorem tax, uniformity clauses, assessment limits such as Proposition 13, charitable and religious exemptions, and assessment appeals.",
+   "queries": [
+    "ad valorem assessment fair market value uniformity",
+    "Proposition 13 acquisition value assessment Nordlinger",
+    "charitable exemption property tax nonprofit hospital",
+    "assessment appeal board of equalization"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public and subsidized housing programs",
+   "scope": "Federal housing assistance law, including public housing authorities and their leases, Section 8 housing choice vouchers and project-based contracts, LIHTC properties, and eviction or termination of assistance.",
+   "queries": [
+    "Section 8 housing choice voucher termination hearing",
+    "public housing authority lease eviction Rucker",
+    "Low-Income Housing Tax Credit extended use",
+    "project-based Section 8 HAP contract"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Timeshares and interstate land sales regulation",
+   "scope": "Timeshare and fractional ownership interests and the regulation of marketing subdivided land, including state timeshare acts, rescission periods, resale and exit companies, and the Interstate Land Sales Full Disclosure Act.",
+   "queries": [
+    "timeshare interval ownership rescission statute",
+    "Interstate Land Sales Full Disclosure Act lot",
+    "timeshare resale exit company fraud",
+    "ILSA revocation property report developer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Manufactured housing and mobile home park tenancies",
+   "scope": "Whether manufactured and mobile homes are personal or real property, titling and conversion to real property, landlord-tenant statutes for mobile home parks, park closures, and residents' rights to buy the park.",
+   "queries": [
+    "mobile home park tenancy statute eviction",
+    "manufactured home title real property affixation",
+    "mobile home park closure relocation residents",
+    "mobile home park resident right to purchase"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Commercial lease covenants and remedies",
+   "scope": "Terms specific to commercial leases, including use and exclusive-use clauses, continuous operation and radius covenants, percentage rent and common area maintenance charges, ground leases, and landlord remedies such as rent acceleration.",
+   "queries": [
+    "continuous operation covenant shopping center lease",
+    "exclusive use clause tenant shopping center",
+    "percentage rent gross sales lease",
+    "ground lease rent reappraisal commercial"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Unpatented mining claims and the General Mining Law of 1872",
+   "scope": "Locating, maintaining and patenting lode, placer and millsite claims on federal land, including discovery of a valuable mineral deposit, pedis possessio, annual assessment work and claim maintenance fees.",
+   "queries": [
+    "unpatented mining claim valuable mineral discovery",
+    "lode claim location placer claim",
+    "pedis possessio prospector rights",
+    "mining claim assessment work maintenance fee"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hawaiian land tenure and Native Hawaiian rights",
+   "scope": "Hawaii's distinctive land law, including the Great Mahele, Land Commission Awards, kuleana and ahupuaa rights, Hawaiian Home Lands, ceded lands, and traditional gathering and access rights.",
+   "queries": [
+    "Great Mahele Land Commission Award kuleana",
+    "ahupuaa traditional gathering rights PASH",
+    "Hawaiian Homes Commission Act lessee",
+    "ceded lands Office of Hawaiian Affairs"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Louisiana civil-law property",
+   "scope": "Property under the Louisiana Civil Code, including ownership and possession, usufruct and naked ownership, predial servitudes, acquisitive prescription, component parts of immovables, and co-ownership.",
+   "queries": [
+    "Louisiana usufruct naked owner Civil Code",
+    "predial servitude Louisiana enclosed estate passage",
+    "acquisitive prescription ten years just title Louisiana",
+    "Louisiana immovable component part Civil Code"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Feudal tenures, seisin and the Statute of Uses",
+   "scope": "The English historical roots of American property law, including feudal tenures and their incidents, livery of seisin, Quia Emptores, the Statute of Uses and Statute of Wills, and the abolition of primogeniture and feudal incidents.",
+   "queries": [
+    "livery of seisin feoffment",
+    "Statute of Uses 1536 use executed",
+    "Quia Emptores subinfeudation",
+    "knight service socage feudal tenure"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Colonial and early American land systems",
+   "scope": "Land tenure in the American colonies and early states before the federal land system, including proprietary charters, headrights, quitrents, Dutch patroonships and manors, state land cessions, and land-speculation disputes such as the Yazoo fraud.",
+   "queries": [
+    "patroonship manor Van Rensselaer Anti-Rent War",
+    "headright system Virginia colony land",
+    "quitrent proprietary colony land grant",
+    "Yazoo land fraud Fletcher v. Peck"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Alien land laws and foreign ownership restrictions",
+   "scope": "Limits on land ownership by noncitizens and foreign entities, including the early twentieth-century alien land laws aimed at Asian immigrants, state constitutional limits, AFIDA reporting, and recent state bans on ownership by nationals of foreign adversary countries.",
+   "queries": [
+    "California Alien Land Law 1913 Oyama",
+    "aliens ineligible to citizenship land ownership",
+    "Agricultural Foreign Investment Disclosure Act reporting",
+    "Florida foreign principal real property restriction"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Civil forfeiture of property",
+   "scope": "Civil and criminal in rem forfeiture of real and personal property used in or obtained from crime, including innocent owner defenses, Excessive Fines Clause limits, CAFRA procedures, and equitable sharing.",
+   "queries": [
+    "civil forfeiture innocent owner defense",
+    "Civil Asset Forfeiture Reform Act claimant",
+    "excessive fines forfeiture Timbs Bajakajian",
+    "in rem forfeiture real property James Daniel Good"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vacant and abandoned property: land banks, receivership and code enforcement",
+   "scope": "Tools for dealing with problem properties, including land bank authorities, vacant property registration, housing code enforcement, nuisance-abatement receiverships, demolition of unsafe buildings, and abandoned-property statutes.",
+   "queries": [
+    "land bank authority tax-foreclosed properties",
+    "vacant property registration ordinance",
+    "housing code receivership abandoned building",
+    "demolition unsafe structure notice owner"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mistaken improvers and encroachments",
+   "scope": "Remedies when someone builds on another's land by mistake, including good-faith improver and occupying claimant (betterment) acts, weighing relative hardship before ordering removal of an encroachment, and forced sales.",
+   "queries": [
+    "good faith improver statute mistaken",
+    "occupying claimant act betterments",
+    "encroachment injunction relative hardship balancing",
+    "building encroaches neighbor mandatory removal"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Fence laws, open range and livestock trespass",
+   "scope": "Fence-in and fence-out regimes, open range and herd laws, neighbors' duties to share partition fences, estray statutes, and livestock brand laws.",
+   "queries": [
+    "open range fence-out livestock trespass",
+    "partition fence statute adjoining owners",
+    "estray statute stray livestock",
+    "livestock brand registration inspection ownership"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Companion animals as property",
+   "scope": "Treatment of pets as personal property, including damages for injury or death, sentimental and intrinsic value, pet custody in divorce, and pet trusts.",
+   "queries": [
+    "pet dog damages sentimental value personal property",
+    "companion animal intrinsic value veterinary malpractice",
+    "pet custody divorce best interest",
+    "pet trust statute animal care"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shipwrecks, salvage and the law of finds",
+   "scope": "Title to sunken vessels and their cargo, including the maritime law of finds versus the law of salvage, salvage awards, the Abandoned Shipwreck Act of 1987, and sovereign immunity for foreign warships.",
+   "queries": [
+    "Abandoned Shipwreck Act embedded submerged lands",
+    "law of finds salvage shipwreck title",
+    "Sea Hunt Spain sovereign warship",
+    "salvage award treasure shipwreck in rem"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Short-term rental regulation",
+   "scope": "Regulation of short-term and vacation rentals, including municipal ordinances, how zoning classifies transient use, HOA rental restrictions, host registration requirements, and occupancy taxes.",
+   "queries": [
+    "short-term rental ordinance residential zoning",
+    "vacation rental restrictive covenant residential use",
+    "Airbnb host registration ordinance",
+    "transient occupancy tax short-term rental"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Security deposits, landlord liens and distress for rent",
+   "scope": "Statutes and cases on tenant security deposits (caps, timelines for return, itemized deductions, penalty damages), landlords' statutory and common-law liens, distraint for rent, disposal of abandoned tenant property and self-storage owner liens.",
+   "queries": [
+    "security deposit wrongful withholding double damages tenant",
+    "itemized statement deductions security deposit return days",
+    "landlord lien distress for rent distraint statute",
+    "self-service storage facility lien sale notice"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Agricultural leases, crop-share tenancies and emblements",
+   "scope": "Farm tenancies including cash-rent and crop-share leases, the cropper versus tenant distinction, the doctrine of emblements, notice rules for terminating year-to-year farm tenancies, and landlords' liens on crops.",
+   "queries": [
+    "crop share lease landlord tenant farm",
+    "emblements doctrine tenant crops termination lease",
+    "farm tenancy notice termination year to year",
+    "sharecropper cropper tenant distinction crop ownership"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Ground rents and long-term ground leases",
+   "scope": "Maryland and Pennsylvania ground rent systems (redeemable and irredeemable rents, registration, ejectment and redemption reforms) and long-term commercial or residential ground leases with renewal and rent-reappraisal terms.",
+   "queries": [
+    "Maryland ground rent redemption ejectment statute",
+    "Pennsylvania irredeemable ground rent",
+    "ground rent registration Baltimore leasehold reversion",
+    "ninety-nine year ground lease rent reappraisal"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Transfer-on-death deeds and nonprobate transfers of real estate",
+   "scope": "Statutory transfer-on-death (beneficiary) deeds, the Uniform Real Property Transfer on Death Act, enhanced life estate (Lady Bird) deeds, revocation, grantor capacity, creditor and Medicaid recovery rights, and beneficiaries' rights after the owner dies.",
+   "queries": [
+    "transfer on death deed beneficiary revocation statute",
+    "Uniform Real Property Transfer on Death Act",
+    "enhanced life estate deed Lady Bird",
+    "beneficiary deed recorded before death grantor capacity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real estate transfer taxes and documentary stamp taxes",
+   "scope": "State and local taxes on conveyances of real property, including documentary stamp taxes, mansion taxes, controlling-interest transfer taxes on entity sales, how consideration is measured, and statutory exemptions.",
+   "queries": [
+    "real estate transfer tax deed consideration exemption",
+    "documentary stamp tax deed Florida",
+    "mansion tax New York residential conveyance",
+    "realty transfer tax controlling interest entity transfer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Judgment liens and execution sales of real property",
+   "scope": "How money judgments become liens on land through docketing and recording, lien duration and priority, levy and writs of execution, sheriff's execution sales, setting aside sales for inadequate price, and statutory redemption from execution sales.",
+   "queries": [
+    "judgment lien attaches real property docketed county",
+    "sheriff's sale execution grossly inadequate price set aside",
+    "writ of execution levy real estate judgment debtor",
+    "redemption from execution sale statutory period"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Church property disputes and denominational trust clauses",
+   "scope": "Disputes over who owns church property when congregations split or leave hierarchical denominations, covering deference versus neutral-principles approaches, the Episcopal Dennis Canon, the Methodist and Presbyterian trust clauses, and disaffiliation settlements.",
+   "queries": [
+    "hierarchical church property dispute neutral principles",
+    "Dennis Canon trust diocese property Episcopal",
+    "Jones v. Wolf neutral principles of law",
+    "Methodist trust clause Discipline disaffiliation property"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adult business zoning and the secondary-effects doctrine",
+   "scope": "Zoning and licensing of sexually oriented businesses under the First Amendment, including dispersal and concentration ordinances, the secondary-effects rationale, alternative avenues of communication, and the leading Supreme Court and circuit cases.",
+   "queries": [
+    "adult entertainment zoning secondary effects ordinance",
+    "Renton Playtime Theatres adult theater zoning",
+    "sexually oriented business licensing dispersal ordinance",
+    "Young v. American Mini Theatres zoning"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Wireless facility siting and federal preemption of local zoning",
+   "scope": "Local land-use review of cell towers and small wireless facilities under the Telecommunications Act of 1996 section 332(c)(7) and Spectrum Act section 6409(a), including substantial-evidence review, effective prohibition, FCC shot clocks and written-reasons rules.",
+   "queries": [
+    "Telecommunications Act 332(c)(7) cell tower denial substantial evidence",
+    "effective prohibition wireless service significant gap",
+    "shot clock wireless facility application reasonable period",
+    "Section 6409(a) eligible facilities request modification"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State housing preemption laws: ADUs, lot splits and by-right approvals",
+   "scope": "State statutes that override local zoning to require accessory dwelling units, duplexes, lot splits, middle housing or multifamily districts (such as California SB 9 and SB 35, Oregon HB 2001 and the Massachusetts MBTA Communities Act), plus builder's-remedy enforcement.",
+   "queries": [
+    "accessory dwelling unit state law local ordinance",
+    "California SB 9 lot split duplex",
+    "Oregon House Bill 2001 middle housing",
+    "MBTA Communities Act multifamily zoning district"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Right-to-farm laws and agricultural land preservation",
+   "scope": "State right-to-farm statutes that shield agricultural operations from nuisance suits, takings challenges to those protections, constitutional right-to-farm amendments, livestock confinement nuisance litigation, and farmland preservation and agricultural district programs.",
+   "queries": [
+    "right to farm act nuisance defense agricultural operation",
+    "hog confinement nuisance right to farm statute",
+    "Bormann Board of Supervisors agricultural area immunity",
+    "farmland preservation agricultural district easement program"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State ownership of wildlife and hunting and fishing rights",
+   "scope": "The doctrine that states own wild game in trust, its limits under the Commerce Clause and treaty power, landowners' rights to hunt and fish and to exclude others, hunting leases, and rights over fish in nonnavigable waters.",
+   "queries": [
+    "state ownership wild animals Geer v. Connecticut",
+    "Hughes v. Oklahoma wildlife commerce clause",
+    "landowner exclusive hunting rights wild game",
+    "fishing rights nonnavigable lake private landowner"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pore space, geothermal resources and underground storage rights",
+   "scope": "Who owns subsurface pore space and geothermal resources (surface versus mineral estate), underground natural gas storage, ownership of injected gas, carbon dioxide sequestration statutes, and storage-related trespass and unitization.",
+   "queries": [
+    "pore space ownership carbon dioxide sequestration surface owner",
+    "underground natural gas storage reservoir trespass",
+    "injected gas ownership Hammonds storage reservoir",
+    "geothermal resources mineral reservation steam"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Human tissue, gametes and frozen embryos as property",
+   "scope": "Whether and how property law covers excised cells, tissue samples, sperm, eggs and cryopreserved embryos, including conversion claims over biological materials, embryo disposition at divorce, posthumous gamete bequests, and wrongful-destruction claims.",
+   "queries": [
+    "frozen embryos disposition divorce contract",
+    "Moore v. Regents spleen cells conversion",
+    "cryopreserved pre-embryos property interest",
+    "sperm bequest decedent estate Hecht"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Land tenure in US territories",
+   "scope": "Property regimes in Puerto Rico, Guam, the US Virgin Islands, American Samoa and the Northern Mariana Islands, including indigenous land-alienation restrictions, communal land, the Chamorro Land Trust, civil-law registries and the cases that have upheld or challenged them.",
+   "queries": [
+    "Northern Mariana Islands land alienation restriction Article XII",
+    "American Samoa communal land alienation native",
+    "Guam Chamorro Land Trust Act",
+    "Puerto Rico Civil Code property registry"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Community land trusts, shared equity and affordability covenants",
+   "scope": "Permanently affordable ownership models, including community land trust ground leases, resale formulas and price caps, limited-equity housing cooperatives, deed-restricted affordable units and whether long-term affordability covenants can be enforced.",
+   "queries": [
+    "community land trust ground lease resale formula",
+    "limited equity housing cooperative affordability",
+    "affordable housing deed restriction resale price",
+    "shared equity homeownership"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  }
+ ]
+}

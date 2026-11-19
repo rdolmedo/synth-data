@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: synth-eot-checkpoint
+Version: 5.0
+Summary: vLLM general plugin: cache each answer's end-of-turn Mamba state under an exact-length key so the next turn hits through the re-rendered answer (vLLM 0.32: v4 code; vLLM 0.34: v5)

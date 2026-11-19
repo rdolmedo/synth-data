@@ -1,0 +1,837 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "International relations",
+ "weight": 0.0132495,
+ "leaves": [
+  {
+   "leaf": "Classical realism, neorealism and classical geopolitics",
+   "scope": "Realist theories of international politics (classical, structural, offensive and defensive realism, balance-of-power and power-transition theory) and classical geopolitical thinkers, with their key authors, works, publication years and concepts.",
+   "queries": [
+    "Morgenthau Politics Among Nations principles political realism",
+    "Waltz Theory of International Politics neorealism structural",
+    "Mearsheimer offensive realism Tragedy of Great Power Politics",
+    "Mackinder heartland theory Mahan sea power geopolitics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Liberal institutionalism, interdependence and democratic peace research",
+   "scope": "Liberal and neoliberal institutionalist theory, complex interdependence and regime theory, and the democratic peace thesis together with the quantitative conflict datasets used to test it.",
+   "queries": [
+    "Keohane Nye complex interdependence Power and Interdependence",
+    "neoliberal institutionalism After Hegemony international regimes",
+    "democratic peace theory Doyle Kant perpetual peace",
+    "Correlates of War project militarized interstate disputes dataset"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Constructivism, the English School and critical IR theories",
+   "scope": "Constructivist, English School, Copenhagen School, feminist, Marxist, postcolonial and other critical approaches to international relations, with their founding texts, scholars and coined concepts.",
+   "queries": [
+    "Wendt Social Theory of International Politics constructivism",
+    "English School Hedley Bull Anarchical Society international society",
+    "feminist international relations theory Cynthia Enloe Tickner",
+    "Copenhagen School securitization theory Buzan Wæver"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Foreign policy analysis and decision-making models",
+   "scope": "Approaches that explain foreign policy through decision-makers and domestic processes, including bureaucratic politics, groupthink, two-level games, operational code, prospect theory and misperception.",
+   "queries": [
+    "Allison Essence of Decision bureaucratic politics model",
+    "Janis groupthink foreign policy fiascoes Bay of Pigs",
+    "Putnam two-level games diplomacy domestic politics",
+    "Jervis Perception and Misperception in International Politics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear deterrence theory and strategic doctrine",
+   "scope": "Theories and official doctrines of nuclear deterrence and coercion, including massive retaliation, flexible response, MAD, counterforce, no-first-use, the nuclear triad, war plans and posture reviews.",
+   "queries": [
+    "massive retaliation flexible response nuclear doctrine Dulles",
+    "mutual assured destruction second strike capability McNamara",
+    "Schelling Strategy of Conflict deterrence compellence",
+    "Single Integrated Operational Plan nuclear posture review"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "European states system from Westphalia to 1914",
+   "scope": "Great-power diplomacy and peace settlements from the Peace of Westphalia and Utrecht through the Congress of Vienna, the Concert of Europe and Bismarck's alliance system to the Triple Alliance and Triple Entente.",
+   "queries": [
+    "Peace of Westphalia 1648 treaties Osnabrück Münster",
+    "Congress of Vienna Concert of Europe Quadruple Alliance",
+    "Bismarck Congress of Berlin 1878 Reinsurance Treaty",
+    "Triple Entente Anglo-Russian Convention 1907 Entente Cordiale"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Post-WWI peace settlement, League of Nations and interwar diplomacy",
+   "scope": "The Paris Peace Conference treaties, the League of Nations' organs, mandates and disputes, and interwar agreements from Washington and Locarno to Munich and the Nazi–Soviet Pact.",
+   "queries": [
+    "Treaty of Versailles Trianon Sèvres Saint-Germain Neuilly",
+    "League of Nations Covenant Council mandates system",
+    "Locarno Treaties Kellogg-Briand Pact Washington Naval Treaty",
+    "Munich Agreement 1938 Molotov-Ribbentrop Pact appeasement"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cold War crises, summits, détente and the end of the Cold War",
+   "scope": "East–West confrontations, summits and détente-era agreements from the Berlin crises and Cuban Missile Crisis through Ostpolitik and Helsinki to German reunification in 1990.",
+   "queries": [
+    "Berlin Blockade airlift 1948 Berlin Wall crisis 1961",
+    "Cuban Missile Crisis Kennedy Khrushchev ExComm",
+    "Helsinki Final Act 1975 détente Ostpolitik",
+    "Two Plus Four Treaty German reunification 1990"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Decolonization, the Non-Aligned Movement and Third World coalitions",
+   "scope": "Decolonization diplomacy and Global South groupings, including UN decolonization declarations, the Bandung Conference, NAM summits, the Group of 77 and the NIEO, plus postcolonial associations such as the Commonwealth and Francophonie.",
+   "queries": [
+    "Bandung Conference 1955 Asian-African ten principles",
+    "Non-Aligned Movement summit Belgrade 1961 founding members",
+    "Group of 77 New International Economic Order UNCTAD",
+    "Commonwealth of Nations Harare Declaration Francophonie membership"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Strategic arms control and nuclear testing treaties",
+   "scope": "US–Soviet/Russian strategic and intermediate-range arms control agreements and nuclear test-ban treaties, with their numerical limits, verification provisions, signing dates and withdrawals.",
+   "queries": [
+    "SALT I Interim Agreement Anti-Ballistic Missile Treaty 1972",
+    "Intermediate-Range Nuclear Forces Treaty 1987 withdrawal",
+    "New START warhead limits verification inspections",
+    "Partial Test Ban Treaty Comprehensive Nuclear-Test-Ban Treaty CTBTO"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear nonproliferation regime and proliferation crises",
+   "scope": "The NPT and its review conferences, IAEA safeguards, nuclear-weapon-free zone treaties, and the diplomacy over Iranian, North Korean and other proliferation cases.",
+   "queries": [
+    "NPT review conference 1995 indefinite extension",
+    "IAEA safeguards Additional Protocol comprehensive safeguards agreement",
+    "Treaty of Tlatelolco Pelindaba Rarotonga nuclear-weapon-free zone",
+    "Joint Comprehensive Plan of Action Iran uranium enrichment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical, biological and conventional arms control and export-control regimes",
+   "scope": "Treaties and regimes on chemical, biological and conventional weapons and arms transfers (CWC/OPCW, BWC, Ottawa Treaty, CCW, cluster munitions, ATT, CFE, Open Skies) and supplier export-control groups.",
+   "queries": [
+    "Chemical Weapons Convention OPCW schedules destruction",
+    "Biological Weapons Convention review conference confidence-building measures",
+    "Ottawa Treaty anti-personnel mines Convention on Cluster Munitions",
+    "Wassenaar Arrangement Missile Technology Control Regime Australia Group"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "UN Security Council composition, voting and resolutions",
+   "scope": "The Security Council's permanent and elected membership, veto use, voting practice, presidency, reform proposals and landmark resolutions.",
+   "queries": [
+    "Security Council veto permanent members resolution vetoed",
+    "non-permanent members Security Council election regional groups",
+    "Security Council Resolution 242 678 1441 adopted vote",
+    "Security Council reform G4 Uniting for Consensus"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UN Charter, General Assembly, Secretariat and specialized agencies",
+   "scope": "The drafting of the UN Charter and the UN's principal organs other than the Security Council (General Assembly, Secretaries-General, ECOSOC, Trusteeship Council) plus the founding and structure of its specialized agencies.",
+   "queries": [
+    "San Francisco Conference 1945 United Nations Charter drafting",
+    "UN Secretary-General Dag Hammarskjöld U Thant selection",
+    "General Assembly Uniting for Peace emergency special session",
+    "UN specialized agencies ECOSOC Trusteeship Council"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UN peace operations, humanitarian intervention and the Responsibility to Protect",
+   "scope": "UN peacekeeping and political missions (mandates, acronyms, force commanders, troop contributors, reform reports) and the doctrines of humanitarian intervention and R2P.",
+   "queries": [
+    "UN peacekeeping mission mandate force commander troop contributors",
+    "UNEF UNFICYP UNIFIL peacekeeping force established",
+    "Brahimi Report peace operations Srebrenica Rwanda UNAMIR",
+    "Responsibility to Protect ICISS 2005 World Summit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "NATO and Euro-Atlantic security institutions",
+   "scope": "NATO's treaty articles, enlargement rounds, Secretaries General, summits, strategic concepts, commands and operations, along with related Euro-Atlantic bodies such as the OSCE and the Western European Union.",
+   "queries": [
+    "North Atlantic Treaty Article 5 invoked Washington 1949",
+    "NATO enlargement accession protocol Membership Action Plan",
+    "NATO Secretary General summit declaration Strategic Concept",
+    "OSCE field missions High Commissioner National Minorities"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "EU foreign, security and enlargement policy",
+   "scope": "The EU's external action: CFSP and CSDP institutions and missions, the High Representative and EEAS, accession criteria and negotiations, and neighbourhood and association agreements.",
+   "queries": [
+    "Common Foreign and Security Policy High Representative EEAS",
+    "CSDP EU military operations EUFOR Atalanta",
+    "Copenhagen criteria EU enlargement accession negotiations chapters",
+    "European Neighbourhood Policy Eastern Partnership association agreement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Soviet and Russian foreign policy and Eurasian blocs",
+   "scope": "Soviet foreign policy and Eastern bloc institutions (Warsaw Pact, Comecon, Brezhnev Doctrine) and post-Soviet Russian foreign policy concepts and Eurasian organizations (CIS, CSTO, Eurasian Economic Union).",
+   "queries": [
+    "Warsaw Pact 1955 Political Consultative Committee members",
+    "Comecon Council for Mutual Economic Assistance members",
+    "Brezhnev Doctrine Prague Spring Sinatra Doctrine",
+    "Collective Security Treaty Organization CIS Eurasian Economic Union"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chinese foreign policy and cross-Strait relations",
+   "scope": "PRC foreign policy principles, doctrines and initiatives, the Sino-Soviet split and Sino-American normalization, and diplomacy over Taiwan's status.",
+   "queries": [
+    "Five Principles of Peaceful Coexistence Zhou Enlai Panchsheel",
+    "Shanghai Communiqué 1972 Nixon China normalization",
+    "Taiwan Relations Act 1992 Consensus cross-strait",
+    "Belt and Road Initiative Xi Jinping 2013 projects"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US foreign policy doctrines and national security institutions",
+   "scope": "Named presidential doctrines, containment-era strategy documents, and the laws and institutions that shape US foreign policy (National Security Act, NSC, War Powers Resolution).",
+   "queries": [
+    "Truman Doctrine Eisenhower Doctrine Carter Doctrine",
+    "NSC-68 containment Kennan Long Telegram X article",
+    "National Security Act 1947 National Security Council",
+    "War Powers Resolution 1973 Congress foreign policy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "ASEAN and Asian regional institutions",
+   "scope": "Asian regional and subregional organizations (ASEAN and its dialogue forums, APEC, East Asia Summit, SAARC, SCO, BIMSTEC), with their founding documents, membership and summits.",
+   "queries": [
+    "ASEAN Bangkok Declaration 1967 founding members",
+    "Treaty of Amity and Cooperation ASEAN Regional Forum",
+    "APEC Leaders Meeting Bogor Goals member economies",
+    "SAARC summit Shanghai Cooperation Organisation members"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Asia-Pacific alliances and minilateral security arrangements",
+   "scope": "US hub-and-spoke alliance treaties and other Asia-Pacific security pacts and groupings (ANZUS, SEATO, US–Japan and US–ROK treaties, Five Power Defence Arrangements, Quad, AUKUS).",
+   "queries": [
+    "ANZUS Treaty 1951 Australia New Zealand United States",
+    "SEATO Manila Pact Southeast Asia Treaty Organization dissolved",
+    "US-Japan Security Treaty 1960 Status of Forces Agreement",
+    "Quadrilateral Security Dialogue AUKUS submarine agreement"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "African Union and African regional economic communities",
+   "scope": "The OAU and African Union and subregional bodies (ECOWAS, SADC, EAC, IGAD), with their founding treaties, organs, summits and peace-and-security interventions.",
+   "queries": [
+    "Organisation of African Unity charter 1963 Addis Ababa",
+    "African Union Constitutive Act Peace and Security Council",
+    "ECOWAS ECOMOG intervention Liberia Sierra Leone",
+    "Southern African Development Community East African Community treaty"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inter-American system and Latin American integration",
+   "scope": "Hemispheric diplomacy from the Monroe Doctrine and its corollaries to the OAS and Rio Treaty, and Latin American integration blocs such as Mercosur, the Andean Community, UNASUR and CELAC.",
+   "queries": [
+    "Monroe Doctrine Roosevelt Corollary Good Neighbor policy",
+    "Organization of American States Charter Bogotá 1948",
+    "Inter-American Treaty of Reciprocal Assistance Rio Treaty",
+    "Mercosur Treaty of Asunción Andean Community UNASUR"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arab–Israeli peace diplomacy and Middle Eastern regional organizations",
+   "scope": "Agreements, UN resolutions and negotiations of the Arab–Israeli conflict (armistices, Camp David, Oslo, Abraham Accords) and Middle Eastern bodies such as the Arab League and Gulf Cooperation Council.",
+   "queries": [
+    "Camp David Accords 1978 Egypt–Israel peace treaty",
+    "Oslo Accords 1993 Declaration of Principles Oslo II",
+    "1949 Armistice Agreements Rhodes Green Line",
+    "Arab League Charter Gulf Cooperation Council founding"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Law of treaties, sources of international law and ILC codification",
+   "scope": "How treaties are formed, reserved, interpreted and terminated under the Vienna Conventions, the sources of international law, and the International Law Commission's codification projects and rapporteurs.",
+   "queries": [
+    "Vienna Convention Law of Treaties reservations article",
+    "jus cogens peremptory norm rebus sic stantibus",
+    "International Law Commission special rapporteur draft articles",
+    "Article 38 ICJ Statute sources international law customary"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diplomatic and consular law, protocol and practice",
+   "scope": "Rules and practice of diplomatic and consular relations: the 1961 and 1963 Vienna Conventions, immunities, diplomatic ranks and precedence, agrément and credentials, persona non grata, and diplomatic bags.",
+   "queries": [
+    "Vienna Convention on Diplomatic Relations 1961 immunity article",
+    "persona non grata expulsion diplomats agrément credentials",
+    "Vienna Convention on Consular Relations consular notification Avena",
+    "diplomatic ranks ambassador envoy chargé d'affaires precedence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International Court of Justice and international criminal tribunals",
+   "scope": "ICJ and PCIJ contentious cases and advisory opinions, the Permanent Court of Arbitration, and international criminal justice from Nuremberg through the ICTY, ICTR, hybrid courts and the ICC.",
+   "queries": [
+    "ICJ judgment Nicaragua v United States 1986",
+    "Rome Statute International Criminal Court jurisdiction ratification",
+    "International Criminal Tribunal former Yugoslavia indictment convicted",
+    "Special Court for Sierra Leone Extraordinary Chambers Cambodia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International humanitarian law and the law of armed conflict",
+   "scope": "The Geneva and Hague Conventions and Additional Protocols, the ICRC and protective emblems, combatant and POW status, and rules on the means and methods of warfare.",
+   "queries": [
+    "Geneva Conventions 1949 Additional Protocols common article 3",
+    "Hague Conventions 1899 1907 laws customs war land",
+    "International Committee Red Cross emblem red crystal",
+    "prisoners of war Third Geneva Convention combatant status"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Law of the sea and maritime boundary disputes",
+   "scope": "UNCLOS maritime zones and institutions, continental shelf submissions, and ITLOS, ICJ and arbitral rulings on maritime delimitation and maritime rights disputes.",
+   "queries": [
+    "UNCLOS exclusive economic zone territorial sea nautical miles",
+    "South China Sea arbitration Philippines v China 2016",
+    "Commission Limits Continental Shelf extended submission",
+    "ITLOS maritime delimitation judgment Bay of Bengal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International human rights and refugee protection regimes",
+   "scope": "The UDHR and UN core human rights treaties and their treaty bodies, the Human Rights Council and special procedures, regional human rights courts, and the refugee regime built on the 1951 Convention and UNHCR.",
+   "queries": [
+    "Universal Declaration of Human Rights drafting committee 1948",
+    "ICCPR Human Rights Committee optional protocol communications",
+    "European Court of Human Rights Inter-American Court judgment",
+    "1951 Refugee Convention 1967 Protocol UNHCR High Commissioner"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "GATT and WTO multilateral trade regime",
+   "scope": "GATT negotiating rounds, WTO agreements, ministerial conferences, accessions and dispute settlement cases, plus major regional trade agreements and how they relate to the WTO.",
+   "queries": [
+    "GATT Uruguay Round Tokyo Round Kennedy Round negotiations",
+    "WTO dispute settlement Appellate Body panel report",
+    "WTO ministerial conference Doha Development Agenda",
+    "WTO accession working party China Russia member"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bretton Woods institutions and global economic governance",
+   "scope": "IMF and World Bank history, quotas, voting and leadership, international monetary arrangements, development finance and aid targets, and summit groupings such as the G7, G20 and BRICS.",
+   "queries": [
+    "Bretton Woods system Smithsonian Agreement Nixon shock",
+    "IMF quota voting share Special Drawing Rights",
+    "G7 G8 G20 summit leaders host country",
+    "BRICS New Development Bank Contingent Reserve Arrangement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Economic sanctions, embargoes and energy statecraft",
+   "scope": "UN, US and EU sanctions regimes and embargoes, their legal bases, designation lists and enforcement, and the use of oil and gas as political leverage (OPEC/OAPEC, the 1973 embargo, pipeline politics).",
+   "queries": [
+    "UN sanctions committee panel of experts arms embargo",
+    "OFAC Specially Designated Nationals sanctions executive order",
+    "1973 oil embargo OAPEC OPEC production cuts",
+    "EU restrictive measures Russia sanctions package SWIFT"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Climate and environmental diplomacy",
+   "scope": "Multilateral environmental negotiations and agreements, from the Stockholm and Rio conferences to the UNFCCC COPs, Kyoto Protocol, Paris Agreement, Montreal Protocol and other multilateral environmental agreements.",
+   "queries": [
+    "UNFCCC Conference of the Parties COP host city",
+    "Kyoto Protocol Annex I emission targets commitment period",
+    "Paris Agreement nationally determined contributions Article 6",
+    "Montreal Protocol Kigali Amendment ozone CFC phase-out"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Post-1945 peace settlements and conflict mediation",
+   "scope": "Negotiated settlements of interstate and civil wars since 1945, excluding the Arab–Israeli conflict (Korea, Indochina, the Balkans, Northern Ireland, Africa, Colombia), and the mediators and processes behind them.",
+   "queries": [
+    "Korean Armistice Agreement 1953 Panmunjom negotiations",
+    "Paris Peace Accords 1973 Geneva Accords Indochina",
+    "Dayton Agreement Good Friday Agreement mediators",
+    "Arusha Accords Lusaka Protocol peace agreement Africa"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Territorial disputes, secession and contested statehood",
+   "scope": "Land and island sovereignty disputes, secessionist and de facto states, and the criteria and practice of state recognition that surround them.",
+   "queries": [
+    "Kashmir Line of Control Simla Agreement dispute",
+    "Kuril Islands dispute Senkaku Diaoyu sovereignty",
+    "Falkland Islands sovereignty Western Sahara Polisario referendum",
+    "Montevideo Convention statehood criteria recognition Kosovo Somaliland"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "International terrorism and counterterrorism cooperation",
+   "scope": "International counterterrorism conventions and Security Council regimes, national and UN terrorist designation lists, FATF terrorist-financing standards, and multinational counterterrorism coalitions.",
+   "queries": [
+    "Security Council Resolution 1373 Counter-Terrorism Committee",
+    "Financial Action Task Force recommendations grey list",
+    "Foreign Terrorist Organization designation State Department list",
+    "International Convention Suppression Financing of Terrorism 1999"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intelligence, covert action and state cyber operations",
+   "scope": "Intelligence alliances and agencies, covert operations and foreign-backed coups, espionage incidents, and state cyber operations along with the norms proposed to govern them.",
+   "queries": [
+    "Five Eyes UKUSA Agreement signals intelligence",
+    "CIA covert operation coup Operation Ajax PBSuccess",
+    "Stuxnet NotPetya state-sponsored cyberattack attribution",
+    "Tallinn Manual Group of Governmental Experts cyber"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Antarctic, Arctic and outer space governance",
+   "scope": "Regimes for areas beyond or at the edge of national jurisdiction: the Antarctic Treaty System, the Arctic Council and Arctic claims, and outer space treaties, COPUOS and newer space accords.",
+   "queries": [
+    "Antarctic Treaty 1959 consultative parties Madrid Protocol",
+    "Arctic Council Ottawa Declaration permanent participants observers",
+    "Outer Space Treaty 1967 Moon Agreement Liability Convention",
+    "COPUOS Artemis Accords signatories space governance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Second World War diplomacy and Allied wartime conferences",
+   "scope": "Diplomacy among the Allied, Axis and neutral powers from 1939 to 1945, including the Atlantic Charter, Lend-Lease, the Tripartite Pact and the Cairo, Tehran, Yalta and Potsdam conferences.",
+   "queries": [
+    "Yalta Conference agreements Roosevelt Churchill Stalin February 1945",
+    "Tehran Conference 1943 Operation Overlord second front",
+    "Atlantic Charter Placentia Bay principles signatories",
+    "Potsdam Conference Cairo Declaration Japan surrender terms"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "First World War wartime diplomacy and secret treaties",
+   "scope": "Diplomacy among the belligerents and neutrals from 1914 to 1918, including the Treaty of London (1915), Sykes–Picot, the McMahon–Hussein correspondence, the Zimmermann Telegram, peace feelers and the Treaty of Brest-Litovsk.",
+   "queries": [
+    "Sykes-Picot Agreement 1916 Anglo-French partition Ottoman",
+    "Treaty of London 1915 Italy secret territorial promises",
+    "Treaty of Brest-Litovsk 1918 Soviet Russia Central Powers",
+    "Zimmermann Telegram Mexico United States entry war"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pre-modern and non-European interstate systems and the unequal treaties",
+   "scope": "International orders and diplomatic practice before or outside the Westphalian system, such as Amarna-era Near Eastern diplomacy, the Sinocentric tributary system, Kautilya's mandala theory, Ottoman capitulations and the 19th-century unequal treaties in East Asia.",
+   "queries": [
+    "Amarna letters Great Kings diplomatic correspondence brotherhood",
+    "Chinese tributary system embassies Ming Qing kowtow",
+    "Ottoman capitulations commercial privileges European merchants",
+    "unequal treaties Nanking Kanagawa extraterritoriality treaty ports"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Causes of war research, bargaining models and coercive diplomacy",
+   "scope": "Research on why wars break out and how threats work, including the rationalist bargaining model, commitment problems, audience costs, power transition and steps-to-war theories, diversionary war, and conventional coercive diplomacy and compellence.",
+   "queries": [
+    "Fearon rationalist explanations for war bargaining",
+    "audience costs crisis signaling international disputes",
+    "power transition theory Organski Kugler",
+    "coercive diplomacy Alexander George compellence cases"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Quantitative peace science and international conflict datasets",
+   "scope": "Data projects and indices used in empirical IR, such as Correlates of War, militarized interstate disputes, the CINC capability index, UCDP/PRIO armed conflict data, Polity, ATOP alliance data, SIPRI databases and the Global Peace Index.",
+   "queries": [
+    "Correlates of War project militarized interstate disputes dataset",
+    "UCDP PRIO armed conflict dataset battle deaths threshold",
+    "SIPRI military expenditure database arms transfers",
+    "Composite Index of National Capability CINC"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of the IR discipline, think tanks and professional journals",
+   "scope": "How International Relations developed as an academic and policy field, including the 1919 Woodrow Wilson Chair at Aberystwyth, the 'great debates', the founding of Chatham House, the Council on Foreign Relations and other think tanks, and the main professional associations and journals.",
+   "queries": [
+    "Woodrow Wilson Chair International Politics Aberystwyth 1919",
+    "Chatham House Royal Institute International Affairs founded",
+    "Council on Foreign Relations Foreign Affairs journal history",
+    "International Studies Association founded presidents journals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Just war theory and international ethics",
+   "scope": "Moral traditions on war and global justice, including jus ad bellum, jus in bello and jus post bellum criteria, Augustine, Aquinas, Vitoria and Grotius, Walzer's Just and Unjust Wars, and debates between cosmopolitans and Rawls's Law of Peoples.",
+   "queries": [
+    "just war theory jus ad bellum criteria",
+    "Walzer Just and Unjust Wars supreme emergency",
+    "Francisco de Vitoria Salamanca law of nations",
+    "Rawls Law of Peoples global justice cosmopolitanism"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dependency, world-systems and other IPE paradigms",
+   "scope": "Theories in international political economy, including mercantilism and economic nationalism, the Prebisch–Singer thesis and ECLA structuralism, dependency theory, Wallerstein's world-systems analysis, and the American and British schools of IPE.",
+   "queries": [
+    "dependency theory Prebisch Singer ECLA structuralism",
+    "world-systems analysis Wallerstein core periphery semi-periphery",
+    "Susan Strange structural power international political economy",
+    "economic nationalism Friedrich List infant industry"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Development cooperation, foreign aid and the MDG/SDG agenda",
+   "scope": "Official development assistance and how it is governed, including the OECD Development Assistance Committee, the 0.7% of GNI target, national aid agencies, the Paris, Accra and Busan aid-effectiveness agreements, and the Millennium and Sustainable Development Goals.",
+   "queries": [
+    "official development assistance 0.7 percent GNI target",
+    "OECD Development Assistance Committee members ODA",
+    "Paris Declaration aid effectiveness Accra Busan",
+    "Millennium Development Goals targets indicators 2015"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Preferential trade agreements, investment treaties and investor-state arbitration",
+   "scope": "Bilateral and regional trade and investment agreements outside the core WTO system, such as NAFTA/USMCA, the CPTPP, RCEP, bilateral investment treaties, the Energy Charter Treaty and ICSID investor-state arbitration.",
+   "queries": [
+    "USMCA NAFTA renegotiation chapters provisions",
+    "Comprehensive Progressive Trans-Pacific Partnership members accession",
+    "bilateral investment treaty investor-state arbitration ICSID",
+    "Regional Comprehensive Economic Partnership signatories 2020"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Global health diplomacy and pandemic governance",
+   "scope": "International cooperation on health threats, including the International Health Regulations and declarations of public health emergencies of international concern (PHEIC), the WHO Framework Convention on Tobacco Control, the Global Fund, Gavi, UNAIDS and the WHO Pandemic Agreement.",
+   "queries": [
+    "International Health Regulations public health emergency international concern",
+    "WHO Framework Convention Tobacco Control ratification",
+    "Global Fund Gavi vaccine alliance founded",
+    "WHO Pandemic Agreement World Health Assembly adopted"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International migration governance and labour mobility regimes",
+   "scope": "Multilateral and bilateral arrangements for migration other than refugee flows, including the IOM, the 1990 Migrant Workers Convention, ILO migration conventions, the Global Compact for Safe, Orderly and Regular Migration, guest-worker schemes and remittance policy.",
+   "queries": [
+    "International Organization for Migration history member states",
+    "Global Compact Safe Orderly Regular Migration Marrakech",
+    "Convention Protection Rights All Migrant Workers 1990",
+    "bilateral labour migration agreements guest worker programme"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International drug control, organized crime and anti-corruption conventions",
+   "scope": "Treaties and bodies against transnational crime, including the 1961, 1971 and 1988 UN drug conventions, the Commission on Narcotic Drugs and the INCB, the Palermo Convention and its protocols, Interpol, FATF, UNCAC and the OECD Anti-Bribery Convention.",
+   "queries": [
+    "Single Convention on Narcotic Drugs 1961 schedules",
+    "International Narcotics Control Board Commission Narcotic Drugs",
+    "Convention against Transnational Organized Crime Palermo protocols",
+    "OECD Anti-Bribery Convention UNCAC corruption"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Transboundary water treaties and river basin organizations",
+   "scope": "Treaties, commissions and disputes over shared rivers, lakes and aquifers, such as the Indus Waters Treaty, the Nile agreements and the Grand Ethiopian Renaissance Dam dispute, the Mekong River Commission, the Helsinki Rules and the 1997 UN Watercourses Convention.",
+   "queries": [
+    "Indus Waters Treaty 1960 World Bank eastern rivers",
+    "Nile Waters Agreement 1959 Grand Ethiopian Renaissance Dam",
+    "Mekong River Commission member countries 1995 agreement",
+    "UN Watercourses Convention 1997 entry into force"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public diplomacy, soft power and international broadcasting",
+   "scope": "State efforts to influence foreign publics, including Nye's concept of soft power, cultural institutes such as the British Council, Goethe-Institut and Confucius Institutes, international broadcasters, exchange programmes such as Fulbright, and nation-branding indices.",
+   "queries": [
+    "soft power Joseph Nye concept rankings",
+    "Voice of America BBC World Service broadcasting history",
+    "Confucius Institute Goethe-Institut British Council cultural diplomacy",
+    "Fulbright Program exchange established 1946"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Commonwealth, Francophonie and post-imperial associations",
+   "scope": "Organizations and networks linking former colonial powers and their former colonies, including the Commonwealth of Nations (the 1926 Balfour Declaration, the Statute of Westminster, the London Declaration, CHOGM and suspensions), the Organisation internationale de la Francophonie, the CPLP, and Françafrique and the CFA franc.",
+   "queries": [
+    "Commonwealth Heads of Government Meeting suspended members",
+    "London Declaration 1949 Commonwealth republics membership",
+    "Organisation internationale de la Francophonie member states summit",
+    "Françafrique CFA franc zone monetary cooperation"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Indian foreign policy and South Asian regional relations",
+   "scope": "India's external relations and South Asian interstate politics, including Panchsheel, the Tashkent, Simla and Lahore agreements with Pakistan, SAARC and BIMSTEC, and doctrines such as the Gujral Doctrine and the Look East and Act East policies.",
+   "queries": [
+    "Simla Agreement 1972 Tashkent Declaration India Pakistan",
+    "SAARC summit charter member states",
+    "Panchsheel five principles India China 1954",
+    "Gujral Doctrine Look East Act East policy"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inter-Korean relations and Korean peninsula diplomacy",
+   "scope": "Diplomacy between the two Koreas and with their neighbours, including the 1972 Joint Communiqué, the 1991 Basic Agreement, the Sunshine Policy and inter-Korean summits, the Kaesong Industrial Complex, the Panmunjom and Pyongyang declarations, and the 1965 Japan–ROK Treaty on Basic Relations.",
+   "queries": [
+    "inter-Korean summit Panmunjom Declaration 2018",
+    "Sunshine Policy Kim Dae-jung 2000 summit",
+    "Inter-Korean Basic Agreement 1991 denuclearization joint declaration",
+    "Treaty on Basic Relations Japan Korea 1965"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Iranian foreign policy and Persian Gulf security",
+   "scope": "Iran's external relations and Gulf security politics, including the 1975 Algiers Agreement, the hostage crisis and the 1981 Algiers Accords, the Iran–Iraq War and UNSC Resolution 598, the Tanker War, the Twin Pillars policy and the 2023 Saudi–Iranian rapprochement.",
+   "queries": [
+    "Algiers Agreement 1975 Shatt al-Arab Iran Iraq",
+    "Iran hostage crisis Algiers Accords 1981",
+    "Iran-Iraq War Resolution 598 ceasefire Tanker War",
+    "Saudi Arabia Iran rapprochement 2023 Beijing"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pacific Islands regionalism and small-island-state diplomacy",
+   "scope": "Regional cooperation and diplomacy among Pacific Island states, including the Pacific Islands Forum, the Pacific Community, the Melanesian Spearhead Group, the Compacts of Free Association, the Biketawa Declaration and RAMSI, and rivalry for diplomatic recognition in the Pacific.",
+   "queries": [
+    "Pacific Islands Forum member states secretariat",
+    "Compact of Free Association Micronesia Marshall Islands Palau",
+    "Melanesian Spearhead Group founded members",
+    "Regional Assistance Mission Solomon Islands Biketawa Declaration"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nobel Peace Prize, international NGOs and transnational advocacy networks",
+   "scope": "Non-state actors in world politics, including major international NGOs such as Amnesty International, Human Rights Watch and Médecins Sans Frontières, advocacy campaigns such as the ICBL and ICAN, NGO consultative status at ECOSOC, and Nobel Peace Prize laureates and their citations.",
+   "queries": [
+    "Nobel Peace Prize laureate organizations awarded citation",
+    "International Campaign to Ban Landmines Ottawa Treaty Nobel",
+    "ECOSOC consultative status non-governmental organizations",
+    "Amnesty International founded Peter Benenson 1961"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

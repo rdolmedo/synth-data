@@ -1,0 +1,134 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Biotechnology",
+ "target_leaves": 8,
+ "expected_problems": 36,
+ "leaves": [
+  {
+   "leaf": "Enzyme immobilization carrier chemistries",
+   "scope": "Documented coupling chemistries (epoxy, glutaraldehyde, glyoxyl, ionic adsorption), carrier identities and loadings, retained specific activity, and operational half-lives or reuse-cycle retention for specific immobilized biocatalysts. A question can require comparing two carrier/chemistry pairs reported for the same enzyme and inferring which retains more activity per gram of support, or converting reported loading plus retention into effective activity.",
+   "queries": [
+    "immobilized enzyme carrier",
+    "glyoxyl agarose activation",
+    "Eupergit epoxy support",
+    "operational half-life biocatalyst",
+    "lipase adsorption hydrophobic support"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Plant tissue culture medium formulations",
+   "scope": "Salt and vitamin compositions of named basal media (Murashige\u2013Skoog, Gamborg B5, Nitsch, White), plus species-specific growth-regulator ratios reported for shoot multiplication, callus induction, rooting and somatic embryogenesis. Reasoning can involve identifying which component distinguishes two basal media, or deducing the auxin:cytokinin regime from a described morphogenic outcome.",
+   "queries": [
+    "Murashige Skoog medium composition",
+    "Gamborg B5 salts",
+    "somatic embryogenesis 2,4-D induction",
+    "micropropagation shoot multiplication rate",
+    "thidiazuron callus proliferation"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Pre-1929 industrial fermentation process records",
+   "scope": "Early twentieth-century accounts of commercial fermentations \u2014 acetone-butanol from maize, citric acid by surface culture of Aspergillus, lactic and butyric acid plants, compressed-yeast works \u2014 including substrates, vessel sizes, mash concentrations and stated yields per bushel or per ton. A question can ask the solver to reconcile two historical yield statements or infer the substrate from a reported by-product ratio.",
+   "queries": [
+    "acetone butanol fermentation maize",
+    "citric acid Aspergillus surface culture",
+    "industrial alcohol mash yield",
+    "compressed yeast manufacture",
+    "lactic acid fermentation plant"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Biological material deposits in patent practice",
+   "scope": "Obscure doctrine and facts around depositing living materials for patent enablement: depositary authority designations, timing and accessibility requirements, and judicial treatment of strain deposits, cell lines and hybridomas as substitutes for written description. Reasoning can require comparing the holdings of two decisions on whether a deposit cured an enablement or written-description defect.",
+   "queries": [
+    "biological deposit enablement",
+    "patent microorganism deposit requirement",
+    "hybridoma claim written description",
+    "international depositary authority",
+    "cell line patent accession"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Oxygen transfer limits in bioreactor scale-up",
+   "scope": "Published kLa correlations, superficial gas velocity and power-per-volume exponents, impeller and sparger geometries, and oxygen-uptake-rate ceilings reported for specific aerobic fermentations, together with scale-down criteria used to mimic large-vessel gradients. A question can require combining a stated correlation with given operating conditions to decide whether a culture becomes oxygen limited, or ranking two configurations.",
+   "queries": [
+    "volumetric mass transfer coefficient correlation",
+    "power per unit volume fermenter",
+    "oxygen uptake rate limitation",
+    "scale-down dissolved oxygen gradient",
+    "sparger impeller gassed power"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Capture chromatography for recombinant proteins",
+   "scope": "Resin-specific facts in downstream processing: dynamic binding capacities at stated residence times, ligand chemistries (protein A variants, mixed-mode, hydroxyapatite, expanded-bed matrices), elution conditions, and per-step yields and purities in published purification trains. Reasoning can involve multiplying reported step yields, or inferring which unit operation caused a stated purity jump.",
+   "queries": [
+    "expanded bed adsorption recombinant",
+    "dynamic binding capacity residence time",
+    "mixed-mode chromatography ligand",
+    "purification table step yield",
+    "hydroxyapatite aggregate clearance"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Polyhydroxyalkanoate composition and feedstock",
+   "scope": "Strain- and feedstock-dependent monomer composition of microbial polyesters (hydroxyvalerate or hydroxyhexanoate fractions from specific co-substrates), intracellular accumulation as percent cell dry weight, and the resulting melting, glass-transition and crystallinity values. A question can ask which co-substrate produced a stated copolymer fraction, or infer a thermal property shift from composition.",
+   "queries": [
+    "polyhydroxyalkanoate accumulation cell dry weight",
+    "hydroxyvalerate copolymer propionate",
+    "Cupriavidus necator PHB fermentation",
+    "medium chain length PHA monomer",
+    "PHBV melting temperature crystallinity"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Cell line provenance and misidentification markers",
+   "scope": "Documented evidence used to establish or refute the identity of continuous cell lines: isoenzyme and HLA typing results, marker chromosomes and karyotype signatures, short tandem repeat allele profiles, species-of-origin findings, and the record of specific lines shown to be cross-contaminated or redundant. Reasoning can require deciding, from two reported profiles, whether lines are independent or synonymous.",
+   "queries": [
+    "cell line cross contamination",
+    "STR profiling authentication",
+    "marker chromosomes continuous line",
+    "isoenzyme typing cultured cells",
+    "misidentified cell line list"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Cultural Studies",
+ "target_leaves": 9,
+ "expected_problems": 109,
+ "leaves": [
+  {
+   "leaf": "British regional calendar customs and folk festivals",
+   "scope": "Documented local variants of seasonal customs, such as Plough Monday, souling, wassailing, rushbearing, well-dressing, hobby-horse and mumming plays: which parish or county held them, their dates, the songs or rhymes recorded, and the antiquarian who first described them. A question could have the writer work out a movable-feast date relative to Easter, or compare how two counties practised the same custom.",
+   "queries": [
+    "Plough Monday custom",
+    "souling cakes Cheshire",
+    "rushbearing Westmorland",
+    "well-dressing Tissington",
+    "mummers play Saint George",
+    "Chambers Book of Days"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Ethnological villages at international expositions",
+   "scope": "Official-report details of the 'living exhibits' at fairs such as Chicago 1893, Paris 1889, Omaha 1898 and St. Louis 1904: which peoples were shown, where on the Midway or reservation they were placed, how many participants there were, which concessionaires ran them, and what the anthropology departments said they were doing. A question could compare displays across fairs or link one exhibit to the anthropologist who organised it.",
+   "queries": [
+    "Midway Plaisance villages",
+    "Philippine Reservation 1904",
+    "Louisiana Purchase Exposition anthropology",
+    "Igorot village exposition",
+    "Trans-Mississippi Indian Congress",
+    "exposition official report ethnology"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Dime novel and story-paper publishing history",
+   "scope": "Facts about publishers such as Beadle & Adams, Street & Smith and Frank Tousey: series titles and numbering, house pseudonyms and the authors behind them, recurring heroes such as Deadwood Dick or Nick Carter, and publication dates. A question could have the writer identify the real author behind a pseudonym across several series, or date a title from its series number.",
+   "queries": [
+    "Beadle dime novels",
+    "Street Smith Nick Carter",
+    "Deadwood Dick Wheeler",
+    "Frank Tousey library",
+    "story paper serial",
+    "half-dime library"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "library_of_congress",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Circuit Chautauqua and lyceum bureau performers",
+   "scope": "Details from brochures, talent catalogues and programmes of tent Chautauqua and lyceum circuits (Redpath, Swarthmore, Vawter): lecturers' set topics, touring ensembles, how a programme was arranged across the days of a week, and fees. A question could have the writer work out a performer's place in a programme or compare the repertoires of different circuits.",
+   "queries": [
+    "Redpath Chautauqua brochure",
+    "lyceum bureau lecturer",
+    "tent Chautauqua circuit",
+    "Acres of Diamonds lecture",
+    "Swarthmore Chautauqua program",
+    "lyceum magazine talent"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Birmingham CCCS subculture ethnographies",
+   "scope": "Specific claims, field sites and concepts in Birmingham Centre for Contemporary Cultural Studies work and its critics: homology, bricolage, moral panic, the 'lads' of Hammertown, girls' bedroom culture. Each concept can be tied to its author, publication and empirical case. A question could ask which ethnography's finding a later post-subcultural study set out to refute, or how two analyses of one style differ.",
+   "queries": [
+    "homology subculture bricolage",
+    "Learning to Labour lads",
+    "moral panic mods rockers",
+    "post-subcultural theory",
+    "bedroom culture girls",
+    "Resistance through Rituals"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Fanfiction archives and fandom tagging practices",
+   "scope": "Empirical findings on fan archives such as AO3, FanFiction.net and LiveJournal communities: how tags are wrangled, how ratings and warnings are distributed, how ship naming conventions work, and what quantitative studies found about the size and growth of fandoms. A question could combine findings from two corpus studies, or apply a documented tagging rule to a hypothetical work.",
+   "queries": [
+    "Archive of Our Own tags",
+    "fanfiction corpus analysis",
+    "tag wrangling folksonomy",
+    "slash fiction fandom",
+    "fan works gift economy",
+    "FanFiction.net reviews"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Motion-picture censorship boards and First Amendment cases",
+   "scope": "The holdings, specific films and procedural requirements in cases on state and municipal film censorship boards, such as Mutual Film, Burstyn's 'The Miracle', Times Film and Freedman v. Maryland, plus the cuts that boards in New York, Ohio, Maryland or Chicago required. A question could have the writer trace how a doctrine changed across these cases, or apply Freedman's procedural safeguards to a set of facts.",
+   "queries": [
+    "Mutual Film Industrial Commission",
+    "Burstyn Wilson Miracle",
+    "Freedman v Maryland censorship",
+    "board of censors motion picture",
+    "Times Film Chicago",
+    "obscene film license denied"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Trinidad Carnival, calypso and masquerade traditions",
+   "scope": "Documented facts about Canboulay, the 1881 riots, traditional mas characters (Midnight Robber, Pierrot Grenade, Dame Lorraine), calypsonians' sobriquets, Road March winners, and colonial ordinances restricting drumming and masking. A question could match a character's speech style to its origin, or work out the order of events from the ordinances and the dates of particular calypsos.",
+   "queries": [
+    "Canboulay riots 1881",
+    "Midnight Robber mas",
+    "calypso tent kaiso",
+    "Pierrot Grenade carnival",
+    "Trinidad carnival ordinance",
+    "steelband tamboo bamboo"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Native American cultural property and mascot litigation",
+   "scope": "Facts from cases under NAGPRA, the Indian Arts and Crafts Act and Lanham Act disparagement law, including Harjo, Blackhorse, Kennewick Man (Bonnichsen) and disputes over repatriated objects: the parties, the objects or marks at issue, the standards applied and the outcomes. A question could ask how a later ruling such as Matal v. Tam affected an earlier trademark holding, or apply the NAGPRA cultural-affiliation test to described facts.",
+   "queries": [
+    "Pro-Football Harjo disparaging",
+    "Bonnichsen Kennewick Man",
+    "NAGPRA cultural affiliation",
+    "Indian Arts Crafts Act",
+    "Blackhorse trademark cancellation",
+    "repatriation sacred objects"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Modern world literature",
+ "weight": 0.0062505,
+ "leaves": [
+  {
+   "leaf": "Shakespeare and English Renaissance drama",
+   "scope": "The plays of Shakespeare and his contemporaries (Kyd, Marlowe, Jonson, Dekker, Middleton, Webster, Beaumont and Fletcher, Ford), with their quarto and First Folio texts, sources, dating, playing companies, playhouses such as the Globe, Rose and Blackfriars, and the Stuart court masque.",
+   "queries": [
+    "Shakespeare play first quarto First Folio 1623",
+    "Lord Chamberlain's Men Globe Theatre playing company",
+    "Marlowe Doctor Faustus Tamburlaine Kyd Spanish Tragedy",
+    "Jacobean revenge tragedy Webster Middleton Duchess of Malfi"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "English poetry and prose from Spenser to Johnson",
+   "scope": "English literature c.1580-1790 outside the Shakespearean stage, from Spenser's Faerie Queene, Sidney and the Metaphysical and Cavalier poets through Milton, Bunyan, Dryden, Restoration comedy, Pope and Swift to the rise of the novel (Defoe, Richardson, Fielding, Smollett, Sterne) and Samuel Johnson's circle.",
+   "queries": [
+    "Spenser Faerie Queene Sidney Astrophil and Stella",
+    "Donne Herbert Marvell metaphysical poets Milton Paradise Lost",
+    "Pope Dunciad Swift Gulliver's Travels Augustan satire",
+    "Defoe Richardson Fielding Sterne eighteenth-century novel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "British Romantic-era literature",
+   "scope": "British writing c.1785-1832, including Blake, Burns, Wordsworth and Coleridge's Lyrical Ballads, Byron, Shelley and Keats, the Gothic novel from Walpole and Radcliffe to Mary Shelley's Frankenstein, and the novels of Jane Austen, Maria Edgeworth and Walter Scott.",
+   "queries": [
+    "Lyrical Ballads 1798 Wordsworth Coleridge preface",
+    "Keats odes 1819 Shelley Byron Don Juan",
+    "Jane Austen novels publication Thomas Egerton",
+    "Gothic novel Radcliffe Lewis Monk Frankenstein 1818"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Victorian literature",
+   "scope": "British literature 1837-1901, including the serialized novels of Dickens, Thackeray, the Brontës, Gaskell, Trollope, George Eliot and Hardy, sensation fiction (Collins, Braddon), the poetry of Tennyson, the Brownings, Arnold, Hopkins and the Pre-Raphaelites, and the aestheticism of Pater and Wilde.",
+   "queries": [
+    "Dickens novel monthly serial parts illustrator Phiz",
+    "Brontë sisters Currer Ellis Acton Bell",
+    "Tennyson In Memoriam Idylls of the King",
+    "George Eliot Middlemarch Thomas Hardy Wessex novels"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century American literature",
+   "scope": "American literature from Irving and Cooper through the American Renaissance (Emerson, Thoreau, Hawthorne, Melville, Poe, Whitman, Dickinson) and Stowe to the realism and naturalism of Twain, Howells, Henry James, Crane, Chopin and Norris.",
+   "queries": [
+    "Transcendentalism Emerson Thoreau Walden Brook Farm",
+    "Melville Moby-Dick 1851 Hawthorne Scarlet Letter",
+    "Whitman Leaves of Grass editions Dickinson fascicles",
+    "Mark Twain Huckleberry Finn Howells American realism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anglophone modernism",
+   "scope": "Modernist writing in English c.1900-1945, including Conrad, Joyce, Woolf, Lawrence, Forster and the Bloomsbury Group, Pound, Eliot, H.D., Imagism and Vorticism, Yeats and the Irish Literary Revival, Stein and the Lost Generation, Faulkner, Stevens and William Carlos Williams.",
+   "queries": [
+    "Joyce Ulysses 1922 episodes Sylvia Beach",
+    "Imagism Pound Eliot Waste Land Vorticism Blast",
+    "Virginia Woolf Bloomsbury Group Hogarth Press",
+    "Lost Generation Hemingway Fitzgerald Faulkner Yoknapatawpha"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Postwar and contemporary Anglophone literature",
+   "scope": "Fiction, poetry and drama in English since 1945 from the US, Britain, Ireland, Canada, Australia and New Zealand (outside the African American, Caribbean, African and South Asian traditions), including the Beats, confessional and New York School poets, the Movement, Heaney, postwar American novelists and dramatists, and Booker, Pulitzer and National Book Award winners.",
+   "queries": [
+    "Beat Generation Ginsberg Howl Kerouac On the Road",
+    "confessional poetry Lowell Plath Sexton Life Studies",
+    "Booker Prize winners shortlist novel judges",
+    "Canadian Australian fiction Atwood Munro Patrick White"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "African American literature",
+   "scope": "Black American writing from Phillis Wheatley and the slave narratives of Douglass and Jacobs through the Harlem Renaissance (Hughes, Hurston, McKay, Cullen, Toomer), Wright, Ellison and Baldwin and the Black Arts Movement to Morrison, Walker, August Wilson and contemporary writers.",
+   "queries": [
+    "slave narrative Frederick Douglass Harriet Jacobs",
+    "Harlem Renaissance Langston Hughes Zora Neale Hurston",
+    "Black Arts Movement Amiri Baraka Gwendolyn Brooks",
+    "Toni Morrison Beloved Ralph Ellison Invisible Man"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spanish Golden Age literature",
+   "scope": "Spanish literature c.1500-1680 and its colonial extension, including Garcilaso, the picaresque novel (Lazarillo, Guzmán de Alfarache, El Buscón), Cervantes' Don Quixote and Novelas ejemplares, the mystics Teresa of Ávila and John of the Cross, Góngora and Quevedo, the comedia of Lope de Vega, Tirso and Calderón, and Inca Garcilaso and Sor Juana Inés de la Cruz.",
+   "queries": [
+    "Don Quixote 1605 1615 Cervantes Avellaneda",
+    "Lope de Vega Calderón comedia corral theatre",
+    "picaresque novel Lazarillo de Tormes Guzmán de Alfarache",
+    "Góngora culteranismo Quevedo conceptismo Soledades"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "French literature from Rabelais to the Revolution",
+   "scope": "French literature c.1530-1789, including Rabelais, Marguerite de Navarre, the Pléiade and Montaigne, the classical theatre of Corneille, Racine and Molière, La Fontaine, La Rochefoucauld, Madame de La Fayette and the Académie française, and the Enlightenment writing of Montesquieu, Voltaire, Diderot's Encyclopédie, Rousseau, Laclos and Beaumarchais.",
+   "queries": [
+    "Rabelais Gargantua Pantagruel Montaigne Essais editions",
+    "Molière comedy premiere Palais-Royal troupe",
+    "Racine Phèdre Corneille Le Cid quarrel",
+    "Voltaire Candide Diderot Encyclopédie Rousseau"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century French literature",
+   "scope": "French literature 1800-1900, from Chateaubriand and the Romantics (Hugo, Lamartine, Vigny, Musset, Dumas, Sand) through the realist and naturalist novel (Stendhal, Balzac's Comédie humaine, Flaubert, the Goncourts, Zola's Rougon-Macquart, Maupassant) and Verne to poetry from Baudelaire and the Parnassians to Verlaine, Rimbaud, Mallarmé and Symbolism.",
+   "queries": [
+    "Balzac Comédie humaine novels Rastignac Vautrin",
+    "Zola Rougon-Macquart cycle naturalism novels",
+    "Baudelaire Fleurs du mal 1857 trial",
+    "Rimbaud Verlaine Mallarmé Symbolist poets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "German-language literature from Lessing to Fontane",
+   "scope": "German, Austrian and Swiss literature c.1750-1900, including Lessing, Sturm und Drang, Weimar Classicism (Goethe, Schiller), Hölderlin and Kleist, Jena and Heidelberg Romanticism (Novalis, Tieck, Hoffmann, the Brothers Grimm), Heine, Büchner and Young Germany, and Biedermeier and Poetic Realism (Grillparzer, Stifter, Keller, Storm, Fontane) up to Hauptmann's naturalism.",
+   "queries": [
+    "Goethe Faust Part One Part Two",
+    "Schiller Sturm und Drang Die Räuber",
+    "German Romanticism Novalis Hoffmann Brothers Grimm",
+    "Poetic Realism Fontane Effi Briest Storm novella"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Italian literature from Ariosto to D'Annunzio",
+   "scope": "Italian literature c.1500-1915, including Ariosto's Orlando Furioso, Tasso, Machiavelli, Castiglione, Bembo and Petrarchism, Marino and the Baroque, Goldoni, Gozzi and Alfieri, Parini and Foscolo, Leopardi, Manzoni's I promessi sposi, Carducci, Collodi, Verga and verismo, Pascoli and D'Annunzio.",
+   "queries": [
+    "Ariosto Orlando Furioso Tasso Gerusalemme liberata",
+    "Goldoni commedia dell'arte reform Venetian comedies",
+    "Manzoni I promessi sposi Leopardi Canti",
+    "Verga verismo I Malavoglia D'Annunzio"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century Russian literature",
+   "scope": "Russian literature from Karamzin and Pushkin to Chekhov, including Lermontov, Gogol, Turgenev, Goncharov, Dostoevsky, Tolstoy, Leskov, Saltykov-Shchedrin and Ostrovsky, their serial publication in journals such as Sovremennik and The Russian Messenger, and the Moscow Art Theatre premieres of Chekhov's plays.",
+   "queries": [
+    "Pushkin Eugene Onegin stanza Lermontov",
+    "Gogol Dead Souls Turgenev Fathers and Sons",
+    "Dostoevsky Tolstoy Russian Messenger serialization",
+    "Chekhov Seagull Moscow Art Theatre premiere"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Russian Silver Age, Soviet and émigré literature",
+   "scope": "Russian literature c.1890-1991, including Symbolism, Acmeism and Futurism (Blok, Bely, Akhmatova, Mandelstam, Tsvetaeva, Mayakovsky), early Soviet prose (Babel, Zamyatin, Platonov, Bulgakov), socialist realism and the Writers' Union, émigré writers (Bunin, Nabokov), and the Thaw, samizdat and dissidents (Pasternak, Grossman, Solzhenitsyn, Brodsky).",
+   "queries": [
+    "Acmeism Akhmatova Mandelstam Gumilev Guild of Poets",
+    "Bulgakov Master and Margarita Moskva publication",
+    "socialist realism Union of Soviet Writers 1934",
+    "Solzhenitsyn Gulag Archipelago samizdat Pasternak Zhivago"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Central and Eastern European literature",
+   "scope": "Modern literature in Polish, Czech, Slovak, Hungarian, Romanian, Bulgarian, Serbo-Croatian, Slovene, Ukrainian and the Baltic languages, from national Romantics (Mickiewicz, Petőfi, Mácha, Shevchenko, Eminescu) to Hašek, Čapek, Schulz, Gombrowicz, Andrić, Kiš, Miłosz, Szymborska, Kundera, Hrabal, Kertész, Krasznahorkai and Tokarczuk.",
+   "queries": [
+    "Mickiewicz Pan Tadeusz Polish Romanticism Dziady",
+    "Hašek Švejk Čapek R.U.R. Czech literature",
+    "Hungarian literature Petőfi Nyugat Kertész",
+    "Ivo Andrić Bridge on the Drina Yugoslav"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nordic literature",
+   "scope": "Modern Danish, Norwegian, Swedish, Icelandic, Finnish and Faroese literature, including Holberg, Andersen, the Kalevala and Kivi, Ibsen, Bjørnson, Strindberg, Hamsun, Lagerlöf, Undset, Södergran, Laxness, Tove Jansson, Lindgren, Nordic noir and Fosse, and the Nordic Council Literature Prize.",
+   "queries": [
+    "Ibsen A Doll's House Hedda Gabler premiere",
+    "Strindberg Miss Julie Hamsun Hunger Scandinavian",
+    "Hans Christian Andersen fairy tales 1835 collection",
+    "Kalevala Lönnrot Aleksis Kivi Finnish literature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "European modernism and the avant-garde",
+   "scope": "Continental European literature c.1900-1945, including Proust, Gide, Apollinaire and Valéry, Kafka, Thomas Mann, Musil, Rilke, Hesse and Döblin, Svevo and Pirandello, Lorca and the Generation of '27, Expressionism, Futurism, Dada and Surrealism, and Brecht's epic theatre and German exile literature.",
+   "queries": [
+    "Proust In Search of Lost Time volumes",
+    "Kafka Max Brod posthumous Trial Castle",
+    "Surrealist manifesto Breton Dada Tzara Futurism",
+    "Generation of '27 Lorca Romancero gitano"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Postwar continental European literature",
+   "scope": "Continental European literature since 1945 outside the Russian and Central-Eastern European leaves, including existentialism (Sartre, Camus, Beauvoir), the Theatre of the Absurd (Beckett, Ionesco, Genet), the nouveau roman and Oulipo, Gruppe 47 and German-language writers (Böll, Grass, Celan, Bachmann, Bernhard, Handke, Jelinek, Sebald), Italian writers (Calvino, Levi, Eco, Ferrante), Spanish postwar fiction and Goncourt winners such as Duras, Modiano and Ernaux.",
+   "queries": [
+    "Camus Stranger Sartre existentialism Temps modernes",
+    "Theatre of the Absurd Beckett Godot Ionesco",
+    "Gruppe 47 Günter Grass Tin Drum Böll",
+    "Oulipo Perec Calvino nouveau roman Robbe-Grillet"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin American literature",
+   "scope": "Spanish American literature from independence to the present, including modernismo (Darío, Martí), the vanguards (Huidobro, Vallejo), Mistral, Neruda and Paz, Borges, Rulfo, Asturias and Carpentier's lo real maravilloso, the Boom (García Márquez, Cortázar, Vargas Llosa, Fuentes, Donoso), the post-Boom and Bolaño, and the Rómulo Gallegos and Cervantes prizes.",
+   "queries": [
+    "Latin American Boom García Márquez Cortázar Vargas Llosa",
+    "Borges Ficciones Aleph short stories",
+    "modernismo Rubén Darío Azul José Martí",
+    "Neruda Canto General Vallejo Trilce Mistral"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Portuguese, Brazilian and Lusophone African literature",
+   "scope": "Literature in Portuguese from Camões' Os Lusíadas through Garrett, Camilo Castelo Branco and Eça de Queirós, Pessoa and his heteronyms, Saramago and Lobo Antunes, Brazilian writers (Machado de Assis, Euclides da Cunha, the 1922 Modernists, Drummond, Guimarães Rosa, Clarice Lispector, Jorge Amado), Lusophone African writers (Pepetela, Luandino Vieira, Mia Couto) and the Camões Prize.",
+   "queries": [
+    "Camões Os Lusíadas cantos epic 1572",
+    "Pessoa heteronyms Caeiro Reis Álvaro de Campos",
+    "Machado de Assis Brás Cubas Dom Casmurro",
+    "Semana de Arte Moderna 1922 Brazilian modernism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese literature from the Qing to the present",
+   "scope": "Qing fiction and drama (Dream of the Red Chamber, The Scholars, Liaozhai zhiyi, The Peach Blossom Fan), late Qing fiction, the May Fourth New Culture movement (Lu Xun, Hu Shi, Ba Jin, Mao Dun, Lao She, Shen Congwen, Eileen Chang), Yan'an and socialist literature, Misty Poetry, root-seeking and avant-garde fiction (Mo Yan, Yu Hua, Gao Xingjian), Taiwan and Hong Kong writing and the Mao Dun Prize.",
+   "queries": [
+    "Dream of the Red Chamber Cao Xueqin manuscripts",
+    "Lu Xun Diary of a Madman New Youth",
+    "May Fourth Ba Jin Mao Dun Lao She",
+    "Misty Poets Bei Dao root-seeking literature Mo Yan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese literature from Edo to the present",
+   "scope": "Edo-period haikai (Bashō, Buson, Issa), ukiyo-zōshi (Saikaku), jōruri and kabuki (Chikamatsu), yomihon and gesaku (Ueda Akinari, Bakin, Ikku), and modern Japanese literature from Meiji (Futabatei, Ōgai, Sōseki, Higuchi Ichiyō, Shiki) through Akutagawa, Tanizaki, Kawabata, Dazai, Mishima, Abe, Ōe and Murakami, the I-novel and the Akutagawa and Naoki prizes.",
+   "queries": [
+    "Bashō Oku no Hosomichi haikai Buson Issa",
+    "Chikamatsu bunraku jōruri love suicides Saikaku",
+    "Natsume Sōseki Kokoro Mori Ōgai Meiji literature",
+    "Akutagawa Prize winners Kawabata Mishima Ōe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Korean literature",
+   "scope": "Korean literature since the 1890s, from enlightenment-era sinsoseol and Yi Kwang-su's Mujeong through colonial-era poets (Kim So-wol, Han Yong-un, Yi Sang, Yun Dong-ju), postwar and division literature, minjung literature and contemporary writers (Pak Kyongni, Hwang Sok-yong, Ko Un, Shin Kyung-sook, Han Kang), with prizes such as the Yi Sang Literary Award.",
+   "queries": [
+    "Yi Kwang-su Mujeong 1917 modern Korean novel",
+    "Kim So-wol Azaleas Yun Dong-ju Korean poetry",
+    "Han Kang Vegetarian Human Acts Nobel",
+    "Pak Kyongni Toji Hwang Sok-yong Korean fiction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Arabic literature",
+   "scope": "Arabic literature from the Nahda (al-Yaziji, al-Shidyaq, Ahmad Shawqi) and the Mahjar poets of the Pen League (Gibran, Naimy) through Taha Hussein, Tawfiq al-Hakim and Naguib Mahfouz, free-verse pioneers (al-Sayyab, Nazik al-Malaika), Darwish, Adonis, Qabbani, Tayeb Salih, Kanafani, Munif and the International Prize for Arabic Fiction.",
+   "queries": [
+    "Naguib Mahfouz Cairo Trilogy Palace Walk",
+    "Nahda Arabic renaissance Ahmad Shawqi Prince of Poets",
+    "Mahjar Pen League Gibran Mikhail Naimy",
+    "International Prize for Arabic Fiction winners"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Hebrew and Yiddish literature",
+   "scope": "The Haskalah and Hebrew revival (Mendele, Bialik, Tchernichovsky, Brenner, Agnon), classic and modernist Yiddish writing (Sholem Aleichem, Peretz, Sholem Asch, the Singer brothers, Sutzkever), and Israeli literature (Alterman, Amichai, Yehoshua, Oz, Appelfeld, Grossman, Keret) with prizes such as the Sapir Prize.",
+   "queries": [
+    "Sholem Aleichem Tevye Mendele Peretz Yiddish",
+    "Bialik Tchernichovsky Hebrew poetry Haskalah Odessa",
+    "S. Y. Agnon Nobel Prize Hebrew novels",
+    "Yehuda Amichai Amos Oz Israeli literature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Persian, Turkish and Central Asian literature",
+   "scope": "Persian literature from the Constitutional era (Dehkhoda, Jamalzadeh) through Nima Yushij's she'r-e no, Hedayat, Forough Farrokhzad, Shamlu, Sepehri, Daneshvar and Dowlatabadi, and Turkish and Turkic literature from the Tanzimat (Namık Kemal, Şinasi) through Halide Edib, Tanpınar, Nâzım Hikmet, Sait Faik, the Garip movement, Yaşar Kemal, Aziz Nesin and Orhan Pamuk to Chingiz Aitmatov.",
+   "queries": [
+    "Sadegh Hedayat Blind Owl Persian fiction",
+    "Nima Yushij Forough Farrokhzad Shamlu Persian poetry",
+    "Nazım Hikmet Garip movement Orhan Veli",
+    "Orhan Pamuk My Name Is Red Yaşar Kemal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern South Asian literature",
+   "scope": "Literature of the Indian subcontinent and Sri Lanka since c.1800 in Bengali, Hindi, Urdu, Tamil, Malayalam and other languages and in English, including the Bengal Renaissance (Bankim, Tagore, Sarat Chandra), Premchand and Chhayavad, Urdu poetry from Ghalib to Iqbal and Faiz, Manto and partition writing, Indian English novelists (Anand, Narayan, Raja Rao, Rushdie, Seth, Roy, Desai, Ghosh) and the Jnanpith and Sahitya Akademi awards.",
+   "queries": [
+    "Tagore Gitanjali Nobel 1913 Bengali poems",
+    "Premchand Godaan Hindi literature Chhayavad",
+    "Ghalib Iqbal Faiz Manto Urdu Progressive Writers",
+    "R. K. Narayan Malgudi Mulk Raj Anand"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sub-Saharan African literature",
+   "scope": "Modern African literature in English, French, Afrikaans and African languages, including Négritude (Senghor, Birago Diop) and Présence Africaine, the Heinemann African Writers Series, Achebe, Soyinka, Ngũgĩ, Okigbo, Head, Emecheta, Aidoo, Kourouma, Sembène, Mariama Bâ, Farah, Gurnah, South African writers (Mofolo, Paton, Gordimer, Coetzee, Fugard, Brink, Breytenbach) and the Caine Prize.",
+   "queries": [
+    "Achebe Things Fall Apart Heinemann African Writers Series",
+    "Négritude Senghor Présence Africaine Birago Diop",
+    "Soyinka plays Ngũgĩ wa Thiong'o Gĩkũyũ novel",
+    "South African literature Gordimer Coetzee Afrikaans Breytenbach"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Caribbean literature",
+   "scope": "Anglophone and Francophone Caribbean writing, including Césaire and Martinican Négritude, Antillanité and Créolité (Glissant, Chamoiseau, Confiant), Haitian literature (Roumain, Alexis, Danticat), Walcott, Naipaul, Lamming, Selvon, Wilson Harris, Brathwaite, Jean Rhys, Kincaid and Maryse Condé, the Windrush generation and the Caribbean Artists Movement.",
+   "queries": [
+    "Derek Walcott Omeros Nobel Saint Lucia",
+    "Aimé Césaire Cahier retour pays natal Martinique",
+    "Créolité Chamoiseau Confiant Glissant Antillanité",
+    "Naipaul House for Mr Biswas Trinidad"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

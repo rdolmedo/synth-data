@@ -1,0 +1,1283 @@
+{
+ "partition": "knowledge",
+ "category": "Math",
+ "subject": "Mathematics",
+ "target_leaves": 84,
+ "expected_problems": 1008,
+ "leaves": [
+  {
+   "leaf": "Maximal subgroups of sporadic simple groups",
+   "scope": "Lists of maximal subgroups of the 26 sporadic groups, with their structures, orders and conjugacy-class counts, as tabulated in papers following the ATLAS. A question could ask for a minimal permutation degree, compare indices, or count classes of a given isomorphism type.",
+   "queries": [
+    "maximal subgroups sporadic group",
+    "Monster group maximal subgroups",
+    "Baby Monster maximal subgroup",
+    "Fischer group Fi24 subgroups",
+    "ATLAS finite groups"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Invariant degrees of complex reflection groups",
+   "scope": "The Shephard\u2013Todd classification of irreducible complex reflection groups, including the exceptional groups G4\u2013G37 with their degrees, codegrees and orders. A question could find the number of reflections or the group order from the degrees, or compare the exceptional groups.",
+   "queries": [
+    "Shephard-Todd classification",
+    "unitary reflection groups degrees",
+    "complex reflection group invariants",
+    "exceptional reflection group codegrees"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "McKay\u2013Thompson series of the Monster",
+   "scope": "Coefficients of the Hauptmoduln attached to Monster conjugacy classes, replicability relations, and the genus-zero groups of Conway\u2013Norton. A question could split a coefficient into Monster irreducible dimensions or relate series through power maps.",
+   "queries": [
+    "McKay-Thompson series",
+    "monstrous moonshine Hauptmodul",
+    "replicable functions coefficients",
+    "Conway Norton moonshine",
+    "generalized moonshine"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Classical invariants and covariants of binary forms",
+   "scope": "Minimal generating systems of invariants and covariants for binary quintics, sextics, septics and octics (their degrees, orders and counts), as found by Gordan, Sylvester, von Gall and later computer checks. A question could combine generator degrees into Hilbert series data or compare the counts.",
+   "queries": [
+    "binary quintic covariants",
+    "Gordan invariant system",
+    "binary sextic invariants",
+    "transvectant symbolic method",
+    "algebra of invariants Grace Young"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Imaginary quadratic fields of small class number",
+   "scope": "Complete lists of imaginary quadratic discriminants with class number up to 100 (Watkins and earlier work), plus class group structures and the history of the class number problem. A question could count fields meeting extra conditions or find the largest discriminant for a given class number.",
+   "queries": [
+    "class number problem imaginary quadratic",
+    "Watkins class number hundred",
+    "Heegner Stark class number",
+    "class group discriminant table"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cremona tables of elliptic curves",
+   "scope": "Isogeny classes, conductors, ranks, torsion structures, Manin constants and BSD data for elliptic curves over Q of small conductor. A question could identify the smallest conductor with a given property or compute a BSD quantity from the tabulated invariants.",
+   "queries": [
+    "elliptic curves conductor table",
+    "Cremona elliptic curve database",
+    "rank two elliptic curve conductor",
+    "modular elliptic curves algorithms",
+    "torsion subgroup elliptic curves"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Irregular primes and Bernoulli numerators",
+   "scope": "Computed lists of irregular primes, irregular pairs (p, 2k), indices of irregularity, and verifications of Vandiver's conjecture. A question could find the smallest prime with a given index of irregularity or count irregular pairs in a range.",
+   "queries": [
+    "irregular primes computation",
+    "irregular pairs Bernoulli numbers",
+    "Vandiver conjecture verification",
+    "index of irregularity",
+    "cyclotomic invariants primes"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Waring's problem constants g(k) and G(k)",
+   "scope": "Known values and best bounds for g(k) and G(k), lists of exceptional integers that need many cubes or biquadrates, and when each bound was proved. A question could combine the exception lists with the bounds to decide representability or compare results.",
+   "queries": [
+    "Waring's problem G(k) bounds",
+    "sums of cubes exceptions",
+    "Vaughan Wooley Waring",
+    "sums of biquadrates nineteen",
+    "circle method Waring problem"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Aliquot sequences, amicable and sociable numbers",
+   "scope": "The historical record of amicable pairs and who found them, known sociable cycles and their lengths, and the status of open aliquot sequences (the Lehmer five), as in Dickson's History and later computations. A question could combine discovery data with divisor-sum calculations.",
+   "queries": [
+    "aliquot sequences",
+    "amicable numbers pairs",
+    "sociable numbers cycles",
+    "Catalan Dickson conjecture aliquot",
+    "history theory of numbers Dickson"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Explicit estimates for prime-counting functions",
+   "scope": "Explicit inequalities for pi(x), theta(x), psi(x) and p_n (Rosser\u2013Schoenfeld, Dusart, B\u00fcthe and others), with the exact ranges where each holds. A question could apply a stated bound to settle a claim for a specific x or interval.",
+   "queries": [
+    "explicit bounds prime counting",
+    "Rosser Schoenfeld approximate formulas",
+    "Dusart estimates primes",
+    "Chebyshev function explicit bounds",
+    "primes in short intervals explicit"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Slater's list of Rogers\u2013Ramanujan type identities",
+   "scope": "The numbered identities in Slater's 1952 list, their Bailey pairs, the moduli of the product sides, and later annotations and corrections. A question could identify the modulus or product form of a numbered identity, or check a coefficient.",
+   "queries": [
+    "Slater list identities",
+    "Rogers-Ramanujan type identities",
+    "Bailey pairs lemma",
+    "Sills annotated Slater list",
+    "q-series product identities"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Ramanujan's mock theta functions by order",
+   "scope": "Definitions of the third-, fifth-, sixth- and seventh-order mock theta functions, the relations between them, and their completions via Zwegers' harmonic Maass forms. A question could ask for coefficients, the shadow of a given function, or a linear relation between functions.",
+   "queries": [
+    "mock theta functions order",
+    "Ramanujan lost notebook mock theta",
+    "Zwegers harmonic Maass forms",
+    "fifth order mock theta",
+    "Watson final problem mock"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Universal quadratic forms and escalation",
+   "scope": "The critical integers of the 15 and 290 theorems, escalator lattices, and Ramanujan's list of universal diagonal quaternary forms with its error. A question could decide whether a given form is universal by checking its truant against the critical set.",
+   "queries": [
+    "290 theorem quadratic forms",
+    "universal quaternary forms",
+    "escalator lattices",
+    "Ramanujan universal forms",
+    "Bhargava Hanke universal"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Small Ramsey numbers and bounds",
+   "scope": "Current values and bounds for two-color, multicolor and graph Ramsey numbers from the dynamic survey literature, with the constructions or computations behind each. A question could combine several bounds through standard inequalities to narrow down an unknown value.",
+   "queries": [
+    "small Ramsey numbers survey",
+    "Ramsey number R(5,5) bounds",
+    "multicolor Ramsey numbers",
+    "Ramsey lower bound construction",
+    "graph Ramsey numbers cycles"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Strongly regular graph parameter feasibility",
+   "scope": "Which parameter sets (v,k,\u03bb,\u03bc) are known to be realized, ruled out by Krein, absolute or Euclidean bounds, or still open, and how many graphs exist for each realized set. A question could apply the feasibility conditions to a parameter set and combine the result with known counts.",
+   "queries": [
+    "strongly regular graphs existence",
+    "Krein conditions strongly regular",
+    "absolute bound strongly regular",
+    "rank 3 graphs classification",
+    "strongly regular parameters table"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cages and graphs near the Moore bound",
+   "scope": "Known (k,g)-cage orders, the number of non-isomorphic cages, record graphs, and excess over the Moore bound. A question could compute the excess or compare cage orders across girths.",
+   "queries": [
+    "cubic cages girth",
+    "dynamic cage survey",
+    "Moore bound excess",
+    "Tutte eight cage",
+    "record graphs girth"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Steiner systems and orthogonal Latin squares",
+   "scope": "Existence and counts of Steiner systems S(t,k,v), counts of non-isomorphic Steiner triple systems, and tables of lower bounds on the number of MOLS N(n). A question could combine existence results with constructions to derive a bound or count.",
+   "queries": [
+    "Steiner triple systems enumeration",
+    "mutually orthogonal Latin squares bounds",
+    "Steiner system S(5,6,12)",
+    "Kirkman triple systems",
+    "transversal designs existence"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Periodicity of octal game nim-sequences",
+   "scope": "Known periods and preperiods of octal and hexadecimal take-and-break games, which games remain unresolved, and the computational records. A question could use a published period to find the Grundy value of a large heap.",
+   "queries": [
+    "octal games periodicity",
+    "Grundy values octal games",
+    "Dawson's Kayles nim sequence",
+    "taking and breaking games",
+    "hexadecimal games nim"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Enumeration of polyominoes and polyforms",
+   "scope": "Counts of fixed, free and one-sided polyominoes, polyiamonds and polyhexes by size, including counts by symmetry type and with holes. A question could recover one count from others using Burnside's lemma and the symmetry-class breakdown.",
+   "queries": [
+    "enumeration of polyominoes",
+    "fixed polyominoes counting",
+    "polyiamonds enumeration",
+    "lattice animals series",
+    "polyhexes enumeration"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Historical enumeration of magic squares",
+   "scope": "Fr\u00e9nicle's count of order-4 magic squares, Dudeney's types, pandiagonal (nasik) squares and magic cubes, as covered in Andrews' 1908 treatise and later enumerations. A question could count squares of a type under symmetry or check a construction rule.",
+   "queries": [
+    "magic squares and cubes",
+    "Frenicle magic squares",
+    "pandiagonal magic squares",
+    "nasik squares",
+    "Dudeney magic square types"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Excluded minors for matroid representability",
+   "scope": "Excluded-minor lists for binary, ternary, GF(4), near-regular and dyadic matroids, and counts of matroids on small ground sets. A question could check whether a named matroid is representable over a field or count the excluded minors with a given property.",
+   "queries": [
+    "excluded minors matroid representable",
+    "GF(4)-representable matroids",
+    "ternary matroids excluded minors",
+    "Rota's conjecture matroids",
+    "matroid enumeration small"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Uniform polyhedra and Johnson solids",
+   "scope": "Wythoff symbols, densities, vertex configurations and face, edge and vertex counts for the non-convex uniform polyhedra and the 92 Johnson solids. A question could compute an Euler characteristic or combine counts over a defined family of solids.",
+   "queries": [
+    "uniform polyhedra Wythoff",
+    "Johnson solids convex",
+    "nonconvex uniform polyhedra",
+    "Skilling uniform polyhedra",
+    "polyhedron density star"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Crystallographic space groups and orbifold notation",
+   "scope": "Counts and properties of the 3D space groups: affine classes, enantiomorphic pairs, Bieberbach (torsion-free) groups, Conway orbifold names, and the 4D totals. A question could count the groups with a property or match orbifold and international notations.",
+   "queries": [
+    "crystallographic space groups classification",
+    "orbifold notation space groups",
+    "enantiomorphic space groups",
+    "four-dimensional crystallographic groups",
+    "Bieberbach groups flat manifolds"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Named triangle centers and collinearities",
+   "scope": "Barycentric coordinates, collinearities and conjugacy relations of named triangle centers documented in Forum Geometricorum-style papers and Kimberling's indexing. A question could compute a center's coordinates for a given triangle or find which line a derived point lies on.",
+   "queries": [
+    "triangle centers barycentric",
+    "Kimberling triangle center",
+    "Forum Geometricorum",
+    "Euler line triangle centers",
+    "isogonal conjugate point"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Combinatorial and geometric point-line configurations",
+   "scope": "Counts of combinatorial (n_3) and (n_4) configurations, which are geometrically realizable, and classical named configurations (Pappus, Desargues, Reye, Cremona\u2013Richmond). A question could count realizable configurations or deduce properties from incidence counts.",
+   "queries": [
+    "configurations points lines",
+    "n3 configurations enumeration",
+    "Desargues configuration",
+    "realizability of configurations",
+    "Reye configuration"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Optimal point configurations on spheres",
+   "scope": "The values of n for which the Tammes problem is proved, the optimal angular separations, the best known Thomson-problem energies, and universally optimal codes. A question could compare minimal angles or energies, or find the symmetry group of an optimum.",
+   "queries": [
+    "Tammes problem",
+    "Thomson problem sphere points",
+    "optimal spherical codes",
+    "Riesz energy minimizers sphere",
+    "universally optimal configurations"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Niemeier lattices and even unimodular lattices",
+   "scope": "The 24 Niemeier lattices with their root systems, Coxeter numbers and glue codes, the Smith\u2013Minkowski\u2013Siegel mass formula, and deep holes of the Leech lattice. A question could compute the number of roots, check the equal-Coxeter-number condition, or match deep holes to Niemeier lattices.",
+   "queries": [
+    "Niemeier lattices",
+    "even unimodular lattices",
+    "Leech lattice deep holes",
+    "Smith-Minkowski-Siegel mass",
+    "glue codes lattices"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Monohedral tilings, Heesch numbers and monotiles",
+   "scope": "The 15 families of convex pentagons that tile the plane and the proof of completeness, Heesch number records, the isohedral tiling types, anisohedral tiles, and the recent aperiodic monotiles. A question could count families with a property or compare records.",
+   "queries": [
+    "convex pentagon tilings",
+    "Heesch number",
+    "isohedral tilings classification",
+    "aperiodic monotile",
+    "anisohedral tiles"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Invariants in low-crossing knot tables",
+   "scope": "Signatures, unknotting numbers, smooth and topological 4-genera, and Alexander and Jones polynomials for knots up to 10\u201312 crossings, including the cases settled only recently. A question could combine invariants to identify a knot or bound another invariant.",
+   "queries": [
+    "knot table invariants",
+    "unknotting number knots",
+    "slice genus small knots",
+    "Rolfsen knot table",
+    "four-genus knots crossing"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Stable stems and groups of exotic spheres",
+   "scope": "The group structure of the stable homotopy groups of spheres from Adams spectral sequence computations, the image of J, and the resulting orders of \u0398_n via Kervaire\u2013Milnor. A question could compute the order of \u0398_n from the stated stem data and the bP-subgroup.",
+   "queries": [
+    "stable homotopy groups spheres",
+    "stable stems computation",
+    "Adams spectral sequence stems",
+    "Kervaire invariant one",
+    "exotic spheres groups"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Census of hyperbolic 3-manifolds",
+   "scope": "Volumes, homology groups and census names of the smallest closed and cusped orientable and non-orientable hyperbolic 3-manifolds, with the minimal-volume theorems. A question could compare volumes or deduce which manifold is minimal in a given class.",
+   "queries": [
+    "hyperbolic 3-manifold census",
+    "minimum volume hyperbolic",
+    "Weeks manifold volume",
+    "cusped hyperbolic manifolds",
+    "SnapPea census manifolds"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Hurwitz surfaces and regular maps",
+   "scope": "The list of Hurwitz genera and their groups (Klein quartic, Macbeath surface, PSL(2,q) cases) and Conder's census of regular maps by genus. A question could check whether 84(g\u22121) is a group order or count regular maps of a given type.",
+   "queries": [
+    "Hurwitz groups genus",
+    "Hurwitz surfaces automorphisms",
+    "Macbeath surface",
+    "Klein quartic automorphism",
+    "regular maps census"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Fano threefolds and reflexive polytopes",
+   "scope": "The Mori\u2013Mukai and Iskovskikh classification of smooth Fano threefolds by Picard rank, anticanonical degree and h^{1,2}, and counts of reflexive polytopes in dimensions 2\u20134. A question could count families with given invariants or link toric cases to polytopes.",
+   "queries": [
+    "Fano threefolds classification",
+    "Mori Mukai Fano",
+    "reflexive polytopes classification",
+    "toric Fano varieties",
+    "quantum periods Fano"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Schubert's classical enumerative geometry",
+   "scope": "Classical enumerative counts from Schubert's Kalk\u00fcl and Chasles (tangent conics, quadrics, twisted cubics, characteristic numbers), with later checks and corrections. A question could derive a related count from the stated characteristics or compare classical and corrected values.",
+   "queries": [
+    "Kalk\u00fcl der abz\u00e4hlenden Geometrie",
+    "enumerative geometry conics",
+    "twisted cubics enumerative",
+    "characteristic numbers conics",
+    "Schubert calculus intersection"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Kodaira dimension of moduli of curves",
+   "scope": "The genera g (and pairs g,n) for which the moduli spaces M_g and M_{g,n} are known to be unirational, uniruled, of intermediate type or of general type, with the papers that proved each. A question could find the smallest open case or combine the thresholds.",
+   "queries": [
+    "moduli space curves Kodaira",
+    "Harris Mumford Kodaira dimension",
+    "unirationality moduli curves",
+    "moduli pointed curves general type",
+    "Severi conjecture moduli"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Sharp constants in classical inequalities",
+   "scope": "Best constants and extremizers for the Hausdorff\u2013Young, Young, Hardy\u2013Littlewood\u2013Sobolev, Sobolev and Hardy inequalities, and Bohr-type constants. A question could compute the sharp constant for a particular exponent or dimension from the stated formula.",
+   "queries": [
+    "sharp constant inequality",
+    "Beckner Hausdorff-Young",
+    "sharp Hardy-Littlewood-Sobolev",
+    "best constant Sobolev inequality",
+    "Bohr radius constant"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Askey scheme of hypergeometric orthogonal polynomials",
+   "scope": "The hierarchy of Wilson, Racah, Hahn and related families, the limit relations between them, their orthogonality weights and recurrence coefficients, and the q-analogues. A question could follow a limit chain or compute a recurrence coefficient for given parameters.",
+   "queries": [
+    "Askey scheme",
+    "Wilson polynomials",
+    "Racah polynomials orthogonality",
+    "q-Askey scheme",
+    "hypergeometric orthogonal polynomials"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Special solutions of Painlev\u00e9 equations",
+   "scope": "Rational and classical solutions of PII\u2013PVI, Yablonskii\u2013Vorob'ev and Okamoto polynomials, B\u00e4cklund transformations, and affine Weyl group symmetries. A question could find the degree of a special polynomial or the parameter values that admit rational solutions.",
+   "queries": [
+    "Painlev\u00e9 equations rational solutions",
+    "Yablonskii-Vorob'ev polynomials",
+    "Okamoto polynomials Painlev\u00e9",
+    "affine Weyl group Painlev\u00e9",
+    "B\u00e4cklund transformations Painlev\u00e9"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Limit cycles of planar polynomial vector fields",
+   "scope": "The best lower bounds on the number of limit cycles for quadratic, cubic and quartic systems, which configurations are realizable, and center-focus results in the Bautin tradition. A question could compare the bounds or decide whether a configuration is possible.",
+   "queries": [
+    "limit cycles quadratic systems",
+    "Hilbert sixteenth problem",
+    "cubic systems limit cycles",
+    "Bautin center focus",
+    "limit cycle configurations"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Hausdorff dimensions of specific fractal sets",
+   "scope": "Rigorous numerical or exact Hausdorff dimensions of named sets: the Apollonian gasket, Julia sets, continued-fraction Cantor sets, the Brownian frontier, and SLE traces. A question could compare dimensions or derive the dimension of a related set.",
+   "queries": [
+    "Hausdorff dimension computation",
+    "Apollonian gasket dimension",
+    "Brownian frontier dimension",
+    "Julia set dimension estimate",
+    "continued fraction Cantor dimension"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Descriptive complexity of natural sets",
+   "scope": "Exact Borel or projective complexity classifications of sets from analysis: \u03a0^1_1-completeness of the differentiable functions, the Borel rank of the normal numbers, and similar results. A question could identify the complexity class of a variant set by reduction.",
+   "queries": [
+    "Pi11-complete set",
+    "Borel complexity normal numbers",
+    "coanalytic complete sets",
+    "Wadge hierarchy",
+    "descriptive set theory analysis"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Proof-theoretic ordinals of formal systems",
+   "scope": "Ordinal analyses of PA, ATR0, ID1, KP, \u03a0^1_1-CA0 and other systems, with the notation systems behind them (Veblen, Bachmann\u2013Howard). A question could order several theories by strength or identify the ordinal of a combined system.",
+   "queries": [
+    "proof-theoretic ordinal",
+    "Bachmann-Howard ordinal",
+    "ordinal analysis theories",
+    "Feferman-Sch\u00fctte ordinal",
+    "ordinal notation systems"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Reverse mathematics of classical theorems",
+   "scope": "Which subsystem of second-order arithmetic each theorem is equivalent to over RCA0 (the Big Five plus the 'zoo' of principles such as RT^2_2). A question could deduce the strength of a combination of statements from the known equivalences.",
+   "queries": [
+    "reverse mathematics",
+    "weak K\u00f6nig lemma equivalent",
+    "Ramsey theorem pairs strength",
+    "arithmetical comprehension equivalent",
+    "reverse mathematics zoo"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cicho\u0144's diagram and cardinal characteristics",
+   "scope": "The values of the cardinals in Cicho\u0144's diagram in the standard forcing models (Cohen, random, Hechler, Laver, Sacks) and the newer 'Cicho\u0144's maximum' separation results. A question could compute which cardinals equal \u21351 in a given model.",
+   "queries": [
+    "Cicho\u0144's diagram",
+    "cardinal characteristics continuum",
+    "bounding number dominating number",
+    "Cicho\u0144's maximum",
+    "forcing cardinal invariants"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Classification of small-index subfactors",
+   "scope": "Principal graphs and indices of the subfactors with index up to 5 and slightly beyond (Haagerup, Asaeda\u2013Haagerup, extended Haagerup), and the Jones index values. A question could compute an index from a principal graph's norm or count the families.",
+   "queries": [
+    "subfactors small index",
+    "Haagerup subfactor",
+    "principal graphs classification",
+    "Jones index subfactor",
+    "extended Haagerup subfactor"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Runge\u2013Kutta order barriers and conditions",
+   "scope": "The minimum number of stages for explicit Runge\u2013Kutta methods of each order (Butcher barriers), the rooted-tree count of order conditions, and the record high-order methods. A question could count the order conditions for an order or compare stage requirements.",
+   "queries": [
+    "Runge-Kutta order barriers",
+    "Butcher order conditions",
+    "rooted trees order conditions",
+    "explicit Runge-Kutta stages",
+    "high order Runge-Kutta"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Percolation thresholds and connective constants",
+   "scope": "Exact and high-precision numerical site and bond percolation thresholds on Archimedean and other lattices, and self-avoiding-walk connective constants. A question could use duality or star-triangle relations to find a related threshold, or compare lattices.",
+   "queries": [
+    "percolation threshold lattice",
+    "connective constant self-avoiding",
+    "bond percolation exact threshold",
+    "Archimedean lattices percolation",
+    "site percolation estimates"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Egyptian unit-fraction tables and methods",
+   "scope": "The decompositions in the Rhind papyrus 2/n table, the Akhmim and Kahun texts, and scholarly theories of how the scribes chose them. A question could check a decomposition against a proposed rule or compute the decomposition for a given n.",
+   "queries": [
+    "Rhind papyrus 2/n table",
+    "Egyptian unit fractions",
+    "Rhind mathematical papyrus",
+    "ancient Egyptian mathematics",
+    "Akhmim wooden tablet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Historical origins of mathematical symbols",
+   "scope": "When and where symbols for equality, operations, exponents, roots, differentials and integrals first appeared, and the notations that competed with them, as recorded in Cajori and earlier histories. A question could order symbol introductions in time or find which author used a notation first.",
+   "queries": [
+    "history mathematical notations",
+    "Cajori notation history",
+    "sign of equality Recorde",
+    "origin plus minus signs",
+    "Leibniz differential notation"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Medieval Islamic classification of equations",
+   "scope": "Al-Khwarizmi's canonical forms of quadratic equations, Khayyam's classification of equation types and which of them he solved with intersecting conics, and Sharaf al-Din al-Tusi's analysis of cubics. A question could classify a given equation or count the types meeting a condition.",
+   "queries": [
+    "Omar Khayyam algebra cubic",
+    "al-Khwarizmi algebra translation",
+    "Sharaf al-Din Tusi equations",
+    "geometric solution cubic conics",
+    "Arabic algebra history"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Schur multipliers of finite simple groups",
+   "scope": "Exceptional Schur multipliers (e.g. of PSL(3,4), Sz(8), PSU(4,3)), the resulting covering groups and outer automorphism groups of simple groups. A question could ask for the order of a particular perfect central extension, or ask which groups carry an exceptional multiplier with a given property.",
+   "queries": [
+    "exceptional Schur multiplier",
+    "covering groups simple groups",
+    "PSL(3,4) multiplier",
+    "perfect central extensions",
+    "outer automorphism simple groups"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nilpotent orbits in exceptional Lie algebras",
+   "scope": "Bala\u2013Carter labels, weighted Dynkin diagrams, orbit dimensions and component groups A(O) for nilpotent orbits of G2, F4 and E6\u2013E8. A question could ask for a Springer fibre dimension, a count of distinguished orbits, or an ordering in the closure order.",
+   "queries": [
+    "nilpotent orbits exceptional Lie",
+    "Bala-Carter labels",
+    "weighted Dynkin diagram orbit",
+    "distinguished nilpotent orbits",
+    "component group nilpotent orbit"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Enumeration of finite groups by order",
+   "scope": "Exact counts of isomorphism classes of groups of given orders (powers of 2, cube-free and squarefree orders) from Besche\u2013Eick\u2013O'Brien and from H\u00f6lder-type formulas. A question could combine counting formulas, or compare counts across orders.",
+   "queries": [
+    "groups of order 2048",
+    "SmallGroups library",
+    "number of groups order n",
+    "squarefree order groups H\u00f6lder",
+    "Besche Eick O'Brien"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Number fields of minimal discriminant",
+   "scope": "Smallest absolute discriminants of number fields for each degree and signature, found by Hunter\u2013Pohst searches and Voight's tables, alongside Odlyzko's discriminant bounds. A question could ask to identify the field or to compare its root discriminant with the analytic bound.",
+   "queries": [
+    "minimum discriminant number fields",
+    "totally real fields small discriminant",
+    "Odlyzko discriminant bounds",
+    "sextic fields minimal discriminant",
+    "Hunter Pohst search"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Norm-Euclidean fields and Euclidean minima",
+   "scope": "Complete lists of norm-Euclidean quadratic and cubic fields, values of Euclidean and inhomogeneous minima, and Lemmermeyer's survey results. A question could ask whether a field belongs to the list, or ask to compare minima across fields.",
+   "queries": [
+    "norm-Euclidean number fields",
+    "Euclidean minimum quadratic field",
+    "inhomogeneous minimum cubic",
+    "Lemmermeyer Euclidean survey",
+    "Euclidean cubic fields"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Gonality and hyperellipticity of modular curves",
+   "scope": "Ogg's list of hyperelliptic X_0(N), together with trigonal, tetragonal and bielliptic classifications of modular curves and the genus formulas. A question could ask for the genus or gonality at a given level, or count the levels with a given property.",
+   "queries": [
+    "hyperelliptic modular curves X_0(N)",
+    "gonality modular curves",
+    "bielliptic modular curves",
+    "trigonal modular curves",
+    "Ogg hyperelliptic levels"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Generalized Fermat equations by signature",
+   "scope": "Which signatures (p,q,r) of x^p+y^q=z^r have been solved completely, and the short list of known primitive non-trivial solutions. A question could ask for the signature of a given solution, or check a solution's arithmetic against the theorems.",
+   "queries": [
+    "generalized Fermat equation signature",
+    "x^2+y^3=z^7 solutions",
+    "Beal primitive solutions",
+    "Darmon Granville theorem",
+    "spherical generalized Fermat"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Markov and Lagrange spectra",
+   "scope": "Markov numbers, the initial discrete part of the spectra, Hall's ray, Freiman's constant and the known gaps in the Markov spectrum. A question could ask for the Lagrange value of a given periodic continued fraction, or test membership in a gap.",
+   "queries": [
+    "Markov spectrum gaps",
+    "Freiman constant Hall ray",
+    "Lagrange spectrum continued fraction",
+    "Markov numbers uniqueness conjecture",
+    "Cusick Flahive spectrum"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Mahler measure and small Salem numbers",
+   "scope": "Lehmer's polynomial, Mossinghoff's lists of small Salem numbers and small Mahler measures, Smyth's bound for non-reciprocal polynomials, and Boyd's Mahler measure\u2013L-value identities. A question could ask to compute a measure, or to place a polynomial in a ranked list.",
+   "queries": [
+    "Lehmer problem Mahler measure",
+    "small Salem numbers",
+    "Smyth nonreciprocal polynomials",
+    "Mahler measure L-values Boyd",
+    "Mossinghoff polynomial list"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Covering systems and Sierpi\u0144ski numbers",
+   "scope": "Records for the minimum modulus of covering systems, Hough's bound, the odd covering problem, and Sierpi\u0144ski and Riesel numbers with their covering sets and remaining candidates. A question could ask to verify a covering, or to derive the modulus set for a given number.",
+   "queries": [
+    "covering systems minimum modulus",
+    "Sierpinski number covering set",
+    "Riesel numbers candidates",
+    "odd covering problem",
+    "Erd\u0151s covering congruences"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Hadamard matrix existence by order",
+   "scope": "Orders for which Hadamard matrices are or are not yet constructed, Paley and Williamson-type constructions, skew-Hadamard results, and counts of inequivalent matrices at small orders. A question could ask which construction covers a given order, or ask for an equivalence-class count.",
+   "queries": [
+    "Hadamard matrix order 668",
+    "Williamson type matrices",
+    "inequivalent Hadamard matrices",
+    "Paley construction Hadamard",
+    "skew Hadamard matrices"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Tables of optimal binary codes A(n,d)",
+   "scope": "Known exact values and bounds for A(n,d), Delsarte linear-programming and Schrijver semidefinite-programming improvements, and special nonlinear codes such as the Best code. A question could ask to derive an entry through shortening and puncturing relations.",
+   "queries": [
+    "A(n,d) binary codes table",
+    "semidefinite programming code bounds",
+    "Delsarte linear programming bound",
+    "Best code length 10",
+    "nonlinear binary codes bounds"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Optimal Golomb rulers and Costas arrays",
+   "scope": "Verified lengths of optimal Golomb rulers by number of marks, Costas array enumerations by order, and the Welch and Lempel\u2013Golomb constructions. A question could ask to check a difference triangle, or ask which construction yields arrays of a given order.",
+   "queries": [
+    "optimal Golomb ruler",
+    "Costas arrays enumeration",
+    "Welch construction Costas",
+    "Lempel-Golomb construction",
+    "Sidon set difference triangle"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Graceful and harmonious graph labelings",
+   "scope": "Results from Gallian's dynamic survey on which families (cycles, wheels, generalized Petersen graphs, trees) are graceful or harmonious. A question could apply Rosa's parity condition to decide the case for a given family member.",
+   "queries": [
+    "graceful labeling survey",
+    "harmonious labeling graphs",
+    "Rosa parity condition graceful",
+    "graceful tree conjecture",
+    "Gallian dynamic survey labeling"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Crossing numbers of complete graphs",
+   "scope": "Known values of cr(K_n) and cr(K_{m,n}), progress on the Zarankiewicz and Hill conjectures, and rectilinear crossing numbers of K_n. A question could ask to compare a conjectured formula with a proven value, or with the rectilinear value.",
+   "queries": [
+    "crossing number complete graph",
+    "Zarankiewicz conjecture crossing",
+    "rectilinear crossing number K_n",
+    "Hill conjecture crossing",
+    "crossing number bipartite graphs"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Wilf classes of permutation patterns",
+   "scope": "The Wilf-equivalence classes of length-4 patterns, enumeration data for 1324-avoiders, and known Stanley\u2013Wilf limits and growth-rate bounds. A question could ask to compute a small count, or to compare growth rates between classes.",
+   "queries": [
+    "Wilf equivalence classes patterns",
+    "1324-avoiding permutations",
+    "Stanley-Wilf limit",
+    "1342 avoiding permutations B\u00f3na",
+    "pattern avoidance enumeration"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Small-step lattice walks in the quarter plane",
+   "scope": "The classification of the 79 nontrivial small-step models by finiteness of the group of the walk and by D-finiteness or algebraicity (Kreweras, Gessel). A question could ask to determine a model's group order, or to place it in the classification.",
+   "queries": [
+    "walks in the quarter plane",
+    "Gessel walks",
+    "Kreweras walks algebraic",
+    "small step models D-finite",
+    "group of the walk"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Vertex-minimal triangulations of manifolds",
+   "scope": "Minimal vertex counts for triangulations of surfaces and higher manifolds (K\u00fchnel's 9-vertex CP^2, the 16-vertex K3, Lutz's enumerations) and Heawood-type bounds. A question could ask to compute the lower bound for a given manifold and compare it with known triangulations.",
+   "queries": [
+    "vertex-minimal triangulation",
+    "K\u00fchnel 9-vertex CP2",
+    "minimal triangulations manifolds",
+    "neighborly triangulations surfaces",
+    "Lutz triangulated manifolds"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Hyperbolic Coxeter polytopes and reflective lattices",
+   "scope": "Dimension limits for compact and finite-volume hyperbolic Coxeter polytopes, Lann\u00e9r and Koszul simplex lists, and Vinberg's algorithm applied to reflective lattices. A question could ask for a count of simplices in a given dimension, or ask whether a Gram matrix is admissible.",
+   "queries": [
+    "hyperbolic Coxeter polytopes",
+    "Lann\u00e9r diagrams",
+    "Vinberg algorithm reflective lattices",
+    "compact hyperbolic Coxeter",
+    "hyperbolic Coxeter simplices"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Triply periodic minimal surfaces",
+   "scope": "Schwarz P and D, Schoen's gyroid and his other surfaces, Neovius surfaces, genus per unit cell and Bonnet association angles. A question could ask to compute a quotient genus, or to relate surfaces through the association family.",
+   "queries": [
+    "triply periodic minimal surfaces",
+    "Schoen gyroid",
+    "Schwarz D surface",
+    "Bonnet association angle",
+    "Neovius surface genus"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Arnold's classification of hypersurface singularities",
+   "scope": "Simple, unimodal and bimodal singularity normal forms, the 14 exceptional unimodal singularities with their Gabrielov and Dolgachev numbers, and strange duality. A question could ask to compute a Milnor number from a normal form, or to identify a singularity's dual partner.",
+   "queries": [
+    "Arnold exceptional unimodal singularities",
+    "strange duality Dolgachev numbers",
+    "Milnor number normal forms",
+    "bimodal singularities classification",
+    "Gabrielov numbers"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Symplectic automorphism groups of K3 surfaces",
+   "scope": "Nikulin's abelian groups, Mukai's maximal finite groups embedded in M23, Xiao's list, and fixed-point counts by element order. A question could ask to compute a fixed-point number, or check whether a group fits the Mathieu embedding criterion.",
+   "queries": [
+    "symplectic automorphisms K3 surfaces",
+    "Mukai finite groups K3",
+    "Nikulin abelian symplectic",
+    "Xiao list K3 groups",
+    "K3 surface Mathieu group"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lattice sums and Madelung constants",
+   "scope": "Numerical and closed-form values of Madelung constants for NaCl, CsCl and other structures, Benson's formula, and Glasser\u2013Zucker evaluations of 2D lattice sums as products of L-functions. A question could ask to combine L-values to evaluate a specific sum.",
+   "queries": [
+    "Madelung constant",
+    "lattice sums Glasser Zucker",
+    "Benson formula NaCl",
+    "conditionally convergent lattice sums",
+    "Epstein zeta function values"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Banach\u2013Mazur distances and projection constants",
+   "scope": "Exact and asymptotic Banach\u2013Mazur distances between \u2113_p^n spaces, the planar maximal distance, Gluskin's diameter result, and Gr\u00fcnbaum's projection constant conjecture (Chalmers\u2013Lewicki). A question could ask to compute a distance between explicit spaces, or to compare it with John's bound.",
+   "queries": [
+    "Banach-Mazur distance",
+    "Banach-Mazur compactum diameter",
+    "projection constant Gr\u00fcnbaum",
+    "John ellipsoid theorem",
+    "Chalmers Lewicki projection"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Veech surfaces and polygonal billiards",
+   "scope": "Rational triangles and polygons with the lattice property (Veech, Ward, Kenyon\u2013Smillie, Hooper), Veech groups, and McMullen's genus-two Teichm\u00fcller curves. A question could ask to deduce a Veech group's signature, or to give a saddle-connection growth constant.",
+   "queries": [
+    "Veech lattice property",
+    "billiards rational triangles",
+    "Teichm\u00fcller curves genus two",
+    "translation surface Veech group",
+    "Ward triangles lattice"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Isospectral manifolds and planar domains",
+   "scope": "Milnor's isospectral tori, the Sunada construction, Gordon\u2013Webb\u2013Wolpert and Buser planar domains, and the smallest dimensions with isospectral flat tori. A question could ask to count the tiles of a transplantation, or apply Weyl asymptotics.",
+   "queries": [
+    "isospectral planar domains",
+    "Sunada construction isospectral",
+    "isospectral flat tori",
+    "Gordon Webb Wolpert",
+    "transplantation isospectral"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "P\u00f3lya walk return probabilities and Watson integrals",
+   "scope": "Return probabilities of simple random walks on cubic, bcc and fcc lattices and in higher dimensions, and the closed forms of Watson integrals and lattice Green functions. A question could ask to convert a Green function value into an expected number of returns.",
+   "queries": [
+    "P\u00f3lya random walk constants",
+    "Watson integrals lattice",
+    "return probability cubic lattice",
+    "lattice Green function",
+    "random walk recurrence dimension"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Minimal-node cubature formulas",
+   "scope": "Known minimal node counts for cubature of a given degree on the square, disk, triangle and sphere, Radon's degree-5 formula, M\u00f6ller-type lower bounds, and Stroud/Cools tables. A question could ask to compare a lower bound with the best known formula.",
+   "queries": [
+    "minimal cubature formulas",
+    "Radon seven point formula",
+    "M\u00f6ller lower bound cubature",
+    "cubature formulas triangle",
+    "Stroud approximate calculation integrals"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Busy beaver values of small Turing machines",
+   "scope": "Proven values of the step and ones functions for small state and symbol counts, the 2024 BB(5) determination, current champions, and lower bounds for larger cases. A question could ask to derive one quantity from a champion's behaviour.",
+   "queries": [
+    "busy beaver function values",
+    "bbchallenge BB(5)",
+    "Rado busy beaver",
+    "Turing machine champions",
+    "small universal Turing machines"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Consistency strength of large cardinals",
+   "scope": "The linear order of large-cardinal consistency strengths, equiconsistency results (determinacy with Woodin cardinals), the Kunen inconsistency, and the Mitchell order. A question could ask to rank two theories by chaining known equiconsistencies.",
+   "queries": [
+    "consistency strength large cardinals",
+    "Woodin cardinals determinacy",
+    "equiconsistency large cardinal",
+    "Kunen inconsistency",
+    "Mitchell order measurable"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Numerical semigroups: Frobenius numbers and genus",
+   "scope": "Counts of numerical semigroups by genus, Frobenius number formulas for special generator sets, Kunz polytopes, and computational checks of the Wilf conjecture. A question could ask to compute the genus or Frobenius number for given generators and place it in the count tables.",
+   "queries": [
+    "numerical semigroups genus count",
+    "Frobenius number three generators",
+    "Wilf conjecture numerical semigroups",
+    "Kunz polytope",
+    "semigroup tree enumeration"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Early logarithm table construction",
+   "scope": "Napier's original logarithm definition and table, Briggs's Arithmetica Logarithmica and its chiliads, Vlacq's gap-filling and table errors, and Prony's later tables. A question could ask to convert a Napierian logarithm to a natural logarithm, or to find which pages fell in a gap.",
+   "queries": [
+    "Napier Mirifici logarithmorum",
+    "Briggs Arithmetica Logarithmica",
+    "Vlacq logarithm table errors",
+    "Napier tercentenary memorial",
+    "Prony logarithm tables"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Classical named algebraic plane curves",
+   "scope": "Equations, discoverers and properties of the cissoid, conchoid, strophoid, trisectrix, Cassini ovals and similar curves, as given in older treatises. A question could ask to compute an enclosed area, asymptote or singular point from the historical construction.",
+   "queries": [
+    "cissoid of Diocles",
+    "conchoid of Nicomedes",
+    "trisectrix of Maclaurin",
+    "strophoid curve equation",
+    "Cassinian ovals",
+    "special algebraic curves"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Old Babylonian mathematical cuneiform tablets",
+   "scope": "Contents of published tablets such as the Nippur temple-library texts, reciprocal and multiplication tables, regular-number lists, metrological tables and the \u221a2 approximation on YBC 7289. A question could ask to convert sexagesimal entries, or to reconstruct a missing reciprocal.",
+   "queries": [
+    "Babylonian mathematical tablets",
+    "sexagesimal reciprocal table",
+    "Nippur temple library tablets",
+    "YBC 7289",
+    "Old Babylonian metrology"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

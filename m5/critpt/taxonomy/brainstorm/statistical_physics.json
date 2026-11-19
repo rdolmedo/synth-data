@@ -1,0 +1,426 @@
+{
+ "subtopics": [
+  {
+   "name": "Exactly solvable lattice models",
+   "scope": "Classical two-dimensional and quantum one-dimensional lattice models (vertex, Potts, dimer, hard-hexagon, spin chains) whose free energies, order parameters, or spectra can be obtained in closed form.",
+   "keywords": [
+    "exactly solvable",
+    "Yang-Baxter equation",
+    "six-vertex model",
+    "eight-vertex model",
+    "dimer model",
+    "Potts model",
+    "XXZ chain",
+    "hard hexagon",
+    "free energy",
+    "integrable lattice model"
+   ]
+  },
+  {
+   "name": "Critical phenomena and renormalization group",
+   "scope": "Equilibrium continuous phase transitions in O(N), Potts, and related models in general dimension, focusing on universality classes, critical exponents, crossover behavior, and multicritical points.",
+   "keywords": [
+    "critical exponents",
+    "universality class",
+    "renormalization group",
+    "epsilon expansion",
+    "O(N) model",
+    "tricritical point",
+    "crossover scaling",
+    "finite-size scaling",
+    "anomalous dimension",
+    "Lifshitz point"
+   ]
+  },
+  {
+   "name": "Two-dimensional criticality and conformal invariance",
+   "scope": "Critical and quasi-long-range-ordered two-dimensional systems analyzed through conformal symmetry, including boundary critical behavior, Kosterlitz-Thouless transitions, and loop-model or SLE descriptions of critical curves.",
+   "keywords": [
+    "conformal field theory",
+    "central charge",
+    "Kosterlitz-Thouless transition",
+    "Coulomb gas",
+    "O(n) loop model",
+    "Schramm-Loewner evolution",
+    "boundary critical phenomena",
+    "scaling dimension",
+    "minimal models",
+    "crossing probability"
+   ]
+  },
+  {
+   "name": "Mean-field spin glasses and replica symmetry breaking",
+   "scope": "Ising, p-spin, spherical, and Potts spin-glass models with fully connected or sparse random couplings, their thermodynamics, ergodicity breaking, and energy-landscape complexity.",
+   "keywords": [
+    "spin glass",
+    "Sherrington-Kirkpatrick model",
+    "p-spin model",
+    "replica symmetry breaking",
+    "Parisi solution",
+    "TAP equations",
+    "de Almeida-Thouless line",
+    "complexity",
+    "spherical spin glass",
+    "overlap distribution"
+   ]
+  },
+  {
+   "name": "Random magnets and quenched disorder",
+   "scope": "Effects of quenched randomness in couplings, fields, or site occupation on finite-dimensional phase transitions, including random-field and diluted magnets, rare-region effects, and infinite-randomness critical points.",
+   "keywords": [
+    "random-field Ising model",
+    "Harris criterion",
+    "Griffiths phase",
+    "infinite-randomness fixed point",
+    "diluted magnet",
+    "random transverse-field Ising chain",
+    "Imry-Ma argument",
+    "rare regions",
+    "disorder-induced rounding",
+    "random bond"
+   ]
+  },
+  {
+   "name": "Percolation and geometric phase transitions",
+   "scope": "Connectivity transitions of random clusters on lattices, continua, and random graphs, including thresholds, cluster-size statistics, fractal dimensions, and variants such as bootstrap, continuum, and explosive percolation.",
+   "keywords": [
+    "percolation threshold",
+    "cluster size distribution",
+    "fractal dimension",
+    "bootstrap percolation",
+    "continuum percolation",
+    "explosive percolation",
+    "Fortuin-Kasteleyn clusters",
+    "spanning probability",
+    "random graphs",
+    "giant component"
+   ]
+  },
+  {
+   "name": "Statistical mechanics of neural networks and learning",
+   "scope": "Typical-case analysis of associative memories and of learning in perceptrons, committee machines, and wide or deep networks, focusing on storage capacity, generalization curves, and high-dimensional training dynamics.",
+   "keywords": [
+    "Hopfield model",
+    "storage capacity",
+    "perceptron",
+    "teacher-student",
+    "generalization error",
+    "Gardner volume",
+    "committee machine",
+    "dense associative memory",
+    "online learning",
+    "random features"
+   ]
+  },
+  {
+   "name": "Random constraint satisfaction and high-dimensional inference",
+   "scope": "Phase transitions in random combinatorial optimization and planted inference problems such as satisfiability, coloring, matching, community detection, and compressed sensing.",
+   "keywords": [
+    "random k-SAT",
+    "satisfiability threshold",
+    "graph coloring",
+    "clustering transition",
+    "planted problem",
+    "stochastic block model",
+    "compressed sensing",
+    "approximate message passing",
+    "information-theoretic threshold",
+    "random assignment problem"
+   ]
+  },
+  {
+   "name": "Spectra of random matrices and operators",
+   "scope": "Eigenvalue densities, spacing statistics, extreme eigenvalues, and eigenvector properties of random matrix ensembles, including sparse, structured, and non-Hermitian ones.",
+   "keywords": [
+    "random matrix theory",
+    "spectral density",
+    "Wigner semicircle",
+    "Marchenko-Pastur",
+    "sparse random matrices",
+    "level spacing distribution",
+    "largest eigenvalue",
+    "Tracy-Widom",
+    "non-Hermitian random matrices",
+    "log-gas"
+   ]
+  },
+  {
+   "name": "Anderson and many-body localization",
+   "scope": "Localization of waves and quantum particles by disorder or quasiperiodicity, from single-particle mobility edges and multifractal critical states to interacting many-body localization.",
+   "keywords": [
+    "Anderson localization",
+    "mobility edge",
+    "localization length",
+    "multifractality",
+    "Aubry-Andre model",
+    "quasiperiodic potential",
+    "many-body localization",
+    "Bethe lattice",
+    "inverse participation ratio",
+    "level statistics"
+   ]
+  },
+  {
+   "name": "Quantum quenches and isolated-system thermalization",
+   "scope": "Nonequilibrium dynamics of isolated quantum many-body systems after quenches, covering thermalization, generalized Gibbs ensembles, entanglement growth, and generalized hydrodynamics of integrable chains.",
+   "keywords": [
+    "quantum quench",
+    "eigenstate thermalization hypothesis",
+    "generalized Gibbs ensemble",
+    "entanglement entropy",
+    "generalized hydrodynamics",
+    "integrable spin chain",
+    "prethermalization",
+    "Loschmidt echo",
+    "dynamical quantum phase transition"
+   ]
+  },
+  {
+   "name": "Driven lattice gases and nonequilibrium transport",
+   "scope": "Boundary-driven and bulk-driven stochastic particle and energy transport models, such as exclusion and zero-range processes and oscillator chains, focusing on steady states, currents, phase diagrams, and anomalous conduction.",
+   "keywords": [
+    "asymmetric simple exclusion process",
+    "TASEP",
+    "zero-range process",
+    "nonequilibrium steady state",
+    "current fluctuations",
+    "boundary-driven",
+    "condensation transition",
+    "anomalous heat conduction",
+    "harmonic chain",
+    "Fourier's law"
+   ]
+  },
+  {
+   "name": "KPZ interface growth and directed polymers",
+   "scope": "Stochastic interface growth and directed polymers in random media, including scaling exponents, height and free-energy distributions, and exact solutions in the Kardar-Parisi-Zhang universality class.",
+   "keywords": [
+    "Kardar-Parisi-Zhang equation",
+    "interface growth",
+    "directed polymer",
+    "random medium",
+    "height distribution",
+    "Tracy-Widom distribution",
+    "roughness exponent",
+    "Edwards-Wilkinson",
+    "polynuclear growth",
+    "stochastic heat equation"
+   ]
+  },
+  {
+   "name": "Random walks, first passage, and extremes",
+   "scope": "Statistics of random walks, Brownian motion, and related stochastic processes, including first-passage and survival probabilities, extreme-value and record statistics, path functionals, and stochastic resetting.",
+   "keywords": [
+    "first-passage time",
+    "survival probability",
+    "persistence exponent",
+    "extreme value statistics",
+    "record statistics",
+    "stochastic resetting",
+    "Brownian functionals",
+    "occupation time",
+    "Levy flights",
+    "mean first-passage time"
+   ]
+  },
+  {
+   "name": "Stochastic thermodynamics and fluctuation relations",
+   "scope": "Thermodynamics of small systems driven out of equilibrium, including entropy production, work and heat fluctuations, uncertainty relations, efficiency of microscopic engines, and the thermodynamics of information.",
+   "keywords": [
+    "entropy production",
+    "fluctuation theorem",
+    "Jarzynski equality",
+    "thermodynamic uncertainty relation",
+    "stochastic heat engine",
+    "Brownian motor",
+    "Maxwell demon",
+    "optimal protocol",
+    "work distribution",
+    "information thermodynamics"
+   ]
+  },
+  {
+   "name": "Active matter and self-propelled particles",
+   "scope": "Statistical mechanics of particles that consume energy to self-propel, covering run-and-tumble and active Brownian dynamics, motility-induced phase separation, flocking, and active pressure and boundary accumulation.",
+   "keywords": [
+    "active Brownian particles",
+    "run-and-tumble",
+    "motility-induced phase separation",
+    "Vicsek model",
+    "flocking",
+    "self-propelled particles",
+    "active pressure",
+    "active Ornstein-Uhlenbeck",
+    "persistent random walk",
+    "wall accumulation"
+   ]
+  },
+  {
+   "name": "Coarsening, aging, and phase-ordering kinetics",
+   "scope": "Relaxation of systems quenched into ordered or critical phases, including domain-growth laws, dynamical scaling, autocorrelation exponents, aging, and kinetic Ising and voter dynamics.",
+   "keywords": [
+    "coarsening",
+    "phase-ordering kinetics",
+    "domain growth",
+    "aging",
+    "Glauber dynamics",
+    "Kawasaki dynamics",
+    "autocorrelation exponent",
+    "fluctuation-dissipation ratio",
+    "voter model",
+    "critical quench"
+   ]
+  },
+  {
+   "name": "Absorbing-state transitions and reaction-diffusion kinetics",
+   "scope": "Nonequilibrium phase transitions into absorbing states and the kinetics of diffusion-limited reactions, including directed percolation, contact and epidemic processes, branching-annihilating walks, and sandpile models of self-organized criticality.",
+   "keywords": [
+    "absorbing state",
+    "directed percolation",
+    "contact process",
+    "reaction-diffusion",
+    "diffusion-limited annihilation",
+    "branching annihilating random walk",
+    "SIS epidemic",
+    "sandpile model",
+    "self-organized criticality",
+    "Manna model"
+   ]
+  },
+  {
+   "name": "Glasses, jamming, and amorphous solids",
+   "scope": "Structural glass formation and jamming of disordered packings, including mean-field theories in infinite dimensions, mode-coupling dynamics, random first-order transitions, kinetically constrained models, and marginal stability.",
+   "keywords": [
+    "glass transition",
+    "jamming",
+    "hard spheres",
+    "infinite dimensions",
+    "mode-coupling theory",
+    "random first-order transition",
+    "Gardner transition",
+    "marginal stability",
+    "kinetically constrained models",
+    "configurational entropy"
+   ]
+  },
+  {
+   "name": "Classical fluids and kinetic theory",
+   "scope": "Equilibrium and transport properties of classical fluids and hard-core gases, including virial coefficients, integral-equation and density-functional theories, exactly solvable one-dimensional fluids, and Boltzmann-equation kinetics of molecular and granular gases.",
+   "keywords": [
+    "hard spheres",
+    "virial coefficients",
+    "equation of state",
+    "pair correlation function",
+    "density functional theory",
+    "hard rods",
+    "Tonks gas",
+    "Boltzmann equation",
+    "granular gas",
+    "transport coefficients"
+   ]
+  },
+  {
+   "name": "Polymers, self-avoiding walks, and lattice paths",
+   "scope": "Statistics of polymer chains and lattice path ensembles, including self-avoiding walks, adsorption and collapse transitions, stretched polymers, vesicles, and enumeration of lattice animals.",
+   "keywords": [
+    "self-avoiding walk",
+    "connective constant",
+    "polymer adsorption",
+    "theta point",
+    "collapse transition",
+    "lattice animals",
+    "Dyck paths",
+    "vesicles",
+    "polymer stretching",
+    "exact enumeration"
+   ]
+  },
+  {
+   "name": "Long-range interactions and synchronization",
+   "scope": "Systems with long-range or all-to-all couplings, including Hamiltonian mean-field and self-gravitating models, ensemble inequivalence, quasi-stationary states, and Kuramoto-type synchronization of coupled oscillators.",
+   "keywords": [
+    "long-range interactions",
+    "ensemble inequivalence",
+    "negative specific heat",
+    "Hamiltonian mean-field model",
+    "quasi-stationary states",
+    "Vlasov equation",
+    "self-gravitating systems",
+    "Kuramoto model",
+    "synchronization transition",
+    "coupled oscillators"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Transfer matrices and duality transformations",
+   "scope": "Writing partition functions as traces of transfer-matrix powers and using Kramers-Wannier-type dualities to obtain free energies, correlation lengths, and exact critical points."
+  },
+  {
+   "name": "Coordinate and algebraic Bethe ansatz",
+   "scope": "Diagonalizing integrable Hamiltonians and transfer matrices via Bethe equations, then extracting ground-state energies, excitation spectra, and thermodynamic-Bethe-ansatz thermodynamics in the thermodynamic limit."
+  },
+  {
+   "name": "Free-fermion, Pfaffian, and dimer mappings",
+   "scope": "Mapping spin chains, planar Ising models, or dimer coverings onto quadratic fermion problems (Jordan-Wigner, Kasteleyn Pfaffians) to compute spectra, correlations, and entanglement exactly."
+  },
+  {
+   "name": "Replica method with symmetry breaking",
+   "scope": "Averaging the logarithm of disordered partition functions via replicas and evaluating the saddle point under replica-symmetric or Parisi-type ansatze to obtain free energies, thresholds, and stability lines."
+  },
+  {
+   "name": "Cavity method and message passing",
+   "scope": "Solving models on sparse random graphs or dense factor graphs through cavity recursions, belief propagation, state evolution, and population dynamics to obtain thresholds and typical-case observables."
+  },
+  {
+   "name": "Perturbative field-theoretic renormalization group",
+   "scope": "Computing beta functions, fixed points, and critical exponents to fixed order in epsilon or 1/N expansions from Landau-Ginzburg-Wilson and related continuum actions."
+  },
+  {
+   "name": "Real-space and strong-disorder renormalization",
+   "scope": "Decimation, Migdal-Kadanoff, and strong-disorder renormalization schemes that produce recursion relations whose fixed points give exact or approximate critical couplings and exponents."
+  },
+  {
+   "name": "Conformal field theory and Coulomb gas",
+   "scope": "Using conformal and modular invariance and Coulomb-gas mappings to determine scaling dimensions, finite-size amplitudes, boundary exponents, and critical correlation functions in two dimensions."
+  },
+  {
+   "name": "Saddle-point and large-N asymptotics",
+   "scope": "Evaluating partition functions, generating functions, and integrals asymptotically via Laplace and steepest-descent methods in spherical, O(N)-vector, mean-field, and other large-parameter limits."
+  },
+  {
+   "name": "Response-field path integrals and dynamical mean-field theory",
+   "scope": "Martin-Siggia-Rose-Janssen-De Dominicis and Doi-Peliti functional integrals, and the dynamical mean-field equations they yield, for Langevin and stochastic reaction dynamics of interacting or disordered systems."
+  },
+  {
+   "name": "Exact solution of master equations",
+   "scope": "Solving master, Fokker-Planck, and backward Kolmogorov equations exactly via generating functions, eigenfunction expansions, and image methods to obtain stationary states and time-dependent distributions."
+  },
+  {
+   "name": "Renewal theory and Laplace-transform methods",
+   "scope": "Using renewal equations, Laplace transforms, and Sparre Andersen or Pollaczek-Spitzer formulas to obtain first-passage, survival, record, and resetting statistics of stochastic processes."
+  },
+  {
+   "name": "Large deviations and tilted generators",
+   "scope": "Computing rate functions and scaled cumulant generating functions of empirical and time-integrated observables via tilted generators, Gartner-Ellis and contraction principles, and macroscopic fluctuation theory."
+  },
+  {
+   "name": "Matrix product ansatz for steady states",
+   "scope": "Representing nonequilibrium steady states of stochastic lattice models as products of matrices obeying quadratic algebras to compute currents, density profiles, correlations, and phase diagrams."
+  },
+  {
+   "name": "Resolvent and free-probability methods",
+   "scope": "Determining spectral densities, edges, and extreme eigenvalues of random matrices and operators via Stieltjes transforms, self-consistent resolvent equations, R- and S-transforms, and log-gas energy minimization."
+  },
+  {
+   "name": "Cluster, virial, and series expansions",
+   "scope": "Mayer cluster, virial, high- and low-temperature, and exact-enumeration series expansions combined with ratio or Pade analysis to obtain thermodynamic coefficients, thresholds, and critical exponents."
+  }
+ ],
+ "field": "statistical physics",
+ "categories": [
+  "cond-mat.stat-mech",
+  "cond-mat.dis-nn"
+ ]
+}

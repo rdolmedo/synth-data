@@ -1,0 +1,482 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Dharmic traditions",
+ "weight": 0.007375499999999999,
+ "leaves": [
+  {
+   "leaf": "Vedic Samhitas, shakhas and the Vedanga auxiliary sciences",
+   "scope": "The four Vedic Samhitas (Rigveda, Samaveda, Yajurveda, Atharvaveda), covering their mandalas, hymns, seers, deities and surviving recensions (shakhas), together with the six Vedangas, including Panini's grammar, Yaska's Nirukta, Pingala's prosody and Vedanga Jyotisha.",
+   "queries": [
+    "Rigveda mandala hymns family books rishi",
+    "Yajurveda Taittiriya Maitrayani Kathaka shakha recension",
+    "Atharvaveda Paippalada Shaunaka recension hymns",
+    "Panini Ashtadhyayi sutras Yaska Nirukta Vedanga"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Brahmanas, shrauta sacrifices and grihya domestic rites",
+   "scope": "Vedic ritual as set out in the Brahmanas and Kalpa sutras: shrauta rites (agnihotra, agnishtoma, agnicayana, ashvamedha, rajasuya), priestly offices and fire altars, and grihya rites including the samskaras, upanayana, vivaha, antyeshti and shraddha.",
+   "queries": [
+    "Shatapatha Brahmana agnicayana fire altar bricks",
+    "ashvamedha rajasuya Vedic sacrifice soma ritual",
+    "hotr adhvaryu udgatr brahman Vedic priests",
+    "sixteen samskaras upanayana grihya sutra rites"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Upanishads and Aranyakas",
+   "scope": "The Aranyakas and the principal and minor Upanishads, covering their Vedic affiliations, dating, key passages and mahavakyas, interlocutors such as Yajnavalkya, Uddalaka and Nachiketa, and canonical lists such as the Muktika 108.",
+   "queries": [
+    "Brihadaranyaka Upanishad Yajnavalkya Maitreyi dialogue",
+    "Chandogya Upanishad Uddalaka Svetaketu tat tvam asi",
+    "Muktika canon 108 Upanishads list Veda affiliation",
+    "Aitareya Taittiriya Aranyaka Kaushitaki Upanishad"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mahabharata and the Bhagavad Gita",
+   "scope": "The Mahabharata's eighteen parvas, the BORI critical edition, its characters, episodes and the Harivamsa supplement, and the Bhagavad Gita's chapters, verses and classical commentaries.",
+   "queries": [
+    "Mahabharata eighteen parvas Bhandarkar critical edition",
+    "Kurukshetra war akshauhini Bhishma Drona Karna",
+    "Bhagavad Gita chapters verses yoga Arjuna Krishna",
+    "Harivamsa appendix Mahabharata Vyasa Ganesha scribe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ramayana traditions and regional retellings",
+   "scope": "Valmiki's Ramayana, its seven kandas and critical edition, and later retellings such as Tulsidas's Ramcharitmanas, the Kamba Ramayanam, the Adhyatma Ramayana and Southeast Asian versions (Ramakien, Reamker, Kakawin Ramayana).",
+   "queries": [
+    "Valmiki Ramayana seven kandas Uttara Kanda",
+    "Ramcharitmanas Tulsidas Awadhi chaupai kanda",
+    "Kamba Ramayanam Tamil Kambar Ranganatha Ramayana",
+    "Ramakien Reamker Hikayat Seri Rama Kakawin Ramayana"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Puranas and Upapuranas",
+   "scope": "The eighteen Mahapuranas and the Upapuranas, covering their sattvic/rajasic/tamasic classification, panchalakshana, verse counts, cosmology (yugas, manvantaras, kalpas), dynastic genealogies and myths, the Bhagavata Purana and the local Sthala Puranas.",
+   "queries": [
+    "eighteen Mahapuranas list verses sattva rajas tamas",
+    "Bhagavata Purana skandhas Krishna cantos",
+    "Puranic cosmology yugas manvantara kalpa",
+    "Upapurana Devi Bhagavata Kalika Purana Sthala Purana"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dharmashastra and classical Hindu law",
+   "scope": "The Dharmasutras and Dharmashastras (Manu, Yajnavalkya, Narada, Parashara), their commentaries and legal digests (Mitakshara, Dayabhaga), varna and ashrama doctrine, and how they were adopted into colonial Anglo-Hindu law.",
+   "queries": [
+    "Manusmriti chapters verses Medhatithi commentary",
+    "Mitakshara Dayabhaga inheritance schools Hindu law",
+    "Apastamba Gautama Baudhayana Dharmasutra",
+    "Anglo-Hindu law Code of Gentoo Laws"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Samkhya, Nyaya, Vaisheshika and Mimamsa darshanas",
+   "scope": "The non-Vedanta schools of Indian philosophy (Samkhya, Nyaya and Navya-Nyaya, Vaisheshika, Purva Mimamsa, plus the heterodox Charvaka), covering their root sutras, commentators, categories, and theories of the pramanas.",
+   "queries": [
+    "Samkhya Karika Ishvarakrishna tattvas prakriti purusha",
+    "Nyaya Sutras Gautama pramana Gangesha Navya-Nyaya",
+    "Vaisheshika Kanada padartha categories atoms",
+    "Mimamsa Jaimini Kumarila Bhatta Prabhakara Charvaka"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vedanta schools, acharyas and monastic seats",
+   "scope": "Advaita, Vishishtadvaita, Dvaita, Dvaitadvaita, Shuddhadvaita and Achintya-bhedabheda Vedanta, covering their founders, Brahma Sutra commentaries and key doctrines, and institutional seats such as the Dashanami mathas and Madhva's Udupi mathas.",
+   "queries": [
+    "Adi Shankara Brahma Sutra Bhashya Advaita",
+    "Ramanuja Vishishtadvaita Sri Bhashya Srirangam",
+    "Madhvacharya Dvaita Udupi Ashta Mathas",
+    "Dashanami Sampradaya Shankaracharya Sringeri Dwarka Jyotirmath"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Yoga Sutras, Hatha yoga and the Nath Siddha tradition",
+   "scope": "Patanjali's Yoga Sutras with their padas, commentaries and eight limbs, medieval Hatha yoga texts (Hatha Yoga Pradipika, Gheranda Samhita, Shiva Samhita) and their asanas, mudras and shatkarmas, and the Nath sampradaya of Matsyendranath and Gorakhnath.",
+   "queries": [
+    "Patanjali Yoga Sutras padas sutras Vyasa bhashya",
+    "Hatha Yoga Pradipika Svatmarama asanas chapters",
+    "Gheranda Samhita Shiva Samhita shatkarma mudras",
+    "Nath sampradaya Gorakhnath Matsyendranath Kanphata yogis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shaiva sects and theological schools",
+   "scope": "Schools and lineages of Shaivism (Pashupata, Kapalika, Kalamukha, Shaiva Siddhanta and its Agamas, Kashmir Shaivism/Trika and Pratyabhijna, Lingayat/Virashaiva), covering their founders, texts and doctrines.",
+   "queries": [
+    "Shaiva Siddhanta Agamas Meykandar Sivajnana Bodham",
+    "Kashmir Shaivism Abhinavagupta Tantraloka Pratyabhijna",
+    "Lingayat Virashaiva Basava vachanas Anubhava Mantapa",
+    "Pashupata Lakulisha Kapalika Kalamukha Shaiva sects"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vaishnava sampradayas and liturgical traditions",
+   "scope": "Vaishnava sects and their institutions (Sri Vaishnava Tenkalai/Vadakalai, Pancharatra and Vaikhanasa liturgy, Gaudiya Vaishnavism, Pushtimarg, Ramanandi, Swaminarayan, Assamese Ekasarana), covering founders, texts, seats and worship forms.",
+   "queries": [
+    "Gaudiya Vaishnavism Chaitanya Six Goswamis Vrindavan",
+    "Pushtimarg Vallabhacharya Shrinathji Nathdwara haveli",
+    "Swaminarayan Sampradaya Vachanamrut BAPS Vadtal",
+    "Pancharatra Vaikhanasa Agama Sri Vaishnava Tenkalai Vadakalai"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shakta and Hindu Tantric traditions",
+   "scope": "Goddess-centred Shaktism and Hindu Tantra: the Devi Mahatmya, the Shakti Peethas, the Mahavidyas, Shri Vidya and the Shri Yantra, the Kaula and Kalikula lineages, and Tantric texts and ritual (mantra, nyasa, panchamakara).",
+   "queries": [
+    "Devi Mahatmya Markandeya Purana chapters Durga Saptashati",
+    "Shakti Peetha list 51 body parts Sati",
+    "Ten Mahavidyas Kali Tara Tripura Sundari",
+    "Shri Vidya Shri Yantra Lalita Sahasranama Kaula"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bhakti poet-saints and vernacular devotional literature",
+   "scope": "The poet-saints of the bhakti movements and their collected works: the Tamil Alvars and Nayanars, Andal, Akka Mahadevi, the Kannada Haridasas, the Marathi Warkari saints, Surdas, Mirabai, Narsinh Mehta and Lal Ded.",
+   "queries": [
+    "Alvars Nalayira Divya Prabandham Andal Nammalvar",
+    "sixty-three Nayanars Tevaram Appar Sambandar Sundarar",
+    "Jnaneshwar Namdev Tukaram Warkari abhang Pandharpur",
+    "Surdas Mirabai Narsinh Mehta Purandara Dasa Haridasa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hindu temple architecture, Agamas and iconography",
+   "scope": "Hindu temple styles (Nagara, Dravida, Vesara, Kalinga), architectural treatises (Vastu Shastra, Manasara, Mayamata), major temple complexes and their dynastic patrons in South and Southeast Asia, and the iconographic conventions of murtis (ayudhas, vahanas, mudras, iconometry).",
+   "queries": [
+    "Nagara Dravida Vesara temple shikhara vimana gopuram",
+    "Brihadeeswarar temple Rajaraja Chola vimana height",
+    "Khajuraho Konark Lingaraja Kalinga temple architecture",
+    "Hindu iconography vahana ayudha Vishnu dashavatara murti"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hindu calendar, festivals and pilgrimage",
+   "scope": "The panchanga and the regional lunisolar calendars (tithi, nakshatra, Vikram and Shaka eras, amanta/purnimanta), how major festivals are dated, and pilgrimage cycles and sacred-site networks such as the Kumbh Mela, Char Dham and the twelve Jyotirlingas.",
+   "queries": [
+    "panchanga tithi nakshatra yoga karana Hindu calendar",
+    "Vikram Samvat Shaka era amanta purnimanta months",
+    "Kumbh Mela Prayagraj Haridwar Nashik Ujjain cycle",
+    "Char Dham Jyotirlinga twelve pilgrimage sites list"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Colonial-era and modern reform and revival movements in Hinduism and Buddhism",
+   "scope": "Reform, revival and missionary movements of the 19th and 20th centuries: Brahmo Samaj, Prarthana Samaj, Arya Samaj, the Ramakrishna Mission, the Theosophical Society, Anagarika Dharmapala's Maha Bodhi Society, Ambedkar's Navayana conversion, and global movements such as ISKCON.",
+   "queries": [
+    "Brahmo Samaj Ram Mohan Roy Keshub Sen",
+    "Arya Samaj Dayananda Saraswati Satyarth Prakash",
+    "Ramakrishna Mission Vivekananda Belur Math founded",
+    "Ambedkar Navayana Deeksha Bhoomi 1956 conversion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Life of the Buddha, early sangha and the Buddhist councils",
+   "scope": "Biographical traditions of Siddhartha Gautama and the main sites of his life, his chief disciples, the first three Buddhist councils, Ashoka's edicts and missions, and debates over dating the Buddha.",
+   "queries": [
+    "First Buddhist council Rajagriha Mahakassapa Ananda Upali",
+    "Second Buddhist council Vaishali ten points Mahasamghika",
+    "Ashoka edicts Dhamma Moggaliputta Tissa third council",
+    "Buddha Lumbini Bodh Gaya Sarnath Kushinagar Mahaparinirvana"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early Buddhist schools and Abhidharma",
+   "scope": "The Nikaya (sectarian) schools (Sthavira, Mahasamghika, Sarvastivada/Vaibhashika, Sautrantika, Pudgalavada, Dharmaguptaka), their distinctive doctrines, and Abhidharma literature such as the Mahavibhasa, the Abhidharmakosha and the seven books of the Theravada Abhidhamma.",
+   "queries": [
+    "Sarvastivada Vaibhashika Mahavibhasa Abhidharma Kashmir",
+    "Vasubandhu Abhidharmakosha chapters verses Sautrantika",
+    "eighteen early Buddhist schools Pudgalavada Dharmaguptaka",
+    "Abhidhamma Pitaka seven books Patthana Dhammasangani"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pali Canon and Theravada commentarial literature",
+   "scope": "The structure and contents of the Pali Tipitaka (the Vinaya, the five Nikayas and the books of the Khuddaka), its printed editions (Pali Text Society, Chattha Sangayana), and post-canonical works such as Buddhaghosa's Visuddhimagga, the Atthakathas and the Milindapanha.",
+   "queries": [
+    "Digha Nikaya Majjhima Nikaya suttas number Pali",
+    "Khuddaka Nikaya books Dhammapada Sutta Nipata Jataka",
+    "Buddhaghosa Visuddhimagga Atthakatha Pali commentaries",
+    "Pali Text Society Chattha Sangayana Tipitaka edition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theravada Buddhism in Sri Lanka and mainland Southeast Asia",
+   "scope": "The history and institutions of Theravada in Sri Lanka, Myanmar, Thailand, Laos and Cambodia: the Pali chronicles, monastic fraternities (Mahavihara, Siam Nikaya, Thammayut), supreme patriarchs, relic cults, and the modern vipassana and forest movements.",
+   "queries": [
+    "Mahavamsa Dipavamsa chronicle Mahavihara Abhayagiri",
+    "Siam Nikaya Amarapura Ramanna Nikaya Sri Lanka",
+    "Thammayut Nikaya Mongkut Supreme Patriarch Thailand",
+    "Burmese vipassana Ledi Sayadaw Mahasi Sayadaw movement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indian Mahayana sutras and philosophy",
+   "scope": "Indian Mahayana literature and thought: the Prajnaparamita, Lotus, Vimalakirti and Lankavatara sutras, Madhyamaka (Nagarjuna, Chandrakirti), Yogacara (Asanga, Vasubandhu), tathagatagarbha theory, and Buddhist epistemology (Dignaga, Dharmakirti) at Nalanda-era centres.",
+   "queries": [
+    "Nagarjuna Mulamadhyamakakarika chapters Chandrakirti Prasangika",
+    "Yogacara Asanga Vasubandhu alayavijnana three natures",
+    "Prajnaparamita Heart Sutra Diamond Sutra lines",
+    "Dignaga Dharmakirti Pramanavarttika Buddhist epistemology"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chinese and Korean Buddhism",
+   "scope": "How Buddhism was transmitted to and adapted in China and Korea: translators (An Shigao, Kumarajiva, Xuanzang), canons (Taisho Tripitaka, Tripitaka Koreana), schools (Tiantai, Huayan, Chan, Pure Land, Seon/Jogye), and major monasteries and persecutions.",
+   "queries": [
+    "Kumarajiva Xuanzang translations Chinese Buddhist canon",
+    "Taisho Tripitaka volumes Tripitaka Koreana woodblocks Haeinsa",
+    "Chan Huineng Platform Sutra five houses Linji",
+    "Tiantai Zhiyi Huayan Fazang Jogye Order Jinul"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese Buddhist schools",
+   "scope": "Buddhism in Japan from its 6th-century introduction: the Nara schools, Tendai and Shingon, the Kamakura movements (Jodo-shu, Jodo Shinshu, Nichiren, Rinzai, Soto) with their founders, head temples and texts, and modern lay movements such as Soka Gakkai.",
+   "queries": [
+    "Saicho Tendai Enryakuji Kukai Shingon Koyasan",
+    "Honen Jodo shu Shinran Jodo Shinshu Hongwanji",
+    "Dogen Soto Eihei-ji Shobogenzo Eisai Rinzai",
+    "Nichiren Lotus Sutra daimoku Soka Gakkai"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tibetan and Himalayan Vajrayana Buddhism",
+   "scope": "How Buddhism reached Tibet (the early and later diffusions), its schools (Nyingma, Kagyu, Sakya, Gelug, Jonang), tulku lineages (Dalai Lama, Panchen Lama, Karmapa), the Kangyur and Tengyur canons, and tantric systems (Kalachakra, Guhyasamaja, Dzogchen, Mahamudra) with their Indian mahasiddhas.",
+   "queries": [
+    "Gelug Tsongkhapa Ganden Drepung Sera monasteries",
+    "Karmapa Kagyu Marpa Milarepa Gampopa lineage",
+    "Kangyur Tengyur Derge Narthang editions volumes",
+    "Kalachakra Tantra Guhyasamaja Hevajra mahasiddhas"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vinaya, monastic discipline and ordination lineages",
+   "scope": "Buddhist monastic law across the surviving Vinayas (Theravada, Dharmaguptaka, Mulasarvastivada): Pratimoksha rule classes and counts, ordination procedure, uposatha, vassa and kathina, and the history and revival of bhikkhuni ordination.",
+   "queries": [
+    "Patimokkha rules number bhikkhu parajika sanghadisesa",
+    "Dharmaguptaka Vinaya Mulasarvastivada Vinaya ordination lineage",
+    "bhikkhuni ordination revival Theravada 1998 Bodh Gaya",
+    "uposatha kathina ceremony vassa rains retreat"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Buddhist art, architecture and archaeological sites",
+   "scope": "Buddhist material culture: stupas, chaityas and viharas, sites such as Sanchi, Bharhut, Amaravati, Ajanta, Gandhara, Borobudur, Bamiyan and the Mogao caves, the early aniconic phase, and iconographic conventions such as mudras and the bodily marks (lakshanas).",
+   "queries": [
+    "Sanchi Great Stupa toranas Bharhut Amaravati reliefs",
+    "Ajanta caves Ellora Buddhist caves chaitya vihara",
+    "Gandhara Mathura Buddha image Greco-Buddhist art",
+    "Borobudur terraces reliefs stupas Mogao caves Bamiyan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tirthankaras, Jain history and sects",
+   "scope": "The 24 Tirthankaras and their emblems, the life of Mahavira, the Digambara-Shvetambara schism and later subsects (Murtipujaka gacchas, Sthanakvasi, Terapanth, Taran Panth), and the royal patrons and acharyas of Jain history.",
+   "queries": [
+    "24 Tirthankaras list symbols Rishabhanatha Parshvanatha",
+    "Mahavira Kundagrama Pavapuri nirvana Jain",
+    "Digambara Shvetambara schism Bhadrabahu Chandragupta",
+    "Sthanakvasi Terapanth Acharya Bhikshu Lonka Shah"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jain scriptures and philosophy",
+   "scope": "The Shvetambara Agamas (Angas, Upangas, the lost Purvas, the Valabhi council), the Digambara canon (Shatkhandagama, Kundakunda's works), Umasvati's Tattvartha Sutra, and doctrines such as anekantavada, syadvada, the tattvas, karma types, gunasthanas and Jain cosmology.",
+   "queries": [
+    "Jain Agamas Angas Upangas Valabhi council Devardhigani",
+    "Tattvartha Sutra Umasvati chapters seven tattvas",
+    "anekantavada syadvada saptabhangi Jain logic",
+    "Jain karma eight types gunasthana fourteen stages"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jain ritual, ascetic practice, festivals and temples",
+   "scope": "Jain religious practice: the five great and lesser vows, ascetic orders and their dress, rites (puja, samayika, pratikramana), sallekhana, festivals (Paryushana, Das Lakshana, Mahavir Jayanti), and major pilgrimage and temple sites such as Palitana, Dilwara, Ranakpur, Shravanabelagola and Sammed Shikharji.",
+   "queries": [
+    "Paryushana Das Lakshana Samvatsari Jain festival",
+    "sallekhana santhara Jain fasting death ritual",
+    "Shravanabelagola Gommateshwara Mahamastakabhisheka statue",
+    "Palitana Shatrunjaya Dilwara Ranakpur Jain temples"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sikh Gurus and the history of the Sikh Panth",
+   "scope": "The lives, successions and martyrdoms of the ten Sikh Gurus, the founding of the Khalsa in 1699, Banda Singh Bahadur, the misls, Maharaja Ranjit Singh's Sikh Empire, the Anglo-Sikh wars and the Singh Sabha period.",
+   "queries": [
+    "ten Sikh Gurus succession dates Guru Nanak Angad",
+    "Khalsa 1699 Vaisakhi Anandpur Panj Pyare",
+    "Banda Singh Bahadur misls Dal Khalsa Sikh Confederacy",
+    "Ranjit Singh Sikh Empire Anglo-Sikh wars"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sikh scriptures and Gurmukhi literature",
+   "scope": "The Guru Granth Sahib (compilation of the Adi Granth, its angs, ragas, contributing Gurus and Bhagats, and banis such as Japji and Sukhmani), the Dasam Granth, the vars of Bhai Gurdas, the janamsakhis and the Gurmukhi script.",
+   "queries": [
+    "Guru Granth Sahib 1430 angs ragas Bhagat bani",
+    "Adi Granth compilation 1604 Bhai Gurdas Kartarpur Bir",
+    "Dasam Granth Jaap Sahib Chaupai Zafarnama",
+    "Janamsakhi Bhai Bala Puratan Gurmukhi script"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sikh institutions, practices and sectarian groups",
+   "scope": "Gurdwaras and the five Takhts, the SGPC and the Gurdwara Reform Movement, the Sikh Rehat Maryada, the Five Ks and amrit sanchar, the Nanakshahi calendar and festivals, and groups such as the Udasis, Nihangs, Namdharis and Nirankaris.",
+   "queries": [
+    "five Takhts Akal Takht Kesgarh Sahib Hazur Sahib",
+    "Sikh Rehat Maryada five Ks amrit sanchar",
+    "SGPC Gurdwara Reform Movement Akali 1925 Act",
+    "Nanakshahi calendar Hola Mohalla Gurpurab Bandi Chhor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nirguna sant panths and regional syncretic movements",
+   "scope": "Devotional and syncretic movements that fall outside the major sectarian folds: the Kabir Panth, Ravidassia, Dadu Panth, Sant Mat and the Radha Soami lineages, the Satnami movements, Mahima Dharma, Ayyavazhi and the Bauls, covering their founders, scriptures and centres.",
+   "queries": [
+    "Kabir Panth Bijak Dharamdas Kabir Chaura",
+    "Ravidassia Amritbani Dera Sachkhand Ballan",
+    "Radha Soami Satsang Beas Shiv Dayal Singh",
+    "Ayyavazhi Akilathirattu Mahima Dharma Satnami Ghasidas"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,701 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "java",
+ "weight": 0.01076,
+ "leaves": [
+  {
+   "leaf": "JDK release history, version-string schemes, distributions and support timelines",
+   "scope": "Java SE/JDK releases from JDK 1.0 to current six-monthly feature releases: GA dates, codenames, LTS designations, version-string formats (JEP 223/322), vendor builds (Oracle JDK, Temurin, Corretto, Zulu, Liberica, SapMachine, Microsoft) and their licensing and end-of-support dates.",
+   "queries": [
+    "JDK release general availability date long-term support",
+    "Java version history J2SE codename Tiger Mustang",
+    "Oracle Java SE support roadmap extended support",
+    "Eclipse Temurin Amazon Corretto Azul Zulu OpenJDK builds"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Java stewardship history and governance: Sun, Oracle, OpenJDK, JCP, JSRs and the JEP process",
+   "scope": "Where Java came from (Green Project, Oak, Gosling) and who runs it now: the Sun-to-Oracle transition, open-sourcing of OpenJDK under GPL with Classpath Exception, the Java Community Process and Executive Committee, JSR numbering, TCKs, the JEP lifecycle and preview/incubator rules, and the Oracle v. Google case.",
+   "queries": [
+    "Green Project Oak James Gosling Sun Microsystems",
+    "Java Community Process Executive Committee JSR specification lead",
+    "JEP process draft candidate proposed to target",
+    "OpenJDK GPL Classpath Exception Oracle acquisition Sun"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Primitive types, literals, conversions and numeric semantics",
+   "scope": "JLS rules on primitive type ranges, integer, floating-point and character literal syntax, widening and narrowing conversions, boxing, binary numeric promotion, compound-assignment casts, integer overflow and IEEE 754 floating-point behavior, including strictfp and JEP 306.",
+   "queries": [
+    "integer literal binary underscore octal long suffix",
+    "widening primitive conversion narrowing conversion rules",
+    "binary numeric promotion compound assignment operator cast",
+    "floating-point strictfp IEEE 754 NaN JEP 306"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Classes, inheritance, overloading resolution, access control, nested classes and initialization order",
+   "scope": "JLS rules for class declarations and members: modifiers, protected and package-private access, overriding versus hiding, the phases of overload resolution and most-specific-method selection, inner, local and anonymous classes with enclosing instances, and the order of static and instance initialization.",
+   "queries": [
+    "method overloading resolution most specific method phases",
+    "protected access package-private subclass different package",
+    "class initialization order static initializer instance initializer",
+    "inner class enclosing instance anonymous local class"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Interfaces, enums and annotations as language features",
+   "scope": "Default, static and private interface methods and diamond-inheritance rules; enum semantics (constant-specific bodies, values/valueOf, ordinal, switch on enums); annotation declarations, meta-annotations, repeatable and type annotations (JSR 308); and the JSR 269 annotation-processing API.",
+   "queries": [
+    "interface default methods static private methods",
+    "enum constant class body values valueOf ordinal",
+    "meta-annotations Retention Target Repeatable Inherited Documented",
+    "annotation processing Processor RoundEnvironment javax.annotation.processing"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Generics: type erasure, wildcards, bounds and type inference",
+   "scope": "Generic types and methods as JLS and javac define them: erasure and bridge methods, raw types, bounded type parameters, wildcard capture and PECS, reifiable types, heap pollution and @SafeVarargs, the diamond operator, and how type inference changed in Java 5, 7 and 8.",
+   "queries": [
+    "type erasure bridge method raw types",
+    "wildcard bounded type upper bound lower bound super",
+    "type inference diamond operator generic method target typing",
+    "heap pollution reifiable types SafeVarargs unchecked warning"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lambda expressions, method references and invokedynamic-based translation",
+   "scope": "Language rules for lambdas (functional-interface target typing, effectively final capture, the four kinds of method reference) and how javac compiles them and other features through invokedynamic: LambdaMetafactory, bootstrap methods and StringConcatFactory (JEP 280).",
+   "queries": [
+    "lambda expression functional interface target type effectively final",
+    "method reference kinds static bound unbound constructor",
+    "LambdaMetafactory invokedynamic bootstrap method lambda translation",
+    "StringConcatFactory indified string concatenation JEP 280"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Records, sealed classes and pattern matching",
+   "scope": "Record classes (canonical and compact constructors, accessors, restrictions), sealed and non-sealed hierarchies with permits clauses, type patterns for instanceof, record patterns, pattern matching for switch with guards and exhaustiveness, and the preview-to-final history of each JEP.",
+   "queries": [
+    "record classes canonical constructor compact constructor accessor",
+    "sealed classes permits non-sealed final subclasses",
+    "pattern matching instanceof type pattern binding variable",
+    "record patterns switch pattern matching guard exhaustiveness"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Project Amber syntax features: var, switch expressions, text blocks and newer syntax simplifications",
+   "scope": "Smaller Amber language changes and their JEPs and release versions: local-variable type inference with var, arrow-form switch and yield, text blocks with their escape and indentation rules, unnamed variables and patterns, compact source files and instance main methods, flexible constructor bodies, module import declarations and primitive types in patterns.",
+   "queries": [
+    "local variable type inference var JEP 286",
+    "switch expressions yield arrow labels JEP 361",
+    "text blocks escape sequences incidental whitespace",
+    "unnamed variables underscore instance main methods"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Exceptions, try-with-resources and exception-handling semantics",
+   "scope": "The Throwable hierarchy and checked versus unchecked rules, throws clauses on overriding methods, multi-catch and precise rethrow, try-with-resources with AutoCloseable and suppressed exceptions, how finally and abrupt completion interact, and helpful NullPointerException messages (JEP 358).",
+   "queries": [
+    "try-with-resources AutoCloseable suppressed exceptions",
+    "checked exceptions RuntimeException Error throws clause",
+    "multi-catch precise rethrow effectively final exception parameter",
+    "helpful NullPointerException messages JEP 358"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Java Memory Model, synchronized, volatile and final-field semantics",
+   "scope": "JLS chapter 17 and JSR-133: happens-before, synchronization order, data races, volatile and monitor semantics, final-field freeze and safe publication, non-atomic long/double writes, double-checked locking, and the VarHandle memory-ordering modes (plain, opaque, acquire/release, volatile).",
+   "queries": [
+    "happens-before relationship Java Memory Model JSR 133",
+    "volatile fields synchronization order data race",
+    "final field semantics safe publication constructor",
+    "VarHandle access modes acquire release opaque"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Java object serialization, RMI and JNDI",
+   "scope": "Built-in serialization (Serializable, Externalizable, serialVersionUID, readObject/writeObject/readResolve, the stream protocol, deserialization filters from JEP 290 and JEP 415) and the distributed-object and naming APIs that rely on it: RMI registry, stubs, rmic, removal of RMI activation, and JNDI contexts and providers.",
+   "queries": [
+    "serialVersionUID Serializable readObject writeObject readResolve",
+    "deserialization filter ObjectInputFilter jdk.serialFilter",
+    "RMI registry remote interface stub rmic activation",
+    "JNDI InitialContext naming service provider LDAP"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reflection, dynamic proxies and method handles",
+   "scope": "The java.lang.reflect API (Class, Method, Field, setAccessible, Modifier), dynamic proxies with InvocationHandler, the java.lang.invoke MethodHandle and Lookup API with MethodType and combinators, and how core reflection was reimplemented on method handles in JEP 416.",
+   "queries": [
+    "java.lang.reflect Method invoke setAccessible",
+    "dynamic proxy InvocationHandler Proxy newProxyInstance",
+    "MethodHandles Lookup findVirtual MethodType",
+    "core reflection reimplemented method handles JEP 416"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Java Platform Module System (Project Jigsaw)",
+   "scope": "JPMS from JSR 376 and Java 9: module-info directives (requires transitive/static, exports, opens, uses, provides), automatic and unnamed modules, the module path, the JDK's own module graph, --add-opens and --add-exports, and strong encapsulation of JDK internals (JEP 396/403).",
+   "queries": [
+    "module-info requires transitive exports opens",
+    "Project Jigsaw module system JSR 376",
+    "automatic modules unnamed module module path",
+    "add-opens add-exports strong encapsulation JDK internals"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Class file format, bytecode instruction set and the ClassFile API",
+   "scope": "The JVM Specification's class file structure (0xCAFEBABE magic, major/minor versions per release, constant-pool tags, access flags, attributes like StackMapTable, BootstrapMethods and NestMembers), opcodes and invocation instructions, bytecode verification, and the java.lang.classfile API.",
+   "queries": [
+    "class file format magic number major version constant pool",
+    "JVM instruction set opcode invokevirtual invokespecial invokeinterface",
+    "StackMapTable attribute verification type checking",
+    "ClassFile API java.lang.classfile JEP 484"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Class loading, linking and initialization",
+   "scope": "How the JVM loads and links classes: the bootstrap, platform and application loaders, parent delegation, defineClass/findClass and parallel-capable loaders, context class loaders, verification/preparation/resolution, initialization triggers, hidden classes (JEP 371), and the related linkage errors.",
+   "queries": [
+    "class loader delegation bootstrap platform application class loader",
+    "loading linking verification preparation resolution initialization",
+    "ClassLoader defineClass findClass parallel capable",
+    "hidden classes defineHiddenClass JEP 371"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HotSpot JIT compilers and tiered compilation",
+   "scope": "HotSpot's interpreter and the C1 and C2 compilers: tiered compilation levels, compile thresholds, on-stack replacement, inlining heuristics and flags, intrinsics, deoptimization, the code cache, and the experimental Graal JIT through JVMCI.",
+   "queries": [
+    "tiered compilation C1 C2 compiler levels",
+    "HotSpot JIT inlining MaxInlineSize FreqInlineSize",
+    "on-stack replacement deoptimization compile threshold",
+    "Graal JIT compiler JVMCI experimental"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Garbage collectors, reference objects and finalization",
+   "scope": "HotSpot collectors (Serial, Parallel, CMS, G1, ZGC including generational ZGC, Shenandoah, Epsilon): their algorithms, default selection, tuning flags, introduction and removal dates, plus soft, weak and phantom references, Cleaner, and the deprecation of finalization (JEP 421).",
+   "queries": [
+    "G1 garbage collector regions humongous objects pause target",
+    "ZGC Shenandoah concurrent low-latency garbage collector",
+    "Concurrent Mark Sweep removed Parallel Serial Epsilon collector",
+    "PhantomReference WeakReference Cleaner finalization deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HotSpot runtime internals and JVM command-line options",
+   "scope": "HotSpot runtime mechanics and the flags that control them: heap sizing and ergonomics, compressed oops and class pointers, metaspace replacing PermGen, thread stacks, safepoints, monitor locking and the removal of biased locking, container awareness, and the -X/-XX option conventions.",
+   "queries": [
+    "compressed oops compressed class pointers heap",
+    "biased locking deprecated lightweight locking monitor",
+    "metaspace MaxMetaspaceSize PermGen removal",
+    "container support ActiveProcessorCount MaxRAMPercentage ergonomics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JVM diagnostics, monitoring and profiling tools",
+   "scope": "Serviceability tooling in the JDK: JDK Flight Recorder and Mission Control, jcmd diagnostic commands, jstack, jmap, jstat, jhsdb, Native Memory Tracking, unified logging with -Xlog, the attach API and JVMTI, and JMX with platform MXBeans and JConsole.",
+   "queries": [
+    "JDK Flight Recorder events jfr command",
+    "jcmd diagnostic commands Thread.print GC.heap_dump",
+    "unified JVM logging Xlog tags levels",
+    "platform MXBeans JMX MBeanServer jconsole"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JDK command-line tools and Javadoc",
+   "scope": "Options and behavior of the JDK's developer tools: javac (--release, -source/-target, lint), the java launcher including single-file and multi-file source launch, jshell, jlink, jpackage, jdeps, javap, and javadoc with its block and inline tags, doclint, {@snippet} and Markdown doc comments.",
+   "queries": [
+    "javac options release source target",
+    "launch single-file source-code programs java launcher",
+    "jlink jpackage jdeps javap tool options",
+    "javadoc tags snippet Markdown documentation comments"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "JAR packaging, manifests, signing and legacy deployment technologies",
+   "scope": "The JAR format and META-INF conventions: manifest attributes (Main-Class, Class-Path, Automatic-Module-Name, Multi-Release), multi-release JARs, jarsigner and signed-JAR verification, and the browser and desktop deployment stack that has since been retired (applets, Java Plug-in, Java Web Start/JNLP).",
+   "queries": [
+    "JAR manifest Main-Class Class-Path attributes",
+    "multi-release JAR files META-INF versions",
+    "jarsigner signed JAR timestamp certificate",
+    "Java Web Start JNLP applet plugin deprecation"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foreign Function & Memory API, JNI and sun.misc.Unsafe",
+   "scope": "Native interop and off-heap memory: Project Panama's FFM API (Linker, MemorySegment, Arena, MemoryLayout, upcalls) and jextract, the JNI programming model (JNIEnv, type signatures, local and global references), and the deprecation and restriction of sun.misc.Unsafe memory access.",
+   "queries": [
+    "Foreign Function Memory API Linker MemorySegment Arena",
+    "jextract native header bindings Panama",
+    "JNI native method JNIEnv type signatures",
+    "sun.misc.Unsafe memory-access methods deprecation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Emerging OpenJDK projects: Valhalla, Leyden, Lilliput, Babylon, Vector API and CRaC",
+   "scope": "Long-running OpenJDK projects and incubating features: Valhalla value classes and null-restricted types, Leyden and the CDS/AOT cache, Lilliput compact object headers, Babylon code reflection, the Vector API's incubator rounds, and CRaC checkpoint/restore, with their JEP numbers and status.",
+   "queries": [
+    "Project Valhalla value classes objects JEP 401",
+    "Vector API incubator SIMD JEP",
+    "compact object headers Project Lilliput",
+    "Project Leyden ahead-of-time class loading cache"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "GraalVM, Native Image and Truffle",
+   "scope": "GraalVM editions and release history, Native Image AOT compilation (closed-world assumption, build-time initialization, reachability metadata and reflection configuration, the tracing agent), and the Truffle framework with polyglot language implementations.",
+   "queries": [
+    "GraalVM Native Image reachability metadata reflection configuration",
+    "native-image build options closed-world assumption",
+    "Truffle language implementation framework polyglot",
+    "GraalVM Community Edition release Oracle GraalVM"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alternative JVM implementations and Android runtimes",
+   "scope": "Java implementations other than HotSpot: Eclipse OpenJ9/IBM J9, JRockit, Azul Zing/Platform Prime, Apache Harmony, GNU gcj/Classpath, Kaffe, Jikes RVM, plus Android's Dalvik and ART, the dex format, and D8/R8 desugaring of Java language features.",
+   "queries": [
+    "Eclipse OpenJ9 shared classes cache",
+    "JRockit Apache Harmony gcj Kaffe JVM implementation",
+    "Dalvik virtual machine dex Android Runtime ART",
+    "D8 R8 desugaring Java language features Android"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Java ME, Java Card and embedded Java platforms",
+   "scope": "Java's smaller platforms: Java ME configurations and profiles (CLDC, CDC, MIDP, Foundation/Personal Profile), MIDlets and their JSRs, Java Card's applet model, APDUs, AIDs and versions, and niche variants such as Java TV Xlets, BD-J and Java ME Embedded.",
+   "queries": [
+    "CLDC MIDP MIDlet Java ME configuration profile",
+    "Java Card applet APDU AID",
+    "Connected Device Configuration Foundation Profile Personal Profile",
+    "Java ME Embedded Java TV Xlet BD-J"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "JDK security architecture: Security Manager, keystores, JCA providers and JSSE",
+   "scope": "Platform security built into the JDK: the Security Manager and policy files and their deprecation and disabling (JEP 411/486), the java.security properties file, JCA/JCE provider architecture and default providers, keytool and keystore types, and JSSE TLS protocol and disabled-algorithm settings.",
+   "queries": [
+    "Security Manager deprecated permanently disabled JEP 486",
+    "keytool keystore PKCS12 JKS default type",
+    "java.security jdk.tls.disabledAlgorithms security properties",
+    "JCA provider architecture SunJCE MessageDigest Cipher"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Deprecations and removals of JDK APIs, modules and features",
+   "scope": "What was deprecated or removed in which JDK release and under which JEP: the Java EE and CORBA modules, Nashorn, Pack200, the applet API, Thread.stop and other terminally deprecated methods, @Deprecated(forRemoval) and jdeprscan, and the removal sections of release notes.",
+   "queries": [
+    "JEP 320 remove Java EE CORBA modules",
+    "Nashorn JavaScript engine deprecated removed",
+    "Deprecated forRemoval jdeprscan terminally deprecated",
+    "removed APIs features JDK release notes"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Non-Spring Java web frameworks",
+   "scope": "Server-side and component web frameworks outside Spring and the bare Jakarta specs: Apache Struts (actions, interceptors, OGNL), JSF implementations and component suites (Mojarra, MyFaces, PrimeFaces), Vaadin, GWT, Apache Wicket, Tapestry, Play and Grails, with their versions and defining features.",
+   "queries": [
+    "Apache Struts action interceptor OGNL",
+    "JavaServer Faces Mojarra MyFaces PrimeFaces",
+    "Vaadin Flow Google Web Toolkit compiler",
+    "Apache Wicket Tapestry Play Framework Java"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Apache Maven",
+   "scope": "Maven's build model: POM structure and inheritance, the default, clean and site lifecycles and their phases, dependency scopes and mediation, dependencyManagement and BOM imports, plugins and goals, settings.xml, repositories and mirrors, coordinates, and changes in Maven 3.x and 4.",
+   "queries": [
+    "Maven build lifecycle phases default",
+    "POM dependency scope provided runtime test",
+    "dependencyManagement BOM import scope Maven",
+    "settings.xml mirrors repository Maven Central coordinates"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Gradle, Apache Ant and Ivy",
+   "scope": "Gradle for Java projects (java and java-library plugins, api/implementation configurations, toolchains, the wrapper, build and configuration caches, Groovy and Kotlin DSLs, version-specific release notes) and the Ant and Ivy tools that came before it (build.xml targets and tasks, Ivy dependency resolution).",
+   "queries": [
+    "Gradle java-library plugin api implementation configurations",
+    "Gradle wrapper gradle-wrapper.properties distribution version",
+    "Gradle configuration cache build cache release notes",
+    "Apache Ant build.xml targets tasks Ivy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spring Framework core, AOP, MVC and transactions",
+   "scope": "Spring Framework itself: the IoC container, bean lifecycle and scopes, Java and annotation configuration, AOP proxies and AspectJ pointcuts, Spring MVC's DispatcherServlet and WebFlux, declarative transactions (propagation, isolation, rollback rules), and the JDK and Jakarta baselines of each major version.",
+   "queries": [
+    "Spring IoC container bean scopes ApplicationContext",
+    "Spring AOP proxies pointcut advice AspectJ",
+    "Spring MVC DispatcherServlet handler mapping WebFlux",
+    "Transactional propagation isolation rollback rules Spring"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Spring Boot and Spring ecosystem projects",
+   "scope": "Spring Boot's auto-configuration and @Conditional annotations, starters, externalized configuration and property-source order, Actuator endpoints, embedded servers and version support policy, plus the companion projects Spring Security, Spring Data, Spring Batch and Spring Cloud.",
+   "queries": [
+    "Spring Boot auto-configuration starters conditional",
+    "Spring Boot Actuator endpoints health metrics",
+    "externalized configuration property sources order application.properties",
+    "Spring Security filter chain Spring Data repositories"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Jakarta EE / Java EE specifications and application servers",
+   "scope": "The enterprise platform: J2EE, Java EE and Jakarta EE version history and the javax-to-jakarta namespace move, component specs (Servlet, JSP, EJB, CDI, JAX-RS, JMS, Bean Validation) with their versions, and the servers that implement them (Tomcat, Jetty, Undertow, WildFly, GlassFish, Payara, Open Liberty, WebLogic, WebSphere, TomEE).",
+   "queries": [
+    "Jakarta EE javax jakarta namespace change",
+    "Servlet specification version Tomcat compatibility",
+    "Enterprise JavaBeans session beans message-driven beans",
+    "WildFly GlassFish Payara Open Liberty WebLogic"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JDBC, JPA and Hibernate ORM",
+   "scope": "Relational data access in Java: JDBC driver types, DriverManager and DataSource, connection URLs, isolation-level constants and JDBC spec versions, connection pools, the JPA/Jakarta Persistence mapping annotations, fetch and cascade types, JPQL and persistence.xml, and Hibernate ORM features and version changes.",
+   "queries": [
+    "JDBC driver types DriverManager connection URL",
+    "transaction isolation levels Connection TRANSACTION_READ_COMMITTED",
+    "JPA entity mapping annotations FetchType cascade",
+    "Hibernate ORM second-level cache HQL dialect"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cloud-native Java microservice frameworks",
+   "scope": "Lightweight and cloud-native frameworks: Quarkus (extensions, build-time processing, dev mode), Micronaut (compile-time DI and AOT), Helidon SE/MP, Eclipse MicroProfile specs (Config, Health, Fault Tolerance, OpenAPI), Eclipse Vert.x and Dropwizard.",
+   "queries": [
+    "Quarkus extensions build time native dev mode",
+    "Micronaut compile-time dependency injection AOT",
+    "Eclipse MicroProfile Config Health Fault Tolerance",
+    "Helidon SE MP Vert.x Dropwizard"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Desktop GUI toolkits: AWT, Swing, JavaFX and SWT",
+   "scope": "Java desktop UI: AWT heavyweight components and the event model, Swing's lightweight components, event dispatch thread, layout managers and look-and-feels (Metal, Nimbus), JavaFX/OpenJFX with its scene graph, properties, FXML and post-JDK-11 separation, and Eclipse SWT/JFace.",
+   "queries": [
+    "Swing event dispatch thread SwingUtilities invokeLater",
+    "Swing look and feel Metal Nimbus layout manager",
+    "JavaFX OpenJFX scene graph FXML properties",
+    "AWT heavyweight components SWT widget toolkit"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Java IDEs and development environments",
+   "scope": "Java IDEs and editors: Eclipse IDE and JDT with the ecj compiler and simultaneous-release naming, IntelliJ IDEA editions and versions, Apache NetBeans history, JDeveloper and BlueJ, and Java tooling for VS Code built on the Eclipse JDT Language Server.",
+   "queries": [
+    "Eclipse IDE simultaneous release train names",
+    "IntelliJ IDEA Community Ultimate edition release",
+    "Apache NetBeans release history Oracle donation",
+    "Eclipse JDT Language Server Visual Studio Code Java"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Static analysis, linting and code-quality tools for Java",
+   "scope": "Java static analysis and style enforcement: FindBugs and SpotBugs bug patterns, Checkstyle checks and the Sun/Google configurations, PMD rules and its copy-paste detector, Error Prone and NullAway, the Checker Framework's pluggable type systems, SonarQube Java rules, and formatters such as google-java-format.",
+   "queries": [
+    "SpotBugs FindBugs bug patterns detectors",
+    "Checkstyle checks configuration Google style",
+    "PMD rules copy-paste detector CPD",
+    "Error Prone NullAway Checker Framework nullness"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lexical structure, keywords, operators, statements and definite assignment in the JLS",
+   "scope": "The JLS rules for source text and control flow: Unicode escapes and lexical translation, identifiers, reserved and contextual keywords, separators, operator precedence and evaluation order, constant expressions, classic statements (labeled break/continue, legacy switch fall-through, assert), unreachable-code rules and definite assignment.",
+   "queries": [
+    "Java reserved keywords contextual keywords goto const",
+    "Unicode escapes lexical translation Java Language Specification",
+    "definite assignment blank final variable rules JLS",
+    "labeled break continue unreachable statement compile-time error"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Java licensing, trademarks and litigation",
+   "scope": "The license terms Java implementations ship under (Binary Code License, OTN, No-Fee Terms and Conditions, GPLv2 with Classpath Exception, Java SE Subscription and Universal Subscription pricing), TCK and trademark licensing, and lawsuits such as Sun v. Microsoft, the Apache Harmony TCK dispute and Google LLC v. Oracle America.",
+   "queries": [
+    "Google v. Oracle Supreme Court Java API copyright fair use",
+    "Sun Microsystems v. Microsoft Java lawsuit Visual J++ settlement",
+    "Oracle No-Fee Terms and Conditions license JDK",
+    "GPL version 2 Classpath Exception OpenJDK TCK license"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "OpenJDK source repositories, build system and test infrastructure",
+   "scope": "How the JDK itself is built and tested: the Mercurial-to-Git/GitHub migration under Project Skara, repository layout, autoconf configure options and make targets, the jtreg regression harness and its test tags, and update-release backport workflows described in the OpenJDK Developers' Guide.",
+   "queries": [
+    "jtreg regression test harness tags run bug",
+    "Project Skara OpenJDK Git GitHub migration",
+    "building the JDK configure options make images",
+    "OpenJDK Developers Guide backports update releases"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Java 2D, Image I/O, Java Sound and media APIs",
+   "scope": "The graphics and media APIs outside the widget toolkits: Java 2D rendering pipelines (OpenGL, Direct3D, XRender, Metal), fonts and text layout, javax.imageio plugins and formats, javax.sound sampled and MIDI, Java Print Service and Java Access Bridge, plus optional packages such as JMF, Java 3D and JOGL.",
+   "queries": [
+    "Java 2D rendering pipeline OpenGL Metal XRender",
+    "javax.imageio ImageReader plugin supported image formats",
+    "javax.sound.sampled AudioSystem javax.sound.midi Synthesizer",
+    "Java Media Framework Java 3D JOGL release"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sun-era distributed and hardware Java technologies: Jini, JavaSpaces, JXTA, Java IDL, JavaOS and Java processors",
+   "scope": "Older Sun-ecosystem technologies beyond the core platform: Jini/Apache River service discovery, JavaSpaces tuple spaces, JXTA peer-to-peer protocols, the Java IDL ORB and idlj compiler, JavaOS and JavaStation network computers, and bytecode-executing hardware such as picoJava and ARM Jazelle DBX.",
+   "queries": [
+    "Jini lookup service discovery Apache River",
+    "JavaSpaces tuple space write take read entries",
+    "JXTA peer-to-peer protocols peer groups pipes",
+    "picoJava processor Jazelle DBX bytecode execution"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Java decompilers, obfuscators and bytecode shrinkers",
+   "scope": "Tools that reverse or protect compiled Java: decompilers (JAD, JD-GUI, CFR, Procyon, Fernflower/Vineflower, Krakatau) and obfuscators or shrinkers (ProGuard, R8, DexGuard, yGuard, Zelix KlassMaster, Allatori, DashO), with their configuration syntax, options and version history.",
+   "queries": [
+    "ProGuard keep options shrinking optimization obfuscation",
+    "R8 compiler Android full mode ProGuard compatibility",
+    "Fernflower Vineflower decompiler IntelliJ analytical",
+    "CFR Procyon JD-GUI Java decompiler release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Notable Java security vulnerabilities, exploits and Critical Patch Updates",
+   "scope": "Specific CVEs and exploit classes affecting the JDK and widely deployed Java components (applet sandbox escapes, deserialization gadget chains, Log4Shell, Spring4Shell, Psychic Signatures), along with Oracle's quarterly Critical Patch Update schedule and CVSS risk matrices.",
+   "queries": [
+    "Log4Shell CVE-2021-44228 JNDI lookup remote code execution",
+    "Oracle Critical Patch Update Java SE risk matrix CVSS",
+    "Psychic Signatures CVE-2022-21449 ECDSA verification",
+    "Java applet sandbox zero-day exploit CVE-2012-4681"
+   ],
+   "sources": [
+    "changelog",
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Non-Java JVM languages and Java interoperability",
+   "scope": "Groovy, Clojure, Scala, Kotlin, JRuby, Jython, Ceylon and other languages that target the JVM: their creators, origins, release versions, how they compile to bytecode, and the mechanisms they use to interoperate with Java classes.",
+   "queries": [
+    "Apache Groovy release dynamic language JVM",
+    "Clojure Lisp dialect JVM Rich Hickey release",
+    "JRuby Jython implementation JVM compatibility version",
+    "Kotlin Java interop JvmStatic JvmOverloads annotations"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Java certification exams, conferences and community programs",
+   "scope": "Sun and Oracle Java certifications (SCJP, SCJD, OCA, OCP and OCM, with their exam codes, formats, passing scores and retirement dates), JavaOne and other Java conferences, the Java Champions and Java User Group programs, the Duke mascot and the Duke's Choice Awards.",
+   "queries": [
+    "Oracle Certified Professional Java SE Developer exam 1Z0-829",
+    "Sun Certified Java Programmer SCJP exam versions",
+    "JavaOne conference San Francisco Oracle history",
+    "Duke mascot Java Champions Duke's Choice Award"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  }
+ ]
+}

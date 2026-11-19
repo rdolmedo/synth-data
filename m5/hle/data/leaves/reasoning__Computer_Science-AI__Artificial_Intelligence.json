@@ -1,0 +1,150 @@
+{
+ "partition": "reasoning",
+ "category": "Computer Science/AI",
+ "subject": "Artificial Intelligence",
+ "target_leaves": 8,
+ "expected_problems": 65,
+ "leaves": [
+  {
+   "leaf": "Heuristic search expansion counting and admissibility",
+   "scope": "Problems give a small, fully specified state space or puzzle domain with a heuristic and ask for exact node expansions, tie-breaking outcomes, or whether a combination of heuristics stays admissible or consistent. They are hard because the solver has to trace A*, IDA* or bidirectional search exactly under the stated tie-breaking rules and reason about how heuristics interact.",
+   "techniques": [
+    "A* with explicit f-value tie-breaking and reopening behaviour under inconsistent heuristics",
+    "IDA* threshold sequences and counting node regenerations across iterations",
+    "additive versus max-combined pattern database heuristics and cost partitioning",
+    "pathmax and consistency repair of an inconsistent heuristic",
+    "bidirectional front-to-end search with meet-in-the-middle stopping conditions (e.g. MM, NBS)",
+    "surely-expanded node sets defined by f(n) < C*"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple",
+    "small set",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Delete-relaxation and landmark heuristics in STRIPS planning",
+   "scope": "Problems define a small STRIPS or SAS+ planning task and ask for exact values of h^max, h^add, h^FF, h^+, h^m or LM-cut in some state, or for optimal plan length and a landmark ordering. They are hard because the heuristics differ in subtle ways, h^+ is NP-hard in general, and computing values by hand means careful fixpoint and cut reasoning.",
+   "techniques": [
+    "relaxed planning graph construction and best-supporter extraction",
+    "LM-cut iterative justification-graph cuts",
+    "h^m (h^2) computed over pairs of atoms with mutex reasoning",
+    "disjunctive action landmarks and greedy-necessary orderings",
+    "optimal cost partitioning computed by a small linear program",
+    "translation from STRIPS to SAS+ and invariant (mutex group) synthesis"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Exact inference and independence in Bayesian networks",
+   "scope": "Problems give a specific DAG with conditional probability tables and ask for an exact posterior, the number of d-separation statements of a given form, the induced width under a stated elimination order, or the size of the Markov equivalence class. They are hard because they combine graph-theoretic separation reasoning with exact rational arithmetic through variable elimination or junction trees.",
+   "techniques": [
+    "d-separation via the Bayes-ball algorithm or moralized ancestral graphs",
+    "variable elimination with induced-width and min-fill ordering analysis",
+    "junction tree construction and computation of the maximal clique size",
+    "essential graphs (CPDAGs) and counting members of a Markov equivalence class",
+    "explaining-away effects in posteriors with v-structures",
+    "context-specific independence that arises from structured CPTs"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "small set",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Exact values in small POMDPs and MDPs",
+   "scope": "Problems describe a small discounted or finite-horizon MDP or POMDP and ask for exact optimal values, a belief state after a given action-observation sequence, the number of useful alpha-vectors, or the discount threshold at which the optimal policy changes. They are hard because the solver has to carry out Bellman backups over continuous belief simplices and find exact breakpoints, which can't be done by simulation.",
+   "techniques": [
+    "Bayesian belief updates in closed form",
+    "piecewise-linear convex value functions and alpha-vector pruning",
+    "solving policy-evaluation linear systems for exact discounted values",
+    "Blackwell optimality and discount-factor thresholds where policies switch",
+    "reward shaping invariance under potential-based shaping",
+    "finite-horizon backward induction with information-gathering actions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Extension counting in abstract argumentation frameworks",
+   "scope": "Problems specify a Dung-style argumentation framework (or a bipolar, weighted or SETAF variant) as an attack graph and ask how many extensions it has under a given semantics, or which arguments are credulously or skeptically accepted. They are hard because the semantics (grounded, preferred, stable, semi-stable, stage, ideal) diverge on odd cycles and self-attacks, and enumeration needs careful labelling arguments.",
+   "techniques": [
+    "three-valued labellings (in/out/undec) and their correspondence with complete extensions",
+    "characteristic-function fixpoints for grounded semantics",
+    "SCC-recursive decomposition of semantics such as CF2",
+    "how odd- and even-length attack cycles affect the existence of stable extensions",
+    "ideal and eager extensions computed as maximal admissible subsets of preferred intersections",
+    "translating frameworks to logic programs or propositional formulas"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stable model enumeration in answer set programs",
+   "scope": "Problems give a short normal or disjunctive logic program, possibly with choice rules, constraints or aggregates, and ask for the number of answer sets, the atoms common to all of them, or the optimal answer set under weak constraints. They are hard because default negation is nonmonotonic, positive loops need unfounded-set reasoning, and disjunction adds minimality checks that are easy to get wrong.",
+   "techniques": [
+    "Gelfond-Lifschitz reduct and minimal model checking",
+    "Clark completion plus loop formulas (Lin-Zhao theorem)",
+    "unfounded sets and tightness of the positive dependency graph",
+    "splitting sets that decompose a program into layers",
+    "shifting disjunctive heads in head-cycle-free programs",
+    "optimization semantics of weak constraints with priority levels"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "VC dimension of structured hypothesis classes",
+   "scope": "Problems define a specific geometric, Boolean or combinatorial hypothesis class (e.g. unions of k intervals on a circle, axis-parallel boxes with excluded corners, threshold functions over a finite poset) and ask for its exact VC dimension, Natarajan dimension, Littlestone dimension, or teaching dimension. They are hard because they need both a shattering construction and a matching impossibility argument.",
+   "techniques": [
+    "explicit shattering constructions alongside pigeonhole-based upper bounds",
+    "Sauer-Shelah lemma and growth-function counting",
+    "Radon-type and Helly-type geometric arguments",
+    "Littlestone dimension via mistake-tree depth for online learnability",
+    "recursive teaching dimension and minimal teaching sets",
+    "behaviour of dimension under composition, intersection or union of classes"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Linear regions and exact expressivity of ReLU networks",
+   "scope": "Problems fix a small ReLU or max-pooling architecture (widths, depth, input dimension) and ask for the maximum number of linear regions, the minimum width or depth needed to represent a given piecewise-linear function exactly, or the number of breakpoints of a specific network. They are hard because they combine hyperplane-arrangement combinatorics with explicit sawtooth or tropical constructions and tight lower-bound arguments.",
+   "techniques": [
+    "Zaslavsky-type region counting for hyperplane arrangements",
+    "compositional sawtooth constructions that double regions with depth",
+    "tropical-geometry representation as differences of tropical polynomials",
+    "exact representation of max over n inputs and depth lower bounds for it",
+    "counting activation patterns under the input-dimension bottleneck",
+    "breakpoint counting for one-dimensional networks"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "polynomial",
+    "ordered tuple"
+   ]
+  }
+ ]
+}

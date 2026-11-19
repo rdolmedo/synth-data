@@ -1,0 +1,84 @@
+{
+ "profile": "sft_snowball",
+ "version": 1,
+ "applies_to": "a Snowball-family SFT checkpoint served with snowball-eval-main on 2xB200 (4c/64G per GPU), fixed budget 256 (128 agents/GPU), capped protocol, launched from main with example_sft_snowball.json (suites lean or full)",
+ "how": "python gen/campaign_rate.py --dispatch <dispatch_root>/<campaign>-<model> --expect aa_evals/campaign/expected/sft_snowball.json; exit 2 = some check WARNs. Ranges: 'measured' = observed on the runs in `sources`; 'estimated' = measured numbers adjusted for what main changed since (each says how). Times are hours after the dispatcher's first start.",
+ "suite_sets": {
+  "lean": ["tb21", "automationbench", "gdpval", "scicode", "omniscience", "gdppdf"],
+  "full": ["tb21", "tbsci_lite", "gdpval", "critpt", "automationbench", "scicode", "hle", "omniscience", "gdppdf"]
+ },
+ "server": {
+  "min_running_per_gpu": 80,
+  "gen_tok_s_per_gpu": {
+   "min_running_per_gpu": 80, "expected": [4500, 6500], "warn_below": 3500, "kind": "estimated",
+   "skip_when_lanes": ["hle"], "skip_share": 0.25,
+   "basis": "snowball-eval-main replay (#478, rt-vllm results/snowball, 4c shape): 5,252-5,334 tok/s/GPU at 100-103 running/GPU (128 agents), 5,781-6,267 at 156-160 (192 agents). Live 0.20.1 (snowball-eval): trimmed 4,020-4,720 at 85-100 running/GPU (rtab-sb2-0p33b, #535 check); untrimmed 6,064 / 5,017 / 4,324 at 98 / 94 / 95 (ucab, 15-45 min). Main = 0.20.1 x 1.13 at 128 agents (#550). Not checked while HLE holds > 25% of the attempts in flight (full set): HLE-only on 2-GPU snowball-eval read 2.4k down to 0.46k tok/s/GPU at 124 -> 60 running/GPU (hlepilot-sb-full, sbtrim samples), long single sequences, no reference.",
+   "if_warn": "below every 0.20.1 window at this load: check job.json (teacher snowball-eval-main, cuda_cap 10.0), prefix hit and KV (thrash), host CPU (run-queue), the node (bad-nodes list); compare with /data/aai/uni/uni-serving/sbmain/samples.jsonl"
+  },
+  "prefix_hit": {
+   "min_running_per_gpu": 40, "expected": [0.9, 0.97], "warn_below": 0.85, "kind": "estimated",
+   "basis": "replay of real m5l Pi traffic: 0.943-0.960 on main at 128-192 agents (0.828-0.956 on 0.20.1). Live mixed-lane values (single-turn lanes share the engines) are not recorded yet: the first snowball-eval-main campaign records them (sbmain sampler).",
+   "if_warn": "one window can dip during a launch wave (cold first turns, first ~15 min): re-check in 5 min; sustained < 0.85 at full load with KV > 0.9 = thrash -> tell the coordinator (budget 256 is the measured knee)"
+  },
+  "kv_max": {"expected": [0.3, 0.8], "warn_above": 0.95, "kind": "measured",
+   "basis": "main replay 0.44-0.75 (128-192 agents); 0.20.1 live 0.21-0.59 at 256 on 2 GPUs (M5 ladder 11-18 00:0x)",
+   "if_warn": "KV nearly full: preemptions follow; check waiting and prefix hit"},
+  "waiting": {"warn_above_abs": 1, "warn_above_share": 0.05, "kind": "measured", "basis": "0 in every replay level and live window at 128 agents/GPU (max_num_seqs 256 per engine)",
+   "if_warn": "requests queue at the engine: KV full or max_num_seqs reached; check kv_max and the dispatcher budget"},
+  "healthy_after_s": {
+   "expected_seeded": [140, 360], "expected_cold": [140, 600], "warn_above": 600, "kind": "measured",
+   "basis": "snowball-eval 2xB200 starts 11-16..19: 144-243 s incl. checkpoint staging 22-101 s (12 server jobs), 354 s with a slow 156-s staging (rtab); snowball-eval-main with a staged venv 145-149 s (1 GPU, #554 A/B), not seeded (first start of its engine-cache key) 412 s incl. 130-s staging (rtvllm-sbmain-smoke2); the 0.20.1 starts above were not seeded either (small compile)",
+   "if_warn": "over 10 min: look at serve.log / vllm.log (staging stuck on /data, JIT compile = cold cache, a bad node)"
+  },
+  "host_cores_share": {"expected": [0.15, 0.6], "warn_above": 0.9, "kind": "measured",
+   "basis": "trimmed (4c/GPU) 4.1-4.6 of 8 cores at 85-100 running/GPU (rtab); untrimmed 2.9-4.6 of 16 (uval p50 2.9 / p95 3.5, ucab 4.2 / 4.6)"},
+  "host_hard_share": {"expected": [0.05, 0.2], "warn_above": 0.8, "kind": "measured",
+   "basis": "hard memory 16.5-20.2 GiB per 2-GPU server in every Snowball eval (limit 128 GiB trimmed, 256 untrimmed)"}
+ },
+ "dispatch": {
+  "stall_min": 45, "infra_share_pi": 0.05, "infra_share_single": 0.02, "infra_min_ends": 20,
+  "idle_grace_min": 10, "idle_min_in_flight": 32, "behind_factor": 1.5,
+  "basis": "longest gap between a lane's starts: uval 11-32 min, ucab 1-13 min (main e678b535); 79-80 min for AB in sb2-2p2b/4p8b was the pre-#529 Pi-growth bug. Single-turn suites, AutomationBench and GDPval had 0 infra outcomes in all 11 runs. TB2.1: verifier bootstrap timeouts (below) plus one-off verifier_no_reward / pi_backend_* / worker_stopped (<= 1 per run). CritPt / TB-Sci-lite worker_stopped (36-72 / 7-8) in sb2-0p33b/1p0b are the suites stopped mid-run by hand (11-17 drop), 18k-3p0b 1-2 pi_backend_timeout."
+ },
+ "suites": {
+  "tb21": {"attempts": 252, "gen_done_h": {"lean": [2.4, 3.0], "full": [4.5, 6.0]}, "b200_h": [1.3, 3.3],
+   "dur_min": {"p50": [36, 43], "p90": [76, 84], "max": [140, 171]}, "tail_h": [0.3, 0.8], "graded": "in the run (verifier per attempt)",
+   "infra": "verifier_bootstrap_timeout follows the proxy download rate of the run's window (val-codeab): 0 at 6-8 MB/s (sb2-* 11-17/18), 13 / 38 / 131 at 0.65 / 0.29 / 0.22 MB/s (sb-full, uval, ucab). With suites.tb_toolchain_bundle (#543, 60/89 tasks verify offline, torch-class bootstraps included) expected <= 2% (estimated; rtab with #543: 0).",
+   "if_infra": "check suites.tb_toolchain_bundle is set (offline verifiers, #543); infra attempts retry automatically and are not scored, but a task whose every attempt ends infra drops out of the resolved-only score (ucab: 11 items unresolved)",
+   "kind": "measured lean (uval, sb2-2p2b, sb2-4p8b); full estimated from m5l-sb-full (4xB200) list-scheduled on 256 slots (5.2-5.6 h) and 18k-1p0b/3p0b (2xB200, 5.7-6.0 h)"},
+  "automationbench": {"attempts": 446, "gen_done_h": {"lean": [0.9, 2.1], "full": [2.5, 6.1]}, "b200_h": [0.37, 0.54],
+   "dur_min": {"p50": [4, 6.2], "p90": [11.6, 17.7], "max": [17, 29]}, "graded": "by the model's collector (grade.py), minutes after its last attempt", "kind": "measured"},
+  "gdpval": {"attempts": 185, "gen_done_h": {"lean": [0.9, 1.95], "full": [2.8, 5.6]}, "b200_h": [0.35, 0.54],
+   "dur_min": {"p50": [7.5, 21.5], "p90": [29, 57], "max": [37, 67]}, "graded": "judged 0.35-0.85 h after generation (shared judge aa-judge-qwen38-27b)", "kind": "measured"},
+  "scicode": {"attempts": 360, "gen_done_h": {"lean": [1.95, 2.15], "full": [2.8, 5.4]}, "b200_h": [1.2, 1.4],
+   "dur_min": {"p50": [19, 26], "p90": [55, 73], "max": [117, 126]}, "graded": "CPU grading in the run, done ~1.8 h after generation ends (uval: 1578/1578 steps 3.8 h after launch); the lane closes before grading (#537)", "kind": "measured (360 = dispatcher units)"},
+  "omniscience": {"attempts": 900, "gen_done_h": {"lean": [1.9, 2.15], "full": [2.7, 6.0]}, "b200_h": [0.3, 0.4],
+   "dur_min": {"p50": [0.9, 1.6], "p90": [5, 11], "max": [16, 29]}, "graded": "0.1-0.25 h after generation", "kind": "measured on one run (uval; sb2-2p2b/4p8b ran it outside the dispatcher)"},
+  "gdppdf": {"attempts": 74, "dispatch_units": 37, "gen_done_h": {"lean": [1.45, 2.1], "full": [2.7, 6.0]}, "b200_h": [0.03, 0.06],
+   "dur_min": {"p50": [3.6, 8], "p90": [15, 23], "max": [18, 24]}, "graded": "0.1-0.9 h after generation (judge)", "kind": "measured"},
+  "tbsci_lite": {"attempts": 64, "gen_done_h": {"full": [3.0, 5.5]}, "b200_h": [0.6, 1.0],
+   "dur_min": {"p50": [78, 103], "p90": [104, 138], "max": [110, 182]}, "graded": "in the run", "kind": "measured on m5l-sb-full (4xB200), 18k-1p0b/3p0b (2xB200)"},
+  "critpt": {"attempts": 210, "gen_done_h": {"full": [3.0, 5.7]}, "b200_h": [2.0, 2.7],
+   "dur_min": {"p50": [92, 114], "p90": [118, 125], "max": [120, 179]}, "graded": "0.05-0.1 h after generation", "kind": "measured on m5l-sb-full, 18k-*"},
+  "hle": {"attempts": 314, "gen_done_h": {"full": [2.9, 7.0]}, "b200_h": [1.6, 4.0],
+   "dur_min": {"p50": [22, 28], "p90": [100, 152], "max": [120, 182]}, "graded": "0.35-0.5 h after generation (judge)", "kind": "measured on m5l-sb-full, 18k-*"}
+ },
+ "totals": {
+  "lean": {"attempts": 2217, "makespan_h": [2.6, 3.2], "b200_h": [5.2, 6.4], "server_wall_h": [2.7, 3.3], "all_scored_h": [3.6, 4.3],
+   "cpu_worker_unit_h": [75, 95], "kind": "measured, adjusted",
+   "basis": "uval (main e678b535): server 2.97 h = 5.93 B200-h, generation 2.88 h, all scores 3.8 h after launch (SciCode CPU grading last); sb2-4p8b (frozen): 3.12 h = 6.24 B200-h; #522 (launch order) saves ~0.4 h on uval's measured durations (list schedule); the TB2.1 tail (longest attempts 140-171 min) is the floor. CPU: uval Pi workers TB2.1 98.5 + AB 14.8 + GDPval 8.3 unit-h at 10-CPU TB2.1 workers; worker_profile slow halves TB2.1 (rtab: 51.3 vs 99.9 unit-h at 128 in flight), + clients, collector, graders ~10."},
+  "full": {"attempts": 2805, "makespan_h": [5.0, 6.5], "b200_h": [10.5, 13.5], "server_wall_h": [5.2, 6.8], "all_scored_h": [6.0, 7.5],
+   "cpu_worker_unit_h": [250, 330], "kind": "estimated",
+   "basis": "m5l-sb-full (4xB200, budget 512, 9 suites): server 3.86 h = 15.42 B200-h incl. canary 1.03 and idle 0.87, 1317 attempt-hours; list-scheduled on 256 slots 5.2 h (oracle) - 5.6 h (actual order). 2xB200 9-suite runs (18k-3p0b / 18k-1p0b, weaker models, 2-h caps, canary): 6.24 h = 12.5 and 7.74 h = 15.5 B200-h. CPU: sb-full's TB-Sci-lite 156 + CritPt 74 unit-h on top of the lean set (before #538 claim packing)."}
+ },
+ "sources": {
+  "measure_script": "/data/aai/uni/eval-runbook/measure.py -> runs.json (dispatcher events, serving registry condor logs, serve.log, reslog samples of 11 runs)",
+  "uval-sb10b-t06": "val-sb10b 11-18 (#480 comment 6996073899): main e678b535, snowball-eval 0.20.1 untrimmed, lean 6, T 0.6, 2xB200/256",
+  "ucab-sb10b-t10": "val-codeab 11-19 (#480 comment 7015700314): main e678b535, TB2.1/AB/GDPval, T 1.0",
+  "m5l-sb2-*": "M5 ladder lean evals 11-17/18 (/data/aai/m5/ladder/PLAN.md), frozen aa-evals e3dc54f9, 2xB200/256-320",
+  "m5l-sb-full, m5l-18k-*": "M5 ladder full c30 evals 11-16 (4xB200/512 and 2xB200/256)",
+  "replay": "rt-vllm #478 Snowball arm, /data/aai/uni/rt-vllm/results/snowball/sb4c-*.json, sb-*.json",
+  "live serving": "/data/aai/uni/uni-serving/sbtrim/samples.jsonl (0.20.1), sbmain/ (snowball-eval-main, until ~11-22)",
+  "workers": "gen/campaign_rate.py --runs on the uval/ucab/sb2-4p8b/rtab pi_eval run dirs"
+ }
+}

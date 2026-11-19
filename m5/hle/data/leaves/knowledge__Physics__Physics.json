@@ -1,0 +1,209 @@
+{
+ "partition": "knowledge",
+ "category": "Physics",
+ "subject": "Physics",
+ "target_leaves": 13,
+ "expected_problems": 153,
+ "leaves": [
+  {
+   "leaf": "Nineteenth-century absolute electrical unit determinations",
+   "scope": "Historical experimental values for the ohm, the mechanical equivalent of heat and the ratio of electromagnetic to electrostatic units (the B.A. committee, Rowland, Rayleigh, Kohlrausch and Weber), including the apparatus and the corrections the experimenters applied. A question could ask the solver to convert an old reported value into SI, or to compare its error against the modern constant.",
+   "queries": [
+    "British Association unit resistance",
+    "absolute ohm determination",
+    "mechanical equivalent of heat Rowland",
+    "ratio of the units v",
+    "Lorenz apparatus resistance"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "K-isomers and high-spin nuclear isomers",
+   "scope": "Documented excitation energies, spins, parities, K quantum numbers and half-lives of long-lived isomers such as 178m2Hf, 180mTa and 177mLu, and their decay branches. A question could combine K-forbiddenness with Weisskopf estimates to get a hindrance factor, or work out the dominant decay multipolarity.",
+   "queries": [
+    "K-isomer hindrance factor",
+    "high-K isomer half-life",
+    "178m2Hf isomer decay",
+    "multi-quasiparticle isomer",
+    "K forbiddenness reduced hindrance"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Heavy-fermion compound thermodynamic parameters",
+   "scope": "Measured Sommerfeld coefficients, coherence temperatures, superconducting transition temperatures and T\u00b2 resistivity coefficients for compounds such as CeCu2Si2, UPt3, CeCoIn5 and YbRh2Si2. A question could compute a Kadowaki-Woods or Wilson ratio from the reported values and use it to classify the compound.",
+   "queries": [
+    "heavy fermion Sommerfeld coefficient",
+    "Kadowaki-Woods ratio",
+    "CeCoIn5 specific heat jump",
+    "UPt3 superconducting phases",
+    "YbRh2Si2 quantum critical"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Near-threshold exotic hadron candidates",
+   "scope": "Reported masses, widths, quantum numbers and discovery channels of XYZ and pentaquark states such as X(3872), Zc(3900), Pc(4312), Tcc+ and Zb(10610). A question could compute the binding energy relative to the nearest meson-meson or meson-baryon threshold, or determine which decay channel is kinematically allowed.",
+   "queries": [
+    "Tcc+ doubly charmed tetraquark",
+    "Pc(4312) pentaquark LHCb",
+    "Zb(10610) bottomonium-like",
+    "X(3872) D0 D*0 threshold",
+    "hadronic molecule near threshold"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Coronal forbidden lines and coronium identification",
+   "scope": "Wavelengths, identifications and ionization potentials of solar coronal emission lines (the Fe XIV green line, the Fe X red line, Ca XV), from the 'coronium' era to Grotrian and Edl\u00e9n. A question could ask for the formation temperature implied by an ion's ionization potential, or the wavelength shift between a historical measurement and the modern one.",
+   "queries": [
+    "coronium green line",
+    "Edlen coronal lines identification",
+    "Fe XIV 5303 coronal",
+    "forbidden transitions solar corona",
+    "corona eclipse spectrum lines"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Historical tokamak performance records",
+   "scope": "Device parameters and record discharges of T-3, ALCATOR, TFTR, JET, JT-60U and similar machines: major and minor radius, toroidal field, ion temperature, confinement time and fusion power. A question could compute the Lawson triple product, the gain Q or the safety factor from the documented values.",
+   "queries": [
+    "TFTR deuterium-tritium record",
+    "JET fusion power record",
+    "JT-60U triple product",
+    "T-3 tokamak electron temperature",
+    "energy confinement time scaling"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Victorian acoustical apparatus and pitch standards",
+   "scope": "Facts from Helmholtz, Rayleigh, Koenig and Ellis on tuning-fork standards, historical concert pitches, organ-pipe end corrections and resonator dimensions. A question could compute a frequency, a beat rate or a pitch shift in cents from the documented data.",
+   "queries": [
+    "Koenig tuning fork",
+    "history of musical pitch Ellis",
+    "Helmholtz resonator sensations tone",
+    "organ pipe end correction",
+    "Rayleigh theory of sound"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Reactor antineutrino oscillation experiment configurations",
+   "scope": "Baselines, reactor thermal powers, detector target masses and measured mixing parameters for KamLAND, Daya Bay, RENO, Double Chooz and JUNO. A question could compute the antineutrino energy at the first oscillation maximum for a given baseline and \u0394m\u00b2, or an expected deficit.",
+   "queries": [
+    "Daya Bay theta13 measurement",
+    "KamLAND reactor baseline",
+    "JUNO mass ordering",
+    "RENO far detector",
+    "inverse beta decay reactor"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Even-denominator fractional quantum Hall states",
+   "scope": "Observed filling factors, activation gaps and host materials for even-denominator and unconventional FQH states (5/2 in GaAs, states in bilayer graphene and ZnO, wide quantum wells). A question could map an observed fraction onto a composite-fermion or Jain sequence, or convert a reported gap into kelvin per tesla.",
+   "queries": [
+    "5/2 fractional quantum Hall",
+    "even denominator bilayer graphene",
+    "activation gap filling factor",
+    "Moore-Read Pfaffian state",
+    "ZnO quantum Hall fraction"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Taylor-Couette flow regime transitions",
+   "scope": "Experimentally documented critical Taylor and Reynolds numbers, radius ratios, wavenumbers and the sequence of flow states (Taylor vortices, wavy vortices, modulated waves, turbulence) between rotating cylinders. A question could compute the onset rotation rate for a given apparatus, or identify a regime from the reported parameters.",
+   "queries": [
+    "wavy Taylor vortex flow",
+    "Taylor-Couette radius ratio",
+    "critical Taylor number onset",
+    "modulated wavy vortices",
+    "Andereck regime diagram"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Gravitational-wave catalog source parameters",
+   "scope": "Component masses, final spins, luminosity distances and radiated energies of specific events in the GWTC catalogs (GW190521, GW190814, GW170817, GW230529). A question could compute the chirp mass, the mass ratio, or the fraction of rest energy radiated.",
+   "queries": [
+    "GWTC-3 catalog compact binary",
+    "GW190814 secondary mass",
+    "GW190521 intermediate mass",
+    "GW230529 mass gap",
+    "chirp mass posterior"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Optical clock transitions and systematic shifts",
+   "scope": "Clock transition wavelengths, natural linewidths, blackbody radiation shift coefficients and uncertainty budgets for Sr, Yb, Al+, Yb+ (E3) and Th-229 nuclear clocks. A question could convert a frequency shift into a fractional uncertainty, or compute the gravitational redshift that corresponds to a given height difference.",
+   "queries": [
+    "strontium lattice clock uncertainty",
+    "Yb+ electric octupole transition",
+    "blackbody radiation shift clock",
+    "Al+ quantum logic clock",
+    "thorium-229 nuclear clock"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Ultra-high-energy cosmic ray record events",
+   "scope": "Reported energies, arrival directions, detection arrays and dates of extreme events (Fly's Eye 'Oh-My-God', the Telescope Array Amaterasu event, AGASA events), plus the measured flux suppression. A question could compute the Lorentz factor, the equivalent center-of-mass energy, or a GZK attenuation length argument.",
+   "queries": [
+    "Amaterasu particle Telescope Array",
+    "Fly's Eye highest energy",
+    "AGASA super-GZK events",
+    "Pierre Auger flux suppression",
+    "ultra-high-energy cosmic ray anisotropy"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

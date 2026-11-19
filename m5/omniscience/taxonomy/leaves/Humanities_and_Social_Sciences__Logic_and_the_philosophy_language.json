@@ -1,0 +1,427 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Logic and the philosophy language",
+ "weight": 0.0053745,
+ "leaves": [
+  {
+   "leaf": "Aristotelian syllogistic, square of opposition and traditional term logic",
+   "scope": "Categorical syllogisms in Aristotle's Prior Analytics and later traditional logic: moods and figures, the mnemonic mood names, reduction, existential import, the square of opposition and Aristotle's modal syllogistic.",
+   "queries": [
+    "syllogism moods Barbara Celarent Darii Ferio figures",
+    "square of opposition contraries subcontraries existential import",
+    "Prior Analytics Aristotle modal syllogistic apodeictic",
+    "Bocardo Baroco reduction per impossibile mnemonic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stoic and Megarian propositional logic",
+   "scope": "Hellenistic logic of Chrysippus, Diodorus Cronus, Philo and the Dialectical school: the indemonstrables, the Master Argument, theories of the conditional, lekta and the ancient testimonia.",
+   "queries": [
+    "Chrysippus five indemonstrables Stoic logic",
+    "Diodorus Cronus master argument possibility",
+    "Philo Dialectician conditional Megarian school",
+    "Stoic lekta axiomata Diogenes Laertius Sextus Empiricus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Arabic and Latin scholastic logic",
+   "scope": "Logic from al-Farabi, Avicenna and Averroes through Abelard, Ockham, Buridan, Burley and Bradwardine: supposition theory, consequentiae, obligationes, insolubilia, syncategoremata and the textbook tradition.",
+   "queries": [
+    "supposition theory personal simple material Ockham",
+    "Buridan consequentiae Summulae de dialectica",
+    "obligationes insolubilia Burley Bradwardine medieval logic",
+    "Avicenna temporal modal syllogistic al-Farabi Averroes logic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indian logic: Nyaya, Buddhist pramana theory and Jain logic",
+   "scope": "Inference and debate in classical India: the Nyaya five-membered syllogism, Dignaga and Dharmakirti's pramana theory, Navya-Nyaya technical vocabulary, and Jain syadvada and anekantavada.",
+   "queries": [
+    "Nyaya five-membered syllogism pratijna hetu udaharana",
+    "Dignaga hetucakra wheel of reasons Dharmakirti",
+    "Navya-Nyaya Gangesa Tattvacintamani vyapti",
+    "Jain syadvada saptabhangi sevenfold predication"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century algebra of logic and logic diagrams",
+   "scope": "From Boole, De Morgan and Jevons to Peirce and Schröder: algebraic calculi of classes and relations, the quantification-of-the-predicate dispute, Euler and Venn diagrams, Carroll's diagrams and Peirce's existential graphs.",
+   "queries": [
+    "Boole Laws of Thought 1854 algebra of logic",
+    "De Morgan Formal Logic 1847 Hamilton controversy",
+    "Venn diagrams Euler circles Jevons logic piano",
+    "Peirce existential graphs Schröder Algebra der Logik"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Logicism from Frege and Russell to neo-logicism",
+   "scope": "Frege's Begriffsschrift and Grundgesetze, Russell's paradox, Principia Mathematica and the ramified theory of types, the axioms of reducibility and infinity, and the neo-Fregean program built on Hume's principle.",
+   "queries": [
+    "Frege Begriffsschrift 1879 Grundgesetze Basic Law V",
+    "Russell paradox letter to Frege 1902",
+    "Principia Mathematica ramified types axiom of reducibility",
+    "Hume's principle Frege's theorem neo-logicism Wright Hale"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Propositional calculus axiomatizations, functional completeness and logical notation",
+   "scope": "Hilbert-style axiom systems and single axioms, the Sheffer stroke and Nicod's axiom, Post's functional completeness criterion and lattice of clones, Polish notation, and where the standard logical symbols came from.",
+   "queries": [
+    "Sheffer stroke NAND Nicod single axiom",
+    "Polish notation prefix connectives propositional calculus",
+    "Post functional completeness criterion Boolean clones",
+    "Hilbert-style axiom schemas propositional calculus modus ponens"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Model theory and first-order metatheorems",
+   "scope": "Completeness, compactness and Löwenheim–Skolem theorems, the Skolem paradox, ultraproducts and Łoś's theorem, Lindström's characterization of first-order logic, Morley categoricity and Shelah's stability theory.",
+   "queries": [
+    "Gödel completeness theorem 1929 first-order logic",
+    "Löwenheim–Skolem theorem Skolem paradox countable model",
+    "Morley categoricity theorem stability theory Shelah",
+    "Lindström theorem abstract logics ultraproducts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gödel's incompleteness theorems, computability and undecidability",
+   "scope": "Incompleteness and its refinements (Rosser, Löb, Tarski), formal arithmetics like PA and Robinson Q, Church–Turing computability, the Entscheidungsproblem, and undecidability results like Hilbert's tenth problem.",
+   "queries": [
+    "Gödel incompleteness theorems 1931 Gödel numbering",
+    "Entscheidungsproblem Church Turing 1936 undecidability",
+    "Löb's theorem Rosser trick Robinson arithmetic",
+    "Hilbert's tenth problem Matiyasevich Diophantine undecidable"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structural proof theory and Hilbert's program",
+   "scope": "Gentzen's natural deduction and sequent calculi, cut elimination and normalization, Gentzen's consistency proof and ordinal analysis, Herbrand's theorem, and the finitist goals of Hilbert's program.",
+   "queries": [
+    "Gentzen sequent calculus LK cut elimination Hauptsatz",
+    "Gentzen consistency proof epsilon-zero transfinite induction",
+    "Prawitz natural deduction normalization introduction elimination rules",
+    "Hilbert's program finitism consistency metamathematics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Axiomatic set theory, independence results and large cardinals",
+   "scope": "Zermelo–Fraenkel axioms and alternatives (NBG, NF), the axiom of choice and its equivalents, Gödel's constructible universe, Cohen forcing and the continuum hypothesis, and the hierarchy of large cardinals.",
+   "queries": [
+    "Zermelo-Fraenkel axioms replacement foundation choice",
+    "Cohen forcing continuum hypothesis independence 1963",
+    "Gödel constructible universe consistency axiom of choice",
+    "large cardinals inaccessible measurable Woodin cardinal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modal logic systems, Kripke semantics and quantified modal logic",
+   "scope": "C. I. Lewis's systems and the normal systems K, T, B, S4 and S5, Kripke frames and correspondence theory, the Barcan formulas and quantified modal logic, counterpart theory, and provability logic GL.",
+   "queries": [
+    "modal logic systems K T S4 S5 axioms",
+    "Kripke semantics accessibility relation frame correspondence",
+    "Barcan formula quantified modal logic Ruth Marcus",
+    "provability logic GL Solovay arithmetical completeness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Temporal, deontic and epistemic logics",
+   "scope": "Prior's tense logic and its successors (including LTL and CTL), von Wright's deontic logic and its paradoxes, Hintikka's epistemic and doxastic logic, and dynamic epistemic logic with public announcements.",
+   "queries": [
+    "Arthur Prior tense logic future contingents",
+    "deontic logic von Wright Chisholm paradox Ross",
+    "Hintikka epistemic logic Knowledge and Belief 1962",
+    "dynamic epistemic logic public announcement muddy children"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intuitionistic logic, combinatory logic and the Curry–Howard correspondence",
+   "scope": "Brouwer's intuitionism and Heyting's formalization, the BHK interpretation, realizability and double-negation translations, lambda calculus and combinatory logic, propositions-as-types and Martin-Löf type theory.",
+   "queries": [
+    "Brouwer Heyting intuitionistic logic excluded middle",
+    "BHK interpretation Kleene realizability Glivenko theorem",
+    "Curry-Howard correspondence Martin-Löf dependent type theory",
+    "combinatory logic Schönfinkel SKI combinators Curry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Many-valued and fuzzy logics",
+   "scope": "Three-valued and infinite-valued systems of Łukasiewicz, Post, Kleene, Bochvar and Gödel, their truth tables and axiomatizations, and t-norm-based fuzzy logics from Zadeh to Hájek.",
+   "queries": [
+    "Łukasiewicz three-valued logic 1920 future contingents",
+    "Kleene Bochvar three-valued logic truth tables",
+    "fuzzy logic Zadeh t-norms Hájek basic logic",
+    "Gödel logics Post many-valued infinite-valued"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Relevance, paraconsistent and substructural logics",
+   "scope": "Anderson–Belnap relevant logics and Routley–Meyer semantics, paraconsistent systems such as da Costa's C-systems and Priest's LP, dialetheism, and substructural logics including Girard's linear logic.",
+   "queries": [
+    "relevance logic Anderson Belnap Entailment system R",
+    "Routley-Meyer ternary relation semantics relevant logic",
+    "paraconsistent logic da Costa Priest LP dialetheism",
+    "Girard linear logic exponentials substructural logics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Logic and semantics of conditionals and counterfactuals",
+   "scope": "Material and strict implication and their paradoxes, Stalnaker–Lewis possible-worlds semantics for counterfactuals, the Ramsey test and Adams' thesis, and the triviality results for indicative conditionals.",
+   "queries": [
+    "Stalnaker Lewis counterfactuals similarity possible worlds",
+    "paradoxes of material implication strict implication",
+    "Adams thesis Ramsey test indicative conditionals",
+    "Lewis triviality result conditional probability"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Semantic paradoxes and formal theories of truth",
+   "scope": "The Liar, Curry, Yablo, Berry and Grelling paradoxes, Tarski's T-schema and undefinability theorem, Kripke's fixed-point theory, revision theories, and deflationary and correspondence accounts of truth.",
+   "queries": [
+    "liar paradox Tarski undefinability T-schema",
+    "Kripke Outline of a Theory of Truth fixed point",
+    "Curry paradox Yablo paradox Grelling Berry",
+    "deflationary theory truth redundancy Ramsey Horwich"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vagueness and the sorites paradox",
+   "scope": "The heap paradox and borderline cases, plus the main theories of vagueness: supervaluationism, epistemicism, degree theories, contextualism and higher-order vagueness.",
+   "queries": [
+    "sorites paradox Eubulides heap vagueness",
+    "supervaluationism Kit Fine penumbral connections",
+    "epistemicism Williamson vagueness margin for error",
+    "higher-order vagueness borderline cases degree theory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Philosophy of logic: logical consequence, logical constants and inferentialism",
+   "scope": "Model-theoretic and proof-theoretic accounts of consequence, criteria for logical constants, Prior's tonk and proof-theoretic harmony, Dummett's anti-realism, and logical pluralism versus monism.",
+   "queries": [
+    "Tarski concept of logical consequence 1936 logical constants",
+    "Prior tonk connective harmony inferentialism",
+    "logical pluralism Beall Restall",
+    "Dummett anti-realism manifestation argument meaning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Informal logic, fallacies and argumentation theory",
+   "scope": "The traditional catalogue of named fallacies and their Latin labels, Hamblin's critique, Toulmin's argument model, Walton's argumentation schemes and the pragma-dialectical approach.",
+   "queries": [
+    "fallacy ad hominem tu quoque Latin names",
+    "Hamblin Fallacies 1970 standard treatment",
+    "Toulmin model warrant backing qualifier rebuttal",
+    "pragma-dialectics van Eemeren argumentation schemes Walton"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Theories of reference: proper names, definite descriptions and rigid designation",
+   "scope": "Frege's sense and reference, Russell's theory of descriptions and Strawson's reply, Donnellan's referential/attributive distinction, Kripke's causal-historical picture and rigid designation, and Putnam-style semantic externalism.",
+   "queries": [
+    "Frege Sinn Bedeutung sense reference 1892",
+    "Russell On Denoting Strawson On Referring descriptions",
+    "Kripke Naming and Necessity rigid designator causal",
+    "Putnam Twin Earth semantic externalism natural kind"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indexicals, demonstratives and two-dimensional semantics",
+   "scope": "Kaplan's logic of demonstratives and the character/content distinction, Perry's essential indexical, de se attitudes and centered worlds, and the two-dimensional frameworks of Stalnaker and Chalmers.",
+   "queries": [
+    "Kaplan Demonstratives character content indexicals",
+    "Perry problem of the essential indexical",
+    "two-dimensional semantics Chalmers Stalnaker diagonal proposition",
+    "Lewis de se attitudes centered worlds"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Propositional attitude reports and intensional contexts",
+   "scope": "Substitution failure in belief contexts, Frege's puzzle, Quine on de re versus de dicto and referential opacity, Kripke's puzzle about belief, Mates' puzzle, Russellian structured propositions and hyperintensionality.",
+   "queries": [
+    "Frege's puzzle belief reports substitutivity failure",
+    "Kripke puzzle about belief Pierre Londres",
+    "Quine Quantifiers and Propositional Attitudes de re de dicto",
+    "Mates puzzle hyperintensionality structured propositions Salmon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Speech act theory",
+   "scope": "Austin's performatives, felicity conditions and the locutionary/illocutionary/perlocutionary distinction, Searle's constitutive rules, his taxonomy of illocutionary acts, and indirect speech acts.",
+   "queries": [
+    "Austin How to Do Things with Words performatives",
+    "Searle taxonomy illocutionary acts assertives directives commissives",
+    "felicity conditions misfires abuses Austin",
+    "locutionary illocutionary perlocutionary acts indirect speech acts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gricean implicature and post-Gricean pragmatics",
+   "scope": "Grice's non-natural meaning, the cooperative principle and maxims, conversational versus conventional implicature, neo-Gricean scalar implicature (Horn, Levinson) and Sperber and Wilson's relevance theory.",
+   "queries": [
+    "Grice Logic and Conversation maxims cooperative principle",
+    "scalar implicature Horn scales neo-Gricean Levinson",
+    "relevance theory Sperber Wilson ostensive inference",
+    "Grice Meaning 1957 non-natural meaning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Presupposition, common ground and dynamic semantics",
+   "scope": "Presupposition triggers, the projection problem and accommodation, Stalnaker's common ground, and dynamic frameworks for discourse such as Kamp's DRT, Heim's file change semantics and dynamic predicate logic for donkey anaphora.",
+   "queries": [
+    "presupposition projection problem Karttunen plugs holes filters",
+    "presupposition triggers accommodation Lewis scorekeeping",
+    "discourse representation theory Kamp donkey anaphora",
+    "Heim file change semantics dynamic predicate logic Groenendijk"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Montague grammar, categorial grammar and generalized quantifiers",
+   "scope": "Model-theoretic compositional semantics for natural language: Montague's PTQ fragment, type-driven lambda-calculus semantics, Ajdukiewicz–Bar-Hillel and Lambek categorial grammars, and generalized quantifier theory with its semantic universals.",
+   "queries": [
+    "Montague grammar Proper Treatment of Quantification",
+    "generalized quantifiers Barwise Cooper conservativity",
+    "categorial grammar Ajdukiewicz Bar-Hillel Lambek calculus",
+    "lambda calculus type-driven compositional semantics Heim Kratzer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Wittgenstein's philosophy of logic and language",
+   "scope": "The Tractatus picture theory, truth-functions and numbered propositions, and the later Philosophical Investigations: language games, family resemblance, the private language argument and Kripke's reading of rule-following.",
+   "queries": [
+    "Tractatus Logico-Philosophicus picture theory numbered propositions",
+    "Philosophical Investigations language games family resemblance",
+    "private language argument beetle in a box",
+    "Kripke Wittgenstein on Rules skeptical paradox"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analyticity, verificationism and meaning holism (Carnap, Quine, Davidson)",
+   "scope": "The Vienna Circle verification criterion and Carnap's semantics, Quine's attack on the analytic/synthetic distinction, the indeterminacy of translation, and Davidson's truth-conditional theory of meaning and radical interpretation.",
+   "queries": [
+    "Quine Two Dogmas of Empiricism analytic synthetic",
+    "indeterminacy of translation gavagai radical translation",
+    "Davidson radical interpretation principle of charity",
+    "verificationism Vienna Circle Carnap Ayer meaning criterion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,883 @@
+{
+ "domain": "Health",
+ "subtopic": "Psychiatry",
+ "weight": 0.0132495,
+ "leaves": [
+  {
+   "leaf": "DSM and ICD classification of mental disorders",
+   "scope": "Editions, revision history, structure, codes and criteria changes of DSM-I through DSM-5-TR and the ICD-10/ICD-11 mental and behavioural disorders chapters, including RDoC.",
+   "queries": [
+    "DSM-5-TR text revision changes 2022",
+    "ICD-11 chapter 6 mental behavioural disorders codes",
+    "DSM-III 1980 Spitzer Feighner operational criteria",
+    "Research Domain Criteria RDoC NIMH matrix"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Asylum era and early somatic treatments",
+   "scope": "Institutional history of psychiatry and treatments before psychopharmacology, from moral treatment and asylums through malaria therapy, insulin coma, convulsive therapy and lobotomy to deinstitutionalization.",
+   "queries": [
+    "moral treatment Pinel Tuke York Retreat",
+    "insulin coma therapy Sakel history",
+    "prefrontal leucotomy Moniz Freeman Watts",
+    "malaria therapy general paresis Wagner-Jauregg"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Psychoanalysis and psychodynamic theory",
+   "scope": "Freudian and post-Freudian theory, schools, case histories, institutions and defense mechanisms, including Jung, Adler, Klein, Winnicott, Kohut, Lacan and ego psychology.",
+   "queries": [
+    "Freud case histories Anna O Dora Wolf Man",
+    "Melanie Klein paranoid-schizoid depressive position",
+    "defense mechanisms Anna Freud Vaillant hierarchy",
+    "Kohut self psychology selfobject transference"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Schizophrenia psychopathology and conceptual history",
+   "scope": "Symptom dimensions, historical subtypes and classic concepts of schizophrenia, from Kraepelin's dementia praecox and Bleuler's four A's to Schneider's first-rank symptoms, Crow's type I/II and the deficit syndrome.",
+   "queries": [
+    "Kraepelin dementia praecox manic-depressive dichotomy",
+    "Schneider first-rank symptoms schizophrenia diagnosis",
+    "Bleuler four A's schizophrenia 1911",
+    "deficit syndrome negative symptoms Carpenter"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Clinical high risk and first-episode psychosis",
+   "scope": "The psychosis prodrome, ultra-high-risk criteria and instruments, transition rates, duration of untreated psychosis and early intervention services.",
+   "queries": [
+    "ultra high risk psychosis CAARMS transition rate",
+    "Structured Interview Psychosis-risk Syndromes SIPS",
+    "duration of untreated psychosis outcome",
+    "RAISE coordinated specialty care first episode"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Delusional disorder and eponymous delusional syndromes",
+   "scope": "Delusional disorder subtypes and named syndromes such as Capgras, Fregoli, Cotard, de Clérambault, Othello, Ekbom and folie à deux.",
+   "queries": [
+    "Capgras Fregoli delusional misidentification syndromes",
+    "Cotard syndrome nihilistic delusions case",
+    "erotomania de Clérambault morbid jealousy Othello",
+    "folie à deux shared delusional disorder"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Catatonia",
+   "scope": "Catatonic syndromes across psychiatric and medical conditions, including Kahlbaum's description, rating scales, the lorazepam challenge, ECT and malignant catatonia.",
+   "queries": [
+    "Bush-Francis Catatonia Rating Scale items",
+    "lorazepam challenge test catatonia",
+    "malignant lethal catatonia Stauder",
+    "Kahlbaum catatonia 1874 history"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Depressive disorder subtypes and specifiers",
+   "scope": "Major and persistent depressive disorder, PMDD and disruptive mood dysregulation disorder, with melancholic, atypical, psychotic, seasonal and mixed-feature specifiers.",
+   "queries": [
+    "melancholic depression features dexamethasone suppression",
+    "atypical depression mood reactivity leaden paralysis",
+    "seasonal affective disorder light therapy lux",
+    "premenstrual dysphoric disorder DSM-5 criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bipolar spectrum disorders",
+   "scope": "Bipolar I and II, cyclothymia, rapid cycling, mixed states, and course concepts such as kindling, affective temperaments and the bipolar spectrum.",
+   "queries": [
+    "rapid cycling bipolar disorder definition episodes",
+    "bipolar II hypomania duration criteria",
+    "cyclothymic disorder Akiskal affective temperament",
+    "mixed features specifier mania depression"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Perinatal and reproductive psychiatry",
+   "scope": "Psychiatric disorders in pregnancy, the postpartum period and menopause, including postpartum psychosis, postpartum depression screening and treatment, and how safe psychotropics are in pregnancy.",
+   "queries": [
+    "Edinburgh Postnatal Depression Scale cutoff",
+    "postpartum psychosis incidence bipolar",
+    "brexanolone zuranolone postpartum depression approval",
+    "lithium pregnancy Ebstein anomaly risk"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anxiety disorders",
+   "scope": "Panic disorder, agoraphobia, generalized anxiety, social anxiety, specific phobias and separation anxiety: psychopathology, models, scales and treatments.",
+   "queries": [
+    "panic disorder carbon dioxide inhalation challenge",
+    "generalized anxiety disorder GAD-7 validation",
+    "social anxiety disorder Liebowitz scale",
+    "blood-injection-injury phobia applied tension"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Obsessive-compulsive and related disorders",
+   "scope": "OCD, body dysmorphic disorder, hoarding, trichotillomania and excoriation disorder, with treatments such as exposure and response prevention, high-dose SSRIs and neurosurgery.",
+   "queries": [
+    "Yale-Brown Obsessive Compulsive Scale Y-BOCS",
+    "hoarding disorder DSM-5 criteria",
+    "body dysmorphic disorder muscle dysmorphia",
+    "trichotillomania N-acetylcysteine treatment"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trauma- and stressor-related disorders",
+   "scope": "PTSD, complex PTSD, acute stress disorder, adjustment disorders and prolonged grief disorder, including their history and evidence-based treatments.",
+   "queries": [
+    "complex PTSD ICD-11 disturbances self-organization",
+    "prolonged grief disorder DSM-5-TR criteria",
+    "shell shock combat neurosis history",
+    "prazosin nightmares PTSD trial"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dissociative, functional neurological and factitious disorders",
+   "scope": "Dissociative identity, amnesia and depersonalization disorders, conversion/functional neurological disorder, somatic symptom and illness anxiety disorders, factitious disorder and malingering.",
+   "queries": [
+    "dissociative identity disorder Dissociative Experiences Scale",
+    "functional neurological disorder Hoover sign",
+    "Munchausen syndrome by proxy factitious disorder",
+    "Ganser syndrome approximate answers"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Feeding and eating disorders",
+   "scope": "Anorexia nervosa, bulimia nervosa, binge-eating disorder, ARFID, pica and rumination disorder, including medical complications, refeeding syndrome and specific treatments.",
+   "queries": [
+    "anorexia nervosa refeeding syndrome hypophosphatemia",
+    "avoidant restrictive food intake disorder ARFID",
+    "binge eating disorder lisdexamfetamine",
+    "Maudsley family-based treatment adolescents"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Personality disorders",
+   "scope": "DSM clusters and the ICD-11 dimensional model of personality disorder, psychopathy, and specific treatments such as mentalization-based therapy and transference-focused psychotherapy.",
+   "queries": [
+    "ICD-11 personality disorder severity trait domains",
+    "borderline personality disorder mentalization-based treatment",
+    "Hare Psychopathy Checklist Revised PCL-R",
+    "schizotypal personality disorder Cluster A"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alcohol use disorder and withdrawal",
+   "scope": "Alcohol use disorder screening, withdrawal syndromes, delirium tremens, Wernicke-Korsakoff syndrome, and drug treatment with disulfiram, naltrexone, acamprosate and others.",
+   "queries": [
+    "CIWA-Ar alcohol withdrawal score",
+    "delirium tremens onset mortality",
+    "acamprosate naltrexone COMBINE study",
+    "AUDIT questionnaire cutoff hazardous drinking"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Opioid use disorder and medication treatment",
+   "scope": "Opioid use disorder, withdrawal and overdose, and treatment with methadone, buprenorphine, naltrexone and naloxone, including regulation and landmark trials.",
+   "queries": [
+    "buprenorphine induction precipitated withdrawal",
+    "methadone maintenance Dole Nyswander",
+    "Clinical Opiate Withdrawal Scale COWS",
+    "extended-release naltrexone X:BOT trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stimulant, cannabis, nicotine and novel psychoactive substances",
+   "scope": "Use disorders, intoxication and withdrawal syndromes for cocaine, amphetamines, cannabis, tobacco, hallucinogens and synthetic drugs, and their treatments.",
+   "queries": [
+    "cannabinoid hyperemesis syndrome hot showers",
+    "synthetic cathinones bath salts psychosis",
+    "varenicline smoking cessation EAGLES trial",
+    "contingency management stimulant use disorder"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "ADHD and tic disorders",
+   "scope": "Attention-deficit/hyperactivity disorder and Tourette syndrome/tic disorders: diagnostic criteria, rating scales, landmark trials, and stimulant and nonstimulant drug treatment.",
+   "queries": [
+    "methylphenidate MTA study ADHD",
+    "atomoxetine guanfacine nonstimulant ADHD",
+    "Tourette syndrome Yale Global Tic Severity Scale",
+    "Adult ADHD Self-Report Scale ASRS"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Autism spectrum disorder and intellectual disability",
+   "scope": "Autism spectrum disorder, intellectual developmental disorder and genetic syndromes with behavioral phenotypes, including diagnostic instruments, history and drug treatment of irritability.",
+   "queries": [
+    "ADOS-2 Autism Diagnostic Observation Schedule",
+    "Kanner 1943 autistic disturbances affective contact",
+    "fragile X syndrome behavioral phenotype",
+    "risperidone irritability autism RUPP"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neurocognitive disorders and geriatric psychiatry",
+   "scope": "Psychiatric aspects of dementia and late-life mental illness, including behavioral and psychological symptoms of dementia, late-onset psychosis, late-life depression and the risks of antipsychotics in older adults.",
+   "queries": [
+    "behavioral psychological symptoms dementia BPSD",
+    "antipsychotic mortality dementia black box warning",
+    "Neuropsychiatric Inventory NPI agitation",
+    "vascular depression hypothesis late-life"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Consultation-liaison psychiatry and delirium",
+   "scope": "Psychiatry in medical settings: delirium, psychiatric symptoms of medical illnesses and drugs, autoimmune encephalitis, and psychiatric care of medically ill patients.",
+   "queries": [
+    "Confusion Assessment Method delirium CAM-ICU",
+    "anti-NMDA receptor encephalitis psychiatric presentation",
+    "corticosteroid-induced psychosis mania",
+    "Wilson disease psychiatric manifestations"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sleep-wake disorders and hypnotic pharmacology",
+   "scope": "Insomnia, narcolepsy, parasomnias, circadian rhythm disorders and restless legs in psychiatric practice, with CBT-I, Z-drugs, orexin antagonists and melatonin agonists.",
+   "queries": [
+    "suvorexant lemborexant orexin receptor antagonist insomnia",
+    "zolpidem complex sleep behaviors warning",
+    "narcolepsy hypocretin cataplexy",
+    "cognitive behavioral therapy insomnia sleep restriction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sexual dysfunctions, paraphilic disorders and gender dysphoria",
+   "scope": "Classification, assessment and treatment of sexual dysfunctions, paraphilic disorders and gender dysphoria/gender incongruence.",
+   "queries": [
+    "flibanserin hypoactive sexual desire disorder",
+    "paraphilic disorders DSM-5 pedophilic",
+    "gender incongruence ICD-11 WPATH standards care",
+    "Masters Johnson sexual response cycle"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Suicide and self-harm",
+   "scope": "Epidemiology, risk assessment, prevention and treatment of suicidal behavior and non-suicidal self-injury.",
+   "queries": [
+    "Columbia Suicide Severity Rating Scale",
+    "lethal means restriction suicide prevention",
+    "non-suicidal self-injury DSM-5 Section III",
+    "Safety Planning Intervention Stanley Brown"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Antipsychotic pharmacology",
+   "scope": "First- and second-generation antipsychotics: discovery, receptor binding, dopamine receptor occupancy, dose equivalents, long-acting injectables and comparative trials.",
+   "queries": [
+    "D2 receptor occupancy antipsychotic threshold PET",
+    "long-acting injectable paliperidone palmitate aripiprazole",
+    "chlorpromazine equivalent doses",
+    "CATIE trial perphenazine olanzapine discontinuation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Clozapine and treatment-resistant schizophrenia",
+   "scope": "Definition and management of treatment-resistant schizophrenia, focused on clozapine's history, efficacy, monitoring, plasma levels and adverse effects.",
+   "queries": [
+    "clozapine agranulocytosis Finland 1975",
+    "clozapine REMS absolute neutrophil count monitoring",
+    "clozapine myocarditis plasma level",
+    "treatment-resistant schizophrenia TRRIP consensus criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Antidepressant pharmacology",
+   "scope": "Mechanisms, discovery, dosing and comparative efficacy of SSRIs, SNRIs, tricyclics, MAOIs and atypical antidepressants.",
+   "queries": [
+    "iproniazid imipramine discovery antidepressant history",
+    "MAOI tyramine reaction dietary restrictions",
+    "vortioxetine vilazodone multimodal mechanism",
+    "STAR*D sequenced treatment alternatives remission"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lithium and mood stabilizers",
+   "scope": "Lithium, valproate, carbamazepine, lamotrigine and other bipolar maintenance agents: discovery, therapeutic levels, toxicity, teratogenicity and monitoring.",
+   "queries": [
+    "John Cade lithium mania 1949",
+    "lithium toxicity serum level nephrogenic diabetes insipidus",
+    "lamotrigine Stevens-Johnson titration bipolar",
+    "valproate teratogenicity women childbearing potential"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Benzodiazepines and anxiolytics",
+   "scope": "Benzodiazepines, buspirone, pregabalin, hydroxyzine and related anxiolytics: pharmacology, history, dependence, withdrawal and tapering.",
+   "queries": [
+    "chlordiazepoxide Sternbach Librium discovery",
+    "benzodiazepine withdrawal Ashton manual taper",
+    "buspirone 5-HT1A partial agonist anxiety",
+    "flumazenil benzodiazepine overdose reversal"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Psychotropic adverse effects",
+   "scope": "Serious and common adverse effects of psychotropic drugs: neuroleptic malignant syndrome, serotonin syndrome, tardive dyskinesia and other extrapyramidal syndromes, metabolic effects, QTc prolongation and hyperprolactinemia.",
+   "queries": [
+    "neuroleptic malignant syndrome dantrolene bromocriptine",
+    "Hunter serotonin toxicity criteria clonus",
+    "tardive dyskinesia valbenazine deutetrabenazine",
+    "Abnormal Involuntary Movement Scale AIMS"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "ECT and brain stimulation therapies",
+   "scope": "Electroconvulsive therapy, rTMS, theta-burst stimulation, deep brain stimulation, vagus nerve stimulation and other neuromodulation treatments for psychiatric disorders.",
+   "queries": [
+    "electroconvulsive therapy Cerletti Bini 1938",
+    "ECT electrode placement ultrabrief pulse",
+    "theta burst stimulation SAINT protocol",
+    "deep brain stimulation subcallosal cingulate depression"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ketamine, esketamine and psychedelic-assisted therapy",
+   "scope": "Rapid-acting glutamatergic antidepressants and psychedelic-assisted therapies using psilocybin, MDMA and LSD, including trials, dosing and regulatory decisions.",
+   "queries": [
+    "esketamine nasal spray Spravato REMS",
+    "psilocybin treatment-resistant depression COMP360",
+    "MDMA-assisted therapy PTSD FDA advisory",
+    "ketamine infusion antidepressant 0.5 mg/kg"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Evidence-based psychotherapies",
+   "scope": "Structured psychotherapies such as CBT, DBT, IPT, ACT, EMDR, schema therapy and behavioral activation: their founders, protocols, modules and techniques.",
+   "queries": [
+    "Aaron Beck cognitive triad cognitive therapy",
+    "dialectical behavior therapy Linehan skills modules",
+    "interpersonal psychotherapy Klerman Weissman problem areas",
+    "EMDR Shapiro eye movement desensitization"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychiatric rating scales and structured interviews",
+   "scope": "Clinician-rated and self-report instruments such as HAM-D, MADRS, PHQ-9, PANSS, BPRS, YMRS, SCID, MINI and CGI: items, scoring, cutoffs and authors.",
+   "queries": [
+    "Hamilton Depression Rating Scale 17 items",
+    "PHQ-9 cutoff score validation",
+    "Positive and Negative Syndrome Scale PANSS Kay",
+    "Young Mania Rating Scale YMRS items"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forensic psychiatry and mental health law",
+   "scope": "Insanity defense standards, competency to stand trial, duty to warn, civil commitment, decision-making capacity and mental health legislation in the US, UK and elsewhere.",
+   "queries": [
+    "M'Naghten rules insanity defense",
+    "Tarasoff duty to protect California",
+    "Dusky competency to stand trial",
+    "Mental Health Act 1983 section detention"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychiatric genetics",
+   "scope": "Heritability, twin and adoption studies, GWAS consortia, copy-number variants and candidate genes for psychiatric disorders.",
+   "queries": [
+    "Psychiatric Genomics Consortium schizophrenia GWAS loci",
+    "22q11.2 deletion schizophrenia risk",
+    "complement component 4 schizophrenia synaptic pruning",
+    "DISC1 Scottish family translocation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neurobiological hypotheses and biomarkers",
+   "scope": "Neurotransmitter, neuroendocrine and inflammatory models of psychiatric illness (dopamine, glutamate, monoamine, HPA axis) and the neuroimaging and biomarker findings behind them.",
+   "queries": [
+    "dopamine hypothesis schizophrenia Carlsson",
+    "NMDA receptor hypofunction phencyclidine model",
+    "dexamethasone suppression test depression HPA axis",
+    "monoamine hypothesis reserpine depression"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cultural psychiatry and global mental health",
+   "scope": "Culture-bound syndromes, cultural concepts of distress, the DSM-5 Cultural Formulation Interview, and global mental health programs and task-sharing.",
+   "queries": [
+    "culture-bound syndromes koro amok latah",
+    "Cultural Formulation Interview DSM-5",
+    "WHO mhGAP intervention guide",
+    "Friendship Bench Zimbabwe lay health workers"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Disruptive, impulse-control and conduct disorders",
+   "scope": "Oppositional defiant disorder, conduct disorder, intermittent explosive disorder, pyromania and kleptomania: their onset subtypes, the callous-unemotional traits specifier, course and treatments such as parent management training.",
+   "queries": [
+    "oppositional defiant disorder conduct disorder childhood-onset subtype",
+    "limited prosocial emotions callous-unemotional traits specifier",
+    "intermittent explosive disorder prevalence aggressive outbursts",
+    "kleptomania pyromania impulse control disorder treatment"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Specific learning, communication, motor and elimination disorders",
+   "scope": "Dyslexia, dyscalculia, language and speech sound disorders, stuttering (childhood-onset fluency disorder), developmental coordination and stereotypic movement disorders, and enuresis and encopresis.",
+   "queries": [
+    "dyslexia phonological deficit specific learning disorder",
+    "childhood-onset fluency disorder stuttering prevalence",
+    "developmental coordination disorder diagnostic criteria children",
+    "nocturnal enuresis desmopressin enuresis alarm"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gambling disorder and behavioral addictions",
+   "scope": "Gambling disorder, gaming disorder, compulsive sexual behaviour disorder and other proposed behavioural addictions, with their screening instruments, neurobiology and drug and psychological treatments.",
+   "queries": [
+    "pathological gambling South Oaks Gambling Screen",
+    "internet gaming disorder ICD-11 criteria",
+    "compulsive sexual behavior disorder ICD-11",
+    "naltrexone nalmefene gambling disorder trial"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Somatic symptom and illness anxiety disorders",
+   "scope": "Somatic symptom disorder, illness anxiety disorder and ICD-11 bodily distress disorder, plus the older categories they replaced (somatization disorder, Briquet's syndrome, hypochondriasis, neurasthenia) and tools such as the PHQ-15.",
+   "queries": [
+    "somatic symptom disorder DSM-5 diagnostic criteria",
+    "hypochondriasis health anxiety cognitive behavioral therapy",
+    "Briquet syndrome somatization disorder history",
+    "bodily distress disorder ICD-11 PHQ-15"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Autoimmune, infectious and endocrine causes of psychiatric syndromes",
+   "scope": "Psychiatric presentations of anti-NMDA receptor and other autoimmune encephalitides, PANDAS/PANS, neurosyphilis, HIV, thyroid and adrenal disease and steroid-induced states, and how they are worked up.",
+   "queries": [
+    "anti-NMDA receptor encephalitis psychiatric presentation",
+    "PANDAS PANS streptococcal obsessive compulsive children",
+    "neurosyphilis general paresis psychiatric symptoms",
+    "corticosteroid-induced psychosis Cushing syndrome depression"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neuropsychiatry of epilepsy, brain injury and movement disorders",
+   "scope": "Psychiatric syndromes in epilepsy, traumatic brain injury, stroke, and Parkinson's, Huntington's and Wilson's diseases, including postictal and interictal psychosis, forced normalization, Geschwind syndrome and post-stroke depression.",
+   "queries": [
+    "postictal psychosis interictal dysphoric disorder epilepsy",
+    "forced normalization Landolt alternative psychosis",
+    "traumatic brain injury neuropsychiatric sequelae depression",
+    "Wilson disease Huntington disease psychiatric manifestations"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Emergency psychiatry and acute agitation management",
+   "scope": "Assessing psychiatric emergencies and managing acute agitation: rapid tranquilization regimens, newer anti-agitation drug formulations, verbal de-escalation guidelines, and seclusion and restraint practice.",
+   "queries": [
+    "intramuscular droperidol haloperidol midazolam acute agitation",
+    "inhaled loxapine sublingual dexmedetomidine agitation",
+    "Project BETA verbal de-escalation agitation",
+    "seclusion restraint psychiatric inpatient Safewards"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychiatric epidemiology surveys and cohorts",
+   "scope": "Landmark population surveys, longitudinal cohorts and national registers measuring the prevalence, incidence and risk factors of mental disorders, such as ECA, NCS-R, Stirling County, Dunedin and the Scandinavian registers.",
+   "queries": [
+    "Epidemiologic Catchment Area study lifetime prevalence",
+    "National Comorbidity Survey Replication twelve-month prevalence",
+    "Dunedin longitudinal study psychiatric outcomes",
+    "Danish nationwide register psychiatric disorder incidence"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anti-psychiatry and deinstitutionalization",
+   "scope": "The anti-psychiatry and user/survivor movements and the 20th-century move from asylums to community care, including Szasz, Laing, Goffman, Basaglia's Law 180, the Rosenhan study and the US Community Mental Health Act.",
+   "queries": [
+    "Thomas Szasz myth of mental illness",
+    "Basaglia Law 180 Italy psychiatric hospitals",
+    "Rosenhan being sane in insane places",
+    "deinstitutionalization Community Mental Health Act 1963"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Psychiatric ethics and political abuse of psychiatry",
+   "scope": "Professional ethics codes and controversies in psychiatry: the Declarations of Hawaii and Madrid, the Goldwater rule, boundary violations, Soviet punitive psychiatry and Nazi-era crimes against psychiatric patients.",
+   "queries": [
+    "Goldwater rule American Psychiatric Association ethics",
+    "Soviet political abuse psychiatry sluggish schizophrenia",
+    "Declaration of Madrid World Psychiatric Association",
+    "Aktion T4 psychiatric patients Nazi euthanasia"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Community mental health services and models of care",
+   "scope": "How mental health services are organized and delivered, including assertive community treatment, crisis resolution teams, collaborative care in primary care, Individual Placement and Support, Housing First and peer support.",
+   "queries": [
+    "assertive community treatment fidelity caseload",
+    "collaborative care IMPACT depression primary care",
+    "individual placement and support supported employment",
+    "Housing First Pathways homeless mental illness"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Family, couples and group therapies",
+   "scope": "Systemic family therapy schools (Bowen, structural, strategic, Milan), couples therapy, group psychotherapy (Yalom's therapeutic factors, psychodrama), and family interventions grounded in expressed emotion research.",
+   "queries": [
+    "Minuchin structural family therapy Bowen family systems",
+    "Yalom therapeutic factors group psychotherapy",
+    "expressed emotion Camberwell Family Interview relapse",
+    "Milan systemic family therapy circular questioning"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Hallucinations and perceptual disturbances beyond primary psychosis",
+   "scope": "What hallucinations and perceptual distortions outside primary psychotic disorders are like and what causes them, including Charles Bonnet syndrome, peduncular hallucinosis, musical hallucinations, hypnagogic imagery, autoscopic phenomena and Alice in Wonderland syndrome.",
+   "queries": [
+    "Charles Bonnet syndrome visual hallucinations vision loss",
+    "peduncular hallucinosis Lhermitte midbrain",
+    "musical hallucinations hearing loss elderly",
+    "Alice in Wonderland syndrome micropsia macropsia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Attachment theory and early adversity research",
+   "scope": "Attachment theory and research on early deprivation and adversity: Bowlby, Ainsworth's Strange Situation, Harlow's monkey experiments, the Adult Attachment Interview, the ACE study and the Romanian institutional-rearing studies.",
+   "queries": [
+    "Ainsworth Strange Situation disorganized attachment classification",
+    "Adverse Childhood Experiences study Felitti Kaiser",
+    "Bucharest Early Intervention Project institutional rearing",
+    "Bowlby maternal deprivation Harlow monkeys"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychological and neuropsychological testing",
+   "scope": "Intelligence, personality, projective and neuropsychological tests used in psychiatric assessment, such as the WAIS, MMPI-2-RF, Rorschach, TAT, Wisconsin Card Sorting Test and symptom validity tests.",
+   "queries": [
+    "MMPI-2-RF validity scales restructured clinical",
+    "Rorschach Exner Comprehensive System R-PAS",
+    "Wechsler Adult Intelligence Scale WAIS-IV index scores",
+    "Wisconsin Card Sorting Test perseverative errors"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Psychotropic pharmacokinetics, pharmacogenomics and therapeutic drug monitoring",
+   "scope": "Cytochrome P450 metabolism, drug-drug interactions, pharmacogenetic dosing guidance (CPIC, HLA alleles) and the therapeutic reference ranges used to monitor blood levels of psychotropic drugs.",
+   "queries": [
+    "CYP2D6 CYP2C19 antidepressant CPIC guideline",
+    "AGNP consensus therapeutic drug monitoring reference range",
+    "smoking CYP1A2 induction olanzapine plasma levels",
+    "HLA-B 15:02 carbamazepine Stevens-Johnson syndrome"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Landmark psychiatric clinical trials",
+   "scope": "Design, arms and headline results of major comparative-effectiveness and pragmatic trials in psychiatry, such as STAR*D, CATIE, CUtLASS, EUFEST, STEP-BD, TADS, CAMS, MTA and BALANCE.",
+   "queries": [
+    "STAR*D sequenced treatment alternatives remission rates",
+    "CATIE trial antipsychotic discontinuation perphenazine",
+    "Treatment for Adolescents with Depression Study fluoxetine",
+    "Multimodal Treatment Study ADHD MTA outcomes"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Digital psychiatry and telepsychiatry",
+   "scope": "Telepsychiatry, smartphone mental health apps, internet-delivered CBT, FDA-cleared prescription digital therapeutics and digital phenotyping in mental health care.",
+   "queries": [
+    "internet-delivered cognitive behavioral therapy randomized trial",
+    "prescription digital therapeutic FDA reSET substance use",
+    "digital phenotyping smartphone passive sensing",
+    "telepsychiatry videoconference Ryan Haight Act prescribing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Complementary, nutritional and lifestyle interventions",
+   "scope": "Herbal, nutraceutical, dietary and exercise interventions for mental disorders, including St John's wort, omega-3 fatty acids, SAMe, N-acetylcysteine, L-methylfolate, saffron, lavender oil and dietary trials.",
+   "queries": [
+    "St John's wort hyperforin depression drug interactions",
+    "omega-3 EPA depression meta-analysis",
+    "N-acetylcysteine trichotillomania psychiatric disorders",
+    "SMILES trial Mediterranean diet depression"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of psychopharmacology",
+   "scope": "How the first modern psychotropic drugs were discovered and introduced between the 1940s and 1960s (chlorpromazine, reserpine, imipramine, iproniazid, meprobamate, chlordiazepoxide, haloperidol), and the scientists and companies behind them.",
+   "queries": [
+    "chlorpromazine Laborit Delay Deniker 1952",
+    "Roland Kuhn imipramine discovery",
+    "iproniazid tuberculosis monoamine oxidase inhibitor discovery",
+    "Leo Sternbach chlordiazepoxide Librium discovery"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Military psychiatry and combat stress",
+   "scope": "Psychiatric casualties of war and military mental health practice, from soldier's heart and shell shock to forward psychiatry (the PIE and BICEPS principles), combat stress reaction and modern combat stress control.",
+   "queries": [
+    "shell shock First World War Craiglockhart",
+    "forward psychiatry proximity immediacy expectancy principles",
+    "combat stress reaction Israeli soldiers Lebanon war",
+    "soldier's heart Da Costa syndrome"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  }
+ ]
+}

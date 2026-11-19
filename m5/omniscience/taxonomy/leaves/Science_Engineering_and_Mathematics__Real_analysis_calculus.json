@@ -1,0 +1,663 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Real analysis calculus",
+ "weight": 0.0105,
+ "leaves": [
+  {
+   "leaf": "Construction and completeness axioms of the real numbers",
+   "scope": "Axiomatic and constructive foundations of the reals: Dedekind cuts, Cauchy-sequence constructions, the least-upper-bound and Archimedean properties, and equivalent forms of the completeness axiom.",
+   "queries": [
+    "Dedekind cut construction real numbers",
+    "Cauchy sequences equivalence classes construction reals",
+    "least upper bound property Archimedean ordered field",
+    "nested interval property completeness axiom equivalent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Real sequences, limits and limit superior/inferior",
+   "scope": "Convergence of real sequences, including the monotone convergence theorem, Bolzano–Weierstrass, the Cauchy criterion, limsup/liminf, subsequential limits and the Stolz–Cesàro theorem.",
+   "queries": [
+    "Bolzano Weierstrass theorem bounded sequence subsequence",
+    "limit superior limit inferior sequence definition",
+    "Stolz Cesaro theorem sequences",
+    "monotone convergence theorem real sequences Cauchy criterion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convergence tests for infinite series",
+   "scope": "Tests for whether numerical series converge: comparison, ratio, root, integral, Raabe, Kummer, Gauss, Bertrand, Cauchy condensation, alternating series, and the Dirichlet and Abel tests.",
+   "queries": [
+    "Raabe test Gauss test series convergence",
+    "Cauchy condensation test harmonic series",
+    "Dirichlet test Abel test alternating series",
+    "Kummer test Bertrand test convergence criterion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Conditional convergence, rearrangements and products of series",
+   "scope": "Absolute versus conditional convergence, the Riemann rearrangement theorem, the Lévy–Steinitz theorem, Cauchy products, Mertens' theorem and double series.",
+   "queries": [
+    "Riemann series theorem rearrangement conditionally convergent",
+    "Levy Steinitz theorem rearrangement vectors",
+    "Cauchy product series Mertens theorem",
+    "double series iterated sums absolute convergence"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Summation of divergent series and Tauberian theorems",
+   "scope": "Cesàro, Abel, Borel, Euler, Lambert and Ramanujan summation methods, regularity via the Silverman–Toeplitz theorem, and the Tauberian theorems of Tauber, Hardy–Littlewood, Karamata and Wiener.",
+   "queries": [
+    "Cesaro summation Abel summation divergent series",
+    "Tauberian theorem Hardy Littlewood Karamata",
+    "Borel summation method divergent series",
+    "Silverman Toeplitz theorem regular summability"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Classical series, infinite products and closed-form constants",
+   "scope": "Well-known series and products that evaluate constants, such as the Basel problem, the Leibniz and Machin formulas for pi, the Wallis and Viète products, the alternating harmonic series and Apéry's constant.",
+   "queries": [
+    "Basel problem Euler sum reciprocal squares",
+    "Wallis product Viete formula pi",
+    "Machin-like formula arctangent pi computation",
+    "Apery constant zeta 3 irrationality series"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Power series and real-analytic functions",
+   "scope": "Radius and interval of convergence, the Cauchy–Hadamard formula, Abel's theorem on boundary behaviour, term-by-term differentiation, real-analytic functions and quasi-analytic classes (Denjoy–Carleman).",
+   "queries": [
+    "Cauchy Hadamard formula radius of convergence",
+    "Abel theorem power series boundary",
+    "real analytic function identity theorem",
+    "Denjoy Carleman theorem quasi-analytic functions"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Topology of the real line and metric spaces",
+   "scope": "Open, closed and compact sets in the reals and in metric spaces, covering Heine–Borel, sequential compactness, connectedness, completeness, the Baire category theorem and the Banach fixed-point theorem.",
+   "queries": [
+    "Heine Borel theorem compact closed bounded",
+    "Baire category theorem complete metric space",
+    "Banach fixed point contraction mapping theorem",
+    "totally bounded complete metric space compactness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Limits and continuity of real functions",
+   "scope": "Epsilon-delta limits, one-sided limits, the intermediate and extreme value theorems, uniform continuity, the Heine–Cantor theorem, Lipschitz and Hölder continuity, and the classification of discontinuities.",
+   "queries": [
+    "intermediate value theorem extreme value theorem proof",
+    "Heine Cantor theorem uniform continuity",
+    "classification of discontinuities removable jump essential",
+    "Lipschitz continuity Holder condition modulus of continuity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pathological functions and sets in analysis",
+   "scope": "Standard counterexamples, including the Weierstrass and Takagi nowhere-differentiable functions, the Cantor function, the Thomae and Dirichlet functions, Volterra's function, the Conway base 13 function, and the Cantor and Smith–Volterra–Cantor sets.",
+   "queries": [
+    "Weierstrass function continuous nowhere differentiable",
+    "Thomae function Dirichlet function discontinuities",
+    "Volterra function Smith Volterra Cantor set",
+    "Cantor function devil's staircase Takagi blancmange"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mean value theorems and properties of derivatives",
+   "scope": "Rolle's theorem, the Lagrange and Cauchy mean value theorems, Darboux's theorem on the intermediate value property of derivatives, L'Hôpital's rule and related results on derivatives.",
+   "queries": [
+    "Rolle theorem mean value theorem proof",
+    "Cauchy mean value theorem extended",
+    "Darboux theorem derivative intermediate value property",
+    "L'Hopital rule Bernoulli indeterminate forms history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Taylor's theorem, remainder forms and smooth functions",
+   "scope": "Taylor polynomials and remainder forms (Lagrange, Cauchy, integral, Peano, Schlömilch), Maclaurin series, smooth non-analytic functions, bump functions and Borel's lemma.",
+   "queries": [
+    "Taylor theorem Lagrange remainder Cauchy form",
+    "Peano remainder Schlomilch form Taylor",
+    "smooth non-analytic function exp minus 1/x^2",
+    "Borel lemma bump function smooth"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Riemann, Darboux and Riemann–Stieltjes integration",
+   "scope": "Integrals defined by partitions and tagged sums, upper and lower Darboux sums, Lebesgue's criterion for Riemann integrability, the Riemann–Stieltjes integral, and the fundamental theorem of calculus.",
+   "queries": [
+    "Darboux integral upper lower sums",
+    "Lebesgue criterion Riemann integrability measure zero",
+    "Riemann Stieltjes integral integrator bounded variation",
+    "fundamental theorem of calculus proof Riemann"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Improper integrals and famous definite integrals",
+   "scope": "Convergence of improper integrals and well-known evaluations such as the Gaussian, Dirichlet, Fresnel, Frullani, Borwein and Ahmed integrals.",
+   "queries": [
+    "Dirichlet integral sin x over x",
+    "Gaussian integral evaluation polar coordinates",
+    "Frullani integral formula conditions",
+    "Borwein integral sinc product pattern"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Techniques of integration",
+   "scope": "Methods for finding antiderivatives: substitution, integration by parts (including the tabular method), partial fractions, trigonometric and hyperbolic substitution, the Weierstrass and Euler substitutions, reduction formulas, and differentiation under the integral sign.",
+   "queries": [
+    "Weierstrass substitution tangent half-angle integral",
+    "Euler substitution integrals square root quadratic",
+    "Leibniz integral rule differentiation under integral sign",
+    "reduction formula integration by parts tabular"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonelementary antiderivatives and symbolic integration",
+   "scope": "Liouville's theorem on elementary antiderivatives, the Risch algorithm, differential algebra, and named nonelementary integrals such as the error function, logarithmic integral, sine integral and elliptic integrals.",
+   "queries": [
+    "Liouville theorem differential algebra elementary antiderivative",
+    "Risch algorithm symbolic integration",
+    "nonelementary integral error function logarithmic integral",
+    "elliptic integral first second kind complete"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Geometric applications of integration",
+   "scope": "Arc length, surface area and volumes of revolution (disk, washer and shell methods), Pappus's centroid theorems, Cavalieri's principle, and classic curves and solids such as the cycloid, catenary and Gabriel's horn.",
+   "queries": [
+    "Pappus centroid theorem volume surface area",
+    "Gabriel's horn Torricelli trumpet paradox",
+    "shell method washer method volume revolution",
+    "cycloid arc length area Roberval"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Uniform convergence of sequences and series of functions",
+   "scope": "Pointwise versus uniform convergence, the Weierstrass M-test, Dini's theorem, swapping limits with integrals and derivatives, equicontinuity and the Arzelà–Ascoli theorem.",
+   "queries": [
+    "Weierstrass M-test uniform convergence series",
+    "Dini theorem monotone uniform convergence compact",
+    "Arzela Ascoli theorem equicontinuous",
+    "uniform convergence interchange limit derivative integral"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polynomial approximation theorems",
+   "scope": "The Weierstrass approximation theorem, the Stone–Weierstrass theorem, Bernstein polynomials, the Müntz–Szász theorem, Chebyshev equioscillation, and the Jackson and Bernstein theorems on best approximation.",
+   "queries": [
+    "Weierstrass approximation theorem Bernstein polynomials",
+    "Stone Weierstrass theorem algebra separates points",
+    "Muntz Szasz theorem monomials",
+    "Chebyshev equioscillation theorem best approximation"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lebesgue measure and measurable sets",
+   "scope": "Lebesgue outer measure, Carathéodory measurability, Borel versus Lebesgue sets, Vitali non-measurable sets, the Lebesgue density theorem, the Steinhaus theorem and related set constructions.",
+   "queries": [
+    "Lebesgue outer measure Caratheodory criterion",
+    "Vitali set non-measurable axiom of choice",
+    "Lebesgue density theorem points",
+    "Steinhaus theorem difference set measure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Abstract measure theory",
+   "scope": "Sigma-algebras, measure spaces, the Carathéodory extension theorem, the Dynkin π–λ theorem, signed measures with Hahn and Jordan decompositions, and the Radon–Nikodym and Lebesgue decomposition theorems.",
+   "queries": [
+    "Caratheodory extension theorem premeasure",
+    "Dynkin pi-lambda theorem sigma algebra",
+    "Hahn decomposition signed measure Jordan",
+    "Radon Nikodym theorem derivative absolutely continuous measure"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lebesgue integral and its limit theorems",
+   "scope": "Building the Lebesgue integral from simple functions, the monotone convergence theorem, Fatou's lemma, dominated convergence, the Vitali convergence theorem, and Fubini–Tonelli for product measures.",
+   "queries": [
+    "dominated convergence theorem Lebesgue integral",
+    "Fatou lemma monotone convergence theorem",
+    "Fubini Tonelli theorem product measure",
+    "Vitali convergence theorem uniformly integrable"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lp spaces",
+   "scope": "Definitions and properties of Lp and lp spaces: the Hölder and Minkowski inequalities, Riesz–Fischer completeness, duality and conjugate exponents, the essential supremum, inclusions between spaces, and density of continuous functions.",
+   "queries": [
+    "Riesz Fischer theorem Lp complete",
+    "Holder inequality Minkowski inequality Lp",
+    "dual space Lp conjugate exponent",
+    "essential supremum L infinity space"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bounded variation, absolute continuity and differentiation theorems",
+   "scope": "Functions of bounded variation, the Jordan decomposition, absolutely continuous functions, Lebesgue's differentiation theorem, the Vitali covering lemma, Dini derivatives, Rademacher's theorem, and the fundamental theorem of calculus for Lebesgue integrals.",
+   "queries": [
+    "bounded variation function Jordan decomposition",
+    "absolutely continuous function Lebesgue fundamental theorem",
+    "Lebesgue differentiation theorem Vitali covering lemma",
+    "Dini derivatives Denjoy Young Saks theorem"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Classical inequalities of analysis",
+   "scope": "Elementary and integral inequalities and their sharp constants: AM–GM, Cauchy–Schwarz, Jensen, Bernoulli, Young, Chebyshev's sum inequality, the rearrangement inequality, and the Hardy, Carleman and Hilbert inequalities.",
+   "queries": [
+    "Carleman inequality constant e",
+    "Hardy inequality sharp constant integral",
+    "Hilbert inequality double series pi",
+    "Jensen inequality convex function AM-GM"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hausdorff measure and fractal dimension",
+   "scope": "Hausdorff measure and dimension, box-counting (Minkowski) dimension, self-similar sets, and the dimensions of standard fractals such as the Cantor set, the Koch curve and the Sierpiński triangle.",
+   "queries": [
+    "Hausdorff dimension Cantor set log 2 log 3",
+    "Hausdorff measure definition outer measure",
+    "Minkowski Bouligand box-counting dimension",
+    "Koch snowflake Sierpinski triangle dimension"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Non-absolute and generalized integrals",
+   "scope": "Integrals that go beyond Lebesgue's, such as the Henstock–Kurzweil gauge integral, the Denjoy, Perron, McShane and Khinchin integrals, and the Daniell integral.",
+   "queries": [
+    "Henstock Kurzweil integral gauge",
+    "Denjoy integral Perron integral equivalence",
+    "McShane integral gauge integral",
+    "Daniell integral construction functional"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Multivariable differential calculus",
+   "scope": "Partial and directional derivatives, total (Fréchet) differentiability, Schwarz–Clairaut symmetry of second derivatives, Jacobian and Hessian matrices, the multivariable chain rule, and the inverse and implicit function theorems.",
+   "queries": [
+    "Schwarz theorem symmetry second derivatives Clairaut",
+    "implicit function theorem Jacobian",
+    "inverse function theorem continuously differentiable",
+    "Frechet derivative directional derivative Gateaux"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Multiple integrals and change of variables",
+   "scope": "Double and triple integrals, Fubini's theorem for iterated Riemann integrals, the Jacobian change-of-variables formula, polar, cylindrical and spherical coordinates, and volumes of n-balls.",
+   "queries": [
+    "change of variables multiple integral Jacobian determinant",
+    "spherical coordinates volume element triple integral",
+    "volume of n-ball formula gamma function",
+    "Fubini theorem iterated integral order counterexample"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vector calculus integral theorems and differential forms",
+   "scope": "Line and surface integrals, Green's theorem, the Kelvin–Stokes and divergence (Gauss–Ostrogradsky) theorems, vector identities, the exterior derivative, the Poincaré lemma and the generalized Stokes theorem.",
+   "queries": [
+    "Green theorem line integral region",
+    "divergence theorem Gauss Ostrogradsky flux",
+    "Kelvin Stokes theorem history curl",
+    "generalized Stokes theorem differential forms exterior derivative"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Extrema and Lagrange multipliers",
+   "scope": "Critical points, the first and second derivative tests, classification by the Hessian, saddle points, Lagrange multipliers, the bordered Hessian, and constrained extrema in several variables.",
+   "queries": [
+    "second partial derivative test Hessian determinant",
+    "Lagrange multiplier constrained optimization",
+    "bordered Hessian constrained extremum",
+    "saddle point critical point classification"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Calculus of variations",
+   "scope": "Extrema of functionals: the Euler–Lagrange equation, the Beltrami identity, the brachistochrone and isoperimetric problems, the Legendre and Jacobi conditions, the Weierstrass E-function, and direct methods.",
+   "queries": [
+    "Euler Lagrange equation functional extremum",
+    "brachistochrone problem Bernoulli 1696",
+    "Beltrami identity calculus of variations",
+    "Legendre condition Jacobi condition second variation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gamma and beta functions and Stirling's formula",
+   "scope": "Euler's gamma and beta integrals, the Bohr–Mollerup theorem, the reflection and duplication formulas, Stirling's approximation, the digamma function and the Euler–Mascheroni constant.",
+   "queries": [
+    "Bohr Mollerup theorem gamma function log-convex",
+    "Legendre duplication formula gamma",
+    "Stirling approximation factorial error",
+    "Euler Mascheroni constant digamma"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Asymptotic expansions and Euler–Maclaurin summation",
+   "scope": "Asymptotic notation and series, Laplace's method, stationary phase, steepest descent, Watson's lemma, the Euler–Maclaurin formula, Bernoulli numbers and Abel's summation formula.",
+   "queries": [
+    "Euler Maclaurin formula Bernoulli numbers remainder",
+    "Laplace method asymptotic integral",
+    "Watson lemma asymptotic expansion",
+    "method of stationary phase Kelvin"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Convergence of Fourier series and integrals",
+   "scope": "Pointwise, uniform and mean-square convergence of Fourier series, the Dirichlet and Fejér kernels, the Gibbs phenomenon, the Riemann–Lebesgue lemma, Carleson's theorem, Kolmogorov's divergence example, Parseval/Plancherel and Poisson summation.",
+   "queries": [
+    "Gibbs phenomenon overshoot Fourier series",
+    "Fejer kernel Cesaro mean Fourier",
+    "Carleson theorem almost everywhere convergence",
+    "Riemann Lebesgue lemma Fourier coefficients"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Existence and uniqueness theorems for ordinary differential equations",
+   "scope": "The Picard–Lindelöf and Peano existence theorems, Picard iteration, Grönwall's inequality, the Osgood uniqueness criterion, Carathéodory solutions, and continuation of solutions.",
+   "queries": [
+    "Picard Lindelof theorem Lipschitz uniqueness",
+    "Peano existence theorem continuous",
+    "Gronwall inequality differential",
+    "Osgood criterion uniqueness ODE"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fractional calculus",
+   "scope": "Derivatives and integrals of non-integer order: the Riemann–Liouville, Caputo, Grünwald–Letnikov and Weyl definitions, the Cauchy formula for repeated integration, and the Mittag-Leffler function.",
+   "queries": [
+    "Riemann Liouville fractional integral",
+    "Caputo fractional derivative definition",
+    "Grunwald Letnikov derivative",
+    "Cauchy formula repeated integration Mittag-Leffler"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infinitesimals and nonstandard analysis",
+   "scope": "Rigorous approaches to infinitesimals: Robinson's nonstandard analysis, the hyperreal numbers, the transfer principle and standard part, Keisler's calculus textbook, Nelson's internal set theory, and smooth infinitesimal analysis.",
+   "queries": [
+    "hyperreal numbers transfer principle standard part",
+    "Abraham Robinson nonstandard analysis 1966",
+    "Nelson internal set theory",
+    "smooth infinitesimal analysis nilsquare"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Origins of calculus and its notation",
+   "scope": "Precursors (Archimedes, Fermat, Cavalieri, Barrow), Newton's fluxions and Leibniz's differentials, their priority dispute, Berkeley's critique, and where the derivative and integral notations came from.",
+   "queries": [
+    "Newton Leibniz calculus priority controversy Royal Society",
+    "method of fluxions Newton published",
+    "Leibniz notation integral sign Nova Methodus",
+    "Berkeley The Analyst ghosts of departed quantities"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century rigorization of analysis",
+   "scope": "The arithmetization of analysis by Bolzano, Cauchy, Abel, Dirichlet, Riemann, Weierstrass, Heine, Dedekind and Cantor, including key publications such as Cauchy's Cours d'analyse and the arrival of epsilon-delta definitions.",
+   "queries": [
+    "Cauchy Cours d'analyse 1821 rigor",
+    "Bolzano 1817 intermediate value proof",
+    "Weierstrass epsilon delta arithmetization",
+    "Riemann Habilitation trigonometric series integral"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convex functions and convexity on the real line",
+   "scope": "Properties of convex, log-convex, quasi-convex and midpoint-convex functions: one-sided derivatives, continuity and differentiability almost everywhere, Alexandrov's theorem, convex conjugates and the Legendre–Fenchel transform.",
+   "queries": [
+    "convex function one-sided derivatives continuity interior",
+    "midpoint convex function Sierpinski measurable continuous",
+    "Legendre Fenchel transform convex conjugate",
+    "Alexandrov theorem convex function second derivative"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Functional equations in real analysis",
+   "scope": "Classical functional equations over the reals and what their solutions look like under regularity conditions, including Cauchy's additive equation, Hamel-basis pathologies, Jensen, Pexider and d'Alembert equations, and Hyers–Ulam stability.",
+   "queries": [
+    "Cauchy functional equation Hamel basis solutions",
+    "Jensen functional equation d'Alembert cosine equation",
+    "Hyers Ulam stability functional equations",
+    "Pexider equation additive multiplicative logarithmic functional equations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Numerical integration and quadrature rules",
+   "scope": "Approximate integration rules and their error terms, including trapezoidal, midpoint and Simpson's rules, Newton–Cotes formulas, Gaussian, Gauss–Kronrod and Clenshaw–Curtis quadrature, and Romberg extrapolation.",
+   "queries": [
+    "Simpson's rule error bound fourth derivative",
+    "Newton Cotes formulas trapezoidal rule error term",
+    "Gaussian quadrature Legendre nodes weights",
+    "Romberg integration Richardson extrapolation Gauss Kronrod"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Laplace, Mellin and other integral transforms",
+   "scope": "Definitions, operational properties, inversion formulas and named theorems for the Laplace, Mellin, Hankel, Hilbert and related integral transforms (Fourier convergence theory excluded).",
+   "queries": [
+    "Laplace transform final value theorem convolution",
+    "Bromwich integral inverse Laplace transform Post inversion",
+    "Mellin transform fundamental strip Ramanujan master theorem",
+    "Hilbert transform Hankel transform properties"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Distributions and generalized functions",
+   "scope": "Schwartz's theory of distributions, covering test functions, the Dirac delta, tempered distributions and the Schwartz space, principal values, weak derivatives and the Sobolev spaces built on them.",
+   "queries": [
+    "Schwartz distributions test functions Dirac delta",
+    "tempered distributions Fourier transform Schwartz space",
+    "Sokhotski Plemelj theorem principal value distribution",
+    "weak derivative Sobolev space embedding theorem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Baire category and descriptive set theory of the reals",
+   "scope": "The Baire category theorem and its uses in analysis, meagre and residual sets, Baire classes of functions, the Borel hierarchy, analytic (Suslin) sets and the Banach–Mazur game.",
+   "queries": [
+    "Baire category theorem meagre set applications",
+    "Baire class functions pointwise limits continuous",
+    "Borel hierarchy analytic sets Suslin",
+    "Banach Mazur game comeagre residual set"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Calculus of finite differences and umbral calculus",
+   "scope": "Discrete counterparts of differentiation and integration: forward, backward and central difference operators, Newton's forward-difference series, falling factorials and Stirling numbers, indefinite sums, summation by parts, Nörlund–Rice integrals and umbral calculus.",
+   "queries": [
+    "finite difference operator forward difference Newton series",
+    "falling factorial Stirling numbers indefinite sum",
+    "umbral calculus Sheffer sequence shift operator",
+    "Norlund Rice integral summation by parts discrete"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Elementary transcendental functions and their identities",
+   "scope": "Definitions, principal branches, identities and history of the exponential, logarithmic, trigonometric, inverse trigonometric and hyperbolic functions, plus related functions such as the Gudermannian and Lambert W.",
+   "queries": [
+    "hyperbolic functions inverse identities Gudermannian function",
+    "Lambert W function branches properties",
+    "history of logarithms Napier Briggs tables",
+    "inverse trigonometric functions principal values identities"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# security-themed tasks whose oracle still fails under the oracle-v5 runtime; their triage was stopped by the
+# model provider's safety filter, so the cause was not investigated (oracle-v5 outcome given per task)
+capture-flag-strategy	oracle fails (reward 0); not investigated
+ctf-sqli-xss-cbc-chain	oracle fails (RewardFileNotFoundError); not investigated
+jndi-waf-bypass	oracle fails (RewardFileNotFoundError); not investigated
+moe-routing-vulnerability	oracle fails (RewardFileNotFoundError); not investigated
+phantom-wallet	oracle fails (reward 0); not investigated
+reverse-custom-vm	oracle fails (BuildError); not investigated
+reverse-engineer-task	oracle fails (reward 0); not investigated
+reversing-executable	oracle fails (reward 0); not investigated
+rust-ransom-decrypt	oracle fails (BuildError); not investigated
+secure-drop-directory	oracle fails (reward 0); not investigated
+security-celery-redis-rce	oracle fails (reward 0); not investigated
+spring-messaging-vul	oracle fails (reward 0); not investigated
+vul-flink	oracle fails (reward 0); not investigated
+vul-qwik	oracle fails (reward 0); not investigated

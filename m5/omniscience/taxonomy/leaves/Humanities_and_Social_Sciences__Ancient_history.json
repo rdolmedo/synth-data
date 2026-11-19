@@ -1,0 +1,951 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Ancient history",
+ "weight": 0.015250499999999998,
+ "leaves": [
+  {
+   "leaf": "Sumerian city-states, Akkadian Empire and Ur III",
+   "scope": "Early Dynastic Sumer through the Akkadian Empire, the Gutian interlude and the Third Dynasty of Ur, covering rulers, wars between city-states, king lists and administration.",
+   "queries": [
+    "Sumerian King List Early Dynastic rulers",
+    "Lagash Umma conflict Eannatum Stele Vultures",
+    "Sargon of Akkad Naram-Sin Akkadian conquests",
+    "Third Dynasty of Ur Ur-Nammu Shulgi"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Babylonia from Hammurabi to Nabonidus",
+   "scope": "Babylonian political history from the Isin-Larsa and Old Babylonian periods through the Kassite dynasty to the Neo-Babylonian (Chaldean) Empire and its fall to Cyrus.",
+   "queries": [
+    "Hammurabi Old Babylonian period Larsa Rim-Sin",
+    "Kassite dynasty Babylon kings Kurigalzu",
+    "Nebuchadnezzar II Neo-Babylonian Empire Jerusalem siege",
+    "Nabonidus Belshazzar fall of Babylon 539"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Assyria from Old Assyrian trade to the Neo-Assyrian Empire",
+   "scope": "Assyrian kings, capitals, campaigns and institutions from the Kanesh merchant colonies and Shamshi-Adad I to Ashurbanipal and the fall of Nineveh.",
+   "queries": [
+    "Old Assyrian Kanesh karum merchants Shamshi-Adad",
+    "Tiglath-Pileser III Neo-Assyrian provincial reforms",
+    "Sennacherib Nineveh campaign Lachish siege",
+    "fall of Nineveh 612 BC Harran Ashur-uballit"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hittites, Mitanni and the Late Bronze Age collapse",
+   "scope": "The Hittite Old Kingdom and Empire, Mitanni, Ugarit and the Amarna-era system of great-power diplomacy, through the Sea Peoples and the collapse around 1200 BC.",
+   "queries": [
+    "Hittite Empire Suppiluliuma Hattusa kings",
+    "Mitanni kingdom Tushratta Washukanni",
+    "Amarna letters great kings diplomatic correspondence",
+    "Late Bronze Age collapse Sea Peoples Ugarit"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Elam, Urartu, Media and Iron Age Anatolian kingdoms",
+   "scope": "Near Eastern states outside the Mesopotamian core: Elamite dynasties and Susa, the kingdom of Urartu, the Median kingdom, and Phrygia and Lydia before the Persian conquest.",
+   "queries": [
+    "Elam Susa Elamite dynasties Untash-Napirisha",
+    "Urartu kingdom Tushpa Sarduri Argishti",
+    "Median kingdom Cyaxares Deioces Ecbatana",
+    "Lydia Croesus Gyges Mermnad dynasty Sardis"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Early Dynastic, Old and Middle Kingdom Egypt",
+   "scope": "Egyptian political history from unification and the first dynasties through the pyramid age, the First Intermediate Period, the Middle Kingdom and the Hyksos Second Intermediate Period.",
+   "queries": [
+    "Narmer Palette First Dynasty Egypt kings",
+    "Fourth Dynasty Sneferu Khufu Giza pyramid",
+    "Twelfth Dynasty Senusret III Amenemhat Middle Kingdom",
+    "Hyksos Second Intermediate Period Avaris Fifteenth Dynasty"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "New Kingdom Egypt (18th-20th Dynasties)",
+   "scope": "Pharaohs, queens, campaigns and court politics of the 18th to 20th Dynasties, including the Amarna period, the Ramesside wars and the late Ramesside decline.",
+   "queries": [
+    "Thutmose III Megiddo campaign Eighteenth Dynasty",
+    "Akhenaten Amarna period Nefertiti Tutankhamun succession",
+    "Ramesses II Battle of Kadesh Abu Simbel",
+    "Ramesses III harem conspiracy Deir el-Medina strike"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Third Intermediate and Late Period Egypt",
+   "scope": "Egypt from the Tanite and Libyan dynasties through the Kushite 25th Dynasty, the Saite revival and Persian rule, to the last native pharaohs of the 30th Dynasty.",
+   "queries": [
+    "Third Intermediate Period Tanis Libyan Shoshenq",
+    "Twenty-fifth Dynasty Piye Taharqa Kushite pharaohs",
+    "Saite Twenty-sixth Dynasty Psamtik Necho Amasis",
+    "Thirtieth Dynasty Nectanebo II last native pharaoh"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ptolemaic Egypt administration and dynastic politics",
+   "scope": "The Ptolemaic kingdom from Ptolemy I to Cleopatra VII: royal succession, sibling marriages, the Syrian Wars, Alexandria, priestly decrees and the nome-based bureaucracy known from papyri.",
+   "queries": [
+    "Ptolemy II Philadelphus Arsinoe II Ptolemaic dynasty",
+    "Syrian Wars Ptolemaic Seleucid Battle of Raphia",
+    "Ptolemaic administration dioiketes nome strategos papyri",
+    "Cleopatra VII Ptolemy XIII Alexandrian War"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Kingdom of Kush and Aksum",
+   "scope": "The Nubian kingdoms of Kerma, Napata and Meroë and the Aksumite kingdom of Ethiopia and Eritrea, covering rulers, capitals, royal burials, Meroitic script and Aksumite coinage.",
+   "queries": [
+    "Kerma culture Nubia Kingdom of Kush",
+    "Meroe kandake queens Meroitic script pyramids",
+    "Napatan kings Nuri burials Aspelta",
+    "Kingdom of Aksum Ezana coinage conversion"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Phoenician city-states and Carthage",
+   "scope": "Tyre, Sidon, Byblos and Phoenician colonization across the Mediterranean, plus Carthage's government, leading families and wars in Sicily before the Punic Wars.",
+   "queries": [
+    "Phoenician city-states Tyre Sidon Byblos kings",
+    "Phoenician colonization Gadir Utica Motya",
+    "Carthage government suffetes Council of Hundred and Four",
+    "Sicilian Wars Carthage Syracuse Himera Hamilcar"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ancient Israel and Judea from the divided monarchy to Bar Kokhba",
+   "scope": "The kingdoms of Israel and Judah, the Babylonian exile and Persian Yehud, the Hasmonean state, Herodian rule and the Jewish-Roman wars down to AD 135.",
+   "queries": [
+    "Kingdom of Israel Omride dynasty Ahab Samaria",
+    "Kingdom of Judah Hezekiah Josiah kings",
+    "Hasmonean dynasty Maccabean revolt John Hyrcanus",
+    "First Jewish-Roman War Masada Bar Kokhba revolt"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Achaemenid Persian Empire",
+   "scope": "Achaemenid kings from Cyrus the Great to Darius III, with their satrapies, royal inscriptions, capitals, roads, administrative archives and court institutions.",
+   "queries": [
+    "Cyrus the Great Cambyses II conquest Egypt",
+    "Darius I Behistun Inscription satrapies",
+    "Achaemenid Royal Road Persepolis administrative tablets",
+    "Artaxerxes II Cyrus the Younger Cunaxa"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Parthian and Sasanian Empires",
+   "scope": "Arsacid Parthia and the Sasanian Empire, covering dynastic succession, wars with Rome and Byzantium, capitals, royal inscriptions and reforms, through the Muslim conquest.",
+   "queries": [
+    "Arsacid Parthian Empire Mithridates I Ctesiphon",
+    "Orodes II Phraates IV Parthian succession Vologases",
+    "Ardashir I Shapur I Naqsh-e Rostam inscriptions",
+    "Khosrow I Anushirvan Sasanian reforms"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Minoan and Mycenaean Aegean",
+   "scope": "Bronze Age Crete and mainland Greece: palace sites, chronological phases, Linear A and Linear B, the Thera eruption, and the Mycenaean kingdoms and how they were run.",
+   "queries": [
+    "Minoan palace Knossos Arthur Evans periods",
+    "Linear B tablets Pylos Mycenaean wanax administration",
+    "Thera eruption Akrotiri Minoan dating",
+    "Mycenae shaft graves Grave Circle A"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Archaic Greece: colonization, tyranny and lawgivers",
+   "scope": "The Greek world c. 800-500 BC: colonial foundations and their mother cities, tyrant dynasties, early lawgivers including Draco and Solon, and early wars between cities.",
+   "queries": [
+    "Greek colonization founding dates Syracuse Corinth",
+    "archaic Greek tyrants Cypselus Periander Polycrates",
+    "Draco Solon laws seisachtheia Athens",
+    "Lelantine War Chalcis Eretria"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Classical Athenian democracy and its institutions",
+   "scope": "Athenian institutions and politics from Cleisthenes to 322 BC: tribes and demes, Boule, Ekklesia, law courts, ostracism, archons, strategoi and the oligarchic coups.",
+   "queries": [
+    "Cleisthenes reforms ten tribes demes trittyes",
+    "Athenian ostracism ostraka ostracized politicians",
+    "Boule of Five Hundred prytany ekklesia",
+    "Thirty Tyrants Four Hundred oligarchic coup Athens"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spartan society and institutions",
+   "scope": "The Spartan constitution and dual kingship, ephors and gerousia, helots and perioikoi, the agoge and messes, the Messenian Wars and the Agiad and Eurypontid king lists.",
+   "queries": [
+    "Spartan constitution ephors gerousia dual kingship",
+    "Agiad Eurypontid kings of Sparta",
+    "helots perioikoi krypteia Messenian Wars",
+    "Spartan agoge syssitia homoioi"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Greco-Persian Wars",
+   "scope": "The Ionian Revolt and the Persian invasions of Greece in 490 and 480-479 BC, covering battles, commanders, fleets and the aftermath up to the Peace of Callias.",
+   "queries": [
+    "Ionian Revolt Aristagoras Battle of Lade",
+    "Battle of Marathon Miltiades Datis",
+    "Thermopylae Artemisium Salamis Themistocles fleet",
+    "Battle of Plataea Mycale Pausanias Mardonius"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Peloponnesian War and fourth-century Greek hegemonies",
+   "scope": "The Athenian-Spartan war of 431-404 BC and the later struggles among Sparta, Thebes and Athens for hegemony, including the Corinthian War, Leuctra and Mantinea.",
+   "queries": [
+    "Archidamian War Peace of Nicias Peloponnesian",
+    "Sicilian Expedition Nicias Syracuse 413 BC",
+    "Battle of Aegospotami Lysander Arginusae",
+    "Battle of Leuctra Epaminondas Theban hegemony"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Philip II of Macedon and Alexander the Great",
+   "scope": "Argead Macedon under Philip II and Alexander's campaigns, battles, city foundations and generals, up to his death in 323 BC.",
+   "queries": [
+    "Philip II Macedon Chaeronea League of Corinth",
+    "Alexander the Great Gaugamela Issus battles",
+    "Alexander Hydaspes Porus Indian campaign",
+    "Alexander generals Hephaestion Parmenion Cleitus"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Diadochi and Hellenistic kingdoms",
+   "scope": "The wars of Alexander's successors and the Seleucid, Antigonid, Attalid, Pontic, Bithynian and Greco-Bactrian monarchies (Ptolemaic Egypt excluded).",
+   "queries": [
+    "Wars of the Diadochi Ipsus Antigonus Monophthalmus",
+    "Seleucid Empire Seleucus I Antiochus III",
+    "Attalid dynasty Pergamon Eumenes II",
+    "Greco-Bactrian Kingdom Diodotus Euthydemus Demetrius"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Etruscans and Italic peoples",
+   "scope": "Etruscan civilization and the other pre-Roman peoples of Italy (Samnites, Oscans, Umbrians, Magna Graecia), including their leagues, languages and inscriptions, and their wars against Rome through the Pyrrhic War.",
+   "queries": [
+    "Etruscan civilization twelve cities league Veii",
+    "Etruscan inscriptions Pyrgi tablets Liber Linteus",
+    "Samnite Wars Caudine Forks",
+    "Pyrrhic War Heraclea Asculum Tarentum"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Roman Republic constitution and the Conflict of the Orders",
+   "scope": "Regal Rome and the institutions of the Republic: the kings, magistracies, Senate, assemblies, tribunes, the Twelve Tables and the key constitutional laws.",
+   "queries": [
+    "seven kings of Rome Servius Tullius reforms",
+    "Conflict of the Orders plebeian secession tribunes",
+    "Twelve Tables decemviri Lex Hortensia",
+    "cursus honorum magistrates comitia centuriata assemblies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Punic Wars and Roman Mediterranean expansion",
+   "scope": "Rome's wars against Carthage, the Macedonian kingdom, the Seleucids and the peoples of Hispania from 264 to 133 BC, including battles, commanders and treaties.",
+   "queries": [
+    "First Punic War Mylae Aegates Islands",
+    "Hannibal Cannae Trebia Second Punic War",
+    "Macedonian Wars Cynoscephalae Pydna",
+    "Third Punic War Carthage destroyed 146 BC"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Late Roman Republic crisis and civil wars",
+   "scope": "Roman politics from the Gracchi to Actium: Marius and Sulla, the Social and Mithridatic Wars, Pompey, Crassus, Caesar, the triumvirates and the civil wars.",
+   "queries": [
+    "Tiberius Gracchus land reform tribune 133",
+    "Marius Sulla civil war proscriptions dictatorship",
+    "First Triumvirate Caesar Pompey Rubicon",
+    "Second Triumvirate Philippi Actium Antony Octavian"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Julio-Claudian and Flavian emperors",
+   "scope": "Emperors, imperial families, succession crises and key officials from Augustus to Domitian (27 BC-AD 96), including the Year of the Four Emperors.",
+   "queries": [
+    "Augustus principate settlement 27 BC tribunician",
+    "Tiberius Sejanus Caligula Claudius succession",
+    "Nero Great Fire Pisonian conspiracy",
+    "Year of Four Emperors Vespasian Titus Domitian"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nerva-Antonine and Severan emperors",
+   "scope": "Emperors from Nerva to Severus Alexander (96-235): succession by adoption, the wars of Trajan and Marcus Aurelius, the crisis of 193 and Severan dynastic politics and reforms.",
+   "queries": [
+    "Trajan Dacian Wars Parthian campaign",
+    "Hadrian Antoninus Pius Marcus Aurelius adoption",
+    "Commodus assassination Year of Five Emperors",
+    "Septimius Severus Caracalla Constitutio Antoniniana"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Crisis of the Third Century, Tetrarchy and Constantinian dynasty",
+   "scope": "The barracks emperors, the breakaway Gallic and Palmyrene empires, Diocletian's Tetrarchy and reforms, and Constantine and his successors down to Julian and Jovian.",
+   "queries": [
+    "Crisis of the Third Century barracks emperors",
+    "Gallic Empire Postumus Zenobia Palmyrene Aurelian",
+    "Diocletian Tetrarchy Edict on Maximum Prices",
+    "Constantine Milvian Bridge Licinius Julian"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fall of the Western Roman Empire and the migration period",
+   "scope": "The Western Empire from Valentinian I to 476 and the rise of barbarian successor kingdoms: Adrianople, Goths, Huns, Vandals, Stilicho, Aetius and the last western emperors.",
+   "queries": [
+    "Battle of Adrianople 378 Valens Goths",
+    "Alaric sack of Rome 410 Stilicho",
+    "Attila Huns Catalaunian Plains Aetius",
+    "Odoacer Romulus Augustulus last Western emperors"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Roman army organization and frontier fortifications",
+   "scope": "Ranks, units, pay, equipment and the histories of individual legions in the Roman army, plus frontier systems such as Hadrian's Wall, the Antonine Wall and the limes.",
+   "queries": [
+    "Roman legion list legio emblems bases",
+    "Roman army ranks centurion primus pilus auxilia",
+    "Hadrian's Wall forts Vindolanda tablets",
+    "Limes Germanicus Raetian frontier forts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Iron Age Celts, Gauls, Britons and Germanic peoples",
+   "scope": "The Hallstatt and La Tène cultures, Gallic and British tribes and their leaders, the Galatians, and early Germanic tribes and their conflicts with Rome up to the 2nd century AD.",
+   "queries": [
+    "La Tene Hallstatt culture Celtic Iron Age",
+    "Gallic tribes Vercingetorix Alesia Arverni",
+    "Boudica Iceni revolt Caratacus British tribes",
+    "Arminius Teutoburg Forest Cherusci Germanic tribes"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thracians, Dacians, Scythians and Sarmatians",
+   "scope": "Peoples of the Balkans, the Black Sea and the Pontic steppe: the Odrysian kingdom, Dacia under Burebista and Decebalus, the Cimmerians, Scythians and Sarmatians, and the Bosporan Kingdom.",
+   "queries": [
+    "Odrysian kingdom Thracian kings Sitalces Seuthes",
+    "Dacian kingdom Burebista Decebalus Sarmizegetusa",
+    "Scythians kurgans royal Scythians Herodotus",
+    "Sarmatians Roxolani Iazyges Bosporan Kingdom"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Indus Valley Civilization",
+   "scope": "Harappan sites and phases, urban planning, seals and script, trade with Mesopotamia and theories of the civilization's decline.",
+   "queries": [
+    "Harappa Mohenjo-daro excavations Indus Valley",
+    "Indus script seals undeciphered signs",
+    "Dholavira Lothal Rakhigarhi Harappan sites",
+    "Mature Harappan phase decline Meluhha trade"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mahajanapadas and the Mauryan Empire",
+   "scope": "Early historic north India from the sixteen Mahajanapadas and Magadha's Haryanka, Shishunaga and Nanda dynasties to the Mauryan Empire, its administration and Ashoka's edicts.",
+   "queries": [
+    "sixteen Mahajanapadas Magadha Haryanka Bimbisara",
+    "Nanda Empire Chandragupta Maurya Chanakya",
+    "Ashoka rock edicts Kalinga war",
+    "Megasthenes Indica Pataliputra Mauryan administration"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Post-Mauryan and Gupta India",
+   "scope": "Indian dynasties c. 185 BC-AD 550, namely the Shunga, Kanva, Satavahana, Indo-Greek, Indo-Scythian, Kushan and Gupta states, with their rulers, inscriptions and dating eras.",
+   "queries": [
+    "Shunga Empire Pushyamitra Satavahana dynasty",
+    "Indo-Greek Menander Indo-Scythian Western Kshatrapas",
+    "Kushan Empire Kanishka Rabatak inscription",
+    "Gupta Empire Samudragupta Allahabad pillar"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shang and Zhou China",
+   "scope": "Chinese history from Erlitou and the Shang through the Western and Eastern Zhou, the Spring and Autumn states and the Warring States, including oracle bones, bronze inscriptions and state reforms.",
+   "queries": [
+    "Shang dynasty oracle bones Anyang Fu Hao",
+    "Western Zhou Battle of Muye Duke of Zhou",
+    "Spring and Autumn period hegemons states",
+    "Warring States period Shang Yang reforms"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Qin and Han dynasties",
+   "scope": "The Qin unification under Qin Shi Huang and the Western and Eastern Han, covering emperors, administration, the Xin interregnum, relations with the Xiongnu and the Western Regions.",
+   "queries": [
+    "Qin Shi Huang unification Li Si standardization",
+    "Han Wudi Xiongnu Zhang Qian Western Regions",
+    "Wang Mang Xin dynasty Eastern Han restoration",
+    "Yellow Turban Rebellion Eastern Han eunuchs"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Olmec, Teotihuacan and Classic Maya civilizations",
+   "scope": "Preclassic and Classic Mesoamerica: Olmec centers, Teotihuacan, Zapotec Monte Albán, and the Maya city-states with their rulers, Long Count dates and wars.",
+   "queries": [
+    "Classic Maya rulers Tikal Calakmul wars",
+    "Palenque Pakal inscriptions Maya dynasty",
+    "Teotihuacan Pyramid of the Sun entrada 378",
+    "Olmec San Lorenzo La Venta colossal heads"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek and Roman historians and historiography",
+   "scope": "The ancient historians and their works (Herodotus, Thucydides, Xenophon, Polybius, Livy, Sallust, Tacitus, Suetonius, Cassius Dio, Ammianus), including how each work is divided into books, what it covers, and lost or fragmentary parts.",
+   "queries": [
+    "Herodotus Histories nine books Muses",
+    "Polybius Histories forty books surviving",
+    "Livy Ab Urbe Condita lost books periochae",
+    "Tacitus Annals Histories coverage manuscripts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient writing systems and their decipherment",
+   "scope": "How ancient scripts began, how they work and how they were deciphered in modern times (cuneiform, Egyptian hieroglyphs, Linear A and B, Old Persian, Ugaritic, Brahmi, Maya glyphs), including the key bilingual inscriptions and the people who deciphered them.",
+   "queries": [
+    "Champollion Rosetta Stone hieroglyphs decipherment 1822",
+    "Linear B decipherment Michael Ventris syllabary",
+    "Behistun inscription Rawlinson Old Persian cuneiform",
+    "Brahmi script James Prinsep decipherment Ashoka"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient calendars, chronology and dating systems",
+   "scope": "Calendars and dating systems used in antiquity (Egyptian civil calendar and Sothic cycle, Babylonian lunisolar intercalation, Olympiads and archon years, Roman consular and AUC dating, the Julian reform) and modern debates about absolute chronology.",
+   "queries": [
+    "Sothic cycle Egyptian civil calendar Sirius",
+    "Julian calendar reform 46 BC year of confusion",
+    "Olympiad dating Athenian archon list chronology",
+    "Mesopotamian middle chronology Venus tablet Ammisaduqa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient coinage and numismatics",
+   "scope": "Ancient money from the first Lydian electrum coins through Greek, Achaemenid, Hellenistic and Roman coinage, covering denominations, mints, coin types, weight standards, hoards and debasement.",
+   "queries": [
+    "Lydian electrum coins earliest coinage Sardis",
+    "Athenian tetradrachm owl Laurion silver drachm",
+    "Roman denarius debasement antoninianus silver content",
+    "Achaemenid daric siglos coin weight standard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek religion, sanctuaries, oracles and mystery cults",
+   "scope": "Greek religious institutions and practice: the major sanctuaries and oracles (Delphi, Dodona, Didyma), priesthoods, civic festivals such as the Panathenaia and Thesmophoria, and mystery cults such as those of Eleusis and Samothrace and Orphism.",
+   "queries": [
+    "Delphi oracle Pythia sanctuary of Apollo",
+    "Eleusinian Mysteries Demeter initiation Telesterion",
+    "Panathenaic festival peplos procession Athena",
+    "oracle of Dodona Zeus lead tablets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient Olympic and Panhellenic games",
+   "scope": "The Olympic, Pythian, Isthmian and Nemean games and Greek athletics: events, named victors, prizes, venues, officials, victor lists, and when the festivals were founded and ended.",
+   "queries": [
+    "ancient Olympic Games stadion pankration victors",
+    "Pythian Isthmian Nemean Games crown prizes",
+    "Hellanodikai Olympia stadium hippodrome",
+    "Olympic victor list Hippias of Elis 776 BC"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman state religion, priesthoods and the imperial cult",
+   "scope": "Rome's public religion: the priestly colleges (pontiffs, augurs, Vestals, flamines, fetials), festivals and temples, the adoption of foreign cults such as Magna Mater, Isis and Mithras, and the deification and worship of emperors.",
+   "queries": [
+    "pontifex maximus Roman priestly colleges augurs flamen",
+    "Vestal Virgins Temple of Vesta Rome",
+    "Roman imperial cult divus deification temple",
+    "Mithraism mithraeum tauroctony Roman soldiers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early Christianity and persecution in the Roman Empire",
+   "scope": "How Christianity spread and organized itself in the Roman world from the apostolic age to the Council of Chalcedon: the persecutions and martyrs, early heresies, bishops, and the first ecumenical councils.",
+   "queries": [
+    "Decian persecution libelli certificates 250 AD",
+    "Diocletianic Great Persecution edicts 303 Christians",
+    "First Council of Nicaea 325 Arius creed",
+    "Council of Chalcedon 451 Nestorius Ephesus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient Egyptian religion, temples and funerary practice",
+   "scope": "Egyptian gods, cult temples and priesthoods, and funerary beliefs and practice: mummification, the Pyramid Texts, Coffin Texts and Book of the Dead, tomb types and burial equipment.",
+   "queries": [
+    "Book of the Dead spell 125 weighing of the heart",
+    "Pyramid Texts Unas Coffin Texts funerary spells",
+    "mummification natron canopic jars Four Sons of Horus",
+    "Karnak temple Amun priesthood Opet festival"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman law from the Twelve Tables to Justinian's Corpus Juris Civilis",
+   "scope": "How Roman public and private law developed, from the Twelve Tables and the praetor's edict through the classical jurists to the Theodosian Code and Justinian's codification, including major statutes and court procedure.",
+   "queries": [
+    "Law of the Twelve Tables decemviri 451 BC",
+    "Justinian Digest Institutes Codex Tribonian",
+    "classical Roman jurists Ulpian Papinian Gaius",
+    "Roman formulary procedure praetor edict"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman society and economy: slavery, patronage and the grain supply",
+   "scope": "Social and economic structures of the Roman world: slavery and manumission, freedmen, patrons and clients, census classes, and trade, including the annona grain supply, ports and goods shipped in amphorae.",
+   "queries": [
+    "Roman slavery manumission freedmen libertus",
+    "patron client relationship Roman salutatio clientela",
+    "annona grain supply praefectus annonae Ostia",
+    "Monte Testaccio amphorae olive oil trade Baetica"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman spectacles: gladiators, amphitheatres and chariot racing",
+   "scope": "Roman public entertainment: gladiator types and schools, amphitheatres, beast hunts (venationes) and staged sea battles (naumachiae), the circus racing factions, and the officials and sponsors who put on the games.",
+   "queries": [
+    "gladiator types murmillo retiarius secutor thraex",
+    "Flavian Amphitheatre inaugural games 80 AD",
+    "chariot racing factions Blues Greens Circus Maximus",
+    "ludus gladiatorial school lanista venationes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Topography and monuments of the city of Rome",
+   "scope": "The layout and buildings of ancient Rome: its hills, walls and gates, fora, temples, basilicas, baths, theatres and mausolea, with their builders, construction dates and later rebuildings.",
+   "queries": [
+    "Servian Wall Aurelian Walls Rome gates",
+    "Forum of Trajan Basilica Ulpia Apollodorus",
+    "Baths of Caracalla Diocletian thermae Rome",
+    "Pantheon Agrippa Hadrian dome rebuilt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pompeii, Herculaneum and the eruption of Vesuvius",
+   "scope": "The towns and villas buried by Vesuvius in 79 AD: the eruption, the history of excavation, notable houses, wall inscriptions and frescoes, and finds such as the Herculaneum papyri.",
+   "queries": [
+    "Pompeii excavation Fiorelli plaster casts",
+    "Villa of the Papyri Herculaneum scrolls",
+    "House of the Faun Alexander Mosaic Pompeii",
+    "eruption of Vesuvius 79 AD Pliny the Younger"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman engineering: roads, aqueducts and bridges",
+   "scope": "Roman civil engineering and building technology (roads, aqueducts, bridges, harbours, concrete, surveying), with named structures, their builders, dates and dimensions.",
+   "queries": [
+    "Via Appia Appius Claudius Caecus 312 BC",
+    "Aqua Claudia Anio Novus aqueduct Frontinus",
+    "Pont du Gard aqueduct bridge Nemausus",
+    "Roman concrete opus caementicium pozzolana Vitruvius"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman provinces and provincial administration",
+   "scope": "How Rome governed its provinces (senatorial versus imperial provinces, proconsuls, legates and procurators, provincial councils, taxation and tax farmers) and the civil history of provinces such as Britannia, Hispania, Gaul, Africa and Asia.",
+   "queries": [
+    "Roman Britain governors Aulus Plautius Agricola",
+    "senatorial imperial provinces proconsul legatus Augusti",
+    "Hispania Tarraconensis Baetica Lusitania provincial capital",
+    "Africa Proconsularis province publicani taxation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Regal Rome and the Roman conquest of Italy",
+   "scope": "Rome from its legendary founding and seven kings through the early Republic's wars with Veii, the Gauls, the Latins, the Samnites and Pyrrhus, which brought Italy under Roman control by 264 BC.",
+   "queries": [
+    "seven kings of Rome Servius Tullius Tarquinius Superbus",
+    "Samnite Wars Caudine Forks 321 BC",
+    "Pyrrhic War Heraclea Asculum Beneventum",
+    "Gallic sack of Rome Brennus Allia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Eastern Roman Empire from Arcadius to Justinian I",
+   "scope": "The eastern empire from 395 to 565: its emperors, Constantinople's administration and buildings, court politics, wars with Persia and in the Balkans, the Nika riots, and Justinian's reconquests.",
+   "queries": [
+    "Theodosian Walls Constantinople Theodosius II",
+    "Nika riots 532 Justinian Theodora Hippodrome",
+    "Belisarius Vandalic War Gothic War reconquest",
+    "Emperor Zeno Anastasius I Isaurians Constantinople"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek and Hellenistic warfare: hoplites, phalanx, triremes and sieges",
+   "scope": "How Greek and Hellenistic states fought: hoplite equipment and tactics, the Macedonian sarissa phalanx and elite units, trireme crews and naval tactics, mercenaries, and siege methods and engines.",
+   "queries": [
+    "hoplite aspis phalanx othismos tactics",
+    "trireme crew oarsmen thranites Olympias reconstruction",
+    "Macedonian phalanx sarissa length hypaspists",
+    "Demetrius Poliorcetes helepolis siege of Rhodes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek Sicily and Magna Graecia from the Deinomenids to Agathocles",
+   "scope": "The Greek cities of Sicily and southern Italy in the Classical and early Hellenistic periods (Syracuse, Akragas, Gela, Croton, Taras and others): their tyrants, internal politics and wars with Carthage and Italic peoples.",
+   "queries": [
+    "Gelon Hieron Deinomenid tyrants Syracuse Himera",
+    "Dionysius I of Syracuse tyranny Carthage wars",
+    "Agathocles Syracuse invasion of Africa 310 BC",
+    "Croton Taras Sybaris Magna Graecia cities"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hellenistic science, technology and Alexandrian scholarship",
+   "scope": "Greek and Hellenistic science, mathematics and technology: the Library and Mouseion of Alexandria and their scholars, Archimedes, Eratosthenes, Hipparchus, Ctesibius and Hero, and devices such as the Antikythera mechanism.",
+   "queries": [
+    "Antikythera mechanism gears astronomical calculator",
+    "Eratosthenes circumference of the Earth Syene",
+    "Library of Alexandria librarians Callimachus Pinakes",
+    "Hero of Alexandria aeolipile Ctesibius automata"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient exploration, periploi and geographical writing",
+   "scope": "Ancient voyages of exploration and the texts that describe them (Hanno, Himilco, Scylax of Caryanda, Pytheas, Nearchus, the Periplus of the Erythraean Sea) and the geographical works of Pomponius Mela and Ptolemy.",
+   "queries": [
+    "Pytheas of Massalia voyage Thule",
+    "Periplus of the Erythraean Sea ports Muziris",
+    "Hanno the Navigator periplus West Africa",
+    "Ptolemy Geography coordinates Taprobane maps"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pre-Islamic Arabia and caravan kingdoms",
+   "scope": "States and peoples of pre-Islamic Arabia and the Syrian desert edge (Saba, Qataban, Hadramawt, Himyar, the Nabataeans, Palmyra, the Lakhmids and Ghassanids): their rulers, inscriptions, capitals and the incense and caravan trade.",
+   "queries": [
+    "Kingdom of Saba Marib dam Sabaean inscriptions",
+    "Himyarite Kingdom Dhu Nuwas Zafar",
+    "Nabataean kingdom Petra Aretas IV",
+    "Lakhmids Ghassanids al-Hira Arab client kings"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Caucasus and Black Sea kingdoms: Armenia, Colchis, Iberia, Pontus and the Bosporus",
+   "scope": "Kingdoms of the Hellenistic and Roman eras around the Black Sea and in the Caucasus (Armenia under the Orontids, Artaxiads and Arsacids, Colchis, Caucasian Iberia and Albania, Pontus, the Bosporan Kingdom), with their dynasties and capitals.",
+   "queries": [
+    "Tigranes the Great Kingdom of Armenia Tigranocerta",
+    "Bosporan Kingdom Panticapaeum Spartocid dynasty",
+    "Kingdom of Pontus Mithridatic dynasty Amaseia",
+    "Colchis Caucasian Iberia Pharnavaz kings"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Numidia, Mauretania and the Garamantes",
+   "scope": "Indigenous kingdoms and peoples of North Africa from the fourth century BC until Roman annexation: the Massylii and Masaesyli, the dynasties of Masinissa and Juba, Mauretania, and the Saharan Garamantes.",
+   "queries": [
+    "Masinissa Kingdom of Numidia Cirta Massylii",
+    "Juba II Cleopatra Selene Mauretania Caesarea",
+    "Garamantes Germa Fezzan foggara",
+    "Syphax Masaesyli Siga Numidian kings"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neolithic and Chalcolithic Near East to the Uruk period",
+   "scope": "Near Eastern prehistory from the Natufian through the Pre-Pottery Neolithic and the Halaf, Ubaid and Uruk periods: early farming, key excavated sites and their excavators, and the rise of the first cities.",
+   "queries": [
+    "Göbekli Tepe Pre-Pottery Neolithic enclosures pillars",
+    "Çatalhöyük Neolithic settlement Mellaart excavation",
+    "Natufian culture Jericho tower PPNA",
+    "Ubaid period Eridu Uruk expansion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vedic period India",
+   "scope": "Northern India from about 1500 to 500 BCE: the Vedic texts and their dating, debates over Indo-Aryan migration, tribes and kingdoms such as Kuru and Panchala, the Battle of the Ten Kings, Vedic ritual and the emergence of varna.",
+   "queries": [
+    "Rigveda mandalas Battle of the Ten Kings",
+    "Kuru Kingdom Panchala Painted Grey Ware",
+    "Indo-Aryan migration Vedic Sanskrit Sintashta",
+    "Vedic ritual soma ashvamedha Brahmanas"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sangam-age South India and Anuradhapura Sri Lanka",
+   "scope": "Early historic South India and Sri Lanka: the Chera, Chola and Pandya kingdoms of the Sangam age, Tamil-Brahmi inscriptions and recent excavations, Indo-Roman trading ports, and the Anuradhapura Kingdom as told in the Mahavamsa.",
+   "queries": [
+    "Sangam period Chera Chola Pandya kings",
+    "Karikala Chola Kallanai Grand Anicut",
+    "Tamil-Brahmi inscriptions Keezhadi excavation",
+    "Anuradhapura Kingdom Dutugemunu Mahavamsa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient Korea and Japan to the Three Kingdoms and Kofun periods",
+   "scope": "Early states and cultures of Korea and Japan up to about 600 CE: Gojoseon, the Han commanderies, Goguryeo, Baekje, Silla and Gaya in Korea, and in Japan the Jōmon, Yayoi and Kofun periods, Himiko and the rise of Yamato.",
+   "queries": [
+    "Gojoseon Wiman Joseon Lelang Commandery",
+    "Goguryeo Gwanggaeto Stele King Jangsu",
+    "Himiko Yamatai Wa Wei Zhi",
+    "Kofun period keyhole tomb Daisen Kofun"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early Southeast Asia: Dong Son, Funan, Champa and the Pyu",
+   "scope": "Protohistoric and early historic Southeast Asia before about 700 CE: the Ban Chiang and Đông Sơn bronze cultures, Funan and Óc Eo, Champa, the Pyu city-states, Dvaravati, and early Indianized kingdoms in Java and Borneo.",
+   "queries": [
+    "Dong Son culture bronze drums Vietnam",
+    "Funan kingdom Oc Eo port Chinese records",
+    "Pyu city-states Sri Ksetra Halin Beikthano",
+    "Champa kingdom My Son inscriptions Lam Ap"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pre-Inca Andean civilizations from Caral to Tiwanaku and Wari",
+   "scope": "Andean civilizations before the Inca (Caral/Norte Chico, Chavín, Paracas, Nazca, Moche, Tiwanaku, Wari), covering their sites, dating, elite tombs, monuments and material culture.",
+   "queries": [
+    "Caral Norte Chico civilization Supe Valley",
+    "Moche culture Lord of Sipán tomb Huaca",
+    "Nazca Lines geoglyphs Paracas textiles",
+    "Tiwanaku Wari Middle Horizon Gateway of the Sun"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

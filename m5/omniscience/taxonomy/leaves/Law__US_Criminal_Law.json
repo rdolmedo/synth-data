@@ -1,0 +1,2055 @@
+{
+ "domain": "Law",
+ "subtopic": "US Criminal Law",
+ "weight": 0.032714999999999994,
+ "leaves": [
+  {
+   "leaf": "Mens rea, culpability levels and strict liability",
+   "scope": "Required mental states for crimes (purpose, knowledge, recklessness, negligence, willfulness, willful blindness) and strict-liability public-welfare offenses under the Model Penal Code and federal statutes.",
+   "queries": [
+    "mens rea knowingly willfully Model Penal Code 2.02",
+    "strict liability public welfare offense Morissette Staples",
+    "willful blindness deliberate ignorance jury instruction",
+    "Rehaif knowledge of status felon mens rea"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Actus reus, omissions, possession and causation",
+   "scope": "The voluntary-act requirement, status crimes, liability for omissions and legal duties to act, actual and constructive possession, and but-for and proximate causation.",
+   "queries": [
+    "voluntary act requirement unconscious automatism defense",
+    "omission legal duty to act criminal liability",
+    "constructive possession dominion and control contraband",
+    "proximate cause intervening act homicide Burrage"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Murder: malice, premeditation and felony murder",
+   "scope": "Common-law and statutory murder, including degree grading, premeditation and deliberation, depraved-heart malice, transferred intent, and the felony-murder rule with its merger and agency limits.",
+   "queries": [
+    "premeditation and deliberation first degree murder",
+    "depraved heart extreme indifference second degree murder",
+    "felony murder merger doctrine inherently dangerous felony",
+    "agency theory felony murder co-felon killed"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Manslaughter, negligent homicide and impaired-driving offenses",
+   "scope": "Voluntary manslaughter by provocation, involuntary and criminally negligent homicide, vehicular homicide, and DUI offenses including per se BAC limits and implied-consent chemical testing.",
+   "queries": [
+    "heat of passion adequate provocation voluntary manslaughter",
+    "involuntary manslaughter criminal negligence gross recklessness",
+    "vehicular homicide blood alcohol concentration per se",
+    "implied consent breath test refusal Birchfield"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Self-defense, defense of others and stand-your-ground laws",
+   "scope": "Justified use of force: imminence, proportionality, the duty to retreat, castle doctrine, stand-your-ground immunity statutes, imperfect self-defense and battered-spouse evidence.",
+   "queries": [
+    "duty to retreat castle doctrine deadly force",
+    "stand your ground statute immunity hearing",
+    "imperfect self-defense honest but unreasonable belief",
+    "battered woman syndrome self-defense imminence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insanity, diminished capacity, intoxication and competency",
+   "scope": "Mental-condition doctrines: the M'Naghten, irresistible-impulse and MPC substantial-capacity tests, the Insanity Defense Reform Act, diminished capacity, voluntary intoxication, and competency to stand trial.",
+   "queries": [
+    "M'Naghten test right and wrong insanity",
+    "Insanity Defense Reform Act 1984 Hinckley",
+    "voluntary intoxication specific intent Montana Egelhoff",
+    "competency to stand trial Dusky forced medication Sell"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Duress, necessity and entrapment",
+   "scope": "Defenses other than self-defense and mental condition: duress, necessity or choice of evils, and entrapment, including predisposition, inducement and outrageous government conduct.",
+   "queries": [
+    "duress defense imminent threat serious bodily injury",
+    "necessity defense choice of evils prison escape",
+    "entrapment predisposition government inducement Jacobson",
+    "outrageous government conduct due process sting operation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Attempt, solicitation and conspiracy",
+   "scope": "Inchoate offenses: substantial-step and dangerous-proximity tests, impossibility, abandonment, solicitation, the conspiracy agreement and overt act, Wharton's rule, Pinkerton liability and 18 U.S.C. 371.",
+   "queries": [
+    "attempt substantial step dangerous proximity test",
+    "factual legal impossibility attempt abandonment renunciation",
+    "Pinkerton liability coconspirator reasonably foreseeable",
+    "conspiracy overt act Wharton's rule 18 U.S.C. 371"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Accomplice liability and aiding and abetting",
+   "scope": "Liability of accomplices and accessories, including 18 U.S.C. 2, the accomplice's required mental state, the natural-and-probable-consequences doctrine, accessory after the fact and misprision of felony.",
+   "queries": [
+    "aiding and abetting 18 U.S.C. 2 Rosemond advance knowledge",
+    "natural and probable consequences doctrine accomplice",
+    "accessory after the fact harboring felon",
+    "misprision of felony concealment 18 U.S.C. 4"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Larceny, embezzlement, robbery and burglary",
+   "scope": "Common-law and statutory property and acquisitive offenses (larceny, embezzlement, false pretenses, receiving stolen property, robbery, Hobbs Act robbery, carjacking, burglary), including grading thresholds.",
+   "queries": [
+    "larceny trespassory taking intent to permanently deprive",
+    "embezzlement false pretenses fraudulent conversion",
+    "armed robbery force or fear Hobbs Act robbery",
+    "burglary breaking entering dwelling nighttime"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Assault, threats, stalking and kidnapping",
+   "scope": "Non-homicide crimes against the person: assault and battery, aggravated assault, domestic-violence offenses, true threats, stalking, false imprisonment and kidnapping, including the Federal Kidnapping Act.",
+   "queries": [
+    "aggravated assault deadly weapon serious bodily injury",
+    "true threats Counterman recklessness Elonis",
+    "stalking statute course of conduct emotional distress",
+    "kidnapping asportation Federal Kidnapping Act Lindbergh"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Sex offenses and sex offender registration",
+   "scope": "Rape and sexual-assault statutes and their consent and force elements, statutory rape, federal child-exploitation and Mann Act offenses, SORNA registration and civil commitment of sexually dangerous persons.",
+   "queries": [
+    "forcible rape consent force requirement",
+    "statutory rape age of consent mistake of age",
+    "SORNA failure to register Gundy nondelegation",
+    "child pornography 18 U.S.C. 2252 possession receipt"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mail, wire, bank and honest-services fraud",
+   "scope": "The federal fraud statutes (18 U.S.C. 1341, 1343, 1344, 1346): the scheme-to-defraud and property requirements, materiality, and honest-services fraud after McNally and Skilling.",
+   "queries": [
+    "mail fraud scheme to defraud 1341 property",
+    "honest services fraud Skilling bribes kickbacks",
+    "wire fraud right to control Ciminelli",
+    "bank fraud 1344 Loughrin Shaw"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Public corruption: bribery, gratuities and extortion",
+   "scope": "Corruption offenses: 18 U.S.C. 201 bribery and illegal gratuities, federal-program bribery under 666, Hobbs Act extortion under color of official right, and the official-act and quid pro quo requirements.",
+   "queries": [
+    "official act McDonnell bribery quid pro quo",
+    "federal program bribery 666 gratuities Snyder",
+    "Hobbs Act extortion under color of official right",
+    "illegal gratuity 201(c) Sun-Diamond"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Securities fraud, insider trading and criminal tax offenses",
+   "scope": "Criminal enforcement of securities and tax law: classical, misappropriation and tipper-tippee insider-trading theories, willful securities violations, tax evasion, false returns and the Cheek willfulness standard.",
+   "queries": [
+    "insider trading misappropriation theory O'Hagan",
+    "tipper tippee personal benefit Dirks Salman",
+    "tax evasion 26 U.S.C. 7201 willfulness Cheek",
+    "false tax return 7206 Klein conspiracy defraud IRS"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Obstruction of justice, perjury and false statements",
+   "scope": "Offenses against the administration of justice: 18 U.S.C. 1001 false statements, perjury, witness tampering, destruction of evidence, and obstruction under 1503, 1512 and 1519.",
+   "queries": [
+    "false statements 18 U.S.C. 1001 materiality",
+    "perjury 1623 false declaration Bronston literal truth",
+    "witness tampering 1512 corruptly persuades Arthur Andersen",
+    "obstruction 1512(c) official proceeding Fischer"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "RICO and continuing criminal enterprise",
+   "scope": "Federal racketeering law: RICO's enterprise and pattern requirements, RICO conspiracy, violent crimes in aid of racketeering, the continuing-criminal-enterprise statute, and state RICO analogues.",
+   "queries": [
+    "RICO enterprise pattern of racketeering activity",
+    "RICO conspiracy 1962(d) Salinas",
+    "violent crimes in aid of racketeering VICAR 1959",
+    "continuing criminal enterprise 848 drug kingpin"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal drug offenses and Controlled Substances Act penalties",
+   "scope": "Drug trafficking and possession under the CSA: drug schedules, mandatory minimums triggered by quantity, the crack/powder disparity, the safety valve, analogue prosecutions, and First Step Act changes.",
+   "queries": [
+    "21 U.S.C. 841(b)(1)(A) mandatory minimum drug quantity",
+    "crack cocaine powder ratio Fair Sentencing Act",
+    "safety valve 3553(f) Pulsifer criminal history",
+    "Controlled Substance Analogue Act McFadden schedule"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal firearms offenses and the Armed Career Criminal Act",
+   "scope": "Federal gun crimes (922(g) prohibited-person possession, 924(c) use or carrying during crimes of violence or drug trafficking, NFA violations) and ACCA enhancements under the categorical approach.",
+   "queries": [
+    "924(c) crime of violence residual clause Davis",
+    "felon in possession 922(g) interstate nexus",
+    "Armed Career Criminal Act violent felony categorical approach",
+    "modified categorical approach divisible statute Mathis"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal Sentencing Guidelines and supervised release",
+   "scope": "The U.S. Sentencing Guidelines (offense levels, criminal history, career offender, relevant conduct, departures), reasonableness review after Booker, 3553(a) factors, compassionate release, probation and supervised release.",
+   "queries": [
+    "Sentencing Guidelines offense level criminal history category",
+    "career offender 4B1.1 controlled substance offense",
+    "Booker advisory reasonableness Gall Kimbrough",
+    "supervised release revocation 3583 Haymond"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Capital punishment and Eighth Amendment proportionality",
+   "scope": "Death-penalty doctrine (Furman, Gregg, aggravating and mitigating factors, Atkins, Roper, Kennedy v. Louisiana, execution methods) and proportionality review of noncapital sentences and three-strikes laws.",
+   "queries": [
+    "aggravating circumstances death penalty sentencing jury",
+    "lethal injection protocol midazolam Glossip",
+    "intellectual disability execution Atkins IQ Hall",
+    "three strikes gross disproportionality Ewing Harmelin"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Computer crimes and identity theft",
+   "scope": "Cybercrime and identity offenses: the Computer Fraud and Abuse Act, access-device fraud, aggravated identity theft under 1028A, and notable hacking prosecutions.",
+   "queries": [
+    "Computer Fraud and Abuse Act exceeds authorized access",
+    "aggravated identity theft 1028A Dubin",
+    "access device fraud 1029 counterfeit cards",
+    "hacker indicted sentenced CFAA botnet"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Terrorism, espionage and hate-crime prosecutions",
+   "scope": "Federal prosecutions for terrorism (material support, weapons of mass destruction), Espionage Act cases, hate-crime statutes (18 U.S.C. 249 and state bias enhancements) and civil-rights crimes under 18 U.S.C. 241 and 242.",
+   "queries": [
+    "material support foreign terrorist organization 2339B",
+    "Espionage Act 793 national defense information",
+    "Shepard Byrd Hate Crimes Prevention Act 249",
+    "18 U.S.C. 242 deprivation of rights color of law"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Legality, vagueness, lenity and ex post facto limits",
+   "scope": "Constitutional and interpretive limits on criminal statutes: void-for-vagueness, the rule of lenity, the ex post facto clause, the abolition of common-law crimes, and federalism limits on federal criminal power.",
+   "queries": [
+    "void for vagueness criminal statute arbitrary enforcement",
+    "rule of lenity ambiguous criminal statute",
+    "ex post facto clause retroactive punishment Calder",
+    "common law crimes abolished Keeler fetus"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Probable cause, search warrants and warrantless searches",
+   "scope": "Fourth Amendment searches: probable cause under Gates, warrant particularity, Franks hearings, knock-and-announce, and warrantless exceptions (automobile, consent, search incident to arrest, plain view, exigency).",
+   "queries": [
+    "totality of circumstances informant probable cause Gates",
+    "Franks hearing false statement affidavit",
+    "automobile exception search incident to arrest Gant",
+    "exigent circumstances warrantless home entry"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Investigative stops, arrests and seizures of persons",
+   "scope": "Seizures of persons: Terry stops and frisks, reasonable suspicion, pretextual and prolonged traffic stops, dog sniffs, checkpoints, border searches, arrests and police use of deadly force.",
+   "queries": [
+    "Terry stop reasonable suspicion frisk",
+    "traffic stop prolonged dog sniff Rodriguez",
+    "sobriety checkpoint suspicionless seizure",
+    "border search exception routine nonroutine"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Electronic surveillance and digital searches",
+   "scope": "Constitutional and statutory rules for searches that rely on technology: cell-site location, GPS tracking, smartphone searches, thermal imaging, Title III wiretaps, the Stored Communications Act, pen registers and geofence warrants.",
+   "queries": [
+    "cell site location information Carpenter warrant",
+    "Title III wiretap necessity requirement 2518",
+    "Stored Communications Act 2703(d) order",
+    "geofence warrant Google location history"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exclusionary rule and Fourth Amendment standing",
+   "scope": "Remedies for unlawful searches: the origins of the exclusionary rule (Weeks, Mapp), fruit of the poisonous tree, independent source, inevitable discovery, attenuation, the good-faith exception and standing.",
+   "queries": [
+    "good faith exception Leon warrant suppression",
+    "inevitable discovery independent source doctrine",
+    "attenuation doctrine fruit of poisonous tree Strieff",
+    "standing reasonable expectation of privacy Rakas passenger"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Miranda, interrogation and confessions",
+   "scope": "Fifth Amendment and due-process limits on police questioning: Miranda custody and warnings, waiver and invocation, the Edwards and Seibert rules, the public-safety exception and voluntariness of confessions.",
+   "queries": [
+    "Miranda custody interrogation warnings",
+    "invocation right to counsel Edwards Arizona",
+    "question first midstream warning Seibert",
+    "involuntary confession coercion totality of circumstances"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Right to counsel, ineffective assistance and guilty pleas",
+   "scope": "Sixth Amendment counsel rights (Gideon, Massiah, Faretta, conflicts of interest), Strickland ineffective-assistance claims, and the law of plea bargains and guilty pleas (Rule 11, Boykin, Alford, Lafler, Frye, Padilla).",
+   "queries": [
+    "Strickland deficient performance prejudice",
+    "plea offer lapsed Lafler Frye counsel",
+    "self-representation Faretta waiver of counsel",
+    "Alford plea Rule 11 colloquy voluntary"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Grand jury, charging and Brady disclosure",
+   "scope": "Charging and the prosecutor's duties: grand jury indictment and secrecy, sufficiency of indictments and variances, venue and limitations periods, prosecutorial discretion and vindictiveness, Brady/Giglio disclosure and the Jencks Act.",
+   "queries": [
+    "grand jury secrecy Rule 6(e) disclosure",
+    "Brady material exculpatory evidence suppressed",
+    "Giglio impeachment cooperating witness agreement",
+    "vindictive selective prosecution Armstrong"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Confrontation Clause",
+   "scope": "Sixth Amendment confrontation rights: Crawford's testimonial-hearsay rule, forensic lab reports, forfeiture by wrongdoing, ongoing emergencies, Bruton co-defendant confessions and procedures for child witnesses.",
+   "queries": [
+    "Crawford testimonial statements cross-examination",
+    "forensic laboratory report analyst Melendez-Diaz Bullcoming",
+    "Bruton codefendant confession redacted",
+    "ongoing emergency 911 call Davis Hammon"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Double jeopardy",
+   "scope": "Fifth Amendment double jeopardy: the same-elements test, when jeopardy attaches, mistrials and manifest necessity, acquittals, collateral estoppel, multiple punishments and dual sovereignty.",
+   "queries": [
+    "Blockburger same elements test multiple punishments",
+    "mistrial manifest necessity retrial",
+    "dual sovereignty doctrine Gamble separate sovereigns",
+    "collateral estoppel acquittal Ashe Swenson"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Jury trial rights",
+   "scope": "Sixth Amendment jury guarantees: the petty-offense line, jury size and unanimity, Apprendi/Blakely fact-finding for sentencing, Batson challenges, lesser-included-offense instructions and jury nullification.",
+   "queries": [
+    "Apprendi increases penalty beyond statutory maximum",
+    "nonunanimous jury verdict Ramos Louisiana",
+    "Batson peremptory strike race-neutral explanation",
+    "jury nullification instruction juror"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Speedy trial, bail and pretrial detention",
+   "scope": "Pretrial timing and release: the Barker v. Wingo factors, the Speedy Trial Act, the Interstate Agreement on Detainers and interstate extradition, Bail Reform Act detention, and state cash-bail reform.",
+   "queries": [
+    "Barker v. Wingo speedy trial delay factors",
+    "Speedy Trial Act seventy days excludable delay",
+    "Bail Reform Act detention hearing dangerousness",
+    "Interstate Agreement on Detainers 180 days"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Habeas corpus, postconviction relief and clemency",
+   "scope": "Collateral review of convictions (AEDPA deference and limitations period, exhaustion, procedural default, Teague retroactivity, 2255 motions, successive petitions, actual innocence) and executive pardons and commutations.",
+   "queries": [
+    "AEDPA unreasonable application clearly established law",
+    "procedural default cause and prejudice",
+    "2255 motion successive petition authorization",
+    "presidential pardon commutation of sentence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal jurisdiction in Indian country",
+   "scope": "How criminal jurisdiction is divided among tribes, states and the federal government: the Major Crimes Act, General Crimes Act, Public Law 280, Oliphant, McGirt, Castro-Huerta and VAWA special tribal jurisdiction.",
+   "queries": [
+    "Major Crimes Act Indian country 1153",
+    "McGirt reservation Oklahoma jurisdiction",
+    "Public Law 280 state jurisdiction tribal",
+    "Oliphant tribal jurisdiction non-Indians VAWA"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Juvenile justice",
+   "scope": "Juvenile delinquency proceedings and juvenile offenders: Gault due process, transfer or waiver to adult court, the Federal Juvenile Delinquency Act, raise-the-age laws, and Eighth Amendment limits on juvenile sentences (Graham, Miller).",
+   "queries": [
+    "juvenile waiver transfer adult court Kent",
+    "In re Gault juvenile delinquency due process",
+    "juvenile life without parole Miller Montgomery",
+    "Federal Juvenile Delinquency Act 5032"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal forfeiture and restitution",
+   "scope": "Financial consequences of conviction: criminal and civil asset forfeiture, Excessive Fines Clause limits, mandatory victim restitution, fines and special assessments.",
+   "queries": [
+    "criminal forfeiture 853 proceeds Honeycutt",
+    "civil asset forfeiture excessive fines Timbs",
+    "Mandatory Victims Restitution Act loss amount",
+    "restitution Paroline child pornography victim"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Immigration-related crimes",
+   "scope": "Federal crimes tied to immigration: illegal entry and reentry (8 U.S.C. 1325, 1326), alien smuggling and harboring (1324), immigration document fraud, and the aggravated-felony link between criminal and immigration law.",
+   "queries": [
+    "illegal reentry 1326 previously deported alien",
+    "alien smuggling harboring 1324 transporting",
+    "aggravated felony 1101(a)(43) conviction",
+    "fraudulent immigration documents 1546 visa fraud"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Arson, criminal mischief and criminal trespass",
+   "scope": "Common-law and statutory arson degrees (burning/charring, dwelling, occupied structures), federal arson under 18 U.S.C. 844(i), and the grading of malicious mischief, vandalism and criminal trespass offenses.",
+   "queries": [
+    "arson first degree dwelling charring burning",
+    "844(i) arson building used interstate commerce Jones",
+    "criminal mischief property damage amount felony grading",
+    "criminal trespass notice defiant trespasser statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Receiving stolen property and interstate transportation of stolen goods",
+   "scope": "Receiving, concealing and possessing stolen property, the knowledge element and the inference from recent possession, police-recovered property, and federal offenses under the National Stolen Property Act and the Dyer Act.",
+   "queries": [
+    "receiving stolen property knowledge recent possession inference",
+    "National Stolen Property Act 2314 value 5,000",
+    "Dyer Act interstate transportation stolen motor vehicle",
+    "fencing stolen goods sting recovered property no longer stolen"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Forgery, counterfeiting and check fraud",
+   "scope": "Forgery and uttering (false making versus false content), counterfeiting of US currency and obligations under 18 U.S.C. 471-473, and bad-check and check-kiting offenses.",
+   "queries": [
+    "forgery uttering false making instrument intent defraud",
+    "counterfeit federal reserve notes 18 U.S.C. 471",
+    "check kiting bad check insufficient funds statute",
+    "Secret Service counterfeiting currency history"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Money laundering and currency structuring",
+   "scope": "Federal money laundering under 18 U.S.C. 1956 and 1957 (specified unlawful activity, concealment and promotion prongs, proceeds), plus Bank Secrecy Act reporting and structuring crimes under 31 U.S.C. 5313 and 5324.",
+   "queries": [
+    "money laundering 1956 concealment specified unlawful activity",
+    "1957 monetary transaction exceeding 10,000 criminally derived property",
+    "structuring cash deposits currency transaction report 5324 Ratzlaf",
+    "Santos proceeds profits gross receipts laundering"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Human trafficking, forced labor and Mann Act offenses",
+   "scope": "Sex trafficking and forced labor under the Trafficking Victims Protection Act (18 U.S.C. 1581-1597), peonage and involuntary servitude, and Mann Act transportation offenses.",
+   "queries": [
+    "sex trafficking 1591 force fraud coercion minor",
+    "forced labor 1589 serious harm abuse legal process",
+    "Mann Act transportation interstate prostitution 2421",
+    "involuntary servitude Kozminski peonage Thirteenth Amendment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Child pornography and online enticement of minors",
+   "scope": "Federal production, distribution, receipt and possession of child pornography (18 U.S.C. 2251-2252A), the lasciviousness standard, virtual and morphed images, and online enticement and travel offenses under 2422(b) and 2423.",
+   "queries": [
+    "child pornography receipt distribution 2252A peer-to-peer",
+    "lascivious exhibition Dost factors image",
+    "online enticement minor 2422(b) undercover officer",
+    "Ashcroft Free Speech Coalition virtual child pornography Ferber"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Domestic violence offenses and protective-order violations",
+   "scope": "State domestic battery and strangulation statutes, violations of protective and no-contact orders, and federal VAWA crimes such as interstate domestic violence and interstate violation of protection orders (18 U.S.C. 2261-2262).",
+   "queries": [
+    "domestic battery household member strangulation statute",
+    "violation protective order no-contact order prosecution",
+    "interstate domestic violence 2261 crossed state line",
+    "Violence Against Women Act 1994 federal offenses"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal bank robbery, carjacking and Hobbs Act robbery",
+   "scope": "Federal bank robbery and related offenses under 18 U.S.C. 2113 (intimidation, armed robbery, forced accompaniment), carjacking under 2119, and Hobbs Act robbery under 1951, including intent and commerce-element issues.",
+   "queries": [
+    "bank robbery 2113(a) intimidation teller demand note",
+    "carjacking 2119 intent cause death serious bodily harm Holloway",
+    "Hobbs Act robbery interstate commerce element Taylor",
+    "armed bank robbery dangerous weapon 2113(d) forced accompaniment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Health care fraud and Anti-Kickback Statute prosecutions",
+   "scope": "Federal health care fraud under 18 U.S.C. 1347, the Anti-Kickback Statute (42 U.S.C. 1320a-7b(b)) and its safe harbors, Medicare and Medicaid billing fraud, and pill-mill and telemedicine schemes.",
+   "queries": [
+    "health care fraud 1347 Medicare billing scheme",
+    "Anti-Kickback Statute remuneration referrals safe harbor",
+    "Medicaid fraud upcoding medically unnecessary services",
+    "Medicare Fraud Strike Force takedown"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Environmental crimes under federal pollution statutes",
+   "scope": "Criminal provisions of the Clean Water Act, Clean Air Act, RCRA, CERCLA and the Refuse Act, including knowing and negligent violations, permit offenses and major pollution prosecutions.",
+   "queries": [
+    "Clean Water Act knowing discharge criminal Hanousek negligence",
+    "RCRA hazardous waste storage without permit criminal",
+    "Clean Air Act asbestos work practice standard criminal",
+    "Deepwater Horizon oil spill criminal plea"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wildlife trafficking, Lacey Act and game-law offenses",
+   "scope": "Criminal enforcement of the Lacey Act, Endangered Species Act, Migratory Bird Treaty Act and Bald and Golden Eagle Protection Act, and state poaching and game-law prosecutions.",
+   "queries": [
+    "Lacey Act wildlife taken in violation foreign law",
+    "Migratory Bird Treaty Act strict liability baiting",
+    "Endangered Species Act take criminal knowingly",
+    "Bald Golden Eagle Protection Act feathers prosecution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal antitrust: price fixing and bid rigging",
+   "scope": "Criminal enforcement of Sherman Act Section 1 against price fixing, bid rigging and market allocation, the per se rule in criminal cases, the DOJ leniency program, and notable cartel prosecutions and fines.",
+   "queries": [
+    "Sherman Act criminal price fixing per se conspiracy",
+    "bid rigging conspiracy Antitrust Division indictment",
+    "corporate leniency program amnesty cartel",
+    "lysine cartel price fixing fine Archer Daniels Midland"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate criminal liability and deferred prosecution agreements",
+   "scope": "Respondeat superior liability of corporations, collective knowledge, the responsible corporate officer doctrine (Dotterweich, Park), DOJ corporate charging principles, and deferred and non-prosecution agreements with monitors.",
+   "queries": [
+    "corporate criminal liability respondeat superior agent scope employment",
+    "responsible corporate officer doctrine Park Dotterweich",
+    "deferred prosecution agreement corporation independent monitor",
+    "collective knowledge doctrine Bank of New England"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Export controls, sanctions violations and customs smuggling",
+   "scope": "Criminal violations of IEEPA, the Trading with the Enemy Act, the Arms Export Control Act/ITAR and the Export Administration Regulations, plus customs smuggling and false-entry offenses under 18 U.S.C. 541-545.",
+   "queries": [
+    "IEEPA willful violation sanctions Iran export",
+    "Arms Export Control Act ITAR defense articles",
+    "smuggling merchandise 545 customs entry",
+    "Trading with the Enemy Act Cuba embargo prosecution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal intellectual property: counterfeit marks, copyright and trade secrets",
+   "scope": "Criminal copyright infringement (17 U.S.C. 506, 18 U.S.C. 2319), trafficking in counterfeit goods and labels (18 U.S.C. 2318, 2320), and theft of trade secrets and economic espionage under the Economic Espionage Act.",
+   "queries": [
+    "criminal copyright infringement willful 506 commercial advantage",
+    "trafficking counterfeit goods 2320 spurious mark",
+    "Economic Espionage Act trade secret theft 1832",
+    "No Electronic Theft Act LaMacchia loophole"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Election offenses and campaign-finance crimes",
+   "scope": "Federal and state election crimes, including vote buying, illegal voting and ballot fraud, and criminal campaign-finance violations such as conduit (straw donor) contributions and foreign-national contributions.",
+   "queries": [
+    "vote buying election fraud 52 U.S.C. 10307",
+    "illegal voting felon ineligible voter prosecution",
+    "straw donor conduit contributions FECA knowing willful",
+    "absentee ballot fraud election prosecution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Color-of-law civil rights prosecutions under 18 U.S.C. 241 and 242",
+   "scope": "Federal prosecutions for conspiracy against rights and deprivation of rights under color of law, including police excessive force, the willfulness requirement (Screws) and fair-warning limits (Lanier).",
+   "queries": [
+    "deprivation rights color of law 242 willfully Screws",
+    "Lanier fair warning constitutional right 242",
+    "conspiracy against rights 241 Price Guest",
+    "police officer excessive force federal civil rights prosecution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gambling offenses: Wire Act, illegal gambling businesses and state gaming crimes",
+   "scope": "Federal gambling statutes (Wire Act, Illegal Gambling Business Act 18 U.S.C. 1955, Travel Act, UIGEA), bookmaking and numbers rackets, and state gaming prosecutions.",
+   "queries": [
+    "Illegal Gambling Business Act five persons thirty days 1955",
+    "Wire Act sports betting transmission wagering information",
+    "bookmaking numbers lottery gambling prosecution",
+    "Unlawful Internet Gambling Enforcement Act online poker"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Obscenity, prostitution and commercial vice offenses",
+   "scope": "Obscenity prosecutions under the Miller test and federal obscenity statutes (18 U.S.C. 1460-1470), and state prostitution, solicitation, pandering, pimping and promoting-prostitution offenses.",
+   "queries": [
+    "obscenity Miller test prurient interest community standards",
+    "federal obscenity interstate transportation 1465",
+    "pandering pimping promoting prostitution statute",
+    "solicitation prostitution undercover officer agreement"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Riot, disorderly conduct and public-order offenses",
+   "scope": "Disorderly conduct, breach of the peace, fighting words, riot, unlawful assembly and failure to disperse, public intoxication, and the federal Anti-Riot Act (18 U.S.C. 2101).",
+   "queries": [
+    "disorderly conduct breach peace fighting words",
+    "Anti-Riot Act 2101 interstate travel incite",
+    "unlawful assembly riot failure to disperse",
+    "Chicago Seven conspiracy incite riot trial"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Animal cruelty and animal fighting offenses",
+   "scope": "State animal cruelty and neglect statutes, dogfighting and cockfighting under state law and the Animal Welfare Act (7 U.S.C. 2156), and federal animal-crush and PACT Act provisions.",
+   "queries": [
+    "animal cruelty neglect statute dog starved",
+    "dogfighting Animal Welfare Act 2156 animal fighting venture",
+    "cockfighting prosecution gamecocks",
+    "crush video Stevens animal cruelty depictions"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Crimes against the family: bigamy, incest, child neglect and nonsupport",
+   "scope": "Bigamy and polygamy prosecutions, incest statutes, child abuse, endangerment and neglect, and criminal nonsupport, including the federal Child Support Recovery Act and Deadbeat Parents Punishment Act.",
+   "queries": [
+    "bigamy polygamy prosecution Reynolds",
+    "incest statute consanguinity stepchild",
+    "child endangerment neglect abuse statute",
+    "Child Support Recovery Act willful failure to pay"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Defense of property, crime prevention and law-enforcement use of force",
+   "scope": "Justification defenses for protecting property (including spring guns and deadly force), preventing crime, citizen's arrest, and the limits on police use of force in making arrests (e.g., the fleeing-felon rule and Tennessee v. Garner).",
+   "queries": [
+    "defense of property deadly force spring gun",
+    "citizen's arrest felony committed presence",
+    "law enforcement deadly force fleeing felon Garner",
+    "crime prevention justification Ceballos trap gun"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal criminal jurisdiction: Commerce Clause and federalism limits",
+   "scope": "Constitutional limits on federal criminal legislation under the Commerce Clause, Necessary and Proper Clause and treaty power, jurisdictional elements, and federalism-based narrowing of federal criminal statutes.",
+   "queries": [
+    "Lopez Gun-Free School Zones Act Commerce Clause",
+    "Bond chemical weapons treaty power local crime",
+    "jurisdictional element minimal nexus interstate commerce",
+    "Comstock civil commitment Necessary and Proper Clause"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Venue, extradition and extraterritorial jurisdiction",
+   "scope": "Constitutional and statutory venue rules (Article III, Sixth Amendment vicinage, 18 U.S.C. 3237 continuing offenses), interstate and international extradition, the Ker-Frisbie doctrine, and the extraterritorial reach of federal criminal statutes.",
+   "queries": [
+    "venue continuing offense 3237 district committed",
+    "Uniform Criminal Extradition Act governor's warrant",
+    "Ker-Frisbie abduction Alvarez-Machain jurisdiction",
+    "extraterritorial application criminal statute Bowman"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal statutes of limitations and pre-indictment delay",
+   "scope": "Criminal limitations periods (e.g., 18 U.S.C. 3282), tolling and continuing offenses, the Wartime Suspension of Limitations Act, bars on reviving expired prosecutions (Stogner), and due process limits on pre-indictment delay (Marion, Lovasco).",
+   "queries": [
+    "statute of limitations 3282 five years indictment",
+    "pre-indictment delay Lovasco actual prejudice",
+    "Stogner revived time-barred prosecution",
+    "Wartime Suspension of Limitations Act fraud"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Selective and vindictive prosecution and prosecutorial misconduct at trial",
+   "scope": "Limits on prosecutorial discretion, including selective prosecution (Armstrong, Wayte), vindictive prosecution (Blackledge, Goodwin), and improper argument, vouching and other trial misconduct (Berger, Darden).",
+   "queries": [
+    "selective prosecution Armstrong discovery similarly situated",
+    "vindictive prosecution Blackledge Goodwin presumption",
+    "improper closing argument prosecutor vouching Darden",
+    "prosecutorial misconduct new trial inflammatory remarks"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Joinder, severance, variance and constructive amendment",
+   "scope": "Joinder of offenses and defendants under Fed. R. Crim. P. 8 and severance under Rule 14, duplicity and multiplicity, and the line between variance and constructive amendment of an indictment (Stirone, Kotteakos).",
+   "queries": [
+    "misjoinder Rule 8(b) severance Rule 14 Zafiro",
+    "constructive amendment indictment Stirone",
+    "variance multiple conspiracies Kotteakos",
+    "duplicitous indictment multiplicitous counts"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Lesser included offenses and criminal jury instructions",
+   "scope": "Tests for lesser-included offenses and when an instruction is required (Schmuck, Beck v. Alabama), reasonable-doubt instructions (Cage, Victor), Allen charges to deadlocked juries, and theory-of-defense instructions.",
+   "queries": [
+    "lesser included offense instruction elements test Schmuck",
+    "reasonable doubt instruction Cage Victor moral certainty",
+    "Allen charge dynamite instruction deadlocked jury",
+    "theory of defense instruction refused reversible"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Character evidence, prior bad acts and impeachment in criminal trials",
+   "scope": "Evidence rules on propensity in criminal cases: FRE 404(b) other-acts evidence, 413-415 sexual-assault propensity, defendant character witnesses (Michelson), impeachment by prior conviction under Rule 609, and rape shield laws.",
+   "queries": [
+    "404(b) other acts evidence motive intent Huddleston",
+    "Rule 413 prior sexual assault propensity evidence",
+    "impeachment prior conviction Rule 609 Luce",
+    "rape shield statute victim prior sexual conduct"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Eyewitness identification procedures",
+   "scope": "Due process and right-to-counsel limits on lineups, showups and photo arrays (Wade, Stovall, Manson v. Brathwaite, Perry), reliability factors, expert testimony on eyewitness memory, and state identification reforms.",
+   "queries": [
+    "suggestive identification Manson Brathwaite reliability factors",
+    "showup identification single suspect suggestive",
+    "photo array double-blind lineup procedure",
+    "eyewitness identification expert testimony Henderson"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forensic evidence and expert testimony in criminal cases",
+   "scope": "Admissibility and reliability of forensic evidence (DNA, latent prints, firearms toolmarks, bite marks, breath and blood alcohol tests) under Frye and Daubert, and crime-lab scandals.",
+   "queries": [
+    "DNA evidence admissibility Frye random match probability",
+    "latent fingerprint identification Daubert ACE-V",
+    "firearms toolmark examiner reasonable scientific certainty",
+    "bite mark evidence forensic odontology conviction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privilege against self-incrimination, immunity and comment on silence",
+   "scope": "The Fifth Amendment privilege outside custodial interrogation: testimonial versus physical evidence (Schmerber), act-of-production and required-records doctrines (Fisher, Hubbell), use and derivative-use immunity (Kastigar), and comment on silence (Griffin, Doyle, Salinas).",
+   "queries": [
+    "use derivative use immunity Kastigar taint hearing",
+    "act of production privilege documents Hubbell",
+    "Griffin comment defendant failure to testify",
+    "Doyle post-arrest silence impeachment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public trial, courtroom closure and pretrial publicity",
+   "scope": "The Sixth Amendment public-trial right and closure tests (Waller, Presley), First Amendment press access (Richmond Newspapers, Press-Enterprise), prejudicial publicity and change of venue (Sheppard, Irvin, Skilling), gag orders, and cameras in the courtroom.",
+   "queries": [
+    "courtroom closure public trial Waller four-part test",
+    "pretrial publicity change of venue presumed prejudice",
+    "Press-Enterprise right of access preliminary hearing",
+    "cameras courtroom Chandler Estes televised trial"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Harmless error, plain error and structural error in criminal appeals",
+   "scope": "Appellate review standards in criminal cases: Chapman constitutional harmless error, Kotteakos nonconstitutional error, plain error under Rule 52(b) (Olano), structural errors requiring automatic reversal (Fulminante, Weaver), and waiver versus forfeiture.",
+   "queries": [
+    "harmless beyond reasonable doubt Chapman constitutional error",
+    "plain error Olano affects substantial rights",
+    "structural error automatic reversal Fulminante",
+    "waiver forfeiture invited error criminal appeal"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Criminal contempt",
+   "scope": "Direct and indirect criminal contempt, summary procedure under Fed. R. Crim. P. 42, the six-month jury-trial threshold (Bloom), distinguishing civil from criminal contempt (Bagwell), and contempt under 18 U.S.C. 401.",
+   "queries": [
+    "criminal contempt summary punishment direct presence court",
+    "Bagwell civil criminal contempt distinction",
+    "18 U.S.C. 401 contempt willful violation order",
+    "Bloom serious contempt jury trial six months"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State sentencing systems, habitual-offender and three-strikes laws",
+   "scope": "State determinate and indeterminate sentencing, state sentencing guidelines and commissions, habitual-offender and three-strikes recidivist statutes, state mandatory minimums, and truth-in-sentencing laws.",
+   "queries": [
+    "three strikes law 25 years to life California",
+    "habitual offender enhancement prior felony convictions",
+    "Minnesota sentencing guidelines durational departure",
+    "truth-in-sentencing 85 percent parole eligibility"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Probation, parole and revocation proceedings",
+   "scope": "Conditions of probation and parole, due process at revocation hearings (Morrissey, Gagnon), parole eligibility and board decisions, and good-time credits and their forfeiture in prison discipline (Wolff).",
+   "queries": [
+    "probation revocation hearing Morrissey Gagnon due process",
+    "parole board release eligibility hearing denial",
+    "probation condition reasonably related rehabilitation",
+    "good time credits forfeiture prison disciplinary Wolff"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Collateral consequences, expungement and record sealing",
+   "scope": "Collateral consequences of conviction (felon disenfranchisement, occupational licensing bars, public-benefit restrictions) and the relief mechanisms of expungement, sealing, set-aside and certificates of rehabilitation.",
+   "queries": [
+    "expungement petition criminal record sealing statute",
+    "felon disenfranchisement voting rights restoration",
+    "collateral consequences conviction licensing employment",
+    "certificate of rehabilitation set aside conviction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Military justice and the Uniform Code of Military Justice",
+   "scope": "Courts-martial under the UCMJ, including its punitive articles (such as the Article 134 general article), court-martial jurisdiction (O'Callahan, Solorio), unlawful command influence, and review by the Court of Appeals for the Armed Forces.",
+   "queries": [
+    "court-martial Uniform Code Military Justice article conviction",
+    "Article 134 general article prejudicial good order discipline",
+    "Court of Appeals Armed Forces unlawful command influence",
+    "court-martial jurisdiction Solorio service connection"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mistake of fact and mistake of law defenses",
+   "scope": "Defenses based on a mistaken belief: honest versus reasonable mistake of fact, ignorance of the law, reliance on official interpretations, and willfulness exceptions such as Cheek, Lambert and Ratzlaf.",
+   "queries": [
+    "mistake of fact defense reasonable honest belief",
+    "ignorance of the law Lambert v. California",
+    "entrapment by estoppel reliance official statement",
+    "Cheek willfulness good faith misunderstanding law"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "False pretenses, theft by deception and consolidated theft statutes",
+   "scope": "Obtaining title by misrepresentation, larceny by trick, theft of services, consolidated theft codes, and grading theft by property-value thresholds and aggregation.",
+   "queries": [
+    "false pretenses obtaining title misrepresentation larceny by trick",
+    "consolidated theft statute theft by deception",
+    "grand theft value threshold felony aggregation",
+    "theft of services retail theft shoplifting statute"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State weapons offenses and Second Amendment challenges to criminal statutes",
+   "scope": "State concealed-carry, unlicensed possession and prohibited-weapon crimes, and Second Amendment challenges to criminal weapons laws after Heller, Bruen and Rahimi.",
+   "queries": [
+    "Bruen historical tradition test criminal weapons statute",
+    "carrying concealed weapon without license conviction",
+    "switchblade brass knuckles prohibited weapon statute",
+    "Sullivan Act New York pistol permit history"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State drug possession, paraphernalia and marijuana legalization laws",
+   "scope": "State controlled-substance possession, paraphernalia and drug-free-zone offenses, marijuana decriminalization and legalization measures, and state drug-sentencing reforms.",
+   "queries": [
+    "drug paraphernalia statute residue constructive possession",
+    "recreational marijuana legalization ballot initiative",
+    "drug-free school zone enhancement 1000 feet",
+    "Oregon Measure 110 drug decriminalization possession"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Escape, bail jumping and prison contraband offenses",
+   "scope": "Escape from custody, failure to appear and bail jumping, bringing contraband into correctional facilities, and other crimes committed by inmates.",
+   "queries": [
+    "escape from custody 18 U.S.C. 751",
+    "bail jumping failure to appear 3146",
+    "inmate possession of contraband prison 1791",
+    "walkaway escape halfway house conviction"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Resisting arrest, assaulting officers and fleeing police",
+   "scope": "Resisting or obstructing an officer, assaulting federal officers under 18 U.S.C. 111, fleeing or eluding police in a vehicle, and unlawful-arrest defenses.",
+   "queries": [
+    "resisting arrest unlawful arrest defense",
+    "assaulting impeding federal officer 18 U.S.C. 111",
+    "fleeing eluding police officer vehicle pursuit",
+    "battery on law enforcement officer knowledge element"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Elder abuse and exploitation of vulnerable adults",
+   "scope": "Criminal abuse and neglect of elderly or dependent adults, caretaker liability, financial exploitation, and prosecutions involving nursing-home patients.",
+   "queries": [
+    "elder abuse dependent adult caretaker criminal neglect",
+    "financial exploitation vulnerable adult power of attorney",
+    "nursing home patient abuse conviction",
+    "Penal Code 368 elder abuse great bodily"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Assisted suicide, euthanasia and encouraging suicide",
+   "scope": "Criminal liability for assisting, causing or encouraging suicide, euthanasia prosecutions, and the interaction with death-with-dignity statutes.",
+   "queries": [
+    "assisted suicide statute Kevorkian prosecution",
+    "Washington v. Glucksberg assisted suicide ban",
+    "Michelle Carter involuntary manslaughter texting suicide",
+    "Oregon Death with Dignity Act lethal prescription"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal abortion laws and fetal homicide statutes",
+   "scope": "Pre-Roe and post-Dobbs criminal abortion bans and trigger laws, prosecutions of providers, and feticide laws including the Unborn Victims of Violence Act.",
+   "queries": [
+    "Unborn Victims of Violence Act fetal homicide",
+    "trigger law abortion ban felony physician",
+    "feticide statute viability murder unborn child",
+    "Dobbs abortion ban criminal penalties exceptions"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Bankruptcy fraud",
+   "scope": "Federal bankruptcy crimes under 18 U.S.C. 152-157, including concealing assets, false oaths and declarations, transfers made in contemplation of bankruptcy, and bankruptcy fraud schemes.",
+   "queries": [
+    "bankruptcy fraud concealment of assets 152",
+    "false oath bankruptcy schedules conviction",
+    "18 U.S.C. 157 bankruptcy fraud scheme",
+    "transfer in contemplation of bankruptcy concealment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Theft of government property, false claims and benefits fraud",
+   "scope": "Theft or conversion of federal money and property under 18 U.S.C. 641, false claims against the United States under section 287, Social Security and benefits fraud, and mail theft.",
+   "queries": [
+    "theft of government property 641 conversion",
+    "false claims against United States 18 U.S.C. 287",
+    "Social Security benefits deceased beneficiary theft",
+    "theft of mail 1708 postal employee"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Food and Drug Act crimes and the responsible corporate officer doctrine",
+   "scope": "Criminal misbranding and adulteration under the Food, Drug and Cosmetic Act, the Dotterweich/Park responsible-corporate-officer doctrine, and crimes for willful workplace-safety violations.",
+   "queries": [
+    "United States v. Park responsible corporate officer",
+    "misbranding adulteration Food Drug Cosmetic Act felony",
+    "Dotterweich shipment misbranded drugs strict liability",
+    "willful OSHA violation causing employee death prosecution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Aircraft and maritime offenses",
+   "scope": "Aircraft piracy, interference with flight crews, other in-flight crimes, piracy on the high seas, and prosecutions under the Maritime Drug Law Enforcement Act.",
+   "queries": [
+    "aircraft piracy 46502 hijacking conviction",
+    "interference with flight crew intoxicated passenger",
+    "Maritime Drug Law Enforcement Act stateless vessel",
+    "piracy law of nations high seas Somali"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal enclaves and the Assimilative Crimes Act",
+   "scope": "Crimes within the special maritime and territorial jurisdiction of the United States, on military bases and other federal enclaves, and the borrowing of state law under the Assimilative Crimes Act.",
+   "queries": [
+    "Assimilative Crimes Act state law federal enclave",
+    "special maritime and territorial jurisdiction 18 U.S.C. 7",
+    "Lewis v. United States Assimilative Crimes",
+    "military base exclusive federal jurisdiction prosecution"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Treason, sedition and seditious conspiracy",
+   "scope": "Constitutional treason and the two-witness rule, seditious conspiracy and insurrection statutes, the historical sedition acts, and prosecutions from Aaron Burr to January 6.",
+   "queries": [
+    "treason two witnesses overt act Cramer",
+    "seditious conspiracy 18 U.S.C. 2384 conviction",
+    "Aaron Burr treason trial Marshall",
+    "Oath Keepers seditious conspiracy Rhodes sentence"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Alcohol and tobacco offenses",
+   "scope": "Enforcement of the Volstead Act during Prohibition, bootlegging and moonshining, federal distilled-spirits excise crimes, and contraband cigarette trafficking under the CCTA and PACT Act.",
+   "queries": [
+    "Volstead Act Prohibition bootlegger prosecution",
+    "Contraband Cigarette Trafficking Act 2342",
+    "moonshine unregistered still distilled spirits conviction",
+    "Eighteenth Amendment National Prohibition Act enforcement"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Wrongful convictions and exonerations",
+   "scope": "DNA exonerations, innocence projects and conviction integrity units, state freestanding actual-innocence claims, and statutes compensating the wrongfully convicted.",
+   "queries": [
+    "DNA exoneration Innocence Project wrongful conviction",
+    "wrongful conviction compensation statute per year",
+    "conviction integrity unit exonerated murder",
+    "National Registry of Exonerations false confession"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Criminal discovery under Rule 16, the Jencks Act and notice rules",
+   "scope": "Pretrial discovery under Federal Rule 16 and state rules, Jencks Act and Rule 26.2 production of witness statements, reciprocal discovery, and notice of alibi or insanity defenses.",
+   "queries": [
+    "Jencks Act witness statement 18 U.S.C. 3500",
+    "Rule 16 discovery material to preparing defense",
+    "notice of alibi Williams v. Florida",
+    "reciprocal discovery Wardius v. Oregon"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Jury selection, peremptory strikes and Batson challenges",
+   "scope": "Voir dire, challenges for cause, peremptory strikes, Batson's three-step framework and its extensions (J.E.B., Flowers), and fair cross-section claims about the venire.",
+   "queries": [
+    "Batson challenge race-neutral explanation pretext",
+    "peremptory strikes Flowers v. Mississippi",
+    "fair cross section Duren venire underrepresentation",
+    "challenge for cause juror bias voir dire"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Jury deliberations, Allen charges and juror misconduct",
+   "scope": "Deadlocked juries and Allen (dynamite) charges, juror exposure to outside information and other misconduct, impeaching a verdict under Rule 606(b), and jury nullification.",
+   "queries": [
+    "Allen charge deadlocked jury coercive",
+    "juror misconduct extraneous prejudicial information",
+    "Pena-Rodriguez racial bias juror testimony 606(b)",
+    "jury nullification instruction defendant request"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hearsay exceptions in criminal trials",
+   "scope": "Coconspirator statements, dying declarations, excited utterances, statements against penal interest and forfeiture by wrongdoing, as offered against or by criminal defendants.",
+   "queries": [
+    "coconspirator statement 801(d)(2)(E) Bourjaily",
+    "dying declaration homicide victim admissible",
+    "statement against penal interest corroborating circumstances",
+    "excited utterance 911 call hearsay"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Evidentiary privileges in criminal cases",
+   "scope": "Spousal testimonial and marital communications privileges, the crime-fraud exception to attorney-client privilege, and psychotherapist, clergy and reporter's privileges in criminal proceedings.",
+   "queries": [
+    "spousal testimonial privilege Trammel",
+    "marital communications privilege criminal exception",
+    "crime-fraud exception attorney-client grand jury",
+    "reporter's privilege Branzburg subpoena"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Compulsory process and the right to present a defense",
+   "scope": "Sixth Amendment compulsory process, the due process right to present a complete defense, exclusion of defense evidence including third-party guilt evidence, and immunity for defense witnesses.",
+   "queries": [
+    "Chambers v. Mississippi right to present defense",
+    "third-party guilt evidence Holmes v. South Carolina",
+    "compulsory process subpoena defense witness",
+    "defense witness immunity prosecutorial misconduct"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Border searches, checkpoints and special-needs searches",
+   "scope": "Searches at the border and its functional equivalent, sobriety and immigration checkpoints, school and probationer searches, and drug testing under the special-needs doctrine.",
+   "queries": [
+    "border search functional equivalent reasonable suspicion",
+    "sobriety checkpoint Sitz roadblock",
+    "special needs drug testing Skinner Von Raab",
+    "school search T.L.O. student reasonableness"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Pretrial diversion, drug courts and problem-solving courts",
+   "scope": "Deferred adjudication, pretrial diversion and intervention programs, drug, veterans and mental health courts, and removal or termination from these programs.",
+   "queries": [
+    "pretrial intervention program prosecutor rejection",
+    "drug court termination due process hearing",
+    "deferred adjudication completion dismissal",
+    "veterans treatment court mental health court"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal sentence computation, good time and compassionate release",
+   "scope": "How the Bureau of Prisons computes sentences, credit for prior custody, good-conduct time, First Step Act earned-time credits, compassionate release, and concurrent or consecutive state and federal sentences.",
+   "queries": [
+    "compassionate release extraordinary and compelling 3582",
+    "First Step Act earned time credits",
+    "good conduct time Barber v. Thomas",
+    "prior custody credit 3585(b) Bureau of Prisons"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Crime victims' rights and victim participation",
+   "scope": "The Crime Victims' Rights Act, state victims' rights amendments and Marsy's Law, victim impact statements, and victims' mandamus petitions to enforce their rights.",
+   "queries": [
+    "Crime Victims' Rights Act mandamus 3771",
+    "Marsy's Law victims bill of rights",
+    "victim impact statement Payne v. Tennessee",
+    "victim right reasonably heard sentencing"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Voyeurism, nonconsensual intimate images and unlawful recording",
+   "scope": "Video voyeurism and upskirting statutes, revenge-porn and nonconsensual intimate image laws, and crimes by private parties under wiretapping and two-party consent recording laws.",
+   "queries": [
+    "video voyeurism upskirt photograph statute",
+    "nonconsensual dissemination intimate images First Amendment",
+    "two-party consent eavesdropping recording conviction",
+    "revenge porn statute state law"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "First Amendment limits on criminal speech statutes",
+   "scope": "Incitement, fighting words, overbreadth, flag desecration and depictions of animal cruelty, where criminal statutes are challenged on free-speech grounds.",
+   "queries": [
+    "Brandenburg incitement imminent lawless action",
+    "overbreadth doctrine criminal statute Stevens",
+    "flag desecration Texas v. Johnson conviction",
+    "fighting words Chaplinsky breach of peace"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Burden of proof, reasonable doubt and sufficiency of the evidence",
+   "scope": "In re Winship, who bears the burden on affirmative defenses, presumptions and inferences, the Jackson v. Virginia sufficiency standard, the corpus delicti rule, and Rule 29 motions for acquittal.",
+   "queries": [
+    "Jackson v. Virginia rational trier of fact",
+    "Patterson v. New York affirmative defense burden",
+    "corpus delicti rule corroboration confession",
+    "mandatory presumption Sandstrom burden shifting"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Criminal appeals and post-trial motions",
+   "scope": "Rule 33 motions for a new trial, notices of appeal, appeal waivers in plea agreements, Anders briefs, and government appeals under 18 U.S.C. 3731.",
+   "queries": [
+    "Anders brief frivolous appeal withdraw",
+    "appeal waiver plea agreement miscarriage of justice",
+    "Rule 33 newly discovered evidence new trial",
+    "government appeal 3731 suppression order"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Sexually violent predator civil commitment",
+   "scope": "State sexually violent predator commitment laws, Kansas v. Hendricks and Kansas v. Crane, commitment of sexually dangerous persons under 18 U.S.C. 4248, and review and release proceedings.",
+   "queries": [
+    "sexually violent predator commitment mental abnormality",
+    "Kansas v. Hendricks Crane volitional impairment",
+    "4248 sexually dangerous person Comstock",
+    "SVP annual review conditional release hearing"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Street gang statutes and gang enhancements",
+   "scope": "State crimes of gang participation and gang sentencing enhancements such as California's STEP Act (Penal Code 186.22), gang expert testimony, and gang injunctions.",
+   "queries": [
+    "gang enhancement 186.22 criminal street gang",
+    "STEP Act pattern of criminal gang activity",
+    "gang injunction public nuisance members",
+    "gang expert testimony predicate offenses Sanchez"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Informants and cooperating witnesses",
+   "scope": "Use of confidential informants and the Roviaro informer's privilege, cooperation agreements, rules requiring corroboration of accomplice testimony, and jailhouse informant reliability.",
+   "queries": [
+    "Roviaro informer's privilege disclosure identity",
+    "accomplice testimony corroboration requirement statute",
+    "jailhouse informant testimony reliability",
+    "cooperation agreement breach government motion"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Landmark federal crime legislation",
+   "scope": "Provisions and legislative history of major federal crime acts, including the 1968 Omnibus Crime Control Act, the 1984 Comprehensive Crime Control Act, the 1986 Anti-Drug Abuse Act and the 1994 Crime Bill.",
+   "queries": [
+    "Violent Crime Control and Law Enforcement Act 1994",
+    "Comprehensive Crime Control Act of 1984",
+    "Anti-Drug Abuse Act of 1986",
+    "Omnibus Crime Control and Safe Streets Act 1968"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foreign Corrupt Practices Act prosecutions",
+   "scope": "The FCPA's anti-bribery and accounting provisions, the meaning of foreign official and instrumentality, its jurisdictional reach over agents and foreign nationals, and major enforcement resolutions.",
+   "queries": [
+    "Foreign Corrupt Practices Act foreign official instrumentality",
+    "FCPA anti-bribery books and records provisions",
+    "Hoskins FCPA agent conspiracy liability",
+    "Siemens FCPA bribery settlement penalty"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Impersonation and false personation offenses",
+   "scope": "Impersonating federal officers under 18 U.S.C. 912, false personation of police, the Stolen Valor Acts and false claims of military decorations, and state criminal impersonation statutes.",
+   "queries": [
+    "impersonating federal officer 18 U.S.C. 912",
+    "Stolen Valor Act Alvarez Medal of Honor",
+    "impersonating police officer statute conviction",
+    "criminal impersonation false identity statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cultural property and archaeological resources crimes",
+   "scope": "Offenses under the Archaeological Resources Protection Act and NAGPRA trafficking provisions, theft of major artwork under 18 U.S.C. 668, and prosecutions over stolen antiquities.",
+   "queries": [
+    "Archaeological Resources Protection Act excavation permit",
+    "NAGPRA trafficking Native American cultural items",
+    "theft of major artwork 18 U.S.C. 668",
+    "Isabella Stewart Gardner Museum art theft"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal fines, court costs and indigent defendants",
+   "scope": "Imposing and collecting criminal fines, fees and costs, Bearden's ability-to-pay limits on jailing people for nonpayment, the Excessive Fines Clause (Timbs, Bajakajian), and debtors'-prison litigation.",
+   "queries": [
+    "Bearden v. Georgia inability to pay revocation",
+    "Timbs v. Indiana Excessive Fines incorporated",
+    "court costs fees indigent ability to pay",
+    "Williams v. Illinois fine imprisonment nonpayment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal prosecutors, special counsels and DOJ charging policies",
+   "scope": "Appointment and authority of U.S. Attorneys, independent counsels under the Ethics in Government Act and special counsels under DOJ regulations, and internal DOJ policies such as the Petite policy and the Justice Manual.",
+   "queries": [
+    "independent counsel Ethics in Government Act Morrison",
+    "special counsel regulations 28 C.F.R. 600",
+    "interim United States Attorney appointment 546",
+    "Petite policy dual prosecution Justice Manual"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Civil asset forfeiture, equitable sharing and innocent-owner defenses",
+   "scope": "Civil in rem forfeiture of property linked to crime, including procedure under the Civil Asset Forfeiture Reform Act, innocent-owner defenses, federal equitable sharing and adoptive forfeiture, Excessive Fines challenges, and state reforms.",
+   "queries": [
+    "civil forfeiture in rem innocent owner defense",
+    "Civil Asset Forfeiture Reform Act 983 claimant burden",
+    "equitable sharing adoptive forfeiture state law enforcement",
+    "forfeiture currency substantial connection drug proceeds"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Homelessness, vagrancy and status-crime limits",
+   "scope": "Constitutional limits on punishing a status or involuntary conduct, from Robinson v. California and Powell v. Texas to Martin v. Boise and City of Grants Pass v. Johnson, plus vagrancy, camping and loitering ordinances.",
+   "queries": [
+    "Robinson v. California narcotics addiction status crime",
+    "Powell v. Texas public intoxication chronic alcoholic",
+    "Grants Pass camping ordinance homeless Eighth Amendment",
+    "Martin v. City of Boise sleeping outside involuntary"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accessory after the fact, misprision of felony, harboring and compounding",
+   "scope": "Liability for helping offenders or hiding crimes after they are committed, including 18 U.S.C. 3 and 4, harboring fugitives, hindering prosecution, compounding a crime, and statutory duties to report crimes.",
+   "queries": [
+    "accessory after the fact 18 U.S.C. 3 assist offender",
+    "misprision of felony concealment affirmative act",
+    "harboring concealing fugitive 18 U.S.C. 1071",
+    "compounding felony hindering prosecution rendering criminal assistance"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Victim consent, de minimis and public-authority defenses",
+   "scope": "Less common defenses: victim consent to assault in sports, mutual combat and sadomasochistic contexts; de minimis infraction dismissals under MPC 2.12 and state analogs; and the public-authority defense under Rule 12.3.",
+   "queries": [
+    "consent defense assault sadomasochistic battery conviction",
+    "sports violence criminal prosecution consent defense",
+    "de minimis infraction dismissal Model Penal Code 2.12",
+    "public authority defense Rule 12.3 government agent"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Model Penal Code and criminal code codification",
+   "scope": "History, drafters, structure and revisions of the American Law Institute's Model Penal Code, state adoption of MPC-based codes, the 1948 codification of Title 18, and the abolition of common-law crimes.",
+   "queries": [
+    "Model Penal Code American Law Institute Wechsler drafting",
+    "state penal code adopted Model Penal Code revision",
+    "common law crimes abolished reception statute",
+    "Title 18 United States Code codification 1948"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Offense grading: felony and misdemeanor classes, wobblers and infractions",
+   "scope": "How federal and state codes sort offenses into felony, misdemeanor, petty offense and infraction grades, including 18 U.S.C. 3559 classes, state class and degree schemes, wobbler offenses, and reducing felonies to misdemeanors.",
+   "queries": [
+    "wobbler offense felony misdemeanor Penal Code 17(b)",
+    "class A misdemeanor class B felony classification statute",
+    "18 U.S.C. 3559 sentencing classification of offenses",
+    "petty offense infraction violation not a crime"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Initial appearance, arraignment and preliminary hearings",
+   "scope": "Early post-arrest procedure: prompt presentment, Gerstein and McLaughlin probable-cause determinations, the McNabb-Mallory rule, arraignment and entry of pleas, and preliminary examinations and bindover.",
+   "queries": [
+    "Gerstein v. Pugh probable cause determination 48 hours",
+    "McNabb-Mallory unnecessary delay presentment 3501(c)",
+    "preliminary hearing bindover probable cause magistrate",
+    "arraignment Rule 10 initial appearance Rule 5"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Defendant's presence at trial, shackling and courtroom appearance",
+   "scope": "The defendant's right to be present and how it is waived, trial in absentia, removal for disruptive conduct, visible shackling and prison clothing before the jury, courtroom security measures, and interpreter rights.",
+   "queries": [
+    "visible shackling Deck v. Missouri jury",
+    "trial in absentia Rule 43 voluntary absence",
+    "disruptive defendant removed courtroom Illinois v. Allen",
+    "Court Interpreters Act defendant interpreter right"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Interstate detainers and offender-supervision compacts",
+   "scope": "The Interstate Agreement on Detainers, including its 180- and 120-day trial limits, anti-shuttling rule and waiver, and the Interstate Compact for Adult Offender Supervision governing transfers of probationers and parolees.",
+   "queries": [
+    "Interstate Agreement on Detainers 180 days Article III",
+    "anti-shuttling provision Alabama v. Bozeman detainer",
+    "Interstate Compact Adult Offender Supervision transfer",
+    "detainer lodged prisoner request final disposition"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "DNA databases, CODIS and investigative genetic genealogy",
+   "scope": "Collection and use of offender and arrestee DNA profiles, CODIS and state databank statutes, familial searching, investigative genetic genealogy, and constitutional challenges to DNA collection.",
+   "queries": [
+    "CODIS DNA database arrestee Maryland v. King",
+    "DNA Analysis Backlog Elimination Act qualifying offense sample",
+    "familial DNA search partial match policy",
+    "investigative genetic genealogy GEDmatch Golden State Killer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Polygraph evidence and hypnotically refreshed testimony",
+   "scope": "Admissibility of polygraph results, stipulated polygraphs and references to polygraph tests, per se exclusion rules, and hypnotically refreshed testimony, including Frye, United States v. Scheffer and Rock v. Arkansas.",
+   "queries": [
+    "polygraph results inadmissible per se rule stipulation",
+    "United States v. Scheffer Military Rule 707 polygraph",
+    "hypnotically refreshed testimony Rock v. Arkansas",
+    "Frye systolic blood pressure deception test"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Military commissions, war crimes and torture prosecutions",
+   "scope": "Trials of enemy combatants by military commission and US prosecutions under the War Crimes Act, the federal torture statute and genocide law, including Hamdan, the Military Commissions Acts and the Guantanamo cases.",
+   "queries": [
+    "Military Commissions Act 2006 Hamdan unlawful enemy combatant",
+    "Guantanamo military commission charges material support conspiracy",
+    "torture statute 18 U.S.C. 2340A prosecution",
+    "War Crimes Act 2441 grave breach Common Article 3"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cryptocurrency and darknet-market prosecutions",
+   "scope": "Federal prosecutions involving digital assets and darknet markets, including Silk Road, crypto exchange and token fraud, unlicensed money transmitting, cryptocurrency mixers, and crypto-related Bank Secrecy Act and sanctions cases.",
+   "queries": [
+    "Silk Road Ross Ulbricht darknet market prosecution",
+    "bitcoin unlicensed money transmitting business 1960",
+    "cryptocurrency exchange fraud wire fraud conviction FTX",
+    "cryptocurrency mixer money laundering Tornado Cash"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Commodities fraud, spoofing and market manipulation",
+   "scope": "Criminal prosecutions under the Commodity Exchange Act and related fraud statutes for spoofing, futures manipulation, commodity pool fraud, and benchmark rigging such as the LIBOR and foreign-exchange cases.",
+   "queries": [
+    "spoofing Commodity Exchange Act bids cancel conviction",
+    "commodities fraud futures manipulation 7 U.S.C. 13",
+    "LIBOR manipulation wire fraud traders conviction",
+    "precious metals futures spoofing JPMorgan traders"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurance fraud",
+   "scope": "State and federal crimes involving fraudulent insurance claims, staged accidents, arson for profit, workers' compensation fraud, and crimes in the business of insurance under 18 U.S.C. 1033.",
+   "queries": [
+    "insurance fraud staged accident false claim conviction",
+    "18 U.S.C. 1033 business of insurance prohibited person",
+    "workers compensation fraud false statement benefits",
+    "insurance fraud statute knowingly presents false claim"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Access device fraud, credit card fraud and skimming",
+   "scope": "Offenses involving counterfeit and unauthorized access devices under 18 U.S.C. 1029 and state credit card fraud statutes, including card skimming, device-making equipment, and per-device loss rules at sentencing.",
+   "queries": [
+    "access device fraud 18 U.S.C. 1029 counterfeit",
+    "unauthorized access device credit card numbers trafficking",
+    "skimming device ATM card reader conviction",
+    "device-making equipment access device loss $500"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Labor racketeering and union embezzlement",
+   "scope": "Crimes involving labor unions and employee benefit plans, including Taft-Hartley section 186 payoffs, embezzlement of union funds under 29 U.S.C. 501(c), theft from benefit plans under 18 U.S.C. 664, and organized-crime control of unions.",
+   "queries": [
+    "Taft-Hartley 186 payments labor organization employer",
+    "embezzlement union funds 29 U.S.C. 501(c)",
+    "employee benefit plan embezzlement 18 U.S.C. 664",
+    "Teamsters labor racketeering organized crime consent decree"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Workplace safety crimes",
+   "scope": "Criminal enforcement of occupational safety laws, including OSH Act willful violations causing an employee's death, Mine Safety and Health Act prosecutions, and state homicide charges against employers for worker deaths.",
+   "queries": [
+    "OSHA willful violation causing death employee criminal",
+    "Mine Safety Health Act willful violation Blankenship",
+    "employer manslaughter worker death trench collapse",
+    "29 U.S.C. 666(e) criminal penalty willful"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Postal offenses: mail theft, obstruction of mail and postal robbery",
+   "scope": "Federal crimes against the mails and the Postal Service, including mail theft and possession of stolen mail, obstruction of correspondence, theft by postal employees, robbery of postal custodians, and mailing nonmailable matter.",
+   "queries": [
+    "possession stolen mail 18 U.S.C. 1708",
+    "obstruction of correspondence 1702 postal employee",
+    "robbery postal employee 2114 jeopardy dangerous weapon",
+    "Postal Inspection Service mail theft arrow key"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "False reports, swatting and hoax offenses",
+   "scope": "Crimes of falsely reporting crimes or emergencies, including false police reports, false fire alarms, swatting, bomb threats, and hoaxes under 18 U.S.C. 1038 and state false-report statutes.",
+   "queries": [
+    "false report to police officer statute conviction",
+    "swatting hoax emergency call SWAT death",
+    "18 U.S.C. 1038 false information hoax",
+    "bomb threat false alarm statute school"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hit-and-run, reckless driving and other serious traffic offenses",
+   "scope": "Criminal traffic offenses other than impaired driving, including leaving the scene of an accident, reckless driving, street racing, driving with a suspended or revoked license, and habitual traffic offender laws.",
+   "queries": [
+    "leaving scene accident knowledge injury hit and run",
+    "reckless driving willful wanton disregard safety",
+    "driving while license suspended revoked habitual offender",
+    "street racing speed contest statute death"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "HIV and disease-transmission criminalization",
+   "scope": "Statutes and prosecutions that criminalize exposure to or transmission of HIV and other communicable diseases, including disclosure defenses, modernization and repeal laws, and quarantine violations.",
+   "queries": [
+    "HIV exposure statute failure to disclose partner",
+    "criminal transmission HIV prosecution conviction sentence",
+    "knowingly exposing another sexually transmitted disease",
+    "HIV criminalization law repeal modernization"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hazing offenses",
+   "scope": "State antihazing statutes and prosecutions arising from fraternity, band, sports and military hazing deaths, including named reform laws and federal campus hazing reporting requirements.",
+   "queries": [
+    "hazing statute fraternity pledge death prosecution",
+    "Timothy Piazza Antihazing Law Pennsylvania",
+    "Chad Meredith Act Florida hazing felony",
+    "Stop Campus Hazing Act reporting"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State criminal justice reform ballot measures and legislation",
+   "scope": "Major state criminal justice reforms enacted by ballot initiative or statute, such as California's Propositions 47, 57 and 36, Oregon Measure 110, Illinois's SAFE-T Act, and related resentencing and decriminalization laws.",
+   "queries": [
+    "Proposition 47 resentencing petition reduced misdemeanor",
+    "Proposition 57 parole consideration nonviolent offenders",
+    "Oregon Measure 110 drug decriminalization",
+    "SAFE-T Act Illinois cash bail abolition"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Famous American criminal trials",
+   "scope": "Notable US criminal trials and their judges, prosecutors, defense lawyers, charges, verdicts and sentences, from nineteenth-century cases to modern high-profile prosecutions.",
+   "queries": [
+    "famous murder trial defense attorney prosecutor verdict",
+    "Lindbergh kidnapping trial Hauptmann Flemington",
+    "Sacco and Vanzetti trial execution",
+    "Chicago Seven conspiracy trial Judge Hoffman"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contempt of Congress",
+   "scope": "Criminal and inherent contempt of Congress, including prosecutions under 2 U.S.C. 192 and 194 for refusing to testify or produce documents, congressional referrals, and executive-privilege disputes.",
+   "queries": [
+    "contempt of Congress 2 U.S.C. 192 refusal testify",
+    "Watkins v. United States congressional investigation pertinency",
+    "inherent contempt Sergeant at Arms McGrain Daugherty",
+    "House contempt referral subpoena Bannon conviction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal law in US territories and the District of Columbia",
+   "scope": "Criminal jurisdiction, codes and procedure in Puerto Rico, Guam, the US Virgin Islands, the Northern Mariana Islands, American Samoa and DC, including dual-sovereignty status, jury rights in the territories, and DC's prosecution structure.",
+   "queries": [
+    "Puerto Rico v. Sanchez Valle double jeopardy sovereign",
+    "District of Columbia Code offense Superior Court prosecution",
+    "Virgin Islands Code criminal Superior Court conviction",
+    "Guam Organic Act criminal jurisdiction court"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sports bribery, doping and athlete-related prosecutions",
+   "scope": "Crimes connected to sports, including sports bribery and point-shaving under 18 U.S.C. 224, game-fixing scandals, NCAA basketball corruption wire-fraud cases, the Rodchenkov Anti-Doping Act, and steroid-related perjury prosecutions.",
+   "queries": [
+    "Sports Bribery Act 224 point shaving",
+    "college basketball point-shaving scandal indicted players",
+    "Rodchenkov Anti-Doping Act prosecution",
+    "BALCO steroids perjury obstruction athlete"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corpus delicti rule and no-body homicide prosecutions",
+   "scope": "The requirement of independent evidence to corroborate a confession, the federal trustworthiness standard and state variants, and proving homicide without a recovered body.",
+   "queries": [
+    "corpus delicti rule independent evidence confession corroboration",
+    "trustworthiness standard Opper v. United States",
+    "no body murder conviction circumstantial evidence",
+    "corpus delicti homicide death criminal agency"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Parental kidnapping and custodial interference",
+   "scope": "Crimes of taking or hiding a child in violation of custody rights, including state custodial interference statutes, the International Parental Kidnapping Crime Act, the parental exemption in the Federal Kidnapping Act, and related defenses.",
+   "queries": [
+    "custodial interference statute parent concealed child",
+    "International Parental Kidnapping Crime Act 1204",
+    "parental kidnapping Fugitive Felon Act UFAP warrant",
+    "child abduction defense fleeing domestic violence custody"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  }
+ ]
+}

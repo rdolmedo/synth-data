@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Engineering",
+ "subject": "Architecture",
+ "target_leaves": 8,
+ "expected_problems": 34,
+ "leaves": [
+  {
+   "leaf": "Vignola and Palladio order proportion modules",
+   "scope": "The dimensions of column orders in Renaissance and later treatises (Vignola's Regola, Palladio's Quattro Libri, Serlio, and the 19th-century American editions by Ware): the ratio of pedestal, column and entablature to the module, how each author divides the module into parts, and the intercolumniation rules. A question could take a given column diameter and order, then ask for the height of a particular member, or ask how two treatises' prescriptions for the same element differ.",
+   "queries": [
+    "American Vignola orders",
+    "Palladio four books architecture",
+    "entablature module parts",
+    "Tuscan Doric intercolumniation",
+    "Serlio five orders"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Sabine reverberation experiments and early auditoria",
+   "scope": "Wallace Clement Sabine's measurements, their documented context, and later historical studies: the absorption coefficients he reported for materials, seat cushions and audiences, the specific halls he studied (Fogg Lecture Room, Boston Symphony Hall), and how he derived the reverberation constant. A question could have the solver compute a room's reverberation time from his recorded coefficients, or apply his own correction to a room he documented.",
+   "queries": [
+    "Sabine collected papers acoustics",
+    "reverberation absorption coefficients",
+    "Fogg lecture room",
+    "Boston Symphony Hall acoustics",
+    "sound absorbing power audience"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Yingzao Fashi cai-fen modular timber system",
+   "scope": "The Song-dynasty building manual's eight grades of cai (timber module), the dimensions of each grade in fen, which grade applies to which building rank and bay count, and how bracket-set (dougong) members are sized in cai and zhi. A question could take a building's rank, convert the module to absolute dimensions, and ask for the size of a given member, or compare this system with the later Qing doukou module.",
+   "queries": [
+    "Yingzao Fashi cai fen",
+    "Song dynasty building standards",
+    "dougong bracket module",
+    "Li Jie timber grades",
+    "Chinese timber frame modular"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Architectural Works Copyright Protection Act litigation",
+   "scope": "US federal cases interpreting the 1990 AWCPA: the December 1, 1990 construction cutoff, what counts as protectable selection and arrangement of standard features, the pictorial-representation exception in \u00a7120(a), and the 'thin protection' rule for home plans. A question could give a fact pattern with dates and design features and ask which holding controls, or how two circuits' tests for infringement would differ in outcome.",
+   "queries": [
+    "Architectural Works Copyright Protection",
+    "copyright home design plans",
+    "section 120 architectural work",
+    "infringement house floor plan",
+    "substantial similarity architectural"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Guastavino cohesive tile vaulting mechanics",
+   "scope": "Rafael Guastavino's timbrel-vault system as he described it in his 1893 essay and as later structural analyses describe it: how many layers of tile were laid, mortar types, the buildings where it was used and their documented spans and rises, and the load tests he reported. Thrust-network and limit analyses in later papers also apply. A question could take a vault's span and rise and ask for the thrust or a safety ratio, or set Guastavino's claimed strength beside a modern analysis of the same structure.",
+   "queries": [
+    "Guastavino cohesive construction",
+    "timbrel vault tile",
+    "thin masonry vault analysis",
+    "thrust network analysis vault",
+    "Catalan vault load test"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Girih tiles and muqarnas geometric design",
+   "scope": "The geometry of Islamic architectural ornament: the five girih tile shapes and their angles, quasi-periodic patterns at specific monuments (Darb-i Imam, Gunbad-i Kabud), how muqarnas is built up from unit cells as the Topkapi Scroll and al-Kashi describe it, and the subdivision rules analyzed in later papers. A question could take a tile's angles or a pattern's documented subdivision ratio and ask for a count, a length ratio, or the symmetry order at a named building.",
+   "queries": [
+    "girih tiles quasicrystalline",
+    "Darb-i Imam pattern",
+    "muqarnas geometry unit",
+    "Topkapi scroll geometric",
+    "al-Kashi muqarnas measurement"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Persian windcatcher and qanat passive cooling",
+   "scope": "Field measurements and typologies of badgir windcatchers in Yazd, Kashan and the Gulf: how many openings each has (one-, two-, four- or eight-sided), the height of the shaft and its cross-section, internal partitions, airflow rates, and how windcatchers pair with qanats and ab-anbar cisterns. A question could ask the solver to compare documented performance figures between types, or apply a reported pressure coefficient to estimate an airflow.",
+   "queries": [
+    "windcatcher badgir Yazd",
+    "qanat passive cooling",
+    "ab anbar cistern",
+    "windcatcher airflow measurement",
+    "vernacular Iranian architecture ventilation"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century American pattern books and balloon framing",
+   "scope": "House-design pattern books and carpentry manuals (Downing, A.J. Davis, Bicknell, Woodward, Palliser), with their published cost estimates, room dimensions, lumber schedules, and the stud spacing and nailing practice of balloon framing. A question could give a design number from one book and ask for a total cost, a lumber quantity, or a comparison of prices between editions.",
+   "queries": [
+    "Woodward national architect",
+    "balloon frame construction",
+    "Palliser model homes",
+    "Bicknell village builder",
+    "Downing cottage residences"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

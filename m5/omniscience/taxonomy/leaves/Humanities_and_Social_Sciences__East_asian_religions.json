@@ -1,0 +1,609 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "East asian religions",
+ "weight": 0.009375,
+ "leaves": [
+  {
+   "leaf": "Shang and Western Zhou religion: oracle bones, ancestor cult and Heaven",
+   "scope": "Early Chinese religion from the Shang to the Western Zhou: pyromantic oracle-bone divination, the high god Di/Shangdi, royal ancestor sacrifice, ritual bronzes, human sacrifice at Anyang, and the Zhou idea of Tian and the Mandate of Heaven.",
+   "queries": [
+    "Shang dynasty oracle bone divination pyromancy inscriptions",
+    "Shangdi high god Shang royal ancestor sacrifice",
+    "Zhou Mandate of Heaven Tianming ritual bronzes",
+    "Yinxu Anyang royal tombs human sacrifice"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Confucianism and the formation of the Confucian canon",
+   "scope": "Confucius, his disciples and the pre-Qin Confucian thinkers (Mencius, Xunzi, Zisi), plus how the Five Classics, Four Books and Thirteen Classics were formed and commented on from the Han to the Tang (Dong Zhongshu, the New Text/Old Text controversy, the stone classics).",
+   "queries": [
+    "Analects Confucius disciples Yan Hui Zilu Zigong",
+    "Mencius Xunzi human nature good evil debate",
+    "Five Classics Thirteen Classics Confucian canon commentaries",
+    "Dong Zhongshu New Text Old Text Han Confucianism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Song-Ming Neo-Confucianism (Daoxue and the School of Mind)",
+   "scope": "Neo-Confucian thinkers and doctrines from Zhou Dunyi and the Cheng brothers through Zhu Xi's synthesis to Lu Jiuyuan and Wang Yangming, with key terms (li, qi, gewu, liangzhi) and texts.",
+   "queries": [
+    "Zhu Xi Four Books commentary li qi",
+    "Zhou Dunyi Taijitu shuo Cheng Yi Cheng Hao",
+    "Wang Yangming School of Mind liangzhi innate knowledge",
+    "Lu Jiuyuan Goose Lake Temple debate Neo-Confucian"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Imperial state cult and Confucian temple ritual",
+   "scope": "The official religion of imperial China: suburban sacrifices to Heaven and Earth, the Temple of Heaven and other Beijing altars, Feng and Shan rites at Mount Tai, the Altar of Soil and Grain, and the Confucius temple system (Qufu, the Duke Yansheng, the Shidian rite, who was enshrined in the temples).",
+   "queries": [
+    "Temple of Heaven winter solstice sacrifice emperor",
+    "Feng and Shan sacrifices Mount Tai emperors",
+    "Temple of Confucius Qufu Duke Yansheng Kong family",
+    "Confucian temple Four Correlates enshrinement Shidian ceremony"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Daoist texts and their manuscripts and commentaries",
+   "scope": "The Daodejing, Zhuangzi, Liezi, Huainanzi and Huang-Lao writings, covering their chapter structure, the excavated manuscripts (Guodian, Mawangdui) and the main commentaries (Heshang Gong, Wang Bi, Guo Xiang).",
+   "queries": [
+    "Daodejing Guodian Mawangdui manuscripts chapters",
+    "Zhuangzi Inner Chapters Guo Xiang commentary",
+    "Liezi Huainanzi Huang-Lao Daoism Han",
+    "Heshang Gong Wang Bi Laozi commentary"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Celestial Masters and early Daoist religious movements",
+   "scope": "The Way of the Celestial Masters from Zhang Daoling and Zhang Lu's Hanzhong theocracy, the Yellow Turbans' Way of Great Peace, the Taiping jing and Xiang'er commentary, and Kou Qianzhi's Northern Celestial Masters.",
+   "queries": [
+    "Zhang Daoling Way of the Celestial Masters",
+    "Five Pecks of Rice Zhang Lu Hanzhong",
+    "Yellow Turban Rebellion Zhang Jue Taiping Dao",
+    "Kou Qianzhi Northern Wei Celestial Masters Taiping jing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shangqing and Lingbao revelations and the Daoist Canon (Daozang)",
+   "scope": "The Six Dynasties revealed scriptures of Shangqing (Yang Xi, Tao Hongjing, Maoshan) and Lingbao (Ge Chaofu, Lu Xiujing), the Three Caverns and Four Supplements classification, and the Daoist canons compiled from the Tang to the Ming Zhengtong Daozang.",
+   "queries": [
+    "Shangqing revelations Yang Xi Maoshan Tao Hongjing",
+    "Lingbao scriptures Ge Chaofu Lu Xiujing",
+    "Zhengtong Daozang Ming Daoist Canon compilation",
+    "Three Caverns Four Supplements Daoist canon Yunji Qiqian"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quanzhen, Zhengyi and later Daoist orders and mountain centers",
+   "scope": "Daoist schools from the Song onward (Quanzhen, Zhengyi, Longmen, Jingming, Shenxiao, Tianxin), their founders and patriarchs, and their institutional centers such as Baiyun Guan, Longhushan and Wudangshan.",
+   "queries": [
+    "Quanzhen Wang Chongyang Seven Perfected",
+    "Qiu Chuji Genghis Khan Longmen lineage",
+    "Zhengyi Dao Longhushan Celestial Master lineage",
+    "White Cloud Temple Beijing Wudang Mountains Daoist"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Daoist alchemy and longevity techniques",
+   "scope": "Outer alchemy (waidan) and inner alchemy (neidan), from Ge Hong's Baopuzi and the Zhouyi cantong qi to Zhang Boduan's Wuzhen pian, together with daoyin, breathing, dietary and immortality practices.",
+   "queries": [
+    "Ge Hong Baopuzi waidan elixir cinnabar",
+    "neidan internal alchemy Zhang Boduan Wuzhen pian",
+    "Zhouyi cantong qi Wei Boyang alchemy",
+    "daoyin breathing techniques Mawangdui longevity xian"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Daoist ritual, priesthood, registers and talismans",
+   "scope": "Daoist liturgy and clergy: jiao offerings and zhai retreats, ordination and the registers (lu), talismans (fu), the Pace of Yu, ritual vestments and the ranks of Daoist priests.",
+   "queries": [
+    "Daoist jiao ritual cosmic renewal offering",
+    "Daoist ordination registers lu Zhengyi priest",
+    "Daoist talismans fu exorcism ritual",
+    "Pace of Yu bugang Daoist zhai retreat"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transmission of Buddhism to China and translators of the scriptures",
+   "scope": "How Buddhism entered China and the main translators and pilgrims (An Shigao, Lokakṣema, Dharmarakṣa, Kumārajīva, Paramārtha, Faxian, Xuanzang, Yijing), including the White Horse Temple legend and geyi 'matching concepts'.",
+   "queries": [
+    "An Shigao Lokaksema early Chinese Buddhist translation",
+    "Kumārajīva Chang'an translation Lotus Sutra",
+    "Xuanzang pilgrimage India Great Tang Records Western Regions",
+    "White Horse Temple Emperor Ming dream Buddhism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese Buddhist canons, catalogues and printed Tripitaka editions",
+   "scope": "Bibliographic history of the Chinese Buddhist canon: catalogues (Chu sanzang jiji, Kaiyuan Shijiao lu), printed editions (Kaibao, Qisha, Jin, Qianlong) and the Taishō and Zokuzōkyō standards, plus the Fangshan stone sutras and Dunhuang manuscripts.",
+   "queries": [
+    "Taishō Tripiṭaka Takakusu volumes numbering",
+    "Kaibao Canon Song dynasty printed Tripitaka",
+    "Kaiyuan Shijiao lu Zhisheng Buddhist catalogue",
+    "Fangshan stone sutras Yunju Temple"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tiantai, Huayan and other Chinese scholastic Buddhist schools",
+   "scope": "Chinese doctrinal schools and their patriarchs, texts and classification systems: Tiantai (Zhiyi), Huayan (Dushun, Fazang, Chengguan, Zongmi), Faxiang/Weishi (Xuanzang, Kuiji), Sanlun (Jizang), and the Dilun and Shelun schools.",
+   "queries": [
+    "Zhiyi Tiantai Mohe Zhiguan five periods eight teachings",
+    "Huayan school Fazang Dushun Avatamsaka patriarchs",
+    "Faxiang Weishi Kuiji Chinese Yogacara",
+    "Sanlun Jizang Chinese Madhyamaka school"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chan Buddhism in China: lineages, masters and koan literature",
+   "scope": "Chinese Chan from Bodhidharma and Huineng through the Hongzhou school and the Five Houses, including the Platform Sutra, transmission-of-the-lamp histories and koan collections such as the Blue Cliff Record and Gateless Gate.",
+   "queries": [
+    "Bodhidharma Huike Sengcan Chan patriarchs",
+    "Huineng Platform Sutra Shenxiu sudden enlightenment",
+    "Five Houses of Chan Linji Caodong Yunmen",
+    "Blue Cliff Record Gateless Gate koan collection"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese Buddhist monasticism, vinaya and state persecutions",
+   "scope": "Monastic institutions and their relations with the Chinese state: the Dharmaguptaka vinaya and Nanshan Vinaya school, Baizhang's Pure Rules, ordination platforms and certificates (dudie), sangha officials, and the 'Three Wu' persecutions including the Huichang suppression of 845.",
+   "queries": [
+    "Huichang persecution of Buddhism 845 Emperor Wuzong",
+    "Three Disasters of Wu Buddhist persecutions",
+    "Baizhang Pure Rules Chan monastic code",
+    "Dharmaguptaka vinaya Daoxuan Nanshan Vinaya school"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese bodhisattva cults, Buddhist sacred mountains and cave temples",
+   "scope": "Devotion to Guanyin, Maitreya/Budai, Dizang, Manjushri and Samantabhadra, their Four Sacred Mountains, and the major cave-temple sites (Mogao, Yungang, Longmen, Dazu) with their dates and patrons.",
+   "queries": [
+    "Four Sacred Mountains Buddhism Wutai Emei Putuo Jiuhua",
+    "Guanyin Miaoshan legend Avalokitesvara Chinese",
+    "Mogao Caves Dunhuang Library Cave",
+    "Longmen Grottoes Yungang Grottoes Northern Wei"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pure Land Buddhism in China and Japan",
+   "scope": "Amitābha devotion and nianfo/nembutsu practice from Huiyuan, Tanluan, Daochuo and Shandao to Japan's Genshin, Hōnen (Jōdo-shū), Shinran (Jōdo Shinshū), Ippen (Ji-shū) and Rennyo's Hongan-ji.",
+   "queries": [
+    "Huiyuan Lushan White Lotus Society Pure Land",
+    "Tanluan Daochuo Shandao Pure Land patriarchs",
+    "Hōnen Jōdo-shū Senchakushū nembutsu",
+    "Shinran Jodo Shinshu Honganji Rennyo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tang Esoteric Buddhism and Japanese Shingon",
+   "scope": "Esoteric Buddhism brought to Tang China by Śubhakarasiṃha, Vajrabodhi and Amoghavajra and passed via Huiguo to Kūkai's Shingon school, with its sutras, Two Realms mandalas, Tō-ji, Mount Kōya and later branches such as Shingi Shingon.",
+   "queries": [
+    "Amoghavajra Vajrabodhi Tang esoteric Buddhism",
+    "Kūkai Shingon Mount Kōya Tō-ji",
+    "Mahavairocana Sutra Womb Realm Diamond Realm mandala",
+    "Kakuban Shingi Shingon Negoro-ji"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Asuka-Nara Buddhism and Japanese Tendai",
+   "scope": "Early Japanese Buddhism from its introduction and Prince Shōtoku, through the six Nara schools, Tōdai-ji, the provincial kokubunji, Ganjin and Gyōki, to Saichō's Tendai at Enryaku-ji and the Sanmon-Jimon split.",
+   "queries": [
+    "Six Nara schools Kegon Hossō Ritsu Tōdai-ji",
+    "Prince Shotoku Horyuji Asuka Buddhism introduction",
+    "Saichō Tendai Enryaku-ji Mount Hiei",
+    "Ennin Enchin Sanmon Jimon Tendai split"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese Zen: Rinzai, Sōtō and Ōbaku",
+   "scope": "Zen in Japan, covering Eisai, Dōgen and the Shōbōgenzō, Eihei-ji and Sōji-ji, the Kamakura and Kyoto Gozan system, Daitoku-ji and Myōshin-ji, Ikkyū, Hakuin's koan reform and Ingen's Ōbaku school.",
+   "queries": [
+    "Eisai Rinzai Kennin-ji Kozen gokokuron",
+    "Dōgen Sōtō Eihei-ji Shōbōgenzō",
+    "Five Mountain System Gozan Zen Kyoto Kamakura",
+    "Hakuin Ekaku Obaku Ingen Manpukuji"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nichiren Buddhism and Lotus Sutra movements",
+   "scope": "Nichiren's life and writings and the schools descended from him (Nichiren-shū, Nichiren Shōshū and Taiseki-ji, the Fuju-fuse sect) and lay organizations (Sōka Gakkai, Risshō Kōsei Kai, Reiyūkai), with their objects of worship and key dates.",
+   "queries": [
+    "Nichiren Rissho Ankoku Ron exile Lotus Sutra",
+    "Nichiren Shōshū Taiseki-ji Dai Gohonzon",
+    "Soka Gakkai Makiguchi Toda Ikeda",
+    "Rissho Kosei Kai Reiyukai Nichiren lay movements"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese folk Buddhism, pilgrimage routes and the danka system",
+   "scope": "Popular and household Buddhism in Japan: the Shikoku 88-temple and Saigoku 33 Kannon pilgrimages, Jizō and mizuko kuyō, Obon and funerary Buddhism, posthumous names (kaimyō), and the Edo-period terauke/danka temple-registration system.",
+   "queries": [
+    "Shikoku 88 temple pilgrimage henro Kūkai",
+    "Saigoku Kannon pilgrimage thirty-three temples",
+    "danka system terauke Edo temple registration",
+    "Jizo mizuko kuyo Obon kaimyo funerary Buddhism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shinto mythology and classical texts",
+   "scope": "The mythic narratives and texts of Shinto (Kojiki, Nihon Shoki, Fudoki, Kogo Shūi, Sendai Kuji Hongi): creation by Izanagi and Izanami, Amaterasu and Susanoo, the descent of Ninigi, and the compilers and dates of these texts.",
+   "queries": [
+    "Kojiki Nihon Shoki compilation Ō no Yasumaro",
+    "Izanagi Izanami creation myth Kuniumi",
+    "Amaterasu Susanoo Ama-no-Iwato cave myth",
+    "Fudoki Kogo Shui Sendai Kuji Hongi texts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shinto shrines, shrine networks and architecture",
+   "scope": "Major shrines and how shrines are classified: Ise Jingū and its Shikinen Sengū rebuilding, Izumo Taisha, the Inari, Hachiman and Kumano networks, architectural styles (shinmei-, taisha-, nagare-zukuri), the Engishiki shrine register, ichinomiya and the modern ranking system.",
+   "queries": [
+    "Ise Grand Shrine Shikinen Sengu rebuilding",
+    "Izumo Taisha taisha-zukuri shrine architecture",
+    "shinmei-zukuri nagare-zukuri Shinto shrine styles",
+    "Ichinomiya Kanpei-sha Modern system of ranked Shinto shrines"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shinto ritual, priesthood, imperial rites and matsuri",
+   "scope": "Shinto practice: purification (harae, misogi), norito prayers, the priesthood and miko, the ancient Jingi-kan and Saiō, imperial rites such as the Daijōsai and Niiname-sai, and major festivals with mikoshi.",
+   "queries": [
+    "Shinto purification harae misogi norito prayers",
+    "Daijosai Niinamesai imperial enthronement rites",
+    "kannushi miko Shinto priesthood Jingi-kan",
+    "Gion Matsuri Kanda Matsuri mikoshi Shinto festival"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shinbutsu-shūgō, Shugendō, Onmyōdō and medieval Shinto theologies",
+   "scope": "The blending of kami worship with Buddhism and Yin-yang lore before the Meiji era: honji suijaku, Ryōbu and Sannō Shinto, Watarai (Ise) and Yoshida Shinto, Shugendō mountain asceticism (En no Gyōja, yamabushi, Kumano, Haguro) and Onmyōdō (Abe no Seimei, the Onmyōryō).",
+   "queries": [
+    "honji suijaku shinbutsu shugo kami Buddhas",
+    "Shugendo yamabushi En no Gyoja Kumano Omine",
+    "Ryōbu Shinto Watarai Shinto Yoshida Kanetomo",
+    "Onmyōdō Abe no Seimei Onmyōryō"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kokugaku, State Shinto and modern Shinto institutions",
+   "scope": "From the Edo National Learning scholars (Kamo no Mabuchi, Motoori Norinaga, Hirata Atsutane) through the Meiji separation of Buddhism and Shinto (shinbutsu bunri, haibutsu kishaku) and State Shinto, Yasukuni and the 1945 Shinto Directive, to the postwar Jinja Honchō.",
+   "queries": [
+    "Motoori Norinaga Kokugaku Kojiki-den",
+    "Hirata Atsutane Restoration Shinto Kamo no Mabuchi",
+    "shinbutsu bunri haibutsu kishaku Meiji government",
+    "Shinto Directive 1945 State Shinto Jinja Honcho Yasukuni"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese new religions and Sect Shinto (non-Nichiren)",
+   "scope": "New religious movements from the late Edo period onward that do not descend from Nichiren: Kurozumikyō, Konkōkyō, Tenrikyō and the thirteen Sect Shinto groups, Ōmoto, Seichō-no-Ie, Sekai Kyūseikyō, Mahikari, Shinnyo-en, PL Kyōdan, Agonshū and Aum Shinrikyō.",
+   "queries": [
+    "Tenrikyo Nakayama Miki Jiba Ofudesaki",
+    "Konkokyo Kurozumikyo thirteen Sect Shinto",
+    "Omoto Deguchi Onisaburo Deguchi Nao suppression",
+    "Aum Shinrikyo Seicho-no-Ie Shinnyo-en Japanese new religions"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ryukyuan and Ainu indigenous religions",
+   "scope": "The native religions of the Japanese archipelago's peripheries: Ryukyuan noro priestesses, the kikoe-ōkimi high priestess, utaki sacred groves, yuta shamans and rites like Kudaka's Izaihō, plus Ainu kamuy belief, iyomante bear-sending and inau offerings.",
+   "queries": [
+    "Ryukyuan religion noro priestess utaki",
+    "Kikoe-ōkimi Sēfa-utaki Ryukyu Kingdom",
+    "Ainu religion kamuy iyomante bear ceremony",
+    "yuta Okinawa shaman Kudaka Island Izaiho"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Korean Buddhism from the Three Kingdoms to the Jogye Order",
+   "scope": "Buddhism in Korea: its introduction to Goguryeo, Baekje and Silla, thinkers such as Wonhyo, Uisang and Jinul, Goryeo state Buddhism and the Tripitaka Koreana, Joseon-era suppression and Seosan Hyujeong, and modern orders (Jogye, Taego) with their head temples.",
+   "queries": [
+    "Goguryeo Sundo Buddhism introduction Baekje Silla Ichadon",
+    "Wonhyo Uisang Silla Hwaeom Buddhism",
+    "Jinul Songgwangsa Seon Jogye Order",
+    "Tripitaka Koreana Haeinsa woodblocks Goryeo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Korean Confucianism and Joseon ritual",
+   "scope": "Neo-Confucianism as Joseon state orthodoxy: Yi Hwang and Yi I and the Four-Seven Debate, seowon academies and Sungkyunkwan, the Munmyo shrine, the Jongmyo royal ancestral rites, Zhu Xi family ritual, and the Silhak and Yemun ritual controversies.",
+   "queries": [
+    "Yi Hwang Toegye Four-Seven Debate Gi Dae-seung",
+    "Yi I Yulgok Joseon Neo-Confucianism",
+    "Jongmyo Jerye royal ancestral ritual Joseon",
+    "seowon Confucian academies Sungkyunkwan Munmyo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Korean shamanism (Muism) and folk religion",
+   "scope": "Korean shamanic religion and village cults: mudang and mansin, gut rituals and regional types, Jeju simbang shamanism, narrative shaman songs such as Princess Bari, spirit-possession initiation, village guardian posts (jangseung) and the Dangun founding myth.",
+   "queries": [
+    "Korean shamanism mudang gut ritual",
+    "Jeju shamanism simbang Chilmeoridang gut",
+    "Princess Bari myth Korean shaman songs",
+    "jangseung sotdae Korean village guardian folk religion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Korean new religions",
+   "scope": "Religious movements founded in Korea since the 19th century: Donghak/Cheondogyo (Choe Je-u, Choe Si-hyeong), Jeungsanism (Daesun Jinrihoe, Jeungsando), Won Buddhism (Sotaesan), Daejonggyo, the Unification Church and Shincheonji, with their founders, scriptures and dates.",
+   "queries": [
+    "Donghak Choe Je-u Cheondogyo Donghak Peasant Revolution",
+    "Jeungsan Kang Il-sun Daesun Jinrihoe Jeungsando",
+    "Won Buddhism Sotaesan Il-won-sang",
+    "Daejonggyo Dangun Unification Church Shincheonji Korean"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese popular pantheon and temple cults",
+   "scope": "Deities of Chinese folk and Daoist-popular religion and their temples: the Jade Emperor, Xiwangmu, the Eight Immortals, Mazu, Guandi, the City God, the Kitchen God, Tudigong, Baosheng Dadi and the Wangye, plus temple networks, incense-division and spirit mediums (tangki).",
+   "queries": [
+    "Mazu goddess Meizhou Lin Moniang temples",
+    "Guan Yu deification Guandi temple worship",
+    "City God Chenghuang Kitchen God Tudigong",
+    "Jade Emperor Eight Immortals Xiwangmu Chinese folk religion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese ancestor veneration, death ritual and the underworld",
+   "scope": "Rites for the dead and ancestors in China: lineage halls and ancestral tablets, Zhu Xi's Family Rituals, funeral and mourning grades, Qingming and Hungry Ghost (Zhongyuan/Yulanpen) festivals, joss paper, and the bureaucratic underworld (Diyu, the Ten Kings, Meng Po).",
+   "queries": [
+    "Chinese ancestral hall lineage ancestor veneration tablets",
+    "Ghost Festival Zhongyuan Yulanpen hungry ghosts",
+    "Diyu Ten Kings of Hell Chinese underworld",
+    "Qingming tomb sweeping joss paper Chinese funeral mourning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese sectarian, salvationist and millenarian movements",
+   "scope": "Lay sectarian and millenarian religion in late imperial and modern China: Maitreyan and White Lotus movements and rebellions, Luo Qing's Luojiao, the Eternal Venerable Mother and precious scrolls (baojuan), the Eight Trigrams uprising, the Taiping God Worshipping Society, and redemptive societies such as Yiguandao.",
+   "queries": [
+    "White Lotus sect Maitreya millenarian rebellion",
+    "Luo Qing Luojiao Eternal Venerable Mother baojuan",
+    "Yiguandao Way of Former Heaven redemptive societies",
+    "Eight Trigrams uprising 1813 Hong Xiuquan God Worshipping Society"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese divination, Yijing and correlative cosmology",
+   "scope": "Divinatory and cosmological systems: the Yijing hexagrams, Ten Wings and sequences, yin-yang and the five phases (wuxing), Hetu and Luoshu, feng shui and the luopan, almanacs (tongshu), Four Pillars (bazi) astrology and temple divination (kau cim, jiaobei).",
+   "queries": [
+    "I Ching hexagrams King Wen sequence Ten Wings",
+    "Wuxing five phases yin yang Zou Yan",
+    "feng shui luopan compass Form School",
+    "Chinese almanac tongshu bazi Four Pillars kau cim"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vietnamese religions",
+   "scope": "Religion in Vietnam: Vietnamese Thiền and the Trúc Lâm school, Confucianism and the Temple of Literature, Đạo Mẫu mother-goddess worship and lên đồng mediumship, the 20th-century Caodaism and Hòa Hảo movements, and the 1963 Buddhist crisis.",
+   "queries": [
+    "Cao Dai Tay Ninh Holy See Caodaism",
+    "Hòa Hảo Huỳnh Phú Sổ Buddhism",
+    "Đạo Mẫu Mother Goddess lên đồng mediumship",
+    "Trúc Lâm Zen Trần Nhân Tông Vietnam"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Foreign and Abrahamic religions in premodern East Asia",
+   "scope": "Religions from outside the region in imperial China, Japan and Korea: the Church of the East and the Xi'an Stele, Manichaeism and Zoroastrianism in Tang China, the Kaifeng Jews, Hui Islam and the Han Kitab, the Jesuit missions and Chinese Rites controversy, the Japanese Kirishitan and Korean Catholic martyrs.",
+   "queries": [
+    "Nestorian Stele Jingjiao Church of the East China",
+    "Manichaeism Zoroastrianism Tang China Kaifeng Jews",
+    "Matteo Ricci Chinese Rites controversy Jesuit mission",
+    "Kakure Kirishitan Nagasaki Korean Catholic martyrs"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Chinese and Taiwanese religion and Humanistic Buddhism",
+   "scope": "Religion in China and Taiwan in the 20th and 21st centuries: Republican-era Buddhist reform (Taixu, Yinguang, Xuyun), Humanistic Buddhism and Taiwan's large Buddhist organizations (Fo Guang Shan, Tzu Chi, Dharma Drum, Chung Tai), PRC religious policy and the five official religions, the qigong boom and Falun Gong.",
+   "queries": [
+    "Taixu Humanistic Buddhism reform Republican China",
+    "Fo Guang Shan Tzu Chi Dharma Drum Mountain Taiwan",
+    "State Administration for Religious Affairs five official religions",
+    "Falun Gong Li Hongzhi qigong 1999 suppression"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tokugawa Japanese Confucianism: Shushigaku, Kogaku, Yōmeigaku and Mitogaku",
+   "scope": "Confucian schools and scholars of Edo-period Japan, from the Hayashi family and the Shōheikō academy through Yamazaki Ansai, Itō Jinsai, Ogyū Sorai, Nakae Tōju and the Mito school, along with their key texts, academies and the Kansei ban on heterodox learning.",
+   "queries": [
+    "Hayashi Razan Shoheiko Edo Confucian academy",
+    "Ito Jinsai Ogyu Sorai Kogaku ancient learning",
+    "Nakae Toju Yomeigaku Wang Yangming Japan",
+    "Mitogaku Dai Nihonshi Kansei prohibition heterodox learning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tibetan and Mongolian Buddhism in imperial China and Mongolia",
+   "scope": "Tibetan Buddhism as patronized by the Yuan, Ming and Qing courts and spread among the Mongols, covering Phagpa and the Sakya preceptors, Altan Khan and the Dalai Lama title, the Jebtsundamba Khutughtu and Changkya lineages, the Golden Urn, and lamaseries such as the Yonghe Temple, the Chengde temples and Erdene Zuu.",
+   "queries": [
+    "Phagpa Kublai Khan imperial preceptor Sakya",
+    "Jebtsundamba Khutughtu Mongolian Buddhism Erdene Zuu",
+    "Changkya Khutukhtu Qianlong Yonghe Temple lamas",
+    "Golden Urn Qing reincarnation Chengde Putuo Zongcheng"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Qing evidential scholarship, New Text Confucianism and modern New Confucianism",
+   "scope": "Late imperial and modern Confucian thought: kaozheng philology (Gu Yanwu, Yan Ruoqu, Dai Zhen), the Han Learning versus Song Learning debates, the Changzhou New Text revival and Kang Youwei's Confucian religion movement, and twentieth-century New Confucians such as Xiong Shili, Liang Shuming, Mou Zongsan and the 1958 Manifesto.",
+   "queries": [
+    "kaozheng evidential scholarship Dai Zhen Yan Ruoqu",
+    "New Text school Changzhou Gongyang Zhuan Kang Youwei",
+    "Kongjiaohui Confucian religion movement Chen Huanzhang",
+    "New Confucianism Mou Zongsan Xiong Shili 1958 manifesto"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

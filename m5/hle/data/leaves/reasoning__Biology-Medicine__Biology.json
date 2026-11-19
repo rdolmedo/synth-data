@@ -1,0 +1,205 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Biology",
+ "target_leaves": 11,
+ "expected_problems": 85,
+ "leaves": [
+  {
+   "leaf": "Bayesian recurrence risk in complex pedigrees",
+   "scope": "Problems give a multigeneration pedigree with non-Mendelian complications such as new mutations, incomplete or age-dependent penetrance, imprinting, mitochondrial heteroplasmy or a linked marker, plus some test results. They ask for an exact carrier or recurrence probability. The difficulty is conditioning correctly on every piece of evidence from every relative at once, rather than updating locally.",
+   "techniques": [
+    "Bayesian posterior conditioning on numbers of unaffected offspring and negative carrier tests",
+    "Mutation\u2013selection balance prior for X-linked lethal disorders (fraction of isolated cases due to new mutation)",
+    "Marker-phase inference with a given recombination fraction and an informative or uninformative meiosis",
+    "Parent-of-origin expression rules for imprinted loci across several generations",
+    "Path counting for inbreeding and kinship coefficients in consanguineous loops",
+    "Age-dependent penetrance curves used as likelihood terms"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in \u03b8, \u03bc or penetrance",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Coalescent genealogies and neutral diversity statistics",
+   "scope": "Problems ask for expectations, probabilities or variances of genealogical quantities, such as branch lengths, segregating sites, frequency-spectrum entries and MRCA events, under the Kingman coalescent and its extensions. They are hard because the answer requires integrating over random genealogies, often with changing population size or subdivision.",
+   "techniques": [
+    "Expected total and external branch lengths and Watterson's estimator",
+    "Expected site frequency spectrum E[\u03be_i] = \u03b8/i and folded-spectrum variants",
+    "Probability that the sample MRCA equals the population MRCA, and nested-sample arguments",
+    "Structured coalescent under the island model and the relation of F_ST to migration",
+    "Time rescaling for bottlenecks, exponential growth or sex-chromosome effective sizes",
+    "Probabilities of ranked labeled histories and specific tree shapes"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in n and \u03b8",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Tree-space combinatorics and parsimony scoring",
+   "scope": "Problems ask the solver to count tree topologies or labeled histories, compute parsimony scores under unordered or weighted step matrices, or decide which trees are consistent with given character data. They are hard because the combinatorics grows explosively and because tied or ambiguous reconstructions are easy to mishandle.",
+   "techniques": [
+    "Double-factorial counts of rooted and unrooted binary topologies and constrained subsets",
+    "Fitch and Sankoff dynamic programming with asymmetric step matrices",
+    "Four-gamete test, pairwise compatibility and perfect-phylogeny reconstruction",
+    "Four-point condition and additive or ultrametric tree recovery from distance matrices",
+    "Jukes\u2013Cantor and Kimura distance corrections and their saturation behavior",
+    "Long-branch attraction reasoning in the Felsenstein zone"
+   ],
+   "answer_forms": [
+    "integer",
+    "Newick tree string",
+    "rational number",
+    "small set of topologies"
+   ]
+  },
+  {
+   "leaf": "Steady-state enzyme mechanisms and allosteric binding",
+   "scope": "Problems ask the solver to derive rate laws, identify kinetic mechanisms from inhibition patterns, or compute binding-curve quantities for cooperative proteins. They are hard because of heavy algebra and the subtle logic linking mechanism to observable patterns.",
+   "techniques": [
+    "King\u2013Altman graphical derivation of steady-state rate equations",
+    "Cleland's rules for product and dead-end inhibition patterns in ordered, random and ping-pong bi-bi mechanisms",
+    "Haldane relationship linking Keq to kinetic constants",
+    "MWC and KNF binding polynomials and Hill coefficient at half-saturation",
+    "Statistical factors relating Adair constants to intrinsic site constants",
+    "Morrison tight-binding inhibition equation"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "name of a kinetic mechanism",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Isotope label tracing through central metabolism",
+   "scope": "Problems follow specific labeled atoms (13C, 14C, 2H, 18O) from substrates through glycolysis, the pentose phosphate pathway, the TCA cycle, gluconeogenesis or lipid synthesis, and ask where the label ends up and in what fraction. They are hard because symmetric intermediates scramble label, rearrangement enzymes shuffle carbons and label is lost a little on each cycle turn.",
+   "techniques": [
+    "Carbon atom mapping through aldolase and triose phosphate isomerase (C1/C6 and C3/C4 equivalence)",
+    "Randomization at symmetric succinate and fumarate",
+    "Geometric-series label loss as CO2 over successive TCA turns",
+    "Transketolase and transaldolase carbon rearrangements in the nonoxidative pentose phosphate pathway",
+    "Anaplerotic pyruvate carboxylase entry compared with PDH entry",
+    "Mass isotopomer distributions from mixed tracer inputs"
+   ],
+   "answer_forms": [
+    "set of carbon positions",
+    "rational fraction",
+    "ordered tuple of isotopomer fractions",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "DNA topology, supercoiling and recombinase knots",
+   "scope": "Problems ask for changes in linking number, twist, writhe or superhelical density caused by topoisomerases, intercalators, nucleosome wrapping or transcription. Some ask for the knot or catenane types produced by site-specific recombination. They are hard because of sign conventions and because topological invariants are counterintuitive.",
+   "techniques": [
+    "Lk = Tw + Wr bookkeeping with topoisomerase I (\u00b11) and II (\u00b12) steps",
+    "Superhelical density changes due to helical-repeat shifts from intercalator unwinding",
+    "Tangle-model equations for processive resolvase and invertase products",
+    "Nucleosome linking-number paradox (about \u22121 per nucleosome compared with 1.7 wraps)",
+    "Twin-domain supercoiling ahead of and behind a tethered polymerase",
+    "Topoisomer ladder counting and gel-mobility interpretation"
+   ],
+   "answer_forms": [
+    "signed integer",
+    "rational number",
+    "knot or catenane name",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Epistasis logic and genetic pathway ordering",
+   "scope": "Problems give single- and double-mutant phenotypes, often mixing loss- and gain-of-function alleles, from developmental or signaling pathways. They ask the solver to infer the gene order or predict an untested combination. They are hard because negative regulators, switch-type versus substrate-type pathways, and dominance all invert naive conclusions.",
+   "techniques": [
+    "Switch-regulation epistasis, where the double mutant resembles the downstream gene",
+    "Chains of negative regulators with constitutive gain-of-function alleles",
+    "ABC(E) floral-organ combinatorics with mutual A\u2013C antagonism",
+    "Temperature-shift and mosaic analysis to find time and site of action",
+    "Morphogen-threshold readouts and dosage-sensitive phenotypes",
+    "Interpretation of suppressor and enhancer screens"
+   ],
+   "answer_forms": [
+    "ordered sequence of genes",
+    "tuple of organ identities by whorl",
+    "name of a gene",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stage-structured population projection and sensitivity",
+   "scope": "Problems build Leslie or Lefkovitch matrices from life-history data and ask for growth rate, stable structure, reproductive value, R0 or sensitivity and elasticity of a vital rate. They are hard because they require eigen-analysis and care with reproductive timing (pre- versus post-breeding census).",
+   "techniques": [
+    "Characteristic polynomial and Euler\u2013Lotka equation for the dominant eigenvalue",
+    "Next-generation matrix R0 = \u03c1(F(I\u2212T)^\u22121)",
+    "Sensitivities s_ij = v_i w_j / \u27e8v,w\u27e9 and the property that elasticities sum to one",
+    "Periodic matrix products for seasonal environments",
+    "Imprimitive matrices and persistent oscillations",
+    "Small-noise approximation to the stochastic log growth rate"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered tuple",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Kin selection, sex allocation and ESS",
+   "scope": "Problems ask for evolutionarily stable strategies in social and reproductive conflicts, such as sex ratios under local mate competition, queen\u2013worker conflict and mixed strategies in symmetric games. They are hard because relatedness must be weighted by class reproductive values, and ploidy asymmetries change the optimum.",
+   "techniques": [
+    "Regression relatedness and life-for-life coefficients in haplodiploids",
+    "Hamilton's local-mate-competition ESS with haplodiploid correction",
+    "Shaw\u2013Mohler equation for frequency-dependent sex allocation",
+    "Queen versus worker investment optima under multiple mating",
+    "Mixed-ESS conditions via the Bishop\u2013Cannings theorem",
+    "Price-equation decomposition of selection"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in n",
+    "ratio",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Membrane electrophysiology and cable biophysics",
+   "scope": "Problems ask for reversal and resting potentials with several permeant ions, length and time constants, input resistance of dendritic trees, or the effects of shunting conductance. They are hard because of the GHK nonlinearities, divalent ions and cable boundary conditions.",
+   "techniques": [
+    "GHK voltage equation including divalent ions",
+    "Donnan equilibrium with impermeant anions",
+    "Rall 3/2-power rule and equivalent-cylinder reduction",
+    "Finite-cable input resistance with sealed- or killed-end boundaries (coth/tanh)",
+    "Shunting inhibition as a conductance ratio near rest",
+    "Steady-state Hodgkin\u2013Huxley gating and window currents"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ratio",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Microbial genetic mapping from tetrads and transduction",
+   "scope": "Problems ask for gene order and gene\u2013centromere or gene\u2013gene distances in fungi and bacteria, using tetrad classes, cotransduction frequencies and Hfr time-of-entry data. They are hard because of multiple-crossover classes, chromatid interference and selection biases among markers.",
+   "techniques": [
+    "Perkins formula from PD, NPD and T tetrad frequencies",
+    "Gene\u2013centromere distance from second-division segregation in ordered asci",
+    "Enumeration of four-strand double-crossover classes",
+    "Wu cotransduction formula relating frequency to physical distance",
+    "Rarest-class (quadruple-crossover) ordering in three-factor transduction",
+    "Combining Hfr strains with different origins and orientations"
+   ],
+   "answer_forms": [
+    "ordered sequence of genes",
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  }
+ ]
+}

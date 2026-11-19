@@ -1,0 +1,473 @@
+{
+ "domain": "Health",
+ "subtopic": "Neurology",
+ "weight": 0.007249499999999999,
+ "leaves": [
+  {
+   "leaf": "Acute ischemic stroke thrombolysis and endovascular thrombectomy",
+   "scope": "Intravenous thrombolysis (alteplase, tenecteplase) and mechanical thrombectomy for acute ischemic stroke, including landmark trials, time windows, imaging selection criteria and eligibility thresholds.",
+   "queries": [
+    "alteplase NINDS trial ECASS III time window",
+    "tenecteplase versus alteplase acute ischemic stroke",
+    "endovascular thrombectomy DAWN DEFUSE 3 perfusion imaging",
+    "ASPECTS large core infarct thrombectomy trial"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Secondary stroke prevention, TIA risk stratification and stroke etiology classification",
+   "scope": "Risk scores and prevention strategies after TIA and ischemic stroke, including dual antiplatelet trials, carotid revascularization, anticoagulation for atrial fibrillation, PFO closure and TOAST etiologic subtypes.",
+   "queries": [
+    "ABCD2 score transient ischemic attack stroke risk",
+    "clopidogrel aspirin CHANCE POINT minor stroke",
+    "NASCET carotid endarterectomy symptomatic stenosis",
+    "patent foramen ovale closure cryptogenic stroke RoPE"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intracerebral hemorrhage and aneurysmal subarachnoid hemorrhage",
+   "scope": "Spontaneous intracerebral hemorrhage and aneurysmal subarachnoid hemorrhage, covering grading scales, hematoma expansion, blood pressure and surgical trials, vasospasm and aneurysm repair.",
+   "queries": [
+    "ICH score hematoma volume ABC/2 mortality",
+    "Hunt Hess WFNS modified Fisher grade subarachnoid",
+    "ISAT coiling clipping ruptured intracranial aneurysm",
+    "nimodipine cerebral vasospasm delayed cerebral ischemia"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Uncommon cerebrovascular disorders: venous thrombosis, dissection, moyamoya, CADASIL, RCVS and amyloid angiopathy",
+   "scope": "Less common cerebrovascular conditions such as cerebral venous thrombosis, cervical artery dissection, moyamoya, monogenic small vessel diseases, reversible cerebral vasoconstriction syndrome, cerebral amyloid angiopathy and primary CNS vasculitis.",
+   "queries": [
+    "cerebral venous sinus thrombosis anticoagulation outcome",
+    "CADASIL NOTCH3 cysteine mutation small vessel",
+    "moyamoya disease RNF213 Suzuki angiographic stages",
+    "cerebral amyloid angiopathy Boston criteria microbleeds"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Epilepsy classification, electroclinical syndromes and epilepsy surgery",
+   "scope": "ILAE seizure and epilepsy classifications, age-dependent electroclinical syndromes, monogenic and developmental epileptic encephalopathies, presurgical evaluation, resective surgery and epilepsy neurostimulation.",
+   "queries": [
+    "ILAE 2017 seizure classification focal onset",
+    "Dravet syndrome SCN1A febrile seizures",
+    "Lennox-Gastaut syndrome slow spike wave tonic",
+    "mesial temporal sclerosis anterior temporal lobectomy outcome"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Antiseizure medications and status epilepticus management",
+   "scope": "Mechanisms, approvals, pharmacokinetics, interactions, teratogenicity and pharmacogenomic risks of antiseizure medications, and staged treatment of convulsive and refractory status epilepticus.",
+   "queries": [
+    "antiseizure drug mechanism sodium channel SV2A",
+    "cenobamate fenfluramine cannabidiol approval trial",
+    "status epilepticus ESETT levetiracetam fosphenytoin valproate",
+    "carbamazepine HLA-B*1502 Stevens-Johnson syndrome"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Clinical electroencephalography and evoked potentials",
+   "scope": "EEG recording technique and interpretation, including the 10-20 system, montages, normal variants, interictal and ictal patterns, ACNS critical care EEG terminology and evoked potential testing.",
+   "queries": [
+    "10-20 electrode system EEG montage",
+    "benign EEG variants wicket spikes",
+    "ACNS critical care EEG periodic discharges terminology",
+    "hypsarrhythmia 3 Hz spike wave pattern"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Multiple sclerosis diagnosis, imaging and disease-modifying therapies",
+   "scope": "Multiple sclerosis epidemiology, McDonald criteria revisions, MRI and CSF markers, clinical phenotypes, disability scales and disease-modifying therapies with their pivotal trials.",
+   "queries": [
+    "McDonald criteria dissemination in space and time",
+    "ocrelizumab natalizumab relapsing multiple sclerosis trial",
+    "Kurtzke expanded disability status scale EDSS",
+    "central vein sign kappa free light chains"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Antibody-mediated CNS autoimmunity: NMOSD, MOGAD, autoimmune encephalitis and paraneoplastic syndromes",
+   "scope": "Non-MS inflammatory CNS disorders defined by neural antibodies (AQP4, MOG, NMDAR, LGI1, onconeural antigens), including ADEM, with their diagnostic criteria, tumor associations and immunotherapies.",
+   "queries": [
+    "aquaporin-4 antibody neuromyelitis optica criteria",
+    "MOG antibody associated disease optic neuritis",
+    "anti-NMDA receptor encephalitis ovarian teratoma",
+    "paraneoplastic neurological syndrome onconeural antibodies anti-Hu"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Parkinson disease genetics, pathology and therapeutics",
+   "scope": "Parkinson disease diagnostic criteria, monogenic and risk genes, Braak staging, alpha-synuclein biomarkers, dopaminergic and advanced therapies including deep brain stimulation.",
+   "queries": [
+    "LRRK2 G2019S GBA1 Parkinson disease risk",
+    "Braak staging alpha-synuclein Lewy pathology",
+    "levodopa motor fluctuations dyskinesia MDS-UPDRS",
+    "subthalamic nucleus deep brain stimulation Parkinson"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Atypical parkinsonian syndromes: PSP, MSA and corticobasal degeneration",
+   "scope": "Progressive supranuclear palsy, multiple system atrophy and corticobasal degeneration, including clinical variants, diagnostic criteria, neuropathology and characteristic imaging signs.",
+   "queries": [
+    "progressive supranuclear palsy MDS criteria Richardson",
+    "multiple system atrophy hot cross bun sign",
+    "corticobasal degeneration alien limb tau pathology",
+    "midbrain atrophy hummingbird sign PSP"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hyperkinetic movement disorders: chorea, dystonia, tremor, tics and myoclonus",
+   "scope": "Huntington disease and other choreas, dystonias and DYT gene nomenclature, essential tremor, Tourette syndrome, myoclonus, paroxysmal dyskinesias and tardive syndromes.",
+   "queries": [
+    "Huntington disease HTT CAG repeat length",
+    "DYT1 TOR1A dystonia gene nomenclature",
+    "Tourette syndrome tic disorder diagnostic criteria",
+    "tardive dyskinesia VMAT2 inhibitor valbenazine deutetrabenazine"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alzheimer disease genetics, biomarkers and anti-amyloid therapy",
+   "scope": "Alzheimer disease genetics, neuropathology, biological and clinical diagnostic frameworks, fluid and PET biomarkers, symptomatic drugs and anti-amyloid antibodies including ARIA.",
+   "queries": [
+    "APOE e4 PSEN1 APP Alzheimer genetics",
+    "lecanemab donanemab amyloid related imaging abnormalities",
+    "plasma p-tau217 amyloid PET biomarker",
+    "NIA-AA criteria biological definition Alzheimer disease"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Frontotemporal dementia, dementia with Lewy bodies and other non-Alzheimer dementias",
+   "scope": "Frontotemporal lobar degeneration syndromes and genetics, primary progressive aphasia variants, dementia with Lewy bodies, vascular cognitive impairment and LATE.",
+   "queries": [
+    "behavioral variant frontotemporal dementia Rascovsky criteria",
+    "primary progressive aphasia semantic logopenic nonfluent",
+    "dementia with Lewy bodies McKeith consensus criteria",
+    "GRN C9orf72 frontotemporal lobar degeneration TDP-43"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Human prion diseases",
+   "scope": "Sporadic, genetic, iatrogenic and variant Creutzfeldt-Jakob disease, GSS, fatal familial insomnia and kuru, including PRNP polymorphisms, molecular subtypes and diagnostic tests.",
+   "queries": [
+    "Creutzfeldt-Jakob disease RT-QuIC 14-3-3 diagnosis",
+    "PRNP codon 129 methionine valine polymorphism",
+    "variant CJD bovine spongiform encephalopathy cases",
+    "fatal familial insomnia D178N Gerstmann-Straussler-Scheinker"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Amyotrophic lateral sclerosis, spinal muscular atrophy and other motor neuron diseases",
+   "scope": "ALS, primary lateral sclerosis, spinal muscular atrophy and spinal-bulbar muscular atrophy, covering genetics, diagnostic criteria, functional rating scales and disease-modifying therapies.",
+   "queries": [
+    "amyotrophic lateral sclerosis SOD1 C9orf72 TARDBP FUS",
+    "riluzole edaravone tofersen ALS approval",
+    "spinal muscular atrophy SMN2 nusinersen onasemnogene",
+    "Gold Coast El Escorial criteria ALSFRS-R"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hereditary ataxias and hereditary spastic paraplegias",
+   "scope": "Spinocerebellar ataxias, Friedreich ataxia, ataxia-telangiectasia, episodic ataxias, CANVAS and the hereditary spastic paraplegias, with their genes, repeat expansions and designations.",
+   "queries": [
+    "spinocerebellar ataxia SCA3 Machado-Joseph CAG repeat",
+    "Friedreich ataxia frataxin GAA expansion omaveloxolone",
+    "episodic ataxia type 2 CACNA1A",
+    "hereditary spastic paraplegia SPG4 SPAST"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Immune-mediated and inherited peripheral neuropathies",
+   "scope": "Guillain-Barré syndrome and variants, CIDP, multifocal motor neuropathy, paraproteinemic neuropathies, Charcot-Marie-Tooth subtypes, hereditary transthyretin amyloidosis, and diabetic and small fiber neuropathy.",
+   "queries": [
+    "Guillain-Barre syndrome Miller Fisher anti-GQ1b",
+    "CIDP EAN/PNS 2021 diagnostic criteria",
+    "Charcot-Marie-Tooth PMP22 duplication MPZ GJB1",
+    "transthyretin amyloid polyneuropathy patisiran tafamidis"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neuromuscular junction disorders: myasthenia gravis, Lambert-Eaton and botulism",
+   "scope": "Autoimmune, congenital and toxic disorders of neuromuscular transmission, including antibody subtypes, clinical classification, diagnostic testing, thymectomy and complement and FcRn inhibitor therapies.",
+   "queries": [
+    "myasthenia gravis MuSK LRP4 antibody",
+    "eculizumab efgartigimod generalized myasthenia trial",
+    "Lambert-Eaton syndrome VGCC antibody small cell",
+    "thymectomy MGTX trial nonthymomatous myasthenia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Muscular dystrophies, myotonic disorders and myopathies",
+   "scope": "Dystrophinopathies, myotonic dystrophies, FSHD, limb-girdle dystrophies, channelopathies, and inflammatory, metabolic and congenital myopathies, including genes, antibodies and gene-targeted therapies.",
+   "queries": [
+    "Duchenne muscular dystrophy dystrophin exon skipping",
+    "myotonic dystrophy type 1 DMPK CTG repeat",
+    "facioscapulohumeral dystrophy D4Z4 contraction",
+    "anti-HMGCR immune-mediated necrotizing myopathy statin"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nerve conduction studies and electromyography",
+   "scope": "Electrodiagnostic techniques (motor and sensory conduction, late responses, needle EMG, repetitive stimulation, single-fiber EMG) with their parameters, normal values, waveforms and diagnostic patterns.",
+   "queries": [
+    "nerve conduction conduction block temporal dispersion",
+    "needle EMG fibrillation potentials positive sharp waves",
+    "repetitive nerve stimulation decrement single fiber jitter",
+    "F wave H reflex latency"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Headache disorders and cranial neuralgias",
+   "scope": "Primary and secondary headaches and painful cranial neuropathies classified by ICHD-3, including migraine, trigeminal autonomic cephalalgias and trigeminal neuralgia, and their acute and preventive treatments.",
+   "queries": [
+    "ICHD-3 migraine with aura diagnostic criteria",
+    "CGRP monoclonal antibody erenumab gepant",
+    "cluster headache paroxysmal hemicrania indomethacin",
+    "trigeminal neuralgia carbamazepine microvascular decompression"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neuro-oncology: CNS tumor classification, molecular markers and treatment",
+   "scope": "Primary CNS tumors under the WHO CNS5 classification, defining molecular alterations, grading, standard regimens and trials, plus brain metastases and primary CNS lymphoma.",
+   "queries": [
+    "WHO CNS5 2021 glioma IDH 1p/19q",
+    "glioblastoma temozolomide Stupp MGMT methylation",
+    "medulloblastoma molecular subgroups WNT SHH",
+    "vorasidenib IDH-mutant low-grade glioma trial"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infections of the nervous system",
+   "scope": "Bacterial, viral, fungal and parasitic meningitis and encephalitis, brain abscess, PML, neurosyphilis, neurocysticercosis and HIV-associated neurological disorders, with pathogens, diagnostics and treatments.",
+   "queries": [
+    "herpes simplex encephalitis acyclovir CSF PCR",
+    "bacterial meningitis dexamethasone Streptococcus pneumoniae",
+    "progressive multifocal leukoencephalopathy JC virus natalizumab",
+    "neurocysticercosis Taenia solium albendazole"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neurotrauma and neurocritical care: brain and spinal cord injury, intracranial pressure, coma and brain death",
+   "scope": "Traumatic brain injury, concussion and spinal cord injury classification and trials, intracranial pressure management, coma scales, brain death determination and neuroprognostication after cardiac arrest.",
+   "queries": [
+    "Glasgow Coma Scale Marshall CT classification",
+    "intracranial pressure decompressive craniectomy RESCUEicp DECRA",
+    "brain death determination apnea test guideline",
+    "ASIA impairment scale spinal cord injury"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sleep disorders in neurology",
+   "scope": "Narcolepsy, idiopathic hypersomnia, REM sleep behavior disorder, restless legs syndrome, parasomnias and circadian rhythm disorders, with ICSD-3 criteria, polysomnography and MSLT findings, and treatments.",
+   "queries": [
+    "narcolepsy type 1 hypocretin orexin HLA-DQB1*06:02",
+    "multiple sleep latency test sleep-onset REM periods",
+    "REM sleep behavior disorder synucleinopathy phenoconversion",
+    "restless legs syndrome augmentation ferritin dopamine agonist"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neuro-ophthalmology and neuro-otology",
+   "scope": "Optic neuropathies, pupillary abnormalities, ocular motor palsies, gaze syndromes and nystagmus, plus peripheral versus central vestibular disorders and bedside vestibular tests.",
+   "queries": [
+    "Optic Neuritis Treatment Trial methylprednisolone",
+    "Leber hereditary optic neuropathy MT-ND4 idebenone",
+    "internuclear ophthalmoplegia one-and-a-half syndrome",
+    "HINTS exam head impulse test vertigo"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Disorders of CSF dynamics and the craniocervical junction",
+   "scope": "Hydrocephalus and normal pressure hydrocephalus, idiopathic intracranial hypertension, spontaneous intracranial hypotension and CSF leaks, Chiari malformations and syringomyelia.",
+   "queries": [
+    "normal pressure hydrocephalus tap test shunt",
+    "idiopathic intracranial hypertension acetazolamide modified Dandy criteria",
+    "spontaneous intracranial hypotension CSF leak epidural blood patch",
+    "Chiari malformation type I syringomyelia tonsillar herniation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neurocutaneous syndromes and malformations of cortical development",
+   "scope": "Neurofibromatoses and schwannomatosis, tuberous sclerosis complex, Sturge-Weber, von Hippel-Lindau and related phakomatoses, and cortical malformations like lissencephaly, polymicrogyria, heterotopia and focal cortical dysplasia.",
+   "queries": [
+    "neurofibromatosis type 1 diagnostic criteria",
+    "tuberous sclerosis complex TSC1 TSC2 everolimus",
+    "Sturge-Weber syndrome GNAQ port-wine stain",
+    "lissencephaly LIS1 polymicrogyria periventricular heterotopia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Leukodystrophies, mitochondrial and inherited neurometabolic disorders",
+   "scope": "Leukodystrophies, lysosomal storage diseases, mitochondrial encephalomyopathies and other inborn errors of metabolism with neurological presentations, including enzymes, genes, MRI patterns and therapies.",
+   "queries": [
+    "X-linked adrenoleukodystrophy ABCD1 very long chain",
+    "metachromatic leukodystrophy arylsulfatase A gene therapy",
+    "MELAS m.3243A>G mitochondrial stroke-like episodes",
+    "Krabbe disease galactocerebrosidase newborn screening"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Toxic, nutritional and acquired metabolic disorders of the nervous system",
+   "scope": "Neurological effects of vitamin and copper deficiency, alcohol, drugs, heavy metals, pesticides and systemic metabolic derangements, such as Wernicke encephalopathy, subacute combined degeneration, osmotic demyelination and hepatic encephalopathy.",
+   "queries": [
+    "Wernicke encephalopathy thiamine Korsakoff syndrome",
+    "subacute combined degeneration vitamin B12 nitrous oxide",
+    "osmotic demyelination syndrome sodium correction rate",
+    "organophosphate induced delayed polyneuropathy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Autonomic nervous system disorders",
+   "scope": "Neurogenic orthostatic hypotension, pure autonomic failure, postural orthostatic tachycardia syndrome, autoimmune autonomic ganglionopathy, familial dysautonomia and autonomic function testing.",
+   "queries": [
+    "neurogenic orthostatic hypotension droxidopa midodrine",
+    "postural orthostatic tachycardia syndrome diagnostic criteria",
+    "autoimmune autonomic ganglionopathy ganglionic acetylcholine receptor antibody",
+    "familial dysautonomia ELP1 Riley-Day syndrome"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Clinical localization: eponymous signs, brainstem, spinal cord and cortical syndromes",
+   "scope": "Bedside neuroanatomical localization, including eponymous examination signs and reflexes, root and nerve innervation, named brainstem and spinal cord syndromes and higher cortical syndromes.",
+   "queries": [
+    "Wallenberg Weber Millard-Gubler brainstem syndrome",
+    "Brown-Sequard central cord anterior cord syndrome",
+    "Gerstmann syndrome Balint syndrome parietal lobe",
+    "Babinski sign Hoffmann reflex Romberg test"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

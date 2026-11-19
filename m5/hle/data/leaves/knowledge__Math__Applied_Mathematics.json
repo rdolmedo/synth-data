@@ -1,0 +1,229 @@
+{
+ "partition": "knowledge",
+ "category": "Math",
+ "subject": "Applied Mathematics",
+ "target_leaves": 14,
+ "expected_problems": 168,
+ "leaves": [
+  {
+   "leaf": "Gauss\u2013Kronrod and nested quadrature rules",
+   "scope": "Documented facts on Gauss\u2013Kronrod, Patterson and Clenshaw\u2013Curtis rules: which weight functions admit real interlacing Kronrod nodes, whether the weights are positive, the degree of exactness of each extension, and tabulated node counts. A question can ask the solver to work out the total exactness degree, the number of function evaluations, or whether a given extension exists.",
+   "queries": [
+    "Gauss-Kronrod extension existence",
+    "Patterson nested quadrature",
+    "Kronrod nodes interlacing positivity",
+    "Stieltjes polynomials Gegenbauer weight",
+    "Clenshaw-Curtis versus Gauss"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Named embedded Runge\u2013Kutta pairs and order conditions",
+   "scope": "Butcher tableaux, stage counts, FSAL property, order conditions, and stability-region features (imaginary-axis inclusion, SSP coefficients) of named methods such as Dormand\u2013Prince, Fehlberg, Cash\u2013Karp, Bogacki\u2013Shampine and optimal SSP schemes. A question can ask for the cost per step, the number of rooted-tree conditions met, or a comparison of effective SSP coefficients.",
+   "queries": [
+    "embedded Runge-Kutta pair coefficients",
+    "strong stability preserving SSP coefficient",
+    "Butcher rooted trees order conditions",
+    "FSAL Dormand-Prince stages",
+    "Runge-Kutta stability region imaginary axis"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "H(div), H(curl) and elasticity finite element families",
+   "scope": "Definitions, degrees of freedom and dimension formulas of Raviart\u2013Thomas, Brezzi\u2013Douglas\u2013Marini, N\u00e9d\u00e9lec (first and second kind), Arnold\u2013Winther and Hu\u2013Zhang elements on simplices and cubes, and their place in the finite element exterior calculus 'periodic table'. A question can ask for the local dimension at a given degree and spatial dimension, or for the total number of global DOFs on a given mesh.",
+   "queries": [
+    "Raviart-Thomas element degrees of freedom",
+    "Nedelec second kind edge elements",
+    "Arnold-Winther symmetric stress element",
+    "finite element exterior calculus periodic table",
+    "Brezzi-Douglas-Marini dimension"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Critical parameters in hydrodynamic linear stability",
+   "scope": "Published critical Reynolds, Rayleigh, Taylor and Marangoni numbers with their critical wavenumbers for canonical configurations (plane Poiseuille, Couette\u2013Poiseuille, Rayleigh\u2013B\u00e9nard with mixed rigid/free boundaries, Taylor\u2013Couette at given radius ratios, B\u00e9nard\u2013Marangoni). A question can ask for a ratio of thresholds, a critical wavelength in physical units, or which configuration goes unstable first.",
+   "queries": [
+    "Orr-Sommerfeld critical Reynolds number",
+    "Rayleigh-Benard rigid free boundaries",
+    "Taylor-Couette critical Taylor number radius ratio",
+    "Marangoni convection onset",
+    "neutral stability curve wavenumber"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Mathieu and spheroidal characteristic values",
+   "scope": "Characteristic values a_n(q), b_n(q), their series expansions, the curves where eigenvalues cross or coalesce in the Mathieu stability (Ince\u2013Strutt) diagram, and spheroidal eigenvalue asymptotics, as given in historical tables and modern papers. A question can ask whether a given (a, q) point lies in a stable region, for a series coefficient, or for the q at which a branch point occurs.",
+   "queries": [
+    "Mathieu characteristic values tables",
+    "Ince-Strutt stability diagram",
+    "Mathieu eigenvalue branch points",
+    "spheroidal wave function eigenvalues",
+    "Hill equation stability regions"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Stokes phenomenon and exponential asymptotics",
+   "scope": "Stokes multipliers, Stokes and anti-Stokes line geometry, Borel-plane singularities, late-term divergence of expansions for specific ODEs and special functions, and Berry's error-function smoothing. A question can ask for the value of a Stokes constant, the number of Stokes lines crossed along a path, or the optimal truncation index for a given parameter.",
+   "queries": [
+    "Stokes multiplier connection coefficient",
+    "hyperasymptotics optimal truncation",
+    "Berry smoothing Stokes line",
+    "Borel summation resurgence ODE",
+    "late terms divergent expansion"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Integrable nonlinear evolution equation hierarchies",
+   "scope": "Lax pairs, recursion operators, tables of conserved densities, results of the Painlev\u00e9 (Weiss\u2013Tabor\u2013Carnevale) test, and soliton collision phase shifts for KdV, mKdV, Sawada\u2013Kotera, Kaup\u2013Kupershmidt, Camassa\u2013Holm and related equations. A question can ask for the weight of the n-th conserved density, the resonance values in the Painlev\u00e9 test, or the phase shift of a two-soliton collision.",
+   "queries": [
+    "Painleve test resonances",
+    "Sawada-Kotera conserved densities",
+    "recursion operator hierarchy",
+    "two-soliton phase shift",
+    "Lax pair Kaup-Kupershmidt"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Next-generation matrix R0 in compartmental models",
+   "scope": "Reproduction-number formulas for published vector-borne, multi-strain, vaccination and staged-progression epidemic models, conditions for backward bifurcation, and Lyapunov-function stability results. A question can ask the solver to evaluate R0 with given parameters, find the vaccination threshold, or decide whether backward bifurcation can occur.",
+   "queries": [
+    "next generation matrix R0",
+    "backward bifurcation vaccination model",
+    "vector-host transmission reproduction number",
+    "van den Driessche Watmough",
+    "Lyapunov function SEIR global stability"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Compactly supported wavelet filter families",
+   "scope": "Filter lengths, support widths, vanishing-moment counts, H\u00f6lder/Sobolev regularity exponents and symmetry properties of Daubechies, symlet, coiflet and Cohen\u2013Daubechies\u2013Feauveau biorthogonal wavelets, including lifting factorizations. A question can ask for the support length of a scaling function, the regularity exponent at a given order, or the number of lifting steps.",
+   "queries": [
+    "Daubechies wavelet Holder regularity",
+    "coiflet vanishing moments scaling function",
+    "CDF 9/7 biorthogonal filter",
+    "lifting scheme factorization wavelet",
+    "symlet least asymmetric"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Saint-Venant torsion and classical plate theory",
+   "scope": "Torsional rigidity coefficients for noncircular cross-sections (rectangles, equilateral triangles, ellipses, sectors), stress-function solutions, and classical plate deflection and buckling coefficients tabulated in historical elasticity treatises. A question can ask for a torsion constant ratio between sections, the location of maximum shear stress, or a buckling load from a tabulated coefficient.",
+   "queries": [
+    "Saint-Venant torsion rectangular section",
+    "torsional rigidity equilateral triangle",
+    "Love treatise elasticity",
+    "plate buckling coefficient",
+    "Prandtl stress function membrane analogy"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Vacation, retrial and priority queueing models",
+   "scope": "Stochastic decomposition results, Pollaczek\u2013Khinchine-type mean waiting-time formulas, and stability conditions for M/G/1 queues with server vacations, retrial orbits, N-policies and preemptive priorities. A question can ask the solver to compute an expected queue length or the extra delay caused by vacations with given distributions.",
+   "queries": [
+    "M/G/1 vacation stochastic decomposition",
+    "retrial queue orbit stability",
+    "N-policy queue optimal",
+    "Pollaczek-Khinchine priority waiting time",
+    "Fuhrmann Cooper decomposition"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Macroscopic second-order traffic flow models",
+   "scope": "Properties of the LWR, Payne\u2013Whitham, Aw\u2013Rascle\u2013Zhang and phase-transition traffic models: fundamental diagrams (Greenshields, Greenberg, Underwood), characteristic speeds, Riemann solutions, and stop-and-go (jamiton) wave conditions. A question can ask the solver to compute a shock speed, a capacity flow, or whether a given state violates the anisotropy condition.",
+   "queries": [
+    "Aw-Rascle-Zhang traffic model",
+    "Payne-Whitham instability",
+    "Greenshields fundamental diagram capacity",
+    "jamitons traveling waves traffic",
+    "LWR Riemann problem rarefaction"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Restricted three-body problem and lunar theory",
+   "scope": "Stability of the Lagrange points (Routh's critical mass ratio and the resonant ratios that are excluded), Hill's equations and variational orbit, zero-velocity curves, and Jacobi-constant values, as covered in classical treatises and modern papers. A question can ask whether a given mass ratio gives linear stability, for the Jacobi constant at a collinear point, or for a libration frequency.",
+   "queries": [
+    "Routh critical mass ratio",
+    "Lagrange triangular points stability",
+    "Hill variational orbit lunar theory",
+    "zero velocity curves Jacobi constant",
+    "Moulton celestial mechanics"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Radon transform inversion and tomographic filters",
+   "scope": "Range (Helgason\u2013Ludwig) conditions, filtered-backprojection kernels (Ram-Lak, Shepp\u2013Logan, cosine), limited-angle and interior-problem uniqueness results, and sampling requirements for parallel- and fan-beam geometries. A question can ask the solver to work out the minimum number of projections, which moments are constrained, or whether a truncated-data problem has a unique solution.",
+   "queries": [
+    "Helgason-Ludwig consistency conditions",
+    "filtered backprojection Shepp-Logan filter",
+    "interior tomography uniqueness",
+    "limited angle Radon inversion",
+    "fan-beam sampling conditions"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

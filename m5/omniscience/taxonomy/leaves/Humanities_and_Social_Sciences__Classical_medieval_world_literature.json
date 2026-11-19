@@ -1,0 +1,427 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Classical medieval world literature",
+ "weight": 0.0066255,
+ "leaves": [
+  {
+   "leaf": "Homeric epics, Homeric Hymns and the Epic Cycle",
+   "scope": "The Iliad and Odyssey (book contents, characters, epithets, catalogues, similes), the Homeric Hymns, the lost poems of the Epic Cycle and their attributed authors, and the Homeric Question.",
+   "queries": [
+    "Iliad catalogue of ships Achaean contingents",
+    "Odyssey Phaeacians Nausicaa Alcinous book",
+    "Epic Cycle Cypria Aethiopis Little Iliad Proclus",
+    "Homeric Hymn to Demeter Hermes Aphrodite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hesiod and archaic Greek lyric, elegiac and iambic poetry",
+   "scope": "Hesiod's Theogony and Works and Days and the archaic and early classical lyric, elegiac and iambic poets from Archilochus and Sappho to Pindar and Bacchylides, including meters, fragments and papyrus discoveries.",
+   "queries": [
+    "Hesiod Theogony Works and Days ages of man",
+    "Sappho fragment papyrus Tithonus poem Brothers",
+    "Pindar Olympian Pythian odes epinician victor",
+    "Archilochus Alcaeus Theognis elegiac iambic fragments"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Athenian tragedy, satyr play and comedy",
+   "scope": "The surviving plays of Aeschylus, Sophocles, Euripides, Aristophanes and Menander, with their production dates, festivals (City Dionysia, Lenaia), prizes, trilogies, choral conventions and papyrus finds.",
+   "queries": [
+    "Aeschylus Oresteia Agamemnon Choephori Eumenides trilogy",
+    "Sophocles Euripides surviving tragedies production dates",
+    "Aristophanes Frogs Clouds Lenaia Dionysia prize",
+    "Menander Dyskolos New Comedy satyr play Cyclops"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hellenistic and Imperial Greek literature",
+   "scope": "Alexandrian poetry (Callimachus, Theocritus, Apollonius of Rhodes, Aratus, Herodas, Lycophron), the Greek Anthology epigram, the Greek novels, and Imperial-era prose and verse such as Lucian and Nonnus' Dionysiaca.",
+   "queries": [
+    "Callimachus Aetia Hymns Alexandrian Library Pinakes",
+    "Apollonius of Rhodes Argonautica Medea Jason",
+    "Theocritus Idylls Greek Anthology Meleager epigrams",
+    "Greek novel Chariton Longus Heliodorus Lucian"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman drama: Plautus, Terence and Seneca",
+   "scope": "Republican Roman comedy (fabula palliata) of Plautus and Terence and its Greek models, plus Seneca's tragedies, including play titles, characters, production notices (didascaliae) and later reception.",
+   "queries": [
+    "Plautus Menaechmi Amphitruo Miles Gloriosus comedy",
+    "Terence Adelphoe Andria Hecyra didascalia",
+    "Seneca tragedies Thyestes Phaedra Medea",
+    "fabula palliata Greek models Menander adaptation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin epic and didactic poetry",
+   "scope": "Latin hexameter epic and didactic from Ennius' Annales and Lucretius through Virgil's Eclogues, Georgics and Aeneid and Ovid's Metamorphoses to the post-Augustan epics of Lucan, Statius, Valerius Flaccus and Silius Italicus.",
+   "queries": [
+    "Aeneid book Dido Turnus Aeneas underworld",
+    "Ovid Metamorphoses books transformation myths",
+    "Lucretius De Rerum Natura Epicurean books",
+    "Lucan Pharsalia Statius Thebaid Silius Punica"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin lyric, elegy, satire, epigram and the Latin novel",
+   "scope": "Catullus, Horace's Odes, Epodes, Satires and Epistles, the elegists (Tibullus, Propertius, Sulpicia, Ovid's amatory and exile poetry), Persius, Juvenal and Martial, and the novels of Petronius and Apuleius.",
+   "queries": [
+    "Catullus Lesbia Propertius Cynthia Tibullus elegy",
+    "Horace Odes Satires Epistles Maecenas",
+    "Juvenal Satires Persius Martial epigrams",
+    "Petronius Satyricon Apuleius Golden Ass"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient Near Eastern literature",
+   "scope": "Sumerian, Akkadian, Hittite, Ugaritic and Egyptian literary texts such as the Epic of Gilgamesh, Enuma Elish, Atrahasis, Inanna's Descent, the Baal Cycle and Middle Egyptian tales and instructions, with their tablets, versions and discoveries.",
+   "queries": [
+    "Epic of Gilgamesh tablet Enkidu Utnapishtim Standard Babylonian",
+    "Enuma Elish Atrahasis Akkadian creation flood",
+    "Story of Sinuhe Middle Egyptian literature papyrus",
+    "Sumerian literature Inanna Descent Enheduanna hymns"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Late antique and medieval Latin literature",
+   "scope": "Christian and secular Latin writing from Boethius, Prudentius and Ausonius through Carolingian poets, Hrotsvitha, Waltharius and Ruodlieb to Goliardic verse, the Carmina Burana, hymnody and Latin beast epic.",
+   "queries": [
+    "Boethius Consolation of Philosophy prosimetrum",
+    "Carmina Burana manuscript Benediktbeuern Goliard poems",
+    "Hrotsvitha of Gandersheim plays legends",
+    "Prudentius Psychomachia Waltharius Ruodlieb Latin poem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Byzantine literature",
+   "scope": "Greek literature of the Byzantine Empire, including historians and chroniclers (Procopius, Psellos, Anna Komnene), hymnographers (Romanos the Melodist, Kassia), the epic Digenes Akritas, vernacular romances, Ptochoprodromic poems and the Suda.",
+   "queries": [
+    "Digenes Akritas Byzantine epic Escorial Grottaferrata",
+    "Anna Komnene Alexiad Michael Psellos Chronographia",
+    "Romanos the Melodist kontakion Kassia hymn",
+    "Byzantine vernacular romance Ptochoprodromos Suda lexicon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Old English literature",
+   "scope": "Anglo-Saxon poetry and prose, including Beowulf and the four major poetic codices (Nowell, Exeter, Vercelli, Junius), Caedmon, Cynewulf's signed poems, the elegies and riddles, The Battle of Maldon, and Alfredian and Aelfrician prose.",
+   "queries": [
+    "Beowulf Nowell Codex Cotton Vitellius Grendel",
+    "Exeter Book riddles elegies Wanderer Seafarer",
+    "Cynewulf runic signature Vercelli Book Dream of the Rood",
+    "Caedmon's Hymn Battle of Maldon Junius manuscript"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Middle English literature",
+   "scope": "English writing c.1100-1500, including Chaucer's Canterbury Tales and Troilus, Gower, Langland's Piers Plowman, the Pearl-poet, Lydgate and Hoccleve, Middle English romances and lyrics, and the mystery cycles and morality plays such as Everyman.",
+   "queries": [
+    "Canterbury Tales pilgrims General Prologue Ellesmere manuscript",
+    "Sir Gawain and the Green Knight Pearl Cotton Nero",
+    "Piers Plowman A B C texts Langland",
+    "York Chester mystery cycle Everyman morality play"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Old Norse-Icelandic literature",
+   "scope": "The Poetic Edda (Codex Regius), Snorri Sturluson's Prose Edda and Heimskringla, skaldic poetry, meters and kennings, and the Icelanders', kings', legendary and contemporary sagas with their manuscripts.",
+   "queries": [
+    "Poetic Edda Codex Regius Völuspá Hávamál",
+    "Snorri Sturluson Prose Edda Gylfaginning Skáldskaparmál",
+    "skaldic poetry kennings dróttkvætt Egill Skallagrímsson",
+    "Njáls saga Laxdæla saga Icelanders' sagas manuscript"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Irish and Welsh literature",
+   "scope": "Early Irish sagas of the Ulster, Fenian, Mythological and Kings' cycles and the manuscripts that preserve them, plus Welsh literature including the Mabinogion, Aneirin's Gododdin, the Book of Taliesin, the Poets of the Princes and Dafydd ap Gwilym.",
+   "queries": [
+    "Táin Bó Cúailnge Ulster Cycle Cú Chulainn",
+    "Mabinogi four branches Pwyll Branwen Math",
+    "Y Gododdin Aneirin Book of Taliesin",
+    "Lebor na hUidre Book of Leinster Fenian Cycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Arthurian romance and the Matter of Britain",
+   "scope": "Arthurian literature from Geoffrey of Monmouth and Wace through Chrétien de Troyes, the Tristan romances, Grail texts and the Vulgate and Post-Vulgate cycles to Malory's Le Morte d'Arthur.",
+   "queries": [
+    "Chrétien de Troyes Erec Yvain Lancelot Perceval",
+    "Geoffrey of Monmouth Historia Regum Britanniae Wace Brut",
+    "Lancelot-Grail Vulgate Cycle Post-Vulgate Queste",
+    "Malory Le Morte d'Arthur Caxton Winchester manuscript"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Old French and Occitan literature",
+   "scope": "Chansons de geste (Song of Roland, Guillaume cycle), romans antiques, Marie de France's lais, fabliaux, the Roman de Renart, the Roman de la Rose, and troubadour and trouvère lyric down to Christine de Pizan and Villon.",
+   "queries": [
+    "Chanson de Roland Oxford manuscript Roncevaux laisses",
+    "Roman de la Rose Guillaume de Lorris Jean de Meun",
+    "troubadour Bernart de Ventadorn Occitan canso vida",
+    "fabliaux Roman de Renart Marie de France lais"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Middle High German literature",
+   "scope": "German literature c.1050-1350, including the Nibelungenlied and Kudrun, the courtly romances of Hartmann von Aue, Wolfram von Eschenbach and Gottfried von Strassburg, and Minnesang from Der von Kürenberg to Walther von der Vogelweide and Neidhart, with the Codex Manesse.",
+   "queries": [
+    "Nibelungenlied manuscripts Kriemhild Siegfried Hagen",
+    "Wolfram von Eschenbach Parzival Willehalm Titurel",
+    "Hartmann von Aue Erec Iwein Gregorius",
+    "Minnesang Walther von der Vogelweide Codex Manesse"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dante, Petrarch, Boccaccio and medieval Italian literature",
+   "scope": "Italian literature from the Sicilian School and the dolce stil novo through Dante's Commedia and Vita Nuova, Petrarch's Canzoniere and Latin works, and Boccaccio's Decameron and minor works.",
+   "queries": [
+    "Divine Comedy Inferno circle canto sinners",
+    "Petrarch Canzoniere Laura sonnets Africa",
+    "Decameron Boccaccio days novella storytellers",
+    "Sicilian School dolce stil novo Guinizelli Cavalcanti"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Iberian literature",
+   "scope": "Castilian, Galician-Portuguese, Catalan, Mozarabic and Andalusi Hebrew literature, including the Cantar de mio Cid, Berceo and the mester de clerecía, Alfonso X's Cantigas de Santa Maria, the Libro de buen amor, El Conde Lucanor, the kharjas, Ramon Llull, Tirant lo Blanc and Judah Halevi.",
+   "queries": [
+    "Cantar de mio Cid Per Abbat manuscript",
+    "Cantigas de Santa Maria Alfonso X Galician-Portuguese",
+    "Libro de buen amor Juan Ruiz Conde Lucanor",
+    "kharja Mozarabic Judah Halevi Ibn Gabirol"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Arabic poetry",
+   "scope": "Arabic poetry from the pre-Islamic qasida and the Mu'allaqat through Umayyad ghazal and naqa'id to Abbasid poets such as Abu Nuwas, Abu Tammam, al-Mutanabbi and al-Ma'arri, including meters ('arud) and the major anthologies.",
+   "queries": [
+    "Mu'allaqat Imru' al-Qais pre-Islamic qasida",
+    "al-Mutanabbi Sayf al-Dawla Abbasid poet",
+    "Abu Nuwas khamriyyat Abbasid wine poetry",
+    "Kitab al-Aghani Hamasa anthology Arabic poetry meters"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Arabic prose, adab and narrative",
+   "scope": "Arabic prose literature, including the One Thousand and One Nights and its manuscripts and translations, the maqamat of al-Hamadhani and al-Hariri, Kalila wa-Dimna, al-Jahiz and adab, Ibn Tufayl's Hayy ibn Yaqzan, rihla travel writing and popular sira epics.",
+   "queries": [
+    "One Thousand and One Nights Galland manuscript Scheherazade",
+    "maqamat al-Hariri al-Hamadhani Abu Zayd",
+    "Kalila wa-Dimna Ibn al-Muqaffa translation",
+    "al-Jahiz Book of Misers Ibn Tufayl Hayy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Persian literature",
+   "scope": "New Persian poetry and prose from Rudaki and Ferdowsi's Shahnameh through Nizami's Khamsa, Attar, Rumi's Masnavi, Saadi, Hafez, Omar Khayyam's rubaiyat and Jami.",
+   "queries": [
+    "Shahnameh Ferdowsi Rostam Sohrab kings",
+    "Nizami Ganjavi Khamsa Layla Majnun Haft Peykar",
+    "Rumi Masnavi Attar Conference of the Birds",
+    "Hafez Divan Saadi Gulistan Bustan ghazal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sanskrit and Prakrit literature",
+   "scope": "The Sanskrit epics and Puranas, classical kavya and drama (Kalidasa, Bhasa, Shudraka, Bhavabhuti, Bana), story collections (Panchatantra, Kathasaritsagara), Jayadeva's Gita Govinda, Prakrit poetry, and poetic theory (Natyashastra, rasa, dhvani).",
+   "queries": [
+    "Mahabharata Ramayana parvas kandas Valmiki Vyasa",
+    "Kalidasa Abhijnanashakuntalam Meghaduta Raghuvamsha",
+    "Panchatantra Kathasaritsagara Somadeva Hitopadesha",
+    "Natyashastra rasa dhvani Anandavardhana Sanskrit drama"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tamil Sangam and medieval Indian vernacular literature",
+   "scope": "The Tamil Sangam anthologies (Ettuthokai, Pattupattu), the Tirukkural, the five great epics (Silappatikaram, Manimekalai), Kamba Ramayanam, Alvar and Nayanar hymns, and medieval bhakti poetry in Kannada, Marathi and Hindi up to Kabir.",
+   "queries": [
+    "Sangam literature Ettuthokai Pattupattu anthologies",
+    "Tirukkural Thiruvalluvar chapters couplets",
+    "Silappatikaram Manimekalai five great epics Tamil",
+    "Alvars Nayanars Tevaram Divya Prabandham bhakti"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Chinese poetry",
+   "scope": "Chinese verse from the Shijing and Chuci through Han yuefu and fu, Six Dynasties poets such as Tao Yuanming, Tang shi (Li Bai, Du Fu, Wang Wei, Bai Juyi, Li Shangyin) and Song ci (Su Shi, Li Qingzhao), with their forms and anthologies.",
+   "queries": [
+    "Shijing Book of Songs Guofeng Chu Ci Qu Yuan",
+    "Du Fu Li Bai Tang dynasty poems",
+    "Song ci lyric Su Shi Li Qingzhao tune",
+    "Three Hundred Tang Poems regulated verse jueju lushi"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Chinese fiction and drama",
+   "scope": "Chinese narrative prose and theatre from Six Dynasties zhiguai and Tang chuanqi through Song huaben storytelling, Yuan zaju (Guan Hanqing, Romance of the Western Chamber) and Ming chuanqi drama to the vernacular novels Romance of the Three Kingdoms, Water Margin and Journey to the West.",
+   "queries": [
+    "Tang chuanqi tales Yingying zhuan zhiguai",
+    "Yuan zaju Guan Hanqing Western Chamber",
+    "Water Margin Romance Three Kingdoms chapters",
+    "Journey to the West Wu Cheng'en Sun Wukong"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical and medieval Japanese literature",
+   "scope": "Japanese literature from the Kojiki and Man'yoshu through Heian court writing (Kokinshu, Tale of Genji, Pillow Book, Ise monogatari, court diaries) to Kamakura-Muromachi war tales, zuihitsu, renga and Noh drama.",
+   "queries": [
+    "Tale of Genji Murasaki Shikibu chapters Heian",
+    "Man'yōshū Kokin Wakashū imperial waka anthology",
+    "Tale of the Heike Hōjōki Tsurezuregusa",
+    "Noh Zeami Fushikaden Kan'ami plays"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Korean literature",
+   "scope": "Pre-modern Korean literature in Classical Chinese and Korean, including Silla hyangga, Goryeo songs, sijo and gasa, the Samguk sagi and Samguk yusa, Kim Si-seup's Geumo sinhwa, and Joseon fiction such as Kuunmong and the Tale of Chunhyang.",
+   "queries": [
+    "hyangga Silla songs Samguk yusa Iryeon",
+    "sijo gasa Jeong Cheol Yun Seon-do",
+    "Geumo sinhwa Kim Si-seup Korean fiction",
+    "Kuunmong Chunhyangjeon Joseon classical novel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Old Church Slavonic and Old East Slavic literature",
+   "scope": "Medieval Slavic writing from Cyril and Methodius and the Preslav and Ohrid schools through Kievan Rus' texts such as the Primary Chronicle, Ilarion's Sermon on Law and Grace and The Tale of Igor's Campaign, to Muscovite works such as the Zadonshchina and Afanasy Nikitin's travels.",
+   "queries": [
+    "Tale of Igor's Campaign manuscript Musin-Pushkin",
+    "Primary Chronicle Nestor Kievan Rus",
+    "Old Church Slavonic literature Preslav Ohrid school",
+    "Zadonshchina Afanasy Nikitin Journey Beyond Three Seas"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Syriac, Armenian, Georgian and Ge'ez literature",
+   "scope": "Medieval literatures of the Christian East, including Syriac poetry (Ephrem, Jacob of Serugh), Armenian literature from Movses Khorenatsi to Grigor Narekatsi, Georgian works such as Rustaveli's The Knight in the Panther's Skin, and Ethiopic texts such as the Kebra Nagast.",
+   "queries": [
+    "Knight in the Panther's Skin Rustaveli Georgian",
+    "Grigor Narekatsi Book of Lamentations Armenian",
+    "Ephrem the Syrian madrashe Jacob of Serugh",
+    "Kebra Nagast Ge'ez literature Ethiopia manuscript"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

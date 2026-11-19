@@ -1,0 +1,272 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Puzzles",
+ "target_leaves": 16,
+ "expected_problems": 132,
+ "leaves": [
+  {
+   "leaf": "Retrograde chess analysis and proof games",
+   "scope": "Given a fully specified position (e.g. as FEN), find the forced last move or moves, whether castling or en passant is legal, or the shortest legal game that reaches it. The work is hard because every capture, pawn file change, promoted piece and tempo has to be accounted for in one consistent history.",
+   "techniques": [
+    "capture accounting from pawn file displacements and missing material",
+    "bishop square-colour and promoted-piece inference",
+    "retraction of uncaptures and discovered-check legality",
+    "tempo and parity counting of king and rook moves",
+    "lower bounds on proof-game length by per-piece minimal move counts"
+   ],
+   "answer_forms": [
+    "move in algebraic notation",
+    "integer",
+    "yes/no",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Canonical values in invented partizan games",
+   "scope": "Compute the exact combinatorial game value, winner, mean or temperature of positions in original or modified partizan games (Hackenbush-type, placement or token-sliding rules), often for sums of components. Simplifying by hand is error-prone and depends on infinitesimals and hot-game theory.",
+   "techniques": [
+    "removal of dominated options and bypassing reversible options",
+    "simplicity theorem and number avoidance",
+    "thermographs, mean values and temperatures",
+    "infinitesimals such as up, star, tiny and atomic weight",
+    "decomposition of a position into a disjunctive sum"
+   ],
+   "answer_forms": [
+    "game value expression",
+    "dyadic rational",
+    "rational temperature",
+    "letter for the winner"
+   ]
+  },
+  {
+   "leaf": "Nim-sequences of octal and subtraction games",
+   "scope": "Find Grundy values, periods, preperiods or P-position counts for impartial take-and-break, subtraction-set or coin-turning games with original rule sets. The sequences can have long preperiods, arithmetic periodicity or mis\u00e8re irregularities that defeat naive pattern-spotting.",
+   "techniques": [
+    "mex recursion with Sprague\u2013Grundy sums",
+    "octal-game periodicity theorem with an explicit verification bound",
+    "arithmetic periodicity and sparse-space analysis",
+    "mis\u00e8re quotients for restricted position sets",
+    "nim-multiplication for product (Tartan-type) coin-turning games"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (preperiod, period)",
+    "small set of residues"
+   ]
+  },
+  {
+   "leaf": "Group theory of invented twisty puzzles",
+   "scope": "For a newly described permutation puzzle (custom cuts on a polyhedron, circle puzzles, bandaged or shape-shifting variants), find the number of reachable states, the maximal element order, or bounds on the diameter. This requires correctly identifying orbits, orientation constraints and parity links between piece types.",
+   "techniques": [
+    "orbit decomposition with orientation-sum invariants",
+    "coupled parity constraints across piece orbits",
+    "commutator and conjugate constructions showing generation of alternating groups",
+    "maximum element order via cycle-type and orientation-twist analysis",
+    "counting lower bounds on God's number from move-sequence branching",
+    "quotienting by indistinguishable pieces or extending to visible centre orientation"
+   ],
+   "answer_forms": [
+    "integer",
+    "factored integer",
+    "ordered pair"
+   ]
+  },
+  {
+   "leaf": "Toggle puzzles over finite rings on graphs",
+   "scope": "Pressing a vertex advances its own state and its neighbours' states mod n on a grid, torus or other graph. Questions ask for the number of solvable configurations, kernel dimensions, or minimal press counts. The structure of the kernel depends delicately on board size and on the ring.",
+   "techniques": [
+    "linear algebra over GF(2) and Z_n",
+    "Chebyshev-type polynomial recursion for rectangular-grid kernels",
+    "quiet patterns and kernel-based minimisation of press counts",
+    "Smith normal form for non-prime moduli",
+    "symmetry and colouring invariants for solvability"
+   ],
+   "answer_forms": [
+    "integer",
+    "power of a prime",
+    "minimal number of presses"
+   ]
+  },
+  {
+   "leaf": "Balance-weighing search with constraints and lies",
+   "scope": "Find the maximal number of coins, or the minimal number of weighings, for identifying counterfeits under nonstandard rules: several fakes, unknown relative weights, a spring scale, nonadaptive schemes, or a balance that may lie. The optimum requires both a matching construction and a tight lower bound.",
+   "techniques": [
+    "ternary information-theoretic counting bounds",
+    "adaptive strategies that reuse coins known to be genuine",
+    "nonadaptive weighing matrices and coding-theoretic designs",
+    "Berlekamp volume bound for searching with lies",
+    "adversary arguments for worst-case lower bounds",
+    "distinct-subset-sum (Sidon-type) sets for spring-scale identification"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in the number of weighings",
+    "ordered pair"
+   ]
+  },
+  {
+   "leaf": "Public-announcement dialogues about hidden numbers",
+   "scope": "Agents who each hold partial information (sum, product, a digit, a card) truthfully announce what they do or do not know, and the solver has to deduce the hidden values from original parameters. Each announcement shrinks the set of possible worlds in a nontrivial, nested way.",
+   "techniques": [
+    "iterated elimination over sets of possible worlds",
+    "Kripke models and public-announcement update semantics",
+    "factorisation and partition ambiguity analysis",
+    "inductive common-knowledge arguments of muddy-children type",
+    "careful bounding of the domain and its effect on edge cases"
+   ],
+   "answer_forms": [
+    "ordered tuple",
+    "integer",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Cooperative hat-guessing strategy optimisation",
+   "scope": "Players see some of the others' hats according to a visibility graph or line order, and guess simultaneously or one after another. Questions ask for the optimal guaranteed number of correct guesses, the maximal win probability, or a graph's hat-guessing number. Optimality needs both a clever code-based strategy and a matching bound.",
+   "techniques": [
+    "Hamming and perfect covering codes",
+    "modular-sum strategies for several colours",
+    "parity broadcasting in sequential guessing",
+    "hat-guessing number of graphs via orientations and degeneracy",
+    "linear-programming and double-counting upper bounds",
+    "Hall's theorem for matching-based strategies"
+   ],
+   "answer_forms": [
+    "rational probability",
+    "integer",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Polyform tiling, packing and colouring obstructions",
+   "scope": "Decide whether, or in how many ways, a region can be tiled or packed by given polyominoes, polyiamonds or polycubes, or find the smallest region where tiling fails. Impossibility often depends on an invariant that is not obvious, and counting requires systematic enumeration.",
+   "techniques": [
+    "checkerboard and multicolour colouring arguments",
+    "Conway\u2013Lagarias tiling groups and boundary words",
+    "transfer-matrix enumeration of strip tilings",
+    "height functions for domino and lozenge tilings",
+    "Kasteleyn determinant counting for dimers"
+   ],
+   "answer_forms": [
+    "integer",
+    "yes/no",
+    "generating function or polynomial"
+   ]
+  },
+  {
+   "leaf": "Pencil-puzzle solving and uniqueness counting",
+   "scope": "Solve an original textually encoded logic grid (Sudoku variants, loop puzzles, region-shading or sum puzzles) and report a derived checksum, or count the solutions or minimal clue sets of a small instance. A long chain of forced deductions with no guessing is required.",
+   "techniques": [
+    "forcing chains and contradiction propagation",
+    "uniqueness-based deduction",
+    "Jordan-curve parity for single-loop puzzles",
+    "set-equivalence arguments between overlapping regions",
+    "sum-combination tables for cage and run constraints",
+    "connectivity and 2x2-avoidance constraints in shading puzzles"
+   ],
+   "answer_forms": [
+    "integer checksum",
+    "digit string",
+    "number of solutions"
+   ]
+  },
+  {
+   "leaf": "Peg-jumping and sliding-token invariants",
+   "scope": "Decide whether a peg-jumping, sliding-block or token-swapping puzzle on an unusual board can be solved, and find the minimal number of moves. Proving that a target is impossible or that a move count is optimal needs invariants and lower-bound potentials, not just a search.",
+   "techniques": [
+    "pagoda (resource) functions",
+    "position-class invariants from Z2 x Z2 colourings",
+    "permutation parity combined with blank-position distance",
+    "symmetry-reduced breadth-first search reasoning",
+    "Manhattan distance with linear-conflict lower bounds"
+   ],
+   "answer_forms": [
+    "integer",
+    "yes/no",
+    "move sequence"
+   ]
+  },
+  {
+   "leaf": "Cryptarithms and skeleton arithmetic in arbitrary bases",
+   "scope": "Recover the unique digit assignment, or the base, in original alphametics, skeleton long divisions or multiplications, and cross-number grids, possibly in non-decimal bases. The constraints only close up after careful propagation of carries and residues.",
+   "techniques": [
+    "column-wise carry analysis",
+    "casting out (b-1) and (b+1) residues",
+    "leading-digit and length bounds",
+    "end-digit multiplication tables in base b",
+    "partial-product structure in skeleton divisions"
+   ],
+   "answer_forms": [
+    "integer",
+    "base",
+    "digit assignment string"
+   ]
+  },
+  {
+   "leaf": "Code-breaking query games minimax",
+   "scope": "For small Mastermind-like, bulls-and-cows-like or word-feedback games with original parameters, find the minimax or expected number of queries, or an optimal first guess, in adaptive or static form. This requires exact analysis of how each query partitions the remaining candidates.",
+   "techniques": [
+    "partition-by-feedback analysis of candidate sets",
+    "counting lower bounds from the number of distinct feedback outcomes",
+    "symmetry reduction of guess equivalence classes",
+    "metric-dimension arguments for nonadaptive (static) play",
+    "worst-case partition size and expected-size heuristics checked for exactness"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational expected value",
+    "guess string"
+   ]
+  },
+  {
+   "leaf": "Fairy-piece placement, domination and tours",
+   "scope": "For unusual leapers or riders on rectangular, toroidal or cylindrical boards, find maximal non-attacking sets, domination numbers, counts of placements, or whether a closed tour exists. Exact answers need both explicit constructions and tight obstructions.",
+   "techniques": [
+    "leaper-graph connectivity via gcd and parity conditions",
+    "colouring obstructions to closed tours",
+    "transfer-matrix counting of non-attacking configurations",
+    "double-counting and LP bounds for domination",
+    "Burnside counting of placements up to board symmetry"
+   ],
+   "answer_forms": [
+    "integer",
+    "yes/no",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Interrogating truth-tellers, liars and random answerers",
+   "scope": "Agents of mixed reliability (truth-tellers, liars, alternators, random answerers, or agents who answer in an unknown yes/no language) make statements or answer questions. The task is to deduce their identities or find the minimal number of questions needed. Self-reference and random answers make bounds and constructions subtle.",
+   "techniques": [
+    "embedded counterfactual questions that neutralise lying",
+    "information-theoretic bounds when some answers are uninformative",
+    "exhaustive truth-table case analysis",
+    "fixed points of self-referential statements",
+    "majority and reliability arguments for locating a non-random agent"
+   ],
+   "answer_forms": [
+    "integer",
+    "assignment string of agent types",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Double-dummy suit combinations and card play",
+   "scope": "For original bridge-style card layouts, find double-dummy trick counts, or the line of play that maximises the probability of taking a target number of tricks with a given suit combination. Exact answers come from combining minimax over defenders' plays with combinatorial probabilities of how the cards are distributed.",
+   "techniques": [
+    "hypergeometric suit-split probabilities",
+    "vacant-places and restricted-choice inference",
+    "double-dummy minimax enumeration",
+    "squeeze and endplay threat-card analysis",
+    "entry and communication constraints",
+    "safety-play comparison of lines"
+   ],
+   "answer_forms": [
+    "rational probability",
+    "integer trick count",
+    "card to play"
+   ]
+  }
+ ]
+}

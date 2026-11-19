@@ -1,0 +1,389 @@
+{
+ "note": "Hand labels of the 64 SciCode-Verified test problems (field/subfield/method), used only for class-level counts. Never shown to the generator.",
+ "labels": {
+  "5": {
+   "field": "math",
+   "subfield": "math/nla_approx",
+   "method": "linalg",
+   "n_steps": 1
+  },
+  "8": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "waves",
+   "n_steps": 1
+  },
+  "9": {
+   "field": "math",
+   "subfield": "math/nla_approx",
+   "method": "linalg",
+   "n_steps": 1
+  },
+  "11": {
+   "field": "physics",
+   "subfield": "physics/quantum_info",
+   "method": "quantum_ops",
+   "n_steps": 12
+  },
+  "12": {
+   "field": "physics",
+   "subfield": "physics/quantum_mech",
+   "method": "ode",
+   "n_steps": 14
+  },
+  "13": {
+   "field": "physics",
+   "subfield": "physics/fields_astro",
+   "method": "pde",
+   "n_steps": 15
+  },
+  "14": {
+   "field": "physics",
+   "subfield": "physics/stat_phys",
+   "method": "stochastic",
+   "n_steps": 2
+  },
+  "15": {
+   "field": "physics",
+   "subfield": "physics/quantum_mech",
+   "method": "pde",
+   "n_steps": 2
+  },
+  "16": {
+   "field": "math",
+   "subfield": "math/nla_approx",
+   "method": "linalg",
+   "n_steps": 2
+  },
+  "17": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "quad_models",
+   "n_steps": 2
+  },
+  "18": {
+   "field": "math",
+   "subfield": "math/nla_approx",
+   "method": "quad_models",
+   "n_steps": 2
+  },
+  "20": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "quad_models",
+   "n_steps": 2
+  },
+  "21": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "22": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "waves",
+   "n_steps": 3
+  },
+  "23": {
+   "field": "math",
+   "subfield": "math/info_stats",
+   "method": "opt_discrete",
+   "n_steps": 3
+  },
+  "24": {
+   "field": "math",
+   "subfield": "math/pde_numerics",
+   "method": "pde",
+   "n_steps": 3
+  },
+  "25": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "ode",
+   "n_steps": 3
+  },
+  "26": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "ode",
+   "n_steps": 3
+  },
+  "27": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "28": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "waves",
+   "n_steps": 3
+  },
+  "30": {
+   "field": "physics",
+   "subfield": "physics/many_body",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "31": {
+   "field": "math",
+   "subfield": "math/info_stats",
+   "method": "linalg",
+   "n_steps": 3
+  },
+  "32": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "ode",
+   "n_steps": 3
+  },
+  "33": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "linalg",
+   "n_steps": 3
+  },
+  "34": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "35": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "36": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "opt_discrete",
+   "n_steps": 3
+  },
+  "37": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "waves",
+   "n_steps": 3
+  },
+  "39": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "waves",
+   "n_steps": 3
+  },
+  "40": {
+   "field": "math",
+   "subfield": "math/pde_numerics",
+   "method": "pde",
+   "n_steps": 3
+  },
+  "41": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "opt_discrete",
+   "n_steps": 3
+  },
+  "42": {
+   "field": "materials",
+   "subfield": "materials/semiconductors",
+   "method": "quad_models",
+   "n_steps": 3
+  },
+  "43": {
+   "field": "physics",
+   "subfield": "physics/optics",
+   "method": "ode",
+   "n_steps": 3
+  },
+  "45": {
+   "field": "math",
+   "subfield": "math/pde_numerics",
+   "method": "pde",
+   "n_steps": 4
+  },
+  "46": {
+   "field": "physics",
+   "subfield": "physics/many_body",
+   "method": "stochastic",
+   "n_steps": 4
+  },
+  "48": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "quad_models",
+   "n_steps": 4
+  },
+  "50": {
+   "field": "physics",
+   "subfield": "physics/stat_phys",
+   "method": "stochastic",
+   "n_steps": 4
+  },
+  "52": {
+   "field": "physics",
+   "subfield": "physics/quantum_mech",
+   "method": "ode",
+   "n_steps": 4
+  },
+  "53": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "stochastic",
+   "n_steps": 4
+  },
+  "54": {
+   "field": "math",
+   "subfield": "math/pde_numerics",
+   "method": "pde",
+   "n_steps": 4
+  },
+  "55": {
+   "field": "physics",
+   "subfield": "physics/stat_phys",
+   "method": "pde",
+   "n_steps": 4
+  },
+  "56": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "opt_discrete",
+   "n_steps": 4
+  },
+  "57": {
+   "field": "physics",
+   "subfield": "physics/quantum_mech",
+   "method": "ode",
+   "n_steps": 5
+  },
+  "58": {
+   "field": "physics",
+   "subfield": "physics/fields_astro",
+   "method": "ode",
+   "n_steps": 5
+  },
+  "59": {
+   "field": "physics",
+   "subfield": "physics/quantum_info",
+   "method": "quantum_ops",
+   "n_steps": 5
+  },
+  "60": {
+   "field": "chemistry",
+   "subfield": "chemistry/mc_thermo",
+   "method": "stochastic",
+   "n_steps": 5
+  },
+  "61": {
+   "field": "materials",
+   "subfield": "materials/structure",
+   "method": "linalg",
+   "n_steps": 5
+  },
+  "62": {
+   "field": "physics",
+   "subfield": "physics/many_body",
+   "method": "linalg",
+   "n_steps": 6
+  },
+  "63": {
+   "field": "math",
+   "subfield": "math/pde_numerics",
+   "method": "pde",
+   "n_steps": 6
+  },
+  "64": {
+   "field": "chemistry",
+   "subfield": "chemistry/mc_thermo",
+   "method": "stochastic",
+   "n_steps": 6
+  },
+  "65": {
+   "field": "physics",
+   "subfield": "physics/quantum_info",
+   "method": "quantum_ops",
+   "n_steps": 6
+  },
+  "66": {
+   "field": "materials",
+   "subfield": "materials/structure",
+   "method": "particles",
+   "n_steps": 6
+  },
+  "67": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "quad_models",
+   "n_steps": 6
+  },
+  "68": {
+   "field": "physics",
+   "subfield": "physics/many_body",
+   "method": "stochastic",
+   "n_steps": 8
+  },
+  "69": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "quad_models",
+   "n_steps": 8
+  },
+  "71": {
+   "field": "physics",
+   "subfield": "physics/quantum_info",
+   "method": "quantum_ops",
+   "n_steps": 9
+  },
+  "72": {
+   "field": "physics",
+   "subfield": "physics/stat_phys",
+   "method": "stochastic",
+   "n_steps": 9
+  },
+  "73": {
+   "field": "materials",
+   "subfield": "materials/structure",
+   "method": "linalg",
+   "n_steps": 9
+  },
+  "74": {
+   "field": "math",
+   "subfield": "math/nla_approx",
+   "method": "linalg",
+   "n_steps": 1
+  },
+  "75": {
+   "field": "physics",
+   "subfield": "physics/condensed_matter",
+   "method": "linalg",
+   "n_steps": 3
+  },
+  "76": {
+   "field": "biology",
+   "subfield": "biology/quant_bio",
+   "method": "opt_discrete",
+   "n_steps": 4
+  },
+  "77": {
+   "field": "chemistry",
+   "subfield": "chemistry/md",
+   "method": "particles",
+   "n_steps": 12
+  },
+  "79": {
+   "field": "chemistry",
+   "subfield": "chemistry/md",
+   "method": "particles",
+   "n_steps": 4
+  },
+  "80": {
+   "field": "chemistry",
+   "subfield": "chemistry/md",
+   "method": "particles",
+   "n_steps": 7
+  }
+ }
+}

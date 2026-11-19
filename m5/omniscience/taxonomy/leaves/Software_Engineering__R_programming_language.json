@@ -1,0 +1,656 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "R programming language",
+ "weight": 0.010244000000000001,
+ "leaves": [
+  {
+   "leaf": "Atomic vectors, type coercion and missing values",
+   "scope": "Base R's atomic vector types (logical, integer, double, complex, character, raw), typeof/mode/storage.mode, the coercion hierarchy, NA variants, NaN/Inf, integer limits and floating-point comparison.",
+   "queries": [
+    "typeof mode storage.mode atomic vector types",
+    "NA_integer_ NA_real_ NA_character_ missing values",
+    "as.integer coercion NAs introduced by coercion",
+    "integer overflow .Machine double.eps all.equal"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Data frames, tibbles, attributes and factors",
+   "scope": "The data.frame and tibble classes, core attributes (names, dim, row.names, class), stringsAsFactors behavior, and factor/levels handling including the forcats package.",
+   "queries": [
+    "data.frame row.names check.names stringsAsFactors argument",
+    "tibble print width partial matching tbl_df",
+    "factor levels ordered droplevels relevel",
+    "forcats fct_reorder fct_lump fct_collapse"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Subsetting operators and replacement functions",
+   "scope": "Semantics of [, [[, $, @ and subset(), the drop and exact arguments, negative/logical/character/matrix indexing, out-of-bounds behavior and replacement functions such as names<-.",
+   "queries": [
+    "Extract operator drop exact partial matching",
+    "double bracket dollar subsetting lists recursive",
+    "replacement functions names assignment subassign",
+    "matrix indexing negative indices out of bounds NA"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Functions, environments, scoping and lazy evaluation",
+   "scope": "Closures, formals/body/environment, lexical scoping, the search path and environment functions, promises and lazy evaluation, force, on.exit and the ... mechanism.",
+   "queries": [
+    "closure formals body environment lexical scoping",
+    "promise lazy evaluation force delayedAssign",
+    "search path globalenv emptyenv parent.frame sys.call",
+    "dots ..1 ...length missing on.exit"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Metaprogramming, non-standard evaluation and tidy evaluation",
+   "scope": "Language objects (calls, symbols, expressions), quote/substitute/bquote/eval/deparse, and rlang's quosures, injection operators, embracing and data masking.",
+   "queries": [
+    "substitute quote bquote eval deparse expression",
+    "rlang quosure enquo injection operator splice",
+    "data masking embracing operator tidy evaluation",
+    "match.call sys.call call objects pairlist"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "S3 classes, generics and the S7 object system",
+   "scope": "S3 class attributes, UseMethod/NextMethod dispatch, group generics (Ops, Math, Summary), method registration, inherits/unclass, and the newer S7 object system package.",
+   "queries": [
+    "UseMethod NextMethod S3 method dispatch",
+    "group generic Ops Math Summary S3",
+    "S3method registration NAMESPACE .S3method",
+    "S7 new_class new_generic method object system"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "S4 classes and the methods package",
+   "scope": "setClass, slots, prototypes, validity methods, setGeneric/setMethod, multiple dispatch, virtual classes and class unions, show methods and S4 conventions used in Bioconductor.",
+   "queries": [
+    "setClass setGeneric setMethod slots validity",
+    "setClassUnion virtual class prototype representation",
+    "S4 multiple dispatch signature callNextMethod",
+    "methods package isVirtualClass slotNames new initialize"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Reference Classes and R6 encapsulated OOP",
+   "scope": "Mutable encapsulated object systems in R: methods::setRefClass Reference Classes and the R6 package (public/private members, active bindings, inheritance, cloning, finalizers).",
+   "queries": [
+    "setRefClass Reference Classes fields methods",
+    "R6Class public private active bindings",
+    "R6 clone deep inheritance super",
+    "R6 portable lock_objects finalize method"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Condition handling: errors, warnings, messages and restarts",
+   "scope": "stop/warning/message/signalCondition, try, tryCatch, withCallingHandlers, finally, restarts (invokeRestart, muffleWarning), custom condition classes, options(warn) and the rlang/cli error helpers.",
+   "queries": [
+    "tryCatch withCallingHandlers finally condition handling",
+    "invokeRestart muffleWarning computeRestarts restart",
+    "simpleCondition custom condition class signalCondition",
+    "rlang abort cli_abort error call trace"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "R language release history and NEWS (R 3.x to 4.x)",
+   "scope": "Version-by-version user-visible changes to base R recorded in NEWS, such as the native pipe |>, the \\(x) lambda shorthand, raw strings, the stringsAsFactors default change, deprecations, and release nicknames and dates.",
+   "queries": [
+    "R 4.1.0 native pipe operator lambda syntax",
+    "R 4.0.0 stringsAsFactors FALSE raw strings NEWS",
+    "R release nickname version date NEWS",
+    "R 4.4.0 NEWS new features deprecated defunct"
+   ],
+   "sources": [
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "R internals: memory management, ALTREP and the byte-code compiler",
+   "scope": "SEXP object representation, copy-on-modify and reference counting, garbage collection, memory limits, long vectors, ALTREP compact and deferred representations, and the compiler package and JIT.",
+   "queries": [
+    "R Internals SEXPTYPE header NAMED reference counting",
+    "ALTREP compact intseq deferred string",
+    "compiler package cmpfun enableJIT byte code",
+    "gc garbage collector long vectors memory.limit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Native code interfaces: C API, .Call, Rcpp and cpp11",
+   "scope": "Native interfaces from Writing R Extensions (.C, .Call, .External, PROTECT, R_registerRoutines, Makevars) and the C++ bridges Rcpp, RcppArmadillo, RcppEigen and cpp11.",
+   "queries": [
+    ".Call .External PROTECT UNPROTECT SEXP C API",
+    "R_registerRoutines useDynLib native symbol registration",
+    "Rcpp sourceCpp RcppExports attributes",
+    "cpp11 RcppArmadillo Makevars PKG_LIBS"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Package structure, R CMD check and CRAN policies",
+   "scope": "DESCRIPTION fields, NAMESPACE directives, package directory layout, R CMD build/check/INSTALL behavior, and the CRAN Repository Policy, submission process, task views and archiving.",
+   "queries": [
+    "DESCRIPTION file Imports Depends Suggests LinkingTo",
+    "R CMD check as-cran NOTE WARNING",
+    "CRAN Repository Policy submission archived package",
+    "NAMESPACE importFrom export useDynLib directives"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Package development tooling and documentation: devtools, usethis, roxygen2, pkgdown",
+   "scope": "r-lib developer tools and documentation formats: devtools/usethis workflows, roxygen2 tags, Rd markup, vignettes and pkgdown websites.",
+   "queries": [
+    "roxygen2 tags export param inheritParams",
+    "Rd file markup usage arguments examples sections",
+    "usethis use_package use_github_action create_package",
+    "pkgdown build_site devtools load_all document"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Unit testing and code coverage",
+   "scope": "testthat (editions, expectations, snapshot tests, fixtures, skips), tinytest, RUnit, and covr coverage reporting for R packages.",
+   "queries": [
+    "testthat expect_equal expect_snapshot third edition",
+    "testthat local_edition test_that skip_on_cran",
+    "covr package_coverage codecov report",
+    "tinytest expect_equal RUnit checkEquals"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "dplyr and tidyr data wrangling",
+   "scope": "dplyr verbs (filter, mutate, summarise, joins, across, .by) and tidyr reshaping and nesting (pivot_longer/pivot_wider, nest, separate_*), including lifecycle changes across versions.",
+   "queries": [
+    "dplyr mutate summarise across group_by .by",
+    "dplyr join_by left_join relationship multiple",
+    "tidyr pivot_longer pivot_wider names_to values_to",
+    "tidyr nest unnest separate_wider_delim gather spread"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "data.table syntax and performance",
+   "scope": "data.table's DT[i, j, by] syntax, := assignment, the .SD/.N/.I special symbols, keys and joins, fread/fwrite, reshaping, and version-specific behavior.",
+   "queries": [
+    "data.table := .SD .N by keyby",
+    "fread fwrite nThread sep colClasses",
+    "setkey setDT rolling join on",
+    "data.table NEWS foverlaps dcast melt"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ggplot2 grammar of graphics",
+   "scope": "ggplot2 layers, geoms, stats, aesthetics, scales, coordinate systems, facets, themes and the ggproto extension API, plus changes between versions.",
+   "queries": [
+    "ggplot2 geom_point aes scale_colour_manual",
+    "facet_wrap facet_grid coord_flip theme",
+    "ggproto extension stat geom layer",
+    "ggplot2 3.5.0 NEWS linewidth size deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Base graphics, grid, lattice and graphics devices",
+   "scope": "Base plotting (plot, par, layout), grDevices output devices and Cairo types, colour palettes, the grid viewport/grob system and lattice trellis graphics.",
+   "queries": [
+    "par mfrow mar cex graphical parameters",
+    "grDevices png pdf cairo_pdf device",
+    "grid viewport grob unit gpar",
+    "lattice xyplot trellis panel function"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Shiny and interactive web visualization",
+   "scope": "Shiny reactive programming (reactives, observers, render functions, modules, bslib layouts), app deployment, and htmlwidgets-based interactive packages such as plotly, leaflet and DT.",
+   "queries": [
+    "shiny reactive observeEvent renderPlot input output",
+    "shiny modules moduleServer NS namespace",
+    "bslib page_sidebar shiny theme",
+    "htmlwidgets leaflet plotly DT datatable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Literate programming and reporting: knitr, R Markdown, Sweave and Quarto",
+   "scope": "Dynamic documents in R: Sweave, knitr chunk options and engines, R Markdown output formats via pandoc, bookdown/blogdown, and Quarto.",
+   "queries": [
+    "knitr chunk options echo eval fig.width",
+    "rmarkdown render output_format html_document pandoc",
+    "Sweave Rnw noweb LaTeX",
+    "Quarto bookdown cross-references YAML"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "String manipulation, regular expressions and encodings",
+   "scope": "Base string functions (paste, sprintf, substr, gsub, regmatches), the regex engines (TRE, PCRE via perl=TRUE, fixed), stringr/stringi (ICU), and character encodings (UTF-8, Encoding, iconv).",
+   "queries": [
+    "gsub regexpr regmatches perl fixed TRE",
+    "stringr str_detect str_replace_all str_extract",
+    "stringi ICU stri_trans_general collation",
+    "Encoding iconv UTF-8 latin1 enc2native"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Dates, times and time zones",
+   "scope": "The Date, POSIXct, POSIXlt and difftime classes, strptime/format conversion codes, time zone handling, and the lubridate, hms and clock packages.",
+   "queries": [
+    "POSIXct POSIXlt Date difftime origin",
+    "strptime format conversion specifications",
+    "lubridate ymd_hms with_tz force_tz",
+    "Sys.timezone OlsonNames tzone attribute"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Data import, export and serialization formats",
+   "scope": "Reading and writing data in R: read.table/read.csv, readr/vroom, readxl/writexl, haven/foreign for SAS, SPSS and Stata, arrow/feather/parquet, connections, and saveRDS/serialize formats.",
+   "queries": [
+    "read.table read.csv colClasses na.strings",
+    "readr read_csv col_types vroom locale",
+    "haven read_sas read_dta labelled foreign",
+    "saveRDS serialize version 3 RData compression"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database connectivity: DBI, dbplyr and backends",
+   "scope": "DBI generics (dbConnect, dbGetQuery, dbWriteTable), backend packages (RSQLite, RPostgres, odbc, duckdb, bigrquery) and dbplyr's translation of dplyr code to SQL.",
+   "queries": [
+    "DBI dbConnect dbGetQuery dbWriteTable",
+    "dbplyr show_query sql translation tbl",
+    "RSQLite RPostgres odbc driver connection",
+    "duckdb R package dbExecute arrow"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Functional programming, iteration and pipes",
+   "scope": "The apply family (lapply, sapply, vapply, mapply, rapply, tapply), Map/Reduce/Filter/Position, do.call and Vectorize, purrr map variants, and the magrittr pipe operators.",
+   "queries": [
+    "lapply sapply vapply mapply simplify",
+    "Reduce Filter Map Position accumulate",
+    "purrr map_dbl map2 pmap imap list_rbind",
+    "magrittr pipe operator assignment tee exposition"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Parallel and distributed computing",
+   "scope": "The parallel package (mclapply, parLapply, makeCluster, L'Ecuyer RNG streams), snow, foreach/doParallel, future/furrr, mirai and BiocParallel.",
+   "queries": [
+    "parallel mclapply parLapply makeCluster detectCores",
+    "foreach dopar doParallel registerDoParallel",
+    "future plan multisession furrr future_map",
+    "mirai daemons clusterSetRNGStream BiocParallel"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Model formulas and regression fitting",
+   "scope": "The formula language (~, :, *, ^, I(), offset), model.frame/model.matrix, contrasts, lm/glm/nls/anova/predict in stats, and formula-based mixed, additive and survival models in lme4, nlme, mgcv and survival.",
+   "queries": [
+    "lm glm family link formula model.matrix",
+    "contrasts contr.treatment contr.sum options",
+    "lme4 lmer glmer random effects formula",
+    "survival coxph Surv survfit mgcv gam"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Probability distributions and random number generation",
+   "scope": "The d/p/q/r distribution functions and their parameterizations, set.seed and RNGkind (Mersenne-Twister, L'Ecuyer-CMRG, the sample.kind change), normal.kind, and sample().",
+   "queries": [
+    "dnorm pnorm qnorm rnorm lower.tail log.p",
+    "RNGkind Mersenne-Twister sample.kind Rejection",
+    "set.seed normal.kind Inversion Box-Muller",
+    "rbinom rgamma shape rate scale parameterization"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Matrices, arrays and linear algebra",
+   "scope": "Building and operating on matrices and arrays (%*%, crossprod, outer, aperm), solve/qr/chol/svd/eigen, BLAS/LAPACK configuration, and the Matrix package's dense and sparse classes.",
+   "queries": [
+    "matrix crossprod solve qr chol svd",
+    "BLAS LAPACK La_library OpenBLAS R",
+    "Matrix package dgCMatrix sparseMatrix",
+    "array aperm outer apply dim dimnames"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Time series classes and forecasting packages",
+   "scope": "Base ts objects (frequency, window, lag, arima, stl), zoo/xts indexed series, the forecast package, and the tidyverts packages (tsibble, fable, feasts).",
+   "queries": [
+    "ts frequency start window stats arima",
+    "zoo xts index rollapply na.locf",
+    "forecast auto.arima ets Hyndman",
+    "tsibble fable feasts model forecast"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Spatial data analysis packages",
+   "scope": "Vector and raster geospatial packages (sf, sp, terra, raster, stars), their links to GDAL/PROJ/GEOS/s2, and the 2023 retirement of rgdal, rgeos and maptools.",
+   "queries": [
+    "sf st_read st_transform simple features",
+    "terra rast vect raster package",
+    "rgdal rgeos maptools retirement 2023 sp evolution",
+    "GDAL PROJ GEOS s2 spherical geometry sf_use_s2"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Bioconductor project and core infrastructure",
+   "scope": "Bioconductor's release cycle and BiocManager, core classes (SummarizedExperiment, GenomicRanges, IRanges, Biostrings, ExpressionSet), and flagship analysis packages such as DESeq2, edgeR and limma.",
+   "queries": [
+    "Bioconductor release BiocManager install version",
+    "SummarizedExperiment GenomicRanges IRanges GRanges",
+    "DESeq2 edgeR limma differential expression",
+    "Biostrings DNAStringSet ExpressionSet Biobase"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Machine learning frameworks",
+   "scope": "R machine learning ecosystems and algorithm packages: tidymodels (parsnip, recipes, rsample, tune, workflows), caret, mlr3, glmnet, randomForest/ranger, xgboost, e1071 and torch/keras.",
+   "queries": [
+    "tidymodels parsnip recipes workflows tune",
+    "caret train trainControl preProcess",
+    "mlr3 learner task resampling benchmark",
+    "glmnet alpha lambda ranger randomForest mtry"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Installation, startup configuration and package libraries",
+   "scope": "Installing R and packages, startup files (Rprofile.site, .Rprofile, .Renviron), environment variables, options(), Rscript and R command-line flags, .libPaths and repositories, and project environments with renv and pak.",
+   "queries": [
+    "Rprofile.site Renviron startup R_ENVIRON_USER",
+    "Rscript command line --vanilla commandArgs",
+    "install.packages repos lib .libPaths R_LIBS_USER",
+    "renv snapshot restore lockfile pak"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "IDEs, debugging and profiling tools",
+   "scope": "IDE features in RStudio, Positron and ESS, the debugging functions (browser, debug, debugonce, trace, traceback, recover), profiling (Rprof, profvis), benchmarking (bench, microbenchmark), and linting/formatting with lintr and styler.",
+   "queries": [
+    "browser debugonce trace recover traceback",
+    "Rprof summaryRprof profvis flame graph",
+    "microbenchmark bench mark system.time",
+    "lintr styler RStudio Positron IDE"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "History, governance and implementations of R",
+   "scope": "R's origins in S at Bell Labs and with Ihaka and Gentleman in Auckland, the R Core Team, R Foundation and R Consortium, CRAN growth, useR! and The R Journal, the base and recommended package set, and alternative implementations and distributions (Renjin, FastR, pqR, TERR, Microsoft R Open, webR).",
+   "queries": [
+    "Ross Ihaka Robert Gentleman Auckland S language",
+    "R Foundation R Core Team R Consortium",
+    "Renjin FastR pqR TERR implementation",
+    "Microsoft R Open Revolution Analytics webR"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Interoperability with other languages",
+   "scope": "Bridges between R and other runtimes: reticulate (Python), rpy2, rJava, JuliaCall, V8 (JavaScript), Rserve, and type conversion between them.",
+   "queries": [
+    "reticulate use_python py_install virtualenv",
+    "rJava .jcall .jnew JVM",
+    "rpy2 Rserve JuliaCall V8 JavaScript",
+    "reticulate r_to_py type conversion numpy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HTTP, web APIs, JSON and web scraping",
+   "scope": "HTTP requests with httr/httr2 and curl, JSON with jsonlite, XML/HTML parsing and scraping with xml2 and rvest, and building web APIs with plumber.",
+   "queries": [
+    "httr2 request req_perform req_retry",
+    "jsonlite fromJSON toJSON simplifyVector auto_unbox",
+    "rvest read_html html_elements html_table",
+    "plumber API annotations endpoint pr_run"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Built-in datasets package",
+   "scope": "The datasets that ship with base R (iris, mtcars, airquality, ToothGrowth, Titanic, etc.): their dimensions, variables, units and original sources.",
+   "queries": [
+    "mtcars Motor Trend 1974 datasets",
+    "iris Anderson Fisher datasets R",
+    "airquality ozone New York 1973",
+    "ToothGrowth Titanic esoph warpbreaks dataset"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Language syntax: operators, precedence, reserved words and control flow",
+   "scope": "The grammar of R as set out in the R Language Definition: operator precedence and associativity, reserved words, assignment operators, user-defined %op% infix operators, raw strings and backslash-lambda syntax, and how if/else, switch, for, while and repeat behave.",
+   "queries": [
+    "R operator precedence Syntax help page",
+    "reserved words R if else repeat function",
+    "switch fall through R Language Definition",
+    "raw string literal backslash lambda syntax R"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Optimization, root finding and numerical integration",
+   "scope": "Numerical solvers in base R and contributed packages: optim methods (Nelder-Mead, BFGS, CG, L-BFGS-B, SANN, Brent), nlm, nlminb, optimize, uniroot, polyroot, integrate and constrOptim, plus optimx, nloptr and the deSolve ODE solvers.",
+   "queries": [
+    "optim Nelder-Mead BFGS L-BFGS-B method control",
+    "uniroot tolerance extendInt root finding",
+    "integrate subdivisions rel.tol adaptive quadrature",
+    "nloptr deSolve ode solver lsoda"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Classical hypothesis tests, multiple comparisons and power analysis",
+   "scope": "Inference functions in the stats package, such as t.test, wilcox.test, chisq.test, fisher.test, ks.test, shapiro.test, cor.test, p.adjust methods and power.t.test/power.prop.test, covering their default arguments and the htest objects they return.",
+   "queries": [
+    "t.test Welch var.equal htest object",
+    "wilcox.test exact correct continuity correction",
+    "p.adjust holm hochberg BH BY methods",
+    "power.t.test fisher.test simulate.p.value"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Bayesian modeling and MCMC interfaces",
+   "scope": "R packages for Bayesian inference and MCMC sampling, including rstan, cmdstanr, brms, rstanarm, rjags/R2jags, nimble, MCMCpack, coda, bayesplot and loo, with their functions, sampler defaults, diagnostics and version history.",
+   "queries": [
+    "brms formula family prior set_prior",
+    "rstan sampler warmup iter chains defaults",
+    "coda gelman.diag effectiveSize mcmc",
+    "loo psis elpd cmdstanr install_cmdstan"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Survival analysis packages",
+   "scope": "Time-to-event analysis in R: Surv objects, survfit, coxph tie-handling methods, survreg distributions and cox.zph from the survival package, plus extensions such as survminer, flexsurv, cmprsk and rms.",
+   "queries": [
+    "Surv object coxph ties efron breslow",
+    "survfit Kaplan-Meier conf.type log",
+    "survreg dist weibull loglogistic",
+    "cox.zph flexsurvreg cmprsk cuminc"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Reproducible environments and pipeline tools: renv, targets and rocker",
+   "scope": "Tools for reproducible R projects: renv lockfiles, snapshot and restore, the earlier packrat and checkpoint, the targets and drake pipeline toolkits, dated Posit Package Manager snapshots and the Rocker Docker images.",
+   "queries": [
+    "renv snapshot restore lockfile renv.lock",
+    "targets tar_make tar_target pipeline",
+    "rocker docker images r-ver tidyverse",
+    "checkpoint packrat Posit Package Manager snapshot"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Code style, linting and static code analysis",
+   "scope": "R coding conventions and static tooling: the tidyverse and Google R style guides, lintr linters and .lintr configuration, the styler and Air formatters, codetools::checkUsage, and parse-data utilities such as getParseData.",
+   "queries": [
+    "lintr linters configuration .lintr file",
+    "styler style_file tidyverse_style strict",
+    "tidyverse style guide naming assignment",
+    "codetools checkUsage getParseData parse tokens"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

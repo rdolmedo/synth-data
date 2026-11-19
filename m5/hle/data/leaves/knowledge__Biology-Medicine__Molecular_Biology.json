@@ -1,0 +1,121 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Molecular Biology",
+ "target_leaves": 8,
+ "expected_problems": 71,
+ "leaves": [
+  {
+   "leaf": "Non-canonical genetic codes across lineages",
+   "scope": "Documented codon reassignments in specific clades (UGA\u2192Trp and AUA\u2192Met in some mitochondria, CUG\u2192Ser in certain yeasts, UAR\u2192Gln in ciliates) and the corresponding NCBI translation tables. A question could ask the solver to translate a short ORF under a stated lineage's code or to infer which table fits an observed peptide.",
+   "queries": [
+    "codon reassignment mitochondrial code",
+    "CTG clade serine codon",
+    "ciliate stop codon glutamine",
+    "alternative genetic code evolution"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Hypermodified tRNA nucleoside biosynthesis",
+   "scope": "Enzyme steps, intermediates and anticodon-loop positions for complex modifications such as wybutosine, queuosine, mcm5s2U and t6A. A question could ask how many enzymatic steps separate two intermediates, or which intermediate accumulates in a given knockout.",
+   "queries": [
+    "wybutosine biosynthesis TYW",
+    "queuosine transglycosylase tRNA",
+    "mcm5s2U Elongator complex",
+    "threonylcarbamoyladenosine t6A"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Programmed ribosomal frameshifting signals",
+   "scope": "Slippery heptamers, stimulatory pseudoknots and measured efficiencies at characterized \u22121/+1 frameshift and readthrough sites (bacterial release factor genes, antizyme, retroviral gag-pol). A question could ask for the frameshifted product or its length from a supplied sequence.",
+   "queries": [
+    "slippery sequence pseudoknot frameshift",
+    "antizyme +1 frameshifting",
+    "release factor 2 frameshift",
+    "stop codon readthrough efficiency"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Bacterial toxin-antitoxin type classification",
+   "scope": "Mechanistic criteria distinguishing TA types I\u2013VIII, the molecular target of each toxin, and the mode of antitoxin neutralization. A question could ask the solver to classify an unfamiliar system from a described mechanism or predict a deletion phenotype.",
+   "queries": [
+    "type III toxin-antitoxin ToxIN",
+    "mRNA interferase MazF",
+    "antitoxin neutralization mechanism",
+    "toxin antitoxin type classification"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Group I and group II intron splicing chemistry",
+   "scope": "Structural subclasses, cofactor requirements, branch-point versus exogenous-guanosine chemistry, lariat formation, and domain architecture (P1\u2013P9 versus DI\u2013DVI) including maturase and retrohoming activity. A question could ask which chemical step or product follows from a stated intron class and cofactor condition.",
+   "queries": [
+    "group II intron domain V",
+    "group I intron exogenous guanosine",
+    "intron maturase retrohoming",
+    "lariat branch point splicing"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Trans-splicing and RNA editing in kinetoplastids",
+   "scope": "Spliced-leader addition, guide-RNA-directed uridine insertion/deletion, the editosome subunits, and cryptogene sequences in trypanosomatid mitochondria. A question could ask the solver to derive an edited mRNA from a given gRNA anchor or count inserted uridines.",
+   "queries": [
+    "guide RNA uridine insertion",
+    "kinetoplastid editosome subunits",
+    "spliced leader trans-splicing",
+    "cryptogene pan-editing"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Restriction-modification enzyme recognition and cleavage",
+   "scope": "Catalogued recognition sequences, cut positions, methylation sensitivity and type I/II/III/IV subtype assignments for specific enzyme families, including interrupted palindromes and bipartite sites. A question could ask for fragment sizes or the number of cuts given a sequence and a named enzyme's documented specificity.",
+   "queries": [
+    "restriction enzyme recognition sequence",
+    "type I restriction modification subunits",
+    "methylation-dependent McrBC",
+    "nicking endonuclease specificity"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Ribosome rescue and stalled-complex quality control",
+   "scope": "Non-stop and no-go decay pathways: tmRNA/SmpB tagging peptides, alternative rescue factors ArfA/ArfB, Dom34\u2013Hbs1 and Rqc2-mediated CAT tailing. A question could ask what C-terminal tag or degradation outcome a stalled nascent chain receives in a specified organism or mutant.",
+   "queries": [
+    "tmRNA SmpB tagging peptide",
+    "ArfA ribosome rescue",
+    "Dom34 Hbs1 no-go decay",
+    "Rqc2 CAT tail"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

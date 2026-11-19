@@ -1,0 +1,130 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Biochemistry",
+ "target_leaves": 8,
+ "expected_problems": 72,
+ "leaves": [
+  {
+   "leaf": "Adenosylcobalamin radical enzyme mechanisms",
+   "scope": "Documented specifics of B12-dependent isomerases and eliminases: homolysis rate accelerations, cobalt coordination geometry (base-on/base-off, His-on), EPR signatures of cob(II)alamin\u2013substrate radical pairs, and which hydrogen is abstracted in each rearrangement. A question could give spectroscopic or deuterium-labelling data for one enzyme and ask which carbon skeleton migration product or radical intermediate follows.",
+   "queries": [
+    "adenosylcobalamin homolysis radical pair",
+    "base-off histidine-on cobalamin",
+    "glutamate mutase hydrogen migration",
+    "diol dehydratase EPR spectrum",
+    "cob(II)alamin substrate radical"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Archaeal one-carbon coenzymes and methanogenesis",
+   "scope": "Obscure structural and redox facts about coenzyme M, coenzyme B, methanofuran, tetrahydromethanopterin and F420: their redox potentials, biosynthetic precursors, and which enzyme step each carries a C1 unit through. A question could require tracing a labelled carbon or electron pair through the Wolfe cycle, or inferring which coenzyme pair forms the heterodisulfide in a given step.",
+   "queries": [
+    "coenzyme M heterodisulfide reductase",
+    "tetrahydromethanopterin methyl transfer",
+    "coenzyme F420 redox potential",
+    "methanofuran formylation",
+    "Wolfe cycle methanogenesis"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "tRNA wobble base modification chemistry",
+   "scope": "Detailed chemistry and enzymology of anticodon-loop modifications (queuosine, wybutosine, mcm5s2U, lysidine, agmatidine, i6A): the donors, sulfur-relay partners and decoding consequences of each. A question could give a modification's biosynthetic donor set or a mass shift and ask which codon set reading changes, or which precursor feeds the final modified nucleoside.",
+   "queries": [
+    "queuosine biosynthesis tRNA guanine",
+    "mcm5s2U thiolation pathway",
+    "lysidine agmatidine anticodon",
+    "wybutosine hypermodified nucleoside",
+    "anticodon wobble modification decoding"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Glycosaminoglycan sulfation codes and sulfotransferases",
+   "scope": "Which sulfotransferase and epimerase acts at which hydroxyl or amine of heparan, chondroitin, dermatan and keratan chains, the PAPS dependence, and the disaccharide nomenclature for sulfation patterns. A question could give a disaccharide composition analysis after enzymatic digestion and ask which modifying enzyme was missing, or which binding motif is lost.",
+   "queries": [
+    "heparan sulfate 3-O-sulfotransferase",
+    "glucuronyl C5 epimerase dermatan",
+    "PAPS sulfotransferase specificity",
+    "chondroitin sulfate disaccharide analysis",
+    "keratan sulfate GlcNAc 6-O-sulfation"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Kinetic isotope effects and transition state structure",
+   "scope": "Measured primary, secondary and binding isotope effects for specific enzymes, intrinsic versus observed KIE partitioning by commitment factors, and transition-state structures inferred from multiple-isotope analysis. A question could supply observed KIEs plus commitments and ask for the intrinsic value, hybridization at the reacting carbon, or whether tunnelling is implicated.",
+   "queries": [
+    "intrinsic kinetic isotope effect commitment",
+    "secondary deuterium isotope effect transition state",
+    "transition state analogue inhibitor nucleoside hydrolase",
+    "heavy enzyme isotope substitution",
+    "hydrogen tunnelling enzyme catalysis"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Nonribosomal peptide synthetase domain logic",
+   "scope": "Assembly-line facts: adenylation-domain specificity-conferring codes, condensation versus cyclization domains, epimerization and methylation domain placement, MbtH-like partner requirements, and thioesterase release chemistry. A question could present a domain architecture string and ask for the stereochemistry, macrocycle size, or residue identity of the product.",
+   "queries": [
+    "adenylation domain specificity code",
+    "nonribosomal peptide epimerization domain",
+    "thioesterase macrocyclization peptide",
+    "MbtH-like protein adenylation",
+    "condensation domain dual function"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Photosynthetic antenna pigment site energies",
+   "scope": "Site-specific facts about light-harvesting complexes: individual bacteriochlorophyll site energies, excitonic couplings, carotenoid S1/S2 lifetimes, and which pigment pair carries a given circular-dichroism or Stark feature. A question could combine a reported spectral shift with mutation or pigment-exchange data to deduce which pigment site or energy-transfer route is responsible.",
+   "queries": [
+    "Fenna-Matthews-Olson site energies",
+    "excitonic coupling bacteriochlorophyll dimer",
+    "carotenoid S1 state lifetime",
+    "LH2 B800 B850 energy transfer",
+    "Stark spectroscopy pigment protein"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Pre-1929 colloid-era protein and enzyme chemistry",
+   "scope": "Historical specialist facts from early twentieth-century biochemistry: superseded enzyme names and unit definitions, colloid-chemistry views of protein solutions, early isoelectric point and Hofmeister salt determinations, and the hydrolysis-based amino acid yields reported before chromatography. A question could ask which modern entity an obsolete term denotes, or convert a historically reported measurement into the modern parameter it anticipated.",
+   "queries": [
+    "colloidal behaviour proteins isoelectric",
+    "enzyme actions older nomenclature",
+    "Hofmeister series salting out protein",
+    "amino acid yields protein hydrolysis",
+    "lectures physical chemistry proteins"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

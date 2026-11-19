@@ -1,0 +1,901 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Electrical Engineering",
+ "weight": 0.014000000000000002,
+ "leaves": [
+  {
+   "leaf": "Linear circuit analysis and network theorems",
+   "scope": "Methods for analyzing and synthesizing linear electrical networks, including Kirchhoff's laws, Thevenin/Norton equivalents, nodal and mesh analysis, two-port parameters and classical network synthesis.",
+   "queries": [
+    "Thevenin Norton equivalent circuit theorem",
+    "two-port network parameters h-parameters ABCD",
+    "Tellegen theorem network topology graph",
+    "Foster Cauer network synthesis reactance function"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Passive components: resistors, capacitors and inductors",
+   "scope": "Discrete passive components as manufactured parts, including preferred value series, color and marking codes, dielectric classes, tolerances, ESR and construction types.",
+   "queries": [
+    "E12 E24 preferred number series resistors",
+    "ceramic capacitor class X7R C0G dielectric",
+    "electrolytic capacitor ESR ripple current tantalum",
+    "resistor color code tolerance temperature coefficient"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Semiconductor device physics of diodes, BJTs and MOSFETs",
+   "scope": "Physical operation and models of junction diodes, bipolar and field-effect transistors, including band diagrams, carrier transport, junction behavior and compact models such as Ebers-Moll and BSIM.",
+   "queries": [
+    "p-n junction depletion region built-in potential",
+    "Ebers-Moll model bipolar junction transistor",
+    "MOSFET threshold voltage body effect channel-length modulation",
+    "BSIM compact model SPICE MOSFET"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Operational amplifiers and analog amplifier circuits",
+   "scope": "Transistor and integrated amplifier circuits, op-amp specifications and classic IC part numbers, feedback topologies and power amplifier classes.",
+   "queries": [
+    "operational amplifier slew rate gain-bandwidth product",
+    "741 op-amp Fairchild Widlar history",
+    "amplifier classes A B AB C D efficiency",
+    "differential pair current mirror cascode amplifier"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analog filter approximations and topologies",
+   "scope": "Passive and active analog filter design, including Butterworth, Chebyshev, Bessel and elliptic approximations and topologies such as Sallen-Key, multiple-feedback, state-variable and image-parameter filters.",
+   "queries": [
+    "Butterworth Chebyshev elliptic filter approximation",
+    "Sallen-Key active filter topology",
+    "Bessel filter maximally flat group delay",
+    "constant k m-derived image parameter filter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electronic oscillators, timers and phase-locked loops",
+   "scope": "LC, RC and crystal oscillator circuits, timer ICs, phase-locked loops and frequency synthesizers, and the criteria and specifications that govern them.",
+   "queries": [
+    "Colpitts Hartley oscillator LC tank circuit",
+    "quartz crystal oscillator AT cut temperature",
+    "phase-locked loop charge pump fractional-N synthesizer",
+    "555 timer IC Signetics astable monostable"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analog-to-digital and digital-to-analog converters",
+   "scope": "Data converter architectures (SAR, flash, pipeline, delta-sigma, R-2R) and their performance metrics such as ENOB, SINAD, INL/DNL and figures of merit.",
+   "queries": [
+    "successive approximation ADC architecture",
+    "delta-sigma modulator oversampling noise shaping",
+    "flash pipeline ADC comparator stages",
+    "effective number of bits SINAD DAC linearity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Digital logic families and standard logic IC series",
+   "scope": "Logic families (RTL, DTL, TTL, ECL, CMOS, BiCMOS), their electrical characteristics, and standard IC series and part-number conventions such as 7400 and 4000.",
+   "queries": [
+    "7400 series TTL logic integrated circuits",
+    "4000 series CMOS logic family RCA",
+    "emitter-coupled logic ECL propagation delay",
+    "logic family noise margin fan-out voltage levels"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hardware description languages and programmable logic devices",
+   "scope": "VHDL, Verilog and SystemVerilog with their IEEE standard revisions, and programmable logic hardware from PAL/GAL and CPLDs to FPGA architectures and vendor families.",
+   "queries": [
+    "VHDL IEEE 1076 standard revision",
+    "Verilog SystemVerilog IEEE 1364 1800",
+    "FPGA lookup table configurable logic block",
+    "programmable array logic PAL GAL CPLD"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Integrated circuit fabrication and process technology nodes",
+   "scope": "Semiconductor manufacturing steps and process generations, including lithography, doping, deposition, etching, wafer sizes and transistor structures such as FinFET and gate-all-around.",
+   "queries": [
+    "photolithography extreme ultraviolet wafer stepper",
+    "FinFET gate-all-around process node nanometer",
+    "ion implantation chemical vapor deposition wafer",
+    "TSMC 5 nm 3 nm process technology"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Semiconductor memory technologies and DRAM standards",
+   "scope": "Volatile and nonvolatile memory devices and interface standards, including SRAM, DRAM and DDR/LPDDR/HBM generations, EPROM/EEPROM, NOR/NAND flash and emerging memories.",
+   "queries": [
+    "DDR4 DDR5 SDRAM JEDEC data rate",
+    "NAND flash multi-level cell TLC QLC",
+    "DRAM one-transistor cell capacitor refresh",
+    "ferroelectric RAM MRAM phase-change memory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Microcontroller families and embedded hardware",
+   "scope": "Microcontroller architectures, families and on-chip peripherals (8051, PIC, AVR, MSP430, ARM Cortex-M) used in embedded system hardware.",
+   "queries": [
+    "Intel 8051 microcontroller architecture registers",
+    "ARM Cortex-M0 M3 M4 instruction set",
+    "PIC microcontroller Microchip product family",
+    "AVR ATmega flash EEPROM peripherals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Serial buses and wired interface standards",
+   "scope": "Chip-to-chip and device interconnect standards such as I2C, SPI, UART/RS-232, RS-485, CAN, LIN, USB, PCI Express and HDMI, including signaling, data rates and framing.",
+   "queries": [
+    "I2C bus Philips clock speed addressing",
+    "RS-232 RS-485 serial voltage levels",
+    "CAN bus ISO 11898 frame arbitration",
+    "USB PCI Express generation data rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Printed circuit board design and electronic packaging",
+   "scope": "PCB materials, stackups and fabrication, IC package types, surface-mount and through-hole assembly, soldering processes and IPC/JEDEC packaging standards.",
+   "queries": [
+    "printed circuit board FR-4 copper layer stackup",
+    "integrated circuit package types QFP BGA DIP",
+    "surface-mount technology reflow soldering",
+    "IPC standard PCB class solder joint"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Power semiconductor devices",
+   "scope": "High-power switching devices including power diodes, thyristors, GTOs, triacs, power MOSFETs, IGBTs and wide-bandgap SiC and GaN transistors.",
+   "queries": [
+    "insulated-gate bipolar transistor IGBT structure",
+    "thyristor silicon-controlled rectifier gate turn-off",
+    "silicon carbide MOSFET breakdown voltage",
+    "gallium nitride HEMT power transistor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Switch-mode power converters, inverters and motor drives",
+   "scope": "DC-DC converter topologies, rectifiers, inverters and variable-frequency drives, with their modulation and control methods.",
+   "queries": [
+    "buck boost converter continuous conduction mode",
+    "flyback forward converter transformer topology",
+    "space vector pulse-width modulation inverter",
+    "variable frequency drive induction motor control"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rotating electric machines: motors and generators",
+   "scope": "Construction, equivalent circuits, characteristics and ratings of DC, induction, synchronous, stepper, brushless and reluctance machines.",
+   "queries": [
+    "induction motor slip squirrel-cage rotor",
+    "synchronous generator excitation armature reaction",
+    "brushless DC motor stepper motor windings",
+    "NEMA motor design letter frame size"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transformers and magnetic circuits",
+   "scope": "Power, distribution and instrument transformers, winding connections and vector groups, core materials and losses, and magnetic circuit analysis.",
+   "queries": [
+    "transformer vector group Dyn11 winding connection",
+    "grain-oriented silicon steel transformer core lamination",
+    "current transformer potential transformer accuracy class",
+    "magnetic hysteresis eddy current core loss"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Power system operation, load flow and frequency control",
+   "scope": "Operation of bulk power systems, including per-unit analysis, load flow, economic dispatch, frequency and voltage control, and major synchronous grid interconnections.",
+   "queries": [
+    "load flow Newton-Raphson power system analysis",
+    "automatic generation control grid frequency droop",
+    "synchronous grid interconnection Eastern ERCOT continental Europe",
+    "economic dispatch unit commitment per-unit system"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High-voltage AC transmission and HVDC links",
+   "scope": "Overhead and underground high-voltage transmission, including conductors, insulators, corona, voltage classes, and HVDC converter technology and notable HVDC projects.",
+   "queries": [
+    "HVDC link converter station thyristor valve",
+    "overhead power line ACSR conductor insulator",
+    "ultra high voltage 1100 kV transmission line",
+    "list of HVDC projects bipolar monopole"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Power system protection, switchgear and substation automation",
+   "scope": "Protective relaying schemes, ANSI/IEC device designations, circuit breakers, fuses and switchgear, and substation communication standards such as IEC 61850 and DNP3.",
+   "queries": [
+    "ANSI device numbers protective relay",
+    "distance protection differential relay zones",
+    "SF6 vacuum circuit breaker interrupting rating",
+    "IEC 61850 substation automation GOOSE"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Power quality, harmonics and power factor correction",
+   "scope": "Power-quality disturbances and their mitigation, including harmonics, voltage sags and swells, flicker, transients, power factor correction and IEEE/IEC limits.",
+   "queries": [
+    "total harmonic distortion IEEE 519 limits",
+    "voltage sag swell flicker power quality",
+    "power factor correction capacitor bank",
+    "active harmonic filter K-factor transformer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Building wiring codes, earthing systems and mains plugs",
+   "scope": "Electrical installation regulations (NEC, BS 7671, IEC 60364), earthing arrangements, residual-current protection, and national mains voltages, frequencies, plugs and sockets.",
+   "queries": [
+    "National Electrical Code NFPA 70 article",
+    "earthing system TN-S TN-C-S TT IT",
+    "AC power plugs and sockets types by country",
+    "residual-current device ground fault circuit interrupter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering electromagnetics and Maxwell's equations",
+   "scope": "Classical electromagnetic theory as taught to electrical engineers: Maxwell's equations and their history, boundary conditions, wave propagation in media, skin effect and electromagnetic energy flow.",
+   "queries": [
+    "Maxwell's equations displacement current differential form",
+    "skin depth conductor frequency formula",
+    "Poynting vector electromagnetic energy flux",
+    "Heaviside vector form Maxwell equations history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Antennas and radio-wave propagation",
+   "scope": "Antenna types, parameters and arrays, and radio propagation mechanisms such as ground wave, skywave, tropospheric scatter and path-loss models.",
+   "queries": [
+    "half-wave dipole antenna radiation resistance gain",
+    "Yagi-Uda antenna directors reflector",
+    "ionospheric skywave propagation layers F2",
+    "Friis transmission equation free-space path loss"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Microwave engineering, waveguides and transmission lines",
+   "scope": "Transmission-line theory and microwave components, including the Smith chart, impedance matching, S-parameters, waveguide modes and designations, and microwave vacuum tubes.",
+   "queries": [
+    "Smith chart impedance matching stub",
+    "rectangular waveguide TE10 mode cutoff WR-90",
+    "scattering parameters vector network analyzer",
+    "klystron magnetron traveling-wave tube"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "RF receiver and transmitter architecture",
+   "scope": "Radio transceiver design, including superheterodyne, direct-conversion and software-defined architectures, mixers, LNAs, noise figure, intermodulation and dynamic range.",
+   "queries": [
+    "superheterodyne receiver intermediate frequency image rejection",
+    "noise figure Friis formula cascaded stages",
+    "third-order intercept point intermodulation distortion",
+    "direct-conversion receiver mixer low-noise amplifier"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Digital signal processing: sampling, transforms and digital filters",
+   "scope": "Discrete-time signal processing, including sampling and aliasing, the z-transform, DFT/FFT algorithms, FIR/IIR filter design, window functions and multirate techniques.",
+   "queries": [
+    "Nyquist-Shannon sampling theorem aliasing",
+    "Cooley-Tukey FFT algorithm radix-2",
+    "window function Hamming Kaiser sidelobe",
+    "FIR IIR filter design bilinear transform"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Feedback control systems engineering",
+   "scope": "Classical and modern control theory: transfer functions, stability criteria, root locus and frequency-response methods, PID tuning, and state-space design and estimation.",
+   "queries": [
+    "Routh-Hurwitz stability criterion",
+    "Ziegler-Nichols PID tuning method",
+    "Nyquist Bode plot gain phase margin",
+    "state-space controllability LQR Kalman filter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Communication theory, modulation and channel coding",
+   "scope": "Information-theoretic limits, analog and digital modulation schemes, and error-correcting codes from Hamming and Reed-Solomon to turbo, LDPC and polar codes.",
+   "queries": [
+    "Shannon-Hartley channel capacity theorem",
+    "quadrature amplitude modulation constellation bit error",
+    "Reed-Solomon convolutional code Viterbi decoding",
+    "turbo codes LDPC polar codes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cellular and wireless network standards",
+   "scope": "Technical parameters and generations of mobile and wireless standards, including GSM, UMTS, LTE, 5G NR, IEEE 802.11 Wi-Fi, Bluetooth and Zigbee.",
+   "queries": [
+    "LTE 3GPP release frequency band",
+    "5G NR numerology subcarrier spacing",
+    "IEEE 802.11ax Wi-Fi amendment data rate",
+    "GSM TDMA timeslot frame structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Optical fiber communications and photonic devices",
+   "scope": "Optical fibers, laser and photodiode transceivers, optical amplifiers, wavelength-division multiplexing and the associated ITU-T standards and bands.",
+   "queries": [
+    "single-mode fiber ITU-T G.652 attenuation",
+    "erbium-doped fiber amplifier C band",
+    "dense wavelength division multiplexing ITU grid",
+    "laser diode photodiode optical transceiver"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radar systems and principles",
+   "scope": "Radar principles, the radar equation, waveforms and signal processing, frequency band designations, and historically notable radar systems.",
+   "queries": [
+    "radar equation range resolution",
+    "pulse-Doppler radar pulse repetition frequency",
+    "IEEE radar frequency band letter designations",
+    "Chain Home radar cavity magnetron history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Broadcast radio and television standards",
+   "scope": "Analog and digital broadcast systems and their technical parameters, including AM/FM, NTSC, PAL, SECAM, ATSC, DVB, ISDB and DAB.",
+   "queries": [
+    "NTSC PAL SECAM color subcarrier frequency",
+    "ATSC DVB-T ISDB-T digital television",
+    "FM broadcasting deviation pre-emphasis stereo pilot",
+    "DAB digital audio broadcasting band III"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Batteries and electrochemical energy storage",
+   "scope": "Battery chemistries, nominal cell voltages, standard sizes and designations, capacity and C-rate ratings, battery management, and supercapacitors.",
+   "queries": [
+    "lithium-ion battery cathode chemistry LFP NMC",
+    "battery sizes AA 18650 IEC designation",
+    "lead-acid nickel-metal hydride nominal cell voltage",
+    "supercapacitor energy density electric double-layer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photovoltaic and wind power electrical systems",
+   "scope": "Electrical aspects of solar and wind generation, including solar cell technologies and efficiency limits, MPPT and grid-tied inverters, and wind turbine generator types.",
+   "queries": [
+    "solar cell efficiency monocrystalline perovskite record",
+    "maximum power point tracking photovoltaic inverter",
+    "doubly-fed induction generator wind turbine",
+    "Shockley-Queisser limit solar cell"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Railway electrification and electric vehicle traction",
+   "scope": "Railway electrification systems and traction power supply, plus electric vehicle powertrains and charging connector standards.",
+   "queries": [
+    "railway electrification 25 kV 50 Hz overhead",
+    "third rail 750 V DC traction",
+    "CHAdeMO CCS Type 2 charging connector",
+    "15 kV 16.7 Hz railway traction current"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electrical measurement, instrumentation and transducers",
+   "scope": "Test and measurement instruments, measurement bridges, sensors and transducers, safety categories, and electrical metrology standards.",
+   "queries": [
+    "Wheatstone bridge Kelvin bridge measurement",
+    "oscilloscope bandwidth rise time probe",
+    "thermocouple type K J T color code",
+    "Josephson voltage standard quantum Hall resistance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electromagnetic compatibility and interference",
+   "scope": "EMC emission and immunity requirements and test standards, shielding, filtering, grounding for EMI control, and electrostatic discharge.",
+   "queries": [
+    "CISPR 32 emission limits class B",
+    "FCC Part 15 unintentional radiator",
+    "electrostatic discharge IEC 61000-4-2 immunity",
+    "ferrite bead common-mode choke shielding"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of electrical engineering and vacuum tube electronics",
+   "scope": "Key inventors, inventions and milestones of electrical engineering, from telegraphy and the war of the currents to thermionic vacuum tubes and their type designations.",
+   "queries": [
+    "war of the currents Edison Westinghouse Tesla",
+    "Audion triode de Forest vacuum tube",
+    "vacuum tube designation 12AX7 pentode",
+    "IEEE Milestones electrical engineering history"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Microprocessor architecture and instruction set architectures",
+   "scope": "General-purpose CPU instruction sets (x86, ARM, MIPS, SPARC, PowerPC, RISC-V), microarchitecture features such as pipelining, caches and out-of-order execution, and the specifications of landmark processors.",
+   "queries": [
+    "x86 instruction set extensions SSE AVX introduced",
+    "RISC-V base integer ISA ratified extensions",
+    "ARM architecture version Cortex core pipeline stages",
+    "Intel 8086 microprocessor transistor count clock speed"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "CMOS VLSI digital circuit design and design-for-test",
+   "scope": "Transistor-level and physical design of digital CMOS chips: static and dynamic logic styles, logical effort, standard cells, lambda layout rules, clock distribution, timing closure, and scan and boundary-scan testing.",
+   "queries": [
+    "CMOS static logic gate sizing logical effort",
+    "lambda based layout design rules Mead Conway",
+    "scan chain design for testability stuck-at fault",
+    "JTAG IEEE 1149.1 boundary scan TAP controller"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Circuit simulation, SPICE models and electronic design automation",
+   "scope": "SPICE and the simulators built on it, device model levels and parameters, simulation analyses and numerical methods, netlist syntax, and the history and tool categories of EDA.",
+   "queries": [
+    "SPICE Berkeley Nagel Pederson circuit simulator history",
+    "SPICE MOSFET model level BSIM parameters",
+    "SPICE netlist transient analysis options syntax",
+    "electronic design automation place and route history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Linear voltage regulators, voltage references and power management ICs",
+   "scope": "Linear series regulators and LDOs, shunt regulators, Zener and bandgap references, and classic regulator ICs (78xx, LM317, TL431, LM723) with their specifications and application formulas.",
+   "queries": [
+    "LM317 adjustable regulator reference voltage output formula",
+    "low dropout regulator LDO dropout voltage stability",
+    "bandgap voltage reference Widlar Brokaw circuit",
+    "TL431 shunt regulator reference datasheet"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electric lighting: lamps, ballasts and photometry",
+   "scope": "Incandescent, halogen, fluorescent, high-intensity discharge and LED light sources, their ballasts and drivers, lamp base standards, and photometric quantities such as luminous efficacy, CCT and CRI.",
+   "queries": [
+    "fluorescent lamp ballast starter preheat rapid start",
+    "high pressure sodium metal halide lamp efficacy",
+    "Edison screw lamp base designation E27 E26",
+    "color rendering index correlated color temperature LED"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electronic display technologies",
+   "scope": "CRT, LCD (TN, IPS, VA), plasma, OLED/AMOLED, electronic paper and microLED displays, covering their physics, backplanes, drive electronics, backlighting and key inventions.",
+   "queries": [
+    "liquid crystal display twisted nematic IPS invention",
+    "plasma display panel phosphor gas discharge cell",
+    "AMOLED active matrix thin film transistor backplane",
+    "cathode ray tube shadow mask aperture grille Trinitron"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Image sensors and digital camera electronics",
+   "scope": "CCD and CMOS image sensors, pixel architectures (pinned photodiode, backside illumination), color filter arrays, optical formats, and readout, shutter and noise characteristics.",
+   "queries": [
+    "charge coupled device invented Boyle Smith Bell Labs",
+    "CMOS active pixel sensor pinned photodiode",
+    "Bayer filter color filter array demosaicing",
+    "image sensor optical format inch crop factor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Magnetic and optical data storage",
+   "scope": "Hard disk drives, magnetic tape and floppy disks, and optical discs (CD, DVD, Blu-ray), covering recording physics, head technologies, channel codes and format specifications.",
+   "queries": [
+    "hard disk perpendicular recording giant magnetoresistance head",
+    "compact disc EFM pit length laser wavelength",
+    "Blu-ray disc numerical aperture layer capacity",
+    "LTO linear tape open generation capacity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Applied superconductivity and superconducting electronics",
+   "scope": "Josephson junctions and voltage standards, SQUIDs, superconducting magnet conductors, superconducting fault current limiters and power cables, and single-flux-quantum logic.",
+   "queries": [
+    "Josephson junction voltage standard constant",
+    "SQUID magnetometer DC RF superconducting",
+    "superconducting magnet NbTi Nb3Sn wire coil",
+    "rapid single flux quantum logic RSFQ"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High-voltage insulation, dielectric breakdown and lightning protection",
+   "scope": "Breakdown in gas, liquid and solid insulation (Paschen's law, partial discharge, SF6), impulse generators and test waveforms, line insulators, insulation coordination, and lightning protection of structures.",
+   "queries": [
+    "Paschen law breakdown voltage minimum air",
+    "Marx generator lightning impulse 1.2/50 waveform",
+    "partial discharge measurement insulation testing",
+    "lightning protection system rolling sphere method"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Overhead line conductors and power cables",
+   "scope": "Overhead conductor types (AAC, AAAC, ACSR with its code names, ACCC), sag and ampacity, underground and submarine cable construction (XLPE, oil-filled, mass-impregnated), and conductor sizing systems such as AWG and kcmil.",
+   "queries": [
+    "ACSR conductor code names Drake Falcon",
+    "XLPE high voltage cable insulation construction",
+    "submarine power cable mass impregnated HVDC",
+    "American wire gauge diameter kcmil table"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electric power distribution networks and smart metering",
+   "scope": "Medium- and low-voltage distribution feeders and voltage classes, reclosers and sectionalizers, voltage regulators, distribution automation, and electricity meters from induction watt-hour meters to AMI smart meters.",
+   "queries": [
+    "distribution feeder recloser sectionalizer coordination",
+    "induction watt hour meter rotating disc",
+    "advanced metering infrastructure smart meter communication",
+    "distribution voltage primary feeder 12.47 kV"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electricity markets, grid operators and reliability regulation",
+   "scope": "Wholesale electricity markets and their design, ISOs/RTOs and TSOs, locational marginal pricing, capacity markets, NERC reliability standards and FERC orders, and investigations of major blackouts.",
+   "queries": [
+    "independent system operator regional transmission organization FERC Order",
+    "locational marginal pricing day ahead market",
+    "NERC reliability standards interconnections regions",
+    "Northeast blackout 2003 cause task force report"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electrical safety, electric shock and arc-flash hazards",
+   "scope": "Physiological effects of current through the body (let-go and fibrillation thresholds, IEC 60479), touch and step voltage, arc-flash incident energy and PPE categories (NFPA 70E, IEEE 1584), and lockout/tagout.",
+   "queries": [
+    "electric shock current threshold ventricular fibrillation IEC 60479",
+    "arc flash incident energy IEEE 1584 calculation",
+    "NFPA 70E PPE category arc rating",
+    "step potential touch potential grounding safety"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial electroheat and electrochemical processes",
+   "scope": "Induction, dielectric and microwave heating, resistance and electric arc furnaces, arc welding power sources, and large electrolytic processes such as Hall-Héroult aluminium smelting and chlor-alkali.",
+   "queries": [
+    "induction heating frequency skin depth furnace",
+    "electric arc furnace graphite electrodes steelmaking power",
+    "Hall Heroult process cell voltage aluminium",
+    "arc welding power source constant current voltage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Programmable logic controllers, SCADA and industrial automation",
+   "scope": "PLC hardware and programming (ladder logic, IEC 61131-3 languages), industrial fieldbuses and protocols (Modbus, PROFIBUS, DeviceNet, PROFINET), SCADA and DCS architectures, and the history of industrial controllers.",
+   "queries": [
+    "IEC 61131-3 ladder diagram structured text languages",
+    "Modicon 084 first programmable logic controller",
+    "PROFIBUS PROFINET fieldbus industrial Ethernet",
+    "SCADA distributed control system RTU architecture"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Satellite communications and link budgets",
+   "scope": "Communication satellite orbits, frequency bands (C, Ku, Ka), transponders, earth station antennas, link budget quantities (EIRP, G/T, C/N0), and landmark satellites and satellite systems.",
+   "queries": [
+    "communications satellite transponder bandwidth C band Ku band",
+    "satellite link budget EIRP G/T",
+    "geostationary orbit altitude Clarke belt",
+    "Telstar Syncom Early Bird communications satellite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radio navigation aids and GNSS signals",
+   "scope": "Ground-based navaids (VOR, DME, ILS, NDB, LORAN, Omega) and satellite navigation signal structures, carrier frequencies, ranging codes and constellations of GPS, GLONASS, Galileo and BeiDou.",
+   "queries": [
+    "GPS L1 C/A code chip rate frequency",
+    "VOR DME frequency band aircraft navigation",
+    "instrument landing system localizer glide slope frequency",
+    "LORAN-C hyperbolic navigation pulse chain"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Wireline telephony, digital carrier systems and DSL",
+   "scope": "Subscriber loops and signaling (DTMF, ringing, loop current), telephone switching systems, PCM digital carrier hierarchies (T1/E1, SONET/SDH), ISDN, and DSL variants with their rates and band plans.",
+   "queries": [
+    "T-carrier T1 DS1 frame bit rate",
+    "DTMF dual tone frequencies keypad",
+    "SONET SDH optical carrier STM-1 rate",
+    "ADSL VDSL frequency band downstream rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "RFID, NFC and wireless power transfer",
+   "scope": "Passive and active RFID bands and air-interface protocols (EPC Gen2, ISO 14443, ISO 15693), NFC and contactless smart cards, and inductive and resonant wireless power standards such as Qi.",
+   "queries": [
+    "RFID frequency bands LF HF UHF tag",
+    "EPC Gen2 UHF RFID ISO 18000-6C protocol",
+    "near field communication 13.56 MHz ISO 14443",
+    "Qi wireless charging inductive coupling standard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radio spectrum allocation, band designations and regulation",
+   "scope": "ITU band nomenclature and regions, IEEE and NATO letter band designations, ISM bands, frequency allocation tables, and spectrum regulation such as FCC Part 15 and World Radiocommunication Conference decisions.",
+   "queries": [
+    "ITU radio band designations VLF HF UHF",
+    "ISM band frequencies 902 MHz 2.4 GHz",
+    "IEEE letter band designation microwave frequency",
+    "FCC Part 15 unlicensed devices rules"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Audio electronics and electroacoustic transducers",
+   "scope": "Microphone and loudspeaker types and parameters (Thiele/Small, crossovers, phantom power), phonograph and tape equalization, analog noise reduction systems, and professional audio interconnect standards.",
+   "queries": [
+    "Thiele Small parameters loudspeaker enclosure",
+    "condenser ribbon microphone phantom power 48 V",
+    "RIAA equalization curve phonograph time constants",
+    "Dolby noise reduction cassette tape bias"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biomedical instrumentation and medical electronics",
+   "scope": "Biopotential measurement (ECG lead systems, EEG, EMG), electrodes and instrumentation amplifiers, pacemakers and defibrillators, and medical electrical safety standards such as IEC 60601.",
+   "queries": [
+    "electrocardiogram Einthoven triangle lead system",
+    "implantable cardiac pacemaker pacing code NBG",
+    "defibrillator biphasic waveform energy joules",
+    "IEC 60601 leakage current patient applied part"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reliability and failure mechanisms of electronic components",
+   "scope": "Reliability metrics and prediction (MTBF, FIT, bathtub curve, MIL-HDBK-217), accelerated life testing, and physical failure mechanisms such as electromigration, time-dependent dielectric breakdown, tin whiskers and solder-joint fatigue.",
+   "queries": [
+    "electromigration Black equation activation energy",
+    "MIL-HDBK-217 reliability prediction failure rate FIT",
+    "tin whiskers lead free solder failure",
+    "highly accelerated life test HALT HAST"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

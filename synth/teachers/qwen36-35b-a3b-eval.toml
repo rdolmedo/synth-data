@@ -1,0 +1,93 @@
+# AA evals M3.3 (#176): Qwen3.6-35B-A3B (reasoning) as a model under test, 1xB200 per replica, 128k context (M3.0).
+# B200 variant of qwen36-35b-a3b-eval-h100: vLLM's default B200 attention for FP8 KV (FlashInfer TRTLLM-gen, FP8
+# query; served BPB +0.00028 vs FP8 weights, bf16 query halves B200 decode in #15), a 160 GiB CPU tier, B200 bid.
+# Hybrid MoE: 30 Gated-DeltaNet + 10 full-attention layers (2 KV heads x 256 dims: 10 KiB of FP8 KV per token), 256
+# experts top-8 (3B active), one MTP layer. Official Qwen FP8 checkpoint (block-128 W8A8 on the linear/expert weights).
+# Start point: the qwen38-27b-eval-h100 recipe (#70/#111: vLLM 0.32, bf16 GDN state, CPU KV tier, MTP, admission
+# gate) with Qwen3.5's H100 FP8-KV attention (eval_q35 fp8kv, #15: FlashInfer with a bf16 query). Sampling: Qwen's
+# "thinking mode for general tasks" (model card). Study and numbers: aa_evals/qwenserve/README.md (Qwen3.6 section).
+slug = "qwen36-35b-a3b-eval"
+model = "Qwen/Qwen3.6-35B-A3B"
+revision = "Qwen/Qwen3.6-35B-A3B-FP8 (local copy 2026-04-28; config.json sha256 570ef7ea45a7e1d3...)"
+checkpoint = "/data/aai/models/qwen3.6-35b-a3b-fp8"
+served_name = "qwen36-35b-a3b"
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+env = { HF_HUB_OFFLINE = "1", HF_HUB_DISABLE_XET = "1", VLLM_MAX_MEDIA_REQUEST_DECODE_BYTES = "2147483648", VLLM_USE_SIMPLE_KV_OFFLOAD = "1", PYTHONPATH = "/data/aai/tbench/vllm_plugins/cpu_supersede_v2", SYNTH_CPU_SUPERSEDE = "1", VLLM_ENGINE_READY_TIMEOUT_S = "3600" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--max-model-len", "{max_model_len}", "--tensor-parallel-size", "1", "--gpu-memory-utilization", "{gpu_util}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--enable-chunked-prefill", "--enable-auto-tool-choice",
+  "--tool-call-parser", "qwen3_coder", "--reasoning-parser", "qwen3", "--generation-config", "vllm", "--seed", "{seed}",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"top_k":20,"min_p":0.0,"presence_penalty":1.5,"repetition_penalty":1.0,"max_tokens":{max_output_tokens},"stop_token_ids":[248046,248044]}}',
+  "--default-chat-template-kwargs", '{{"enable_thinking":true,"preserve_thinking":true}}',
+  "--limit-mm-per-prompt", '{{"image":256,"video":0}}', "--mm-processor-kwargs", '{{"max_pixels":4194304}}',
+  "--no-enable-log-requests", "--kv-cache-dtype", "{kv_dtype}", "--mamba-ssm-cache-dtype", "{ssm_dtype}",
+  "--enable-prompt-tokens-details",
+]
+seed = 0
+startup_timeout_sec = 3600
+
+[serving.tunables]
+gpu_util = 0.92
+kv_dtype = "fp8_e4m3"
+ssm_dtype = "bfloat16"
+flashinfer_bf16q = 0     # B200: vLLM default (TRTLLM-gen); 1 = FlashInfer with a bf16 query (the H100 path)
+mtp = 3   # t1/t2 replays: MTP3 >= MTP2 at every level (B200 +4-21%, H100 +0-8%); MTP0 -9 to -17% on H100
+max_seqs = 128
+max_batched = 16384
+omp_threads = 8
+kv_offloading_size = 160   # GiB of pinned host RAM
+
+[serving.optional_args]
+flashinfer_bf16q = ["--attention-backend", "FLASHINFER", "--attention-config", '{{"disable_flashinfer_q_quantization":true}}']
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+
+[request]
+client_model = "hosted_vllm/qwen36-35b-a3b"
+pi_thinking = "high"
+overrides = { temperature = 1.0, top_p = 0.95, top_k = 20, min_p = 0.0, presence_penalty = 1.5, repetition_penalty = 1.0, chat_template_kwargs = { enable_thinking = true, preserve_thinking = true } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true, preserve_thinking = true }
+tokenize_crosscheck = "native"
+
+[serving_resources]
+# #378 (2026-11-14): sized from the job cgroup (task_synthesis/serve/reslog.py), RAM ~1.25x the non-reclaimable peak (rss + shmem + dirty; page cache is reclaimed, never held), CPUs = RAM/16 (free under max(CPUs, GB/16)); /data/aai/aa_evals/audits/server_shapes_20261114/report.md
+cpus_per_gpu = 15
+memory_gib_per_gpu = 240   # 160 GiB pinned CPU KV tier + engine: peak 184 GiB with images (aa-m36-qwen36, condor RSS); was 16 / 320
+cuda_capability = "10.0"   # B200
+disk_gib = 120
+bid_per_job = { 1 = 61 }   # B200 (#176)
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "cpu404", "gpu110", "gpu123", "gpu132", "gpu143", "gpu166"]
+
+[worker_resources]
+slots = 11
+cpus = 20
+memory_gib = 320
+disk_gib = 1024
+bid = 56
+exclude_nodes = ["gpu132", "cpu101"]
+
+[admission]
+initial_limit_per_backend = 40
+maximum_limit_per_backend = 64
+emergency_kv_high = 0.72
+resume_kv = 0.55

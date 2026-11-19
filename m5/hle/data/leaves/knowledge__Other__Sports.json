@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Sports",
+ "target_leaves": 8,
+ "expected_problems": 37,
+ "leaves": [
+  {
+   "leaf": "Nineteenth-century cricket laws and scorecards",
+   "scope": "Successive MCC law revisions (round-arm and overarm bowling legalisation, changes in balls per over, follow-on margins, lbw wording) and early match records in Lillywhite's guides and Victorian cricket memoirs. A question could apply the law in force in a given year to a described match situation, or rebuild a total or average from period scorecards.",
+   "queries": [
+    "MCC laws of cricket 1835",
+    "Lillywhite cricketers guide",
+    "Pycroft cricket field",
+    "round-arm bowling controversy",
+    "four-ball over follow-on"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Early football codes before 1886",
+   "scope": "The texts of the Cambridge, Sheffield, Rugby School, Eton field game and 1863 Football Association rules: hacking, fair catch, rouges, offside variants, and scoring by goals versus tries. A question could apply one code's rules to a described sequence of play to work out the result, or compare how rival codes would rule on the same incident.",
+   "queries": [
+    "Sheffield rules football 1858",
+    "Cambridge rules football 1856",
+    "Football Association laws 1863",
+    "Rugby School football rules",
+    "rouge Eton field game"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Culin's ethnography of Native American games",
+   "scope": "Stewart Culin's 1907 Bureau of American Ethnology survey of games: stick dice and their counting values, hoop-and-pole, chunkey, the hand game, and tribal variants of lacrosse and shinny, all recorded by tribe and linguistic stock. A question could compute a scoring outcome from a recorded counting scheme, or count and compare how widely an implement or rule appears across stocks.",
+   "queries": [
+    "Culin games North American Indians",
+    "hoop and pole game",
+    "chunkey stone game",
+    "stick dice counting values",
+    "Bureau American Ethnology games"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Discontinued events in 1896-1924 Olympics",
+   "scope": "Official reports and Spalding almanac results for events later dropped, such as the standing jumps, tug of war, plunge for distance, rope climbing and club swinging, including period units, entry counts and winning marks. A question could convert imperial marks, compare winning performances across Games, or count medallists under period eligibility rules.",
+   "queries": [
+    "Spalding official athletic almanac",
+    "standing high jump Olympic",
+    "Olympic games 1908 official report",
+    "tug of war Olympic",
+    "plunge for distance swimming"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Antitrust and labor law in professional sports",
+   "scope": "US case law on baseball's antitrust exemption, the reserve clause, the Rozelle Rule, the nonstatutory labor exemption and league single-entity defenses, with each court's holding, vote split and cited precedents. A question could trace which earlier ruling a later court relied on or distinguished, or work out how a described league practice would fare under the controlling test.",
+   "queries": [
+    "baseball antitrust exemption",
+    "reserve clause injunction",
+    "Rozelle rule Mackey",
+    "nonstatutory labor exemption",
+    "Federal Baseball Club Baltimore"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Aerodynamics of sports balls in flight",
+   "scope": "Measured drag-crisis Reynolds numbers, wind-tunnel drag and lift coefficients for particular match balls, seam-orientation effects in cricket conventional and reverse swing, knuckleball instability, and how lift depends on spin. A question could use the reported coefficients to estimate a critical speed, lateral deflection or range change for a given launch.",
+   "queries": [
+    "drag crisis soccer ball",
+    "cricket ball reverse swing",
+    "knuckleball aerodynamics",
+    "Magnus lift coefficient spin",
+    "golf ball dimple drag"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Statistical rating models for sports results",
+   "scope": "Published parameters of sports rating systems: Elo K-factors and home-advantage terms, Glicko rating deviation and volatility, Bradley-Terry fits, sport-specific Pythagorean expectation exponents, and Duckworth-Lewis-Stern resource tables. A question could compute an updated rating, an expected win probability or a revised target from the specified model.",
+   "queries": [
+    "Pythagorean expectation exponent",
+    "Elo rating association football",
+    "Bradley-Terry sports ranking",
+    "Duckworth Lewis resources",
+    "Glicko rating volatility"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Altitude and hypoxic training physiology",
+   "scope": "Study findings on live-high train-low and intermittent hypoxia protocols: altitude and daily-hours dose thresholds, hemoglobin-mass gains per week of exposure, the time course of erythropoietin, and how responders differ from non-responders. A question could combine a reported dose-response rate with a described camp to estimate the expected hematological change, or compare outcomes between protocols.",
+   "queries": [
+    "live high train low",
+    "hemoglobin mass altitude camp",
+    "intermittent hypoxic training",
+    "erythropoietin altitude athletes",
+    "normobaric hypoxia endurance"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  }
+ ]
+}

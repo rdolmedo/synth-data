@@ -1,0 +1,483 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "History of philosophy",
+ "weight": 0.007375499999999999,
+ "leaves": [
+  {
+   "leaf": "Presocratic philosophers and their fragments",
+   "scope": "Milesians, Pythagoreans, Xenophanes, Heraclitus, the Eleatics, Empedocles, Anaxagoras and the atomists, including their doxographical sources and Diels–Kranz fragment numbering.",
+   "queries": [
+    "Thales Anaximander Anaximenes Miletus arche apeiron",
+    "Pythagoras Philolaus Archytas Pythagoreans Croton",
+    "Heraclitus Parmenides fragments Diels Kranz Elea",
+    "Empedocles Anaxagoras Leucippus Democritus atoms void"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sophists, Socrates and the minor Socratic schools",
+   "scope": "Protagoras, Gorgias, Prodicus and the other sophists; Socrates' life, trial and the accounts of him by Plato, Xenophon and Aristophanes; and the Cynic, Cyrenaic, Megarian and Elean-Eretrian schools.",
+   "queries": [
+    "Protagoras Gorgias Prodicus Hippias sophists fees",
+    "trial of Socrates 399 BC accusers Meletus Anytus",
+    "Antisthenes Diogenes of Sinope Crates Cynic",
+    "Aristippus Cyrenaic school Euclid of Megara Stilpo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plato's dialogues and the Old Academy",
+   "scope": "The Platonic corpus (Thrasyllan tetralogies, Stephanus pagination, chronology, spurious dialogues and the Letters), its dramatic settings and speakers, and Plato's successors Speusippus, Xenocrates, Polemon and Crantor.",
+   "queries": [
+    "Plato dialogues Stephanus pagination Thrasyllus tetralogies",
+    "Plato Seventh Letter Syracuse Dion Dionysius",
+    "Speusippus Xenocrates Polemon Old Academy scholarch",
+    "Republic Timaeus Phaedo interlocutors dramatic date"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aristotle's corpus and the Peripatetic school",
+   "scope": "Aristotle's works and their Bekker numbering, the Organon and Andronicus of Rhodes' edition, the Lyceum, and the Peripatetic heads and commentators from Theophrastus and Strato to Alexander of Aphrodisias.",
+   "queries": [
+    "Aristotle Bekker numbering Corpus Aristotelicum works",
+    "Organon Categories Prior Analytics Andronicus of Rhodes",
+    "Theophrastus Strato of Lampsacus Lyceum Peripatetic scholarch",
+    "Alexander of Aphrodisias commentator De anima intellect"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stoicism from the Stoa Poikile to the Roman Stoics",
+   "scope": "Early, Middle and Roman Stoicism (Zeno of Citium, Cleanthes, Chrysippus, Panaetius, Posidonius, Seneca, Musonius Rufus, Epictetus, Marcus Aurelius), including the terms of Stoic logic, physics and ethics.",
+   "queries": [
+    "Zeno of Citium Cleanthes Chrysippus Stoa scholarch",
+    "Stoic logic lekta indemonstrables Chrysippus Diodorus",
+    "Panaetius Posidonius Middle Stoa Rhodes",
+    "Epictetus Discourses Enchiridion Arrian Marcus Aurelius Meditations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Epicureanism and Hellenistic skepticism",
+   "scope": "The Epicurean Garden (Epicurus, Metrodorus, Hermarchus, Lucretius, Philodemus, Diogenes of Oenoanda), Pyrrhonism (Pyrrho, Timon, Aenesidemus, Agrippa, Sextus Empiricus) and the skeptical Academy (Arcesilaus, Carneades, Philo of Larissa).",
+   "queries": [
+    "Epicurus Letter to Menoeceus Principal Doctrines Garden",
+    "Lucretius De rerum natura Philodemus Herculaneum papyri",
+    "Pyrrho Timon Aenesidemus ten modes Sextus Empiricus",
+    "Arcesilaus Carneades Academic skepticism Philo of Larissa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Middle Platonism, Neoplatonism and Byzantine Platonism",
+   "scope": "Platonism from Alcinous, Numenius and Plotinus through Porphyry, Iamblichus, Proclus, Damascius and the Alexandrian commentators to Byzantine figures such as Psellos, Plethon and Bessarion.",
+   "queries": [
+    "Plotinus Enneads Porphyry One Intellect Soul",
+    "Proclus Elements of Theology Iamblichus theurgy",
+    "Damascius Simplicius Athens school closure 529 Justinian",
+    "Michael Psellos Gemistos Plethon Byzantine Platonism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Patristic and early medieval Latin philosophy",
+   "scope": "Augustine, Boethius, Cassiodorus, Isidore, the Latin reception of Pseudo-Dionysius, the Carolingian revival (Alcuin, Fredegisus, Gottschalk) and John Scottus Eriugena, up to the eleventh-century dialectic controversies.",
+   "queries": [
+    "Augustine Confessions City of God Cassiciacum dialogues",
+    "Boethius Consolation of Philosophy Isagoge translation",
+    "John Scottus Eriugena Periphyseon Pseudo-Dionysius",
+    "Carolingian Alcuin Fredegisus Gottschalk predestination controversy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Arabic falsafa and the Graeco-Arabic translation movement",
+   "scope": "The Abbasid translations (Hunayn ibn Ishaq, House of Wisdom) and the falasifa from al-Kindi, al-Farabi and Avicenna to the Andalusians Ibn Bajja, Ibn Tufayl and Averroes.",
+   "queries": [
+    "Hunayn ibn Ishaq House of Wisdom translation",
+    "al-Kindi al-Farabi Second Teacher virtuous city",
+    "Avicenna Kitab al-Shifa floating man necessary existent",
+    "Averroes long commentaries Ibn Tufayl Hayy ibn Yaqzan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kalam and post-Avicennan Islamic philosophy",
+   "scope": "Mu'tazilite, Ash'arite and Maturidi theology, al-Ghazali's critique of the philosophers, and later traditions including Fakhr al-Din al-Razi, Nasir al-Din al-Tusi, Suhrawardi's Illuminationism and the School of Isfahan of Mir Damad and Mulla Sadra.",
+   "queries": [
+    "Mutazila five principles Ashari Maturidi kalam",
+    "al-Ghazali Incoherence of the Philosophers twenty propositions",
+    "Suhrawardi Illuminationism Hikmat al-Ishraq",
+    "Mulla Sadra School of Isfahan Mir Damad"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Jewish philosophy",
+   "scope": "Jewish philosophers from Saadia Gaon and Isaac Israeli through Ibn Gabirol, Judah Halevi, Abraham ibn Daud, Maimonides, Gersonides, Hasdai Crescas and Joseph Albo, including the Maimonidean controversies.",
+   "queries": [
+    "Saadia Gaon Book of Beliefs and Opinions",
+    "Maimonides Guide for the Perplexed thirteen principles",
+    "Ibn Gabirol Fons Vitae Judah Halevi Kuzari",
+    "Gersonides Wars of the Lord Crescas Albo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early and high scholasticism",
+   "scope": "Latin scholasticism from Anselm, Abelard and the twelfth-century schools, through Peter Lombard's Sentences, the universities and the mendicant masters (Albert, Bonaventure, Aquinas, Siger of Brabant), to the Condemnations of 1277.",
+   "queries": [
+    "Anselm Proslogion ontological argument Gaunilo Monologion",
+    "Peter Abelard Sic et Non Peter Lombard Sentences",
+    "Thomas Aquinas Summa theologiae five ways",
+    "Condemnation of 1277 Tempier Siger of Brabant"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Late medieval scholasticism and terminist logic",
+   "scope": "Fourteenth- and fifteenth-century thought (Duns Scotus, Ockham, Buridan, Nicholas of Autrecourt, the Oxford Calculators, the via moderna) and medieval logic (Peter of Spain, supposition theory, obligationes, insolubilia).",
+   "queries": [
+    "Duns Scotus univocity haecceity formal distinction",
+    "William of Ockham razor nominalism Summa logicae",
+    "Jean Buridan Oxford Calculators Merton College impetus",
+    "Peter of Spain Summulae logicales supposition obligationes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Renaissance philosophy and Second Scholasticism",
+   "scope": "Fifteenth- and sixteenth-century philosophy (Cusanus, Ficino and the Florentine Academy, Pico, Pomponazzi, Telesio, Bruno, Campanella, Ramus, Montaigne) and Iberian Second Scholasticism (Vitoria, Las Casas, Molina, Suarez, the Salamanca and Coimbra schools).",
+   "queries": [
+    "Marsilio Ficino Florentine Platonic Academy Pico Oration",
+    "Pomponazzi immortality of the soul Padua Aristotelianism",
+    "Giordano Bruno Campanella Telesio Renaissance natural philosophy",
+    "Francisco Suárez Disputationes metaphysicae School of Salamanca"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Descartes and Cartesianism",
+   "scope": "Descartes' works, correspondence and Objections and Replies (cited by Adam–Tannery volume and page), and the Cartesians and their critics: Malebranche, Arnauld and the Port-Royal Logic, Regius, Clauberg, Geulincx and Gassendi.",
+   "queries": [
+    "Descartes Meditations Objections and Replies Mersenne",
+    "Descartes Discourse on Method Principles of Philosophy",
+    "Malebranche occasionalism Search after Truth Arnauld",
+    "Port-Royal Logic Geulincx Regius Clauberg Cartesianism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spinoza and Leibniz",
+   "scope": "Spinoza's life, Ethics and Tractatus Theologico-Politicus, and Leibniz's metaphysics, writings (Monadology, Discourse on Metaphysics, Theodicy, New Essays) and correspondence with Arnauld, Clarke and De Volder.",
+   "queries": [
+    "Spinoza Ethics geometrical order Tractatus Theologico-Politicus",
+    "Spinoza herem Amsterdam Rijnsburg Opera posthuma",
+    "Leibniz Monadology Discourse on Metaphysics pre-established harmony",
+    "Leibniz Clarke correspondence Theodicy New Essays"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early modern political philosophy and natural law",
+   "scope": "Sovereignty, natural law and social contract theory from Machiavelli and Bodin through Grotius, Hobbes, Pufendorf, Locke's Two Treatises and Montesquieu to Rousseau.",
+   "queries": [
+    "Hobbes Leviathan state of nature De Cive",
+    "Grotius De jure belli ac pacis Pufendorf",
+    "Locke Two Treatises of Government Filmer Patriarcha",
+    "Rousseau Social Contract general will Discourse on Inequality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "British philosophy from Locke to Reid",
+   "scope": "Locke's Essay, Berkeley, and Hume's Treatise and Enquiries, together with the Cambridge Platonists and the moral sense and common sense philosophers Shaftesbury, Hutcheson, Butler, Adam Smith and Thomas Reid.",
+   "queries": [
+    "Locke Essay Concerning Human Understanding primary secondary qualities",
+    "Berkeley esse est percipi Principles Three Dialogues",
+    "Hume Treatise of Human Nature Enquiry causation",
+    "Hutcheson moral sense Thomas Reid common sense"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "French Enlightenment and the philosophes",
+   "scope": "Eighteenth-century French philosophy, including Bayle, Voltaire, Diderot and d'Alembert's Encyclopédie, Condillac, La Mettrie, Helvétius, d'Holbach and Condorcet, and the salons and controversies around them.",
+   "queries": [
+    "Diderot d'Alembert Encyclopédie contributors volumes",
+    "Voltaire Philosophical Letters Candide Cirey",
+    "La Mettrie L'homme machine d'Holbach materialism",
+    "Condillac Treatise on Sensations Helvétius De l'esprit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Women philosophers from Christine de Pizan to Wollstonecraft",
+   "scope": "Women philosophers of roughly 1400–1800, such as Christine de Pizan, Elisabeth of Bohemia, Margaret Cavendish, Anne Conway, Mary Astell, Damaris Masham, Catharine Trotter Cockburn, Sor Juana Inés de la Cruz, Émilie du Châtelet and Mary Wollstonecraft: their works, correspondence and reception.",
+   "queries": [
+    "Elisabeth of Bohemia Margaret Cavendish Anne Conway",
+    "Mary Astell Serious Proposal to the Ladies Masham",
+    "Émilie du Châtelet Institutions de physique Newton translation",
+    "Mary Wollstonecraft Vindication Christine de Pizan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kant's pre-critical and critical philosophy",
+   "scope": "Kant's life in Königsberg, his pre-critical writings, the three Critiques (A/B editions, Akademie-Ausgabe pagination), the Prolegomena, Groundwork and later works, with their structure and terminology.",
+   "queries": [
+    "Critique of Pure Reason transcendental deduction second edition",
+    "Kant Groundwork categorical imperative formulations",
+    "Kant pre-critical Inaugural Dissertation 1770 Königsberg",
+    "Critique of Judgment sublime Akademie Ausgabe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "German Idealism and post-Kantian philosophy",
+   "scope": "Reinhold, Jacobi and the Pantheism controversy, Maimon, Fichte, Schelling, the Jena circle and Hegel's works (Phenomenology, Science of Logic, Encyclopaedia, Philosophy of Right), up to the split of the Hegelian school.",
+   "queries": [
+    "Pantheism controversy Jacobi Mendelssohn Reinhold Elementarphilosophie",
+    "Fichte Wissenschaftslehre Jena atheism dispute",
+    "Schelling System of Transcendental Idealism Naturphilosophie",
+    "Hegel Phenomenology of Spirit Science of Logic Encyclopaedia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Young Hegelians, Marx and Western Marxism",
+   "scope": "The Left Hegelians (Strauss, Bruno Bauer, Feuerbach, Stirner), the philosophical writings of Marx and Engels, and Western Marxist and Frankfurt School philosophy (Lukács, Korsch, Gramsci, Horkheimer, Adorno, Marcuse, Benjamin, Habermas).",
+   "queries": [
+    "Young Hegelians Feuerbach Essence of Christianity Stirner Bauer",
+    "Marx Economic Philosophic Manuscripts 1844 Theses on Feuerbach",
+    "Institute for Social Research Frankfurt Horkheimer Adorno",
+    "Lukacs History and Class Consciousness Gramsci Prison Notebooks"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Schopenhauer, Kierkegaard and Nietzsche",
+   "scope": "The works, editions and key concepts of Schopenhauer, Kierkegaard and Nietzsche, including Kierkegaard's pseudonymous authorship and the history of Nietzsche's Nachlass and the Colli–Montinari edition.",
+   "queries": [
+    "Schopenhauer World as Will and Representation fourfold root",
+    "Kierkegaard pseudonyms Johannes Climacus Either Or",
+    "Nietzsche Birth of Tragedy Zarathustra eternal recurrence",
+    "Nietzsche Nachlass Förster-Nietzsche Colli Montinari edition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Utilitarianism and British idealism",
+   "scope": "The classical utilitarians (Bentham, James Mill, J. S. Mill, Sidgwick), Victorian debates in logic and ethics, and the British idealists (T. H. Green, F. H. Bradley, Bosanquet, Caird, McTaggart).",
+   "queries": [
+    "Bentham felicific calculus Principles of Morals and Legislation",
+    "John Stuart Mill System of Logic On Liberty",
+    "Henry Sidgwick Methods of Ethics egoism",
+    "Bradley Appearance and Reality Green McTaggart idealism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "American philosophy: transcendentalism and pragmatism",
+   "scope": "American thought from Jonathan Edwards, Emerson and the Transcendentalists through the Metaphysical Club, the pragmatists Peirce, James, Dewey and Mead, and Royce's absolute idealism.",
+   "queries": [
+    "Metaphysical Club Peirce pragmatic maxim Fixation of Belief",
+    "William James Principles of Psychology Varieties Religious Experience",
+    "John Dewey instrumentalism Experience and Nature Chicago",
+    "Emerson Transcendental Club Nature essay Concord"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Logic and early analytic philosophy from Boole to the Vienna Circle",
+   "scope": "Algebraic logic (Boole, De Morgan, Jevons), Frege, Peano, Russell, Moore, Whitehead, Wittgenstein's Tractatus, the Vienna Circle, the Berlin Group and the Lvov–Warsaw school.",
+   "queries": [
+    "Boole Laws of Thought De Morgan algebraic logic",
+    "Frege Begriffsschrift Grundgesetze Russell paradox letter",
+    "Principia Mathematica Whitehead Russell volumes",
+    "Vienna Circle Schlick Carnap Neurath Tractatus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neo-Kantianism, phenomenology and existentialism",
+   "scope": "German and French philosophy of roughly 1870–1960: the Marburg and Southwest neo-Kantians, Dilthey, Brentano and his school, Husserl, Scheler, Heidegger, Gadamer, Jaspers, Sartre, Beauvoir, Merleau-Ponty and Camus.",
+   "queries": [
+    "Brentano Husserl Logical Investigations intentionality",
+    "Heidegger Being and Time Dasein Freiburg",
+    "Sartre Being and Nothingness Beauvoir Merleau-Ponty",
+    "Marburg school Cohen Natorp Windelband Rickert neo-Kantianism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structuralism and post-structuralism",
+   "scope": "French theory from the 1950s to the 1990s, building on Saussure: Lévi-Strauss, Barthes, Lacan, Althusser, Foucault, Derrida, Deleuze, Lyotard and Kristeva, with their key texts, journals and institutions (ENS, Collège de France, Vincennes).",
+   "queries": [
+    "Levi-Strauss structural anthropology Saussure langue parole",
+    "Foucault Order of Things episteme Collège de France",
+    "Derrida Of Grammatology différance deconstruction",
+    "Deleuze Guattari Anti-Oedipus Lyotard Postmodern Condition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hindu darsanas, Jain philosophy and Carvaka",
+   "scope": "The classical Indian schools Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa and Vedanta (Shankara, Ramanuja, Madhva), plus Jain philosophy and Carvaka/Lokayata materialism, with their sutras, commentators and technical terms.",
+   "queries": [
+    "Nyaya Sutras pramana inference Navya-Nyaya Gangesa",
+    "Samkhya Karika Ishvarakrishna purusha prakriti gunas",
+    "Advaita Vedanta Shankara Ramanuja Vishishtadvaita Madhva",
+    "Jain anekantavada syadvada Charvaka Lokayata"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Buddhist philosophy in India, Tibet and East Asia",
+   "scope": "The Abhidharma schools, Madhyamaka (Nagarjuna, Candrakirti), Yogacara (Asanga, Vasubandhu), the Dignaga–Dharmakirti epistemological tradition, Tibetan scholasticism (Tsongkhapa), and East Asian schools from Tiantai, Huayan and Chan/Zen to Dogen and the Kyoto School.",
+   "queries": [
+    "Nagarjuna Mulamadhyamakakarika emptiness Candrakirti Prasangika",
+    "Vasubandhu Asanga Yogacara Abhidharmakosa",
+    "Dignaga Dharmakirti Pramanavarttika Buddhist epistemology",
+    "Dogen Shobogenzo Kyoto School Nishida Kitaro"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Chinese philosophy of the Hundred Schools",
+   "scope": "Pre-Qin and early Han thought: Confucius, Mencius, Xunzi, Laozi, Zhuangzi, Mozi and the Later Mohist canons, the School of Names, Legalism (Shang Yang, Han Feizi), Yin-Yang thought and Dong Zhongshu, with the texts, chapters and their transmission.",
+   "queries": [
+    "Analects Confucius disciples Mencius Xunzi human nature",
+    "Daodejing Laozi Guodian Zhuangzi inner chapters",
+    "Mozi Later Mohist canons Gongsun Long School of Names",
+    "Han Feizi Shang Yang Legalism Jixia Academy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neo-Confucianism in China, Korea and Japan",
+   "scope": "Song–Ming Neo-Confucianism (Zhou Dunyi, the Cheng brothers, Zhu Xi, Lu Jiuyuan, Wang Yangming), Qing evidential scholarship, Korean Neo-Confucianism (Yi Hwang, Yi I, the Four-Seven debate) and Tokugawa Confucianism and Kokugaku (Hayashi Razan, Ito Jinsai, Ogyu Sorai, Motoori Norinaga).",
+   "queries": [
+    "Zhu Xi Cheng Yi li qi Four Books",
+    "Wang Yangming liangzhi unity knowledge action",
+    "Four-Seven debate Yi Hwang Toegye Yi I Yulgok",
+    "Ogyu Sorai Ito Jinsai Kokugaku Motoori Norinaga"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "African and Africana philosophy",
+   "scope": "Ethiopian philosophy (Zera Yacob's Hatata, Walda Heywat), Anton Wilhelm Amo, ethnophilosophy (Tempels, Kagame) and the debates over professional African philosophy (Hountondji, Wiredu, Oruka's sage philosophy), Ubuntu, and Africana thinkers such as Du Bois, Fanon and the négritude writers.",
+   "queries": [
+    "Zera Yacob Hatata Ethiopian philosophy Walda Heywat",
+    "Anton Wilhelm Amo Halle Wittenberg dissertation",
+    "Placide Tempels Bantu Philosophy ethnophilosophy Hountondji",
+    "Kwasi Wiredu Odera Oruka sage philosophy Ubuntu"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1359 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Physics",
+ "weight": 0.021,
+ "leaves": [
+  {
+   "leaf": "Analytical mechanics, rigid-body rotation and non-inertial frames",
+   "scope": "Lagrangian and Hamiltonian formalisms and their named theorems, rigid-body dynamics of tops and gyroscopes, and fictitious forces in rotating reference frames.",
+   "queries": [
+    "Noether theorem Lagrangian conserved quantity symmetry",
+    "Hamilton-Jacobi equation canonical transformation Poisson bracket",
+    "Euler equations rigid body tennis racket theorem",
+    "Foucault pendulum Coriolis force precession latitude"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Special relativity: kinematics, paradoxes and experimental tests",
+   "scope": "Lorentz transformations, relativistic kinematics and dynamics, named thought-experiment paradoxes, and historical and modern experimental tests of special relativity.",
+   "queries": [
+    "Michelson-Morley experiment interferometer 1887 null result",
+    "Ives-Stilwell Kennedy-Thorndike experiment time dilation",
+    "Thomas precession Wigner rotation Lorentz group",
+    "Bell spaceship paradox Ehrenfest paradox rigid rotation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "General relativity: exact solutions, black holes and classical tests",
+   "scope": "Exact spacetime solutions, black hole properties and thermodynamics, and experimental and observational tests of general relativity and the equivalence principle.",
+   "queries": [
+    "Kerr metric ergosphere rotating black hole solution",
+    "Bekenstein-Hawking entropy Hawking radiation black hole temperature",
+    "Pound-Rebka experiment gravitational redshift Shapiro delay",
+    "Gravity Probe B frame dragging geodetic effect"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gravitational-wave detectors and detected events",
+   "scope": "Interferometric, resonant-bar, space-based and pulsar-timing detection of gravitational waves, covering detector design, observing runs and catalogued events.",
+   "queries": [
+    "GW150914 binary black hole merger LIGO detection",
+    "GW170817 neutron star merger kilonova Virgo",
+    "LIGO Virgo KAGRA interferometer arm length sensitivity",
+    "pulsar timing array NANOGrav LISA space detector"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical electromagnetism: laws, radiation and unit systems",
+   "scope": "Maxwell's equations and the named laws of electricity and magnetism with their history, radiation from moving charges, radiation reaction, and the Gaussian, Heaviside-Lorentz and SI unit conventions.",
+   "queries": [
+    "Liénard-Wiechert potentials Larmor formula radiated power",
+    "Abraham-Lorentz force radiation reaction electron",
+    "Gaussian units Heaviside-Lorentz SI Maxwell equations comparison",
+    "Ørsted Ampère Faraday induction 1831 history electromagnetism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical optics: interference, diffraction, polarization and aberrations",
+   "scope": "Wave-optics phenomena, named interferometers, diffraction regimes and resolution limits, polarization optics, lens aberrations and optical glass parameters.",
+   "queries": [
+    "Fabry-Pérot interferometer finesse free spectral range",
+    "Fresnel Fraunhofer diffraction Airy disk Rayleigh criterion",
+    "Brewster angle Malus law Jones calculus Stokes parameters",
+    "Seidel aberrations coma astigmatism Abbe number"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lasers and nonlinear optics",
+   "scope": "Laser gain media and their wavelengths, cavity and pulsing techniques, the history of the maser and laser, and nonlinear optical effects and crystals.",
+   "queries": [
+    "list of laser types gain medium wavelength",
+    "Maiman ruby laser 1960 Townes maser history",
+    "mode-locking Q-switching Kerr lens titanium sapphire",
+    "second harmonic generation phase matching BBO KDP crystal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum optics and cavity QED",
+   "scope": "Nonclassical states of light, photon statistics and correlation experiments, two-photon interference, entangled-photon sources, and light-matter coupling in optical and microwave cavities.",
+   "queries": [
+    "Hong-Ou-Mandel effect two-photon interference dip",
+    "photon antibunching Hanbury Brown Twiss experiment",
+    "Jaynes-Cummings model vacuum Rabi splitting cavity",
+    "squeezed light spontaneous parametric down-conversion entangled photons"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical thermodynamics and kinetic theory of gases",
+   "scope": "The laws and potentials of thermodynamics, heat-engine cycles, real-gas equations of state, and the kinetic theory of gases including transport coefficients and the Boltzmann equation.",
+   "queries": [
+    "Carnot Stirling Otto cycle efficiency heat engine",
+    "Maxwell relations thermodynamic potentials Gibbs Helmholtz",
+    "van der Waals equation critical constants virial coefficients",
+    "Boltzmann H-theorem mean free path transport coefficients"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical mechanics: lattice models, phase transitions and critical phenomena",
+   "scope": "Exactly solved and standard lattice models, critical exponents and universality classes, the renormalization group, and topological phase transitions.",
+   "queries": [
+    "Ising model Onsager solution critical temperature",
+    "critical exponents universality class three-dimensional Ising values",
+    "Kosterlitz-Thouless transition XY model vortices",
+    "Potts model six-vertex model Baxter exactly solved"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fluid dynamics, turbulence and hydrodynamic instabilities",
+   "scope": "The Navier-Stokes and related equations, dimensionless numbers, boundary layers and wakes, turbulence theory and scaling, and named hydrodynamic instabilities.",
+   "queries": [
+    "dimensionless numbers fluid mechanics Reynolds Prandtl Strouhal",
+    "Kolmogorov 1941 turbulence energy cascade scaling",
+    "Rayleigh-Taylor Kelvin-Helmholtz instability interface",
+    "Kármán vortex street Blasius boundary layer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Acoustics and the physics of sound",
+   "scope": "Sound propagation in different media, sound level scales, resonators and musical acoustics, room acoustics, and underwater and ultrasonic acoustics.",
+   "queries": [
+    "speed of sound in materials table",
+    "Sabine reverberation time formula room acoustics",
+    "Helmholtz resonator end correction organ pipe",
+    "SOFAR channel underwater sound propagation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonlinear dynamics, chaos and solitons",
+   "scope": "Chaotic maps and flows, bifurcation routes and universal constants, Hamiltonian chaos and KAM theory, and integrable nonlinear waves and solitons.",
+   "queries": [
+    "Lorenz attractor parameters sigma rho beta",
+    "Feigenbaum constants logistic map period doubling",
+    "KAM theorem Hamiltonian chaos standard map",
+    "Korteweg-de Vries soliton Fermi-Pasta-Ulam-Tsingou problem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History and foundations of quantum mechanics",
+   "scope": "The old quantum theory and its key experiments, founding papers and conferences, competing interpretations, no-go theorems, and Bell-inequality tests.",
+   "queries": [
+    "Stern-Gerlach Franck-Hertz Davisson-Germer experiment",
+    "Solvay conference 1927 Bohr-Einstein debates",
+    "CHSH inequality Aspect experiment loophole-free Bell test",
+    "Kochen-Specker theorem hidden variables de Broglie-Bohm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum mechanics formalism: named theorems, solvable potentials and approximation methods",
+   "scope": "The mathematical formalism of nonrelativistic quantum mechanics, exactly solvable potentials, approximation schemes, and named theorems and geometric phases.",
+   "queries": [
+    "Morse potential Pöschl-Teller exactly solvable Schrödinger equation",
+    "WKB approximation connection formulas tunneling",
+    "Hellmann-Feynman theorem Wigner-Eckart theorem",
+    "Berry phase adiabatic theorem geometric phase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum computing hardware and quantum error correction",
+   "scope": "Physical qubit platforms and their coherence and gate benchmarks, quantum error-correcting codes and thresholds, and landmark quantum-advantage experiments.",
+   "queries": [
+    "transmon qubit superconducting circuit coherence time",
+    "trapped ion qubit hyperfine ytterbium calcium",
+    "surface code threshold logical qubit error correction",
+    "Sycamore quantum supremacy 53 qubits random circuit sampling"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atomic structure and spectroscopy",
+   "scope": "Atomic energy-level structure, fine and hyperfine splitting, effects of external fields, spectral series and term notation, coupling schemes and selection rules.",
+   "queries": [
+    "hydrogen spectral series Lyman Balmer Paschen Brackett",
+    "Lamb shift Retherford hyperfine 21 cm line",
+    "Zeeman effect Paschen-Back Stark effect",
+    "term symbol Hund's rules LS coupling jj coupling"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Laser cooling, Bose-Einstein condensates and ultracold gases",
+   "scope": "Laser cooling and trapping techniques and their temperature limits, the creation of Bose-Einstein condensates and degenerate Fermi gases, Feshbach resonances, and quantum simulation in optical lattices.",
+   "queries": [
+    "Doppler cooling limit Sisyphus cooling recoil temperature",
+    "Bose-Einstein condensate 1995 rubidium JILA sodium MIT",
+    "magneto-optical trap evaporative cooling Feshbach resonance",
+    "optical lattice superfluid Mott insulator transition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atomic clocks, SI units and fundamental constants",
+   "scope": "Time and frequency standards, the definitions of the SI base units and their 2019 redefinition, practical realizations such as the Kibble balance, and CODATA values of fundamental constants.",
+   "queries": [
+    "caesium fountain clock hyperfine transition frequency definition second",
+    "optical clock strontium ytterbium aluminum ion uncertainty",
+    "2019 SI redefinition kilogram Kibble balance Planck constant",
+    "CODATA recommended values fundamental physical constants fine-structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Precision tests of fundamental physics: g-2, EDMs, exotic atoms and antimatter",
+   "scope": "Low-energy precision measurements that test QED and fundamental symmetries, covering magnetic moment anomalies, electric dipole moment limits, positronium and muonic atoms, antihydrogen and the neutron lifetime.",
+   "queries": [
+    "muon g-2 anomalous magnetic moment Fermilab Brookhaven",
+    "electron electric dipole moment limit ACME thorium monoxide",
+    "antihydrogen ALPHA ATRAP CERN antiproton decelerator",
+    "proton radius puzzle muonic hydrogen spectroscopy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear structure and nuclear models",
+   "scope": "Models of the nucleus, binding energies and the semi-empirical mass formula, magic numbers, nuclear spins and moments, isomers, and exotic nuclei near the drip lines.",
+   "queries": [
+    "nuclear shell model magic numbers spin-orbit Mayer Jensen",
+    "semi-empirical mass formula Weizsäcker coefficients",
+    "halo nucleus lithium-11 neutron drip line",
+    "nuclear isomer tantalum-180m half-life"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radioactive decay and nuclear reactions",
+   "scope": "Decay modes, decay chains and half-life systematics, the theory of alpha decay, fission and its discovery, and neutron interactions, cross sections and moderation.",
+   "queries": [
+    "decay chain thorium series uranium series radium",
+    "alpha decay Geiger-Nuttall law Gamow tunneling",
+    "nuclear fission Hahn Strassmann Meitner 1938",
+    "neutron cross section barn thermal capture moderator"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plasma physics and controlled fusion",
+   "scope": "Fundamental plasma parameters, plasma waves and magnetohydrodynamics, and the devices, criteria and record milestones of magnetic and inertial confinement fusion.",
+   "queries": [
+    "Debye length plasma frequency Alfvén wave",
+    "Lawson criterion triple product ignition",
+    "tokamak stellarator Wendelstein 7-X JET record",
+    "National Ignition Facility inertial confinement fusion gain"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Standard Model particles: properties and discovery history",
+   "scope": "The quarks, leptons, gauge bosons and Higgs boson, their masses and quantum numbers, and the experiments, laboratories and dates of their discovery.",
+   "queries": [
+    "top quark discovery 1995 CDF D0 Fermilab",
+    "W Z boson discovery UA1 UA2 1983",
+    "Higgs boson discovery 2012 ATLAS CMS mass",
+    "tau lepton Perl SLAC J/psi November Revolution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hadron physics and QCD",
+   "scope": "Quark-model classification of mesons and baryons, exotic hadrons, confinement and asymptotic behaviour of the strong force, lattice QCD results, and the quark-gluon plasma in heavy-ion collisions.",
+   "queries": [
+    "eightfold way Omega minus baryon discovery Gell-Mann",
+    "pentaquark tetraquark LHCb exotic hadron",
+    "quark-gluon plasma RHIC heavy ion collisions",
+    "lattice QCD hadron masses strong coupling constant"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Flavor physics and CP violation",
+   "scope": "Quark flavor mixing and CKM parameters, neutral-meson oscillations, the discovery and measurement of CP violation in kaon and B-meson systems, and rare flavor-changing decays.",
+   "queries": [
+    "CKM matrix Wolfenstein parametrization unitarity triangle",
+    "Cronin Fitch 1964 kaon CP violation",
+    "BaBar Belle B factory sin 2beta measurement",
+    "Bs meson oscillation rare decay LHCb"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neutrino physics",
+   "scope": "Neutrino oscillations and mixing parameters, solar, atmospheric, reactor and accelerator neutrino experiments, direct neutrino mass measurements, and searches for neutrinoless double beta decay.",
+   "queries": [
+    "solar neutrino problem Homestake Davis SNO",
+    "Super-Kamiokande atmospheric neutrino oscillation 1998",
+    "Daya Bay theta13 reactor neutrino mixing angle",
+    "KATRIN neutrino mass tritium endpoint"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum field theory: theorems, anomalies and renormalization",
+   "scope": "The formal structure of relativistic quantum field theory, covering named theorems, spontaneous symmetry breaking, quantum anomalies, renormalization and running couplings.",
+   "queries": [
+    "CPT theorem spin-statistics theorem Lüders Pauli",
+    "Goldstone theorem spontaneous symmetry breaking Higgs mechanism",
+    "chiral anomaly Adler-Bell-Jackiw neutral pion decay",
+    "asymptotic freedom beta function Gross Wilczek Politzer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Beyond the Standard Model: supersymmetry, grand unification and string theory",
+   "scope": "Proposed extensions of the Standard Model and frameworks for quantum gravity, including supersymmetry, grand unified theories and proton decay, extra dimensions, string theories, dualities and holography.",
+   "queries": [
+    "Georgi-Glashow SU(5) grand unified theory proton decay",
+    "minimal supersymmetric standard model superpartners",
+    "superstring theory critical dimension heterotic string",
+    "AdS/CFT correspondence Maldacena holographic principle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Particle accelerators and colliders",
+   "scope": "Accelerator principles and beam-optics technologies, and the design parameters and histories of specific cyclotrons, synchrotrons and colliders.",
+   "queries": [
+    "Large Hadron Collider circumference beam energy luminosity",
+    "cyclotron Lawrence synchrotron phase stability history",
+    "LEP Tevatron HERA collider parameters",
+    "strong focusing alternating gradient synchrotron Courant Snyder"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Particle detectors and detection techniques",
+   "scope": "Historic and modern technologies for detecting particles and radiation, and the subsystems and specifications of major collider experiments.",
+   "queries": [
+    "bubble chamber Glaser cloud chamber Wilson",
+    "multiwire proportional chamber Charpak drift chamber",
+    "Cherenkov detector RICH electromagnetic hadronic calorimeter",
+    "CMS ATLAS detector solenoid magnet field tesla"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cosmic rays and dark matter searches",
+   "scope": "Cosmic-ray discovery, composition, spectral features and air showers, ultra-high-energy observatories, and direct, indirect and axion searches for dark matter.",
+   "queries": [
+    "cosmic ray spectrum knee ankle GZK cutoff",
+    "Pierre Auger Observatory Oh-My-God particle ultra-high-energy",
+    "XENONnT LUX-ZEPLIN direct detection WIMP",
+    "axion dark matter search ADMX haloscope"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Crystallography and structural probes of matter",
+   "scope": "Classification of crystal lattices and symmetry, diffraction theory, and experimental structure probes including X-ray and neutron scattering facilities and electron and scanning-probe microscopes.",
+   "queries": [
+    "Bravais lattices space groups crystal systems",
+    "Bragg law Laue diffraction reciprocal lattice structure factor",
+    "synchrotron light source neutron spallation facility",
+    "scanning tunneling microscope Binnig Rohrer atomic force"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electronic band structure and semiconductor physics",
+   "scope": "Band theory of solids, material parameters of semiconductors, carrier transport, doping and recombination, and named electronic effects in semiconductors.",
+   "queries": [
+    "band gap silicon germanium gallium arsenide effective mass",
+    "Bloch theorem Kronig-Penney model nearly free electron",
+    "Hall effect carrier mobility semiconductor doping",
+    "Gunn effect Shockley-Read-Hall recombination exciton"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Superconductivity",
+   "scope": "Phenomenology and microscopic theory of superconductors, Josephson effects and SQUIDs, and the discovery history and critical parameters of superconducting material families.",
+   "queries": [
+    "BCS theory Cooper pair energy gap isotope effect",
+    "cuprate high temperature superconductor YBCO Bednorz Müller",
+    "Josephson effect SQUID magnetic flux quantum",
+    "hydride superconductor high pressure lanthanum critical temperature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Magnetism and spintronics",
+   "scope": "Types of magnetic order and exchange mechanisms, magnetic materials and their transition temperatures, magnetic excitations and textures, and spin-dependent electron transport.",
+   "queries": [
+    "Curie temperature ferromagnetic materials iron nickel cobalt",
+    "superexchange RKKY interaction antiferromagnetism Néel temperature",
+    "giant magnetoresistance Fert Grünberg spin valve",
+    "spin glass magnon magnetic skyrmion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum Hall effects, topological matter and mesoscopic transport",
+   "scope": "Integer and fractional quantum Hall effects, topological insulators and semimetals, graphene and moiré materials, and quantum transport in nanostructures.",
+   "queries": [
+    "integer fractional quantum Hall effect von Klitzing Laughlin",
+    "topological insulator Weyl semimetal Majorana",
+    "twisted bilayer graphene magic angle",
+    "Coulomb blockade conductance quantization quantum point contact"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Superfluidity and low-temperature physics",
+   "scope": "Superfluid helium-4 and helium-3, second sound and quantized vortices, the history of helium liquefaction, and cryogenic cooling techniques and records.",
+   "queries": [
+    "helium-4 lambda point superfluid Kapitza Allen Misener",
+    "superfluid helium-3 phases Osheroff Lee Richardson",
+    "dilution refrigerator adiabatic demagnetization millikelvin cooling",
+    "second sound fountain effect Kamerlingh Onnes liquefaction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Soft condensed matter and polymer physics",
+   "scope": "Liquid crystals, polymers, colloids, granular and active matter, with their characteristic phases, scaling laws and named theories.",
+   "queries": [
+    "liquid crystal phases nematic smectic cholesteric",
+    "Flory exponent polymer scaling de Gennes reptation",
+    "colloid Brownian motion Perrin DLVO theory",
+    "granular matter jamming Janssen effect active matter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medical physics and radiation dosimetry",
+   "scope": "The physics of medical imaging and radiotherapy, radiation dose quantities, units and weighting factors, and beam and scanner parameters used in clinical practice.",
+   "queries": [
+    "MRI Larmor frequency T1 T2 relaxation tesla",
+    "Hounsfield unit computed tomography scale",
+    "gray sievert equivalent dose tissue weighting factors",
+    "proton therapy Bragg peak linear accelerator radiotherapy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pendulums, mechanical oscillators and resonance phenomena",
+   "scope": "Simple, compound and unusual pendulums, damped and driven oscillators, quality factors, coupled oscillators, normal modes and well-known cases of mechanical resonance.",
+   "queries": [
+    "Kater's reversible pendulum gravity measurement",
+    "Wilberforce pendulum coupled oscillation modes",
+    "damped driven harmonic oscillator quality factor",
+    "Kapitza pendulum inverted stability vibration"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Celestial mechanics and orbital dynamics",
+   "scope": "The Kepler problem, orbital elements, Lagrange points, special solutions of the three-body problem, orbital resonances, perturbation theory and tidal dynamics of gravitating bodies.",
+   "queries": [
+    "Lagrange points stability Trojan asteroids",
+    "three-body problem periodic solution figure-eight orbit",
+    "orbital elements argument of periapsis inclination",
+    "Kirkwood gaps orbital resonance Laplace"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of mechanics and gravitation from Galileo to Newton",
+   "scope": "How kinematics, dynamics and gravitation developed from the 16th to the 18th century: Galileo, Kepler, Huygens, Hooke and Newton, the editions of the Principia, and the priority disputes.",
+   "queries": [
+    "Newton Principia first edition 1687 Halley",
+    "Galileo Two New Sciences inclined plane",
+    "Huygens Horologium Oscillatorium pendulum clock",
+    "Hooke Newton inverse square priority dispute"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Experimental gravitation: measuring G and testing the equivalence principle",
+   "scope": "Torsion-balance and atom-interferometer measurements of Newton's constant, Eötvös-type and space-based tests of the weak equivalence principle, and searches for inverse-square-law violations and fifth forces.",
+   "queries": [
+    "Cavendish experiment torsion balance density Earth",
+    "Eötvös experiment equivalence principle torsion balance",
+    "MICROSCOPE satellite equivalence principle test",
+    "inverse square law submillimeter test Eöt-Wash"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Elasticity, plasticity and fracture of solids",
+   "scope": "Stress and strain tensors, elastic moduli and the relations between them, dislocations and plastic deformation, yield criteria, buckling, and fracture mechanics of solid materials.",
+   "queries": [
+    "Poisson's ratio Young's modulus bulk modulus relation",
+    "dislocation Burgers vector edge screw",
+    "Griffith crack fracture mechanics surface energy",
+    "von Mises Tresca yield criterion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lattice dynamics, phonons and thermal properties of solids",
+   "scope": "Phonon dispersion relations, the Einstein and Debye models of heat capacity, Debye temperatures, anharmonic effects, thermal expansion and phonon thermal conductivity in crystals.",
+   "queries": [
+    "Debye model heat capacity Debye temperature",
+    "phonon dispersion acoustic optical branches",
+    "Dulong Petit law Einstein solid",
+    "Umklapp scattering phonon thermal conductivity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dielectrics, ferroelectrics and piezoelectricity",
+   "scope": "Polarization mechanisms and dielectric relaxation, the Clausius–Mossotti relation, ferroelectric and antiferroelectric materials and their Curie points, perovskite oxides, piezoelectric and pyroelectric effects, and multiferroics.",
+   "queries": [
+    "Clausius Mossotti relation polarizability dielectric constant",
+    "barium titanate ferroelectric Curie temperature",
+    "piezoelectric effect Curie brothers quartz 1880",
+    "Debye relaxation dielectric loss tangent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Strongly correlated electron systems",
+   "scope": "Mott insulators and the Hubbard model, the Kondo effect, heavy-fermion compounds, Fermi-liquid and Luttinger-liquid theory, and metal–insulator transitions driven by electron correlations.",
+   "queries": [
+    "Mott insulator Hubbard model metal insulator transition",
+    "Kondo effect resistance minimum magnetic impurity",
+    "heavy fermion compound effective mass CeCu6",
+    "Luttinger liquid spin charge separation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Graphene, carbon nanostructures and two-dimensional materials",
+   "scope": "Graphene and its Dirac electrons, carbon nanotubes and fullerenes, monolayer transition-metal dichalcogenides, hexagonal boron nitride, and twisted moiré heterostructures.",
+   "queries": [
+    "graphene Dirac cone electron mobility exfoliation",
+    "carbon nanotube chirality armchair zigzag",
+    "twisted bilayer graphene magic angle",
+    "monolayer MoS2 transition metal dichalcogenide band gap"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glasses, amorphous solids and spin glasses",
+   "scope": "What happens at the glass transition, liquid fragility, the Kauzmann paradox, stretched-exponential relaxation, amorphous metals, and spin-glass models and materials.",
+   "queries": [
+    "glass transition temperature fragility Angell plot",
+    "Kauzmann paradox supercooled liquid entropy",
+    "spin glass Edwards Anderson Sherrington Kirkpatrick",
+    "metallic glass amorphous alloy Vitreloy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surface physics, thin films and scanning probe microscopy",
+   "scope": "Surface reconstructions and how they are written, work functions, adsorption isotherms, epitaxial growth modes, low-energy electron diffraction, and STM/AFM techniques and milestones.",
+   "queries": [
+    "silicon 7x7 surface reconstruction STM",
+    "scanning tunneling microscope Binnig Rohrer invention",
+    "epitaxial growth modes Volmer Weber Stranski Krastanov",
+    "atomic force microscope tapping mode cantilever"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plasmonics, photonic crystals and metamaterials",
+   "scope": "Surface plasmon polaritons, localized plasmon resonances, photonic band gaps, negative-index and cloaking metamaterials, and the related structures and history of nanophotonics.",
+   "queries": [
+    "surface plasmon polariton dispersion metal dielectric",
+    "photonic crystal band gap Yablonovitch John",
+    "negative refractive index metamaterial split ring resonator",
+    "Lycurgus cup localized surface plasmon gold"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Optical fibers, waveguides and integrated photonics",
+   "scope": "Light guiding and fiber modes, numerical aperture, attenuation windows and dispersion, fiber amplifiers and fiber lasers, silicon photonics, and the history of optical fiber communication.",
+   "queries": [
+    "optical fiber attenuation 1550 nm window",
+    "single mode fiber V number cutoff wavelength",
+    "erbium doped fiber amplifier gain band",
+    "Charles Kao glass fiber loss 1966"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atmospheric optics and natural optical phenomena",
+   "scope": "Rainbows, halos, glories, coronae, mirages, the green flash, sky color and polarization, and the geometric-optics and scattering explanations of these atmospheric phenomena.",
+   "queries": [
+    "22 degree halo ice crystal refraction",
+    "rainbow Alexander's dark band angle",
+    "green flash sunset mirage refraction",
+    "glory corona backscatter cloud droplets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thermoelectric and galvanomagnetic transport effects",
+   "scope": "The Seebeck, Peltier and Thomson effects and the Kelvin relations, the thermoelectric figure of merit and its materials, thermocouple types, and the classical Hall, Nernst, Ettingshausen and Righi–Leduc effects.",
+   "queries": [
+    "Seebeck coefficient Peltier Thomson Kelvin relations",
+    "thermoelectric figure of merit ZT bismuth telluride",
+    "Nernst effect Ettingshausen Righi Leduc",
+    "thermocouple type K junction voltage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vacuum physics and electron emission",
+   "scope": "Vacuum regimes, pumps and gauges, gas flow and mean free path, outgassing, and the thermionic, field and secondary electron emission behind vacuum tubes and electron sources.",
+   "queries": [
+    "turbomolecular pump ultra high vacuum",
+    "Richardson Dushman thermionic emission equation",
+    "Fowler Nordheim field emission tunneling",
+    "Pirani gauge ionization gauge pressure range"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Charged-particle optics: electron microscopy and mass spectrometry",
+   "scope": "Electron and ion lenses, aberration correction, how transmission and scanning electron microscopes work, and mass analyzers such as magnetic sectors, quadrupoles, time-of-flight instruments and Orbitrap/ICR traps.",
+   "queries": [
+    "transmission electron microscope Ruska aberration correction",
+    "quadrupole mass filter Mathieu stability diagram",
+    "time of flight mass spectrometer reflectron",
+    "Orbitrap Fourier transform ion cyclotron resonance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Molecular physics and molecular spectroscopy",
+   "scope": "The Born–Oppenheimer approximation, rotational, vibrational and electronic spectra of molecules, selection rules, molecular term symbols and Hund's cases, Raman scattering and tabulated molecular constants.",
+   "queries": [
+    "rotational spectroscopy rigid rotor centrifugal distortion",
+    "Franck Condon principle vibronic transitions",
+    "Raman scattering Stokes anti-Stokes lines",
+    "molecular term symbol Hund's coupling cases"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Magnetic resonance and hyperfine probes of matter",
+   "scope": "The physics of NMR, EPR/ESR, Mössbauer spectroscopy, muon spin rotation and perturbed angular correlation, including relaxation times, chemical and isomer shifts, g-factors and hyperfine fields.",
+   "queries": [
+    "Mössbauer effect iron-57 isomer shift",
+    "nuclear magnetic resonance Bloch Purcell relaxation T1 T2",
+    "electron paramagnetic resonance g factor hyperfine splitting",
+    "muon spin rotation spectroscopy condensed matter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Heat transfer: conduction, convection and thermal radiation",
+   "scope": "Fourier's law and thermal conductivities, convective heat-transfer correlations and their dimensionless numbers, emissivity, view factors and radiative exchange between surfaces.",
+   "queries": [
+    "Nusselt number correlation forced convection",
+    "Fourier law thermal conductivity diffusivity",
+    "emissivity view factor radiative heat exchange",
+    "Biot number lumped capacitance transient conduction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Non-equilibrium statistical physics and stochastic processes",
+   "scope": "Brownian motion, the Langevin and Fokker–Planck equations, fluctuation–dissipation and Onsager reciprocal relations, fluctuation theorems, Maxwell's demon and Landauer's principle.",
+   "queries": [
+    "Einstein Brownian motion diffusion Perrin experiment",
+    "Jarzynski equality Crooks fluctuation theorem",
+    "Onsager reciprocal relations irreversible thermodynamics",
+    "Landauer principle Szilard engine Maxwell demon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantum information theory and quantum communication",
+   "scope": "Entanglement measures, the no-cloning theorem and related no-go theorems, quantum teleportation, quantum key distribution protocols, quantum channel capacities, and landmark quantum-communication experiments.",
+   "queries": [
+    "BB84 quantum key distribution protocol",
+    "quantum teleportation experiment photons distance record",
+    "no-cloning theorem Wootters Zurek",
+    "concurrence entanglement of formation measure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mathematical methods of physics: special functions and group theory",
+   "scope": "Special functions and orthogonal polynomials, Green's functions, tensor calculus, and Lie groups and their representations as used in physics, with their named identities and conventions.",
+   "queries": [
+    "Bessel functions spherical harmonics Legendre polynomials",
+    "Clebsch Gordan coefficients Wigner 3j symbols",
+    "Green's function Helmholtz equation boundary conditions",
+    "SU(3) representation weight diagram Casimir"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Computational physics methods and simulation codes",
+   "scope": "Monte Carlo and molecular-dynamics algorithms, numerical integrators, density functional theory, lattice and particle-in-cell methods, and widely used physics simulation packages and their origins.",
+   "queries": [
+    "Metropolis algorithm Monte Carlo 1953 Rosenbluth",
+    "Verlet integration molecular dynamics time step",
+    "density functional theory Kohn Sham equations",
+    "Geant4 particle simulation toolkit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear fission, reactor physics and reactor accidents",
+   "scope": "The discovery of fission and its products, neutron multiplication and criticality, moderators, coolants and reactor types, natural fission reactors, and the physics of major reactor accidents.",
+   "queries": [
+    "Chicago Pile-1 first critical reactor Fermi",
+    "four factor formula neutron multiplication",
+    "Oklo natural nuclear fission reactor",
+    "RBMK positive void coefficient Chernobyl"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transuranium and superheavy element synthesis",
+   "scope": "The discovery, naming and production reactions of elements beyond uranium, the laboratories involved (Berkeley, Dubna, GSI, RIKEN), the priority disputes, and the island of stability.",
+   "queries": [
+    "superheavy element discovery Dubna GSI RIKEN",
+    "oganesson synthesis californium calcium-48",
+    "transfermium wars element naming IUPAC",
+    "nihonium discovery RIKEN zinc bismuth"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neutron physics and neutron sources",
+   "scope": "Properties of the free neutron and the neutron-lifetime puzzle, thermal and ultracold neutrons, neutron interferometry and optics, and research reactors and spallation neutron sources.",
+   "queries": [
+    "neutron lifetime beam bottle discrepancy",
+    "ultracold neutrons storage material bottle",
+    "spallation neutron source proton target",
+    "neutron interferometry COW experiment gravity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Relativistic heavy-ion collisions and the quark-gluon plasma",
+   "scope": "Heavy-ion programs at the SPS, RHIC and the LHC, signatures of the quark-gluon plasma such as jet quenching, elliptic flow, quarkonium suppression and strangeness enhancement, and the QCD phase diagram.",
+   "queries": [
+    "quark gluon plasma RHIC perfect liquid",
+    "jet quenching heavy ion collisions",
+    "elliptic flow shear viscosity entropy ratio",
+    "J/psi suppression Matsui Satz"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Black hole thermodynamics and quantum gravity approaches",
+   "scope": "Bekenstein–Hawking entropy, Hawking and Unruh radiation, the information paradox and the holographic principle, and quantum-gravity programs outside string theory such as loop quantum gravity, causal sets and asymptotic safety.",
+   "queries": [
+    "Bekenstein Hawking entropy area law",
+    "Unruh effect temperature acceleration",
+    "loop quantum gravity spin networks Ashtekar variables",
+    "black hole information paradox firewall Page curve"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical cosmology: expansion history, CMB and Big Bang nucleosynthesis",
+   "scope": "FLRW models and cosmological parameters, measurements of the Hubble constant and the Hubble tension, the discovery of the cosmic microwave background and the missions that mapped it, Big Bang nucleosynthesis, inflation and dark energy.",
+   "queries": [
+    "cosmic microwave background Penzias Wilson discovery",
+    "Planck satellite cosmological parameters results",
+    "Big Bang nucleosynthesis primordial helium deuterium abundance",
+    "Hubble tension Cepheid distance ladder"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear astrophysics and stellar nucleosynthesis",
+   "scope": "How stars generate energy (the pp chain, CNO cycle and triple-alpha process), the s-, r- and p-processes, the B²FH framework, key reaction rates, and nucleosynthesis sites such as supernovae and kilonovae.",
+   "queries": [
+    "triple alpha process Hoyle state carbon-12",
+    "CNO cycle proton proton chain stars",
+    "r-process neutron star merger kilonova",
+    "B2FH 1957 synthesis of elements in stars"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Compact stars and degenerate matter",
+   "scope": "Electron and neutron degeneracy pressure, the structure of white dwarfs and neutron stars, their equations of state, mass limits (Chandrasekhar, Tolman–Oppenheimer–Volkoff), and pulsars and magnetars as physical systems.",
+   "queries": [
+    "Chandrasekhar limit white dwarf mass",
+    "Tolman Oppenheimer Volkoff limit neutron star",
+    "neutron star equation of state maximum mass pulsar",
+    "magnetar magnetic field strength soft gamma repeater"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Space plasma physics: solar wind, magnetospheres and ionosphere",
+   "scope": "The solar wind and heliosphere, planetary magnetospheres and the Van Allen belts, aurorae, magnetic reconnection, ionospheric layers, and space-weather events and indices.",
+   "queries": [
+    "Van Allen radiation belts discovery Explorer 1",
+    "solar wind Parker spiral heliosphere",
+    "ionosphere F layer Appleton Kennelly Heaviside",
+    "geomagnetic storm Dst index Carrington event"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biological physics",
+   "scope": "Physical measurements and models of living systems: optical tweezers and single-molecule force spectroscopy, molecular motors, ion channels and models of nerve impulses, and swimming at low Reynolds number.",
+   "queries": [
+    "optical tweezers Ashkin single molecule force",
+    "kinesin myosin molecular motor step size",
+    "Hodgkin Huxley model action potential squid axon",
+    "Purcell life at low Reynolds number"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gas discharges, lightning and atmospheric electricity",
+   "scope": "Electrical breakdown of gases (Townsend avalanches, Paschen's law), glow, arc and corona discharges, the physics of lightning, the global atmospheric electric circuit, and transient luminous events.",
+   "queries": [
+    "Paschen's law breakdown voltage minimum",
+    "Townsend discharge ionization coefficient avalanche",
+    "lightning stepped leader return stroke current",
+    "sprites elves transient luminous events"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of electricity and magnetism: early experiments and instruments",
+   "scope": "Discoveries and apparatus from the 17th to the 19th century, including electrostatic machines, Leyden jars, the voltaic pile, Ørsted's and Faraday's experiments, and early electrical measuring instruments.",
+   "queries": [
+    "Leyden jar invention Musschenbroek Kleist",
+    "voltaic pile Volta Galvani animal electricity",
+    "Ørsted compass needle electric current 1820",
+    "Faraday induction ring experiment 1831"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nobel Prize in Physics laureates and citations",
+   "scope": "Laureates, years, official citations, prize shares and Nobel lectures of the Nobel Prize in Physics, plus notable omissions and controversies.",
+   "queries": [
+    "Nobel Prize in Physics awarded jointly for discovery",
+    "list of Nobel laureates in Physics year citation",
+    "Nobel Prize physics controversy overlooked scientist",
+    "youngest Nobel laureate physics Bragg"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Physics prizes, medals and learned societies",
+   "scope": "Physics awards other than the Nobel (such as the Dirac, Wolf, Breakthrough, Max Planck and Heineman prizes), their criteria and notable recipients, and the history of physics societies such as the APS, IOP and DPG.",
+   "queries": [
+    "Dirac Medal ICTP recipients",
+    "Wolf Prize in Physics laureates",
+    "Max Planck Medal Deutsche Physikalische Gesellschaft",
+    "American Physical Society founded 1899 Columbia"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Physics laboratories, big-science projects and their history",
+   "scope": "Founding, leadership and landmark results of major physics laboratories and wartime or big-science projects, such as the Cavendish Laboratory, Bell Labs, CERN, Los Alamos and the Manhattan Project.",
+   "queries": [
+    "Cavendish Laboratory Cavendish Professor history",
+    "CERN convention 1954 founding member states",
+    "Manhattan Project Los Alamos laboratory director",
+    "Bell Labs physics discoveries Murray Hill"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Geophysics: seismology, geomagnetism and Earth's interior",
+   "scope": "Seismic wave types and the discontinuities that reveal Earth's structure, earthquake magnitude scales, the geodynamo and geomagnetic reversals, and gravity and heat-flow geophysics.",
+   "queries": [
+    "Moho discontinuity seismic waves crust mantle",
+    "P waves S waves shadow zone Lehmann inner core",
+    "geomagnetic reversal Brunhes Matuyama",
+    "moment magnitude scale Richter Gutenberg"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photometry, radiometry and colorimetry",
+   "scope": "Measuring light and color: photometric and radiometric quantities and units, the luminosity functions, CIE color spaces and chromaticity, color temperature, and the standard illuminants and light sources behind them.",
+   "queries": [
+    "luminous efficacy candela lumen definition 555 nm",
+    "CIE 1931 color space chromaticity diagram observer",
+    "standard illuminant D65 correlated color temperature",
+    "radiometry irradiance radiance steradian photometric units"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Telescopes, microscopes and adaptive optics",
+   "scope": "How optical instruments are designed and how they perform: reflecting and catadioptric telescope designs, large observatories, adaptive optics and interferometric arrays, optical and super-resolution microscopy, and resolution criteria.",
+   "queries": [
+    "Ritchey-Chretien Cassegrain Schmidt telescope design",
+    "adaptive optics laser guide star deformable mirror",
+    "largest optical telescopes primary mirror segments aperture",
+    "phase contrast confocal STED microscopy resolution limit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "X-ray sources: tubes, synchrotron light sources and free-electron lasers",
+   "scope": "How X-rays are produced: X-ray tubes and anode lines, bremsstrahlung, synchrotron radiation and its facility generations, undulators and wigglers, and X-ray free-electron lasers such as LCLS and European XFEL.",
+   "queries": [
+    "Coolidge X-ray tube anode characteristic K-alpha line",
+    "synchrotron light source generations undulator wiggler brilliance",
+    "X-ray free-electron laser SASE LCLS European XFEL",
+    "ESRF APS SPring-8 storage ring energy circumference"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Attosecond science and strong-field laser-matter interaction",
+   "scope": "Atoms and molecules in intense ultrashort laser fields: tunnel and multiphoton ionization, the Keldysh parameter, high-harmonic generation and the three-step model, attosecond pulse generation and records, and ultrafast pulse-measurement methods such as FROG and SPIDER.",
+   "queries": [
+    "high harmonic generation three-step model Corkum cutoff",
+    "Keldysh parameter tunnel ionization ADK rate",
+    "attosecond pulse train isolated pulse shortest record",
+    "frequency-resolved optical gating FROG SPIDER pulse measurement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photovoltaic and optoelectronic device physics",
+   "scope": "The physics of semiconductor devices that turn light into current or current into light: solar-cell efficiency limits and records, multijunction and perovskite cells, LEDs and blue-LED development, photodiodes, and image sensors.",
+   "queries": [
+    "Shockley-Queisser limit solar cell efficiency bandgap",
+    "multijunction perovskite solar cell record efficiency NREL",
+    "blue LED indium gallium nitride Nakamura efficiency droop",
+    "avalanche photodiode CCD CMOS image sensor quantum efficiency"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High-pressure physics and shock compression of matter",
+   "scope": "Matter at extreme static and dynamic pressures: diamond anvil cells and pressure calibrants, Bridgman's work, the phases of ice, metallic hydrogen, superhydrides, shock Hugoniots, gas guns and pulsed-power compression.",
+   "queries": [
+    "diamond anvil cell ruby fluorescence pressure scale",
+    "ice phases high pressure ice VII phase diagram",
+    "metallic hydrogen pressure claim Wigner Huntington",
+    "shock Hugoniot Rankine light gas gun Z machine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surface tension, capillarity and wetting phenomena",
+   "scope": "The physics of interfaces: surface tension and the Young-Laplace equation, contact angles and wetting models, capillary rise, Marangoni flows, the Leidenfrost effect, superhydrophobicity and the related dimensionless numbers.",
+   "queries": [
+    "Young-Laplace equation capillary pressure surface tension",
+    "Jurin's law capillary rise contact angle",
+    "Cassie-Baxter Wenzel superhydrophobic lotus effect",
+    "Marangoni effect tears of wine Leidenfrost temperature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Friction, tribology and contact mechanics",
+   "scope": "The physics of surfaces in contact: the classical friction laws and coefficients, stick-slip and rolling resistance, Hertzian contact theory, Bowden-Tabor asperity models, lubrication regimes, superlubricity and the history of tribology.",
+   "queries": [
+    "Amontons Coulomb laws of friction coefficient",
+    "Hertzian contact stress theory elastic spheres",
+    "Stribeck curve lubrication regimes boundary hydrodynamic",
+    "tribology Jost report superlubricity stick-slip"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thermometry and temperature scales",
+   "scope": "How temperature is defined and measured: historical scales (Rømer, Réaumur, Delisle, Fahrenheit), ITS-90 and PLTS-2000 fixed points, resistance thermometers and thermocouple types, pyrometry and primary thermometry methods.",
+   "queries": [
+    "ITS-90 defining fixed points triple point",
+    "thermocouple type K J T temperature range",
+    "Romer Reaumur Delisle historical temperature scale",
+    "platinum resistance thermometer PLTS-2000 primary thermometry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear weapons physics and test history",
+   "scope": "The physics and history of fission and thermonuclear weapons: critical mass and implosion designs, the Teller-Ulam configuration, named test series and their yields, criticality accidents, and the first tests of each nuclear state.",
+   "queries": [
+    "Trinity test yield implosion plutonium Gadget",
+    "Teller-Ulam design Ivy Mike thermonuclear test",
+    "Castle Bravo yield Tsar Bomba megatons",
+    "RDS-1 first Soviet atomic test Semipalatinsk"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High-energy astrophysics: gamma-ray bursts, X-ray binaries and active galactic nuclei",
+   "scope": "Energetic astrophysical sources and the space observatories that study them: gamma-ray bursts, X-ray binaries and microquasars, quasars and blazars, the Eddington luminosity and accretion, and missions such as Fermi, Chandra and Swift.",
+   "queries": [
+    "gamma-ray burst long short afterglow Swift",
+    "X-ray binary Cygnus X-1 accretion disk",
+    "blazar quasar active galactic nucleus jet",
+    "Chandra Fermi Compton Gamma Ray Observatory launch"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stellar structure, stellar evolution and solar physics",
+   "scope": "The physics of stars and the Sun: the stellar structure equations, polytropes, the Hertzsprung-Russell diagram, spectral classification, variable stars and pulsation, mass limits, helioseismology and the solar cycle.",
+   "queries": [
+    "stellar structure equations polytrope Lane-Emden",
+    "Hertzsprung-Russell diagram spectral class luminosity",
+    "Cepheid variable kappa mechanism period-luminosity",
+    "helioseismology solar interior tachocline sunspot cycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of thermodynamics and the atomic hypothesis",
+   "scope": "From caloric theory to the acceptance of atoms: Rumford, Carnot, Mayer, Joule's experiments, Clausius and Kelvin, the Boltzmann controversies, Loschmidt's number, and Einstein's and Perrin's work on Brownian motion.",
+   "queries": [
+    "caloric theory Rumford cannon boring experiment",
+    "Joule paddle wheel mechanical equivalent of heat",
+    "Carnot Reflections on the Motive Power of Fire",
+    "Perrin Brownian motion Avogadro number atoms"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of optics and the luminiferous aether",
+   "scope": "How theories of light developed from Alhazen and Newton through Huygens, Young, Fresnel and Arago, the measurement of the speed of light by Rømer, Fizeau and Foucault, and aether-drag and aberration experiments.",
+   "queries": [
+    "Newton Opticks corpuscular theory Huygens wave",
+    "Fresnel Arago spot wave theory diffraction prize",
+    "Fizeau Foucault speed of light measurement",
+    "luminiferous aether drag Fresnel stellar aberration Bradley"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early history of radioactivity and nuclear physics (1896-1939)",
+   "scope": "The discovery era of nuclear physics: Becquerel, the Curies, Rutherford's and Soddy's experiments, the Geiger-Marsden experiment, the discovery of the neutron, artificial transmutation, Cockcroft-Walton, and the discovery of fission.",
+   "queries": [
+    "Becquerel uranium rays discovery Curie polonium radium",
+    "Geiger-Marsden gold foil experiment Rutherford nucleus",
+    "Chadwick discovery neutron 1932 beryllium radiation",
+    "Hahn Strassmann Meitner Frisch discovery fission"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physics journals, classic textbooks and lecture courses",
+   "scope": "The publishing landscape of physics: when the major journals were founded and who edited them, landmark papers, arXiv's history, and the editions, volumes and authors of classic textbooks such as Landau-Lifshitz, Feynman, Jackson and Kittel.",
+   "queries": [
+    "Physical Review founded Cornell Physical Review Letters Goudsmit",
+    "Landau Lifshitz Course of Theoretical Physics volumes",
+    "Feynman Lectures on Physics Leighton Sands",
+    "Annalen der Physik Zeitschrift fur Physik history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Optical properties of solids: excitons, polaritons and color centers",
+   "scope": "How light interacts with condensed matter: Drude-Lorentz dielectric models and the plasma frequency, Kramers-Kronig relations, Frenkel and Wannier-Mott excitons, exciton-polaritons, F-centers and other color centers, absorption edges and phosphor luminescence.",
+   "queries": [
+    "Wannier-Mott Frenkel exciton binding energy",
+    "exciton-polariton condensate microcavity semiconductor",
+    "F-center color center alkali halide crystal",
+    "Drude Lorentz model plasma frequency Kramers-Kronig"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

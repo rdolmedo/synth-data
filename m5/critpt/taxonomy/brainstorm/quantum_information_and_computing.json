@@ -1,0 +1,721 @@
+{
+ "subtopics": [
+  {
+   "name": "Quantum channel capacities and additivity",
+   "scope": "Classical, quantum, private and entanglement-assisted capacities of noisy quantum channels, including degradability, superadditivity and single-letter formulas.",
+   "keywords": [
+    "quantum capacity",
+    "coherent information",
+    "Holevo capacity",
+    "degradable channel",
+    "private capacity",
+    "entanglement-assisted capacity",
+    "superadditivity",
+    "amplitude damping channel",
+    "depolarizing channel",
+    "two-way assisted capacity"
+   ]
+  },
+  {
+   "name": "Quantum entropies and divergence inequalities",
+   "scope": "Properties of von Neumann, R\u00e9nyi, and smooth min/max entropies and relative entropies, including continuity bounds, uncertainty relations and one-shot quantities.",
+   "keywords": [
+    "sandwiched R\u00e9nyi divergence",
+    "strong subadditivity",
+    "conditional entropy",
+    "min-entropy",
+    "continuity bound",
+    "entropic uncertainty relation",
+    "data-processing inequality",
+    "Petz recovery map",
+    "relative entropy"
+   ]
+  },
+  {
+   "name": "Quantum hypothesis testing and state discrimination",
+   "scope": "Optimal measurements and error probabilities for distinguishing quantum states or channels, from single-shot Helstrom bounds to asymptotic Chernoff and Stein exponents.",
+   "keywords": [
+    "state discrimination",
+    "Helstrom bound",
+    "unambiguous discrimination",
+    "quantum Chernoff bound",
+    "quantum Stein's lemma",
+    "channel discrimination",
+    "pretty good measurement",
+    "quantum illumination",
+    "minimum-error measurement"
+   ]
+  },
+  {
+   "name": "Structure and characterization of quantum channels",
+   "scope": "Mathematical properties of completely positive maps, such as Choi-Kraus representations, extremality, divisibility, covariance, and positivity versus complete positivity.",
+   "keywords": [
+    "completely positive map",
+    "Choi matrix",
+    "Kraus operators",
+    "unital channel",
+    "entanglement-breaking channel",
+    "positive maps",
+    "channel divisibility",
+    "covariant channel",
+    "Pauli channel",
+    "quantum operations"
+   ]
+  },
+  {
+   "name": "Entanglement detection and quantification",
+   "scope": "Separability criteria, entanglement witnesses and computable entanglement measures for bipartite and multipartite mixed states.",
+   "keywords": [
+    "separability criterion",
+    "entanglement witness",
+    "PPT criterion",
+    "negativity",
+    "concurrence",
+    "entanglement of formation",
+    "bound entanglement",
+    "geometric measure of entanglement",
+    "multipartite entanglement",
+    "realignment criterion"
+   ]
+  },
+  {
+   "name": "LOCC entanglement manipulation and majorization",
+   "scope": "Convertibility, distillation, dilution and catalysis of entangled states under local operations and classical communication.",
+   "keywords": [
+    "LOCC",
+    "majorization",
+    "entanglement distillation",
+    "entanglement catalysis",
+    "entanglement concentration",
+    "SLOCC classification",
+    "distillable entanglement",
+    "state conversion",
+    "Schmidt coefficients"
+   ]
+  },
+  {
+   "name": "Bell nonlocality, steering, and nonlocal games",
+   "scope": "Correlations that violate local-hidden-variable or local-hidden-state models, their quantum bounds, nonlocal games and measurement incompatibility.",
+   "keywords": [
+    "Bell inequality",
+    "CHSH",
+    "Tsirelson bound",
+    "nonlocal game",
+    "EPR steering",
+    "joint measurability",
+    "measurement incompatibility",
+    "self-testing",
+    "detection loophole",
+    "NPA hierarchy"
+   ]
+  },
+  {
+   "name": "Contextuality and Kochen-Specker scenarios",
+   "scope": "State-dependent and state-independent contextuality, Kochen-Specker sets, noncontextuality inequalities and their graph-theoretic characterizations.",
+   "keywords": [
+    "contextuality",
+    "Kochen-Specker",
+    "noncontextuality inequality",
+    "KCBS inequality",
+    "exclusivity graph",
+    "Lov\u00e1sz theta",
+    "Peres-Mermin square",
+    "hidden variables",
+    "sheaf-theoretic"
+   ]
+  },
+  {
+   "name": "Mutually unbiased bases and SIC-POVMs",
+   "scope": "Construction, existence and properties of mutually unbiased bases, symmetric informationally complete measurements and related designs in finite dimensions.",
+   "keywords": [
+    "mutually unbiased bases",
+    "SIC-POVM",
+    "Weyl-Heisenberg group",
+    "equiangular lines",
+    "complex Hadamard matrices",
+    "Zauner conjecture",
+    "quantum designs",
+    "informationally complete measurement",
+    "finite fields"
+   ]
+  },
+  {
+   "name": "Haar-random states, unitaries and designs",
+   "scope": "Typical properties of Haar-random states and unitaries, and how random circuits converge to unitary t-designs.",
+   "keywords": [
+    "Haar measure",
+    "unitary t-design",
+    "random quantum circuits",
+    "Page curve",
+    "typical entanglement",
+    "anticoncentration",
+    "frame potential",
+    "random matrix theory",
+    "pseudorandom states",
+    "Weingarten"
+   ]
+  },
+  {
+   "name": "Stabilizer codes and quantum code bounds",
+   "scope": "Construction of stabilizer, CSS and LDPC quantum codes, their parameters, and fundamental bounds on rate and distance.",
+   "keywords": [
+    "stabilizer code",
+    "CSS code",
+    "quantum LDPC code",
+    "code distance",
+    "quantum Singleton bound",
+    "quantum Hamming bound",
+    "weight enumerator",
+    "hypergraph product",
+    "quantum MDS code",
+    "transversal gates"
+   ]
+  },
+  {
+   "name": "Topological codes and fault-tolerance thresholds",
+   "scope": "Surface, toric and color codes, their decoders, and error thresholds under various noise models.",
+   "keywords": [
+    "surface code",
+    "toric code",
+    "color code",
+    "error threshold",
+    "decoder",
+    "minimum-weight perfect matching",
+    "random-bond Ising model",
+    "lattice surgery",
+    "biased noise",
+    "code capacity"
+   ]
+  },
+  {
+   "name": "Bosonic codes in oscillator modes",
+   "scope": "Encoding qubits in harmonic oscillators with GKP, cat, binomial and rotation-symmetric codes, and how these codes perform under loss and dephasing.",
+   "keywords": [
+    "GKP code",
+    "cat code",
+    "binomial code",
+    "bosonic code",
+    "photon loss",
+    "rotation-symmetric code",
+    "Knill-Laflamme conditions",
+    "oscillator encoding",
+    "squeezing",
+    "Kerr-cat qubit"
+   ]
+  },
+  {
+   "name": "Magic state distillation and fault-tolerant gadgets",
+   "scope": "Protocols for universal fault-tolerant computation, including magic state distillation, code switching, and estimates of overheads and thresholds.",
+   "keywords": [
+    "magic state distillation",
+    "T gate",
+    "fault-tolerant",
+    "Eastin-Knill theorem",
+    "code switching",
+    "flag qubits",
+    "concatenated codes",
+    "threshold theorem",
+    "resource overhead",
+    "transversal gate"
+   ]
+  },
+  {
+   "name": "Dynamical decoupling and noise filtering",
+   "scope": "Pulse sequences that suppress decoherence, and the filter-function description of qubits subject to classical or quantum noise spectra.",
+   "keywords": [
+    "dynamical decoupling",
+    "filter function",
+    "Uhrig sequence",
+    "spin echo",
+    "1/f noise",
+    "noise spectroscopy",
+    "pure dephasing",
+    "decoherence-free subspace",
+    "CPMG"
+   ]
+  },
+  {
+   "name": "Randomized benchmarking and noise characterization",
+   "scope": "Estimating average gate fidelities, error rates and noise models of quantum devices with randomized protocols and process tomography.",
+   "keywords": [
+    "randomized benchmarking",
+    "average gate fidelity",
+    "process tomography",
+    "gate set tomography",
+    "unitarity",
+    "Pauli noise",
+    "cross-entropy benchmarking",
+    "diamond norm",
+    "leakage",
+    "cycle benchmarking"
+   ]
+  },
+  {
+   "name": "Quantum query algorithms and complexity",
+   "scope": "Query-model algorithms such as search, period finding and hidden subgroup problems, and lower bounds on their query complexity.",
+   "keywords": [
+    "query complexity",
+    "Grover search",
+    "amplitude amplification",
+    "hidden subgroup problem",
+    "period finding",
+    "polynomial method",
+    "adversary bound",
+    "quantum Fourier transform",
+    "oracle separation"
+   ]
+  },
+  {
+   "name": "Hamiltonian simulation and quantum signal processing",
+   "scope": "Algorithms that implement time evolution or matrix functions on quantum computers, including product formulas, LCU, qubitization and QSVT.",
+   "keywords": [
+    "Hamiltonian simulation",
+    "Trotter-Suzuki",
+    "product formula",
+    "qubitization",
+    "quantum signal processing",
+    "linear combination of unitaries",
+    "QSVT",
+    "block encoding",
+    "quantum phase estimation",
+    "quantum linear systems"
+   ]
+  },
+  {
+   "name": "Quantum walks on graphs and state transfer",
+   "scope": "Discrete- and continuous-time quantum walks, their spreading, hitting and search properties, and perfect or pretty-good state transfer in spin networks.",
+   "keywords": [
+    "quantum walk",
+    "continuous-time quantum walk",
+    "spatial search",
+    "hitting time",
+    "perfect state transfer",
+    "spin chain",
+    "graph spectrum",
+    "coined quantum walk",
+    "localization",
+    "mixing time"
+   ]
+  },
+  {
+   "name": "Adiabatic quantum computation and annealing",
+   "scope": "Computation by slow Hamiltonian interpolation, focusing on spectral gaps, diabatic errors and annealing schedules for optimization problems.",
+   "keywords": [
+    "adiabatic quantum computation",
+    "quantum annealing",
+    "spectral gap",
+    "Landau-Zener",
+    "adiabatic theorem",
+    "stoquastic Hamiltonian",
+    "transverse-field Ising",
+    "annealing schedule",
+    "first-order phase transition",
+    "shortcuts to adiabaticity"
+   ]
+  },
+  {
+   "name": "QAOA and variational quantum algorithms",
+   "scope": "Parameterized quantum circuits optimized by a classical loop, including QAOA performance guarantees, variational eigensolvers and trainability issues.",
+   "keywords": [
+    "QAOA",
+    "variational quantum eigensolver",
+    "parameterized quantum circuit",
+    "barren plateau",
+    "MaxCut",
+    "cost landscape",
+    "expressibility",
+    "approximation ratio",
+    "dynamical Lie algebra"
+   ]
+  },
+  {
+   "name": "Quantum Hamiltonian complexity and local Hamiltonians",
+   "scope": "The complexity of estimating ground energies and other properties of local Hamiltonians, including QMA-completeness, circuit-to-Hamiltonian constructions and perturbative gadgets.",
+   "keywords": [
+    "local Hamiltonian problem",
+    "QMA",
+    "Feynman-Kitaev clock",
+    "perturbative gadgets",
+    "frustration-free",
+    "quantum PCP",
+    "ground state energy",
+    "history state",
+    "quantum satisfiability",
+    "stoquastic"
+   ]
+  },
+  {
+   "name": "Classical simulation of restricted quantum circuits",
+   "scope": "Efficient or near-efficient classical algorithms for Clifford, matchgate, low-magic, low-entanglement and noisy circuits, and the resources that make simulation hard.",
+   "keywords": [
+    "classical simulation",
+    "Gottesman-Knill",
+    "stabilizer rank",
+    "matchgates",
+    "fermionic linear optics",
+    "quasiprobability",
+    "stabilizer extent",
+    "noisy circuits",
+    "Pauli path",
+    "simulability"
+   ]
+  },
+  {
+   "name": "Quantum gate synthesis and circuit compilation",
+   "scope": "Decomposing unitaries into gate sets, minimizing gate counts and depth, and the structure of Clifford and Clifford+T circuits.",
+   "keywords": [
+    "gate synthesis",
+    "Clifford+T",
+    "T-count",
+    "Solovay-Kitaev",
+    "KAK decomposition",
+    "CNOT count",
+    "circuit depth",
+    "Clifford group",
+    "exact synthesis",
+    "approximate synthesis"
+   ]
+  },
+  {
+   "name": "Measurement-based computation and graph states",
+   "scope": "One-way quantum computing on cluster and graph states, and the entanglement structure, local equivalence and resource properties of those states.",
+   "keywords": [
+    "measurement-based quantum computation",
+    "cluster state",
+    "graph state",
+    "one-way quantum computer",
+    "local complementation",
+    "resource state",
+    "symmetry-protected topological order",
+    "gflow",
+    "fusion"
+   ]
+  },
+  {
+   "name": "Quantum key distribution security and rates",
+   "scope": "Security proofs and achievable secret key rates for discrete- and continuous-variable QKD protocols with realistic imperfections.",
+   "keywords": [
+    "quantum key distribution",
+    "BB84",
+    "secret key rate",
+    "finite-key analysis",
+    "device-independent",
+    "decoy state",
+    "continuous-variable QKD",
+    "measurement-device-independent",
+    "entropic uncertainty",
+    "collective attacks"
+   ]
+  },
+  {
+   "name": "Quantum two-party cryptography and coin flipping",
+   "scope": "Cryptographic primitives between parties who distrust each other, such as coin flipping, bit commitment, oblivious transfer and position verification, with their optimal biases and impossibility results.",
+   "keywords": [
+    "quantum coin flipping",
+    "bit commitment",
+    "oblivious transfer",
+    "cheating probability",
+    "bounded-storage model",
+    "position-based cryptography",
+    "secure two-party computation",
+    "data hiding",
+    "quantum money"
+   ]
+  },
+  {
+   "name": "Quantum repeaters and entanglement distribution",
+   "scope": "Protocols for distributing entanglement over lossy links using swapping, purification and quantum memories, with analysis of their rates and fidelities.",
+   "keywords": [
+    "quantum repeater",
+    "entanglement swapping",
+    "entanglement purification",
+    "quantum memory",
+    "quantum network",
+    "PLOB bound",
+    "repeater rate",
+    "waiting time",
+    "fidelity",
+    "multiplexing"
+   ]
+  },
+  {
+   "name": "Optimal cloning and quantum state estimation",
+   "scope": "Fundamental limits on copying, broadcasting and estimating unknown quantum states from finitely many copies, including optimal covariant measurements and tomography.",
+   "keywords": [
+    "quantum cloning",
+    "optimal cloner",
+    "broadcasting",
+    "state estimation",
+    "quantum tomography",
+    "covariant measurement",
+    "fidelity",
+    "classical shadows",
+    "sample complexity",
+    "universal cloning machine"
+   ]
+  },
+  {
+   "name": "Quantum metrology and parameter estimation",
+   "scope": "Precision limits for estimating physical parameters with quantum probes, including Heisenberg scaling, the effects of noise, and multiparameter bounds.",
+   "keywords": [
+    "quantum Fisher information",
+    "Heisenberg limit",
+    "quantum Cram\u00e9r-Rao bound",
+    "optical interferometry",
+    "NOON states",
+    "spin squeezing",
+    "noisy metrology",
+    "multiparameter estimation",
+    "quantum sensing",
+    "Holevo Cram\u00e9r-Rao bound"
+   ]
+  },
+  {
+   "name": "Open quantum systems and master equations",
+   "scope": "Markovian and non-Markovian dynamics of systems coupled to environments, including Lindblad, Redfield and exactly solvable spin-boson-type models.",
+   "keywords": [
+    "Lindblad master equation",
+    "non-Markovianity",
+    "decoherence",
+    "spin-boson model",
+    "Redfield equation",
+    "steady state",
+    "dissipative dynamics",
+    "Born-Markov approximation",
+    "system-environment",
+    "quantum memory effects"
+   ]
+  },
+  {
+   "name": "Continuous measurement and quantum feedback",
+   "scope": "Dynamics of continuously monitored quantum systems, described by stochastic master equations and quantum trajectories, and feedback control based on the measurement record.",
+   "keywords": [
+    "continuous measurement",
+    "quantum trajectories",
+    "stochastic master equation",
+    "quantum feedback",
+    "weak measurement",
+    "quantum Zeno effect",
+    "homodyne detection",
+    "measurement backaction",
+    "state purification"
+   ]
+  },
+  {
+   "name": "Quantum thermodynamics and work extraction",
+   "scope": "Work, heat and efficiency in quantum systems, including heat engines, batteries, fluctuation theorems and thermal operations.",
+   "keywords": [
+    "quantum heat engine",
+    "work extraction",
+    "ergotropy",
+    "quantum battery",
+    "fluctuation theorem",
+    "thermal operations",
+    "Landauer principle",
+    "Carnot efficiency",
+    "quantum refrigerator",
+    "second law"
+   ]
+  },
+  {
+   "name": "Resource theories of coherence and magic",
+   "scope": "Axiomatic quantification and conversion of resources such as coherence, asymmetry and non-stabilizerness under restricted sets of free operations.",
+   "keywords": [
+    "quantum coherence",
+    "resource theory",
+    "incoherent operations",
+    "relative entropy of coherence",
+    "robustness of magic",
+    "stabilizer R\u00e9nyi entropy",
+    "mana",
+    "asymmetry",
+    "free operations",
+    "resource monotone"
+   ]
+  },
+  {
+   "name": "Gaussian continuous-variable quantum information",
+   "scope": "Quantum information with Gaussian states and operations of bosonic modes, including entanglement, channels and capacities in phase space.",
+   "keywords": [
+    "Gaussian states",
+    "covariance matrix",
+    "two-mode squeezed vacuum",
+    "bosonic Gaussian channel",
+    "symplectic eigenvalues",
+    "logarithmic negativity",
+    "continuous-variable entanglement",
+    "pure-loss channel",
+    "homodyne detection",
+    "Gaussian operations"
+   ]
+  },
+  {
+   "name": "Linear optics, interferometry and boson sampling",
+   "scope": "Multiphoton interference in passive linear-optical networks, its computational complexity, and its applications to photonic quantum computing.",
+   "keywords": [
+    "boson sampling",
+    "linear optics",
+    "Hong-Ou-Mandel",
+    "permanent",
+    "multiphoton interference",
+    "photonic quantum computing",
+    "Gaussian boson sampling",
+    "beam splitter",
+    "photon distinguishability",
+    "KLM scheme"
+   ]
+  },
+  {
+   "name": "Many-body entanglement and tensor networks",
+   "scope": "How entanglement scales in ground and excited states of lattice models, and how matrix product states and related tensor networks represent it.",
+   "keywords": [
+    "entanglement entropy",
+    "area law",
+    "matrix product states",
+    "PEPS",
+    "spin chain",
+    "free fermions",
+    "entanglement spectrum",
+    "AKLT",
+    "critical systems",
+    "bond dimension"
+   ]
+  },
+  {
+   "name": "Relativistic quantum information and field entanglement",
+   "scope": "Entanglement and quantum information in quantum fields and in curved or accelerated settings, including Unruh-DeWitt detectors and entanglement harvesting.",
+   "keywords": [
+    "Unruh effect",
+    "Unruh-DeWitt detector",
+    "entanglement harvesting",
+    "relativistic quantum information",
+    "accelerated observers",
+    "quantum field theory",
+    "vacuum entanglement",
+    "Hawking radiation",
+    "expanding spacetime",
+    "relativistic quantum channels"
+   ]
+  },
+  {
+   "name": "Superconducting, trapped-ion and atomic qubit physics",
+   "scope": "Theoretical models of physical qubit platforms, including circuit QED, trapped-ion gates and Rydberg-atom arrays, and of their gate errors.",
+   "keywords": [
+    "transmon",
+    "circuit QED",
+    "dispersive readout",
+    "trapped ions",
+    "M\u00f8lmer-S\u00f8rensen gate",
+    "Rydberg blockade",
+    "neutral atoms",
+    "two-qubit gate fidelity",
+    "leakage",
+    "cross-resonance gate"
+   ]
+  },
+  {
+   "name": "Quantum speed limits and optimal control",
+   "scope": "Minimal evolution times and optimal control fields for preparing states and implementing gates under constraints.",
+   "keywords": [
+    "quantum speed limit",
+    "Mandelstam-Tamm",
+    "Margolus-Levitin",
+    "optimal control",
+    "time-optimal control",
+    "GRAPE",
+    "controllability",
+    "quantum brachistochrone",
+    "Pontryagin maximum principle",
+    "geometric quantum gates"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Semidefinite programming and duality bounds",
+   "scope": "Formulate optimal guessing probabilities, Bell values, fidelities or channel norms as SDPs and certify the exact optimum with matching primal and dual solutions."
+  },
+  {
+   "name": "Weingarten calculus for Haar averages",
+   "scope": "Evaluate moments of Haar-random unitaries and states with Weingarten functions and permutation sums to get exact averages and variances."
+  },
+  {
+   "name": "Schur-Weyl duality and representation theory",
+   "scope": "Decompose tensor-power spaces into irreducible representations of the unitary and symmetric groups, reducing symmetric problems to low-dimensional ones."
+  },
+  {
+   "name": "Binary symplectic stabilizer algebra",
+   "scope": "Represent Pauli and Clifford operations as vectors and matrices over GF(2) to compute code parameters, logical operators and counts of stabilizer objects."
+  },
+  {
+   "name": "Discrete Fourier analysis and character sums",
+   "scope": "Use Fourier transforms over finite groups and fields, Gauss sums and MacWilliams identities to construct bases, analyze algorithms and relate weight distributions."
+  },
+  {
+   "name": "Statistical-mechanics mapping of decoding thresholds",
+   "scope": "Map optimal decoding of topological codes onto disordered spin models or percolation problems to locate error thresholds."
+  },
+  {
+   "name": "Symplectic and Bogoliubov mode transformations",
+   "scope": "Diagonalize Gaussian covariance matrices and quadratic mode Hamiltonians with Williamson normal forms and Bogoliubov transformations to get entropies, entanglement and particle content."
+  },
+  {
+   "name": "Phase-space quasiprobability representations",
+   "scope": "Use continuous or discrete Wigner, Husimi and characteristic functions to compute overlaps, negativity and channel actions in closed form."
+  },
+  {
+   "name": "Quantum Fisher information calculus",
+   "scope": "Compute the symmetric-logarithmic-derivative QFI, Bures metrics and their extensions to channels to get exact precision bounds and optimal probe states."
+  },
+  {
+   "name": "Convex-roof and symmetry-reduced entanglement evaluation",
+   "scope": "Use symmetries (twirling, Werner and isotropic families) and convex-roof constructions to get closed-form entanglement and resource measures."
+  },
+  {
+   "name": "Entropic inequalities and converse bounds",
+   "scope": "Chain data-processing, subadditivity and continuity inequalities to derive tight converse bounds on rates and capacities."
+  },
+  {
+   "name": "Large-deviation and second-order asymptotics",
+   "scope": "Derive error exponents, Chernoff and Hoeffding bounds, and Gaussian second-order corrections for asymptotic information-processing tasks."
+  },
+  {
+   "name": "Liouvillian spectral analysis of master equations",
+   "scope": "Vectorize Lindblad generators and solve for their spectra, steady states and relaxation times, either exactly or by third quantization."
+  },
+  {
+   "name": "Free-fermion correlation-matrix methods",
+   "scope": "Solve quadratic fermionic models with the Jordan-Wigner mapping and correlation matrices, using Toeplitz or Fisher-Hartwig asymptotics for entanglement."
+  },
+  {
+   "name": "Schrieffer-Wolff and perturbative effective Hamiltonians",
+   "scope": "Derive low-energy effective couplings, dispersive shifts and gadget interactions by perturbative block diagonalization."
+  },
+  {
+   "name": "Spectral gap bounds and adiabatic theorems",
+   "scope": "Bound or compute the gaps of Hamiltonians, graph Laplacians and Markov chains, and convert them into adiabatic run times, hitting times or mixing times."
+  },
+  {
+   "name": "BCH, Magnus and nested-commutator expansions",
+   "scope": "Expand time-ordered or product-formula evolutions in commutators to get leading error terms, average Hamiltonians and filter functions."
+  },
+  {
+   "name": "Polynomial approximation and Chebyshev methods",
+   "scope": "Use Chebyshev and minimax polynomial approximations to build quantum signal processing sequences and to prove polynomial-method query lower bounds."
+  },
+  {
+   "name": "Transfer matrices and tensor-network contraction",
+   "scope": "Compute correlation lengths, norms and entanglement of MPS-like states, or classical partition functions, from transfer-matrix spectra."
+  },
+  {
+   "name": "Lie-algebraic and Cartan decomposition methods",
+   "scope": "Use Lie algebra structure, Cartan (KAK) decompositions and dynamical Lie algebras to determine controllability, optimal gate times and invariants."
+  }
+ ],
+ "field": "quantum information and computing",
+ "categories": [
+  "quant-ph",
+  "cs.IT",
+  "math-ph"
+ ]
+}

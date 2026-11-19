@@ -1,0 +1,679 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Psychology",
+ "weight": 0.0105,
+ "leaves": [
+  {
+   "leaf": "Founding of experimental psychology and early schools of thought",
+   "scope": "Nineteenth- and early twentieth-century origins of scientific psychology, including Wundt's Leipzig laboratory, Titchener's structuralism, American functionalism, the Würzburg school and the first laboratories, journals and textbooks.",
+   "queries": [
+    "Wundt Leipzig laboratory 1879 introspection",
+    "Titchener structuralism Cornell elements of consciousness",
+    "functionalism William James Principles of Psychology 1890",
+    "Würzburg school imageless thought Külpe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical and operant conditioning research",
+   "scope": "Pavlovian and instrumental learning phenomena, procedures and models, from Pavlov and Thorndike to Skinner's schedules of reinforcement, blocking and the Rescorla-Wagner model.",
+   "queries": [
+    "Pavlov conditioned reflex salivation dogs experiments",
+    "Skinner schedules of reinforcement fixed ratio variable interval",
+    "Thorndike law of effect puzzle box cats",
+    "Rescorla-Wagner model blocking Kamin latent inhibition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychoanalytic and psychodynamic theory",
+   "scope": "Freudian theory and what followed it, including Jungian analytical psychology, Adlerian individual psychology, ego psychology, object relations and self psychology, with their key concepts, texts and figures.",
+   "queries": [
+    "Freud Interpretation of Dreams psychosexual stages",
+    "Jung analytical psychology archetypes collective unconscious",
+    "Melanie Klein object relations paranoid-schizoid position",
+    "Anna Freud defense mechanisms ego psychology Kohut"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Humanistic, existential and positive psychology",
+   "scope": "Third-force and strengths-based approaches such as Rogers' person-centered theory, Maslow's hierarchy of needs, Frankl's logotherapy, Rollo May's existential psychology, and Seligman's positive psychology including flow, PERMA and character strengths.",
+   "queries": [
+    "Carl Rogers person-centered unconditional positive regard congruence",
+    "Maslow hierarchy of needs self-actualization peak experiences",
+    "Viktor Frankl logotherapy Man's Search for Meaning",
+    "Seligman PERMA VIA character strengths Csikszentmihalyi flow"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychophysics and signal detection theory",
+   "scope": "Quantitative relations between physical stimuli and sensation, including absolute and difference thresholds, Weber's and Fechner's laws, Stevens' power-law exponents, classical threshold methods and signal detection measures.",
+   "queries": [
+    "Weber fraction just noticeable difference Fechner law",
+    "Stevens power law exponents magnitude estimation",
+    "signal detection theory d prime criterion ROC",
+    "method of constant stimuli limits adjustment threshold"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Visual perception: Gestalt organization, illusions and depth cues",
+   "scope": "Gestalt grouping principles and the Berlin school, named visual illusions, monocular and binocular depth cues, perceptual constancies and classic multisensory effects such as the McGurk effect.",
+   "queries": [
+    "Gestalt principles proximity similarity Wertheimer phi phenomenon",
+    "Müller-Lyer Ponzo Ebbinghaus illusion explanation",
+    "monocular binocular depth cues stereopsis Julesz random-dot",
+    "McGurk effect ventriloquism multisensory illusion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Memory models and phenomena",
+   "scope": "Experimental memory research, including the multi-store and working-memory models, Ebbinghaus's forgetting curve, serial position effects, levels of processing, encoding specificity and false-memory paradigms.",
+   "queries": [
+    "Baddeley Hitch working memory episodic buffer phonological loop",
+    "Atkinson Shiffrin multi-store model sensory memory",
+    "Ebbinghaus forgetting curve nonsense syllables savings",
+    "Deese Roediger McDermott false memory paradigm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Landmark neuropsychological case studies and split-brain research",
+   "scope": "Famous single patients and patient groups that shaped psychology, such as H.M., Phineas Gage, Leborgne ('Tan'), Clive Wearing, K.F. and split-brain commissurotomy patients, including their lesions, dates and findings.",
+   "queries": [
+    "patient H.M. Henry Molaison bilateral medial temporal lobectomy",
+    "Phineas Gage tamping iron frontal lobe 1848",
+    "Broca patient Leborgne Tan aphasia",
+    "Sperry Gazzaniga split-brain corpus callosotomy patients"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Attention and cognitive control paradigms",
+   "scope": "Theories and laboratory paradigms of selective attention, executive control and visual search, such as filter and attenuation models, the Stroop and flanker tasks, the attentional blink, inattentional blindness and feature integration theory.",
+   "queries": [
+    "Broadbent filter model Treisman attenuation dichotic listening",
+    "Stroop effect interference color naming 1935",
+    "attentional blink rapid serial visual presentation",
+    "feature integration theory visual search conjunction Treisman"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psycholinguistics and language acquisition",
+   "scope": "The psychological study of how language is processed and learned, including sentence parsing, lexical access and priming, child language milestones, evidence for a critical period, and nativist versus usage-based theories.",
+   "queries": [
+    "garden path sentences parsing psycholinguistics",
+    "lexical decision task semantic priming Meyer Schvaneveldt",
+    "critical period language acquisition Genie Lenneberg",
+    "child language acquisition overregularization wug test Berko"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Judgment and decision-making heuristics and biases",
+   "scope": "Behavioral decision research on heuristics, biases, prospect theory and framing, centered on Kahneman and Tversky, Simon's bounded rationality and related named effects.",
+   "queries": [
+    "Tversky Kahneman availability representativeness anchoring heuristics",
+    "prospect theory loss aversion probability weighting",
+    "Linda problem conjunction fallacy framing effect Asian disease",
+    "bounded rationality satisficing Herbert Simon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reasoning, problem solving and creativity",
+   "scope": "Deductive and inductive reasoning tasks, insight problem solving, mental set and functional fixedness, and theories and measures of creativity such as divergent-thinking tests.",
+   "queries": [
+    "Wason selection task four card problem",
+    "Duncker candle problem functional fixedness",
+    "Luchins water jar problem Einstellung effect",
+    "Torrance Tests of Creative Thinking divergent thinking Guilford"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intelligence theories and IQ test editions",
+   "scope": "Psychometric and alternative theories of intelligence, and the history, editions, subtests and norms of major intelligence tests such as the Binet-Simon, Stanford-Binet, Wechsler scales and Raven's matrices, along with findings like the Flynn effect.",
+   "queries": [
+    "Spearman g factor Thurstone primary mental abilities",
+    "Cattell-Horn-Carroll theory fluid crystallized intelligence",
+    "WAIS-IV index scores subtests Wechsler",
+    "Flynn effect IQ gains Raven Progressive Matrices"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Personality trait models and inventories",
+   "scope": "Trait and biological theories of personality and the instruments that measure them, including Allport's trait theory, Cattell's 16PF, Eysenck's PEN model, the Five-Factor Model and NEO inventories, HEXACO and the MBTI.",
+   "queries": [
+    "Big Five NEO-PI-R facets Costa McCrae",
+    "Cattell 16PF source traits factor analysis",
+    "Eysenck psychoticism extraversion neuroticism EPQ",
+    "HEXACO honesty-humility Ashton Lee"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Clinical and neuropsychological assessment instruments",
+   "scope": "Objective, projective and neuropsychological tests used in clinical assessment, including the MMPI family, Rorschach scoring systems, the TAT, and batteries and tests such as the Halstead-Reitan, the Wisconsin Card Sorting Test and the Trail Making Test.",
+   "queries": [
+    "MMPI-2 clinical scales validity scales items",
+    "Rorschach Exner Comprehensive System R-PAS scoring",
+    "Thematic Apperception Test Murray Morgan cards",
+    "Halstead-Reitan battery Wisconsin Card Sorting Test"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cognitive development and theory of mind",
+   "scope": "Theories and findings on how children's thinking develops, including Piaget's stages and tasks, Vygotsky's sociocultural theory, core-knowledge and violation-of-expectation research, and false-belief studies of theory of mind.",
+   "queries": [
+    "Piaget stages conservation tasks concrete operational",
+    "Vygotsky zone of proximal development scaffolding",
+    "Sally-Anne false belief task theory of mind autism",
+    "infant violation of expectation object permanence Baillargeon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Attachment, temperament and early socioemotional development",
+   "scope": "Infant–caregiver attachment and early emotional development, including Bowlby and Ainsworth, the Strange Situation classifications, Harlow's monkey studies, the Adult Attachment Interview and temperament research.",
+   "queries": [
+    "Ainsworth Strange Situation attachment classifications disorganized",
+    "Bowlby attachment theory maternal deprivation 44 thieves",
+    "Harlow rhesus monkeys wire cloth surrogate mother",
+    "Thomas Chess New York Longitudinal Study temperament"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lifespan development, identity and aging",
+   "scope": "Theories and studies of adolescent, adult and late-life development, such as Erikson's psychosocial stages, Marcia's identity statuses, Levinson's seasons of life, Baltes' SOC model, socioemotional selectivity theory and major longitudinal aging studies.",
+   "queries": [
+    "Erikson psychosocial stages generativity versus stagnation",
+    "Marcia identity status foreclosure moratorium",
+    "socioemotional selectivity theory Carstensen aging",
+    "Baltes selective optimization compensation Berlin Aging Study"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Moral development and moral psychology",
+   "scope": "Theories and empirical research on moral reasoning and judgment, including Piaget's and Kohlberg's stages, the Heinz dilemma, Gilligan's ethics of care, Rest's Defining Issues Test, moral foundations theory and trolley-problem studies.",
+   "queries": [
+    "Kohlberg stages moral development Heinz dilemma",
+    "Gilligan In a Different Voice ethics of care",
+    "moral foundations theory Haidt Graham",
+    "Defining Issues Test Rest moral judgment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Social influence, conformity, obedience and group processes",
+   "scope": "Classic research on conformity, obedience, bystander intervention, group dynamics and intergroup behavior, including the Asch, Milgram, Stanford prison, Robbers Cave and minimal-group studies and the theories they produced.",
+   "queries": [
+    "Milgram obedience experiment voltage percentage participants",
+    "Asch conformity line judgment experiment",
+    "Darley Latané bystander effect Kitty Genovese",
+    "Tajfel minimal group paradigm social identity theory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Social cognition, attribution, attitudes and persuasion",
+   "scope": "How people perceive and explain others and how attitudes form and change, including attribution theory, cognitive dissonance, self-perception theory, the elaboration likelihood model, the theory of planned behavior and implicit measures such as the IAT.",
+   "queries": [
+    "Festinger Carlsmith cognitive dissonance one dollar twenty dollars",
+    "Kelley covariation model attribution fundamental attribution error",
+    "elaboration likelihood model central peripheral route Petty Cacioppo",
+    "Implicit Association Test Greenwald 1998"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Emotion theories and facial expression research",
+   "scope": "Theories of emotion and research on how emotion is expressed, including the James-Lange, Cannon-Bard and Schachter-Singer theories, appraisal theories, Ekman's basic emotions and the Facial Action Coding System, and Plutchik's wheel.",
+   "queries": [
+    "James-Lange Cannon-Bard theory of emotion",
+    "Schachter Singer two-factor theory epinephrine experiment",
+    "Ekman basic emotions Facial Action Coding System",
+    "Plutchik wheel of emotions appraisal theory Lazarus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Motivation, self-regulation and goal-setting",
+   "scope": "Theories and studies of motivation and self-control, including drive reduction, arousal and the Yerkes-Dodson law, need for achievement, self-determination theory, goal-setting theory, delay of gratification and ego depletion.",
+   "queries": [
+    "Yerkes-Dodson law arousal performance 1908",
+    "self-determination theory autonomy competence relatedness Deci Ryan",
+    "Mischel marshmallow test delay of gratification",
+    "McClelland need for achievement Locke Latham goal-setting"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "DSM and ICD classification history",
+   "scope": "The editions, structure, codes and revisions of the Diagnostic and Statistical Manual of Mental Disorders and of the ICD chapters on mental and behavioral disorders, including notable additions, removals and controversies.",
+   "queries": [
+    "DSM-III 1980 multiaxial system Spitzer",
+    "DSM-5-TR 2022 changes prolonged grief disorder",
+    "ICD-11 chapter 6 mental behavioural neurodevelopmental disorders",
+    "homosexuality removed DSM 1973 diagnostic history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mood, anxiety, trauma and obsessive-compulsive disorders",
+   "scope": "Diagnostic criteria, epidemiology, theories and standard rating scales for depressive, bipolar, anxiety, trauma-related and obsessive-compulsive disorders.",
+   "queries": [
+    "major depressive disorder DSM-5 criteria duration symptoms",
+    "Beck Depression Inventory Hamilton rating scale items",
+    "PTSD diagnostic criteria clusters DSM-5",
+    "Yale-Brown Obsessive Compulsive Scale severity items"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Schizophrenia spectrum and psychotic disorders",
+   "scope": "The history, diagnosis, symptom dimensions and causal theories of schizophrenia and related psychoses, from Kraepelin and Bleuler to Schneider's first-rank symptoms, the dopamine hypothesis and rating scales such as the PANSS.",
+   "queries": [
+    "Bleuler schizophrenia four As Kraepelin dementia praecox",
+    "Schneider first-rank symptoms schizophrenia",
+    "schizophrenia dopamine hypothesis glutamate theory",
+    "PANSS positive negative symptoms scale schizoaffective"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Personality, dissociative and somatic symptom disorders",
+   "scope": "DSM personality disorder clusters and alternative models, dissociative identity and related disorders, and somatic symptom and conversion disorders, including their history and controversies.",
+   "queries": [
+    "personality disorders cluster A B C DSM-5",
+    "borderline personality disorder criteria alternative model",
+    "dissociative identity disorder Sybil controversy",
+    "conversion disorder hysteria somatic symptom disorder history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neurodevelopmental disorders: autism, ADHD and intellectual disability",
+   "scope": "History, diagnostic criteria, prevalence and assessment tools for autism spectrum disorder, ADHD, intellectual disability, specific learning disorders and tic disorders.",
+   "queries": [
+    "Kanner 1943 autistic disturbances affective contact Asperger",
+    "ADOS ADI-R autism diagnostic assessment",
+    "ADHD DSM-5 criteria inattentive hyperactive presentations",
+    "intellectual disability severity levels adaptive functioning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cognitive-behavioral and third-wave psychotherapies",
+   "scope": "Founders, techniques, protocols and evidence for behavior therapy, Beck's cognitive therapy, Ellis's REBT, dialectical behavior therapy, acceptance and commitment therapy, schema therapy, exposure-based treatments and EMDR.",
+   "queries": [
+    "Beck cognitive therapy cognitive triad automatic thoughts",
+    "Ellis rational emotive behavior therapy ABC model",
+    "dialectical behavior therapy Linehan skills modules",
+    "acceptance and commitment therapy hexaflex Hayes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Family, group and integrative psychotherapy schools and outcome research",
+   "scope": "Family systems, group, interpersonal and other named therapy approaches (Bowen, Minuchin, Satir, Yalom, Moreno's psychodrama, Berne's transactional analysis, IPT, motivational interviewing), plus psychotherapy outcome research such as Eysenck's 1952 critique and the Dodo bird verdict.",
+   "queries": [
+    "Bowen family systems theory differentiation triangles",
+    "Minuchin structural family therapy Satir",
+    "Yalom therapeutic factors group psychotherapy",
+    "Dodo bird verdict psychotherapy outcome Eysenck 1952"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sleep, dreaming and hypnosis",
+   "scope": "Psychological research on sleep stages, circadian rhythms, sleep deprivation and theories of dreaming, along with the history and measurement of hypnosis.",
+   "queries": [
+    "REM sleep discovery Aserinsky Kleitman 1953",
+    "sleep stages N1 N2 N3 spindles K-complexes",
+    "activation-synthesis hypothesis Hobson McCarley dreaming",
+    "Stanford Hypnotic Susceptibility Scale Hilgard hidden observer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychometrics and test theory",
+   "scope": "The theory and statistics of psychological measurement, including classical test theory, reliability coefficients, validity frameworks, factor analysis, item response theory and testing standards.",
+   "queries": [
+    "Cronbach alpha internal consistency reliability coefficient",
+    "item response theory Rasch model item parameters",
+    "construct validity Cronbach Meehl multitrait-multimethod matrix",
+    "Spearman-Brown prophecy formula classical test theory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Research methods, statistics and the replication crisis",
+   "scope": "Experimental designs, statistical practice and metascience in psychology, including debates over null-hypothesis testing, effect-size conventions, p-hacking, preregistration and large-scale replication projects.",
+   "queries": [
+    "Open Science Collaboration 2015 reproducibility psychology 100 studies",
+    "Cohen d effect size conventions small medium large",
+    "p-hacking questionable research practices preregistration",
+    "Many Labs replication project registered reports"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial-organizational psychology and human factors",
+   "scope": "Work and engineering psychology, including the Hawthorne studies, personnel selection and assessment centers, theories of job satisfaction and leadership, and human-performance laws such as Fitts' law and the Hick-Hyman law.",
+   "queries": [
+    "Hawthorne studies Western Electric Mayo illumination",
+    "Herzberg two-factor theory motivation hygiene",
+    "Fitts law Hick-Hyman law human factors",
+    "Fiedler contingency model leadership assessment center"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forensic and legal psychology",
+   "scope": "Psychology applied to law, including eyewitness memory and lineup procedures, interrogation and false confessions, psychopathy assessment, competency and insanity standards, and landmark court cases.",
+   "queries": [
+    "Loftus Palmer misinformation effect car crash",
+    "eyewitness lineup sequential simultaneous identification",
+    "Hare Psychopathy Checklist Revised items scoring",
+    "M'Naghten rule insanity defense Dusky competency standard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Health psychology, stress and addictive behaviors",
+   "scope": "The psychology of stress, coping, illness behavior and addiction, including Selye's general adaptation syndrome, life-event scales, the Type A behavior pattern, health behavior models and models of substance use and behavior change.",
+   "queries": [
+    "Selye general adaptation syndrome alarm resistance exhaustion",
+    "Holmes Rahe Social Readjustment Rating Scale",
+    "Type A behavior pattern Friedman Rosenman",
+    "transtheoretical model stages of change Prochaska"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Evolutionary psychology and behavior genetics",
+   "scope": "Adaptationist accounts of human behavior and quantitative-genetic studies of psychological traits, including cross-cultural mate-preference research, kin selection, domain-specific modules, and twin and adoption studies of heritability.",
+   "queries": [
+    "Buss mate preferences 37 cultures evolutionary psychology",
+    "Cosmides Tooby cheater detection module",
+    "Minnesota Study of Twins Reared Apart heritability",
+    "behavioral genetics twin adoption studies shared environment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cross-cultural and cultural psychology",
+   "scope": "The comparative study of psychological processes across cultures, including Hofstede's dimensions, individualism and collectivism, independent and interdependent self-construals, the WEIRD critique and culture-bound syndromes.",
+   "queries": [
+    "Hofstede cultural dimensions power distance individualism",
+    "Markus Kitayama independent interdependent self-construal",
+    "WEIRD psychology Henrich Heine Norenzayan",
+    "culture-bound syndromes koro amok ataque de nervios"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Comparative psychology and animal cognition",
+   "scope": "Studies of learning, problem solving, communication and self-recognition in nonhuman animals, including Köhler's chimpanzees, ape language projects, the mirror test, and famous cases such as Clever Hans and Alex the parrot.",
+   "queries": [
+    "Köhler chimpanzees insight learning Tenerife Sultan",
+    "ape language projects Washoe Kanzi Nim Chimpsky",
+    "Gallup mirror self-recognition test animals",
+    "Clever Hans effect Alex parrot Pepperberg"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Professional psychology: organizations, training models, ethics and licensure",
+   "scope": "The institutions and regulation of psychology as a profession, including the history and divisions of the APA and APS, the Boulder and Vail training models, ethics codes, duty-to-warn cases, licensure exams and prescriptive authority.",
+   "queries": [
+    "American Psychological Association founded 1892 divisions",
+    "Boulder scientist-practitioner model Vail conference PsyD",
+    "Tarasoff duty to warn APA ethics code",
+    "psychologist prescriptive authority New Mexico EPPP licensure"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Psychopharmacology and the history of psychotropic drugs",
+   "scope": "Discovery, mechanisms, receptor targets, regulatory approval dates and landmark trials of antipsychotics, antidepressants, mood stabilizers, anxiolytics, hypnotics and stimulants, such as chlorpromazine, imipramine, lithium, the benzodiazepines, the SSRIs and clozapine.",
+   "queries": [
+    "chlorpromazine Delay Deniker 1952 antipsychotic discovery",
+    "imipramine Roland Kuhn tricyclic antidepressant iproniazid",
+    "lithium John Cade 1949 mania treatment",
+    "chlordiazepoxide Leo Sternbach benzodiazepine anxiolytic discovery"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hearing, pain and the chemical and somatosensory senses",
+   "scope": "Perception outside vision: pitch and sound localization theories, music cognition, touch and haptics, vestibular sense, pain theories and pain scales, taste and smell, and the researchers and receptor discoveries behind them.",
+   "queries": [
+    "place theory volley theory pitch perception Békésy",
+    "gate control theory pain Melzack Wall 1965",
+    "supertasters PROP taste sensitivity Bartoshuk",
+    "olfactory receptor genes Buck Axel odor perception"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Prejudice, stereotyping and intergroup relations",
+   "scope": "Classic intergroup studies and theories, including realistic conflict, social identity and self-categorization theory, the minimal group paradigm, the contact hypothesis, stereotype threat, the authoritarian personality and modern or implicit racism measures.",
+   "queries": [
+    "Robbers Cave experiment Sherif realistic conflict theory",
+    "minimal group paradigm Tajfel social identity theory",
+    "stereotype threat Steele Aronson 1995 experiment",
+    "contact hypothesis Allport Nature of Prejudice"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aggression, prosocial behavior and bystander intervention",
+   "scope": "Theories and landmark experiments on human aggression, helping and altruism, such as the Bobo doll studies, the frustration-aggression hypothesis, the weapons effect, the bystander effect, the Good Samaritan study and the empathy-altruism hypothesis, excluding conformity and obedience research.",
+   "queries": [
+    "Bobo doll experiment Bandura 1961 aggression",
+    "frustration aggression hypothesis Dollard weapons effect Berkowitz",
+    "bystander effect Darley Latané Kitty Genovese",
+    "empathy altruism hypothesis Batson Good Samaritan study"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Interpersonal attraction, love and close relationships",
+   "scope": "Research on attraction, romantic love and relationship maintenance: proximity and similarity effects, the matching hypothesis, misattribution of arousal, love typologies and scales, the investment model and marital-stability prediction.",
+   "queries": [
+    "triangular theory of love Sternberg intimacy passion commitment",
+    "Gottman four horsemen marital stability prediction",
+    "matching hypothesis Walster computer dance physical attractiveness",
+    "Dutton Aron Capilano bridge misattribution of arousal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Human sexuality, sexual orientation and gender research",
+   "scope": "Sex research and gender psychology, including the Kinsey reports and scale, sexual response cycle models, sexual orientation measures, androgyny and gender-role inventories, famous gender-identity cases, and how paraphilias and gender dysphoria have been classified.",
+   "queries": [
+    "Kinsey scale Sexual Behavior in the Human Male 1948",
+    "Masters Johnson human sexual response cycle phases",
+    "Bem Sex Role Inventory androgyny 1974",
+    "John Money David Reimer gender identity case"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Feeding and eating disorders and body image",
+   "scope": "History, diagnostic criteria, severity specifiers, assessment instruments and treatments of anorexia nervosa, bulimia nervosa, binge-eating disorder, ARFID, pica and rumination disorder, plus starvation and body-image research.",
+   "queries": [
+    "anorexia nervosa history William Gull Lasègue 1873",
+    "bulimia nervosa Gerald Russell 1979 Russell's sign",
+    "Minnesota Starvation Experiment Ancel Keys semi-starvation",
+    "anorexia nervosa DSM-5 BMI severity specifiers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Educational and school psychology",
+   "scope": "Psychology applied to teaching and schooling, including taxonomies of learning objectives, mastery learning, cognitive load theory, teacher expectancy effects, instructional design models, and the history, training conferences and special-education law and court cases of school psychology.",
+   "queries": [
+    "Bloom's taxonomy educational objectives 1956 revised 2001",
+    "cognitive load theory Sweller worked example effect",
+    "Pygmalion in the Classroom Rosenthal Jacobson expectancy",
+    "Thayer conference school psychology training history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

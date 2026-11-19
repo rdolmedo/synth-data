@@ -1,0 +1,522 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Civil Engineering",
+ "weight": 0.008,
+ "leaves": [
+  {
+   "leaf": "Structural analysis methods and structural stability",
+   "scope": "Classical and matrix methods for analysing determinate and indeterminate structures, influence lines, and column buckling and stability theory.",
+   "queries": [
+    "moment distribution method Hardy Cross carry-over factor",
+    "slope deflection equations indeterminate beam analysis",
+    "influence lines Muller-Breslau principle moving loads",
+    "Euler buckling effective length factor column"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reinforced concrete member design under ACI 318",
+   "scope": "Flexure, shear, development length, slab and column provisions and detailing for reinforced concrete members under ACI 318 and comparable codes such as Eurocode 2.",
+   "queries": [
+    "ACI 318 strength reduction factor tension-controlled section",
+    "Whitney stress block beta1 concrete compressive strength",
+    "development length reinforcing bar standard hook splice",
+    "two-way slab punching shear critical perimeter"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Prestressed and post-tensioned concrete",
+   "scope": "Pretensioning and post-tensioning systems, tendons, strands and anchorages, prestress losses, and the history of prestressing.",
+   "queries": [
+    "prestress losses elastic shortening creep shrinkage relaxation",
+    "post-tensioning tendon anchorage unbonded monostrand",
+    "Eugène Freyssinet prestressed concrete history",
+    "pretensioned girder strand transfer length"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Structural steel member and connection design (AISC 360)",
+   "scope": "Design of steel tension, compression and flexural members and bolted and welded connections under AISC 360, including structural steel grades and rolled shapes.",
+   "queries": [
+    "AISC 360 lateral torsional buckling unbraced length",
+    "ASTM A992 wide flange steel yield strength",
+    "high-strength bolts slip-critical connection A325 A490",
+    "fillet weld effective throat electrode strength"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Timber and engineered wood structures",
+   "scope": "Wood structural design and products, including NDS adjustment factors, lumber grading, glulam, LVL, cross-laminated timber, timber connections and mass timber buildings.",
+   "queries": [
+    "cross-laminated timber mass timber building height",
+    "NDS adjustment factors wood design load duration",
+    "glued laminated timber glulam beam grades",
+    "dimensional lumber grading species Douglas fir"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Masonry structures and materials",
+   "scope": "Brick, concrete block and stone masonry materials and structural design, including mortar types, grout, reinforcement, bond patterns and TMS 402 provisions.",
+   "queries": [
+    "mortar types M S N O compressive strength",
+    "concrete masonry unit CMU reinforced grout",
+    "TMS 402 masonry structures design code",
+    "brick bond patterns Flemish English stretcher"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structural design loads and load combinations (ASCE 7 and IBC)",
+   "scope": "Dead, live, wind, snow, rain and ice loads, risk categories, and LRFD/ASD load combinations as specified by ASCE 7 and the International Building Code.",
+   "queries": [
+    "ASCE 7 basic wind speed exposure category",
+    "ground snow load roof drift design",
+    "LRFD load combinations 1.2D 1.6L",
+    "live load reduction occupancy risk category"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Earthquake engineering and seismic design",
+   "scope": "Seismic hazard and response spectra, seismic force-resisting systems and response modification factors, ductile detailing, base isolation and supplemental damping.",
+   "queries": [
+    "response modification coefficient R seismic force-resisting system",
+    "base isolation lead rubber bearing building",
+    "design response spectrum site class seismic",
+    "special moment frame ductile detailing earthquake"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tall building structural systems",
+   "scope": "Lateral load-resisting systems of skyscrapers (framed and bundled tubes, outriggers, buttressed cores, diagrids), tuned mass dampers, and record-height buildings and their structural engineers.",
+   "queries": [
+    "framed tube bundled tube Fazlur Khan skyscraper",
+    "buttressed core Burj Khalifa structural system",
+    "tuned mass damper Taipei 101 skyscraper",
+    "outrigger belt truss tall building lateral"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shell, space-frame, cable and membrane structures",
+   "scope": "Thin concrete shells, geodesic domes, space frames, cable nets, tensegrity and tensile fabric roofs, with their notable designers and buildings.",
+   "queries": [
+    "thin shell concrete hyperbolic paraboloid Félix Candela",
+    "tensile membrane structure PTFE fabric roof",
+    "geodesic dome Buckminster Fuller space frame",
+    "cable net roof Frei Otto Munich Olympic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bridge types and landmark bridges",
+   "scope": "Structural forms of bridges (suspension, cable-stayed, arch, truss, cantilever, girder, movable) and notable or record-holding bridges with their spans, dates and designers.",
+   "queries": [
+    "longest suspension bridge main span record",
+    "cable-stayed bridge harp fan arrangement pylon",
+    "cantilever truss bridge Forth Bridge Quebec",
+    "steel arch bridge span Chaotianmen Sydney Harbour"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bridge design specifications, inspection and load rating",
+   "scope": "AASHTO LRFD bridge design, design live loads such as HL-93, bearings and expansion joints, National Bridge Inspection Standards, condition ratings and load rating.",
+   "queries": [
+    "AASHTO LRFD HL-93 design truck tandem lane load",
+    "National Bridge Inspection Standards inspection interval",
+    "bridge load rating factor inventory operating",
+    "elastomeric bearing expansion joint bridge deck"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Soil mechanics: classification, compaction, consolidation and shear strength",
+   "scope": "Soil phase relations, Atterberg limits, USCS and AASHTO classification, compaction, effective stress, permeability, consolidation theory and shear strength.",
+   "queries": [
+    "Atterberg limits plasticity index Unified Soil Classification",
+    "Terzaghi consolidation coefficient compression index",
+    "Mohr-Coulomb effective stress shear strength triaxial",
+    "Proctor compaction maximum dry density optimum moisture"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geotechnical site investigation and in-situ testing",
+   "scope": "Subsurface exploration by boring and sampling, plus SPT, CPT, vane shear, pressuremeter, dilatometer and geophysical tests and their empirical correlations.",
+   "queries": [
+    "standard penetration test N60 hammer energy correction",
+    "cone penetration test tip resistance sleeve friction",
+    "field vane shear test undrained strength",
+    "Shelby tube undisturbed sampling split spoon"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foundation engineering: shallow and deep foundations",
+   "scope": "Bearing capacity and settlement of footings and mats, driven piles, drilled shafts and caissons, pile load testing and dynamic pile analysis.",
+   "queries": [
+    "Terzaghi bearing capacity factors strip footing",
+    "driven pile capacity alpha method skin friction",
+    "drilled shaft caisson foundation construction",
+    "pile load test dynamic PDA wave equation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Earth retention, slope stability and ground improvement",
+   "scope": "Lateral earth pressure theory, retaining walls, sheet piles and MSE walls, slope stability analysis methods, geosynthetics and ground improvement techniques.",
+   "queries": [
+    "Rankine Coulomb lateral earth pressure coefficient",
+    "slope stability Bishop method factor of safety",
+    "mechanically stabilized earth wall geogrid reinforcement",
+    "ground improvement stone columns vibro compaction grouting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rock mechanics and engineering geology",
+   "scope": "Rock mass classification (RQD, RMR, Q-system, GSI), the Hoek-Brown criterion, discontinuities, and geological hazards such as karst and landslides that affect civil works.",
+   "queries": [
+    "rock mass rating Bieniawski RMR classification",
+    "Barton Q-system rock quality designation",
+    "Hoek-Brown failure criterion geological strength index",
+    "engineering geology karst sinkhole landslide hazard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tunneling and underground construction",
+   "scope": "Tunneling methods (TBM, NATM, cut-and-cover, immersed tube, drill and blast), tunnel linings, and notable tunnels with their lengths and dates.",
+   "queries": [
+    "tunnel boring machine earth pressure balance slurry",
+    "New Austrian Tunnelling Method shotcrete rock bolts",
+    "immersed tube tunnel construction Øresund",
+    "Gotthard Base Tunnel length longest railway tunnel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dams, reservoirs and spillways",
+   "scope": "Gravity, arch, buttress, embankment and roller-compacted concrete dams, spillways and outlet works, dam safety, and notable dams with their dimensions.",
+   "queries": [
+    "arch dam concrete Hoover Dam construction",
+    "embankment dam earthfill rockfill clay core",
+    "roller-compacted concrete gravity dam",
+    "ogee spillway stilling basin energy dissipation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Open-channel hydraulics",
+   "scope": "Uniform and gradually varied flow, the Manning and Chézy equations, specific energy and critical depth, hydraulic jumps, weirs, flumes and culvert hydraulics.",
+   "queries": [
+    "Manning roughness coefficient n open channel",
+    "hydraulic jump Froude number sequent depth",
+    "specific energy critical depth open channel",
+    "broad-crested weir Parshall flume discharge"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pipe flow hydraulics and water distribution networks",
+   "scope": "Pressurized pipe flow (Darcy-Weisbach, Hazen-Williams, Moody chart), network analysis (Hardy Cross, EPANET), pumps, water hammer, and the design of distribution storage and mains.",
+   "queries": [
+    "Hazen-Williams coefficient C pipe material",
+    "Darcy-Weisbach friction factor Colebrook Moody",
+    "Hardy Cross method pipe network analysis",
+    "water hammer surge Joukowsky pressure"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Engineering hydrology and stormwater management",
+   "scope": "Rainfall-runoff methods (rational method, SCS curve number, unit hydrographs), IDF curves and design storms, detention basins, low-impact development and urban drainage.",
+   "queries": [
+    "rational method runoff coefficient time of concentration",
+    "SCS curve number runoff hydrologic soil group",
+    "synthetic unit hydrograph Snyder method",
+    "detention pond stormwater best management practices"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "River engineering, flood control and inland navigation",
+   "scope": "River training, levees and floodways, sediment transport, navigation locks, canals and inland waterways, and major flood-control and canal projects.",
+   "queries": [
+    "navigation lock chamber lift canal",
+    "levee floodway Mississippi River Tributaries project",
+    "sediment transport bed load Shields parameter",
+    "Panama Canal locks Gatun construction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coastal, port and harbor engineering",
+   "scope": "Wave mechanics, rubble-mound and caisson breakwaters, armor units, seawalls, storm surge barriers, beach nourishment, littoral drift and port design.",
+   "queries": [
+    "rubble mound breakwater armor unit tetrapod",
+    "Hudson formula armor stone weight",
+    "longshore sediment transport groin beach nourishment",
+    "storm surge barrier Delta Works Oosterscheldekering"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drinking water treatment",
+   "scope": "Conventional and advanced potable water treatment (coagulation, flocculation, sedimentation, filtration, disinfection, membranes), CT requirements and Safe Drinking Water Act rules.",
+   "queries": [
+    "coagulation flocculation alum jar test",
+    "rapid sand filtration slow sand filter",
+    "chlorine disinfection CT value log removal",
+    "Safe Drinking Water Act maximum contaminant level"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wastewater treatment and sewerage",
+   "scope": "Sanitary sewer design and municipal wastewater treatment (activated sludge, trickling filters, nutrient removal, sludge digestion), BOD kinetics and effluent standards.",
+   "queries": [
+    "activated sludge solids retention time food microorganism",
+    "biochemical oxygen demand BOD5 rate constant",
+    "biological nutrient removal nitrification denitrification",
+    "anaerobic digester sewage sludge biogas"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Solid waste and landfill engineering",
+   "scope": "Municipal solid waste management and sanitary landfill design (liners, leachate collection, final covers, gas control), RCRA Subtitle C and D requirements, and waste-to-energy.",
+   "queries": [
+    "landfill composite liner geomembrane clay hydraulic conductivity",
+    "leachate collection system landfill design",
+    "RCRA Subtitle D municipal solid waste landfill",
+    "landfill gas methane collection flare"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Highway geometric design",
+   "scope": "AASHTO Green Book geometric design, covering design speed, sight distance, horizontal and vertical curves, superelevation, cross-sections and interchange types.",
+   "queries": [
+    "stopping sight distance perception reaction time",
+    "superelevation side friction horizontal curve radius",
+    "crest vertical curve length K value",
+    "interchange types diamond cloverleaf diverging"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pavement engineering and asphalt materials",
+   "scope": "Flexible and rigid pavement design (AASHTO 1993, MEPDG), Superpave binder grading and mix design, concrete pavement joints, distresses and pavement management indices.",
+   "queries": [
+    "Superpave performance grade asphalt binder",
+    "AASHTO 1993 structural number ESAL",
+    "jointed plain concrete pavement dowel bars",
+    "pavement condition index distress rutting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Traffic engineering and transportation planning",
+   "scope": "Traffic flow theory, Highway Capacity Manual level of service, signal timing, MUTCD traffic control devices, and travel demand modeling such as the four-step model and trip generation.",
+   "queries": [
+    "Highway Capacity Manual level of service",
+    "traffic signal timing Webster cycle length",
+    "MUTCD traffic control devices sign",
+    "four-step travel demand model trip generation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Railway track engineering",
+   "scope": "Track gauge, rail profiles, sleepers, ballast and slab track, switches and turnouts, cant and curvature, and high-speed rail infrastructure standards.",
+   "queries": [
+    "track gauge standard gauge broad gauge",
+    "rail profile weight UIC 60 flat-bottom",
+    "ballastless slab track high-speed rail",
+    "railroad switch turnout frog number"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Airport planning and runway design",
+   "scope": "Airfield geometry, runway orientation and designation, wind coverage, ICAO aerodrome reference codes, FAA advisory circulars, runway safety areas and airfield pavements.",
+   "queries": [
+    "runway designation magnetic heading numbering",
+    "ICAO aerodrome reference code letter",
+    "FAA advisory circular runway safety area",
+    "runway length wind rose crosswind component"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cement and concrete materials technology",
+   "scope": "Portland cement chemistry and types, supplementary cementitious materials, admixtures, mix design and testing, durability mechanisms (ASR, sulfate attack, reinforcement corrosion) and repair.",
+   "queries": [
+    "Portland cement types ASTM C150 clinker",
+    "alkali-silica reaction concrete durability",
+    "fly ash slag supplementary cementitious materials",
+    "concrete mix design water-cement ratio slump"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Construction engineering and project management",
+   "scope": "Construction scheduling (CPM, PERT), cost estimating, earned value, project delivery methods, standard contract forms (FIDIC, AIA), construction equipment and formwork.",
+   "queries": [
+    "critical path method total float scheduling",
+    "earned value management cost performance index",
+    "design-build project delivery method contract",
+    "FIDIC Red Book conditions of contract"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Surveying and geodesy",
+   "scope": "Leveling, traversing, total stations, GNSS, map projections, geodetic datums such as NAD83 and NAVD88, and cadastral systems like the Public Land Survey System.",
+   "queries": [
+    "differential leveling benchmark backsight foresight",
+    "North American Datum 1983 NAVD 88",
+    "traverse closure compass rule Bowditch",
+    "Public Land Survey System township range section"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structural failures and forensic engineering cases",
+   "scope": "Notable collapses of bridges, buildings and dams, and the investigations, root causes and code changes that followed.",
+   "queries": [
+    "Hyatt Regency walkway collapse hanger rod",
+    "Tacoma Narrows Bridge collapse aeroelastic flutter",
+    "Silver Bridge eyebar failure 1967",
+    "Ronan Point progressive collapse"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of civil engineering and pioneering engineers",
+   "scope": "Ancient to early-20th-century works and engineers (Roman aqueducts and roads, Smeaton, Telford, Brunel, Roebling, Eiffel) and the founding and landmarks of bodies like ICE and ASCE.",
+   "queries": [
+    "Roman aqueduct construction gradient Pont du Gard",
+    "Thomas Telford Institution of Civil Engineers founding",
+    "Isambard Kingdom Brunel engineering works",
+    "ASCE historic civil engineering landmark"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

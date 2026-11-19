@@ -1,0 +1,134 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Education",
+ "target_leaves": 8,
+ "expected_problems": 55,
+ "leaves": [
+  {
+   "leaf": "Froebelian kindergarten gifts and occupations",
+   "scope": "Covers the numbered sequence of Froebel's gifts (sphere, cube, cylinder, divided cubes, tablets, sticks, rings) and the occupations (perforating, weaving, paper folding, peas-work), as set out in nineteenth-century kindergarten manuals and American training-school guides. A question could ask the solver to tell gifts apart by their part counts or shapes, rebuild a progression across gifts, or compare how two manuals ordered or named the same materials.",
+   "queries": [
+    "Froebel gifts occupations",
+    "kindergarten guide Kraus-Boelte",
+    "second gift sphere cube",
+    "Froebel Mother Play",
+    "kindergarten divided cube"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Monitorial school organization (Lancaster\u2013Bell)",
+   "scope": "Covers the details of the monitorial systems: how classes were divided, monitor ranks, sand-desk alphabet drills, reward tickets, commands, room plans and the costs per pupil given in British and Foreign School Society and Madras-system manuals. A question could ask for a reconstructed class layout, monitor ratio or cost figure, or compare Lancaster's and Bell's rival claims and methods.",
+   "queries": [
+    "Lancaster monitorial system",
+    "Bell Madras system",
+    "British Foreign School Society",
+    "monitorial school manual",
+    "sand desk alphabet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century oralism versus manualism in deaf education",
+   "scope": "Covers the documented history of deaf schooling: the resolutions and vote counts of the 1880 Milan Congress, statistics from American Annals of the Deaf, founding dates and methods of particular asylums, and the 'combined system'. A question could ask for a resolution's wording or vote margin, or follow how one school's method changed over the decades using institutional reports.",
+   "queries": [
+    "Milan congress 1880 deaf",
+    "American Annals Deaf",
+    "oral method deaf instruction",
+    "combined system Gallaudet",
+    "deaf dumb asylum report"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "IDEA FAPE and tuition reimbursement litigation",
+   "scope": "Covers US federal case law on what counts as a free appropriate public education: the Rowley and Endrew F. standards, the stay-put rule, reimbursement for unilateral private placements (Burlington, Carter, Forest Grove), and how procedural violations are treated. A question could give the facts of a circuit case and ask which test or remedy the court applied, or what follows from combining holdings from two lines of precedent.",
+   "queries": [
+    "free appropriate public education",
+    "Rowley educational benefit standard",
+    "stay-put provision IDEA",
+    "unilateral private placement reimbursement",
+    "individualized education program procedural"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "School desegregation decrees and unitary status",
+   "scope": "Covers district-level desegregation litigation: applying the Green factors, busing and pairing remedies after Swann, majority-to-minority transfer programs, and partial or full dissolution of decrees under Freeman v. Pitts and Dowell. A question could ask, for a named district's case, which Green factors the court found met, or what sequence of remedial orders and modifications followed.",
+   "queries": [
+    "unitary status Green factors",
+    "Swann busing remedy",
+    "desegregation decree dissolution",
+    "majority-to-minority transfer",
+    "Freeman Pitts incremental"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Knowledge tracing models in educational data mining",
+   "scope": "Covers how the main student-modeling methods are specified and how they perform: Bayesian Knowledge Tracing parameters (prior, learn, slip, guess), Performance Factors Analysis, Deep Knowledge Tracing and later attention-based variants, plus the AUC figures they report on ASSISTments and similar datasets. A question could ask the solver to compute a posterior mastery update from stated parameters, or to compare reported results across papers and data splits.",
+   "queries": [
+    "Bayesian knowledge tracing",
+    "deep knowledge tracing",
+    "ASSISTments dataset AUC",
+    "slip guess parameters",
+    "performance factors analysis"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Colonial education commissions in British India",
+   "scope": "Covers the policy documents and commissions of British Indian education: Macaulay's Minute, Wood's Despatch of 1854, the Hunter Commission of 1882, the grants-in-aid rules and the Sadler (Calcutta University) Commission, with their recommendations and enrollment statistics. A question could ask which body first proposed a given measure, or work out a change in a provincial figure between two reports.",
+   "queries": [
+    "Wood's Despatch 1854",
+    "Hunter Education Commission",
+    "Macaulay Minute education",
+    "Calcutta University Commission",
+    "grants-in-aid India schools"
+   ],
+   "sources": [
+    "doab",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Medieval university statutes and degree requirements",
+   "scope": "Covers how medieval universities were run and what their degrees required: the stages of determination and inception, the set texts and years of study for the arts and higher faculties, the student nations, and the statutes of Paris, Oxford, Bologna and other studia, as recorded in Rashdall and similar histories. A question could ask the minimum time to a particular degree under one university's statutes, or compare requirements between two universities.",
+   "queries": [
+    "Rashdall universities Middle Ages",
+    "inception master of arts",
+    "determination bachelor arts",
+    "university statutes Paris Oxford",
+    "nations faculty of arts"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  }
+ ]
+}

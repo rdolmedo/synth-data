@@ -1,0 +1,436 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "Java testing libraries",
+ "weight": 0.004698000000000001,
+ "leaves": [
+  {
+   "leaf": "JUnit Jupiter core annotations, lifecycle and assertions API",
+   "scope": "The JUnit 5/6 Jupiter programming model: @Test and lifecycle methods, test instance lifecycle, @Nested classes, display names, @TempDir, built-in parameters such as TestInfo and TestReporter, and the Assertions/Assumptions classes.",
+   "queries": [
+    "JUnit Jupiter BeforeAll AfterEach TestInstance Lifecycle PER_CLASS",
+    "Assertions assertThrows assertAll assertTimeoutPreemptively JUnit 5",
+    "Nested test classes DisplayName DisplayNameGenerator ReplaceUnderscores",
+    "TempDir CleanupMode TestInfo TestReporter injection Jupiter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JUnit Jupiter parameterized, repeated and dynamic tests",
+   "scope": "@ParameterizedTest and @ParameterizedClass with their argument sources, implicit and explicit argument conversion and aggregation, @RepeatedTest, @TestFactory dynamic tests and the test template mechanism.",
+   "queries": [
+    "ParameterizedTest CsvSource ValueSource MethodSource EnumSource NullAndEmptySource",
+    "CsvFileSource FieldSource ParameterizedClass junit-jupiter-params release",
+    "ArgumentsProvider ArgumentConverter ArgumentsAggregator implicit conversion",
+    "TestFactory DynamicTest DynamicContainer RepeatedTest RepetitionInfo"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JUnit Jupiter extension model and community extension libraries",
+   "scope": "The Jupiter Extension API (lifecycle callbacks, ParameterResolver, TestExecutionExceptionHandler, InvocationInterceptor, ExecutionCondition, ExtensionContext.Store, registration through @ExtendWith, @RegisterExtension or ServiceLoader) plus third-party extension libraries such as JUnit Pioneer, System Stubs and System Lambda.",
+   "queries": [
+    "ExtendWith RegisterExtension extension registration ServiceLoader autodetection",
+    "BeforeEachCallback ParameterResolver TestExecutionExceptionHandler InvocationInterceptor",
+    "ExtensionContext Store Namespace CloseableResource TestInstancePostProcessor",
+    "JUnit Pioneer RetryingTest CartesianTest SetEnvironmentVariable DefaultLocale"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JUnit Jupiter conditional execution, ordering, timeouts and parallel execution",
+   "scope": "Controlling how Jupiter runs tests: @Enabled*/@Disabled* conditions, tags, method and class orderers, @Timeout and the default timeout settings, parallel execution modes, @ResourceLock and the junit.jupiter.* configuration parameters.",
+   "queries": [
+    "EnabledOnOs EnabledOnJre EnabledIfSystemProperty DisabledIfEnvironmentVariable conditions",
+    "TestMethodOrder MethodOrderer OrderAnnotation Random ClassOrderer",
+    "junit.jupiter.execution.parallel.enabled mode default concurrent ResourceLock",
+    "Timeout annotation junit.jupiter.execution.timeout.default ThreadMode SEPARATE_THREAD"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JUnit Platform launcher, test engines and suites",
+   "scope": "The JUnit Platform foundation: the TestEngine SPI and EngineTestKit, the Launcher API and discovery selectors, launcher and execution listeners, tag expressions, the @Suite engine, ConsoleLauncher options and reporting formats (legacy XML, Open Test Reporting).",
+   "queries": [
+    "JUnit Platform Launcher LauncherDiscoveryRequest DiscoverySelectors selectPackage",
+    "TestEngine SPI junit-platform-engine EngineTestKit testkit",
+    "Suite SelectClasses IncludeTags junit-platform-suite engine",
+    "ConsoleLauncher options junit-platform-console-standalone open test reporting"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JUnit 4 and JUnit 3 legacy APIs, the Vintage engine and JUnit version history",
+   "scope": "JUnit before Jupiter: JUnit 3 TestCase/TestSuite, JUnit 4 annotations, @RunWith runners (Parameterized, Theories, Categories, Enclosed), @Rule/@ClassRule implementations, the Vintage engine and migration, and JUnit's major-version history up to JUnit 6.",
+   "queries": [
+    "JUnit 4 RunWith Parameterized Theories Enclosed Categories runner",
+    "Rule ClassRule TemporaryFolder ExpectedException RuleChain TestWatcher",
+    "JUnit 3 TestCase TestSuite junit.framework setUp tearDown",
+    "junit-vintage-engine migration JUnit 4 to Jupiter release history"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TestNG annotations, suites, groups, data providers and listeners",
+   "scope": "TestNG's programming and configuration model: @Test attributes, the @Before/@After configuration hierarchy, testng.xml suites, groups and dependencies, parallel modes, @DataProvider and @Factory, listeners, reporters and annotation transformers.",
+   "queries": [
+    "TestNG testng.xml suite test parallel thread-count",
+    "TestNG DataProvider Factory parallel dataproviderthreadcount",
+    "dependsOnMethods dependsOnGroups alwaysRun invocationCount TestNG",
+    "ITestListener IInvokedMethodListener IReporter IAnnotationTransformer TestNG"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mockito stubbing, verification and argument matchers",
+   "scope": "Core Mockito usage: creating mocks and spies, when/thenReturn and the doReturn family of stubbing calls, Answers, verify with verification modes, InOrder, ArgumentCaptor, ArgumentMatchers and the BDDMockito style.",
+   "queries": [
+    "Mockito when thenReturn thenThrow doReturn doAnswer stubbing",
+    "Mockito verify times atLeast never verifyNoMoreInteractions InOrder",
+    "ArgumentCaptor ArgumentMatchers any eq argThat Mockito",
+    "BDDMockito given willReturn then should Mockito spy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Mockito mock makers, annotations, strictness and major-version changes",
+   "scope": "How Mockito works internally and how it has changed: subclass vs inline Byte Buddy mock makers, mockStatic/mockConstruction, @Mock/@Spy/@InjectMocks with MockitoExtension or MockitoJUnitRunner, strict stubs and UnnecessaryStubbingException, the Java agent requirement on recent JDKs, and Mockito 2-5 changes.",
+   "queries": [
+    "Mockito subclass inline mock maker mockito-extensions Byte Buddy",
+    "mockStatic MockedStatic mockConstruction final classes Mockito",
+    "InjectMocks MockitoExtension MockitoSettings Strictness STRICT_STUBS",
+    "Mockito 5 Java agent dynamic attach JDK 21"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "EasyMock, JMockit, PowerMock and other non-Mockito mocking frameworks",
+   "scope": "Java mocking libraries other than Mockito: EasyMock record/replay/verify and IMocksControl, JMockit Expectations/Verifications and @Tested, PowerMock @PrepareForTest with its Mockito and EasyMock APIs, and jMock Mockery expectations.",
+   "queries": [
+    "EasyMock expect replay verify createMock IMocksControl strict",
+    "JMockit Expectations Verifications Tested Injectable Mocked",
+    "PowerMock PrepareForTest PowerMockRunner mockStatic whenNew",
+    "jMock Mockery checking oneOf allowing expectations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "AssertJ fluent assertions",
+   "scope": "AssertJ core and its modules: assertThat entry points, collection assertions (extracting, filteredOn, containsExactly), exception assertions, SoftAssertions, recursive comparison, Conditions, the custom assertions generator, and modules such as AssertJ-DB and AssertJ-Guava.",
+   "queries": [
+    "AssertJ assertThat extracting filteredOn containsExactlyInAnyOrder",
+    "AssertJ SoftAssertions assertSoftly SoftAssertionsExtension InjectSoftAssertions",
+    "usingRecursiveComparison ignoringFields RecursiveComparisonConfiguration AssertJ",
+    "assertThatThrownBy isInstanceOf hasMessageContaining assertThatCode AssertJ"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Hamcrest matchers and Google Truth",
+   "scope": "Assertion libraries built on matchers or subjects: Hamcrest's Matcher/BaseMatcher/TypeSafeMatcher, the Matchers and CoreMatchers factories and the 2.x artifact consolidation, and Google Truth's Subject, assertWithMessage, Expect, Correspondence and extensions such as ProtoTruth.",
+   "queries": [
+    "Hamcrest TypeSafeMatcher describeTo describeMismatchSafely BaseMatcher",
+    "Hamcrest CoreMatchers hasItem containsInAnyOrder closeTo hamcrest-library",
+    "Google Truth assertThat Subject assertWithMessage Expect",
+    "Truth Correspondence ProtoTruth IterableSubject containsExactly inOrder"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spring TestContext Framework and Spring Boot test support",
+   "scope": "Testing Spring applications: the TestContext framework and context caching, @ContextConfiguration/@SpringJUnitConfig, @DirtiesContext, @Sql and transactional rollback, MockMvc and WebTestClient, @SpringBootTest web environments, test slices, @MockitoBean and @ServiceConnection.",
+   "queries": [
+    "Spring TestContext framework context caching DirtiesContext ContextConfiguration",
+    "SpringBootTest webEnvironment RANDOM_PORT TestRestTemplate LocalServerPort",
+    "WebMvcTest DataJpaTest test slice auto-configuration Spring Boot",
+    "MockitoBean MockMvc perform andExpect DynamicPropertySource Sql"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "REST Assured HTTP API testing DSL",
+   "scope": "REST Assured's given/when/then DSL for HTTP API tests: request and response specifications, JsonPath/XmlPath and GPath expressions, authentication schemes, filters and logging, JSON schema validation, and the spring-mock-mvc and web-test-client modules.",
+   "queries": [
+    "REST Assured given when then RequestSpecBuilder ResponseSpecBuilder",
+    "REST Assured JsonPath XmlPath GPath body hasItems",
+    "REST Assured json-schema-validator matchesJsonSchemaInClasspath filters logging",
+    "RestAssuredMockMvc spring-mock-mvc module preemptive basic auth"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HTTP service virtualization and consumer-driven contract testing",
+   "scope": "Stubbing external HTTP dependencies and checking contracts: WireMock stub mappings, request matching, response templating and record/playback, MockServer expectations, OkHttp MockWebServer, Pact JVM consumer and provider tests, and Spring Cloud Contract.",
+   "queries": [
+    "WireMock stubFor urlPathEqualTo aResponse withStatus verify",
+    "WireMock response templating record playback WireMockExtension",
+    "MockServer expectation ClientAndServer OkHttp MockWebServer enqueue",
+    "Pact JVM consumer provider verification Spring Cloud Contract"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testcontainers for Java",
+   "scope": "Integration testing against Docker containers with Testcontainers: GenericContainer lifecycle, wait and startup strategies, modules (databases, Kafka, LocalStack), JUnit 4/5 integration, the JDBC URL scheme, the Ryuk resource reaper, reusable containers and Docker environment configuration.",
+   "queries": [
+    "Testcontainers GenericContainer withExposedPorts getMappedPort waitingFor",
+    "Testcontainers Wait forHttp forLogMessage startup strategy",
+    "Testcontainers JDBC URL scheme PostgreSQLContainer modules",
+    "Testcontainers Ryuk reusable containers testcontainers.properties DockerComposeContainer"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Jakarta EE, Quarkus and Micronaut test frameworks",
+   "scope": "Testing on Java runtimes other than Spring: Arquillian with ShrinkWrap archives, container adapters and extensions (Drone, Graphene, Persistence), @QuarkusTest/@QuarkusIntegrationTest and Dev Services, and Micronaut Test's @MicronautTest.",
+   "queries": [
+    "Arquillian Deployment ShrinkWrap JavaArchive container adapter",
+    "QuarkusTest QuarkusIntegrationTest QuarkusTestResource Dev Services",
+    "MicronautTest MockBean TestPropertyProvider Micronaut Test",
+    "Arquillian Drone Graphene Persistence extension WildFly managed"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Browser and web UI automation libraries for Java",
+   "scope": "Web UI testing from Java: Selenium WebDriver Java bindings (locators, waits, Selenium Manager, Grid, BiDi), Selenide's concise API, the HtmlUnit headless browser, and Playwright for Java.",
+   "queries": [
+    "Selenium WebDriver Java By locators WebDriverWait ExpectedConditions",
+    "Selenium Manager Grid RemoteWebDriver ChromeOptions BiDi release",
+    "Selenide open shouldHave Condition Configuration timeout",
+    "HtmlUnit WebClient HtmlPage BrowserVersion JavaScript Playwright Java"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "BDD and acceptance-testing frameworks: Cucumber-JVM, JBehave, Serenity, Concordion, FitNesse",
+   "scope": "Behaviour-driven development and specification-by-example tools on the JVM: Gherkin features and step definitions in Cucumber-JVM, Cucumber Expressions, hooks and the JUnit Platform engine, JBehave stories, Serenity BDD and Screenplay, Concordion and FitNesse fixtures.",
+   "queries": [
+    "Cucumber JVM step definitions Given When Then cucumber expressions",
+    "cucumber-junit-platform-engine glue properties Before After hooks tags",
+    "JBehave stories steps Embedder Serenity BDD Screenplay",
+    "Concordion specification FitNesse fixtures Gherkin Scenario Outline"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spock Framework specifications",
+   "scope": "Spock, the Groovy-based testing framework for Java and Groovy code: Specification classes, given/when/then/expect/where blocks, data tables and @Unroll, interaction-based mocking with cardinality, built-in extensions (@IgnoreIf, @Stepwise, @Shared), and Spock 2 on the JUnit Platform.",
+   "queries": [
+    "Spock Specification given when then expect where blocks",
+    "Spock data driven testing data tables Unroll data pipes",
+    "Spock interaction based testing Mock Stub Spy cardinality",
+    "Spock extensions IgnoreIf Stepwise Shared AutoCleanup release notes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Property-based testing and fuzzing for Java",
+   "scope": "Generating test inputs on the JVM: jqwik properties, arbitraries, shrinking and stateful testing, junit-quickcheck generators, QuickTheories, and coverage-guided fuzzing with Jazzer's @FuzzTest and JQF.",
+   "queries": [
+    "jqwik Property ForAll Arbitraries shrinking tries",
+    "jqwik Provide Combinators stateful testing ActionChain",
+    "junit-quickcheck Property From Generator QuickTheories forAll",
+    "Jazzer FuzzTest FuzzedDataProvider JQF Zest coverage-guided fuzzing"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "PIT mutation testing",
+   "scope": "Mutation testing with PIT (pitest): mutation operators and mutator groups, mutation coverage and test strength, Maven/Gradle plugin settings (targetClasses, mutationThreshold, threads), incremental analysis with history files, the JUnit 5 plugin, and older Java mutation tools.",
+   "queries": [
+    "PIT pitest mutators CONDITIONALS_BOUNDARY NEGATE_CONDITIONALS DEFAULTS STRONGER",
+    "pitest-maven mutationCoverage targetClasses mutationThreshold",
+    "pitest incremental analysis historyInputFile withHistory",
+    "pitest-junit5-plugin mutation testing survived killed timed out"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Java code coverage tools: JaCoCo, Cobertura, EMMA, OpenClover",
+   "scope": "Measuring Java code coverage: the JaCoCo agent and offline instrumentation, coverage counters (instructions, branches, complexity), Maven/Gradle goals and check rules, exclusions and filters, report formats, and earlier tools such as EMMA, Cobertura and Clover.",
+   "queries": [
+    "JaCoCo coverage counters instructions branches cyclomatic complexity",
+    "jacoco-maven-plugin prepare-agent report check rules",
+    "JaCoCo offline instrumentation agent options destfile includes excludes",
+    "Cobertura EMMA OpenClover code coverage Java"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maven Surefire/Failsafe and Gradle test execution",
+   "scope": "Running Java tests in builds: Surefire and Failsafe plugin parameters (includes, groups, forkCount, reuseForks, parallel, rerunFailingTestsCount), provider selection for JUnit and TestNG, the XML report format, and Gradle's Test task, JVM Test Suite plugin and test filtering.",
+   "queries": [
+    "maven-surefire-plugin forkCount reuseForks argLine parallel",
+    "maven-failsafe-plugin integration-test verify IT naming",
+    "Surefire rerunFailingTestsCount skipAfterFailureCount groups excludedGroups providers",
+    "Gradle Test task useJUnitPlatform maxParallelForks forkEvery"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JMH microbenchmarks and jcstress concurrency stress tests",
+   "scope": "The OpenJDK Code Tools harnesses: JMH benchmark annotations, modes, state scopes, forking, warmup/measurement, Blackhole and profilers, and jcstress tests with @JCStressTest actors, arbiters, outcomes and result grading.",
+   "queries": [
+    "JMH Benchmark BenchmarkMode Mode.AverageTime OutputTimeUnit",
+    "JMH State Scope Setup Level Trial Iteration",
+    "JMH Fork Warmup Measurement Blackhole consume profilers",
+    "jcstress JCStressTest Actor Arbiter Outcome Expect ACCEPTABLE"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ArchUnit architecture testing",
+   "scope": "Checking Java architecture in unit tests with ArchUnit: ClassFileImporter and ImportOption, the fluent ArchRule DSL, layered and onion architecture checks, slices and cycle detection, frozen rules and archunit.properties, and JUnit 4/5 support.",
+   "queries": [
+    "ArchUnit ArchRuleDefinition classes should resideInAPackage",
+    "ArchUnit layeredArchitecture onionArchitecture Library API",
+    "ArchUnit FreezingArchRule violation store archunit.properties",
+    "ArchUnit AnalyzeClasses ArchTest ImportOption DoNotIncludeTests slices cycles"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Awaitility and asynchronous test support",
+   "scope": "Testing asynchronous and multithreaded Java code: Awaitility's await DSL (atMost, pollInterval, pollDelay, until variants, ignoreExceptions, condition listeners), global defaults and poll intervals, and related tools such as ConcurrentUnit and tempus-fugit.",
+   "queries": [
+    "Awaitility await atMost until pollInterval pollDelay",
+    "Awaitility untilAsserted ignoreExceptions conditionEvaluationListener",
+    "Awaitility setDefaultTimeout Durations FibonacciPollInterval",
+    "ConcurrentUnit Waiter resume tempus-fugit ConcurrentRule"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database fixtures and test data generation",
+   "scope": "Setting up test data: DbUnit datasets and DatabaseOperations, Database Rider's @DataSet/@ExpectedDataSet, and generators of objects and fake data such as Instancio, EasyRandom, Datafaker and Podam.",
+   "queries": [
+    "DbUnit FlatXmlDataSet DatabaseOperation CLEAN_INSERT IDatabaseConnection",
+    "Database Rider DataSet ExpectedDataSet DBRider cleanBefore",
+    "Instancio create Select field generators Settings seed",
+    "EasyRandom EasyRandomParameters Datafaker Faker Podam PodamFactory"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Structured output comparison and approval/snapshot testing",
+   "scope": "Libraries that compare complex outputs: XMLUnit's DiffBuilder, difference evaluators and element selectors, JSONassert compare modes, JsonUnit options and placeholders, and approval/snapshot testing with ApprovalTests.Java and Selfie.",
+   "queries": [
+    "XMLUnit DiffBuilder ignoreWhitespace DifferenceEvaluator ElementSelectors",
+    "JSONassert JSONCompareMode LENIENT STRICT NON_EXTENSIBLE",
+    "JsonUnit assertThatJson when IGNORING_ARRAY_ORDER placeholders",
+    "ApprovalTests Java Approvals verify received approved reporter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Android testing libraries",
+   "scope": "Android testing in Java: AndroidX Test (AndroidJUnitRunner, ActivityScenario, rules), Espresso view matchers, actions and idling resources, UI Automator, and Robolectric's simulated Android framework with @Config and shadows.",
+   "queries": [
+    "AndroidJUnitRunner AndroidX Test ActivityScenario ActivityScenarioRule",
+    "Espresso onView withId perform check matches IdlingResource",
+    "Robolectric Config sdk shadows RobolectricTestRunner",
+    "UI Automator UiDevice By selector Espresso-Intents"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

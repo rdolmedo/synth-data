@@ -1,0 +1,792 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "go",
+ "weight": 0.012244,
+ "leaves": [
+  {
+   "leaf": "Go history, designers, release timeline and compatibility policy",
+   "scope": "Go's origins at Google (Griesemer, Pike, Thompson), its 2009 announcement and Go 1.0 release, the gopher mascot, the twice-yearly release cycle and support policy, the Go 1 compatibility promise, and the GODEBUG settings that keep older behaviour available.",
+   "queries": [
+    "Go programming language Griesemer Pike Thompson Google 2009",
+    "Go 1 compatibility promise release policy supported versions",
+    "GODEBUG settings history default go line behavior",
+    "Go release history minor revisions security fixes dates"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Predeclared types, constants, conversions, composite types and built-in functions",
+   "scope": "Specification rules for numeric and string types, untyped constants and iota, conversions and assignability, arrays, slices, maps and structs, and built-ins such as append, copy, clear, min, max, make and new.",
+   "queries": [
+    "untyped constants iota constant expressions specification",
+    "slice expressions capacity append copy built-in",
+    "built-in functions clear min max Go 1.21",
+    "conversions assignability type identity Go specification"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Interfaces, method sets and struct embedding",
+   "scope": "Method declarations, pointer versus value receivers, method sets and interface satisfaction, embedded fields and promoted methods, type assertions, type switches and the nil-interface pitfall.",
+   "queries": [
+    "method sets pointer receiver interface implementation",
+    "embedded fields promoted methods struct embedding",
+    "type assertion type switch interface value nil",
+    "interface types embedded interfaces overlapping methods Go 1.14"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generics: type parameters, constraints and type inference",
+   "scope": "Type parameters as introduced in Go 1.18, constraints and type sets, comparable, type inference rules, generic type aliases, and later spec changes such as the removal of core types.",
+   "queries": [
+    "type parameters constraints type sets Go 1.18",
+    "comparable constraint type inference generic functions",
+    "generic type aliases Go 1.24 aliastypeparams",
+    "core types removed specification Go 1.25 generics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Loops, range clauses and iterators",
+   "scope": "Forms of the for statement, range over slices, maps, strings, channels, integers and functions, the per-iteration loop variables of Go 1.22, range-over-func iterators and the iter package (Seq, Seq2, Pull), plus switch, goto and labeled break/continue.",
+   "queries": [
+    "range over function iterators iter.Seq Go 1.23",
+    "loop variable per-iteration semantics Go 1.22 loopvar",
+    "range over integer for statement range clause",
+    "iter.Pull iterator functions slices.All maps.Keys"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Goroutines, channels and select",
+   "scope": "go statements, buffered and unbuffered channel semantics, closing and nil channels, how select behaves, deadlock detection, and concurrency patterns including x/sync errgroup, semaphore and singleflight.",
+   "queries": [
+    "buffered unbuffered channel send receive close",
+    "select statement default case nil channel",
+    "goroutine leak deadlock all goroutines are asleep",
+    "errgroup semaphore singleflight golang.org/x/sync"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "sync, sync/atomic and the Go memory model",
+   "scope": "Mutex, RWMutex, WaitGroup (including WaitGroup.Go), Once/OnceFunc/OnceValue, Cond, Pool, sync.Map, typed atomics, and the happens-before rules of the Go memory model.",
+   "queries": [
+    "sync.Mutex RWMutex WaitGroup Once Cond",
+    "sync.Pool sync.Map OnceFunc OnceValue WaitGroup.Go",
+    "atomic.Int64 atomic.Pointer typed atomic values Go 1.19",
+    "Go memory model happens before synchronized data race"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "context package: cancellation, deadlines and request-scoped values",
+   "scope": "Context trees, WithCancel/WithTimeout/WithDeadline, cancellation causes, AfterFunc and WithoutCancel, request-scoped values, and the Canceled and DeadlineExceeded errors.",
+   "queries": [
+    "context.WithCancel WithTimeout WithDeadline cancel function",
+    "context.WithCancelCause Cause AfterFunc WithoutCancel",
+    "context.Value request-scoped values key type",
+    "context deadline exceeded canceled error Done channel"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Error handling: errors package, wrapping, defer, panic and recover",
+   "scope": "The error interface, fmt.Errorf with %w, errors.Is/As/Join/Unwrap, sentinel and custom error types, defer evaluation order, panic and recover semantics, runtime.Goexit and PanicNilError.",
+   "queries": [
+    "errors.Is errors.As wrapping Errorf Unwrap",
+    "errors.Join multiple errors Go 1.20",
+    "defer panic recover runtime.Goexit deferred functions",
+    "panic nil PanicNilError GODEBUG panicnil"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Go modules: go.mod, go.work and version selection",
+   "scope": "Module paths and semantic import versioning, go.mod directives (go, toolchain, require, replace, exclude, retract, godebug, tool, ignore), minimal version selection, pseudo-versions, workspaces, vendoring, and toolchain switching with GOTOOLCHAIN.",
+   "queries": [
+    "go.mod directives require replace exclude retract",
+    "minimal version selection pseudo-version semantic import versioning",
+    "go.work workspace use directive go work sync",
+    "GOTOOLCHAIN toolchain directive forward compatibility Go 1.21"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Module proxy, checksum database, private modules and vulnerability database",
+   "scope": "The GOPROXY protocol and proxy.golang.org, sum.golang.org with GOSUMDB and go.sum, the GOPRIVATE/GONOPROXY/GONOSUMDB/GOVCS settings, pkg.go.dev, and govulncheck with the Go vulnerability database.",
+   "queries": [
+    "GOPROXY module proxy protocol proxy.golang.org",
+    "GOSUMDB checksum database sum.golang.org go.sum",
+    "GOPRIVATE GONOSUMDB GONOPROXY GOVCS private modules",
+    "govulncheck Go vulnerability database vuln.go.dev"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "The go command: building, installing and build constraints",
+   "scope": "go build/run/install/get/clean/env/generate/tool subcommands and their flags, go:build constraints and file-name suffixes, the build cache, -ldflags -X and -trimpath, VCS build-info stamping, and GOFLAGS/GOENV configuration.",
+   "queries": [
+    "go build flags trimpath ldflags buildmode",
+    "build constraints go:build tags file name suffix",
+    "go generate directive go env GOCACHE GOFLAGS",
+    "go version -m debug.BuildInfo VCS stamping"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "testing package: tests, subtests, benchmarks and examples",
+   "scope": "The testing.T/B/M APIs, subtests and t.Parallel, TestMain, Cleanup/TempDir/Setenv/Context helpers, benchmarks with b.Loop, example functions, testing/fstest and iotest, and testing/synctest.",
+   "queries": [
+    "testing.T Run subtests Parallel Cleanup TempDir",
+    "benchmark testing.B b.Loop ReportAllocs benchtime",
+    "example functions Output comment go test",
+    "testing/synctest bubble fake clock Go 1.25"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Fuzzing and code coverage",
+   "scope": "Native fuzzing (testing.F, seed corpus, testdata/fuzz, -fuzz flags, supported argument types) and coverage tooling (-cover, -coverprofile, -covermode, -coverpkg, go build -cover, GOCOVERDIR, go tool covdata).",
+   "queries": [
+    "fuzzing testing.F Fuzz seed corpus testdata/fuzz",
+    "go test -fuzz fuzztime minimizing failing input",
+    "coverprofile covermode atomic go tool cover html",
+    "go build -cover GOCOVERDIR covdata integration tests"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Runtime scheduler and goroutine implementation",
+   "scope": "The G-M-P scheduler, GOMAXPROCS defaults including container-aware limits, work stealing, asynchronous preemption, goroutine stack size and growth, LockOSThread, the netpoller, and runtime functions such as Gosched and NumGoroutine.",
+   "queries": [
+    "GOMAXPROCS scheduler goroutines logical processors",
+    "asynchronous preemption Go 1.14 signals tight loops",
+    "goroutine stack size contiguous stacks growth",
+    "container-aware GOMAXPROCS cgroup CPU limit Go 1.25"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Garbage collector and memory management",
+   "scope": "The concurrent tri-colour mark-sweep collector, GOGC and GOMEMLIMIT, the GC pacer, the Green Tea GC, runtime/debug tuning, finalizers and runtime.AddCleanup, weak pointers, the unique package, and the Swiss-table map implementation.",
+   "queries": [
+    "GOGC GOMEMLIMIT garbage collector guide soft memory limit",
+    "Green Tea garbage collector GOEXPERIMENT greenteagc",
+    "runtime.SetFinalizer AddCleanup weak.Pointer unique.Make",
+    "Swiss table map implementation Go 1.24 runtime"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Profiling, tracing and runtime diagnostics",
+   "scope": "pprof profiles (CPU, heap, allocs, block, mutex, goroutine), net/http/pprof, runtime/trace and the execution tracer, FlightRecorder, runtime/metrics, GODEBUG gctrace/schedtrace output, and the race detector.",
+   "queries": [
+    "pprof CPU heap block mutex profile go tool pprof",
+    "runtime/trace execution tracer FlightRecorder",
+    "runtime/metrics GODEBUG gctrace schedtrace",
+    "race detector -race ThreadSanitizer GORACE"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler and linker: optimizations and PGO",
+   "scope": "The gc compiler's SSA backend, escape analysis, the inlining budget, bounds-check elimination, devirtualization, profile-guided optimization with default.pgo, -gcflags diagnostics, and linker flags and linking modes.",
+   "queries": [
+    "profile-guided optimization default.pgo -pgo flag",
+    "escape analysis gcflags -m inlining budget",
+    "bounds check elimination SSA backend compiler",
+    "linker -s -w DWARF internal external linking"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Go assembly, ABI and compiler directives",
+   "scope": "Plan 9-style Go assembler syntax, the pseudo-registers FP, SB, SP and PC, TEXT flags such as NOSPLIT, ABI0 versus ABIInternal and the register-based calling convention, and go: directives such as noinline, nosplit, noescape, linkname and wasmimport.",
+   "queries": [
+    "Go assembler pseudo-registers FP SB SP TEXT",
+    "ABIInternal ABI0 register-based calling convention Go 1.17",
+    "go:linkname restrictions Go 1.23 checklinkname",
+    "compiler directives go:noinline go:nosplit go:noescape"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "cgo, syscall and low-level OS interfaces",
+   "scope": "The cgo preamble and #cgo directives, CGO_ENABLED, C type mapping, pointer-passing rules and cgocheck, export, runtime/cgo.Handle, the noescape/nocallback annotations, the frozen syscall package, and golang.org/x/sys.",
+   "queries": [
+    "cgo CFLAGS LDFLAGS preamble import C",
+    "cgo pointer passing rules GODEBUG cgocheck",
+    "runtime/cgo Handle export C.CString C.GoString",
+    "syscall package frozen golang.org/x/sys unix windows"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Ports, cross-compilation, WebAssembly and alternative compilers",
+   "scope": "GOOS/GOARCH combinations, the GOARM/GOAMD64/GOARM64/GORISCV64 settings, first-class ports and minimum OS versions, the js/wasm and wasip1 targets with go:wasmexport, and other implementations such as gccgo, gollvm, TinyGo and GopherJS.",
+   "queries": [
+    "GOOS GOARCH cross compilation supported platforms",
+    "GOAMD64 v3 microarchitecture levels GOARM",
+    "WebAssembly js/wasm wasip1 go:wasmexport",
+    "gccgo TinyGo GopherJS alternative Go compiler"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "gofmt, go vet and static analysis libraries",
+   "scope": "gofmt rules and simplification, go fix modernizers, go vet analyzers, the x/tools go/analysis framework, the go/ast, go/parser, go/token and go/types packages, and third-party linters such as staticcheck and golangci-lint.",
+   "queries": [
+    "go vet analyzers printf copylocks loopclosure",
+    "gofmt simplify goimports go fix modernizers",
+    "go/analysis Analyzer Pass framework x/tools staticcheck",
+    "go/types go/ast go/parser type checker"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "gopls, Delve and editor tooling",
+   "scope": "gopls language-server features, settings and releases, the VS Code Go extension, Delve debugger commands and configuration, and DWARF-based debugging with GDB.",
+   "queries": [
+    "gopls settings analyses hints codelenses",
+    "gopls release notes features workspace",
+    "Delve dlv debugger breakpoints commands",
+    "debugging Go code with GDB DWARF"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "net/http: servers, clients and handlers",
+   "scope": "http.Server and Handler, ServeMux routing with method and wildcard patterns, http.Client and Transport settings and timeouts, HTTP/2 configuration, cookies, httptest, httputil.ReverseProxy and CrossOriginProtection.",
+   "queries": [
+    "ServeMux patterns method wildcard Go 1.22 PathValue",
+    "http.Transport MaxIdleConns IdleConnTimeout ReadHeaderTimeout",
+    "httputil ReverseProxy Rewrite httptest ResponseRecorder",
+    "net/http HTTP/2 configuration CrossOriginProtection"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "net, net/netip and net/url",
+   "scope": "Dialer and Listener APIs, TCP/UDP/Unix sockets, the pure-Go versus cgo DNS resolver, Happy Eyeballs and MPTCP, the net/netip Addr and Prefix types, net/url parsing, and net/mail, net/smtp and net/textproto.",
+   "queries": [
+    "net.Dialer Listen DialContext KeepAlive MPTCP",
+    "netgo netcgo GODEBUG netdns resolver",
+    "net/netip Addr AddrPort Prefix Go 1.18",
+    "net/url Parse Values RawQuery escaping"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cryptography and TLS",
+   "scope": "crypto/tls configuration, versions and cipher suites, crypto/x509 verification, post-quantum ML-KEM key exchange, the FIPS 140-3 Go Cryptographic Module, crypto/ecdh, crypto/rand, sha3, hkdf, pbkdf2 and golang.org/x/crypto.",
+   "queries": [
+    "crypto/tls Config MinVersion CipherSuites TLS 1.3",
+    "X25519MLKEM768 post-quantum key exchange crypto/mlkem",
+    "FIPS 140-3 Go Cryptographic Module GODEBUG fips140",
+    "crypto/x509 certificate verification crypto/ecdh crypto/rand"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "encoding/json and JSON v2",
+   "scope": "Marshal/Unmarshal rules, struct tags (omitempty, omitzero, string, -), Decoder and Encoder, RawMessage and Number, custom marshaler interfaces, and the experimental encoding/json/v2 and jsontext packages.",
+   "queries": [
+    "encoding/json struct tags omitempty omitzero",
+    "json.Decoder DisallowUnknownFields UseNumber RawMessage",
+    "encoding/json/v2 jsontext GOEXPERIMENT jsonv2",
+    "Marshaler Unmarshaler MarshalJSON TextMarshaler encoding"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Other encodings, compression and archive formats",
+   "scope": "encoding/xml, gob, binary, csv, base64/base32/hex, pem and asn1; compress/gzip/flate/zlib/bzip2/lzw; archive/tar and archive/zip; and hash/crc32 and hash/maphash.",
+   "queries": [
+    "encoding/gob encoding/binary varint ByteOrder",
+    "encoding/xml struct tags attr chardata innerxml",
+    "archive/zip archive/tar compress/gzip flate",
+    "encoding/csv base64 RawURLEncoding hash/crc32 maphash"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, bytes, runes, Unicode and regular expressions",
+   "scope": "The strings and bytes packages (Builder, Cut, Fields, iterator variants), rune, byte and UTF-8 semantics, unicode, unicode/utf8 and utf16, golang.org/x/text, and the RE2-syntax regexp package.",
+   "queries": [
+    "strings.Builder Cut CutPrefix Fields EqualFold",
+    "unicode/utf8 rune decoding RuneCountInString invalid UTF-8",
+    "regexp RE2 syntax named capture groups",
+    "strings.Lines SplitSeq FieldsSeq iterators Go 1.24"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "fmt and strconv: formatting and parsing",
+   "scope": "fmt printing verbs and flags, the Stringer/GoStringer/Formatter interfaces, the Append and Scan families, and strconv parsing and formatting of integers, floats, booleans and quoted strings.",
+   "queries": [
+    "fmt printing verbs width precision flags Printf",
+    "fmt Stringer GoStringer Formatter State interface",
+    "strconv ParseInt FormatFloat Quote Atoi",
+    "fmt Sscanf Scanln Appendf scanning"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "text/template and html/template",
+   "scope": "Template actions, pipelines, variables and functions, define/block/template composition, FuncMap, parsing from files and fs.FS, and html/template contextual autoescaping and its safe content types.",
+   "queries": [
+    "text/template actions pipelines range with define block",
+    "html/template contextual autoescaping safe types",
+    "template functions FuncMap Funcs Must ParseFS",
+    "text/template break continue range Go 1.18"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "log and log/slog structured logging",
+   "scope": "The classic log package's flags and Logger, and log/slog's Logger, Handler, TextHandler and JSONHandler, Attr and Group, Levels and LevelVar, LogValuer and HandlerOptions.",
+   "queries": [
+    "log/slog Logger Handler TextHandler JSONHandler",
+    "slog.Attr Group LogValuer Level LevelVar",
+    "slog HandlerOptions AddSource ReplaceAttr",
+    "log package flags Lshortfile SetPrefix Logger"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "time package",
+   "scope": "Time and Duration, the reference-time layout and predefined layouts, monotonic clock readings, time zones and embedded tzdata, and Timer/Ticker semantics including the Go 1.23 changes.",
+   "queries": [
+    "time layout reference time Mon Jan 2 15:04:05",
+    "monotonic clock reading time.Now wall clock",
+    "Timer Ticker Reset Stop Go 1.23 asynctimerchan",
+    "time.LoadLocation time/tzdata ZONEINFO"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "slices, maps, sort, cmp and container packages",
+   "scope": "The generic slices and maps packages, cmp.Compare and cmp.Or, the sort package and its sorting algorithms, golang.org/x/exp precursors, and container/heap, list and ring.",
+   "queries": [
+    "slices.SortFunc BinarySearch Compact Insert Delete",
+    "maps.Clone Copy DeleteFunc cmp.Compare cmp.Or",
+    "sort.Slice SliceStable sort.Interface pdqsort",
+    "container/heap container/list container/ring"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "reflect and unsafe",
+   "scope": "reflect.Type and Value, Kind, settability, struct tags, DeepEqual, newer reflect APIs such as TypeFor and Value.Seq, and unsafe.Pointer conversion rules, unsafe.Slice/String/StringData, Sizeof, Alignof and Offsetof.",
+   "queries": [
+    "reflect.Type Value Kind Elem Interface",
+    "reflect DeepEqual StructTag Value.Set settable",
+    "unsafe.Pointer rules unsafe.Slice unsafe.String Sizeof",
+    "reflect.TypeFor Value.Seq iterator methods"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Files, I/O and processes: io, io/fs, os, embed and os/exec",
+   "scope": "The io interfaces and helpers, bufio, io/fs abstractions, os file operations and os.Root, path/filepath, the embed package and go:embed patterns, and process handling with os/exec, os/signal and os/user.",
+   "queries": [
+    "io.Reader io.Writer io.Copy bufio.Scanner",
+    "io/fs FS WalkDir os.DirFS os.CopyFS",
+    "go:embed directive embed.FS patterns",
+    "os/exec Command LookPath os/signal Notify os.Root"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "math, math/big, math/bits and math/rand",
+   "scope": "Floating-point functions and constants in math, arbitrary-precision Int/Float/Rat in math/big, bit manipulation in math/bits, and the math/rand and math/rand/v2 generators and seeding behaviour.",
+   "queries": [
+    "math/big Int Float Rat arbitrary precision",
+    "math/rand/v2 ChaCha8 PCG generators Go 1.22",
+    "math/bits LeadingZeros OnesCount RotateLeft",
+    "math constants float64 NaN Inf FMA functions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "database/sql",
+   "scope": "The DB connection pool and its settings, queries, prepared statements and Rows scanning, Null types and Valuer/Scanner, transactions and isolation levels, and the database/sql/driver interfaces.",
+   "queries": [
+    "database/sql DB connection pool SetMaxOpenConns",
+    "sql.Null NullString Scan driver.Valuer",
+    "database/sql/driver Driver Connector interface",
+    "sql.Tx BeginTx isolation level context"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "gRPC-Go and Protocol Buffers for Go",
+   "scope": "protoc-gen-go and protoc-gen-go-grpc code generation, the google.golang.org/protobuf API (protoreflect, protojson, the opaque API, editions), the go_package option, and grpc-go server/client options, interceptors, metadata and status codes.",
+   "queries": [
+    "protoc-gen-go go_package option generated code",
+    "google.golang.org/protobuf protoreflect protojson APIv2",
+    "grpc-go interceptors metadata status codes",
+    "protobuf opaque API editions Go"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Third-party web frameworks and popular libraries",
+   "scope": "Widely used community packages such as Gin, Echo, Fiber, chi, the Gorilla toolkit, Cobra and Viper, testify, zap/zerolog/logrus, GORM, sqlx and pgx, including their APIs, versions and design choices.",
+   "queries": [
+    "Gin web framework router middleware httprouter",
+    "Cobra commands flags Viper configuration",
+    "testify assert require mock suite",
+    "GORM pgx sqlx zap logrus zerolog"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lexical elements and literals: tokens, keywords, semicolons and number, string and rune literals",
+   "scope": "Go's lexical grammar as defined by the language specification: identifiers, the reserved keywords, comments, automatic semicolon insertion, and the syntax of integer, floating-point, imaginary, rune and string literals, including binary/octal prefixes and digit separators.",
+   "queries": [
+    "Go spec keywords identifiers semicolon insertion rules",
+    "Go integer literal binary octal prefix underscore separator",
+    "Go raw string literal interpreted escape sequences",
+    "Go rune literal imaginary hexadecimal floating-point literal"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Declarations, scope, type definitions, aliases and package initialization",
+   "scope": "How Go declares and scopes names: const/var/type/func/method declarations, blocks and shadowing, exported identifiers, type definitions versus alias declarations (including generic aliases), import forms, package-level variable initialization order and init functions.",
+   "queries": [
+    "Go generic type alias declaration aliastypeparams",
+    "Go package initialization order init function dependency analysis",
+    "Go spec blocks scope shadowing universe block",
+    "Go import declaration dot import blank identifier"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Operators, evaluation order and switch, type switch, goto and labeled statements",
+   "scope": "Expression semantics and non-loop statements in the Go spec: operator precedence, arithmetic, shift and comparison rules, comparability, order of evaluation, expression and type switches, fallthrough, goto, labels, break/continue targets and terminating statements.",
+   "queries": [
+    "Go operator precedence levels shift count comparison",
+    "Go spec order of evaluation function calls assignment",
+    "Go switch statement fallthrough type switch case nil",
+    "Go goto statement labels break continue terminating statements"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Slice, map and string representation internals",
+   "scope": "Runtime implementation of Go's built-in data structures: slice headers and append growth strategy, backing-array aliasing, string representation and conversion costs, and map hash tables, including buckets, randomized iteration and the Swiss-table implementation introduced in Go 1.24.",
+   "queries": [
+    "Go slices internals slice header capacity append growth",
+    "Go 1.24 Swiss Tables map implementation",
+    "Go map buckets overflow load factor iteration randomization",
+    "Go string bytes conversion allocation immutable header"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GODEBUG settings, GOEXPERIMENT and toolchain selection with GOTOOLCHAIN",
+   "scope": "Go's runtime and compatibility knobs: the GODEBUG mechanism and its per-release settings (such as panicnil, http2client, x509sha1, asynctimerchan), //go:debug directives and godebug blocks, GOEXPERIMENT flags, and Go 1.21+ toolchain directives with automatic toolchain downloads via GOTOOLCHAIN.",
+   "queries": [
+    "GODEBUG history settings default Go release",
+    "go:debug directive godebug block go.mod",
+    "GOTOOLCHAIN auto local toolchain directive download",
+    "GOEXPERIMENT rangefunc loopvar arenas experiment flag"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GOPATH era and pre-modules dependency management",
+   "scope": "How Go code was organized and dependencies were managed before and during the move to modules: GOPATH workspace layout, legacy go get behavior, the vendor experiment, community tools such as godep, glide, govendor and dep, the vgo proposal, and GO111MODULE transition modes.",
+   "queries": [
+    "GOPATH workspace src pkg bin directory layout",
+    "GO15VENDOREXPERIMENT vendor directory Go 1.5",
+    "golang dep Gopkg.toml Gopkg.lock dependency tool",
+    "vgo proposal GO111MODULE auto on off"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Doc comments, go doc, pkg.go.dev and Go style conventions",
+   "scope": "Go documentation and coding conventions: doc comment syntax (headings, links and lists since Go 1.19, Deprecated notices), the go doc command and retired godoc, pkg.go.dev, and style references such as Effective Go, Go Code Review Comments, the Google Go Style Guide and Go Proverbs.",
+   "queries": [
+    "Go doc comments syntax headings links lists 1.19",
+    "Effective Go naming MixedCaps getters package names",
+    "Go Code Review Comments receiver names initialisms",
+    "pkg.go.dev godoc go doc Deprecated paragraph"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "go generate, stringer and code generation tools",
+   "scope": "Source code generation in Go: the //go:generate directive and its environment variables, the 'Code generated ... DO NOT EDIT.' header convention, golang.org/x/tools/cmd/stringer and similar generators such as goyacc, wire and enumer, and go/format-based generator practice.",
+   "queries": [
+    "go generate directive GOFILE GOPACKAGE GOLINE environment",
+    "stringer tool type linecomment trimprefix flags",
+    "Code generated DO NOT EDIT header convention",
+    "goyacc wire dependency injection code generator Go"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "golang.org/x extended repositories: x/sync, x/time, x/text, x/exp, x/sys and x/term",
+   "scope": "The Go Project's supplementary subrepositories outside the standard library: errgroup, singleflight and semaphore in x/sync, x/time/rate limiting, x/text encodings and language tags, experimental x/exp packages, x/sys/unix and x/sys/windows, x/term and x/oauth2, and their later promotions into the standard library.",
+   "queries": [
+    "golang.org/x/sync errgroup WithContext SetLimit",
+    "singleflight Group Do Forget DoChan",
+    "golang.org/x/time/rate Limiter token bucket Reserve",
+    "golang.org/x/text language tag encoding transform"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "MIME, mail and text protocol packages: mime, net/mail, net/smtp, net/textproto and net/rpc",
+   "scope": "Less-used standard-library packages for internet message and RPC protocols: MIME type registration and media-type parsing, mime/multipart and quotedprintable, net/mail address and header parsing, net/smtp authentication, net/textproto, and the frozen net/rpc and net/rpc/jsonrpc packages.",
+   "queries": [
+    "mime multipart Reader NextPart ReadForm maxMemory",
+    "net/mail ParseAddress RFC 5322 header",
+    "net/smtp PlainAuth SendMail frozen package",
+    "net/rpc jsonrpc gob codec Register frozen"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "flag, os/signal and command-line application libraries",
+   "scope": "Building CLI programs in Go: the flag package's FlagSet, Value interface, error-handling modes and parsing rules, os/signal Notify and NotifyContext, and widely used CLI libraries such as spf13/cobra, pflag, viper, urfave/cli and kong.",
+   "queries": [
+    "flag package FlagSet Value interface ContinueOnError",
+    "os/signal Notify NotifyContext SIGINT channel",
+    "spf13 cobra Command PersistentFlags RunE",
+    "viper configuration AutomaticEnv urfave cli flags"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "image packages and Go graphics, GUI and game libraries",
+   "scope": "Image and graphics programming in Go: the image, image/color, image/draw, image/png, image/jpeg and image/gif packages, golang.org/x/image, and third-party GUI and game toolkits such as Fyne, Gio and Ebitengine.",
+   "queries": [
+    "image/draw DrawMask Porter-Duff Over Src operator",
+    "image/color RGBA NRGBA YCbCr alpha-premultiplied model",
+    "image png jpeg gif Decode RegisterFormat",
+    "Fyne Gio Ebitengine Go GUI game library"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Database drivers, ORMs and SQL code generators",
+   "scope": "The third-party Go database ecosystem beyond database/sql: drivers such as pgx, lib/pq, go-sql-driver/mysql, mattn/go-sqlite3 and modernc sqlite, ORMs and query tools such as GORM, ent, sqlx, sqlc and Bun, and migration tools such as golang-migrate and goose.",
+   "queries": [
+    "pgx PostgreSQL driver pgxpool connection pool",
+    "GORM AutoMigrate associations hooks soft delete",
+    "sqlc generate type-safe Go code from SQL",
+    "go-sql-driver mysql DSN parseTime golang-migrate goose"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Metrics, tracing and third-party logging libraries: expvar, Prometheus, OpenTelemetry-Go, zap and zerolog",
+   "scope": "Application observability in Go outside log/slog and runtime diagnostics: the expvar package, Prometheus client_golang collectors and promhttp, OpenTelemetry-Go SDK APIs and instrumentation, and structured loggers such as Uber zap, zerolog and logrus.",
+   "queries": [
+    "expvar Publish Handler debug vars endpoint",
+    "prometheus client_golang promauto CounterVec promhttp",
+    "OpenTelemetry Go TracerProvider otelhttp instrumentation",
+    "uber zap SugaredLogger zerolog logrus structured"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Third-party linters and code quality tools",
+   "scope": "The Go linting ecosystem beyond go vet: staticcheck and its check categories (SA, S, ST, QF), golangci-lint configuration and bundled linters, revive, gosec rule IDs, errcheck, the deprecated golint, and formatters such as goimports and gofumpt.",
+   "queries": [
+    "staticcheck checks SA1019 S1000 ST1000 categories",
+    "golangci-lint configuration linters enable disable",
+    "revive linter golint deprecated replacement",
+    "gosec security rules G101 G304 errcheck gofumpt"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Third-party testing libraries and test helpers: testify, gomock, go-cmp, Ginkgo and testing/synctest",
+   "scope": "Testing support beyond the core testing package: testify assert, require, suite and mock, gomock and mockgen, google/go-cmp, Ginkgo and Gomega BDD, the testing/synctest bubble API, and the testing/fstest, testing/iotest and testing/quick helper packages.",
+   "queries": [
+    "testify assert require suite mock package",
+    "gomock mockgen EXPECT Times Controller uber",
+    "testing/synctest Test Wait bubble fake clock",
+    "go-cmp cmp.Diff cmpopts IgnoreFields Ginkgo Gomega"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

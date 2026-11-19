@@ -1,0 +1,986 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Literature Theory",
+ "weight": 0.015250499999999998,
+ "leaves": [
+  {
+   "leaf": "Classical Greek and Roman poetics: Plato, Aristotle, Horace and Longinus",
+   "scope": "Ancient theories of poetry, imitation and style, including Plato's critique of mimesis, Aristotle's Poetics (catharsis, hamartia, peripeteia, anagnorisis, the six parts of tragedy), Horace's Ars Poetica, Longinus's On the Sublime, Demetrius's On Style and Quintilian's views on literary style.",
+   "queries": [
+    "Aristotle Poetics six parts of tragedy",
+    "Horace Ars Poetica decorum in medias res",
+    "Longinus On the Sublime five sources",
+    "Plato Republic mimesis banishment of poets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval literary theory, allegorical exegesis and the arts of poetry",
+   "scope": "Medieval theories of interpretation and composition: the fourfold sense of scripture, Augustine's De doctrina christiana, Dante's Epistle to Cangrande and De vulgari eloquentia, the artes poetriae of Geoffrey of Vinsauf, Matthew of Vendôme and John of Garland, the accessus ad auctores, and Boccaccio's defence of poetry.",
+   "queries": [
+    "four senses of scripture anagogical tropological",
+    "Geoffrey of Vinsauf Poetria nova rhetoric",
+    "Dante Epistle to Cangrande allegorical sense",
+    "accessus ad auctores medieval commentary tradition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Renaissance, neoclassical and Enlightenment poetics",
+   "scope": "Poetic and critical theory from the Italian Cinquecento to the late eighteenth century, including Scaliger, Castelvetro and the three unities, Sidney's Defence of Poesy, Boileau's L'Art poétique, the Quarrel of the Ancients and the Moderns, Dryden, Pope's Essay on Criticism, Johnson's Preface to Shakespeare, Burke's Enquiry on the sublime and Lessing's Laocoön.",
+   "queries": [
+    "Castelvetro three unities time place action",
+    "Sidney Defence of Poesy Apology for Poetry",
+    "Boileau L'Art poetique neoclassical rules",
+    "Lessing Laocoon limits of painting and poetry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Romantic and Victorian criticism and Aestheticism",
+   "scope": "Nineteenth-century literary theory, including the Schlegels and romantic irony, Wordsworth's Preface to Lyrical Ballads, Coleridge's fancy and imagination, Shelley's Defence of Poetry, Keats's negative capability, Sainte-Beuve and Taine, Arnold's touchstones, Ruskin's pathetic fallacy, Pater, Wilde and l'art pour l'art.",
+   "queries": [
+    "Coleridge Biographia Literaria fancy imagination",
+    "Wordsworth Preface Lyrical Ballads poetic diction",
+    "Matthew Arnold touchstones Function of Criticism",
+    "Walter Pater aestheticism hard gemlike flame"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sanskrit poetics: rasa, dhvani and alamkara theory",
+   "scope": "Classical Indian poetics and dramaturgy, from Bharata's Natya Shastra and its rasa and bhava system through Bhamaha and Dandin's alamkara, Vamana's riti, Anandavardhana's dhvani, Abhinavagupta, Kuntaka's vakrokti, Kshemendra's auchitya and the treatises of Mammata and Vishvanatha.",
+   "queries": [
+    "Natya Shastra Bharata rasa bhava",
+    "Anandavardhana Dhvanyaloka dhvani suggestion theory",
+    "Abhinavagupta rasa theory aesthetic relish",
+    "Sanskrit poetics alamkara riti vakrokti auchitya"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical Chinese and Japanese poetics",
+   "scope": "Premodern East Asian literary theory, including the Great Preface to the Shijing, Cao Pi's Lunwen, Lu Ji's Wen fu, Liu Xie's Wenxin Diaolong, Zhong Rong's Shipin, Sikong Tu and Yan Yu's Canglang Shihua, plus Japanese poetics such as Ki no Tsurayuki's Kana preface to the Kokinshu, Fujiwara no Teika, yugen, Zeami, and Motoori Norinaga's mono no aware.",
+   "queries": [
+    "Liu Xie Wenxin Diaolong literary mind",
+    "Lu Ji Wen fu rhapsody on literature",
+    "Kokinshu kana preface Ki no Tsurayuki",
+    "Motoori Norinaga mono no aware yugen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Arabic and Persian poetics, rhetoric and prosody",
+   "scope": "Classical Arabic and Persian literary theory, including al-Khalil ibn Ahmad's 'arud metres, the structure of the qasida as described by Ibn Qutayba, Ibn al-Mu'tazz's Kitab al-Badi', Qudama ibn Ja'far, 'Abd al-Qahir al-Jurjani's nazm theory and balagha, Hazim al-Qartajanni, and Persian 'arud and Shams-i Qays.",
+   "queries": [
+    "Khalil ibn Ahmad Arabic prosody meters",
+    "qasida nasib rahil structure Ibn Qutayba",
+    "Abd al-Qahir al-Jurjani nazm balagha",
+    "Persian prosody aruz Shams-i Qays"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Russian Formalism and Proppian morphology",
+   "scope": "The Russian Formalist movement of OPOJAZ and the Moscow Linguistic Circle: Shklovsky's ostranenie and 'Art as Device', fabula and syuzhet, Eikhenbaum's skaz analysis, Tynyanov's literary evolution and the dominant, Tomashevsky's motifs, Propp's functions and dramatis personae, and the movement's Soviet suppression.",
+   "queries": [
+    "Shklovsky Art as Device defamiliarization ostranenie",
+    "OPOJAZ Moscow Linguistic Circle Russian formalism",
+    "Propp Morphology of the Folktale functions",
+    "fabula syuzhet Tomashevsky Tynyanov literary evolution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Prague School structuralism, Jakobson's poetics and Tartu-Moscow semiotics",
+   "scope": "Linguistically based poetics after Formalism: the Prague Linguistic Circle, Mukarovsky's aesthetic function and foregrounding, Vodicka, Jakobson's six functions of language and the poetic function, his metaphor and metonymy poles, and Lotman's Tartu-Moscow semiotics and semiosphere.",
+   "queries": [
+    "Jakobson Linguistics and Poetics six functions",
+    "Prague Linguistic Circle Mukarovsky foregrounding",
+    "Lotman semiosphere Tartu Moscow semiotic school",
+    "Jakobson metaphor metonymy two poles aphasia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "New Criticism, Practical Criticism and the Chicago neo-Aristotelians",
+   "scope": "Anglo-American formalist criticism, including I. A. Richards's Practical Criticism, Empson's types of ambiguity, Leavis and Scrutiny, Ransom and the Fugitives, Brooks and Warren's Understanding Poetry, the heresy of paraphrase, Wimsatt and Beardsley's intentional and affective fallacies, and the Chicago School of R. S. Crane, McKeon and Olson.",
+   "queries": [
+    "Cleanth Brooks heresy of paraphrase Well Wrought Urn",
+    "Wimsatt Beardsley intentional fallacy affective fallacy",
+    "Richards Practical Criticism Empson Seven Types Ambiguity",
+    "Chicago School neo-Aristotelian critics R. S. Crane"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Myth and archetypal criticism",
+   "scope": "Criticism based on myth, ritual and archetype, including the Cambridge Ritualists, Frazer and Jessie Weston, Maud Bodkin, Jungian archetypes, Northrop Frye's Anatomy of Criticism (modes, mythoi, the four essays), Campbell's monomyth stages, and Lord Raglan's and Otto Rank's hero patterns.",
+   "queries": [
+    "Northrop Frye Anatomy of Criticism mythoi",
+    "Campbell monomyth Hero with a Thousand Faces",
+    "Cambridge Ritualists Jane Harrison Gilbert Murray",
+    "Lord Raglan hero pattern Maud Bodkin archetypal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structuralism and literary semiotics",
+   "scope": "Structuralist and semiotic approaches to literature, including Saussurean sign theory applied to texts, Levi-Strauss's mythemes, Barthes's Mythologies and the five codes and lexias of S/Z, Greimas's actantial model and semiotic square, Bremond, Todorov's narrative grammar, Eco's open work and model reader, and Culler's Structuralist Poetics.",
+   "queries": [
+    "Barthes S/Z five codes hermeneutic proairetic",
+    "Greimas actantial model semiotic square",
+    "Levi-Strauss structural study of myth mythemes",
+    "Umberto Eco Open Work model reader"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structuralist narratology: time, focalization and narrative levels",
+   "scope": "Classical narratology's terminology and taxonomies: Genette's order, duration, frequency, mood and voice (analepsis, prolepsis, iterative narration, focalization, homodiegetic and extradiegetic narrators, metalepsis), Todorov's coining of narratology, Chatman's story and discourse, Prince's narratee, Bal's focalizer and Stanzel's narrative situations.",
+   "queries": [
+    "Genette Narrative Discourse analepsis prolepsis frequency",
+    "focalization internal external zero Genette Bal",
+    "homodiegetic heterodiegetic extradiegetic narrator metalepsis",
+    "Chatman Story and Discourse narratee Prince"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Narrators, unreliability and representation of consciousness",
+   "scope": "Theories of point of view and fictional minds, including Henry James's centre of consciousness, Lubbock's showing versus telling, Booth's implied author and unreliable narrator, free indirect discourse (style indirect libre, erlebte Rede), stream of consciousness and interior monologue, Dorrit Cohn's psycho-narration, and rhetorical narratology after Phelan.",
+   "queries": [
+    "Wayne Booth implied author unreliable narrator",
+    "free indirect discourse style indirect libre",
+    "Dorrit Cohn Transparent Minds psycho-narration",
+    "stream of consciousness interior monologue Dujardin"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bakhtin Circle: dialogism, heteroglossia, chronotope and carnival",
+   "scope": "The ideas and texts of Mikhail Bakhtin and his circle: dialogism, heteroglossia, polyphony in the Dostoevsky book, double-voiced discourse, the chronotope, the carnivalesque and grotesque body in Rabelais and His World, Menippean satire, and the disputed works attributed to Voloshinov and Medvedev.",
+   "queries": [
+    "Bakhtin heteroglossia dialogism Dialogic Imagination",
+    "Bakhtin chronotope polyphonic novel Dostoevsky",
+    "Rabelais and His World carnivalesque grotesque",
+    "Voloshinov Medvedev Bakhtin Circle disputed texts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Post-structuralism, deconstruction and the death of the author",
+   "scope": "Post-structuralist literary theory: Derrida's 1966 Johns Hopkins lecture, differance, supplement, logocentrism and Of Grammatology; the Yale School of de Man, Hillis Miller and Hartman; the de Man wartime-journalism affair; Barthes's 'Death of the Author' and 'From Work to Text'; Foucault's author-function; and Knapp and Michaels's 'Against Theory'.",
+   "queries": [
+    "Derrida differance Of Grammatology supplement",
+    "Structure Sign and Play Johns Hopkins 1966",
+    "Yale School de Man Allegories of Reading",
+    "Barthes Death of the Author Foucault author-function"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychoanalytic literary criticism",
+   "scope": "Freudian and post-Freudian approaches to literature, including Freud's essays on the uncanny and on creative writers and daydreaming, Ernest Jones on Hamlet, Marie Bonaparte on Poe, Lacan's mirror stage and his seminar on 'The Purloined Letter', Kristeva's abjection and semiotic chora, Bloom's anxiety of influence and revisionary ratios, and Peter Brooks's Reading for the Plot.",
+   "queries": [
+    "Freud The Uncanny Hoffmann Sandman",
+    "Bloom Anxiety of Influence revisionary ratios clinamen",
+    "Lacan Seminar on The Purloined Letter",
+    "Kristeva abjection Powers of Horror chora"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Marxist literary theory and the Frankfurt School",
+   "scope": "Marxist approaches to literature and culture, including base and superstructure, Lukacs's realism and typicality, the Brecht-Lukacs debate, socialist realism, Goldmann's genetic structuralism, Althusser and Macherey, Jameson's Political Unconscious, Eagleton, Raymond Williams's structure of feeling, and the Frankfurt School's Adorno, Horkheimer, Benjamin and Marcuse.",
+   "queries": [
+    "Lukacs Historical Novel typicality critical realism",
+    "Benjamin aura Work of Art mechanical reproduction",
+    "Adorno Horkheimer culture industry Dialectic of Enlightenment",
+    "Raymond Williams structure of feeling base superstructure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "New Historicism, Cultural Materialism and British cultural studies",
+   "scope": "Historicist and cultural approaches since the 1980s, including Greenblatt's poetics of culture, self-fashioning and circulation of social energy, Montrose, the journal Representations, Geertzian thick description, Dollimore and Sinfield's cultural materialism, and the Birmingham Centre for Contemporary Cultural Studies of Hoggart, Hall and Hebdige.",
+   "queries": [
+    "Greenblatt new historicism Renaissance Self-Fashioning",
+    "cultural materialism Dollimore Sinfield Political Shakespeare",
+    "Birmingham Centre for Contemporary Cultural Studies Hoggart",
+    "Stuart Hall encoding decoding cultural studies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Feminist literary criticism and écriture féminine",
+   "scope": "Anglo-American and French feminist criticism, including Woolf's A Room of One's Own, Beauvoir, Millett's Sexual Politics, Ellmann, Moers, Showalter's gynocriticism and feminine/feminist/female phases, Gilbert and Gubar's Madwoman in the Attic, Kolodny, Toril Moi, and Cixous, Irigaray and Wittig.",
+   "queries": [
+    "Showalter gynocriticism A Literature of Their Own",
+    "Gilbert Gubar Madwoman in the Attic",
+    "Cixous Laugh of the Medusa ecriture feminine",
+    "Kate Millett Sexual Politics feminist literary criticism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gender, queer and trans theory in literary studies",
+   "scope": "Theories of gender and sexuality applied to literature, including Foucault's History of Sexuality, Rich's compulsory heterosexuality, Sedgwick's homosocial desire and the epistemology of the closet, Butler's performativity, de Lauretis's coining of 'queer theory', Warner's heteronormativity, Halberstam, Edelman's reproductive futurism, and early trans studies by Stone and Stryker.",
+   "queries": [
+    "Judith Butler Gender Trouble performativity",
+    "Sedgwick Between Men homosocial desire Epistemology Closet",
+    "Teresa de Lauretis queer theory term",
+    "Adrienne Rich compulsory heterosexuality lesbian continuum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Postcolonial theory and criticism",
+   "scope": "Postcolonial literary theory, including Fanon, Negritude, Said's Orientalism and contrapuntal reading, Spivak's subaltern and strategic essentialism, Bhabha's hybridity, mimicry and third space, Achebe's critique of Heart of Darkness, Ngugi's Decolonising the Mind, The Empire Writes Back's abrogation and appropriation, Subaltern Studies, and Glissant.",
+   "queries": [
+    "Edward Said Orientalism contrapuntal reading",
+    "Spivak Can the Subaltern Speak strategic essentialism",
+    "Homi Bhabha hybridity mimicry third space",
+    "Empire Writes Back abrogation appropriation postcolonial"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "African American literary theory and critical race criticism",
+   "scope": "Theories of Black literature and race in criticism, including Du Bois's double consciousness, Locke's New Negro, Hughes's 'The Negro Artist and the Racial Mountain', Wright's 'Blueprint for Negro Writing', the Black Arts Movement and Black Aesthetic, Gates's Signifyin(g), Houston Baker's blues vernacular, Black feminist criticism, Morrison's Africanist presence, Spillers and Hartman.",
+   "queries": [
+    "Gates Signifying Monkey talking book trope",
+    "Larry Neal Black Arts Movement Black Aesthetic",
+    "Du Bois double consciousness Souls of Black Folk",
+    "Morrison Playing in the Dark Africanist presence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hermeneutics, phenomenological criticism, reception and reader-response theory",
+   "scope": "Theories of interpretation and reading, including Schleiermacher and Dilthey's hermeneutic circle, Gadamer's fusion of horizons, Ricoeur's hermeneutics of suspicion, Hirsch's meaning versus significance, Ingarden's concretization, the Geneva School, the Konstanz School of Jauss and Iser, and American reader-response critics such as Fish, Rosenblatt, Holland and Bleich.",
+   "queries": [
+    "Gadamer Truth and Method fusion of horizons",
+    "Jauss horizon of expectations Konstanz School",
+    "Iser implied reader gaps Act of Reading",
+    "Stanley Fish interpretive communities affective stylistics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ecocriticism, animal studies and posthumanism",
+   "scope": "Environmental and posthumanist literary theory, including Meeker's literary ecology, Rueckert's coining of ecocriticism, ASLE and the Ecocriticism Reader, Buell's waves, Bate's Romantic ecology, ecofeminism, Morton's dark ecology and hyperobjects, Nixon's slow violence, animal studies, and Haraway and Hayles on the cyborg and the posthuman.",
+   "queries": [
+    "Rueckert ecocriticism Glotfelty Ecocriticism Reader",
+    "Lawrence Buell Environmental Imagination ecocriticism waves",
+    "Timothy Morton dark ecology hyperobjects",
+    "Haraway Cyborg Manifesto posthumanism Hayles"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of drama, tragedy and comedy after Aristotle",
+   "scope": "Post-classical dramatic theory, including Lessing's Hamburg Dramaturgy, Diderot's paradox of the actor, Hegel's tragic collision, Freytag's pyramid, Nietzsche's Apollonian and Dionysian, Bradley's Shakespearean Tragedy, Bergson's Laughter, Brecht's epic theatre and Verfremdungseffekt, Artaud's Theatre of Cruelty, Esslin's Theatre of the Absurd, Steiner, Grotowski and Boal.",
+   "queries": [
+    "Freytag pyramid Technique of the Drama",
+    "Brecht epic theatre Verfremdungseffekt Short Organum",
+    "Artaud Theatre of Cruelty Esslin Absurd",
+    "Nietzsche Birth of Tragedy Apollonian Dionysian"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theory of the novel, realism and naturalism",
+   "scope": "Theories of the novel as a form and of literary realism, including Lukacs's Theory of the Novel, Henry James's 'The Art of Fiction', Forster's flat and round characters, Ian Watt's formal realism, Auerbach's Mimesis, Champfleury and Zola's experimental novel, Barthes's reality effect, Morgenstern's Bildungsroman, and Woolf's essays on modern fiction.",
+   "queries": [
+    "Ian Watt Rise of the Novel formal realism",
+    "Forster Aspects of the Novel flat round characters",
+    "Auerbach Mimesis Odysseus scar representation",
+    "Lukacs Theory of the Novel transcendental homelessness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genre theory and the poetics of fantasy, science fiction, Gothic and detective fiction",
+   "scope": "Theories of genre and popular genres, including Fowler's Kinds of Literature and Derrida's 'Law of Genre', Todorov's fantastic, Tolkien's eucatastrophe and secondary world, Suvin's cognitive estrangement and novum, Radcliffe's terror versus horror, Female Gothic, Mendlesohn's rhetorics of fantasy, and Knox's and Van Dine's rules for detective fiction.",
+   "queries": [
+    "Todorov fantastic uncanny marvelous hesitation",
+    "Darko Suvin cognitive estrangement novum",
+    "Knox Decalogue Van Dine twenty rules detective",
+    "Tolkien On Fairy-Stories eucatastrophe secondary world"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Prosody, metre and scansion",
+   "scope": "The technical study of versification: metrical feet and line lengths, accentual-syllabic, syllabic, accentual and quantitative systems, caesura, enjambment and catalexis, Sievers's types for Old English alliterative verse, Hopkins's sprung rhythm, classical metres such as dactylic hexameter and the Sapphic and Alcaic, and generative and beat-based metrics.",
+   "queries": [
+    "metrical foot iamb trochee anapest amphibrach",
+    "Hopkins sprung rhythm outrides accentual verse",
+    "Sievers five types Old English alliterative verse",
+    "dactylic hexameter caesura elegiac couplet scansion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fixed poetic forms and stanza forms",
+   "scope": "Named verse and stanza forms and their rules and histories, including sonnet variants (Petrarchan, Shakespearean, Spenserian, curtal, caudate, crown, Onegin stanza), villanelle, sestina, rondeau, triolet, ballade, terza rima, ottava rima, rhyme royal, the Spenserian and Burns stanzas, the pantoum and the limerick.",
+   "queries": [
+    "villanelle nineteen lines refrains rhyme scheme",
+    "sestina end words envoi Arnaut Daniel",
+    "rhyme royal ottava rima Spenserian stanza",
+    "Petrarchan sonnet volta curtal sonnet Onegin stanza"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rhetorical figures, tropes and theories of metaphor",
+   "scope": "The classification of schemes and tropes (chiasmus, zeugma, syllepsis, hendiadys, hypallage, litotes, catachresis, prosopopoeia) in sources from the Rhetorica ad Herennium and Quintilian to Peacham and Puttenham, together with Burke's four master tropes, Richards's tenor and vehicle, Black's interaction theory, Ricoeur and Group Mu.",
+   "queries": [
+    "chiasmus antimetabole zeugma syllepsis rhetorical figures",
+    "Puttenham Arte of English Poesie figures",
+    "Richards tenor vehicle metaphor interaction theory",
+    "Kenneth Burke four master tropes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Literary stylistics and cognitive poetics",
+   "scope": "Linguistic and cognitive approaches to literary texts, including Spitzer's philological circle, Halliday on Golding's The Inheritors, Leech's deviation and parallelism, Fowler's mind style, Leech and Short's Style in Fiction, Tsur and Stockwell's cognitive poetics, schema and deictic shift theory, text world theory, conceptual blending, and Lakoff and Turner on poetic metaphor.",
+   "queries": [
+    "Leech Short Style in Fiction mind style",
+    "Reuven Tsur Stockwell cognitive poetics",
+    "text world theory Werth Gavins",
+    "Lakoff Turner More than Cool Reason"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Computational literary studies, stylometry and distant reading",
+   "scope": "Quantitative and digital approaches to literature, including Busa's Index Thomisticus, early stylometry from Mendenhall to Mosteller and Wallace's Federalist study, Burrows's Delta and authorship attribution, the Text Encoding Initiative, Moretti's distant reading and the Stanford Literary Lab, Jockers's macroanalysis, topic modelling and culturomics.",
+   "queries": [
+    "Moretti distant reading Graphs Maps Trees",
+    "stylometry Burrows Delta authorship attribution",
+    "Roberto Busa Index Thomisticus humanities computing",
+    "Text Encoding Initiative TEI guidelines history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Textual criticism, bibliography and scholarly editing",
+   "scope": "The theory and practice of establishing texts, including Lachmann's stemmatics and Bedier's best-text method, recension and emendation, lectio difficilior and scribal error types, the New Bibliography and Shakespeare's bad quartos, Greg's copy-text theory and the Greg-Bowers-Tanselle tradition, McGann and McKenzie's social text, and genetic criticism.",
+   "queries": [
+    "Lachmann stemmatic method recension emendation",
+    "Greg Rationale of Copy-Text Bowers Tanselle",
+    "lectio difficilior haplography dittography scribal errors",
+    "genetic criticism avant-texte critique genetique manuscripts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intertextuality, paratext, parody and adaptation theory",
+   "scope": "Theories of relations between texts, including Kristeva's coining of intertextuality, Riffaterre's hypogram, Genette's five types of transtextuality and hypotext/hypertext in Palimpsests, his peritext and epitext in Seuils (Paratexts), Hutcheon's theories of parody and adaptation, pastiche and cento, and adaptation and fidelity studies after Wagner and Sanders.",
+   "queries": [
+    "Genette Palimpsests transtextuality hypotext hypertext",
+    "Genette Paratexts Seuils peritext epitext",
+    "Kristeva intertextuality Word Dialogue and Novel",
+    "Hutcheon Theory of Adaptation fidelity criticism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Comparative literature, world literature and literary translation theory",
+   "scope": "The discipline of comparative literature and theories of cross-cultural literary exchange, including Goethe's Weltliteratur, the French and American schools, Wellek's 'Crisis of Comparative Literature', the ACLA reports, Damrosch, Casanova and Apter on world literature, and translation theory from Dryden, Schleiermacher and Benjamin to Nida, Even-Zohar, Toury, skopos theory and Venuti.",
+   "queries": [
+    "Goethe Weltliteratur world literature Damrosch Casanova",
+    "Wellek Crisis of Comparative Literature",
+    "Venuti foreignization domestication Translator's Invisibility",
+    "Nida formal dynamic equivalence translation theory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Canon formation, literary value and the sociology of literature",
+   "scope": "How literary value and canons are made and how literature works as an institution, including Leavis's Great Tradition, Bloom's Western Canon, the 1980s canon wars, Guillory's Cultural Capital, Herrnstein Smith's contingencies of value, Bourdieu's literary field and Rules of Art, Escarpit's Bordeaux school, Q. D. Leavis and Radway on readers, and studies of literary prizes and creative-writing programs.",
+   "queries": [
+    "Bourdieu field of cultural production Rules of Art",
+    "Harold Bloom Western Canon list",
+    "Guillory Cultural Capital canon formation",
+    "Radway Reading the Romance Escarpit sociology literature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of postmodernism and metafiction",
+   "scope": "Theoretical accounts of postmodern literature, including Hassan's schema, Barth's 'Literature of Exhaustion' and 'Replenishment', Gass's coining of metafiction, Lyotard's incredulity toward metanarratives, Baudrillard's simulacra, Jameson's pastiche and depthlessness, McHale's ontological dominant, Hutcheon's historiographic metafiction, Waugh's Metafiction, mise en abyme, and metamodernism.",
+   "queries": [
+    "Lyotard Postmodern Condition incredulity metanarratives",
+    "Hutcheon historiographic metafiction Poetics of Postmodernism",
+    "McHale Postmodernist Fiction ontological dominant",
+    "John Barth Literature of Exhaustion metafiction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modernist and avant-garde poetics and literary manifestos",
+   "scope": "Programmatic statements of modernist and avant-garde movements, including Moreas's Symbolist manifesto, Mallarme's 'Crise de vers', Marinetti's Futurism and parole in liberta, Russian Futurism and zaum, Pound and Flint's Imagist principles, Vorticism's BLAST, Dada, Breton's Surrealist manifestos, Eliot's impersonality, Acmeism, Objectivism, Olson's Projective Verse and the Anthropophagic Manifesto.",
+   "queries": [
+    "Marinetti Futurist Manifesto Le Figaro 1909",
+    "Pound A Few Don'ts Imagism principles",
+    "Breton Manifesto of Surrealism psychic automatism",
+    "Eliot Tradition and the Individual Talent impersonality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Contemporary critical turns: trauma, affect, disability, postcritique and new formalism",
+   "scope": "Post-1990 movements in literary theory, including Caruth, Felman and LaCapra on trauma, Sedgwick's paranoid and reparative reading, affect theory from Ngai, Berlant and Ahmed, disability studies (Garland-Thomson, Mitchell and Snyder's narrative prosthesis), surface reading, Felski's postcritique, and Levine's new formalism.",
+   "queries": [
+    "Cathy Caruth trauma theory Unclaimed Experience",
+    "Rita Felski postcritique Limits of Critique",
+    "Sedgwick paranoid reading reparative reading",
+    "narrative prosthesis disability studies Garland-Thomson"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lyric theory, the lyric speaker and the dramatic monologue",
+   "scope": "Theories of the lyric as a mode, covering Mill's 'overheard' utterance, the lyric I and persona, apostrophe, Langbaum's poetry of experience, the dramatic monologue and the new lyric studies of Culler, Jackson and Prins.",
+   "queries": [
+    "dramatic monologue Browning My Last Duchess Langbaum",
+    "John Stuart Mill poetry overheard eloquence heard",
+    "Culler Theory of the Lyric apostrophe",
+    "lyric poetry definition lyric I persona speaker"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of the short story, novella and flash fiction",
+   "scope": "Poetics of short narrative forms, covering Poe's unity of effect, German Novelle theory (Goethe's 'unheard-of event', Heyse's falcon theory), Hemingway's iceberg theory, Frank O'Connor's submerged population, short story cycles and flash fiction or microfiction.",
+   "queries": [
+    "Poe unity of effect Hawthorne Twice-Told Tales review",
+    "Novelle unerhörte Begebenheit Heyse Falkentheorie",
+    "Hemingway iceberg theory omission short story",
+    "flash fiction microfiction word count definition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Autobiography, life writing and autofiction theory",
+   "scope": "Theories of self-writing, covering Gusdorf, Lejeune's autobiographical pact, de Man's autobiography as de-facement, Olney, Doubrovsky's coinage of autofiction, and the generic boundaries of memoir, diary and biography.",
+   "queries": [
+    "Lejeune autobiographical pact Le pacte autobiographique 1975",
+    "autofiction Doubrovsky Fils 1977 term",
+    "de Man Autobiography as De-facement prosopopoeia",
+    "life writing memoir biography genre history Olney"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Oral-formulaic theory and orality-literacy studies",
+   "scope": "The Parry-Lord theory of oral composition (formula, theme, South Slavic guslari, Homeric epithets) and the orality-literacy theses of Havelock, Ong, Goody and Foley.",
+   "queries": [
+    "Parry Lord Singer of Tales oral formula",
+    "Avdo Međedović guslar South Slavic epic recording",
+    "Walter Ong Orality and Literacy psychodynamics",
+    "Havelock Preface to Plato oral literacy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analytic philosophy of literature: fictionality, intention and the paradox of fiction",
+   "scope": "Analytic aesthetics of literature, covering Searle and Lewis on fictional discourse and truth in fiction, Walton's make-believe, possible-worlds theory (Pavel, Doležel, Ryan), the paradox of fiction, imaginative resistance, and the intentionalism debates (Hirsch, Knapp and Michaels, hypothetical intentionalism).",
+   "queries": [
+    "paradox of fiction Radford emotions fictional characters",
+    "Walton Mimesis as Make-Believe props fictional truths",
+    "possible worlds theory fiction Doležel Pavel Ryan",
+    "Knapp Michaels Against Theory Hirsch intentionalism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "German Idealist aesthetics and Jena Romantic theory",
+   "scope": "German aesthetic philosophy from Baumgarten's coinage of 'aesthetics' through Kant, Schiller and Hegel, plus the Jena Romantics' theory of progressive universal poetry, the fragment and romantic irony.",
+   "queries": [
+    "Kant Critique of Judgment purposiveness without purpose",
+    "Schiller On Naive and Sentimental Poetry",
+    "Friedrich Schlegel Athenaeum fragment 116 romantic irony",
+    "Hegel Lectures on Aesthetics end of art"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ekphrasis, intermediality and word-image relations",
+   "scope": "Verbal representation of visual art and relations between literature, painting and music, covering ekphrasis from the Shield of Achilles to Keats, ut pictura poesis, Lessing's Laocoön, notional ekphrasis, Mitchell's picture theory and intermediality theory (Wolf, Rajewsky).",
+   "queries": [
+    "ekphrasis Shield of Achilles Heffernan Museum of Words",
+    "Lessing Laocoön limits of painting and poetry",
+    "notional ekphrasis Hollander Krieger Mitchell Picture Theory",
+    "intermediality Werner Wolf musicalization of fiction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Book history, print culture and the history of reading",
+   "scope": "The study of books as material and social objects, covering Febvre and Martin's histoire du livre, Darnton's communications circuit, Adams and Barker's model, McKenzie's sociology of texts, Eisenstein's printing revolution, and histories of reading and literacy (Engelsing, Chartier).",
+   "queries": [
+    "Darnton communications circuit history of books",
+    "Eisenstein printing press as agent of change",
+    "Febvre Martin L'Apparition du livre",
+    "Engelsing reading revolution intensive extensive reading"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plot typologies, story grammars and narrative arcs",
+   "scope": "Schemes that classify plots and narrative structure, covering Freytag's pyramid, Polti's thirty-six dramatic situations, Booker's seven basic plots, Vonnegut's story shapes, Labov and Waletzky's narrative structure, and the cognitive story grammars of Rumelhart and of Mandler and Johnson.",
+   "queries": [
+    "Polti Thirty-Six Dramatic Situations list",
+    "Freytag pyramid exposition rising action climax",
+    "Booker Seven Basic Plots overcoming the monster",
+    "story grammar Rumelhart Mandler Johnson schema"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of irony and satire",
+   "scope": "Critical theories of irony (verbal, dramatic, Socratic, stable and unstable) from Kierkegaard to Booth, Muecke and Hutcheon, and of satire (Horatian, Juvenalian, Menippean) in Kernan, Elliott, Highet and Frye.",
+   "queries": [
+    "Booth A Rhetoric of Irony stable irony",
+    "Menippean satire Varro Lucian characteristics",
+    "Horatian Juvenalian satire types definitions",
+    "Kierkegaard Concept of Irony Socratic irony dissertation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "F. R. Leavis, Scrutiny and the institutional history of English studies",
+   "scope": "Leavisite criticism and the rise of English as an academic discipline, covering Scrutiny, The Great Tradition, Q. D. Leavis, the Cambridge English Tripos, the Newbolt Report, the Leavis-Snow controversy, and histories of the profession by Graff and Baldick.",
+   "queries": [
+    "F. R. Leavis Scrutiny Great Tradition",
+    "Cambridge English Tripos founded 1917 Richards",
+    "Newbolt Report 1921 Teaching of English",
+    "Graff Professing Literature history English departments"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ethical criticism and narrative ethics",
+   "scope": "The ethical turn in literary studies, covering Booth's The Company We Keep, Nussbaum's literature as moral philosophy, J. Hillis Miller's ethics of reading, Levinasian criticism, Newton's narrative ethics, Attridge's singularity and Gardner's On Moral Fiction.",
+   "queries": [
+    "Booth The Company We Keep ethics of fiction",
+    "Nussbaum Love's Knowledge literature moral philosophy",
+    "J. Hillis Miller Ethics of Reading",
+    "ethical turn literary criticism Levinas narrative ethics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Law and literature movement",
+   "scope": "The interdisciplinary field of law in literature and law as literature, covering Wigmore's legal novels, Cardozo, James Boyd White, Posner, Weisberg, Dworkin's chain novel and the Fish-Dworkin debate on interpretation.",
+   "queries": [
+    "James Boyd White Legal Imagination law literature",
+    "Posner Law and Literature misunderstood relation",
+    "Dworkin chain novel interpretation law",
+    "Wigmore list of legal novels Cardozo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Literature and science studies and narrative medicine",
+   "scope": "Relations between literature and the sciences and medicine, covering the Huxley-Arnold debate, Snow's Two Cultures, Gillian Beer's Darwin's Plots, the Society for Literature, Science and the Arts, the medical humanities, pathography and Charon's narrative medicine.",
+   "queries": [
+    "C. P. Snow Two Cultures Rede Lecture 1959",
+    "Gillian Beer Darwin's Plots evolutionary narrative",
+    "Rita Charon narrative medicine close reading",
+    "Matthew Arnold Literature and Science Huxley debate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electronic literature, hypertext fiction and cybertext theory",
+   "scope": "Born-digital literary forms and their theory, covering Storyspace hypertext fiction, interactive fiction, Landow's hypertext theory, Aarseth's ergodic literature, Hayles, digital poetry and the Electronic Literature Organization's collections.",
+   "queries": [
+    "Michael Joyce afternoon a story Storyspace hypertext",
+    "Aarseth Cybertext ergodic literature",
+    "Electronic Literature Organization collection Hayles",
+    "interactive fiction Zork Inform text adventure history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Children's and young adult literature criticism",
+   "scope": "Theory and history of literature for young readers, covering Rose's 'impossibility' of children's fiction, Nodelman's hidden adult, Hunt and Nikolajeva, picturebook word-image theory, YA as a category, and major children's literature awards.",
+   "queries": [
+    "Jacqueline Rose Case of Peter Pan impossibility",
+    "Nodelman Hidden Adult children's literature theory",
+    "picturebook theory Nikolajeva word image interaction",
+    "Newbery Medal Carnegie Medal children's literature awards"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Popular fiction, romance and fan studies",
+   "scope": "The study of mass-market fiction and its readers, covering Radway's Reading the Romance, Modleski, Cawelti's formula theory, Regis's essential elements of the romance novel, bestseller history, and fan fiction studies (Jenkins, slash, Mary Sue).",
+   "queries": [
+    "Radway Reading the Romance Smithton women",
+    "Cawelti Adventure Mystery Romance formula stories",
+    "Jenkins Textual Poachers fan fiction slash",
+    "Regis Natural History Romance Novel elements"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Comics and graphic narrative theory",
+   "scope": "Formal and historical theory of comics, covering Töpffer, Eisner's sequential art, McCloud's closure and panel transitions, Groensteen's arthrology and braiding, Chute's graphic narrative, and the Wertham and Comics Code controversy.",
+   "queries": [
+    "McCloud Understanding Comics closure panel transitions",
+    "Groensteen System of Comics arthrology braiding",
+    "Eisner Comics and Sequential Art graphic novel",
+    "Comics Code Authority 1954 Wertham Seduction Innocent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of literary character and characterization",
+   "scope": "Accounts of fictional character, covering Theophrastan character-writing, Morgann's and Bradley's character criticism, Knights's critique of it, Forster's flat and round characters, Phelan's mimetic, thematic and synthetic components, Woloch's character-space and stock character types.",
+   "queries": [
+    "Forster flat and round characters Aspects Novel",
+    "Knights How Many Children Had Lady Macbeth",
+    "Woloch The One vs the Many character-space",
+    "Theophrastus Characters character writing Overbury"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spatial form, geocriticism and literary geography",
+   "scope": "Spatial approaches to literature, covering Joseph Frank's spatial form, Bachelard's poetics of space, the spatial turn, Westphal's geocriticism, Tally's literary cartography and the mapping of fictional places.",
+   "queries": [
+    "Joseph Frank Spatial Form Modern Literature 1945",
+    "Bachelard Poetics of Space house",
+    "Westphal geocriticism geocentred approach",
+    "literary geography mapping fictional places spatial turn"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Folktale typology, ballad collections and folkloristics",
+   "scope": "Classification and collection of traditional narrative and song, covering Aarne-Thompson-Uther tale types, Thompson's Motif-Index, the Finnish historic-geographic method, the numbering of the Grimms' tales across editions, and the Child and Roud ballad indexes.",
+   "queries": [
+    "Aarne-Thompson-Uther index tale type number",
+    "Thompson Motif-Index of Folk-Literature",
+    "Child Ballads Francis James Child number",
+    "Kinder- und Hausmärchen editions Grimm tale numbering"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biblical poetics and literary approaches to the Bible",
+   "scope": "Literary study of biblical texts, covering Lowth's theory of parallelism, Kugel's critique of it, Alter's type-scenes and narrative art, Sternberg's poetics of biblical narrative, Frye's Great Code and the Bible-as-literature movement.",
+   "queries": [
+    "Robert Lowth parallelism Hebrew poetry synonymous antithetic",
+    "Robert Alter Art of Biblical Narrative type-scene",
+    "Kugel Idea of Biblical Poetry parallelism",
+    "Frye Great Code Bible and literature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Romance philology and stylistic criticism: Spitzer, Auerbach and Curtius",
+   "scope": "German-language philological criticism, covering Vossler's idealist philology, Spitzer's philological circle, Auerbach's Mimesis and figura, and Curtius's topoi in European Literature and the Latin Middle Ages, including their exile contexts.",
+   "queries": [
+    "Auerbach Mimesis Istanbul Odysseus' scar",
+    "Leo Spitzer philological circle stylistics",
+    "Curtius European Literature Latin Middle Ages topos",
+    "Auerbach figura essay typological interpretation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin American literary and cultural theory",
+   "scope": "Theory from and about Latin American literature, covering antropofagia, Roh's and Carpentier's magic realism and lo real maravilloso, Ortiz's and Rama's transculturation, the lettered city, Retamar's Calibán, Borges on tradition, and testimonio.",
+   "queries": [
+    "Oswald de Andrade Manifesto Antropófago 1928",
+    "Carpentier lo real maravilloso prologue 1949",
+    "Ángel Rama transculturación narrativa ciudad letrada",
+    "testimonio genre Beverley Rigoberta Menchú"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century French and German critical method: Sainte-Beuve, Taine, Brunetière and Geistesgeschichte",
+   "scope": "Biographical, positivist and historicist literary criticism, covering Sainte-Beuve's portraits, Taine's race, milieu and moment, Brunetière's evolution of genres, Lanson's literary history, Scherer's positivism, and Dilthey and the Geistesgeschichte school.",
+   "queries": [
+    "Sainte-Beuve Causeries du lundi biographical criticism",
+    "Taine race milieu moment literature",
+    "Brunetière évolution des genres Lanson",
+    "Dilthey Das Erlebnis und die Dichtung Geistesgeschichte"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century Russian civic and radical criticism",
+   "scope": "Russian literary criticism from Belinsky through Chernyshevsky, Dobrolyubov and Pisarev, plus Grigoryev's organic criticism and the debates over the superfluous man, utilitarian aesthetics and art for art's sake.",
+   "queries": [
+    "Belinsky Letter to Gogol 1847",
+    "Dobrolyubov What Is Oblomovism essay",
+    "Chernyshevsky Aesthetic Relations of Art to Reality",
+    "superfluous man Russian literature Turgenev"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Existentialist engagement, Blanchot and nouveau roman theory",
+   "scope": "Postwar French literary theory before structuralism, covering Sartre's committed literature and Les Temps modernes, Camus's absurd, Barthes's Writing Degree Zero, Blanchot's literary space, and the nouveau roman manifestos of Robbe-Grillet and Sarraute.",
+   "queries": [
+    "Sartre What Is Literature littérature engagée",
+    "Barthes Writing Degree Zero écriture blanche",
+    "nouveau roman Robbe-Grillet Sarraute theory",
+    "Blanchot L'Espace littéraire literary space"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Native American, Chicana/o and Asian American literary criticism",
+   "scope": "Criticism of US ethnic literatures outside the African American tradition, covering the Native American Renaissance, survivance and tribal literary nationalism, Chicano/a criticism and borderlands theory, and Asian American critical anthologies and debates.",
+   "queries": [
+    "Native American Renaissance Kenneth Lincoln Momaday",
+    "Vizenor survivance Womack Red on Red literary nationalism",
+    "Anzaldúa Borderlands La Frontera mestiza consciousness",
+    "Aiiieeeee anthology Asian American writers Frank Chin"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theory of the essay and literary nonfiction",
+   "scope": "Poetics of the essay and nonfiction prose, covering Montaigne's essais, Lukács and Adorno on essay form, New Journalism and its techniques, the nonfiction novel, creative nonfiction and the lyric essay.",
+   "queries": [
+    "Montaigne Essais 1580 essay form origin",
+    "Adorno Essay as Form Lukács Soul and Form",
+    "New Journalism Tom Wolfe techniques anthology",
+    "nonfiction novel Capote In Cold Blood"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Literary forgeries, hoaxes and authorship controversies",
+   "scope": "Fabricated, pseudonymous and disputed-authorship works, covering Macpherson's Ossian, Chatterton's Rowley poems, Ireland's Shakespeare forgeries, the Wise forgeries, the Spectra and Ern Malley hoaxes, and the Shakespeare authorship question.",
+   "queries": [
+    "Ossian Macpherson Fingal authenticity controversy",
+    "Ern Malley hoax Angry Penguins 1944",
+    "Thomas J. Wise forgeries Carter Pollard Enquiry",
+    "William Henry Ireland Vortigern Shakespeare forgery"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

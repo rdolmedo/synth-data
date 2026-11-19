@@ -1,0 +1,785 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "html",
+ "weight": 0.012244,
+ "leaves": [
+  {
+   "leaf": "Early HTML history and SGML-based versions (1991–1999)",
+   "scope": "How HTML began with Tim Berners-Lee's HTML Tags, then HTML 2.0, HTML+, HTML 3.0, 3.2, 4.0 and 4.01, covering their DTDs, editors, RFCs and ISO HTML.",
+   "queries": [
+    "Tim Berners-Lee HTML Tags 1991 SGMLguid",
+    "HTML 2.0 RFC 1866 IETF working group",
+    "HTML 3.2 Wilbur HTML 4.0 Cougar Recommendation",
+    "ISO/IEC 15445 ISO HTML SGML DTD"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HTML5 standardization and the WHATWG Living Standard",
+   "scope": "History and governance of HTML5: the founding of the WHATWG, Web Applications 1.0 and Web Forms 2.0, the W3C HTML5, 5.1 and 5.2 Recommendations and their editors, the 2019 W3C–WHATWG memorandum and the Living Standard process.",
+   "queries": [
+    "WHATWG founded 2004 Apple Mozilla Opera",
+    "Web Applications 1.0 Web Forms 2.0 Ian Hickson",
+    "W3C HTML5 Recommendation 28 October 2014",
+    "WHATWG W3C memorandum of understanding 2019 Review Draft"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "XHTML, XML serialization and HTML media types",
+   "scope": "XHTML 1.0, 1.1 and 2.0, XHTML Basic and Modularization, the XML syntax of HTML and polyglot markup, and the media type registrations for text/html, application/xhtml+xml and MHTML.",
+   "queries": [
+    "XHTML 1.0 strict transitional frameset namespace",
+    "XHTML 1.1 modularization XHTML Basic Mobile Profile",
+    "application/xhtml+xml XML syntax polyglot markup",
+    "text/html media type registration MHTML RFC 2557"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "DOCTYPE, quirks mode and browser document modes",
+   "scope": "DOCTYPE declarations and how doctype sniffing selects no-quirks, limited-quirks or quirks mode, the public identifier lists that trigger each mode, almost standards mode, and Internet Explorer document modes with X-UA-Compatible.",
+   "queries": [
+    "quirks mode limited-quirks doctype public identifier",
+    "almost standards mode table cell line height",
+    "document.compatMode CSS1Compat BackCompat",
+    "X-UA-Compatible IE=edge document mode Internet Explorer"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Element categories, content models and markup syntax rules",
+   "scope": "Kinds of content (flow, phrasing, embedded, interactive, palpable and the form-associated subcategories), each element's content model, transparent content, and the syntax rules for void elements, optional start and end tags, raw text and escapable raw text elements, and attribute quoting.",
+   "queries": [
+    "flow content phrasing content palpable content categories",
+    "void elements list area base br col embed",
+    "optional tags end tag omitted p element",
+    "raw text elements escapable raw text textarea title"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HTML parsing algorithm and serialization",
+   "scope": "The HTML parsing model: tokenizer states, tree construction insertion modes, the stack of open elements, the adoption agency algorithm, foster parenting, named parse errors, fragment parsing and the HTML fragment serialization algorithm.",
+   "queries": [
+    "tokenization state machine script data escaped state",
+    "tree construction insertion mode in table body",
+    "adoption agency algorithm formatting elements foster parenting",
+    "parse error eof-in-tag duplicate-attribute missing-whitespace"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Named character references and entities",
+   "scope": "Named and numeric character references in HTML, the entity table (from the HTML 2.0 Latin-1 set through the HTML 4 symbols and the MathML additions), legacy entities without semicolons, and the replacement rules for numeric references.",
+   "queries": [
+    "named character references table nbsp amp entity",
+    "HTML 4 character entity references Latin-1 symbols",
+    "numeric character reference windows-1252 replacement 0x80",
+    "list of XML and HTML character entity references"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Character encoding declaration and sniffing",
+   "scope": "Declaring a document's character encoding with meta charset or http-equiv Content-Type, the byte order mark, the encoding sniffing algorithm and its prescan, and the WHATWG Encoding Standard's labels and legacy encodings.",
+   "queries": [
+    "meta charset declaration first 1024 bytes",
+    "encoding sniffing algorithm prescan byte stream",
+    "Encoding Standard labels windows-1252 iso-8859-1 alias",
+    "byte order mark UTF-8 UTF-16 HTML document"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Document metadata and the meta element",
+   "scope": "The head, title and meta elements, the standard metadata names (viewport, theme-color, color-scheme, referrer, generator, application-name), the http-equiv pragma directives (refresh, content-security-policy, default-style), and de facto extensions such as Open Graph and Twitter Cards.",
+   "queries": [
+    "meta name viewport width device-width initial-scale",
+    "http-equiv refresh content-security-policy pragma directives",
+    "meta name theme-color color-scheme referrer generator",
+    "Open Graph protocol og:title og:image Twitter Cards"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "link element, link types and resource hints",
+   "scope": "The link element and its rel keywords (stylesheet, alternate, canonical, icon, manifest, preload, prefetch, preconnect, dns-prefetch, modulepreload, pingback, expect), plus the as destinations and the sizes, media, blocking and fetchpriority attributes.",
+   "queries": [
+    "link rel preload as attribute destination font",
+    "rel preconnect dns-prefetch prefetch modulepreload resource hints",
+    "link types canonical alternate stylesheet pingback",
+    "rel icon sizes apple-touch-icon manifest"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sectioning, headings and grouping content elements",
+   "scope": "The sectioning elements (article, section, nav, aside), header, footer, address, h1–h6 and hgroup, the removed document outline algorithm, and the grouping elements p, hr, pre, blockquote, ol/ul/li/menu, dl/dt/dd, figure/figcaption, main, search and div.",
+   "queries": [
+    "article section nav aside sectioning content",
+    "document outline algorithm hgroup removed heading levels",
+    "ol element reversed start type attribute",
+    "figure figcaption main search element dl dt dd"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Text-level semantics and edit elements",
+   "scope": "Phrasing elements such as em, strong, small, s, cite, q, dfn, abbr, data, time (and its datetime value formats), code, var, samp, kbd, sub, sup, i, b, u, mark, span, br and wbr, plus the ins and del edit elements.",
+   "queries": [
+    "time element datetime attribute valid date string",
+    "dfn abbr cite q element semantics",
+    "kbd samp var code element computer output",
+    "ins del cite datetime edits wbr br"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Internationalization: language, directionality and ruby",
+   "scope": "The lang and translate attributes, BCP 47 language tags, the dir attribute (ltr, rtl, auto) and the directionality algorithm, bdi and bdo, bidirectional text isolation, and ruby annotation markup (ruby, rt, rp and the obsolete rb and rtc).",
+   "queries": [
+    "dir attribute auto directionality bdi bdo",
+    "lang attribute BCP 47 language tag xml:lang",
+    "ruby rt rp annotation markup rb rtc",
+    "translate attribute yes no translation mode"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hyperlinks, navigation targets and URL handling",
+   "scope": "The hyperlink attributes of a and area (href, target, download, ping, rel, hreflang, referrerpolicy), the link types used on links (noopener, noreferrer, nofollow, opener, external), browsing context name keywords, the base element, and special URLs such as about:blank, about:srcdoc, javascript: and data:.",
+   "queries": [
+    "a element download ping hreflang referrerpolicy attributes",
+    "rel noopener noreferrer nofollow target _blank",
+    "valid navigable target name _self _parent _top",
+    "about:blank about:srcdoc javascript: URL navigation"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Images, responsive images and image maps",
+   "scope": "The img element and its attributes (srcset, sizes, width/height, decoding, loading, fetchpriority, crossorigin, ismap, usemap), the picture and source elements, image candidate strings with w and x descriptors, and image maps built from map and area shapes.",
+   "queries": [
+    "img srcset sizes width descriptor pixel density",
+    "picture source element media type art direction",
+    "loading lazy decoding async fetchpriority image",
+    "map area shape coords rect circle poly usemap"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Embedded browsing contexts: iframe, embed and object",
+   "scope": "The iframe element (src, srcdoc, name, sandbox tokens, allow, allowfullscreen, loading, referrerpolicy, credentialless), the embed and object elements (data, type, fallback content), and the obsolete param element and plugin model.",
+   "queries": [
+    "iframe sandbox allow-scripts allow-same-origin allow-popups",
+    "iframe srcdoc allowfullscreen allow attribute permissions policy",
+    "object element data type typemustmatch fallback content",
+    "embed element plugin NPAPI param removed"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Audio, video and text tracks",
+   "scope": "The video, audio, source and track elements, the attributes, methods, events and readyState/networkState constants of HTMLMediaElement, preload and autoplay policies, media fragments, and timed text tracks with WebVTT cues.",
+   "queries": [
+    "HTMLMediaElement readyState HAVE_ENOUGH_DATA networkState",
+    "video element poster playsinline preload autoplay muted",
+    "track element kind subtitles captions descriptions chapters metadata",
+    "WebVTT cue settings line position region"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Canvas element and 2D rendering context",
+   "scope": "The canvas element, the context types accepted by getContext, the drawing state, paths, compositing operations and text metrics of CanvasRenderingContext2D, ImageData, toDataURL/toBlob, the origin-clean flag, OffscreenCanvas and ImageBitmap.",
+   "queries": [
+    "CanvasRenderingContext2D globalCompositeOperation source-over",
+    "canvas toDataURL toBlob origin-clean tainted",
+    "OffscreenCanvas transferControlToOffscreen ImageBitmap",
+    "getContext 2d willReadFrequently alpha desynchronized"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Inline SVG and MathML in HTML",
+   "scope": "Embedding SVG and MathML as foreign content in HTML documents: namespaces, integration points (foreignObject, annotation-xml), case-adjusted tag and attribute names, MathML Core elements, and the history of browser support.",
+   "queries": [
+    "MathML in HTML math element MathML Core",
+    "foreignObject HTML integration point annotation-xml encoding",
+    "SVG attribute case adjustment viewBox foreign content",
+    "MathML support Chrome 109 Firefox Safari"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Tables",
+   "scope": "The HTML table model and its elements (table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th), the colspan, rowspan, headers, scope and abbr attributes and their limits, and the obsolete presentational table attributes.",
+   "queries": [
+    "table model colspan rowspan maximum value",
+    "th scope headers abbr attribute table cells",
+    "caption colgroup col span thead tfoot tbody",
+    "obsolete table attributes cellpadding cellspacing border summary"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Form element, form submission and autofill",
+   "scope": "The form element and its attributes (action, method including dialog, the enctype values, target, novalidate, accept-charset), the form owner and form attribute, the formaction family of overrides, the form submission algorithm and its encodings, FormData with the submit and formdata events, and the autocomplete autofill tokens.",
+   "queries": [
+    "enctype multipart/form-data application/x-www-form-urlencoded text/plain",
+    "form submission algorithm method dialog formaction formtarget",
+    "autocomplete attribute tokens cc-number one-time-code new-password",
+    "requestSubmit formdata event FormData constructor submitter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "The input element and its types",
+   "scope": "The type keywords of the input element (text, search, tel, url, email, password, date, month, week, time, datetime-local, number, range, color, checkbox, radio, file, hidden, submit, image, reset, button), the attributes specific to each type, value sanitization, and the removed datetime type.",
+   "queries": [
+    "input type datetime-local week month value format",
+    "input type range number step min max default",
+    "input type file accept capture multiple webkitdirectory",
+    "value sanitization algorithm input type email color"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Other form controls: button, select, textarea, output, progress, meter",
+   "scope": "The button, select, option, optgroup, datalist, textarea, output, progress, meter, fieldset, legend and label elements, their attributes and IDL APIs, and customizable select.",
+   "queries": [
+    "button element type submit reset button default",
+    "select optgroup option datalist size multiple",
+    "meter element low high optimum progress element",
+    "textarea wrap hard soft cols rows dirname"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Constraint validation",
+   "scope": "The constraint validation API and its attributes: required, pattern, min/max/step, minlength/maxlength, the ValidityState flags, checkValidity, reportValidity, setCustomValidity, willValidate, being barred from constraint validation, and interactive validation.",
+   "queries": [
+    "ValidityState valueMissing typeMismatch patternMismatch stepMismatch",
+    "setCustomValidity reportValidity checkValidity willValidate",
+    "pattern attribute regular expression v flag",
+    "barred from constraint validation novalidate formnovalidate"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Interactive elements: details, dialog and popover",
+   "scope": "The details and summary elements (including exclusive accordions grouped by name), the dialog element (show, showModal, returnValue, closedby, the top layer), the states of the popover attribute, popovertarget, invoker commands (command, commandfor) and close requests.",
+   "queries": [
+    "dialog element showModal returnValue cancel event",
+    "popover attribute auto manual hint popovertarget",
+    "details summary name exclusive accordion toggle event",
+    "command commandfor invoker commands show-modal"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Global attributes and event handler attributes",
+   "scope": "Attributes common to all HTML elements (id, class, style, title, nonce, slot, autofocus, and data-* exposed through dataset), event handler content and IDL attributes, GlobalEventHandlers, and the special processing of the onerror and onbeforeunload handlers.",
+   "queries": [
+    "data-* custom data attributes dataset DOMStringMap",
+    "global attributes id class title nonce slot",
+    "event handler content attributes GlobalEventHandlers onerror",
+    "title attribute advisory information tooltip newline"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "User interaction: focus, activation, editing and drag-and-drop",
+   "scope": "The hidden (including until-found) and inert attributes, sticky and transient user activation, focus and sequential focus navigation with tabindex, accesskey, editing through contenteditable and designMode, spellcheck, autocapitalize, autocorrect, inputmode, enterkeyhint, and the drag-and-drop DataTransfer API.",
+   "queries": [
+    "tabindex sequential focus navigation order focusable area",
+    "transient activation sticky activation user activation",
+    "contenteditable plaintext-only designMode inputmode enterkeyhint",
+    "DataTransfer dropEffect effectAllowed dragstart drop"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Microdata, RDFa and embedded structured data",
+   "scope": "HTML Microdata (itemscope, itemtype, itemprop, itemid, itemref) and the history of its DOM API, RDFa and RDFa Lite, microformats, and the schema.org and JSON-LD vocabularies embedded in HTML.",
+   "queries": [
+    "microdata itemscope itemtype itemprop itemref itemid",
+    "RDFa Lite vocab typeof property attributes",
+    "microformats hCard hCalendar h-entry class names",
+    "schema.org JSON-LD script type application/ld+json"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Script element, modules and import maps",
+   "scope": "The script element (classic and module scripts, async, defer, nomodule, crossorigin, integrity, referrerpolicy, blocking), script type values including importmap and speculationrules, how scripts are fetched and the order they run in, and noscript.",
+   "queries": [
+    "script async defer execution order parser-blocking",
+    "type module nomodule import maps importmap",
+    "speculation rules prerender prefetch eagerness",
+    "integrity subresource crossorigin anonymous use-credentials script"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Web components: custom elements, templates and shadow DOM in HTML",
+   "scope": "Custom elements (autonomous elements and customized built-ins, customElements.define, lifecycle callbacks, observedAttributes, form-associated custom elements, ElementInternals), the template and slot elements, and declarative shadow DOM.",
+   "queries": [
+    "customElements.define connectedCallback attributeChangedCallback observedAttributes",
+    "form-associated custom elements ElementInternals attachInternals",
+    "template element content DocumentFragment slot element",
+    "declarative shadow DOM shadowrootmode shadowrootdelegatesfocus"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Event loop, task queues and timers",
+   "scope": "The HTML event loop model (task sources, microtask checkpoints, the update-the-rendering steps), timers (setTimeout/setInterval and the nesting-level clamp), queueMicrotask, requestAnimationFrame and requestIdleCallback.",
+   "queries": [
+    "event loop task queue microtask checkpoint rendering",
+    "setTimeout nesting level clamped 4 milliseconds",
+    "requestAnimationFrame update the rendering steps",
+    "task sources DOM manipulation user interaction networking"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Navigation, session history and page lifecycle",
+   "scope": "Browsing contexts, navigables and traversables, the History API (pushState, replaceState, scrollRestoration), the Navigation API, session history entries, the back/forward cache, and page lifecycle events (load, pageshow, pagehide, beforeunload, unload, visibilitychange).",
+   "queries": [
+    "history pushState replaceState popstate scrollRestoration",
+    "navigation API navigate event intercept NavigationHistoryEntry",
+    "pageshow pagehide persisted back forward cache",
+    "browsing context group top-level traversable navigable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Window and Document APIs and legacy DOM features",
+   "scope": "The Window, Document and Navigator interfaces defined by HTML: window.open feature strings, named access on Window, the simple dialogs (alert, confirm, prompt), Location, BarProp, document.write/open, document.all and HTMLAllCollection, attribute reflection, and the quirks of HTMLCollection.",
+   "queries": [
+    "window.open features popup noopener noreferrer",
+    "document.all HTMLAllCollection undefined willful violation",
+    "document.write document.open dynamic markup insertion",
+    "Navigator object navigator.platform appName compatibility"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Origins, cross-origin isolation and security headers",
+   "scope": "Origins and sites as HTML defines them, opaque origins, document.domain, CORS settings attributes, the values of Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy, cross-origin isolation, and Origin-Agent-Cluster.",
+   "queries": [
+    "Cross-Origin-Opener-Policy same-origin-allow-popups unsafe-none",
+    "Cross-Origin-Embedder-Policy require-corp credentialless crossOriginIsolated",
+    "document.domain setter origin-keyed agent cluster",
+    "CORS settings attribute crossorigin anonymous use-credentials"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Workers, messaging, server-sent events and WebSockets",
+   "scope": "Dedicated and shared workers, worklets, structured clone and transferable objects, cross-document messaging with postMessage, MessageChannel and BroadcastChannel, EventSource and the text/event-stream format, and the WebSocket interface.",
+   "queries": [
+    "Worker SharedWorker importScripts WorkerGlobalScope",
+    "postMessage targetOrigin MessageChannel BroadcastChannel",
+    "EventSource text/event-stream retry Last-Event-ID",
+    "WebSocket readyState bufferedAmount binaryType close code"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Web Storage and the Application Cache",
+   "scope": "localStorage and sessionStorage, the Storage interface and the storage event, quotas, and the removed offline Application Cache (the manifest attribute, the sections of a cache manifest, ApplicationCache events).",
+   "queries": [
+    "localStorage sessionStorage Storage interface setItem",
+    "storage event StorageEvent key oldValue newValue",
+    "cache manifest CACHE NETWORK FALLBACK sections",
+    "application cache removed manifest attribute deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Rendering, default styles and HTML-defined pseudo-classes",
+   "scope": "The rendering section of the HTML spec (user-agent stylesheet defaults, presentational hints, rendering of form controls and replaced elements, hidden elements) and the selectors whose matching HTML defines (:checked, :default, :indeterminate, :placeholder-shown, :autofill, :popover-open, :modal, :user-invalid, :open).",
+   "queries": [
+    "user agent style sheet body margin 8px rendering",
+    "presentational hints bgcolor attribute mapped CSS",
+    "pseudo-classes :checked :indeterminate :default :placeholder-shown",
+    ":user-invalid :autofill :modal :popover-open selector"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ARIA in HTML and accessibility mappings",
+   "scope": "The role and aria-* attributes in HTML, the conformance rules of ARIA in HTML, the implicit ARIA semantics of elements, HTML Accessibility API Mappings, landmark roles, accessible name computation, and the requirements for alternative text.",
+   "queries": [
+    "ARIA in HTML implicit role document conformance",
+    "HTML-AAM accessibility API mappings accessible name",
+    "WAI-ARIA landmark roles banner contentinfo navigation",
+    "alt attribute requirements images text alternatives"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Obsolete, deprecated and proprietary markup",
+   "scope": "Elements and attributes that HTML removed or made non-conforming (frameset, frame, noframes, font, center, big, tt, acronym, applet, isindex, keygen, menuitem, plaintext, xmp, listing, nobr), presentational attributes, and proprietary features from the browser wars such as marquee, blink, layer and Internet Explorer conditional comments.",
+   "queries": [
+    "frameset frame noframes elements obsolete",
+    "marquee blink element Netscape Internet Explorer",
+    "keygen element isindex menuitem removed",
+    "conditional comments Internet Explorer if IE"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HTML validators, parsers and sanitizers",
+   "scope": "Tools that check, parse, clean and sanitize HTML: the W3C Markup Validation Service, the Nu Html Checker, HTML Tidy, html5lib, parse5, jsoup, Gumbo, html5ever, DOMParser, DOMPurify and the HTML Sanitizer API (setHTML).",
+   "queries": [
+    "Nu Html Checker vnu.jar W3C Markup Validation Service",
+    "HTML Tidy tidy-html5 configuration options",
+    "html5lib parse5 jsoup HTML5 parser library",
+    "Sanitizer API setHTML DOMPurify sanitize"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Browser layout engines and HTML feature shipping timelines",
+   "scope": "The rendering engines that implemented HTML (Trident, EdgeHTML, Gecko, KHTML/WebKit, Presto, Blink), their forks and lineage, and the browser release versions in which particular HTML elements, attributes and APIs first shipped or were removed.",
+   "queries": [
+    "Trident layout engine Internet Explorer versions",
+    "WebKit forked Blink 2013 Chromium rendering engine",
+    "Firefox release notes HTML element support",
+    "Chrome release notes new HTML attribute shipped"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Feature detection, polyfills and HTML5 shims",
+   "scope": "Ways to detect or backfill HTML support in browsers, such as Modernizr, html5shiv/html5shim, element and API polyfills, conditional comments for old IE, and compatibility datasets like caniuse and MDN browser-compat-data.",
+   "queries": [
+    "Modernizr feature detection HTML5 tests",
+    "html5shiv HTML5 elements Internet Explorer styling",
+    "polyfill dialog element older browsers",
+    "browser compat data caniuse support table"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Conformance test suites and browser interoperability efforts",
+   "scope": "Test suites and joint vendor efforts that measure HTML and web platform conformance, including the Acid1/Acid2/Acid3 tests, Web Platform Tests and wpt.fyi, html5test scores, and the yearly Interop focus areas.",
+   "queries": [
+    "Acid2 test first browser to pass",
+    "Acid3 test score 100 browsers",
+    "Web Platform Tests wpt.fyi HTML test suite",
+    "Interop 2024 focus areas browser vendors"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "WCAG success criteria and HTML sufficient techniques",
+   "scope": "The WCAG 2.x success criteria, conformance levels and the numbered W3C HTML techniques and failures (H-series, F-series) that say how HTML markup meets accessibility requirements, plus the tools used to evaluate them.",
+   "queries": [
+    "WCAG 2.2 success criterion conformance level",
+    "H44 label element associate text form controls",
+    "WCAG technique H37 alt attribute img",
+    "WCAG failure technique HTML markup"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HTML email markup and email client rendering",
+   "scope": "How HTML is written for email: table-based layout, inline CSS, the Word rendering engine in Outlook with MSO conditional comments and VML, client-specific CSS support (Gmail, Apple Mail), and multipart/alternative messages.",
+   "queries": [
+    "HTML email Outlook Word rendering engine",
+    "MSO conditional comments VML bulletproof buttons",
+    "Gmail CSS support style element email",
+    "multipart alternative HTML email plain text"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HTML templating languages and markup preprocessors",
+   "scope": "Server-side and build-time languages that generate HTML, such as Haml, Slim, Pug (formerly Jade), ERB, Jinja, Django templates, Twig, Mustache, Handlebars and Liquid, including their syntax, escaping defaults and version history.",
+   "queries": [
+    "Haml markup indentation syntax Ruby",
+    "Pug template engine renamed from Jade",
+    "Jinja autoescape HTML templates filters",
+    "Handlebars Mustache logic-less templates partials"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "htmx and hypermedia-oriented HTML libraries",
+   "scope": "Libraries that extend HTML with declarative attributes for server-driven interactivity, such as htmx and its predecessor intercooler.js, Hotwire Turbo and Stimulus, Unpoly and Alpine.js, along with their attributes, events and releases.",
+   "queries": [
+    "htmx hx-get hx-swap hx-target attributes",
+    "htmx 2.0 release breaking changes",
+    "Hotwire Turbo Frames Turbo Streams",
+    "Alpine.js x-data directive Unpoly up-target"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Web app manifest, icons and installable web app metadata",
+   "scope": "Metadata that makes a page installable or gives it platform icons: Web App Manifest members (display, scope, start_url, icons, maskable purpose), favicons, apple-touch-icon and Apple web-app meta tags, Safari mask-icon, and Microsoft tile markup.",
+   "queries": [
+    "web app manifest display standalone start_url scope",
+    "manifest icons purpose maskable",
+    "apple-touch-icon sizes apple-mobile-web-app-capable",
+    "msapplication-TileColor browserconfig.xml pinned site"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "AMP HTML framework",
+   "scope": "The AMP (Accelerated Mobile Pages) HTML framework: its required boilerplate and validation rules, amp-* components, AMP caches and URL formats, AMP for Email, Bento, and the project's history and governance.",
+   "queries": [
+    "AMP HTML required boilerplate validation rules",
+    "amp-img amp-carousel component attributes",
+    "Google AMP Cache URL format",
+    "AMP Project OpenJS Foundation history"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Search engine directives and social-sharing metadata",
+   "scope": "Markup aimed at search engines and social platforms: robots meta and X-Robots-Tag directives, rel=canonical, hreflang annotations, nofollow/ugc/sponsored link qualifiers, Open Graph protocol properties and Twitter/X Card tags.",
+   "queries": [
+    "robots meta tag noindex nosnippet directives",
+    "hreflang alternate annotations x-default",
+    "rel nofollow ugc sponsored link attributes",
+    "Open Graph protocol og:image Twitter card"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HTML-based document, archive and packaging formats",
+   "scope": "File formats that package or reuse HTML outside ordinary web pages, such as MHTML (RFC 2557), Safari webarchive, EPUB XHTML content documents, Microsoft Compiled HTML Help (CHM) and HTML Applications (HTA).",
+   "queries": [
+    "MHTML MIME HTML archive RFC 2557",
+    "EPUB 3 XHTML content document requirements",
+    "Microsoft Compiled HTML Help CHM format",
+    "HTML Application HTA mshta.exe"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HTML authoring tools and WYSIWYG editors",
+   "scope": "Desktop and web-based tools for writing HTML, including HoTMetaL, Microsoft FrontPage and Expression Web, Macromedia/Adobe Dreamweaver and GoLive, Netscape Composer, W3C Amaya, and embeddable rich-text editors like TinyMCE and CKEditor.",
+   "queries": [
+    "Microsoft FrontPage HTML editor versions discontinued",
+    "Macromedia Dreamweaver release history Adobe",
+    "Amaya W3C web editor browser",
+    "TinyMCE CKEditor rich text editor release"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Common microsyntaxes and attribute reflection",
+   "scope": "The HTML spec's common infrastructure for attribute values: parsing rules for integers, floats, dimensions, dates and times, legacy color values, and token lists; boolean and enumerated attribute states; and how IDL attributes reflect content attributes.",
+   "queries": [
+    "rules for parsing non-negative integers HTML",
+    "rules for parsing a legacy color value",
+    "reflect content attribute limited to only known values",
+    "enumerated attribute invalid value default missing value default"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Browser plugins and plugin-era embedding",
+   "scope": "The plugin systems browsers used to render content embedded in HTML (NPAPI, PPAPI/Pepper, ActiveX, Java applets, Flash, Silverlight, QuickTime) and the dates and browser versions when support was deprecated and removed.",
+   "queries": [
+    "NPAPI plugin support removed Chrome version",
+    "ActiveX controls Internet Explorer object classid",
+    "Java browser plugin applet deprecated JDK 9",
+    "Adobe Flash Player end of life 2020"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Markdown and lightweight markup conversion to HTML",
+   "scope": "How lightweight markup languages produce HTML and handle raw HTML: Gruber's original Markdown, the CommonMark HTML block types, GitHub Flavored Markdown's tagfilter, and the HTML writers in Pandoc, reStructuredText/Docutils and AsciiDoc.",
+   "queries": [
+    "CommonMark HTML blocks raw HTML start conditions",
+    "GitHub Flavored Markdown tagfilter disallowed raw HTML",
+    "Markdown John Gruber inline HTML block elements",
+    "Pandoc HTML writer docutils HTML output"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HTML subsets in GUI toolkits, mobile SDKs and messaging APIs",
+   "scope": "The limited HTML dialects that non-browser software accepts, such as Qt's supported rich-text subset, Android Html.fromHtml, Java Swing's HTML 3.2 support in JEditorPane, Telegram Bot API HTML parse mode, and Pango and GTK markup.",
+   "queries": [
+    "Qt supported HTML subset rich text",
+    "Android Html.fromHtml supported tags flags",
+    "Swing JEditorPane HTMLEditorKit HTML 3.2",
+    "Telegram Bot API HTML parse mode tags"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+# AA evals (M3.3, #176): nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B (the released BF16 checkpoint, not an SFT student)
+# as the MODEL UNDER TEST on 1xH100, reasoning on (AA scored it so), NVIDIA's sampling (T 1.0, top_p 0.95; model card),
+# NVIDIA's parsers (nemotron_v3 reasoning, qwen3_coder tools; model card), the checkpoint's own chat template.
+# Port, without re-tuning, of eval_q35's tuned Lightning eval serving `v032` (branch eval, common.LIGHTNING_SERVING,
+# GPU set hgpu100; measurements in serve_lightning/README.md): vLLM 0.32 (venvs/vllm032), online FP8 weights (W8A8; served
+# BPB +0.0017), FP8 KV (+0.0006; together +0.0023), FlashInfer attention with a bf16 query on H100, a 128 GiB native CPU
+# KV tier (SimpleCPUOffloadConnector), MTP k=2 with the checkpoint's own MTP head (num_nextn_predict_layers 1) and
+# vLLM 0.32's shared-prefix Mamba checkpoint + prefix-match unit 16, 512 sequences, gpu_memory_utilization 0.90, and
+# eval_q35's Mamba cache flags. Admission: v032's turn gate (budget 1.5x the GPU cache) becomes serve_teacher's gate
+# with its kv_fit target starting at 1.5x the GPU KV (PROFILE). Context: the 128k eval cap (v032: 132,000).
+# Checked 2026-11-05: live TB 2.1 smoke through aa_evals (8 tasks x 1, 131,072 window, serving:aa-lightning-eval):
+# 3/8 (AA: 24.3 over 89), 0 infra, 3 at the context limit; no reasoning or tool-call parse failures, no template markers
+# in content, Pi's history in `reasoning` (the template reads it via vLLM's reasoning_content). GPU KV 10,348,215 tokens
+# (79x 128k) + 38.3M in the CPU tier. Gate under load (campaign nemotron35-lightning-eval-gate.toml, closed-loop TB
+# replay, 2 repeats): level with no gate at 128 / 256 agents, +2% gen tok/s at 384 with 0-1 preemptions vs 17-18 and
+# 1-3 waiting vs 83-97; ~0.25% of requests 502'd on a reset pooled upstream connection (fixed in the gate).
+slug = "nemotron35-lightning-eval"
+model = "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+revision = "a9904d24bcc1d289a1950fa9d2b978c47cf903b9"   # HF main 2026-08-24; local files match its blob ids (config, tokenizer_config, index, generation_config)
+checkpoint = "/data/aai/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+served_name = "nemotron35-lightning"
+# Default (1xH100) weight quantization. On B200 `--tunables {"quantization": ""}` serves the BF16 weights under the
+# same served_name (as eval_q35 v032 does per GPU set): the job records the effective one in endpoints.json
+# "weights_quantization" and numerics.<job>.json, with numerics_sha256.
+quantization = "fp8 (online, from bfloat16)"   # tunable quantization = "fp8" -> --quantization fp8
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+# MTP graph capture pushes start-up past vLLM's 600 s frontend wait (serve_lightning/README.md)
+env = { HF_HUB_OFFLINE = "1", HF_HUB_DISABLE_XET = "1", TRANSFORMERS_OFFLINE = "1", VLLM_USE_SIMPLE_KV_OFFLOAD = "1", VLLM_ENGINE_READY_TIMEOUT_S = "3600", VLLM_WORKER_MULTIPROC_METHOD = "spawn" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--max-model-len", "{max_model_len}", "--tensor-parallel-size", "1", "--gpu-memory-utilization", "{gpu_util}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--trust-remote-code", "--async-scheduling",
+  "--mamba-backend", "flashinfer", "--mamba-cache-mode", "align", "--mamba-ssm-cache-dtype", "float16",
+  "--enable-mamba-cache-stochastic-rounding", "--mamba-cache-philox-rounds", "5",
+  "--enable-mamba-shared-prefix-checkpoint", "--prefix-match-unit", "16", "--max-cudagraph-capture-size", "2048",
+  "--reasoning-parser", "nemotron_v3", "--enable-auto-tool-choice", "--tool-call-parser", "qwen3_coder",
+  "--generation-config", "vllm", "--seed", "{seed}",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"max_tokens":{max_output_tokens}}}',
+  "--default-chat-template-kwargs", '{{"enable_thinking":true}}',
+  "--no-enable-log-requests", "--enable-prompt-tokens-details",
+]
+seed = 0
+startup_timeout_sec = 3600
+
+[serving.tunables]
+gpu_util = 0.90
+max_seqs = 512
+max_batched = 16384
+omp_threads = 8
+quantization = "fp8"        # 1xH100: online FP8 weights (BF16 does not leave room for the cache); B200: ""
+kv_cache_dtype = "fp8"
+h100_attention = 1          # FlashInfer attention with a bf16 query (FA3's FP8 decode is half speed); B200: 0
+mtp = 2
+kv_offloading_size = 128    # GiB of pinned host RAM (v032: 1x H100 128, 1x B200 100)
+
+[serving.optional_args]
+quantization = ["--quantization", "{quantization}"]
+kv_cache_dtype = ["--kv-cache-dtype", "{kv_cache_dtype}"]
+h100_attention = ["--attention-backend", "FLASHINFER", "--attention-config", '{{"disable_flashinfer_q_quantization":true}}']
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+
+[request]
+client_model = "hosted_vllm/nemotron35-lightning"
+overrides = { temperature = 1.0, top_p = 0.95, chat_template_kwargs = { enable_thinking = true } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true }
+tokenize_crosscheck = "native"
+
+[serving_resources]
+# #378 (2026-11-14): sized from the job cgroup (task_synthesis/serve/reslog.py), RAM ~1.25x the non-reclaimable peak (rss + shmem + dirty; page cache is reclaimed, never held), CPUs = RAM/16 (free under max(CPUs, GB/16)); /data/aai/aa_evals/audits/server_shapes_20261114/report.md
+cpus_per_gpu = 10
+memory_gib_per_gpu = 168    # 128 GiB pinned CPU KV tier + engine: peak 133 GiB (1xH100 replay, every past job 133); was 16 / 240
+cuda_capability = "9.0"     # H100
+disk_gib = 150
+bid_per_job = { 1 = 101 }
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/g123/g143: /data lost writes (coordinator, 2026-11-05)
+
+[worker_resources]
+slots = 11
+cpus = 20
+memory_gib = 320
+disk_gib = 1024
+bid = 56
+exclude_nodes = ["gpu132", "cpu101", "gpu166", "gpu123", "gpu143", "gpu110", "gpu172"]
+
+[admission]
+initial_limit_per_backend = 40
+maximum_limit_per_backend = 48
+emergency_kv_high = 0.72
+resume_kv = 0.55

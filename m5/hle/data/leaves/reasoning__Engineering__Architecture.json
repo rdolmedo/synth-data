@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Engineering",
+ "subject": "Architecture",
+ "target_leaves": 8,
+ "expected_problems": 5,
+ "leaves": [
+  {
+   "leaf": "Masonry arch and vault limit analysis",
+   "scope": "Problems ask for the minimum or maximum horizontal thrust, the geometric safety factor, the collapse load, or where the hinges form in unreinforced masonry arches, buttresses, domes and vaults, using Heyman's assumptions. They are hard because the solver has to find a thrust line that stays inside the section under unusual geometry or loading, then turn that into an exact number.",
+   "techniques": [
+    "Graphic statics with funicular polygons and force polygons",
+    "Heyman's safe theorem and uniqueness theorem for no-tension masonry",
+    "Four-hinge collapse mechanisms found with virtual work",
+    "Geometric safety factor as the minimum thickness-to-span ratio",
+    "Membrane slicing of domes into lunes, including the hoop-tension transition angle",
+    "Stability of buttresses and flying buttresses under an inclined thrust"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple of hinge positions or angles",
+    "integer (degrees or count)"
+   ]
+  },
+  {
+   "leaf": "Rigidity counting for frameworks and tensegrities",
+   "scope": "Problems give a pin-jointed space truss, a cable-strut tensegrity or a reciprocal frame and ask how many independent mechanisms and states of self-stress it has, or whether it is rigid to first order or prestress-stable. They are hard because the naive Maxwell count gives the wrong answer in symmetric or degenerate configurations.",
+   "techniques": [
+    "Extended Maxwell rule (Calladine): b - 3j + k = s - m",
+    "Rank analysis of the equilibrium (rigidity) matrix",
+    "Symmetry-adapted Maxwell counting with character tables (Fowler-Guest)",
+    "Force density method for form-finding of cable nets and tensegrities",
+    "Separating infinitesimal mechanisms from finite ones and checking prestress stability",
+    "Laman/Henneberg constructions for planar generic rigidity"
+   ],
+   "answer_forms": [
+    "ordered tuple (mechanisms, self-stress states)",
+    "integer",
+    "small set of irreducible representations",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Geodesic and gridshell panelization combinatorics",
+   "scope": "Problems ask how many distinct strut lengths, node types or panel shapes appear, or what the exact chord factors, dihedral angles or vertex counts are, for geodesic domes, subdivided polyhedra and discretized freeform gridshells. They are hard because the frequency, the class of subdivision, the truncation plane and the polyhedral symmetry together determine which elements are congruent.",
+   "techniques": [
+    "Class I/II/III subdivision of icosahedral faces and Goldberg-Coxeter (h,k) parameters",
+    "Orbit counting of edges and faces under the icosahedral group",
+    "Euler characteristic and valence bookkeeping for truncated domes",
+    "Chord-factor computation from projection onto a sphere",
+    "Planar-quad meshes and conjugate-net conditions for glazed gridshells",
+    "Counting the distinct node angles that drive fabrication cost"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression (exact chord factor)",
+    "ordered tuple of counts",
+    "small set of lengths"
+   ]
+  },
+  {
+   "leaf": "Rectangular floor-plan dissections and adjacency graphs",
+   "scope": "Problems ask whether a given room-adjacency requirement can be met by a rectangular plan, how many combinatorially distinct plans meet it, or which room arrangements are forced. They are hard because realizability depends on separating triangles, corner assignments and the structure of the dual graph.",
+   "techniques": [
+    "Rectangular duals and regular edge labelings (transversal structures)",
+    "Detecting separating triangles in planar triangulated graphs",
+    "Mosaic floorplans and their bijections with twin binary trees and Baxter permutations",
+    "Slicing and non-slicing floorplans and their tree encodings",
+    "Assigning four corner rooms on the outer face",
+    "Area-universality and solving for room dimensions from linear constraints"
+   ],
+   "answer_forms": [
+    "integer",
+    "yes/no with a forced room set",
+    "small set of room labels",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Space syntax access-graph metrics",
+   "scope": "Problems take a building plan given in words or as a list of connections, ask the solver to build its justified access graph or convex-space graph, and then ask for exact integration, mean depth, control or choice values, or which space is most integrated. They are hard because the right decomposition into convex spaces and the normalization (D-value, P-value) both have to be applied exactly.",
+   "techniques": [
+    "Justified access graphs rooted at the exterior carrier",
+    "Mean depth, relative asymmetry (RA) and real relative asymmetry (RRA) normalized by the diamond D-value",
+    "Control values and betweenness-based choice",
+    "Classifying spaces into a/b/c/d types by ring and dead-end structure",
+    "Axial-line minimization and visibility-graph construction",
+    "Comparing ringy and tree-like plans by integration rank order"
+   ],
+   "answer_forms": [
+    "rational number",
+    "name of a space or room",
+    "ordered tuple of ranked spaces",
+    "integer (count of type-d spaces)"
+   ]
+  },
+  {
+   "leaf": "Solar geometry and shading device design",
+   "scope": "Problems ask for exact overhang or fin dimensions, shadow lengths, sunlit fractions, or the dates and times when a facade is fully shaded or lit, for a given latitude, orientation and sun position. They are hard because the solver has to move between altitude/azimuth, profile angle and horizontal shadow angle, sometimes on tilted or non-cardinal facades.",
+   "techniques": [
+    "Solar declination and hour angle to altitude and azimuth",
+    "Vertical shadow (profile) angle and horizontal shadow angle on oriented facades",
+    "Shading masks and their overlay on a stereographic sun-path diagram",
+    "Overhang and fin sizing for cutoff dates, accounting for the equinox symmetry of declination",
+    "Shading of tilted surfaces by rotating coordinates",
+    "Inter-row spacing for collectors or sawtooth roofs at the winter solstice"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number (decimal to stated precision)",
+    "ordered tuple (date, time)",
+    "integer (degrees or days)"
+   ]
+  },
+  {
+   "leaf": "Hygrothermal envelope and condensation analysis",
+   "scope": "Problems ask for interface temperatures, the location and rate of interstitial condensation, the insulation thickness needed to prevent it, or the steady-state U-value of multilayer and thermally bridged assemblies. They are hard because temperature and vapour-pressure profiles have to be built and compared layer by layer, often with saturation curves and parallel paths.",
+   "techniques": [
+    "Series and parallel resistance with upper/lower bound averaging (ISO 6946 style)",
+    "Glaser method: comparing vapour-pressure and saturation-pressure profiles",
+    "Finding the condensation plane with a tangent construction on the sd-value diagram",
+    "Surface condensation risk via the temperature factor fRsi",
+    "Linear thermal transmittance (psi) of junctions",
+    "Dew-point calculation from the Magnus approximation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "name of the layer interface",
+    "closed-form expression",
+    "integer (minimum thickness in mm)"
+   ]
+  },
+  {
+   "leaf": "Room modal acoustics and reverberation design",
+   "scope": "Problems ask for counts of room modes below a frequency, degenerate mode coincidences, the Schroeder frequency, reverberation time under different absorption models, or the absorption that must be added to reach a target. They are hard because mode enumeration, axial/tangential/oblique classification and the differences between Sabine, Eyring and Millington-Sette all need care.",
+   "techniques": [
+    "Rayleigh mode equation and lattice-point enumeration of (nx, ny, nz)",
+    "Classifying modes as axial, tangential or oblique and finding degenerate triples",
+    "Comparing Sabine, Eyring and Millington-Sette reverberation formulas",
+    "Schroeder frequency and asymptotic mode-density estimates",
+    "Image-source construction for early reflections and flutter-echo paths",
+    "Ratio criteria for room proportions (Bolt-style area)"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple of mode indices",
+    "small set of frequencies"
+   ]
+  }
+ ]
+}

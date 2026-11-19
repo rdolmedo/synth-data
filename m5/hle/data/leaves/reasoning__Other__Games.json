@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Games",
+ "target_leaves": 8,
+ "expected_problems": 39,
+ "leaves": [
+  {
+   "leaf": "Partizan canonical forms and thermography",
+   "scope": "Problems ask for the exact canonical value, mean, temperature or outcome class of a small position, or a sum of positions, in a partizan game defined in the problem (Domineering regions, Toads-and-Frogs strips, Hackenbush variants, Go endgame corridors). They are hard because you have to carefully remove dominated and reversible options, keep track of infinitesimals, and build thermographs by hand.",
+   "techniques": [
+    "removal of dominated options and bypassing of reversible options",
+    "simplicity theorem for number-valued positions and dyadic rationals",
+    "thermograph construction via cooling and heating",
+    "atomic weight calculus for all-small games (ups, stars, tinies)",
+    "Norton multiplication and overheating operators",
+    "outcome of disjunctive sums involving switches and infinitesimals"
+   ],
+   "answer_forms": [
+    "game value in brace notation",
+    "dyadic rational number",
+    "ordered pair (mean, temperature)",
+    "a letter for multiple choice outcome class"
+   ]
+  },
+  {
+   "leaf": "Take-and-break Grundy sequences and mis\u00e8re quotients",
+   "scope": "Problems ask for nim-values, periods, preperiods, or mis\u00e8re P-positions of an octal, hexadecimal or subtraction game made up for the problem, or of sums of such heaps. They are hard because periodicity has to be detected and then certified, and in mis\u00e8re play the Sprague-Grundy theory no longer applies.",
+   "techniques": [
+    "mex recursion and nim-sum of component values",
+    "Guy-Smith periodicity theorem and its certification bound",
+    "arithmetic periodicity in hexadecimal games",
+    "mis\u00e8re quotient monoid presentations (Plambeck-Siegel)",
+    "Conway genus theory and tame versus wild positions",
+    "subtraction-set periodicity via state-vector repetition"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (preperiod, period)",
+    "small set of heap sizes",
+    "integer order of a quotient monoid"
+   ]
+  },
+  {
+   "leaf": "Biased Maker-Breaker and Avoider-Enforcer games",
+   "scope": "Problems ask for the threshold bias, the winner, or the minimum number of moves needed to win a Maker-Breaker, Avoider-Enforcer or Waiter-Client game on a specified finite hypergraph, board or graph property. They are hard because the game trees are too large to search, so the answer depends on finding a matching potential or pairing argument for each side.",
+   "techniques": [
+    "Erd\u0151s-Selfridge and Beck potential-function criteria",
+    "pairing strategies and their obstructions",
+    "strategy stealing for strong positional games",
+    "fast-win analysis with forced threat sequences",
+    "Hales-Jewett style line counting on n^d boards",
+    "monotonicity failure in Avoider-Enforcer biases"
+   ],
+   "answer_forms": [
+    "integer threshold bias",
+    "integer number of moves",
+    "name of the winning player",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Chess retrograde analysis and shortest proof games",
+   "scope": "Given an original position, problems ask you to deduce the last move, castling or en passant rights, the identity of promoted pieces, or the minimum number of moves from the initial array that reaches the position. They are hard because the whole move history has to be shown consistent through careful accounting of captures, tempi and parity.",
+   "techniques": [
+    "capture accounting from pawn-file displacements and missing material",
+    "move-parity and tempo counting using bishop square colors and king walks",
+    "castling-right deduction from rook and king movement history",
+    "en passant legality via retracted double steps",
+    "retraction of double checks and discovered checks",
+    "bookkeeping of promoted pieces and their origin squares"
+   ],
+   "answer_forms": [
+    "move in algebraic notation",
+    "integer number of moves",
+    "small set of squares",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Bridge suit combinations and squeeze endings",
+   "scope": "Problems ask for the success probability of the best line in a given suit combination, the right card to play, or the double-dummy trick count of an endgame. They are hard because you have to enumerate defenders' distributions with correct Bayesian updating and account for entries and the timing of threat cards.",
+   "techniques": [
+    "hypergeometric suit-split probabilities",
+    "vacant places adjustment after known discards",
+    "restricted choice Bayesian updating",
+    "safety plays under entry and communication constraints",
+    "squeeze recognition via threat cards, entries and the busy-card count",
+    "throw-in and trump-coup endplays"
+   ],
+   "answer_forms": [
+    "rational probability",
+    "a card or sequence of card plays",
+    "integer number of tricks",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Equilibria of simplified poker and bluffing models",
+   "scope": "Problems ask for the game value, bluffing frequency, calling threshold or full equilibrium strategy of a stylized poker game (continuous-hand models, small-deck games, fixed bet sizes, multi-street variants) defined in the problem. They are hard because mixed equilibria have to be found from coupled indifference conditions over information sets.",
+   "techniques": [
+    "indifference conditions for mixed bluffing and calling",
+    "threshold strategies over continuous hand strength",
+    "iterated elimination of dominated actions in extensive form",
+    "one-parameter equilibrium families from behavioral strategies",
+    "sequence-form linear programming",
+    "minimum defense frequency and bet-size scaling"
+   ],
+   "answer_forms": [
+    "rational game value",
+    "closed-form expression in the bet size",
+    "ordered tuple of thresholds",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Backgammon cube equity and bear-off races",
+   "scope": "Problems ask for exact bear-off probabilities, take points, market windows, or cubeful equities in races, simplified positions or match-score settings specified in the problem. They are hard because dice enumeration has to be combined with recube vigorish, gammon values and match equity tables.",
+   "techniques": [
+    "36-outcome dice enumeration with doubles played four times",
+    "Markov chains over bear-off position states",
+    "continuous-game cube model take and cash points",
+    "gammon-adjusted take points and Jacoby or Crawford rules",
+    "match equity table interpolation at specific scores",
+    "effective pip counts with wastage corrections"
+   ],
+   "answer_forms": [
+    "rational number",
+    "decimal probability",
+    "integer pip count",
+    "a letter for multiple choice (no double, double/take, double/pass)"
+   ]
+  },
+  {
+   "leaf": "Riichi mahjong hand decomposition and scoring",
+   "scope": "Given a specific concealed or open hand, problems ask for its set of winning tiles, its shanten number, or the exact point payment for a stated win situation. They are hard because a hand can be split into melds and a pair in several ways, and the fu, yaku and wait types change from one split to another, with the highest-scoring interpretation counting.",
+   "techniques": [
+    "exhaustive decomposition into sequences, triplets and a pair",
+    "special forms: seven pairs and thirteen orphans",
+    "shanten counting over partial meld blocks",
+    "fu calculation by wait type, concealed triplets and honor tiles",
+    "han and fu to base points with rounding and dealer multipliers",
+    "furiten and wait-validity restrictions"
+   ],
+   "answer_forms": [
+    "small set of tiles",
+    "integer point value",
+    "integer shanten number",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,986 @@
+{
+ "partition": "reasoning",
+ "category": "Physics",
+ "subject": "Physics",
+ "target_leaves": 60,
+ "expected_problems": 484,
+ "leaves": [
+  {
+   "leaf": "Small oscillations of constrained mechanical networks",
+   "scope": "Problems ask for normal-mode frequencies, degeneracies or mode shapes of systems built from masses, springs, pendula and rigid links with holonomic constraints, sometimes on rotating supports. They are hard because the constrained kinetic and potential matrices must be derived correctly and the system's symmetry must be used to reduce the eigenproblem.",
+   "techniques": [
+    "Second-order expansion of the Lagrangian about a nontrivial equilibrium",
+    "Generalized eigenproblem det(V - omega^2 T) = 0 with non-diagonal T",
+    "Symmetry-adapted coordinates from cyclic or dihedral group representations",
+    "Identification of zero modes from residual continuous symmetries",
+    "Effective potentials in rotating frames including centrifugal and Coriolis terms"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "ratio of frequencies as an algebraic number",
+    "integer (number of zero or degenerate modes)"
+   ]
+  },
+  {
+   "leaf": "Precession and stability of composite rigid bodies",
+   "scope": "Problems ask for precession or nutation rates and the stability of steady rotations of bodies assembled from simple shapes, possibly with internal rotors. They are hard because the inertia tensor of the assembly must be built exactly before Euler-equation stability analysis applies.",
+   "techniques": [
+    "Composite inertia tensors via parallel-axis theorem and principal-axis diagonalization",
+    "Linearized Euler equations about principal-axis rotation",
+    "Poinsot construction and polhode geometry",
+    "Effective potential in Euler angles for symmetric tops",
+    "Gyroscopic stabilization criteria with internal flywheels"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "letter for multiple choice (which axis or regime is stable)"
+   ]
+  },
+  {
+   "leaf": "Action variables and adiabatic invariance",
+   "scope": "Problems compute action variables of one-dimensional or separable systems, then derive frequencies and how energies or amplitudes scale under slow changes of parameters. The difficulty lies in nontrivial action integrals and in identifying which quantity stays invariant.",
+   "techniques": [
+    "Action integral J as a closed phase-space loop integral",
+    "Frequency from omega = dE/dJ",
+    "Hamilton-Jacobi separation in non-Cartesian coordinates",
+    "Adiabatic invariance under slowly varying lengths, fields or spring constants",
+    "Magnetic-moment invariant of gyrating charged particles"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational scaling exponent",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Apsidal precession of perturbed central-force orbits",
+   "scope": "Problems ask for perihelion advance rates, apsidal angles or orbit-closure conditions for Kepler or power-law potentials with small perturbations such as extra inverse-power terms, quadrupole fields or weak drag. They are hard because secular effects must be separated from periodic ones correctly.",
+   "techniques": [
+    "Near-circular apsidal angle formula from the effective potential curvature",
+    "Secular evolution of the Laplace-Runge-Lenz vector",
+    "Orbit averaging of Gauss perturbation equations",
+    "Binet equation in u = 1/r",
+    "Bertrand-type closure conditions for rational apsidal angles"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational multiple of pi",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Floquet stability of parametrically driven oscillators",
+   "scope": "Problems determine instability tongues, threshold modulation amplitudes or Floquet multipliers of oscillators with periodic parameter modulation, including piecewise-constant and fast-drive regimes. They are hard because the right stability criterion and perturbative order must be chosen.",
+   "techniques": [
+    "Monodromy matrix and the trace criterion |Tr M| < 2",
+    "Exact transfer matrices for piecewise-constant modulation",
+    "Hill determinant and harmonic balance for Mathieu-type tongues",
+    "Kapitza averaging to obtain effective potentials",
+    "Damping-shifted thresholds of the n-th resonance"
+   ],
+   "answer_forms": [
+    "closed-form threshold",
+    "integer (number of unstable tongues in a range)",
+    "interval endpoints"
+   ]
+  },
+  {
+   "leaf": "Conformal mapping in two-dimensional electrostatics",
+   "scope": "Problems ask for capacitance per unit length, field enhancement exponents or induced charge densities for 2D conductor arrangements such as slits, wedges, strips and polygons. They are hard because the right complex map must be found and the elliptic or hypergeometric integrals that follow must be evaluated.",
+   "techniques": [
+    "Schwarz-Christoffel maps for polygonal boundaries",
+    "Joukowski and M\u00f6bius transformations",
+    "Images in wedges of angle pi/n",
+    "Complete elliptic integral ratios K(k)/K(k') for coplanar strips",
+    "Corner singularity exponents r^(pi/alpha - 1)"
+   ],
+   "answer_forms": [
+    "closed-form expression with elliptic integrals",
+    "rational exponent",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Multipole radiation from structured sources",
+   "scope": "Problems ask for angular distributions, total power or polarization from oscillating or rotating charge-current configurations in which the lowest multipoles cancel. The difficulty is finding the leading surviving multipole and computing its coefficient exactly.",
+   "techniques": [
+    "Multipole expansion and identification of the lowest nonvanishing order",
+    "Vector spherical harmonics and multipole power formulas",
+    "Comparison of magnetic dipole and electric quadrupole contributions",
+    "Symmetry arguments that eliminate multipoles",
+    "Harmonic decomposition of radiation from rotating charge arrays"
+   ],
+   "answer_forms": [
+    "closed-form angular distribution",
+    "integer (lowest multipole order l)",
+    "ratio of powers"
+   ]
+  },
+  {
+   "leaf": "Relativistic collision thresholds and Wigner rotation",
+   "scope": "Problems ask for threshold energies, kinematic limits, invariant-mass bounds or Thomas-Wigner rotation angles for composed non-collinear boosts. They are hard because careful use of invariants is needed to avoid frame-dependent errors.",
+   "techniques": [
+    "Mandelstam invariants and center-of-momentum frame analysis",
+    "Dalitz plot boundaries for three-body final states",
+    "Composition of non-collinear boosts and the resulting rotation",
+    "Rapidity addition along a common axis",
+    "Maximum energy transfer in elastic scattering"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value in MeV or GeV",
+    "angle in radians"
+   ]
+  },
+  {
+   "leaf": "Mode spectra of waveguides and resonant cavities",
+   "scope": "Problems ask for cutoff frequencies, mode orderings, degeneracy counts or quality factors for guides and cavities with circular, coaxial, triangular or partially filled cross sections. They are hard because mode orderings depend on Bessel zeros and accidental degeneracies.",
+   "techniques": [
+    "TE/TM separation and boundary conditions",
+    "Bessel and Bessel-derivative zeros",
+    "Exact eigenfunctions of equilateral-triangle and other special domains",
+    "Weyl asymptotic counting of modes",
+    "Slater perturbation theorem for boundary deformations and wall losses from surface resistance"
+   ],
+   "answer_forms": [
+    "integer (mode index or degeneracy)",
+    "ratio of frequencies",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Wave propagation in layered and anisotropic media",
+   "scope": "Problems ask for reflectance, transmittance, Brewster or critical angles, polarization states or photonic band edges in multilayers and uniaxial or biaxial crystals. They are hard because boundary conditions and polarization coupling compound across layers.",
+   "techniques": [
+    "2x2 and 4x4 transfer-matrix methods",
+    "Fresnel coefficients with complex refractive indices",
+    "Index ellipsoid and walk-off between ray and wave vectors",
+    "Bloch condition for band edges of periodic stacks",
+    "Frustrated total internal reflection through thin gaps"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "angle in degrees"
+   ]
+  },
+  {
+   "leaf": "Gaussian beam propagation and resonator stability",
+   "scope": "Problems ask for waist locations, mode-matching conditions, Gouy phases, transverse-mode frequencies or stability ranges of multi-element and ring cavities. They are hard because the round-trip matrix must be composed correctly, sometimes with astigmatism.",
+   "techniques": [
+    "ABCD ray-transfer matrices",
+    "Complex beam parameter q transformation",
+    "Stability condition |A + D|/2 < 1",
+    "Gouy phase and frequency degeneracy of Hermite-Gauss modes",
+    "Separate sagittal and tangential analysis for off-axis mirrors"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "interval of stable parameters",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Supersymmetric quantum mechanics and shape invariance",
+   "scope": "Problems ask for spectra, partner potentials, bound-state counts or reflectionless properties of potentials generated from superpotentials. They are hard because the right factorization must be found and the shape-invariance recursion iterated exactly.",
+   "techniques": [
+    "Factorization H = A^dagger A plus a constant",
+    "Shape-invariance parameter recursion",
+    "Darboux and Crum transformations",
+    "Reflectionless P\u00f6schl-Teller families",
+    "Witten index and unbroken versus broken supersymmetry"
+   ],
+   "answer_forms": [
+    "closed-form energy formula",
+    "integer (number of bound states)",
+    "explicit function (superpotential)"
+   ]
+  },
+  {
+   "leaf": "Angular momentum recoupling and tensor operators",
+   "scope": "Problems ask for matrix elements of tensor operators between coupled states, ratios of transition strengths or recoupling coefficients for three or four angular momenta. They are hard because of exact Racah algebra and phase conventions.",
+   "techniques": [
+    "Clebsch-Gordan and Wigner 3j symbols",
+    "6j and 9j recoupling coefficients",
+    "Wigner-Eckart theorem and reduced matrix elements",
+    "Projection theorem for vector operators",
+    "Sum rules over magnetic substates"
+   ],
+   "answer_forms": [
+    "rational number",
+    "square root of a rational number",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Semiclassical quantization with Maslov indices",
+   "scope": "Problems ask for approximate or exact energy levels via Bohr-Sommerfeld or EBK quantization with the correct phase indices, or for tunneling splittings and lifetimes. They are hard because counting hard walls, soft turning points and caustics correctly changes the answer.",
+   "techniques": [
+    "Maslov index counting for soft and hard turning points",
+    "EBK quantization on invariant tori",
+    "Langer correction for radial problems",
+    "WKB connection formulas and Gamow factors",
+    "Herring-type formulas for double-well splittings"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "rational phase shift"
+   ]
+  },
+  {
+   "leaf": "Partial-wave scattering and phase-shift analysis",
+   "scope": "Problems ask for phase shifts, cross sections, scattering lengths, resonance widths or bound-state counts for model potentials. They are hard because the problem requires exact matching, low-energy expansions and topological theorems on phase shifts.",
+   "techniques": [
+    "Matching with spherical Bessel and Hankel functions",
+    "Effective-range expansion",
+    "Levinson theorem relating phase shifts to bound states",
+    "Optical theorem and unitarity bounds",
+    "Breit-Wigner resonances and identical-particle symmetrization"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Multielectron term symbols and Zeeman patterns",
+   "scope": "Problems ask for the allowed LS terms, ground terms, Land\u00e9 g-factors or the number of Zeeman components for open-shell configurations, including equivalent electrons. They are hard because Pauli-restricted microstate counting and the choice of coupling scheme are error-prone.",
+   "techniques": [
+    "Microstate tabulation for equivalent electrons",
+    "Hund's rules for the ground term",
+    "Land\u00e9 g-factor formula",
+    "Particle-hole equivalence in shells",
+    "Correlation between LS and jj coupling schemes"
+   ],
+   "answer_forms": [
+    "term symbol",
+    "rational g-factor",
+    "integer count of lines",
+    "small set of terms"
+   ]
+  },
+  {
+   "leaf": "Geometric phases in adiabatically driven systems",
+   "scope": "Problems ask for Berry, Aharonov-Anandan or non-Abelian holonomies of spins or multilevel systems transported around loops in parameter space. They are hard because gauge choice, degeneracy and solid-angle geometry must all be handled together.",
+   "techniques": [
+    "Berry connection and curvature",
+    "Solid-angle formula for spin-s states",
+    "Wilczek-Zee holonomies in degenerate subspaces",
+    "Pancharatnam phase for discrete state sequences",
+    "Monopole charge of a degeneracy point"
+   ],
+   "answer_forms": [
+    "rational multiple of pi",
+    "closed-form expression",
+    "integer Chern number"
+   ]
+  },
+  {
+   "leaf": "Topological invariants of tight-binding band models",
+   "scope": "Problems ask for Chern numbers, winding numbers, Z2 indices or edge-mode counts of specified lattice Hamiltonians as parameters vary. They are hard because the phase diagram must be tracked through gap closings and the system's symmetry class.",
+   "techniques": [
+    "Winding of the d-vector in two-band models",
+    "Counting Dirac-mass sign changes at gap closings",
+    "Fukui-Hatsugai lattice Chern number computation",
+    "Fu-Kane parity eigenvalues at time-reversal-invariant momenta",
+    "Bulk-boundary correspondence and tenfold-way classification"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of invariants across phases",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Instanton tunneling and functional determinants",
+   "scope": "Problems ask for tunneling splittings, metastable decay rates or their prefactors from Euclidean path integrals. They are hard because zero modes, negative modes and determinant ratios must be handled exactly.",
+   "techniques": [
+    "Euclidean bounce and kink solutions",
+    "Gelfand-Yaglom method for determinant ratios",
+    "Collective-coordinate Jacobian for zero modes",
+    "Negative-mode factor of 1/2 in decay rates",
+    "Dilute instanton gas summation"
+   ],
+   "answer_forms": [
+    "closed-form prefactor",
+    "numerical constant",
+    "exponent of the leading exponential"
+   ]
+  },
+  {
+   "leaf": "Exact transfer-matrix solutions of one-dimensional lattice models",
+   "scope": "Problems ask for free energies, correlation lengths, magnetizations or residual entropies of 1D Ising, Potts or clock chains with decorations, further-neighbor couplings or ladder geometry. They are hard because the transfer matrix must be built and diagonalized exactly.",
+   "techniques": [
+    "Construction and diagonalization of transfer matrices",
+    "Decimation and decoration-iteration mappings",
+    "Symmetry block-diagonalization",
+    "Residual ground-state entropy from the largest eigenvalue",
+    "Correlation length from the ratio of the two largest eigenvalues"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "algebraic number",
+    "logarithm of an algebraic number"
+   ]
+  },
+  {
+   "leaf": "Epsilon-expansion critical exponents of multi-field theories",
+   "scope": "Problems ask for fixed points, their stability and critical exponents to low order in epsilon for O(N), cubic-anisotropic, coupled or Potts-like field theories. They are hard because one-loop tensor contractions are exacting and identifying the stable fixed point needs care.",
+   "techniques": [
+    "One-loop beta functions for multiple quartic couplings",
+    "Wilson-Fisher fixed-point solutions",
+    "Eigenvalues of the stability matrix",
+    "Crossover exponents for anisotropic perturbations",
+    "Hyperscaling and scaling relations"
+   ],
+   "answer_forms": [
+    "rational function of N",
+    "rational coefficient of epsilon",
+    "small set of stable fixed points"
+   ]
+  },
+  {
+   "leaf": "Landau theory of multicritical phase diagrams",
+   "scope": "Problems ask for tricritical points, first-order jumps, latent heats or phase boundaries from polynomial free energies, possibly with coupled order parameters. They are hard because global minima must be tracked across competing branches.",
+   "techniques": [
+    "Minimization of sixth-order Landau polynomials",
+    "Integrating out strain to renormalize the quartic coefficient",
+    "Biquadratic coupling of competing order parameters",
+    "Clausius-Clapeyron relations at first-order lines",
+    "Lifshitz points arising from gradient terms"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered tuple of exponents"
+   ]
+  },
+  {
+   "leaf": "Bose condensation with nonstandard densities of states",
+   "scope": "Problems ask for transition temperatures, condensate fractions or heat-capacity jumps of ideal Bose gases in power-law traps, reduced dimensions or with nonquadratic dispersion. They are hard because the density-of-states exponent controls both whether condensation happens and its thermodynamic signatures.",
+   "techniques": [
+    "Density of states for general traps and dispersions",
+    "Polylogarithm and Riemann zeta evaluations",
+    "Criterion for the existence of condensation",
+    "Heat-capacity discontinuity at the transition",
+    "Finite-size and zero-point corrections to Tc"
+   ],
+   "answer_forms": [
+    "closed-form expression with zeta values",
+    "rational exponent",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Transport coefficients from kinetic theory",
+   "scope": "Problems ask for viscosity, thermal conductivity, diffusion coefficients or dimensionless ratios such as the Prandtl number for model gases or carriers. They are hard because the answer depends on the collision model and on the order of approximation.",
+   "techniques": [
+    "Chapman-Enskog expansion",
+    "BGK and relaxation-time approximations",
+    "Sonine polynomial expansions",
+    "Eucken-type ratios for polyatomic gases",
+    "Onsager reciprocity and Wiedemann-Franz relations"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "First-passage times and Kramers escape",
+   "scope": "Problems ask for mean first-passage times, splitting probabilities or escape rates for diffusion in potentials or random walks with absorbing and reflecting boundaries. They are hard because the problem requires solving the backward equation exactly or getting the asymptotic prefactor right.",
+   "techniques": [
+    "Backward Fokker-Planck equation for mean exit times",
+    "Kramers rates in high- and low-friction limits",
+    "Method of images for absorbing boundaries",
+    "Renewal equations in Laplace space",
+    "Arrhenius prefactors from well and barrier curvatures"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Bethe ansatz for quantum spin and Bose chains",
+   "scope": "Problems ask for exact energies, magnon bound states or ground-state energies of XXX, XXZ or Lieb-Liniger systems, finite or in the thermodynamic limit. They are hard because the Bethe equations must be solved exactly for small sizes, or the right string structure identified.",
+   "techniques": [
+    "Coordinate Bethe ansatz",
+    "Exact solution of Bethe equations for few particles",
+    "String hypothesis for bound states",
+    "Integral equations for thermodynamic ground states",
+    "Twisted and open boundary conditions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "algebraic number",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Spectra of finite Heisenberg spin clusters",
+   "scope": "Problems ask for energy levels, ground-state total spin, degeneracies or magnetization plateaus of small frustrated clusters with possibly unequal couplings. They are hard because the problem requires finding a hidden total-spin structure and counting multiplicities exactly.",
+   "techniques": [
+    "Rewriting Hamiltonians in terms of subcluster total spins (Kambe method)",
+    "Multiplicity counting of spin multiplets",
+    "Lieb-Mattis theorem for bipartite clusters",
+    "Point-group symmetry of cluster states",
+    "Zeeman-driven level crossings and plateaus"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational energy",
+    "ordered tuple of levels"
+   ]
+  },
+  {
+   "leaf": "Flat bands and spectra of decorated lattices",
+   "scope": "Problems ask for band energies, flat-band degeneracies, Dirac-point locations or caging effects in Lieb, kagome, line-graph and decorated lattices, possibly with flux. They are hard because they require recognizing compact localized states and counting flat-band states exactly.",
+   "techniques": [
+    "Bloch Hamiltonians for multi-site unit cells",
+    "Line-graph constructions and compact localized states",
+    "Sublattice imbalance counting of zero modes",
+    "Peierls substitution and Aharonov-Bohm caging",
+    "Chiral symmetry and the Lieb theorem"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form band energies",
+    "small set of momenta"
+   ]
+  },
+  {
+   "leaf": "Point-group analysis of vibrational modes",
+   "scope": "Problems ask for the number and symmetry species of infrared-active, Raman-active and silent normal modes of molecules or crystals. They are hard because they require exact character bookkeeping and correct removal of rigid motions.",
+   "techniques": [
+    "Reducible representation of the 3N displacement coordinates",
+    "Character-table reduction formula",
+    "Subtraction of translations and rotations",
+    "Raman activity from quadratic basis functions",
+    "Factor-group analysis at the Brillouin-zone center"
+   ],
+   "answer_forms": [
+    "integer",
+    "decomposition into irreducible representations",
+    "ordered pair of counts"
+   ]
+  },
+  {
+   "leaf": "Landau levels and quantum Hall state counting",
+   "scope": "Problems ask for degeneracies, filling fractions, sphere shifts, torus degeneracies or edge-mode counts for integer and fractional quantum Hall states. They are hard because each case needs exact composite-fermion or K-matrix bookkeeping.",
+   "techniques": [
+    "Haldane sphere with monopole strength 2Q",
+    "Composite-fermion flux attachment",
+    "K-matrix determinant, signature and charge vector",
+    "Laughlin plasma analogy",
+    "Shift and Hall viscosity relations"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational filling fraction",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Anyon fusion rules and topological degeneracy",
+   "scope": "Problems ask for quantum dimensions, fusion multiplicities, ground-state degeneracies on higher-genus surfaces or braiding phases in specified anyon theories. They are hard because they require modular data and Verlinde-type sums.",
+   "techniques": [
+    "Verlinde formula from the S-matrix",
+    "Modular S and T matrices",
+    "Total quantum dimension",
+    "Genus-g degeneracy sums",
+    "Anyon condensation and topological spins"
+   ],
+   "answer_forms": [
+    "integer",
+    "algebraic number",
+    "closed-form expression in the genus g"
+   ]
+  },
+  {
+   "leaf": "Ginzburg-Landau and Josephson circuit physics",
+   "scope": "Problems ask for nucleation fields, fluxoid-driven oscillations, SQUID critical-current patterns, Shapiro step widths or junction-array dynamics. They are hard because they combine nonlinear phase dynamics with boundary-dependent eigenproblems.",
+   "techniques": [
+    "Linearized Ginzburg-Landau nucleation problems",
+    "Fluxoid quantization in multiply connected geometries",
+    "RCSJ model dynamics",
+    "Bessel-function widths of Shapiro steps",
+    "Interference patterns of asymmetric SQUIDs"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Steady states of Lindblad master equations",
+   "scope": "Problems ask for steady states, relaxation rates, purities or occupations of driven-dissipative few-level or oscillator systems. They are hard because the problem requires diagonalizing Liouvillians and finding conserved structures in non-Hermitian dynamics.",
+   "techniques": [
+    "Vectorization of the Liouvillian superoperator",
+    "Optical Bloch equations",
+    "Third quantization for quadratic open systems",
+    "Detailed balance and thermal steady states",
+    "Liouvillian spectral gap analysis"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "explicit matrix"
+   ]
+  },
+  {
+   "leaf": "Photon statistics in linear-optical multiports",
+   "scope": "Problems ask for coincidence probabilities, bunching statistics or output distributions for Fock, coherent or squeezed inputs through beam-splitter networks. They are hard because they require exact permanent or hafnian evaluation and the right interference symmetry.",
+   "techniques": [
+    "Matrix permanents for Fock-state transitions",
+    "Generalized two-photon interference with partial distinguishability",
+    "Suppression laws of Fourier and symmetric multiports",
+    "Gaussian-state covariance matrices and hafnians",
+    "Second-order coherence g2 of output modes"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Feynman diagram combinatorics and symmetry factors",
+   "scope": "Problems ask for the number of distinct diagrams, their symmetry factors or combinatorial weights at a given order in scalar, Yukawa or QED-like theories. They are hard because automorphism and Wick-contraction counts are easy to get wrong.",
+   "techniques": [
+    "Wick-contraction counting",
+    "Graph automorphism groups and symmetry factors",
+    "Zero-dimensional field theory generating functions",
+    "Furry theorem and charge-conjugation vanishing",
+    "Euler relation between loops, lines and vertices"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "One-loop running in gauge-matter theories",
+   "scope": "Problems ask for beta-function coefficients, asymptotic-freedom bounds, conformal-window estimates or unification scales for specified gauge groups and matter content. They are hard because they require exact group-theory factors and threshold matching.",
+   "techniques": [
+    "Dynkin indices and quadratic Casimirs of representations",
+    "One-loop coefficients for Weyl fermions and complex scalars",
+    "Two-loop Banks-Zaks fixed points",
+    "Threshold matching across mass scales",
+    "Gauge-coupling unification conditions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer (maximum number of flavors)",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Anomaly cancellation for chiral fermion spectra",
+   "scope": "Problems ask whether a given chiral spectrum is anomaly-free, which charges complete it, or which discrete or global anomalies survive. They are hard because they require solving coupled Diophantine anomaly constraints.",
+   "techniques": [
+    "Cubic and mixed U(1) anomaly conditions",
+    "Mixed gravitational anomaly",
+    "SU(N) cubic anomaly coefficients of representations",
+    "Witten SU(2) global anomaly parity",
+    "'t Hooft anomaly matching"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of charges",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Lie-algebra branching and tensor product decomposition",
+   "scope": "Problems ask for decompositions of irreducible representations under subgroups, multiplicities in tensor products, or dimensions for unified and flavor symmetries. They are hard because they require exact weight bookkeeping in large representations.",
+   "techniques": [
+    "Young tableaux and Littlewood-Richardson rules",
+    "Weyl dimension formula",
+    "Dynkin labels and weight diagrams",
+    "Projection matrices for subgroup branching",
+    "Casimir eigenvalues as consistency checks"
+   ],
+   "answer_forms": [
+    "integer",
+    "list of irreducible representations",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Goldstone mode counting in symmetry breaking",
+   "scope": "Problems ask for the number and dispersion type of Nambu-Goldstone modes for specified internal or spacetime symmetry-breaking patterns, including nonrelativistic systems. They are hard because naive coset counting fails.",
+   "techniques": [
+    "Coset dimension of G/H",
+    "Watanabe-Murayama counting with commutator expectation values",
+    "Inverse Higgs constraints for spacetime symmetries",
+    "Linear versus quadratic dispersion assignment",
+    "Pseudo-Goldstone masses from explicit breaking"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (type-A, type-B)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Two-dimensional CFT and minimal model data",
+   "scope": "Problems ask for central charges, conformal weights, fusion rules, torus partition functions or cylinder Casimir energies of minimal models and coset theories. They are hard because they require Kac-table and modular bookkeeping.",
+   "techniques": [
+    "Kac determinant and weight formula",
+    "Coulomb gas construction",
+    "Modular invariance of torus partition functions",
+    "Virasoro characters",
+    "Coset central-charge formulas"
+   ],
+   "answer_forms": [
+    "rational number",
+    "set of rational numbers",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "String spectrum level counting",
+   "scope": "Problems ask for mass levels, state degeneracies, little-group content or Hagedorn temperatures of bosonic or superstrings, possibly compactified on circles. They are hard because they require exact oscillator partition counting with level matching.",
+   "techniques": [
+    "Light-cone oscillator partition functions",
+    "GSO projection",
+    "Level matching with momentum and winding",
+    "T-duality and enhanced-symmetry radii",
+    "Zeta-regularized normal-ordering constants"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Geodesic structure of black-hole spacetimes",
+   "scope": "Problems ask for innermost stable orbits, photon spheres, capture cross sections, periapsis shifts or redshifts in charged, rotating, de Sitter or higher-dimensional black holes. They are hard because they require effective-potential analysis in nonstandard metrics.",
+   "techniques": [
+    "Conserved quantities from Killing vectors",
+    "Effective radial potentials for timelike and null geodesics",
+    "Marginal stability conditions for ISCO",
+    "Critical impact parameters for capture",
+    "Lyapunov exponents of unstable circular orbits"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "rational multiple of the mass M"
+   ]
+  },
+  {
+   "leaf": "Black hole thermodynamics and phase structure",
+   "scope": "Problems ask for Hawking temperatures, entropies, heat capacities, critical points or Hawking-Page transitions of charged, rotating, AdS or higher-dimensional black holes. They are hard because they require consistent ensembles and first-law bookkeeping.",
+   "techniques": [
+    "Surface gravity from the metric",
+    "Euclidean periodicity of imaginary time",
+    "First law and Smarr relation",
+    "Extended thermodynamics with cosmological-constant pressure",
+    "Critical ratios in van der Waals-like transitions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number (critical ratio)",
+    "numerical value"
+   ]
+  },
+  {
+   "leaf": "Gravitational radiation from compact sources",
+   "scope": "Problems ask for radiated power, harmonic content, polarization patterns or orbital decay rates from rotating bodies, binaries and eccentric orbits using the quadrupole approximation. They are hard because they require exact multipole tensor computations and orbit averaging.",
+   "techniques": [
+    "Quadrupole formula for radiated power",
+    "Transverse-traceless projection",
+    "Peters-Mathews eccentricity enhancement factors",
+    "Chirp mass and frequency evolution",
+    "Emission from rotating triaxial bodies"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Linear stability of stratified and sheared fluids",
+   "scope": "Problems ask for dispersion relations, critical wavenumbers or growth rates for interfacial, jet, convective or shear instabilities, including surface tension, rotation or magnetic fields. They are hard because they require correct interface matching and identifying the marginal state.",
+   "techniques": [
+    "Normal-mode analysis of the linearized equations",
+    "Interface matching of pressure and displacement",
+    "Richardson and Rayleigh inflection criteria",
+    "Capillary instability of liquid cylinders",
+    "Marginal-stability curves for convection"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical critical value",
+    "integer (most unstable mode number)"
+   ]
+  },
+  {
+   "leaf": "Point-vortex dynamics and potential flows",
+   "scope": "Problems ask for the motion, relative equilibria or stability of point-vortex configurations, or for forces and added masses of bodies in ideal flow. They are hard because they require images and Hamiltonian structure.",
+   "techniques": [
+    "Kirchhoff Hamiltonian for point vortices",
+    "Images in walls and cylinders",
+    "Stability of vortex polygons",
+    "Blasius force theorem",
+    "Milne-Thomson circle theorem and added-mass tensors"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "ratio"
+   ]
+  },
+  {
+   "leaf": "Wave cutoffs and resonances in magnetized plasmas",
+   "scope": "Problems ask for cutoff and resonance frequencies, dispersion branches, accessibility conditions, growth rates or damping rates in cold or warm magnetized plasmas. They are hard because they require handling the dielectric tensor with multiple species.",
+   "techniques": [
+    "Stix cold-plasma dielectric tensor",
+    "Appleton-Hartree dispersion relation",
+    "CMA-diagram regions",
+    "Landau contour and damping rates",
+    "Two-stream and beam-plasma growth rates"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Shell-model spin-parity and moment assignments",
+   "scope": "Problems ask for ground-state spin-parity, magnetic moments, quadrupole signs or isospin assignments for nuclei near closed shells or deformed nuclei. They are hard because they require exact orbital filling and coupling rules.",
+   "techniques": [
+    "Shell filling with spin-orbit splitting",
+    "Nordheim rules for odd-odd nuclei",
+    "Schmidt magnetic moments",
+    "Seniority and pairing arguments",
+    "Nilsson orbital labels for deformed nuclei"
+   ],
+   "answer_forms": [
+    "spin-parity label J^pi",
+    "rational number",
+    "numerical value in nuclear magnetons"
+   ]
+  },
+  {
+   "leaf": "Neutrino flavor evolution in matter",
+   "scope": "Problems ask for oscillation probabilities, MSW resonance densities, adiabaticity parameters or CP-violating asymmetries in constant or varying matter density. They are hard because they require effective-Hamiltonian diagonalization and level-crossing analysis.",
+   "techniques": [
+    "Effective Hamiltonian with the Wolfenstein matter potential",
+    "Matter mixing angle and effective mass splitting",
+    "Landau-Zener crossing probabilities",
+    "Exact constant-density evolution",
+    "Perturbative three-flavor expansions"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "numerical value",
+    "energy in MeV"
+   ]
+  },
+  {
+   "leaf": "Zeta-regularized vacuum energies and Casimir forces",
+   "scope": "Problems ask for Casimir energies or forces of fields in boxes, between plates with mixed boundary conditions, on compact manifolds, or at finite temperature. They are hard because they require correct regularization and isolating the finite part.",
+   "techniques": [
+    "Riemann, Hurwitz and Epstein zeta functions",
+    "Abel-Plana summation",
+    "Dirichlet, Neumann and mixed boundary-condition spectra",
+    "Heat-kernel coefficients and divergence structure",
+    "Thermal Matsubara sums"
+   ],
+   "answer_forms": [
+    "rational multiple of pi^2",
+    "closed-form expression",
+    "sign (attractive or repulsive)"
+   ]
+  },
+  {
+   "leaf": "Buckling and vibration of slender elastic structures",
+   "scope": "Problems ask for critical loads, critical lengths or mode shapes of columns, rings, arches and plates with mixed boundary conditions, elastic foundations or distributed self-weight. They are hard because the boundary conditions give transcendental characteristic equations, and the lowest mode can switch branches as a parameter changes.",
+   "techniques": [
+    "Euler-Bernoulli beam equation with clamped, pinned, free and sliding end conditions",
+    "Rayleigh-Ritz energy method and Rayleigh-quotient upper bounds",
+    "Bessel-function solutions for columns under distributed axial load",
+    "Mode-number switching for beams on a Winkler elastic foundation",
+    "F\u00f6ppl-von K\u00e1rm\u00e1n plate equations and pressure-induced ring buckling"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer mode number",
+    "rational ratio of critical loads",
+    "root of a stated transcendental equation to given precision"
+   ]
+  },
+  {
+   "leaf": "Radiation from relativistic point charges",
+   "scope": "Problems ask for angular distributions, total and spectral powers, polarization and characteristic frequencies of radiation from charges on prescribed relativistic paths (hyperbolic, helical, circular, undulating). They are hard because of retarded-time bookkeeping and the frame dependence of emitted energy and angles.",
+   "techniques": [
+    "Li\u00e9nard-Wiechert fields and the retarded-time Jacobian 1 - n\u00b7\u03b2",
+    "Li\u00e9nard generalization of the Larmor formula and Lorentz invariance of emitted power",
+    "Synchrotron critical frequency and modified-Bessel-function spectra",
+    "Undulator resonance condition, harmonic content and the deflection parameter K",
+    "Landau-Lifshitz form of the radiation-reaction force",
+    "Lorentz transformation of angular distributions and solid angles"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer power-law exponent",
+    "rational number",
+    "angle in closed form"
+   ]
+  },
+  {
+   "leaf": "Horizons and distances in FRW cosmologies",
+   "scope": "Problems ask for particle and event horizons, conformal-time extents, angular-diameter-distance turnovers, lookback times or turnaround epochs in curved universes with several fluid components. They are hard because the integrals need clever substitutions and the answers depend on careful causal-structure reasoning.",
+   "techniques": [
+    "Friedmann equations with several fluids of constant equation-of-state parameter w",
+    "Conformal-time integrals and conformal (Penrose) diagrams",
+    "Curvature mapping of comoving distance through sin/sinh",
+    "Redshift of maximal angular-diameter distance",
+    "Comoving Hubble-radius crossing and de Sitter event horizons",
+    "Loitering and bounce conditions from the effective potential for the scale factor"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "exact redshift value",
+    "rational ratio of distances or times",
+    "integer count of horizon crossings"
+   ]
+  },
+  {
+   "leaf": "Mayer cluster expansions and virial coefficients",
+   "scope": "Problems ask for exact low-order virial or cluster coefficients for hard-core, square-well, Gaussian-core or lattice-gas models in various dimensions. They are hard because they combine counting biconnected graphs with symmetry weights and evaluating multi-particle overlap integrals exactly.",
+   "techniques": [
+    "Mayer f-bonds and enumeration of biconnected (star) graphs with symmetry factors",
+    "Lens and overlap volumes of hyperspheres in d dimensions",
+    "Gaussian f-functions where cluster integrals reduce to determinants",
+    "Exact one-dimensional hard-rod equations of state as checks",
+    "Linked-cluster expansions for lattice gases with nearest-neighbour exclusion"
+   ],
+   "answer_forms": [
+    "rational multiple of a power of \u03c0",
+    "rational number",
+    "closed-form expression",
+    "polynomial in a Boltzmann-factor parameter"
+   ]
+  },
+  {
+   "leaf": "Random-matrix level statistics and symmetry classes",
+   "scope": "Problems ask for small-N spacing distributions, normalization constants, spectral moments or the correct Dyson/Altland-Zirnbauer ensemble for a physical Hamiltonian, given its antiunitary symmetries. They are hard because getting the symmetry class right decides the exponents, and the exact integrals need Selberg-type machinery.",
+   "techniques": [
+    "Dyson index from time-reversal with T\u00b2 = \u00b11 and Kramers degeneracy",
+    "Wigner-surmise derivations for 2\u00d72 and 3\u00d73 ensembles",
+    "Selberg integrals for joint eigenvalue density normalizations",
+    "Wick contraction and genus expansion of \u27e8Tr H^{2k}\u27e9",
+    "Level-repulsion exponents with chiral and particle-hole symmetries"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "name of a symmetry class",
+    "integer exponent"
+   ]
+  },
+  {
+   "leaf": "Symbolic dynamics and topological entropy of maps",
+   "scope": "Problems ask for periodic-orbit counts, topological entropies, kneading sequences or admissible itineraries of unimodal, piecewise-linear, circle or billiard-type maps. They are hard because the pruning rules and Markov partitions have to be derived before any counting can start.",
+   "techniques": [
+    "Markov partitions and transition matrices",
+    "Perron-Frobenius eigenvalue as the exponential of topological entropy",
+    "Kneading theory and admissibility of itineraries",
+    "Artin-Mazur zeta function and M\u00f6bius inversion for prime-period counts",
+    "Sharkovskii ordering of forced periods",
+    "Rotation numbers and mode locking in circle maps"
+   ],
+   "answer_forms": [
+    "algebraic number given as the largest root of a polynomial",
+    "integer count of periodic orbits",
+    "symbol sequence",
+    "closed-form logarithm"
+   ]
+  },
+  {
+   "leaf": "Inverse scattering and soliton content of initial data",
+   "scope": "Problems give initial data for KdV, NLS, sine-Gordon or Toda-type equations and ask for the number, amplitudes and velocities of the emerging solitons or breathers, the conserved charges, or the phase shifts after collisions. They are hard because the associated linear spectral problem must be solved exactly, with consistent normalizations.",
+   "techniques": [
+    "Lax pairs and isospectral flows",
+    "Bound states of Schr\u00f6dinger operators with P\u00f6schl-Teller initial profiles for KdV",
+    "Zakharov-Shabat eigenvalues for sech-type NLS pulses",
+    "Trace formulas linking conserved quantities to scattering data",
+    "Hirota bilinear N-soliton solutions and collision phase shifts",
+    "Kink versus breather content in sine-Gordon initial data"
+   ],
+   "answer_forms": [
+    "integer number of solitons",
+    "ordered tuple of amplitudes or speeds",
+    "closed-form expression",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Bosonization exponents in Luttinger liquids",
+   "scope": "Problems ask for scaling dimensions, correlation-function and tunneling-density-of-states exponents, and whether perturbations are RG-relevant in one-dimensional interacting fermion or boson systems, including spinful, multichannel and edge geometries. They are hard because compactification conventions, mode mixing and boundary effects all change the exponents.",
+   "techniques": [
+    "Abelian bosonization with Klein factors and vertex operators",
+    "Scaling dimensions as functions of the Luttinger parameter K",
+    "Relevance of a single impurity or weak link in Kane-Fisher style",
+    "K-matrix diagonalization for multicomponent and spin-charge-separated liquids",
+    "Boundary versus bulk tunneling exponents",
+    "Commensurability conditions for umklapp operators"
+   ],
+   "answer_forms": [
+    "closed-form function of K",
+    "critical value of K",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Entanglement in Gaussian and free-fermion states",
+   "scope": "Problems ask for entanglement entropies, R\u00e9nyi entropies, logarithmic negativities or mode entanglement of bosonic Gaussian or quasi-free fermionic states, computed from covariance or correlation matrices. They are hard because they require symplectic diagonalization and careful handling of partial transposition and subsystem choice.",
+   "techniques": [
+    "Williamson normal form and symplectic eigenvalues",
+    "Correlation-matrix (Peschel) method for free-fermion reduced states",
+    "Logarithmic negativity from the partially transposed covariance matrix",
+    "Two-mode squeezing combined with beam-splitter networks",
+    "R\u00e9nyi entropies of thermal-like reduced density matrices"
+   ],
+   "answer_forms": [
+    "closed-form expression in logarithms",
+    "rational number",
+    "integer",
+    "ordered tuple of symplectic eigenvalues"
+   ]
+  },
+  {
+   "leaf": "J^PC assignments and decay selection rules",
+   "scope": "Problems ask for the J^PC and G-parity of fermion-antifermion, multigluon, multiphoton or exotic states, and which decay or production channels are allowed. They are hard because Bose symmetry, Landau-Yang-type constraints, C, P, G and isospin must all hold at once, together with minimal orbital angular momentum.",
+   "techniques": [
+    "P = (-1)^{L+1} and C = (-1)^{L+S} for fermion-antifermion systems",
+    "G-parity for isospin multiplets and multipion final states",
+    "Landau-Yang theorem and its generalizations to identical-boson final states",
+    "Furry's theorem and charge-conjugation constraints on photon multiplicity",
+    "Identification of exotic J^PC combinations",
+    "Minimal partial waves and spin counting in multi-body final states"
+   ],
+   "answer_forms": [
+    "J^PC triple",
+    "small set of allowed channels",
+    "integer minimal orbital angular momentum",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

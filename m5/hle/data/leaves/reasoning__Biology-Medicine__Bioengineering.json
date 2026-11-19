@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Bioengineering",
+ "target_leaves": 8,
+ "expected_problems": 20,
+ "leaves": [
+  {
+   "leaf": "Bifurcation analysis of synthetic gene circuits",
+   "scope": "Problems give a small ODE model of an engineered regulatory circuit (for example a toggle switch, a repressilator variant or an autoregulatory loop with Hill kinetics). They ask for exact thresholds where bistability or oscillation appears, or for the number and stability of steady states. These are hard because the solver must reduce the system without approximating it and check stability carefully in a parameter regime that is not symmetric.",
+   "techniques": [
+    "Nullcline intersection counting with Hill-function monotonicity arguments",
+    "Jacobian eigenvalue and Routh-Hurwitz conditions for steady-state stability",
+    "Secant condition for Hopf onset in cyclic negative-feedback loops",
+    "Saddle-node bifurcation conditions from repeated roots of the steady-state polynomial",
+    "Nondimensionalization and quasi-steady-state reduction of mRNA/protein timescales",
+    "Minimum cooperativity arguments for bistability in mutual-repression motifs"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Stoichiometric analysis of engineered metabolic networks",
+   "scope": "Problems define a small metabolic network with a given stoichiometry, reversibility constraints and uptake bounds. They ask for maximal theoretical yields, the number of elementary flux modes, minimal knockout sets that force product coupling, or the flux vector at an optimum. These are hard because the solver must reason about the null space and the vertices of the flux cone exactly, with no solver software.",
+   "techniques": [
+    "Null-space computation of the stoichiometric matrix under steady-state constraints",
+    "Elementary flux mode enumeration via the double-description method",
+    "Linear-programming duality and shadow prices for yield bounds",
+    "Minimal cut set logic for growth-coupled production",
+    "Cofactor (NADH/ATP) and redox balance as additional linear constraints",
+    "Thermodynamic loop elimination for flux-variability bounds"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "small set",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Reaction-diffusion limits in engineered tissue constructs",
+   "scope": "Problems model the supply of oxygen or a nutrient to cells seeded in a scaffold, hydrogel slab, cylinder or spheroid, with zero-order, first-order or Michaelis-Menten consumption. They ask for critical thicknesses, the radius at which a core becomes necrotic, or effectiveness factors. These are hard because the answer depends on getting the geometry, the boundary conditions and the switch between consumption regimes exactly right.",
+   "techniques": [
+    "Analytical solution of steady diffusion with zero-order sink in slab, cylinder and sphere",
+    "Thiele modulus and effectiveness-factor derivation for first-order kinetics",
+    "Moving anoxic-front (dead-core) radius calculation",
+    "Robin boundary conditions coupling external mass transfer to internal diffusion",
+    "Matching inner and outer solutions at a kinetic-regime transition",
+    "Effective diffusivity scaling with porosity and tortuosity"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision"
+   ]
+  },
+  {
+   "leaf": "Chemostat dynamics and bioprocess productivity optimization",
+   "scope": "Problems pose continuous, fed-batch or cascade bioreactor models with Monod, Haldane or Contois growth and growth-linked or non-growth-linked product formation. They ask for washout dilution rates, the dilution rate that maximizes productivity, or the steady state reached when a plasmid-bearing strain competes with a plasmid-free strain. These are hard because of multiple steady states, substrate inhibition and stability conditions on the boundaries.",
+   "techniques": [
+    "Steady-state algebra and washout criteria for Monod and Haldane kinetics",
+    "Volumetric productivity optimization in the dilution rate",
+    "Luedeking-Piret product formation coupled to biomass balances",
+    "Competitive exclusion and break-even concentrations in mixed cultures",
+    "Linear stability of boundary and coexistence equilibria",
+    "Cascaded CSTR balances and optimal volume partitioning"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Combinatorial library statistics for directed evolution",
+   "scope": "Problems set up a mutagenesis design using degenerate codons, site-saturation schemes or error-prone PCR. They ask for exact library sizes, the probability of a stop codon or a target variant, oversampling needed for given coverage, or how many distinct proteins are expected. These are hard because counting at the codon level, amino acid level and protein level differs in subtle ways, and Poisson or occupancy arguments must be applied exactly.",
+   "techniques": [
+    "Codon-degeneracy counting under the standard genetic code (NNK, NDT, 22c-trick schemes)",
+    "Coupon-collector and Poisson occupancy for library completeness",
+    "Expected distinct variants under non-uniform codon-to-amino-acid mappings",
+    "Binomial or Poisson models of mutation load per gene in error-prone PCR",
+    "Inclusion-exclusion for multi-site libraries with excluded residues",
+    "Additive versus epistatic fitness landscapes and greedy-walk reachability"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "closed-form expression",
+    "name of an object"
+   ]
+  },
+  {
+   "leaf": "Domain-level design of DNA strand-displacement circuits",
+   "scope": "Problems describe a DNA strand-displacement or seesaw-gate system at the domain level. They ask for the final concentrations at equilibrium or completion, the logic function the circuit computes, the minimum number of gates or fuel strands needed, or the outcome when leak or threshold competition is present. These are hard because the solver must track every toehold-mediated reaction and its stoichiometry without simulating the system.",
+   "techniques": [
+    "Domain-level reaction enumeration with toehold binding and branch migration",
+    "Stoichiometric bookkeeping of fuel, threshold and gate consumption",
+    "Seesaw-gate threshold subtraction implementing digital logic",
+    "Catalytic versus stoichiometric amplification analysis",
+    "Spurious leak pathways from unintended toehold complementarity",
+    "Mapping chemical reaction networks to strand-displacement implementations"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "a word/move/sequence",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Pulsatile hemodynamics in vessels and grafts",
+   "scope": "Problems ask for pressure-flow relations, wall shear stress, input impedance or optimal branching geometry in idealized arteries, stented segments or vascular grafts under steady or oscillatory flow. These are hard because the solver must choose the right regime (Poiseuille, Womersley or a lumped Windkessel model) and carry dimensional analysis and complex impedance algebra through exactly.",
+   "techniques": [
+    "Womersley solution and limiting behaviour at small and large Womersley number",
+    "Two- and three-element Windkessel complex impedance and phase lag",
+    "Murray's law derivation from minimizing pumping plus metabolic cost",
+    "Wave-speed estimation via the Moens-Korteweg relation and reflection coefficients at junctions",
+    "Wall shear stress from Poiseuille profiles in series-parallel networks",
+    "Compliance mismatch effects at graft anastomoses"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number to stated precision",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Diffusion-controlled release from polymeric delivery systems",
+   "scope": "Problems model drug release from matrix, reservoir, swelling or surface-eroding polymer devices of a given geometry. They ask for release times, fractions released, exponents for burst or lag behaviour, or the design parameter that gives a target release profile. These are hard because the solver must choose the right governing model (Higuchi, Fickian series, moving front or zero-order erosion) and apply its regime of validity and geometric factors exactly.",
+   "techniques": [
+    "Higuchi pseudo-steady-state derivation for dispersed-drug matrices",
+    "Fourier-series and short-time similarity solutions of Fickian release",
+    "Lag-time and burst-time analysis for membrane reservoir devices",
+    "Power-law exponents (Peppas) as diagnostics of transport mechanism by geometry",
+    "Shrinking-core and surface-erosion kinetics for spheres and cylinders",
+    "Partition-coefficient and sink-condition corrections to release rates"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "policy": "capped-sft-eval-v1 (user 2026-11-15): Super test p95 warning + measured allowance, Super-token counting for every model, v4 context notice (Pi), near-window warning (single-turn); whichever triggers first binds; open tool calls completed at the warning and at the v4 clamp. Off by default; for SFT-model evals and their baselines only.",
+ "units": "Super-native tokens (token_counting=super)",
+ "sources": {"warn": "Super c30 test p95 (experiments/super-response-caps/native_test_quantiles.json; HLE/SciCode/CritPt/TB2.1/TB-Sci-lite from the c30 Super runs, 2026-11-15)",
+             "allowance": "experiments/allowance-measurement/ALLOWANCES.md (p90 of tokens used when told 10% of the cap; HLE/GDPval/TB censored: 32k backstop / finishers' p90 / finishers' p90; TB-Sci-lite 23k as generated)"},
+ "suites": {
+  "automationbench": {"warn": 36623, "allowance": 7000, "kind": "pi"},
+  "gdpval":          {"warn": 75609, "allowance": 17000, "kind": "pi"},
+  "critpt":          {"warn": 124142, "allowance": 23000, "kind": "pi"},
+  "tb21":            {"warn": 111905, "allowance": 17000, "kind": "pi", "note": "TB allowance (TB measurement 2026-11-15: stated10 finishers' p90 17.0k, p90 censored; GDPval rule)"},
+  "tbsci_lite":      {"warn": 112698, "allowance": 23000, "kind": "pi", "note": "the 23k its train data was generated with (warn + allowance is past the window either way)"},
+  "gdppdf":          {"warn": 26610, "allowance": 5000, "kind": "single", "near_window": true},
+  "omniscience":     {"warn": 20192, "allowance": 10000, "kind": "single", "near_window": true},
+  "hle":             {"warn": 130850, "allowance": 32000, "kind": "single", "near_window": true},
+  "scicode":         {"warn": 25775, "allowance": 7000, "kind": "single", "near_window": true, "unit": "per step"}
+ }
+}

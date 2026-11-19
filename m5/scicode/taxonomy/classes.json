@@ -1,0 +1,37 @@
+{
+ "fields": {
+  "physics": "Physics",
+  "math": "Applied mathematics and numerical methods",
+  "materials": "Materials science",
+  "biology": "Biology",
+  "chemistry": "Chemistry"
+ },
+ "subfields": {
+  "math/nla_approx": "Numerical linear algebra and approximation: matrix factorizations, iterative and Krylov solvers, eigenvalue algorithms, interpolation, splines and basis functions, quadrature",
+  "math/pde_numerics": "Numerical PDEs: finite-difference, finite-volume, finite-element, spectral and operator-splitting schemes for transport, diffusion, wave and reaction equations, including PDEs from applied fields such as finance and engineering",
+  "math/info_stats": "Information theory, statistics and signal processing: entropies and channel quantities, estimation and inference, source separation and dimensionality reduction, filtering and spectral analysis",
+  "physics/quantum_info": "Quantum information and computing: states, density matrices and operators, quantum channels and noise, entanglement and information measures, quantum protocols, variational and gate-based circuits",
+  "physics/quantum_mech": "Single-particle and atomic quantum mechanics: bound states, scattering, time evolution of wavefunctions, mean-field and self-consistent atomic problems",
+  "physics/many_body": "Quantum many-body methods: variational and diffusion quantum Monte Carlo, trial wavefunctions, exact diagonalization, tensor-network and renormalization-group methods for interacting systems",
+  "physics/condensed_matter": "Condensed matter physics: band structures and tight-binding models, lattice dynamics and phonons, topological invariants, Brillouin-zone integration, response functions, spectroscopy and collective excitations",
+  "physics/optics": "Optics and photonics: wave and beam propagation, Fourier optics, ray optics and aberrations, thin films and photonic structures, lasers and amplifiers, optical trapping and manipulation, wave scattering",
+  "physics/stat_phys": "Statistical and nonlinear physics: lattice spin models, disordered systems, stochastic and Brownian dynamics, phase transitions, pattern formation and nonequilibrium dynamics",
+  "physics/fields_astro": "Classical fields, gravitation and astrophysics: electromagnetism and field evolution, relativistic and Newtonian gravity, stellar structure, orbital and celestial mechanics, astrophysical fluids and radiation",
+  "chemistry/md": "Molecular dynamics: interaction potentials and forces, periodic boundaries, integrators, thermostats and barostats, thermodynamic and structural observables from trajectories",
+  "chemistry/mc_thermo": "Molecular Monte Carlo and statistical thermodynamics: canonical and grand-canonical sampling, free energies and chemical potentials, adsorption, phase equilibria, reaction equilibria and kinetics",
+  "materials/semiconductors": "Semiconductor physics and optoelectronic devices: carrier statistics, band alignment and junctions, absorption and gain, quantum wells and dots, photodetectors, LEDs, lasers and solar cells",
+  "materials/structure": "Crystallography and atomistic structure: lattices and reciprocal space, diffraction and indexing, structure generation, interatomic potentials, defects and mechanical properties of solids and 2D materials",
+  "biology/quant_bio": "Quantitative biology: population and community ecology, consumer-resource and evolutionary dynamics, stochastic biochemical kinetics, biological sequence analysis, epidemiology and systems biology models"
+ },
+ "methods": {
+  "ode": "ODE integration: initial-value and boundary-value problems, Runge-Kutta and Numerov schemes, shooting, stiff solvers, eigenvalue problems for ODEs",
+  "pde": "Grid-based PDE solvers: finite differences, finite volumes, finite elements, spectral and split-step methods, explicit and implicit time stepping, boundary conditions",
+  "stochastic": "Monte Carlo and stochastic simulation: Metropolis and other Markov-chain sampling, Gillespie and kinetic Monte Carlo, Langevin and Brownian dynamics, quantum Monte Carlo",
+  "particles": "Particle and molecular dynamics: pair and many-body potentials, forces, neighbor handling, symplectic integrators, thermostats",
+  "linalg": "Matrix construction and linear algebra: building Hamiltonians or operators, eigen-decompositions, factorizations, iterative solvers, coordinate transforms and least squares",
+  "quantum_ops": "Quantum states and operators: tensor products, partial traces, Kraus channels, measurements, gate circuits, entropies and fidelities",
+  "waves": "Fourier methods and wave propagation: FFTs and filtering, propagation kernels, transfer and ABCD matrices, ray tracing, multipole and special-function expansions",
+  "quad_models": "Numerical integration and physical model evaluation: quadrature, special functions, closed-form physical models and device equations, building a composite model from formulas",
+  "opt_discrete": "Optimization, root finding and discrete algorithms: fixed-point and alternating iterations, Newton and bracketing methods, constrained or variational optimization, combinatorial enumeration, sequence and graph algorithms"
+ }
+}

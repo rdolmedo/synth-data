@@ -1,0 +1,656 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "Rust",
+ "weight": 0.010244000000000001,
+ "leaves": [
+  {
+   "leaf": "Ownership, moves and borrow checking",
+   "scope": "Ownership and move semantics, Copy versus move, the borrowing rules and the borrow checker: non-lexical lifetimes, two-phase borrows, Polonius and the common borrowck error codes.",
+   "queries": [
+    "non-lexical lifetimes NLL borrow checker stabilized",
+    "two-phase borrows mutable reference reservation",
+    "Polonius borrow checker location-sensitive analysis",
+    "cannot borrow as mutable more than once E0499"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lifetimes, variance and higher-ranked trait bounds",
+   "scope": "Lifetime annotations and elision rules, 'static, the anonymous lifetime, outlives and implied bounds, variance and subtyping, PhantomData, and higher-ranked trait bounds.",
+   "queries": [
+    "lifetime elision rules function signatures",
+    "variance covariant invariant PhantomData subtyping",
+    "higher-ranked trait bounds HRTB closures lifetimes",
+    "anonymous lifetime placeholder outlives requirements implied bounds"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Trait coherence, orphan rules and trait objects",
+   "scope": "Trait implementation coherence and the orphan rule, overlap checking, dyn compatibility (formerly object safety), vtables and trait objects, supertraits and trait upcasting, auto and marker traits, negative impls.",
+   "queries": [
+    "orphan rule coherence overlapping implementations",
+    "dyn compatibility object safety trait objects",
+    "trait upcasting coercion supertrait dyn",
+    "auto traits marker traits Unpin negative impls"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generics, associated types, GATs and impl Trait",
+   "scope": "Generic type parameters, trait bounds and where clauses, associated types and associated type bounds, generic associated types, impl Trait in argument and return position (including in traits), precise capturing and the turbofish.",
+   "queries": [
+    "generic associated types GATs stabilized",
+    "impl Trait return position argument position",
+    "precise capturing use bound impl Trait",
+    "where clauses associated type bounds turbofish"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Closures and the Fn traits",
+   "scope": "Closure syntax and capture modes, move closures, disjoint field capture, the Fn/FnMut/FnOnce hierarchy, closure-to-fn-pointer coercion, function item types and function pointer types.",
+   "queries": [
+    "closure capture modes move keyword",
+    "Fn FnMut FnOnce trait closure",
+    "disjoint field capture closures 2021",
+    "function pointer types fn item coercion"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Patterns, match and control-flow expressions",
+   "scope": "Pattern syntax and exhaustiveness checking, match ergonomics and binding modes, slice/range/@ patterns, let-else, if-let and let chains, while let, labeled block breaks and loop break values.",
+   "queries": [
+    "let-else statement diverging else block",
+    "if let chains let_chains stabilized",
+    "slice patterns rest pattern binding",
+    "exclusive range patterns match exhaustiveness"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type layout, repr attributes and special types",
+   "scope": "Memory layout of Rust types: default repr versus repr(C), transparent, packed and align, enum discriminants, niche optimization, size and alignment guarantees, zero-sized and dynamically sized types, ?Sized, and the never type.",
+   "queries": [
+    "repr transparent packed align attribute layout",
+    "niche optimization Option size enum layout",
+    "zero-sized types dynamically sized types Sized",
+    "never type fallback divergent expressions"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Primitive numeric types, overflow and casts",
+   "scope": "Integer and floating-point primitives (including cpu128, f16, f128 and NonZero), overflow behavior in debug and release builds, wrapping/checked/saturating/overflowing methods, numeric literal suffixes and the semantics of as casts.",
+   "queries": [
+    "integer overflow wrapping checked saturating arithmetic",
+    "as cast float to integer saturating",
+    "NonZero integer types niche",
+    "f16 f128 floating point primitive types"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, characters and std::fmt formatting",
+   "scope": "String and str UTF-8 guarantees, char as a Unicode scalar value, byte, raw and C string literals, OsString/CString/CStr, and the std::fmt machinery: format specifiers, Display/Debug, format_args and inline captured arguments.",
+   "queries": [
+    "String str UTF-8 char Unicode scalar",
+    "format specifiers width precision fill alignment",
+    "inline format arguments captured identifiers format",
+    "OsString CString CStr C string literals"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Core operator, comparison and conversion traits",
+   "scope": "Operator overloading via std::ops (Add, Index, Deref, Drop, Range types), comparison and hashing traits (PartialEq, Eq, PartialOrd, Ord, Hash), conversion traits (From, Into, TryFrom, AsRef, Borrow, ToOwned), Copy, Clone, Default and derive semantics.",
+   "queries": [
+    "std ops operator overloading traits Add Index",
+    "PartialEq Eq PartialOrd Ord derive",
+    "From Into TryFrom TryInto conversion traits",
+    "AsRef Borrow ToOwned Clone Copy Default"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Standard library collections",
+   "scope": "Vec, VecDeque, LinkedList, HashMap/HashSet (hashbrown SwissTable, SipHash, RandomState), BTreeMap/BTreeSet, BinaryHeap, the entry API, capacity management and the collection methods added across releases.",
+   "queries": [
+    "HashMap hashbrown SwissTable SipHash RandomState",
+    "BTreeMap BTreeSet range entry API",
+    "Vec capacity reserve shrink_to_fit",
+    "VecDeque BinaryHeap LinkedList std collections"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Iterator trait and iterator adapters",
+   "scope": "The Iterator and IntoIterator traits, adapter and consumer methods, DoubleEndedIterator/ExactSizeIterator/FusedIterator, FromIterator and collect, iterator constructors in std::iter, and by-value iteration over arrays.",
+   "queries": [
+    "Iterator trait adapters map filter zip",
+    "IntoIterator arrays by value 2021",
+    "DoubleEndedIterator ExactSizeIterator FusedIterator",
+    "FromIterator collect iter successors from_fn"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Smart pointers and interior mutability",
+   "scope": "Box, Rc, Arc and Weak reference counting, Cell, RefCell, OnceCell and UnsafeCell interior mutability, Cow, Box::leak, make_mut and related pointer APIs.",
+   "queries": [
+    "Rc Weak reference counting strong_count",
+    "RefCell borrow_mut BorrowMutError interior mutability",
+    "Cell OnceCell UnsafeCell",
+    "Cow clone-on-write Box leak"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Error handling and panic machinery",
+   "scope": "Result and Option combinators, the ? operator and From conversion, the std::error::Error trait and backtraces, panics, unwinding versus abort, catch_unwind, panic hooks, #[track_caller], and the error crates thiserror and anyhow.",
+   "queries": [
+    "question mark operator Result Option From",
+    "std error Error trait source backtrace",
+    "panic hook catch_unwind panic abort unwind",
+    "thiserror anyhow error derive context"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Threads, synchronization primitives and atomics",
+   "scope": "std::thread including scoped threads and thread_local, Send/Sync, Mutex poisoning, RwLock, Condvar, Barrier, mpsc channels, OnceLock/LazyLock, atomic types and memory orderings, plus crossbeam, rayon and parking_lot.",
+   "queries": [
+    "scoped threads thread scope spawn",
+    "Mutex poisoning RwLock Condvar Barrier",
+    "atomic memory ordering Acquire Release SeqCst",
+    "rayon par_iter crossbeam channel parking_lot"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Async/await, Future and Pin",
+   "scope": "Language-level async: async fn and blocks, the Future trait, poll, Waker and Context, Pin/Unpin and the pin! macro, IntoFuture, async fn in traits, async closures and the AsyncFn traits.",
+   "queries": [
+    "Future trait poll Waker Context",
+    "Pin Unpin pinning projection pin macro",
+    "async fn in traits stabilized",
+    "async closures AsyncFn AsyncFnMut traits"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Async runtimes and networking crates",
+   "scope": "The async ecosystem: Tokio (scheduler, spawn_blocking, select!, LocalSet), async-std, smol, mio, and networking crates such as hyper, axum, actix-web, reqwest, tonic, tower and rustls.",
+   "queries": [
+    "tokio runtime multi-thread scheduler spawn_blocking",
+    "tokio select macro cancellation safety",
+    "hyper 1.0 release http body",
+    "axum router extractors tower middleware"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Unsafe Rust, undefined behavior and aliasing models",
+   "scope": "Unsafe blocks and functions, raw pointers and raw borrows, the list of undefined behavior, MaybeUninit and transmute, strict provenance, Stacked Borrows and Tree Borrows, Miri, and the Rustonomicon.",
+   "queries": [
+    "undefined behavior unsafe raw pointers dereference",
+    "Stacked Borrows Tree Borrows aliasing model Miri",
+    "MaybeUninit transmute uninitialized memory",
+    "strict provenance pointer APIs expose"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "FFI and cross-language interoperability",
+   "scope": "extern blocks and ABI strings (including C-unwind), no_mangle and link attributes, the libc crate, binding generators and bridges such as bindgen, cbindgen and cxx, and other-language bindings like PyO3, maturin, napi-rs and UniFFI.",
+   "queries": [
+    "extern C ABI no_mangle link attribute",
+    "bindgen generate Rust bindings C headers",
+    "cbindgen cxx C++ interop bridge",
+    "PyO3 maturin Python extension module"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Declarative macros (macro_rules)",
+   "scope": "macro_rules syntax: fragment specifiers, repetition operators, follow-set restrictions, hygiene, textual and path-based scoping, #[macro_export], $crate, recursion limits and metavariable expressions.",
+   "queries": [
+    "macro_rules fragment specifiers expr ident tt",
+    "macro_export crate metavariable textual scope",
+    "macro hygiene mixed-site follow-set ambiguity",
+    "repetition operators metavariable expressions count"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Procedural macros",
+   "scope": "The proc-macro crate type: function-like, derive and attribute macros, derive helper attributes, the proc_macro API (TokenStream, TokenTree, Span), and the companion crates syn, quote and proc-macro2.",
+   "queries": [
+    "proc_macro_derive attribute function-like macros",
+    "TokenStream TokenTree Span proc_macro crate",
+    "syn parse DeriveInput quote macro",
+    "derive helper attributes proc-macro crate type"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Modules, paths, visibility and preludes",
+   "scope": "The module system: mod and file layout, path resolution (crate, self, super), use declarations, glob imports and re-exports, extern crate, visibility modifiers such as pub(crate) and pub(in path), and the std and edition preludes.",
+   "queries": [
+    "module system paths crate self super",
+    "visibility pub crate pub in path",
+    "std prelude edition prelude TryFrom",
+    "extern crate use declarations re-export glob imports"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Attributes and conditional compilation",
+   "scope": "Built-in attributes and conditional compilation: cfg, cfg_attr and the cfg! macro, target configuration keys, check-cfg, inline, cold, must_use, deprecated, non_exhaustive, target_feature, and the diagnostic attribute namespace.",
+   "queries": [
+    "cfg attribute target_os target_arch conditional compilation",
+    "check-cfg expected cfg names values",
+    "non_exhaustive must_use deprecated attributes",
+    "diagnostic on_unimplemented attribute namespace"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Const evaluation, const generics and statics",
+   "scope": "Compile-time evaluation: const fn and how its restrictions relaxed across releases, const generics (min_const_generics and later extensions), inline const blocks, associated consts, constant promotion, statics and static mut rules.",
+   "queries": [
+    "const fn restrictions const evaluation",
+    "min_const_generics const parameters stabilized",
+    "inline const blocks const expressions",
+    "static mut references static_mut_refs lint"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Rust editions and edition migration",
+   "scope": "The edition mechanism and the specific changes in the 2015, 2018, 2021 and 2024 editions (keywords, reserved syntax, prelude, closure capture, temporary scopes, resolver defaults) and migration with cargo fix.",
+   "queries": [
+    "Rust 2024 edition changes",
+    "edition guide 2021 reserved prefixes panic macro",
+    "Rust 2018 edition dyn keyword path changes",
+    "cargo fix edition migration lints"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cargo manifest, dependencies, features and workspaces",
+   "scope": "Cargo.toml package fields (edition, rust-version, publish), dependency specifications and SemVer requirements, features and optional/weak dependencies, workspaces and workspace inheritance, resolver versions, Cargo.lock, and patch overrides.",
+   "queries": [
+    "Cargo.toml manifest package fields rust-version",
+    "cargo features optional dependencies dep syntax",
+    "workspace inheritance members resolver version",
+    "semver caret tilde dependency requirements patch"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cargo profiles, build scripts and codegen options",
+   "scope": "Build configuration: profile settings (opt-level, debug, lto, codegen-units, panic, strip) and their defaults, build.rs and its cargo:: directives, the links key, .cargo/config.toml, Cargo environment variables and rustc -C codegen flags.",
+   "queries": [
+    "cargo profile release opt-level lto codegen-units",
+    "build script build.rs rustc-link-lib OUT_DIR",
+    "cargo config.toml environment variables RUSTFLAGS",
+    "rustc codegen options target-cpu debuginfo strip"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "crates.io, registries and supply-chain security",
+   "scope": "Publishing and registry mechanics (cargo publish, yanking, ownership, naming policies, sparse index protocol, alternative registries, API tokens, trusted publishing) plus RustSec advisories, cargo-audit, cargo-deny, cargo-vet and security incidents.",
+   "queries": [
+    "crates.io publish yank crate owners",
+    "sparse registry protocol index cargo",
+    "RustSec advisory database cargo-audit",
+    "crates.io trusted publishing API token scopes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "rustup toolchains, release channels and platform support",
+   "scope": "The six-week release train and the stable/beta/nightly channels, rustup toolchains, components, profiles and overrides, rust-toolchain.toml, target triples, platform support tiers and minimum OS/libc requirements.",
+   "queries": [
+    "rustup toolchain components profiles override",
+    "rust-toolchain.toml channel targets file",
+    "platform support tier 1 tier 2 targets",
+    "minimum supported glibc kernel version target"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler implementations and codegen backends",
+   "scope": "rustc internals (HIR, THIR, MIR, query system, incremental compilation, bootstrap stages, LLVM versions), alternative codegen backends (Cranelift, GCC), independent compilers (gccrs, mrustc), and Ferrocene and the Ferrocene Language Specification.",
+   "queries": [
+    "rustc MIR HIR query system incremental",
+    "rustc_codegen_cranelift codegen backend",
+    "gccrs GCC Rust front-end mrustc",
+    "Ferrocene Language Specification qualified compiler"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lints, formatting and IDE tooling",
+   "scope": "rustc lint levels and lint groups, the Cargo [lints] table, Clippy lint categories and clippy.toml, rustfmt configuration and style editions, and rust-analyzer features and settings.",
+   "queries": [
+    "clippy lint groups pedantic nursery restriction",
+    "lint levels allow warn deny forbid expect",
+    "rustfmt configuration options max_width style_edition",
+    "rust-analyzer configuration inlay hints proc-macro"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing, benchmarking and fuzzing",
+   "scope": "The libtest harness and cargo test options, test attributes, integration test layout, doctest annotations, benchmarking (bench and criterion), property testing, cargo-fuzz/libFuzzer, cargo-nextest and code coverage instrumentation.",
+   "queries": [
+    "cargo test harness nocapture test-threads",
+    "should_panic ignore test attributes integration tests",
+    "criterion benchmark statistics cargo bench",
+    "cargo-fuzz libFuzzer proptest instrument-coverage"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "rustdoc and docs.rs",
+   "scope": "Documentation comments, intra-doc links, doc attributes (hidden, alias, inline, cfg), rustdoc lints and command-line options, rustdoc JSON output, and the docs.rs build environment and metadata.",
+   "queries": [
+    "rustdoc intra-doc links doc comments",
+    "doc attribute hidden alias inline cfg",
+    "rustdoc lints missing_docs broken links",
+    "docs.rs metadata build features targets"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Embedded Rust and no_std",
+   "scope": "no_std development with core and alloc, panic_handler and global_allocator, bare-metal targets, embedded-hal, cortex-m-rt, svd2rust peripheral access crates, RTIC, Embassy, defmt and probe-rs.",
+   "queries": [
+    "no_std core alloc panic_handler global_allocator",
+    "embedded-hal traits 1.0 release",
+    "RTIC Embassy embedded async executor",
+    "svd2rust peripheral access crate cortex-m-rt"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "WebAssembly targets and tooling",
+   "scope": "Rust's WebAssembly targets (wasm32-unknown-unknown, the WASI targets and their renames, default target features), wasm-bindgen, js-sys/web-sys, wasm-pack, and Rust frontend frameworks such as Yew and Leptos.",
+   "queries": [
+    "wasm32-unknown-unknown target WebAssembly features",
+    "wasm-bindgen JavaScript interop web-sys js-sys",
+    "wasm32-wasip1 wasm32-wasip2 WASI target",
+    "wasm-pack Yew Leptos frontend framework"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Serde and serialization formats",
+   "scope": "The serde framework: the Serialize/Deserialize derives and container/field/variant attributes, the serde data model, enum representations, custom serializers, and format crates such as serde_json, bincode, toml and postcard.",
+   "queries": [
+    "serde derive attributes rename_all skip_serializing_if",
+    "serde data model types Serializer Deserializer",
+    "enum representations tagged untagged adjacently",
+    "serde_json Value bincode toml crate"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Rust history, governance and adoption",
+   "scope": "The language's origins with Graydon Hoare and Mozilla, the road to 1.0, Servo, the Rust Foundation, project teams, the RFC process and Leadership Council, trademark policy, and adoption in the Linux kernel, Android, Windows and industry.",
+   "queries": [
+    "Rust programming language history Graydon Hoare Mozilla",
+    "Rust Foundation founding members Leadership Council",
+    "Rust for Linux kernel support merged",
+    "RFC process Rust teams governance trademark"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Standard library I/O, filesystem, process and OS APIs",
+   "scope": "std::io traits and buffering, std::fs and OpenOptions, std::path, std::process (Command, Stdio, ExitCode), std::net sockets, std::env and std::time (Instant, Duration, SystemTime).",
+   "queries": [
+    "std io Read Write BufReader BufRead",
+    "std fs File OpenOptions metadata permissions",
+    "std process Command Stdio ExitCode",
+    "std path PathBuf env args var"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "General-purpose utility and database crates",
+   "scope": "Common ecosystem crates outside async/web: clap for CLIs, log and tracing, regex, rand, chrono/time/jiff, itertools, and database crates such as Diesel, SQLx and rusqlite.",
+   "queries": [
+    "clap derive Parser subcommand arguments",
+    "tracing spans subscriber instrument log",
+    "regex crate syntax RegexSet Unicode",
+    "Diesel SQLx database query builder migrations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GUI frameworks and game engines",
+   "scope": "Rust GUI and graphics libraries (egui, iced, Slint, gtk-rs, Tauri, Dioxus, winit, wgpu) and game engines and frameworks (Bevy and its ECS, Fyrox, macroquad, ggez, Amethyst).",
+   "queries": [
+    "Bevy engine ECS release notes",
+    "wgpu WebGPU graphics API winit",
+    "egui iced Slint GUI toolkit",
+    "Tauri desktop application framework release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "rustc compiler internals: HIR, MIR, query system and incremental compilation",
+   "scope": "The internal architecture of the reference rustc compiler as described in the rustc-dev-guide: AST/HIR/THIR/MIR lowering, the query system and incremental compilation, TyCtxt and interning, MIR borrowck and Polonius, and the old and next-generation trait solvers.",
+   "queries": [
+    "rustc query system incremental compilation red green",
+    "HIR THIR MIR lowering rustc dev guide",
+    "rustc next trait solver chalk Polonius borrowck",
+    "rustc_middle TyCtxt interning arena DefId"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Nightly feature gates, tracking issues and per-release stabilizations",
+   "scope": "The Unstable Book's language and library feature gates, their tracking issues and stabilization reports, and which Rust 1.x release stabilized, deprecated or removed a given feature or API.",
+   "queries": [
+    "unstable book feature gate tracking issue",
+    "Rust 1.x release notes stabilized APIs",
+    "stabilization report feature flag nightly compiler",
+    "feature attribute removed library feature stabilized version"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "SIMD, target features and platform intrinsics",
+   "scope": "Explicit vectorization and CPU-specific code in Rust: core::arch intrinsics per architecture, #[target_feature] and target_feature 1.1, runtime feature detection macros, -C target-cpu/target-feature, portable std::simd, and third-party SIMD crates.",
+   "queries": [
+    "core::arch x86_64 intrinsics target_feature enable",
+    "std::simd portable SIMD Simd lanes LaneCount",
+    "is_x86_feature_detected runtime CPU feature detection",
+    "target-cpu native AVX-512 target features stabilized"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Memory allocators, the alloc crate and the Allocator API",
+   "scope": "How Rust programs obtain heap memory: the alloc crate, GlobalAlloc and #[global_allocator], the System allocator, std::alloc::Layout, the unstable Allocator trait and allocator_api, out-of-memory handling and fallible reservation, and third-party allocators such as jemalloc and mimalloc.",
+   "queries": [
+    "GlobalAlloc trait global_allocator attribute System",
+    "Allocator trait allocator_api unstable Layout",
+    "handle_alloc_error out of memory try_reserve",
+    "jemallocator mimalloc Rust default allocator removed"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type coercions, auto-deref and method-call resolution",
+   "scope": "The Rust Reference's rules for implicit conversions and method lookup: coercion sites and coercion types, unsized coercions and CoerceUnsized, deref coercion, least-upper-bound coercions, method-call autoderef/autoref candidate ordering, type inference and never-type fallback.",
+   "queries": [
+    "coercion sites unsized coercion CoerceUnsized reference",
+    "method call expression autoderef autoref receiver candidate",
+    "deref coercion type inference never type fallback",
+    "least upper bound coercion function item pointer"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Rust in operating system kernels",
+   "scope": "Rust used in OS kernels and low-level system software: Rust-for-Linux infrastructure, the kernel crate and its bindings, the drivers it has merged and the kernel versions they landed in, plus Redox OS, Android's Rust components, Windows kernel Rust and research kernels like Theseus.",
+   "queries": [
+    "Rust for Linux kernel crate bindings abstractions",
+    "Linux kernel 6.1 Rust support merged",
+    "Redox OS microkernel written in Rust",
+    "Android Binder driver Rust kernel module"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Formal verification, specification and safety-critical Rust",
+   "scope": "Formal semantics and assurance work on Rust: RustBelt and related proofs, the Ferrocene qualified toolchain and its certifications, the Ferrocene Language Specification adopted as the Rust spec, and verification tools such as Kani, Prusti, Creusot, Verus and Aeneas.",
+   "queries": [
+    "Ferrocene qualified Rust compiler ISO 26262",
+    "Ferrocene Language Specification FLS Rust specification",
+    "Kani model checker proof harness Rust",
+    "RustBelt Prusti Creusot Verus verification"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  }
+ ]
+}

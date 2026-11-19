@@ -1,0 +1,1099 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Biology",
+ "weight": 0.017,
+ "leaves": [
+  {
+   "leaf": "Enzyme kinetics, catalytic mechanisms and EC classification",
+   "scope": "Enzyme Commission numbering and nomenclature, Michaelis-Menten and inhibition kinetics, catalytic mechanisms, cofactors and coenzymes, and kinetic parameters of specific enzymes.",
+   "queries": [
+    "EC number enzyme commission classification oxidoreductases transferases",
+    "Michaelis-Menten constant Km kcat turnover number",
+    "catalytic triad serine protease oxyanion hole",
+    "coenzyme vitamin derived cofactor thiamine pyrophosphate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Central carbon metabolism and bioenergetics",
+   "scope": "Glycolysis, gluconeogenesis, the pentose phosphate pathway, the citric acid cycle, fatty acid oxidation, the urea cycle, the electron transport chain and ATP synthase stoichiometry.",
+   "queries": [
+    "glycolysis enzymes phosphofructokinase pyruvate kinase regulation",
+    "citric acid cycle enzymes succinyl-CoA synthetase",
+    "ATP synthase c-ring stoichiometry protons per ATP",
+    "fatty acid beta-oxidation carnitine palmitoyltransferase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Photosynthesis and carbon fixation",
+   "scope": "Light-dependent reactions, photosystems and pigments, the Calvin-Benson cycle and RuBisCO, photorespiration, and the C4 and CAM carbon-concentrating pathways.",
+   "queries": [
+    "photosystem II oxygen-evolving complex manganese cluster",
+    "RuBisCO carboxylation Calvin cycle enzymes",
+    "C4 carbon fixation PEP carboxylase Kranz anatomy",
+    "P680 P700 reaction center chlorophyll absorption"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Protein structure, folds and structural biology methods",
+   "scope": "Secondary and tertiary protein structure geometry, fold and domain classification (SCOP, CATH), structure determination by X-ray crystallography, NMR and cryo-EM, and landmark solved structures.",
+   "queries": [
+    "alpha helix residues per turn pitch hydrogen bond",
+    "Ramachandran plot phi psi angles allowed regions",
+    "SCOP CATH protein fold classification domains",
+    "cryo-electron microscopy resolution first protein structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "DNA replication, repair and recombination",
+   "scope": "Replication enzymes, origins and licensing in bacteria and eukaryotes, telomeres and telomerase, DNA repair pathways (BER, NER, MMR, NHEJ, HR) and recombination machinery.",
+   "queries": [
+    "DNA polymerase III holoenzyme subunits sliding clamp",
+    "origin recognition complex MCM helicase licensing",
+    "nucleotide excision repair xeroderma pigmentosum genes",
+    "Holliday junction RecA RuvABC homologous recombination"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transcription machinery, operons and pre-mRNA processing",
+   "scope": "Bacterial and eukaryotic RNA polymerases, promoter elements, sigma and general transcription factors, operons and attenuation, and mRNA capping, splicing and polyadenylation.",
+   "queries": [
+    "sigma factor promoter -10 -35 consensus sequence",
+    "lac operon repressor operator CAP binding site",
+    "RNA polymerase II general transcription factors TFIID",
+    "spliceosome snRNP U1 U2 branch point"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genetic code, tRNA and ribosomal translation",
+   "scope": "Codon assignments and variant genetic codes, tRNA structure and aminoacyl-tRNA synthetases, ribosome subunits and rRNAs, translation factors and stop-codon recoding.",
+   "queries": [
+    "alternative genetic codes mitochondrial codon reassignment",
+    "aminoacyl-tRNA synthetase class I class II",
+    "ribosome subunits sedimentation coefficient 16S 23S rRNA",
+    "selenocysteine pyrrolysine UGA UAG recoding"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Regulatory non-coding RNAs, RNA interference and RNA editing",
+   "scope": "MicroRNAs, siRNAs, piRNAs, lncRNAs, snoRNAs, ribozymes and riboswitches, the RNAi machinery, and RNA editing and chemical RNA modifications.",
+   "queries": [
+    "microRNA biogenesis Drosha Dicer Argonaute",
+    "piRNA PIWI proteins transposon silencing germline",
+    "long noncoding RNA HOTAIR MALAT1 function",
+    "RNA editing ADAR adenosine to inosine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chromatin, histone modifications and epigenetic inheritance",
+   "scope": "Nucleosome structure, histone variants and post-translational marks, DNA methylation enzymes, chromatin remodelers, Polycomb and Trithorax systems, and genomic imprinting.",
+   "queries": [
+    "nucleosome core particle base pairs histone octamer",
+    "histone H3 lysine methylation H3K27me3 Polycomb",
+    "DNA methyltransferase DNMT3A CpG island methylation",
+    "genomic imprinting imprinted genes Igf2 H19"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cell cycle control, mitosis and meiosis",
+   "scope": "Cyclins and CDKs, checkpoints, the anaphase-promoting complex, kinetochores and spindle assembly, cohesin and condensin, and meiotic prophase and the synaptonemal complex.",
+   "queries": [
+    "cyclin-dependent kinase cdc2 cdc28 yeast mutants",
+    "anaphase-promoting complex securin separase cohesin",
+    "kinetochore Ndc80 spindle assembly checkpoint Mad2",
+    "synaptonemal complex prophase I leptotene zygotene pachytene"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cytoskeleton, molecular motors and muscle contraction",
+   "scope": "Actin filaments, microtubules and intermediate filaments, myosin, kinesin and dynein motors, the axoneme of cilia and flagella, and sarcomere structure and contraction.",
+   "queries": [
+    "microtubule protofilaments tubulin GTP dynamic instability",
+    "kinesin dynein myosin motor step size",
+    "9+2 axoneme cilia radial spokes dynein arms",
+    "sarcomere titin nebulin Z-disc structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Membrane transport, ion channels and pumps",
+   "scope": "Membrane lipid composition, transporter families (ABC, SLC, P-type ATPases), ion channel structure and selectivity, aquaporins and the ionic basis of membrane potential.",
+   "queries": [
+    "sodium potassium ATPase stoichiometry ions per ATP",
+    "potassium channel selectivity filter KcsA structure",
+    "ABC transporter family P-glycoprotein CFTR",
+    "aquaporin water channel NPA motif"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Endomembrane system, vesicle trafficking and protein targeting",
+   "scope": "ER, Golgi, lysosomes and peroxisomes, signal sequences and translocation, vesicle coats (COPI, COPII, clathrin), Rab GTPases, SNAREs and endocytic pathways.",
+   "queries": [
+    "signal recognition particle SRP receptor Sec61 translocon",
+    "COPII COPI clathrin vesicle coat proteins",
+    "SNARE proteins syntaxin synaptobrevin SNAP-25",
+    "peroxisome targeting signal PTS1 SKL import"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cell signaling pathways and second messengers",
+   "scope": "Receptor classes (GPCRs, receptor tyrosine kinases, cytokine receptors), second messengers, kinase cascades and the molecular components of Wnt, Notch, Hedgehog, TGF-beta and JAK-STAT pathways.",
+   "queries": [
+    "G protein-coupled receptor heterotrimeric G alpha subunits",
+    "MAP kinase cascade Ras Raf MEK ERK",
+    "Wnt beta-catenin destruction complex APC Axin",
+    "Hedgehog signaling Patched Smoothened Gli"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Proteostasis, autophagy and regulated cell death",
+   "scope": "Molecular chaperones and heat-shock proteins, ubiquitin ligases and the proteasome, autophagy genes and machinery, and apoptosis, necroptosis, pyroptosis and ferroptosis.",
+   "queries": [
+    "Hsp70 Hsp90 GroEL GroES chaperonin",
+    "26S proteasome subunits ubiquitin E3 ligase",
+    "autophagy ATG genes yeast Ohsumi autophagosome",
+    "apoptosis caspases Bcl-2 family cytochrome c"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical transmission genetics and Drosophila genetics",
+   "scope": "Mendelian inheritance, linkage and recombination mapping, sex linkage and sex determination, epistasis and gene interaction, and classic mutants and genetic tools in Drosophila.",
+   "queries": [
+    "Drosophila melanogaster mutant alleles white eye Morgan",
+    "genetic linkage map centimorgan recombination frequency",
+    "balancer chromosome Drosophila dominant marker",
+    "epistasis modified dihybrid ratios coat color"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Population genetics and molecular evolution",
+   "scope": "Hardy-Weinberg equilibrium, drift, selection, migration and mutation models, effective population size, the coalescent, neutral and nearly neutral theory, and statistical tests for selection.",
+   "queries": [
+    "Hardy-Weinberg equilibrium allele frequency assumptions",
+    "neutral theory molecular evolution Kimura nearly neutral",
+    "Tajima's D test neutrality statistic",
+    "fixation index FST Wright island model"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bioinformatics databases, file formats and sequence algorithms",
+   "scope": "Biological sequence and structure databases and accession formats, file formats (FASTA, FASTQ, SAM, GFF), substitution matrices, and alignment, assembly and search algorithms and tools.",
+   "queries": [
+    "Smith-Waterman Needleman-Wunsch alignment algorithm",
+    "BLOSUM62 PAM substitution matrix derivation",
+    "FASTQ Phred quality score encoding",
+    "UniProt accession number format Swiss-Prot"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Recombinant DNA, PCR and sequencing technologies",
+   "scope": "Restriction enzymes and recognition sites, cloning vectors and expression systems, PCR variants and polymerases, blotting methods, and the chemistry of Sanger, Illumina, PacBio and nanopore sequencing.",
+   "queries": [
+    "restriction enzyme recognition site EcoRI HindIII",
+    "plasmid cloning vector pUC19 pBR322 origin",
+    "Taq polymerase PCR thermocycling Kary Mullis",
+    "Illumina sequencing by synthesis nanopore PacBio SMRT"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "CRISPR-Cas systems and genome editing",
+   "scope": "Natural CRISPR-Cas immune systems and their class/type classification, Cas effector proteins and PAM requirements, and editing technologies including base editors, prime editors and anti-CRISPR proteins.",
+   "queries": [
+    "CRISPR-Cas classification class 1 class 2 types",
+    "SpCas9 PAM sequence NGG guide RNA",
+    "Cas12a Cas13 effector RNA targeting",
+    "base editing prime editing cytidine deaminase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Model organisms, reference strains and genome projects",
+   "scope": "Reference organisms and strains (E. coli K-12, S. cerevisiae S288C, C. elegans N2, C57BL/6 mice, Arabidopsis Col-0, zebrafish), stock centers, and genome sequencing milestones, genome sizes, chromosome numbers and gene counts.",
+   "queries": [
+    "Caenorhabditis elegans N2 Bristol strain",
+    "Saccharomyces cerevisiae S288C genome sequence chromosomes",
+    "Arabidopsis thaliana Columbia ecotype genome size",
+    "largest genome size C-value eukaryote"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Developmental biology, stem cells and regeneration",
+   "scope": "Embryology from fertilization through organogenesis, axis formation and morphogens, segmentation and Hox genes, embryonic staging series, pluripotency and reprogramming, and regeneration in model animals.",
+   "queries": [
+    "Hox gene cluster colinearity Antennapedia bithorax",
+    "Hamburger Hamilton stages chick embryo",
+    "Drosophila maternal effect gap pair-rule genes",
+    "regeneration blastema axolotl planarian neoblasts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Immunology: antibodies, receptors, MHC and cytokines",
+   "scope": "Innate and adaptive immunity, immunoglobulin classes and structure, V(D)J recombination, MHC/HLA, T-cell subsets and CD markers, cytokines, Toll-like receptors and complement.",
+   "queries": [
+    "immunoglobulin heavy chain isotypes IgG subclasses",
+    "V(D)J recombination RAG1 RAG2 recombination signal sequence",
+    "Toll-like receptor ligands TLR4 TLR9",
+    "complement classical pathway C3 convertase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neurobiology: synapses, neurotransmitters and neuroanatomy",
+   "scope": "Neurotransmitters and their receptors, synaptic transmission, action potential biophysics, glia, neuroanatomical structures and sensory transduction mechanisms.",
+   "queries": [
+    "GABA-A nicotinic acetylcholine receptor subunits",
+    "action potential Hodgkin Huxley squid giant axon",
+    "cranial nerves nuclei brainstem neuroanatomy",
+    "phototransduction rhodopsin transducin photoreceptor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Comparative animal physiology",
+   "scope": "Gas exchange and respiratory pigments, circulatory systems across taxa, osmoregulation and excretion, thermoregulation, and allometric scaling of metabolism.",
+   "queries": [
+    "hemocyanin hemerythrin respiratory pigments invertebrates",
+    "avian lung parabronchi air sacs unidirectional flow",
+    "osmoregulation elasmobranch urea TMAO marine teleost",
+    "Kleiber's law metabolic rate scaling exponent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Endocrinology and reproductive biology",
+   "scope": "Hormone structures and receptors, vertebrate endocrine glands and axes, invertebrate hormones such as ecdysone and juvenile hormone, gametogenesis, fertilization and reproductive cycles.",
+   "queries": [
+    "hypothalamic releasing hormones pituitary amino acids",
+    "ecdysone juvenile hormone insect molting",
+    "spermatogenesis Sertoli cells duration stages",
+    "acrosome reaction zona pellucida ZP3 fertilization"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bacterial and archaeal microbiology",
+   "scope": "Prokaryotic cell envelopes, motility and sporulation, microbial metabolism (nitrogen fixation, methanogenesis, chemolithotrophy), quorum sensing, and prokaryotic taxonomy and nomenclature.",
+   "queries": [
+    "peptidoglycan Gram-positive Gram-negative cell wall",
+    "Bacillus subtilis endospore sporulation stages",
+    "methanogenic archaea Euryarchaeota methanogenesis",
+    "quorum sensing autoinducer Vibrio fischeri lux"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Virology: virus taxonomy, structure and replication",
+   "scope": "ICTV virus taxonomy, Baltimore classes, capsid architecture, genome organization and replication strategies, bacteriophages and notable virus discoveries.",
+   "queries": [
+    "Baltimore classification virus groups genome",
+    "ICTV virus taxonomy realm order family",
+    "bacteriophage lambda lysogeny cI repressor",
+    "icosahedral capsid triangulation number"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mycology: fungal diversity, life cycles and lichens",
+   "scope": "Fungal phylogeny and phyla, hyphal and spore biology, life cycles and mating systems, mycorrhizae, lichens and fungal secondary metabolites.",
+   "queries": [
+    "Basidiomycota Ascomycota fruiting body classification",
+    "arbuscular mycorrhizal fungi Glomeromycota",
+    "lichen photobiont mycobiont symbiosis",
+    "fungal mating type loci Neurospora"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Protists and algae",
+   "scope": "Eukaryotic supergroups and free-living protist lineages, primary and secondary plastid endosymbiosis, algal pigments and life cycles, and the cell biology of diatoms, dinoflagellates and ciliates.",
+   "queries": [
+    "eukaryotic supergroups SAR Excavata Archaeplastida",
+    "secondary endosymbiosis plastid nucleomorph cryptophytes",
+    "diatom frustule silica cell wall",
+    "ciliate macronucleus micronucleus Tetrahymena"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plant physiology, anatomy and phytohormones",
+   "scope": "Plant tissues and anatomy, water and solute transport, phytohormones and their receptors, photoreceptors and photoperiodism, and the genetics of flowering and plant development.",
+   "queries": [
+    "auxin transport PIN proteins TIR1 receptor",
+    "phytochrome red far-red photoreceptor flowering",
+    "xylem phloem transport cohesion-tension theory",
+    "ABC model flower development Arabidopsis genes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plant systematics and botanical nomenclature",
+   "scope": "Angiosperm Phylogeny Group classification, land plant lineages (bryophytes, ferns, gymnosperms), diagnostic features of plant families, and the International Code of Nomenclature for algae, fungi and plants.",
+   "queries": [
+    "APG IV angiosperm orders families classification",
+    "gymnosperm conifers Gnetophyta cycads families",
+    "International Code of Nomenclature algae fungi plants",
+    "bryophytes liverworts hornworts mosses alternation generations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Invertebrate zoology and entomology",
+   "scope": "Invertebrate phyla and body plans, characteristic anatomy of sponges, cnidarians, molluscs, annelids, arthropods and echinoderms, and insect orders, morphology and metamorphosis.",
+   "queries": [
+    "insect orders Hymenoptera Coleoptera classification",
+    "echinoderm water vascular system tube feet",
+    "cnidarian cnidocytes nematocyst life cycle",
+    "cephalopod mollusc anatomy nervous system"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vertebrate zoology and comparative anatomy",
+   "scope": "Classification, diagnostic anatomy and diversity of fishes, amphibians, reptiles, birds and mammals, including skeletal and sensory specializations.",
+   "queries": [
+    "mammal orders placental marsupial monotremes classification",
+    "Chondrichthyes ampullae of Lorenzini cartilaginous fish",
+    "Squamata families lizards snakes classification",
+    "bird skeleton furcula synsacrum pygostyle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Population, community and ecosystem ecology",
+   "scope": "Population growth and regulation models, competition and predation theory, community structure and succession, food webs and trophic dynamics, productivity, nutrient cycling and diversity indices.",
+   "queries": [
+    "logistic growth carrying capacity Lotka-Volterra competition",
+    "Shannon diversity index Simpson index",
+    "ecological succession climax community Clements Gleason",
+    "trophic cascade keystone species Paine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biogeography, biodiversity and conservation biology",
+   "scope": "Biogeographic realms and faunal lines, island biogeography, biomes, biodiversity hotspots, IUCN Red List and CITES frameworks, and endangered and recently extinct species.",
+   "queries": [
+    "Wallace Line biogeographic realms Wallacea",
+    "island biogeography MacArthur Wilson species-area",
+    "IUCN Red List categories criteria critically endangered",
+    "biodiversity hotspots Myers endemic species"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Speciation, phylogenetic systematics and zoological nomenclature",
+   "scope": "Species concepts and modes of speciation, reproductive isolation, cladistic methods and tree inference, molecular clocks, adaptive radiation, and ICZN naming rules and type specimens.",
+   "queries": [
+    "biological species concept Mayr reproductive isolation",
+    "cladistics Hennig synapomorphy monophyletic group",
+    "molecular clock calibration divergence time estimate",
+    "ICZN zoological nomenclature holotype type species"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Paleontology, history of life and human evolution",
+   "scope": "The fossil record across geologic time, Ediacaran and Cambrian biotas, fossil Lagerstätten, mass extinctions, key transitional fossils, and hominin species and named specimens.",
+   "queries": [
+    "Burgess Shale Cambrian fauna Anomalocaris",
+    "end-Permian mass extinction percentage species lost",
+    "Tiktaalik Archaeopteryx transitional fossil discovery",
+    "Australopithecus afarensis Lucy hominin fossil specimen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Animal behavior and behavioral ecology",
+   "scope": "Ethology and behavioral ecology: instinct and learning, animal communication, kin selection and social evolution, mating systems, foraging theory and navigation.",
+   "queries": [
+    "Tinbergen four questions fixed action pattern",
+    "honeybee waggle dance von Frisch communication",
+    "kin selection Hamilton's rule eusociality haplodiploidy",
+    "bird song learning critical period zebra finch"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Parasitology and host-associated symbioses",
+   "scope": "Life cycles, hosts and vectors of helminth and protozoan parasites, host-parasite coevolution, insect endosymbionts such as Wolbachia and Buchnera, and host-associated microbiomes.",
+   "queries": [
+    "Plasmodium life cycle sporozoite merozoite mosquito",
+    "Schistosoma life cycle intermediate host snail",
+    "Wolbachia cytoplasmic incompatibility insects",
+    "Buchnera aphid endosymbiont genome reduction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Amino acid metabolism, urea cycle and nitrogen assimilation",
+   "scope": "How amino acids are made and broken down, including transamination, the urea cycle, nitrogen assimilation by glutamine synthetase/GOGAT, one-carbon metabolism and inborn errors of amino acid metabolism.",
+   "queries": [
+    "urea cycle carbamoyl phosphate synthetase ornithine transcarbamylase",
+    "glucogenic ketogenic amino acids catabolism pathway",
+    "shikimate pathway chorismate aromatic amino acid biosynthesis",
+    "glutamine synthetase GOGAT ammonium assimilation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nucleotide metabolism: purine and pyrimidine synthesis, salvage and degradation",
+   "scope": "De novo purine and pyrimidine biosynthesis, salvage pathways, ribonucleotide reductase, nucleotide catabolism to uric acid, and the inhibitors and disorders that act on these pathways.",
+   "queries": [
+    "de novo purine biosynthesis inosine monophosphate enzymes",
+    "pyrimidine biosynthesis aspartate transcarbamoylase dihydroorotate dehydrogenase",
+    "ribonucleotide reductase classes deoxyribonucleotide synthesis",
+    "HGPRT purine salvage Lesch-Nyhan xanthine oxidase"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lipid metabolism, membrane lipids and eicosanoids",
+   "scope": "Fatty acid synthesis and beta-oxidation, ketone bodies, the mevalonate pathway and cholesterol synthesis, phospholipid and sphingolipid biosynthesis, lipoproteins, eicosanoids and the lipid composition of membranes.",
+   "queries": [
+    "fatty acid synthase malonyl-CoA beta oxidation carnitine",
+    "HMG-CoA reductase mevalonate pathway cholesterol synthesis",
+    "sphingolipid ceramide sphingomyelin ganglioside biosynthesis",
+    "prostaglandin thromboxane cyclooxygenase arachidonic acid"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vitamins, coenzymes and metal cofactors",
+   "scope": "Structures, biosynthesis and catalytic roles of vitamins and coenzymes (NAD, FAD, CoA, TPP, PLP, biotin, cobalamin, folate) and of metal centers such as heme, iron-sulfur clusters and the molybdenum cofactor.",
+   "queries": [
+    "thiamine pyrophosphate pyridoxal phosphate coenzyme mechanism",
+    "vitamin B12 cobalamin structure biosynthesis",
+    "iron-sulfur cluster ferredoxin biogenesis",
+    "molybdenum cofactor metalloenzyme active site metal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glycobiology: glycan structures, glycosylation and lectins",
+   "scope": "Monosaccharide and glycan chemistry, N- and O-linked glycosylation, glycosyltransferases, glycosaminoglycans and proteoglycans, lectins, and congenital disorders of glycosylation.",
+   "queries": [
+    "N-linked glycosylation dolichol oligosaccharyltransferase",
+    "O-GlcNAc mucin O-linked glycosylation",
+    "glycosaminoglycan heparan sulfate chondroitin disaccharide",
+    "lectin selectin galectin carbohydrate binding"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Natural product biosynthesis: alkaloids, terpenoids, polyketides and nonribosomal peptides",
+   "scope": "Biosynthetic pathways and enzymes for plant and microbial specialized metabolites, including alkaloids, terpenoids, phenylpropanoids, flavonoids, polyketides and nonribosomal peptides.",
+   "queries": [
+    "polyketide synthase modules erythromycin biosynthesis",
+    "nonribosomal peptide synthetase adenylation domain",
+    "terpenoid biosynthesis MEP pathway isoprene units",
+    "benzylisoquinoline alkaloid biosynthesis morphine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nucleic acid structure and chemistry",
+   "scope": "Chemical structure and helical forms of DNA and RNA, base pairing and stacking, supercoiling and topology, melting behavior, and non-canonical structures such as G-quadruplexes, triplexes and Hoogsteen pairs.",
+   "queries": [
+    "A-DNA B-DNA Z-DNA helix base pairs per turn",
+    "DNA supercoiling linking number twist writhe",
+    "G-quadruplex Hoogsteen base pairing triplex",
+    "DNA melting temperature hyperchromicity GC content"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Extracellular matrix, cell adhesion molecules and cell junctions",
+   "scope": "Collagens, fibronectin, laminins and other matrix proteins, plus integrins, cadherins and other adhesion receptors, and the molecular makeup of tight, adherens and gap junctions and desmosomes.",
+   "queries": [
+    "collagen types triple helix procollagen processing",
+    "integrin alpha beta subunits RGD ligand",
+    "cadherin catenin adherens junction desmosome",
+    "tight junction claudin occludin connexin gap junction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mitochondria, plastids and peroxisomes: organelle genomes, import and dynamics",
+   "scope": "Gene content of organelle genomes, protein import machinery (TOM/TIM, TOC/TIC, peroxins), mitochondrial fission and fusion, and the endosymbiotic origin of mitochondria and plastids.",
+   "queries": [
+    "human mitochondrial DNA genes heteroplasmy",
+    "TOM TIM complex mitochondrial protein import",
+    "chloroplast genome plastid endosymbiosis cyanobacteria",
+    "peroxisome biogenesis peroxin PEX targeting signal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Human genetics: Mendelian disorders, chromosomal syndromes and cytogenetics",
+   "scope": "Human single-gene and chromosomal disorders, their causal genes and mutations, pedigree inheritance patterns, karyotyping, chromosome banding, ISCN nomenclature, aneuploidies and structural rearrangements.",
+   "queries": [
+    "autosomal recessive disorder gene mutation carrier frequency",
+    "trisomy syndrome nondisjunction karyotype",
+    "G-banding chromosome ISCN nomenclature translocation",
+    "trinucleotide repeat expansion disorder anticipation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quantitative genetics, heritability and genome-wide association",
+   "scope": "Inheritance of continuous traits, including variance components, heritability, breeding values, response to selection, QTL mapping, GWAS and polygenic scores.",
+   "queries": [
+    "narrow sense heritability additive genetic variance",
+    "quantitative trait locus QTL mapping",
+    "genome-wide association study linkage disequilibrium SNP",
+    "breeder's equation response to selection"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sex determination, sex chromosomes and dosage compensation",
+   "scope": "Genetic and environmental sex-determination systems (XY, ZW, haplodiploidy, temperature-dependent), the genes that set sex, how sex chromosomes evolve, and dosage compensation across taxa.",
+   "queries": [
+    "SRY testis determining factor SOX9",
+    "temperature-dependent sex determination reptiles",
+    "X inactivation XIST dosage compensation",
+    "ZW birds haplodiploidy sex determination systems"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transposable elements, repetitive DNA and genome size",
+   "scope": "Classes of transposable elements (DNA transposons, LTR and non-LTR retrotransposons), satellite and other repetitive DNA, the C-value paradox, genome size variation, and gene and whole-genome duplication.",
+   "queries": [
+    "LINE-1 Alu retrotransposon human genome",
+    "DNA transposon transposase Mariner cut and paste",
+    "C-value paradox genome size largest genome",
+    "whole genome duplication paralogs ancient polyploidy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bacterial genetics, plasmids and horizontal gene transfer",
+   "scope": "Conjugation, transformation and transduction, F factor and Hfr mapping, plasmid replication and incompatibility, insertion sequences, integrons and genomic islands.",
+   "queries": [
+    "bacterial conjugation F plasmid Hfr strain",
+    "generalized specialized transduction bacteriophage",
+    "natural competence transformation Streptococcus pneumoniae",
+    "integron gene cassette plasmid incompatibility group"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transcription factor families, DNA-binding domains and cis-regulatory elements",
+   "scope": "Structural families of eukaryotic DNA-binding domains (helix-turn-helix, homeodomain, zinc fingers, bZIP, bHLH, nuclear receptors), their consensus motifs, and enhancers, silencers and insulators.",
+   "queries": [
+    "zinc finger transcription factor DNA binding domain",
+    "basic helix-loop-helix leucine zipper bZIP",
+    "enhancer insulator CTCF cis-regulatory element",
+    "nuclear receptor superfamily hormone response element"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Protein purification, electrophoresis and mass-spectrometry proteomics",
+   "scope": "Biochemical methods for isolating and analyzing proteins: chromatography, SDS-PAGE and 2D gels, Western blotting, affinity tags, Edman sequencing, and quantitative mass-spectrometry proteomics.",
+   "queries": [
+    "SDS-PAGE polyacrylamide gel electrophoresis Laemmli",
+    "ion exchange size exclusion affinity chromatography protein purification",
+    "MALDI electrospray tandem mass spectrometry peptides",
+    "SILAC isobaric tag quantitative proteomics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Microscopy, fluorescent proteins and cell imaging",
+   "scope": "Light microscopy methods (phase contrast, DIC, confocal, two-photon, light-sheet), super-resolution techniques, fluorescent proteins and dyes, FRET and FRAP, and electron microscopy of cells.",
+   "queries": [
+    "green fluorescent protein Aequorea chromophore variants",
+    "super-resolution microscopy STED PALM STORM",
+    "confocal two-photon light sheet fluorescence microscopy",
+    "FRET FRAP fluorescence recovery after photobleaching"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cell culture and established cell lines",
+   "scope": "Where common cell lines came from and what defines them (HeLa, HEK 293, CHO, Vero, Jurkat), plus culture media and supplements, primary culture, immortalization, contamination and cell line authentication.",
+   "queries": [
+    "HeLa cell line Henrietta Lacks 1951",
+    "HEK 293 cells adenovirus transformed origin",
+    "cell culture medium DMEM fetal bovine serum",
+    "cell line authentication STR profiling mycoplasma contamination"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mathematical and systems biology models",
+   "scope": "Quantitative models of biological systems, such as Hodgkin–Huxley neuron models, Turing reaction–diffusion patterns, gene regulatory network motifs, flux balance analysis and stochastic gene expression.",
+   "queries": [
+    "Hodgkin-Huxley model squid axon conductance equations",
+    "Turing pattern reaction diffusion morphogen",
+    "network motif feed-forward loop gene regulation",
+    "flux balance analysis genome-scale metabolic model"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Synthetic biology: genetic circuits, standard parts and minimal cells",
+   "scope": "Engineered genetic circuits (toggle switch, repressilator), standardized parts (BioBricks, iGEM Registry), chassis organisms, synthetic and minimal genomes, and xeno nucleic acids and unnatural base pairs.",
+   "queries": [
+    "repressilator genetic toggle switch synthetic circuit",
+    "BioBrick standard biological parts iGEM registry",
+    "JCVI-syn3.0 minimal synthetic genome Mycoplasma",
+    "unnatural base pair xeno nucleic acid"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cancer biology: oncogenes, tumor suppressors and tumor progression",
+   "scope": "Oncogenes and tumor suppressor genes, Knudson's two-hit hypothesis, the hallmarks of cancer, oncogenic translocations and viruses, and invasion and metastasis.",
+   "queries": [
+    "tumor suppressor p53 RB two-hit hypothesis",
+    "proto-oncogene RAS MYC activation translocation",
+    "hallmarks of cancer Hanahan Weinberg",
+    "epithelial mesenchymal transition metastasis invasion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biology of aging, cellular senescence and lifespan genetics",
+   "scope": "Theories and mechanisms of aging, cellular senescence and the Hayflick limit, telomere attrition, genes and interventions that extend lifespan in model organisms, and exceptionally long-lived species.",
+   "queries": [
+    "Hayflick limit cellular senescence telomere shortening",
+    "daf-2 insulin signaling lifespan Caenorhabditis elegans",
+    "caloric restriction rapamycin mTOR lifespan extension",
+    "negligible senescence longest-lived animal species"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Circadian clocks and chronobiology",
+   "scope": "The molecular parts of circadian clocks in animals, plants, fungi and cyanobacteria, entrainment and the suprachiasmatic nucleus, and other biological rhythms such as circannual and tidal cycles.",
+   "queries": [
+    "circadian clock CLOCK BMAL1 PER CRY feedback loop",
+    "period timeless Drosophila circadian mutants",
+    "KaiABC cyanobacteria circadian oscillator",
+    "suprachiasmatic nucleus melatonin zeitgeber entrainment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sensory receptors and sensory transduction",
+   "scope": "Molecular and cellular mechanisms of vision, smell, taste, hearing, touch, temperature sensing and pain, plus specialized senses such as electroreception and magnetoreception.",
+   "queries": [
+    "phototransduction rhodopsin transducin cGMP rod",
+    "olfactory receptor gene family odorant binding",
+    "cochlear hair cell stereocilia mechanotransduction channel",
+    "TRPV1 capsaicin thermoreception TRP channel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Histology: tissue types, cell types and histological stains",
+   "scope": "Microscopic anatomy of animal tissues (epithelial, connective, muscle and nervous), the specialized cell types within them, and tissue fixation and staining techniques.",
+   "queries": [
+    "epithelium types simple squamous stratified columnar",
+    "hematoxylin eosin staining tissue sections",
+    "connective tissue cells fibroblast mast cell",
+    "periodic acid Schiff trichrome special stains"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Blood: hematopoiesis, hemoglobin, coagulation and blood group systems",
+   "scope": "Hematopoietic lineages and blood cell types, hemoglobin genes and variants, the coagulation cascade and numbered clotting factors, and blood group systems such as ABO, Rh and the other ISBT systems.",
+   "queries": [
+    "blood group system ABO Rh antigens ISBT",
+    "coagulation factor cascade fibrinogen thrombin",
+    "hemoglobin variants sickle cell thalassemia globin genes",
+    "hematopoietic stem cell lineage differentiation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Animal venoms, plant toxins and toxinology",
+   "scope": "Venom composition and toxin families of snakes, cone snails, spiders, scorpions and other animals, and plant, fungal and marine toxins with their molecular targets; bacterial protein toxins are excluded.",
+   "queries": [
+    "snake venom three-finger toxin phospholipase A2",
+    "conotoxin cone snail venom peptide",
+    "tetrodotoxin saxitoxin sodium channel blocker",
+    "ricin abrin amatoxin toxin mechanism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bacterial pathogenesis, virulence factors and secretion systems",
+   "scope": "Virulence factors of pathogenic bacteria, including secretion systems (types I–VII), adhesins, capsules, AB toxins, pathogenicity islands and strategies for manipulating host cells.",
+   "queries": [
+    "type III secretion system injectisome effector",
+    "AB toxin cholera toxin ADP-ribosylation",
+    "pathogenicity island virulence factor Salmonella",
+    "Listeria actin-based motility intracellular pathogen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Antibiotics, antimicrobial mechanisms and resistance",
+   "scope": "Antibiotic classes, their discovery, producing organisms and molecular targets, and the genes and mechanisms of resistance such as beta-lactamases, efflux pumps and target modification.",
+   "queries": [
+    "beta-lactam penicillin-binding protein mechanism of action",
+    "aminoglycoside macrolide ribosome binding antibiotic",
+    "extended spectrum beta-lactamase carbapenemase NDM-1",
+    "vancomycin resistance vanA gene enterococci"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Microbial ecology, microbiomes and biogeochemical cycling",
+   "scope": "Microbial roles in the nitrogen, carbon and sulfur cycles, nitrogen fixation, nitrification and anammox, quorum sensing and biofilms, metagenomics, and human and environmental microbiomes.",
+   "queries": [
+    "nitrification ammonia oxidizing archaea anammox",
+    "nitrogenase nitrogen fixation diazotroph",
+    "human gut microbiome bacterial phyla composition",
+    "quorum sensing autoinducer biofilm formation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aquatic biology: marine ecosystems, plankton and limnology",
+   "scope": "Marine and freshwater organisms and ecosystems: plankton, coral reefs, kelp forests, hydrothermal vents, ocean zones and productivity, and lake stratification and trophic status.",
+   "queries": [
+    "phytoplankton zooplankton marine food web primary production",
+    "coral reef zooxanthellae bleaching",
+    "hydrothermal vent chemosynthesis tube worm",
+    "lake stratification thermocline epilimnion trophic state"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Crop domestication, plant breeding and economic botany",
+   "scope": "Origins and domestication of crop plants, domestication genes, centers of origin, plant breeding methods, Green Revolution varieties and economically important plant products.",
+   "queries": [
+    "maize domestication teosinte tb1 gene",
+    "Vavilov centers of origin cultivated plants",
+    "Green Revolution semi-dwarf wheat Rht genes",
+    "heterosis hybrid plant breeding cultivar"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plant pathology and plant immunity",
+   "scope": "Plant pathogens and diseases, PAMP- and effector-triggered immunity, resistance (R) genes, systemic acquired resistance, and historically important plant epidemics.",
+   "queries": [
+    "plant NLR resistance gene effector-triggered immunity",
+    "systemic acquired resistance salicylic acid",
+    "Phytophthora infestans potato late blight",
+    "wheat stem rust Puccinia Ug99"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Flower development, pollination biology and plant reproduction",
+   "scope": "Floral organ identity (ABC model), control of flowering time, pollination syndromes and mechanisms, self-incompatibility, double fertilization, and seed and fruit development.",
+   "queries": [
+    "ABC model floral organ identity genes",
+    "self-incompatibility S-locus gametophytic sporophytic",
+    "pollination syndrome flower pollinator traits",
+    "double fertilization endosperm embryo sac angiosperm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chemical ecology: pheromones and semiochemicals",
+   "scope": "Pheromones, allelochemicals and other semiochemicals that mediate interactions within and between species, including insect sex and trail pheromones, plant volatiles, kairomones and chemical defenses.",
+   "queries": [
+    "insect sex pheromone bombykol moth",
+    "allelopathy allelochemical juglone",
+    "herbivore-induced plant volatiles parasitoid attraction",
+    "ant trail alarm pheromone compound"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biomechanics and animal locomotion",
+   "scope": "Mechanics of animal flying, swimming, running and jumping, Reynolds number regimes, material properties of muscle, skeleton and elastic proteins, and how locomotor performance scales with size.",
+   "queries": [
+    "insect flight aerodynamics wing beat frequency",
+    "fish swimming modes anguilliform thunniform",
+    "gait transition Froude number running",
+    "resilin elastic energy storage jumping"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Origin of life, prebiotic chemistry and astrobiology",
+   "scope": "Prebiotic chemistry and the Miller–Urey experiment, RNA-world and metabolism-first hypotheses, ribozymes and protocells, the last universal common ancestor, and the search for biosignatures beyond Earth.",
+   "queries": [
+    "Miller-Urey experiment prebiotic amino acids",
+    "RNA world hypothesis ribozyme self-replication",
+    "last universal common ancestor LUCA genes",
+    "astrobiology biosignature habitability extremophile"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of biology: landmark experiments and discoveries",
+   "scope": "Landmark experiments, discoveries, publications and scientists in biology, from early microscopy and cell theory to classical experiments in genetics and molecular biology, with their dates and prizes.",
+   "queries": [
+    "Hershey Chase experiment bacteriophage DNA",
+    "cell theory Schleiden Schwann Virchow",
+    "Leeuwenhoek microscope animalcules discovery",
+    "Nobel Prize Physiology Medicine discovery year"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

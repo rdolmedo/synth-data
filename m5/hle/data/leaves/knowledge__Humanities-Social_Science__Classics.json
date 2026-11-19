@@ -1,0 +1,137 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Classics",
+ "target_leaves": 8,
+ "expected_problems": 76,
+ "leaves": [
+  {
+   "leaf": "Attic deme sacrificial calendars",
+   "scope": "Inscribed sacrificial calendars of Attic demes and the state, such as Erchia, Thorikos, Marathon and the Nikomachos law code. They record which deity received which victim on which day of which month, and what each victim cost. A question could ask the solver to add up the drachma cost for one month, count sacrifices to a given god, or work out the gap in days between two rites using the Attic month order.",
+   "queries": [
+    "Erchia sacrificial calendar",
+    "Thorikos fasti inscription",
+    "Marathonian tetrapolis calendar",
+    "Nikomachos sacrificial calendar",
+    "Attic deme sacrifices drachmas"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Roman Republican moneyers and coin types",
+   "scope": "Denarius types of Republican moneyers as catalogued by Grueber and Crawford: legends, control marks, issue dates, and the family history that a type refers to. A question could ask the solver to connect a type to the ancestor it honors and then work out the time between that ancestor's deed and the issue, or to compare control-mark series.",
+   "queries": [
+    "Roman Republic denarius moneyer",
+    "Grueber coins Roman Republic",
+    "tresviri monetales family types",
+    "serrate denarius control marks",
+    "Crawford Roman Republican Coinage"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Regnal dating in Greco-Egyptian papyri",
+   "scope": "Dating formulas in Ptolemaic and Roman-era documentary papyri: regnal years, the Egyptian and Alexandrian month names, eponymous priesthoods, and the conversion between double-dated Macedonian and Egyptian calendars. A question could ask the solver to convert a document's date into a Julian date, or to put several dated contracts in order.",
+   "queries": [
+    "Oxyrhynchus papyri regnal year",
+    "Macedonian Egyptian double dating",
+    "eponymous priest Alexander papyri",
+    "Thoth Phaophi Julian conversion",
+    "Tebtunis papyri dating formula"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Aristarchean critical signs in Homeric scholia",
+   "scope": "Comments in the Venetus A and other Iliad scholia showing which lines Zenodotus, Aristophanes of Byzantium and Aristarchus athetized or marked with the obelos, diple, asteriskos or antisigma, and the reasons they gave. A question could ask the solver to count the lines one critic athetized in a passage, or to work out which sign a given comment implies.",
+   "queries": [
+    "Aristarchus athetesis Iliad",
+    "Venetus A scholia obelos",
+    "Zenodotus Homeric readings",
+    "diple asteriskos Homer",
+    "Aristonicus critical signs"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Pausanias on Olympia's dedications",
+   "scope": "Pausanias' description of Olympia's victor statues, the Zanes paid for out of fines, and the treasuries and their dedications, together with Frazer's commentary and the excavation reports. A question could ask the solver to identify the offending athletes behind a group of Zanes and count them, or to reconstruct the order of monuments along his route.",
+   "queries": [
+    "Zanes Olympia fines",
+    "Pausanias Eliaca victor statues",
+    "Frazer Pausanias commentary Olympia",
+    "Olympia treasuries terrace dedications",
+    "Altis monuments Pausanias route"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Roman jurists and the Law of Citations",
+   "scope": "The rule of 426 CE (Codex Theodosianus 1.4.3) that gave binding authority to Papinian, Paul, Ulpian, Gaius and Modestinus, along with the known positions of those jurists on disputed points in the Digest and Institutes. A question could ask the solver to apply the majority rule and Papinian's tie-break to a set of opinions to decide which view prevails.",
+   "queries": [
+    "Law of Citations Papinian",
+    "Codex Theodosianus responsa prudentium",
+    "Ulpian Paul conflicting opinions",
+    "Digest jurists controversy",
+    "Gaius Institutes Sabinians Proculians"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Alypian notation and Aristoxenian tonoi",
+   "scope": "The vocal and instrumental note signs in Alypius' tables, the tonoi and their ranges, and the fractions of a tone used in the genera of Aristoxenus and Ptolemy. A question could ask the solver to transcribe a notated fragment such as the Seikilos epitaph or the Delphic hymns into intervals, or to calculate a tetrachord's divisions.",
+   "queries": [
+    "Alypius musical notation tables",
+    "Aristoxenus tonoi genera",
+    "Delphic hymns Greek notation",
+    "Seikilos epitaph transcription",
+    "Ptolemy Harmonics tetrachord divisions"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Imperial legions' titles and garrison moves",
+   "scope": "The histories of individual Roman legions: honorific titles such as Pia Fidelis or Gemina and when they were granted, the founding emperor, and the bases attested on tile stamps and inscriptions. A question could ask the solver to infer from a dated inscription which legion and fortress are meant, or to work out how long a legion stayed at one base.",
+   "queries": [
+    "legio Gemina Pia Fidelis",
+    "Ritterling legio history",
+    "legionary tile stamps fortress",
+    "Roman legion garrison transfer",
+    "legionary epithets inscriptions"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

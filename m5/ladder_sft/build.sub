@@ -1,0 +1,19 @@
+# M5 ladder SFT data: records + render pool of one source (build_suite.sh). Macros: SUITE, CPUS, MEM_GB.
+SUITE = automationbench
+CPUS = 16
+MEM_GB = 96
+universe = vanilla
+executable = /bin/bash
+arguments = /data/aai/m5/ladder/sft/build_suite.sh $(SUITE) $(CPUS)
+request_cpus = $(CPUS)
+request_memory = $(MEM_GB) * 1024
+request_disk = 20G
++BypassLXCfs = "true"
++JobBatchName = "m5l-sft-build-$(SUITE)"
+getenv = false
+environment = "HOME=/home/user USER=user PATH=/usr/local/bin:/usr/bin:/bin"
+output = /data/aai/m5/ladder/sft/jobs/build-$(SUITE).$(Cluster).out
+error = /data/aai/m5/ladder/sft/jobs/build-$(SUITE).$(Cluster).err
+log = /data/aai/m5/ladder/sft/jobs/build.condor.log
+requirements = (TARGET.UtsnameNodename != "gpu132") && (TARGET.UtsnameNodename != "gpu110") && (TARGET.UtsnameNodename != "gpu143") && (TARGET.UtsnameNodename != "gpu123") && (TARGET.UtsnameNodename != "gpu166")
+queue

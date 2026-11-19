@@ -1,0 +1,152 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "English Literature",
+ "target_leaves": 9,
+ "expected_problems": 109,
+ "leaves": [
+  {
+   "leaf": "Exeter Book riddle solutions and numbering",
+   "scope": "Covers the solutions that editors (Dietrich, Tupper, Wyatt, Krapp-Dobbie) proposed for individual Exeter Book riddles, their conflicting numbering systems, and the runic or Latin-source clues (e.g. Symphosius, Aldhelm) behind them. A question could ask for a reconciled riddle number across editions, or which solution follows from a given runic sequence read in reverse.",
+   "queries": [
+    "Exeter Book riddles",
+    "Tupper riddles solutions",
+    "runes Old English riddle",
+    "Symphosius Aldhelm enigmata",
+    "Krapp Dobbie riddle numbering"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Middle English romance manuscript compilations",
+   "scope": "Covers the contents, booklet structure, scribal hands and item ordering of romance anthologies such as the Auchinleck, Thornton (Lincoln) and Cambridge Ff.2.38 manuscripts, plus the stanza forms (tail-rhyme, couplet) of their texts. A question could ask which romances in one manuscript share a scribe and a verse form, or count items that survive only in that codex.",
+   "queries": [
+    "Auchinleck manuscript scribes",
+    "Thornton manuscript romances",
+    "tail-rhyme romance stanza",
+    "Middle English romance booklets",
+    "unique copy romance manuscript"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Elizabethan sonnet sequence revisions",
+   "scope": "Covers how sequences such as Drayton's Idea, Daniel's Delia and Constable's Diana changed across editions (1590s\u20131619): sonnets added, dropped, renumbered or rededicated. A question could ask how many sonnets from the first edition survive into the final one, or where a given sonnet ends up after renumbering.",
+   "queries": [
+    "Drayton Idea sonnets editions",
+    "Daniel Delia 1592 revisions",
+    "Elizabethan sonnet sequences",
+    "Constable Diana sonnets",
+    "Idea's Mirror 1594"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "First Folio compositors and press variants",
+   "scope": "Covers how the 1623 Folio's composition was split among compositors (Hinman's A, B, C, D, E), their spelling habits, the order of formes and the stop-press corrections in particular plays. A question could ask which compositor set a passage given its spelling tests, or work out the order in which pages were set from a description of the quires.",
+   "queries": [
+    "First Folio compositors",
+    "Hinman Folio collation",
+    "compositor B spelling",
+    "stop-press corrections Folio",
+    "casting off copy Shakespeare"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Restoration stage cast lists and companies",
+   "scope": "Covers who played which roles in premieres and revivals at Drury Lane, Dorset Garden and Lincoln's Inn Fields between 1660 and 1710, as recorded in printed quartos and in Downes's Roscius Anglicanus, along with company mergers and secessions. A question could ask which actor created roles in two named plays, or which company held a play once the 1682 union and the 1695 split are taken into account.",
+   "queries": [
+    "Downes Roscius Anglicanus",
+    "Restoration stage cast lists",
+    "Betterton roles Lincoln's Inn Fields",
+    "United Company 1682",
+    "Dorset Garden theatre"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Spectator and Tatler essay attribution signatures",
+   "scope": "Covers the signature letters that mark authorship of individual Spectator and Tatler papers (Addison's C, L, I, O; Steele's R and T; Budgell's X), the minor contributors, and the numbering and dating of the original issues. A question could ask for a count or comparison of papers by one author in a given range, or attribute an essay from its signature and topic.",
+   "queries": [
+    "Spectator Addison signatures CLIO",
+    "Tatler Steele essays authorship",
+    "Spectator contributors Budgell",
+    "Sir Roger de Coverley papers",
+    "periodical essay attribution"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Romantic-era literary annuals and gift books",
+   "scope": "Covers the editors, contributors, engravings and payment arrangements of annuals such as The Keepsake, Forget Me Not, Friendship's Offering and The Literary Souvenir in the 1820s\u20131830s, including poems written to accompany specific plates. A question could ask which author appeared in two annuals in the same year, or which volume first printed a poem when it was written for a particular engraving.",
+   "queries": [
+    "Keepsake annual contributors",
+    "Forget Me Not annual Ackermann",
+    "Literary Souvenir Alaric Watts",
+    "Friendship's Offering annual",
+    "gift book engravings 1830s"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Household Words contributors and serial numbers",
+   "scope": "Covers the anonymous contributors to Dickens's Household Words and All the Year Round, identified from the office book, and how serialised novels (by Gaskell, Collins, Reade and others) were spread across weekly numbers. A question could ask how many weekly instalments a novel ran to, or which contributor wrote an unsigned piece in an issue found by its date.",
+   "queries": [
+    "Household Words contributors",
+    "Household Words office book",
+    "All the Year Round serial",
+    "Gaskell Cranford Household Words",
+    "Dickens weekly journal contributors"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Edward Marsh's Georgian Poetry anthologies",
+   "scope": "Covers the contributors, chosen poems and changing makeup of the five Georgian Poetry volumes (1912\u20131922) published by Harold Monro's Poetry Bookshop. A question could ask which poets appeared in every volume, or count first-volume contributors who were dead by the fourth.",
+   "queries": [
+    "Georgian Poetry Edward Marsh",
+    "Georgian Poetry 1911-1912",
+    "Poetry Bookshop Monro",
+    "Georgian poets anthology",
+    "Georgian Poetry 1920-1922"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  }
+ ]
+}

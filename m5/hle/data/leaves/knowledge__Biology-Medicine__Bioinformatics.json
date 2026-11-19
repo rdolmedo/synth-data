@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Bioinformatics",
+ "target_leaves": 8,
+ "expected_problems": 20,
+ "leaves": [
+  {
+   "leaf": "BLOSUM and PAM matrix derivation details",
+   "scope": "Construction facts for amino-acid substitution matrices: Dayhoff's accepted point mutation counts and relative mutabilities, the BLOCKS clustering thresholds used for each BLOSUM series, half-bit and third-bit scaling, the relative entropy and expected score of specific matrices, and the BLOSUM62 miscalculation reported by Styczynski et al. A question could ask the solver to convert between scales, extrapolate PAM powers, or compute expected or bit scores from a documented matrix property.",
+   "queries": [
+    "BLOSUM62 relative entropy",
+    "accepted point mutations Dayhoff",
+    "PAM250 relative mutability",
+    "BLOCKS clustering percentage identity",
+    "BLOSUM miscalculation"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Nucleotide and codon substitution model parameterization",
+   "scope": "Facts about the GTR model family (JC69, K80, F81, HKY85, TN93, K81, TIM, TVM) and codon models (Goldman-Yang, Muse-Gaut): their free-parameter counts, nesting relations, Yang's discrete-gamma approximation, and model-selection conventions in jModelTest and ModelFinder. A question could ask for the degrees of freedom of a likelihood-ratio test, a corrected distance, or which model is a special case of another.",
+   "queries": [
+    "Tamura-Nei substitution model",
+    "discrete gamma rate categories",
+    "GTR model free parameters",
+    "Goldman Yang codon model",
+    "ModelFinder model selection"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Turner nearest-neighbor RNA folding parameters",
+   "scope": "Experimental free-energy parameters used by Zuker-type folding algorithms: stacking energies, special tetraloop bonuses (GNRA, UNCG), terminal mismatches, Ninio asymmetry penalties for internal loops, linear multiloop coefficients, and differences between the Turner 1999 and 2004 sets. A question could ask for the \u0394G of a given hairpin, or which of two structures is predicted as minimum free energy under a stated parameter set.",
+   "queries": [
+    "nearest neighbor parameters RNA",
+    "Turner 2004 free energy",
+    "tetraloop bonus stability",
+    "Ninio asymmetry penalty",
+    "multibranch loop energy"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Alternative genetic code translation tables",
+   "scope": "Variant genetic codes catalogued under NCBI table numbers, such as yeast mitochondrial CUN-Thr, ciliate UAR-Gln, Candidate Division SR1 UGA-Gly, Pachysolen CUG-Ala, Condylostoma's ambiguous stop codons, and lineage-specific alternative start codons. A question could ask for the translation of a sequence under a named lineage's code, or the number of codon reassignments between two tables.",
+   "queries": [
+    "codon reassignment mitochondrial code",
+    "CUG codon reassignment yeast",
+    "UGA glycine SR1 bacteria",
+    "stop codon reassignment ciliates",
+    "nonstandard genetic code"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Codon usage bias indices",
+   "scope": "Definitions and reference values for Wright's effective number of codons (Nc) and its expected curve against GC3s, Sharp-Li CAI and its reference gene sets, RSCU, Fop, and the dos Reis tRNA adaptation index s-values. A question could ask the solver to compute an index from given codon counts, or to place a gene relative to the expected Nc-GC3s curve and interpret the result.",
+   "queries": [
+    "effective number of codons",
+    "codon adaptation index",
+    "tRNA adaptation index",
+    "relative synonymous codon usage",
+    "Nc GC3s plot"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "De Bruijn and string graph assembler heuristics",
+   "scope": "Algorithmic details of genome assemblers: Velvet's Tour Bus bubble removal, Euler-SR error correction, SPAdes paired assembly graphs, ALLPATHS-LG library requirements, the Celera unitig A-statistic, and the trade-offs in choosing k. A question could ask for k-mer or node counts in a compacted graph built from a toy sequence, or for the outcome of applying a documented repeat-detection threshold.",
+   "queries": [
+    "Tour Bus algorithm Velvet",
+    "paired de Bruijn graph",
+    "unitig A-statistic Celera",
+    "k-mer coverage assembly",
+    "string graph overlap assembly"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Prokaryotic genome-based species delineation thresholds",
+   "scope": "Published cutoffs and methods for genome-based taxonomy: ANI species boundaries (ANIb vs ANIm vs FastANI), the 70% dDDH threshold under the GGDC formulas, AAI ranges for genera, the 50% POCP genus boundary, and GTDB rank normalization by relative evolutionary divergence. A question could ask the solver to apply these thresholds to given pairwise values, or to reconcile conflicting taxonomic verdicts from different methods.",
+   "queries": [
+    "average nucleotide identity species",
+    "digital DNA-DNA hybridization",
+    "percentage of conserved proteins",
+    "relative evolutionary divergence GTDB",
+    "genome taxonomy database"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Protein secondary structure assignment algorithms",
+   "scope": "Rules in DSSP (the -0.5 kcal/mol electrostatic hydrogen-bond cutoff, the eight-state alphabet, state priority rules, and the polyproline assignment added later) and in STRIDE, plus the conventions for reducing eight states to three in CASP Q3 and SOV evaluation. A question could ask the solver to reduce a DSSP string under a stated scheme and compute Q3 or SOV, or to find the state assigned to a given hydrogen-bond pattern.",
+   "queries": [
+    "DSSP hydrogen bond energy",
+    "STRIDE secondary structure assignment",
+    "segment overlap measure SOV",
+    "eight-state three-state reduction",
+    "polyproline helix assignment"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  }
+ ]
+}

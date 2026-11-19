@@ -1,0 +1,284 @@
+{
+ "subtopics": [
+  {
+   "name": "Lipid membrane elasticity and vesicle shapes",
+   "scope": "Curvature elasticity, thermal undulations and shape changes of lipid bilayers, vesicles and red blood cells, including deformations caused by membrane proteins and inclusions.",
+   "keywords": [
+    "Helfrich",
+    "bending rigidity",
+    "spontaneous curvature",
+    "vesicle shape",
+    "membrane tension",
+    "budding",
+    "red blood cell",
+    "area-difference elasticity",
+    "membrane undulations",
+    "membrane tether"
+   ]
+  },
+  {
+   "name": "Semiflexible polymer mechanics of DNA and chromatin",
+   "scope": "Elasticity and statistical mechanics of DNA, chromatin fibers and stiff biofilaments under force, torque, confinement and looping constraints.",
+   "keywords": [
+    "worm-like chain",
+    "persistence length",
+    "force-extension",
+    "supercoiling",
+    "plectoneme",
+    "DNA looping",
+    "J-factor",
+    "twist-stretch coupling",
+    "chromatin fiber",
+    "polymer confinement"
+   ]
+  },
+  {
+   "name": "Molecular motors and Brownian ratchets",
+   "scope": "Stochastic models of motor proteins and ratchet mechanisms that turn chemical free energy into directed motion, including force-velocity relations, efficiency and thermodynamic bounds.",
+   "keywords": [
+    "kinesin",
+    "myosin",
+    "Brownian ratchet",
+    "force-velocity relation",
+    "stall force",
+    "motor efficiency",
+    "ATP hydrolysis",
+    "processivity",
+    "entropy production",
+    "thermodynamic uncertainty relation"
+   ]
+  },
+  {
+   "name": "Active gels and cytoskeletal active matter",
+   "scope": "Continuum hydrodynamic theories of actomyosin cortices, microtubule-motor mixtures and active nematics, including spontaneous flows, defect dynamics and activity-driven instabilities.",
+   "keywords": [
+    "active gel",
+    "active nematic",
+    "actomyosin",
+    "cell cortex",
+    "spontaneous flow",
+    "topological defects",
+    "contractility",
+    "active stress",
+    "active turbulence",
+    "hydrodynamic instability"
+   ]
+  },
+  {
+   "name": "Microswimmer hydrodynamics at low Reynolds number",
+   "scope": "Propulsion, flow fields, interactions and navigation of flagellated cells, ciliated organisms and model swimmers in viscous fluids.",
+   "keywords": [
+    "low Reynolds number",
+    "microswimmer",
+    "flagellum",
+    "cilia",
+    "squirmer",
+    "resistive force theory",
+    "Stokes flow",
+    "chemotaxis",
+    "wall accumulation",
+    "metachronal wave"
+   ]
+  },
+  {
+   "name": "Stochastic gene expression and noise",
+   "scope": "Fluctuations in transcription, translation and regulatory circuits, including bursting, noise propagation, bistable switches and copy-number distributions.",
+   "keywords": [
+    "gene expression noise",
+    "transcriptional bursting",
+    "telegraph model",
+    "Fano factor",
+    "chemical master equation",
+    "toggle switch",
+    "feedback loop",
+    "protein copy number",
+    "mRNA distribution",
+    "cell-to-cell variability"
+   ]
+  },
+  {
+   "name": "Physical limits of biochemical sensing and proofreading",
+   "scope": "Accuracy, energy cost and information capacity of receptor-based sensing, signaling cascades and kinetic proofreading in molecular recognition.",
+   "keywords": [
+    "Berg-Purcell",
+    "concentration sensing",
+    "kinetic proofreading",
+    "error rate",
+    "information theory",
+    "channel capacity",
+    "receptor",
+    "signal transduction",
+    "speed-accuracy tradeoff",
+    "energy dissipation"
+   ]
+  },
+  {
+   "name": "Reaction-diffusion patterning and morphogen gradients",
+   "scope": "How spatial patterns in development and inside cells form, scale and stay robust under reaction-diffusion and mechanochemical mechanisms.",
+   "keywords": [
+    "Turing pattern",
+    "reaction-diffusion",
+    "morphogen gradient",
+    "Min oscillations",
+    "positional information",
+    "pattern scaling",
+    "wavelength selection",
+    "mechanochemical patterning",
+    "cell polarity",
+    "Bicoid"
+   ]
+  },
+  {
+   "name": "Population genetics of selection and drift",
+   "scope": "Stochastic dynamics of allele frequencies under mutation, selection, drift and recombination, including fixation, the speed of adaptation and genealogies.",
+   "keywords": [
+    "fixation probability",
+    "genetic drift",
+    "Moran process",
+    "Wright-Fisher",
+    "clonal interference",
+    "traveling wave",
+    "coalescent",
+    "mutation-selection balance",
+    "effective population size",
+    "rate of adaptation"
+   ]
+  },
+  {
+   "name": "Epidemic spreading and outbreak thresholds",
+   "scope": "Compartmental, network and stochastic models of infectious disease transmission, covering thresholds, final epidemic sizes and control strategies.",
+   "keywords": [
+    "SIR model",
+    "basic reproduction number",
+    "epidemic threshold",
+    "final size",
+    "contact network",
+    "vaccination",
+    "herd immunity",
+    "stochastic extinction",
+    "branching process",
+    "metapopulation"
+   ]
+  },
+  {
+   "name": "Ecological community dynamics and stability",
+   "scope": "Dynamics, coexistence and stability of interacting species, from predator-prey and competition models to large random ecosystems.",
+   "keywords": [
+    "Lotka-Volterra",
+    "coexistence",
+    "competitive exclusion",
+    "May stability",
+    "random ecosystems",
+    "consumer-resource model",
+    "predator-prey",
+    "species abundance distribution",
+    "invasion",
+    "extinction"
+   ]
+  },
+  {
+   "name": "Electrostatics of biomolecules and polyelectrolytes",
+   "scope": "Screening, counterion condensation and charge-mediated interactions of DNA, proteins, membranes and other charged soft matter in ionic solutions.",
+   "keywords": [
+    "Poisson-Boltzmann",
+    "counterion condensation",
+    "Debye screening",
+    "polyelectrolyte",
+    "like-charge attraction",
+    "Manning condensation",
+    "electric double layer",
+    "multivalent ions",
+    "charged membrane"
+   ]
+  },
+  {
+   "name": "Diffusive search and first-passage kinetics in cells",
+   "scope": "Kinetics of molecules and particles finding targets by diffusion, including facilitated diffusion of transcription factors, narrow escape and intermittent search strategies.",
+   "keywords": [
+    "first-passage time",
+    "target search",
+    "facilitated diffusion",
+    "narrow escape",
+    "diffusion-limited reaction",
+    "intermittent search",
+    "stochastic resetting",
+    "molecular crowding",
+    "anomalous diffusion",
+    "Smoluchowski rate"
+   ]
+  },
+  {
+   "name": "Protein folding and conformational transitions",
+   "scope": "Statistical mechanics of folding, helix-coil and unfolding transitions in proteins and nucleic acids, including energy landscapes, cooperativity and force spectroscopy.",
+   "keywords": [
+    "protein folding",
+    "helix-coil transition",
+    "Zimm-Bragg",
+    "energy landscape",
+    "two-state kinetics",
+    "cooperativity",
+    "DNA melting",
+    "force spectroscopy",
+    "Kramers rate",
+    "RNA secondary structure"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Linear stability and dispersion relations",
+   "scope": "Linearize ODE or PDE models about homogeneous or steady states to get growth rates, critical parameters and the wavelengths that instabilities select."
+  },
+  {
+   "name": "Backward equations for first-passage problems",
+   "scope": "Solve backward Kolmogorov or Fokker-Planck equations with absorbing boundaries to get fixation probabilities, splitting probabilities and mean first-passage times."
+  },
+  {
+   "name": "Generating functions for master equations",
+   "scope": "Turn chemical or birth-death master equations into PDEs for generating functions to get exact stationary distributions, moments and time-dependent solutions."
+  },
+  {
+   "name": "Linear noise approximation and system-size expansion",
+   "scope": "Use van Kampen's expansion in inverse system size to get Gaussian fluctuations, covariance matrices from Lyapunov equations, and noise power spectra."
+  },
+  {
+   "name": "WKB and large-deviation asymptotics",
+   "scope": "Use eikonal or Hamiltonian approximations for rare events to get exponentially small rates, such as mean extinction times, switching rates and optimal escape paths."
+  },
+  {
+   "name": "Transfer matrices for one-dimensional lattice models",
+   "scope": "Get partition functions, correlation lengths and transition curves of linear chain models from the leading eigenvalues of transfer matrices."
+  },
+  {
+   "name": "Variational shape equations from elastic energies",
+   "scope": "Minimize curvature, bending or elastic free energies to derive Euler-Lagrange shape equations, equilibrium configurations and buckling or budding thresholds."
+  },
+  {
+   "name": "Gaussian fluctuation spectra via normal modes",
+   "scope": "Expand quadratic Hamiltonians of membranes, filaments or fields in Fourier modes and use equipartition to get fluctuation spectra, correlation functions and entropic forces."
+  },
+  {
+   "name": "Stokes-flow singularities and reciprocal theorem",
+   "scope": "Use Stokeslet and multipole expansions, resistive-force and slender-body theory, and the Lorentz reciprocal theorem to compute swimming speeds, drag coefficients and flow fields."
+  },
+  {
+   "name": "Steady states of kinetic Markov networks",
+   "scope": "Solve discrete-state kinetic schemes, for example with matrix-tree (King-Altman) methods, to get steady-state fluxes, motor velocities, error fractions and entropy production rates."
+  },
+  {
+   "name": "Random matrix and cavity methods",
+   "scope": "Apply random-matrix spectra and cavity or replica self-consistency to large random interaction systems to get stability bounds, surviving-species fractions and abundance statistics."
+  },
+  {
+   "name": "Mean-field and Poisson-Boltzmann theory",
+   "scope": "Solve self-consistent mean-field equations, including nonlinear Poisson-Boltzmann solutions, to get free energies, screened potentials, condensed counterion fractions and phase boundaries."
+  }
+ ],
+ "field": "biophysics",
+ "categories": [
+  "physics.bio-ph",
+  "q-bio.PE",
+  "q-bio.QM",
+  "cond-mat.soft"
+ ]
+}

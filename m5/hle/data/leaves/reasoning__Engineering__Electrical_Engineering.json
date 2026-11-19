@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Engineering",
+ "subject": "Electrical Engineering",
+ "target_leaves": 8,
+ "expected_problems": 48,
+ "leaves": [
+  {
+   "leaf": "Passive driving-point and transfer network synthesis",
+   "scope": "Problems give a rational impedance, admittance or transfer function and ask whether it can be realized, what the minimal element count or topology is, or for specific element values. They are hard because positive-realness has to be checked carefully, and the right synthesis route (Foster, Cauer, Brune, Bott-Duffin, Darlington) determines whether the realization is minimal or even exists without transformers.",
+   "techniques": [
+    "Positive-real testing via Re{Z(j\u03c9)} \u2265 0 and residue conditions at j\u03c9-axis poles",
+    "Foster and Cauer continued-fraction expansions for LC and RC one-ports",
+    "Brune cycle extraction with ideal-transformer or perfect-coupling sections",
+    "Bott-Duffin transformerless realization and its element-count growth",
+    "Darlington lossless two-port terminated in a resistor, using zeros of transmission",
+    "Reactance-function interlacing of poles and zeros"
+   ],
+   "answer_forms": [
+    "integer (minimal element count)",
+    "ordered tuple of element values",
+    "rational number",
+    "name of a realization topology"
+   ]
+  },
+  {
+   "leaf": "Unbalanced fault analysis with symmetrical components",
+   "scope": "Problems set up a multi-machine or multi-transformer network in per-unit and ask for fault currents, post-fault phase voltages, or the neutral current for line-to-ground, line-to-line or double-line-to-ground faults, possibly involving open conductors or simultaneous faults. They are hard because the sequence networks have to be built correctly, including transformer winding phase shifts, grounding impedances and zero-sequence paths, before they are interconnected.",
+   "techniques": [
+    "Fortescue transformation and sequence-network interconnection for each fault type",
+    "Zero-sequence equivalent circuits for Y-grounded, Y-ungrounded and \u0394 transformer windings",
+    "\u00b130\u00b0 phase shifts of positive and negative sequence through \u0394-Y transformers",
+    "Per-unit base conversion across voltage zones",
+    "Thevenin impedance from the bus impedance matrix (Z-bus) for faults at arbitrary buses",
+    "Simultaneous fault analysis with two-port interconnection of sequence networks"
+   ],
+   "answer_forms": [
+    "complex number in polar form",
+    "real number (per-unit or amperes)",
+    "ordered tuple of phase quantities",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Fractional-slot AC machine winding design",
+   "scope": "Problems give a slot/pole combination and phase count and ask for winding factors of specific harmonics, the feasible coil layout, periodicity, cogging-torque order or MMF sub-harmonic content. They are hard because star-of-slots reasoning, layer choice and number-theoretic symmetry interact, and errors in phasor bookkeeping propagate.",
+   "techniques": [
+    "Star-of-slots phasor diagram and phase-belt assignment",
+    "Distribution and pitch factors for the fundamental and the \u03bd-th harmonic",
+    "Machine periodicity via gcd(Q, p) and balance conditions for three-phase windings",
+    "Cogging torque fundamental order from lcm(Q, 2p)",
+    "MMF space-harmonic spectrum, including sub-harmonics in concentrated windings",
+    "Single-layer versus double-layer tooth-coil feasibility criteria"
+   ],
+   "answer_forms": [
+    "closed-form expression (e.g. trig product)",
+    "real number to given precision",
+    "integer",
+    "small set of harmonic orders"
+   ]
+  },
+  {
+   "leaf": "Switching converter steady-state and averaged dynamics",
+   "scope": "Problems specify a DC-DC topology (possibly coupled-inductor, multi-switch or tapped) and ask for conversion ratios, CCM/DCM boundaries, ripple amplitudes or small-signal transfer-function features such as right-half-plane zero locations. They are hard because the correct operating mode has to be found, inductor volt-second and capacitor charge balance applied correctly, and the averaged-switch model linearized properly.",
+   "techniques": [
+    "Inductor volt-second and capacitor charge balance",
+    "DCM analysis with the third subinterval and critical conduction parameter K",
+    "State-space averaging and linearization about the operating point",
+    "Averaged-switch (PWM switch) modeling to obtain control-to-output transfer functions",
+    "RHP-zero identification in boost-derived and flyback converters",
+    "Peak-current-mode control with slope compensation and subharmonic stability"
+   ],
+   "answer_forms": [
+    "closed-form expression in D, L, C, R, f_s",
+    "rational number",
+    "real number with units",
+    "inequality bound on a parameter"
+   ]
+  },
+  {
+   "leaf": "Transmission-line transients via lattice diagrams",
+   "scope": "Problems describe cascaded or branched lines with different surge impedances and delays, reactive or nonlinear terminations, and switching events, and ask for a voltage or current at a given point and time, or for the time of a peak. They are hard because multiple reflection and transmission coefficients compound, and reactive terminations turn steps into exponentials that keep propagating.",
+   "techniques": [
+    "Bewley lattice diagram bookkeeping of successive reflections",
+    "Reflection and transmission coefficients at junctions of several lines",
+    "Laplace-domain reflection coefficients for capacitive and inductive terminations",
+    "Time-domain superposition of delayed exponential waveforms",
+    "Steady-state limit as a check via the geometric series of reflections",
+    "Thevenin equivalent of a line seen from a discontinuity"
+   ],
+   "answer_forms": [
+    "real number (volts at specified time)",
+    "closed-form expression in time",
+    "rational number",
+    "time instant as multiple of line delay"
+   ]
+  },
+  {
+   "leaf": "Delta-sigma modulator noise shaping and stability",
+   "scope": "Problems give a modulator architecture (single-loop, MASH, bandpass, multibit) and ask for the noise transfer function, in-band quantization noise power, peak SQNR, required order or oversampling ratio, or stable input range. They are hard because the loop filter coefficients, quantizer model, and noise-cancellation logic must be combined exactly, and stability heuristics have to be applied with care.",
+   "techniques": [
+    "Linearized additive-noise quantizer model and STF/NTF derivation",
+    "In-band noise integral of |NTF|\u00b2 giving SQNR versus order and OSR",
+    "MASH cascades with digital cancellation filters and leakage from gain mismatch",
+    "Optimized NTF zero placement across the signal band",
+    "Lee's criterion (max |NTF| bound) and maximum stable amplitude",
+    "Bandpass modulators via z\u207b\u00b9 \u2192 \u2212z\u207b\u00b2 transformation"
+   ],
+   "answer_forms": [
+    "polynomial in z\u207b\u00b9",
+    "real number in dB",
+    "integer (order, OSR, or bits)",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Antenna array pattern synthesis and analysis",
+   "scope": "Problems specify element spacing, excitation amplitudes and phases, or a target sidelobe level, and ask for null positions, beamwidth, directivity, excitation coefficients, or the onset of grating lobes under scanning. They are hard because array-factor algebra, Chebyshev or binomial synthesis and visible-region mapping have to be handled exactly.",
+   "techniques": [
+    "Array factor as a polynomial in z = e^{j\u03c8} with Schelkunoff zero placement",
+    "Dolph-Chebyshev excitation from T_{N-1}(x\u2080 cos(\u03c8/2))",
+    "Visible-region mapping and grating-lobe conditions for scanned arrays",
+    "Directivity of uniform and tapered arrays via closed-form sums",
+    "Pattern multiplication for planar or subarrayed configurations",
+    "Taylor and binomial distributions and their sidelobe/beamwidth trade-offs"
+   ],
+   "answer_forms": [
+    "ordered tuple of normalized excitations",
+    "angle in degrees",
+    "real number (dB or dimensionless directivity)",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Hazard-free and asynchronous sequential logic synthesis",
+   "scope": "Problems give a flow table, burst-mode specification or Boolean function with multiple-input changes and ask for a minimal hazard-free cover, a race-free state assignment, or the number of states after minimization. They are hard because static, dynamic and essential hazards and critical races impose constraints that standard minimization ignores.",
+   "techniques": [
+    "Required cubes and privileged cubes for hazard-free two-level covers",
+    "Flow-table state minimization via compatibility classes and closed covers",
+    "Race-free state assignment using Tracey's method or universal assignments",
+    "Essential hazard detection through Unger's three-change test",
+    "Burst-mode machine synthesis with fundamental-mode assumptions",
+    "Prime implicant enumeration with dynamic-hazard-free restrictions"
+   ],
+   "answer_forms": [
+    "integer (minimal product terms or states)",
+    "Boolean expression",
+    "small set of cubes",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

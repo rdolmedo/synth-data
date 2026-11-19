@@ -1,0 +1,130 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Game Design",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Copyright protection of video game mechanics",
+   "scope": "US court decisions on where unprotectable game rules and ideas end and protectable expression or trade dress begins (e.g. Tetris Holding v. Xio, Spry Fox v. Lolapps, Data East v. Epyx, Atari v. Philips, DaVinci v. Ziko). They record the holdings, which tests were applied (abstraction-filtration, sc\u00e8nes \u00e0 faire, merger) and which game elements were found protectable. A question could ask the solver to apply a holding to a hypothetical clone, or to compare outcomes across circuits.",
+   "queries": [
+    "video game copyright infringement",
+    "scenes a faire game",
+    "game rules idea expression",
+    "Tetris clone trade dress",
+    "abstraction filtration video game"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Culin's ethnography of Native American games",
+   "scope": "Early-1900s ethnographic records of North American Indigenous dice games, stick games, hoop-and-pole and hand games, especially Stewart Culin's surveys. These give tribe-specific details such as the number of dice or staves, how faces were marked, counting rules and scoring tallies. A question could ask the solver to work out outcome probabilities or point totals from a documented scoring scheme, or to compare variants between tribes.",
+   "queries": [
+    "Culin games North American Indians",
+    "stick dice counting game",
+    "hoop and pole game",
+    "Indian hand game guessing",
+    "plum stone dice game"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century Kriegsspiel and early wargame rules",
+   "scope": "Rule mechanics from early military and hobby wargames, such as Reisswitz's Kriegsspiel, Verdy du Vernois's free Kriegsspiel, Totten's Strategos and Wells's Little Wars. These include casualty tables, movement rates, umpire procedures and dice adjudication. A question could ask the solver to resolve an engagement under the documented rules, or to compare how two systems handle the same situation.",
+   "queries": [
+    "Kriegsspiel rules umpire",
+    "Strategos American game war",
+    "Little Wars Wells rules",
+    "war game casualty tables",
+    "Verdy du Vernois war game"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Computational reconstruction of ancient board games",
+   "scope": "Scholarly and computational reconstructions of ancient and historical games whose rules are lost or only partly known, such as Ur, Senet, latrunculi, mancala relatives and hnefatafl, including the Ludii and Digital Ludeme Project work. These sources give board geometries, competing rule sets and simulation results on game balance. A question could ask which reconstruction yields a stated balance property, or how a documented rule change affects play.",
+   "queries": [
+    "Ludii ancient game reconstruction",
+    "Royal Game of Ur rules",
+    "Digital Ludeme Project",
+    "hnefatafl rule variants balance",
+    "Falkener games ancient oriental"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Loot box and gacha probability mechanics",
+   "scope": "Empirical and regulatory research on randomized monetization: disclosed drop rates, pity-timer and guarantee systems, links to problem gambling, and national regulatory responses. A question could ask for the expected pulls or cost to obtain an item under a documented pity scheme, or to reconcile findings across specific studies.",
+   "queries": [
+    "loot boxes problem gambling",
+    "gacha pity system probability",
+    "loot box drop rate disclosure",
+    "microtransactions randomized rewards regulation"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Skill rating and matchmaking systems",
+   "scope": "Published rating and matchmaking algorithms for multiplayer games, including Elo variants, Glicko-2, TrueSkill and TrueSkill 2, and team-based Bayesian models. These record exact update equations, default parameters and empirical calibration results. A question could ask the solver to compute a rating update or a predicted win probability from the documented parameters, or to compare how two systems treat the same match.",
+   "queries": [
+    "TrueSkill Bayesian skill rating",
+    "Glicko rating volatility",
+    "matchmaking multiplayer online games",
+    "Elo rating esports prediction",
+    "team skill rating model"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Search-based procedural level generation",
+   "scope": "Specific procedural content generation methods and benchmarks, such as search-based PCG, WaveFunctionCollapse constraints, Mario AI and VGLC level corpora, the experience-driven PCG framework, and PCGRL. These give fitness functions, expressivity metrics like linearity and leniency, and reported results. A question could ask the solver to apply a documented metric to a described level, or to infer which method produced a reported result.",
+   "queries": [
+    "search-based procedural content generation",
+    "WaveFunctionCollapse level generation",
+    "Mario AI level generator",
+    "expressive range analysis levels",
+    "PCGRL reinforcement learning levels"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Player typology models and psychometric validation",
+   "scope": "Player and user-type frameworks such as Bartle's taxonomy, the Hexad scale, BrainHex, Yee's motivation components and Tondello's gamification types, along with their validation studies. These report factor structures, item counts, reliability coefficients and correlations with game elements. A question could ask the solver to combine reported statistics, or to identify which typology fits a set of documented properties.",
+   "queries": [
+    "Hexad user types scale",
+    "BrainHex player typology",
+    "Bartle player types",
+    "gamification user types validation",
+    "player motivation factor analysis"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

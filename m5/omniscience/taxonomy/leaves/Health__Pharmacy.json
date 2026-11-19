@@ -1,0 +1,633 @@
+{
+ "domain": "Health",
+ "subtopic": "Pharmacy",
+ "weight": 0.0092505,
+ "leaves": [
+  {
+   "leaf": "Clinical pharmacokinetics and dose adjustment in renal and hepatic impairment",
+   "scope": "Core pharmacokinetic parameters (clearance, volume of distribution, half-life, bioavailability, loading and maintenance doses) and how doses are changed for renal impairment, dialysis and hepatic impairment.",
+   "queries": [
+    "volume of distribution clearance elimination half-life equation",
+    "Cockcroft-Gault creatinine clearance renal dose adjustment",
+    "Child-Pugh hepatic impairment dosing pharmacokinetics",
+    "drug removal hemodialysis protein binding sieving coefficient"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Drug-metabolizing enzymes and transporter-mediated drug interactions",
+   "scope": "Phase I/II enzymes (CYP isoforms, UGT, NAT, FMO) and transporters (P-gp, OATP1B1, BCRP, OCT2) as causes of drug-drug interactions, including index substrates, inhibitors and inducers.",
+   "queries": [
+    "CYP3A4 strong inhibitor drug interaction AUC increase",
+    "P-glycoprotein OATP1B1 transporter drug interaction",
+    "UGT1A1 glucuronidation substrate inhibitor",
+    "CYP2C9 CYP1A2 inducer rifampin interaction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pharmacogenomics and genotype-guided dosing guidelines",
+   "scope": "Germline variants that change drug response and the CPIC, DPWG and FDA-label recommendations built on them (CYP2D6, CYP2C19, TPMT/NUDT15, DPYD, HLA-B, SLCO1B1, VKORC1).",
+   "queries": [
+    "CPIC guideline CYP2C19 clopidogrel poor metabolizer",
+    "HLA-B 5801 allopurinol carbamazepine hypersensitivity",
+    "DPYD variant fluoropyrimidine toxicity dose reduction",
+    "TPMT NUDT15 thiopurine genotype dosing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Therapeutic drug monitoring of narrow-therapeutic-index drugs",
+   "scope": "Target concentrations, sampling times and dosing methods for monitored drugs such as vancomycin, aminoglycosides, digoxin, lithium, phenytoin, tacrolimus and other antiepileptics.",
+   "queries": [
+    "vancomycin AUC/MIC trough monitoring guideline",
+    "aminoglycoside extended-interval dosing Hartford nomogram",
+    "phenytoin albumin correction Sheiner-Tozer",
+    "tacrolimus trough concentration target transplant"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Receptor pharmacology and quantitative pharmacodynamics",
+   "scope": "Drug-receptor theory and dose-response analysis: agonism, partial and inverse agonism, antagonism, EC50/Emax, pA2/Schild analysis, spare receptors, therapeutic index and receptor subtype classification.",
+   "queries": [
+    "Schild plot pA2 competitive antagonist",
+    "partial agonist intrinsic efficacy spare receptors",
+    "therapeutic index ED50 LD50 dose-response curve",
+    "inverse agonist constitutive receptor activity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Sterile compounding and hazardous drug handling (USP <797> and <800>)",
+   "scope": "Standards for compounded sterile preparations and hazardous drugs: beyond-use dating categories, ISO cleanroom classes, primary engineering controls, garbing, closed-system transfer devices and the NIOSH hazardous drug list.",
+   "queries": [
+    "USP 797 beyond-use date category sterile preparation",
+    "ISO Class 5 primary engineering control buffer room",
+    "USP 800 hazardous drug closed-system transfer device",
+    "NIOSH list antineoplastic hazardous drugs healthcare"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Nonsterile extemporaneous compounding and pharmaceutical calculations",
+   "scope": "Making oral liquids, topicals, suppositories and capsules under USP <795>, plus the calculations behind them (alligation, milliequivalents, osmolarity, isotonicity E-values, displacement factors).",
+   "queries": [
+    "extemporaneous oral suspension stability Ora-Plus Ora-Sweet",
+    "sodium chloride equivalent E-value isotonic solution",
+    "alligation milliequivalents pharmaceutical calculations",
+    "suppository base displacement factor compounding"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Solid oral dosage form formulation, manufacturing and excipients",
+   "scope": "Formulating and manufacturing tablets and capsules (granulation, compression, coating, encapsulation) and the functional excipients used, such as binders, fillers, disintegrants, lubricants and coating polymers.",
+   "queries": [
+    "superdisintegrant croscarmellose sodium crospovidone tablet",
+    "wet granulation direct compression tablet manufacturing",
+    "magnesium stearate lubricant tablet dissolution",
+    "enteric coating polymer methacrylic acid copolymer"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Modified-release and specialized drug delivery systems",
+   "scope": "Technologies that control the rate, site or route of drug release: osmotic pumps, matrix and reservoir systems, transdermal patches, inhalers, long-acting injectable depots, liposomes and nanoparticles.",
+   "queries": [
+    "OROS osmotic pump extended-release tablet",
+    "transdermal patch matrix reservoir drug delivery",
+    "dry powder inhaler metered-dose inhaler lung deposition",
+    "liposomal formulation long-acting injectable depot"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Biopharmaceutics, dissolution testing and bioequivalence",
+   "scope": "How product properties affect absorption: dissolution apparatus and specifications, the Biopharmaceutics Classification System, biowaivers, IVIVC, food effects and bioequivalence acceptance criteria.",
+   "queries": [
+    "Biopharmaceutics Classification System class II solubility permeability",
+    "USP dissolution apparatus paddle basket",
+    "bioequivalence 90% confidence interval 80-125% Cmax AUC",
+    "biowaiver in vitro in vivo correlation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pharmacopeial standards and ICH quality guidelines",
+   "scope": "Official compendia (USP-NF, Ph. Eur., BP, JP) and ICH quality guidelines on assay, impurities, residual solvents, nitrosamines, stability testing conditions, climatic zones and expiry dating.",
+   "queries": [
+    "ICH Q1A stability testing climatic zone conditions",
+    "ICH Q3C residual solvents class limits",
+    "United States Pharmacopeia National Formulary monograph history",
+    "nitrosamine impurity acceptable intake limit"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Medicinal chemistry: structure-activity relationships, prodrugs and stereochemistry",
+   "scope": "How chemical structure sets activity and pharmacokinetics: SAR of major drug classes, pharmacophores, bioisosteres, drug-likeness rules, prodrug design, enantiomers and chiral switches.",
+   "queries": [
+    "structure-activity relationship beta-lactam penicillin side chain",
+    "Lipinski rule of five drug-likeness",
+    "prodrug ester hydrolysis bioactivation",
+    "chiral switch enantiomer esomeprazole levocetirizine"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drug nomenclature: USAN, INN stems and brand naming",
+   "scope": "How drugs are named: USAN Council and WHO INN procedures, stems and substems, chemical and code names, monoclonal antibody naming schemes and regulatory review of proprietary names.",
+   "queries": [
+    "USAN Council stem nonproprietary name",
+    "International Nonproprietary Names WHO stem",
+    "monoclonal antibody naming convention substem mab",
+    "proprietary drug name review FDA rejected"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pharmacognosy and natural-product-derived drugs",
+   "scope": "Drugs and lead compounds from plants, fungi, microbes and marine organisms: source species, active constituent classes (alkaloids, glycosides, terpenoids) and the history of their isolation.",
+   "queries": [
+    "alkaloid isolated plant history morphine quinine",
+    "cardiac glycoside Digitalis lanata digoxin source",
+    "paclitaxel Taxus brevifolia discovery",
+    "marine natural product drug trabectedin ziconotide"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Herbal medicines, dietary supplements and herb-drug interactions",
+   "scope": "Regulation, active constituents, safety signals and drug interactions of herbal products and dietary supplements such as St John's wort, ginkgo, kava, ephedra and red yeast rice.",
+   "queries": [
+    "St John's wort hyperforin CYP3A4 induction",
+    "DSHEA dietary supplement regulation FDA",
+    "kava hepatotoxicity herbal supplement",
+    "ginkgo biloba warfarin bleeding interaction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Generic drug approval, Hatch-Waxman and the Orange Book",
+   "scope": "US generic drug approval and patent/exclusivity law: ANDAs, the Hatch-Waxman Act, Paragraph IV certifications, 180-day exclusivity, Orange Book therapeutic equivalence codes, authorized generics and substitution laws.",
+   "queries": [
+    "Hatch-Waxman Act Paragraph IV certification 180-day exclusivity",
+    "Orange Book therapeutic equivalence code AB rated",
+    "abbreviated new drug application generic approval",
+    "authorized generic pay-for-delay settlement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Biologics licensure and biosimilars",
+   "scope": "Regulation of biological products and biosimilars: BLAs, the BPCIA and 351(k) pathway, interchangeability, the Purple Book, nonproprietary suffixes and EU and other biosimilar approval milestones.",
+   "queries": [
+    "Biologics Price Competition Innovation Act 351(k) biosimilar",
+    "Purple Book interchangeable biosimilar designation",
+    "biosimilar four-letter suffix nonproprietary naming",
+    "first biosimilar approved Europe Omnitrope Zarxio"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "New drug approval pathways, expedited programs and orphan incentives",
+   "scope": "How new drugs get approved at FDA, EMA and other regulators: IND/NDA, 505(b)(2), breakthrough and fast track, accelerated approval, PDUFA dates, priority review vouchers, orphan designation and conditional authorisation.",
+   "queries": [
+    "FDA accelerated approval breakthrough therapy designation",
+    "Orphan Drug Act seven-year market exclusivity",
+    "EMA conditional marketing authorisation PRIME scheme",
+    "priority review voucher tropical disease pediatric"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pharmacovigilance, boxed warnings, REMS and market withdrawals",
+   "scope": "Post-marketing drug safety: spontaneous reporting systems (FAERS, MedWatch, Yellow Card, VigiBase), causality assessment scales, signal detection, boxed warnings, REMS programs and drug withdrawals.",
+   "queries": [
+    "Naranjo adverse drug reaction probability scale",
+    "REMS elements to assure safe use program",
+    "FDA boxed warning added drug safety communication",
+    "drug withdrawn from market hepatotoxicity cardiotoxicity"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Controlled substance scheduling and regulation",
+   "scope": "Control of drugs with abuse potential: Controlled Substances Act schedules, DEA registration and order forms, prescription and refill rules, PDMPs, rescheduling actions and the international drug control conventions.",
+   "queries": [
+    "Controlled Substances Act Schedule II rescheduling DEA",
+    "DEA Form 222 Schedule II ordering",
+    "prescription drug monitoring program pharmacist",
+    "Single Convention Narcotic Drugs schedule international"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "US federal drug and pharmacy practice legislation",
+   "scope": "The federal laws behind US drug regulation and dispensing, from the 1906 Pure Food and Drug Act and 1938 FDCA through Durham-Humphrey, Kefauver-Harris, PPPA, OBRA '90 counseling rules and the DSCSA.",
+   "queries": [
+    "Durham-Humphrey Amendment prescription legend drug",
+    "Kefauver-Harris Amendment 1962 efficacy thalidomide",
+    "Poison Prevention Packaging Act child-resistant",
+    "Drug Supply Chain Security Act serialization"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medication errors and medication safety practices",
+   "scope": "Preventing medication errors: ISMP high-alert medication lists, error-prone abbreviations, tall-man lettering, look-alike/sound-alike names, NCC MERP error categories and barcode and smart-pump technology.",
+   "queries": [
+    "ISMP high-alert medications list",
+    "tall man lettering look-alike sound-alike drug names",
+    "NCC MERP medication error category index",
+    "Joint Commission do not use abbreviations list"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Geriatric pharmacotherapy and potentially inappropriate medications",
+   "scope": "Prescribing for older adults: AGS Beers Criteria, STOPP/START, anticholinergic burden scales, deprescribing protocols, polypharmacy and age-related pharmacokinetic changes.",
+   "queries": [
+    "AGS Beers Criteria potentially inappropriate medications",
+    "STOPP START criteria version older people",
+    "anticholinergic cognitive burden scale",
+    "deprescribing algorithm proton pump inhibitor benzodiazepine"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric and neonatal drug dosing and safety",
+   "scope": "Drug dosing and safety in neonates and children: developmental pharmacokinetics, weight- and age-based dosing, excipient toxicity, historical pediatric drug disasters and pediatric labeling laws (BPCA, PREA).",
+   "queries": [
+    "gray baby syndrome chloramphenicol neonates",
+    "benzyl alcohol gasping syndrome neonates",
+    "Best Pharmaceuticals for Children Act pediatric labeling",
+    "neonatal gentamicin dosing postmenstrual age"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drug use in pregnancy and lactation",
+   "scope": "Medication safety in pregnancy and breastfeeding: known teratogens and their critical windows, the former FDA letter categories and the PLLR, milk-to-plasma ratios and relative infant dose.",
+   "queries": [
+    "known teratogen isotretinoin valproate pregnancy",
+    "Pregnancy and Lactation Labeling Rule FDA categories",
+    "relative infant dose breastfeeding medication",
+    "milk to plasma ratio drug lactation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anti-infective pharmacotherapy and antimicrobial stewardship",
+   "scope": "Choosing and dosing antibacterials, antifungals and antivirals: spectra, PK/PD targets, resistance mechanisms, newer agents and stewardship program interventions.",
+   "queries": [
+    "antimicrobial stewardship program intervention hospital",
+    "time above MIC beta-lactam extended infusion",
+    "carbapenem resistance beta-lactamase inhibitor avibactam",
+    "echinocandin antifungal spectrum dosing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anticoagulant and antiplatelet therapy and reversal agents",
+   "scope": "Antithrombotic pharmacotherapy: warfarin management, unfractionated and low-molecular-weight heparins, DOACs, antiplatelets, coagulation monitoring tests and specific reversal agents.",
+   "queries": [
+    "warfarin INR vitamin K reversal dosing",
+    "andexanet alfa idarucizumab DOAC reversal",
+    "low molecular weight heparin anti-Xa monitoring",
+    "protamine sulfate heparin neutralization dose"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cardiovascular drug pharmacology",
+   "scope": "Mechanisms, classification and dosing of cardiovascular drugs: antihypertensive classes, Vaughan Williams antiarrhythmics, lipid-lowering agents, heart failure therapies and nitrates.",
+   "queries": [
+    "Vaughan Williams classification antiarrhythmic class III",
+    "statin intensity atorvastatin rosuvastatin LDL reduction",
+    "sacubitril valsartan heart failure neprilysin",
+    "ACE inhibitor angioedema bradykinin"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Insulin products, glucose-lowering agents and endocrine replacement therapy",
+   "scope": "Insulin preparations and noninsulin diabetes drugs (onset, peak, duration, concentrations, devices, mechanisms), plus thyroid hormone and corticosteroid replacement and dose equivalence.",
+   "queries": [
+    "insulin glargine U-300 onset duration action",
+    "GLP-1 receptor agonist semaglutide dosing",
+    "SGLT2 inhibitor euglycemic diabetic ketoacidosis",
+    "corticosteroid equivalent dose prednisone dexamethasone"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Analgesic pharmacotherapy and opioid conversion",
+   "scope": "Pain-management pharmacology: opioid receptors, equianalgesic conversion and opioid rotation, morphine milligram equivalents, abuse-deterrent formulations, naloxone, and NSAID and acetaminophen dosing limits.",
+   "queries": [
+    "equianalgesic dose conversion morphine hydromorphone",
+    "methadone conversion ratio opioid rotation",
+    "abuse-deterrent formulation OxyContin reformulation",
+    "morphine milligram equivalents CDC guideline"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Oncology pharmacy and chemotherapy dosing",
+   "scope": "The pharmacy side of cancer chemotherapy: dosing methods (BSA, Calvert formula), regimen acronyms, rescue agents, extravasation antidotes, emetogenicity classes and cumulative dose limits.",
+   "queries": [
+    "Calvert formula carboplatin AUC dosing",
+    "leucovorin rescue high-dose methotrexate glucarpidase",
+    "anthracycline cumulative dose limit dexrazoxane",
+    "chemotherapy extravasation antidote hyaluronidase"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Parenteral nutrition and intravenous admixture compatibility",
+   "scope": "Formulating parenteral nutrition (macronutrients, electrolytes, trace elements, lipid emulsions) and IV admixture issues: compatibility, stability, osmolarity limits, filters and calcium-phosphate precipitation.",
+   "queries": [
+    "calcium phosphate precipitation parenteral nutrition",
+    "intravenous lipid emulsion fish oil soybean",
+    "Y-site compatibility intravenous drugs",
+    "peripheral parenteral nutrition osmolarity limit"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Clinical toxicology and antidotes",
+   "scope": "Managing poisoning from a pharmacy perspective: antidotes and their dosing, toxidromes, treatment nomograms, enhanced elimination and hospital antidote stocking guidance.",
+   "queries": [
+    "acetaminophen overdose Rumack-Matthew nomogram acetylcysteine",
+    "fomepizole ethylene glycol methanol poisoning",
+    "hydroxocobalamin cyanide poisoning antidote",
+    "antidote stocking recommendations hospital"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nuclear pharmacy and radiopharmaceuticals",
+   "scope": "Preparing, testing and using radiopharmaceuticals: radionuclides and half-lives, generator systems, Tc-99m kits, radiochemical purity testing, PET agents and radioligand therapies.",
+   "queries": [
+    "technetium-99m generator molybdenum-99 elution",
+    "radiochemical purity kit preparation sestamibi",
+    "fluorine-18 FDG PET radiopharmaceutical",
+    "lutetium-177 radioligand therapy PSMA"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pharmacist-administered immunization and vaccine handling",
+   "scope": "Pharmacists' role in vaccination: vaccine products and ACIP schedules, cold-chain storage and handling, administration technique, VAERS reporting and state scope-of-practice authority.",
+   "queries": [
+    "pharmacist administered vaccines scope of practice",
+    "vaccine storage handling temperature excursion",
+    "ACIP recommendation adult immunization schedule",
+    "VAERS vaccine adverse event reporting"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonprescription medicines, Rx-to-OTC switches and self-care",
+   "scope": "Over-the-counter medicines: the FDA OTC monograph system and its CARES Act reform, Rx-to-OTC switches, behind-the-counter products, Drug Facts labeling and evidence for common self-care products.",
+   "queries": [
+    "prescription to OTC switch approved year",
+    "OTC monograph reform CARES Act",
+    "Drug Facts label nonprescription",
+    "phenylephrine oral nasal decongestant efficacy"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drug pricing, pharmacy benefit management and pharmacoeconomics",
+   "scope": "Drug pricing, reimbursement and value assessment: AWP/WAC/NADAC benchmarks, PBMs and rebates, the 340B program, Medicare Part D, IRA price negotiation, cost-effectiveness analysis and QALY thresholds.",
+   "queries": [
+    "pharmacy benefit manager rebate spread pricing",
+    "340B drug pricing program covered entity",
+    "Medicare drug price negotiation Inflation Reduction Act",
+    "cost-effectiveness QALY threshold NICE"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hospital pharmacy operations and formulary management",
+   "scope": "Hospital pharmacy practice: P&T committees and formularies, unit-dose and automated dispensing systems, drug shortage management, medication reconciliation and ASHP practice standards and surveys.",
+   "queries": [
+    "pharmacy and therapeutics committee formulary management",
+    "automated dispensing cabinet override hospital",
+    "drug shortage management hospital pharmacy",
+    "ASHP national survey pharmacy practice hospital"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of pharmacy and the pharmacy profession",
+   "scope": "How the profession developed and is organized: apothecaries and early pharmacopoeias, founding of schools and associations, the PharmD degree, licensure exams and professional oaths.",
+   "queries": [
+    "apothecary history pharmacy separation from medicine",
+    "Philadelphia College of Pharmacy founded 1821",
+    "American Pharmaceutical Association founding William Procter",
+    "Doctor of Pharmacy degree entry-level NAPLEX"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Veterinary pharmacy and species-specific drug use",
+   "scope": "Drug use in animals: species-specific toxicity and pharmacogenetics (MDR1 in herding dogs, feline glucuronidation deficit), extralabel use under AMDUCA, food-animal withdrawal times and veterinary-only drugs.",
+   "queries": [
+    "MDR1 mutation ivermectin collie sensitivity",
+    "cats acetaminophen toxicity glucuronidation deficiency",
+    "AMDUCA extralabel drug use food animals",
+    "withdrawal time drug residue food-producing animals"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Psychotropic and antiepileptic drug pharmacotherapy",
+   "scope": "Clinical pharmacology, dosing, formulations, monitoring and characteristic toxicities of antidepressants, antipsychotics, mood stabilizers, anxiolytics/hypnotics, ADHD stimulants, antiepileptics and antiparkinsonian and antidementia drugs, including syndromes such as serotonin syndrome and neuroleptic malignant syndrome.",
+   "queries": [
+    "antipsychotic D2 receptor occupancy dose equivalents",
+    "clozapine agranulocytosis absolute neutrophil count monitoring",
+    "lamotrigine valproate interaction rash titration schedule",
+    "serotonin syndrome SSRI discontinuation MAOI washout"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Non-US drug regulation and the WHO Essential Medicines List",
+   "scope": "Drug authorization and supply rules outside the United States: the EMA centralised and decentralised procedures, UK legal categories (POM, P, GSL) and MHRA reclassifications, Health Canada DINs and Notices of Compliance, Japan's PMDA, WHO prequalification, and the editions and contents of the WHO Model List of Essential Medicines.",
+   "queries": [
+    "European Medicines Agency centralised procedure marketing authorisation CHMP",
+    "MHRA prescription only pharmacy general sales list reclassification",
+    "WHO Model List of Essential Medicines edition additions",
+    "Health Canada Drug Identification Number Notice of Compliance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drug classification and product coding systems (ATC, NDC, RxNorm)",
+   "scope": "The structure, history and specific codes of systems that identify and classify drug products, including WHO ATC/DDD codes, US National Drug Code formats, RxNorm identifiers, the AHFS and USP classifications, NCPDP e-prescribing and claims standards, and DSCSA serialization identifiers.",
+   "queries": [
+    "Anatomical Therapeutic Chemical classification defined daily dose code",
+    "National Drug Code labeler product package segment format",
+    "RxNorm concept unique identifier clinical drug normalized",
+    "NCPDP SCRIPT standard electronic prescribing version"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

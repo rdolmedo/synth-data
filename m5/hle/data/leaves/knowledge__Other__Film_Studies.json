@@ -1,0 +1,157 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Film Studies",
+ "target_leaves": 9,
+ "expected_problems": 110,
+ "leaves": [
+  {
+   "leaf": "Silent-era photoplay scenario writing manuals",
+   "scope": "Facts from 1910s\u20131920s screenwriting handbooks: the scenario formats they prescribed (cast list, synopsis, scene-plot, numbered scenes, leaders and inserts), reel-length limits in feet, what studios paid per accepted script, and how the advice changed between editions and authors. A question could compute how many scenes or subtitles fit a one-reel limit under a manual's rules, or compare two authors' prescriptions to identify which manual a given format comes from.",
+   "queries": [
+    "photoplay writing technique",
+    "scenario scene plot",
+    "Sargent technique photoplay",
+    "photoplay market prices",
+    "leader insert subtitle",
+    "one-reel scenario length"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Early projection and exhibition technical handbooks",
+   "scope": "Specifications from projectionist manuals before 1930: intermittent mechanisms (Geneva/Maltese cross), recommended feet-per-minute speeds, lens focal-length tables, arc-lamp amperage, and nitrate fire-booth rules. A question could derive a reel's running time from its footage and a stated speed, or work out picture width at a given throw distance from a handbook's lens formula.",
+   "queries": [
+    "Richardson handbook projection",
+    "motion picture projectionist manual",
+    "Maltese cross intermittent",
+    "projection lens focal length",
+    "nitrate film booth fire",
+    "feet per minute projection"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Applied and photographic color in silent cinema",
+   "scope": "Documented facts about tinting, toning, mordanting, stencil coloring (Path\u00e9color), hand coloring, and early additive systems such as Kinemacolor: their dates, patents, the chemistry behind them, and how archives restore them. A question could identify which process could produce a described effect, given the process's chemistry, or pin down a film's date by checking which color systems existed at the time.",
+   "queries": [
+    "tinting toning nitrate",
+    "Path\u00e9color stencil process",
+    "Kinemacolor Urban Smith",
+    "Fantasia of color early cinema",
+    "Desmet color restoration",
+    "mordant toning film"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Cinemetrics and shot-length statistical style analysis",
+   "scope": "Published measurements of average and median shot length, shot-scale distributions, and the models fitted to shot durations (lognormal and others) for particular directors, periods, and national cinemas. A question could take reported figures from a study and compute a derived value (cut count, ratio between periods, a distribution parameter) or decide which film or era fits the given statistics.",
+   "queries": [
+    "average shot length",
+    "cinemetrics shot duration",
+    "Barry Salt statistical style",
+    "shot length lognormal distribution",
+    "shot scale distribution film",
+    "editing pace Hollywood decline"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US motion picture censorship case law",
+   "scope": "Holdings, statutory licensing standards, and the specific films behind US prior-restraint and obscenity cases: from Mutual Film v. Industrial Commission of Ohio through Burstyn v. Wilson ('The Miracle'), Times Film v. Chicago, and Freedman v. Maryland, plus state and municipal censor boards. A question could ask which ground for banning survived which later ruling, or put together a timeline of the procedural safeguards required of censor boards.",
+   "queries": [
+    "Mutual Film Industrial Commission",
+    "Burstyn Wilson sacrilegious",
+    "motion picture censorship board",
+    "Times Film Chicago",
+    "Freedman Maryland prior restraint",
+    "film license denied obscene"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Copyright and adaptation litigation over films",
+   "scope": "US cases on whether films infringed novels, plays, and screenplays: Kalem v. Harper Bros. (Ben-Hur), Nichols v. Universal, Sheldon v. Metro-Goldwyn, Loew's v. CBS, and related disputes, including the tests they set and how damages were apportioned. A question could apply a decision's stated test to a described plot comparison, or compute an apportioned award from the percentages in the opinion.",
+   "queries": [
+    "Kalem Harper Ben-Hur",
+    "Nichols Universal Pictures",
+    "Sheldon Metro-Goldwyn apportionment",
+    "photoplay copyright infringement",
+    "motion picture dramatization rights",
+    "abstractions test play film"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "International film festival history and institutions",
+   "scope": "Facts about how festivals were founded and governed: Venice, Cannes, Berlin, Locarno, FESPACO, and others. These include early award names and categories, jury rules, FIAPF accreditation tiers, political boycotts, and cancelled editions. A question could cross-reference a festival's rules in a given year to work out whether a film qualified, or count how many editions were held in a disrupted period.",
+   "queries": [
+    "film festival yearbook",
+    "Venice Mostra history",
+    "Cannes festival jury",
+    "FIAPF accreditation festivals",
+    "festival programming circuit",
+    "FESPACO Ouagadougou history"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Industrial, educational and colonial 'useful' cinema",
+   "scope": "Archival facts about sponsored, industrial, instructional, and colonial film production: corporate film units, the British Colonial Film Unit, Dutch and Belgian colonial cinema, and interwar visual-education programs. Relevant details include producers, budgets, distribution methods (mobile cinema vans), and target audiences. A question could tie a described film to the unit or sponsor that made it, or compare reported audience and screening figures across campaigns.",
+   "queries": [
+    "industrial film sponsored",
+    "Colonial Film Unit Africa",
+    "educational film interwar",
+    "Films that Work industrial",
+    "Dutch colonial cinema",
+    "mobile cinema van"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nollywood and West African video-film economies",
+   "scope": "Documented facts about Nigerian and Ghanaian video-film industries: foundational titles (e.g., Living in Bondage), marketer-controlled distribution through Idumota and Alaba markets, Kannywood censorship in Kano, Censors Board classification rules, and production volumes and budgets. A question could combine reported output and budget figures to compute a derived quantity, or work out from a film's language and the regulatory regime which industry segment or board applied.",
+   "queries": [
+    "Nollywood video film",
+    "Nigerian home video market",
+    "Living in Bondage 1992",
+    "Kannywood Hausa film censorship",
+    "Ghanaian video film",
+    "Idumota marketers distribution"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,657 @@
+{
+ "domain": "Finance",
+ "subtopic": "Macroeconomics",
+ "weight": 0.0100305,
+ "leaves": [
+  {
+   "leaf": "GDP measurement and national income accounts (NIPA, SNA 2008)",
+   "scope": "How output and income are measured in national accounts: the expenditure, income and production approaches, BEA NIPA tables, chain-weighting, revisions and the UN System of National Accounts.",
+   "queries": [
+    "BEA NIPA chain-weighted real GDP methodology",
+    "System of National Accounts 2008 gross value added",
+    "GDP advance estimate revision comprehensive benchmark update",
+    "gross domestic income statistical discrepancy GDP"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Price indices and inflation measurement (CPI, PCE, deflators, HICP)",
+   "scope": "How consumer, producer and expenditure price indices are built, including CPI variants, the PCE index, the GDP deflator, HICP, core and trimmed-mean measures, hedonic adjustment and the substitution bias found by the Boskin Commission.",
+   "queries": [
+    "CPI-U CPI-W expenditure weights relative importance",
+    "Boskin Commission CPI substitution bias overstatement",
+    "trimmed mean PCE inflation Dallas Fed",
+    "HICP Eurostat methodology owner-occupied housing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Labor force statistics and unemployment measurement",
+   "scope": "How employment and unemployment are measured: the Current Population Survey and the establishment survey, the U-1 to U-6 alternative measures, participation and employment-population ratios, JOLTS, and ILO definitions.",
+   "queries": [
+    "Current Population Survey unemployment definition U-6",
+    "establishment survey nonfarm payrolls benchmark revision",
+    "prime-age employment-population ratio labor force participation",
+    "ILO definition unemployment labour force survey"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Business cycle dating, recession chronology and leading indicators",
+   "scope": "How expansions and recessions are identified and forecast: the NBER Business Cycle Dating Committee and US recession chronology, CEPR euro-area dating, composite leading indexes, PMIs, the Sahm rule and the yield-curve inversion signal.",
+   "queries": [
+    "NBER Business Cycle Dating Committee peak trough",
+    "Conference Board Leading Economic Index components",
+    "ISM manufacturing PMI index 50 threshold",
+    "yield curve inversion recession predictor Sahm rule"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Keynesian economics: the General Theory, IS-LM and multipliers",
+   "scope": "Keynes's General Theory and how it was later formalized: effective demand, liquidity preference and the liquidity trap, Hicks's IS-LM model, the Keynesian cross, multipliers, the paradox of thrift and the neoclassical synthesis.",
+   "queries": [
+    "Keynes General Theory 1936 effective demand",
+    "Hicks IS-LM Mr Keynes and the Classics",
+    "Keynesian cross marginal propensity consume multiplier",
+    "paradox of thrift liquidity trap neoclassical synthesis"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Phillips curve, NAIRU and inflation expectations",
+   "scope": "The inflation-unemployment tradeoff from A.W. Phillips (1958) through the Friedman-Phelps expectations-augmented curve, NAIRU estimates, the flattening debate, and survey- and market-based measures of inflation expectations.",
+   "queries": [
+    "Phillips 1958 unemployment money wage rates",
+    "Friedman Phelps expectations-augmented Phillips curve natural rate",
+    "NAIRU estimate Congressional Budget Office noncyclical unemployment",
+    "Michigan survey inflation expectations TIPS breakeven"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "New classical macroeconomics and real business cycle theory",
+   "scope": "The rational expectations revolution and equilibrium business-cycle models: Muth, the Lucas islands model and Lucas critique, Sargent-Wallace policy ineffectiveness, Kydland-Prescott time inconsistency and RBC models, and calibration methodology.",
+   "queries": [
+    "Lucas critique econometric policy evaluation 1976",
+    "Kydland Prescott time to build aggregate fluctuations",
+    "Sargent Wallace policy ineffectiveness proposition",
+    "real business cycle technology shocks calibration"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "New Keynesian and DSGE models",
+   "scope": "Models with nominal rigidities and the DSGE models central banks use: Calvo and Taylor staggered pricing, menu costs, the three-equation New Keynesian model, Smets-Wouters, FRB/US and other institutional models.",
+   "queries": [
+    "Calvo staggered pricing New Keynesian Phillips curve",
+    "Smets Wouters estimated DSGE model euro area",
+    "FRB/US model Federal Reserve Board macroeconometric",
+    "menu costs nominal rigidity Mankiw Akerlof Yellen"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consumption and saving theory",
+   "scope": "Theory and evidence on household consumption and saving: Friedman's permanent income hypothesis, Modigliani's life-cycle model, Hall's random walk, Ricardian equivalence, precautionary saving and estimates of the marginal propensity to consume.",
+   "queries": [
+    "Friedman permanent income hypothesis 1957 consumption function",
+    "Modigliani Brumberg life-cycle hypothesis saving",
+    "Hall 1978 random walk consumption Euler equation",
+    "Barro Ricardian equivalence government bonds net wealth"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Investment theory and capital accumulation",
+   "scope": "What drives aggregate business and residential investment: the accelerator principle, Jorgenson's user cost of capital, Tobin's q, adjustment costs, irreversibility and real options, and investment tax incentives.",
+   "queries": [
+    "Tobin's q investment theory marginal average",
+    "Jorgenson user cost of capital neoclassical investment",
+    "accelerator principle investment Clark Aftalion",
+    "investment irreversibility uncertainty Dixit Pindyck"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Labor market dynamics: search and matching, Okun's law and the Beveridge curve",
+   "scope": "Macro labor-market theory and its empirical regularities: the Diamond-Mortensen-Pissarides model, Okun's law coefficients, the Beveridge curve, hysteresis, efficiency wages and sticky wages.",
+   "queries": [
+    "Diamond Mortensen Pissarides search matching unemployment",
+    "Okun's law coefficient output gap unemployment",
+    "Beveridge curve vacancies unemployment JOLTS",
+    "unemployment hysteresis Blanchard Summers efficiency wages"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Economic growth theory (Harrod-Domar, Solow-Swan, endogenous growth)",
+   "scope": "Theoretical models of long-run growth: Harrod-Domar, Solow-Swan, Ramsey-Cass-Koopmans, golden-rule saving, the Romer and Lucas endogenous growth models, and Schumpeterian growth.",
+   "queries": [
+    "Solow Swan growth model steady state golden rule",
+    "Romer 1990 endogenous technological change nonrival ideas",
+    "Ramsey Cass Koopmans optimal growth model",
+    "Harrod Domar warranted growth rate knife-edge"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Growth accounting, productivity measurement and convergence empirics",
+   "scope": "Measuring the sources of growth and cross-country income gaps: the Solow residual and total factor productivity, BLS multifactor productivity, the Penn World Table and Maddison data, productivity slowdowns and conditional convergence.",
+   "queries": [
+    "total factor productivity Solow residual growth accounting",
+    "Penn World Table real GDP PPP version",
+    "productivity slowdown 1973 labor productivity growth",
+    "Mankiw Romer Weil conditional convergence human capital"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Money supply, quantity theory and monetarism",
+   "scope": "Monetary aggregates and money-centered macro theory: M0-M3 definitions, the money multiplier, velocity, the quantity theory and Fisher's equation of exchange, Friedman-Schwartz, the k-percent rule and monetary targeting experiments.",
+   "queries": [
+    "M1 M2 money stock definitions H.6 release",
+    "quantity theory of money velocity Fisher equation",
+    "Friedman Schwartz Monetary History United States 1867",
+    "Bundesbank monetary targeting money growth target"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Heterodox macroeconomics: Austrian, post-Keynesian, MMT and Minsky",
+   "scope": "Non-mainstream macro schools and their key ideas: Austrian business cycle theory, post-Keynesian endogenous money and stock-flow consistent models, Modern Monetary Theory, Minsky's financial instability hypothesis and Kaleckian distribution.",
+   "queries": [
+    "Austrian business cycle theory Mises Hayek malinvestment",
+    "Minsky financial instability hypothesis hedge speculative Ponzi",
+    "Modern Monetary Theory chartalism job guarantee",
+    "post-Keynesian endogenous money Kaldor Kalecki"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal Reserve System structure and legislative history",
+   "scope": "How the US Federal Reserve is organized and how its statutes evolved: the Federal Reserve Act of 1913, the Reserve Bank districts, Board of Governors terms, FOMC composition and rotation, the Banking Act of 1935, the 1951 Treasury-Fed Accord, Humphrey-Hawkins and the list of Fed chairs.",
+   "queries": [
+    "Federal Reserve Act 1913 twelve Reserve Bank districts",
+    "FOMC voting rotation Reserve Bank presidents",
+    "Treasury-Fed Accord 1951 interest rate peg",
+    "Humphrey-Hawkins Act dual mandate Board of Governors terms"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal Reserve operating framework and money markets",
+   "scope": "How the Fed implements its policy rate: the federal funds market and effective rate, reserve requirements, interest on reserve balances, the overnight reverse repo facility, the ample-reserves floor system, the standing repo facility, the discount window and the move from LIBOR to SOFR.",
+   "queries": [
+    "interest on reserve balances effective federal funds rate",
+    "overnight reverse repurchase agreement facility ON RRP",
+    "ample reserves regime standing repo facility",
+    "SOFR secured overnight financing rate LIBOR transition"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Unconventional monetary policy: QE, forward guidance and negative rates",
+   "scope": "Tools used at or near the zero lower bound: large-scale asset purchases (QE1-QE3 and the 2020 purchases), Operation Twist, forward guidance, negative interest rate policies and quantitative tightening.",
+   "queries": [
+    "large-scale asset purchases QE1 QE2 QE3 Federal Reserve",
+    "Operation Twist maturity extension program 2011",
+    "negative interest rate policy Swiss National Bank Denmark",
+    "quantitative tightening balance sheet runoff monthly caps"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Monetary policy rules, the natural rate of interest and secular stagnation",
+   "scope": "Rule-based policy benchmarks and the equilibrium real rate: the 1993 Taylor rule and its variants, Laubach-Williams and Holston-Laubach-Williams estimates of r*, the zero lower bound, Hansen's and Summers's secular stagnation, and the global saving glut hypothesis.",
+   "queries": [
+    "Taylor rule 1993 inflation output gap coefficients",
+    "Laubach Williams natural rate of interest estimate",
+    "secular stagnation Summers Hansen 1938 address",
+    "Bernanke global saving glut 2005 speech"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inflation targeting and central bank independence worldwide",
+   "scope": "How inflation-targeting regimes and central bank mandates are designed and adopted: the RBNZ Act 1989 and Policy Targets Agreements, the Bank of Canada, Bank of England independence in 1997 and its MPC, the Riksbank, target bands, and indices of central bank independence.",
+   "queries": [
+    "RBNZ Act 1989 policy targets agreement inflation",
+    "Bank of England independence 1997 Monetary Policy Committee",
+    "inflation targeting adoption countries target band",
+    "central bank independence index Cukierman"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "European Central Bank and euro-area monetary policy",
+   "scope": "The ECB and Eurosystem and their policy: the Governing Council, the deposit facility and main refinancing rates, the two-pillar strategy and 2021 strategy review, LTROs and TLTROs, OMT, APP, PEPP and TPI.",
+   "queries": [
+    "ECB deposit facility rate main refinancing operations",
+    "Outright Monetary Transactions Draghi whatever it takes",
+    "pandemic emergency purchase programme PEPP envelope",
+    "TLTRO targeted longer-term refinancing operations ECB"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "European monetary integration and euro-area fiscal rules",
+   "scope": "The road to the euro and how it is governed: the Werner Plan, the European Monetary System and ERM crises, the Maastricht convergence criteria, the Stability and Growth Pact and Fiscal Compact, euro adoption dates, the ESM and optimal currency area theory.",
+   "queries": [
+    "Maastricht convergence criteria deficit debt inflation",
+    "Exchange Rate Mechanism crisis 1992 Black Wednesday",
+    "Stability and Growth Pact excessive deficit procedure",
+    "optimal currency area Mundell euro adoption dates"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Japan's macroeconomy and Bank of Japan policy",
+   "scope": "Japan's postwar growth, asset bubble, lost decades and deflation, and Bank of Japan policy: the zero interest rate policy, 2001 quantitative easing, Abenomics, QQE, negative rates, yield curve control and the 2024 exit.",
+   "queries": [
+    "Bank of Japan quantitative qualitative easing Kuroda",
+    "Japan asset price bubble lost decade deflation",
+    "yield curve control 10-year JGB target",
+    "Bank of Japan zero interest rate policy 1999"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "China's macroeconomy and People's Bank of China policy",
+   "scope": "How China manages its macroeconomy: PBoC instruments (RRR, LPR, MLF), the renminbi exchange-rate regime and its 2005 and 2015 reforms, capital controls, local government debt, GDP targets and reform-era growth.",
+   "queries": [
+    "People's Bank of China reserve requirement ratio",
+    "loan prime rate medium-term lending facility PBOC",
+    "renminbi exchange rate reform 2005 2015 devaluation",
+    "China local government financing vehicles debt"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US federal budget process and fiscal policy",
+   "scope": "How US fiscal policy is made and analyzed: the Congressional Budget Act of 1974, reconciliation, CBO baselines and scoring, PAYGO and sequestration, mandatory versus discretionary spending, automatic stabilizers and fiscal multiplier estimates.",
+   "queries": [
+    "Congressional Budget Act 1974 reconciliation process",
+    "CBO baseline budget projections deficit",
+    "Budget Control Act 2011 sequestration spending caps",
+    "automatic stabilizers fiscal multiplier estimates"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public debt dynamics, debt limits and fiscal sustainability",
+   "scope": "Government debt levels and whether they are sustainable: debt-to-GDP history, the r-g debt dynamics equation, the US debt ceiling and its standoffs, sovereign credit downgrades, the Reinhart-Rogoff threshold, and fiscal dominance and the fiscal theory of the price level.",
+   "queries": [
+    "debt ceiling 2011 Standard Poor's downgrade",
+    "debt-to-GDP interest rate growth differential",
+    "Reinhart Rogoff Growth in a Time of Debt",
+    "fiscal theory of the price level"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sovereign default and debt restructuring",
+   "scope": "Sovereign debt crises and how they are resolved: historical defaults, the Brady Plan, the Paris Club and London Club, collective action clauses, Argentina's 2001 default and holdout litigation, Greece's 2012 PSI and the G20 Common Framework.",
+   "queries": [
+    "Brady Plan bonds 1989 debt restructuring",
+    "Greece private sector involvement 2012 haircut",
+    "Argentina 2001 default holdouts NML Capital",
+    "collective action clauses Paris Club Common Framework"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tax policy and supply-side economics",
+   "scope": "The macroeconomics of tax policy: the Laffer curve and supply-side economics, major US tax laws (ERTA 1981, the Tax Reform Act of 1986, EGTRRA 2001, TCJA 2017), the history of marginal rates, dynamic scoring and narrative estimates of tax multipliers.",
+   "queries": [
+    "Laffer curve supply-side economics Reagan tax cuts",
+    "Economic Recovery Tax Act 1981 top marginal rate",
+    "Tax Cuts and Jobs Act 2017 corporate rate",
+    "Romer narrative tax changes macroeconomic effects"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "International monetary system history: gold standard to floating rates",
+   "scope": "How international monetary arrangements evolved: the classical gold standard, the Bretton Woods conference and par values, the London Gold Pool and Triffin dilemma, the 1971 Nixon shock and Smithsonian Agreement, the Jamaica Accords, and the Plaza and Louvre accords.",
+   "queries": [
+    "Bretton Woods conference 1944 par value gold",
+    "Nixon shock 1971 Smithsonian Agreement",
+    "Plaza Accord 1985 Louvre Accord dollar",
+    "Triffin dilemma London Gold Pool collapse"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Open-economy macroeconomic theory and exchange rate determination",
+   "scope": "Theoretical models of open economies: Mundell-Fleming and the impossible trinity, purchasing power parity and the Big Mac index, covered and uncovered interest parity, Dornbusch overshooting, the Balassa-Samuelson effect, and the Marshall-Lerner condition and J-curve.",
+   "queries": [
+    "Mundell-Fleming model impossible trinity capital mobility",
+    "Dornbusch overshooting model 1976 exchange rate",
+    "purchasing power parity Balassa-Samuelson effect Big Mac",
+    "Marshall-Lerner condition J-curve devaluation trade balance"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Balance of payments and international investment position",
+   "scope": "Measuring and analyzing external accounts: IMF BPM6 conventions, the current, capital and financial accounts, the net international investment position, reserve assets, global imbalances, and the dollar's reserve-currency share and exorbitant privilege.",
+   "queries": [
+    "BPM6 current account financial account balance of payments",
+    "net international investment position United States BEA",
+    "global imbalances current account surplus China Germany",
+    "exorbitant privilege dollar reserve currency COFER share"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "International financial institutions: IMF, World Bank, BIS and SDR",
+   "scope": "How multilateral financial institutions are governed and lend: IMF quotas and voting shares, lending facilities (SBA, EFF, FCL) and conditionality, the SDR basket and allocations, the World Bank's IBRD and IDA, and the BIS and Basel Committee.",
+   "queries": [
+    "IMF quota formula voting share reform",
+    "special drawing rights basket currency weights review",
+    "IMF Stand-By Arrangement Extended Fund Facility",
+    "Bank for International Settlements 1930 Basel Committee"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Emerging-market currency and banking crises",
+   "scope": "Postwar crises in developing and emerging economies and the models that explain them: the 1982 Latin American debt crisis, the 1994 Mexican Tequila crisis, the 1997 Asian crisis, Russia's 1998 default, Brazil 1999, Turkey 2001, and first-, second- and third-generation currency crisis models.",
+   "queries": [
+    "1997 Asian financial crisis Thai baht float",
+    "Mexican peso crisis 1994 tesobonos Tequila",
+    "1998 Russian financial crisis GKO default ruble",
+    "first-generation currency crisis model speculative attack Krugman"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Great Depression and the interwar economy",
+   "scope": "The 1929-1939 downturn and interwar macro: the 1929 crash, the banking panics of 1930-33, Smoot-Hawley, the interwar gold exchange standard and the exits from it (UK 1931, US 1933), the Gold Reserve Act, the New Deal, the 1937-38 recession, and explanations by Friedman-Schwartz, Bernanke and Eichengreen.",
+   "queries": [
+    "Great Depression banking panics 1930 1933 failures",
+    "Britain leaves gold standard September 1931",
+    "Gold Reserve Act 1934 dollar devaluation",
+    "recession of 1937-38 reserve requirements Eccles"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hyperinflations and currency reforms",
+   "scope": "Episodes of extreme inflation and how they were ended: Weimar Germany and the Rentenmark, Hungary's 1946 pengő, Yugoslavia, Zimbabwe, Venezuela, Argentina and Brazil's Plano Real, Cagan's definition, and redenominations.",
+   "queries": [
+    "Weimar hyperinflation 1923 Rentenmark stabilization",
+    "Hungarian pengő hyperinflation 1946",
+    "Zimbabwe dollar hyperinflation redenomination 2008",
+    "Plano Real 1994 Brazil URV currency reform"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Macroprudential policy and systemic risk regulation",
+   "scope": "Policies for the stability of the whole financial system: Basel III capital buffers (countercyclical, conservation, G-SIB surcharges), stress tests (SCAP, CCAR, DFAST, the stress capital buffer), FSOC and SIFI designation, LTV and DTI limits, and systemic risk measures.",
+   "queries": [
+    "countercyclical capital buffer Basel III macroprudential",
+    "CCAR DFAST stress test stress capital buffer",
+    "Financial Stability Oversight Council SIFI designation",
+    "loan-to-value debt-to-income limits macroprudential tools"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "2007-2009 global financial crisis and policy response",
+   "scope": "The subprime and global financial crisis and the response to it: Bear Stearns and Lehman Brothers, TARP and the Capital Purchase Program, Fed emergency facilities under Section 13(3) (TAF, PDCF, TALF, CPFF), central bank swap lines, ARRA and Dodd-Frank.",
+   "queries": [
+    "Troubled Asset Relief Program Capital Purchase Program",
+    "Section 13(3) emergency lending TAF PDCF TALF",
+    "Lehman Brothers bankruptcy September 2008 Bear Stearns",
+    "American Recovery and Reinvestment Act 2009"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Great Inflation, oil shocks, Volcker disinflation and the Great Moderation",
+   "scope": "US and global macro history from the late 1960s to 2007: the Great Inflation, the 1973 OPEC embargo and 1979 oil shock, Nixon's wage-price controls, Volcker's October 1979 switch to reserve targeting and the disinflation that followed, the 1980-82 recessions, and the Great Moderation.",
+   "queries": [
+    "Volcker October 1979 nonborrowed reserves operating procedure",
+    "1973 OPEC oil embargo stagflation recession",
+    "Nixon wage price controls August 1971",
+    "Great Moderation output volatility decline 1984"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "COVID-19 pandemic macroeconomic policy and the 2021-2023 inflation surge",
+   "scope": "Fiscal and monetary responses to the pandemic and what followed: the CARES Act, PPP and ARPA, the Fed's 2020 facilities (MSLP, PMCCF, MLF), the 2020 framework review and flexible average inflation targeting, supply-chain disruptions, the 2021-23 inflation surge and the 2022-23 tightening cycle.",
+   "queries": [
+    "CARES Act Paycheck Protection Program 2020",
+    "Main Street Lending Program Municipal Liquidity Facility",
+    "flexible average inflation targeting 2020 framework review",
+    "2022 rate hikes 75 basis points inflation"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Emerging-market and development macroeconomics",
+   "scope": "Macro issues specific to developing economies: Dutch disease and the resource curse, sudden stops, original sin and currency mismatch, dollarization and currency boards, the Washington Consensus, the middle-income trap and capital controls.",
+   "queries": [
+    "Dutch disease resource curse natural resource exports",
+    "original sin currency mismatch Eichengreen Hausmann",
+    "currency board Hong Kong Argentina convertibility plan",
+    "Washington Consensus Williamson ten policy reforms"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Macroeconometric methods: VARs, structural identification and detrending filters",
+   "scope": "The empirical toolkit of macroeconomics: vector autoregressions and how their shocks are identified (Cholesky ordering, Blanchard-Quah long-run restrictions, sign restrictions, narrative and high-frequency shocks), local projections, Bayesian VAR priors, cointegration, and trend-cycle filters such as Hodrick-Prescott, Baxter-King and Hamilton.",
+   "queries": [
+    "structural VAR identification sign restrictions Cholesky ordering",
+    "Hodrick-Prescott filter smoothing parameter lambda 1600",
+    "local projections impulse responses Jorda 2005",
+    "Romer narrative monetary policy shocks high-frequency identification"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Macroeconomic forecasting, nowcasting and official economic projections",
+   "scope": "How macroeconomic forecasts are made and checked, by forecaster surveys (SPF, Blue Chip, Livingston), central bank staff and committees (Greenbook/Tealbook, the Summary of Economic Projections dot plot, Beige Book, BoE and ECB staff projections), nowcasting models (GDPNow, the New York Fed Staff Nowcast) and official agencies (CBO, IMF World Economic Outlook, OECD Economic Outlook).",
+   "queries": [
+    "Survey of Professional Forecasters Philadelphia Fed history",
+    "Atlanta Fed GDPNow nowcasting model methodology",
+    "Federal Reserve Summary of Economic Projections dot plot",
+    "Greenbook Tealbook staff forecast accuracy evaluation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Business surveys and monthly activity indicators (PMIs, sentiment, industrial production)",
+   "scope": "How high-frequency activity indicators other than labor and price statistics are built, their history and how they are read: ISM and S&P Global PMIs, regional Fed manufacturing surveys, the ifo, ZEW and Tankan surveys, consumer sentiment and confidence indices, industrial production and capacity utilization, retail sales, durable goods orders and housing starts.",
+   "queries": [
+    "ISM manufacturing PMI diffusion index 50 threshold",
+    "University of Michigan consumer sentiment index methodology",
+    "Federal Reserve industrial production capacity utilization G.17",
+    "ifo business climate index ZEW economic sentiment"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US money and banking before the Federal Reserve (1791-1913)",
+   "scope": "American monetary and banking institutions and crises before the Fed: the First and Second Banks of the United States, the free banking era, the National Banking Acts, greenbacks, silver legislation and the bimetallism debates, the panics of 1837, 1857, 1873, 1893 and 1907, and the Aldrich-Vreeland Act.",
+   "queries": [
+    "Second Bank of the United States Jackson veto 1832",
+    "free banking era wildcat banks state banknotes",
+    "Coinage Act of 1873 free silver bimetallism",
+    "Panic of 1907 Knickerbocker Trust J.P. Morgan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bank of England and UK macroeconomic policy",
+   "scope": "The history and institutions of British monetary and fiscal policy: the Bank Charter Act 1844, the 1946 nationalisation, the sterling crises, the 1976 IMF loan, ERM membership and Black Wednesday, operational independence in 1997 and the Monetary Policy Committee, the Office for Budget Responsibility, Bank of England QE, and the 2022 mini-budget gilt crisis.",
+   "queries": [
+    "Bank of England Monetary Policy Committee inflation target remit",
+    "Black Wednesday 1992 sterling Exchange Rate Mechanism exit",
+    "1976 sterling crisis IMF loan Callaghan Healey",
+    "2022 mini-budget gilt market LDI pension crisis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Income and wealth distribution in macroeconomics",
+   "scope": "How inequality and factor shares are measured and studied in macroeconomics: Gini coefficients and top-income shares, the Kuznets curve, Piketty's r > g and distributional national accounts, the Survey of Consumer Finances and the Fed's Distributional Financial Accounts, the falling labor share, and heterogeneous-agent models (Aiyagari, Krusell-Smith, HANK).",
+   "queries": [
+    "Piketty Saez top income shares distributional national accounts",
+    "declining labor share Karabarbounis Neiman",
+    "Survey of Consumer Finances wealth distribution Federal Reserve",
+    "heterogeneous agent New Keynesian HANK Aiyagari model"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

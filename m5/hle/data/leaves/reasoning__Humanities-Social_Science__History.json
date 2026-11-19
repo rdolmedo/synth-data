@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "History",
+ "target_leaves": 8,
+ "expected_problems": 13,
+ "leaves": [
+  {
+   "leaf": "Reconciling medieval charter and chronicle dating clauses",
+   "scope": "Problems give a date written in several overlapping systems at once (year of the Incarnation in a stated year-start style, indiction, regnal year, feast-relative day, Roman kalends). They ask for the Julian date, the weekday, or which element is inconsistent. They are hard because each convention moves the year boundary differently, and the computistical cycles have to be applied exactly.",
+   "techniques": [
+    "Year-start styles: Nativity, Circumcision, Florentine vs Pisan Annunciation, Easter style, Byzantine 1 September, mos Venetus",
+    "Indiction variants (Greek, Bedan, Imperial/Constantinian, Roman pontifical) and their start dates",
+    "Easter computus via golden number, epacts, concurrents and dominical letters (including leap-year double letters)",
+    "Regnal-year arithmetic from accession anniversaries, including interregna and reigns counted from coronation rather than accession",
+    "Converting Roman kalends/nones/ides and movable-feast-relative expressions (e.g. feria post octavam Pentecostes)",
+    "Cross-checking all clauses to find the single scribal error consistent with the rest"
+   ],
+   "answer_forms": [
+    "Julian calendar date",
+    "day of the week",
+    "ordered tuple (year, indiction, regnal year)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Converting Mesoamerican and East Asian cyclical dates",
+   "scope": "Problems ask for conversions between Maya Long Count, Calendar Round and Supplementary Series positions and Western dates, or between Chinese/Japanese sexagenary designations, reign-era years and lunisolar months. They are hard because the cycles are incommensurate, and correlation constants, intercalary months and mid-year era changes must all be handled exactly.",
+   "techniques": [
+    "Long Count arithmetic with the GMT correlation constants (584283 vs 584285) and proleptic calendar conversion",
+    "Solving Tzolk'in/Haab' congruences for Calendar Round recurrence via the Chinese Remainder Theorem",
+    "Applying distance numbers and the Lords of the Night (G1\u2013G9) cycle to check or restore damaged glyph dates",
+    "Heavenly stem and earthly branch computation for sexagenary days and years",
+    "Handling era names (nianhao/neng\u014d) changed mid-year and intercalary (run/ur\u016b) months in lunisolar reckoning",
+    "Intersecting several cycle constraints to pick a unique date in a historically plausible window"
+   ],
+   "answer_forms": [
+    "Long Count tuple",
+    "Calendar Round designation",
+    "Gregorian or Julian date",
+    "sexagenary/era-year designation"
+   ]
+  },
+  {
+   "leaf": "Dating Roman imperial inscriptions by titulature",
+   "scope": "Given fragmentary imperial titulature on stone, bronze diplomas or coins (tribunicia potestas count, imperatorial acclamations, consulships, victory cognomina, pater patriae), problems ask for the date range or the restoration of missing numerals. They are hard because the renewal date of tribunician power changed between reigns, acclamations accumulated irregularly, and every element of the fragment must be consistent with every other.",
+   "techniques": [
+    "Tribunician power renewal conventions (dies imperii vs the 10 December reckoning) and the resulting year offsets",
+    "Intersecting date intervals from TR P, COS / COS DES and IMP numerals",
+    "Sequencing the adoption of victory titles (Germanicus, Dacicus, Parthicus Maximus, etc.) and of pater patriae",
+    "Restoring lacunae by letter count and line length on standardized formulae",
+    "Distinguishing co-emperor and dynastic titulature in joint reigns (Antonine, Severan, Tetrarchic)",
+    "Checking coin legend abbreviations against datable reverse types"
+   ],
+   "answer_forms": [
+    "year or year range AD",
+    "restored Roman numeral",
+    "small set of possible years",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Applying historical succession laws to genealogies",
+   "scope": "Problems give a dynastic family tree with deaths, renunciations, legitimacy, marriage-status or religious disqualifications, and ask who succeeds under a stated historical rule. They are hard because rules such as semi-Salic law, agnatic seniority and statutory exclusions interact in non-obvious ways with predeceased heirs and the right of representation.",
+   "techniques": [
+    "Salic vs semi-Salic vs male-preference cognatic primogeniture, including reversion to the nearest female line",
+    "Right of representation vs proximity of blood when an heir predeceases",
+    "Agnatic seniority on the Kievan rota (lestvichnoe pravo) with exclusion of izgoi",
+    "Statutory exclusions: Act of Settlement religious bar, Royal Marriages Act consent, Pragmatic Sanction clauses",
+    "Ottoman seniority (ekberiyet) after the abandonment of fratricide",
+    "Tanistry and kin-group eligibility in the derbfine"
+   ],
+   "answer_forms": [
+    "name of an individual",
+    "ordered list of successors",
+    "integer position in line of succession",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Money-of-account arithmetic in pre-decimal economies",
+   "scope": "Problems require sums, exchanges, debasement effects or implicit interest in historical monetary systems (pounds-shillings-pence, livre tournois, Florentine lira a fiorino, Byzantine nomisma\u2013miliaresion\u2013follis, Roman as\u2013sestertius\u2013denarius). They are hard because the solver must track real coin against money of account, fineness, mint charges and changing tariffs at the same time.",
+   "techniques": [
+    "Mixed-radix conversion of \u00a3sd, livres-sous-deniers and mark/ounce/pennyweight weights",
+    "Mint equations: seigniorage, brassage, fineness and coins struck per pound weight before and after debasement",
+    "Gold\u2013silver bimetallic ratios and arbitrage between mints with different tariffs",
+    "Bill-of-exchange cycles (cambio and ricorsa) with usance periods, used to extract implicit interest rates",
+    "Retariffing of Roman denominations (e.g. denarius moving from 10 to 16 asses) and sestertial reckoning",
+    "Converting between a ghost money of account and circulating coin at a stated exchange"
+   ],
+   "answer_forms": [
+    "amount in \u00a3sd or other historical denominations",
+    "rational number",
+    "percentage rate",
+    "integer number of coins"
+   ]
+  },
+  {
+   "leaf": "Mechanics of historical election and assembly procedures",
+   "scope": "Problems apply the formal rules of historical voting bodies to stated scenarios and ask for outcomes, minimal winning coalitions, or counts of possible results. They are hard because these procedures were multi-stage, weighted by class or curia, ended voting early, or mixed lot with ballot.",
+   "techniques": [
+    "Venetian ducal election: alternating sortition and nomination rounds with their quorum thresholds",
+    "Comitia centuriata class-weighted voting order, stopping once a majority of centuries is reached",
+    "Papal conclave supermajority rules, accessus and the varying two-thirds-plus-one conventions",
+    "Historical U.S. House apportionment methods (Jefferson, Hamilton, Webster, Huntington\u2013Hill) and their paradoxes",
+    "Twelfth Amendment contingent elections with state-unit voting in the House",
+    "Imperial Diet curial voting (Electors, Princes, Cities) and itio in partes"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of the winning candidate or faction",
+    "small set of seats or members",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Breaking historically attested cipher systems",
+   "scope": "Problems give a short ciphertext, a partial key or a constraint under a documented historical system (Renaissance nomenclator, Civil War route cipher, WWI field cipher, interwar rotor machine). They ask for a plaintext word, key or count. They are hard because the solver must know that system's exact conventions (nulls, code groups, route patterns, machine properties) and exploit them with very little text.",
+   "techniques": [
+    "Nomenclator analysis: separating homophones, nulls and code groups by frequency",
+    "Union Army route transposition with arbitrary code words and the published routing conventions",
+    "ADFGVX fractionation: deducing transposition key length and the Polybius square",
+    "Playfair digraph constraints (no doubled letters in a pair, row/column rules) for crib placement",
+    "Kasiski examination and index of coincidence for Vigen\u00e8re/Beaufort variants",
+    "Enigma reflector involution and the no-self-encipherment property for placing cribs and pruning settings"
+   ],
+   "answer_forms": [
+    "plaintext word or phrase",
+    "key word",
+    "integer",
+    "ordered tuple of machine or key settings"
+   ]
+  },
+  {
+   "leaf": "Quantitative historical demography from registers",
+   "scope": "Problems supply parish-register, census, hearth-tax or tahrir-type survey data and ask for standard demographic measures. They are hard because historical sources need specific conventions for observation windows, multipliers, under-registration and standard reference schedules.",
+   "techniques": [
+    "Henry-style family reconstitution and observation-window rules for age-specific marital fertility",
+    "Coale's Princeton indices (If, Ig, Ih, Im) computed against the Hutterite fertility schedule",
+    "Life-table construction and life expectancy from burial and baptism counts",
+    "Household or hearth multipliers for converting fiscal surveys into population estimates",
+    "Hajnal's singulate mean age at marriage (SMAM) from proportions single by age group",
+    "Correcting for under-registration using the sex ratio at baptism and the baptism\u2013birth interval"
+   ],
+   "answer_forms": [
+    "decimal to a specified precision",
+    "rational number",
+    "integer population estimate",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

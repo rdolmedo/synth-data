@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Physics",
+ "subject": "Astronomy",
+ "target_leaves": 8,
+ "expected_problems": 34,
+ "leaves": [
+  {
+   "leaf": "Binary pulsar post-Keplerian timing parameters",
+   "scope": "Measured orbital period, eccentricity, periastron advance, Einstein delay, Shapiro range/shape and orbital decay for specific relativistic binaries (e.g., double neutron stars, pulsar\u2013white dwarf systems). A question could ask the solver to combine two reported post-Keplerian values to derive component masses, or to check a published value against the GR prediction.",
+   "queries": [
+    "post-Keplerian parameters pulsar",
+    "periastron advance double neutron star",
+    "Shapiro delay pulsar white dwarf",
+    "orbital decay gravitational radiation pulsar",
+    "pulsar timing mass measurement"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Diffuse interstellar bands and carrier identification",
+   "scope": "Catalogued wavelengths, widths, strength correlations and proposed carriers of specific diffuse interstellar bands, including the lab confirmation of C60+ bands and DIB 'families' toward particular sightlines. A question could ask the solver to link a band's measured wavelength to its carrier and predict a companion band, or to compare equivalent widths across sightlines with different reddening.",
+   "queries": [
+    "diffuse interstellar bands carrier",
+    "C60+ near-infrared bands",
+    "DIB families correlation",
+    "sigma zeta sightlines DIB",
+    "interstellar band equivalent width"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Resonant chains in compact exoplanet systems",
+   "scope": "Published orbital periods, transit-timing variations and three-body Laplace angles of specific multi-planet resonant chains such as Kepler-223, TOI-178 and TRAPPIST-1. A question could ask the solver to identify which planet pairs sit near which commensurability, or to compute a super-period or Laplace-angle combination from the tabulated periods.",
+   "queries": [
+    "Laplace resonance exoplanet chain",
+    "transit timing variations resonant",
+    "three-body resonance angle planets",
+    "Kepler-223 resonant chain",
+    "super-period TTV"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Meteor shower parent bodies and stream dynamics",
+   "scope": "IAU Meteor Data Center shower codes, radiant positions and drift, solar longitude of maximum, and the comets or asteroids proposed or established as parent bodies (including dormant-comet and rock-comet cases). A question could ask the solver to match a shower to its parent from orbital elements, or to work out when an outburst will happen from the epoch of the dust trail and the nodal geometry.",
+   "queries": [
+    "meteor shower parent body",
+    "meteoroid stream orbital evolution",
+    "dust trail outburst prediction",
+    "radiant drift solar longitude",
+    "dormant comet meteoroid stream"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Historical eclipse records and Earth's \u0394T",
+   "scope": "Specific Babylonian, Chinese, Arabic and medieval European eclipse and occultation records, and the constraints they put on \u0394T and on Earth's rotational deceleration. A question could ask the solver to turn a recorded local time and observed totality into a \u0394T bound, or to compare the clock errors implied by two records from different eras.",
+   "queries": [
+    "historical eclipses Earth rotation",
+    "Babylonian eclipse records Delta T",
+    "ancient Chinese solar eclipse",
+    "tidal acceleration Earth rotation",
+    "medieval Arabic eclipse observations"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Flamsteed and Bayer designation anomalies",
+   "scope": "Documented errors, gaps, duplicated and 'lost' stars in Flamsteed numbers and Bayer letters, stars whose designations moved after constellation boundaries were redrawn, and how Baily's revision and later catalogues handled them. A question could ask the solver to account for a missing or reassigned designation by applying precession or the 1930 boundary rules to a historical catalogue entry.",
+   "queries": [
+    "Flamsteed catalogue errors",
+    "Baily British catalogue Flamsteed",
+    "Bayer letters stars constellation",
+    "lost stars catalogue identification",
+    "Historia Coelestis Britannica"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Prototype stars of rare variable classes",
+   "scope": "Classification criteria, periods, light-curve shapes and physical interpretations of rare GCVS variable types and their prototypes (R CrB, RV Tau, FU Ori, BY Dra, ZZ Ceti, PV Tel and similar). A question could ask the solver to assign a described star to its class from its period, amplitude and spectrum, or to compare an alternating minima ratio or decline rate with the prototype's.",
+   "queries": [
+    "R Coronae Borealis declines",
+    "RV Tauri alternating minima",
+    "FU Orionis outburst",
+    "General Catalogue Variable Stars classification",
+    "hydrogen-deficient pulsating stars"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century Mars and Moon nomenclature",
+   "scope": "Feature names and naming schemes on the Mars maps of Schiaparelli, Proctor, Flammarion and Lowell, and on the selenographies of Beer and M\u00e4dler, Schmidt and Neison, including which names the IAU kept, changed or dropped. A question could ask the solver to trace a feature from one historical name to its modern equivalent, or to count or compare the naming choices made by rival cartographers.",
+   "queries": [
+    "Schiaparelli Mars nomenclature",
+    "Proctor Mars map names",
+    "Beer Madler selenography",
+    "Neison Moon craters",
+    "Lowell canals Mars names"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

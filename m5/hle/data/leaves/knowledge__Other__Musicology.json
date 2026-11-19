@@ -1,0 +1,610 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Musicology",
+ "target_leaves": 38,
+ "expected_problems": 458,
+ "leaves": [
+  {
+   "leaf": "Ancient Greek musical notation and fragments",
+   "scope": "Covers the Alypian notation tables (vocal versus instrumental signs), Aristoxenian tonoi and their ranges, and the surviving notated documents (Seikilos epitaph, Delphic paeans, Mesomedes hymns, Oxyrhynchus hymn). A question can ask the solver to turn note signs into pitches within a stated tonos, or to count intervals in a fragment.",
+   "queries": [
+    "Alypius notation tables",
+    "Seikilos epitaph",
+    "Delphic paean Athenaios",
+    "Aristoxenus tonoi harmonics",
+    "Oxyrhynchus Christian hymn notation",
+    "Mesomedes hymns"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Byzantine oktoechos and Middle Byzantine notation",
+   "scope": "Covers the eight echoi with their plagal forms, martyriai and phthorai, the interval values of Middle Byzantine neumes, and the Chrysanthine New Method reform. A question can have the solver compute the pitch reached after a series of interval neumes in a given echos.",
+   "queries": [
+    "Byzantine neumes oktoechos",
+    "Chrysanthos theoretikon",
+    "martyriai phthorai",
+    "Middle Byzantine notation",
+    "Papadike interval signs"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Gregorian tonaries and psalm-tone differentiae",
+   "scope": "Covers Carolingian and later tonaries (Regino of Pr\u00fcm, the Metz tonary, Commemoratio brevis), how antiphons were assigned to modes, and the tenors and differentiae endings of the psalm tones. A question can combine an antiphon's final and range with a tonary's classification.",
+   "queries": [
+    "Regino Prum tonarius",
+    "psalm tone differentiae",
+    "Commemoratio brevis tonis",
+    "Carolingian tonary antiphon",
+    "Metz tonary"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Guidonian hexachord solmization and mutation",
+   "scope": "Covers Guido of Arezzo's Micrologus and Epistola, the positions on the Guidonian hand, the hard, soft and natural hexachords, and late-medieval rules for mutation and musica ficta. A question can ask for the full gamut name of a pitch or the mutations a given melody needs.",
+   "queries": [
+    "Guido Arezzo Micrologus",
+    "Guidonian hand",
+    "hexachord mutation solmization",
+    "musica ficta coniuncta",
+    "Ut queant laxis"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Notre Dame organum and rhythmic modes",
+   "scope": "Covers the Magnus liber organi and its main sources (W1, F, W2), Leoninus and Perotinus as described by Anonymous IV, and Garlandia's rhythmic modes and ordines. A question can ask the solver to count perfections in a ligature pattern or to identify which manuscript transmits a given piece.",
+   "queries": [
+    "Magnus liber organi",
+    "Anonymous IV Perotinus",
+    "Johannes de Garlandia modes",
+    "Wolfenbuttel W1 organum",
+    "rhythmic modes ligatures"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Machaut and Vitry isorhythmic motet structure",
+   "scope": "Covers the chant sources of motet tenors, the number of taleae and colores, diminution sections, and the main Machaut manuscripts. A question can have the solver compute total breves from talea length and repetitions, or the ratio of color to talea.",
+   "queries": [
+    "Machaut isorhythmic motet",
+    "talea color tenor",
+    "Philippe de Vitry Ars nova",
+    "Ferrell-Vogue manuscript",
+    "Ivrea codex motets"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Troubadour and trouv\u00e8re chansonnier sources",
+   "scope": "Covers chansonnier sigla and contents, which poems survive with melodies, contrafacta, and how songs by particular poets are transmitted across manuscripts. A question can compare melody counts or work out which source holds a given song's music.",
+   "queries": [
+    "troubadour melodies chansonnier",
+    "Bernart de Ventadorn melodies",
+    "trouvere chansonnier sigla",
+    "Chansonnier du Roi",
+    "troubadour contrafacta"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Petrucci and early music printing",
+   "scope": "Covers Petrucci's multiple-impression prints (starting with the Odhecaton), Attaingnant's single-impression type, the Venetian presses of Gardano and Scotto, and partbook formats. A question can ask the solver to date editions, count contents, or compare printing processes.",
+   "queries": [
+    "Petrucci Odhecaton",
+    "Attaingnant single impression",
+    "Gardano Scotto Venice printing",
+    "multiple impression music printing",
+    "sixteenth century partbooks"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Lute and vihuela tablature conventions",
+   "scope": "Covers the Italian, French, German and Spanish tablature systems, the vihuela books of Mil\u00e1n, Narv\u00e1ez and Mudarra, course tunings, and rhythm signs. A question can require converting a tablature cipher on a given course into a pitch under a stated tuning.",
+   "queries": [
+    "vihuela Luis Milan Maestro",
+    "French lute tablature",
+    "German lute tablature",
+    "Narvaez Delphin de musica",
+    "Italian tablature course"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Meantone and well-temperament tuning schemes",
+   "scope": "Covers named temperaments (Aron, Salinas, Werckmeister, Kirnberger, Vallotti, Neidhardt): which fifths are tempered and by what fraction of a comma. A question can ask for the cents of a given third or the size of the wolf interval.",
+   "queries": [
+    "quarter-comma meantone",
+    "Werckmeister temperament",
+    "Kirnberger III temperament",
+    "Vallotti temperament",
+    "syntonic comma fifths"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Historical concert pitch measurements",
+   "scope": "Covers frequencies documented by Ellis and later scholars for historic organs, tuning forks and orchestras, including the 1859 diapason normal and Philharmonic pitch. A question can ask for the cents or semitone difference between two documented pitches.",
+   "queries": [
+    "History of Musical Pitch Ellis",
+    "diapason normal 1859",
+    "tuning fork historical pitch",
+    "Philharmonic pitch",
+    "Handel tuning fork"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Baroque thoroughbass treatises and figuring rules",
+   "scope": "Covers the realization rules in Heinichen, Gasparini, Niedt, Saint-Lambert and C.P.E. Bach, including the rule of the octave and figure conventions. A question can ask which treatise prescribes a given figure on a given scale degree, then have the solver build the resulting chord.",
+   "queries": [
+    "rule of the octave",
+    "Heinichen General-Bass",
+    "Gasparini armonico pratico",
+    "Saint-Lambert accompagnement",
+    "figured bass treatise"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Bach Leipzig cantata cycles chronology",
+   "scope": "Covers Bach's Leipzig Jahrg\u00e4nge, the chorale cantata cycle, liturgical dates of first performances, librettists such as Picander and Ziegler, and how BWV numbers relate to chronology. A question can ask the solver to compute intervals between performances or count works for one occasion.",
+   "queries": [
+    "Bach chorale cantata cycle",
+    "Leipzig Jahrgang cantatas",
+    "Picander libretto cantata",
+    "Mariane von Ziegler Bach",
+    "Spitta Bach cantatas"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Wagner leitmotif nomenclature and thematic guides",
+   "scope": "Covers the motif names in Wolzogen's guides and later ones, where each motif first appears by scene, and names that are disputed. A question can ask which motif first sounds in a given scene and how later motifs are derived from it.",
+   "queries": [
+    "Wolzogen thematic guide",
+    "Ring leitmotif first appearance",
+    "Wagner leitmotive Nibelungen",
+    "Tristan chord motif",
+    "Parsifal motives"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Second Viennese School twelve-tone rows",
+   "scope": "Covers the documented rows of specific works by Schoenberg, Berg and Webern, their symmetries, and their combinatorial or all-interval properties. A question can have the solver apply R, I, RI or a transposition to a row, or check an invariant property.",
+   "queries": [
+    "Webern Symphony op 21 row",
+    "hexachordal combinatoriality",
+    "Berg Violin Concerto row",
+    "all-interval row",
+    "Schoenberg row derivation"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Early electronic and electromechanical instruments",
+   "scope": "Covers the Telharmonium, theremin, ondes Martenot, Trautonium, Hammond tonewheel organ and RCA synthesizer: their dates, patents and ways of generating tone. A question can ask the solver to compute a frequency from tonewheel tooth counts and rotation speed.",
+   "queries": [
+    "Cahill Telharmonium",
+    "ondes Martenot",
+    "Trautonium Sala",
+    "Hammond tonewheel",
+    "RCA Mark II synthesizer"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Historic organ stoplists and builders",
+   "scope": "Covers the dispositions of specific organs by Schnitger, Silbermann, Father Smith, Cavaill\u00e9-Coll and Willis: manuals, stops and pipe footages. A question can ask the solver to count stops at a given pitch or compare specifications.",
+   "queries": [
+    "Schnitger organ disposition",
+    "Silbermann organ stops",
+    "Cavaille-Coll organ specification",
+    "Audsley art of organ building",
+    "Hopkins Rimbault organ"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Cremonese violin makers and named instruments",
+   "scope": "Covers the Amati, Stradivari, Guarneri and Bergonzi makers and named instruments, with their dates, dimensions and provenance as documented by Hill and others. A question can ask for a maker's age when an instrument was made, or compare measurements.",
+   "queries": [
+    "Antonio Stradivari Hill",
+    "Guarneri del Gesu violins",
+    "Amati Cremona violin",
+    "Messiah Stradivari",
+    "Cremonese violin varnish"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Pianoforte action development and makers",
+   "scope": "Covers Cristofori's action, Stein's Viennese action, the Broadwood English action, \u00c9rard's double escapement, and how keyboard compass grew. A question can compare the dates and compass of composers' instruments, or reason about how an action works.",
+   "queries": [
+    "Cristofori pianoforte action",
+    "Erard double escapement",
+    "Broadwood grand piano",
+    "Viennese action Stein",
+    "Rimbault pianoforte history"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Keyed and valved brass instrument invention",
+   "scope": "Covers the keyed bugle, the St\u00f6lzel\u2013Bl\u00fchmel valve, the ophicleide, Sax's patents and lawsuits, and P\u00e9rinet valves. A question can ask the solver to compute the pitches available from a valve combination and a documented tube length, or to put inventions in chronological order.",
+   "queries": [
+    "Halliday keyed bugle",
+    "Stolzel Bluhmel valve",
+    "Adolphe Sax patent",
+    "ophicleide",
+    "Perinet piston valve"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Barrel organs, music boxes, piano rolls",
+   "scope": "Covers barrel pinning, Swiss cylinder boxes, reproducing pianos (Welte-Mignon, Ampico, Duo-Art) and the 1908 standard for 88-note rolls. A question can ask the solver to compute playing time from roll length and speed, or reason about tracker-bar standards.",
+   "queries": [
+    "Welte-Mignon reproducing piano",
+    "88-note player roll",
+    "barrel organ pinning",
+    "cylinder music box",
+    "Ampico Duo-Art"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "English hymnody authorship and hymn metres",
+   "scope": "Covers authorship, first publication, translations and metres as recorded in Julian's Dictionary and hymnal companions. A question can have the solver match a text's metre to compatible tunes, or compute dates between first publication and inclusion in a hymnal.",
+   "queries": [
+    "Julian Dictionary of Hymnology",
+    "Hymns Ancient and Modern",
+    "hymn tune metre",
+    "Isaac Watts hymns",
+    "Wesley hymn authorship"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Shape-note tunebooks and fasola singing",
+   "scope": "Covers the Easy Instructor, Kentucky Harmony, Southern Harmony and Sacred Harp editions, four-shape and seven-shape systems, and tune attributions. A question can ask the solver to derive shape syllables in a given key, or to track a tune across editions.",
+   "queries": [
+    "Sacred Harp White",
+    "Southern Harmony Walker",
+    "Easy Instructor shape notes",
+    "fasola four shape",
+    "Kentucky Harmony Davisson"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Child ballads and their lettered versions",
+   "scope": "Covers Child's ballad numbers, the lettered versions of each ballad, their sources (the Percy Folio, Mrs Brown of Falkland) and how plots vary between versions. A question can ask the solver to count versions or trace one version back to its informant.",
+   "queries": [
+    "Child English Scottish Popular Ballads",
+    "Mrs Brown of Falkland",
+    "Percy Folio ballad",
+    "Child ballad version",
+    "Bronson traditional tunes"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cecil Sharp's Appalachian folk song collecting",
+   "scope": "Covers Sharp and Karpeles's 1916\u201318 field trips, their informants and localities, and Sharp's pentatonic and hexatonic tune classifications. A question can link an informant to a song and a date, or have the solver classify a tune's mode.",
+   "queries": [
+    "Southern Appalachians Sharp Campbell",
+    "Maud Karpeles Appalachian",
+    "Jane Gentry ballads",
+    "English folk song Sharp",
+    "Folk-Song Society Journal"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century spiritual and jubilee collections",
+   "scope": "Covers Slave Songs of the United States, the Fisk Jubilee and Hampton songbooks, and the regional provenance and numbering of their songs. A question can ask the solver to count songs by region or compare versions across collections.",
+   "queries": [
+    "Slave Songs United States",
+    "Fisk Jubilee Singers",
+    "Hampton plantation songs",
+    "Port Royal spirituals",
+    "jubilee songs Marsh"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Densmore's ethnological Native American music bulletins",
+   "scope": "Covers Frances Densmore's bulletins on Chippewa, Teton Sioux, Papago and other music: song counts, singers, and tabulated analyses of tonality, intervals and rhythm. A question can have the solver derive percentages or compare tables across peoples.",
+   "queries": [
+    "Densmore Chippewa Music",
+    "Teton Sioux Music",
+    "Bureau American Ethnology songs",
+    "Densmore phonograph analysis",
+    "Papago music Densmore"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Pibroch structure and canntaireachd notation",
+   "scope": "Covers how ce\u00f2l m\u00f2r is built (urlar, taorluath and crunluath variations), the MacCrimmon tradition, Mackay's 1838 collection, and the vocables of the Campbell Canntaireachd. A question can ask the solver to decode vocables into pipe notes or count a tune's variations.",
+   "queries": [
+    "pibroch canntaireachd",
+    "Angus Mackay piobaireachd",
+    "MacCrimmon pipers",
+    "ceol mor crunluath",
+    "Campbell Canntaireachd manuscript"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Irish harpers and traditional tune collections",
+   "scope": "Covers Bunting's collections from the 1792 Belfast Harp Festival, Petrie, the numbering in O'Neill's Music of Ireland, and documented harpers such as Carolan and Hempson. A question can ask the solver to match tunes across collections or compute harpers' ages.",
+   "queries": [
+    "Belfast Harp Festival 1792",
+    "Bunting Ancient Music Ireland",
+    "O'Neill Music of Ireland",
+    "Carolan harper",
+    "Petrie Irish music"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "English change ringing methods and peals",
+   "scope": "Covers named methods (Plain Bob, Grandsire, Stedman, Treble Bob), place notation, early peal records, and Stedman's seventeenth-century treatises. A question can have the solver apply place notation to generate rows, or check a peal's length against the extent.",
+   "queries": [
+    "Tintinnalogia Stedman",
+    "Grandsire Triples peal",
+    "change ringing place notation",
+    "Plain Bob Major",
+    "campanology method"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Carnatic melakarta scheme and katapayadi numbering",
+   "scope": "Covers Venkatamakhin's 72-mela scheme, the later standardized names, the katapayadi letter-number code, chakras and janya derivations. A question can ask the solver to decode a mela name into its number and then derive its svara variants.",
+   "queries": [
+    "melakarta katapayadi",
+    "Venkatamakhin Chaturdandi Prakasika",
+    "72 melakarta ragas",
+    "janya raga scale",
+    "Carnatic raga swaras"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Medieval Arabic and Persian music theory",
+   "scope": "Covers al-Kindi, al-Farabi, Ibn Sina and Safi al-Din's Kitab al-adwar (the 17-note division and adwar cycles), and the names and positions of \u02bfud frets. A question can ask the solver to compute interval ratios or cents from documented fret positions.",
+   "queries": [
+    "Safi al-Din Urmawi",
+    "Farabi Kitab al-musiqi",
+    "Arabic lute frets Zalzal",
+    "medieval maqam treatise",
+    "al-Kindi music theory"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Javanese and Balinese gamelan tuning",
+   "scope": "Covers measured slendro and pelog tunings from Kunst and later studies, pathet classification, colotomic forms (ladrang, ketawang) and paired tuning that produces ombak beating. A question can ask the solver to compute cents from documented frequencies or count gong strokes per cycle.",
+   "queries": [
+    "slendro pelog tuning",
+    "Jaap Kunst gamelan",
+    "pathet Javanese gamelan",
+    "ladrang ketawang colotomic",
+    "Balinese ombak beating"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Chinese l\u00fcl\u00fc pitch pipes and temperament",
+   "scope": "Covers the twelve l\u00fc names, generation by sanfen sunyi, Jing Fang's 60-pitch extension, and Zhu Zaiyu's equal-temperament calculation. A question can ask the solver to generate pipe-length ratios or name the l\u00fc reached at a given step of the cycle.",
+   "queries": [
+    "Zhu Zaiyu equal temperament",
+    "sanfen sunyi",
+    "huangzhong pitch pipe",
+    "Jing Fang sixty lu",
+    "Chinese twelve lu"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Jewish biblical cantillation and Idelsohn's Thesaurus",
+   "scope": "Covers the names and hierarchy of the te\u02bfamim (disjunctive and conjunctive accents), regional reading traditions, and the contents of each volume of Idelsohn's Thesaurus. A question can ask the solver to resolve how a verse divides by accent hierarchy, or to compare documented traditions.",
+   "queries": [
+    "Idelsohn Thesaurus Hebrew-Oriental Melodies",
+    "teamim cantillation accents",
+    "Yemenite Torah cantillation",
+    "Masoretic accents disjunctive",
+    "synagogue chant nusach"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Early commercial sound recording discography",
+   "scope": "Covers Edison cylinders, Berliner discs, Victor and Columbia matrix and catalogue numbers, session dates and artists, and the shift from acoustic to electrical recording. A question can ask the solver to date a take from matrix data or compute the gaps between sessions.",
+   "queries": [
+    "Victor matrix recordings",
+    "Edison cylinder catalog",
+    "Caruso 1902 recordings",
+    "Berliner gramophone disc",
+    "acoustic recording era"
+   ],
+   "sources": [
+    "library_of_congress",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "US music copyright infringement case law",
+   "scope": "Covers the holdings in musical-work cases (White-Smith v. Apollo, Arnstein v. Porter, Bright Tunes v. Harrisongs, Selle v. Gibb, Three Boys Music), the tests they apply (access plus substantial similarity) and the remedies awarded. A question can have the solver apply a stated test to new facts or compare circuits.",
+   "queries": [
+    "musical composition copyright infringement",
+    "Arnstein v. Porter",
+    "Bright Tunes Harrisongs",
+    "White-Smith Apollo piano rolls",
+    "substantial similarity melody"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Birdsong transcription in musical notation",
+   "scope": "Covers ornithological works that notate birdsong (Mathews' Field Book of Wild Birds and Their Music, Cheney's Wood Notes Wild, Witchell), with the pitches, intervals and keys they transcribe for each species. A question can ask the solver to derive intervals or compare transcriptions across species.",
+   "queries": [
+    "Wild Birds and Their Music",
+    "Wood Notes Wild Cheney",
+    "bird song musical notation",
+    "hermit thrush song notation",
+    "Witchell evolution bird-song"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  }
+ ]
+}

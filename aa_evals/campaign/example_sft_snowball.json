@@ -1,0 +1,68 @@
+{
+ "name": "sftNN",
+ "why": "Template for evaluating a Snowball-family SFT checkpoint on AAI-open from main (aa_evals/campaign/SFT_EVAL.md). Edit 3 fields: name (campaign = model id, prefixes registry/run ids/dispatch dirs), models.sft.checkpoint, models.sft.suites (\"lean\" = TB2.1, AutomationBench, GDPval, SciCode, Omniscience, GDP.pdf as the sb2-* evals; \"full\" = all 9 suites of c30 cheap_full_v1). Everything else is main's default for SFT evals (11-19).",
+ "plan": "/data/aai/aa_evals/plans/c30/cheap_full_v1.json",
+ "serving_workdir": "/opt/aai/worktrees/{campaign}-main",
+ "code": "/opt/aai/worktrees/{campaign}-main",
+ "dispatch_root": "/data/aai/aa_evals/dispatch",
+ "release_server_after": 600,
+ "capped": "/opt/aai/worktrees/{campaign}-main/aa_evals/campaign/capped_protocol_v1.json",
+ "capped_note": "capped-sft-eval-v1 (sha256 403ad91eb358..., the M5 ladder's file, in this checkout), the AAI-open v0.1 protocol; with it the model-time caps default to the 12-h hang backstop (#539). The launcher labels the runs v0.1 when every pin matches, else v0.1+custom (#481)",
+ "worker_profile": "slow",
+ "worker_profile_note": "TB2.1 workers 32 slots / 6 CPU (#553): for slow-served models only (prior TB2.1 tool share <= 0.25; Snowball SFTs ~0.22). Set null for a fast-served model.",
+ "auto_budget": false,
+ "tbsched_shadow": false,
+ "tbsched_shadow_note": "true = after the full launch, a read-only tbsched loop (mode shadow) records what it would decide next to the run (<dispatch_root>/<name>-<model>-sched/), evidence for the tbsched 'on' canary; scores and scheduling unchanged",
+ "suites": {
+  "context_window": 131072,
+  "cap_sec": 7200,
+  "tb_cache": [
+   "/data/aai/aa_evals/runtime_packages/pi/v6/manifest.json",
+   "d9bcbf4231b1b2e449dd011840d4a58d4211f57b808543b1c1fc6b2b8394e5e4"
+  ],
+  "lite_cache": [
+   "/data/aai/aa_evals/runtime_packages/pi/v5/manifest.json",
+   "d7fcf56be3d5c3d79d7d50e8b059772d4fcc2df11a22f39ef6f67737145fc317"
+  ],
+  "tb_bundle": [
+   "/data/aai/aa_evals/audits/m36_aptfix_20261108/bundle-aptfix.tar",
+   "9b0b4dbf5b1ac92cb0469d2eecf91a402afe1b1ca34f0f77905a28f4c7781ddc"
+  ],
+  "tb_toolchain_bundle": [
+   "tb21_6h",
+   "9b0b4dbf5b1ac92cb0469d2eecf91a402afe1b1ca34f0f77905a28f4c7781ddc"
+  ],
+  "capture_root": "/data/aai/aa_evals/required_outputs/{campaign}",
+  "scicode_dataset": "verified-aa-v3",
+  "canary_items": {
+   "tb21": 3,
+   "tbsci_lite": 2,
+   "gdpval": 3,
+   "critpt": 3,
+   "automationbench": 4,
+   "scicode": 2,
+   "hle": 6,
+   "omniscience": 0,
+   "gdppdf": 3
+  }
+ },
+ "models": {
+  "sft": {
+   "name": "Snowball SFT (describe: base, data, size)",
+   "registry": "{campaign}-sft",
+   "teacher": "snowball-eval-main",
+   "checkpoint": "/data/aai/tbenchtrain/snowball_sft/ckpts/<export>",
+   "gpus": 2,
+   "gpu": "B200",
+   "bid": 61,
+   "protocol": {
+    "context_tokens": 131072,
+    "max_output_tokens": 131072
+   },
+   "effort": null,
+   "budget": 256,
+   "budget_note": "fixed 128 agents per GPU (user 11-16; #534): the measured knee of a 2xB200 Snowball server",
+   "suites": "lean"
+  }
+ }
+}

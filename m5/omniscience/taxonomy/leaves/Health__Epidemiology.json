@@ -1,0 +1,1035 @@
+{
+ "domain": "Health",
+ "subtopic": "Epidemiology",
+ "weight": 0.015374999999999998,
+ "leaves": [
+  {
+   "leaf": "Measures of disease frequency, association and impact",
+   "scope": "Definitions, formulas and interpretation of incidence, prevalence, person-time rates, risk and rate ratios, odds ratios, attributable fractions and number needed to treat.",
+   "queries": [
+    "incidence rate person-time cumulative incidence prevalence",
+    "population attributable fraction formula Levin",
+    "odds ratio relative risk rare disease assumption",
+    "number needed to treat absolute risk reduction"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Epidemiologic study designs and sampling variants",
+   "scope": "Architecture of cohort, case-control, cross-sectional, ecological, case-cohort, nested case-control, case-crossover, self-controlled and cluster-randomized designs, with their originators and sampling schemes.",
+   "queries": [
+    "nested case-control incidence density sampling",
+    "case-cohort design subcohort weighting Prentice",
+    "case-crossover design acute exposure Maclure",
+    "self-controlled case series design Farrington"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Selection bias, information bias and misclassification",
+   "scope": "Named systematic errors in epidemiologic studies (Berkson's, Neyman, recall, detection, loss-to-follow-up bias) and the direction and magnitude effects of differential and nondifferential misclassification.",
+   "queries": [
+    "nondifferential misclassification bias toward null",
+    "Berkson's bias hospital-based case-control",
+    "recall bias case-control study mothers",
+    "Neyman bias prevalence incidence survival bias"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Confounding, effect modification and standardization",
+   "scope": "Control of confounding by stratification, matching and adjustment, Mantel-Haenszel estimators, direct and indirect standardization with standard populations, and measures of additive and multiplicative interaction.",
+   "queries": [
+    "direct age standardization standard population",
+    "Mantel-Haenszel pooled odds ratio stratified analysis",
+    "effect modification additive interaction RERI",
+    "residual confounding matching overmatching case-control"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Causal inference frameworks and methods",
+   "scope": "Causal reasoning in epidemiology: Bradford Hill viewpoints, Rothman's sufficient-component cause model, counterfactual outcomes, directed acyclic graphs, propensity scores, g-methods and target trial emulation.",
+   "queries": [
+    "Bradford Hill criteria causation 1965",
+    "directed acyclic graph collider bias confounding",
+    "Rothman sufficient component cause model",
+    "target trial emulation inverse probability weighting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Screening programs and diagnostic test accuracy",
+   "scope": "Principles and evaluation of population screening and diagnostic tests, including Wilson-Jungner criteria, sensitivity, specificity, predictive values, likelihood ratios, lead-time and length-time bias, overdiagnosis and landmark screening trials.",
+   "queries": [
+    "lead-time bias length-time bias screening",
+    "Wilson Jungner criteria screening principles 1968",
+    "sensitivity specificity likelihood ratio predictive value",
+    "overdiagnosis mammography screening randomized trial mortality"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Systematic reviews, meta-analysis and reporting guidelines",
+   "scope": "Evidence synthesis methods (fixed and random effects, heterogeneity statistics, publication bias tests), evidence grading with GRADE, and reporting checklists such as STROBE, PRISMA, CONSORT and MOOSE.",
+   "queries": [
+    "I2 statistic heterogeneity meta-analysis Higgins",
+    "funnel plot Egger test publication bias",
+    "STROBE statement observational studies checklist items",
+    "GRADE certainty of evidence downgrading domains"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Spatial epidemiology, disease mapping and cluster detection",
+   "scope": "Geographic analysis of disease, including spatial scan statistics, Bayesian disease mapping models, space-time interaction tests, GIS methods and investigation of suspected cancer or disease clusters.",
+   "queries": [
+    "SaTScan spatial scan statistic Kulldorff",
+    "Besag York Mollie disease mapping model",
+    "Knox test space-time interaction clustering",
+    "cancer cluster investigation standardized incidence ratio community"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mathematical modeling of infectious disease transmission",
+   "scope": "Compartmental, chain-binomial and network transmission models, with key parameters such as R0, Rt, herd immunity threshold, serial interval, generation time and their estimation methods.",
+   "queries": [
+    "SIR model basic reproduction number herd immunity threshold",
+    "serial interval generation time incubation period estimation",
+    "effective reproduction number Rt estimation EpiEstim",
+    "Reed-Frost chain binomial epidemic model"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Outbreak investigation and field epidemiology training",
+   "scope": "Standard outbreak investigation steps, epidemic curves, attack-rate tables and case finding, plus the history and structure of field epidemiology programs such as CDC's EIS, FETPs and TEPHINET.",
+   "queries": [
+    "steps of outbreak investigation epidemic curve",
+    "Epidemic Intelligence Service founded Langmuir 1951",
+    "attack rate table food-specific outbreak",
+    "Field Epidemiology Training Program countries TEPHINET"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Notifiable disease and syndromic surveillance systems",
+   "scope": "Design, case definitions, reporting rules and evaluation of public health surveillance systems, including NNDSS, CSTE position statements, MMWR reporting, ECDC TESSy, sentinel networks and syndromic surveillance platforms.",
+   "queries": [
+    "National Notifiable Diseases Surveillance System CSTE case definitions",
+    "syndromic surveillance emergency department ESSENCE BioSense",
+    "surveillance system evaluation attributes CDC guidelines",
+    "European Surveillance System TESSy ECDC notifiable"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "National health surveys and population health data systems",
+   "scope": "Methodology, sampling, history and key indicators of large population health surveys such as NHANES, NHIS, BRFSS, YRBSS, the Demographic and Health Surveys and WHO STEPS.",
+   "queries": [
+    "NHANES survey design mobile examination center",
+    "Behavioral Risk Factor Surveillance System telephone survey",
+    "Demographic and Health Surveys program countries",
+    "Youth Risk Behavior Surveillance System biennial"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Vital registration, cause-of-death coding and mortality statistics",
+   "scope": "Civil registration systems, death certification, ICD underlying-cause selection rules, verbal autopsy instruments, life tables and excess-mortality estimation.",
+   "queries": [
+    "underlying cause of death ICD-10 coding rules",
+    "verbal autopsy InterVA WHO instrument",
+    "death certificate completion cause-of-death accuracy",
+    "civil registration vital statistics completeness"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Global Burden of Disease and summary measures of population health",
+   "scope": "The GBD study and IHME methods, DALYs, YLLs, YLDs, disability weights, HALE and QALY-type summary measures, with published estimates by cause and region.",
+   "queries": [
+    "disability-adjusted life years YLL YLD calculation",
+    "Global Burden of Disease study disability weights",
+    "health-adjusted life expectancy HALE estimates",
+    "Institute for Health Metrics and Evaluation GBD 2021"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cancer registries and cancer epidemiology",
+   "scope": "Population-based cancer registration (SEER, NAACCR, IARC, GLOBOCAN), cancer incidence and survival statistics, and carcinogen classification by IARC Monographs.",
+   "queries": [
+    "SEER program registries coverage population",
+    "GLOBOCAN estimated new cancer cases deaths",
+    "IARC Monographs Group 1 carcinogens classification",
+    "cancer incidence trends age-standardized rate registry"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of epidemiology and its founding studies",
+   "scope": "Founding figures and classic investigations of epidemiology, such as Graunt, Farr, Snow, Semmelweis, Lind, Goldberger, Doll and Hill, with dates, places and findings.",
+   "queries": [
+    "John Snow Broad Street pump cholera 1854",
+    "Doll Hill British Doctors Study smoking",
+    "William Farr General Register Office statistics",
+    "John Graunt Bills of Mortality 1662"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Historical pandemics and great epidemics",
+   "scope": "Epidemiological details of past pandemics and major epidemics, including plague pandemics, the seven cholera pandemics, and the 1889, 1918, 1957 and 1968 influenza pandemics (dates, origins, subtypes, mortality estimates).",
+   "queries": [
+    "1918 influenza pandemic mortality estimates waves",
+    "seven cholera pandemics El Tor 1961",
+    "Black Death plague mortality Europe 1347",
+    "1957 Asian influenza H2N2 pandemic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Influenza epidemiology and global influenza surveillance",
+   "scope": "Seasonal and zoonotic influenza epidemiology, WHO GISRS and vaccine strain selection, ILINet and FluNet surveillance, antigenic drift and avian influenza human case data.",
+   "queries": [
+    "Global Influenza Surveillance and Response System vaccine composition",
+    "influenza-like illness ILINet sentinel providers",
+    "H5N1 human cases case fatality WHO",
+    "antigenic drift seasonal influenza excess mortality"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Coronavirus epidemiology: SARS, MERS and COVID-19",
+   "scope": "Epidemiology of SARS (2002-2004), MERS-CoV and COVID-19, including case counts, transmission parameters, seroprevalence, infection fatality ratios and the timeline of SARS-CoV-2 variants.",
+   "queries": [
+    "SARS 2003 outbreak cases deaths countries",
+    "MERS-CoV camel exposure case fatality",
+    "SARS-CoV-2 variant of concern Omicron emergence",
+    "COVID-19 seroprevalence infection fatality ratio"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HIV, viral hepatitis and sexually transmitted infection epidemiology",
+   "scope": "Prevalence, incidence, transmission and global targets for HIV, hepatitis B and C, syphilis, gonorrhea and chlamydia, including UNAIDS and WHO elimination targets.",
+   "queries": [
+    "UNAIDS 95-95-95 targets HIV prevalence",
+    "hepatitis B surface antigen prevalence endemicity",
+    "hepatitis C elimination WHO 2030 targets",
+    "syphilis gonorrhea incidence surveillance trends"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tuberculosis epidemiology and control",
+   "scope": "Global and national TB burden estimates, WHO Global TB Report figures, End TB Strategy targets, latent infection prevalence surveys and drug-resistant TB epidemiology.",
+   "queries": [
+    "WHO Global Tuberculosis Report incidence estimates",
+    "End TB Strategy targets 2035",
+    "latent tuberculosis infection prevalence tuberculin survey",
+    "multidrug-resistant tuberculosis rifampicin-resistant cases"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Malaria and arboviral disease epidemiology",
+   "scope": "Transmission metrics, burden estimates and outbreak histories for malaria and mosquito-borne arboviruses such as dengue, Zika, chikungunya and yellow fever.",
+   "queries": [
+    "World Malaria Report cases deaths estimates",
+    "entomological inoculation rate Anopheles transmission intensity",
+    "dengue seroprevalence serotypes incidence Aedes aegypti",
+    "Zika virus outbreak Yap Island French Polynesia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Zoonotic spillover and viral hemorrhagic fever outbreaks",
+   "scope": "Outbreak histories, reservoirs, case counts and case-fatality ratios of emerging zoonoses such as Ebola, Marburg, Lassa, Nipah, Hendra and mpox, and One Health surveillance.",
+   "queries": [
+    "Ebola virus disease outbreak West Africa 2014 cases",
+    "Nipah virus outbreak Malaysia Bangladesh bats",
+    "Marburg virus outbreak case fatality",
+    "Lassa fever incidence Nigeria rodent reservoir"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vaccine effectiveness, coverage and safety surveillance",
+   "scope": "Methods and data for measuring vaccine effectiveness (test-negative, screening method), immunization coverage estimates (WUENIC) and post-licensure safety systems such as VAERS and the Vaccine Safety Datalink.",
+   "queries": [
+    "test-negative design vaccine effectiveness estimate",
+    "Vaccine Adverse Event Reporting System VAERS signal",
+    "Vaccine Safety Datalink rapid cycle analysis",
+    "WUENIC immunization coverage DTP3 estimates"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Disease eradication, elimination and NTD control programs",
+   "scope": "History, milestones and case data of eradication and elimination efforts for smallpox, polio, dracunculiasis, measles, yaws and neglected tropical diseases controlled by mass drug administration.",
+   "queries": [
+    "smallpox eradication last natural case 1977 Somalia",
+    "Global Polio Eradication Initiative wild poliovirus cases",
+    "Guinea worm dracunculiasis cases Carter Center",
+    "lymphatic filariasis mass drug administration elimination"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Healthcare-associated infections and antimicrobial resistance surveillance",
+   "scope": "Surveillance definitions and rates of hospital-acquired infections (CLABSI, CAUTI, SSI, C. difficile) and antimicrobial resistance monitoring networks such as NHSN, EARS-Net and WHO GLASS.",
+   "queries": [
+    "National Healthcare Safety Network CLABSI surveillance definitions",
+    "EARS-Net antimicrobial resistance surveillance Europe",
+    "MRSA bloodstream infection incidence hospital",
+    "WHO GLASS antimicrobial resistance surveillance system"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foodborne and waterborne disease outbreaks",
+   "scope": "Surveillance networks (FoodNet, PulseNet), burden estimates and landmark outbreaks of foodborne and waterborne pathogens, with vehicles, case counts and dates.",
+   "queries": [
+    "FoodNet active surveillance sites pathogens",
+    "PulseNet foodborne outbreak detection",
+    "Milwaukee Cryptosporidium outbreak 1993",
+    "Escherichia coli O104:H4 outbreak Germany 2011"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pathogen genomic epidemiology and molecular typing",
+   "scope": "Use of PFGE, MLST, whole-genome sequencing, SNP thresholds, phylodynamics and lineage nomenclature systems to trace transmission and track pathogen evolution.",
+   "queries": [
+    "whole genome sequencing outbreak SNP threshold transmission",
+    "multilocus sequence typing sequence type clone",
+    "phylodynamic analysis BEAST molecular clock outbreak",
+    "Nextstrain genomic surveillance Pango lineage nomenclature"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Genetic epidemiology and Mendelian randomization",
+   "scope": "Twin and family heritability studies, genome-wide association conventions, polygenic risk scores and Mendelian randomization assumptions, estimators and sensitivity analyses.",
+   "queries": [
+    "Mendelian randomization instrumental variable assumptions pleiotropy",
+    "genome-wide significance threshold GWAS loci",
+    "twin study heritability estimate concordance",
+    "polygenic risk score coronary artery disease"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cardiovascular disease epidemiology, landmark cohorts and risk scores",
+   "scope": "Foundational cardiovascular studies (Framingham, Seven Countries, MONICA, ARIC), cardiovascular risk factor trends and risk prediction equations such as SCORE2, QRISK and the Pooled Cohort Equations.",
+   "queries": [
+    "Framingham Heart Study 1948 cohort offspring",
+    "Seven Countries Study Keys coronary heart disease",
+    "WHO MONICA project coronary event rates",
+    "SCORE2 QRISK pooled cohort equations risk"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nutritional epidemiology, obesity and diabetes",
+   "scope": "Dietary assessment methods and energy adjustment, major diet cohorts such as the Nurses' Health Study and EPIC, and global obesity and diabetes prevalence estimates from NCD-RisC and the IDF Atlas.",
+   "queries": [
+    "food frequency questionnaire validation 24-hour recall",
+    "energy adjustment residual method Willett",
+    "NCD-RisC body mass index trends countries",
+    "IDF Diabetes Atlas prevalence estimates"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tobacco, alcohol and substance use epidemiology",
+   "scope": "Prevalence surveys, exposure metrics, attributable mortality and trends for tobacco, alcohol, opioids and other drugs, including GATS, WHO global status reports and the overdose epidemic.",
+   "queries": [
+    "Global Adult Tobacco Survey smoking prevalence",
+    "pack-years lung cancer relative risk",
+    "alcohol attributable deaths WHO global status report",
+    "opioid overdose deaths trends fentanyl"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Environmental epidemiology: air pollution, climate and chemical exposures",
+   "scope": "Health effects of ambient and household air pollution, heat and climate, lead, arsenic and other environmental agents, including landmark studies, guideline values and time-series and case-crossover methods.",
+   "queries": [
+    "Harvard Six Cities Study fine particulate mortality",
+    "time-series analysis daily mortality air pollution",
+    "blood lead levels children reference value",
+    "heat wave excess mortality 2003 Europe"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Occupational epidemiology",
+   "scope": "Methods and findings of workplace exposure studies, including the healthy worker effect, SMR-based cohort analyses, job-exposure matrices, and cohorts of asbestos, silica, coal, benzene and radiation workers.",
+   "queries": [
+    "healthy worker effect standardized mortality ratio cohort",
+    "asbestos mesothelioma occupational cohort mortality",
+    "job-exposure matrix occupational exposure assessment",
+    "silicosis coal workers pneumoconiosis prevalence"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Social epidemiology and health inequalities",
+   "scope": "Socioeconomic gradients in health and their measurement, including the Whitehall studies, the Black and Marmot reports, deprivation indices and social-determinants frameworks.",
+   "queries": [
+    "Whitehall study civil servants employment grade mortality",
+    "Black Report health inequalities 1980",
+    "area deprivation index Townsend Carstairs",
+    "Marmot Review social determinants health gradient"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reproductive, perinatal and life-course epidemiology",
+   "scope": "Maternal and perinatal mortality definitions and estimates, birth outcome epidemiology, birth cohorts, and developmental-origins research such as the Dutch Hunger Winter and the Barker hypothesis.",
+   "queries": [
+    "Dutch Hunger Winter prenatal famine exposure",
+    "Barker hypothesis fetal origins birth weight",
+    "maternal mortality ratio estimates MMEIG",
+    "perinatal mortality rate stillbirth definition gestational"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Injury and violence epidemiology",
+   "scope": "Frameworks and data on unintentional and intentional injury, including the Haddon matrix, road traffic deaths, falls, drowning, firearm injury, suicide and homicide surveillance.",
+   "queries": [
+    "Haddon matrix injury prevention phases",
+    "road traffic deaths WHO global status report",
+    "WISQARS injury mortality data firearm",
+    "suicide rates means restriction epidemiology"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Psychiatric epidemiology",
+   "scope": "Population prevalence and incidence of mental disorders from major surveys and instruments, such as ECA, NCS-R, the World Mental Health surveys and the CIDI, and risk factors such as urbanicity and migration.",
+   "queries": [
+    "Epidemiologic Catchment Area study prevalence",
+    "National Comorbidity Survey Replication lifetime prevalence",
+    "World Mental Health Survey Initiative CIDI",
+    "schizophrenia incidence urbanicity migrant"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neuroepidemiology and epidemiology of aging",
+   "scope": "Incidence, prevalence and risk factors for dementia, Parkinson's disease, multiple sclerosis, stroke and frailty, drawn from aging cohorts such as the Rotterdam Study and the Nun Study.",
+   "queries": [
+    "dementia incidence Rotterdam Study cohort",
+    "Nun Study Alzheimer neuropathology",
+    "Parkinson disease incidence prevalence epidemiology",
+    "multiple sclerosis latitude gradient prevalence"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pharmacoepidemiology and pharmacovigilance",
+   "scope": "Study designs and biases specific to drug-effect research (new-user, active comparator, immortal time bias), spontaneous-report disproportionality analysis, and drug safety databases such as FAERS, VigiBase and FDA Sentinel.",
+   "queries": [
+    "immortal time bias pharmacoepidemiology cohort",
+    "active comparator new-user design",
+    "disproportionality analysis reporting odds ratio FAERS",
+    "Sentinel Initiative FDA distributed database"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Survival analysis and competing risks methods in cohort studies",
+   "scope": "Time-to-event methods used in epidemiologic cohorts: Kaplan-Meier and actuarial life-table estimation, censoring assumptions, Cox proportional hazards models and their diagnostics, time-varying covariates, cumulative incidence functions and Fine-Gray subdistribution hazards.",
+   "queries": [
+    "Kaplan-Meier estimator censoring survival curve",
+    "Cox proportional hazards assumption Schoenfeld residuals",
+    "competing risks Fine-Gray subdistribution hazard",
+    "cumulative incidence function competing events cohort"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Regression, multilevel and missing-data methods for epidemiologic data",
+   "scope": "Statistical models for epidemiologic data: logistic, conditional logistic, Poisson and negative binomial regression, generalized estimating equations, mixed-effects and multilevel models, and missing-data handling by multiple imputation.",
+   "queries": [
+    "conditional logistic regression matched case-control analysis",
+    "generalized estimating equations working correlation structure",
+    "Poisson regression rate ratio offset overdispersion",
+    "multiple imputation chained equations missing at random"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Clinical prediction models and prognostic research",
+   "scope": "Development, validation and performance assessment of diagnostic and prognostic prediction models and clinical scores outside cardiovascular risk, including discrimination, calibration, reclassification, decision curves and named scores such as APACHE, MELD, Wells and qSOFA.",
+   "queries": [
+    "clinical prediction model external validation calibration",
+    "C-statistic discrimination net reclassification improvement",
+    "decision curve analysis net benefit threshold",
+    "APACHE II MELD score derivation validation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cluster randomized and community intervention trials",
+   "scope": "Design, analysis and landmark examples of cluster randomized, stepped-wedge and community-level intervention trials, including intracluster correlation, design effects, and trials such as COMMIT, the Stanford Five-City Project and the Minnesota Heart Health Program.",
+   "queries": [
+    "cluster randomized trial intracluster correlation coefficient",
+    "stepped wedge cluster randomised trial design",
+    "community intervention trial smoking cessation COMMIT",
+    "design effect cluster size sample size calculation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Large multipurpose prospective cohorts and biobanks",
+   "scope": "Design, recruitment years, sample sizes, data collection and key findings of large general-purpose cohorts and biobanks such as UK Biobank, the Nurses' Health Studies, EPIC, the Million Women Study, China Kadoorie Biobank and All of Us.",
+   "queries": [
+    "UK Biobank participants recruited assessment centres",
+    "Nurses' Health Study cohort established 1976",
+    "European Prospective Investigation into Cancer Nutrition cohort",
+    "China Kadoorie Biobank prospective study adults"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seroepidemiology and population serosurveys",
+   "scope": "Design and analysis of population serosurveys: seroprevalence estimation, assay cut-offs and test-adjusted prevalence (Rogan-Gladen), serocatalytic force-of-infection models, antibody waning, and national serum banks used to find immunity gaps.",
+   "queries": [
+    "seroprevalence survey antibodies representative population sample",
+    "serocatalytic model force of infection age-seroprevalence",
+    "Rogan-Gladen adjusted seroprevalence sensitivity specificity",
+    "serum bank serosurveillance population immunity gaps"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Wastewater-based epidemiology and environmental surveillance",
+   "scope": "Use of sewage and environmental sampling to track pathogens and population-level drug or chemical consumption, including sampling and normalization methods (e.g. PMMoV), poliovirus environmental surveillance, CDC's National Wastewater Surveillance System and SCORE network drug monitoring.",
+   "queries": [
+    "wastewater-based epidemiology SARS-CoV-2 RNA sewage",
+    "pepper mild mottle virus normalization wastewater",
+    "sewage analysis illicit drug consumption SCORE",
+    "poliovirus environmental surveillance sewage sampling"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Event-based surveillance and digital epidemic intelligence",
+   "scope": "Systems that detect outbreaks from news, internet and informal reports, such as ProMED-mail, GPHIN, HealthMap, Google Flu Trends, BlueDot and WHO's EIOS, along with their founding dates, methods and documented detections and failures.",
+   "queries": [
+    "ProMED-mail outbreak reporting system history",
+    "Global Public Health Intelligence Network GPHIN",
+    "Google Flu Trends overestimation search queries",
+    "event-based surveillance epidemic intelligence open sources"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "International Health Regulations and PHEIC declarations",
+   "scope": "The International Health Regulations (2005) and global health security frameworks: the Annex 2 notification decision instrument, emergency committees, each PHEIC declaration and its date, Joint External Evaluations, the 2024 IHR amendments and the WHO Pandemic Agreement.",
+   "queries": [
+    "International Health Regulations 2005 Annex 2 decision instrument",
+    "public health emergency of international concern declared",
+    "IHR emergency committee temporary recommendations",
+    "Joint External Evaluation global health security capacities"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Humanitarian emergency and conflict epidemiology",
+   "scope": "Epidemiology of complex emergencies, displacement and armed conflict, including crude and under-five mortality emergency thresholds, retrospective mortality and SMART surveys, Sphere standards, excess-death estimation and outbreaks in refugee and IDP camps.",
+   "queries": [
+    "crude mortality rate emergency threshold refugee camp",
+    "retrospective mortality survey conflict excess deaths",
+    "SMART survey methodology acute malnutrition emergency",
+    "Sphere standards humanitarian health response"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bioterrorism and deliberate or accidental biological releases",
+   "scope": "Epidemiologic investigation of deliberate or accidental releases of biological agents, including the 2001 US anthrax letters, the 1979 Sverdlovsk anthrax leak, the 1984 Rajneeshee Salmonella attack, laboratory-acquired outbreaks and CDC bioterrorism agent categories.",
+   "queries": [
+    "2001 anthrax letters inhalational anthrax cases",
+    "Sverdlovsk anthrax outbreak 1979 military facility",
+    "Rajneeshee Salmonella bioterror attack Oregon 1984",
+    "CDC category A bioterrorism agents list"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Travel medicine and mass gathering epidemiology",
+   "scope": "Infection risks and health outcomes in international travelers and at mass gatherings, including GeoSentinel and EuroTravNet surveillance, travelers' diarrhea incidence, and disease transmission linked to the Hajj, the Olympics and other mass gatherings.",
+   "queries": [
+    "GeoSentinel surveillance network returned travelers",
+    "travelers' diarrhea incidence destination risk",
+    "Hajj pilgrims meningococcal respiratory infection",
+    "mass gathering surveillance Olympic Games infections"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Veterinary epidemiology and livestock disease epidemics",
+   "scope": "Epidemiology of animal and livestock diseases, including the 2001 UK foot-and-mouth epidemic, African swine fever, bluetongue, Schmallenberg virus, peste des petits ruminants and bovine tuberculosis, plus WOAH notification and herd-level measures.",
+   "queries": [
+    "2001 foot-and-mouth disease epidemic United Kingdom culling",
+    "African swine fever spread wild boar Europe",
+    "bluetongue virus serotype 8 northern Europe",
+    "bovine tuberculosis badger culling herd incidence"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Prion disease epidemiology: kuru, CJD and BSE",
+   "scope": "Epidemiology of human and animal prion diseases: kuru, sporadic, genetic and iatrogenic CJD, variant CJD and BSE, chronic wasting disease and scrapie, PRNP codon 129 genotype effects and national CJD surveillance units.",
+   "queries": [
+    "variant Creutzfeldt-Jakob disease cases United Kingdom",
+    "kuru Fore people mortuary feasts transmission",
+    "iatrogenic CJD human growth hormone dura mater",
+    "chronic wasting disease deer prion surveillance"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fungal disease epidemiology",
+   "scope": "Epidemiology of invasive and endemic fungal infections, including Candida auris emergence and clades, coccidioidomycosis, histoplasmosis, blastomycosis, cryptococcal meningitis burden, COVID-associated mucormycosis and the WHO fungal priority pathogens list.",
+   "queries": [
+    "Candida auris clades emergence hospital outbreaks",
+    "coccidioidomycosis valley fever incidence Arizona California",
+    "cryptococcal meningitis HIV global burden deaths",
+    "WHO fungal priority pathogens list 2022"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tick-borne and rickettsial disease epidemiology",
+   "scope": "Epidemiology of tick-borne and rickettsial infections, including Lyme disease, tick-borne encephalitis, anaplasmosis, babesiosis, Powassan virus, Rocky Mountain spotted fever, scrub typhus, murine typhus and alpha-gal syndrome.",
+   "queries": [
+    "Lyme disease incidence Ixodes scapularis United States",
+    "tick-borne encephalitis virus subtypes Europe incidence",
+    "Rocky Mountain spotted fever case fatality rate",
+    "scrub typhus Orientia tsutsugamushi endemic region"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Measles, pertussis and other childhood vaccine-preventable disease epidemiology",
+   "scope": "Transmission dynamics, burden and resurgence of classic childhood vaccine-preventable diseases, including measles outbreaks and SSPE, rubella and congenital rubella syndrome, mumps outbreaks, pertussis cycles and diphtheria re-emergence.",
+   "queries": [
+    "measles outbreak resurgence immunity gap",
+    "subacute sclerosing panencephalitis risk after measles",
+    "pertussis resurgence acellular vaccine waning immunity",
+    "diphtheria epidemic former Soviet Union 1990s"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bacterial meningitis and invasive bacterial disease epidemiology",
+   "scope": "Epidemiology of invasive bacterial diseases, including meningococcal serogroups and the African meningitis belt, pneumococcal serotype distribution and replacement, Haemophilus influenzae type b, group B streptococcus and invasive group A streptococcal emm types.",
+   "queries": [
+    "African meningitis belt serogroup A epidemics",
+    "pneumococcal serotype replacement after conjugate vaccine",
+    "Haemophilus influenzae type b invasive disease incidence",
+    "invasive group A streptococcal disease emm type"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "RSV and non-influenza respiratory virus epidemiology",
+   "scope": "Epidemiology of non-influenza respiratory viruses, including RSV seasonality and infant hospitalization burden, human metapneumovirus, parainfluenza, rhinovirus, seasonal coronaviruses, adenovirus outbreaks and enterovirus D68 with acute flaccid myelitis.",
+   "queries": [
+    "respiratory syncytial virus seasonality infant hospitalization",
+    "human metapneumovirus discovery children respiratory infection",
+    "enterovirus D68 acute flaccid myelitis outbreak",
+    "adenovirus outbreak military recruits serotype 4"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Childhood diarrheal disease etiology and enteric infection burden",
+   "scope": "Etiology and burden of childhood diarrhea and enteric infections in low- and middle-income countries, including rotavirus and norovirus burden, Shigella, ETEC and Cryptosporidium attributable fractions, environmental enteric dysfunction and the GEMS and MAL-ED studies.",
+   "queries": [
+    "Global Enteric Multicenter Study moderate-to-severe diarrhea",
+    "MAL-ED cohort enteropathogens children",
+    "rotavirus diarrhea deaths children under five",
+    "Cryptosporidium Shigella attributable fraction diarrhoea"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Asthma, COPD and allergic disease epidemiology",
+   "scope": "Epidemiology of chronic respiratory and allergic diseases, including asthma prevalence studies such as ISAAC and ECRHS, COPD burden and the BOLD study, the hygiene hypothesis, thunderstorm asthma epidemics and food allergy trends.",
+   "queries": [
+    "ISAAC asthma prevalence children Phase Three",
+    "BOLD study COPD prevalence post-bronchodilator spirometry",
+    "hygiene hypothesis Strachan hay fever siblings",
+    "thunderstorm asthma Melbourne 2016 epidemic"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chronic kidney disease and renal registry epidemiology",
+   "scope": "Epidemiology of chronic kidney disease and kidney failure, including KDIGO staging, eGFR equations (MDRD, CKD-EPI), USRDS and ERA registry statistics, dialysis and transplant incidence, and CKD of unknown etiology in Mesoamerica and Sri Lanka.",
+   "queries": [
+    "chronic kidney disease prevalence CKD-EPI eGFR",
+    "United States Renal Data System annual report",
+    "Mesoamerican nephropathy agricultural workers unknown etiology",
+    "end-stage kidney disease incidence dialysis registry"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Musculoskeletal epidemiology: osteoporosis, fractures and osteoarthritis",
+   "scope": "Epidemiology of osteoporosis and fragility fractures, osteoarthritis, gout and low back pain, including hip fracture incidence trends, WHO T-score definitions, the FRAX tool and cohorts such as the Study of Osteoporotic Fractures.",
+   "queries": [
+    "hip fracture incidence worldwide projections",
+    "FRAX ten-year fracture probability tool",
+    "knee osteoarthritis prevalence population cohort",
+    "gout prevalence hyperuricemia NHANES"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Autoimmune and immune-mediated inflammatory disease epidemiology",
+   "scope": "Incidence, prevalence and geographic or ethnic patterns of rheumatoid arthritis, systemic lupus erythematosus, inflammatory bowel disease, celiac disease, psoriasis, Sjögren syndrome and Kawasaki disease, including registry-based and nationwide surveys.",
+   "queries": [
+    "inflammatory bowel disease incidence newly industrialized countries",
+    "systemic lupus erythematosus incidence ethnicity",
+    "celiac disease prevalence serologic screening population",
+    "Kawasaki disease nationwide survey Japan incidence"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Visual impairment and hearing loss epidemiology",
+   "scope": "Epidemiology of sensory impairment, including global blindness and vision-loss estimates, cataract, glaucoma and diabetic retinopathy prevalence surveys, the East Asian myopia epidemic, VISION 2020, and age-related and noise-induced hearing loss.",
+   "queries": [
+    "global blindness prevalence Vision Loss Expert Group",
+    "myopia prevalence East Asia schoolchildren",
+    "glaucoma prevalence Baltimore Eye Survey",
+    "hearing loss prevalence WHO World Report Hearing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Birth defects surveillance and teratogen epidemiology",
+   "scope": "Surveillance and epidemiology of congenital anomalies, including registries such as EUROCAT, ICBDSR and the Metropolitan Atlanta Congenital Defects Program, neural tube defect declines after folic acid fortification, gastroschisis trends and teratogens such as thalidomide.",
+   "queries": [
+    "EUROCAT congenital anomaly registries prevalence",
+    "neural tube defects folic acid fortification decline",
+    "thalidomide phocomelia epidemic 1960s",
+    "gastroschisis prevalence young maternal age"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maternal and child undernutrition, growth standards and micronutrient deficiencies",
+   "scope": "Epidemiology of undernutrition, including stunting, wasting and underweight definitions, the WHO Child Growth Standards and Multicentre Growth Reference Study, vitamin A, iodine, iron and zinc deficiency, and the Lancet Maternal and Child Nutrition series.",
+   "queries": [
+    "WHO Child Growth Standards Multicentre Growth Reference Study",
+    "stunting prevalence height-for-age z-score children",
+    "vitamin A supplementation child mortality trials",
+    "iodine deficiency disorders goitre salt iodization"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical activity and sedentary behavior epidemiology",
+   "scope": "Epidemiology of physical activity, fitness and sedentary behavior, including Morris's London bus studies, Paffenbarger's alumni studies, measurement with IPAQ and accelerometry, global inactivity prevalence and WHO physical activity guidelines.",
+   "queries": [
+    "London bus conductors drivers coronary heart disease Morris",
+    "Paffenbarger Harvard alumni physical activity mortality",
+    "International Physical Activity Questionnaire accelerometer validity",
+    "sedentary behaviour sitting time mortality meta-analysis"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Radiation epidemiology: atomic bomb survivors, Chernobyl and radon",
+   "scope": "Epidemiology of ionizing radiation exposure, including the Life Span Study of Hiroshima and Nagasaki survivors, Chernobyl and Fukushima health effects, residential radon and lung cancer, medical radiation cohorts, and risk models from BEIR and UNSCEAR reports.",
+   "queries": [
+    "Life Span Study atomic bomb survivors cancer incidence",
+    "Chernobyl thyroid cancer children iodine-131",
+    "residential radon lung cancer pooled analysis",
+    "BEIR VII linear no-threshold risk estimates"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Military and veteran health epidemiology",
+   "scope": "Health outcomes studied in military personnel and veterans, including Gulf War illness, Agent Orange and the Air Force Health Study (Ranch Hand), burn pit exposures, deployment-related injury and PTSD cohorts, and the Millennium Cohort Study.",
+   "queries": [
+    "Gulf War illness veterans symptom prevalence",
+    "Agent Orange Vietnam veterans Ranch Hand study",
+    "Millennium Cohort Study military health outcomes",
+    "burn pit exposure deployment respiratory veterans"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Health services epidemiology and small-area variation",
+   "scope": "Epidemiology of health care use and outcomes across populations, including Wennberg and Gittelsohn's small-area variation analysis, the Dartmouth Atlas, ambulatory care-sensitive hospitalizations, amenable mortality and studies of care appropriateness.",
+   "queries": [
+    "small area variation Wennberg Gittelsohn tonsillectomy Vermont",
+    "Dartmouth Atlas of Health Care regional variation",
+    "ambulatory care sensitive conditions avoidable hospitalizations",
+    "amenable mortality healthcare quality indicator"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

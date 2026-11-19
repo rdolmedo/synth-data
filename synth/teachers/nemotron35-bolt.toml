@@ -1,0 +1,100 @@
+# NVIDIA Nemotron 3.5 Bolt 74B-A9B (BF16 checkpoint, FP8 on load) on one B200, DFlash-3 with the
+# LiLiCorr draft model; BF16 KV (static FP8 KV has no calibrated scales for this checkpoint).
+# Provenance: campaign 20261016T171932Z (generation/pi-submit-20261016T171932Z/nemotron35-bolt),
+# 111.19M tokens / TB2.1 pass@1 45.32%. Command: ops/.../serving/production-tune-bolt-fp8-dflash3-omp4/launch.json.
+# Runtime: the campaign's minimal "shadow" venv (vLLM 0.32.0rc1.dev100, torch 2.13, FlashInfer
+# 0.7.0.post1) which reads the remaining packages from venvs/vllm032 through a .pth file -- that
+# shared venv has since moved on, so freeze a self-contained runtime before reusing this teacher.
+slug = "nemotron35-bolt"
+model = "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B"
+revision = "a6a1e5030819a130a1ea08aadb1fe42f4cc86777"   # nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16
+checkpoint = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/checkpoints/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16"
+served_name = "nemotron35-bolt"
+stage_checkpoint = true
+
+[runtime]
+venv = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/runtime-shadow"
+vllm_version = "0.32.0rc1.dev100+g77154ca61"
+cuda_home = "cu13-wheel"
+cu13_fallback_venvs = ["/opt/aai/venvs/vllm032"]
+cu13_ld_library_path = true
+extra_ld_library_paths = [
+  "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/runtime-shadow/lib/python3.12/site-packages/nvidia/cudnn/lib",
+  "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/runtime-shadow/lib/python3.12/site-packages/nvidia/nccl/lib",
+]
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+# Compiler caches need flock: node-local XFS/ext4, never Lustre.
+cache_env = ["TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "VLLM_CACHE_ROOT", "FLASHINFER_WORKSPACE_BASE",
+             "XDG_CACHE_HOME", "HUMMING_CACHE_DIR", "HUMMING_TMP_DIR", "HF_HOME"]
+env = { VLLM_USE_V2_MODEL_RUNNER = "1", HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/python", "-m", "vllm.entrypoints.cli.main", "serve"]
+stage_extra = [
+  { name = "draft", source = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/checkpoints/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr" },
+]
+# Prebuilt FlashInfer cubins + SM100 JIT cache, unpacked on scratch and put first on PYTHONPATH.
+kernel_wheels = [
+  { path = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/cache/wheels/flashinfer_cubin-0.7.0.post1-py3-none-any.whl", sha256 = "f5b5fbf6e914b358219b845ed3ee586ffc1ae3c9768c8b135115ac14afbceed3" },
+  { path = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/cache/wheels/flashinfer_jit_cache-0.7.0.post1+cu130-cp39-abi3-manylinux_2_28_x86_64.whl", sha256 = "9630eeb32396adb89ce8ffa8465fedd14549eb2e2ad3aff182d9e69be4a12075" },
+  { path = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/nemotron35-bolt/cache/wheels/flashinfer_jit_cache_sm100a-0.7.0.post1+cu130-cp39-abi3-manylinux_2_28_x86_64.whl", sha256 = "3654aad2bbaebf7ede45590e5fc241035fec92219e505ea2d2d8b77b0d88ee91" },
+]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--trust-remote-code", "--load-format", "auto", "--tensor-parallel-size", "1",
+  "--max-model-len", "{max_model_len}", "--seed", "{seed}", "--max-num-seqs", "{max_seqs}",
+  "--max-num-batched-tokens", "{max_batched}", "--gpu-memory-utilization", "0.88", "--enable-chunked-prefill",
+  "--kv-cache-dtype", "auto", "--linear-backend", "auto", "--moe-backend", "auto", "--attention-backend", "FLASHINFER",
+  "--mamba-backend", "flashinfer", "--mamba-ssm-cache-dtype", "bfloat16", "--mamba-cache-dtype", "bfloat16",
+  "--mamba-cache-mode", "align", "--enable-auto-tool-choice", "--tool-call-parser", "qwen3_coder",
+  "--reasoning-parser-plugin", "{model_dir}/ultra_v3_reasoning_parser.py", "--reasoning-parser", "ultra_v3",
+  "--limit-mm-per-prompt", '{{"image":1,"video":0}}', "--generation-config", "vllm",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"max_new_tokens":{max_output_tokens}}}',
+  "--no-enable-log-requests", "--enable-prefix-caching", "--quantization", "fp8",
+]
+seed = 42
+startup_timeout_sec = 3600
+
+[serving.tunables]
+spec_tokens = 3
+max_seqs = 128
+max_batched = 16384
+omp_threads = 4
+
+[serving.optional_args]
+spec_tokens = ["--speculative-config", '{{"method": "dflash", "model": "{stage_draft}", "num_speculative_tokens": {spec_tokens}, "rejection_sample_method": "standard", "attention_backend": "FLASHINFER", "draft_load_config": {{"load_format": "auto"}}}}']
+
+[request]
+client_model = "hosted_vllm/nemotron35-bolt"
+pi_thinking = "high"
+pi_compat = { supportsDeveloperRole = false }
+overrides = { temperature = 1.0, top_p = 0.95, chat_template_kwargs = { enable_thinking = true, truncate_history_thinking = false } }
+env = { PI_HTTP_FORCE_CLOSE = "1" }   # vLLM's 5 s idle close raced the next request on reused connections
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true, truncate_history_thinking = false }
+tokenize_crosscheck = "native"
+
+[serving_resources]
+cpus_per_gpu = 16
+memory_gib_per_gpu = 384
+disk_gib = 300
+bid_per_job = { 1 = 61, 4 = 63 }
+exclude_nodes = ["cpu404", "cpu307", "cpu207", "gpu132"]
+
+[worker_resources]
+slots = 8
+cpus = 16
+memory_gib = 512
+disk_gib = 320
+bid = 55
+exclude_nodes = ["gpu132", "gpu156"]
+
+[admission]
+initial_limit_per_backend = 64
+maximum_limit_per_backend = 104

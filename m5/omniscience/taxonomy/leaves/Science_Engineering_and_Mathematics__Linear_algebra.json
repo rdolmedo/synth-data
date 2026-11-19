@@ -1,0 +1,427 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Linear algebra",
+ "weight": 0.0055000000000000005,
+ "leaves": [
+  {
+   "leaf": "Abstract vector spaces, linear maps, dual and quotient spaces",
+   "scope": "Axioms and constructions of finite- and infinite-dimensional vector spaces: subspaces, bases, Hamel bases, dimension, the Steinitz exchange lemma, rank–nullity, isomorphism theorems, direct sums, quotient spaces, dual and double-dual spaces and annihilators.",
+   "queries": [
+    "vector space axioms Hamel basis dimension",
+    "rank nullity theorem kernel image linear map",
+    "dual space annihilator double dual isomorphism",
+    "quotient space direct sum complementary subspace"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gaussian elimination and LU, Cholesky and LDLᵀ factorizations",
+   "scope": "Direct solution of linear systems: row echelon forms, Gauss–Jordan elimination, Doolittle/Crout LU, Cholesky and LDLᵀ factorizations, partial/complete/rook pivoting, growth factors and operation counts.",
+   "queries": [
+    "Gaussian elimination partial pivoting growth factor",
+    "LU decomposition Doolittle Crout permutation matrix",
+    "Cholesky decomposition LDL factorization flops",
+    "reduced row echelon form Gauss Jordan elimination"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Determinants and determinant identities",
+   "scope": "Definitions and properties of the determinant, including the Leibniz and Laplace expansions, cofactors and the adjugate, Cramer's rule, Cauchy–Binet, the Sylvester and Desnanot–Jacobi identities, and Dodgson condensation.",
+   "queries": [
+    "Leibniz formula determinant permutations sign",
+    "Laplace expansion cofactor minors adjugate matrix",
+    "Cauchy Binet formula Sylvester determinant identity",
+    "Dodgson condensation Desnanot Jacobi identity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Eigenvalues, diagonalization and the spectral theorem",
+   "scope": "Eigenvalues and eigenvectors, characteristic polynomials, algebraic versus geometric multiplicity, diagonalizability and similarity, Schur triangularization, and the spectral theorems for normal, Hermitian and unitary matrices.",
+   "queries": [
+    "characteristic polynomial algebraic geometric multiplicity eigenvalue",
+    "diagonalizable matrix eigenbasis similarity transformation",
+    "spectral theorem normal matrix unitary diagonalization",
+    "Schur decomposition upper triangular unitary similarity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jordan and rational canonical forms and minimal polynomials",
+   "scope": "Canonical forms under similarity, covering Jordan blocks and generalized eigenvectors, Weyr form, rational (Frobenius) canonical form, companion matrices, invariant factors, elementary divisors, minimal polynomials, the Cayley–Hamilton theorem and nilpotent matrices.",
+   "queries": [
+    "Jordan normal form Jordan block generalized eigenvectors",
+    "rational canonical form Frobenius companion matrix",
+    "minimal polynomial invariant factors elementary divisors",
+    "Cayley Hamilton theorem nilpotent matrix index"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inner product spaces, orthogonality and projections",
+   "scope": "Real and complex inner products, the Cauchy–Schwarz and triangle inequalities, orthonormal bases, Gram–Schmidt orthonormalization, orthogonal complements and projections, adjoints, Bessel/Parseval identities and Riesz representation in finite dimensions.",
+   "queries": [
+    "inner product space Cauchy Schwarz inequality",
+    "Gram Schmidt orthonormalization process basis",
+    "orthogonal projection orthogonal complement subspace",
+    "Riesz representation adjoint operator inner product"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Positive definite matrices, Schur complements and the Loewner order",
+   "scope": "Theory of Hermitian positive (semi)definite matrices: Sylvester's criterion, Gram matrices, Schur complements and block inversion, the Loewner partial order, operator monotone functions, the Schur product theorem and matrix means.",
+   "queries": [
+    "positive definite matrix Sylvester criterion leading minors",
+    "Schur complement block matrix inversion formula",
+    "Loewner order operator monotone function",
+    "Schur product theorem Hadamard product positive semidefinite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Singular value decomposition, polar decomposition and low-rank approximation",
+   "scope": "The SVD and its history (Beltrami, Jordan, Eckart–Young), properties of singular values, polar decomposition, the Eckart–Young–Mirsky theorem, truncated SVD, and Golub–Kahan bidiagonalization-based SVD algorithms.",
+   "queries": [
+    "singular value decomposition history Beltrami Jordan",
+    "Eckart Young Mirsky theorem low rank approximation",
+    "polar decomposition unitary positive semidefinite factor",
+    "Golub Kahan bidiagonalization SVD algorithm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Least squares, QR factorization and pseudoinverses",
+   "scope": "Overdetermined and underdetermined systems solved via normal equations, Householder, Givens and modified Gram–Schmidt QR, the Moore–Penrose pseudoinverse and its Penrose conditions, Tikhonov regularization and total least squares.",
+   "queries": [
+    "linear least squares normal equations QR",
+    "Householder reflection Givens rotation QR decomposition",
+    "Moore Penrose pseudoinverse Penrose conditions",
+    "Tikhonov regularization total least squares"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Matrix norms, conditioning and floating-point error analysis",
+   "scope": "Vector and matrix norms (induced, Frobenius, Schatten, Ky Fan), condition numbers, forward and backward error, Wilkinson-style rounding error analysis, the stability of algorithms, and iterative refinement including mixed precision.",
+   "queries": [
+    "matrix norm Frobenius spectral induced norm",
+    "condition number matrix inversion sensitivity",
+    "backward error analysis Wilkinson floating point",
+    "iterative refinement mixed precision linear systems"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Eigenvalue localization, inequalities and perturbation theory",
+   "scope": "Bounds on and perturbations of eigenvalues and invariant subspaces: Gershgorin discs, Courant–Fischer min-max, Cauchy interlacing, Weyl and Bauer–Fike inequalities, the Davis–Kahan sin-theta theorem, majorization, Schur–Horn, and Horn's conjecture.",
+   "queries": [
+    "Gershgorin circle theorem eigenvalue bounds",
+    "Courant Fischer min max Cauchy interlacing",
+    "Weyl inequality Bauer Fike perturbation eigenvalues",
+    "Schur Horn theorem majorization Horn conjecture"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Numerical algorithms for the eigenvalue problem",
+   "scope": "Computing eigenvalues and eigenvectors: power, inverse and Rayleigh quotient iteration, Hessenberg reduction, the Francis QR algorithm with shifts and deflation, the Jacobi method, divide-and-conquer, MRRR, and Lanczos/Arnoldi methods for large problems.",
+   "queries": [
+    "QR algorithm Francis double shift Hessenberg",
+    "power iteration Rayleigh quotient inverse iteration",
+    "Lanczos algorithm Arnoldi iteration eigenvalues",
+    "Jacobi eigenvalue algorithm divide and conquer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Iterative solvers for linear systems and preconditioning",
+   "scope": "Stationary methods (Jacobi, Gauss–Seidel, SOR), Krylov subspace methods (conjugate gradient, MINRES, GMRES, BiCGSTAB, QMR) and their convergence theory, and preconditioners such as incomplete LU/Cholesky and multigrid.",
+   "queries": [
+    "conjugate gradient method Hestenes Stiefel convergence",
+    "GMRES Krylov subspace method restarted",
+    "Jacobi Gauss Seidel successive over relaxation",
+    "incomplete LU preconditioner algebraic multigrid"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sparse matrix storage, orderings and sparse direct solvers",
+   "scope": "Sparse matrix formats (COO, CSR, CSC, ELLPACK), fill-in and elimination trees, bandwidth and fill-reducing orderings (Cuthill–McKee, AMD, nested dissection), sparse direct solver packages, and the SuiteSparse/Matrix Market test collections.",
+   "queries": [
+    "sparse matrix compressed sparse row format",
+    "Cuthill McKee reordering bandwidth reduction",
+    "approximate minimum degree ordering fill in",
+    "SuiteSparse UMFPACK SuperLU MUMPS sparse solver"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Numerical linear algebra software libraries and benchmarks",
+   "scope": "History, structure and conventions of BLAS levels 1–3, EISPACK, LINPACK, LAPACK routine naming, ScaLAPACK, ARPACK, MAGMA, cuBLAS and Eigen, the origins of MATLAB, and the LINPACK/HPL benchmark used for TOP500.",
+   "queries": [
+    "BLAS level 3 routines GEMM history",
+    "LAPACK routine naming scheme precision",
+    "EISPACK LINPACK MATLAB origin Moler",
+    "LINPACK benchmark HPL TOP500 ranking"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fast matrix multiplication and algebraic complexity",
+   "scope": "Algorithms and bounds for the matrix multiplication exponent ω, including Strassen, Winograd, Pan, Coppersmith–Winograd and the laser method, later refinements, computer-found schemes such as AlphaTensor, and the complexity of inversion and determinants.",
+   "queries": [
+    "Strassen algorithm matrix multiplication 1969",
+    "matrix multiplication exponent omega upper bound",
+    "Coppersmith Winograd algorithm laser method",
+    "AlphaTensor tensor rank matrix multiplication schemes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Matrix functions: exponential, logarithm and square roots",
+   "scope": "Defining and computing functions of matrices: the matrix exponential (scaling and squaring, Padé approximants), principal logarithms and square roots, the matrix sign function, Sylvester's formula, Lie product and Baker–Campbell–Hausdorff formulas.",
+   "queries": [
+    "matrix exponential scaling squaring Pade approximant",
+    "matrix logarithm principal square root existence",
+    "Sylvester formula matrix function Lagrange interpolation",
+    "Lie product formula Baker Campbell Hausdorff"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Matrix equations and Kronecker products",
+   "scope": "Linear and quadratic matrix equations (Sylvester, Lyapunov, Stein, algebraic Riccati), their solvability and the Bartels–Stewart and Hessenberg–Schur algorithms, plus Kronecker and Khatri–Rao products, the vec operator and commutation matrices.",
+   "queries": [
+    "Sylvester equation Bartels Stewart algorithm",
+    "Lyapunov equation controllability Gramian stability",
+    "algebraic Riccati equation Hamiltonian matrix solution",
+    "Kronecker product vectorization commutation matrix"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Generalized and polynomial eigenvalue problems",
+   "scope": "Matrix pencils and the problem Ax = λBx: the generalized Schur form and the QZ algorithm, Weierstrass and Kronecker canonical forms for regular and singular pencils, and quadratic/polynomial eigenproblems with their linearizations.",
+   "queries": [
+    "generalized eigenvalue problem matrix pencil",
+    "QZ algorithm generalized Schur decomposition",
+    "Kronecker canonical form singular pencil",
+    "quadratic eigenvalue problem linearization companion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonnegative, stochastic and M-matrices",
+   "scope": "Perron–Frobenius theory for positive, irreducible and primitive matrices, Wielandt's primitivity bound, stochastic and doubly stochastic matrices, the Birkhoff–von Neumann theorem, and M-matrices and inverse-positive matrices.",
+   "queries": [
+    "Perron Frobenius theorem irreducible nonnegative matrix",
+    "doubly stochastic matrix Birkhoff von Neumann",
+    "M-matrix inverse positive equivalent conditions",
+    "primitive matrix Wielandt exponent bound"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Combinatorial matrix theory: permanents and Hadamard matrices",
+   "scope": "(0,1)- and (±1)-matrices: Hadamard matrices and the Hadamard conjecture (Sylvester and Paley constructions, smallest unknown orders), conference and weighing matrices, the maximal determinant problem, permanents, Ryser's formula and the van der Waerden conjecture.",
+   "queries": [
+    "Hadamard matrix conjecture Paley construction order",
+    "permanent van der Waerden conjecture doubly stochastic",
+    "Hadamard maximal determinant problem binary matrices",
+    "Ryser formula permanent conference weighing matrix"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spectral graph theory and graph matrices",
+   "scope": "Adjacency, Laplacian, normalized Laplacian and signless Laplacian matrices of graphs and their spectra: algebraic connectivity and Fiedler vectors, Kirchhoff's matrix-tree theorem, Cheeger inequalities, cospectral graphs and strongly regular graphs.",
+   "queries": [
+    "Laplacian matrix graph eigenvalues properties",
+    "algebraic connectivity Fiedler vector partitioning",
+    "Kirchhoff matrix tree theorem spanning trees",
+    "Cheeger inequality spectral gap cospectral graphs"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bilinear, quadratic and symplectic forms",
+   "scope": "Bilinear and sesquilinear forms, matrix congruence, symmetric and alternating forms, Sylvester's law of inertia and signature, symplectic vector spaces and Darboux bases, Witt's theorem and Witt index, and classification of quadratic forms.",
+   "queries": [
+    "Sylvester law of inertia signature quadratic form",
+    "bilinear form matrix congruence diagonalization",
+    "symplectic vector space alternating bilinear form",
+    "Witt theorem Witt index isotropic subspace"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Multilinear algebra and tensor decompositions",
+   "scope": "Tensor products and their universal property, symmetric and exterior powers, wedge products and the Hodge star, tensor rank and border rank, and the CP/PARAFAC, Tucker/HOSVD and tensor-train decompositions.",
+   "queries": [
+    "tensor product vector spaces universal property",
+    "exterior algebra wedge product Hodge star",
+    "canonical polyadic decomposition tensor rank border",
+    "Tucker decomposition higher order SVD tensor train"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Linear algebra over integers, PIDs and finite fields",
+   "scope": "Matrices over rings and finite fields: Smith and Hermite normal forms, unimodular matrices, modules over principal ideal domains, the orders of GL(n,q) and SL(n,q), counts of subspaces (Gaussian binomials), and LLL lattice basis reduction.",
+   "queries": [
+    "Smith normal form integer matrix invariant factors",
+    "Hermite normal form unimodular integer lattice",
+    "general linear group finite field order Gaussian binomial",
+    "LLL lattice basis reduction algorithm"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structured and named special matrices",
+   "scope": "Properties and fast algorithms for structured matrix families: Toeplitz (Levinson–Durbin), Hankel, circulant (diagonalized by the DFT), Vandermonde, Cauchy, Hilbert, Pascal, Hessenberg and tridiagonal matrices, with their determinant formulas and conditioning.",
+   "queries": [
+    "Toeplitz matrix Levinson Durbin recursion",
+    "circulant matrix eigenvalues discrete Fourier transform",
+    "Vandermonde Cauchy matrix determinant formula",
+    "Hilbert matrix condition number explicit inverse"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Random matrix theory",
+   "scope": "Spectral statistics of random matrices: Gaussian (GOE/GUE/GSE) and circular ensembles, the Wigner semicircle law, Marchenko–Pastur law, Tracy–Widom distribution, Girko's circular law and level-spacing statistics.",
+   "queries": [
+    "Wigner semicircle law random symmetric matrices",
+    "Marchenko Pastur distribution sample covariance eigenvalues",
+    "Tracy Widom distribution largest eigenvalue",
+    "Gaussian unitary ensemble circular law Girko"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Randomized numerical linear algebra and matrix sketching",
+   "scope": "Randomized algorithms for large matrices: randomized range finders and SVD (Halko–Martinsson–Tropp), Johnson–Lindenstrauss embeddings, subspace embeddings and sketching, leverage-score sampling, and CUR and Nyström approximations.",
+   "queries": [
+    "randomized singular value decomposition Halko Martinsson Tropp",
+    "Johnson Lindenstrauss lemma random projection dimension",
+    "CUR matrix decomposition leverage score sampling",
+    "Nystrom approximation kernel matrix sketching"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rotations, reflections and orthogonal matrix groups",
+   "scope": "Geometric linear transformations and the groups O(n), SO(n) and U(n): rotation matrices, Rodrigues' formula and axis-angle form, Euler and Tait–Bryan angle conventions, Householder reflections, the Cayley transform, and homogeneous coordinates for affine maps.",
+   "queries": [
+    "rotation matrix Rodrigues formula axis angle",
+    "Euler angles Tait Bryan rotation conventions",
+    "Cayley transform orthogonal skew symmetric matrix",
+    "homogeneous coordinates affine transformation matrix"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of linear algebra and matrix theory",
+   "scope": "How the subject developed, from the Chinese fangcheng method and early determinants (Seki, Leibniz, Cramer) through Gauss, Cayley, Sylvester, Grassmann, Frobenius and Peano's axiomatization, including who coined terms such as 'matrix', 'eigenvalue' and 'rank', and when.",
+   "queries": [
+    "history matrix theory Cayley Sylvester 1858",
+    "Nine Chapters fangcheng Gaussian elimination history",
+    "Grassmann Ausdehnungslehre Peano vector space axioms",
+    "origin term matrix eigenvalue etymology mathematics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Geography",
+ "target_leaves": 8,
+ "expected_problems": 55,
+ "leaves": [
+  {
+   "leaf": "US interstate river boundary avulsion cases",
+   "scope": "US Supreme Court original-jurisdiction disputes over riverine state lines (e.g., Nebraska v. Iowa, Arkansas v. Tennessee, Louisiana v. Mississippi, Kentucky v. Indiana). In these cases the thalweg doctrine and the avulsion-versus-accretion distinction, applied to documented dates of channel change, decide which state holds a tract. A question can give a sequence of channel shifts and the doctrine each court applied, then ask which state holds a parcel or where the boundary now lies.",
+   "queries": [
+    "avulsion accretion state boundary",
+    "thalweg doctrine river boundary",
+    "Nebraska v. Iowa Carter Lake",
+    "Arkansas v. Tennessee avulsion",
+    "special master river boundary"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Proglacial Great Lakes shoreline stages",
+   "scope": "Named stages of the proglacial Great Lakes (Glenwood, Calumet and Toleston of Lake Chicago; Lakes Maumee, Whittlesey, Warren, Algonquin, Nipissing), with their beach elevations, outlets and isostatic tilting, as recorded in early USGS monographs and later radiocarbon work. A question can ask for the elevation drop between stages, the order in which outlets changed, or which stage left a particular beach ridge.",
+   "queries": [
+    "Lake Algonquin beach",
+    "Lake Whittlesey shoreline",
+    "Glenwood Calumet Toleston",
+    "Nipissing Great Lakes stage",
+    "Leverett Taylor Pleistocene"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Wallacea faunal boundary lines",
+   "scope": "The competing zoogeographic lines through the Malay Archipelago (Wallace 1863, Huxley 1868, Lydekker 1895, Weber's line of faunal balance, Sclater and Murray variants). Each line puts specific straits and islands (Lombok, Makassar, Sulawesi, Sula, Kai, Philippines) on one side or the other, and the original naturalists' surveys record which taxa occur where. A question can ask which islands lie between two lines, or which line a documented mammal or bird distribution supports.",
+   "queries": [
+    "Wallace's line Lombok",
+    "Weber's line faunal balance",
+    "Lydekker's line Sahul",
+    "Huxley's line Philippines",
+    "Wallacea zoogeographic boundary"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Phantom islands on historical nautical charts",
+   "scope": "Islands that appeared on charts but do not exist (Buss Island, Pepys Island, the Aurora Islands, Dougherty Island, Emerald Island, Isla Bermeja, Sandy Island), with their original sighting claims, reported coordinates, and the surveys or expeditions that disproved them. A question can ask how long an island stayed on charts, or which voyage disproved several of them.",
+   "queries": [
+    "Buss Island Frobisher",
+    "Aurora Islands Atrevida",
+    "Dougherty Island existence",
+    "Pepys Island Cowley",
+    "doubtful islands charts"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "K\u00f6ppen climate classification threshold variants",
+   "scope": "Specific threshold differences between versions of the climate classification: K\u00f6ppen's 1900, 1918 and 1936 schemes, the Geiger revisions, Trewartha, and Peel et al. 2007. Examples are the C/D boundary at 0 \u00b0C versus \u22123 \u00b0C, the aridity formulas that depend on rainfall seasonality, and the definitions of summer-dry and winter-dry. A question can apply two versions to a documented station's monthly normals and ask how its class changes.",
+   "queries": [
+    "K\u00f6ppen Geiger classification revised",
+    "Trewartha climate classification",
+    "Peel updated K\u00f6ppen map",
+    "K\u00f6ppen aridity threshold precipitation",
+    "K\u00f6ppen Handbuch Klimatologie"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Empirical central place hierarchy studies",
+   "scope": "Documented results from central place studies: Christaller's named orders of centres in southern Germany, the K=3, 4 and 7 principles, L\u00f6sch's economic landscapes, and the threshold populations and functions measured by Brush in Wisconsin and by Berry and Garrison in Snohomish County. A question can compute the expected number of centres or market areas at a given order, or compare documented thresholds across studies.",
+   "queries": [
+    "Christaller central places southern Germany",
+    "Berry Garrison threshold population",
+    "L\u00f6sch economic landscape hexagonal",
+    "central place marketing principle",
+    "Brush Wisconsin hamlets villages"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Cooch Behar enclaves and their exchange",
+   "scope": "The India\u2013Bangladesh chhitmahals: how many enclaves each side held, their areas and populations, the nested counter-enclaves (including the third-order Dahala Khagrabari), their origins in Koch\u2013Mughal settlements, and the 2015 Land Boundary Agreement transfers. A question can compute the net area each country gained, or count enclaves by nesting order.",
+   "queries": [
+    "Cooch Behar chhitmahal",
+    "Dahala Khagrabari counter-enclave",
+    "Land Boundary Agreement 2015",
+    "India Bangladesh enclaves exchange",
+    "enclave residents citizenship Bangladesh"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US place-name origins in early gazetteers",
+   "scope": "Etymologies recorded in Gannett's 1905 'Origin of Certain Place Names' and in state place-name studies such as Upham's 'Minnesota Geographic Names' (1920). These record towns and counties named after surveyors, railroad officials, postmasters or Indigenous-language terms. A question can combine entries, for example counting the places named after one person, or identifying the source language and meaning shared by names in different states.",
+   "queries": [
+    "origin certain place names",
+    "Minnesota geographic names Upham",
+    "county names origin",
+    "Indian place names meaning",
+    "town named railroad official"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

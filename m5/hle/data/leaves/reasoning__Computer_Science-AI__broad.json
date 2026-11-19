@@ -1,0 +1,268 @@
+{
+ "partition": "reasoning",
+ "category": "Computer Science/AI",
+ "subject": "broad",
+ "target_leaves": 15,
+ "expected_problems": 121,
+ "leaves": [
+  {
+   "leaf": "Cache miss counting for loop nests",
+   "scope": "Problems give the exact cache geometry, replacement policy, write policy and array base addresses for a loop nest, and ask for exact miss counts or how each miss is classified. They are hard because set-index conflicts, LRU state and boundary iterations have to be tracked precisely instead of estimated asymptotically.",
+   "techniques": [
+    "address decomposition into tag, set index and block offset",
+    "LRU stack (reuse) distance analysis",
+    "conflict misses from power-of-two strides and the effect of array padding",
+    "loop tiling and interchange effects on spatial and temporal locality",
+    "write-allocate vs no-write-allocate and write-back traffic accounting",
+    "inclusive vs exclusive multilevel hierarchy behavior"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Litmus outcomes under weak memory models",
+   "scope": "Problems ask which final register and memory outcomes of small multithreaded litmus programs a given memory model allows (x86-TSO, ARMv8, RISC-V RVWMO, C11 release/acquire/relaxed). They are hard because fences, dependencies and coherence interact with the axiomatic acyclicity conditions in non-obvious ways.",
+   "techniques": [
+    "axiomatic relations: program order, reads-from, coherence order, from-read",
+    "store-buffer forwarding semantics in TSO",
+    "multi-copy atomicity vs non-multi-copy-atomic propagation",
+    "address, data and control dependencies preserving ordering",
+    "release sequences and synchronizes-with in C11",
+    "load-buffering and out-of-thin-air restrictions"
+   ],
+   "answer_forms": [
+    "small set",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Quorum systems and Byzantine replication thresholds",
+   "scope": "Problems ask for the minimum number of replicas, quorum sizes, load, availability, or round and message bounds of replication protocols under crash, omission, Byzantine or mixed faults. They are hard because the intersection requirements, authentication assumptions and synchrony models each shift the bounds in subtle ways.",
+   "techniques": [
+    "dissemination and masking quorum intersection conditions",
+    "n > 3f vs n > 2f thresholds with and without signatures",
+    "load and availability of grid, tree and weighted-voting quorums",
+    "f+1 round lower bound via chain/indistinguishability arguments",
+    "hybrid fault models mixing crash and Byzantine counts",
+    "availability polynomials under independent node failure"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Schedule serializability and isolation anomalies",
+   "scope": "Given transaction schedules or isolation-level specifications, problems ask the solver to decide or count conflict-serializable, view-serializable or snapshot-isolation-admissible interleavings, or to say which anomalies can occur. They are hard because blind writes, final-write constraints and rw-antidependency cycles require careful dependency-graph reasoning.",
+   "techniques": [
+    "precedence-graph acyclicity for conflict serializability",
+    "view equivalence with blind writes and final-write conditions",
+    "counting interleavings equivalent to some serial order",
+    "strict 2PL and timestamp-ordering admissibility, Thomas write rule",
+    "snapshot isolation dangerous structures and write skew",
+    "Adya direct serialization graph phenomena G0, G1, G2"
+   ],
+   "answer_forms": [
+    "integer",
+    "letter for multiple choice",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Weight structure of algebraic linear codes",
+   "scope": "Problems ask for exact minimum distances, numbers of codewords of a given weight, covering radii or dual weight distributions of specific cyclic, BCH, Reed\u2013Muller or algebraic-geometry codes. They are hard because generic bounds are not tight, so exact answers depend on the code's algebraic structure.",
+   "techniques": [
+    "MacWilliams identity for dual weight enumerators",
+    "BCH and Hartmann\u2013Tzeng bounds from consecutive zeros",
+    "cyclotomic cosets and generator polynomial factorization",
+    "Reed\u2013Muller minimum-weight codewords as affine flats",
+    "Pless power moments",
+    "puncturing, shortening and extension effects on parameters"
+   ],
+   "answer_forms": [
+    "integer",
+    "polynomial",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Differential and linear properties of small S-boxes",
+   "scope": "Problems ask for the differential uniformity, linearity, best characteristic or approximation probability, or the minimum number of active S-boxes over several rounds of a given small S-box inside an SPN or Feistel structure. They are hard because the answer combines exact table computation with propagation through the linear layers.",
+   "techniques": [
+    "difference distribution table and linear approximation table",
+    "Walsh\u2013Hadamard spectrum and Parseval relation",
+    "piling-up lemma for combining approximations",
+    "branch number of linear layers bounding active S-boxes",
+    "affine equivalence classification of 4-bit S-boxes",
+    "boomerang connectivity table"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Stabilizer circuits and Clifford tableau evolution",
+   "scope": "Problems track stabilizer states through Clifford circuits that include mid-circuit Pauli measurements, and ask for outcome probabilities, final stabilizer generators, or counts of reachable states. They are hard because sign bookkeeping and measurement-induced tableau updates have to be exact.",
+   "techniques": [
+    "Aaronson\u2013Gottesman tableau update rules",
+    "Pauli conjugation under H, S, CNOT and CZ",
+    "measurement of a Pauli that anticommutes with stabilizer generators",
+    "Gottesman\u2013Knill classical simulation",
+    "counting formulas for stabilizer states and Clifford group order",
+    "local complementation equivalence of graph states"
+   ],
+   "answer_forms": [
+    "rational number",
+    "set of Pauli strings",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Counting inhabitants of typed lambda-calculus types",
+   "scope": "Problems ask for the number of closed \u03b2\u03b7-normal inhabitants of a type, or for a principal type, in simply typed, polymorphic or linear lambda calculus. They are hard because enumerating long normal forms branches heavily, and parametricity can collapse apparently distinct terms.",
+   "techniques": [
+    "\u03b7-long \u03b2-normal form enumeration (Ben-Yelles style)",
+    "Curry\u2013Howard proof search in implicational intuitionistic logic",
+    "parametricity and free theorems for System F types",
+    "Church encodings of booleans, numerals and pairs",
+    "linear and affine resource constraints on variable use",
+    "Hindley\u2013Milner principal type inference"
+   ],
+   "answer_forms": [
+    "integer",
+    "type expression",
+    "lambda term"
+   ]
+  },
+  {
+   "leaf": "SSA construction and register allocation analysis",
+   "scope": "Given a control-flow graph or code fragment, problems ask for dominance frontiers, the number of \u03c6-functions in minimal or pruned SSA, live ranges, or the minimum number of registers or spills. They are hard because loops, critical edges and copy coalescing make exact counts non-obvious.",
+   "techniques": [
+    "dominator trees and iterated dominance frontiers",
+    "minimal vs semi-pruned vs pruned SSA",
+    "liveness dataflow fixpoint computation",
+    "chordality of SSA interference graphs and MaxLive equals chromatic number",
+    "parallel-copy sequentialization during SSA destruction",
+    "Chaitin\u2013Briggs coloring with spilling and coalescing"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Projective multi-view camera geometry",
+   "scope": "Given explicit camera matrices, correspondences or constraints, problems ask for epipoles, fundamental, essential or homography matrices, degrees of freedom, or the number of solutions of a minimal problem. They are hard because projective ambiguities, degenerate configurations and algebraic solution counts have to be handled exactly.",
+   "techniques": [
+    "fundamental matrix from cameras via F = [e']\u00d7 P'P\u207a",
+    "essential matrix decomposition into four (R, t) candidates with cheirality test",
+    "plane-induced homographies",
+    "degree-of-freedom counting for calibrated and uncalibrated rigs",
+    "trifocal tensor point and line transfer",
+    "critical surfaces and degenerate configurations"
+   ],
+   "answer_forms": [
+    "integer",
+    "homogeneous coordinate vector",
+    "matrix",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Subdivision surfaces and spline refinement",
+   "scope": "Problems ask for limit positions, tangent masks, subdivision-matrix eigenvalues, mesh element counts after k refinement steps, or the control points that result from B-spline or NURBS knot insertion. They are hard because extraordinary vertices and boundary rules require eigen-analysis of local subdivision operators.",
+   "techniques": [
+    "Catmull\u2013Clark, Loop and Doo\u2013Sabin stencils",
+    "eigendecomposition of the local subdivision matrix at valence-n vertices",
+    "Euler-characteristic recurrences for vertex, edge and face counts",
+    "Boehm and Oslo knot insertion",
+    "de Casteljau subdivision and blossoming",
+    "continuity analysis via subdominant eigenvalues and characteristic maps"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Stable paths problems in interdomain routing",
+   "scope": "For a specified BGP-style instance (topology, permitted paths, rankings or Gao\u2013Rexford relationships), problems ask how many stable route assignments exist, whether the dynamics converge, or which routes are selected. They are hard because policy interactions can create dispute wheels, multiple equilibria and oscillations.",
+   "techniques": [
+    "stable paths problem formalism",
+    "dispute wheel detection",
+    "Gao\u2013Rexford customer, peer and provider export rules",
+    "valley-free path enumeration",
+    "synchronous vs asynchronous activation sequences",
+    "iBGP route reflection and MED-induced oscillation"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set",
+    "word",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Real-time schedulability and response-time analysis",
+   "scope": "Problems ask for worst-case response times, minimal feasible parameters or schedulability verdicts for periodic or sporadic task sets under fixed-priority or EDF scheduling with blocking, jitter or non-preemptive regions. They are hard because fixed-point iterations, critical instants and blocking terms interact.",
+   "techniques": [
+    "response-time fixed-point iteration",
+    "Liu\u2013Layland and hyperbolic utilization bounds",
+    "processor-demand criterion for EDF with constrained deadlines",
+    "priority ceiling and stack resource policy blocking terms",
+    "Audsley's optimal priority assignment",
+    "busy-period analysis with release jitter and non-preemptive regions"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Exact IEEE 754 rounding and error behavior",
+   "scope": "Problems ask for the exact result of short floating-point computations in specified formats and rounding modes, for counts of representable values with given properties, or for the worst-case error of small numerical algorithms. They are hard because double rounding, subnormals, FMA and tie-breaking have to be tracked bit-exactly.",
+   "techniques": [
+    "ulp and binade analysis",
+    "Sterbenz lemma for exact subtraction",
+    "error-free transformations: TwoSum, Fast2Sum, FMA-based TwoProduct",
+    "double rounding through extended precision",
+    "subnormal numbers and gradual underflow",
+    "round-to-nearest-even tie cases"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "hexadecimal bit pattern"
+   ]
+  },
+  {
+   "leaf": "Boolean minimization and BDD size",
+   "scope": "For specified Boolean functions, problems ask for the number of prime implicants, the minimal SOP or POS cost, ROBDD node counts under a given or optimal variable order, or the hazard terms needed in a two-level implementation. They are hard because covering choices and variable-ordering effects grow combinatorially.",
+   "techniques": [
+    "Quine\u2013McCluskey prime implicant generation and essential primes",
+    "Petrick's method for cyclic covering problems",
+    "ROBDD node counting via distinct subfunctions per level",
+    "variable-ordering sensitivity for structured functions",
+    "static-1 hazard elimination with consensus terms",
+    "exploiting symmetric-function structure"
+   ],
+   "answer_forms": [
+    "integer",
+    "Boolean expression",
+    "ordered variable sequence"
+   ]
+  }
+ ]
+}

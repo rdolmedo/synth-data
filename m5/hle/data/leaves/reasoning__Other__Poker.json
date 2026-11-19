@@ -1,0 +1,138 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Poker",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Board-conditioned combo counting with card removal",
+   "scope": "Problems ask for exact counts or probabilities of hand combinations in a specified range, given dead cards, board texture and blocker effects. The difficulty is overlapping suit constraints and how removed cards interact with them, which naive multiplication gets wrong.",
+   "techniques": [
+    "Inclusion-exclusion over suits and ranks when some cards are known dead",
+    "Suit-isomorphism canonicalization (e.g., counting strategically distinct flops or turns)",
+    "Burnside/orbit counting under the S4 suit-permutation group",
+    "Conditional combo weighting given blockers held by hero",
+    "Bayesian updating of range composition after board runouts"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered tuple of integers"
+   ]
+  },
+  {
+   "leaf": "Continuous-strength toy poker threshold equilibria",
+   "scope": "Problems define one-street or two-street games where hand strengths are drawn uniformly from [0,1], with given ante, bet-size, check-raise or multi-size rules, and ask for exact equilibrium thresholds or the game value. They are hard because you must first find the right region structure (value, bluff, check, call) and then solve coupled indifference equations.",
+   "techniques": [
+    "Indifference conditions at boundary hands between strategy regions",
+    "Guessing and checking the partition structure (value/bluff/check intervals)",
+    "Bluff-to-value ratio s/(1+s) and caller indifference",
+    "Integrating payoffs over threshold regions to obtain game value",
+    "Comparing two discrete bet sizes via region-splitting conditions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple of thresholds"
+   ]
+  },
+  {
+   "leaf": "Small discrete-deck extensive-form poker equilibria",
+   "scope": "Problems specify a tiny deck (3 to 6 cards, possibly with a community card) and a betting tree with raise caps, and ask for the equilibrium value, the set of equilibrium mixing frequencies, or the exploitability of a given strategy. The work is in reducing a large sequence-form game by hand without losing equilibrium families.",
+   "techniques": [
+    "Iterated elimination of dominated behaviour strategies",
+    "Sequence-form linear programming on a pruned tree",
+    "Parameterizing one-dimensional families of equilibria",
+    "Best-response computation to measure exploitability of a fixed profile",
+    "One or two hand-computed iterations of regret matching or CFR"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed interval of rationals",
+    "ordered tuple of frequencies"
+   ]
+  },
+  {
+   "leaf": "Multi-street polarized and clairvoyant betting games",
+   "scope": "Problems model a nuts-or-air bettor against a bluff-catcher across several streets with pot-proportional sizing and finite stacks, and ask for exact bluffing frequencies, bet sizes or EV. They are hard because the indifference conditions propagate backward from the river and interact with getting stacks all-in.",
+   "techniques": [
+    "Backward induction of river indifference to earlier streets",
+    "Geometric bet sizing to reach all-in in a fixed number of streets",
+    "Minimum defense frequency and alpha = b/(p+b)",
+    "Effective stack-to-pot ratio constraints on feasible sizings",
+    "Value of clairvoyance versus value of position"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered tuple of per-street frequencies"
+   ]
+  },
+  {
+   "leaf": "ICM tournament equity and push-fold thresholds",
+   "scope": "Problems give stack sizes, payout structures and blind levels and ask for exact Independent Chip Model equities, bubble factors, or the equilibrium shoving and calling thresholds under ICM payoffs. They are hard because the Malmuth-Harville recursion is nonlinear and finishing-order terms grow fast.",
+   "techniques": [
+    "Malmuth-Harville finishing-order recursion",
+    "Bubble factor and risk premium derived from ICM equity differences",
+    "Push/fold Nash with tournament-equity payoffs instead of chips",
+    "Comparing ICM deals with chip-chop deals",
+    "Chip-EV versus $EV break-even equity conversion"
+   ],
+   "answer_forms": [
+    "rational number",
+    "decimal to specified places",
+    "integer chip threshold"
+   ]
+  },
+  {
+   "leaf": "Exact all-in equity across variant structures",
+   "scope": "Problems ask for exact win, tie or scoop probabilities for specified hands or small ranges on given boards in Hold'em, Omaha (exactly two from hand plus three from board) or hi-lo games. They are hard because of redraws, counterfeiting, the Omaha card-usage rule and ties.",
+   "techniques": [
+    "Outs counting with redraw and reverse-implied-out corrections",
+    "Enumerating two-card runouts while tracking order",
+    "Omaha 2+3 card-usage constraint on flushes and straights",
+    "Low-hand counterfeiting and qualifier probabilities in 8-or-better",
+    "Separating scoop, half-pot and quartered outcomes"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer count of runouts",
+    "ordered tuple of probabilities"
+   ]
+  },
+  {
+   "leaf": "Side pots, split pots and betting-reopen rules",
+   "scope": "Problems describe multiway hands with several all-ins, incomplete raises and split showdowns, and ask for the exact chip amount each player receives or whether a given action is legal. They are hard because layered pot construction, odd-chip allocation and the full-raise reopening rule all interact.",
+   "techniques": [
+    "Layered side-pot construction by ascending all-in amounts",
+    "Quartering and odd-chip allocation in hi-lo splits",
+    "Full-raise versus incomplete-raise reopening of action",
+    "Uncalled-bet return before pot assignment",
+    "Separate hand evaluation per eligible pot"
+   ],
+   "answer_forms": [
+    "ordered tuple of integers",
+    "integer",
+    "yes/no or name of legal action"
+   ]
+  },
+  {
+   "leaf": "Hand-ranking frequencies in nonstandard variants",
+   "scope": "Problems ask for exact hand-category frequencies, the number of distinct hand equivalence classes, or whether a ranking is internally consistent in variants such as short-deck, lowball, Badugi or wild-card games. They are hard because removed ranks, wrap-around straights and wild-card choices can reverse the usual frequency ordering.",
+   "techniques": [
+    "Counting categories in a reduced deck (36-card short-deck)",
+    "Wild-card paradox: a hand's category shifts with the ranking used",
+    "Counting distinct equivalence classes of five-card hands",
+    "Badugi and 2-7 lowball evaluation with suit and pair restrictions",
+    "Best-k-of-n subset selection when several categories are possible"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "name of hand category",
+    "ordered list of categories"
+   ]
+  }
+ ]
+}

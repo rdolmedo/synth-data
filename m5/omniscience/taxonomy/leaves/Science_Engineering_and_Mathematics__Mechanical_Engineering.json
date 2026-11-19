@@ -1,0 +1,943 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Mechanical Engineering",
+ "weight": 0.014499999999999999,
+ "leaves": [
+  {
+   "leaf": "Engineering statics and rigid-body dynamics",
+   "scope": "Equilibrium of particles and rigid bodies, trusses and frames, dry and belt friction, centroids and moments of inertia, and the kinematics and kinetics of rigid bodies, including gyroscopic motion, as taught in engineering mechanics courses.",
+   "queries": [
+    "truss method of joints sections zero-force members",
+    "Coulomb dry friction capstan equation belt friction",
+    "parallel axis theorem mass moment of inertia",
+    "gyroscopic precession instantaneous center of rotation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mechanics of materials and static failure theories",
+   "scope": "Stress and strain, Hooke's law, beam bending and deflection, torsion, column buckling, Mohr's circle, stress concentration factors and yield criteria for ductile and brittle materials.",
+   "queries": [
+    "Euler buckling critical load effective length factor",
+    "Mohr's circle principal stresses maximum shear",
+    "von Mises Tresca yield criterion ductile",
+    "stress concentration factor Peterson notch fillet"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fatigue, fracture mechanics and failure case studies",
+   "scope": "High- and low-cycle fatigue, S-N curves, endurance-limit modifying factors, mean-stress criteria, cumulative damage, crack growth, fracture toughness and historic mechanical failures studied in failure analysis.",
+   "queries": [
+    "Goodman Soderberg mean stress endurance limit",
+    "Paris law fatigue crack growth rate",
+    "plane strain fracture toughness Griffith Irwin",
+    "de Havilland Comet Liberty ship fatigue fracture"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Steels, cast irons and heat treatment",
+   "scope": "The iron-carbon phase diagram, AISI/SAE and UNS steel designations, tool and stainless steel grades, cast iron types, and heat treatments such as quenching, tempering, annealing, carburizing and nitriding.",
+   "queries": [
+    "iron-carbon phase diagram eutectoid martensite bainite",
+    "SAE AISI steel numbering system alloy designation",
+    "Jominy end quench hardenability TTT diagram",
+    "tool steel grades D2 H13 M2 composition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonferrous engineering alloys",
+   "scope": "Aluminum alloy series and temper designations, titanium alloys, nickel-based superalloys, copper alloys such as brasses and bronzes, magnesium and other nonferrous metals used in mechanical design.",
+   "queries": [
+    "aluminium alloy temper designation T6 6061 7075",
+    "Ti-6Al-4V titanium alloy alpha beta phase",
+    "nickel superalloy Inconel 718 gamma prime",
+    "phosphor bronze cartridge brass copper alloy composition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mechanical testing and hardness scales",
+   "scope": "Tensile, compression, impact, creep and hardness test methods, with their standards, scales, indenters, loads and specimen geometries.",
+   "queries": [
+    "Rockwell hardness scales indenter load HRC HRB",
+    "Brinell Vickers Knoop microhardness test",
+    "Charpy Izod impact test ductile brittle transition",
+    "tensile test ASTM E8 specimen offset yield"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polymers, elastomers and fiber-reinforced composites",
+   "scope": "Engineering thermoplastics, thermosets and elastomers, their designations and properties, and fiber-reinforced composites, including fibers, matrices, layups and classical laminate theory.",
+   "queries": [
+    "classical laminate theory ply orientation stacking sequence",
+    "carbon fiber aramid glass fiber tensile modulus",
+    "glass transition temperature PEEK nylon engineering thermoplastics",
+    "elastomer nitrile Viton Shore durometer hardness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thermodynamic fundamentals and ideal gas power cycles",
+   "scope": "The laws of thermodynamics, property relations, entropy and exergy, and air-standard cycles such as Carnot, Otto, Diesel, dual, Brayton, Stirling, Ericsson, Atkinson and Miller.",
+   "queries": [
+    "Clausius inequality entropy generation exergy destruction",
+    "air-standard Otto Diesel dual cycle efficiency",
+    "Stirling engine regenerator alpha beta gamma configuration",
+    "Atkinson Miller Ericsson cycle thermodynamic"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Steam power: engines, boilers, turbines and Rankine plants",
+   "scope": "Reciprocating steam engines from Newcomen and Watt onward, boiler types, impulse and reaction steam turbines, and Rankine-cycle power plants with reheat, regeneration and supercritical conditions.",
+   "queries": [
+    "Newcomen atmospheric engine Watt separate condenser",
+    "Corliss engine valve gear compound expansion",
+    "Parsons reaction turbine de Laval Curtis impulse",
+    "Rankine cycle reheat regenerative feedwater heater supercritical"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Refrigeration, heat pumps, refrigerants and cryogenics",
+   "scope": "Vapor-compression and absorption refrigeration, heat pump performance metrics, refrigerant numbering, safety classes and phase-down regulations, and gas liquefaction and cryogenic cycles.",
+   "queries": [
+    "ASHRAE 34 refrigerant numbering safety classification",
+    "R-134a R-410A R-32 GWP phase-down Kigali",
+    "lithium bromide ammonia absorption refrigeration",
+    "Linde-Hampson Claude cycle gas liquefaction cryogenic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "HVAC and psychrometrics",
+   "scope": "Psychrometric properties and processes, thermal comfort and ventilation standards, load calculation, air distribution systems and HVAC equipment efficiency ratings.",
+   "queries": [
+    "psychrometric chart wet bulb dew point humidity ratio",
+    "ASHRAE Standard 55 thermal comfort PMV PPD",
+    "SEER EER HSPF air conditioner rating",
+    "ASHRAE 62.1 ventilation outdoor air rate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Conduction, convection and radiation heat transfer",
+   "scope": "Fourier conduction, fins and transient analysis, forced and natural convection correlations and their dimensionless groups, and thermal radiation laws, emissivity and view factors.",
+   "queries": [
+    "Dittus-Boelter Nusselt number correlation turbulent pipe",
+    "Biot number lumped capacitance Heisler chart",
+    "fin efficiency effectiveness extended surface",
+    "view factor emissivity Stefan-Boltzmann radiation exchange"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Heat exchangers, boiling and condensation",
+   "scope": "Heat exchanger types and design methods (LMTD, ε-NTU, fouling factors, TEMA designations), together with pool and flow boiling and film and dropwise condensation.",
+   "queries": [
+    "LMTD correction factor effectiveness NTU method",
+    "TEMA shell and tube heat exchanger designation",
+    "Nukiyama boiling curve critical heat flux Leidenfrost",
+    "Nusselt film condensation vertical plate dropwise"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fluid statics and internal pipe flow",
+   "scope": "Hydrostatics and manometry, Bernoulli and energy equations, laminar and turbulent pipe flow, friction factors, minor losses, flow-measurement devices and water hammer.",
+   "queries": [
+    "Darcy-Weisbach friction factor Moody chart",
+    "Colebrook equation Hagen-Poiseuille laminar flow",
+    "minor loss coefficient fittings valves K value",
+    "venturi meter orifice plate pitot tube discharge coefficient"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "External flow, boundary layers and dimensionless groups",
+   "scope": "Boundary layer theory, flow separation, drag and lift on bluff and streamlined bodies, vortex shedding, similitude and named dimensionless numbers in fluid mechanics.",
+   "queries": [
+    "Blasius boundary layer displacement momentum thickness",
+    "drag coefficient sphere cylinder Reynolds number",
+    "Kármán vortex street Strouhal number shedding",
+    "Buckingham pi theorem dimensionless numbers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pumps, fans and compressors",
+   "scope": "Centrifugal, axial and positive-displacement pumps, fans, blowers and compressors, including the Euler turbomachinery equation, specific speed, affinity laws, NPSH, cavitation and surge.",
+   "queries": [
+    "centrifugal pump NPSH cavitation specific speed",
+    "pump affinity laws impeller diameter speed",
+    "screw scroll reciprocating compressor positive displacement",
+    "compressor surge stall map Euler turbomachine equation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hydraulic and wind turbines",
+   "scope": "Pelton, Turgo, cross-flow, Francis, Kaplan and pump-turbine hydraulic machines, and wind turbine aerodynamics, the Betz limit, rotor configurations and notable installations.",
+   "queries": [
+    "Pelton wheel Francis Kaplan turbine head range",
+    "Betz limit power coefficient tip speed ratio",
+    "Darrieus Savonius vertical axis wind turbine",
+    "Turgo crossflow Banki turbine small hydro"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reciprocating internal combustion engines",
+   "scope": "Spark- and compression-ignition engine architecture, two- and four-stroke operation, rotary engines, valvetrains, fuel injection, forced induction, performance parameters and engine history.",
+   "queries": [
+    "four-stroke two-stroke engine scavenging port timing",
+    "Wankel rotary engine apex seal eccentric shaft",
+    "brake mean effective pressure volumetric efficiency",
+    "Rudolf Diesel Nikolaus Otto engine patent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Combustion, fuels and engine emissions",
+   "scope": "Combustion stoichiometry, flame types and knock, fuel ratings and properties such as octane, cetane and heating value, and pollutant formation, aftertreatment and emission standards.",
+   "queries": [
+    "stoichiometric air-fuel ratio equivalence ratio lambda",
+    "research octane number motor octane cetane",
+    "higher heating value lower heating value fuels",
+    "three-way catalytic converter selective catalytic reduction NOx"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gas turbines, jet engines and rocket propulsion",
+   "scope": "Brayton-cycle gas turbines, turbojet, turbofan and turboprop architectures and named engines, nozzle and compressible-flow basics, and rocket engine cycles and performance metrics.",
+   "queries": [
+    "turbofan bypass ratio high-pressure spool engine",
+    "Frank Whittle Hans von Ohain jet engine",
+    "specific impulse rocket engine staged combustion cycle",
+    "convergent-divergent nozzle choked flow Mach number"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gear design and gear trains",
+   "scope": "Gear types, involute tooth geometry, module and diametral pitch, AGMA and ISO strength rating, contact ratio and interference, epicyclic and compound gear trains, and gear manufacturing methods.",
+   "queries": [
+    "involute gear pressure angle module diametral pitch",
+    "Lewis bending equation AGMA gear strength",
+    "planetary epicyclic gear train ratio sun ring",
+    "hypoid worm helical bevel gear types"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rolling-element and fluid-film bearings",
+   "scope": "Ball and roller bearing types, designation codes, load ratings and L10 life, and hydrodynamic, hydrostatic and magnetic journal and thrust bearings.",
+   "queries": [
+    "bearing L10 life basic dynamic load rating",
+    "ball bearing designation number 6205 series",
+    "Sommerfeld number journal bearing Petroff equation",
+    "tapered roller bearing Timken needle spherical roller"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Threaded fasteners, bolted and riveted joints",
+   "scope": "Screw thread standards and designations, bolt grades and property classes, preload and tightening torque, joint stiffness, locking methods, rivets and pins.",
+   "queries": [
+    "Unified thread standard UNC UNF thread series",
+    "ISO metric screw thread pitch coarse fine",
+    "bolt property class 8.8 SAE grade 5 8",
+    "bolt preload torque nut factor joint stiffness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shafts, springs, clutches, brakes and flexible drives",
+   "scope": "Shaft design and keys, couplings and universal joints, helical and leaf springs, friction clutches and brakes, and belt, chain, rope and power-screw drives.",
+   "queries": [
+    "helical compression spring index Wahl factor",
+    "V-belt timing belt roller chain sprocket pitch",
+    "universal joint Cardan constant velocity Rzeppa",
+    "disc clutch uniform wear band drum brake"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Linkages, cams, escapements and mechanisms",
+   "scope": "Kinematic pairs and mobility, four-bar and straight-line linkages, cam-follower design, intermittent-motion devices, and clock escapements and other classic mechanisms.",
+   "queries": [
+    "Grashof condition four-bar linkage crank rocker",
+    "Peaucellier Watt Chebyshev straight-line linkage",
+    "Geneva drive ratchet intermittent motion mechanism",
+    "anchor escapement verge deadbeat clock mechanism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mechanical vibrations, rotordynamics and balancing",
+   "scope": "Free and forced vibration of single- and multi-degree-of-freedom systems, damping, resonance and isolation, modal analysis, rotor critical speeds, vibration absorbers and balancing standards.",
+   "queries": [
+    "damping ratio logarithmic decrement natural frequency",
+    "critical speed shaft whirl Jeffcott rotor Dunkerley",
+    "tuned mass damper dynamic vibration absorber",
+    "ISO 1940 balance quality grade rotor"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Control systems and mechatronics",
+   "scope": "Feedback control theory, PID tuning, stability and frequency-response methods, and mechatronic sensors, actuators, motors and programmable controllers.",
+   "queries": [
+    "Ziegler-Nichols PID tuning method",
+    "Routh-Hurwitz stability Bode plot gain margin",
+    "stepper motor servo motor encoder resolution",
+    "programmable logic controller ladder logic IEC 61131-3"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Robot manipulators and kinematics",
+   "scope": "Serial and parallel robot architectures, Denavit-Hartenberg conventions, forward and inverse kinematics, Jacobians, end-effectors and the history of industrial robots.",
+   "queries": [
+    "Denavit-Hartenberg parameters forward kinematics",
+    "SCARA articulated robot degrees of freedom workspace",
+    "Stewart platform parallel manipulator hexapod",
+    "Unimate first industrial robot Devol Engelberger"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Machining, cutting tools and CNC programming",
+   "scope": "Turning, milling, drilling, grinding and nontraditional machining, chip formation and tool life, cutting tool materials and inserts, and CNC G-code and M-code programming.",
+   "queries": [
+    "Taylor tool life equation cutting speed exponent",
+    "Merchant circle shear angle orthogonal cutting",
+    "electrical discharge machining wire EDM electrochemical",
+    "G-code M-code CNC programming ISO 6983"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Casting, forging and metal forming",
+   "scope": "Sand, die, investment and centrifugal casting, solidification and casting defects, forging, rolling, extrusion and drawing, and sheet-metal forming operations and formability.",
+   "queries": [
+    "sand casting gating riser Chvorinov rule",
+    "investment casting lost wax die casting",
+    "open-die closed-die forging extrusion rolling",
+    "sheet metal forming limit diagram springback deep drawing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Welding, brazing and joining",
+   "scope": "Arc, resistance, oxy-fuel, solid-state and high-energy-beam welding processes, electrode and filler designations, weld symbols and heat-affected zones, plus brazing, soldering and adhesive bonding.",
+   "queries": [
+    "shielded metal arc welding electrode E7018 classification",
+    "gas tungsten arc MIG TIG shielding gas",
+    "friction stir welding resistance spot welding",
+    "AWS A2.4 welding symbols fillet groove"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Additive manufacturing",
+   "scope": "The seven ISO/ASTM 52900 process categories, specific 3D-printing technologies with their inventors and companies, materials, file formats and design considerations.",
+   "queries": [
+    "ISO/ASTM 52900 additive manufacturing process categories",
+    "stereolithography Chuck Hull fused deposition modeling Crump",
+    "powder bed fusion selective laser melting EBM",
+    "binder jetting directed energy deposition material jetting"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Technical drawing, CAD, GD&T and limits and fits",
+   "scope": "Orthographic projection conventions, drawing and dimensioning standards, CAD software history and data-exchange formats, geometric dimensioning and tolerancing, and ISO/ANSI systems of limits and fits.",
+   "queries": [
+    "ASME Y14.5 geometric tolerancing feature control frame",
+    "ISO 286 hole basis fit H7 g6",
+    "first-angle third-angle projection symbol",
+    "CAD history Sketchpad CATIA STEP IGES"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Measurement, metrology and instrumentation",
+   "scope": "Dimensional metrology instruments and standards, and temperature, pressure, strain and displacement sensors, with their types, calibration and accuracy classes.",
+   "queries": [
+    "thermocouple types K J T E temperature range",
+    "strain gauge gauge factor Wheatstone bridge",
+    "gauge block grade micrometer coordinate measuring machine",
+    "LVDT Bourdon tube RTD Pt100 sensor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Finite element analysis and computational fluid dynamics",
+   "scope": "Element formulations, meshing, solution methods and named commercial and open-source codes for structural FEA, and the discretization schemes, turbulence models and algorithms used in CFD.",
+   "queries": [
+    "finite element shape functions isoparametric element hourglassing",
+    "NASTRAN ANSYS ABAQUS finite element software history",
+    "k-epsilon k-omega SST turbulence model",
+    "SIMPLE algorithm finite volume CFL condition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tribology and lubricants",
+   "scope": "Friction and wear mechanisms and laws, lubrication regimes, lubricant viscosity grades and additives, greases, and seals.",
+   "queries": [
+    "Stribeck curve elastohydrodynamic lubrication regime",
+    "Archard wear equation adhesive abrasive wear",
+    "SAE J300 engine oil viscosity grade ISO VG",
+    "NLGI grease consistency grade thickener"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hydraulic and pneumatic fluid power",
+   "scope": "Fluid power pumps, motors, cylinders and valves, circuit symbols, hydraulic fluids and contamination codes, accumulators and pneumatic system components.",
+   "queries": [
+    "hydraulic gear vane axial piston pump",
+    "directional control valve spool ISO 1219 symbols",
+    "ISO 4406 hydraulic fluid cleanliness code",
+    "hydraulic accumulator bladder pneumatic actuator"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pressure vessel and piping design codes",
+   "scope": "Thin- and thick-wall pressure vessel theory, sections of the ASME Boiler and Pressure Vessel Code, B31 piping codes, pipe schedules, flange classes and pressure-relief devices.",
+   "queries": [
+    "ASME Boiler Pressure Vessel Code Section VIII",
+    "ASME B31.3 process piping B31.1 power piping",
+    "nominal pipe size schedule 40 80 wall thickness",
+    "Lamé thick-walled cylinder hoop stress"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Automotive chassis, transmissions and drivetrains",
+   "scope": "Manual, automatic, dual-clutch and continuously variable transmissions, differentials and all-wheel-drive systems, suspension and steering geometry, and vehicle braking systems.",
+   "queries": [
+    "MacPherson strut double wishbone multi-link suspension",
+    "Ackermann steering geometry caster camber toe",
+    "limited slip differential Torsen viscous coupling",
+    "dual-clutch transmission CVT planetary automatic gearbox"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering design methodology and reliability",
+   "scope": "Systematic design processes, design for manufacture and assembly, quality and robust-design methods, and reliability tools such as FMEA, Weibull analysis and MTBF.",
+   "queries": [
+    "Weibull distribution shape parameter bathtub curve reliability",
+    "failure mode and effects analysis risk priority number",
+    "TRIZ Altshuller inventive principles contradiction matrix",
+    "Taguchi robust design quality function deployment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Compressible flow, nozzles and shock waves",
+   "scope": "Gas dynamics of high-speed flows: Mach number, isentropic relations, converging-diverging nozzles and choking, normal and oblique shocks, Prandtl-Meyer expansion, Fanno and Rayleigh duct flow, and supersonic wind tunnels.",
+   "queries": [
+    "normal shock relations Mach number stagnation pressure",
+    "converging diverging de Laval nozzle choked flow",
+    "Fanno flow Rayleigh flow duct friction heating",
+    "oblique shock Prandtl-Meyer expansion fan angle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Creep, stress rupture and high-temperature design",
+   "scope": "Time-dependent deformation and rupture at high temperature: the stages of creep, Norton power-law creep, Larson-Miller and Sherby-Dorn parameters, deformation mechanism maps, stress relaxation, and creep-limited design of boiler, turbine and reactor parts.",
+   "queries": [
+    "Larson-Miller parameter creep rupture life",
+    "Norton power law steady state creep",
+    "deformation mechanism map Nabarro-Herring Coble creep",
+    "creep resistant superalloy turbine blade stress rupture"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical metallurgy: crystal structures, dislocations and strengthening",
+   "scope": "Crystal lattices and defects, slip systems, dislocation theory, strengthening mechanisms (Hall-Petch, solid solution, precipitation, work hardening), recovery and recrystallization, and binary phase diagrams other than iron-carbon.",
+   "queries": [
+    "slip systems FCC BCC HCP crystal dislocations",
+    "Hall-Petch relationship grain size strengthening",
+    "Burgers vector edge screw dislocation",
+    "recovery recrystallization grain growth annealing temperature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering ceramics, cermets and glasses",
+   "scope": "Structural and technical ceramics (alumina, silicon nitride, silicon carbide, zirconia), cemented carbides and cermets, and engineering glasses, covering their processing, properties, toughening, Weibull strength statistics and uses.",
+   "queries": [
+    "silicon nitride silicon carbide structural ceramics",
+    "partially stabilized zirconia transformation toughening",
+    "cemented carbide cobalt binder grain size grades",
+    "borosilicate fused silica glass thermal expansion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corrosion, cathodic protection and protective coatings",
+   "scope": "Corrosion mechanisms (galvanic, pitting, crevice, stress corrosion cracking, hydrogen embrittlement), the galvanic series, cathodic protection, and protective surface treatments such as galvanizing, anodizing, plating, phosphating, thermal spray, PVD and CVD.",
+   "queries": [
+    "galvanic series seawater anodic index metals",
+    "cathodic protection sacrificial anode impressed current",
+    "anodizing type II type III MIL-A-8625",
+    "thermal spray HVOF plasma spray coatings"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theory of elasticity, plates and shells, and plasticity",
+   "scope": "Solid mechanics beyond elementary strength of materials: Airy stress functions and compatibility, Saint-Venant torsion and the Prandtl membrane analogy, Kirchhoff-Love plate and shell theory, and classical plasticity flow rules and slip-line fields.",
+   "queries": [
+    "Airy stress function plane elasticity problems",
+    "Kirchhoff-Love plate theory bending rigidity",
+    "Saint-Venant torsion warping Prandtl stress function",
+    "Prandtl-Reuss flow rule slip-line plasticity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Seals, gaskets and O-rings",
+   "scope": "Static and dynamic sealing elements: O-ring sizing (AS568), elastomer compounds and gland design, gaskets and flange sealing, mechanical face seals and API 682 arrangements and piping plans, lip seals, compression packing and labyrinth seals.",
+   "queries": [
+    "O-ring AS568 dash size gland squeeze",
+    "mechanical seal API 682 piping plan",
+    "spiral wound gasket flange sealing",
+    "labyrinth seal turbomachinery leakage clearance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial valves, flow coefficients and steam traps",
+   "scope": "Valve types (gate, globe, ball, butterfly, check, plug, diaphragm, needle), control valve sizing with Cv/Kv, trim and inherent flow characteristics, valve actuators and positioners, and steam trap designs.",
+   "queries": [
+    "valve flow coefficient Cv Kv sizing",
+    "gate globe ball butterfly valve types",
+    "control valve equal percentage inherent characteristic",
+    "steam trap thermodynamic float thermostatic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cranes, hoists, conveyors, wire rope and elevators",
+   "scope": "Lifting and material handling equipment: overhead and tower cranes and their duty classes, hoists, wire rope construction and design factors, belt, screw and roller conveyors, forklifts, and elevator and escalator machinery and safety devices.",
+   "queries": [
+    "wire rope construction 6x19 strand lay",
+    "overhead bridge crane duty classification CMAA",
+    "belt conveyor idler troughing angle capacity",
+    "traction elevator counterweight Otis safety brake"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Railway rolling stock: locomotives, bogies, couplers and brakes",
+   "scope": "Mechanical engineering of railway vehicles: steam, diesel and electric locomotive types and wheel-arrangement notations, bogies and suspension, wheelset conicity and hunting, couplers and buffers, and air and vacuum brake systems.",
+   "queries": [
+    "Whyte notation steam locomotive wheel arrangement",
+    "Janney coupler buffers and chain railway",
+    "Westinghouse air brake triple valve",
+    "bogie wheelset conicity hunting oscillation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Marine engineering: ship propulsion and shipboard machinery",
+   "scope": "Ship machinery: slow-speed two-stroke crosshead diesels, marine steam and gas turbines, diesel-electric and podded propulsion, propeller geometry and cavitation, shafting and stern tubes, steering gear and engine-room auxiliaries.",
+   "queries": [
+    "marine propeller pitch skew blade cavitation",
+    "two-stroke crosshead marine diesel engine",
+    "Azipod azimuth thruster podded propulsion",
+    "ship stern tube shaft seal bearing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering acoustics and noise control",
+   "scope": "Noise measurement and control in machinery and buildings: decibel scales and frequency weightings, sound power versus sound pressure, octave bands, noise criteria curves, sound transmission class, absorption coefficients, mufflers and silencers, and occupational noise exposure limits.",
+   "queries": [
+    "A-weighting sound pressure level decibel",
+    "sound transmission class STC rating wall",
+    "reactive absorptive muffler silencer design",
+    "OSHA occupational noise exposure exchange rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Electronics thermal management, heat pipes and thermoelectric devices",
+   "scope": "Devices and methods for cooling electronics and other compact heat sources: heat sink and fin-array design, heat pipes and vapor chambers and their operating limits, Peltier thermoelectric coolers, thermal interface materials, cold plates and package thermal resistance ratings.",
+   "queries": [
+    "heat pipe wick working fluid limits",
+    "Peltier thermoelectric cooler figure merit ZT",
+    "heat sink thermal resistance fin spacing",
+    "thermal interface material conductivity grease"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Solar thermal collectors and concentrating solar power",
+   "scope": "Solar thermal energy conversion: flat-plate and evacuated-tube collectors, solar water heating, parabolic trough, linear Fresnel, power tower and dish systems, molten-salt storage, and named CSP plants with their capacities and technologies.",
+   "queries": [
+    "parabolic trough concentrating solar power plant",
+    "solar power tower molten salt heliostats",
+    "evacuated tube flat plate solar collector",
+    "Ivanpah Andasol Gemasolar solar thermal plant"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Flywheels, compressed-air and thermal energy storage",
+   "scope": "Non-hydro mechanical and thermal energy storage: flywheel rotors and bearings, compressed air energy storage plants (Huntorf, McIntosh), liquid air and pumped thermal storage, gravity storage, and sensible and phase-change thermal storage.",
+   "queries": [
+    "flywheel energy storage composite rotor magnetic bearings",
+    "compressed air energy storage Huntorf McIntosh",
+    "liquid air energy storage cryogenic plant",
+    "phase change material latent heat storage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stirling, hot-air and thermoacoustic engines",
+   "scope": "External-combustion and regenerative heat engines: Stirling alpha, beta and gamma configurations, regenerators, rhombic and free-piston drives, Ericsson and other hot-air engines, historical and space-power Stirling engines, and thermoacoustic engines and refrigerators.",
+   "queries": [
+    "Stirling engine alpha beta gamma configuration",
+    "free-piston Stirling engine Beale linear alternator",
+    "Philips Stirling engine rhombic drive",
+    "thermoacoustic engine stack resonator heat"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nontraditional machining: EDM, ECM, laser, waterjet and ultrasonic",
+   "scope": "Nonconventional material removal processes: sinker and wire electrical discharge machining, electrochemical machining and grinding, laser and plasma cutting, abrasive waterjet, ultrasonic, electron-beam and chemical machining, with their process parameters and capabilities.",
+   "queries": [
+    "wire EDM dielectric electrode wear spark",
+    "electrochemical machining electrolyte material removal rate",
+    "abrasive waterjet cutting garnet pressure",
+    "ultrasonic machining electron beam machining process"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Grinding, abrasives and superfinishing",
+   "scope": "Abrasive machining and finishing: grinding wheel marking systems (abrasive, grit, grade, structure, bond), conventional abrasives and superabrasives (CBN, diamond), surface, cylindrical and centerless grinding, wheel dressing, honing, lapping and superfinishing.",
+   "queries": [
+    "grinding wheel marking system grade structure bond",
+    "cubic boron nitride diamond superabrasive grinding",
+    "honing lapping superfinishing process",
+    "centerless grinding surface grinding operations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Powder metallurgy, sintering and metal injection molding",
+   "scope": "Powder-based metal part production: powder making by atomization and reduction, die compaction, sintering atmospheres and densification, hot and cold isostatic pressing, metal injection molding, sintered self-lubricating bearings, and MPIF material standards.",
+   "queries": [
+    "powder metallurgy compaction sintering density",
+    "metal injection molding feedstock debinding",
+    "hot isostatic pressing HIP process",
+    "gas water atomization metal powder production"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plastics processing: molding, extrusion and thermoforming",
+   "scope": "Processes for shaping polymers: injection molding machines, clamp tonnage, gating and defects, extruder screw zones and dies, extrusion and injection blow molding, thermoforming, rotational, compression and transfer molding, and reaction injection molding.",
+   "queries": [
+    "injection molding clamping force gate defects",
+    "single screw extruder feed compression metering",
+    "extrusion blow molding parison",
+    "rotational molding thermoforming process"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hybrid and electric vehicle powertrains",
+   "scope": "Powertrains of hybrid and battery-electric vehicles: series, parallel and power-split architectures (e.g. Toyota Hybrid Synergy Drive), traction motor types, e-axles, regenerative braking, and battery pack layout and thermal management.",
+   "queries": [
+    "Hybrid Synergy Drive power split planetary",
+    "series parallel hybrid electric vehicle architecture",
+    "regenerative braking electric vehicle motor",
+    "electric vehicle battery pack thermal management"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Agricultural tractors and heavy off-highway machinery",
+   "scope": "Tractors and heavy mobile machinery: three-point hitch categories and the Ferguson system, power take-off standards, tractor history, combine harvesters, crawler undercarriages, excavators, bulldozers, wheel loaders and mining haul trucks.",
+   "queries": [
+    "three-point hitch category Ferguson tractor",
+    "power take-off 540 1000 rpm",
+    "combine harvester threshing cylinder concave",
+    "excavator bulldozer crawler undercarriage hydraulic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "MEMS and microsystem mechanics",
+   "scope": "Microelectromechanical systems: bulk and surface micromachining, LIGA and deep reactive ion etching (Bosch process), MEMS accelerometers, gyroscopes and pressure sensors, comb drives, micromirror devices, and microscale effects such as stiction.",
+   "queries": [
+    "MEMS accelerometer capacitive proof mass",
+    "surface micromachining sacrificial layer polysilicon",
+    "deep reactive ion etching Bosch process",
+    "digital micromirror device comb drive actuator"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biomechanics, prosthetics and orthopedic implants",
+   "scope": "Mechanical engineering applied to the body and medical devices: bone and soft-tissue mechanics, gait analysis, joint replacement designs and bearing materials, prosthetic limbs and orthoses, and mechanical heart valves and ventricular assist devices.",
+   "queries": [
+    "total hip replacement implant materials polyethylene",
+    "prosthetic leg knee ankle foot design",
+    "mechanical heart valve bileaflet tilting disc",
+    "cortical cancellous bone mechanical properties modulus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Building plumbing and fire sprinkler systems",
+   "scope": "Plumbing and fire protection in buildings: water supply and drainage-waste-vent design, fixture units, traps and venting, backflow prevention, pipe materials and water heaters, and automatic sprinklers, standpipes and fire pumps under NFPA standards.",
+   "queries": [
+    "drainage waste vent fixture units trap",
+    "backflow preventer reduced pressure zone",
+    "fire sprinkler NFPA 13 hazard classification",
+    "sprinkler glass bulb temperature rating color"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mechanical engineering societies, awards and historic landmarks",
+   "scope": "Professional institutions of mechanical engineering (ASME, IMechE, VDI, SAE): their founding, founders, presidents and divisions, named medals and awards and their recipients, and the ASME Historic Mechanical Engineering Landmarks program.",
+   "queries": [
+    "ASME Medal recipients mechanical engineering award",
+    "Institution of Mechanical Engineers founded 1847 Stephenson",
+    "ASME historic mechanical engineering landmark",
+    "Timoshenko Medal James Watt International Medal"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of machine tools, interchangeable parts and mass production",
+   "scope": "How machine tools and manufacturing methods developed from the Industrial Revolution into the 20th century: cylinder boring mills, screw-cutting lathes, planers and milling machines, the American system of interchangeable parts, and moving-assembly-line mass production.",
+   "queries": [
+    "Henry Maudslay screw-cutting lathe history",
+    "American system interchangeable parts Springfield Armory",
+    "John Wilkinson boring machine cylinder",
+    "Ford moving assembly line Highland Park"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

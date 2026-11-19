@@ -1,0 +1,628 @@
+{
+ "domain": "Finance",
+ "subtopic": "Equity investments",
+ "weight": 0.0092805,
+ "leaves": [
+  {
+   "leaf": "Dividend discount models",
+   "scope": "Gordon growth, two-stage, H-model and multistage dividend discount models for valuing common stock, including sustainable growth rates and implied required returns.",
+   "queries": [
+    "Gordon growth model constant dividend growth formula",
+    "H-model dividend discount Fuller Hsia",
+    "two-stage dividend discount model terminal value",
+    "sustainable growth rate retention ratio ROE"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Free cash flow (FCFF/FCFE) valuation",
+   "scope": "Discounted cash flow equity valuation using free cash flow to the firm and to equity, how those flows are derived from financial statements, and terminal value conventions.",
+   "queries": [
+    "free cash flow to equity FCFE net borrowing",
+    "FCFF formula EBIT tax depreciation capital expenditure",
+    "discounted cash flow terminal value perpetuity exit multiple",
+    "Damodaran DCF valuation stable growth period"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Residual income and economic profit valuation",
+   "scope": "Abnormal-earnings approaches to equity value such as the Edwards-Bell-Ohlson residual income model, the clean surplus relation, persistence factors and EVA/MVA.",
+   "queries": [
+    "residual income model clean surplus relation",
+    "Edwards Bell Ohlson valuation abnormal earnings",
+    "economic value added EVA Stern Stewart",
+    "residual income persistence factor continuing value"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Price multiples and market-level valuation ratios",
+   "scope": "Relative valuation with P/E, P/B, P/S, PEG and EV/EBITDA, plus aggregate market gauges such as the Shiller CAPE, Fed model, Tobin's q and market-cap-to-GDP.",
+   "queries": [
+    "Shiller CAPE cyclically adjusted price earnings ratio",
+    "PEG ratio Peter Lynch price earnings growth",
+    "enterprise value EBITDA multiple comparable companies",
+    "Tobin's q ratio market value replacement cost"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cost of equity, beta estimation and the equity risk premium",
+   "scope": "Estimating the required return on equity through CAPM betas, Blume-adjusted beta, build-up and size premiums, country risk premiums, and historical or implied equity risk premium estimates.",
+   "queries": [
+    "equity risk premium historical Ibbotson implied Damodaran",
+    "Blume adjusted beta formula regression",
+    "build-up method size premium cost of equity",
+    "country risk premium sovereign spread equity"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Private and closely held company equity valuation",
+   "scope": "Valuing private-company shares for transactions, estate and gift tax and financial reporting, including DLOM, DLOC, guideline public company and transaction methods, and IRS Revenue Ruling 59-60.",
+   "queries": [
+    "discount for lack of marketability restricted stock studies",
+    "Revenue Ruling 59-60 closely held stock valuation",
+    "guideline public company method business valuation",
+    "discount for lack of control minority interest premium"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sell-side equity research and analyst regulation",
+   "scope": "Sell-side analyst coverage, rating scales and consensus estimates, and the rules that govern research: the 2003 Global Research Analyst Settlement, Regulation AC, FINRA Rule 2241, Reg FD and MiFID II research unbundling.",
+   "queries": [
+    "Global Research Analyst Settlement 2003 investment banks",
+    "Regulation AC analyst certification SEC",
+    "FINRA Rule 2241 research analysts conflicts",
+    "MiFID II research unbundling payments"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stock exchange history, ownership and listing standards",
+   "scope": "The founding, demutualization, mergers and ownership of exchanges such as the NYSE, Nasdaq, LSE, Euronext, Deutsche Börse and JPX, and their market tiers and initial and continued listing requirements.",
+   "queries": [
+    "Buttonwood Agreement 1792 New York Stock Exchange history",
+    "Nasdaq Global Select Market listing requirements",
+    "NYSE continued listing standards minimum price",
+    "stock exchange demutualization merger Euronext"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US national market system regulation and trading venues",
+   "scope": "Regulation NMS (order protection, access fee cap), the NBBO and SIP consolidated tape, payment for order flow, Rule 605/606 disclosures, ATSs and dark pools, and high-frequency trading.",
+   "queries": [
+    "Regulation NMS order protection rule 611",
+    "payment for order flow Rule 606 disclosure",
+    "dark pool alternative trading system Form ATS-N",
+    "high-frequency trading latency arbitrage colocation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Order types, auctions, tick sizes and market makers",
+   "scope": "How equities actually trade: order types, opening and closing auctions, round lots and tick sizes (decimalization, the Tick Size Pilot), and the roles of specialists, designated market makers and wholesalers.",
+   "queries": [
+    "designated market maker NYSE specialist obligations",
+    "closing auction market on close order imbalance",
+    "decimalization 2001 tick size pilot program",
+    "limit order stop order market order types"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trading halts, circuit breakers and Limit Up-Limit Down",
+   "scope": "Single-stock and market-wide trading pauses, including LULD price bands, S&P 500-based circuit breaker levels, regulatory and news-pending halts, and similar mechanisms on foreign exchanges.",
+   "queries": [
+    "market-wide circuit breaker level 1 7 percent",
+    "limit up limit down plan price bands",
+    "trading halt codes news pending regulatory",
+    "circuit breaker Shanghai Stock Exchange 2016 suspended"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Equity clearing, settlement and custody",
+   "scope": "Post-trade processing of equity trades: settlement cycles and the T+1 transition, DTCC/NSCC/DTC and Cede & Co., central counterparties, CSDs such as Euroclear and CREST, fails-to-deliver, and street-name ownership.",
+   "queries": [
+    "T+1 settlement cycle transition May 2024",
+    "National Securities Clearing Corporation continuous net settlement",
+    "Depository Trust Company Cede nominee street name",
+    "CREST Euroclear central securities depository settlement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Short selling, Regulation SHO and securities lending",
+   "scope": "How short sales work and how they are regulated: Reg SHO locate and close-out rules, the Rule 201 alternative uptick rule, naked shorting, short interest and days-to-cover, borrow fees, securities lending, and short-selling bans.",
+   "queries": [
+    "Regulation SHO locate requirement threshold securities",
+    "alternative uptick rule 201 short sale circuit breaker",
+    "short interest ratio days to cover",
+    "securities lending rebate rate hard to borrow"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Margin, brokerage accounts and investor protection",
+   "scope": "Regulation T initial margin, FINRA Rule 4210 maintenance and pattern day trader requirements, margin calls, portfolio margin, cash versus margin accounts, and SIPC coverage limits.",
+   "queries": [
+    "Regulation T initial margin 50 percent",
+    "FINRA 4210 maintenance margin pattern day trader",
+    "SIPC coverage limit customer cash claims",
+    "portfolio margin account requirements broker"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "OTC equity markets, penny stocks and microcaps",
+   "scope": "Over-the-counter stock trading and microcap regulation, including the OTCQX/OTCQB/Pink tiers, Rule 15c2-11, penny stock rules, the history of the pink sheets, grey market securities and pump-and-dump schemes.",
+   "queries": [
+    "OTCQX OTCQB Pink market tiers",
+    "Rule 15c2-11 amendments quotation",
+    "penny stock rule definition five dollars",
+    "pink sheets history National Quotation Bureau"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "IPO process, pricing and aftermarket performance",
+   "scope": "How initial public offerings work and how they perform: S-1 registration, bookbuilding and roadshows, underwriter gross spreads, greenshoe options, lock-ups, quiet periods, first-day underpricing and long-run returns.",
+   "queries": [
+    "greenshoe over-allotment option 15 percent underwriters",
+    "IPO underpricing first-day return Ritter",
+    "IPO lock-up period expiration 180 days",
+    "bookbuilding price range roadshow S-1 registration"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "SPACs, direct listings and reverse mergers",
+   "scope": "Other ways to go public: special purpose acquisition companies (trust accounts, units, warrants, sponsor promote, redemptions, de-SPAC), direct listings, reverse mergers into shells, and Dutch-auction IPOs.",
+   "queries": [
+    "special purpose acquisition company trust account redemption",
+    "de-SPAC business combination sponsor promote shares",
+    "direct listing Spotify NYSE reference price",
+    "reverse merger shell company public listing"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Follow-on offerings, rights issues, ATM programs and PIPEs",
+   "scope": "Raising equity after the IPO: seasoned equity offerings, shelf registration and WKSI status, at-the-market programs, rights issues and pre-emption rights, PIPEs, and announcement-date price reactions.",
+   "queries": [
+    "at-the-market offering program sales agent",
+    "rights issue subscription price theoretical ex-rights",
+    "PIPE private investment public equity",
+    "shelf registration well-known seasoned issuer Form S-3"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exempt equity offerings and crowdfunding",
+   "scope": "Raising equity without SEC registration: Regulation D Rules 504, 506(b) and 506(c), accredited investor definitions, Rule 144 resale holding periods, Regulation A+ tiers, and Regulation Crowdfunding limits under the JOBS Act.",
+   "queries": [
+    "Regulation D Rule 506(c) general solicitation",
+    "accredited investor definition net worth income",
+    "Regulation A Tier 2 offering limit",
+    "Regulation Crowdfunding JOBS Act funding portal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Share repurchase methods and regulation",
+   "scope": "Buyback methods and rules: open-market repurchases under the Rule 10b-18 safe harbor, accelerated share repurchases, fixed-price and Dutch-auction tender offers, 10b5-1 buyback plans, the 1% excise tax, and treasury stock.",
+   "queries": [
+    "Rule 10b-18 safe harbor volume limit repurchases",
+    "accelerated share repurchase agreement forward contract",
+    "modified Dutch auction tender offer repurchase",
+    "stock buyback excise tax Inflation Reduction Act"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dividend payment mechanics and payout policy",
+   "scope": "Cash dividend dates (declaration, ex-dividend, record, payment), special and scrip dividends, DRIPs, dividend-growth lists such as the Dividend Aristocrats, and payout theories (Miller-Modigliani, Lintner smoothing, clientele, signaling).",
+   "queries": [
+    "ex-dividend date record date payment date",
+    "dividend reinvestment plan DRIP shares discount",
+    "Lintner model dividend smoothing target payout",
+    "S&P 500 Dividend Aristocrats 25 consecutive years"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Stock splits, spin-offs, tracking stocks and restructuring corporate actions",
+   "scope": "Non-cash corporate actions that change share counts or structure: forward and reverse splits, stock dividends, Section 355 spin-offs, split-offs, equity carve-outs and tracking stocks.",
+   "queries": [
+    "reverse stock split ratio minimum bid price",
+    "spin-off tax-free Section 355 distribution",
+    "tracking stock letter stock Liberty",
+    "equity carve-out subsidiary IPO split-off exchange offer"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Share classes, voting rights and preferred stock",
+   "scope": "Types of equity security and holder rights: common versus preferred stock (cumulative, participating, callable, convertible), par value, authorized versus outstanding shares, dual-class and super-voting structures, and index policies on unequal voting.",
+   "queries": [
+    "dual-class share structure super voting Class B",
+    "cumulative preferred stock dividend arrears",
+    "authorized shares outstanding par value certificate of incorporation",
+    "one share one vote index exclusion multiple class"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Depositary receipts and cross-listing",
+   "scope": "American and global depositary receipts: sponsored and unsponsored ADRs, Level I/II/III and Rule 144A programs, ADS ratios and depositary fees, depositary banks, GDRs, and dual primary listings.",
+   "queries": [
+    "sponsored ADR Level I II III programs",
+    "American depositary share ratio ordinary shares",
+    "global depositary receipts London Luxembourg listing",
+    "depositary bank fees ADR holders cash distributions"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Takeover bids, tender offers and merger arbitrage",
+   "scope": "Public-company acquisitions seen from the shareholder side: Williams Act tender offers, mandatory bid rules such as the UK Takeover Code, squeeze-outs, takeover defenses (poison pills, staggered boards, DGCL Section 203), and merger arbitrage spreads.",
+   "queries": [
+    "Williams Act tender offer 20 business days",
+    "UK Takeover Code mandatory bid 30 percent",
+    "poison pill shareholder rights plan flip-in",
+    "merger arbitrage spread deal completion risk"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Shareholder voting, proxy advisers and shareholder proposals",
+   "scope": "How shareholders exercise governance: annual meetings and proxy statements, the universal proxy rule, Rule 14a-8 proposals, say-on-pay votes, majority and cumulative voting, and proxy advisers such as ISS and Glass Lewis.",
+   "queries": [
+    "Rule 14a-8 shareholder proposal ownership threshold",
+    "say on pay advisory vote Dodd-Frank",
+    "universal proxy card rule 14a-19",
+    "ISS Glass Lewis proxy voting recommendations"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Shareholder activism and beneficial ownership disclosure",
+   "scope": "Activist campaigns and stake-disclosure rules: Schedule 13D and 13G thresholds and deadlines, Form 13F institutional holdings reports, wolf packs, Hart-Scott-Rodino thresholds, and notable activist funds and campaigns.",
+   "queries": [
+    "Schedule 13D five percent beneficial ownership filing deadline",
+    "Form 13F institutional investment manager $100 million",
+    "activist hedge fund campaign board seats proxy fight",
+    "Schedule 13G passive investor qualified institutional"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Insider trading law and Section 16 insider reporting",
+   "scope": "Rule 10b-5 insider trading theories (classical, misappropriation, tipper-tippee) and landmark cases, Rule 10b5-1 plans and cooling-off periods, Section 16 Forms 3/4/5 and short-swing profit recovery, and foreign regimes such as the EU Market Abuse Regulation.",
+   "queries": [
+    "Section 16(b) short-swing profits six months",
+    "Rule 10b5-1 trading plan cooling-off period",
+    "Dirks v SEC tipper tippee personal benefit",
+    "Form 4 insider transaction two business days"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Employee and executive equity compensation plans",
+   "scope": "Equity awards to employees and executives: ISOs and NSOs, RSUs and PSUs, Section 423 ESPPs, ESOPs, vesting schedules, plan share reserves and evergreen provisions, grant-date fair value, and burn rates.",
+   "queries": [
+    "incentive stock options Section 422 holding period",
+    "employee stock purchase plan Section 423 15 percent discount",
+    "restricted stock units vesting performance share units",
+    "equity incentive plan shares reserved evergreen provision"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stock index construction and methodology",
+   "scope": "How major equity benchmarks are built: price-weighted (DJIA, Nikkei 225), float-adjusted cap-weighted (S&P 500, FTSE 100, DAX) and equal-weighted indices, plus eligibility rules, divisors, index committees, reconstitution schedules and index-inclusion effects.",
+   "queries": [
+    "S&P 500 index eligibility criteria market capitalization",
+    "Dow Jones Industrial Average divisor price weighted",
+    "Russell reconstitution June rank day",
+    "FTSE 100 quarterly review free float"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Emerging and frontier market classification and foreign investor access",
+   "scope": "How MSCI and FTSE Russell classify markets as developed, emerging or frontier, and how foreign investors get in: China A-shares, Stock Connect, QFII/RQFII quotas, foreign ownership limits, and country upgrades and downgrades.",
+   "queries": [
+    "MSCI annual market classification review emerging frontier",
+    "Shanghai-Hong Kong Stock Connect northbound quota",
+    "QFII qualified foreign institutional investor quota",
+    "China A-shares inclusion factor MSCI Emerging Markets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Equity ETFs and index funds",
+   "scope": "Pooled vehicles for equity exposure: index mutual funds and ETFs, creation/redemption through authorized participants, Rule 6c-11, expense ratios and tracking error, pioneering funds (SPDR, Vanguard 500), and smart-beta and leveraged/inverse equity ETFs.",
+   "queries": [
+    "SPDR S&P 500 ETF Trust 1993 launch",
+    "ETF creation redemption authorized participant in-kind",
+    "First Index Investment Trust Vanguard 1976 Bogle",
+    "leveraged inverse ETF daily reset decay"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sector classification systems and investment style boxes",
+   "scope": "Systems for grouping stocks: GICS sectors, industry groups and sub-industries and their revisions, ICB, TRBC, SIC/NAICS, and style frameworks such as the Morningstar Style Box and growth/value index definitions.",
+   "queries": [
+    "Global Industry Classification Standard sectors sub-industries",
+    "GICS changes 2023 reclassification",
+    "Industry Classification Benchmark ICB supersectors",
+    "Morningstar style box large value growth"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Equity asset pricing and factor models",
+   "scope": "Asset pricing models and equity factors: CAPM origins (Sharpe, Lintner, Mossin), APT, the Fama-French three- and five-factor models, Carhart momentum, q-factor, low-volatility and quality factors, and the papers that introduced them.",
+   "queries": [
+    "Fama French three factor model SMB HML",
+    "Carhart four factor model momentum",
+    "arbitrage pricing theory Ross 1976",
+    "Fama French five factor profitability investment RMW CMA"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Market efficiency, event studies and return anomalies",
+   "scope": "The weak, semi-strong and strong forms of the efficient market hypothesis and how they are tested, event-study methods, and documented non-factor anomalies such as calendar effects, post-earnings-announcement drift and the accruals anomaly, with their behavioral explanations.",
+   "queries": [
+    "efficient market hypothesis weak semi-strong form",
+    "post-earnings announcement drift Ball Brown",
+    "January effect small cap tax-loss selling",
+    "accrual anomaly Sloan 1996 earnings"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Value investing tradition and notable equity investors",
+   "scope": "The value-investing canon and famous stock investors: editions of Graham and Dodd's Security Analysis and The Intelligent Investor, net-nets and margin of safety, Berkshire Hathaway shareholder letters, and the records and methods of Lynch, Templeton, Fisher and Munger.",
+   "queries": [
+    "Benjamin Graham Security Analysis 1934 edition",
+    "Graham number net current asset value",
+    "Berkshire Hathaway shareholder letter Buffett",
+    "Peter Lynch Magellan Fund annual return"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Technical analysis indicators and chart theory",
+   "scope": "Chart- and indicator-based stock analysis: Dow theory, chart patterns, moving averages, RSI, MACD, Bollinger Bands, Fibonacci retracements and Elliott waves, with their originators and standard parameter settings.",
+   "queries": [
+    "relative strength index Wilder 14 period",
+    "MACD 12 26 9 Gerald Appel",
+    "Bollinger Bands standard deviation 20-day",
+    "Dow theory primary trend Charles Dow Hamilton"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "ESG and responsible equity investing",
+   "scope": "Sustainable and responsible equity investing: exclusionary screening, ESG ratings (MSCI, Sustainalytics), the UN PRI, stewardship codes, SFDR Article 8/9 classification, ESG indices, and fund naming and labeling rules.",
+   "queries": [
+    "Principles for Responsible Investment signatories 2006",
+    "SFDR Article 8 Article 9 funds",
+    "MSCI ESG ratings AAA CCC scale",
+    "UK Stewardship Code 2020 signatories"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stock market crashes, bubbles and historic episodes",
+   "scope": "Historic equity market crises and their dates, index moves and official inquiries: the South Sea and Mississippi bubbles, 1929, Black Monday 1987, Japan's asset bubble, the dot-com bust, 2008, the 2010 Flash Crash, the 2020 COVID crash and meme-stock squeezes.",
+   "queries": [
+    "Black Monday 1987 Dow Jones percent decline",
+    "Wall Street Crash 1929 Black Tuesday",
+    "2010 Flash Crash Waddell Reed E-mini",
+    "Nikkei 225 peak December 1989 bubble"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Taxation of equity investments",
+   "scope": "How equity holdings are taxed across jurisdictions: capital gains rates and holding periods, qualified dividend rules, the wash sale rule, dividend withholding and tax treaties, the net investment income tax, stamp duties and financial transaction taxes, and tax-advantaged accounts (IRAs, ISAs, NISA).",
+   "queries": [
+    "qualified dividend holding period 61 days 121-day",
+    "wash sale rule 30 days substantially identical",
+    "UK stamp duty reserve tax shares 0.5 percent",
+    "net investment income tax 3.8 percent dividends"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Equity portfolio performance measurement and return attribution",
+   "scope": "How equity managers' results are measured and explained: risk-adjusted ratios (Sharpe, Treynor, Jensen's alpha, information ratio, M-squared), tracking error, active share, Brinson-Hood-Beebower and Brinson-Fachler allocation and selection effects, time- versus money-weighted returns, and the GIPS presentation standards.",
+   "queries": [
+    "Brinson Fachler attribution allocation selection interaction effect",
+    "Sharpe ratio Treynor ratio Jensen alpha information ratio",
+    "active share tracking error Cremers Petajisto closet indexing",
+    "GIPS composite time-weighted return presentation requirements"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Warrants, convertible securities and equity-linked instruments",
+   "scope": "Securities whose value comes from a company's common stock without being common stock: detachable and listed warrants, convertible bonds and convertible preferred (conversion ratio, conversion premium, call and anti-dilution provisions), mandatory convertibles, exchangeable notes, capped calls and convertible note hedges, and convertible arbitrage.",
+   "queries": [
+    "convertible senior notes conversion rate capped call",
+    "warrant exercise price anti-dilution adjustment expiration",
+    "mandatory convertible preferred stock conversion premium",
+    "convertible arbitrage delta hedging conversion ratio"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Earnings per share computation and share count dilution",
+   "scope": "How basic and diluted EPS are calculated and reported under ASC 260 and IAS 33: weighted-average shares, the treasury stock and if-converted methods, two-class EPS for participating securities, antidilution rules, restatement for stock splits, and the history of these standards (APB 15, SFAS 128).",
+   "queries": [
+    "diluted earnings per share treasury stock method",
+    "if-converted method antidilutive securities excluded diluted EPS",
+    "two-class method participating securities ASC 260",
+    "IAS 33 weighted average ordinary shares SFAS 128"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  }
+ ]
+}

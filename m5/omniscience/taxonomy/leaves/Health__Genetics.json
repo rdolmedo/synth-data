@@ -1,0 +1,440 @@
+{
+ "domain": "Health",
+ "subtopic": "Genetics",
+ "weight": 0.0049995,
+ "leaves": [
+  {
+   "leaf": "History of genetics: landmark experiments and discoverers",
+   "scope": "Key experiments, scientists, dates and coined terms in genetics, from Mendel's pea crosses through the chromosome theory, early linkage mapping, the proof that DNA carries heredity, and the cracking of the genetic code.",
+   "queries": [
+    "Mendel pea experiments 1866 rediscovery Correns Tschermak",
+    "Morgan Drosophila white eye Sturtevant first genetic map",
+    "Avery MacLeod McCarty transforming principle Hershey Chase",
+    "Nirenberg Matthaei genetic code poly-U Khorana Nobel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Human population and evolutionary genetics",
+   "scope": "How allele frequencies behave in human populations: Hardy-Weinberg equilibrium, genetic drift, founder effects and founder mutations, consanguinity, natural selection on disease alleles, archaic admixture, and mtDNA and Y-chromosome haplogroups.",
+   "queries": [
+    "Hardy-Weinberg equilibrium carrier frequency calculation",
+    "founder mutation Ashkenazi Jewish Finnish disease heritage",
+    "Neanderthal Denisovan admixture modern human genomes",
+    "mitochondrial haplogroup Y-chromosome haplogroup human migration"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gene mapping and complex-trait genetics: linkage, heritability, GWAS and polygenic scores",
+   "scope": "Ways to locate genes and measure how much genetics contributes to a trait: LOD-score linkage analysis, map units and mapping functions, twin and family heritability estimates, genome-wide association studies, and polygenic risk scores.",
+   "queries": [
+    "LOD score linkage analysis threshold centimorgan",
+    "genome-wide association study significance threshold loci",
+    "twin study heritability estimate monozygotic concordance",
+    "polygenic risk score coronary artery disease UK Biobank"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Clinical cytogenetics: chromosome abnormalities, karyotyping and ISCN notation",
+   "scope": "Numerical and structural chromosome abnormalities (autosomal trisomies, sex chromosome aneuploidies, Robertsonian and reciprocal translocations, inversions, ring and marker chromosomes), plus the banding, FISH and microarray methods and the ISCN notation used to describe them.",
+   "queries": [
+    "ISCN nomenclature karyotype notation translocation",
+    "Robertsonian translocation Down syndrome recurrence risk carrier",
+    "Turner syndrome 45,X mosaicism Klinefelter 47,XXY",
+    "G-banding resolution FISH probe chromosomal microarray"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Recurrent microdeletion and microduplication syndromes",
+   "scope": "Recurrent copy-number variant syndromes other than the 15q11-q13 imprinting disorders, covering their critical regions, the low-copy repeats that cause them, key dosage-sensitive genes and their phenotypes.",
+   "queries": [
+    "22q11.2 deletion syndrome TBX1 DiGeorge",
+    "Williams syndrome 7q11.23 elastin deletion",
+    "Smith-Magenis syndrome RAI1 17p11.2 Potocki-Lupski",
+    "1p36 deletion Wolf-Hirschhorn 4p16.3 cri du chat"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genomic imprinting disorders and uniparental disomy",
+   "scope": "Parent-of-origin gene expression, imprinting control regions, and disorders caused by imprinting defects, uniparental disomy or parent-specific deletions, such as Prader-Willi, Angelman, Beckwith-Wiedemann, Silver-Russell and transient neonatal diabetes.",
+   "queries": [
+    "Prader-Willi syndrome paternal deletion maternal uniparental disomy",
+    "Angelman syndrome UBE3A imprinting mechanism",
+    "Beckwith-Wiedemann 11p15 IC1 H19 KCNQ1OT1",
+    "Silver-Russell syndrome imprinting center hypomethylation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nucleotide repeat expansion disorders",
+   "scope": "Diseases caused by unstable repeat expansions, with their repeat motifs, normal/premutation/full-mutation thresholds, anticipation and disease mechanisms, in Huntington disease, fragile X, myotonic dystrophy, spinocerebellar ataxias, Friedreich ataxia and C9orf72 ALS/FTD.",
+   "queries": [
+    "Huntington disease CAG repeat reduced penetrance range",
+    "fragile X FMR1 premutation CGG repeat AGG interruptions",
+    "myotonic dystrophy DMPK CTG CNBP CCTG expansion",
+    "spinocerebellar ataxia polyglutamine repeat thresholds anticipation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mitochondrial genome and mitochondrial disease genetics",
+   "scope": "The human mitochondrial genome and its disorders: mtDNA structure and gene content, heteroplasmy and the bottleneck, specific pathogenic mtDNA variants, nuclear-encoded mitochondrial disease genes, and mitochondrial replacement techniques.",
+   "queries": [
+    "MELAS m.3243A>G MT-TL1 heteroplasmy",
+    "Leber hereditary optic neuropathy m.11778G>A MT-ND4",
+    "mitochondrial DNA 16569 base pairs 37 genes",
+    "mitochondrial donation pronuclear transfer HFEA"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Epigenetic mechanisms and X-chromosome inactivation",
+   "scope": "DNA methylation, histone modifications, chromatin remodeling and regulatory noncoding RNAs, X-chromosome inactivation (XIST, escape genes, skewed inactivation), and Mendelian disorders of the epigenetic machinery such as ICF and Kabuki syndromes.",
+   "queries": [
+    "X chromosome inactivation XIST Lyon hypothesis escape genes",
+    "DNMT1 DNMT3A CpG methylation mammals",
+    "H3K27me3 Polycomb PRC2 EZH2 histone methylation",
+    "ICF syndrome DNMT3B Kabuki KMT2D chromatin disorders"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inborn errors of small-molecule metabolism and newborn screening",
+   "scope": "Aminoacidopathies, organic acidemias, urea cycle defects, fatty acid oxidation and carbohydrate disorders, and the newborn screening programs, analytes and methods (dried blood spots, tandem mass spectrometry, RUSP) used to detect them.",
+   "queries": [
+    "phenylketonuria PAH phenylalanine Guthrie test",
+    "tandem mass spectrometry newborn screening acylcarnitine MCAD",
+    "urea cycle disorder ornithine transcarbamylase hyperammonemia",
+    "Recommended Uniform Screening Panel core conditions"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lysosomal storage and peroxisomal disorders",
+   "scope": "Sphingolipidoses, mucopolysaccharidoses, Pompe disease and other lysosomal storage diseases, plus peroxisomal biogenesis and single-enzyme disorders, covering the missing enzymes, stored substrates, founder alleles, and enzyme-replacement or substrate-reduction therapies.",
+   "queries": [
+    "Gaucher disease glucocerebrosidase GBA imiglucerase",
+    "Fabry disease alpha-galactosidase A agalsidase",
+    "mucopolysaccharidosis Hurler iduronidase Hunter iduronate sulfatase",
+    "Zellweger spectrum PEX genes very long chain fatty acids"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Prenatal diagnosis, carrier screening and preimplantation genetic testing",
+   "scope": "Reproductive genetic testing: cell-free DNA screening, serum and nuchal translucency screening, amniocentesis and chorionic villus sampling, expanded carrier screening, and preimplantation genetic testing (PGT-A, PGT-M, PGT-SR).",
+   "queries": [
+    "cell-free fetal DNA screening fetal fraction trisomy 21",
+    "chorionic villus sampling amniocentesis gestational age miscarriage risk",
+    "preimplantation genetic testing aneuploidy PGT-A mosaic embryos",
+    "expanded carrier screening panel ACOG recommendations"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hemoglobinopathies and inherited blood and iron disorders",
+   "scope": "Inherited disorders of hemoglobin, red cells, coagulation and iron handling, including sickle cell disease, alpha and beta thalassemias, hemophilia A and B, von Willebrand disease, G6PD deficiency, hereditary spherocytosis and HFE hemochromatosis.",
+   "queries": [
+    "sickle cell HBB Glu6Val hemoglobin S",
+    "beta thalassemia mutations HbE BCL11A fetal hemoglobin",
+    "hemophilia A F8 intron 22 inversion",
+    "HFE C282Y H63D hereditary hemochromatosis penetrance"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hereditary cancer predisposition and DNA repair deficiency syndromes",
+   "scope": "Germline cancer predisposition syndromes and DNA repair or chromosome instability disorders, including BRCA1/2, Lynch, Li-Fraumeni, FAP, MEN1/2, VHL, Cowden, Fanconi anemia, ataxia-telangiectasia, Bloom syndrome and xeroderma pigmentosum.",
+   "queries": [
+    "BRCA1 BRCA2 founder mutations 185delAG cancer risk",
+    "Lynch syndrome mismatch repair MLH1 MSH2 Amsterdam criteria",
+    "Li-Fraumeni syndrome TP53 Chompret criteria",
+    "Fanconi anemia complementation groups chromosome breakage"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Somatic cancer genomics and tumor driver alterations",
+   "scope": "Somatic changes in tumors: oncogenes and tumor suppressors, recurrent translocations and fusion genes, hotspot driver mutations, mutational signatures, tumor mutational burden, and therapies targeted to specific genomic alterations.",
+   "queries": [
+    "Philadelphia chromosome BCR-ABL1 t(9;22) imatinib",
+    "KRAS G12C EGFR exon 19 deletion targeted therapy",
+    "Knudson two-hit hypothesis retinoblastoma RB1",
+    "COSMIC mutational signatures tumor mutational burden"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pharmacogenomics and drug-gene guidelines",
+   "scope": "Germline variants that change drug response, including CYP450 star alleles and metabolizer phenotypes, HLA-linked drug hypersensitivity, TPMT/NUDT15, DPYD, VKORC1 and SLCO1B1, and the CPIC and FDA pharmacogenomic guidance built on them.",
+   "queries": [
+    "CYP2D6 poor metabolizer codeine star allele",
+    "HLA-B*57:01 abacavir HLA-B*15:02 carbamazepine hypersensitivity",
+    "warfarin dosing VKORC1 CYP2C9 genotype",
+    "CPIC guideline DPYD fluoropyrimidine TPMT thiopurine"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inherited cardiomyopathies, channelopathies and familial hypercholesterolemia",
+   "scope": "Monogenic cardiovascular disease: hypertrophic, dilated and arrhythmogenic cardiomyopathies, long QT, Brugada and CPVT channelopathies, and familial hypercholesterolemia, with their genes, subtypes and prevalence.",
+   "queries": [
+    "long QT syndrome KCNQ1 KCNH2 SCN5A types",
+    "hypertrophic cardiomyopathy MYH7 MYBPC3 sarcomere genes",
+    "familial hypercholesterolemia LDLR APOB PCSK9 prevalence",
+    "arrhythmogenic cardiomyopathy PKP2 desmosome TTN truncating variants"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Genetic neuromuscular disorders",
+   "scope": "Inherited muscle and peripheral nerve diseases, including Duchenne/Becker dystrophy, spinal muscular atrophy, Charcot-Marie-Tooth neuropathies, limb-girdle and congenital muscular dystrophies, FSHD and periodic paralyses, with their genes and mechanisms.",
+   "queries": [
+    "Duchenne muscular dystrophy dystrophin exon deletion reading frame",
+    "spinal muscular atrophy SMN1 SMN2 copy number",
+    "Charcot-Marie-Tooth type 1A PMP22 duplication",
+    "facioscapulohumeral dystrophy D4Z4 DUX4 contraction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Genetics of neurodegenerative and neurodevelopmental disorders",
+   "scope": "Genes and risk alleles in Alzheimer, Parkinson, ALS, frontotemporal dementia and prion disease, and in neurodevelopmental conditions such as intellectual disability, autism, Rett syndrome and monogenic epilepsies; repeat-expansion disorders are excluded.",
+   "queries": [
+    "APOE e4 allele Alzheimer risk PSEN1 APP",
+    "LRRK2 G2019S GBA Parkinson disease risk",
+    "Rett syndrome MECP2 mutation",
+    "Dravet syndrome SCN1A developmental epileptic encephalopathy genes"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Heritable connective tissue disorders and skeletal dysplasias",
+   "scope": "Marfan, Loeys-Dietz, the Ehlers-Danlos subtypes, osteogenesis imperfecta, achondroplasia and other FGFR3, collagen and osteochondrodysplasia disorders, with their genes, classification systems and diagnostic criteria.",
+   "queries": [
+    "Marfan syndrome FBN1 Ghent nosology",
+    "Ehlers-Danlos syndrome 2017 classification COL5A1",
+    "osteogenesis imperfecta COL1A1 Sillence types",
+    "achondroplasia FGFR3 G380R vosoritide"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "RASopathies and neurocutaneous syndromes",
+   "scope": "RAS/MAPK pathway disorders and phakomatoses, including Noonan, Costello, cardiofaciocutaneous and Legius syndromes, neurofibromatosis types 1 and 2, and tuberous sclerosis complex.",
+   "queries": [
+    "Noonan syndrome PTPN11 SOS1 RAF1",
+    "neurofibromatosis type 1 NF1 diagnostic criteria",
+    "tuberous sclerosis TSC1 TSC2 hamartin tuberin",
+    "Costello syndrome HRAS cardiofaciocutaneous BRAF"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cystic fibrosis, polycystic kidney disease and ciliopathies",
+   "scope": "CFTR genetics and modulator therapy, autosomal dominant and recessive polycystic kidney disease, Alport syndrome, and ciliopathies such as primary ciliary dyskinesia and the Bardet-Biedl, Joubert and Meckel syndromes.",
+   "queries": [
+    "CFTR F508del mutation classes ivacaftor",
+    "autosomal dominant polycystic kidney disease PKD1 PKD2",
+    "Bardet-Biedl syndrome BBS genes ciliopathy",
+    "primary ciliary dyskinesia DNAH5 DNAI1 Kartagener"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hereditary hearing loss and inherited eye disease",
+   "scope": "Genetics of nonsyndromic and syndromic deafness (GJB2/DFNB1, Usher, Pendred, Waardenburg) and of inherited eye disease, including retinitis pigmentosa, Leber congenital amaurosis, Stargardt disease and color vision defects.",
+   "queries": [
+    "GJB2 connexin 26 35delG nonsyndromic hearing loss",
+    "Usher syndrome MYO7A USH2A types",
+    "retinitis pigmentosa RHO P23H autosomal dominant",
+    "red-green color blindness OPN1LW OPN1MW"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Immunogenetics: HLA, inborn errors of immunity and blood groups",
+   "scope": "How the HLA/MHC region is organized and how its alleles are named, HLA disease associations and transplant matching, monogenic inborn errors of immunity (SCID, CGD, Wiskott-Aldrich, XLA), and the genetics of blood groups.",
+   "queries": [
+    "HLA allele nomenclature WHO committee fields",
+    "HLA-B27 ankylosing spondylitis HLA-DQ2 celiac disease",
+    "severe combined immunodeficiency IL2RG ADA JAK3",
+    "ABO blood group glycosyltransferase RHD gene deletion"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gene therapy, genome editing and nucleic acid therapeutics",
+   "scope": "Genetic therapies and how they developed: viral vectors, approved gene and cell therapies, antisense and siRNA drugs, CRISPR-Cas systems, base and prime editing, landmark trials and regulatory approvals.",
+   "queries": [
+    "AAV9 onasemnogene abeparvovec approval",
+    "exagamglogene autotemcel CRISPR BCL11A sickle cell",
+    "base editing prime editing cytosine adenine deaminase",
+    "nusinersen antisense oligonucleotide splice switching"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Variant interpretation, nomenclature and genetic databases",
+   "scope": "Clinical classification and description of sequence variants: ACMG/AMP criteria, HGVS and HGNC nomenclature, ClinVar, OMIM, gnomAD and other resources, in silico predictors, and the ACMG secondary findings gene lists.",
+   "queries": [
+    "ACMG AMP variant classification criteria PVS1 PM2",
+    "HGVS sequence variant nomenclature recommendations",
+    "ACMG secondary findings list v3 genes",
+    "gnomAD ClinVar population allele frequency database"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "DNA sequencing technologies and human reference genomes",
+   "scope": "Sanger, short-read, long-read and nanopore sequencing, clinical exome and genome sequencing, the Human Genome Project, the GRCh reference assemblies and the T2T-CHM13 complete genome.",
+   "queries": [
+    "Human Genome Project completion 2003 draft 2001",
+    "telomere-to-telomere CHM13 complete human genome",
+    "Illumina sequencing by synthesis bridge amplification",
+    "Oxford Nanopore PacBio HiFi long-read sequencing"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forensic DNA profiling and investigative genetic genealogy",
+   "scope": "Identity genetics: the history of DNA fingerprinting, CODIS core STR loci, Y-STR and mtDNA typing, kinship and paternity statistics, national DNA databases and investigative genetic genealogy.",
+   "queries": [
+    "CODIS 20 core STR loci",
+    "Alec Jeffreys DNA fingerprinting minisatellite 1984",
+    "paternity index combined probability of exclusion",
+    "forensic genetic genealogy Golden State Killer GEDmatch"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genetic counseling, ethics, law and policy",
+   "scope": "Genetic counseling practice and the ethical, legal and policy framework around genetics, including risk communication, predictive testing protocols, GINA and other anti-discrimination laws, gene patent cases, regulation of direct-to-consumer testing, and the history of eugenics.",
+   "queries": [
+    "Genetic Information Nondiscrimination Act 2008 provisions",
+    "Association for Molecular Pathology v Myriad Genetics patent",
+    "direct-to-consumer genetic testing FDA 23andMe authorization",
+    "Huntington disease predictive testing protocol counseling"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Developmental genetics of malformation syndromes and sex development",
+   "scope": "Genes behind congenital malformations through developmental signaling and transcription factors (SHH holoprosencephaly, HOX limb anomalies, Holt-Oram, CHARGE, Cornelia de Lange), and disorders of sex development involving SRY, SOX9, NR5A1 and the androgen receptor.",
+   "queries": [
+    "holoprosencephaly SHH ZIC2 SIX3",
+    "Holt-Oram syndrome TBX5 heart limb malformation",
+    "CHARGE syndrome CHD7 diagnostic criteria",
+    "disorders of sex development SRY SOX9 androgen insensitivity"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}

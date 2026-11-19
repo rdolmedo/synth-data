@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 24,
+ "leaves": [
+  {
+   "leaf": "Multiple-dosing pharmacokinetics in compartmental models",
+   "scope": "Problems ask for steady-state peak and trough levels, loading doses, dosing intervals or times to cross a therapeutic threshold under repeated IV bolus, infusion or oral dosing. They are hard because the solver has to superpose dose responses correctly, handle two-compartment or nonlinear (saturable) elimination, and keep micro- and macro-constants apart.",
+   "techniques": [
+    "superposition and the accumulation factor 1/(1 - e^{-k tau}) for repeated doses",
+    "Bateman function for first-order absorption, including flip-flop kinetics when ka < k",
+    "deriving biexponential macro-constants (alpha, beta) from intercompartmental micro-rate constants",
+    "Michaelis-Menten steady state Css = Km R / (Vmax - R) and the dose-dependent time to plateau",
+    "Laplace-transform solution of linear mammillary compartment systems",
+    "well-stirred hepatic clearance with fraction unbound and extraction ratio"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "decimal to stated precision",
+    "integer (doses or hours)",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Next-generation matrix thresholds for structured epidemics",
+   "scope": "Problems ask for R0, final epidemic size, critical vaccination coverage or type-reproduction numbers in multi-group, vector-borne, staged-infection or age-structured compartmental models. They are hard because the transmission and transition matrices must be split correctly, spectral radii found, and growth rates converted to reproduction numbers under realistic infectious-period distributions.",
+   "techniques": [
+    "F and V decomposition and the spectral radius of F V^{-1}",
+    "final-size relations solved implicitly or with the Lambert W function",
+    "type-reproduction number for control targeted at a single host or vector type",
+    "linear chain trick for gamma-distributed stages and the Euler-Lotka link between r and R0",
+    "optimal allocation of limited vaccine across groups to push the dominant eigenvalue below 1",
+    "square-root structure of R0 in host-vector cycles and its interpretation"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "decimal to stated precision",
+    "characteristic polynomial"
+   ]
+  },
+  {
+   "leaf": "Parsimony optimization of morphological characters",
+   "scope": "Problems give a small morphological character matrix or a set of candidate cladograms and ask for tree lengths, the number of equally parsimonious ancestral reconstructions, homoplasy indices, or counts of topologies that satisfy constraints. They are hard because ordered, unordered, irreversible and step-matrix characters behave differently and ambiguous optimizations have to be enumerated exactly.",
+   "techniques": [
+    "Fitch and Sankoff algorithms with asymmetric step matrices",
+    "counting rooted and unrooted binary topologies, (2n-3)!! and (2n-5)!!, under monophyly constraints",
+    "ACCTRAN versus DELTRAN resolution of ambiguous state changes",
+    "Dollo and Camin-Sokal irreversibility costs",
+    "consistency index, retention index and rescaled consistency index",
+    "Bremer decay support from suboptimal tree lengths"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "Newick tree",
+    "small set of taxa"
+   ]
+  },
+  {
+   "leaf": "Turing instability and morphogen gradient patterning",
+   "scope": "Problems analyze linearized reaction-diffusion systems or synthesis-diffusion-degradation gradients to find conditions for patterning, critical diffusion ratios, the number of stripes on a finite domain, or the positions of cell-fate boundaries. They are hard because linear stability analysis, boundary conditions, domain geometry and gradient noise all have to be handled together.",
+   "techniques": [
+    "Turing conditions on the reaction Jacobian and the critical diffusion ratio d_c",
+    "unstable wavenumber band and discrete mode selection cos(n pi x / L) under Neumann boundaries",
+    "exponential gradients C0 e^{-x/lambda} with lambda = sqrt(D/k) and threshold readout (French flag)",
+    "self-enhanced degradation giving power-law gradients and robustness to source changes",
+    "positional error sigma_x = sigma_C / |dC/dx| from concentration noise",
+    "scaling of boundary position with domain length under expansion-repression feedback"
+   ],
+   "answer_forms": [
+    "integer (mode or stripe number)",
+    "closed-form expression",
+    "decimal to stated precision"
+   ]
+  },
+  {
+   "leaf": "Chemostat and serial-transfer microbial growth kinetics",
+   "scope": "Problems ask for steady-state substrate and biomass levels, washout dilution rates, outcomes of competition, maintenance-corrected yields, or generation counts in chemostats, batch culture and serial-transfer experiments. They are hard because Monod and Droop kinetics, maintenance energy and multi-strain resource competition interact in ways that defeat simple intuition.",
+   "techniques": [
+    "Monod steady state S* = Ks D / (mu_max - D) and the critical washout dilution rate",
+    "R* rule for predicting the winner when strains compete for one limiting resource",
+    "Pirt maintenance relation 1/Y = 1/Y_G + m/mu",
+    "generations per serial transfer, log2 of the dilution factor, and the cumulative count",
+    "Droop cell-quota model for nutrient-storage-limited growth",
+    "most-probable-number and plating-dilution statistics for viable counts"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "decimal to stated precision",
+    "name of the winning strain",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Quasi-equivalent capsid and helical virion geometry",
+   "scope": "Problems ask for triangulation numbers, subunit counts, capsid handedness, helical symmetry parameters, or genome-packaging limits of icosahedral and helical viruses from partial structural data. They are hard because they require Caspar-Klug lattice arithmetic, pseudo-T tilings, and helical selection rules rather than simple recall.",
+   "techniques": [
+    "enumerating T = h^2 + hk + k^2 and distinguishing laevo and dextro skew classes",
+    "subunit bookkeeping: 60T subunits, 12 pentamers, 10(T-1) hexamers",
+    "pseudo-T (P = 3) capsids built from nonidentical subunits",
+    "helical parameters (rise, twist, units per turn) and the layer-line selection rule l = tn + um",
+    "Euler-characteristic constraints on closed capsid polyhedra",
+    "genome length from helical pitch, nucleotides per subunit and particle length"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (h,k)",
+    "small set of T-numbers",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Sex allocation and evolutionarily stable strategies",
+   "scope": "Problems ask for ESS sex ratios, mixed-strategy equilibria, invasion conditions or conditional allocation rules in models with local mate competition, class structure or frequency-dependent payoffs. They are hard because fitness has to be weighted correctly by reproductive value and relatedness, and the stability of a candidate ESS still has to be checked.",
+   "techniques": [
+    "Shaw-Mohler equation and marginal-value reasoning",
+    "local mate competition ESS (n-1)/2n and its corrections for haplodiploidy and inbreeding",
+    "Bishop-Cannings theorem and ESS conditions for mixed strategies in matrix games",
+    "reproductive-value weighting in class-structured populations",
+    "invasion fitness, convergence stability and evolutionary branching in adaptive dynamics",
+    "Trivers-Willard-type conditional allocation thresholds"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "small set of ESS strategies",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Phyllotactic lattice and parastichy geometry",
+   "scope": "Problems ask for visible parastichy pairs, divergence angles, jugacy, contact patterns or orthostichy approximations in spiral, multijugate and whorled leaf or floret arrangements on cylinders and discs. They are hard because they rest on cylindrical lattice geometry, continued fractions and the branching structure of the van Iterson diagram.",
+   "techniques": [
+    "continued-fraction expansion of the divergence angle, with convergents giving parastichy numbers",
+    "van Iterson diagram branches and transitions between contact parastichy pairs",
+    "Bravais-Bravais relation between opposed parastichies and divergence angle",
+    "Vogel-type capitulum model r = c sqrt(n), theta = n alpha",
+    "gcd of a parastichy pair as the jugacy (whorl multiplicity) of the system",
+    "orthostichy approximations from rational approximants of the divergence"
+   ],
+   "answer_forms": [
+    "ordered pair of integers",
+    "closed-form angle",
+    "integer",
+    "rational number"
+   ]
+  }
+ ]
+}

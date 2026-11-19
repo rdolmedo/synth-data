@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 41,
+ "leaves": [
+  {
+   "leaf": "Post-tonal pitch-class set and transformational analysis",
+   "scope": "Problems give a pitch-class collection, twelve-tone row or chord succession and ask for an exact derived invariant: a prime form, interval-class vector, Z-related partner, a count of row forms or set classes with a property, or the shortest transformational path between triads. They are hard because the work is modulo 12 under T/I equivalence, and normal-form or inversion errors are easy to make and hard to spot.",
+   "techniques": [
+    "Rahn vs. Forte prime-form algorithms and the set classes where the two differ",
+    "Counting set classes or symmetric collections with Burnside's lemma over the T/I dihedral group",
+    "Z-relation and Babbitt's hexachord theorem (complementary hexachords share interval-class content)",
+    "Neo-Riemannian P, L, R generating a dihedral group of order 24, and geodesics on the Tonnetz",
+    "Hexachordal combinatoriality and all-combinatorial source sets for row forms",
+    "Maximally even sets and Clough\u2013Douthett J-functions"
+   ],
+   "answer_forms": [
+    "ordered tuple (prime form)",
+    "integer",
+    "word in P, L, R",
+    "Forte set-class label"
+   ]
+  },
+  {
+   "leaf": "Change-ringing method and touch combinatorics",
+   "scope": "Problems define a ringing method on n bells by place notation, or describe a touch with bobs and singles, and ask for a derived property: the lead-head, plain-course length, whether the touch comes round, the row at a given change, or whether the composition is true. They are hard because they need exact permutation-group computation over many rows, and a single misplaced place changes everything after it.",
+   "techniques": [
+    "Expanding place notation into rows and composing lead-head permutations",
+    "Cycle structure of the lead-head and the number of leads in a plain course",
+    "Modelling bobs and singles as changed lead-end permutations and tracking course heads",
+    "Truth checking through false course heads and in-course/out-of-course parity",
+    "Building extents from cosets of the plain-course group, with coursing order and tenors-together positions"
+   ],
+   "answer_forms": [
+    "row as a permutation string",
+    "integer",
+    "call sequence string",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Liturgical calendar computus and cross-calendar conversion",
+   "scope": "Problems ask for a specific date, weekday or count fixed by the rules of religious calendars: Julian/Gregorian Easter, the Hebrew molad and postponement rules, tabular Islamic, Coptic/Ethiopian, or the Maya Calendar Round. They are hard because the answer comes from chained arithmetic in which one misapplied correction or postponement rule shifts the result.",
+   "techniques": [
+    "Golden number, epact, and the Gregorian solar and lunar equations",
+    "Hebrew molad arithmetic in halakim with the four dehiyyot, and classifying years as deficient, regular or complete",
+    "Julian Day Number as the pivot for converting between calendars",
+    "Maya Long Count to Tzolk'in/Haab' via simultaneous congruences under a stated correlation constant",
+    "Tabular Islamic 30-year intercalation schemes and their leap-year variants",
+    "Dominical letters, concurrents, and indiction cycles"
+   ],
+   "answer_forms": [
+    "calendar date",
+    "weekday name",
+    "integer",
+    "ordered tuple (Long Count)"
+   ]
+  },
+  {
+   "leaf": "Electoral formula seat allocation and STV transfers",
+   "scope": "Problems give party vote totals or ranked-ballot profiles and ask for the exact outcome under a specified electoral rule: seat distributions, STV elimination order and winners, or the minimal vote shift that flips a seat. They are hard because the answer depends on the quota, rounding, threshold and transfer-value conventions, and these interact in non-obvious ways.",
+   "techniques": [
+    "D'Hondt, Sainte-Lagu\u00eb and modified Sainte-Lagu\u00eb (first divisor 1.4), and Huntington\u2013Hill divisor tables",
+    "Hare and Droop largest-remainder allocation, with detection of the Alabama and population paradoxes",
+    "STV counting with Gregory, Weighted Inclusive Gregory or Meek transfer values, and exhausted ballots",
+    "Legal thresholds and compensatory mixed-member allocation with overhang and leveling seats",
+    "Pivotal-margin analysis for the minimal vote change that alters an allocation",
+    "Gallagher and Loosemore\u2013Hanby disproportionality indices"
+   ],
+   "answer_forms": [
+    "ordered tuple of seat counts",
+    "integer",
+    "set of elected candidates",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Structural analysis of small social networks",
+   "scope": "Problems describe a small directed, signed or valued network in prose or as a tie list and ask for an exact structural quantity: a centrality score or ranking, a triad-census entry, the line index of imbalance, equivalence classes, or brokerage role counts. They are hard because a careful hand computation must replace software, and the definitions differ in subtle ways across the literature.",
+   "techniques": [
+    "Cartwright\u2013Harary structural balance, Davis k-clusterability, and the minimal number of sign changes to reach balance",
+    "Holland\u2013Leinhardt 16-type triad census for directed graphs",
+    "Betweenness, closeness, eigenvector and Bonacich power centrality with a specified beta",
+    "Structural vs. regular equivalence and the resulting blockmodel image matrices",
+    "Gould\u2013Fernandez brokerage roles relative to a group partition",
+    "Burt's constraint and effective size of ego networks"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "small set of nodes",
+    "name of a triad type or role"
+   ]
+  },
+  {
+   "leaf": "Section and subsection kinship system algebra",
+   "scope": "Problems specify a prescriptive marriage-class system (Kariera-type sections, Aranda-type subsections, or an invented variant with explicit rules) and ask which class a given genealogical relative falls in, how many generations it takes to return to ego's class, whether a cousin type is marriageable, or the order of the group the rules generate. They are hard because the matrilineal and patrilineal descent rules must be turned into permutations and composed correctly along long kin-type strings.",
+   "techniques": [
+    "Encoding marriage and descent rules as permutations, following Harrison White's algebraic approach",
+    "Evaluating composite kin types (e.g. MMBDD) as products in the generated group",
+    "Cyclic vs. dihedral structure and the order of the group the rules generate",
+    "Separating patrimoieties, matrimoieties and alternating generation moieties within the classes",
+    "Matching Dravidian, Iroquois, Crow and Omaha cousin terminologies to class rules",
+    "Counting the distinct kin types that reach a given class within k genealogical links"
+   ],
+   "answer_forms": [
+    "name of a section or subsection",
+    "integer",
+    "kin-type string",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stratigraphic sequencing and archaeological seriation",
+   "scope": "Problems give excavation relationships (cuts, fills, abutments, equivalences), artifact-type incidence or frequency tables, or dated finds, and ask for an exact consequence: the number of admissible orderings, the unique valid seriation, contexts that must be contemporary, or the tightest date bounds. They are hard because they need rigorous partial-order and constraint reasoning, and residual or intrusive material can quietly break naive inferences.",
+   "techniques": [
+    "Building a Harris matrix, taking its transitive reduction, and counting linear extensions",
+    "Incidence seriation via the consecutive-ones property and PQ-trees",
+    "Frequency seriation through unimodality and Robinson-matrix recognition",
+    "Propagating terminus post quem and ante quem through a sequence, allowing for residual and intrusive finds",
+    "Allen interval relations for occupation phases and constraint satisfaction over them",
+    "Propagating date bounds through phase-boundary models in an idealized deterministic setting"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of contexts",
+    "year",
+    "small set of contexts"
+   ]
+  },
+  {
+   "leaf": "Perspective reconstruction in Renaissance pictorial space",
+   "scope": "Problems give measured features of a picture built in linear perspective (orthogonals, tiled pavements, transversals, columns, horizon) and ask for a hidden quantity: viewing distance, eye height, the true depth or size of a depicted object, or whether the construction follows Alberti's method or a bifocal workshop shortcut. They are hard because the solver must combine projective geometry with period construction conventions and units.",
+   "techniques": [
+    "Alberti's costruzione legittima and the distance-point construction",
+    "Recovering viewing distance from the vanishing points of tile diagonals",
+    "Cross-ratio invariance to infer depth intervals along orthogonals",
+    "Homography from a pavement square of known size to metric ground-plane coordinates",
+    "Detecting bifocal or inconsistent constructions from non-convergent diagonals",
+    "Converting between picture measurements and period units such as the braccio, given the figure-height scale"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

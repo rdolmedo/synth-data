@@ -1,0 +1,83 @@
+# K2-Horizon MoVA 36B-A4B (primitive-ai NVFP4) on one B200, BF16 KV, n-gram speculation, plus the
+# bitwise-verified cached-MoVA value-expert plugin (+~25% output tok/s).
+# Provenance: campaign 20261015T215325Z, branch generation/k2-horizon (cancelled at 9.59M tokens:
+# ~400-700 output tok/s per B200 at 132k context; KV holds only ~5 full contexts). Not re-validated
+# since; serve it again only with more GPUs (several replicas) or a smaller KV footprint.
+slug = "k2-horizon"
+model = "IFM/K2-Horizon-MoVA-36B-A4B"
+revision = "255326144500e3fa95fa480ae4e638ef1a4097d5"   # primitive-ai/K2-Horizon-MoVA-36B-A4B-NVFP4
+checkpoint = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/checkpoints/nvfp4"
+served_name = "k2-horizon"
+stage_checkpoint = true
+# The NVFP4 repo's tokenizer/template differ from the base release (truncation metadata, typed-text
+# drop); serve and count with the base revision e9ce717642b2074082875be233c02c729ba47960.
+tokenizer_dir = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/tokenizer"
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+# FlashInfer FP4 JIT needs nvcc 13.0.88 matching the CUDA 13.0 headers (campaign/cuda_toolkit.py).
+cuda_home = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/cache/cuda_home"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", HF_HUB_DISABLE_XET = "1", PYTHONPATH = "{repo}" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/python", "{repo}/synth/teachers/plugins/k2_vllm_entry.py", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--trust-remote-code", "--tensor-parallel-size", "1",
+  "--tokenizer", "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/tokenizer",
+  "--chat-template", "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/tokenizer/chat_template.jinja",
+  "--max-model-len", "{max_model_len}", "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--gpu-memory-utilization", "0.9", "--kv-cache-dtype", "auto", "--enable-prefix-caching",
+  "--enable-auto-tool-choice", "--tool-call-parser", "k2_horizon", "--reasoning-parser", "k2_horizon",
+  "--default-chat-template-kwargs", '{{"reasoning_effort":"high","tool_call_format":"xml"}}',
+  "--generation-config", "vllm", "--override-generation-config", '{{"temperature":1.0,"top_p":0.95}}',
+  "--seed", "{seed}", "--no-enable-log-requests", "--chat-template-content-format", "string",
+  "--speculative-config", '{{"method": "ngram_gpu", "num_speculative_tokens": 3, "prompt_lookup_min": 3, "prompt_lookup_max": 5}}',
+  "--hf-overrides", '{{"architectures":["K2HorizonCachedForCausalLM"]}}',
+]
+seed = 20261015
+startup_timeout_sec = 3600
+env = { K2_LAYOUT_PROOF = "layout-proof.json" }
+
+[serving.tunables]
+max_seqs = 64
+max_batched = 8192
+omp_threads = 1
+
+[request]
+client_model = "hosted_vllm/k2-horizon"
+pi_thinking = "high"
+pi_compat = { supportsDeveloperRole = false, supportsReasoningEffort = true }
+adapters = ["mirror_reasoning_content"]   # vLLM 0.32 reads history reasoning from `reasoning`
+overrides = { temperature = 1.0, top_p = 0.95, reasoning_effort = "high", chat_template_kwargs = { reasoning_effort = "high", tool_call_format = "xml" } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/tokenizer/tokenizer.json"
+chat_template = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/k2-horizon/tokenizer/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, reasoning_effort = "high", tool_call_format = "xml" }
+tokenize_crosscheck = "reasoning_field"
+
+[serving_resources]
+cpus_per_gpu = 16
+memory_gib_per_gpu = 192
+disk_gib = 220
+bid_per_job = { 1 = 61, 4 = 63 }
+exclude_nodes = ["cpu404", "cpu307", "cpu207", "gpu132"]
+
+[worker_resources]
+slots = 8
+cpus = 16
+memory_gib = 256
+disk_gib = 300
+bid = 36
+
+[admission]
+initial_limit_per_backend = 24
+maximum_limit_per_backend = 32
+emergency_kv_high = 0.90
+resume_kv = 0.70

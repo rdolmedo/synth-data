@@ -1,0 +1,679 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Geometry",
+ "weight": 0.0105,
+ "leaves": [
+  {
+   "leaf": "Euclid's Elements: books, propositions and textual tradition",
+   "scope": "The thirteen books of Euclid's Elements, their definitions, postulates, common notions and numbered propositions, plus the manuscript, translation and edition history (Proclus, Adelard, Campanus, Heiberg, Heath).",
+   "queries": [
+    "Euclid Elements book proposition postulate common notions",
+    "Heath translation Euclid Elements Heiberg edition",
+    "Proclus commentary first book Euclid",
+    "Euclid Elements Book X incommensurable magnitudes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek geometric treatises of Archimedes, Apollonius, Pappus and others",
+   "scope": "The geometric works of Hellenistic and late-antique Greek mathematicians (Archimedes, Apollonius, Pappus, Heron, Menelaus, Diocles, Hippocrates of Chios): what they contain, the results they prove and how they survived.",
+   "queries": [
+    "Apollonius Conics books surviving Arabic translation",
+    "Archimedes On the Sphere and Cylinder proposition",
+    "Pappus Collection book theorem Alexandria",
+    "Archimedes Palimpsest Method of Mechanical Theorems"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometry in Chinese, Indian, Islamic and Japanese traditions",
+   "scope": "Geometric texts and results from ancient China (Nine Chapters, Liu Hui, Zu Chongzhi), India (Sulba Sutras, Aryabhata, Brahmagupta), the medieval Islamic world (Thabit ibn Qurra, Khayyam, al-Tusi, al-Kashi) and Edo-period Japanese wasan and sangaku.",
+   "queries": [
+    "Liu Hui Nine Chapters commentary geometry",
+    "Sulba Sutras altar construction Baudhayana",
+    "Omar Khayyam geometric solution cubic equations conic",
+    "sangaku Japanese temple geometry tablets"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Axiomatic foundations of Euclidean and absolute geometry",
+   "scope": "Axiom systems for elementary geometry, including Hilbert's Grundlagen der Geometrie, Pasch's axiom, Tarski's and Birkhoff's axioms and the SMSG postulates, together with independence results and models.",
+   "queries": [
+    "Hilbert axioms Grundlagen der Geometrie incidence order congruence",
+    "Tarski axioms elementary Euclidean geometry",
+    "Birkhoff postulates ruler protractor axiom",
+    "Pasch axiom ordered geometry betweenness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Parallel postulate history and hyperbolic plane geometry",
+   "scope": "Attempts to prove the parallel postulate (Saccheri, Lambert, Legendre), the discovery of non-Euclidean geometry (Gauss, Bolyai, Lobachevsky, Beltrami), and the hyperbolic plane's models, triangles, horocycles and tessellations.",
+   "queries": [
+    "Saccheri quadrilateral Lambert quadrilateral parallel postulate",
+    "Bolyai Lobachevsky non-Euclidean geometry discovery",
+    "Poincaré disk model half-plane hyperbolic geometry",
+    "hyperbolic triangle angle defect area horocycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spherical geometry and spherical trigonometry",
+   "scope": "Geometry on the sphere and the elliptic plane: spherical and polar triangles, spherical excess, and the laws and rules of spherical trigonometry (Napier's rules, Girard's and l'Huilier's theorems, haversines) with their history.",
+   "queries": [
+    "spherical trigonometry law of cosines Napier rules",
+    "spherical excess Girard theorem l'Huilier",
+    "haversine formula great circle distance",
+    "spherical triangle polar triangle angles sides"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Triangle centers, central lines and the Encyclopedia of Triangle Centers",
+   "scope": "Named triangle centers, central lines and associated circles (incenter, Fermat, Gergonne, Nagel and symmedian points, Euler line, nine-point circle), with their ETC indices and trilinear and barycentric coordinates.",
+   "queries": [
+    "Encyclopedia of Triangle Centers Kimberling X(n)",
+    "symmedian point Lemoine Gergonne Nagel point",
+    "nine-point circle Feuerbach point Euler line",
+    "triangle center trilinear coordinates barycentric"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Named theorems on triangles, quadrilaterals and polygons",
+   "scope": "Named theorems of elementary Euclidean geometry such as Ceva, Menelaus, Stewart, Routh, Morley, Napoleon, van Aubel, Ptolemy, Varignon, Brahmagupta and the Japanese theorem, with their statements and attributions.",
+   "queries": [
+    "Ceva theorem Menelaus theorem transversal cevians",
+    "Morley trisector theorem equilateral triangle",
+    "Ptolemy theorem cyclic quadrilateral diagonals",
+    "Routh theorem area ratio Stewart theorem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tangent circle configurations and circle inversion",
+   "scope": "Plane problems about tangent circles and the inversion technique, including Apollonius' problem, Descartes' circle theorem, Soddy and Malfatti circles, Steiner chains, the Pappus chain, the arbelos and Apollonian gaskets.",
+   "queries": [
+    "problem of Apollonius tangent circles solutions",
+    "Descartes circle theorem curvatures Soddy circles",
+    "Steiner chain Steiner porism circle inversion",
+    "arbelos Archimedes twin circles Pappus chain"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Conic sections and quadric surfaces",
+   "scope": "Properties of conics and quadrics (foci, directrices, eccentricity, latus rectum, Dandelin spheres, Pascal's and Brianchon's theorems, confocal families) and the classification of quadric surfaces.",
+   "queries": [
+    "conic section eccentricity directrix latus rectum",
+    "Dandelin spheres ellipse focus proof",
+    "quadric surface hyperboloid one sheet ruled",
+    "Pascal hexagon theorem Brianchon conic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical named plane curves and spirals",
+   "scope": "Named algebraic and transcendental plane curves (cycloid, cardioid, limaçon, lemniscate, astroid, deltoid, cissoid, conchoid, witch of Agnesi, tractrix) and spirals (Archimedean, logarithmic, Euler), with their equations, properties and discoverers.",
+   "queries": [
+    "cissoid of Diocles conchoid of Nicomedes",
+    "lemniscate of Bernoulli cardioid limaçon equation",
+    "cycloid tautochrone brachistochrone arc length",
+    "logarithmic spiral Archimedean spiral Euler spiral"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Compass-and-straightedge constructions and constructible polygons",
+   "scope": "What compass and straightedge can and cannot construct: the three classical problems, the Gauss–Wantzel theorem and constructible regular polygons, the Mohr–Mascheroni and Poncelet–Steiner theorems, and neusis or marked-ruler constructions.",
+   "queries": [
+    "constructible polygon Gauss Wantzel Fermat primes",
+    "heptadecagon construction 257-gon 65537-gon",
+    "Mohr Mascheroni theorem compass only construction",
+    "angle trisection neusis construction impossibility"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mathematics of origami and paper folding",
+   "scope": "The geometry of folding: the Huzita–Hatori axioms, origami solutions of cubic problems, Maekawa's and Kawasaki's theorems, flat-foldability complexity, the fold-and-cut theorem, rigid origami and patterns such as the Miura fold.",
+   "queries": [
+    "Huzita Hatori axioms origami construction",
+    "Maekawa theorem Kawasaki theorem flat folding",
+    "Miura fold rigid origami crease pattern",
+    "fold and cut theorem flat foldability NP-complete"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Area and volume formulas in mensuration",
+   "scope": "Classical formulas for areas and volumes (Heron, Brahmagupta, Bretschneider, Pick, the shoelace formula, Cavalieri's principle, prismatoid and frustum formulas, Cayley–Menger determinants, n-ball volumes) and their origins.",
+   "queries": [
+    "Heron formula Brahmagupta formula cyclic quadrilateral area",
+    "Pick theorem lattice polygon area",
+    "prismatoid formula frustum volume Cavalieri principle",
+    "volume of n-ball unit sphere dimension"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometric inequalities and extremal shape problems",
+   "scope": "Inequalities between geometric quantities (the isoperimetric inequality, Euler's R ≥ 2r, Erdős–Mordell, Weitzenböck, Hadwiger–Finsler, Ptolemy's inequality) and extremal shape problems such as Dido's problem, the moving sofa and Lebesgue's universal cover.",
+   "queries": [
+    "isoperimetric inequality Dido problem proof",
+    "Erdős Mordell inequality Euler inequality circumradius inradius",
+    "Weitzenböck inequality Hadwiger Finsler triangle",
+    "moving sofa problem Gerver constant"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dissections, equidecomposability and Hilbert's third problem",
+   "scope": "Cutting figures into pieces and reassembling them: the Wallace–Bolyai–Gerwien theorem, Hilbert's third problem and the Dehn invariant, Dudeney's dissections, squaring the square, Tarski's circle-squaring problem and the Banach–Tarski paradox.",
+   "queries": [
+    "Hilbert third problem Dehn invariant",
+    "Wallace Bolyai Gerwien theorem polygon dissection",
+    "squaring the square perfect squared square Duijvestijn",
+    "Tarski circle squaring Laczkovich Banach Tarski"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Projective geometry: cross-ratio, duality and incidence theorems",
+   "scope": "Real and complex projective geometry, covering homogeneous coordinates, cross-ratio, harmonic conjugates, duality, Desargues' and Pappus' theorems and collineations, and the subject's history from Desargues and Poncelet to von Staudt.",
+   "queries": [
+    "Desargues theorem perspective triangles projective plane",
+    "cross-ratio harmonic conjugate projective invariant",
+    "Pappus hexagon theorem projective duality",
+    "Poncelet Traité propriétés projectives von Staudt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Finite geometries and finite projective planes",
+   "scope": "Finite incidence structures: finite projective and affine planes, the Fano plane, the Bruck–Ryser theorem, the nonexistence of a plane of order 10, non-Desarguesian planes, generalized polygons and the spaces PG(n,q).",
+   "queries": [
+    "finite projective plane order Bruck Ryser theorem",
+    "Fano plane seven points lines",
+    "projective plane order 10 nonexistence computer search",
+    "generalized quadrangle non-Desarguesian plane Hughes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transformation groups, isometries and Klein's Erlangen program",
+   "scope": "Groups of geometric transformations (Euclidean isometries and their classification, similarities, affine maps, Möbius transformations), Euler's rotation theorem, Chasles' theorem, the Cartan–Dieudonné theorem and Klein's Erlangen program.",
+   "queries": [
+    "Erlangen program Klein 1872 geometry group",
+    "Euler rotation theorem Chasles theorem screw displacement",
+    "Möbius transformation classification loxodromic parabolic elliptic",
+    "Cartan Dieudonné theorem reflections isometry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical differential geometry of curves and surfaces",
+   "scope": "Curves and surfaces in Euclidean space: curvature and torsion, the Frenet–Serret formulas, first and second fundamental forms, Gaussian and mean curvature, the Theorema Egregium, the Gauss–Bonnet theorem, geodesics, and ruled and developable surfaces.",
+   "queries": [
+    "Frenet Serret formulas curvature torsion",
+    "Theorema Egregium Gaussian curvature first fundamental form",
+    "Gauss Bonnet theorem geodesic curvature Euler characteristic",
+    "developable surface ruled surface principal curvatures"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Minimal surfaces and Plateau's problem",
+   "scope": "Minimal and constant-mean-curvature surfaces, including Plateau's problem, the Weierstrass–Enneper representation, the catenoid, helicoid and the Scherk, Enneper, Costa and Schwarz surfaces, triply periodic minimal surfaces and soap-film experiments.",
+   "queries": [
+    "Costa minimal surface Hoffman Meeks embedded",
+    "Plateau problem Douglas Radó solution",
+    "Schwarz triply periodic minimal surface gyroid",
+    "Weierstrass Enneper parameterization catenoid helicoid"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Riemannian geometry: curvature and comparison theorems",
+   "scope": "Riemannian manifolds: the Levi-Civita connection, Riemann, Ricci and sectional curvature, Jacobi fields, comparison and rigidity theorems (Bonnet–Myers, Cartan–Hadamard, Toponogov, sphere theorems) and the Nash embedding theorems.",
+   "queries": [
+    "Riemann curvature tensor Ricci sectional curvature",
+    "Bonnet Myers theorem Cartan Hadamard theorem",
+    "differentiable sphere theorem Brendle Schoen pinching",
+    "Nash embedding theorem isometric Riemannian manifold"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometrization of 3-manifolds and hyperbolic 3-manifolds",
+   "scope": "Geometric structures on low-dimensional manifolds: Thurston's eight model geometries, the geometrization and Poincaré conjectures, Hamilton's Ricci flow and Perelman's proof, hyperbolic 3-manifold volumes and Mostow rigidity.",
+   "queries": [
+    "Thurston eight model geometries geometrization conjecture",
+    "Perelman Ricci flow surgery Poincaré conjecture",
+    "hyperbolic volume figure-eight knot complement Weeks manifold",
+    "Mostow rigidity theorem hyperbolic manifolds"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Symplectic, contact and Kähler geometry",
+   "scope": "Geometries defined by closed forms and complex structures: symplectic manifolds, Darboux's theorem, Gromov's non-squeezing theorem, the Arnold conjecture, contact structures, Kähler and Calabi–Yau manifolds and the Calabi conjecture.",
+   "queries": [
+    "Gromov non-squeezing theorem symplectic capacity",
+    "Darboux theorem symplectic form contact structure",
+    "Calabi conjecture Yau Kähler Ricci-flat metric",
+    "Arnold conjecture Floer homology fixed points"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical algebraic curves and surfaces",
+   "scope": "Classical algebraic geometry of plane curves and surfaces: degree, genus and the Plücker formulas, Bézout's theorem, singularities, Riemann–Roch, cubic surfaces and their 27 lines, Kummer and K3 surfaces, and the Enriques–Kodaira classification.",
+   "queries": [
+    "Plücker formulas algebraic curve genus degree",
+    "Clebsch cubic surface 27 lines Cayley Salmon",
+    "Enriques Kodaira classification K3 surface",
+    "Kummer surface 16 nodes quartic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Enumerative geometry and Schubert calculus",
+   "scope": "Counting geometric configurations: Schubert calculus on Grassmannians, Steiner's conic problem and its 3264 answer, lines and rational curves on the quintic threefold via mirror symmetry, Gromov–Witten invariants and Kontsevich's formula.",
+   "queries": [
+    "Steiner conic problem 3264 conics tangent",
+    "Schubert calculus Grassmannian intersection numbers",
+    "rational curves quintic threefold 2875 lines mirror symmetry",
+    "Kontsevich formula rational plane curves Gromov Witten"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convex geometry and bodies of constant width",
+   "scope": "Convex sets and bodies: the Helly, Radon and Carathéodory theorems, the Brunn–Minkowski inequality, mixed volumes, the John ellipsoid, the Mahler and Blaschke–Santaló problems, Reuleaux and Meissner bodies of constant width, and Minkowski's geometry of numbers.",
+   "queries": [
+    "Helly theorem Radon theorem Carathéodory convex sets",
+    "Brunn Minkowski inequality mixed volumes",
+    "Reuleaux triangle Meissner bodies constant width",
+    "Mahler conjecture Blaschke Santaló inequality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Combinatorial geometry of points, lines and distances",
+   "scope": "Combinatorial problems about point sets, such as the Sylvester–Gallai theorem, the Erdős–Szekeres happy ending problem, unit and distinct distances, the Hadwiger–Nelson chromatic number of the plane, Borsuk's conjecture and the no-three-in-line problem.",
+   "queries": [
+    "Sylvester Gallai theorem ordinary line",
+    "happy ending problem Erdős Szekeres convex polygon points",
+    "Hadwiger Nelson problem chromatic number plane",
+    "Borsuk conjecture counterexample dimension Kahn Kalai"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sphere packing, kissing numbers and lattices",
+   "scope": "Packings and coverings by spheres and circles: the Kepler conjecture and Hales' proof, kissing numbers, optimal packings in dimensions 8 and 24 (E8, the Leech lattice, Viazovska), circle packing in a square and covering densities.",
+   "queries": [
+    "Kepler conjecture Hales proof Flyspeck",
+    "kissing number problem dimensions bounds",
+    "E8 lattice Leech lattice sphere packing Viazovska",
+    "circle packing in a square optimal radius"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plane tilings and aperiodic tilings",
+   "scope": "Tessellations of the plane: regular, Archimedean and Laves tilings, the types of convex pentagon that tile, Penrose and other aperiodic tilings, the hat and spectre monotiles, Wang tiles and Heesch numbers.",
+   "queries": [
+    "convex pentagon tiling fifteen types Rao",
+    "Penrose tiling kite dart rhombus",
+    "aperiodic monotile hat spectre einstein tile",
+    "Wang tiles aperiodic set Berger Jeandel Rao"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Frieze, wallpaper, space and Coxeter symmetry groups",
+   "scope": "Discrete symmetry groups: the frieze and wallpaper groups with their IUC and orbifold notations, the crystallographic point groups and 230 space groups, Schoenflies and Hermann–Mauguin symbols, and Coxeter reflection groups.",
+   "queries": [
+    "wallpaper group seventeen orbifold notation Conway",
+    "frieze group seven types notation",
+    "230 space groups Fedorov Schoenflies crystallographic",
+    "Coxeter group Coxeter Dynkin diagram reflection"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convex polyhedra families: Platonic, Archimedean, Catalan and Johnson solids",
+   "scope": "Named families of convex polyhedra (Platonic and Archimedean solids, Catalan duals, the 92 Johnson solids, prisms and antiprisms, convex deltahedra, Goldberg polyhedra) with their vertex configurations, counts and metric properties.",
+   "queries": [
+    "Johnson solids 92 Zalgaller list",
+    "Archimedean solid vertex configuration truncated icosahedron",
+    "Catalan solid dual rhombic triacontahedron",
+    "convex deltahedra eight Freudenthal van der Waerden"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Star polyhedra, uniform polyhedra, stellations and compounds",
+   "scope": "Nonconvex polyhedra: the Kepler–Poinsot solids, the 75 uniform polyhedra and Skilling's figure, Wythoff symbols, the stellations of the icosahedron (The Fifty-Nine Icosahedra) and polyhedral compounds.",
+   "queries": [
+    "Kepler Poinsot polyhedra great stellated dodecahedron",
+    "uniform polyhedron Wythoff symbol Skilling",
+    "fifty-nine icosahedra stellation Coxeter",
+    "compound of five tetrahedra polyhedral compound"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Regular and uniform polytopes in four and higher dimensions",
+   "scope": "Polytopes beyond three dimensions: Schläfli symbols, the six convex regular 4-polytopes (including the 24-cell, 120-cell and 600-cell), the Schläfli–Hess star 4-polytopes, uniform 4-polytopes, and Gosset's and other semiregular polytopes.",
+   "queries": [
+    "regular 4-polytope 120-cell 600-cell Schläfli",
+    "24-cell tesseract cells faces vertices",
+    "Schläfli Hess polychora star 4-polytopes",
+    "Gosset semiregular polytope E8 421"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polyhedral combinatorics and face numbers of polytopes",
+   "scope": "The combinatorial structure of convex polytopes: Euler's polyhedron formula and its history, Steinitz's theorem, f-vectors, the Dehn–Sommerville relations, the upper bound theorem and g-theorem, the Hirsch conjecture and Eberhard's theorem.",
+   "queries": [
+    "Steinitz theorem polyhedral graph 3-connected planar",
+    "Hirsch conjecture counterexample Santos",
+    "upper bound theorem McMullen g-theorem",
+    "Euler polyhedron formula history Descartes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rigidity of frameworks and flexible polyhedra",
+   "scope": "Rigidity and flexibility of bar frameworks and polyhedra: Cauchy's rigidity theorem, Bricard octahedra, Connelly's and Steffen's flexible polyhedra, the bellows conjecture, Laman's theorem and tensegrity structures.",
+   "queries": [
+    "Cauchy rigidity theorem convex polyhedra",
+    "flexible polyhedron Steffen Connelly Bricard octahedron",
+    "bellows conjecture Sabitov volume flexible",
+    "Laman theorem graph rigidity framework"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Computational geometry algorithms and data structures",
+   "scope": "Algorithms for geometric problems (convex hulls, Voronoi diagrams and Delaunay triangulations, polygon triangulation, art gallery theorems, point location, segment-intersection sweeps), with their inventors, dates and complexity bounds.",
+   "queries": [
+    "convex hull algorithm Graham scan Chan complexity",
+    "Delaunay triangulation Voronoi diagram Fortune algorithm",
+    "art gallery theorem Chvátal guards Fisk",
+    "Bentley Ottmann line segment intersection sweep"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fractal geometry and fractal dimensions",
+   "scope": "Self-similar and fractal sets and how their dimension is measured: Hausdorff, box-counting and similarity dimensions, the Koch snowflake, Sierpinski gasket and carpet, Menger sponge, Cantor sets, Mandelbrot and Julia sets, and iterated function systems.",
+   "queries": [
+    "Hausdorff dimension Koch snowflake Sierpinski triangle",
+    "Menger sponge Sierpinski carpet dimension",
+    "Mandelbrot set boundary Hausdorff dimension Shishikura",
+    "iterated function system Barnsley fern"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Integral geometry, geometric probability and Kakeya sets",
+   "scope": "Integral geometry and geometric probability: Buffon's needle, the Crofton and Cauchy formulas, Hadwiger's theorem and intrinsic volumes, Bertrand's paradox, Sylvester's four-point problem, and the Kakeya needle problem and Besicovitch sets.",
+   "queries": [
+    "Buffon needle problem probability pi",
+    "Crofton formula Cauchy formula integral geometry",
+    "Kakeya needle problem Besicovitch set dimension",
+    "Sylvester four point problem Bertrand paradox chord"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Descriptive geometry, axonometric and perspective projection",
+   "scope": "Graphical projection methods: Monge's descriptive geometry, first- and third-angle orthographic projection, axonometric (isometric, dimetric, trimetric) and oblique (cavalier, cabinet) projections, linear perspective and vanishing points, Pohlke's theorem and anamorphosis.",
+   "queries": [
+    "Monge descriptive geometry orthographic projection",
+    "isometric projection dimetric trimetric axonometric angles",
+    "cavalier cabinet oblique projection",
+    "perspective vanishing points Brunelleschi Alberti"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analytic geometry origins and orthogonal coordinate systems",
+   "scope": "The Cartesian and Fermatian origins of coordinate geometry, and the named curvilinear coordinate systems (polar, bipolar, elliptic, parabolic, spheroidal, toroidal, bispherical) with their definitions, scale factors and separability properties.",
+   "queries": [
+    "Descartes La Géométrie 1637 Discourse on Method appendix",
+    "bipolar coordinates foci scale factors",
+    "prolate oblate spheroidal coordinates Laplace equation separable",
+    "toroidal bispherical coordinates orthogonal coordinate system Lamé coefficients"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Computer-aided geometric design: Bézier, B-spline and NURBS curves and surfaces",
+   "scope": "The geometry of parametric curves and surfaces used in CAD, covering Bernstein bases, de Casteljau and de Boor algorithms, knot vectors, rational weights, Coons patches and subdivision schemes, and their industrial history.",
+   "queries": [
+    "Bézier curve de Casteljau algorithm Bernstein polynomials",
+    "Pierre Bézier Renault UNISURF Paul de Casteljau Citroën",
+    "NURBS non-uniform rational B-spline knot vector weights",
+    "Coons patch Catmull-Clark Doo-Sabin subdivision surface"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometry of numbers, lattice-point counting and Ehrhart theory",
+   "scope": "Minkowski's theorems on convex bodies and lattices, successive minima, Pick's theorem, Ehrhart polynomials of lattice polytopes, and lattice-point counting problems such as the Gauss circle problem.",
+   "queries": [
+    "Minkowski convex body theorem lattice volume successive minima",
+    "Pick's theorem lattice polygon interior boundary points",
+    "Ehrhart polynomial lattice polytope Reeve tetrahedron",
+    "Gauss circle problem lattice points error exponent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mechanical linkages and kinematic curve-tracing geometry",
+   "scope": "Planar and spatial linkages that trace exact or approximate straight lines and other curves (Watt, Chebyshev, Peaucellier–Lipkin, Hart, Sarrus, Bennett), plus Kempe's universality theorem and four-bar coupler-curve geometry.",
+   "queries": [
+    "Peaucellier Lipkin linkage exact straight line motion",
+    "Watt linkage Chebyshev lambda approximate straight line",
+    "Kempe universality theorem linkage algebraic curve",
+    "Hart inversor Sarrus linkage Bennett mechanism four-bar coupler curve"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Line geometry, Plücker coordinates and ruled surfaces",
+   "scope": "The geometry of lines in three-space treated as primary elements: Plücker coordinates, the Klein quadric, line complexes and congruences, reguli, and ruled and developable surfaces with their striction lines and named examples such as conoids.",
+   "queries": [
+    "Plücker coordinates lines projective three-space Klein quadric",
+    "line complex congruence Plücker Neue Geometrie des Raumes",
+    "ruled surface doubly ruled hyperboloid regulus",
+    "developable surface striction line Plücker conoid Whitney umbrella"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Riemann surfaces, Teichmüller theory and moduli of curves",
+   "scope": "The geometry of deformation spaces of Riemann surfaces, covering quasiconformal maps, Teichmüller and Weil–Petersson metrics, Fenchel–Nielsen coordinates, mapping class groups and Dehn twists, and Deligne–Mumford compactified moduli spaces.",
+   "queries": [
+    "Teichmüller space quasiconformal mappings Riemann surface genus",
+    "mapping class group Dehn twist Lickorish generators",
+    "moduli space of curves Deligne Mumford compactification dimension",
+    "Fenchel Nielsen coordinates pants decomposition Weil Petersson metric"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Taxicab, Minkowski-normed, Finsler and Hilbert metric geometries",
+   "scope": "Geometries built on non-Euclidean distance functions: taxicab and chessboard metrics, normed Minkowski planes and their unit balls, Finsler manifolds (Randers and Funk metrics), Hilbert's projective metric on convex domains, and Busemann's G-spaces.",
+   "queries": [
+    "taxicab geometry L1 metric circle Krause",
+    "Finsler manifold Randers metric Funk metric",
+    "Hilbert metric convex domain cross ratio projective",
+    "Minkowski plane normed space unit ball Busemann G-space"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polyominoes, polyforms and their enumeration and packing puzzles",
+   "scope": "Polyominoes, polyiamonds, polyhexes, polycubes and related polyforms: their fixed, free and one-sided enumeration counts, the solution counts of classic packing puzzles (pentomino rectangles, Soma cube, Conway puzzle), and their history.",
+   "queries": [
+    "pentomino twelve free pentominoes 6x10 rectangle solutions",
+    "polyomino enumeration fixed free one-sided counts",
+    "polyiamond polyhex polyabolo polycube enumeration",
+    "Soma cube Piet Hein solutions Conway puzzle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

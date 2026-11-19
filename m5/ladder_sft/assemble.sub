@@ -1,0 +1,21 @@
+# M5 ladder SFT datasets: the nested budgets (assemble_all.sh), one job. Macros: BUDGETS (space-separated name=budget),
+# EXCLUDE (optional, "--exclude=FILE": decontamination exclusions, mixture v2 11-17).
+BUDGETS = m5l-1p0b=1e9 m5l-3p0b=3e9 m5l-9p0b=9e9 m5l-full=full
+EXCLUDE =
+universe = vanilla
+executable = /bin/bash
+arguments = "/data/aai/m5/ladder/sft/assemble_all.sh $(EXCLUDE) $(BUDGETS)"
+request_cpus = 4
+# 11-15: peak 49 GB (m5l-full); was 360 GB (billed 22.5 units for 4 CPUs). 11-17: m5l2-full after 4 budgets in one job hit 65 GB (held at 64): build full alone at 96
+request_memory = 64 * 1024
+# assemble.py stages each dataset here (m5l-full ~28 GB) before dd to /data
+request_disk = 64G
++BypassLXCfs = "true"
++JobBatchName = "m5l-sft-assemble"
+getenv = false
+environment = "HOME=/home/user USER=user PATH=/usr/local/bin:/usr/bin:/bin"
+output = /data/aai/m5/ladder/sft/jobs/assemble.$(Cluster).out
+error = /data/aai/m5/ladder/sft/jobs/assemble.$(Cluster).err
+log = /data/aai/m5/ladder/sft/jobs/assemble.condor.log
+requirements = (TARGET.UtsnameNodename != "gpu132") && (TARGET.UtsnameNodename != "gpu110") && (TARGET.UtsnameNodename != "gpu143") && (TARGET.UtsnameNodename != "gpu123") && (TARGET.UtsnameNodename != "gpu166")
+queue

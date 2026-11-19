@@ -1,0 +1,568 @@
+{
+ "domain": "Law",
+ "subtopic": "US Administrative Law",
+ "weight": 0.009089999999999999,
+ "leaves": [
+  {
+   "leaf": "Nondelegation doctrine and the intelligible principle test",
+   "scope": "Constitutional limits on Congress's delegation of legislative power to agencies, from Field v. Clark and J.W. Hampton through Panama Refining, Schechter Poultry, Whitman v. American Trucking, Gundy v. United States and FCC v. Consumers' Research.",
+   "queries": [
+    "intelligible principle nondelegation doctrine legislative power",
+    "Schechter Poultry Panama Refining codes fair competition",
+    "Gundy SORNA delegation Attorney General nondelegation",
+    "Whitman American Trucking delegation ambient air quality standards"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Private nondelegation and delegation to private entities",
+   "scope": "Limits on giving governmental power to private bodies, including Carter v. Carter Coal, Currin v. Wallace, Sunshine Anthracite, Department of Transportation v. Association of American Railroads (Amtrak metrics), the Horseracing Integrity and Safety Authority litigation and challenges to the Universal Service Administrative Company.",
+   "queries": [
+    "private nondelegation doctrine Carter Coal private entity",
+    "Amtrak metrics standards Association of American Railroads delegation",
+    "Horseracing Integrity Safety Authority private nondelegation FTC",
+    "Universal Service Administrative Company contribution factor delegation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Major questions doctrine",
+   "scope": "The requirement of clear congressional authorization for agency action of vast economic and political significance, as developed in FDA v. Brown & Williamson, UARG v. EPA, King v. Burwell, Alabama Association of Realtors, NFIB v. OSHA, West Virginia v. EPA and Biden v. Nebraska.",
+   "queries": [
+    "major questions doctrine vast economic political significance",
+    "West Virginia EPA generation shifting Clean Power Plan",
+    "Biden Nebraska HEROES Act student loan cancellation",
+    "NFIB OSHA vaccine testing emergency temporary standard"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chevron, Skidmore and Mead deference and the Loper Bright overruling",
+   "scope": "Judicial deference to agency interpretations of statutes, from Skidmore weight and Chevron's two-step framework through Mead's step zero, Brand X, City of Arlington, and the 2024 overruling of Chevron in Loper Bright Enterprises v. Raimondo.",
+   "queries": [
+    "Chevron step two permissible construction ambiguous statute",
+    "Loper Bright Raimondo overruled Chevron Magnuson-Stevens monitors",
+    "Mead step zero tariff classification ruling Skidmore",
+    "National Cable Brand X agency construction prior judicial"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seminole Rock, Auer and Kisor deference to agency readings of their own regulations",
+   "scope": "Deference to agencies' interpretations of their own regulations under Bowles v. Seminole Rock and Auer v. Robbins, and its limits in Christopher v. SmithKline Beecham, Gonzales v. Oregon's anti-parroting canon, Decker v. NEDC and Kisor v. Wilkie.",
+   "queries": [
+    "Auer deference agency interpretation own regulation plainly erroneous",
+    "Kisor Wilkie genuinely ambiguous regulation deference",
+    "Seminole Rock Bowles controlling weight regulation",
+    "anti-parroting canon Gonzales Oregon regulation restates statute"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Notice-and-comment rulemaking procedure under APA section 553",
+   "scope": "Informal rulemaking requirements under 5 U.S.C. §553: adequate notice and the logical-outgrowth test, disclosure of technical data (Portland Cement, Nova Scotia Food Products), the concise general statement of basis and purpose, responses to significant comments, and Vermont Yankee's bar on procedures invented by courts.",
+   "queries": [
+    "logical outgrowth notice proposed rulemaking final rule",
+    "concise general statement basis purpose significant comments",
+    "Vermont Yankee additional procedures rulemaking Natural Resources Defense",
+    "Portland Cement technical data disclosure notice comment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Interpretive rules, policy statements and guidance documents",
+   "scope": "How courts tell legislative rules apart from interpretive rules, general statements of policy and guidance, including the binding-norm and legal-effect tests (Pacific Gas & Electric v. FPC, American Mining Congress v. MSHA, Appalachian Power v. EPA) and Perez v. Mortgage Bankers' rejection of the Paralyzed Veterans doctrine.",
+   "queries": [
+    "interpretive rule legal effect American Mining Congress",
+    "policy statement binding norm Pacific Gas Electric",
+    "Perez Mortgage Bankers Paralyzed Veterans doctrine interpretive",
+    "guidance document binds agency Appalachian Power EPA"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Good-cause and categorical exemptions from notice and comment",
+   "scope": "Statutory exceptions to §553's comment and 30-day effective-date requirements: good cause ('impracticable, unnecessary, or contrary to the public interest'), interim final and direct final rules, procedural rules (Batterton, JEM Broadcasting), and the military, foreign affairs, proprietary, grant and benefit exemptions.",
+   "queries": [
+    "good cause impracticable unnecessary contrary public interest rule",
+    "interim final rule good cause exception post-promulgation comments",
+    "rules of agency organization procedure practice exemption",
+    "foreign affairs function exemption notice comment rulemaking"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Formal rulemaking and formal adjudication under APA sections 554-557",
+   "scope": "Trial-type APA proceedings 'on the record after opportunity for an agency hearing,' covering what triggers them (Florida East Coast Railway, Allegheny-Ludlum, Seacoast Anti-Pollution League, Dominion Energy v. Johnson), burden of proof under §556(d) (Steadman, Greenwich Collieries), official notice, separation of functions, initial decisions, and informal adjudication under §555 (PBGC v. LTV).",
+   "queries": [
+    "on the record after opportunity agency hearing formal",
+    "Florida East Coast Railway formal rulemaking per diem",
+    "Greenwich Collieries burden of proof section 556(d)",
+    "official notice administrative law judge initial decision"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Ex parte communications, bias and prejudgment in agency decisionmaking",
+   "scope": "Impartiality requirements for agency decisionmakers, including the §557(d) ex parte ban (PATCO v. FLRA), ex parte contacts in rulemaking (Home Box Office v. FCC, Sierra Club v. Costle), combined investigative and adjudicative functions (Withrow v. Larkin), financial-interest bias (Gibson v. Berryhill), and prejudgment (Cinderella Career College, Association of National Advertisers v. FTC).",
+   "queries": [
+    "ex parte communications rulemaking Home Box Office FCC",
+    "Professional Air Traffic Controllers ex parte contact decisionmaker",
+    "Withrow Larkin combination investigative adjudicative functions",
+    "prejudgment unalterably closed mind agency commissioner"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Choosing rulemaking or adjudication, and retroactive agency action",
+   "scope": "An agency's discretion to set policy through adjudication or through rulemaking, and the limits on applying new rules retroactively, including SEC v. Chenery II, NLRB v. Wyman-Gordon (the Excelsior rule), NLRB v. Bell Aerospace, Bowen v. Georgetown University Hospital, Retail Wholesale Union's balancing test, and fair-notice doctrine (General Electric v. EPA).",
+   "queries": [
+    "Chenery Corporation adjudication announce new principles rulemaking",
+    "Bowen Georgetown University Hospital retroactive rulemaking authority",
+    "Wyman-Gordon Excelsior rule adjudication NLRB",
+    "retroactive application new agency rule adjudication balancing"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Arbitrary-and-capricious (hard look) review",
+   "scope": "Review of agency reasoning under 5 U.S.C. §706(2)(A), including Overton Park, Motor Vehicle Manufacturers v. State Farm, FCC v. Fox Television on changes of policy, Encino Motorcars, Michigan v. EPA on cost, DHS v. Regents on reliance interests, Ohio v. EPA and FDA v. Wages and White Lion.",
+   "queries": [
+    "State Farm rescission passive restraints arbitrary capricious",
+    "reasoned explanation change in policy Fox Television",
+    "reliance interests rescission DACA Regents arbitrary capricious",
+    "failed to consider important aspect of the problem"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Chenery I, the administrative record and pretext",
+   "scope": "The rule that agency action stands or falls on the agency's contemporaneous reasons and on the administrative record, covering SEC v. Chenery I, Camp v. Pitts, the scope of the 'whole record,' extra-record discovery and its bad-faith exception, and pretext review in Department of Commerce v. New York.",
+   "queries": [
+    "post hoc rationalization counsel agency grounds Chenery",
+    "whole record review Camp Pitts administrative record",
+    "extra-record discovery bad faith improper behavior record",
+    "pretextual explanation citizenship question census Commerce"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Substantial-evidence review of agency factfinding",
+   "scope": "Review of agency findings of fact for substantial evidence on the record as a whole, including Consolidated Edison v. NLRB, Universal Camera, Allentown Mack, Biestek v. Berryhill, and how courts treat agency heads who reject ALJ credibility findings.",
+   "queries": [
+    "substantial evidence record as a whole Universal Camera",
+    "such relevant evidence reasonable mind might accept adequate",
+    "agency rejects administrative law judge findings substantial evidence",
+    "Allentown Mack reasonable doubt substantial evidence Board"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Reviewability: statutory preclusion, committed-to-discretion action and channeling",
+   "scope": "The presumption of judicial review and its exceptions under 5 U.S.C. §701(a), including statutory preclusion (Block v. Community Nutrition, Bowen v. Michigan Academy, Cuozzo), action committed to agency discretion (Heckler v. Chaney, Webster v. Doe, Lincoln v. Vigil), and implied channeling of claims to agencies (Thunder Basin, Elgin, Axon Enterprise).",
+   "queries": [
+    "committed to agency discretion no law to apply",
+    "Heckler Chaney enforcement discretion presumptively unreviewable",
+    "presumption reviewability clear convincing evidence preclusion",
+    "Thunder Basin fairly discernible intent channel review"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Final agency action and ripeness",
+   "scope": "Timing limits on review: the final-agency-action requirement and Bennett v. Spear's two-part test, Abbott Laboratories and Toilet Goods ripeness, Ohio Forestry, FTC v. Standard Oil of California, Sackett v. EPA compliance orders, and Army Corps v. Hawkes jurisdictional determinations.",
+   "queries": [
+    "final agency action consummation decisionmaking process rights obligations",
+    "Abbott Laboratories fitness issues hardship withholding consideration",
+    "approved jurisdictional determination Hawkes final agency action",
+    "Toilet Goods ripeness regulation inspection preenforcement"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Exhaustion of administrative remedies and issue exhaustion",
+   "scope": "Requirements to exhaust agency remedies and to raise issues before the agency, including McKart, McCarthy v. Madigan, Darby v. Cisneros under §704, Woodford v. Ngo's proper exhaustion, issue exhaustion in Sims v. Apfel and Carr v. Saul, and the futility and inadequate-remedy exceptions.",
+   "queries": [
+    "exhaustion administrative remedies futility exception agency",
+    "Darby Cisneros section 704 exhaustion intra-agency appeal",
+    "issue exhaustion Sims Apfel Appeals Council",
+    "McCarthy Madigan exhaustion judicially developed doctrine"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Primary jurisdiction and the filed-rate doctrine",
+   "scope": "Doctrines that split questions between courts and regulators in regulated industries: primary jurisdiction referral (Texas & Pacific Railway v. Abilene Cotton Oil, Western Pacific, Nader v. Allegheny Airlines, Reiter v. Cooper) and the filed-rate doctrine (Keogh, Montana-Dakota, Arkansas Louisiana Gas v. Hall, Maislin, AT&T v. Central Office Telephone).",
+   "queries": [
+    "primary jurisdiction doctrine referral agency expertise uniformity",
+    "filed rate doctrine Keogh tariff rate",
+    "Abilene Cotton Oil Texas Pacific Railway reasonableness rates",
+    "Maislin Industries negotiated rates filed tariff undercharges"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Standing and zone of interests in challenges to agency action",
+   "scope": "Article III standing and statutory limits on who may challenge agency action, including Data Processing and Lexmark on zone of interests, Lujan v. Defenders of Wildlife, procedural injury, Massachusetts v. EPA's special solicitude for states, Summers v. Earth Island, Clapper, United States v. Texas and FDA v. Alliance for Hippocratic Medicine.",
+   "queries": [
+    "zone of interests arguably protected regulated statute APA",
+    "procedural injury standing redressability Lujan Defenders Wildlife",
+    "special solicitude state standing Massachusetts EPA",
+    "Alliance Hippocratic Medicine mifepristone standing doctors"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Agency inaction, unreasonable delay and petitions for rulemaking",
+   "scope": "Court orders compelling agency action 'unlawfully withheld or unreasonably delayed' under §706(1), including Norton v. Southern Utah Wilderness Alliance's discrete-action requirement, the TRAC factors, mandamus, and review of denied rulemaking petitions (Massachusetts v. EPA, WWHT v. FCC).",
+   "queries": [
+    "unreasonably delayed TRAC factors rule of reason",
+    "Norton Southern Utah Wilderness discrete agency action required",
+    "denial petition for rulemaking extremely limited highly deferential",
+    "mandamus compel agency action unlawfully withheld"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Remedies in APA review: vacatur, remand and interim relief",
+   "scope": "Relief for unlawful agency action, including vacatur under §706(2)'s 'set aside' language, remand without vacatur under Allied-Signal, debates over universal vacatur and nationwide injunctions (Trump v. CASA), severability of rules, §705 stays pending review, and the ordinary remand rule (INS v. Ventura).",
+   "queries": [
+    "remand without vacatur Allied-Signal seriousness deficiencies disruptive",
+    "set aside agency action vacatur universal relief",
+    "section 705 postpone effective date pending judicial review",
+    "ordinary remand rule INS Ventura agency first"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Special statutory review schemes, the Hobbs Act and limitations periods",
+   "scope": "Venue and timing rules for review of agency action, including Hobbs Act petitions and their 60-day deadline, direct review in the courts of appeals, the multicircuit lottery under 28 U.S.C. §2112, Corner Post on accrual under §2401(a), PDR Network and McLaughlin Chiropractic on enforcement proceedings, and the reopening doctrine.",
+   "queries": [
+    "Hobbs Act petition review sixty days final order",
+    "Corner Post statute of limitations accrues injured 2401(a)",
+    "multicircuit petitions judicial panel lottery 2112",
+    "reopening doctrine agency reconsidered rule limitations period"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Procedural due process in administrative proceedings",
+   "scope": "Constitutional hearing rights before an agency takes liberty or property, including the Londoner/Bi-Metallic distinction, Goldberg v. Kelly, Board of Regents v. Roth and Perry v. Sindermann on protected interests, Mathews v. Eldridge balancing, and Cleveland Board of Education v. Loudermill.",
+   "queries": [
+    "Mathews Eldridge private interest risk erroneous deprivation",
+    "Goldberg Kelly evidentiary hearing welfare termination",
+    "Londoner Bi-Metallic individualized adjudicative legislative",
+    "legitimate claim of entitlement property interest Roth"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Appointments Clause and officers of the United States",
+   "scope": "Which agency officials are principal officers, inferior officers or employees, and how each must be appointed, including Buckley v. Valeo, Freytag, Edmond, Lucia v. SEC on ALJs, United States v. Arthrex on APJs, NLRB v. Noel Canning on recess appointments, and Ryder-style remedies.",
+   "queries": [
+    "Appointments Clause inferior officers significant authority Lucia",
+    "Arthrex administrative patent judges principal officers Director",
+    "recess appointments Noel Canning pro forma sessions",
+    "Edmond Coast Guard Court Criminal Appeals inferior officer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Presidential removal power and independent agencies",
+   "scope": "The President's power to remove agency officials and whether for-cause protections are valid, including Myers, Humphrey's Executor, Wiener, Morrison v. Olson, Free Enterprise Fund, Seila Law, Collins v. Yellen, and the 2025-26 litigation over removed FTC, NLRB and MSPB members (Trump v. Wilcox, Trump v. Slaughter).",
+   "queries": [
+    "Humphrey's Executor Federal Trade Commissioner removal cause",
+    "Seila Law CFPB single director removal protection",
+    "Free Enterprise Fund PCAOB dual for-cause removal",
+    "inefficiency neglect of duty malfeasance in office removal"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Article III, the Seventh Amendment and public rights in agency adjudication",
+   "scope": "Constitutional limits on assigning adjudication to agencies, including Crowell v. Benson, the public-rights doctrine, Atlas Roofing, Thomas v. Union Carbide, CFTC v. Schor, Granfinanciera, Oil States, and SEC v. Jarkesy on civil penalties and the right to a jury.",
+   "queries": [
+    "public rights doctrine Article III agency adjudication",
+    "Jarkesy civil penalties securities fraud Seventh Amendment",
+    "Atlas Roofing OSHA Review Commission jury",
+    "Crowell Benson deputy commissioner jurisdictional facts"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Legislative veto, the Congressional Review Act and congressional control",
+   "scope": "Congress's tools for controlling agencies, including the legislative veto struck down in INS v. Chadha, Bowsher v. Synar, joint resolutions of disapproval under the Congressional Review Act and its 'substantially the same' bar, GAO opinions on what counts as a rule, and appropriations riders.",
+   "queries": [
+    "Congressional Review Act joint resolution disapproval rule",
+    "legislative veto Chadha one-House presentment bicameralism",
+    "Bowsher Synar Comptroller General Gramm-Rudman",
+    "substantially the same rule disapproved Congressional Review Act"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "OIRA review and executive orders on regulatory planning",
+   "scope": "Centralized presidential review of agency rules through OIRA under Executive Orders 12291, 12866, 13563, 13771, 14094 and 14192, covering significant regulatory actions, Circular A-4 cost-benefit guidance, the Unified Agenda, and regulatory budgeting.",
+   "queries": [
+    "Office of Information and Regulatory Affairs regulatory review",
+    "Executive Order 12866 significant regulatory action",
+    "Executive Order 13771 two for one regulations",
+    "Circular A-4 regulatory impact analysis discount rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Regulatory Flexibility, Paperwork Reduction, Unfunded Mandates and Information Quality Acts",
+   "scope": "Statutes that require analysis in rulemaking across agencies: the Regulatory Flexibility Act and SBREFA (initial and final flexibility analyses, small-entity certification, SBA Advocacy panels), the Paperwork Reduction Act (OMB control numbers, public protection provision), the Unfunded Mandates Reform Act, and the Information Quality Act.",
+   "queries": [
+    "Regulatory Flexibility Act analysis small entities certification",
+    "Paperwork Reduction Act OMB control number public protection",
+    "Unfunded Mandates Reform Act intergovernmental mandate threshold",
+    "Information Quality Act data quality guidelines"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal Register, Code of Federal Regulations and incorporation by reference",
+   "scope": "How agency rules are published and codified, including the Federal Register Act of 1935, the Office of the Federal Register, the structure and annual revision of the CFR, publication requirements under §552(a)(1) and constructive notice, and incorporation by reference of privately developed standards.",
+   "queries": [
+    "Federal Register Act 1935 daily publication agency documents",
+    "Code of Federal Regulations titles codification annual revision",
+    "incorporation by reference reasonably available Federal Register",
+    "regulations published Federal Register constructive notice binding"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Freedom of Information Act exemptions and litigation",
+   "scope": "FOIA disclosure duties and exemptions, including Exemption 3 withholding statutes, Exemption 4 after Food Marketing Institute v. Argus Leader, the Exemption 5 deliberative-process privilege (FWS v. Sierra Club), Exemption 6 and 7(C) privacy, Vaughn indexes, Glomar responses, segregability, fee waivers, and the 'agency records' test.",
+   "queries": [
+    "FOIA Exemption 5 deliberative process predecisional",
+    "Glomar response neither confirm nor deny records",
+    "Vaughn index segregability withheld documents",
+    "Argus Leader confidential commercial information Exemption 4"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privacy Act, Government in the Sunshine Act and Federal Advisory Committee Act",
+   "scope": "Open-government and records statutes other than FOIA: the Privacy Act of 1974 (systems of records, routine uses, actual damages under Doe v. Chao and FAA v. Cooper), the Sunshine Act's open-meeting rules for multimember agencies, and FACA (Public Citizen v. DOJ, In re Cheney, de facto membership).",
+   "queries": [
+    "Privacy Act system of records routine use disclosure",
+    "Privacy Act actual damages intentional willful Doe Chao",
+    "Federal Advisory Committee Act utilized de facto member",
+    "Government in the Sunshine Act meeting closed exemption"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Agency investigations, administrative subpoenas and inspections",
+   "scope": "Agencies' investigative powers, including enforcement of administrative subpoenas (Oklahoma Press, Morton Salt, Endicott Johnson), IRS summonses under United States v. Powell, the required-records doctrine, and administrative searches under Camara, Marshall v. Barlow's, New York v. Burger and City of Los Angeles v. Patel.",
+   "queries": [
+    "administrative subpoena enforcement relevant inquiry not too indefinite",
+    "Powell IRS summons legitimate purpose good faith",
+    "closely regulated industry warrantless inspection Burger",
+    "administrative search warrant probable cause Camara Barlow's"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal Vacancies Reform Act, acting officials and agency quorums",
+   "scope": "How vacant Senate-confirmed offices are filled and how agency authority is delegated, including the Vacancies Reform Act of 1998 (first assistants, the 210-day limit, §3348's ratification bar, NLRB v. SW General), disputes over acting officials, quorum requirements (New Process Steel), and subdelegation to subordinates.",
+   "queries": [
+    "Federal Vacancies Reform Act acting officer first assistant",
+    "SW General acting general counsel nominated vacancies",
+    "210 days vacancy acting capacity Vacancies Act",
+    "New Process Steel delegee group quorum Board"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sovereign immunity, the APA section 702 waiver and Tucker Act money claims",
+   "scope": "Suits against the federal government over agency action, including the 1976 amendment to §702 waiving immunity for nonmonetary relief, Bowen v. Massachusetts, the Tucker Act and Court of Federal Claims jurisdiction over grant and contract claims, Larson-style officer suits, and §704's adequate-remedy bar.",
+   "queries": [
+    "section 702 sovereign immunity waiver money damages",
+    "Bowen Massachusetts Medicaid reimbursement specific relief Tucker Act",
+    "Tucker Act Court Federal Claims grant termination",
+    "Larson Domestic Foreign Commerce officer ultra vires suit"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Equal Access to Justice Act fee awards",
+   "scope": "Fee awards against the United States under EAJA, including the 'substantially justified' standard (Pierce v. Underwood), prevailing-party status after sentence-four remands (Shalala v. Schaefer), the hourly rate cap and cost-of-living adjustments, net-worth and employee limits, Scarborough v. Principi, Astrue v. Ratliff, and agency-level awards under 5 U.S.C. §504.",
+   "queries": [
+    "Equal Access to Justice Act substantially justified position",
+    "EAJA hourly rate cost of living adjustment 125",
+    "Astrue Ratliff EAJA fees payable litigant offset",
+    "net worth two million EAJA eligibility employees"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Social Security disability adjudication and judicial review",
+   "scope": "How SSA decides disability claims and how courts review them, including the five-step sequential evaluation, residual functional capacity, the Listings and medical-vocational grids (Heckler v. Campbell), the treating-physician rule and its 2017 replacement, Appeals Council review (Smith v. Berryhill), and sentence-four and sentence-six remands under 42 U.S.C. §405(g).",
+   "queries": [
+    "five-step sequential evaluation residual functional capacity ALJ",
+    "treating physician rule controlling weight medical opinion",
+    "medical-vocational guidelines grids Heckler Campbell",
+    "sentence six remand new material evidence 405(g)"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State administrative procedure acts and state deference doctrines",
+   "scope": "Administrative law in the states, including the 1946, 1961 and 2010 Model State Administrative Procedure Acts, state contested-case and rulemaking provisions, central ALJ panels, state nondelegation doctrines, and state courts ending deference to agencies (Wisconsin's Tetra Tech, Mississippi's King Edward Hotel, Ohio's TWISM, Arizona's statute, Florida's constitutional amendment).",
+   "queries": [
+    "Model State Administrative Procedure Act contested case",
+    "state court abandons agency deference Tetra Tech",
+    "state nondelegation doctrine legislature delegated standards agency",
+    "central panel administrative law judges office administrative hearings"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of the federal administrative state and the enactment of the APA",
+   "scope": "How federal administrative government developed, from the Interstate Commerce Commission (1887) through Progressive Era and New Deal agencies, the Brownlow Committee, the Attorney General's Committee on Administrative Procedure and its 1941 Final Report, the vetoed Walter-Logan Bill, enactment of the 1946 APA, the 1947 Attorney General's Manual, and the Administrative Conference of the United States.",
+   "queries": [
+    "Administrative Procedure Act 1946 enacted Walter-Logan bill",
+    "Attorney General's Committee Administrative Procedure Final Report",
+    "Interstate Commerce Commission established 1887 independent agency",
+    "Administrative Conference of the United States recommendations"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Accardi doctrine and estoppel against the government",
+   "scope": "Rules that hold agencies to their own regulations and statements, including the Accardi doctrine (Accardi v. Shaughnessy, Service v. Dulles, Vitarelli v. Seaton, Morton v. Ruiz, United States v. Caceres), and the limits on equitable estoppel against the government (Federal Crop Insurance v. Merrill, Schweiker v. Hansen, Heckler v. Community Health Services, OPM v. Richmond).",
+   "queries": [
+    "Accardi doctrine agency must follow own regulations",
+    "equitable estoppel against government affirmative misconduct",
+    "Office Personnel Management Richmond Appropriations Clause estoppel",
+    "Morton Ruiz Bureau Indian Affairs manual procedures"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal Tort Claims Act liability, the discretionary function exception and the Feres doctrine",
+   "scope": "Government tort liability for agency conduct under the FTCA, covering the discretionary function test (Dalehite, Varig, Berkovitz, Gaubert), the statutory exceptions in 28 U.S.C. 2680, the Feres doctrine, and the administrative claim and limitations requirements of 28 U.S.C. 2401(b) and 2675.",
+   "queries": [
+    "discretionary function exception Federal Tort Claims Act regulatory",
+    "Berkovitz Gaubert policy judgment discretionary function",
+    "Feres doctrine incident to military service",
+    "administrative claim sum certain section 2675"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Agency licensing under APA section 558 and Ashbacker comparative hearings",
+   "scope": "Licensing proceedings before federal agencies: the APA's licensing provisions in 5 U.S.C. 551(8)-(9) and 558(c), including the timely-renewal rule, notice and a chance to comply before revocation, and the willfulness exception, along with the Ashbacker right to comparative hearings on mutually exclusive applications and the Storer screening of applicants by rule.",
+   "queries": [
+    "Ashbacker comparative hearing mutually exclusive applications",
+    "timely application license renewal section 558(c)",
+    "license revocation willfulness opportunity achieve compliance",
+    "Storer Broadcasting rule dismiss application without hearing"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Neuroscience",
+ "target_leaves": 15,
+ "expected_problems": 120,
+ "leaves": [
+  {
+   "leaf": "Passive cable theory and dendritic attenuation",
+   "scope": "Problems ask for voltage attenuation, input resistance, electrotonic length or time-course at a soma or synapse in passive branched or finite cables with given boundary conditions. They are hard because the answer depends on the boundary conditions, the impedance seen at branch points and the choice between steady-state and transient solutions, so a careless derivation goes wrong.",
+   "techniques": [
+    "Finite-cable solutions with sealed-end, killed-end or lumped-soma boundary conditions",
+    "Rall's 3/2-power rule and reduction of a dendritic tree to an equivalent cylinder",
+    "Asymmetric transfer: comparing centripetal and centrifugal attenuation",
+    "Laplace-domain transfer impedance and frequency-dependent attenuation",
+    "Separation of variables into equalizing time constants (peeling exponentials)",
+    "Input-conductance bookkeeping at branch points"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Markov kinetic schemes for channel gating",
+   "scope": "Problems give a state diagram with voltage-dependent or ligand-dependent rate constants and ask for steady-state open probability, dwell-time distributions, gating charge, or the macroscopic current time course after a voltage step. They are hard because they need linear-algebraic solutions of the master equation, and loops in the scheme impose microscopic-reversibility constraints.",
+   "techniques": [
+    "Q-matrix formulation and eigenvalue decomposition for relaxation rates",
+    "Detailed balance / microscopic reversibility around cyclic schemes",
+    "Open-time and closed-time distributions from partitioned Q-matrices",
+    "Boltzmann fits and effective valence from limiting slope",
+    "Hodgkin\u2013Huxley m^3h-type independence vs coupled (allosteric MWC-type) gating",
+    "Burst analysis and number of exponential components"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "rational number",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Electrodiffusion, Donnan and pump equilibria",
+   "scope": "Problems ask for resting potentials, reversal potentials of mixed-permeability channels, Donnan ratios, or steady-state ion concentrations in cells containing pumps, cotransporters and impermeant anions. They are hard because several coupled constraints (electroneutrality, osmotic balance, pump stoichiometry) must be satisfied at the same time.",
+   "techniques": [
+    "Goldman\u2013Hodgkin\u2013Katz voltage and current equations with divalent ions",
+    "Donnan equilibrium with fixed impermeant charge and osmotic constraint",
+    "Na+/K+-ATPase 3:2 electrogenic contribution to membrane potential",
+    "Cation\u2013chloride cotransporter (NKCC1/KCC2) thermodynamic driving force and E_Cl setting",
+    "Bi-ionic reversal potential to infer permeability ratios",
+    "Charge-balance bookkeeping for volume changes"
+   ],
+   "answer_forms": [
+    "real number to stated precision",
+    "closed-form expression",
+    "ratio as rational number",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Quantal analysis and short-term synaptic dynamics",
+   "scope": "Problems infer release probability, quantal size or number of release sites from failure rates, means and variances, or predict trains of postsynaptic responses under depletion and facilitation. They are hard because the stochastic release statistics have to be combined with recursive resource-use models.",
+   "techniques": [
+    "Binomial and compound-binomial release models; method of failures",
+    "Variance\u2013mean (multiple-probability fluctuation) analysis",
+    "Tsodyks\u2013Markram resource\u2013utilization recursion and steady-state train response",
+    "Paired-pulse ratio under combined depletion and residual-calcium facilitation",
+    "Calcium cooperativity (power-law dependence of release on [Ca2+])",
+    "Coefficient-of-variation analysis to localize plasticity pre- vs postsynaptically"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Brainstem and spinal lesion localization",
+   "scope": "Problems describe a combination of motor, sensory, cranial-nerve, autonomic and reflex findings in an original case and ask for the single smallest lesion site or vascular territory that explains them. They are hard because the solver has to track decussation levels, tract laminations and nuclear topography together, and the distractor answers each explain only some of the findings.",
+   "techniques": [
+    "Decussation levels of corticospinal, dorsal column\u2013medial lemniscus and spinothalamic pathways",
+    "Somatotopic lamination of spinothalamic and corticospinal tracts within the cord",
+    "Cranial nerve nucleus vs fascicle vs peripheral nerve differentiation",
+    "Crossed (alternating) syndromes and ipsilateral cranial / contralateral body signs",
+    "Arterial territory mapping (paramedian, short circumferential, long circumferential branches)",
+    "Sacral sparing, suspended sensory levels and central cord patterns"
+   ],
+   "answer_forms": [
+    "name of an anatomical structure",
+    "name of an arterial territory",
+    "letter for multiple choice",
+    "small set of structures"
+   ]
+  },
+  {
+   "leaf": "Phase response curves and oscillator coupling",
+   "scope": "Problems give a phase response curve or a reduced oscillator model and ask for phase-locked states, their stability, entrainment ranges or the phase relations of a small coupled circuit such as a half-center or gait CPG. They are hard because they call for phase reduction, the construction of an interaction function and stability analysis on the torus.",
+   "techniques": [
+    "Type I vs type II PRCs and their bifurcation origins (SNIC vs Hopf)",
+    "Averaged interaction function H(\u03c6) and odd-part stability criterion",
+    "Arnold tongues and n:m locking ranges under periodic forcing",
+    "Phase-return maps for pulse-coupled oscillators",
+    "Symmetry (equivariant) classification of gait-like phase patterns in rings of oscillators",
+    "Post-inhibitory rebound and escape vs release in half-center circuits"
+   ],
+   "answer_forms": [
+    "phase value as rational fraction of cycle",
+    "small set of stable phase-locked states",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Excitatory\u2013inhibitory rate network stability",
+   "scope": "Problems pose linear or threshold-linear E\u2013I population models and ask for fixed points, stability boundaries, paradoxical responses to perturbation, or amplification factors. They are hard because counterintuitive regimes such as inhibition stabilization and balanced amplification only show up through careful Jacobian analysis.",
+   "techniques": [
+    "Jacobian trace\u2013determinant analysis of 2D Wilson\u2013Cowan-type systems",
+    "Inhibition-stabilized network condition and paradoxical inhibitory response",
+    "Non-normal (balanced) amplification via Schur decomposition",
+    "Threshold-linear networks: enumeration of permitted and forbidden active sets",
+    "Multi-population (PV/SST/VIP) disinhibitory motif response signs",
+    "Mean-field balanced-state scaling with 1/\u221aK synapses"
+   ],
+   "answer_forms": [
+    "closed-form inequality boundary",
+    "sign pattern as ordered tuple",
+    "rational number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Fixed points of synaptic plasticity rules",
+   "scope": "Problems define a Hebbian, BCM, Oja-type or pair/triplet STDP rule plus input statistics and ask for the asymptotic weight vector, the selectivity that emerges, or the stability of the equilibria. They are hard because the stochastic learning has to be averaged into deterministic ODEs and then analyzed with eigen-decomposition or a sliding-threshold argument.",
+   "techniques": [
+    "Averaging stochastic updates to input correlation-matrix dynamics",
+    "Oja's normalization and convergence to the principal eigenvector",
+    "BCM sliding threshold and stability of selective vs nonselective states",
+    "STDP window integration against cross-correlograms for Poisson inputs",
+    "Additive vs multiplicative weight dependence and bimodal vs unimodal steady states",
+    "Synaptic scaling and heterosynaptic constraints as Lagrange-type normalization"
+   ],
+   "answer_forms": [
+    "vector or ordered tuple",
+    "closed-form expression",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Population codes, Fisher information and decoding",
+   "scope": "Problems specify a population of tuning curves with a given noise model and ask for Fisher information, discrimination thresholds, optimal decoder weights or Bayesian cue-combination outcomes. They are hard because correlated noise, the shape of the tuning curves and the prior combine in ways that are not obvious.",
+   "techniques": [
+    "Fisher information for independent Poisson and Gaussian populations",
+    "Information-limiting (differential) correlations f\u2032f\u2032\u1d40",
+    "Cram\u00e9r\u2013Rao bound to psychophysical threshold conversion",
+    "Optimal linear and maximum-likelihood decoders; population vector bias",
+    "Reliability-weighted Bayesian cue integration with Gaussian likelihoods",
+    "Mutual information of discrete stimulus\u2013response channels"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number to stated precision",
+    "rational number",
+    "ordered tuple of weights"
+   ]
+  },
+  {
+   "leaf": "Point-process statistics of spike trains",
+   "scope": "Problems ask for ISI distributions, coefficient of variation, Fano factor, autocorrelation or firing rate in renewal, refractory-Poisson, gamma or noisy integrate-and-fire models. They are hard because they need renewal theory, first-passage-time calculations or counting-statistics asymptotics.",
+   "techniques": [
+    "Renewal theory: asymptotic Fano factor equals CV\u00b2 for stationary renewal trains",
+    "Dead-time-modified Poisson processes and rate\u2013ISI relations",
+    "First-passage time of drift\u2013diffusion (inverse Gaussian) for perfect integrators",
+    "Siegert formula for the leaky integrate-and-fire firing rate",
+    "Time-rescaling theorem for inhomogeneous Poisson processes",
+    "Superposition and thinning of independent spike trains"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision"
+   ]
+  },
+  {
+   "leaf": "Grid-cell modular codes and path integration",
+   "scope": "Problems involve grid modules with given spacings, orientations and phases and ask for coding range, the location that is decoded, error correction, or what follows from module misalignment and path-integration drift. They are hard because the residue-number arithmetic and lattice geometry in 1D or 2D are subtle.",
+   "techniques": [
+    "Chinese-remainder-like phase codes and unambiguous range via LCM of periods",
+    "Hexagonal lattice geometry: spacing, orientation and Moir\u00e9 interference",
+    "Projection of 2D grid lattices onto linear tracks (slices of hexagonal lattices)",
+    "Error propagation in phase decoding and minimum-distance codewords",
+    "Continuous-attractor velocity integration and drift accumulation",
+    "Boundary-driven grid distortions and reset by landmark cues"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered pair of coordinates",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Binaural sound localization computations",
+   "scope": "Problems give head geometry, frequency content and neural delay-line or rate-code models and ask for interaural time and level differences, the location a circuit would compute, ambiguity regions or the output of a coincidence detector. They are hard because acoustic physics, phase ambiguity at high frequencies and competing neural coding schemes all interact.",
+   "techniques": [
+    "Woodworth spherical-head ITD formula and its low-frequency limit",
+    "Phase ambiguity: period-based aliasing for tones above a critical frequency",
+    "Jeffress place code vs two-channel hemispheric rate code (MSO in mammals)",
+    "LSO excitatory\u2013inhibitory ILD subtraction and its sign conventions",
+    "Cross-correlation models and characteristic delay vs characteristic phase",
+    "Cone-of-confusion geometry and spectral pinna cues for elevation"
+   ],
+   "answer_forms": [
+    "azimuth in degrees",
+    "frequency in Hz",
+    "closed-form expression",
+    "small set of ambiguous locations"
+   ]
+  },
+  {
+   "leaf": "Early visual receptive fields and motion detection",
+   "scope": "Problems give linear spatiotemporal filters, difference-of-Gaussians or Gabor receptive fields, or correlation-type motion detectors and ask for preferred spatial frequency, response to specified stimuli, direction selectivity or aliasing behavior. They are hard because the solver needs Fourier-domain reasoning combined with nonlinearities and sampling constraints.",
+   "techniques": [
+    "Fourier transform of DoG and Gabor kernels; peak spatial frequency",
+    "Hassenstein\u2013Reichardt correlator responses and temporal-frequency tuning",
+    "Barlow\u2013Levick inhibitory veto and asymmetric delay logic",
+    "Spatiotemporal separability vs oriented (inseparable) filters for direction",
+    "Photoreceptor sampling and Nyquist aliasing of gratings",
+    "Linear\u2013nonlinear cascade and spike-triggered average reconstruction"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number to stated precision",
+    "sign or direction label",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Topographic map formation under gradient manipulations",
+   "scope": "Problems describe receptor\u2013ligand gradients, competition and activity rules for retinotectal or similar projections, then ask for the predicted map after an original perturbation such as ectopic receptor expression, partial ablation or gradient flattening. They are hard because the outcome depends on whether matching is absolute or relative, on axon\u2013axon competition and on correlated-activity refinement.",
+   "techniques": [
+    "Chemoaffinity with absolute vs relative receptor-level matching",
+    "Mixed-population knock-in predicting duplicated or interleaved maps",
+    "Compression and expansion after partial retinal or target ablation",
+    "Countergradients and bidirectional forward/reverse ephrin signaling",
+    "Correlated-activity (retinal wave) refinement and eye-specific segregation",
+    "Simple energy-minimization or sorting models of axon ordering"
+   ],
+   "answer_forms": [
+    "description of map as ordered tuple of positions",
+    "integer number of map copies",
+    "letter for multiple choice",
+    "name of the predicted map configuration"
+   ]
+  },
+  {
+   "leaf": "Quantitative receptor pharmacology in neural tissue",
+   "scope": "Problems give concentration\u2013response data, antagonist shifts, receptor reserve or desensitization kinetics and ask for affinities, efficacy, occupancy or the expected response under combined drugs. They are hard because occupancy, response transduction and the type of antagonism have to be kept apart in multi-step reasoning.",
+   "techniques": [
+    "Schild regression: pA2, dose ratio, competitive vs non-surmountable antagonism",
+    "Black\u2013Leff operational model and transducer ratio \u03c4",
+    "Furchgott irreversible-antagonist method for receptor reserve and K_A",
+    "Allosteric ternary complex model and cooperativity factor \u03b1",
+    "Hill coefficients from multi-site agonist binding (e.g., pentameric ligand-gated channels)",
+    "Desensitization\u2013recovery kinetics under repeated agonist application"
+   ],
+   "answer_forms": [
+    "real number to stated precision",
+    "closed-form expression",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

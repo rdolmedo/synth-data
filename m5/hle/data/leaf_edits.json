@@ -1,0 +1,117 @@
+{
+ "note": "leaves whose nearest HLE test question (TF-IDF or bge) is close and clearly closer than the second (leafcheck.py, 11-12); dropped from sampling rather than hand-edited",
+ "drop": [
+  [
+   "knowledge__Biology-Medicine__Biochemistry",
+   "tRNA wobble base modification chemistry"
+  ],
+  [
+   "knowledge__Biology-Medicine__Bioinformatics",
+   "Turner nearest-neighbor RNA folding parameters"
+  ],
+  [
+   "knowledge__Biology-Medicine__Biology",
+   "Insect wing venation in Comstock-Needham terms"
+  ],
+  [
+   "knowledge__Math__Applied_Mathematics",
+   "Stokes phenomenon and exponential asymptotics"
+  ],
+  [
+   "knowledge__Math__Mathematics",
+   "Imaginary quadratic fields of small class number"
+  ],
+  [
+   "knowledge__Math__Mathematics",
+   "Small Ramsey numbers and bounds"
+  ],
+  [
+   "reasoning__Biology-Medicine__Bioinformatics",
+   "RNA secondary structure enumeration and folding"
+  ],
+  [
+   "reasoning__Biology-Medicine__Environmental_Contamination",
+   "Aquatic toxicokinetics and dietary bioaccumulation"
+  ],
+  [
+   "reasoning__Biology-Medicine__Genetics",
+   "Polysomic inheritance in autopolyploids"
+  ],
+  [
+   "reasoning__Chemistry__Chemistry",
+   "H\u00fcckel \u03c0-MO calculations with heteroatoms"
+  ],
+  [
+   "reasoning__Chemistry__Chemistry",
+   "Polymerization statistics and copolymer composition"
+  ],
+  [
+   "reasoning__Chemistry__broad",
+   "Graph-theoretic H\u00fcckel analysis of conjugated systems"
+  ],
+  [
+   "reasoning__Computer_Science-AI__Computer_Science",
+   "CDCL conflict analysis and clause learning"
+  ],
+  [
+   "reasoning__Computer_Science-AI__Computer_Science",
+   "Cache coherence protocol transaction counting"
+  ],
+  [
+   "reasoning__Computer_Science-AI__Computer_Science",
+   "Competitive ratios of online algorithms"
+  ],
+  [
+   "reasoning__Computer_Science-AI__Computer_Science",
+   "Termination and completion of term rewriting systems"
+  ],
+  [
+   "reasoning__Engineering__Materials_Science",
+   "Network-forming polymerization and gelation statistics"
+  ],
+  [
+   "reasoning__Humanities-Social_Science__broad",
+   "Post-tonal pitch-class set and transformational analysis"
+  ],
+  [
+   "reasoning__Humanities-Social_Science__broad",
+   "Section and subsection kinship system algebra"
+  ],
+  [
+   "reasoning__Math__Mathematics",
+   "Capacities of discrete memoryless channels"
+  ],
+  [
+   "reasoning__Math__Mathematics",
+   "ECH capacities and symplectic embeddings"
+  ],
+  [
+   "reasoning__Math__Mathematics",
+   "Numerical semigroups and Frobenius invariants"
+  ],
+  [
+   "reasoning__Math__Mathematics",
+   "Rado numbers of linear equations"
+  ],
+  [
+   "reasoning__Math__Mathematics",
+   "Real forms and Satake diagrams"
+  ],
+  [
+   "reasoning__Other__Musicology",
+   "Neo-Riemannian PLR paths on the Tonnetz"
+  ],
+  [
+   "reasoning__Other__Puzzles",
+   "Cooperative hat-guessing strategy optimisation"
+  ],
+  [
+   "reasoning__Physics__Physics",
+   "Anomaly cancellation for chiral fermion spectra"
+  ],
+  [
+   "reasoning__Physics__Physics",
+   "Landau levels and quantum Hall state counting"
+  ]
+ ]
+}

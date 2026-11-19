@@ -1,0 +1,98 @@
+# Text-only eval variant (#348, 2026-11-11) of qwen35-4b-eval.toml: every AAI-open model is served without vision. The
+# only change is --language-model-only in place of the image allowance (and --mm-processor-kwargs, which only sizes images): vLLM 0.32 then skips building and
+# loading the vision tower (_mark_tower_model) and serves text alone; every other setting is the M3.6 spec's.
+# Launch evidence: aa_evals protocol.image_inputs and pi_eval model_input read --language-model-only as text-only.
+# AA evals M3.3 (#176): Qwen3.5-4B (reasoning) as a reference model under test, 1xH100 per replica, 128k context (M3.0).
+# Port, without re-tuning, of eval_q35's tuned Qwen3.5-4B eval serving (branch eval, serve_q35/README.md, issue #15):
+# serving variant fp8kv = FP8 KV cache (twice the cache tokens; served BPB +0.00015 on H100, +0.00023 on B200) with
+# FlashInfer attention and a bf16 query on H100 (FA3 decodes FP8 KV at half speed; FlashInfer's SM90 prefill FP8 query
+# costs +0.0014 BPB); B200 keeps vLLM's default (TRTLLM-gen, FP8 query): --cuda-cap 10.0 --tunables
+# '{"flashinfer_bf16q": 0}'. Admission: the context-aware turn gate (eval_q35 turn_gate.py v11), which lives with the
+# eval run, not the server (aa_evals/common/pi_eval hosts it when the registry's request.ctx_gate is true), so this
+# spec has no aa_evals admission gate in front (serve_teacher PROFILE).
+# Differences from eval_q35 (named, not tuned): vLLM 0.32 (venvs/vllm032) instead of the 0.27.1 SIF (serve_q35 measured
+# both: FP8 KV +0.00024/+0.00025 BPB on either, 0.32 equal or faster); the official checkpoint and its own chat
+# template (eval_q35 pins the SFT template; AA scored the release); Qwen's thinking-mode sampling (eval_q35 sets only
+# T 1.0 / top_p 0.95, which Pi's proxy also sends); images on (the AA suite has image benchmarks; eval_q35 serves TB
+# only); 131,072-token context (M3.0; eval_q35 132,000).
+slug = "qwen35-4b-eval-text"
+model = "Qwen/Qwen3.5-4B"
+revision = "Qwen/Qwen3.5-4B (local copy; config.json in /data/aai/models/qwen3.5-4b)"
+checkpoint = "/data/aai/models/qwen3.5-4b"
+served_name = "qwen35-4b"
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+env = { HF_HUB_OFFLINE = "1", HF_HUB_DISABLE_XET = "1", VLLM_MAX_MEDIA_REQUEST_DECODE_BYTES = "2147483648", VLLM_ENGINE_READY_TIMEOUT_S = "3600" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--max-model-len", "{max_model_len}", "--tensor-parallel-size", "1", "--gpu-memory-utilization", "{gpu_util}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--mamba-cache-mode", "align", "--enable-auto-tool-choice",
+  "--tool-call-parser", "qwen3_coder", "--reasoning-parser", "qwen3", "--generation-config", "vllm", "--seed", "{seed}",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"top_k":20,"min_p":0.0,"presence_penalty":1.5,"repetition_penalty":1.0,"max_tokens":{max_output_tokens},"stop_token_ids":[248046,248044]}}',
+  "--default-chat-template-kwargs", '{{"enable_thinking":true}}',
+  "--language-model-only",
+  "--no-enable-log-requests", "--kv-cache-dtype", "fp8", "--enable-prompt-tokens-details",
+]
+seed = 0
+startup_timeout_sec = 3600
+
+[serving.tunables]
+gpu_util = 0.90          # eval_q35 submit.py default
+max_seqs = 256           # eval_q35 default
+max_batched = 16384      # eval_q35 serve_job.sh
+flashinfer_bf16q = 1     # H100 (eval_q35 QWEN35_SERVING fp8kv serving_args 9.0); 0 on B200
+omp_threads = 8
+
+[serving.optional_args]
+flashinfer_bf16q = ["--attention-backend", "FLASHINFER", "--attention-config", '{{"disable_flashinfer_q_quantization":true}}']
+
+[request]
+client_model = "hosted_vllm/qwen35-4b"
+pi_thinking = "high"
+# pi_eval: run the context-aware turn gate (eval_q35 turn_gate.py) with the run, plus the proxies' KV brake 0.80/0.72
+ctx_gate = true
+ctx_fill = 0.7
+kv_gate = "0.80,0.72"
+overrides = { temperature = 1.0, top_p = 0.95, top_k = 20, min_p = 0.0, presence_penalty = 1.5, repetition_penalty = 1.0, chat_template_kwargs = { enable_thinking = true } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true }
+tokenize_crosscheck = "native"
+
+[serving_resources]
+# #378 (2026-11-14): sized from the job cgroup (task_synthesis/serve/reslog.py), RAM ~1.25x the non-reclaimable peak (rss + shmem + dirty; page cache is reclaimed, never held), CPUs = RAM/16 (free under max(CPUs, GB/16)); /data/aai/aa_evals/audits/server_shapes_20261114/report.md
+cpus_per_gpu = 6
+memory_gib_per_gpu = 64   # peak 5 GiB (1xB200 replay, 160 agents); serving cores p99 1.9, start-up 2.6; was 16 / 128
+cuda_capability = "9.0"   # H100
+disk_gib = 60
+bid_per_job = { 1 = 101 }
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu123", "gpu132", "gpu143", "gpu166"]
+
+[worker_resources]
+slots = 11
+cpus = 20
+memory_gib = 320
+disk_gib = 1024
+bid = 56
+exclude_nodes = ["gpu132", "cpu101"]
+
+[admission]
+initial_limit_per_backend = 40
+maximum_limit_per_backend = 96
+emergency_kv_high = 0.72
+resume_kv = 0.55

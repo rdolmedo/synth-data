@@ -1,0 +1,130 @@
+# M1 production configuration (#118; milestone #49): every decision for generating M1's data, in one place.
+# Change a value here (and say so on #49), not in code. Runbook: task_synthesis/PIPELINE.md, "M1 production".
+#   python -m task_synthesis.pipeline.production plan --name <run> --tokens <saved tokens> [--milestones ...]
+#   python -m task_synthesis.pipeline.production launch --name <run>
+#   python -m task_synthesis.pipeline.production status --name <run>
+
+[recipe]
+vocab = "v2h0"                  # spec vocabulary (#25; PRs #65, #109, #164: v2h0 = v2h with cap_new 0 + TB language floor; user 2026-11-04, #165)
+minutes_mix = "easy-heavy"      # difficulty targets (#26; PR #45)
+traces_per_task = 2             # M = 2 Super traces per task (user 2026-11-03 23:25, for the 1B pilot; #116 had M = 1)
+trace_judge = false             # no `traces run`, SFT keeps every task's traces (#57; PR #106)
+keep_truncated_attempts = true  # SFT prep: tail-cut attempts are training data (no --exclude-attempts; 2026-11-02)
+# Real assets (#117, decided 2026-11-04): oneshot = 1st A/B (realasset). Over two training seeds per arm it ties wx
+# (4th A/B) on tbmix (wx -0.3 pp) and on full TB2.1 (wx +0.3 pp), at ~1/3 of wx's DeepSeek tokens per real-asset task
+# (#20, final A/B results).
+#   wx = 4th A/B (lean3 sandbox author + judge repair, author effort high): kept for tasks whose verifiers must be
+#        right (RL); for SFT it bought nothing over oneshot.
+#   (the 5th A/B's wy preset, author effort low, -4.1 pp vs student 1 on tbmix, was removed)
+#   off = no binding. The preset applies to bound specs only; every other spec is a one-shot generated task with
+#   student 1's settings (round --effort-scope asset).
+real_assets = "oneshot"
+# Share of eligible specs sent to binding: 0.64 (user, 2026-11-04, kept from the pilot). With v2h 69% of specs are
+# eligible, 78% of those bind (m1-pilot) and one-shot real-asset traces run ~51k vs ~41k tokens, so 0.64 -> ~34% of
+# tasks, ~39% of Super tokens (`plan` prints the expected shares). The A/Bs swapped ~48-50% of tokens; 0.8 would match.
+# m1-pilot (wx, 0.64) got 30% of traced tasks and 38% of tokens: the round's STOP cut 687 bound specs still in flight
+# (wx's sandbox authors are slow, so the cut fell on real-asset tasks); one-shot real-asset specs take as long as the
+# others, so the cut no longer selects them.
+asset_share = 0.64
+# Eligible = bucket best-generated, anchor class not listed here. crypto-material: scrub.py redacts private keys, so a
+# real key-based asset would arrive broken.
+bind_excluded_classes = ["crypto-material"]
+
+[specs]
+seed = 1180                     # one seeded spec order per run (the run name is added to it)
+oversupply = 1.4                # specs per task the token budget needs (judge pass ~85-90%; the driver stops early)
+tokens_per_task_generated = 41000   # Super saved tokens per trace, prior for sizing only (#120: ~41k, easy-heavy)
+tokens_per_task_asset = 51000       # one-shot real-asset traces: m1-pilot wx traces ~59k (30% of tasks, 38% of
+                                    # tokens) x one-shot/wx 0.87 (1st A/B 57.4k vs 4th 66.1k tokens per task)
+bind_rate = 0.78                # bound share of specs sent to binding (m1-pilot: 4,783 / 6,131; bf1 0.81)
+
+[generator]                     # task generation: DeepSeek-V4.1-Flash-1017 (4xB200 each)
+teacher = "deepseek-v41-flash-1017"
+servers = 2                     # production layout (#137): 2 DeepSeek + 8 Super; released when generation ends
+gpus = 4
+bid = 62                        # DeepSeek servers 62, above the Super engines (61) so they get their 4-GPU nodes first (user 2026-11-04)
+hours = 24                      # no server longer than ~24 h
+swap_lead_hours = 1.0           # the driver starts a server's replacement this long before `hours` (#124)
+
+[round]                         # one round, one queue, one server pool (PIPELINE.md, "Default from 2026-11-02")
+jobs = 12                       # workspace presets: ~3 sessions per CPU: 2 servers x 1,000 sessions / ~190 per 64-CPU job
+authors = 200                   # workspace presets: sandboxes per job (one-shot passes 0: admission bounds it)
+cpus = 24                       # m1-hero (64): 1-3 cores on average; builds wait on the network (~6 running,
+                                #   ~0.3 core each); 384 GiB / 16 = 24 units, so 24 CPUs cost nothing over the memory (#242)
+cpus_workspace = 64             # workspace presets (wx), whose authors each hold a sandbox; one-shot uses `cpus`
+memory_gib = 384
+disk_gib = 1000
+build_parallel = 32
+target_inflight = 1200          # workspace preset (wx): requests running + waiting per server
+target_sessions = 1000          # workspace presets: open author sessions per server
+# One-shot presets (oneshot/off) are load-gated too: a new spec starts while the pool has fewer requests running +
+# waiting than this per server (no session cap, no --authors cap). m1-pilot (wx): ~1,000 running per server ->
+# 45.8k tok/s, KV <= 0.16, prefix hit 0.90; one-shot rounds 10-31: 2,273 in flight on one server -> 64k tok/s.
+# Step it up live while the prefix hit stays > 0.85 (#124): <round>/admission.json {"target_inflight": 2500}.
+# Kept at 2,000 per server: on vllm032, DSpark-3 (#163) beat 5 by 6.5% at 2,000 but lost 3% at 2,500 (verify batches
+# padding to the next CUDA graph above ~512 running per rank). Since 2026-11-19 the servers run DSpark-5 on vLLM main
+# (#478 one-shot replay: 5 ties 3 at 2,000); 2,500 is unmeasured there, so re-measure before raising this.
+oneshot_target_inflight = 2000
+knee_inflight_per_server = 2500 # one-shot presets: each job's --concurrency ceiling = 2 x this x servers / jobs
+bind_window = 1200              # streamed binding: max pending specs before a spec still waiting for their binding;
+                                #   above the bind job's in-flight width (600 slots), or binding latency, not its rate,
+                                #   paces the round (m1-hero, 300: held at the window, 2026-11-04). Live: admission.json
+bid = 56
+cheap_bid = 25                  # as many shards as fit on CPU-only and A100 nodes (floor <= 25) at 25, the rest at
+cheap_bid_wait_min = 5          #   `bid`; shards still idle after this are rebid to `bid` (#242)
+
+[bind]                          # streamed binding (task_synthesis.assets.bind run --round)
+# Slots: each spec holds one for ~5-10 min of DeepSeek replies (shortlist + up to 3 fit checks), so the rate is about
+# slots / 7.5 min. m1-pilot: 96 slots -> ~7 specs/min, 300 -> ~35-40/min warm. One-shot production at asset_share 0.64
+# needs ~29/min at 2 servers, ~37/min after #124's load step-up, ~58/min at 4: 600 (user, 2026-11-04). Fit checks are
+# ~1% of DeepSeek's load; GitHub search waits are shared holds (code search only as a fallback).
+concurrency = 600               # (concurrency_per_server, if set, replaces this: slots = it x DeepSeek servers)
+http_concurrency = 128          # downloads and catalog calls (m1-pilot: ~5 MB per spec), scaled with the slots
+# Cold cells (m1-bind, #133): GitHub repository search (25 queries/min, one token) capped m1-pilot's binding. A spec in
+# a cell new to the bind held its slot 18 min (search queue) against 3.8 min in a known one, and a production-size run
+# sizes each new cell's first grow for the whole run (up to 24 queries). Bench (production spec order, 600 slots,
+# 58 binds/min asked): today's code loses 225 of the first 240 min, warm start alone 98, warm start + grow_now 0.
+warm_from = "auto"              # cells start with earlier binds' candidates (77% of a production draw's specs land in
+                                #   a cell with >= 3); their bound specs count toward MAX_USES 2
+grow_now = 3                    # a new cell runs 3 queries per catalog for the waiting spec; the rest of its k in the
+                                #   background at low gate priority (normal again once a spec waits for them)
+cpus = 8                        # m1-pilot used 0.42 cores, m1-hero 0.6; 64 GiB / 16 = 4 units (#242)
+memory_gib = 64
+bid = 35
+
+[campaign]                      # Super Pi traces, streamed ([train.stream])
+template = "synth/campaigns/nemotron35-super-tasksynth-m1.toml"
+engines = 8
+serving_bid = 61                # Super engines (user 2026-11-04)
+workers = 32
+max_workers = 104
+
+[campaign.autoscale]            # #234 R1 (synth/autoscale.py): Super starts with `start` engines and follows demand
+                                # (active + dispatchable attempts vs engines x the kv_fit limit) up to `engines`.
+start = 2                       # m1-hero's ramp kept 7 engines mostly idle for ~2 h (#172 entry 5)
+up_backlog = 1.0                # add one engine when demand exceeds the engines' fit by one engine's fit ...
+up_seconds = 300                # ... for 5 min (an engine takes ~5 min to get healthy)
+down_util = 0.5                 # drain one engine when demand stays below half of the engines' fit ...
+down_seconds = 900              # ... for 15 min (drained engines finish their attempts, then are released)
+# CPU replay of m1-hero's supply (synth/analysis/autoscale_replay.py, #234): 121.7 B200-h vs 139.8 for 8 engines from
+# the start (real run: 138.3), same close; the thresholds move it by +-2 B200-h. Most of the saving is the ramp.
+
+[stop]
+# The driver writes <round>/STOP once the tasks already streamed or accepted cover the token budget:
+# projected campaign tokens + (streamed, unopened + accepted, unpublished tasks) x tokens per trace >= budget x (1 + margin).
+# The campaign then stops at its budget ("saved") and keeps the cut attempts as truncated training data.
+supply_margin = 0.03              # (user, 2026-11-05, #172: 1.05 left 3.4% of m1-hero's accepted tasks untraced, with the
+                                # campaign projection +1.8% high at close; was 0.10 -> 0.05 on 11-04, #124)
+
+[decontam]                      # #127: `decontam.pool run --production <run.json> --follow` (main pass at STOP, last at END)
+hold_hours = 3                  # the driver keeps the DeepSeek servers while <run>/decontam.HOLD exists (the last pass
+                                #   judges on them), at most this long after the round's end or until the job is gone
+
+[quota]
+# /data's per-user FILE quota (41.9M) is the limit that bites (2026-10-25: at the limit every write failed and a
+# 4xB200 + ~100 workers ran for nothing). The round's outputs are loose files: the m1-pilot made ~38 per accepted task
+# (tasks/ ~27, work/ ~9, assets/ ~2); the campaign packs its attempts (~130k loose at any time).
+# Warnings only (user, 2026-11-04): nothing refuses or stops a run.
+files_per_task = 40             # plan warns if a run would leave < alert_free_files free
+campaign_loose_files = 200000
+alert_free_files = 2000000      # driver: ALERT below this, at most hourly

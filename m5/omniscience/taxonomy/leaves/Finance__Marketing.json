@@ -1,0 +1,478 @@
+{
+ "domain": "Finance",
+ "subtopic": "Marketing",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "History of marketing thought, AMA definitions and the marketing mix",
+   "scope": "How core marketing concepts arose and changed: Borden's marketing mix, McCarthy's 4Ps, Booms and Bitner's 7Ps, Levitt's Marketing Myopia, the production, sales and marketing orientation eras, successive AMA definitions of marketing, and the founding of the field's journals and associations.",
+   "queries": [
+    "Neil Borden marketing mix 1953 McCarthy 4Ps",
+    "American Marketing Association definition of marketing approved",
+    "Levitt Marketing Myopia Harvard Business Review 1960",
+    "history of marketing thought production orientation era"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Market segmentation, positioning and geodemographic/psychographic classification systems",
+   "scope": "The segmentation, targeting and positioning (STP) process, segmentation bases and perceptual maps, plus commercial consumer classification systems such as Claritas PRIZM, CACI ACORN, Experian Mosaic, SRI/Strategic Business Insights VALS and generational cohort definitions.",
+   "queries": [
+    "Claritas PRIZM segments geodemographic segmentation",
+    "VALS psychographic segmentation SRI framework types",
+    "ACORN Mosaic consumer classification categories groups",
+    "segmentation targeting positioning perceptual map bases"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consumer behavior, persuasion and advertising response models",
+   "scope": "Models of how consumers decide and how advertising persuades them: the Engel-Kollat-Blackwell and Howard-Sheth models, involvement, cognitive dissonance, hierarchy-of-effects models (AIDA, Lavidge-Steiner, DAGMAR), the Elaboration Likelihood Model, the FCB grid and Krugman's three-exposure theory.",
+   "queries": [
+    "Howard Sheth model buyer behavior Engel Kollat Blackwell",
+    "Lavidge Steiner hierarchy of effects model stages",
+    "elaboration likelihood model central peripheral route Petty Cacioppo",
+    "DAGMAR Colley advertising goals FCB grid involvement"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Brand equity models and brand valuation rankings",
+   "scope": "Brand equity frameworks (Aaker's model, Keller's CBBE pyramid, Y&R BrandAsset Valuator) and the methods and results of brand valuation rankings such as Interbrand Best Global Brands, Kantar BrandZ, Brand Finance and the ISO 10668 standard.",
+   "queries": [
+    "Interbrand Best Global Brands ranking brand value",
+    "Keller customer-based brand equity pyramid resonance",
+    "Kantar BrandZ most valuable global brands",
+    "Brand Finance royalty relief brand valuation ISO 10668"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Brand architecture, brand extensions, licensing and private labels",
+   "scope": "How brand portfolios are structured (branded house, house of brands, endorsed brands), line and category extensions, co-branding, brand licensing arrangements and retailer private-label or store brands.",
+   "queries": [
+    "branded house versus house of brands architecture",
+    "brand extension failures category extension examples",
+    "brand licensing royalty licensor licensee retail sales",
+    "private label store brands share retailer Kirkland"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Pricing strategy and price research methods",
+   "scope": "Pricing objectives and tactics (skimming, penetration, psychological and odd pricing, bundling, dynamic pricing and revenue management) and price research methods such as the Van Westendorp price sensitivity meter, Gabor-Granger and measuring price elasticity.",
+   "queries": [
+    "Van Westendorp price sensitivity meter Gabor Granger",
+    "price skimming penetration pricing strategy examples",
+    "psychological odd pricing charm price endings",
+    "dynamic pricing revenue management airline yield management"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pricing, distribution and franchise law",
+   "scope": "Law on vertical pricing and distribution: Robinson-Patman price discrimination, resale price maintenance (Dr. Miles, Colgate, Leegin), minimum advertised price policies, the EU vertical block exemption, and franchise regulation including the FTC Franchise Rule and the Franchise Disclosure Document.",
+   "queries": [
+    "Robinson-Patman Act price discrimination defenses",
+    "resale price maintenance Leegin Dr. Miles Colgate doctrine",
+    "FTC Franchise Rule Franchise Disclosure Document items",
+    "minimum advertised price policy vertical block exemption"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Advertising agency history, holding companies and landmark campaigns",
+   "scope": "How the advertising agency business developed (the commission system, Madison Avenue agencies, the creative revolution), its consolidation into holding companies such as WPP, Omnicom, Publicis, IPG, Dentsu and Havas, and famous campaigns, slogans and creative awards (Cannes Lions, Clio, Effie).",
+   "queries": [
+    "WPP Omnicom Publicis advertising holding company acquisition",
+    "Doyle Dane Bernbach Think Small Volkswagen campaign",
+    "advertising agency commission system 15 percent",
+    "Cannes Lions Clio Effie advertising awards history"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Media planning metrics and audience measurement",
+   "scope": "Media planning and buying concepts (GRPs, TRPs, reach, frequency, CPM, effective frequency, share of voice, dayparts), audience measurement currencies such as Nielsen ratings, C3/C7, Arbitron PPM, Alliance for Audited Media circulation audits, BARB and MRC accreditation, and the upfront and sweeps markets.",
+   "queries": [
+    "gross rating points reach frequency CPM calculation",
+    "Nielsen ratings share sweeps C3 commercial ratings",
+    "Arbitron portable people meter radio ratings",
+    "television upfront market advertising commitments"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "False advertising law and advertising self-regulation",
+   "scope": "Legal and self-regulatory limits on advertising claims: FTC Act Sections 5 and 12, the ad substantiation doctrine, the FTC Endorsement Guides and Green Guides, Lanham Act Section 43(a) suits between competitors, NAD/NARB under BBB National Programs, and the UK ASA and CAP Code.",
+   "queries": [
+    "FTC advertising substantiation doctrine deceptive claims",
+    "Lanham Act section 43(a) false advertising comparative",
+    "National Advertising Division NARB challenge decision",
+    "FTC Endorsement Guides Green Guides 16 CFR"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Programmatic advertising and ad tech infrastructure",
+   "scope": "The supply chain for digital display and video ads: ad servers, DSPs, SSPs, ad exchanges, real-time bidding, header bidding, OpenRTB, ads.txt, VAST and other IAB Tech Lab standards, viewability and ad fraud, and the major ad tech companies.",
+   "queries": [
+    "real-time bidding demand-side platform supply-side platform",
+    "header bidding Prebid ad exchange auction",
+    "IAB Tech Lab OpenRTB ads.txt VAST standard",
+    "programmatic advertising gross spend take rate"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Search engine marketing and search engine optimization",
+   "scope": "Paid search (pay-per-click auctions, Google Ads/AdWords, Microsoft Advertising, Quality Score, keyword match types) and organic SEO (PageRank, named ranking-algorithm updates, crawling and indexing practices).",
+   "queries": [
+    "Google Ads Quality Score ad rank auction",
+    "GoTo.com Overture pay-per-click search advertising history",
+    "Google algorithm update Panda Penguin Hummingbird",
+    "keyword match types broad phrase exact"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Social media and influencer marketing",
+   "scope": "Advertising and brand-building on social platforms (Meta, TikTok, Snap, Pinterest, LinkedIn, YouTube), their ad formats and reported metrics such as DAU and ARPU, and influencer and creator marketing tiers, programs and engagement metrics.",
+   "queries": [
+    "influencer marketing nano micro macro tiers engagement rate",
+    "Facebook advertising revenue average revenue per user",
+    "TikTok Spark Ads creator marketplace brand",
+    "Snap Pinterest daily active users advertising revenue"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Direct marketing, email and telemarketing regulation",
+   "scope": "Direct-response channels (direct mail, catalogs, email, telemarketing, SMS), the laws that govern them (CAN-SPAM, TCPA, Telemarketing Sales Rule, National Do Not Call Registry, CASL, UK PECR) and benchmark response rates.",
+   "queries": [
+    "CAN-SPAM Act commercial email requirements penalties",
+    "Telephone Consumer Protection Act autodialer consent",
+    "National Do Not Call Registry Telemarketing Sales Rule",
+    "direct mail response rate catalog marketing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consumer data privacy, cookies and tracking in marketing",
+   "scope": "How personal data is collected and used for ad targeting: third-party cookies, device IDs, data brokers, consent management (IAB TCF), GDPR, ePrivacy, CCPA/CPRA, Apple App Tracking Transparency and Google Privacy Sandbox.",
+   "queries": [
+    "App Tracking Transparency IDFA advertising impact",
+    "third-party cookie deprecation Google Privacy Sandbox Chrome",
+    "GDPR ePrivacy cookie consent marketing",
+    "California Consumer Privacy Act sale sharing opt-out"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Marketing mix modeling, attribution and incrementality measurement",
+   "scope": "Econometric and experimental measurement of marketing ROI: marketing mix modeling, adstock and carryover, saturation curves, multi-touch and last-click attribution, open-source MMM tools (Robyn, Meridian), and geo-lift and holdout incrementality tests.",
+   "queries": [
+    "marketing mix modeling adstock carryover Broadbent",
+    "multi-touch attribution last-click data-driven models",
+    "geo lift incrementality test holdout experiment",
+    "Meta Robyn Google Meridian open source MMM"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Marketing research methods and the market research industry",
+   "scope": "Primary and secondary research techniques (survey scales, conjoint analysis, focus groups, ethnography, panels, sampling) and the industry itself: its major firms, syndicated data services and professional bodies such as ESOMAR and the Insights Association.",
+   "queries": [
+    "conjoint analysis choice-based part-worth utilities",
+    "Likert scale semantic differential Osgood measurement",
+    "focus group moderator qualitative research history",
+    "Nielsen Kantar Ipsos Circana market research firms revenue"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Customer satisfaction, loyalty and lifetime value metrics",
+   "scope": "Customer-level performance metrics: Net Promoter Score, ACSI, CSAT, Customer Effort Score, retention and churn, customer lifetime value formulas, RFM analysis and LTV-to-CAC ratios.",
+   "queries": [
+    "Net Promoter Score Reichheld promoters detractors",
+    "American Customer Satisfaction Index methodology scores",
+    "customer lifetime value formula retention rate discount",
+    "RFM analysis recency frequency monetary segmentation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Services marketing and service quality models",
+   "scope": "What sets services marketing apart: the IHIP characteristics, the extended 7Ps, SERVQUAL and its five dimensions, the gaps model, the servicescape, service blueprinting, moments of truth and service-dominant logic.",
+   "queries": [
+    "SERVQUAL five dimensions Parasuraman Zeithaml Berry",
+    "gaps model of service quality",
+    "service blueprinting Shostack line of visibility",
+    "servicescape Bitner service-dominant logic Vargo Lusch"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sales promotion, coupons, sweepstakes and loyalty programs",
+   "scope": "Consumer and trade promotion tools (coupons, free-standing inserts, rebates, premiums, samples, contests and sweepstakes law, trade allowances) and loyalty and rewards programs such as airline frequent-flyer and retailer card schemes, including how points and breakage are accounted for.",
+   "queries": [
+    "coupon redemption rates free standing inserts",
+    "sweepstakes contest lottery consideration chance prize",
+    "frequent flyer program history AAdvantage loyalty",
+    "loyalty program points breakage deferred revenue"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "New product development, diffusion of innovations and product life cycle",
+   "scope": "How new products are developed, adopted and managed over their lives: Stage-Gate and other NPD processes, test marketing, Rogers' adopter categories, the Bass diffusion model, Moore's chasm, studies of product failure and the stages of the product life cycle.",
+   "queries": [
+    "Rogers diffusion of innovations adopter categories percentages",
+    "Bass diffusion model coefficient innovation imitation",
+    "Stage-Gate new product development process Cooper",
+    "product life cycle stages introduction maturity decline"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Strategic marketing planning and portfolio frameworks",
+   "scope": "Analytical frameworks used in marketing strategy: the BCG growth-share matrix, the GE-McKinsey nine-box, the Ansoff product-market matrix, SWOT, Porter's generic strategies, the PIMS database and competitive-position concepts.",
+   "queries": [
+    "BCG growth share matrix stars cash cows dogs",
+    "Ansoff matrix market penetration diversification",
+    "GE McKinsey nine-box matrix industry attractiveness",
+    "PIMS profit impact of market strategy findings"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Marketing channels, retailing formats and category management",
+   "scope": "Designing and managing channels (intermediaries, channel conflict, vertical marketing systems, omnichannel), retail formats and their history, category management, planograms, slotting allowances and shopper marketing.",
+   "queries": [
+    "slotting allowances supermarket new product fees",
+    "category management category captain planogram",
+    "vertical marketing system channel conflict intermediaries",
+    "retail formats hypermarket warehouse club history"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Personal selling, sales force management and B2B buying behavior",
+   "scope": "The selling process and sales methods (SPIN, Challenger), sales force structure, quotas and compensation, CRM systems, and organizational buying concepts such as the buying center, buy classes and account-based marketing.",
+   "queries": [
+    "buying center roles organizational buying behavior Webster Wind",
+    "buy classes straight rebuy modified rebuy new task",
+    "SPIN selling Rackham Challenger sale methodology",
+    "sales force compensation quota commission structure"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "International and cross-cultural marketing",
+   "scope": "Marketing across borders: standardization versus adaptation, Levitt's globalization thesis, Perlmutter's EPRG framework, Hofstede's cultural dimensions, country-of-origin effects, market entry modes and problems with translating brand names.",
+   "queries": [
+    "Hofstede cultural dimensions scores individualism power distance",
+    "standardization versus adaptation global marketing Levitt",
+    "country of origin effect product evaluations",
+    "international market entry modes licensing joint venture"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trademark law and brand protection",
+   "scope": "Legal protection of brand identifiers: Lanham Act registration, the Abercrombie distinctiveness spectrum, the Nice classification, the Madrid Protocol, trade dress, dilution under the TDRA, genericide and anti-counterfeiting enforcement.",
+   "queries": [
+    "Abercrombie spectrum distinctiveness arbitrary fanciful suggestive",
+    "Nice classification trademark classes goods services",
+    "genericide trademarks became generic examples",
+    "trade dress dilution Trademark Dilution Revision Act"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Packaging, labeling and product identification codes",
+   "scope": "Packaging design and functions, labeling rules (Fair Packaging and Labeling Act, Nutrition Facts, country-of-origin labeling, EU food information rules) and product identifiers such as UPC/EAN barcodes and GS1 standards.",
+   "queries": [
+    "Universal Product Code first scanned 1974 barcode",
+    "GS1 GTIN EAN barcode standard prefix",
+    "Fair Packaging and Labeling Act requirements",
+    "Nutrition Facts label FDA format changes"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public relations, crisis communication and cause-related marketing",
+   "scope": "PR history and practice (Ivy Lee, Edward Bernays, press agentry, PRSA and IPR), measurement standards such as the Barcelona Principles, classic corporate crisis cases, and cause marketing campaigns tied to CSR.",
+   "queries": [
+    "Edward Bernays Ivy Lee public relations history",
+    "Tylenol crisis 1982 Johnson Johnson response",
+    "Barcelona Principles PR measurement AMEC",
+    "cause-related marketing American Express Statue of Liberty"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sponsorship, naming rights and sports marketing",
+   "scope": "Commercial sponsorship of sports, events and venues: the Olympic TOP programme, FIFA partners, stadium naming-rights deals, jersey and kit sponsorship, ambush marketing and how sponsorships are valued.",
+   "queries": [
+    "Olympic Partner TOP programme sponsors",
+    "stadium naming rights deal years million",
+    "ambush marketing Olympics World Cup examples",
+    "shirt sponsorship kit deal football club"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Financial services marketing and promotion rules",
+   "scope": "Marketing of banking, credit, insurance and investment products and the rules that govern it: the SEC Marketing Rule 206(4)-1, FINRA Rule 2210, SEC Rule 482 fund advertising, Truth in Lending/Regulation Z advertising trigger terms, UDAAP and the UK FCA financial promotions regime.",
+   "queries": [
+    "SEC Marketing Rule 206(4)-1 investment adviser testimonials",
+    "FINRA Rule 2210 communications with public retail",
+    "Regulation Z advertising triggering terms credit",
+    "FCA financial promotions rules cryptoasset"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accounting and disclosure of advertising and customer acquisition costs",
+   "scope": "How companies account for and report marketing spending: ASC 720-35 advertising costs, the former capitalization of direct-response advertising, ASC 606 consideration payable to a customer and sales incentives, ASC 340-40 costs of obtaining a contract, and advertising expense disclosures in 10-K filings.",
+   "queries": [
+    "advertising costs expensed as incurred advertising expense",
+    "ASC 720-35 direct response advertising capitalized",
+    "consideration payable to a customer reduction of revenue",
+    "incremental costs of obtaining contract capitalized commissions"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pharmaceutical and healthcare marketing",
+   "scope": "Promotion of drugs, devices and health services: direct-to-consumer advertising rules (brief summary, adequate provision, fair balance), FDA OPDP enforcement letters, detailing and sampling, the PhRMA Code and the Physician Payments Sunshine Act, and pharma promotional spending.",
+   "queries": [
+    "direct-to-consumer prescription drug advertising FDA 1997",
+    "OPDP untitled letter warning letter promotional",
+    "Physician Payments Sunshine Act Open Payments",
+    "pharmaceutical detailing sales representatives PhRMA Code"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Tobacco, alcohol, gambling and children's advertising restrictions",
+   "scope": "Limits on the content and media of marketing for vice products and of marketing to minors: the cigarette broadcast ban and the Master Settlement Agreement, the Tobacco Control Act, alcohol industry codes and TTB rules, gambling advertising codes, and children's advertising rules (CARU, COPPA, CFBAI).",
+   "queries": [
+    "cigarette advertising ban broadcast Master Settlement Agreement",
+    "distilled spirits television advertising voluntary code",
+    "Children's Advertising Review Unit guidelines COPPA",
+    "gambling advertising restrictions sports betting codes"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

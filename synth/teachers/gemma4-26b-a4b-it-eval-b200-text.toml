@@ -1,0 +1,104 @@
+# Text-only eval variant (#348, 2026-11-11) of gemma4-26b-a4b-it-eval-b200.toml: every AAI-open model is served without vision. The
+# only change is --language-model-only in place of the image allowance: vLLM 0.32 then skips building and
+# loading the vision tower (_mark_tower_model) and serves text alone; every other setting is the M3.6 spec's.
+# Launch evidence: aa_evals protocol.image_inputs and pi_eval model_input read --language-model-only as text-only.
+# 1xB200 variant of gemma4-26b-a4b-it-eval.toml (same model, protocol, parsers, sampling; B200 tuning below).
+# AA evals (M3.3, #176): google/gemma-4-26B-A4B-it as the MODEL UNDER TEST, 1xB200 per replica, 128k context, reasoning
+# on (Gemma 4's one switch: `<|think|>` via enable_thinking; AA scored "Gemma 4 26B A4B (Reasoning)"), Google's sampling
+# (T 1.0, top_p 0.95, top_k 64), the Pi harness's tool calls (gemma4 tool parser) and single-turn benchmarks with images.
+# Base: the judge spec synth/teachers/gemma4-26b-a4b-it.toml (study s3, #41): same checkpoint (Google's 2026-07-09
+# template fix), runtime, parsers and stop tokens. Differences: 131,072-token protocol window (serve_teacher PROFILE),
+# images on (GDP.pdf, HLE), the admission gate in front (PROFILE), and the tuned serving below (FP8 weights + KV, MTP4,
+# CPU tier; TB 2.1 replay ~1.6-2.0k gen tok/s at 64-128 agents per H100). 1xB200: gemma4-26b-a4b-it-eval-b200.toml.
+# History: Gemma's template keeps an assistant turn's reasoning (`reasoning` or `reasoning_content`) only after the last
+# user message, so a Pi episode resends its earlier reasoning until Pi's "Thinking exceeded the maximum thinking budget,
+# please continue." user message (an output-capped turn), which drops all reasoning before it.
+slug = "gemma4-26b-a4b-it-eval-b200-text"
+model = "google/gemma-4-26B-A4B-it"
+revision = "4d7ae4984b7db7de8f8457170b3f1a419ee76d52"
+checkpoint = "/data/aai/models/gemma-4-26B-A4B-it-4d7ae49"
+served_name = "gemma-4-26b-a4b-it"
+# served_name gemma-4-26b-a4b-it also names the BF16 judge recipe (gemma4-26b-a4b-it(-vl).toml): results tell them
+# apart by weights_quantization / numerics_sha256 (endpoints.json, numerics.<job>.json).
+quantization = "fp8 (online, from bfloat16)"   # --quantization fp8 (tunable quantization) on the BF16 checkpoint
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+env = { HF_HUB_OFFLINE = "1", HF_HUB_DISABLE_XET = "1", VLLM_MAX_MEDIA_REQUEST_DECODE_BYTES = "2147483648", VLLM_ENGINE_READY_TIMEOUT_S = "3600", VLLM_USE_SIMPLE_KV_OFFLOAD = "1" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--max-model-len", "{max_model_len}", "--tensor-parallel-size", "1", "--gpu-memory-utilization", "{gpu_util}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--enable-chunked-prefill", "--enable-auto-tool-choice",
+  "--tool-call-parser", "gemma4", "--reasoning-parser", "gemma4", "--generation-config", "vllm", "--seed", "{seed}",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"top_k":64,"min_p":0.0,"presence_penalty":0.0,"repetition_penalty":1.0,"max_tokens":{max_output_tokens},"stop_token_ids":[1,106,50]}}',
+  "--default-chat-template-kwargs", '{{"enable_thinking":true}}',
+  "--language-model-only",
+  "--no-enable-log-requests", "--enable-prompt-tokens-details",
+  "--structured-outputs-config", '{{"backend":"xgrammar","disable_any_whitespace":true}}',
+]
+seed = 0
+startup_timeout_sec = 3600
+
+[serving.tunables]
+gpu_util = 0.92
+max_seqs = 256
+max_batched = 16384
+omp_threads = 8
+# Tuned (aa_evals/gemmaserve/README.md; 1xB200): FP8 W8A8 weights + FP8 KV (3,866,463 KV tokens with MTP), MTP with 2
+# draft tokens (+19-47% over none; 3 is no better), no CPU tier (no gain on B200: the overload past ~192 agents is compute,
+# not evictions), 32k batched tokens no better than 16k. ~5.6-6.1k gen tok/s at 128-192 agents.
+quantization = "fp8"
+kv_cache_dtype = "fp8"
+mtp = 2
+
+[serving.optional_args]
+quantization = ["--quantization", "{quantization}"]               # "fp8": online W8A8 (dynamic activations)
+kv_cache_dtype = ["--kv-cache-dtype", "{kv_cache_dtype}"]         # "fp8" / "fp8_e4m3"
+mtp = ["--speculative-config", '{{"method":"mtp","model":"/data/aai/models/gemma-4-26B-A4B-it-assistant","num_speculative_tokens":{mtp}}}']
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+
+[request]
+client_model = "hosted_vllm/gemma-4-26b-a4b-it"
+overrides = { temperature = 1.0, top_p = 0.95, top_k = 64, min_p = 0.0, presence_penalty = 0.0, repetition_penalty = 1.0, chat_template_kwargs = { enable_thinking = true } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true }
+tokenize_crosscheck = "native"
+
+[serving_resources]
+# #378 (2026-11-14): sized from the job cgroup (task_synthesis/serve/reslog.py), RAM ~1.25x the non-reclaimable peak (rss + shmem + dirty; page cache is reclaimed, never held), CPUs = RAM/16 (free under max(CPUs, GB/16)); /data/aai/aa_evals/audits/server_shapes_20261114/report.md
+cpus_per_gpu = 6
+memory_gib_per_gpu = 64   # peak 6 GiB (1xB200 replay, 160 agents); serving cores p99 2.0, start-up 1.9; was 16 / 200
+cuda_capability = "10.0"   # B200
+disk_gib = 120
+bid_per_job = { 1 = 61 }   # B200 single-GPU (brief, #176)
+exclude_nodes = ["cpu203", "cpu205", "cpu207", "cpu208", "gpu110", "gpu132", "gpu166", "gpu123", "gpu143", "gpu172"]   # gpu166/g123/g143: /data lost writes (coordinator, 2026-11-05)
+
+[worker_resources]
+slots = 11
+cpus = 20
+memory_gib = 320
+disk_gib = 1024
+bid = 56
+exclude_nodes = ["gpu132", "cpu101", "gpu166", "gpu123", "gpu143", "gpu110", "gpu172"]
+
+[admission]
+initial_limit_per_backend = 40
+maximum_limit_per_backend = 48
+emergency_kv_high = 0.72
+resume_kv = 0.55

@@ -1,0 +1,269 @@
+{
+ "subtopics": [
+  {
+   "name": "Hydrodynamic stability of shear flows",
+   "scope": "Linear, non-modal and nonlinear instability and transition of parallel and nearly parallel flows such as channel, pipe, Couette, jet, wake and mixing-layer flows.",
+   "keywords": [
+    "hydrodynamic stability",
+    "Orr-Sommerfeld",
+    "critical Reynolds number",
+    "Kelvin-Helmholtz instability",
+    "transient growth",
+    "absolute instability",
+    "plane Poiseuille flow",
+    "Taylor-Couette",
+    "subcritical transition"
+   ]
+  },
+  {
+   "name": "Thermal and double-diffusive convection",
+   "scope": "Buoyancy- and surface-tension-driven convection, including Rayleigh-B\u00e9nard, Marangoni and salt-finger systems, with their onset thresholds, pattern selection and heat-transport scaling.",
+   "keywords": [
+    "Rayleigh-B\u00e9nard convection",
+    "Nusselt number",
+    "Rayleigh number",
+    "onset of convection",
+    "double-diffusive",
+    "salt fingers",
+    "Marangoni convection",
+    "pattern formation",
+    "Boussinesq approximation"
+   ]
+  },
+  {
+   "name": "Rotating and stratified geophysical flows",
+   "scope": "Dynamics of rotating and density-stratified fluids in atmospheres and oceans, including quasi-geostrophic dynamics, Rossby and inertia-gravity waves, Ekman layers and baroclinic instability.",
+   "keywords": [
+    "quasi-geostrophic",
+    "Rossby waves",
+    "internal gravity waves",
+    "baroclinic instability",
+    "Coriolis",
+    "stratified flow",
+    "shallow water equations",
+    "beta-plane",
+    "Ekman layer"
+   ]
+  },
+  {
+   "name": "Low-Reynolds-number flows and microswimmers",
+   "scope": "Stokes flow around particles, filaments and self-propelled microorganisms, including suspension rheology, hydrodynamic interactions, mobility problems and swimming kinematics.",
+   "keywords": [
+    "Stokes flow",
+    "microswimmer",
+    "squirmer",
+    "low Reynolds number",
+    "slender-body theory",
+    "suspension",
+    "hydrodynamic interactions",
+    "flagella",
+    "Jeffery orbits"
+   ]
+  },
+  {
+   "name": "Thin liquid films and lubrication",
+   "scope": "Viscous films and lubricated layers on substrates or in narrow gaps, including coating, spreading, dewetting, rupture, contact-line motion and viscous gravity currents.",
+   "keywords": [
+    "thin film equation",
+    "lubrication approximation",
+    "film rupture",
+    "dewetting",
+    "spreading droplet",
+    "contact line",
+    "coating flow",
+    "viscous gravity current",
+    "Landau-Levich"
+   ]
+  },
+  {
+   "name": "Drops, bubbles and capillary instabilities",
+   "scope": "Interfaces driven by surface tension, including jet breakup, pinch-off, drop and bubble oscillation, coalescence, and Rayleigh-Taylor and Faraday interfacial instabilities.",
+   "keywords": [
+    "Rayleigh-Plateau instability",
+    "pinch-off",
+    "surface tension",
+    "capillary waves",
+    "droplet coalescence",
+    "bubble dynamics",
+    "Rayleigh-Taylor instability",
+    "Faraday waves",
+    "Rayleigh-Plesset"
+   ]
+  },
+  {
+   "name": "Nonlinear water waves and solitons",
+   "scope": "Surface and interfacial gravity-capillary waves and their weakly nonlinear model equations, including steep periodic waves, modulational instability, solitary waves and wave-wave resonances.",
+   "keywords": [
+    "water waves",
+    "Korteweg-de Vries",
+    "nonlinear Schr\u00f6dinger equation",
+    "solitary wave",
+    "Stokes wave",
+    "modulational instability",
+    "Benjamin-Feir",
+    "resonant triads",
+    "dispersion relation"
+   ]
+  },
+  {
+   "name": "Turbulence cascades and intermittency",
+   "scope": "Statistical theory of homogeneous turbulence in two and three dimensions, including energy and enstrophy cascades, structure functions, passive-scalar mixing and shell models.",
+   "keywords": [
+    "isotropic turbulence",
+    "energy cascade",
+    "Kolmogorov",
+    "intermittency",
+    "structure functions",
+    "two-dimensional turbulence",
+    "passive scalar",
+    "shell model",
+    "anomalous scaling"
+   ]
+  },
+  {
+   "name": "Boundary layers and wall-bounded flows",
+   "scope": "Laminar and turbulent boundary layers, separation and near-wall flow structure, including similarity profiles, triple-deck interaction theory and logarithmic-law scaling in channels and pipes.",
+   "keywords": [
+    "boundary layer",
+    "Blasius",
+    "Falkner-Skan",
+    "flow separation",
+    "triple-deck",
+    "skin friction",
+    "log law",
+    "channel flow",
+    "pipe flow"
+   ]
+  },
+  {
+   "name": "Vortex dynamics and point vortices",
+   "scope": "Motion, interaction and stability of concentrated vorticity, including point-vortex systems, vortex patches, rings, filaments and vortex streets.",
+   "keywords": [
+    "point vortices",
+    "vortex ring",
+    "vortex patch",
+    "vortex filament",
+    "Kirchhoff ellipse",
+    "vortex street",
+    "vortex stability",
+    "vortex reconnection",
+    "Euler equations"
+   ]
+  },
+  {
+   "name": "Compressible flows and shock waves",
+   "scope": "Gas dynamics at finite Mach number, including shock structure, Riemann problems, nozzle flows, blast waves, shock-driven interfacial instabilities and aeroacoustic sound generation.",
+   "keywords": [
+    "shock wave",
+    "Mach number",
+    "Rankine-Hugoniot",
+    "Riemann problem",
+    "blast wave",
+    "Richtmyer-Meshkov",
+    "aeroacoustics",
+    "supersonic flow",
+    "compressible Euler equations"
+   ]
+  },
+  {
+   "name": "Porous media and Hele-Shaw flows",
+   "scope": "Flow through porous matrices and narrow gaps governed by Darcy-type laws, including viscous fingering, displacement fronts, Laplacian growth and convection in porous layers.",
+   "keywords": [
+    "Hele-Shaw cell",
+    "Saffman-Taylor",
+    "viscous fingering",
+    "Darcy flow",
+    "porous medium",
+    "Laplacian growth",
+    "Brinkman equation",
+    "permeability",
+    "Horton-Rogers-Lapwood"
+   ]
+  },
+  {
+   "name": "Chaotic advection and Lagrangian transport",
+   "scope": "Mixing and transport of passive tracers by laminar, time-dependent flows, including Lagrangian coherent structures, transport barriers, lobe dynamics and chaotic stirring.",
+   "keywords": [
+    "chaotic advection",
+    "Lagrangian coherent structures",
+    "mixing",
+    "transport barriers",
+    "lobe dynamics",
+    "finite-time Lyapunov exponent",
+    "stirring",
+    "passive tracer",
+    "invariant manifolds"
+   ]
+  },
+  {
+   "name": "Low-dimensional chaos and bifurcations",
+   "scope": "Chaotic dynamics of maps, ODE models and coupled oscillators, including routes to chaos, strange attractors, Lyapunov spectra, Hamiltonian chaos and synchronization.",
+   "keywords": [
+    "Lorenz system",
+    "strange attractor",
+    "Lyapunov exponent",
+    "period doubling",
+    "homoclinic bifurcation",
+    "chaos synchronization",
+    "coupled map lattice",
+    "logistic map",
+    "Hamiltonian chaos"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Normal-mode and Floquet stability analysis",
+   "scope": "Linearizing about a steady or time-periodic base state and solving the resulting eigenvalue problem (dispersion relation, Orr-Sommerfeld, Mathieu/Floquet) for growth rates, neutral curves and critical parameters."
+  },
+  {
+   "name": "Weakly nonlinear amplitude equation derivation",
+   "scope": "Using multiple scales, center-manifold or normal-form reduction near onset to derive Landau or Ginzburg-Landau equations and compute their coefficients, saturation amplitudes and bifurcation type."
+  },
+  {
+   "name": "Matched asymptotic and WKB expansions",
+   "scope": "Building inner and outer or WKB approximations in a small parameter and matching them to obtain leading-order corrections, scaling laws and asymptotic eigenvalue conditions."
+  },
+  {
+   "name": "Long-wave lubrication and thin-layer reductions",
+   "scope": "Using a small aspect ratio to reduce the Navier-Stokes equations to evolution equations for film thickness or layer depth, then analyzing their steady states, stability and dynamics."
+  },
+  {
+   "name": "Self-similar solutions and scaling exponents",
+   "scope": "Reducing PDEs via similarity variables to ODEs and finding first- or second-kind similarity exponents and prefactors through nonlinear eigenvalue or phase-plane analysis."
+  },
+  {
+   "name": "Complex-variable and conformal mapping methods",
+   "scope": "Solving two-dimensional potential, Stokes or Hele-Shaw problems with complex potentials, conformal maps and Schwarz functions to obtain exact flow fields, forces and free-boundary shapes."
+  },
+  {
+   "name": "Stokes singularities and reciprocal theorems",
+   "scope": "Representing low-Reynolds-number flows with Stokeslets, multipoles and image systems, and using the Lorentz reciprocal theorem or Fax\u00e9n laws to obtain drag, mobilities and swimming velocities."
+  },
+  {
+   "name": "Integrable methods and exact soliton solutions",
+   "scope": "Applying inverse scattering, Hirota bilinear forms, B\u00e4cklund transformations or traveling-wave quadrature to nonlinear wave equations to obtain soliton amplitudes, speeds and conserved quantities."
+  },
+  {
+   "name": "Energy stability and variational bounds",
+   "scope": "Using energy functionals, Euler-Lagrange equations and the background-field method to derive rigorous stability thresholds and upper bounds on transport quantities such as dissipation or Nusselt number."
+  },
+  {
+   "name": "Exact statistical relations and turbulence closures",
+   "scope": "Deriving exact results from K\u00e1rm\u00e1n-Howarth-type balances, or solving tractable models such as the Kraichnan ensemble and spectral closures, to obtain structure-function laws, constants and anomalous exponents."
+  },
+  {
+   "name": "Characteristics and shock jump conditions",
+   "scope": "Solving hyperbolic conservation laws with characteristics, Riemann invariants and Rankine-Hugoniot conditions to find wave speeds, shock strengths, breaking times and Riemann-problem solutions."
+  },
+  {
+   "name": "Melnikov, Lyapunov and periodic-orbit methods",
+   "scope": "Quantifying chaos and transport in low-dimensional systems through Melnikov integrals, Lyapunov exponents, periodic-orbit and symbolic-dynamics analysis, and renormalization of bifurcation cascades."
+  }
+ ],
+ "field": "fluid dynamics",
+ "categories": [
+  "physics.flu-dyn",
+  "nlin.CD"
+ ]
+}

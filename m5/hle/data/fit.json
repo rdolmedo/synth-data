@@ -1,0 +1,401 @@
+{
+ "source": "cais/hle-diamond text-only-v1 (728 questions)",
+ "partition": {
+  "reasoning": 0.5,
+  "knowledge": 0.5
+ },
+ "category": {
+  "reasoning": {
+   "Biology/Medicine": 0.09221902017291066,
+   "Chemistry": 0.06051873198847262,
+   "Chess/Logic/Puzzle": 0.01440922190201729,
+   "Computer Science/AI": 0.1440922190201729,
+   "Engineering": 0.020172910662824207,
+   "Humanities/Social Science": 0.07492795389048991,
+   "Math": 0.4265129682997118,
+   "Other": 0.08357348703170028,
+   "Physics": 0.08357348703170028
+  },
+  "knowledge": {
+   "Biology/Medicine": 0.12598425196850394,
+   "Chemistry": 0.04461942257217848,
+   "Chess/Logic/Puzzle": 0.0026246719160104987,
+   "Computer Science/AI": 0.049868766404199474,
+   "Engineering": 0.03674540682414698,
+   "Humanities/Social Science": 0.24671916010498687,
+   "Math": 0.1679790026246719,
+   "Other": 0.29658792650918636,
+   "Physics": 0.028871391076115485
+  }
+ },
+ "mc_share": {
+  "reasoning": {
+   "Math": 0.12760369167913035,
+   "Computer Science/AI": 0.25268972142170987,
+   "Biology/Medicine": 0.4800329353643475,
+   "Humanities/Social Science": 0.3100384245917387,
+   "Physics": 0.2349072637257075,
+   "Other": 0.20926623808468187,
+   "Engineering": 0.2447872520766231,
+   "Chess/Logic/Puzzle": 0.21075888568683956,
+   "Chemistry": 0.10198010597750301
+  },
+  "knowledge": {
+   "Biology/Medicine": 0.36288351887048603,
+   "Other": 0.19550604954868447,
+   "Math": 0.06820600127686742,
+   "Humanities/Social Science": 0.22160811629315566,
+   "Engineering": 0.25196850393700787,
+   "Chemistry": 0.22397200349956256,
+   "Physics": 0.14510686164229472,
+   "Computer Science/AI": 0.2085256584306272,
+   "Chess/Logic/Puzzle": 0.18611309949892627
+  }
+ },
+ "subjects": {
+  "Biology/Medicine": {
+   "reasoning": {
+    "Medicine": 0.2697,
+    "Neuroscience": 0.1854,
+    "Biology": 0.132,
+    "Bioinformatics": 0.0899,
+    "Ecology": 0.0674,
+    "Immunology": 0.0632,
+    "Environmental Contamination": 0.059,
+    "broad": 0.0365,
+    "Biochemistry": 0.0351,
+    "Bioengineering": 0.0309,
+    "Genetics": 0.0309
+   },
+   "knowledge": {
+    "Biology": 0.2062,
+    "Neuroscience": 0.1272,
+    "Ecology": 0.1233,
+    "broad": 0.1021,
+    "Biochemistry": 0.0819,
+    "Molecular Biology": 0.0809,
+    "Medicine": 0.0694,
+    "Immunology": 0.0626,
+    "Biophysics": 0.0405,
+    "Biotechnology": 0.0405,
+    "Bioinformatics": 0.0231,
+    "Bioengineering": 0.0212,
+    "Genetics": 0.0212
+   }
+  },
+  "Chemistry": {
+   "reasoning": {
+    "Chemistry": 0.9032,
+    "broad": 0.0968
+   },
+   "knowledge": {
+    "Chemistry": 0.8847,
+    "broad": 0.1153
+   }
+  },
+  "Chess/Logic/Puzzle": {
+   "reasoning": {
+    "Chess": 1.0
+   },
+   "knowledge": {
+    "Chess": 1.0
+   }
+  },
+  "Computer Science/AI": {
+   "reasoning": {
+    "Computer Science": 0.7955,
+    "broad": 0.1197,
+    "Artificial Intelligence": 0.0641,
+    "Robotics": 0.0207
+   },
+   "knowledge": {
+    "Computer Science": 0.6068,
+    "Artificial Intelligence": 0.2376,
+    "broad": 0.1071,
+    "Robotics": 0.0485
+   }
+  },
+  "Engineering": {
+   "reasoning": {
+    "broad": 0.4459,
+    "Electrical Engineering": 0.342,
+    "Materials Science": 0.1775,
+    "Architecture": 0.0346
+   },
+   "knowledge": {
+    "broad": 0.4947,
+    "Materials Science": 0.2751,
+    "Architecture": 0.1323,
+    "Electrical Engineering": 0.0979
+   }
+  },
+  "Humanities/Social Science": {
+   "reasoning": {
+    "Linguistics": 0.2771,
+    "Classics": 0.1813,
+    "Law": 0.1482,
+    "Poetry": 0.106,
+    "broad": 0.0787,
+    "Economics": 0.073,
+    "Psychology": 0.0718,
+    "Philosophy": 0.0399,
+    "History": 0.0239
+   },
+   "knowledge": {
+    "Linguistics": 0.2768,
+    "History": 0.2217,
+    "Comparative Literature": 0.0844,
+    "broad": 0.0746,
+    "Law": 0.0647,
+    "Cultural Studies": 0.0633,
+    "English Literature": 0.0633,
+    "Classics": 0.0439,
+    "Philosophy": 0.0426,
+    "Education": 0.0317,
+    "Economics": 0.0218,
+    "Psychology": 0.0112
+   }
+  },
+  "Math": {
+   "reasoning": {
+    "Mathematics": 0.7442,
+    "Applied Mathematics": 0.1888,
+    "broad": 0.0536,
+    "Game Theory": 0.0134
+   },
+   "knowledge": {
+    "Mathematics": 0.857,
+    "Applied Mathematics": 0.143
+   }
+  },
+  "Other": {
+   "reasoning": {
+    "Puzzles": 0.2248,
+    "Trivia": 0.1967,
+    "broad": 0.1007,
+    "Game Design": 0.0981,
+    "Go": 0.0963,
+    "Games": 0.066,
+    "Chess": 0.0642,
+    "Poker": 0.0642,
+    "Musicology": 0.0541,
+    "Geography": 0.0348
+   },
+   "knowledge": {
+    "Trivia": 0.3627,
+    "Musicology": 0.2207,
+    "Art History": 0.1146,
+    "Classical Ballet": 0.0617,
+    "Film Studies": 0.0529,
+    "broad": 0.0448,
+    "Geography": 0.0267,
+    "Geology": 0.0265,
+    "Game Design": 0.0184,
+    "Games": 0.0181,
+    "Earth Science": 0.0176,
+    "Sports": 0.0176,
+    "Videogame Trivia": 0.0176
+   }
+  },
+  "Physics": {
+   "reasoning": {
+    "Physics": 0.8267,
+    "Astronomy": 0.1064,
+    "Fluid Mechanics": 0.0669
+   },
+   "knowledge": {
+    "Physics": 0.7568,
+    "Astronomy": 0.1689,
+    "broad": 0.0743
+   }
+  }
+ },
+ "raw_counts": {
+  "reasoning": {
+   "Math": {
+    "n": 148,
+    "mc": 18
+   },
+   "Computer Science/AI": {
+    "n": 50,
+    "mc": 13
+   },
+   "Biology/Medicine": {
+    "n": 32,
+    "mc": 18
+   },
+   "Humanities/Social Science": {
+    "n": 26,
+    "mc": 9
+   },
+   "Physics": {
+    "n": 29,
+    "mc": 7
+   },
+   "Other": {
+    "n": 29,
+    "mc": 6
+   },
+   "Engineering": {
+    "n": 7,
+    "mc": 2
+   },
+   "Chess/Logic/Puzzle": {
+    "n": 5,
+    "mc": 1
+   },
+   "Chemistry": {
+    "n": 21,
+    "mc": 1
+   }
+  },
+  "knowledge": {
+   "Biology/Medicine": {
+    "n": 48,
+    "mc": 19
+   },
+   "Other": {
+    "n": 113,
+    "mc": 22
+   },
+   "Math": {
+    "n": 64,
+    "mc": 3
+   },
+   "Humanities/Social Science": {
+    "n": 94,
+    "mc": 21
+   },
+   "Engineering": {
+    "n": 14,
+    "mc": 4
+   },
+   "Chemistry": {
+    "n": 17,
+    "mc": 4
+   },
+   "Physics": {
+    "n": 11,
+    "mc": 1
+   },
+   "Computer Science/AI": {
+    "n": 19,
+    "mc": 4
+   },
+   "Chess/Logic/Puzzle": {
+    "n": 1,
+    "mc": 0
+   }
+  }
+ },
+ "length_words": {
+  "reasoning/exactMatch": [
+   8,
+   19,
+   27,
+   36,
+   42,
+   45,
+   50,
+   59,
+   68,
+   77,
+   85,
+   97,
+   110,
+   127,
+   158,
+   173,
+   198,
+   231,
+   270,
+   349,
+   2433
+  ],
+  "reasoning/multipleChoice": [
+   22,
+   42,
+   46,
+   66,
+   96,
+   100,
+   104,
+   119,
+   127,
+   133,
+   147,
+   164,
+   172,
+   176,
+   204,
+   230,
+   252,
+   322,
+   397,
+   510,
+   1246
+  ],
+  "knowledge/exactMatch": [
+   10,
+   13,
+   17,
+   20,
+   23,
+   26,
+   28,
+   32,
+   35,
+   40,
+   43,
+   48,
+   51,
+   59,
+   66,
+   76,
+   97,
+   117,
+   157,
+   234,
+   2035
+  ],
+  "knowledge/multipleChoice": [
+   21,
+   26,
+   33,
+   36,
+   42,
+   46,
+   52,
+   56,
+   70,
+   80,
+   88,
+   98,
+   103,
+   115,
+   122,
+   141,
+   166,
+   169,
+   196,
+   261,
+   479
+  ]
+ },
+ "mc_options": {
+  "5": 88,
+  "6": 16,
+  "7": 15,
+  "8": 9,
+  "9": 6,
+  "10": 5,
+  "11": 4,
+  "12": 1,
+  "13": 2,
+  "14": 3,
+  "17": 1,
+  "19": 1,
+  "20": 1,
+  "21": 1
+ }
+}

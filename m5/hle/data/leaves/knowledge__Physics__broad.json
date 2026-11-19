@@ -1,0 +1,140 @@
+{
+ "partition": "knowledge",
+ "category": "Physics",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 15,
+ "leaves": [
+  {
+   "leaf": "Long-lived nuclear isomers and K-forbiddenness",
+   "scope": "Measured excitation energies, spin-parities, K quantum numbers, half-lives and decay branches of high-K and spin-trap isomers such as 180mTa, 178m2Hf, 229mTh and 242mAm. A question could ask for a reduced hindrance factor, a degree of K-forbiddenness, or a comparison with a Weisskopf single-particle estimate.",
+   "queries": [
+    "high-K isomer hindrance factor",
+    "K-forbidden transition reduced hindrance",
+    "178m2Hf isomer decay",
+    "229mTh nuclear clock transition",
+    "180mTa isomer half-life",
+    "spin-trap isomer multipolarity"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Rare ice-crystal halo arcs and orientations",
+   "scope": "Documented sightings and explanations of uncommon halos (Parry, Lowitz, Tape, Kern, Wegener, Hastings and elliptical halos), tied to specific crystal orientations and pairs of faces the light passes through. A question could ask which ray path and orientation produce a given arc, or have the solver compute its angular position from the refractive index of ice and the prism angle.",
+   "queries": [
+    "Parry arc crystal orientation",
+    "Lowitz arcs ray path",
+    "Kern arc halo",
+    "rare halo display simulation",
+    "ice prism minimum deviation halo",
+    "Wegener anthelic arc"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Victorian electrometers and galvanometer designs",
+   "scope": "Construction details, constants and inventors of 19th-century instruments such as Thomson's quadrant and absolute electrometers, the astatic and Wiedemann galvanometers, the d'Arsonval movement and the tangent galvanometer, as described in period treatises. A question could ask for a sensitivity or deflection worked out from the stated coil and suspension parameters, or for the order in which design features came in.",
+   "queries": [
+    "quadrant electrometer Thomson",
+    "astatic galvanometer construction",
+    "tangent galvanometer constant",
+    "Wiedemann galvanometer",
+    "absolute electrometer guard ring",
+    "d'Arsonval galvanometer coil"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Bell partial tuning and change-ringing acoustics",
+   "scope": "Measured partial frequencies (hum, prime, tierce, quint, nominal) of historical church and carillon bells, the strike-note phenomenon, and the effect of bell profile on partials, from Rayleigh-era and modern studies. A question could ask the solver to turn reported frequency ratios into cents, or to work out from the data which partial departs from true-harmonic tuning.",
+   "queries": [
+    "bell partials hum tierce",
+    "carillon bell tuning nominal",
+    "strike note bell pitch",
+    "minor third bell profile",
+    "Rayleigh bells overtones",
+    "bell finite element modes"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Earth normal-mode splitting and core anisotropy",
+   "scope": "Observed periods and anomalous splitting of the Earth's free oscillations (e.g., 0S2, 0S0, inner-core-sensitive modes) after great earthquakes, and how rotation, ellipticity and inner-core anisotropy explain the splitting. A question could ask for a rotational splitting width from a Coriolis splitting parameter, or ask which mode's anomaly points to a given structure.",
+   "queries": [
+    "free oscillations mode splitting",
+    "inner core anisotropy normal modes",
+    "0S2 singlet splitting",
+    "splitting function coefficients",
+    "anomalous splitting core modes",
+    "Earth radial mode 0S0"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Pairing-symmetry evidence in unconventional superconductors",
+   "scope": "Experimental results bearing on gap symmetry in materials such as Sr2RuO4 (including the revised NMR Knight-shift data), UTe2, CeCoIn5 and the heavy-fermion compound UPt3: polar Kerr effect, ultrasound, thermal conductivity and field-angle specific heat. A question could ask which order parameter is consistent with a stated combination of findings, or which representation a given measurement rules out.",
+   "queries": [
+    "Sr2RuO4 Knight shift revision",
+    "UTe2 spin-triplet pairing",
+    "UPt3 multiple superconducting phases",
+    "polar Kerr effect superconductor",
+    "ultrasound order parameter components",
+    "field-angle specific heat nodes"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Stellarator and heliotron configuration parameters",
+   "scope": "Design and operating parameters of specific stellarators and heliotrons (Wendelstein 7-X, LHD, HSX, TJ-II, NCSX, Heliotron J): number of field periods, rotational transform profiles, aspect ratio, quasi-symmetry type and island divertor resonances. A question could ask for the rational surface used for the divertor, the aspect ratio, or the helical harmonic that dominates, starting from reported values.",
+   "queries": [
+    "Wendelstein 7-X island divertor",
+    "LHD helical coil pitch",
+    "HSX quasi-helical symmetry",
+    "TJ-II heliac configuration",
+    "stellarator rotational transform profile",
+    "quasi-isodynamic optimization"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Exotic hadron candidates near open-flavor thresholds",
+   "scope": "Measured masses, widths, quantum numbers and decay channels of tetraquark and pentaquark candidates (e.g., Pc(4312), Tcc+, X(3872), Zcs, X(6900)) reported by LHCb, Belle and BESIII. A question could ask for the binding energy relative to a specific meson-meson or meson-baryon threshold, or for the minimal quark content implied by the observed decays.",
+   "queries": [
+    "Tcc+ doubly charmed tetraquark",
+    "LHCb pentaquark J/psi p",
+    "X(3872) D0 D*0 threshold",
+    "Zcs strange hidden-charm",
+    "di-J/psi resonance structure",
+    "hadronic molecule binding energy"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

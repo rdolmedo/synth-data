@@ -1,0 +1,985 @@
+{
+ "domain": "Finance",
+ "subtopic": "Corporate finance",
+ "weight": 0.014780999999999999,
+ "leaves": [
+  {
+   "leaf": "Capital structure theories: Modigliani-Miller, trade-off, pecking order and market timing",
+   "scope": "Theories of how firms choose between debt and equity: the Modigliani-Miller propositions with and without taxes, Miller's debt-and-taxes model, static trade-off, pecking order, agency-cost and market-timing theories, and the papers that introduced them.",
+   "queries": [
+    "Modigliani Miller proposition II leverage cost of equity",
+    "pecking order theory Myers Majluf asymmetric information",
+    "static trade-off theory bankruptcy costs tax shield",
+    "Miller 1977 debt and taxes personal tax"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cost of capital estimation: WACC, CAPM inputs and beta levering",
+   "scope": "Estimating the weighted average cost of capital and its parts: CAPM and multifactor cost of equity, equity risk premium choices, Hamada and Harris-Pringle beta unlevering, after-tax cost of debt, and the discount rates companies disclose.",
+   "queries": [
+    "weighted average cost of capital after-tax cost of debt",
+    "Hamada equation unlevered beta relevering",
+    "equity risk premium Damodaran implied estimate",
+    "discount rate weighted average cost of capital impairment test"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Capital budgeting decision rules and project cash flow estimation",
+   "scope": "Investment appraisal methods (NPV, IRR, MIRR, payback and discounted payback, profitability index, equivalent annual annuity) and project cash flow questions such as sunk costs, opportunity costs, working capital and MACRS depreciation tax shields.",
+   "queries": [
+    "net present value internal rate of return multiple IRR",
+    "modified internal rate of return reinvestment rate",
+    "discounted payback period profitability index capital rationing",
+    "equivalent annual annuity unequal project lives replacement"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real options in investment decisions",
+   "scope": "Valuing managerial flexibility in projects: options to expand, defer, abandon, switch and stage, binomial lattice and Black-Scholes applications, and real options in natural resources, R&D and pharmaceuticals.",
+   "queries": [
+    "real options valuation option to abandon expand",
+    "binomial lattice real option project valuation",
+    "option to defer investment Black-Scholes natural resource",
+    "growth options Myers 1977 real options analysis"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Discounted cash flow valuation: FCFF, FCFE, APV and terminal value",
+   "scope": "Intrinsic valuation using free cash flow to the firm and to equity, terminal value by Gordon growth or exit multiple, the mid-year convention, adjusted present value and dividend discount models, with practitioner formulas and conventions.",
+   "queries": [
+    "free cash flow to firm unlevered FCFF formula",
+    "terminal value Gordon growth model exit multiple",
+    "adjusted present value method Myers 1974",
+    "mid-year convention discounted cash flow valuation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Relative valuation: trading comparables, precedent transactions and multiples",
+   "scope": "Market-based valuation using trading comparables and precedent transactions: the enterprise value bridge, EV/EBITDA, P/E, PEG, EV/Sales and industry-specific multiples, LTM versus forward metrics, and control premiums seen in deals.",
+   "queries": [
+    "enterprise value EBITDA multiple comparable companies analysis",
+    "precedent transactions analysis control premium median",
+    "PEG ratio price earnings growth Peter Lynch",
+    "enterprise value calculation minority interest preferred stock"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Private company valuation: marketability and control discounts, 409A and tax valuation",
+   "scope": "Valuing closely held businesses and minority interests for tax, litigation and reporting: discounts for lack of marketability and control, restricted stock and pre-IPO studies, size premiums, Revenue Ruling 59-60, Tax Court factors and Section 409A appraisals.",
+   "queries": [
+    "discount for lack of marketability restricted stock studies",
+    "Revenue Ruling 59-60 closely held stock factors",
+    "Mandelbaum factors Tax Court marketability discount",
+    "Section 409A valuation private company common stock"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Economic Value Added, residual income and value-based management",
+   "scope": "Residual-income performance measures and value-based management systems: Stern Stewart's Economic Value Added and Market Value Added, CFROI, the accounting adjustments they require, residual income valuation and their use in incentive pay.",
+   "queries": [
+    "economic value added Stern Stewart NOPAT capital charge",
+    "market value added MVA EVA definition",
+    "cash flow return on investment CFROI HOLT",
+    "residual income valuation model abnormal earnings Ohlson"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dividend policy, dividend mechanics and stock splits",
+   "scope": "Theory and practice of cash dividends, stock dividends and splits: Lintner's partial-adjustment model, dividend irrelevance, signaling and clientele effects, special dividends, declaration, ex-dividend, record and payment dates, DRIPs and reverse splits.",
+   "queries": [
+    "Lintner model dividend smoothing target payout ratio",
+    "ex-dividend date record date declaration date",
+    "dividend signaling clientele effect bird in hand",
+    "reverse stock split ratio Nasdaq minimum bid price"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Share repurchases: open-market programs, tender offers and accelerated buybacks",
+   "scope": "How stock buybacks work, how they are regulated and why firms use them: open-market programs under the Rule 10b-18 safe harbor and 10b5-1 plans, fixed-price and Dutch auction tender offers, accelerated share repurchases, and the 1% buyback excise tax.",
+   "queries": [
+    "accelerated share repurchase agreement initial delivery shares",
+    "modified Dutch auction tender offer price range",
+    "Rule 10b-18 safe harbor volume condition",
+    "stock repurchase excise tax Inflation Reduction Act"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Initial public offerings: bookbuilding, underwriting, greenshoe and underpricing",
+   "scope": "The IPO process and its empirics: bookbuilding, underwriting syndicates and gross spreads, the greenshoe overallotment option, lock-up and quiet periods, direct listings, Dutch auction IPOs and Ritter's underpricing statistics.",
+   "queries": [
+    "IPO greenshoe overallotment option 15 percent",
+    "IPO underpricing first-day return Ritter",
+    "lock-up agreement 180 days underwriters",
+    "direct listing NYSE reference price"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seasoned equity offerings, shelf registration, ATM programs and rights offerings",
+   "scope": "Follow-on equity raising by public companies: Rule 415 shelf registration on Form S-3, well-known seasoned issuer status, at-the-market programs, block trades and bought deals, rights offerings with subscription ratios, and announcement-day price effects.",
+   "queries": [
+    "at-the-market offering program sales agent commission",
+    "well-known seasoned issuer automatic shelf registration",
+    "rights offering subscription price oversubscription privilege",
+    "seasoned equity offering announcement return dilution"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Exempt offerings and private placements: Reg D, Rule 144A, Reg A+ and PIPEs",
+   "scope": "Raising capital without full SEC registration: Regulation D Rules 504 and 506(b)/(c), accredited investor definitions, Rule 144 holding periods, Rule 144A for qualified institutional buyers, Regulation S, Regulation A+ tiers, Regulation Crowdfunding limits and PIPE deals.",
+   "queries": [
+    "Regulation D Rule 506(c) accredited investor verification",
+    "Rule 144 holding period restricted securities",
+    "Regulation A Tier 2 offering limit",
+    "PIPE private investment public equity registration rights"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Special purpose acquisition companies (SPACs) and de-SPAC mergers",
+   "scope": "Blank-check companies: units made of shares and fractional warrants, per-share trust account amounts, sponsor founder shares and the 20% promote, redemption rights, extension deadlines, de-SPAC business combinations and the SEC's 2024 SPAC rules.",
+   "queries": [
+    "special purpose acquisition company trust account per share",
+    "SPAC founder shares sponsor promote warrants",
+    "de-SPAC business combination redemption rights",
+    "blank check company units public warrants exercise price"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Venture capital financing instruments and term sheet provisions",
+   "scope": "Startup financing instruments and terms: convertible notes, SAFEs, valuation caps and discounts, liquidation preferences, participating preferred, full-ratchet and weighted-average anti-dilution, pro-rata rights, option pools and the stages from seed to later series.",
+   "queries": [
+    "liquidation preference participating preferred venture capital",
+    "broad-based weighted average anti-dilution formula",
+    "SAFE simple agreement future equity Y Combinator",
+    "convertible note valuation cap discount rate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate bond indentures, covenants and call provisions",
+   "scope": "Terms of corporate debt contracts: trust indentures and the Trust Indenture Act, negative pledge and restricted payments covenants, change-of-control puts at 101%, make-whole and optional redemption schedules, sinking funds and covenant defeasance.",
+   "queries": [
+    "make-whole redemption premium treasury rate plus basis points",
+    "change of control offer 101% principal amount",
+    "indenture restricted payments covenant negative pledge",
+    "sinking fund provision bond call schedule"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convertible bonds, preferred stock and hybrid capital securities",
+   "scope": "Equity-linked and hybrid securities: conversion rates and premiums on convertible bonds, contingent conversion triggers, capped calls and call spreads, mandatory convertibles, warrants, cumulative and perpetual preferred stock, trust preferred securities and rating-agency equity credit.",
+   "queries": [
+    "convertible senior notes conversion rate per $1,000 principal",
+    "capped call transactions convertible notes hedge",
+    "mandatory convertible preferred stock conversion",
+    "trust preferred securities junior subordinated debentures"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Syndicated loans and leveraged finance markets",
+   "scope": "Institutional loan and high-yield debt markets: term loan A and B tranches, arrangers and administrative agents, covenant-lite structures, maintenance versus incurrence covenants, SOFR margins and credit spread adjustments, original issue discount, flex terms and the LIBOR transition.",
+   "queries": [
+    "term loan B covenant-lite institutional investors",
+    "credit agreement SOFR applicable margin leverage ratio",
+    "leveraged loan syndication original issue discount flex",
+    "LIBOR transition credit spread adjustment ARRC"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate credit ratings, rating agencies and default rates",
+   "scope": "Corporate credit rating scales, methods and consequences: Moody's, S&P and Fitch notation, the BBB-/Baa3 investment-grade line, fallen angels, outlooks and watches, NRSRO regulation, rating triggers in contracts and historical default rates by rating.",
+   "queries": [
+    "Moody's rating scale Baa3 investment grade",
+    "fallen angel downgrade high yield index",
+    "NRSRO Credit Rating Agency Reform Act 2006",
+    "cumulative default rates by rating category"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Project finance and infrastructure special purpose vehicles",
+   "scope": "Non-recourse and limited-recourse financing of large infrastructure and energy projects through special purpose vehicles: DSCR and LLCR covenants, cash flow waterfalls, debt service reserve accounts, completion guarantees, offtake agreements, PPPs and the Equator Principles.",
+   "queries": [
+    "project finance debt service coverage ratio lenders",
+    "non-recourse special purpose vehicle cash waterfall",
+    "public-private partnership availability payment concession",
+    "Equator Principles project finance categories"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Leveraged buyouts and private equity fund economics",
+   "scope": "How leveraged buyouts are built and how they pay off: sponsor equity contributions, debt multiples of EBITDA, senior, mezzanine and PIK layers, management rollover, dividend recapitalizations, IRR and MOIC targets, carried interest, hurdle rates and management fees.",
+   "queries": [
+    "leveraged buyout debt to EBITDA equity contribution",
+    "dividend recapitalization private equity portfolio company",
+    "carried interest hurdle rate private equity fund",
+    "mezzanine financing PIK notes buyout"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "M&A deal structuring: consideration, exchange ratios, earnouts and deal protections",
+   "scope": "How acquisitions are structured: cash versus stock consideration, fixed and floating exchange ratios with collars, earnouts, termination and reverse termination fees, go-shop and no-shop clauses, material adverse change conditions, tender offer timelines and Hart-Scott-Rodino waiting periods.",
+   "queries": [
+    "merger agreement termination fee reverse termination fee",
+    "fixed exchange ratio collar stock merger",
+    "earnout contingent consideration milestone payments",
+    "Hart-Scott-Rodino waiting period filing threshold"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Takeover defenses and Delaware enhanced scrutiny",
+   "scope": "Anti-takeover devices and the case law that governs them: shareholder rights plans and their flip-in thresholds, staggered boards, DGCL Section 203, white knights and white squires, and the Delaware standards set in Unocal, Revlon, Moran and Airgas.",
+   "queries": [
+    "shareholder rights plan poison pill flip-in threshold",
+    "Unocal enhanced scrutiny defensive measures",
+    "Revlon duties sale of control auction",
+    "Delaware Section 203 business combination interested stockholder"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Appraisal rights, fairness opinions and minority freeze-outs",
+   "scope": "Protections for minority shareholders in cash-out mergers: DGCL Section 262 appraisal and fair value rulings such as Dell and DFC Global, entire fairness review, MFW conditions, Rule 13e-3 going-private disclosures, short-form mergers and banker fairness opinions.",
+   "queries": [
+    "appraisal rights Section 262 fair value Delaware",
+    "entire fairness controlling stockholder MFW conditions",
+    "fairness opinion investment bank merger financial analysis",
+    "going private transaction Rule 13e-3 Schedule"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Business combination accounting, purchase price allocation and goodwill impairment",
+   "scope": "Financial reporting for acquisitions under ASC 805 and IFRS 3: the acquisition method, allocating purchase price to identifiable intangibles, bargain purchases, remeasuring contingent consideration, goodwill impairment testing under ASC 350, and the old pooling-of-interests rules.",
+   "queries": [
+    "purchase price allocation identifiable intangible assets goodwill",
+    "goodwill impairment test reporting unit ASC 350",
+    "pooling of interests method APB Opinion 16",
+    "bargain purchase gain acquisition method ASC 805"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spin-offs, split-offs, equity carve-outs and tracking stocks",
+   "scope": "Corporate separations: tax-free spin-offs under IRC Section 355, split-offs, equity carve-outs, tracking stocks, Reverse Morris Trust transactions, Form 10 registration, when-issued trading and distribution ratios.",
+   "queries": [
+    "tax-free spin-off Section 355 distribution ratio",
+    "Reverse Morris Trust transaction",
+    "equity carve-out subsidiary IPO parent retains",
+    "tracking stock separate business group"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Merger waves and landmark M&A transactions in history",
+   "scope": "The historical record of M&A activity: the merger waves since the Great Merger Movement of 1895-1904, the conglomerate era, 1980s hostile takeovers and junk bonds, and the sizes, dates, parties and outcomes of landmark deals such as RJR Nabisco and AOL-Time Warner.",
+   "queries": [
+    "Great Merger Movement 1895 1904 consolidation",
+    "RJR Nabisco leveraged buyout KKR 1989",
+    "largest mergers and acquisitions in history",
+    "conglomerate merger wave 1960s"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shareholder activism, proxy contests and shareholder proposals",
+   "scope": "Activism and fights for corporate control: Schedule 13D and 13G thresholds and deadlines, proxy fights, the SEC universal proxy rule (Rule 14a-19), Rule 14a-8 shareholder proposals, settlement agreements and well-known activist hedge funds.",
+   "queries": [
+    "Schedule 13D beneficial ownership 5 percent filing deadline",
+    "universal proxy card Rule 14a-19",
+    "activist hedge fund proxy contest board seats",
+    "Rule 14a-8 shareholder proposal ownership requirement"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Agency theory, ownership structure and dual-class shares",
+   "scope": "Conflicts among managers, shareholders and creditors and the ownership structures that shape them: Jensen-Meckling agency costs, Jensen's free cash flow hypothesis, Berle and Means on separation of ownership and control, dual-class and multiple-voting shares, sunset provisions and controlled-company exemptions.",
+   "queries": [
+    "Jensen Meckling agency costs ownership structure",
+    "free cash flow hypothesis Jensen 1986",
+    "dual-class share structure Class B votes per share",
+    "controlled company exemption NYSE Nasdaq listing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Executive compensation and employee equity plans",
+   "scope": "Pay and equity incentives for managers and employees: incentive and nonqualified stock options, RSUs and PSUs, ASC 718 expensing, Section 162(m) and 280G golden parachute rules, say-on-pay votes, Rule 10D-1 clawbacks, Section 423 ESPPs and ESOPs.",
+   "queries": [
+    "incentive stock options nonqualified Section 422",
+    "golden parachute Section 280G excise tax",
+    "employee stock purchase plan Section 423 discount",
+    "leveraged ESOP Section 1042 rollover"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Working capital management, trade credit and supply chain finance",
+   "scope": "Managing short-term operating assets and liabilities: the cash conversion cycle (DSO, DIO, DPO), trade credit terms such as 2/10 net 30 and their implied cost, inventory models like EOQ, factoring, receivables securitization and supply chain finance programs.",
+   "queries": [
+    "cash conversion cycle days sales outstanding payables",
+    "trade credit terms 2/10 net 30 cost",
+    "economic order quantity inventory model",
+    "supply chain finance reverse factoring disclosure"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Corporate liquidity, cash management and treasury operations",
+   "scope": "Treasury management of cash and short-term funding: precautionary cash holdings, the Baumol and Miller-Orr cash models, commercial paper programs and their tier ratings, revolving credit commitment fees, cash pooling, netting and in-house banks.",
+   "queries": [
+    "Miller-Orr cash management model",
+    "commercial paper program 270 days exemption",
+    "notional cash pooling multinational treasury",
+    "revolving credit facility commitment fee undrawn"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Corporate risk management, derivatives hedging and hedge accounting",
+   "scope": "Corporate hedging of interest rate, commodity and currency risk with swaps, forwards, futures and options; theories of why firms hedge; hedge accounting under ASC 815 and IFRS 9 (fair value, cash flow and net investment hedges, effectiveness tests); and well-known hedging losses.",
+   "queries": [
+    "cash flow hedge accounting ASC 815 effectiveness",
+    "interest rate swap pay fixed receive floating notional",
+    "why firms hedge Froot Scharfstein Stein",
+    "Metallgesellschaft hedging loss oil futures"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Multinational financial management and foreign exchange exposure",
+   "scope": "Financial management in multinational corporations: transaction, translation and economic exposure, functional currency and ASC 830 translation, cumulative translation adjustments, parity conditions applied to international capital budgeting, and transfer pricing.",
+   "queries": [
+    "translation exposure functional currency ASC 830",
+    "cumulative translation adjustment other comprehensive income",
+    "transaction exposure economic exposure multinational",
+    "interest rate parity international capital budgeting"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Cross-listings and depositary receipt programs",
+   "scope": "Listing shares on foreign exchanges and depositary receipt programs: ADR Levels I, II and III, Rule 144A ADRs, GDRs, ADS-to-ordinary-share ratios, depositary banks and fees, Form 20-F reporting, the bonding hypothesis and delistings under the HFCAA.",
+   "queries": [
+    "American depositary receipt Level III sponsored program",
+    "ADS represents ordinary shares ratio depositary",
+    "global depositary receipt London Luxembourg listing",
+    "cross-listing bonding hypothesis Coffee Stulz"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lease financing and lease accounting",
+   "scope": "Lease financing and how it is accounted for: lease-versus-buy analysis, sale-leasebacks, leveraged leases, operating versus finance lease classification under ASC 842 and IFRS 16, incremental borrowing rates and the transition from ASC 840 and IAS 17.",
+   "queries": [
+    "lease versus buy analysis after-tax cost",
+    "ASC 842 finance lease classification criteria",
+    "sale-leaseback transaction gain recognition",
+    "IFRS 16 right-of-use asset lease liability"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Financial distress, bankruptcy and corporate restructuring",
+   "scope": "Corporate financial distress and how it is resolved: direct and indirect bankruptcy costs, the Altman Z-score and other distress models, Chapter 11 and Chapter 7 procedures, the absolute priority rule, DIP financing, Section 363 sales, prepackaged plans, distressed exchanges and liability management transactions.",
+   "queries": [
+    "Altman Z-score coefficients working capital total assets",
+    "debtor-in-possession financing Chapter 11 priming lien",
+    "absolute priority rule cramdown plan confirmation",
+    "distressed exchange offer uptier liability management"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Corporate taxation and financing decisions",
+   "scope": "How taxes shape corporate financing and investment: the interest tax shield, Section 163(j) limits on interest deductions, the 2017 Tax Cuts and Jobs Act cut from 35% to 21%, inversions and earnings stripping, NOL carryforwards and Section 382 limits, and the corporate alternative minimum tax.",
+   "queries": [
+    "Section 163(j) business interest limitation adjusted taxable income",
+    "Section 382 ownership change net operating loss limitation",
+    "corporate inversion Section 7874 expatriated entity",
+    "Tax Cuts and Jobs Act corporate rate 21 percent"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Financial ratio analysis, DuPont decomposition and growth planning",
+   "scope": "Analyzing performance and planning from financial statements: liquidity, leverage, coverage and turnover ratios, three- and five-step DuPont ROE decomposition, common-size statements, percent-of-sales forecasting, additional funds needed, and internal and sustainable growth rates.",
+   "queries": [
+    "DuPont analysis return on equity five-step",
+    "sustainable growth rate retention ratio ROE",
+    "additional funds needed percent of sales",
+    "times interest earned fixed charge coverage ratio"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Earnings per share computation and share dilution",
+   "scope": "Calculating and reporting earnings per share and share-count dilution: basic and diluted EPS under ASC 260 and IAS 33, the treasury stock and if-converted methods, the two-class method for participating securities, antidilution rules and weighted average share counts.",
+   "queries": [
+    "diluted earnings per share treasury stock method",
+    "if-converted method convertible debt diluted EPS",
+    "two-class method participating securities earnings per share",
+    "antidilutive securities excluded from diluted EPS"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Board structure, director independence and Sarbanes-Oxley governance requirements",
+   "scope": "Board composition and committees, independence tests in exchange listing rules, CEO-chair separation, audit committee financial experts and Sarbanes-Oxley provisions such as Sections 302, 404 and 407.",
+   "queries": [
+    "audit committee financial expert Sarbanes-Oxley Section 407",
+    "NYSE listed company manual director independence tests",
+    "Sarbanes-Oxley Section 404 internal control management assessment",
+    "lead independent director separation CEO chairman board committees"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Directors' fiduciary duties, exculpation and reincorporation outside the takeover context",
+   "scope": "Duties of care, loyalty and oversight under the business judgment rule, Caremark and its successors, DGCL Section 102(b)(7) exculpation, books-and-records demands, and the competition among Delaware, Nevada and Texas for incorporations.",
+   "queries": [
+    "Caremark oversight duty Marchand Blue Bell",
+    "Section 102(b)(7) exculpation officers amendment 2022",
+    "Smith v. Van Gorkom duty of care business judgment rule",
+    "reincorporation Delaware to Nevada Texas shareholder vote"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Comparative corporate governance: keiretsu, chaebol, codetermination and business groups",
+   "scope": "Governance systems outside the Anglo-American model, including Japanese main-bank keiretsu and governance codes, Korean chaebol ownership, German two-tier boards and codetermination, and family-controlled pyramidal business groups.",
+   "queries": [
+    "keiretsu main bank cross-shareholding Japan",
+    "chaebol circular shareholding Korea Samsung Hyundai",
+    "German codetermination supervisory board Mitbestimmungsgesetz 1976",
+    "Japan Stewardship Code Corporate Governance Code Tokyo Stock Exchange"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate accounting scandals and earnings management",
+   "scope": "Major corporate financial frauds and restatements (Enron, WorldCom, Parmalat, Wirecard and others): the schemes, amounts and outcomes, plus earnings-management techniques and detection models such as the Beneish M-score.",
+   "queries": [
+    "Enron special purpose entities Raptor LJM",
+    "WorldCom line costs capitalized restatement billion",
+    "Wirecard missing 1.9 billion euros escrow",
+    "Beneish M-score earnings manipulation variables"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate disclosure obligations, investor relations and earnings guidance",
+   "scope": "Periodic and current reporting by public companies, including Form 8-K items and deadlines, Regulation FD, earnings releases and calls, and the practice and evidence on quarterly guidance.",
+   "queries": [
+    "Regulation FD selective disclosure SEC 2000",
+    "Form 8-K items filing deadline four business days",
+    "quarterly earnings guidance conference call investor relations",
+    "Item 2.02 results of operations financial condition 8-K"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insider trading restrictions for corporate insiders: Section 16, Rule 10b5-1 and blackout policies",
+   "scope": "Rules on officer and director trading in their own company's stock, including Section 16 reporting and short-swing profit recovery, Rule 10b5-1 plans and their 2022 amendments, Form 4 deadlines and company blackout and pre-clearance policies.",
+   "queries": [
+    "Section 16(b) short-swing profit disgorgement six months",
+    "Rule 10b5-1 trading plan cooling-off period amendments",
+    "Form 4 filing deadline two business days insider",
+    "insider trading policy blackout period pre-clearance"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tender offer regulation and beneficial ownership disclosure: Williams Act, Regulation 14D/14E and Schedule 13D/13G",
+   "scope": "The federal rules governing third-party tender offers and stake-building, including minimum offer periods, withdrawal rights, the all-holders and best-price rules, and the 13D/13G filing thresholds and deadlines.",
+   "queries": [
+    "Williams Act 1968 tender offer disclosure",
+    "Rule 14e-1 twenty business days tender offer open",
+    "Schedule 13D filing deadline five business days amendments",
+    "best price rule all holders Rule 14d-10"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Merger control and national security review: HSR Act, CFIUS and EU Merger Regulation",
+   "scope": "Regulatory clearance of M&A transactions, including HSR filing thresholds, fees, waiting periods and second requests, CFIUS jurisdiction under FIRRMA, and EU and UK merger review phases and turnover tests.",
+   "queries": [
+    "Hart-Scott-Rodino filing threshold waiting period second request",
+    "HSR filing fee tiers adjusted annually",
+    "CFIUS mandatory declaration FIRRMA covered transaction",
+    "EU Merger Regulation Phase II turnover thresholds"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "M&A tax structuring: tax-free reorganizations, Section 338 elections, NOL limits and inversions",
+   "scope": "US tax rules that shape how acquisitions are structured, including Section 368 reorganization types and continuity requirements, 338(h)(10) and 336(e) elections, Section 382 ownership-change limits, and Section 7874 corporate inversions.",
+   "queries": [
+    "Section 368 reorganization Type A B C continuity of interest",
+    "Section 338(h)(10) election stock purchase asset treatment",
+    "Section 382 ownership change NOL limitation long-term tax-exempt rate",
+    "corporate inversion Section 7874 80 percent threshold"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Commercial paper programs and short-term corporate funding markets",
+   "scope": "Issuance of corporate commercial paper, including Section 3(a)(3) and 4(a)(2) programs, maturity limits, dealer arrangements, backstop credit lines, short-term rating tiers and emergency facilities such as the Fed's CPFF.",
+   "queries": [
+    "commercial paper program Section 3(a)(3) maturity 270 days",
+    "Section 4(a)(2) commercial paper dealers backstop credit facility",
+    "Commercial Paper Funding Facility 2008 Federal Reserve",
+    "A-1 P-1 tier 2 commercial paper ratings"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eurobonds, medium-term note programs and international corporate debt issuance",
+   "scope": "Offshore and program-based corporate bond issuance, including the history of the Eurobond market, MTN and EMTN programs and pricing supplements, Regulation S offerings, global notes and clearing through Euroclear and Clearstream.",
+   "queries": [
+    "Eurobond history Autostrade 1963 Warburg",
+    "medium-term note program pricing supplement shelf",
+    "Euro Medium Term Note programme base prospectus Luxembourg",
+    "Regulation S notes global note Euroclear Clearstream"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Green, social and sustainability-linked bonds and loans",
+   "scope": "Labeled corporate debt, including the ICMA and LMA principles, use-of-proceeds versus KPI-linked structures, coupon step-ups, second-party opinions, the EU Green Bond Standard and landmark first issues.",
+   "queries": [
+    "Green Bond Principles ICMA use of proceeds",
+    "sustainability-linked bond coupon step-up KPI target",
+    "European Investment Bank Climate Awareness Bond 2007 first green bond",
+    "EU Green Bond Standard external reviewer taxonomy alignment"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Liability management: debt tender offers, exchange offers and consent solicitations",
+   "scope": "How companies repurchase, exchange or amend outstanding bonds outside bankruptcy, including fixed-spread and Dutch-auction tender pricing, early tender premiums, Section 3(a)(9) exchanges and consent fees for indenture amendments.",
+   "queries": [
+    "debt tender offer fixed spread pricing early tender premium",
+    "consent solicitation indenture amendment consent fee",
+    "exchange offer Section 3(a)(9) new notes",
+    "Dutch auction tender offer notes maximum tender amount"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Private credit, direct lending, unitranche and mezzanine financing",
+   "scope": "Non-bank corporate lending, including direct-lending funds and BDCs, unitranche loans and agreements among lenders, mezzanine debt with PIK interest and warrants, and the economics of middle-market private credit.",
+   "queries": [
+    "unitranche first-out last-out agreement among lenders",
+    "direct lending middle market private credit fund",
+    "mezzanine debt PIK interest warrants subordinated",
+    "business development company senior secured loans portfolio yield"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Asset-based lending and corporate securitization: borrowing bases, receivables facilities and whole-business securitization",
+   "scope": "Lending secured by specific assets, including ABL revolvers with borrowing bases, advance rates and springing covenants, receivables securitization through bankruptcy-remote SPVs, and whole-business securitizations of franchise royalties.",
+   "queries": [
+    "asset-based revolving credit facility borrowing base eligible receivables advance rate",
+    "receivables securitization facility special purpose subsidiary true sale",
+    "whole business securitization franchise royalties notes",
+    "fixed charge coverage springing covenant availability ABL"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Benchmark rate transition: LIBOR cessation and SOFR in corporate loans and bonds",
+   "scope": "The replacement of LIBOR in corporate finance contracts, including cessation dates, ARRC fallback language, ISDA spread adjustments, Term SOFR, the federal LIBOR Act and its effect on loan and floating-rate note documents.",
+   "queries": [
+    "LIBOR cessation June 30 2023 USD panel",
+    "SOFR credit spread adjustment 26.161 basis points",
+    "ARRC fallback language hardwired approach syndicated loans",
+    "LIBOR Act benchmark replacement Term SOFR"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Islamic corporate finance: sukuk, murabaha and ijara structures",
+   "scope": "Sharia-compliant corporate financing, including types of sukuk, murabaha, ijara, musharaka and mudaraba contracts, AAOIFI standards and rulings, and landmark sovereign and corporate sukuk issues.",
+   "queries": [
+    "sukuk al-ijara structure AAOIFI standard",
+    "murabaha cost-plus financing Islamic bank",
+    "AAOIFI 2008 sukuk ruling Taqi Usmani",
+    "musharaka mudaraba profit-sharing ratio"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Small business finance: SBA 7(a) and 504 loans, SBICs and Regulation Crowdfunding",
+   "scope": "Government-supported and alternative financing for small firms, including SBA guarantee percentages, loan caps and fees, the 504 certified development company structure, SBIC leverage, and Regulation Crowdfunding limits and funding portals.",
+   "queries": [
+    "SBA 7(a) loan guarantee percentage maximum amount",
+    "SBA 504 loan certified development company debenture",
+    "Small Business Investment Company leverage debentures",
+    "Regulation Crowdfunding offering limit funding portal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privatization and share issue privatizations of state-owned enterprises",
+   "scope": "Sale of government-owned companies to private investors, including landmark share-issue privatizations (British Telecom, Deutsche Telekom, Saudi Aramco), golden shares, voucher privatization and agencies such as the Treuhandanstalt.",
+   "queries": [
+    "British Telecom privatisation 1984 share offer",
+    "share issue privatization golden share government",
+    "Saudi Aramco IPO 2019 Tadawul",
+    "Treuhandanstalt privatization East German enterprises"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Joint ventures, strategic alliances and corporate venture capital",
+   "scope": "Corporate collaboration and minority investment structures, including JV formation and governance, deadlock and buy-sell clauses, equity-method accounting for JV stakes, and corporate venture capital arms and their strategic mandates.",
+   "queries": [
+    "joint venture agreement deadlock buy-sell shotgun clause",
+    "corporate venture capital arm strategic investment",
+    "equity method investment joint venture 50 percent owned",
+    "Intel Capital GV corporate venture fund"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Internal capital markets, corporate diversification and the conglomerate discount",
+   "scope": "How diversified firms allocate capital across divisions, including cross-subsidization, the diversification discount measured by excess value and Tobin's q, and the empirical literature on whether the discount is real.",
+   "queries": [
+    "conglomerate discount diversification discount Berger Ofek",
+    "internal capital markets cross-subsidization divisions",
+    "excess value sum-of-the-parts segment data",
+    "Lang Stulz Tobin's q diversification 1994"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Behavioral corporate finance: managerial overconfidence, hubris and catering",
+   "scope": "Psychological biases in corporate decisions, including the hubris hypothesis of takeovers, CEO overconfidence measures based on option holdings, catering theories of dividends and investment, and managerial optimism.",
+   "queries": [
+    "hubris hypothesis corporate takeovers Roll 1986",
+    "CEO overconfidence option holdings Malmendier Tate",
+    "catering theory dividends Baker Wurgler",
+    "managerial optimism investment cash flow sensitivity"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Financial distress prediction models: Altman Z-score, Ohlson O-score and distance-to-default",
+   "scope": "Quantitative models that predict corporate bankruptcy or default, including the Altman Z-score variants and their coefficients and cutoffs, the Ohlson and Zmijewski models, and Merton/KMV distance-to-default.",
+   "queries": [
+    "Altman Z-score coefficients working capital total assets",
+    "Ohlson O-score logit bankruptcy prediction",
+    "Merton distance to default KMV expected default frequency",
+    "Z''-score emerging markets private firms cutoff"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Time value of money: compounding, annuities, perpetuities and rate conventions",
+   "scope": "The discounting arithmetic underlying corporate finance, including present and future value formulas for annuities and growing perpetuities, APR versus effective annual rate, continuous compounding and rules of thumb such as the Rule of 72.",
+   "queries": [
+    "growing annuity present value formula",
+    "effective annual rate APR continuous compounding",
+    "growing perpetuity present value formula",
+    "rule of 72 doubling time compound interest"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Investment banking advisory industry: league tables, fee structures and boutiques",
+   "scope": "The industry that advises on corporate transactions, including M&A and underwriting league tables, advisory fee conventions such as the Lehman formula and success fees, bulge-bracket versus independent boutique firms, and fee disclosures in merger proxies.",
+   "queries": [
+    "M&A league table financial advisor rankings deal value",
+    "Lehman formula success fee percentage",
+    "independent advisory boutiques Evercore Lazard Centerview",
+    "financial advisor fee contingent upon consummation merger proxy"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seminal research and Nobel laureates in corporate finance theory",
+   "scope": "The landmark academic papers and scholars of corporate finance, including authors, journals and publication years of foundational articles and the Nobel prizes awarded for corporate finance work.",
+   "queries": [
+    "Jensen Meckling 1976 Theory of the Firm Journal of Financial Economics",
+    "Myers Majluf 1984 information asymmetry financing",
+    "Nobel Prize economics Modigliani 1985 Miller 1990",
+    "most cited corporate finance papers Journal of Finance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Defined benefit pension obligations, funding rules and pension risk transfer",
+   "scope": "Corporate defined benefit pension plans as a financing issue, including PBO and funded status, discount-rate and expected-return assumptions, ERISA and PBGC premiums and funding rules, and buyout or buy-in risk transfers to insurers.",
+   "queries": [
+    "defined benefit pension plan funded status projected benefit obligation",
+    "PBGC premium variable rate per participant",
+    "pension risk transfer group annuity buyout",
+    "expected return on plan assets discount rate assumption"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stock exchange listing standards, delisting and reverse stock splits",
+   "scope": "Initial and continued listing requirements on NYSE and Nasdaq, including minimum bid price and market-value tests, compliance periods and deficiency notices, reverse splits to regain compliance, and voluntary delisting and deregistration on Forms 25 and 15.",
+   "queries": [
+    "Nasdaq minimum bid price requirement 180 calendar days",
+    "NYSE continued listing standards average market capitalization",
+    "reverse stock split regain compliance listing",
+    "Form 25 delisting Form 15 deregistration"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  }
+ ]
+}

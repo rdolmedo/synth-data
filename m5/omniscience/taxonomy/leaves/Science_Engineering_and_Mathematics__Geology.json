@@ -1,0 +1,819 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Geology",
+ "weight": 0.0125,
+ "leaves": [
+  {
+   "leaf": "Silicate mineral structures and major silicate groups",
+   "scope": "Structural classification of silicates from nesosilicates to tectosilicates, and the compositions, end members and solid solutions of the olivine, garnet, pyroxene, amphibole, mica, feldspar and zeolite groups.",
+   "queries": [
+    "nesosilicate inosilicate phyllosilicate tectosilicate structure",
+    "garnet group end members pyrope almandine grossular",
+    "amphibole group nomenclature hornblende tremolite formula",
+    "plagioclase feldspar solid solution albite anorthite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Non-silicate mineral classes and their chemistry",
+   "scope": "Native elements, sulfides, oxides, hydroxides, halides, carbonates, sulfates, phosphates and borates, with their formulas, Dana/Nickel-Strunz placement and diagnostic properties.",
+   "queries": [
+    "sulfide minerals pyrite galena sphalerite chalcopyrite formula",
+    "carbonate minerals calcite aragonite dolomite siderite",
+    "Nickel-Strunz classification mineral classes",
+    "spinel group oxide minerals magnetite chromite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mineral nomenclature, type localities and newly described species",
+   "scope": "How minerals are named and approved by the IMA Commission on New Minerals, Nomenclature and Classification, including eponyms, type localities, discreditations and discovery histories.",
+   "queries": [
+    "IMA Commission New Minerals Nomenclature Classification approved",
+    "mineral named in honor type locality",
+    "new mineral species described type specimen",
+    "mineral discredited renamed IMA grandfathered"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Crystallography and crystal symmetry of minerals",
+   "scope": "Crystal systems, point and space groups, unit cells, Miller indices, crystal forms and habits, and twinning laws as applied to minerals.",
+   "queries": [
+    "seven crystal systems 32 point groups minerals",
+    "Miller indices crystal faces forms",
+    "twinning law Carlsbad Baveno Manebach albite",
+    "space group unit cell mineral X-ray diffraction"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Optical mineralogy and thin-section petrography",
+   "scope": "Identifying minerals with polarized-light microscopy, using refractive indices, birefringence, interference colors, pleochroism, extinction angles, optic sign and 2V.",
+   "queries": [
+    "birefringence interference colors Michel-Lévy chart",
+    "pleochroism extinction angle thin section mineral",
+    "uniaxial biaxial optic sign 2V angle",
+    "petrographic microscope polarized light thin section thickness"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gemstones and gemology",
+   "scope": "Gem varieties of minerals, what colors them, treatments, gemological constants and testing, famous gems and diamonds, and major gem localities.",
+   "queries": [
+    "corundum ruby sapphire chromium coloring agent",
+    "beryl varieties emerald aquamarine morganite heliodor",
+    "famous diamonds carats Cullinan Koh-i-Noor",
+    "gemstone refractive index specific gravity gemological"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Igneous rock classification and magma petrogenesis",
+   "scope": "IUGS QAPF and TAS classification, named plutonic and volcanic rock types, magma series, Bowen's reaction series, partial melting and fractional crystallization.",
+   "queries": [
+    "QAPF diagram IUGS plutonic rock classification",
+    "total alkali silica TAS diagram volcanic rocks",
+    "Bowen's reaction series fractional crystallization",
+    "calc-alkaline tholeiitic alkaline magma series"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Large igneous provinces, flood basalts and layered intrusions",
+   "scope": "Continental flood basalts, oceanic plateaus, giant dike swarms and layered mafic-ultramafic intrusions such as the Deccan Traps, Siberian Traps, Bushveld and Stillwater complexes.",
+   "queries": [
+    "Siberian Traps flood basalt volume age",
+    "Bushveld Igneous Complex layered intrusion Merensky Reef",
+    "large igneous province Ontong Java Plateau",
+    "Mackenzie dike swarm giant radiating"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Volcanology: eruptions, volcanic deposits and monitoring",
+   "scope": "Volcano types, eruption styles, the Volcanic Explosivity Index, pyroclastic deposits, calderas and lahars, notable historical eruptions and volcano observatories.",
+   "queries": [
+    "Volcanic Explosivity Index eruption VEI tephra volume",
+    "Plinian Strombolian Vulcanian eruption style",
+    "pyroclastic flow ignimbrite caldera eruption",
+    "volcano observatory monitoring eruption history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Metamorphic petrology: facies, isograds and P-T paths",
+   "scope": "Metamorphic facies, Barrovian and Buchan zones, index minerals and isograds, metamorphic rock names and textures, P-T-t paths, and high- and ultrahigh-pressure metamorphism.",
+   "queries": [
+    "Barrovian zones index minerals garnet staurolite kyanite",
+    "metamorphic facies blueschist eclogite granulite",
+    "aluminosilicate triple point kyanite andalusite sillimanite",
+    "ultrahigh pressure metamorphism coesite diamond"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Siliciclastic sedimentary rocks, grain size and diagenesis",
+   "scope": "Classification and textures of sandstones, mudrocks and conglomerates, grain-size scales, sorting and rounding, provenance, and diagenetic compaction and cementation.",
+   "queries": [
+    "Udden-Wentworth grain size scale phi",
+    "sandstone classification arkose greywacke quartz arenite",
+    "diagenesis compaction cementation porosity sandstone",
+    "shale mudstone fissility clay minerals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Carbonate rocks, reefs and evaporites",
+   "scope": "Folk and Dunham classifications of limestones, carbonate platforms and reef builders, dolomitization, and evaporite minerals, sequences and basins.",
+   "queries": [
+    "Dunham classification carbonate grainstone packstone wackestone",
+    "Folk limestone classification micrite sparite",
+    "reef carbonate platform dolomitization",
+    "Messinian salinity crisis evaporite gypsum halite"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Depositional environments and sedimentary structures",
+   "scope": "Facies models for fluvial, deltaic, shoreline, shelf and deep-water settings, the primary sedimentary structures that record them, and ichnofacies.",
+   "queries": [
+    "cross-bedding ripple marks sedimentary structures",
+    "Bouma sequence turbidite deep-water",
+    "delta classification river wave tide dominated",
+    "trace fossils ichnofacies Skolithos Cruziana"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lithostratigraphy, stratigraphic nomenclature and sequence stratigraphy",
+   "scope": "Stratigraphic codes and units (groups, formations, members, beds), named formations and type sections, unconformities, correlation principles, and sequence-stratigraphic surfaces and systems tracts.",
+   "queries": [
+    "North American Stratigraphic Code formation member group",
+    "sequence stratigraphy systems tract maximum flooding surface",
+    "formation type section named unconformity",
+    "Grand Canyon rock layers Kaibab Redwall formation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geologic time scale, GSSPs and chronostratigraphic boundaries",
+   "scope": "The ICS International Chronostratigraphic Chart's eons, eras, periods, epochs and stages, their GSSP golden spikes, boundary ages and ratification history.",
+   "queries": [
+    "Global Boundary Stratotype Section Point golden spike",
+    "International Commission on Stratigraphy chronostratigraphic chart age",
+    "Cambrian stages Fortunian Wuliuan Drumian",
+    "Ediacaran period GSSP ratified boundary"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radiometric dating and geochronology methods",
+   "scope": "Numerical dating methods (U-Pb, K-Ar, Ar-Ar, Rb-Sr, Sm-Nd, radiocarbon, fission track, luminescence, cosmogenic nuclides), with decay constants, half-lives and closure temperatures.",
+   "queries": [
+    "uranium-lead zircon dating concordia",
+    "argon-argon dating potassium-40 half-life",
+    "closure temperature thermochronology fission track",
+    "optically stimulated luminescence cosmogenic nuclide exposure dating"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Isotope and trace-element geochemistry",
+   "scope": "Goldschmidt element classification, crustal and mantle abundances, rare earth element patterns, stable isotope systems and standards, and mantle isotopic reservoirs.",
+   "queries": [
+    "Goldschmidt classification lithophile siderophile chalcophile",
+    "rare earth element chondrite normalized europium anomaly",
+    "oxygen isotope delta 18O VSMOW standard",
+    "mantle reservoirs HIMU EM1 depleted MORB mantle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Invertebrate paleontology and biostratigraphic index fossils",
+   "scope": "Major fossil invertebrate groups (trilobites, brachiopods, ammonoids, graptolites, crinoids, corals, bivalves) and their use as index fossils and biozones.",
+   "queries": [
+    "trilobite orders genus Cambrian index fossil",
+    "ammonite suture pattern goniatite ceratite",
+    "graptolite biozones Ordovician Silurian",
+    "brachiopod rugose tabulate coral Paleozoic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Micropaleontology and palynology",
+   "scope": "Foraminifera, radiolarians, diatoms, calcareous nannofossils, conodonts, ostracods, dinoflagellate cysts, pollen and spores, used for biostratigraphy and paleoenvironmental analysis.",
+   "queries": [
+    "planktonic foraminifera biostratigraphy zones",
+    "conodont color alteration index biostratigraphy",
+    "coccolithophores calcareous nannofossil biozones",
+    "palynology pollen spores acritarchs dinoflagellate cysts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fossil Lagerstätten and taphonomy",
+   "scope": "Sites of exceptional fossil preservation such as the Burgess Shale, Chengjiang, Solnhofen, Messel, Rhynie chert and Mazon Creek, and the taphonomic processes behind them.",
+   "queries": [
+    "Burgess Shale fauna discovered Walcott",
+    "Konservat-Lagerstätte exceptional preservation soft tissue",
+    "Solnhofen limestone Archaeopteryx specimens",
+    "Rhynie chert Messel pit fossils"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mass extinctions and major Phanerozoic Earth-system events",
+   "scope": "The Big Five mass extinctions and other Phanerozoic crises such as oceanic anoxic events and the PETM, with their timing, proposed causes and geochemical evidence.",
+   "queries": [
+    "Permian-Triassic extinction event causes",
+    "Chicxulub impact iridium anomaly K-Pg boundary",
+    "Paleocene-Eocene Thermal Maximum carbon isotope excursion",
+    "oceanic anoxic event black shale Cretaceous"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Precambrian geology, cratons and early Earth",
+   "scope": "Archean and Proterozoic geology: cratons and shields, greenstone belts and komatiites, banded iron formations, the oldest rocks and minerals, the Great Oxidation Event and Snowball Earth.",
+   "queries": [
+    "Acasta Gneiss Jack Hills zircon oldest",
+    "Archean greenstone belt komatiite craton",
+    "banded iron formation Great Oxidation Event",
+    "Snowball Earth Cryogenian Marinoan Sturtian glaciation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plate tectonics: boundaries, kinematics and hotspots",
+   "scope": "Plate boundary types, named plates and microplates, plate velocities, subduction zones, triple junctions, hotspots and mantle plumes, and how the theory developed.",
+   "queries": [
+    "triple junction plate boundary types",
+    "Wadati-Benioff zone subduction slab",
+    "Hawaiian-Emperor seamount chain bend hotspot",
+    "list of tectonic plates microplate velocity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structural geology: faults, folds and deformation",
+   "scope": "Fault and fold types, stress and strain analysis, foliations and lineations, shear zones and fault rocks, joints, and stereonet and field measurement methods.",
+   "queries": [
+    "fold classification anticline syncline plunge",
+    "thrust fault nappe klippe window",
+    "strike and dip stereonet structural measurement",
+    "mylonite shear zone kinematic indicators"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Orogenies, paleocontinents and supercontinent cycles",
+   "scope": "Named orogenies and mountain belts, accreted terranes, ancient continents and oceans, and supercontinents such as Pangaea, Gondwana, Rodinia and Columbia.",
+   "queries": [
+    "Caledonian orogeny Iapetus Ocean closure",
+    "Grenville orogeny Rodinia assembly",
+    "supercontinent cycle Columbia Nuna Kenorland",
+    "Avalonia terrane Rheic Ocean Variscan orogeny"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Earthquake seismology and notable earthquakes",
+   "scope": "Seismic wave types, magnitude and intensity scales, focal mechanisms, seismometers and networks, major historical earthquakes and seismic hazard assessment.",
+   "queries": [
+    "moment magnitude scale Richter local magnitude",
+    "Modified Mercalli intensity scale levels",
+    "largest earthquakes recorded 1960 Valdivia magnitude",
+    "focal mechanism beach ball fault plane solution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Earth's internal structure, mantle mineralogy and isostasy",
+   "scope": "Layering of crust, mantle and core, seismic discontinuities (Moho, Gutenberg, Lehmann, transition zone, D'' layer), high-pressure mantle minerals, and isostatic compensation and rebound.",
+   "queries": [
+    "Moho discontinuity crust thickness depth",
+    "Lehmann discontinuity inner core boundary",
+    "mantle transition zone ringwoodite bridgmanite",
+    "Airy Pratt isostasy post-glacial rebound"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Paleomagnetism, geomagnetic reversals and magnetostratigraphy",
+   "scope": "Earth's magnetic field, polarity reversals and excursions, the geomagnetic polarity time scale and chrons, marine magnetic anomalies, apparent polar wander and magnetostratigraphy.",
+   "queries": [
+    "Brunhes-Matuyama geomagnetic reversal age",
+    "geomagnetic polarity time scale chrons",
+    "apparent polar wander path paleomagnetism",
+    "Vine-Matthews-Morley hypothesis magnetic stripes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Applied geophysics and well logging",
+   "scope": "Exploration methods (gravity, magnetics, electrical resistivity, electromagnetics, seismic reflection and refraction, ground-penetrating radar) and borehole logging tools.",
+   "queries": [
+    "Bouguer anomaly gravity survey correction",
+    "seismic reflection survey common midpoint stacking",
+    "electrical resistivity tomography induced polarization",
+    "well logging gamma ray neutron sonic log"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ore deposit models and metallogeny",
+   "scope": "Classification and origin of ore deposits (porphyry, VMS, SEDEX, MVT, orogenic gold, IOCG, magmatic sulfide, kimberlite, placer), plus notable mines and metallogenic provinces.",
+   "queries": [
+    "porphyry copper deposit alteration zones",
+    "volcanogenic massive sulfide deposit classification",
+    "Mississippi Valley-type lead zinc deposit",
+    "Witwatersrand gold Olympic Dam IOCG"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Petroleum geology, source rocks and hydrocarbon basins",
+   "scope": "Petroleum systems (kerogen types, maturation windows, reservoirs, seals and traps), unconventional plays, and major hydrocarbon basins and giant fields.",
+   "queries": [
+    "kerogen types oil window maturation",
+    "petroleum trap anticline salt dome stratigraphic",
+    "Ghawar oil field reservoir Arab formation",
+    "shale play Bakken Marcellus unconventional"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coal geology: rank, macerals and coalfields",
+   "scope": "How coal forms from peat, rank classification from lignite to anthracite, macerals and vitrinite reflectance, cyclothems, and notable coal basins and seams.",
+   "queries": [
+    "coal rank lignite subbituminous bituminous anthracite",
+    "macerals vitrinite liptinite inertinite",
+    "Carboniferous cyclothems coal measures",
+    "Powder River Basin coal seam thickness"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hydrogeology and geothermal systems",
+   "scope": "Groundwater flow, aquifer types and hydraulic properties, Darcy's law and well hydraulics, major named aquifers, and geothermal and hydrothermal systems including springs and geysers.",
+   "queries": [
+    "Darcy's law hydraulic conductivity transmissivity",
+    "Ogallala Aquifer confined unconfined",
+    "Theis equation pumping test drawdown",
+    "geyser hydrothermal system geothermal field"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fluvial, coastal and aeolian geomorphology",
+   "scope": "Landforms and surface processes of rivers, coasts and deserts, including channel patterns, terraces, sediment transport thresholds, coastal landforms and dune types.",
+   "queries": [
+    "meandering braided river channel oxbow",
+    "barchan seif star dune types",
+    "spit tombolo wave-cut platform coastal landforms",
+    "Hjulström curve stream power erosion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glacial geology and Quaternary stratigraphy",
+   "scope": "Glacial erosion and depositional landforms, Pleistocene ice sheets and named glaciations, marine isotope stages, proglacial lakes and megafloods.",
+   "queries": [
+    "drumlin esker moraine glacial landforms",
+    "Last Glacial Maximum Laurentide ice sheet",
+    "marine isotope stages Quaternary glaciation",
+    "glacial Lake Missoula floods channeled scablands"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Karst, caves and speleothems",
+   "scope": "Dissolution landforms, how caves form, speleothem types and their paleoclimate records, karst aquifers, and notable cave systems.",
+   "queries": [
+    "karst topography sinkhole doline polje",
+    "speleothem stalactite stalagmite flowstone",
+    "Mammoth Cave longest cave system",
+    "speleogenesis sulfuric acid cave Lechuguilla"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Marine geology and scientific ocean drilling",
+   "scope": "Seafloor morphology, mid-ocean ridges and hydrothermal vents, pelagic sediments and the carbonate compensation depth, and the DSDP, ODP and IODP drilling programs and their expeditions.",
+   "queries": [
+    "Deep Sea Drilling Project Glomar Challenger leg",
+    "IODP expedition JOIDES Resolution drilling",
+    "mid-ocean ridge spreading rate black smoker",
+    "calcareous ooze carbonate compensation depth"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Planetary geology, meteorites and impact structures",
+   "scope": "Geologic time scales and surface geology of the Moon, Mars and other bodies, meteorite classification, and impact cratering processes and terrestrial impact structures.",
+   "queries": [
+    "lunar geologic time scale Imbrian Nectarian",
+    "Mars geologic periods Noachian Hesperian Amazonian",
+    "meteorite classification chondrite achondrite iron",
+    "impact crater shocked quartz Vredefort Sudbury"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Engineering geology, rock mechanics and mass movements",
+   "scope": "Rock mass classification (RMR, Q-system, GSI), soil index properties, slope stability, landslide types, and geological factors in dam, tunnel and slope failures.",
+   "queries": [
+    "rock mass rating RMR Q-system Barton",
+    "Atterberg limits plasticity index liquid limit",
+    "Vajont dam landslide 1963",
+    "Varnes landslide classification slope failure"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of geology and geological surveys",
+   "scope": "Key figures, ideas, publications and institutions in the development of geology, from Steno, Hutton, Lyell and William Smith to Wegener, plus national geological surveys and landmark maps.",
+   "queries": [
+    "James Hutton Theory of the Earth Siccar Point",
+    "William Smith geological map 1815",
+    "Charles Lyell Principles of Geology uniformitarianism",
+    "Alfred Wegener continental drift Origin of Continents"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vertebrate paleontology and dinosaur-bearing formations",
+   "scope": "Fossil vertebrates (dinosaurs, pterosaurs, marine reptiles, early tetrapods and fossil mammals): their type specimens, discoverers, describing authors and the formations and quarries that yield them.",
+   "queries": [
+    "dinosaur holotype specimen formation described named",
+    "Hell Creek Formation vertebrate fauna Maastrichtian",
+    "Tiktaalik early tetrapod Devonian fossil discovery",
+    "ichthyosaur plesiosaur marine reptile Jurassic fossil"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Paleobotany and fossil plant evolution",
+   "scope": "Fossil plants and the history of land vegetation, from Rhynie chert early land plants and Carboniferous coal-swamp lycopsids to Glossopteris floras and the earliest angiosperms, including fossil-plant taxa and how they are preserved.",
+   "queries": [
+    "Rhynie chert early land plants Devonian",
+    "Lepidodendron Sigillaria Carboniferous lycopsid fossil",
+    "Glossopteris flora Gondwana fossil plants",
+    "earliest angiosperm fossil Archaefructus Cretaceous"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ichnology and trace fossils",
+   "scope": "Trace fossils such as burrows, trackways, borings and coprolites: their ichnotaxonomy, Seilacherian ichnofacies, ichnofabric indices and their use in paleoenvironmental and stratigraphic interpretation.",
+   "queries": [
+    "ichnofacies Seilacher Skolithos Cruziana Zoophycos",
+    "trace fossil ichnogenus burrow morphology",
+    "dinosaur trackway tracksite footprints ichnotaxon",
+    "bioturbation index ichnofabric Treptichnus pedum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Weathering, regolith, clay minerals and paleosols",
+   "scope": "Physical and chemical weathering and weathering indices, regolith profiles (saprolite, laterite, bauxite, duricrusts), clay mineral groups and how they are identified, and soil horizons and paleosol classification.",
+   "queries": [
+    "chemical index of alteration weathering profile",
+    "kaolinite smectite illite clay mineral identification",
+    "laterite bauxite saprolite regolith profile",
+    "paleosol classification soil horizons calcrete"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geologic mapping, field methods and map conventions",
+   "scope": "Making and reading geologic maps and cross-sections, covering field instruments, strike-and-dip and attitude notation, map symbol standards, unit labeling conventions and national geologic map series.",
+   "queries": [
+    "geologic map symbols strike dip notation",
+    "Brunton compass field measurement geology",
+    "FGDC digital cartographic standard geologic map symbolization",
+    "geologic quadrangle map series scale survey"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Geoanalytical instrumentation and reference materials",
+   "scope": "Laboratory methods for analysing rocks and minerals (XRF, XRD, electron microprobe, SEM-EDS, LA-ICP-MS, SIMS) and the certified reference materials and standards used to calibrate them.",
+   "queries": [
+    "electron microprobe wavelength dispersive spectrometry mineral analysis",
+    "USGS geochemical reference material BCR-2 basalt",
+    "LA-ICP-MS zircon standard NIST SRM 610",
+    "X-ray fluorescence fused bead major elements"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Remote sensing, geodesy and satellite geoscience",
+   "scope": "Satellite and airborne measurement of Earth's surface and shape for geology, including GNSS crustal geodesy, InSAR deformation mapping, LiDAR, multispectral and hyperspectral mineral mapping, and gravity and geoid missions.",
+   "queries": [
+    "InSAR interferometry ground deformation volcano",
+    "ASTER Landsat band ratio mineral mapping",
+    "GRACE GOCE satellite gravity geoid mission",
+    "continuous GPS station crustal velocity field"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Paleoclimatology: proxies, ice cores and orbital forcing",
+   "scope": "Reconstructing past climates from proxies (ice cores, foraminiferal oxygen isotopes, alkenones, TEX86, tree rings), Milankovitch orbital forcing, and the major Cenozoic climate states and transitions.",
+   "queries": [
+    "Vostok EPICA Dome C ice core record",
+    "Milankovitch cycles eccentricity obliquity precession periods",
+    "TEX86 alkenone paleotemperature proxy",
+    "benthic foraminifera oxygen isotope stack Cenozoic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Periglacial geomorphology and permafrost",
+   "scope": "Cold-climate landforms and processes outside glaciers: permafrost types and distribution, the active layer, ice wedges, pingos, patterned ground, solifluction, rock glaciers and thermokarst.",
+   "queries": [
+    "pingo formation open closed system permafrost",
+    "ice wedge polygons patterned ground periglacial",
+    "permafrost active layer continuous discontinuous zone",
+    "rock glacier solifluction thermokarst landforms"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Active tectonics, paleoseismology and tectonic geomorphology",
+   "scope": "Geologically recent deformation as measured by fault slip rates, paleoseismic trenching and recurrence intervals, uplifted marine and river terraces, and tectonic landforms such as offset streams and fault scarps.",
+   "queries": [
+    "paleoseismology trench recurrence interval fault",
+    "San Andreas slip rate Wallace Creek offset",
+    "uplifted marine terraces tectonic uplift rate",
+    "fault scarp degradation dating tectonic geomorphology"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ophiolites, accretionary complexes and ultrahigh-pressure terranes",
+   "scope": "Pieces of oceanic lithosphere and subduction-zone rocks exposed on land (ophiolite sequences, mélanges, accretionary prisms, blueschist belts and coesite- or diamond-bearing UHP terranes) and their classic localities.",
+   "queries": [
+    "Semail ophiolite Oman sheeted dike complex",
+    "Troodos ophiolite Cyprus pillow lavas",
+    "Franciscan Complex melange blueschist",
+    "ultrahigh pressure coesite Dora Maira Dabie Shan"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Experimental petrology, phase equilibria and geothermobarometry",
+   "scope": "Laboratory and thermodynamic study of mineral and melt equilibria, including experimental apparatus, classic phase diagrams and invariant points, calibrated geothermometers and geobarometers, and thermodynamic modelling software.",
+   "queries": [
+    "piston cylinder apparatus experimental petrology",
+    "aluminosilicate triple point kyanite sillimanite andalusite",
+    "garnet biotite geothermometer calibration",
+    "diopside anorthite eutectic phase diagram"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Environmental and medical geology",
+   "scope": "Geological causes of contamination and health effects, including arsenic and fluoride in groundwater, radon, asbestiform minerals, acid mine drainage, and diseases linked to trace-element excess or deficiency.",
+   "queries": [
+    "arsenic groundwater contamination Bangladesh aquifers",
+    "radon gas uranium bedrock indoor exposure",
+    "acid mine drainage pyrite oxidation",
+    "medical geology asbestos fluorosis selenium deficiency"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Industrial minerals, building stone and aggregates",
+   "scope": "Non-metallic mineral commodities and construction materials (kaolin, bentonite, phosphate rock, barite, diatomite, dimension stone, crushed stone and sand-and-gravel aggregates): their deposits, uses, specifications and well-known quarries.",
+   "queries": [
+    "industrial minerals kaolin bentonite deposits uses",
+    "dimension stone quarry Carrara marble",
+    "Portland stone oolitic limestone quarry building",
+    "construction aggregate crushed stone specifications"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mining geology, geostatistics and resource reporting codes",
+   "scope": "Geology applied to exploration and mining, covering grade control, cut-off grade and tonnage, geostatistical resource estimation (variograms, kriging) and public reporting codes such as JORC, NI 43-101 and SAMREC.",
+   "queries": [
+    "JORC code mineral resource ore reserve categories",
+    "NI 43-101 technical report qualified person",
+    "ordinary kriging variogram nugget effect",
+    "cut-off grade tonnage curve ore mining"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Geological storage: CO2 sequestration and radioactive waste repositories",
+   "scope": "Using the subsurface to isolate wastes and gases, including carbon capture and storage projects and their host formations, deep geological repositories for nuclear waste, natural analogues, and underground gas storage.",
+   "queries": [
+    "Sleipner CO2 storage Utsira Formation",
+    "Onkalo spent nuclear fuel repository Finland",
+    "Yucca Mountain repository geology tuff",
+    "Oklo natural nuclear reactor analogue"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geoarchaeology and forensic geology",
+   "scope": "Geological methods applied to archaeology and criminal investigation, including provenance of stone, obsidian and ceramics, site formation processes, and soil and mineral trace evidence.",
+   "queries": [
+    "Stonehenge bluestones provenance Preseli",
+    "obsidian sourcing archaeology X-ray fluorescence",
+    "geoarchaeology site formation processes sediments",
+    "forensic geology soil trace evidence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tsunamis, submarine landslides and paleotsunami deposits",
+   "scope": "How earthquakes, landslides and volcanic flank collapses generate tsunamis, notable historical tsunamis and their run-up heights, major submarine slides, and the sedimentary record of paleotsunamis.",
+   "queries": [
+    "Lituya Bay megatsunami run-up height",
+    "Storegga Slide tsunami deposits Norway",
+    "tsunami maximum run-up height 2011 Tohoku",
+    "paleotsunami sand sheet Cascadia 1700"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

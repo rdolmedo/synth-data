@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Biochemistry",
+ "target_leaves": 8,
+ "expected_problems": 23,
+ "leaves": [
+  {
+   "leaf": "Bisubstrate mechanism diagnosis from kinetic patterns",
+   "scope": "Problems give initial-velocity, product-inhibition and dead-end-inhibition patterns, sometimes with isotope-exchange data, for two- or three-substrate enzymes. The solver must identify the only kinetic mechanism consistent with all of them, or predict a pattern the problem does not give. This is hard because the patterns depend on substrate saturation, abortive complexes and the order of release, so Cleland's rules have to be applied in full rather than matched to a memorized table.",
+   "techniques": [
+    "Cleland's rules for slope and intercept effects of reversible connections",
+    "King-Altman derivation of rate equations for ordered, random and ping-pong schemes",
+    "Product inhibition patterns at saturating versus non-saturating co-substrate",
+    "Dead-end and abortive ternary complex formation",
+    "Equilibrium isotope exchange and positional isotope exchange as mechanism probes",
+    "Haldane relationships linking kinetic constants to K_eq"
+   ],
+   "answer_forms": [
+    "name of a kinetic mechanism",
+    "ordered tuple of inhibition types (competitive/noncompetitive/uncompetitive)",
+    "closed-form expression for an apparent kinetic constant",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Positional isotope tracing through central metabolism",
+   "scope": "Problems ask where a 13C, 14C, 2H or 18O label from a specified precursor ends up, or what isotopomer distribution results, after one or more passes through glycolysis, the pentose phosphate pathway, the TCA cycle, gluconeogenesis or anaplerotic routes. This is hard because of symmetric intermediates (succinate, fumarate), reversible transaldolase and transketolase scrambling, and the stereospecific behaviour of aconitase.",
+   "techniques": [
+    "Carbon-by-carbon atom mapping through aldolase and triose phosphate isomerase",
+    "Randomization at symmetric intermediates and prochirality (Ogston) arguments",
+    "Transketolase/transaldolase carbon shuffling in the non-oxidative PPP",
+    "Turn-by-turn TCA label dilution and decarboxylation loss",
+    "Pyruvate carboxylase versus pyruvate dehydrogenase entry and OAA/fumarate equilibration",
+    "Mass isotopomer distribution vector calculation"
+   ],
+   "answer_forms": [
+    "set of labeled carbon positions",
+    "rational number (fraction of label or specific activity)",
+    "ordered tuple of isotopomer fractions",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Metabolic control analysis of small networks",
+   "scope": "Problems define a small linear or branched pathway, sometimes with feedback inhibition or moiety-conserved cycles, give local elasticities, and ask for flux or concentration control coefficients or response coefficients. This is hard because the solver has to set up and solve the summation and connectivity theorems or the matrix formalism exactly, keeping the signs of feedback elasticities right.",
+   "techniques": [
+    "Flux control summation theorem and connectivity theorems",
+    "Matrix method inverting the elasticity/structure matrix",
+    "Branch-point flux control with branching ratios",
+    "Response coefficient as the product of control coefficient and parameter elasticity",
+    "Effect of feedback inhibition elasticity on distributing control",
+    "Conserved-moiety (e.g. NAD+/NADH) link matrices"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in elasticities",
+    "ordered tuple of control coefficients",
+    "name of the enzyme with the largest control"
+   ]
+  },
+  {
+   "leaf": "Linked equilibria and allosteric binding models",
+   "scope": "Problems involve multisite ligand binding to oligomeric proteins under MWC, KNF or general linkage schemes, including heterotropic effectors, proton linkage (Bohr-type) and binding polynomials. They ask for saturation, Hill coefficients, effector shifts or free energies of coupling. This is hard because it needs exact partition-function bookkeeping and Wyman linkage relations, not empirical Hill fits.",
+   "techniques": [
+    "Binding polynomial construction and statistical factors",
+    "MWC two-state model with L, c and effector-modified L",
+    "Wyman linkage relation between ligand binding and proton uptake",
+    "Maximum Hill slope evaluated at half-saturation",
+    "Thermodynamic cycles giving heterotropic coupling free energy",
+    "Scatchard/Klotz analysis of non-equivalent or interacting sites"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer (number of linked protons or sites)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Chemiosmotic and redox energy accounting",
+   "scope": "Problems ask for ATP yields, the minimum proton-motive force needed or redox driving forces when respiration or photosynthesis has altered stoichiometries. Examples are a different c-ring size, uncoupled sites, alternative oxidases, NADH shuttles or transporter proton costs. Concentrations are given and the computation must be exact. This is hard because the solver has to combine \u0394E\u00b0', Nernst corrections, membrane potential and \u0394pH, and transport costs into one consistent ledger.",
+   "techniques": [
+    "\u0394G = \u2212nF\u0394E with non-standard concentration corrections",
+    "Proton-motive force from \u0394\u03c8 and \u0394pH, and the H+/ATP ratio set by c-ring stoichiometry",
+    "Proton costs of ATP/ADP translocase and phosphate carrier",
+    "P/O ratio computation for different entry points and shuttles",
+    "Q-cycle proton and electron bookkeeping",
+    "Thermodynamic ceiling on phosphorylation potential"
+   ],
+   "answer_forms": [
+    "rational number (ATP per substrate or P/O)",
+    "real number with units (mV or kJ/mol)",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Peptide sequence and crosslink deduction from chemistry",
+   "scope": "Problems give combined data from specific chemical and enzymatic cleavages (CNBr, trypsin, Glu-C, BNPS-skatole), Edman cycles, amino acid composition, performic acid oxidation and MS/MS fragment masses. The solver must reconstruct a unique sequence, disulfide connectivity or modification site. This is hard because only the full combination of overlapping constraints rules out every alternative assembly.",
+   "techniques": [
+    "Overlap assembly of peptides from orthogonal cleavage specificities",
+    "b/y ion ladder interpretation with monoisotopic residue masses",
+    "Disulfide mapping by diagonal electrophoresis or non-reducing digestion",
+    "Mass shifts from PTMs (phosphorylation, deamidation, pyroglutamate)",
+    "Isobaric residue resolution (Leu/Ile, Gln/Lys) from secondary evidence",
+    "Charge-state and isotope-envelope reasoning"
+   ],
+   "answer_forms": [
+    "a sequence of one-letter amino acid codes",
+    "small set of cysteine pairings",
+    "integer (residue position)",
+    "real number (mass in Da)"
+   ]
+  },
+  {
+   "leaf": "Glycan linkage determination by degradative analysis",
+   "scope": "Problems give permethylation and partially methylated alditol acetate profiles, periodate consumption and formic acid release, Smith degradation products, and sequential exoglycosidase digestion results. The solver must reconstruct an oligosaccharide's branching and linkages, or count the structures consistent with the data. This is hard because each method constrains a different structural feature, and the remaining isomers have to be enumerated systematically.",
+   "techniques": [
+    "Interpreting PMAA methylation positions as linkage and branch points",
+    "Periodate oxidation stoichiometry (IO4\u2212 consumed, HCOOH released)",
+    "Smith degradation to locate periodate-resistant residues",
+    "Anomeric and linkage specificity of sequential exoglycosidases",
+    "Mass balance between terminal and branch residues",
+    "Combinatorial enumeration of branched isomers"
+   ],
+   "answer_forms": [
+    "name or condensed linkage notation of an oligosaccharide",
+    "integer (number of consistent structures or moles of periodate)",
+    "small set of linkage positions",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "DNA topology and supercoiling arithmetic",
+   "scope": "Problems follow closed circular DNA through topoisomerase I/II action, intercalator binding, protein wrapping, local melting or cruciform extrusion. They ask for linking number, twist, writhe, superhelical density, or the number and position of topoisomer bands on gels with and without chloroquine. This is hard because Lk = Tw + Wr has to be tracked through several perturbations that each change twist and writhe in different ways.",
+   "techniques": [
+    "Lk = Tw + Wr partition under helical repeat changes",
+    "Unwinding angles of intercalators such as ethidium",
+    "\u0394Lk changes of \u00b11 for type I and \u00b12 for type II topoisomerases",
+    "Nucleosome wrapping and the linking number paradox",
+    "Gaussian topoisomer distribution and gel band counting with chloroquine",
+    "Free energy of supercoiling driving local strand separation"
+   ],
+   "answer_forms": [
+    "integer (\u0394Lk or band count)",
+    "rational number (superhelical density)",
+    "ordered tuple (Tw, Wr)",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

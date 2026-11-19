@@ -1,0 +1,784 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "kotlin",
+ "weight": 0.012244,
+ "leaves": [
+  {
+   "leaf": "Kotlin history, origins and release timeline",
+   "scope": "Where Kotlin came from at JetBrains, its name, the key people, release dates of the major versions, and the milestones of its adoption for Android.",
+   "queries": [
+    "Kotlin programming language JetBrains Saint Petersburg history",
+    "Kotlin 1.0 released February 2016",
+    "Google I/O Kotlin Android official language",
+    "Andrey Breslav Kotlin lead designer"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "K2 compiler and Kotlin 2.x releases",
+   "scope": "The K2 compiler and its FIR frontend, how it became stable in Kotlin 2.0, and which features changed in the 2.x language releases.",
+   "queries": [
+    "K2 compiler migration guide Kotlin 2.0",
+    "What's new in Kotlin 2.1.0",
+    "FIR frontend intermediate representation K2 performance",
+    "Kotlin 2.2 stable features language version"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Language evolution, governance and stability levels",
+   "scope": "How Kotlin features are proposed, staged and retired: KEEP proposals, the Kotlin Foundation and its language committee, component stability levels, opt-in annotations and deprecation cycles.",
+   "queries": [
+    "KEEP Kotlin Evolution and Enhancement Process proposal",
+    "RequiresOptIn OptIn annotation experimental API",
+    "Kotlin components stability levels Experimental Alpha Beta",
+    "Kotlin Foundation language committee incompatible changes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Null safety, smart casts and contracts",
+   "scope": "Nullable types, the safe-call, Elvis and not-null assertion operators, safe casts, the rules for smart casts, and kotlin.contracts.",
+   "queries": [
+    "safe call operator Elvis operator not-null assertion",
+    "smart casts val local variable stability rules",
+    "kotlin.contracts callsInPlace returns implies",
+    "nullable types let safe cast as?"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Generics, variance and type aliases",
+   "scope": "Generic classes and functions, declaration-site and use-site variance, star projections, type erasure, reified type parameters, definitely non-nullable types and typealias declarations.",
+   "queries": [
+    "declaration-site variance out in projections",
+    "reified type parameters inline function",
+    "star projection generic type erasure",
+    "definitely non-nullable types T & Any"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Data, sealed, enum and value classes",
+   "scope": "The special class kinds: functions generated for data classes, how sealed hierarchies are restricted and checked for exhaustiveness, the enum class APIs, and inline/value classes with their JVM name mangling.",
+   "queries": [
+    "data class copy componentN equals hashCode",
+    "sealed class sealed interface exhaustive when",
+    "enum class entries values valueOf",
+    "value class JvmInline inline class mangling"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Inheritance, interfaces, visibility and object declarations",
+   "scope": "The open/final/abstract inheritance model, interfaces and overriding rules, visibility modifiers and modules, and object declarations, companion objects, data objects and object expressions.",
+   "queries": [
+    "open final override abstract class inheritance",
+    "visibility modifiers internal module protected",
+    "companion object declaration singleton lazily initialized",
+    "data object toString anonymous object expressions"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Properties and delegation",
+   "scope": "Property declarations, backing fields, accessors, lateinit and const val, delegated properties with the standard delegates, the delegate operator conventions, and class delegation with by.",
+   "queries": [
+    "lateinit property isInitialized backing field",
+    "delegated properties lazy observable vetoable",
+    "getValue setValue provideDelegate operator",
+    "class delegation by keyword interface implementation"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Functions, extensions and operator overloading",
+   "scope": "Function declaration features: default and named arguments, varargs, infix, tailrec and local functions, extension functions and properties, and the operator overloading conventions.",
+   "queries": [
+    "extension functions receiver statically resolved",
+    "operator overloading conventions plus invoke get",
+    "infix notation tailrec function",
+    "default arguments named arguments vararg spread operator"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Lambdas, inline functions and scope functions",
+   "scope": "Function types and lambda literals, function types with receiver, inline/noinline/crossinline and non-local returns, the scope functions, fun interfaces and SAM conversions.",
+   "queries": [
+    "inline functions noinline crossinline non-local return",
+    "function types with receiver lambda literals",
+    "scope functions let run with apply also",
+    "fun interface SAM conversion functional interface"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Type-safe builders, DSLs and context parameters",
+   "scope": "Building internal DSLs with lambdas with receivers, @DslMarker, builder inference, and context receivers and their replacement by context parameters, with examples such as kotlinx.html.",
+   "queries": [
+    "type-safe builders DslMarker annotation",
+    "context parameters context receivers Kotlin 2.2",
+    "builder inference buildList lambda receiver",
+    "kotlinx.html DSL HTML builder"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Control flow, ranges, destructuring and exceptions",
+   "scope": "when expressions and guard conditions, if and try as expressions, ranges and progressions, destructuring declarations, labeled returns, break and continue, the Nothing type and Kotlin's exception model.",
+   "queries": [
+    "when expression guard conditions else branch",
+    "ranges progressions rangeTo rangeUntil step downTo",
+    "destructuring declarations componentN underscore unused",
+    "Nothing type throw expression try expression"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Basic types: numbers, unsigned integers, characters, strings and arrays",
+   "scope": "The built-in numeric types and how they convert, unsigned integer types, Char, string literals, templates and multi-dollar interpolation, and primitive and object arrays.",
+   "queries": [
+    "unsigned integer types UInt ULong literals",
+    "string templates raw strings trimIndent",
+    "multi-dollar string interpolation",
+    "numbers integer types Byte Short Long explicit conversions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Collections, sequences and immutable collections",
+   "scope": "Read-only and mutable collection interfaces, the standard collection operations and builders, lazy sequences, and the kotlinx.collections.immutable persistent collections.",
+   "queries": [
+    "collection operations groupBy associate partition",
+    "sequences lazy evaluation generateSequence",
+    "windowed chunked zipWithNext collection functions",
+    "kotlinx.collections.immutable persistent list"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Standard library utilities: time, UUID, encoding, Result and I/O",
+   "scope": "Utility APIs in the standard library and nearby libraries: kotlin.time Duration and TimeSource, kotlinx-datetime, kotlin.uuid, Base64, HexFormat, Regex, Result and runCatching, kotlin.io and kotlinx-io.",
+   "queries": [
+    "kotlin.time Duration measureTime TimeSource",
+    "kotlin.uuid Uuid random Base64 HexFormat",
+    "kotlinx-datetime Instant LocalDateTime TimeZone",
+    "Result class runCatching getOrElse fold"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Reflection and callable references",
+   "scope": "Kotlin reflection through kotlin-reflect: KClass, KProperty, KFunction and KType, bound and unbound callable references, typeOf, and the kotlin.reflect.full and JVM reflection bridges.",
+   "queries": [
+    "kotlin-reflect KClass KProperty KFunction",
+    "callable references bound references ::class",
+    "typeOf KType reified reflection",
+    "kotlin.reflect.full memberProperties jvm"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Coroutines fundamentals and structured concurrency",
+   "scope": "Suspend functions and kotlinx.coroutines basics: coroutine builders, Job and CoroutineScope, structured concurrency, cancellation and timeouts, CoroutineContext, dispatchers and exception propagation.",
+   "queries": [
+    "coroutine builders launch async runBlocking",
+    "structured concurrency CoroutineScope Job cancellation",
+    "Dispatchers.IO Default Unconfined limitedParallelism",
+    "CoroutineExceptionHandler SupervisorJob exception propagation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin Flow, StateFlow and SharedFlow",
+   "scope": "Cold asynchronous streams in kotlinx.coroutines: flow builders, intermediate and terminal operators, context preservation and buffering, and the hot StateFlow and SharedFlow types.",
+   "queries": [
+    "StateFlow SharedFlow replay MutableStateFlow",
+    "flowOn buffer conflate flow context preservation",
+    "callbackFlow channelFlow cold flow builder",
+    "flow operators combine zip flatMapLatest"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Channels, select and concurrency primitives",
+   "scope": "Coroutine channels and their capacity types, the produce and actor builders, select expressions, Mutex and Semaphore, atomicfu and the kotlin.concurrent.atomics API.",
+   "queries": [
+    "Channel capacity RENDEZVOUS BUFFERED CONFLATED",
+    "select expression onReceive onSend",
+    "Mutex withLock Semaphore coroutines",
+    "atomicfu atomic operations kotlin.concurrent.atomics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "kotlinx.serialization",
+   "scope": "The kotlinx.serialization plugin and runtime: @Serializable and related annotations, Json configuration, polymorphic serialization, custom serializers and descriptors, and the ProtoBuf, CBOR and other formats.",
+   "queries": [
+    "kotlinx.serialization Json configuration ignoreUnknownKeys",
+    "Serializable SerialName Transient annotation",
+    "polymorphic serialization sealed classDiscriminator",
+    "custom serializer KSerializer descriptor ProtoBuf CBOR"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Java interoperability",
+   "scope": "Calling Java from Kotlin and Kotlin from Java: platform types and nullability annotations, how getters and setters map, the @Jvm* annotations, file facade classes and checked exceptions with @Throws.",
+   "queries": [
+    "calling Kotlin from Java JvmStatic JvmOverloads",
+    "JvmField JvmName file facade class",
+    "platform types nullability annotations Java",
+    "calling Java code from Kotlin getters setters"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "JVM backend and bytecode generation",
+   "scope": "How Kotlin/JVM compiles to bytecode: the JVM IR backend, jvmTarget versions, jvm-default modes for interface methods, invokedynamic lambdas and string concatenation, @JvmRecord, and Java module support.",
+   "queries": [
+    "JVM IR backend jvmTarget bytecode version",
+    "jvm-default interface default methods compiler option",
+    "invokedynamic lambdas SAM conversions LambdaMetafactory",
+    "JvmRecord Java records Kotlin"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Kotlin/Native toolchain, memory management and C interop",
+   "scope": "The Kotlin/Native compiler, its target support tiers, binary output kinds, the memory manager and garbage collector, and C interoperability through cinterop and .def files.",
+   "queries": [
+    "Kotlin/Native memory manager garbage collector",
+    "cinterop def file C libraries",
+    "Kotlin/Native target support tiers",
+    "Kotlin/Native binaries executable static library"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin/Native Apple interop and Swift export",
+   "scope": "Using Kotlin on Apple platforms: how Kotlin types map to Objective-C and Swift, Swift export, Apple frameworks and XCFrameworks, and integration through CocoaPods and Xcode.",
+   "queries": [
+    "Kotlin Objective-C Swift interop mapping",
+    "Swift export Kotlin experimental",
+    "CocoaPods Gradle plugin Kotlin framework",
+    "XCFramework embedAndSignAppleFrameworkForXcode"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin/JS and Kotlin/Wasm web targets",
+   "scope": "Compiling Kotlin for the web: the Kotlin/JS IR compiler, @JsExport, external declarations and the dynamic type, npm and webpack integration, and the Kotlin/Wasm wasmJs and wasmWasi targets.",
+   "queries": [
+    "Kotlin/JS IR compiler JsExport",
+    "external declarations dynamic type JavaScript",
+    "Kotlin/Wasm wasmJs WasmGC browser",
+    "wasmWasi target JsAny interoperability"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin Multiplatform project structure and publishing",
+   "scope": "How Kotlin Multiplatform projects are organized: expect/actual declarations, source sets and the default hierarchy template, target declarations, dependency handling, and publishing multiplatform libraries as klibs.",
+   "queries": [
+    "expect actual declarations multiplatform",
+    "default hierarchy template source sets",
+    "commonMain iosMain dependencies multiplatform",
+    "publishing multiplatform libraries klib"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Build tooling: Kotlin Gradle plugin, Gradle Kotlin DSL and Maven",
+   "scope": "Building Kotlin projects: the Kotlin Gradle plugin and its compilerOptions DSL, build.gradle.kts scripts, JVM toolchains, incremental compilation, the Kotlin daemon, build reports and the Maven plugin.",
+   "queries": [
+    "Kotlin Gradle plugin compilerOptions DSL",
+    "Gradle Kotlin DSL build.gradle.kts",
+    "incremental compilation Kotlin daemon build reports",
+    "kotlin-maven-plugin configuration"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin compiler plugins",
+   "scope": "The official compiler plugins (all-open, kotlin-spring, no-arg, kotlin-jpa, SAM-with-receiver, Lombok, Power-assert, jvm-abi-gen, js-plain-objects) and the API for writing your own.",
+   "queries": [
+    "all-open compiler plugin kotlin-spring",
+    "no-arg compiler plugin JPA",
+    "Power-assert compiler plugin",
+    "SAM-with-receiver Lombok compiler plugin"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Annotations, kapt and Kotlin Symbol Processing",
+   "scope": "Declaring and applying annotations, including use-site targets, annotation processing with kapt, and the KSP API (KSP1 and KSP2) for writing symbol processors.",
+   "queries": [
+    "annotation use-site targets field get param",
+    "kapt annotation processing Kotlin",
+    "Kotlin Symbol Processing API KSP2",
+    "SymbolProcessor Resolver KSP processor"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Library authoring and binary compatibility",
+   "scope": "Advice for library authors on keeping a stable API: explicit API mode, @PublishedApi, the binary compatibility validator and ABI validation in the Gradle plugin, Kotlin metadata, and klib ABI compatibility.",
+   "queries": [
+    "explicit API mode library authors",
+    "PublishedApi internal inline functions",
+    "binary compatibility validator apiDump",
+    "kotlin-metadata-jvm Metadata annotation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "IDE and command-line tooling",
+   "scope": "Kotlin developer tools: the kotlinc command-line compiler and its options, the IntelliJ IDEA Kotlin plugin and K2 mode, the Kotlin Analysis API, the Kotlin language server and the online playground.",
+   "queries": [
+    "kotlinc command-line compiler options",
+    "IntelliJ IDEA K2 mode Kotlin plugin",
+    "Kotlin Language Server LSP",
+    "Kotlin Analysis API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Documentation, code style and static analysis",
+   "scope": "KDoc syntax and the Dokka documentation engine, the official Kotlin coding conventions, and the linters and static analyzers ktlint and detekt.",
+   "queries": [
+    "KDoc syntax block tags param",
+    "Dokka documentation engine Gradle plugin",
+    "Kotlin coding conventions naming rules",
+    "ktlint detekt rules configuration"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Kotlin scripting",
+   "scope": "Kotlin script files and their infrastructure: .main.kts scripts and annotations such as @file:DependsOn, custom script definitions, the scripting host API, and JSR-223 script engine support.",
+   "queries": [
+    "Kotlin scripting main.kts DependsOn",
+    "kotlin script definitions scripting host",
+    "kts files Kotlin custom scripting",
+    "kotlin-scripting-jsr223 ScriptEngine"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Data science, notebooks and AI libraries",
+   "scope": "Kotlin for data and AI work: Kotlin Notebook and the Jupyter kernel, Kotlin DataFrame, Kandy plotting, Multik, KotlinDL, and JetBrains' Koog agent framework.",
+   "queries": [
+    "Kotlin DataFrame library columns",
+    "Kotlin Notebook IntelliJ Jupyter kernel",
+    "Kandy plotting library Kotlin",
+    "Multik KotlinDL Koog AI agents"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Android development with Kotlin",
+   "scope": "Kotlin-specific Android development: Android KTX, the deprecated kotlin-android-extensions synthetics, Parcelize, lifecycle-aware coroutine scopes, and Kotlin support in the Android Gradle plugin.",
+   "queries": [
+    "Android KTX extensions Kotlin",
+    "kotlin-android-extensions synthetic deprecated Parcelize",
+    "lifecycleScope viewModelScope coroutines Android",
+    "Android Gradle plugin built-in Kotlin support"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Jetpack Compose and Compose Multiplatform",
+   "scope": "Declarative UI with Compose: @Composable functions, recomposition and state, the Compose compiler Gradle plugin, and Compose Multiplatform for desktop, iOS and web, with their release milestones.",
+   "queries": [
+    "Jetpack Compose Composable recomposition remember",
+    "Compose compiler Gradle plugin Kotlin 2.0",
+    "Compose Multiplatform iOS stable release",
+    "Compose for Desktop window application"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ktor framework",
+   "scope": "JetBrains' Ktor framework for servers and clients: server engines, the plugin system and routing, content negotiation, client engines and HttpClient configuration, and migration between major versions.",
+   "queries": [
+    "Ktor server engine Netty CIO",
+    "Ktor plugins routing ContentNegotiation",
+    "Ktor client engines HttpClient",
+    "Ktor 3.0 migration guide"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Server-side frameworks, persistence and dependency injection",
+   "scope": "Kotlin on the server outside Ktor: Kotlin support in Spring Boot, Micronaut and Quarkus, http4k, the Exposed and SQLDelight database libraries, and DI frameworks such as Koin.",
+   "queries": [
+    "Spring Boot Kotlin support coroutines",
+    "Exposed SQL framework DSL DAO",
+    "Micronaut Quarkus Kotlin extension",
+    "http4k Koin dependency injection"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Testing libraries and frameworks",
+   "scope": "Testing Kotlin code with kotlin.test, the Kotest framework, MockK, kotlinx-coroutines-test, Turbine for Flow testing, and Lincheck for checking concurrent code.",
+   "queries": [
+    "kotlin.test assertions annotations",
+    "Kotest framework specs matchers",
+    "MockK mocking every verify coEvery",
+    "kotlinx-coroutines-test runTest TestDispatcher"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Arrow and functional programming",
+   "scope": "The Arrow libraries for typed functional programming: Either and the Raise DSL in Arrow Core, Arrow Optics, Arrow Fx coroutine utilities, and Arrow resilience primitives.",
+   "queries": [
+    "Arrow Core Either Raise DSL",
+    "Arrow Optics lens prism",
+    "Arrow Fx parZip resource",
+    "Arrow resilience Schedule CircuitBreaker"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lexical grammar, keywords and literal syntax",
+   "scope": "Kotlin's lexical and syntactic grammar as defined in the language specification and grammar reference: hard, soft and modifier keywords, identifiers and backtick escaping, numeric, character and string literal syntax and escape sequences, string templates and multi-dollar interpolation, operator precedence and newline/semicolon rules.",
+   "queries": [
+    "Kotlin hard keywords soft keywords modifier keywords",
+    "Kotlin grammar operator precedence elvis infix",
+    "Kotlin string templates multi-dollar interpolation raw strings",
+    "Kotlin specification lexical grammar identifiers escape sequences"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Type system semantics, type inference and overload resolution",
+   "scope": "The formal type system in the Kotlin specification: Any, Unit and Nothing, subtyping rules, flexible and intersection types, integer literal types, the constraint-based type inference algorithm including builder inference, and how overload resolution picks the most specific candidate.",
+   "queries": [
+    "Kotlin specification overload resolution most specific candidate",
+    "Kotlin type inference constraint system builder inference",
+    "Kotlin Nothing type Unit Any subtyping hierarchy",
+    "Kotlin flexible types intersection types integer literal types"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Compiler arguments, warnings and diagnostics",
+   "scope": "kotlinc and compilerOptions flags (-language-version, -api-version, -jvm-target, -progressive, -X experimental flags, warning-level and warnings-as-errors controls), named compiler diagnostics and their @Suppress identifiers, and when particular warnings or flags were added, deprecated or removed.",
+   "queries": [
+    "Kotlin compiler options language-version api-version progressive",
+    "kotlinc Xjsr305 Xjvm-default compiler argument",
+    "Kotlin Xwarning-level allWarningsAsErrors suppress warnings",
+    "Kotlin compiler diagnostic UNCHECKED_CAST Suppress names"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compilation infrastructure: Kotlin daemon, incremental compilation and Analysis API",
+   "scope": "The machinery that runs Kotlin compilation beyond the language frontend: the Kotlin daemon and compiler execution strategies, incremental compilation and classpath snapshots, build reports, the Build Tools API and kotlin-compiler-embeddable, and the Kotlin Analysis API used by IDEs and KSP2.",
+   "queries": [
+    "Kotlin daemon JVM arguments compiler execution strategy",
+    "Kotlin incremental compilation classpath snapshot build reports",
+    "Kotlin Analysis API KaSession standalone mode",
+    "Kotlin Build Tools API kotlin-compiler-embeddable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Coroutine internals: continuations, intrinsics and debugging",
+   "scope": "The low-level machinery under suspend functions: Continuation and CoroutineContext in kotlin.coroutines, continuation-passing-style transformation and state machines, kotlin.coroutines.intrinsics and COROUTINE_SUSPENDED, restricted suspension in sequence builders, and kotlinx-coroutines-debug, DebugProbes and stack trace recovery.",
+   "queries": [
+    "Kotlin Continuation resumeWith suspendCoroutine createCoroutine startCoroutine",
+    "kotlin.coroutines.intrinsics COROUTINE_SUSPENDED suspendCoroutineUninterceptedOrReturn",
+    "kotlinx-coroutines-debug DebugProbes debug agent stack trace recovery",
+    "Kotlin coroutines KEEP continuation passing style state machine"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Coroutine integration modules for reactive streams, futures and UI dispatchers",
+   "scope": "The kotlinx.coroutines integration artifacts: kotlinx-coroutines-reactive, -reactor and -rx2/-rx3 adapters, -jdk8, -guava and -play-services future and task bridges, -slf4j MDCContext, and the Android, Swing and JavaFX Dispatchers.Main modules.",
+   "queries": [
+    "kotlinx-coroutines-reactive asPublisher awaitFirst Publisher",
+    "kotlinx-coroutines-rx3 rxSingle rxObservable Flowable",
+    "kotlinx-coroutines-guava ListenableFuture asDeferred await",
+    "kotlinx-coroutines-swing javafx Dispatchers.Main MDCContext"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Threads, atomics and shared-memory concurrency outside coroutines",
+   "scope": "Concurrency in Kotlin without kotlinx.coroutines: kotlin.concurrent thread, timer and lock helpers, the @Volatile and @Synchronized annotations, the kotlin.concurrent.atomics API (AtomicInt, AtomicLong, AtomicReference, atomic arrays), and kotlinx-atomicfu with its bytecode transformation plugin.",
+   "queries": [
+    "kotlin.concurrent.atomics AtomicInt AtomicReference experimental",
+    "kotlinx atomicfu atomic transformation Gradle plugin",
+    "Kotlin Volatile Synchronized annotations JVM thread",
+    "kotlin.concurrent thread fixedRateTimer withLock"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "kotlinx-datetime, kotlinx-io and other kotlinx utility libraries",
+   "scope": "Official JetBrains kotlinx libraries that no other leaf covers: kotlinx-datetime (LocalDate, LocalDateTime, TimeZone, DateTimePeriod, the format DSL), kotlinx-io (Buffer, Source, Sink, file system API), the kotlinx.html DSL, and kotlinx-cli argument parsing.",
+   "queries": [
+    "kotlinx-datetime LocalDateTime TimeZone DateTimePeriod",
+    "kotlinx-datetime format DSL DateTimeComponents",
+    "kotlinx-io Buffer Source Sink RawSource",
+    "kotlinx.html DSL tags kotlinx-cli ArgParser"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Math, random numbers and bit operations in the standard library",
+   "scope": "The kotlin.math functions and constants, the kotlin.random.Random API and seeding, floating-point helpers (ulp, nextUp, withSign, IEEErem, rounding functions), integer bit manipulation (countOneBits, takeHighestOneBit, rotateLeft), and BigInteger and BigDecimal operator extensions on the JVM.",
+   "queries": [
+    "kotlin.math package functions constants PI",
+    "kotlin.random Random nextInt seed nextBits",
+    "Kotlin countOneBits takeHighestOneBit rotateLeft",
+    "Kotlin ulp nextUp withSign IEEErem roundToInt"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "RPC, gRPC, GraphQL and Protocol Buffers in Kotlin",
+   "scope": "Schema-driven and remote-call API libraries for Kotlin: JetBrains kotlinx-rpc, grpc-kotlin coroutine stubs, protobuf Kotlin DSL code generation, Square Wire, Apollo Kotlin and Expedia graphql-kotlin.",
+   "queries": [
+    "kotlinx-rpc RemoteService kRPC Ktor transport",
+    "grpc-kotlin coroutine stubs protoc-gen-grpc-kotlin",
+    "Square Wire protocol buffers Kotlin generated code",
+    "Apollo Kotlin GraphQL normalized cache codegen"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Square's Kotlin libraries: OkHttp, Okio, Moshi, Retrofit and KotlinPoet",
+   "scope": "Kotlin-first open-source libraries from Square/Block: the OkHttp 4 Kotlin rewrite and OkHttp 5 (interceptors, MockWebServer), Okio (ByteString, Buffer, FileSystem), Moshi's Kotlin codegen and reflection adapters, Retrofit's suspend support, and KotlinPoet code generation.",
+   "queries": [
+    "OkHttp 4 Kotlin rewrite changelog interceptors",
+    "Okio ByteString Buffer FileSystem multiplatform",
+    "Moshi Kotlin codegen JsonClass generateAdapter",
+    "KotlinPoet FileSpec TypeSpec FunSpec"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Amper and alternative build systems",
+   "scope": "Building Kotlin without Gradle or Maven: JetBrains Amper (module.yaml, product types, templates), Bazel rules_kotlin, Buck2, the Kotlin Ant tasks, and the discontinued Kobalt build tool.",
+   "queries": [
+    "Amper module.yaml product type Kotlin",
+    "Bazel rules_kotlin kt_jvm_library kt_android_library",
+    "Kotlin Ant task kotlinc withKotlin",
+    "Kobalt build system Kotlin Cedric Beust"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Multiplatform community libraries for storage, logging and navigation",
+   "scope": "Third-party Kotlin Multiplatform libraries outside JetBrains' core: SQLDelight drivers and generated queries, Realm Kotlin, multiplatform-settings, Kermit and Napier logging, Decompose and Voyager navigation, and the moko library family.",
+   "queries": [
+    "SQLDelight drivers generated queries migrations",
+    "Kermit logging Touchlab multiplatform Logger",
+    "Decompose ComponentContext Voyager navigation multiplatform",
+    "multiplatform-settings Realm Kotlin moko-resources"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Code coverage and benchmarking tools",
+   "scope": "Measuring Kotlin code: the Kover coverage plugin with its reports, filters and verification rules, JaCoCo's handling of Kotlin-generated bytecode, and kotlinx-benchmark with JMH on the JVM plus native, JS and Wasm benchmark targets.",
+   "queries": [
+    "Kover Gradle plugin coverage verification rules",
+    "kotlinx-benchmark JMH multiplatform benchmark configuration",
+    "JaCoCo Kotlin inline functions coverage filtering",
+    "Kover koverXmlReport excludes annotatedBy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Game development and desktop GUI outside Compose",
+   "scope": "Kotlin for games and classic desktop interfaces: the KorGE engine and Korlibs, KTX extensions for libGDX, LWJGL usage from Kotlin, the TornadoFX framework for JavaFX, and Kotlin-idiomatic Swing development.",
+   "queries": [
+    "KorGE game engine Korlibs Kotlin multiplatform",
+    "KTX libGDX Kotlin extensions modules",
+    "TornadoFX JavaFX Kotlin framework",
+    "Kotlin Swing desktop application LWJGL bindings"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "KotlinConf, community and learning resources",
+   "scope": "The Kotlin community and education ecosystem: KotlinConf editions, venues and keynote announcements, Kotlin Koans and the Kotlin Playground, the Kotlin Heroes contests on Codeforces, user groups, Slack and newsletters, standard books such as Kotlin in Action, and published adoption case studies.",
+   "queries": [
+    "KotlinConf conference keynote announcements venue",
+    "Kotlin Koans Kotlin Playground online exercises",
+    "Kotlin Heroes Codeforces competitive programming",
+    "Kotlin Multiplatform case studies companies adoption"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  }
+ ]
+}

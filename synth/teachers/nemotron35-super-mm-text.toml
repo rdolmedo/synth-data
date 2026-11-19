@@ -1,0 +1,142 @@
+# Text-only eval variant (#348, 2026-11-11) of nemotron35-super-mm.toml: every AAI-open model is served without vision. The
+# only change is --language-model-only in place of the image allowance: vLLM 0.32 then skips building and
+# loading the vision tower (_mark_tower_model) and serves text alone; every other setting is the M3.6 spec's.
+# Launch evidence: aa_evals protocol.image_inputs and pi_eval model_input read --language-model-only as text-only.
+# AA evals (issue #27-#34): Super VL with image inputs enabled (up to 256 images per prompt, 1M context via the serve_teacher profile) for HLE-Diamond and GDP.pdf.
+# NVIDIA Nemotron 3.5 Super VL (NVFP4), one replica per B200.
+# Provenance: campaign 20261016T171932Z (branch generation/pi-submit-20261016T171932Z/nemotron35-super),
+# 110.68M tokens / TB2.1 pass@1 56.93%. Serving recipe = inference/serve_nemotron.sh (HARDWARE=b200).
+# 2026-11-19 (#478): vLLM main 8f3c672dc (/data/aai/venvs/vllm-0.34.0rc1.dev815-g8f3c672dc-cu132,
+# DeepSeek V4.1 Flash 1017's venv since #528) with synth-cpu-supersede 3.0 (/data/aai/tbench/vllm_plugins/
+# cpu_supersede_v3: v2's logic on vLLM 0.32, its port on 0.34); was vllm032 + v2. Evidence (campaigns on branch
+# rt-vllm-super, one B200 each):
+# - closed-loop replay of recorded Super TMax traffic on nemotron35-super-mm-text, 384 agents: 7,734 vs 6,686 gen tok/s
+#   (+15.7%), prefix hit 0.91 vs 0.90, MTP3 mean accepted length 3.19 on both;
+# - parity on nemotron35-super-mm (inference/vllm_upgrade/parity_check.py, greedy, first-token top-20): 16 long TMax
+#   prompts (52k-128k tokens) cross-build TV median 0.006 / max 0.22, argmax 16/16, vs each build's own prefix-hit
+#   noise median 0.003 / max 0.29 (vllm032) and 0.001 / 0.21 (main); 16 short and 8 synthetic-image prompts (hits
+#   bit-exact on both builds) cross-build TV median 0.0001 / 0.001, max 0.12 / 0.007, argmax 15/16 (the flip: an exact
+#   top-2 tie on vllm032, split by one bf16 logit step on main) and 8/8; CPU-tier restores on main at the GPU-hit
+#   floor (TV median 0.001, 16/16).
+# - serve_teacher launches of nemotron35-super-mm at its 1M-context profile: 16 / 64 / 160 rendered GDP.pdf pages
+#   (inference/vllm_upgrade/mm_pages_check.py) give the same prompt tokens on both builds (33,451 / 133,675 / 334,185),
+#   cross-build TV 0.0002-0.001 (own prefix-hit 0.0002-0.0014) and identical 16-token greedy continuations; sampling
+#   at T=1 with MTP3 is faithful to the logprobs (sampling_calibration.py, randomized PIT on 48 TMax prompts x 16
+#   samples: KS p 0.65 / 0.18 / 0.96 at positions 0 / 1-5 / 6+ on main, 0.34 / 0.81 / 0.81 on vllm032).
+# - The first start of a spec on main JIT-compiles FlashInfer's NVFP4 CuTe-DSL GEMMs (healthy after 1,012 s vs 329 s);
+#   the shared engine cache then holds them, so later starts seed from it.
+# New servers only (a running campaign keeps its frozen spec).
+# + synth-eot-checkpoint 5.0 (#477; /data/aai/tbench/vllm_plugins/eot_checkpoint_v5, the 0.34 port of v4): on this
+#   spec's replay 7,983 vs 7,734 gen tok/s (+3.2%), computed prefill per turn 813 vs 1,146; end-state hits at the
+#   ordinary prefix-hit floor (eot_logprob_check.py, pooled n=18: Mann-Whitney p 0.45 GPU / 0.90 CPU tier; paired on
+#   the same conversations, n=20: TV vs fresh median 0.045 vs 0.067 for stock hits, Wilcoxon p 0.79).
+slug = "nemotron35-super-mm-text"
+model = "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+revision = "82d93699acd3be9e4617c53360fe5b3f5dbeb1b3"
+checkpoint = "/data/aai/models/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+served_name = "nemotron-3.5-super-vl"
+stage_checkpoint = true
+
+[runtime]
+venv = "/data/aai/venvs/vllm-0.34.0rc1.dev815-g8f3c672dc-cu132"
+vllm_version = "0.34.0rc1.dev815+g8f3c672dc"
+cuda_home = "cu13-wheel"
+cu13_ld_library_path = true
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["HUMMING_CACHE_DIR", "HUMMING_TMP_DIR", "VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR",
+             "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME", "HF_HOME"]
+# VLLM_MAX_MEDIA_REQUEST_DECODE_BYTES: the default 683 MiB (W*H*4) admits only ~85 pages at 150 DPI (GDP.pdf, #34)
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", VLLM_MAX_MEDIA_REQUEST_DECODE_BYTES = "2147483648", FLASHINFER_NO_DOWNLOAD = "1" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--trust-remote-code", "--seed", "{seed}", "--tensor-parallel-size", "1",
+  "--max-model-len", "{max_model_len}", "--gpu-memory-utilization", "{gpu_memory_utilization}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--prefix-match-unit", "16",
+  "--enable-mamba-shared-prefix-checkpoint", "--mamba-cache-mode", "align",
+  "--mamba-backend", "flashinfer", "--mamba-ssm-cache-dtype", "float16",
+  "--enable-mamba-cache-stochastic-rounding", "--mamba-cache-philox-rounds", "5",
+  "--async-scheduling", "--enable-auto-tool-choice", "--tool-call-parser", "qwen3_coder",
+  "--reasoning-parser", "nemotron_v3", "--no-enable-log-requests",
+  # renderer thread pool (vLLM default 1): the M5 GDPval engine logged "Chat template render timed out - executor pool
+  # replaced (1 worker(s))" and stalled admissions ~30 s at a time (#451 ws4). Threads only: outputs are unchanged.
+  "--renderer-num-workers", "4",
+  "--generation-config", "vllm", "--override-generation-config", '{{"temperature":1.0,"top_p":0.95}}',
+  "--language-model-only",
+  "--kernel-config", '{{"linear_backend_per_quant":{{"fp8_w8a8":"torch"}}}}',
+  "--compilation-config", '{{"pass_config":{{"fuse_attn_quant":true}},"use_inductor_graph_partition":true,"cudagraph_mode":"FULL_AND_PIECEWISE"}}',
+]
+seed = 20261016
+startup_timeout_sec = 5400
+# CPU KV tier (#378 Super eval A/B, 2026-11-14): SimpleCPUOffloadConnector (without VLLM_USE_SIMPLE_KV_OFFLOAD vLLM
+# swaps in OffloadingConnector) + the synth-cpu-supersede plugin (eviction order only; v2 then, 3.0 since #478). Replay of c30's own Super Pi
+# traffic (144 TB 2.1 + AutomationBench trajectories, closed loop) on twin engines, gen tok/s per B200: current recipe
+# 4,432 at 128 clients / 3,485 at 192 (thrashes, hit 0.66, as c30 did); with the tier + 0.95 memory 5,446 (+23%) /
+# 6,026 (+73%, hit 0.94). Outputs unchanged (a CPU-tier hit is a prefix-cache hit). MTP3 on top: 6,492 / 6,526, adopted
+# by the user (2026-11-14) for every user of this spec (evals and synthesis): it preserves the output distribution but
+# is not bit-identical to c30's MTP1 Super numbers.
+# Report: /data/aai/aa_evals/audits/server_shapes_20261114/report.md.
+env = { VLLM_USE_SIMPLE_KV_OFFLOAD = "1", PYTHONPATH = "/data/aai/tbench/vllm_plugins/cpu_supersede_v3:/data/aai/tbench/vllm_plugins/eot_checkpoint_v5", SYNTH_CPU_SUPERSEDE = "1", SYNTH_EOT_CHECKPOINT = "1" }
+
+[serving.tunables]
+mtp = 3                         # was 1 (#378 A/B: +46% at 128 clients, +87% at 192); adopted by the user 2026-11-14
+                                # Applies to every user of this spec: AA evals and task synthesis (M5 served this spec);
+                                # synthesis's own nemotron35-super recipe already runs a 200 GiB tier + MTP3
+gpu_memory_utilization = 0.95   # was 0.89 (#378 A/B)
+kv_offloading_size = 200        # GiB of pinned host RAM per engine (#378 A/B); 0 = off
+prompt_tokens_details = 1
+max_seqs = 512
+max_batched = 16384
+omp_threads = 16
+
+[serving.optional_args]
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+# Per-request cached-prompt counts for kv_fit admission's cache-reuse signal (campaigns opt in with
+# teacher_overrides.serving.tunables.prompt_tokens_details = 1; usage metadata only).
+prompt_tokens_details = ["--enable-prompt-tokens-details"]
+# Serving A/B arms (2026-10-23), off unless a control file sets them. CPU KV offload follows NVIDIA's Dynamo
+# agg-b200-swebenchpro recipe (native SimpleCPUOffloadConnector, eager offload); the arm also sets
+# extra_env VLLM_USE_SIMPLE_KV_OFFLOAD=1, without which vLLM swaps in OffloadingConnector, and needs host RAM
+# for the GiB it asks (serving memory_gib_per_gpu). MTP above ~3 needs a larger graph capture size: each
+# running request decodes mtp + 1 tokens and the default captures up to 1024.
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+max_cudagraph_capture_size = ["--max-cudagraph-capture-size", "{max_cudagraph_capture_size}"]
+
+[request]
+client_model = "hosted_vllm/nemotron-3.5-super-vl"
+pi_thinking = "high"
+adapters = ["inline_reasoning_history"]
+overrides = { temperature = 1.0, top_p = 0.95, chat_template_kwargs = { enable_thinking = true, medium_effort = false, truncate_history_thinking = false } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true, medium_effort = false, truncate_history_thinking = false }
+# vLLM 0.32's /tokenize dropped reasoning_content; the cross-check uses the template's inline <think> form (any build).
+tokenize_crosscheck = "inline_think"
+
+[serving_resources]
+cpus_per_gpu = 16
+memory_gib_per_gpu = 256   # #378: peak ~206 GiB per engine (200 GiB pinned tier + engine; 3xB200 A/B 420 GiB for two tier engines + one without); serving cores p99 ~1.5 (A/B 4.8 for three engines); was 16 / 96
+disk_gib = 200
+bid_per_job = { 1 = 61, 4 = 63, 8 = 301 }
+exclude_nodes = ["cpu404", "gpu132", "cpu307", "cpu207", "cpu403"]
+
+[worker_resources]
+slots = 8
+cpus = 16
+memory_gib = 160
+disk_gib = 120
+bid = 35
+exclude_nodes = ["gpu132", "cpu307", "cpu207", "gpu106"]
+
+[admission]
+initial_limit_per_backend = 64
+maximum_limit_per_backend = 160

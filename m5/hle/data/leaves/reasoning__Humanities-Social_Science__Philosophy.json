@@ -1,0 +1,145 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Philosophy",
+ "target_leaves": 8,
+ "expected_problems": 21,
+ "leaves": [
+  {
+   "leaf": "Modal axiom correspondence on finite frames",
+   "scope": "Problems give a small Kripke frame or a family of finite frames and ask which modal formulas they validate, or ask for the number of frames (up to isomorphism, on n worlds) that validate one combination of axioms but fail another. They are hard because frame validity quantifies over all valuations, and the solver has to switch between first-order correspondents, cases with no first-order correspondent, and exhaustive counting of relations.",
+   "techniques": [
+    "Sahlqvist correspondence to extract first-order frame conditions",
+    "Generated subframes, p-morphisms and disjoint unions to transfer validity",
+    "Counterexample valuations that refute non-canonical formulas such as McKinsey or L\u00f6b on specific frames",
+    "Counting binary relations on n points that are reflexive, transitive, Euclidean, etc., up to isomorphism",
+    "Finite model property and filtration to bound the size of countermodels"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of axiom names",
+    "letter for multiple choice",
+    "ordered tuple of truth values"
+   ]
+  },
+  {
+   "leaf": "Kripkean fixed points for finite truth networks",
+   "scope": "Problems describe a finite set of sentences that refer to one another, built with a truth predicate and connectives, and ask for the classification of each sentence under Kripke-style fixed-point semantics. The solver may need to say whether a sentence is grounded, paradoxical, or true or false in the least or maximal intrinsic fixed point, or how many fixed points there are. They are hard because the answer changes between strong Kleene, weak Kleene and supervaluation schemes, and because counting fixed points needs systematic lattice reasoning.",
+   "techniques": [
+    "Monotone jump operator iteration from the empty extension to the least fixed point",
+    "Enumerating consistent fixed points and identifying the intrinsic (maximal compatible) one",
+    "Comparing strong Kleene, weak Kleene, and supervaluational valuation schemes",
+    "Revision-theory sequences to classify stably true, stably false and unstable sentences",
+    "Dependency-graph analysis of reference to detect ungroundedness"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of semantic statuses",
+    "small set of sentence labels",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "AGM revision and contraction over finite languages",
+   "scope": "Problems give a belief set over a few propositional atoms together with a selection function, epistemic entrenchment ordering or system of spheres, and ask for the result of revision, contraction or iterated revision. They also ask which AGM or Darwiche\u2013Pearl postulates a proposed operator violates. They are hard because the solver must translate between syntactic belief sets and sets of worlds, and keep careful track of plausibility orderings.",
+   "techniques": [
+    "Grove sphere systems and minimal-world selection for revision",
+    "Levi and Harper identities linking revision and contraction",
+    "Epistemic entrenchment orderings and the G\u00e4rdenfors\u2013Makinson construction",
+    "Partial meet versus full meet versus maxichoice contraction on remainder sets",
+    "Darwiche\u2013Pearl postulates and natural versus lexicographic iterated revision"
+   ],
+   "answer_forms": [
+    "propositional formula",
+    "small set of valuations",
+    "integer",
+    "small set of postulate labels"
+   ]
+  },
+  {
+   "leaf": "Ordinal divergence among Bayesian confirmation measures",
+   "scope": "Problems specify a finite probability space with several hypotheses and pieces of evidence, and ask how confirmation measures (difference, log-ratio, likelihood-ratio, Kemeny\u2013Oppenheim, Carnap's relevance, Crupi\u2013Tentori, etc.) rank or compare cases. They are hard because the measures agree on whether evidence confirms but disagree on how much. The solver has to check exact orderings, symmetry properties, and conditions such as irrelevant conjunction or the tacking problem.",
+   "techniques": [
+    "Computing each measure from joint probability tables and comparing orderings",
+    "Testing symmetry and asymmetry properties (evidence\u2013hypothesis, hypothesis\u2013commutativity) for each measure",
+    "Constructing distributions where two measures reverse the ordinal ranking of confirmation",
+    "Ordinal equivalence of measures under monotone transformations",
+    "Applying measures to irrelevant conjunction and old-evidence-style scenarios"
+   ],
+   "answer_forms": [
+    "rational number",
+    "small set of measure names",
+    "ordered tuple of rankings",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Ratifiability and deliberational dynamics in decision theory",
+   "scope": "Problems pose original decision problems in which the agent's acts correlate with states but do not cause them, give the credences and utilities, and ask which act evidential decision theory, causal decision theory, ratificationism or deliberational equilibrium recommends. Some ask for the equilibrium mixed credence. They are hard because the agent's credences change as they deliberate, so the solver must compute self-referential expected utilities and find stable equilibria rather than do a single expected-utility calculation.",
+   "techniques": [
+    "Computing evidential expected utility with conditional credences P(state | act)",
+    "Causal expected utility via dependency hypotheses or imaging (Lewis, Skyrms, Joyce)",
+    "Jeffrey's ratifiability test using credences conditional on the final decision",
+    "Skyrms-style deliberational dynamics and fixed-point equilibrium credences",
+    "Identifying unstable decision problems with no ratifiable pure act"
+   ],
+   "answer_forms": [
+    "name of an act",
+    "rational number (equilibrium probability)",
+    "ordered tuple of recommendations",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Judgment aggregation over logically interconnected agendas",
+   "scope": "Problems give a small agenda of logically linked propositions together with individual judgment profiles or aggregation rules. They ask for collective outcomes under premise-based, conclusion-based, sequential or distance-based procedures, or for the number of profiles that produce inconsistent majority judgments. They are hard because the solver needs agenda-theoretic properties (being minimally connected, path-connected, even-number-negatable) and must enumerate profiles combinatorially.",
+   "techniques": [
+    "Detecting majority inconsistency via minimally inconsistent subsets of the agenda",
+    "Premise-based versus conclusion-based versus sequential priority procedures and path dependence",
+    "Kemeny/Hamming distance-based aggregation to the nearest consistent judgment set",
+    "Checking agenda conditions from Dietrich\u2013List and Dokow\u2013Holzman impossibility results",
+    "Counting profiles or sequencing orders that yield distinct collective outcomes"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of collective judgments",
+    "small set of propositions",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Variable-population welfare orderings and axiological constraints",
+   "scope": "Problems give specific populations with welfare levels and a proposed population axiology (total, average, critical-level, rank-discounted, variable-value, etc.), and ask for rankings, critical thresholds, or which adequacy conditions the axiology violates. They are hard because the conditions (Mere Addition, Non-Sadism, Non-Anti-Egalitarianism, Avoidance of the Repugnant Conclusion) interact in subtle ways, and the solver must compute exact values and build explicit counterexamples.",
+   "techniques": [
+    "Computing critical-level and critical-range utilitarian values for given populations",
+    "Rank-discounted and prioritarian aggregation with explicit concave transforms",
+    "Constructing mere-addition chains that expose intransitivity or repugnance",
+    "Checking adequacy conditions from Arrhenius-style impossibility arguments against a candidate ordering",
+    "Solving for threshold welfare levels at which two populations are equally good"
+   ],
+   "answer_forms": [
+    "rational number",
+    "small set of condition names",
+    "ordering of populations as a sequence",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Medieval obligationes disputation response sequences",
+   "scope": "Problems lay out an original obligational disputation (positio, depositio, or impositio) with an initial positum and a sequence of proposed sentences, and ask for the respondent's correct answer at each step (concede, deny, doubt) under a named theorist's rules. The theorist might be Walter Burley, Roger Swyneshed or Richard Kilvington. They are hard because the correct reply to each sentence depends on the sentences already granted or denied and on whether that sentence is pertinent or impertinent, and the rival rule systems give different answers.",
+   "techniques": [
+    "Burley's pertinence rule: a sentence follows from, or is incompatible with, the conjunction of what was conceded and the contradictories of what was denied",
+    "Swyneshed's restriction of pertinence to the positum alone, with non-closure of conceded sets",
+    "Kilvington's counterfactual evaluation relative to the casus",
+    "Tracking the dependence of answers on the order in which sentences are proposed",
+    "Diagnosing when a respondent is forced into conceding a contradiction"
+   ],
+   "answer_forms": [
+    "sequence of responses (e.g. concede/deny/doubt)",
+    "integer (step at which outcome changes)",
+    "name of the theorist whose rules yield the outcome",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

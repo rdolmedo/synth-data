@@ -1,0 +1,26 @@
+{
+ "pipeline": "aa-evals",
+ "worker_shapes": {
+  "tb21": {"slots": 32, "cpus": 10, "mem_gb": 128,
+           "basis": "CPUs: c30 big-model fit 2.2 + 0.166/slot at 80%; RAM 4 GB/slot (c30 big-model TB workers near 100 GB RSS on 16 slots); #378",
+           "cpu_model": {"base": 2.2, "per_slot": 0.166, "target": 0.8, "source": "c30 big-model fit (#378 audit)"}},
+  "tb21_slow": {"slots": 32, "cpus": 6, "mem_gb": 64,
+                "basis": "Slow-served models (campaign launcher: model worker_profile = 'slow'; gate: a prior TB2.1 run of the model had tool share env_sec/(env_sec+model_sec) <= 0.25). #531 A/B 11-19 on sb2-0p33b (TB2.1 c30 items x3, seed-paired, concurrent, one server), 6 vs 10 CPUs at 32 slots: pass +2.4 pp [-1.6, +6.4]; tool time per model request +7% [-11%, +30%] (geometric mean by task, not significant), attempt wall time ~+6%; 0 infra/memcap; capped in 44% vs 22% of busy minutes; worker unit-h -40% per worker-hour (~-36% net). A tested operating point at 32 slots that accepts some CPU delay, not a fit: the uncapped arm used 7.4 cores in busy minutes, like the tb21 fit. RAM 2x the measured 32 GB peak (fill makes it 96 at no cost). Fast models keep tb21",
+                "cpu_model": {"base": 0.0, "per_slot": 0.15, "target": 0.8, "source": "#531 A/B operating point at 32 slots (6 CPUs); not valid at other slot counts"}},
+  "tbsci_lite": {"slots": 4, "cpus": 4, "mem_gb": 64,
+                 "basis": "CPUs: c30 big-model fit 0.73 cores/busy slot at 80%; RAM 16 GB/slot (tasks declare up to 16 GB, x1.5 cap); #378",
+                 "cpu_model": {"base": 0.0, "per_slot": 0.73, "target": 0.8, "source": "c30 big-model fit (#378 audit)"}},
+  "critpt_pi": {"slots": 24, "cpus": 4, "mem_gb": 32,
+                "basis": "CPUs: #378 memrun (Qwen3.5-4B) 0.133 cores/slot at 80%; RAM ~2x rss+shmem at full slots (4/3 GB/slot)",
+                "cpu_model": {"base": 0.0, "per_slot": 0.133, "target": 0.8, "source": "c30_efficiency_20261113/memrun/report.md"}},
+  "gdpval_pi": {"slots": 16, "cpus": 2, "mem_gb": 24,
+                "basis": "CPUs: #378 memrun (Qwen3.5-4B) 0.1 cores/slot at 80%; RAM ~2x rss+shmem at full slots (1.5 GB/slot)",
+                "cpu_model": {"base": 0.0, "per_slot": 0.1, "target": 0.8, "source": "c30_efficiency_20261113/memrun/report.md"}},
+  "tbsci_lite_synth": {"slots": 16, "cpus": 8, "mem_gb": 96,
+                       "basis": "m5/tbsci_lite synth traces (Super-served synthesized tasks): pilot 0.2-0.5 CPU per attempt (16-slot workers used ~1-4.7 CPUs); prod3 16-slot workers at 96 GB peaked 8.7-38 GB, 0 memory holds in 14 jobs (#451 review). Not the eval's tbsci_lite (0.73 CPU busy slot, 16 GB/slot)",
+                       "cpu_model": {"base": 0.0, "per_slot": 0.4, "target": 0.8, "source": "m5/tbsci_lite pilot + prod3, 11-12/13"}},
+  "automationbench_pi": {"slots": 32, "cpus": 4, "mem_gb": 32,
+                         "basis": "CPUs: #378 memrun (Qwen3.5-4B) 2.4 + 0.013/slot at 80%; RAM ~2x rss+shmem at full slots (1 GB/slot)",
+                         "cpu_model": {"base": 2.4, "per_slot": 0.013, "target": 0.8, "source": "c30_efficiency_20261113/memrun/report.md"}}
+ }
+}

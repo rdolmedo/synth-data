@@ -1,0 +1,138 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Games",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Shatranj rules and medieval mansubat collections",
+   "scope": "Covers how pieces moved in medieval Arabic and European chess (alfil leap, fers step, bare-king and baring rules, pawn promotion only to fers), and the problem collections of al-Adli, as-Suli, Bonus Socius and Civis Bononiae, with their numbering and the stipulations attributed to them. A question could ask the solver to apply the old movement rules to a documented problem, for example to count moves to mate or to say which modern piece set would wreck the original solution.",
+   "queries": [
+    "shatranj alfil fers",
+    "mansuba chess problems",
+    "Bonus Socius manuscript",
+    "Civis Bononiae chess",
+    "as-Suli chess",
+    "Murray history of chess"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Culin's Korean games and East Asian counterparts",
+   "scope": "Covers Stewart Culin's 1895 descriptions of Korean games (Nyout/yut, Tjyang-keui chess, Pa-tok go, Htou-tjyen cards, dominoes) and the Chinese and Japanese games he compared them to, including board layouts, piece names, card counts and divinatory uses. A question could combine two documented details, for example comparing piece placement in Korean and Chinese chess or working out yut move values from the stick throws.",
+   "queries": [
+    "Culin Korean games",
+    "Nyout game Korea",
+    "Tjyang-keui chess",
+    "Htou-tjyen cards",
+    "Pa-tok go Korea"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Games of North American Indigenous peoples",
+   "scope": "Covers the ethnographic records of games by tribe in Culin's 1907 Bureau of American Ethnology report and earlier field accounts: stick-dice and plum-stone dice counts and scoring, hand games, hoop-and-pole, moccasin game and snow-snake, with the museum specimens described. A question could ask the solver to compute a throw's score from a tribe's documented counting rules, or to compare implements across linguistic families.",
+   "queries": [
+    "Culin games North American Indians",
+    "hoop and pole game",
+    "plum stone dice game",
+    "moccasin game tribe",
+    "snow-snake game",
+    "stick dice counting"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "European playing-card history and suit systems",
+   "scope": "Covers the early history of playing cards as given by Singer, Chatto, Taylor and others: Italian, Spanish, German and French suit marks, the composition of tarot and tarocchi decks, the earliest documentary mentions such as the naibi bans, and English card-duty stamps on the ace of spades. A question could combine dates or deck compositions, for example how many cards survive from a described historical pack or which suit system a described court card belongs to.",
+   "queries": [
+    "Chatto playing cards origin",
+    "Singer researches playing cards",
+    "naibi cards Florence",
+    "tarot trumps Visconti",
+    "ace of spades duty",
+    "card suit marks"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Rule reconstructions of ancient board games",
+   "scope": "Covers proposed rules for archaeological games (the Royal Game of Ur from Finkel's cuneiform tablet, senet, mehen, ludus latrunculorum, hnefatafl and other tafl games, Roman and Viking finds), including the Ludii and Digital Ludeme Project work that scores how plausible a reconstruction is. A question could ask the solver to apply one reconstruction's rules to a position, or to compare how two reconstructions treat the same board feature.",
+   "queries": [
+    "Royal Game of Ur rules",
+    "senet board reconstruction",
+    "ludus latrunculorum",
+    "hnefatafl rules reconstruction",
+    "Digital Ludeme Project",
+    "Ludii general game system"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Solved games and retrograde endgame databases",
+   "scope": "Covers published results on solving games: the game-theoretic value, state-space size and method behind the solutions of awari, checkers (Chinook), Nine Men's Morris, Connect Four, small Hex boards and Othello, plus details of chess and checkers endgame tablebases such as the longest forced wins. A question could combine reported figures, for example comparing database sizes, or deduce the result of a variant from the documented value and the symmetry argument.",
+   "queries": [
+    "awari solved retrograde analysis",
+    "checkers is solved",
+    "Nine Men's Morris solved",
+    "Othello weakly solved",
+    "endgame tablebase longest win",
+    "Connect Four solution"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Computational complexity of commercial video games",
+   "scope": "Covers the hardness proofs for named video games: NP-hardness and PSPACE-completeness results for Super Mario Bros., Zelda, Metroid, Pok\u00e9mon, Lemmings, Tetris and Portal, the gadgets used (doors, crossovers, clause gadgets) and which game mechanics the reductions depend on. A question could ask which result is lost if a documented mechanic is removed, or how two games compare in complexity class under the stated generalizations.",
+   "queries": [
+    "Nintendo games NP-hard",
+    "Tetris NP-complete",
+    "Lemmings PSPACE-complete",
+    "Super Mario Bros PSPACE",
+    "video game hardness gadgets"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "US case law on games and gaming",
+   "scope": "Covers US court decisions on board and video games: copyright limits on game rules and look-and-feel (Data East v. Epyx, Tetris Holding v. Xio, Atari v. Philips), the genericness of trademarks (Anti-Monopoly v. General Mills), and whether poker or other contests count as games of skill or chance under gambling statutes. A question could ask the solver to apply a court's stated test to a described game, or to compare holdings and reasoning across decisions.",
+   "queries": [
+    "video game copyright infringement",
+    "Anti-Monopoly General Mills",
+    "Tetris Holding Xio",
+    "Data East Epyx",
+    "game of skill chance",
+    "poker gambling statute"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  }
+ ]
+}

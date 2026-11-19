@@ -1,0 +1,238 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Biology",
+ "target_leaves": 15,
+ "expected_problems": 182,
+ "leaves": [
+  {
+   "leaf": "Non-canonical genetic codes and codon reassignments",
+   "scope": "Documented codon reassignments in mitochondrial and nuclear genomes, such as UGA\u2192Trp in mitochondria, UAR\u2192Gln in ciliates, CUG\u2192Ser in CTG-clade yeasts, and AGR variants in invertebrate mitochondria, along with their NCBI translation table numbers. A question could ask the solver to translate a given ORF under a lineage's code, or to work out which lineage a peptide length or stop position implies.",
+   "queries": [
+    "codon reassignment mitochondrial code",
+    "CTG clade serine yeast",
+    "ciliate UAA UAG glutamine",
+    "alternative genetic code table",
+    "stop codon readthrough reassignment"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Plastid membranes in secondary endosymbiotic algae",
+   "scope": "Facts on how many membranes surround plastids in cryptophytes, chlorarachniophytes, haptophytes, peridinin dinoflagellates, euglenids and apicomplexans, plus which lineages keep nucleomorphs and how large those nucleomorph genomes are. A question could have the solver infer the endosymbiotic history of a described organism, or count genomes and membranes across nested endosymbioses.",
+   "queries": [
+    "nucleomorph genome chlorarachniophyte",
+    "four membrane plastid",
+    "secondary endosymbiosis cryptophyte",
+    "periplastidial compartment",
+    "tertiary plastid dinoflagellate"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Early Drosophila linkage maps and mutant loci",
+   "scope": "Mutant names, map positions and crossover frequencies reported in the Morgan school's 1915\u20131925 monographs, including the X-chromosome markers and their reported recombination values. A question could ask the solver to rebuild gene order, interference or a coefficient of coincidence from the historical crossing data.",
+   "queries": [
+    "Drosophila sex-linked mutants crossing",
+    "mechanism Mendelian heredity",
+    "chromosome map crossing-over",
+    "coincidence interference Drosophila",
+    "Sturtevant linear arrangement"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Genome reduction in insect nutritional endosymbionts",
+   "scope": "Genome sizes, gene counts and the division of metabolic pathways among obligate symbionts such as Buchnera, Carsonella, Sulcia, Hodgkinia, Tremblaya and Moranella, including nested symbiont-within-symbiont arrangements. A question could ask which partner must supply a missing amino acid biosynthesis step, or have the solver compare reduction levels across hosts.",
+   "queries": [
+    "Tremblaya Moranella nested symbiosis",
+    "Hodgkinia genome fragmentation cicada",
+    "Carsonella tiny genome psyllid",
+    "Buchnera amino acid provisioning",
+    "Sulcia co-obligate symbiont"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Conotoxin cysteine frameworks and gene superfamilies",
+   "scope": "The numbered cysteine frameworks (I\u2013XXX+), disulfide connectivities, gene superfamily assignments (A, M, O1, T and others) and pharmacological families (\u03b1, \u03bc, \u03c9, \u03ba) of cone snail peptides. A question could give a mature peptide sequence and ask for its framework, its possible disulfide pairings, or its likely molecular target.",
+   "queries": [
+    "conotoxin cysteine framework",
+    "Conus superfamily signal sequence",
+    "omega-conotoxin disulfide connectivity",
+    "ConoServer classification",
+    "alpha-conotoxin nicotinic"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Chromosome number evolution in angiosperm genera",
+   "scope": "Published chromosome counts, base numbers, dysploid series and ploidy levels in particular genera (e.g., Carex agmatoploidy, Crepis, Claytonia, Brassica's U triangle). A question could ask the solver to infer the base number, ploidy or hybrid origin of a taxon from the counts reported in a source.",
+   "queries": [
+    "chromosome numbers dysploidy genus",
+    "agmatoploidy holocentric Carex",
+    "polyploid series base number",
+    "allopolyploid origin cytology",
+    "meiotic counts herbarium vouchers"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Floral formulae of less-familiar angiosperm families",
+   "scope": "Floral formulae, diagrams, merosity, ovary position and placentation in families such as Aristolochiaceae, Hydnoraceae, Balanophoraceae, Cyclanthaceae and Triuridaceae, as given in classical systematic botany texts. A question could ask the solver to identify a family from a formula, or to compute totals of floral parts or carpels.",
+   "queries": [
+    "floral diagram family characters",
+    "floral formula perianth carpels",
+    "inferior ovary placentation family",
+    "Triuridaceae inside-out flower",
+    "systematic botany natural orders"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Moss peristome architecture and tooth counts",
+   "scope": "Arthrodontous versus nematodontous peristomes, haplolepidous and diplolepidous patterns, the cell-plate formulae of the OPL/PPL/IPL layers, and the tooth numbers of particular genera (e.g., Tetraphis has 4, Polytrichum 32 or 64). A question could ask the solver to place a moss in its order from a peristome description, or to derive tooth counts from cell-division patterns.",
+   "queries": [
+    "peristome formula diplolepidous",
+    "haplolepidous Dicranidae peristome",
+    "nematodontous Polytrichaceae teeth",
+    "endostome exostome cilia",
+    "moss capsule operculum annulus"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lichen secondary metabolites and spot tests",
+   "scope": "Colour reactions with K, C, KC, Pd and UV, and the depsides, depsidones and anthraquinones behind them, in particular lichen genera and chemotypes. A question could give a set of spot-test results and ask the solver to deduce the substances present or to tell apart chemospecies.",
+   "queries": [
+    "lichen spot test K C Pd",
+    "depsidone lichen substance",
+    "chemotype lichen thin-layer chromatography",
+    "atranorin usnic acid cortex",
+    "parietin anthraquinone Xanthoria"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Rust fungus spore stages and alternate hosts",
+   "scope": "The spore stages (0 spermogonia, I aecia, II uredinia, III telia, IV basidia), macrocyclic, demicyclic and microcyclic life cycles, and the heteroecious host pairs of particular Puccinia, Gymnosporangium and Cronartium species. A question could ask which host carries which stage, or have the solver deduce the life-cycle type from a list of observed stages.",
+   "queries": [
+    "heteroecious rust aecial host",
+    "Gymnosporangium telia juniper",
+    "teliospores uredospores Puccinia",
+    "microcyclic rust life cycle",
+    "Cronartium white pine blister"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Insect wing venation in Comstock-Needham terms",
+   "scope": "Vein and cell homologies (C, Sc, R1\u2013R5, M, Cu, A, crossveins) for particular insect orders and families, along with the diagnostic venation characters used in family keys. A question could have the solver count closed cells, apply a key couplet to a described wing, or reconcile older terminology with modern homology systems.",
+   "queries": [
+    "wing venation Comstock-Needham",
+    "discal cell radial sector",
+    "crossvein r-m venation",
+    "anal vein wing homology",
+    "hind wing jugal lobe"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Spider silk gland types and spinnerets",
+   "scope": "Ampullate, aciniform, tubuliform, aggregate, flagelliform and piriform glands, which spinnerets they open on, which taxa have a cribellum, and how spidroin types map onto web components. A question could ask which gland types a given web or egg sac needs, or have the solver infer a spider's family from its spinneret anatomy.",
+   "queries": [
+    "flagelliform spidroin capture spiral",
+    "aggregate gland glue droplets",
+    "cribellate calamistrum silk",
+    "tubuliform egg case silk",
+    "major ampullate gland spinneret"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Avian molt strategies and feather tract sequences",
+   "scope": "Humphrey-Parkes molt terminology, the four molt strategies, the order in which primaries and secondaries are replaced in particular families (e.g., stepwise molt in large raptors, simultaneous wing molt in waterfowl), and pterylosis patterns. A question could ask the solver to age a bird from the molt limits described, or to predict which feathers it will replace next.",
+   "queries": [
+    "Humphrey-Parkes molt terminology",
+    "preformative molt complex basic",
+    "stepwise molt Staffelmauser",
+    "primary molt sequence descendant",
+    "pterylosis feather tracts"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Fish meristic counts in taxonomic descriptions",
+   "scope": "Fin-ray formulae, lateral-line scale counts, gill-raker counts and vertebral numbers given in original descriptions of species in particular genera (e.g., cyprinids, gobies, killifishes). A question could ask the solver to tell congeners apart with a diagnostic table, or to calculate the totals and ranges a formula implies.",
+   "queries": [
+    "dorsal fin rays lateral line scales",
+    "gill rakers vertebrae counts",
+    "meristic characters new species",
+    "fin formula D III",
+    "pharyngeal teeth formula cyprinid"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Digenean trematode life cycles and larvae",
+   "scope": "First and second intermediate hosts, cercaria morphotypes (furcocercous, xiphidiocercaria, cotylocercous and others) and the definitive hosts of particular digenean families and species. A question could ask the solver to rebuild a full life cycle from partial larval descriptions, or to count how many host transmission steps a parasite needs.",
+   "queries": [
+    "cercaria furcocercous snail host",
+    "xiphidiocercaria metacercaria second intermediate",
+    "digenean life cycle experimental infection",
+    "redia sporocyst trematode",
+    "metacercariae encysted fish host"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  }
+ ]
+}

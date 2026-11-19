@@ -1,0 +1,233 @@
+{
+ "partition": "reasoning",
+ "category": "Chess/Logic/Puzzle",
+ "subject": "Chess",
+ "target_leaves": 13,
+ "expected_problems": 101,
+ "leaves": [
+  {
+   "leaf": "Retrograde capture and promotion accounting",
+   "scope": "Given a diagram and side to move, deduce castling rights, whether an en passant capture is legal, the last move or moves, or which piece must be promoted. This is hard because missing material, pawn-file changes, bishop square colours and check geometry all constrain each other, so every retraction has to satisfy every constraint at once.",
+   "techniques": [
+    "Counting minimum captures from pawn file displacement against missing material",
+    "Promoted-bishop argument from original bishop square colours and blocked c/f-file pawns",
+    "Uncapture retraction to explain impossible-looking checks or double checks",
+    "Proving king or rook immobility to establish or deny castling rights",
+    "Deducing the last move to decide en passant legality",
+    "Move-parity counting with knight, king and rook tempo arguments"
+   ],
+   "answer_forms": [
+    "a move in algebraic notation",
+    "integer",
+    "square name",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Shortest proof games and ply reconstruction",
+   "scope": "Find the minimal number of plies needed to reach a given position from the initial array, the unique proof game, or the number of solutions. Hard because tempo bottlenecks, hidden switchbacks and promoted pieces that return to original squares make naive lower bounds wrong.",
+   "techniques": [
+    "Per-piece tempo lower bounds summed against the available ply budget",
+    "Pronkin-style promoted piece occupying an original square",
+    "Switchbacks and round-trips that waste tempi exactly",
+    "Ceriani\u2013Frolkin promotion followed by capture of the promoted piece",
+    "Check-avoidance ordering constraints that force a move sequence",
+    "Knight parity and colour-change counting"
+   ],
+   "answer_forms": [
+    "integer (plies)",
+    "move sequence",
+    "integer count of distinct solutions"
+   ]
+  },
+  {
+   "leaf": "Corresponding squares in pawn endings",
+   "scope": "In king-and-pawn endings with fixed pawn structures, decide the result, the only winning king move, or the set of reciprocal-zugzwang king placements. Hard because the right answer comes from mapping corresponding squares across distant regions, not from local opposition rules.",
+   "techniques": [
+    "Propagating corresponding squares outward from key squares",
+    "Triangulation to transfer the move to the opponent",
+    "Distant, diagonal and rectangular opposition",
+    "R\u00e9ti-style double threats combined with the square of the pawn",
+    "Counting spare pawn tempi, including the double-step choice",
+    "Mined squares and enumerating reciprocal zugzwang positions"
+   ],
+   "answer_forms": [
+    "square name",
+    "a move in algebraic notation",
+    "integer count of positions",
+    "small set of squares"
+   ]
+  },
+  {
+   "leaf": "Combinatorial game values of pawn tempo positions",
+   "scope": "Model independent, king-locked pawn regions as short partizan games, find their canonical combinatorial values and add them to decide who wins with a given side to move. Hard because chess zugzwang has to be translated exactly into infinitesimals, tinies and switches, then simplified correctly.",
+   "techniques": [
+    "Writing each region as {L | R} in Conway notation",
+    "Recognising star, up, double-up-star, tiny and miny values in pawn races",
+    "Removing dominated and reversible options to reach canonical form",
+    "Atomic weight analysis for all-small sums",
+    "Temperature and mean value for regions with double-step options",
+    "Splitting a position into independent subgames joined by tempo"
+   ],
+   "answer_forms": [
+    "canonical game value expression",
+    "a letter for multiple choice (winner)",
+    "rational number (mean value)"
+   ]
+  },
+  {
+   "leaf": "Helpmates, selfmates and reflexmates",
+   "scope": "Solve orthodox non-direct stipulations: give the unique solution, count solutions across twins, or find the minimal n for which a stipulation works. Hard because cooperative play and forced self-mate logic run against normal attacking intuition, and many plausible tries fail by one tempo.",
+   "techniques": [
+    "Working backward from candidate mating pictures to self-blocks",
+    "Line clearance and critical moves, such as Bristol and Indian manoeuvres",
+    "Waiting moves and tempo loss in helpmates",
+    "Selfmate batteries that force Black to give check or mate",
+    "The reflexmate rule that a side must mate in one when it can",
+    "Twinning by moving or replacing one piece and tracking solution changes"
+   ],
+   "answer_forms": [
+    "move sequence",
+    "integer count of solutions",
+    "integer (minimal n)"
+   ]
+  },
+  {
+   "leaf": "Fairy conditions and fairy-piece mates",
+   "scope": "Determine the legal moves, check status or mating solution under fairy conditions such as Circe, Madrasi, Andernach or Anticirce, possibly with grasshoppers or nightriders. Hard because rebirth, paralysis and colour change redefine check and mate, so orthodox intuition gives wrong answers.",
+   "techniques": [
+    "Finding Circe rebirth squares, including occupied rebirth squares and promoted pieces",
+    "Madrasi mutual paralysis and how it cancels or creates checks",
+    "Andernach colour change of the capturing piece",
+    "Grasshopper hurdle lines and screening",
+    "Nightrider lines along repeated knight steps",
+    "Anticirce capture legality determined by whether the rebirth square is free"
+   ],
+   "answer_forms": [
+    "a move in algebraic notation",
+    "integer count of legal moves",
+    "square name"
+   ]
+  },
+  {
+   "leaf": "Non-attacking placements and domination numbers",
+   "scope": "Count or extremise placements of chess pieces on m\u00d7n or irregular boards under non-attack or full-coverage constraints, for example the number of non-attacking configurations or an independent domination number. Hard because the search space grows explosively and needs structured counting or tight bounding arguments.",
+   "techniques": [
+    "Row-by-row transfer-matrix counting",
+    "Rook polynomials with inclusion\u2013exclusion on forbidden squares",
+    "Burnside's lemma for counting up to board symmetries",
+    "Splitting bishop problems by square colour and diagonal sums",
+    "Quasi-polynomial interpolation in n for fixed piece counts",
+    "Pairing or covering lower bounds for domination numbers"
+   ],
+   "answer_forms": [
+    "integer",
+    "polynomial in n",
+    "quasi-polynomial in n"
+   ]
+  },
+  {
+   "leaf": "Leaper graphs: distances, tours, connectivity",
+   "scope": "For knights and generalised (a,b)-leapers on finite, cylindrical or infinite boards, compute exact move distances, the number of shortest paths, connected components, or whether a tour exists. Hard because edge and corner exceptions and parity obstructions break the generic formulas.",
+   "techniques": [
+    "gcd and parity criteria for leaper connectivity and colour-binding",
+    "Piecewise distance formulas with corner and short-distance exceptions",
+    "Counting shortest paths by decomposing into move-type multisets",
+    "Bipartite colouring obstructions to closed tours",
+    "Hamiltonicity obstructions on thin boards such as 3\u00d7n and 4\u00d7n",
+    "Effects of wraparound topology (torus or cylinder) on distances"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Exact legal-move counting in constructed positions",
+   "scope": "Count the legal moves, or the shallow perft totals, in a specified position where pins, en passant, castling restrictions, promotions and checks interact. Hard because rare rule interactions change the count, such as a horizontal pin exposed by en passant removing two pieces from the same rank.",
+   "techniques": [
+    "En passant discovered check along a rank or diagonal",
+    "Promotion multiplicity, including promotions that capture",
+    "Castling legality: transit squares under attack versus squares that only need to be empty",
+    "Double check, where only king moves are legal",
+    "Absolute pins that still allow moves along the pin line",
+    "Constructing positions with maximal or minimal mobility under a constraint"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of counts by depth"
+   ]
+  },
+  {
+   "leaf": "FIDE Laws arbitration on game scores",
+   "scope": "From a game score or described incident, determine the exact result, the ply at which a draw claim first becomes valid or the game ends automatically, or the correct arbiter ruling. Hard because 'same position' depends on castling and en passant rights, and the repetition, 50/75-move, dead-position and flag rules interact.",
+   "techniques": [
+    "Position identity for repetition, counting en passant only when a legal capture exists",
+    "Resetting the 50-move counter on pawn moves and captures",
+    "Automatic draws on fivefold repetition and the 75-move rule",
+    "Dead-position determination, such as blocked pawn chains or same-coloured bishops",
+    "A flag fall when the opponent cannot mate by any legal series of moves",
+    "Penalties for illegal moves in standard and rapid play"
+   ],
+   "answer_forms": [
+    "integer (move or ply number)",
+    "game result string",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Tournament pairing, tiebreak and rating arithmetic",
+   "scope": "Compute standings with specified tiebreaks, Elo expected scores and rating changes, or reconstruct round-robin and Swiss pairings and colours from partial information. Hard because the tiebreak definitions are subtle (forfeits, byes, virtual opponents) and inverse reconstruction needs careful feasibility arguments.",
+   "techniques": [
+    "Building Berger tables for a given round and player count",
+    "Sonneborn\u2013Berger and Koya weighted sums",
+    "Buchholz cut variants with virtual opponents for unplayed games",
+    "Logistic Elo expectation with K-factor updates",
+    "Reconstructing a crosstable from score constraints by integer feasibility",
+    "Dutch-system colour preferences, floaters and score-group pairing"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "name of a player",
+    "ordered tuple (standings)"
+   ]
+  },
+  {
+   "leaf": "Chess960 starting-array combinatorics",
+   "scope": "Count or index Fischer Random starting arrays that satisfy extra constraints, decode numbered positions, or determine final squares after castling. Hard because the opposite-colour bishop and king-between-rooks constraints interact with symmetry and the numbering convention.",
+   "techniques": [
+    "Counting by stages: light bishop, dark bishop, queen, knights, then R-K-R",
+    "Decoding and encoding Scharnagl position numbers",
+    "Mirror symmetry and counting self-symmetric arrays",
+    "Fixed castling destination squares regardless of the starting array",
+    "Inclusion\u2013exclusion for extra constraints such as no adjacent knights",
+    "Counts for double Fischer Random, where each side has its own array"
+   ],
+   "answer_forms": [
+    "integer",
+    "starting-array string",
+    "small set of position numbers"
+   ]
+  },
+  {
+   "leaf": "Study keys: stalemate, fortress, underpromotion",
+   "scope": "In composed-style piece endgames, find the unique winning or drawing first move, the piece to promote to, or the length of the forced line, where natural moves fail to stalemate tricks, fortresses or perpetual pursuit. Hard because several attractive tries must each be refuted by a different defensive resource.",
+   "techniques": [
+    "Underpromotion to rook or bishop to avoid stalemate",
+    "Recognising fortresses, including wrong-coloured bishop and rook-pawn draws",
+    "Domination of a minor piece by king and piece",
+    "Self-stalemate and desperado sacrifices for the defence",
+    "Positional draws through perpetual pursuit or repetition",
+    "Reciprocal zugzwang as the final position of the main line"
+   ],
+   "answer_forms": [
+    "a move in algebraic notation",
+    "name of a piece type",
+    "integer (moves to forced outcome)",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Physics",
+ "subject": "Astronomy",
+ "target_leaves": 8,
+ "expected_problems": 62,
+ "leaves": [
+  {
+   "leaf": "Spherical-trigonometric visibility and timekeeping geometry",
+   "scope": "Problems ask for exact rise/set azimuths, circumpolar limits, durations of twilight or visibility, sidereal\u2013solar time conversions, or the epoch at which precession brings a star above or below a horizon for a given latitude. They are hard because several frame transformations, the definitions of different time scales, and boundary cases (grazing visibility, horizon refraction, nutation sign conventions) have to be combined correctly with no numerical slack.",
+   "techniques": [
+    "spherical law of cosines and the four-part formula applied to the astronomical (PZS) triangle",
+    "rotating equatorial coordinates into ecliptic and horizon frames",
+    "converting between mean sidereal time and mean solar time, including the 366.2422/365.2422 ratio",
+    "treating precession of the equinoxes as a slow rotation of the pole about the ecliptic pole",
+    "correcting horizon events for refraction, semidiameter and dip",
+    "analysing extreme cases such as the latitude at which a declination band just becomes circumpolar"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "angle in degrees to stated precision",
+    "integer (e.g., number of days or year)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Polytropic stellar models and homology scaling",
+   "scope": "Problems ask for central-to-mean density ratios, binding energies, mass\u2013radius exponents, or stability thresholds of self-gravitating polytropes, and for how luminosity or temperature scales under homologous changes. They are hard because the solver must use the exactly solvable Lane\u2013Emden cases, virial identities and dimensional homology together, often with mixed equations of state or composite (core\u2013envelope) models.",
+   "techniques": [
+    "closed-form Lane\u2013Emden solutions for n = 0, 1, 5 and their surface boundary conditions",
+    "deriving the polytropic gravitational binding energy \u22123GM\u00b2/((5\u2212n)R)",
+    "virial theorem with adiabatic index \u0393 and the \u0393 = 4/3 dynamical-stability criterion",
+    "homology relations linking L, R, T_c to M for given opacity and energy-generation power laws",
+    "Emden (homology) invariants U and V for joining core and envelope solutions",
+    "Chandrasekhar-type mass limits obtained from relativistic degenerate equations of state"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "exponent of a power law",
+    "ordered tuple of exponents"
+   ]
+  },
+  {
+   "leaf": "Grey plane-parallel atmosphere radiative transfer",
+   "scope": "Problems ask for exact temperature\u2013optical-depth relations, emergent intensity profiles, limb-darkening coefficients, or flux moments in idealised stellar or planetary atmospheres. They are hard because they need angular moment hierarchies, closure approximations and boundary conditions applied carefully, and the exact Milne\u2013Hopf results differ in subtle ways from the Eddington approximation.",
+   "techniques": [
+    "moment equations of the transfer equation with the Eddington closure K = J/3",
+    "formal solution for the emergent intensity as a Laplace transform of the source function",
+    "Eddington\u2013Barbier relation and linear source-function limb darkening",
+    "two-stream and isotropic-scattering models with single-scattering albedo",
+    "Hopf function and the exact Milne problem boundary value q(0) = 1/\u221a3",
+    "radiative-equilibrium temperature profiles in irradiated (two-channel) atmospheres"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ratio in exact radical form",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Image counting and magnification in gravitational lenses",
+   "scope": "Problems ask for the number, parity and positions of images, total magnification, time delays, or caustic topology for point-mass, binary, isothermal or externally sheared lenses. They are hard because they need the lens equation solved algebraically, critical curves mapped to caustics, and topological constraints on image number taken into account.",
+   "techniques": [
+    "Einstein radius and the point-lens magnification \u03bc = (u\u00b2+2)/(u\u221a(u\u00b2+4))",
+    "odd-number theorem and Morse-theoretic classification of image types (minimum, saddle, maximum)",
+    "Jacobian determinant of the lens map for locating critical curves and caustics",
+    "singular isothermal sphere and ellipse lenses with external shear (Chang\u2013Refsdal configurations)",
+    "Fermat potential and its derivatives for time delays between images",
+    "magnification invariants of binary point-mass lenses"
+   ],
+   "answer_forms": [
+    "integer (number of images)",
+    "closed-form expression",
+    "small set of image positions",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Distance\u2013redshift relations in FLRW cosmologies",
+   "scope": "Problems ask for exact comoving, angular-diameter or luminosity distances, the redshift where angular size is smallest, horizon sizes, or ages in simple universes (single-component, curved, or two-component mixtures). They are hard because only special combinations of parameters can be integrated in closed form, and curvature, horizons and turning points have to be handled exactly.",
+   "techniques": [
+    "Friedmann equation integrals for dust, radiation, \u039b and curvature in closed form",
+    "sin/sinh curvature transforms between comoving and transverse comoving distance",
+    "extremising D_A(z) to locate the redshift of minimum angular size",
+    "particle versus event horizon integrals and their convergence conditions",
+    "Etherington reciprocity D_L = (1+z)\u00b2 D_A and surface-brightness dimming",
+    "conformal-time parametrisations of matter-plus-curvature models"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "exact redshift value",
+    "rational multiple of the Hubble distance",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Restricted three-body equilibria and resonance dynamics",
+   "scope": "Problems ask for locations or stability of Lagrange points, zero-velocity curve topology, Hill-sphere scalings, Jacobi-constant thresholds, or resonance widths and libration periods for test particles near a perturbing body. They are hard because the solver must linearise in a rotating frame, apply mass-ratio stability limits and reduce an averaged disturbing function to a pendulum model.",
+   "techniques": [
+    "Jacobi integral and zero-velocity surfaces in the rotating frame",
+    "linear stability of L4/L5 and the Routh critical mass ratio",
+    "series expansion of collinear-point distances in (\u03bc/3)^(1/3)",
+    "pendulum reduction of a first-order mean-motion resonance and its separatrix width",
+    "Tisserand parameter conservation in planetary encounters",
+    "Laplace-type resonance chains linking mean motions and resonant angles"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer ratio or ordered tuple",
+    "exact critical value"
+   ]
+  },
+  {
+   "leaf": "Geodesic structure around Schwarzschild and Kerr black holes",
+   "scope": "Problems ask for exact radii of circular, marginally bound or photon orbits, radiative efficiencies, shadow sizes, epicyclic frequencies, or periastron precession for orbits in black-hole spacetimes. They are hard because they need effective-potential analysis, the separable constants of motion of Kerr spacetime, and careful handling of prograde versus retrograde cases and extremal limits.",
+   "techniques": [
+    "effective potential for timelike and null geodesics with conserved E, L and Carter constant Q",
+    "ISCO and marginally bound orbit conditions via the extrema of the effective potential",
+    "binding-energy efficiency 1 \u2212 E_ISCO for accretion discs",
+    "critical impact parameter and photon-sphere radius for the shadow boundary",
+    "radial, vertical and orbital epicyclic frequencies and their resonant ratios",
+    "extremal (a \u2192 M) limits and the coordinate subtleties near the horizon"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "exact radius in units of GM/c\u00b2",
+    "rational number or surd",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Aperture-synthesis visibilities and closure quantities",
+   "scope": "Problems ask for complex visibilities of model sources, null baselines, closure phases or amplitudes on specified arrays, counts of independent closure quantities, or uv-coverage tracks set by array geometry and declination. They are hard because they combine Fourier optics with array combinatorics and with how station-based gain errors propagate.",
+   "techniques": [
+    "van Cittert\u2013Zernike theorem and Fourier transforms of disks, rings, Gaussians and point pairs",
+    "Bessel-function nulls of uniform-disk and thin-ring visibilities",
+    "closure phase on triangles and closure amplitude on quadrangles as gain-invariant observables",
+    "counting independent closure phases (N\u22121)(N\u22122)/2 and amplitudes N(N\u22123)/2",
+    "Earth-rotation synthesis: elliptical uv tracks as a function of baseline and declination",
+    "phase centre shifts and the shift theorem for offset or asymmetric sources"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "angle in degrees or radians",
+    "small set of baseline lengths"
+   ]
+  }
+ ]
+}

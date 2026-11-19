@@ -1,0 +1,148 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Law",
+ "target_leaves": 9,
+ "expected_problems": 112,
+ "leaves": [
+  {
+   "leaf": "Anglo-Saxon dooms injury and wergild tariffs",
+   "scope": "Compensation (bot), wergild and wite amounts in the laws of \u00c6thelberht, Hlothhere, Wihtred, Ine and Alfred, broken down by injury, by the victim's rank (ceorl, gesith, eorl) and by unit (shillings, sceattas, pence). A question can ask for the total due for a combination of injuries under one specific code, or compare one tariff across two codes after converting between the regional shilling standards.",
+   "queries": [
+    "Aethelberht laws shillings bot",
+    "Ine Alfred dooms wergild",
+    "Attenborough laws earliest English kings",
+    "twelfhynde twyhynde wergild",
+    "Anglo-Saxon wite compensation"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Roman lex Falcidia and legacy reduction",
+   "scope": "Rules in Gaius, Justinian's Institutes and the Digest on the Falcidian quarter, the senatusconsultum Pegasianum and Trebellianum, and how debts, funeral costs and freed slaves are deducted before the estate is valued. A question can give a hypothetical estate and set of legacies and ask how much each legatee or the heir receives after the pro-rata reduction.",
+   "queries": [
+    "Falcidian fourth legacies heir",
+    "lex Falcidia Institutes Justinian",
+    "senatusconsultum Pegasianum fideicommissum",
+    "Gaius Institutes legacies reduction",
+    "quarta Falcidia computation"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Hanafi and Shafi'i fara'id: awl and radd",
+   "scope": "The fixed Quranic shares, the residuary ('asaba) order, the 'awl increase when shares add up to more than the estate, radd return of a surplus, and the points where Hanafi and Shafi'i teaching differ, as set out in Anglo-Indian treatises such as Rumsey, Baillie and Macnaghten. A question can give a specific group of surviving heirs and ask for one heir's fraction under a named school, or for the denominator after 'awl.",
+   "queries": [
+    "Moohummudan law inheritance Rumsey",
+    "awl radd shares heirs",
+    "Sirajiyyah inheritance sharers residuaries",
+    "Baillie digest Moohummudan law",
+    "Hanafi distant kindred succession"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "US prize court distribution of prize money",
+   "scope": "How federal prize courts in the Quasi-War, the War of 1812 and the Civil War divided condemned prizes: the moiety that went to the government versus the captors, the statutory shares of the commanding officer, the squadron commander and the crew, joint-capture and constructive-assistance doctrines, and the naval pension fund deduction. A question can apply the Act of 1800 or the Act of 1862 distribution scheme to the proceeds of a named reported case.",
+   "queries": [
+    "prize money distribution captors",
+    "joint capture constructive assistance",
+    "prize court condemnation libel",
+    "Act 1862 prize distribution",
+    "blockade runner prize proceeds"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Spanish and Mexican land grant confirmation",
+   "scope": "Cases before the California Land Commission (1851) and the Court of Private Land Claims (1891), covering the Spanish and Mexican units of measurement (sitio de ganado mayor, legua, vara), sobrante disputes, floating grants and the rejection of fraudulent claims such as the Peralta grant. A question can convert a grant's stated size into acres or compare the confirmed area with the area claimed.",
+   "queries": [
+    "sitio ganado mayor leagues",
+    "California Land Commission rancho",
+    "Court Private Land Claims grant",
+    "sobrante Mexican grant survey",
+    "Peralta Reavis grant fraudulent"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Maritime boundary delimitation disproportionality test",
+   "scope": "The three-stage method used by the ICJ, ITLOS and arbitral tribunals (provisional equidistance line, relevant circumstances, disproportionality check), with the coastline-length ratios and allocated-area ratios reported in specific cases such as Black Sea, Bay of Bengal and Nicaragua v. Colombia. A question can ask whether a given ratio of maritime areas passes the check compared with a stated ratio of relevant coasts, or compare the ratios across two cases.",
+   "queries": [
+    "disproportionality test relevant coasts",
+    "provisional equidistance line adjustment",
+    "Bay of Bengal delimitation ITLOS",
+    "Black Sea delimitation ICJ",
+    "continental shelf delimitation arbitration"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "1909 Copyright Act notice and renewal",
+   "scope": "Doctrines from the 1909 Act era: what counts as general versus limited publication, defective or omitted notice, renewal registration in the 28th year, the renewal expectancy of widows and children, and the derivative-work rule in Stewart v. Abend. A question can take the publication, registration and death dates from a case and work out whether and when the work entered the public domain.",
+   "queries": [
+    "copyright renewal term expectancy",
+    "general publication divestive notice",
+    "1909 Act renewal registration",
+    "Stewart Abend derivative renewal",
+    "copyright notice omission forfeiture"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Western prior appropriation adjudication decrees",
+   "scope": "Stream-adjudication decrees and appellate cases in Colorado, Idaho, Montana and Wyoming that fix appropriation priority dates, decreed flows in cubic feet per second or miner's inches, abandonment, relation-back, and the futile-call doctrine. A question can ask which appropriator is curtailed when a given streamflow meets a list of decreed rights, or convert miner's inches to cubic feet per second under a particular state's statutory standard.",
+   "queries": [
+    "priority appropriation decree ditch",
+    "miner's inches statutory flow",
+    "futile call senior appropriator",
+    "abandonment water right nonuse",
+    "relation back appropriation diligence"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Federal Sentencing Guidelines offense level computation",
+   "scope": "Appellate cases applying the US Sentencing Guidelines: base offense levels, specific-offense enhancements such as the loss tables under \u00a72B1.1, role adjustments, grouping of multiple counts, acceptance-of-responsibility reductions, and criminal-history points. A question can rebuild the total offense level or advisory range from the findings in a reported case, or show how a disputed enhancement changes the range.",
+   "queries": [
+    "total offense level enhancement",
+    "loss table 2B1.1",
+    "criminal history category points",
+    "grouping multiple counts guidelines",
+    "aggravating role adjustment organizer"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "subtopics": [
+  {
+   "name": "Hamiltonian chaos and KAM theory",
+   "scope": "How invariant tori break up, how resonances overlap, and how mixed phase space is organized in near-integrable Hamiltonian flows and in area-preserving or symplectic maps.",
+   "keywords": [
+    "KAM tori",
+    "standard map",
+    "area-preserving map",
+    "resonance overlap",
+    "Arnold diffusion",
+    "homoclinic tangle",
+    "stickiness",
+    "symplectic map",
+    "separatrix chaos",
+    "nonlinear resonance"
+   ]
+  },
+  {
+   "name": "Deterministic diffusion and anomalous chaotic transport",
+   "scope": "Transport coefficients and normal, sub- or superdiffusive spreading produced by deterministic chaotic maps, Lorentz gases and intermittent dynamics.",
+   "keywords": [
+    "deterministic diffusion",
+    "diffusion coefficient",
+    "Lorentz gas",
+    "anomalous diffusion",
+    "Levy walk",
+    "intermittency",
+    "Pomeau-Manneville map",
+    "Green-Kubo",
+    "fractal diffusion coefficient",
+    "weak ergodicity breaking"
+   ]
+  },
+  {
+   "name": "Transient chaos and open dynamical systems",
+   "scope": "Escape from chaotic saddles in open maps, billiards and scattering systems, including escape rates, fractal repellers and fractal basin boundaries.",
+   "keywords": [
+    "transient chaos",
+    "chaotic saddle",
+    "escape rate",
+    "open billiard",
+    "chaotic scattering",
+    "fractal basin boundary",
+    "conditionally invariant measure",
+    "leaking",
+    "Poincare recurrence",
+    "riddled basins"
+   ]
+  },
+  {
+   "name": "Quantum chaos and spectral statistics",
+   "scope": "Signatures of classical chaos in quantum systems, including level statistics, semiclassical periodic-orbit theory, dynamical localization and scrambling.",
+   "keywords": [
+    "quantum chaos",
+    "level spacing distribution",
+    "random matrix theory",
+    "spectral form factor",
+    "kicked rotor",
+    "dynamical localization",
+    "Gutzwiller trace formula",
+    "quantum billiard",
+    "out-of-time-order correlator",
+    "quantum scars"
+   ]
+  },
+  {
+   "name": "Piecewise-smooth and impacting dynamical systems",
+   "scope": "Dynamics and bifurcations of systems with switching, impacts or friction, including border-collision, grazing and sliding phenomena.",
+   "keywords": [
+    "piecewise-smooth",
+    "border-collision bifurcation",
+    "grazing bifurcation",
+    "impact oscillator",
+    "Filippov system",
+    "sliding mode",
+    "piecewise linear map",
+    "nonsmooth dynamics",
+    "stick-slip",
+    "robust chaos"
+   ]
+  },
+  {
+   "name": "Bifurcations and multiple-timescale dynamics in flows",
+   "scope": "Local and global bifurcations of low-dimensional dissipative ODEs and their slow-fast structure, including normal forms, homoclinic orbits, canards and mixed-mode oscillations.",
+   "keywords": [
+    "Hopf bifurcation",
+    "normal form",
+    "Bogdanov-Takens",
+    "homoclinic bifurcation",
+    "Shilnikov",
+    "canard",
+    "slow-fast system",
+    "mixed-mode oscillations",
+    "relaxation oscillation",
+    "codimension-two bifurcation"
+   ]
+  },
+  {
+   "name": "Synchronization and mode locking of oscillators",
+   "scope": "How limit-cycle oscillators lock to periodic forcing or to each other, from Arnold tongues and circle maps to collective synchronization in large populations and networks.",
+   "keywords": [
+    "Kuramoto model",
+    "phase oscillators",
+    "Ott-Antonsen ansatz",
+    "Arnold tongues",
+    "circle map",
+    "phase locking",
+    "chimera state",
+    "master stability function",
+    "phase response curve",
+    "explosive synchronization"
+   ]
+  },
+  {
+   "name": "Noise-induced phenomena in nonlinear systems",
+   "scope": "How random fluctuations change nonlinear dynamics, including stochastic and coherence resonance, noise-induced transitions and escape, and phase diffusion of noisy oscillators.",
+   "keywords": [
+    "stochastic resonance",
+    "coherence resonance",
+    "noise-induced transition",
+    "Kramers escape",
+    "multiplicative noise",
+    "Fokker-Planck equation",
+    "phase diffusion",
+    "noise-induced synchronization",
+    "stochastic bifurcation",
+    "colored noise"
+   ]
+  },
+  {
+   "name": "Delay-differential equations and delayed feedback",
+   "scope": "Stability, bifurcations and chaos in systems with time-delayed coupling or feedback, including oscillations caused by delay and chaos control by delayed feedback.",
+   "keywords": [
+    "time delay",
+    "delay differential equation",
+    "delayed feedback control",
+    "Pyragas control",
+    "characteristic equation",
+    "delay-induced Hopf bifurcation",
+    "large delay limit",
+    "Mackey-Glass",
+    "Ikeda equation",
+    "amplitude death"
+   ]
+  },
+  {
+   "name": "Self-organized criticality and avalanche dynamics",
+   "scope": "Systems that reach critical states on their own and show scale-free avalanches, including sandpile models, branching processes and extremal dynamics.",
+   "keywords": [
+    "self-organized criticality",
+    "sandpile model",
+    "avalanche size distribution",
+    "branching process",
+    "critical exponents",
+    "Abelian sandpile",
+    "Bak-Sneppen model",
+    "neuronal avalanches",
+    "power-law distribution",
+    "absorbing state"
+   ]
+  },
+  {
+   "name": "Turing patterns and amplitude equations",
+   "scope": "Instabilities of homogeneous states in reaction-diffusion and other spatially extended systems, and the weakly nonlinear selection, stability and dynamics of stripes, hexagons and other patterns.",
+   "keywords": [
+    "Turing instability",
+    "reaction-diffusion",
+    "amplitude equation",
+    "Swift-Hohenberg equation",
+    "complex Ginzburg-Landau equation",
+    "Eckhaus instability",
+    "hexagonal patterns",
+    "weakly nonlinear analysis",
+    "Benjamin-Feir instability",
+    "pattern selection"
+   ]
+  },
+  {
+   "name": "Modulational instability and nonlinear dispersive waves",
+   "scope": "Evolution of nonlinear dispersive wave fields governed by NLS-, KdV- and related equations, including modulational instability, rogue waves and dispersive shock waves.",
+   "keywords": [
+    "modulational instability",
+    "nonlinear Schrodinger equation",
+    "rogue waves",
+    "Peregrine soliton",
+    "Akhmediev breather",
+    "dispersive shock wave",
+    "Whitham modulation theory",
+    "Korteweg-de Vries",
+    "soliton collision",
+    "nonlinear optics"
+   ]
+  },
+  {
+   "name": "Discrete breathers and nonlinear lattice dynamics",
+   "scope": "Localized excitations, energy transport and thermalization in nonlinear lattices such as discrete NLS, Klein-Gordon and Fermi-Pasta-Ulam-Tsingou chains.",
+   "keywords": [
+    "discrete breather",
+    "intrinsic localized mode",
+    "discrete nonlinear Schrodinger",
+    "Fermi-Pasta-Ulam-Tsingou",
+    "anti-continuum limit",
+    "Klein-Gordon lattice",
+    "flat band",
+    "thermalization",
+    "energy localization",
+    "nonlinear lattice"
+   ]
+  },
+  {
+   "name": "Fronts and localized dissipative structures",
+   "scope": "Propagating fronts, pulses and stationary localized states in dissipative extended systems, including front speed selection, excitable waves and homoclinic snaking.",
+   "keywords": [
+    "front propagation",
+    "Fisher-KPP",
+    "pulled fronts",
+    "traveling waves",
+    "dissipative solitons",
+    "homoclinic snaking",
+    "localized structures",
+    "Lugiato-Lefever equation",
+    "excitable media",
+    "spiral waves"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Linear stability and dispersion relation analysis",
+   "scope": "Linearize about a steady, uniform or periodic state and solve the eigenvalue problem, dispersion relation or transcendental (delay) characteristic equation to get growth rates, critical wavenumbers and instability thresholds."
+  },
+  {
+   "name": "Center manifold and normal form reduction",
+   "scope": "Reduce the dynamics near a bifurcation to its center manifold and compute normal-form coefficients, such as the first Lyapunov coefficient, which determine criticality, amplitude scaling and unfolding structure."
+  },
+  {
+   "name": "Multiple-scale perturbation and averaging methods",
+   "scope": "Separate fast and slow time or space scales using multiple-scales, Krylov-Bogoliubov averaging or Poincare-Lindstedt expansions to derive amplitude equations, frequency shifts and resonance conditions."
+  },
+  {
+   "name": "Floquet theory and parametric stability",
+   "scope": "Compute monodromy matrices, Floquet multipliers or Hill determinants to find the stability of periodic orbits and the boundaries of parametric-resonance tongues."
+  },
+  {
+   "name": "Melnikov and separatrix-splitting analysis",
+   "scope": "Evaluate Melnikov integrals along unperturbed separatrices to get thresholds for transverse homoclinic intersections, exponentially small splitting angles or the onset of chaotic escape."
+  },
+  {
+   "name": "Phase reduction of limit-cycle oscillators",
+   "scope": "Reduce weakly perturbed or coupled oscillators to phase equations using isochrons and phase response curves, then predict locking ranges, Arnold tongue widths and synchronization thresholds."
+  },
+  {
+   "name": "Self-consistent mean-field and Ott-Antonsen reduction",
+   "scope": "Close the dynamics of large oscillator or agent populations with self-consistency equations or low-dimensional invariant-manifold ansatzes to get order parameters, critical couplings and bifurcation diagrams."
+  },
+  {
+   "name": "Transfer operators and invariant densities",
+   "scope": "Build Perron-Frobenius operators, Markov partitions or invariant densities of chaotic maps and use them to compute Lyapunov exponents, entropies, correlation decay, escape rates and diffusion coefficients."
+  },
+  {
+   "name": "Symbolic dynamics and periodic-orbit expansions",
+   "scope": "Encode orbits symbolically to count periodic orbits and compute topological entropy, then evaluate dynamical zeta functions, cycle expansions or semiclassical trace formulas for averages and spectra."
+  },
+  {
+   "name": "Fokker-Planck and first-passage analysis",
+   "scope": "Solve stationary Fokker-Planck or backward Kolmogorov equations, often with Kramers or WKB asymptotics, to get stationary distributions, mean escape times and the response of the system to noise."
+  },
+  {
+   "name": "Exact traveling-wave and soliton construction",
+   "scope": "Construct exact or asymptotic solitons, fronts and periodic waves through traveling-wave reduction, phase-plane analysis or ansatz methods, and extract their speeds, widths, amplitudes and existence conditions."
+  },
+  {
+   "name": "Renormalization-group and scaling analysis",
+   "scope": "Derive universal constants, critical exponents and scaling laws by renormalizing maps or orbits, analyzing self-similar bifurcation cascades, or applying scaling arguments near critical points."
+  }
+ ],
+ "field": "nonlinear dynamics",
+ "categories": [
+  "nlin.CD",
+  "nlin.PS",
+  "nlin.AO"
+ ]
+}

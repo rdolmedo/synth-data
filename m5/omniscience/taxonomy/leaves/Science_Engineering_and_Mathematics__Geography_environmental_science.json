@@ -1,0 +1,942 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Geography environmental science",
+ "weight": 0.014499999999999999,
+ "leaves": [
+  {
+   "leaf": "Fluvial geomorphology and river landforms",
+   "scope": "Processes and landforms produced by rivers, including channel patterns, meanders and oxbow lakes, floodplains, deltas, alluvial fans, river terraces, sediment transport and stream capture.",
+   "queries": [
+    "meander oxbow lake floodplain formation",
+    "braided river channel pattern sediment load",
+    "river delta types arcuate bird's foot",
+    "stream capture river terrace knickpoint"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glacial and periglacial geomorphology",
+   "scope": "Landforms and processes of glaciated and cold non-glacial environments, such as cirques, arêtes, moraines, drumlins, eskers, fjords, pingos, patterned ground and solifluction.",
+   "queries": [
+    "cirque arete horn glacial erosion landforms",
+    "drumlin esker kame moraine deposition",
+    "pingo patterned ground periglacial landforms",
+    "fjord glacial trough hanging valley"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coastal geomorphology and shoreline management",
+   "scope": "Coastal processes and landforms such as longshore drift, spits, tombolos, barrier islands, sea stacks, wave-cut platforms and estuaries, plus coastal erosion and hard and soft engineering responses.",
+   "queries": [
+    "longshore drift spit tombolo formation",
+    "barrier island lagoon coastal geomorphology",
+    "sea stack arch wave-cut platform erosion",
+    "groyne seawall beach nourishment coastal management"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Karst landscapes and cave systems",
+   "scope": "Landscapes formed by dissolution of soluble rock, including dolines, poljes, tower karst, karst springs and speleothems, and notable cave systems with their surveyed lengths and depths.",
+   "queries": [
+    "karst topography doline polje uvala",
+    "limestone cave stalactite speleothem formation",
+    "longest cave system surveyed length",
+    "tower karst cockpit karst southern China"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aeolian processes and desert landforms",
+   "scope": "Wind-driven processes and arid landforms, including dune types, deflation, ventifacts, yardangs, desert pavement, playas, pediments and inselbergs, and the world's major deserts and ergs.",
+   "queries": [
+    "barchan seif star dune types",
+    "yardang ventifact deflation hollow aeolian",
+    "desert pavement playa pediment inselberg",
+    "largest erg sand sea Sahara Rub al Khali"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Climate classification systems and regional climates",
+   "scope": "Climate classification schemes with their letter codes, thresholds and criteria (Köppen-Geiger, Trewartha, Thornthwaite, Holdridge life zones) and how they apply to particular regions.",
+   "queries": [
+    "Köppen climate classification Cfb Csa criteria",
+    "Trewartha climate classification groups",
+    "Thornthwaite moisture index potential evapotranspiration",
+    "Holdridge life zones biotemperature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atmospheric circulation, monsoons and climate oscillations",
+   "scope": "Global and regional atmospheric circulation (Hadley, Ferrel and polar cells, jet streams, ITCZ, monsoons) and teleconnection patterns such as ENSO, NAO, IOD and MJO with their defining indices.",
+   "queries": [
+    "Hadley cell Ferrel cell ITCZ circulation",
+    "El Niño Southern Oscillation index Niño 3.4",
+    "North Atlantic Oscillation Indian Ocean Dipole",
+    "Indian monsoon onset subtropical jet stream"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tropical cyclones and severe convective storms",
+   "scope": "Formation, intensity scales, naming conventions and records of tropical cyclones, tornadoes and other severe storms, including the Saffir-Simpson and Enhanced Fujita scales and retired storm names.",
+   "queries": [
+    "Saffir-Simpson hurricane wind scale category",
+    "retired Atlantic hurricane names list",
+    "Enhanced Fujita scale tornado rating",
+    "typhoon lowest central pressure record"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Paleoclimatology and Quaternary climate history",
+   "scope": "Reconstruction of past climates from ice cores, isotopes, sediments and other proxies, covering Milankovitch cycles, marine isotope stages, glacial-interglacial cycles and events such as the Younger Dryas and PETM.",
+   "queries": [
+    "Vostok EPICA ice core record years",
+    "marine isotope stage oxygen isotope ratio",
+    "Milankovitch cycles eccentricity obliquity precession",
+    "Younger Dryas Paleocene-Eocene Thermal Maximum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "IPCC assessments, emissions scenarios and climate projections",
+   "scope": "IPCC assessment reports and working groups, RCP and SSP scenarios, climate sensitivity estimates, remaining carbon budgets and CMIP model intercomparison projects.",
+   "queries": [
+    "IPCC Sixth Assessment Report working group",
+    "Shared Socioeconomic Pathways SSP scenarios",
+    "equilibrium climate sensitivity likely range",
+    "representative concentration pathway RCP8.5 radiative forcing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greenhouse gas metrics, carbon accounting and carbon markets",
+   "scope": "How emissions are measured, reported and traded: global warming potentials, GHG Protocol scopes, national inventories, emissions trading schemes, carbon offsets and atmospheric CO2 records such as the Keeling curve.",
+   "queries": [
+    "global warming potential methane 100-year",
+    "Greenhouse Gas Protocol scope 3 emissions",
+    "EU Emissions Trading System phase allowances",
+    "Keeling curve Mauna Loa carbon dioxide"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Air pollution, acid rain and stratospheric ozone depletion",
+   "scope": "Atmospheric pollutants and their chemistry, covering criteria pollutants, smog types, air quality indices and guideline values, acid deposition, and ozone depletion by CFCs as measured in Dobson units.",
+   "queries": [
+    "ozone hole Dobson units Antarctic",
+    "photochemical smog nitrogen oxides formation",
+    "air quality index PM2.5 breakpoints",
+    "acid rain sulfur dioxide pH deposition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surface hydrology, floods and droughts",
+   "scope": "Water balance and runoff processes, hydrographs, stream order and discharge measurement, flood frequency and return periods, and drought indices and classifications.",
+   "queries": [
+    "unit hydrograph runoff peak discharge",
+    "Strahler stream order drainage density",
+    "flood return period frequency analysis",
+    "Palmer drought severity index standardized precipitation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Groundwater hydrology and major aquifers",
+   "scope": "Subsurface water: aquifer types, porosity and hydraulic conductivity, Darcy's law, water tables, springs and artesian wells, and major aquifers such as the Ogallala and the Great Artesian Basin.",
+   "queries": [
+    "Darcy's law hydraulic conductivity aquifer",
+    "confined unconfined aquifer artesian well",
+    "Ogallala Aquifer depletion High Plains",
+    "Great Artesian Basin groundwater recharge"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Limnology and lake systems",
+   "scope": "Physical, chemical and biological properties of lakes, including thermal stratification, mixing regimes, trophic states and lake origins, plus the depths, volumes and ages of notable lakes.",
+   "queries": [
+    "lake thermal stratification epilimnion hypolimnion",
+    "dimictic meromictic monomictic lake mixing",
+    "oligotrophic eutrophic lake trophic state index",
+    "Lake Baikal Tanganyika depth volume age"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Physical oceanography and ocean circulation",
+   "scope": "Ocean currents, gyres, thermohaline circulation, water masses, upwelling, Ekman transport, tides, salinity and the large-scale bathymetric features of the ocean floor.",
+   "queries": [
+    "thermohaline circulation North Atlantic Deep Water",
+    "Gulf Stream Kuroshio western boundary current",
+    "Ekman transport coastal upwelling",
+    "ocean gyre salinity water mass Antarctic Bottom Water"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cryosphere: ice sheets, sea ice and permafrost",
+   "scope": "Present-day ice sheets, ice shelves, sea ice and permafrost: their extent, mass balance, monitoring records and contribution to sea-level change.",
+   "queries": [
+    "Antarctic ice shelf collapse Larsen B",
+    "Arctic sea ice minimum extent record",
+    "Greenland ice sheet mass balance loss",
+    "permafrost continuous discontinuous active layer"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Soil formation, horizons and soil classification",
+   "scope": "Soil-forming factors, horizon nomenclature, texture classes and soil classification in USDA Soil Taxonomy and the FAO World Reference Base for Soil Resources.",
+   "queries": [
+    "USDA soil taxonomy orders Oxisols Aridisols",
+    "World Reference Base reference soil groups",
+    "soil horizon designations O A E B C",
+    "soil texture triangle loam clay silt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biomes, ecoregions and biogeographic realms",
+   "scope": "The spatial distribution of life: biomes, WWF ecoregions, biogeographic realms and provinces, faunal boundaries such as Wallace's Line, and island biogeography theory.",
+   "queries": [
+    "biogeographic realm Wallace Line Weber Line",
+    "WWF terrestrial ecoregions biome classification",
+    "Udvardy biogeographical provinces",
+    "island biogeography theory MacArthur Wilson"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biodiversity conservation, IUCN Red List and hotspots",
+   "scope": "Measuring and protecting biodiversity, covering IUCN Red List categories and criteria, biodiversity hotspots, endemism, documented extinctions and recovery programmes for particular species.",
+   "queries": [
+    "IUCN Red List categories criteria critically endangered",
+    "biodiversity hotspots Conservation International endemic plants",
+    "species declared extinct last confirmed sighting",
+    "captive breeding reintroduction programme endangered species"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Protected areas and international site designations",
+   "scope": "Designation and management of protected areas, including IUCN protected area categories, national parks and their founding, natural World Heritage Sites, Ramsar sites and UNESCO biosphere reserves.",
+   "queries": [
+    "IUCN protected area management categories",
+    "first national park established year",
+    "Ramsar site wetland of international importance designated",
+    "UNESCO biosphere reserve natural World Heritage site"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biogeochemical cycles and ecosystem ecology",
+   "scope": "How carbon, nitrogen, phosphorus and sulfur cycle through ecosystems, along with primary productivity, trophic levels and energy flow, and ecological succession.",
+   "queries": [
+    "nitrogen cycle fixation nitrification denitrification",
+    "net primary productivity ecosystem biomass",
+    "phosphorus cycle weathering sediment",
+    "ecological succession pioneer climax community"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Water pollution, eutrophication and wastewater treatment",
+   "scope": "Sources and effects of water pollution and its treatment: nutrient loading and hypoxic dead zones, BOD and COD, drinking water standards and the stages and processes of wastewater treatment.",
+   "queries": [
+    "biochemical oxygen demand wastewater treatment",
+    "hypoxic dead zone Gulf of Mexico Baltic",
+    "activated sludge secondary treatment process",
+    "drinking water maximum contaminant level"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Persistent pollutants, heavy metals and environmental toxicology",
+   "scope": "Persistent organic pollutants, pesticides, heavy metals, PFAS and microplastics: their chemistry, environmental fate, bioaccumulation, toxicity thresholds and regulatory status.",
+   "queries": [
+    "persistent organic pollutants dirty dozen",
+    "DDT biomagnification eggshell thinning",
+    "PFAS perfluorooctanoic acid contamination",
+    "methylmercury bioaccumulation fish advisory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental disasters and industrial pollution incidents",
+   "scope": "Major environmental disasters and contamination episodes (oil spills, chemical releases, mining dam failures, toxic waste sites) with their dates, places, quantities and consequences.",
+   "queries": [
+    "Exxon Valdez oil spill barrels",
+    "Bhopal gas tragedy methyl isocyanate",
+    "Minamata disease mercury Chisso",
+    "tailings dam failure Brumadinho Mariana"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Multilateral environmental agreements and conventions",
+   "scope": "International environmental treaties and their adoption dates, protocols, amendments, annexes and COP meetings, including the Montreal, Kyoto, Paris, Basel, Rotterdam, Stockholm, CITES, CBD, UNCCD and Antarctic Treaty regimes.",
+   "queries": [
+    "Montreal Protocol Kigali Amendment HFC",
+    "Kyoto Protocol Annex B commitment period",
+    "CITES appendices Convention on Biological Diversity",
+    "Stockholm Convention Basel Convention adopted entered into force"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "National environmental legislation and regulatory agencies",
+   "scope": "Domestic environmental laws and regulators, such as the US NEPA, Clean Air Act, Clean Water Act, CERCLA and Endangered Species Act, EU environmental directives and regulations, and other national agencies.",
+   "queries": [
+    "National Environmental Policy Act 1969 environmental impact statement",
+    "Clean Water Act Clean Air Act amendments",
+    "CERCLA Superfund National Priorities List",
+    "EU Water Framework Directive REACH regulation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental assessment methods and sustainability indicators",
+   "scope": "Methods and metrics for judging environmental performance: environmental impact assessment procedures, life cycle assessment standards, ecological footprint, planetary boundaries and environmental SDG indicators.",
+   "queries": [
+    "life cycle assessment ISO 14040 impact categories",
+    "ecological footprint global hectares Earth Overshoot Day",
+    "planetary boundaries Rockström framework",
+    "environmental impact assessment screening scoping"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Deforestation, desertification and land-use change",
+   "scope": "Forest loss, desertification, land degradation and land-use change, including deforestation monitoring statistics, the Sahel, shifting cultivation, and large reforestation and anti-desertification programmes.",
+   "queries": [
+    "Amazon deforestation rate PRODES monitoring",
+    "desertification Sahel land degradation",
+    "Great Green Wall reforestation initiative",
+    "slash-and-burn shifting cultivation tropical forest"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Wetlands, mangroves and peatlands",
+   "scope": "Wetland types (marshes, swamps, bogs, fens, mangroves, peatlands), their hydrology, ecology and carbon storage, and notable examples such as the Pantanal, Sundarbans and Okavango.",
+   "queries": [
+    "bog fen marsh swamp wetland classification",
+    "peatland carbon storage drainage",
+    "Sundarbans mangrove forest species",
+    "Pantanal Okavango Delta wetland area"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Marine ecosystems, coral reefs and fisheries management",
+   "scope": "Coral reefs, kelp forests, seagrass beds and open-ocean ecosystems, coral bleaching, marine protected areas, and fisheries concepts such as overfishing, stock collapse and maximum sustainable yield.",
+   "queries": [
+    "coral bleaching Great Barrier Reef mass event",
+    "maximum sustainable yield fisheries stock collapse",
+    "Grand Banks cod moratorium 1992",
+    "kelp forest seagrass meadow ecosystem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Map projections, geodetic datums and coordinate reference systems",
+   "scope": "Map projections, their properties and inventors, reference ellipsoids, geoids, geodetic datums, and coordinate systems such as UTM, WGS 84, NAD83 and EPSG-coded reference systems.",
+   "queries": [
+    "Mercator projection conformal cylindrical",
+    "WGS 84 ellipsoid flattening semi-major axis",
+    "Universal Transverse Mercator zone numbering",
+    "Robinson Winkel tripel projection National Geographic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geographic information systems and spatial analysis",
+   "scope": "GIS data models (vector, raster, TIN), file formats and standards, spatial analysis and interpolation methods, topology, and the history of major GIS software.",
+   "queries": [
+    "shapefile file format components dbf shx",
+    "raster vector data model GIS",
+    "kriging inverse distance weighting interpolation",
+    "Open Geospatial Consortium GeoJSON standard"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Earth observation satellites and remote sensing",
+   "scope": "Earth observation missions and sensors (Landsat, Sentinel, MODIS, AVHRR), their spectral bands and resolutions, vegetation indices such as NDVI, and radar and LiDAR techniques.",
+   "queries": [
+    "Landsat 8 OLI spectral bands",
+    "Sentinel-2 MultiSpectral Instrument resolution",
+    "NDVI normalized difference vegetation index",
+    "synthetic aperture radar LiDAR remote sensing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Population geography and demography",
+   "scope": "Population distribution and change: the demographic transition model, fertility and mortality measures, migration theories (Ravenstein, Lee, Zelinsky), population pyramids and census statistics.",
+   "queries": [
+    "demographic transition model stages",
+    "Ravenstein laws of migration",
+    "total fertility rate replacement level",
+    "population pyramid dependency ratio"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Urban geography and settlement models",
+   "scope": "Urban structure models (Burgess, Hoyt, Harris–Ullman), primate cities and the rank-size rule, megacities and urban agglomerations, urban heat islands and urbanization statistics.",
+   "queries": [
+    "Burgess concentric zone model Hoyt sector",
+    "Harris Ullman multiple nuclei model",
+    "primate city rank-size rule Zipf",
+    "largest megacities urban agglomeration population"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Economic geography and location theory",
+   "scope": "Spatial economic theories and their applications, including von Thünen, Weber's industrial location, Christaller's central place theory, Lösch, core-periphery models, and agricultural and transport geography.",
+   "queries": [
+    "von Thünen model agricultural land use rings",
+    "Christaller central place theory hexagon",
+    "Weber least cost industrial location triangle",
+    "core periphery model Friedmann Wallerstein"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Political geography, boundaries and maritime zones",
+   "scope": "Territory and borders: boundary types, enclaves and exclaves, tripoints, territorial disputes, maritime zones under UNCLOS, and classical geopolitical theories such as Mackinder's Heartland.",
+   "queries": [
+    "enclave exclave border Baarle-Nassau",
+    "UNCLOS exclusive economic zone territorial sea nautical miles",
+    "Mackinder Heartland theory geopolitics",
+    "boundary dispute tripoint border treaty"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "World physical geography records and extreme points",
+   "scope": "Record-holding and reference features of Earth's surface: highest peaks and prominence, longest rivers, deepest trenches, largest islands, lowest land elevations and continental extreme points.",
+   "queries": [
+    "highest mountain peaks topographic prominence",
+    "longest rivers length measurement list",
+    "Mariana Trench Challenger Deep depth",
+    "extreme points continent northernmost southernmost"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of geographic thought, exploration and cartography",
+   "scope": "How geography developed as a discipline and practice, from Eratosthenes and Ptolemy through Humboldt, Ritter and Ratzel to the quantitative revolution, along with geographical societies, historic maps and major expeditions.",
+   "queries": [
+    "Eratosthenes circumference Earth measurement",
+    "Ptolemy Geographia world map",
+    "Humboldt Ritter founders modern geography",
+    "Royal Geographical Society founded expedition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Plate tectonics, orogeny and tectonic landforms",
+   "scope": "Named plates and microplates, boundary types, hotspots, rift valleys, orogenies and fold-and-thrust belts, and the large-scale landforms they produce.",
+   "queries": [
+    "tectonic plate boundary microplate list velocity",
+    "orogeny mountain building Himalayan Alpine collision",
+    "hotspot track seamount chain age progression",
+    "continental rift valley graben horst formation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Volcanoes, volcanic landforms and eruption hazards",
+   "scope": "Volcano types, eruption styles, the Volcanic Explosivity Index, calderas, lahars and pyroclastic flows, volcano observatories and notable historical eruptions.",
+   "queries": [
+    "Volcanic Explosivity Index tephra volume eruption",
+    "stratovolcano shield volcano caldera types",
+    "pyroclastic flow lahar hazard volcano observatory",
+    "Plinian eruption column height historical eruption"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Earthquakes, seismic scales and tsunamis",
+   "scope": "Fault mechanics, magnitude and intensity scales, seismic wave types, notable earthquakes and tsunamis, and seismic and tsunami warning systems.",
+   "queries": [
+    "moment magnitude scale Mercalli intensity earthquake",
+    "P wave S wave shadow zone seismology",
+    "tsunami warning system DART buoy run-up",
+    "megathrust earthquake subduction rupture length slip"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Weathering, mass wasting and hillslope processes",
+   "scope": "Physical and chemical weathering, slope stability, classification of landslides, debris flows and rockfalls, snow avalanches, and notable slope failures.",
+   "queries": [
+    "Varnes landslide classification debris flow rockfall",
+    "chemical weathering hydrolysis oxidation carbonation",
+    "avalanche danger scale slab avalanche release",
+    "slope stability angle of repose mass movement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Seafloor features, marine geology and bathymetry",
+   "scope": "Ocean basins, trenches, mid-ocean ridges, abyssal plains, seamounts and guyots, submarine canyons, and the bathymetric surveys and compilations (GEBCO, multibeam) that chart them.",
+   "queries": [
+    "oceanic trench maximum depth sounding expedition",
+    "mid-ocean ridge spreading rate abyssal plain",
+    "submarine canyon continental shelf slope rise",
+    "GEBCO bathymetry multibeam seafloor mapping"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Atmospheric structure, composition and Earth's energy balance",
+   "scope": "Atmospheric layers and their boundaries, gas composition, the standard atmosphere, the solar constant, albedo and the components of Earth's radiation budget.",
+   "queries": [
+    "tropopause stratopause mesopause altitude atmosphere layers",
+    "Earth radiation budget albedo solar constant",
+    "atmospheric composition nitrogen oxygen argon percentage",
+    "International Standard Atmosphere lapse rate pressure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Clouds, precipitation and atmospheric moisture",
+   "scope": "Cloud genera, species and varieties in the WMO International Cloud Atlas, humidity measures, precipitation-forming processes, fog types and atmospheric stability.",
+   "queries": [
+    "International Cloud Atlas genera species varieties",
+    "Bergeron process collision coalescence precipitation",
+    "dew point relative humidity adiabatic lapse rate",
+    "radiation fog advection fog formation types"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Local winds and mesoscale weather phenomena",
+   "scope": "Named regional and local winds (foehn, chinook, mistral, bora, sirocco, harmattan), sea and land breezes, mountain and valley winds, katabatic flows and other mesoscale circulations.",
+   "queries": [
+    "foehn chinook wind rain shadow warming",
+    "mistral bora sirocco Mediterranean regional winds",
+    "katabatic wind Antarctica speed record",
+    "sea breeze front mountain valley wind"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Meteorological observation, instruments and weather forecasting",
+   "scope": "Weather instruments and their inventors, station networks, observation codes (METAR, SYNOP), radiosondes, weather radar, and operational numerical weather prediction models.",
+   "queries": [
+    "METAR SYNOP observation code format",
+    "radiosonde upper air sounding weather balloon",
+    "numerical weather prediction ECMWF GFS model resolution",
+    "barometer anemometer hygrometer invention meteorological instrument"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mountain environments, altitudinal zonation and treelines",
+   "scope": "Mountain geography, including altitudinal vegetation and climate belts, treeline and snow-line elevations, orographic effects, and how people adapt to highland environments.",
+   "queries": [
+    "altitudinal zonation tierra caliente templada fria",
+    "alpine treeline elevation snow line latitude",
+    "paramo puna montane cloud forest altitude",
+    "orographic precipitation mountain climate windward leeward"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Wildfire regimes and fire ecology",
+   "scope": "Fire behavior and fire regimes, fire-adapted ecosystems and species, fire danger rating systems, fire management policy, and major historical wildfires.",
+   "queries": [
+    "fire regime serotiny fire-adapted ecosystem",
+    "Canadian Fire Weather Index danger rating",
+    "largest wildfire burned area hectares history",
+    "prescribed burning fire suppression policy history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Invasive species and biological invasions",
+   "scope": "Introduced and invasive species, invasion pathways, well-known case studies, and biosecurity, biocontrol and eradication programs.",
+   "queries": [
+    "100 worst invasive alien species list",
+    "ballast water invasion pathway zebra mussel",
+    "cane toad introduction Australia biological control",
+    "island eradication invasive rats goats program"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ecological restoration and rewilding",
+   "scope": "Principles and standards of restoration ecology, rewilding and species reintroduction projects, river restoration and dam removal, and international restoration pledges.",
+   "queries": [
+    "rewilding project species reintroduction wolves beavers",
+    "Society for Ecological Restoration standards principles",
+    "Bonn Challenge forest landscape restoration pledge",
+    "dam removal river restoration Elwha"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forest management, silviculture and forest certification",
+   "scope": "Silvicultural systems, forest inventory and mensuration, sustainable forest management, certification schemes (FSC, PEFC), and the history of national forest services.",
+   "queries": [
+    "silviculture clearcut shelterwood selection system",
+    "Forest Stewardship Council PEFC certification standard",
+    "forest inventory basal area diameter breast height",
+    "national forest service founded history forestry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Agricultural geography, farming systems and soil conservation",
+   "scope": "Agricultural systems and regions, centres of crop domestication, irrigation agriculture, the Green Revolution, and soil erosion modelling and conservation practices.",
+   "queries": [
+    "Vavilov centres of origin crop domestication",
+    "shifting cultivation swidden agriculture system",
+    "Green Revolution high-yielding varieties wheat rice",
+    "Universal Soil Loss Equation conservation tillage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dams, reservoirs and transboundary water management",
+   "scope": "Large dams and reservoirs, inter-basin water transfers and irrigation canals, desalination, and transboundary river treaties and basin authorities.",
+   "queries": [
+    "largest dam reservoir capacity height",
+    "interbasin water transfer project canal",
+    "transboundary river treaty water sharing agreement",
+    "desalination plant capacity reverse osmosis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Energy resources and renewable energy geography",
+   "scope": "Where fossil fuel reserves are, national power generation mixes, and the location and capacity of major solar, wind, hydroelectric, geothermal and tidal installations.",
+   "queries": [
+    "largest solar park installed capacity gigawatts",
+    "offshore wind farm turbines capacity",
+    "geothermal power field installed capacity",
+    "tidal power station barrage capacity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mineral resources, mining and extractive landscapes",
+   "scope": "Ore deposits and mineral provinces, mining methods, major mines and producing countries, critical minerals, and environmental effects of extraction such as acid mine drainage.",
+   "queries": [
+    "largest open pit mine copper production",
+    "critical minerals rare earth lithium reserves",
+    "acid mine drainage reclamation mine site",
+    "placer strip underground mining methods"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Solid waste, landfills, recycling and plastic pollution",
+   "scope": "Municipal solid waste management, landfill engineering, incineration and energy recovery, recycling codes, circular economy concepts, and marine plastic debris.",
+   "queries": [
+    "sanitary landfill liner leachate collection",
+    "resin identification code plastic recycling number",
+    "Great Pacific Garbage Patch microplastics",
+    "waste hierarchy incineration energy recovery"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radioactive contamination, radon and nuclear waste disposal",
+   "scope": "Radiation units and dose limits, environmental radionuclides, radon exposure, contamination at nuclear test and weapons-production sites, and deep geological repositories (major reactor accidents excluded).",
+   "queries": [
+    "deep geological repository nuclear waste Onkalo",
+    "radon action level becquerel per cubic metre",
+    "sievert gray becquerel radiation dose units",
+    "nuclear test site contamination plutonium cesium-137"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental economics and ecosystem services valuation",
+   "scope": "Externalities and Pigouvian taxes, ecosystem services frameworks and valuation studies, payment-for-ecosystem-services schemes, natural capital accounting (SEEA), and the environmental Kuznets curve.",
+   "queries": [
+    "Pigouvian tax externality environmental economics",
+    "ecosystem services valuation Costanza study",
+    "payment for ecosystem services Costa Rica program",
+    "environmental Kuznets curve natural capital accounting"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Environmental thought, ethics and the environmental movement",
+   "scope": "Key environmental thinkers, texts and concepts (land ethic, deep ecology, Gaia hypothesis, tragedy of the commons), and the founding and campaigns of environmental NGOs.",
+   "queries": [
+    "Aldo Leopold land ethic Sand County Almanac",
+    "deep ecology Arne Naess platform principles",
+    "tragedy of the commons Hardin 1968",
+    "Greenpeace Sierra Club founding environmental organization"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sustainable development summits, SDGs and global environmental institutions",
+   "scope": "UN environmental conferences (Stockholm, Rio, Johannesburg, Rio+20), the Brundtland Report and Agenda 21, the SDGs with their targets and indicators, and bodies such as UNEP, GEF and IPBES.",
+   "queries": [
+    "Stockholm Conference 1972 UNEP establishment",
+    "Brundtland Report Our Common Future definition",
+    "Sustainable Development Goals targets indicators list",
+    "Global Environment Facility IPBES assessment report"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Health geography and environmental epidemiology",
+   "scope": "Spatial patterns and diffusion of disease, the ecology of vector-borne diseases, environmental burden of disease, and classic disease-mapping studies.",
+   "queries": [
+    "John Snow cholera Broad Street pump map",
+    "malaria Anopheles vector distribution ecology",
+    "medical geography disease diffusion mapping",
+    "WHO environmental burden of disease estimates"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transport geography, ship canals and maritime chokepoints",
+   "scope": "Transport networks and their concepts, ship canals and locks, maritime straits and chokepoints, major ports and container throughput, and shipping lanes.",
+   "queries": [
+    "Suez Canal Panama Canal length locks",
+    "maritime chokepoint strait shipping traffic",
+    "busiest container port TEU throughput ranking",
+    "transport network hub and spoke connectivity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cultural geography, languages and religions",
+   "scope": "Cultural landscapes and hearths, types of cultural diffusion, and the world distributions of language families, religions and other cultural traits.",
+   "queries": [
+    "Carl Sauer cultural landscape Berkeley school",
+    "language family distribution number of speakers",
+    "world religions geographic distribution adherents",
+    "cultural hearth expansion relocation diffusion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Toponymy and geographic naming authorities",
+   "scope": "Origins and etymologies of place names, exonyms and endonyms, naming authorities and gazetteers (BGN, UNGEGN, GNIS), and official renamings of places.",
+   "queries": [
+    "place name etymology toponymy origin",
+    "United States Board on Geographic Names decision",
+    "UNGEGN exonym endonym standardization",
+    "city officially renamed former name year"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

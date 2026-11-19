@@ -1,0 +1,478 @@
+{
+ "domain": "Finance",
+ "subtopic": "Public Finance",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "US federal budget process and congressional budget law",
+   "scope": "The legal framework for drafting and passing the US federal budget: the Congressional Budget and Impoundment Control Act of 1974, budget resolutions, reconciliation and the Byrd rule, PAYGO, Gramm-Rudman-Hollings, the Budget Enforcement Act, Budget Control Act sequestration, and the roles of CBO and OMB.",
+   "queries": [
+    "Congressional Budget Act 1974 budget resolution reconciliation",
+    "Byrd rule reconciliation Senate extraneous provisions",
+    "Gramm-Rudman-Hollings sequestration Budget Enforcement Act 1990 PAYGO",
+    "Budget Control Act 2011 discretionary spending caps sequester"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Budget execution, appropriations lapses and impoundment",
+   "scope": "How US appropriations are apportioned and spent once enacted, and what happens when they lapse or are withheld: the Antideficiency Act, continuing resolutions, government shutdowns, OMB apportionment, rescissions and deferrals under the Impoundment Control Act, and GAO appropriations-law decisions.",
+   "queries": [
+    "Antideficiency Act violation GAO appropriations law",
+    "federal government shutdown lapse in appropriations furlough days",
+    "Impoundment Control Act rescission deferral GAO decision",
+    "continuing resolution OMB apportionment budget authority obligation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Treasury debt management and securities auctions",
+   "scope": "How the US Treasury and similar debt management offices fund government borrowing: the marketable security types (bills, notes, bonds, TIPS, FRNs, STRIPS), auction mechanics and primary dealers, savings bonds, the Bureau of the Fiscal Service, and statistics on the makeup of the debt.",
+   "queries": [
+    "Treasury auction single-price primary dealers bid-to-cover",
+    "Treasury Inflation-Protected Securities first issued 1997",
+    "floating rate notes Treasury 2014 STRIPS program",
+    "Series EE I savings bonds TreasuryDirect purchase limit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statutory debt limit and debt-ceiling standoffs",
+   "scope": "History and mechanics of the US federal debt ceiling from the Second Liberty Bond Act of 1917 onward, including extraordinary measures, X-date projections, suspensions, the Gephardt rule, and the 2011, 2013 and 2023 standoffs.",
+   "queries": [
+    "debt ceiling Second Liberty Bond Act 1917 history",
+    "Treasury extraordinary measures debt issuance suspension period",
+    "2011 debt ceiling crisis S&P downgrade AAA",
+    "Fiscal Responsibility Act 2023 debt limit suspension"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Municipal bonds and tax-exempt financing",
+   "scope": "The US state and local bond market: general obligation versus revenue bonds, the federal tax exemption and its limits (private activity bonds, arbitrage rebate, bank-qualified bonds), Build America Bonds, bond insurance, and MSRB/EMMA disclosure rules such as SEC Rule 15c2-12.",
+   "queries": [
+    "general obligation revenue bonds municipal issuer pledge",
+    "private activity bonds volume cap Tax Reform Act 1986",
+    "Build America Bonds 35 percent subsidy 2009",
+    "MSRB EMMA continuing disclosure Rule 15c2-12"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Municipal bankruptcy and subnational fiscal distress",
+   "scope": "Insolvency and fiscal crises of cities, counties, territories and states: Chapter 9 of the US Bankruptcy Code, state receivership and control boards, and cases such as New York City in 1975, Orange County in 1994, Jefferson County, Detroit, Stockton and Puerto Rico under PROMESA.",
+   "queries": [
+    "Chapter 9 municipal bankruptcy filing eligibility Detroit",
+    "PROMESA Puerto Rico oversight board Title III",
+    "New York City 1975 fiscal crisis Municipal Assistance Corporation",
+    "Orange County bankruptcy 1994 Jefferson County sewer"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tax incidence, excess burden and optimal taxation theory",
+   "scope": "The theory of who bears taxes and how to design them: statutory versus economic incidence, deadweight loss and Harberger triangles, the Ramsey inverse-elasticity rule, Mirrlees optimal income taxation, Diamond-Mirrlees production efficiency, Atkinson-Stiglitz, and the elasticity of taxable income.",
+   "queries": [
+    "tax incidence elasticity supply demand burden shifting",
+    "Ramsey rule inverse elasticity optimal commodity taxation",
+    "Mirrlees optimal income tax model 1971",
+    "Harberger corporate tax incidence deadweight loss"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US federal individual income tax history and structure",
+   "scope": "How the US personal income tax developed and how it works: the Civil War income tax, Pollock and the Sixteenth Amendment, the Revenue Acts, the Tax Reform Act of 1986, EGTRRA and the TCJA, plus bracket rates, the standard deduction, the AMT, capital gains rates and filing status.",
+   "queries": [
+    "Sixteenth Amendment ratified 1913 income tax Pollock",
+    "top marginal income tax rate history Revenue Act",
+    "Tax Reform Act 1986 brackets reduced",
+    "alternative minimum tax exemption amount history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate income and international taxation",
+   "scope": "Domestic and cross-border taxation of corporate profits: statutory corporate rates, territorial versus worldwide systems, transfer pricing, CFC rules, GILTI/FDII/BEAT, the OECD BEPS actions, the Pillar One and Pillar Two global minimum tax, and tax treaties.",
+   "queries": [
+    "Pillar Two global minimum tax 15 percent GloBE",
+    "OECD BEPS action plan 15 actions",
+    "GILTI FDII BEAT Tax Cuts and Jobs Act",
+    "transfer pricing arm's length principle double tax treaty"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Value-added tax and GST systems",
+   "scope": "How value-added and goods-and-services taxes are designed and run around the world: credit-invoice versus subtraction methods, standard and reduced rates, zero rating versus exemption, registration thresholds, the EU VAT Directive, and the introduction of GST in Canada, Australia, India and New Zealand.",
+   "queries": [
+    "EU VAT Directive 2006/112/EC standard rate minimum",
+    "India GST introduced 2017 rate slabs",
+    "Australia GST 10 percent introduced 2000",
+    "zero-rated exempt supplies input tax credit VAT"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US state and local sales and use taxes",
+   "scope": "Retail sales and use taxes levied by US states and localities: rates and tax base, exemptions for groceries and clothing, nexus doctrine from National Bellas Hess and Quill to South Dakota v. Wayfair, marketplace facilitator laws, and the Streamlined Sales and Use Tax Agreement.",
+   "queries": [
+    "South Dakota v. Wayfair economic nexus threshold",
+    "Quill Corp v. North Dakota physical presence",
+    "Streamlined Sales and Use Tax Agreement member states",
+    "marketplace facilitator law collect remit sales tax"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Property taxation, assessment and tax limitation",
+   "scope": "Local taxation of real and personal property: assessment practices and ratios, mill rates, homestead exemptions and circuit breakers, and tax and expenditure limits such as California Proposition 13, Massachusetts Proposition 2½ and Colorado TABOR.",
+   "queries": [
+    "California Proposition 13 1978 assessed value 2 percent",
+    "Proposition 2 1/2 Massachusetts levy limit override",
+    "Colorado TABOR Taxpayer's Bill of Rights refund",
+    "property tax assessment ratio mill rate homestead exemption"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Excise, Pigouvian and environmental taxes",
+   "scope": "Selective taxes on particular goods and on externalities: excises on tobacco, alcohol, motor fuel, sugar-sweetened beverages and gambling, carbon taxes and emissions pricing used to raise revenue, and the federal fuel taxes that fund the Highway Trust Fund.",
+   "queries": [
+    "federal cigarette excise tax per pack increase 2009",
+    "federal gasoline tax 18.4 cents Highway Trust Fund",
+    "sugar-sweetened beverage tax Berkeley Mexico per ounce",
+    "carbon tax British Columbia Sweden rate per tonne"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Estate, gift, inheritance and net wealth taxes",
+   "scope": "Taxes on holdings and transfers of wealth: the US estate and gift tax (unified credit, exemption amounts, portability, the generation-skipping transfer tax), state estate and inheritance taxes, and net wealth taxes in countries such as France, Spain, Norway and Switzerland.",
+   "queries": [
+    "federal estate tax exemption amount unified credit history",
+    "generation-skipping transfer tax portability exemption",
+    "France wealth tax ISF abolished 2018",
+    "state inheritance tax Pennsylvania Nebraska rates"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Payroll taxes and social insurance trust fund financing",
+   "scope": "Funding social insurance through earmarked payroll taxes: FICA and SECA rates, the Social Security taxable maximum, the OASI, DI and Medicare HI trust funds and the depletion dates in the trustees' reports, FUTA unemployment insurance, and comparable social contribution systems abroad.",
+   "queries": [
+    "Social Security trustees report trust fund depletion date",
+    "FICA tax rate 6.2 percent wage base limit",
+    "Additional Medicare Tax 0.9 percent Hospital Insurance",
+    "FUTA tax rate credit reduction state unemployment"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fiscal federalism and intergovernmental transfers",
+   "scope": "How taxing and spending powers are split across levels of government and the grants that connect them: Tiebout sorting, Oates' decentralization theorem, the flypaper effect, categorical versus block grants, Medicaid FMAP matching, general revenue sharing, and equalization programs in Canada, Australia and Germany.",
+   "queries": [
+    "Tiebout hypothesis Oates decentralization theorem",
+    "flypaper effect intergovernmental grants",
+    "Medicaid FMAP federal matching rate formula",
+    "Canada equalization payments formula provinces"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fiscal rules and balanced budget requirements",
+   "scope": "Numerical limits on deficits, debt and spending: the Maastricht criteria, the EU Stability and Growth Pact and its excessive deficit procedure, the Fiscal Compact, the German and Swiss debt brakes, structural balance targets, and US state balanced budget requirements.",
+   "queries": [
+    "Stability and Growth Pact excessive deficit procedure 3 percent",
+    "Schuldenbremse German debt brake 0.35 percent GDP",
+    "Swiss debt brake Schuldenbremse 2003 referendum",
+    "state balanced budget requirement constitutional statutory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public goods and the theory of public expenditure",
+   "scope": "Normative theory of why and how governments spend: Samuelson's public goods condition, Lindahl pricing, free riding, club goods, merit goods, Musgrave's allocation, distribution and stabilization branches, Wagner's law, and the Peacock-Wiseman displacement effect.",
+   "queries": [
+    "Samuelson condition public goods marginal rate substitution",
+    "Lindahl equilibrium tax prices public goods",
+    "Wagner's law public expenditure growth",
+    "Musgrave three branches allocation distribution stabilization"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public choice and political economy of fiscal decisions",
+   "scope": "Positive analysis of how voters, politicians and bureaucrats make fiscal decisions: the median voter theorem, Buchanan and Tullock's Calculus of Consent, Niskanen's budget-maximizing bureaucrat, rent seeking, logrolling, political budget cycles, and the Leviathan hypothesis.",
+   "queries": [
+    "Buchanan Tullock Calculus of Consent 1962",
+    "Niskanen budget-maximizing bureaucrat model",
+    "median voter theorem public spending Downs",
+    "political budget cycle elections fiscal policy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cost-benefit analysis and social discount rates",
+   "scope": "Appraisal of public projects and regulations: OMB Circular A-4 and A-94 discount rates, the UK Green Book, shadow pricing, the value of a statistical life used by agencies, the social cost of carbon, and the origins of US benefit-cost analysis in the Flood Control Act.",
+   "queries": [
+    "OMB Circular A-4 discount rate 2 percent",
+    "HM Treasury Green Book social time preference rate",
+    "value of statistical life DOT EPA guidance",
+    "social cost of carbon interagency working group estimate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Governmental accounting and financial reporting standards",
+   "scope": "Accounting and reporting rules for government entities: GASB statements such as the Statement 34 reporting model, fund accounting and the modified accrual basis, ACFR requirements, FASAB standards and the Financial Report of the US Government, and IPSAS for public sectors abroad.",
+   "queries": [
+    "GASB Statement 34 government-wide financial statements",
+    "modified accrual basis governmental funds fund balance",
+    "IPSAS International Public Sector Accounting Standards Board",
+    "FASAB Financial Report of the United States Government"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public employee pension funding",
+   "scope": "Funding and governance of state and local government pension systems: funded ratios, actuarially determined contributions, assumed discount rates, the GASB 67/68 net pension liability, pension obligation bonds, COLA reforms, and large plans such as CalPERS, CalSTRS and Illinois TRS.",
+   "queries": [
+    "state pension funded ratio unfunded liability Illinois",
+    "CalPERS discount rate assumed return lowered",
+    "GASB Statement 67 68 net pension liability",
+    "pension obligation bonds issued city"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sovereign default, debt restructuring and credit ratings",
+   "scope": "Episodes and mechanics of sovereign debt distress: historical defaults, the Brady Plan, the Paris Club and the Common Framework, collective action clauses, the 2012 Greek PSI, Argentina's 2001 default and the holdout litigation, HIPC/MDRI debt relief, and sovereign rating actions.",
+   "queries": [
+    "Brady Plan bonds 1989 debt restructuring",
+    "Greece private sector involvement 2012 haircut",
+    "Argentina 2001 default holdout NML Capital pari passu",
+    "HIPC Initiative completion point debt relief"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tax administration, enforcement and the tax gap",
+   "scope": "How revenue authorities collect taxes and enforce compliance: the IRS's organization and history, withholding and information reporting, audit rates, tax gap estimates, penalties, taxpayer rights, FATCA, and tax amnesties and voluntary disclosure programs.",
+   "queries": [
+    "IRS tax gap estimate net compliance rate",
+    "IRS audit rate individual returns examination",
+    "Current Tax Payment Act 1943 withholding",
+    "FATCA foreign financial institution reporting Form 8938"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tax expenditures and refundable credits",
+   "scope": "Spending delivered through the tax code: the tax expenditure concept and the JCT and Treasury estimates, the Earned Income Tax Credit, the Child Tax Credit, the Low-Income Housing Tax Credit, the mortgage interest and SALT deductions, and the exclusion for employer health insurance.",
+   "queries": [
+    "Earned Income Tax Credit enacted 1975 phase-in",
+    "Child Tax Credit American Rescue Plan 3,600",
+    "Joint Committee on Taxation tax expenditure estimates",
+    "Low-Income Housing Tax Credit allocation qualified census tract"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Fiscal stabilization policy and stimulus",
+   "scope": "Using taxes and spending to stabilize the economy: fiscal multipliers, automatic stabilizers, Ricardian equivalence, crowding out, functional finance, and stimulus laws such as ARRA 2009, the CARES Act and the American Rescue Plan.",
+   "queries": [
+    "fiscal multiplier estimates government spending recession",
+    "American Recovery and Reinvestment Act 2009 787 billion",
+    "CARES Act 2020 economic impact payments",
+    "Ricardian equivalence Barro government debt"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of taxation and public finance before 1900",
+   "scope": "Pre-modern and early modern fiscal systems: Roman and medieval taxes, tax farming, England's financial revolution and the Bank of England, consolidated annuities, Pitt's 1799 income tax, the window and hearth taxes, Hamilton's assumption plan, and early US tariffs and excises.",
+   "queries": [
+    "hearth tax window tax England repealed",
+    "Pitt income tax 1799 Napoleonic Wars",
+    "Hamilton assumption plan state debts 1790",
+    "tax farming ferme générale ancien régime"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Infrastructure finance and public-private partnerships",
+   "scope": "Funding and delivering public infrastructure through PPP and PFI models: availability payments, toll road concessions, design-build-finance-operate contracts, state infrastructure banks, TIFIA loans, and value-for-money assessment.",
+   "queries": [
+    "Private Finance Initiative PFI contracts UK abolished 2018",
+    "availability payment public-private partnership highway",
+    "TIFIA loan transportation infrastructure credit",
+    "Chicago Skyway Indiana Toll Road concession lease"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Tax increment financing and local development incentives",
+   "scope": "State and local tools for subsidizing economic development: tax increment financing districts, tax abatements and PILOTs, enterprise and empowerment zones, Opportunity Zones, large incentive packages for single companies, and GASB 77 abatement disclosures.",
+   "queries": [
+    "tax increment financing district increment base value",
+    "Opportunity Zones qualified opportunity fund deferral",
+    "California redevelopment agencies dissolved 2012",
+    "payment in lieu of taxes PILOT agreement abatement"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Sovereign wealth funds and natural resource revenue management",
+   "scope": "Managing public wealth and resource revenues: sovereign wealth funds (Norway's GPFG, ADIA, GIC, the Alaska Permanent Fund) and the spending rules tied to them, the Santiago Principles, petroleum royalty and resource rent tax regimes, and US state severance taxes.",
+   "queries": [
+    "Norway Government Pension Fund Global fiscal rule 3 percent",
+    "Alaska Permanent Fund dividend amount",
+    "Santiago Principles International Forum Sovereign Wealth Funds",
+    "severance tax oil gas production rate state"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "EU budget and own resources",
+   "scope": "How the European Union budget is funded and spent: the Multiannual Financial Framework, own resources (traditional, VAT-based, GNI-based, the plastic levy), the UK rebate, NextGenerationEU and the Recovery and Resilience Facility, and the budget procedure under the TFEU.",
+   "queries": [
+    "Multiannual Financial Framework 2021-2027 commitments",
+    "EU own resources decision GNI-based contribution",
+    "NextGenerationEU Recovery and Resilience Facility grants loans",
+    "UK rebate Fontainebleau 1984 EU budget"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "UK public finance institutions and the Budget",
+   "scope": "The machinery of UK fiscal policy: HM Treasury, the Office for Budget Responsibility, the Budget and Spending Review cycle, the Charter for Budget Responsibility and its fiscal mandates, the PSNB and PSND measures, the Consolidated Fund, and the Barnett formula and devolved finance.",
+   "queries": [
+    "Office for Budget Responsibility established 2010 forecast",
+    "Barnett formula devolved administrations block grant",
+    "Charter for Budget Responsibility fiscal mandate",
+    "Spending Review departmental expenditure limits AME"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Public budgeting systems and reforms",
+   "scope": "Methods for preparing and managing public budgets: line-item and performance budgeting, PPBS, zero-based budgeting, Wildavsky's incrementalism, outcome- or results-based budgeting, GPRA, medium-term expenditure frameworks, gender budgeting, and participatory budgeting.",
+   "queries": [
+    "planning programming budgeting system PPBS McNamara",
+    "zero-based budgeting Carter Georgia",
+    "participatory budgeting Porto Alegre 1989",
+    "Government Performance and Results Act 1993 performance budgeting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

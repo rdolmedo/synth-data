@@ -1,0 +1,325 @@
+{
+ "subtopics": [
+  {
+   "name": "Inflation and primordial perturbations",
+   "scope": "Dynamics of the inflationary epoch and the statistics of the scalar and tensor perturbations it seeds, including reheating and primordial non-Gaussianity.",
+   "keywords": [
+    "slow-roll inflation",
+    "inflaton potential",
+    "curvature perturbation",
+    "tensor-to-scalar ratio",
+    "spectral index",
+    "primordial non-Gaussianity",
+    "reheating",
+    "primordial gravitational waves",
+    "primordial black holes"
+   ]
+  },
+  {
+   "name": "CMB anisotropies and spectral distortions",
+   "scope": "Temperature and polarization anisotropies of the cosmic microwave background and departures of its spectrum from a blackbody, from recombination through secondary effects.",
+   "keywords": [
+    "cosmic microwave background",
+    "recombination",
+    "Sachs-Wolfe effect",
+    "Silk damping",
+    "acoustic peaks",
+    "CMB polarization",
+    "Sunyaev-Zeldovich effect",
+    "mu distortion",
+    "Compton y-parameter",
+    "Thomson scattering"
+   ]
+  },
+  {
+   "name": "Thermal history and cosmological relics",
+   "scope": "Equilibrium and its breakdown in the hot early universe: neutrino decoupling, Big Bang nucleosynthesis, and the freeze-out or freeze-in of relic particles.",
+   "keywords": [
+    "Big Bang nucleosynthesis",
+    "primordial abundances",
+    "neutrino decoupling",
+    "effective number of neutrino species",
+    "thermal relic",
+    "freeze-out",
+    "freeze-in",
+    "relic density",
+    "entropy injection",
+    "dark radiation"
+   ]
+  },
+  {
+   "name": "Large-scale structure and halo formation",
+   "scope": "Growth of matter density fluctuations from the linear to the nonlinear regime, and the abundance, clustering and internal structure of dark matter halos.",
+   "keywords": [
+    "matter power spectrum",
+    "cosmological perturbation theory",
+    "bispectrum",
+    "spherical collapse",
+    "halo mass function",
+    "halo bias",
+    "redshift-space distortions",
+    "baryon acoustic oscillations",
+    "Zel'dovich approximation",
+    "halo density profile"
+   ]
+  },
+  {
+   "name": "Intergalactic medium and cosmic reionization",
+   "scope": "The thermal and ionization state of diffuse gas between galaxies, the absorption and emission signatures it leaves, and the reionization of hydrogen and helium.",
+   "keywords": [
+    "intergalactic medium",
+    "reionization",
+    "Lyman-alpha forest",
+    "Gunn-Peterson trough",
+    "21-cm signal",
+    "ionized bubbles",
+    "photoionization heating",
+    "Stromgren sphere",
+    "temperature-density relation",
+    "helium reionization"
+   ]
+  },
+  {
+   "name": "Gravitational lensing across mass scales",
+   "scope": "Deflection of light by stars, galaxies, clusters and the cosmic web, including image configurations, magnification, time delays and cosmic shear statistics.",
+   "keywords": [
+    "gravitational lensing",
+    "lens equation",
+    "Einstein radius",
+    "caustics",
+    "microlensing",
+    "time delay",
+    "magnification",
+    "weak lensing",
+    "cosmic shear",
+    "convergence power spectrum"
+   ]
+  },
+  {
+   "name": "Black hole perturbations and quasinormal modes",
+   "scope": "Linear response of black hole spacetimes to test fields and metric perturbations, including ringdown spectra, tidal response, superradiance and absorption.",
+   "keywords": [
+    "quasinormal modes",
+    "ringdown",
+    "Regge-Wheeler equation",
+    "Teukolsky equation",
+    "Kerr black hole",
+    "tidal Love numbers",
+    "superradiance",
+    "greybody factors",
+    "black hole spectroscopy",
+    "linear stability"
+   ]
+  },
+  {
+   "name": "Compact binary dynamics and gravitational waves",
+   "scope": "Conservative and dissipative dynamics of inspiraling black hole and neutron star binaries, and the gravitational waveforms and fluxes they emit.",
+   "keywords": [
+    "post-Newtonian",
+    "inspiral",
+    "radiation reaction",
+    "gravitational waveform",
+    "effective-one-body",
+    "gravitational self-force",
+    "extreme mass ratio inspiral",
+    "eccentric binaries",
+    "energy flux",
+    "gravitational wave memory"
+   ]
+  },
+  {
+   "name": "Modified and alternative theories of gravity",
+   "scope": "Extensions of general relativity such as scalar-tensor, f(R), Horndeski and massive gravity, their black hole and cosmological solutions, and their observational constraints.",
+   "keywords": [
+    "modified gravity",
+    "scalar-tensor theory",
+    "f(R) gravity",
+    "Horndeski theory",
+    "screening mechanism",
+    "parametrized post-Newtonian",
+    "spontaneous scalarization",
+    "hairy black holes",
+    "massive gravity",
+    "dark energy"
+   ]
+  },
+  {
+   "name": "Neutron stars and dense matter",
+   "scope": "Structure, oscillations, magnetospheres and thermal and rotational evolution of neutron stars and pulsars as probes of matter above nuclear density.",
+   "keywords": [
+    "neutron star",
+    "equation of state",
+    "Tolman-Oppenheimer-Volkoff",
+    "maximum mass",
+    "tidal deformability",
+    "r-modes",
+    "pulsar magnetosphere",
+    "magnetar",
+    "pulsar glitches",
+    "neutron star cooling"
+   ]
+  },
+  {
+   "name": "Accretion flows onto compact objects",
+   "scope": "Hydrodynamics and MHD of gas accreting onto black holes, neutron stars and white dwarfs, from spherical Bondi flow to thin and advection-dominated disks and their winds.",
+   "keywords": [
+    "accretion disk",
+    "Bondi accretion",
+    "thin disk",
+    "advection-dominated accretion",
+    "alpha viscosity",
+    "magnetorotational instability",
+    "Eddington limit",
+    "tidal disruption event",
+    "disk winds",
+    "innermost stable circular orbit"
+   ]
+  },
+  {
+   "name": "Relativistic outflows and particle acceleration",
+   "scope": "Jets, gamma-ray bursts, pulsar winds and other relativistic flows, the shocks and reconnection that accelerate particles in them, and the resulting non-thermal emission and cosmic rays.",
+   "keywords": [
+    "relativistic jets",
+    "gamma-ray burst afterglow",
+    "blast wave",
+    "diffusive shock acceleration",
+    "magnetic reconnection",
+    "synchrotron emission",
+    "inverse Compton",
+    "cosmic-ray transport",
+    "pulsar wind nebula",
+    "Blandford-Znajek"
+   ]
+  },
+  {
+   "name": "Stellar interiors, oscillations and tides",
+   "scope": "Hydrostatic structure and evolution of stars, including convection and rotation, the global oscillation modes probed by asteroseismology, and tidal interaction in close binaries.",
+   "keywords": [
+    "stellar structure",
+    "polytrope",
+    "asteroseismology",
+    "p-modes",
+    "g-modes",
+    "convective overshoot",
+    "rotational mixing",
+    "tidal dissipation",
+    "white dwarfs",
+    "stellar evolution"
+   ]
+  },
+  {
+   "name": "Solar and stellar magnetohydrodynamics",
+   "scope": "Generation, transport and dissipation of magnetic fields in the Sun and other stars, including dynamos, flux tubes, coronal heating, MHD waves and magnetized winds.",
+   "keywords": [
+    "solar dynamo",
+    "mean-field dynamo",
+    "magnetic flux tube",
+    "coronal heating",
+    "MHD waves",
+    "coronal loops",
+    "solar wind",
+    "Parker spiral",
+    "magnetic braking",
+    "solar flares"
+   ]
+  },
+  {
+   "name": "Galactic dynamics and stellar systems",
+   "scope": "Gravitational dynamics of galaxies and star clusters, including equilibrium distribution functions, orbits, disk instabilities, dynamical friction and collisional relaxation.",
+   "keywords": [
+    "galactic dynamics",
+    "distribution function",
+    "collisionless Boltzmann equation",
+    "Toomre stability",
+    "spiral density waves",
+    "dynamical friction",
+    "two-body relaxation",
+    "globular clusters",
+    "bar resonances",
+    "Jeans equations"
+   ]
+  },
+  {
+   "name": "Star formation and interstellar medium",
+   "scope": "Physics of the multiphase interstellar gas and its gravitational collapse into stars, including turbulence, thermal instability, magnetic support and protostellar collapse.",
+   "keywords": [
+    "interstellar medium",
+    "molecular clouds",
+    "Jeans instability",
+    "supersonic turbulence",
+    "thermal instability",
+    "ambipolar diffusion",
+    "initial mass function",
+    "protostellar collapse",
+    "star formation rate",
+    "dust grains"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Gauge-invariant cosmological perturbation theory",
+   "scope": "Linearizing the Einstein, fluid and Boltzmann equations about an FRW background in gauge-invariant variables to get growth rates, transfer functions and conserved quantities on super- and sub-horizon scales."
+  },
+  {
+   "name": "Mode functions, Bogoliubov coefficients, in-in correlators",
+   "scope": "Quantizing fields on expanding or black hole backgrounds, solving their mode equations, and computing particle production, power spectra or higher-point correlators with Bogoliubov transformations and the in-in formalism."
+  },
+  {
+   "name": "Boltzmann and Fokker-Planck kinetic equations",
+   "scope": "Solving rate equations, moment hierarchies or diffusion equations for phase-space distributions to get freeze-out abundances, Kompaneets spectral evolution or momentum-space diffusion."
+  },
+  {
+   "name": "Post-Newtonian and multipolar expansions",
+   "scope": "Expanding systematically in v/c and in multipole moments to compute the conservative dynamics, radiated fluxes and far-zone fields of gravitating systems."
+  },
+  {
+   "name": "Geodesic and effective-potential orbit analysis",
+   "scope": "Reducing motion in symmetric spacetimes or potentials to effective potentials through conserved quantities, giving circular-orbit radii, epicyclic frequencies, precession rates, deflection angles and capture cross sections."
+  },
+  {
+   "name": "WKB, eikonal and geometric-optics approximations",
+   "scope": "Short-wavelength asymptotics of wave equations to get mode spectra, transmission and tunnelling factors, eikonal quasinormal frequencies and light propagation."
+  },
+  {
+   "name": "Sturm-Liouville eigenmode problems and shooting",
+   "scope": "Casting oscillation or perturbation equations with physical boundary conditions as eigenvalue problems, solved analytically in limits or by shooting, continued fractions or spectral methods."
+  },
+  {
+   "name": "Matched asymptotic and multiple-scale expansions",
+   "scope": "Joining inner and outer solutions across widely separated scales, or separating fast and slow time scales, to get leading corrections, boundary layers and secular evolution."
+  },
+  {
+   "name": "Self-similar solutions and shock jump conditions",
+   "scope": "Reducing PDEs to ODEs through scaling symmetry (blast waves, collapse, winds) and joining regions with Newtonian or relativistic Rankine-Hugoniot conditions."
+  },
+  {
+   "name": "Linear stability and dispersion-relation analysis",
+   "scope": "Perturbing an equilibrium with plane-wave or normal-mode ansatzes to derive dispersion relations, growth rates and critical thresholds such as the Jeans, Toomre, magnetorotational and thermal instabilities."
+  },
+  {
+   "name": "Hydrostatic equilibrium and polytropic models",
+   "scope": "Solving the Lane-Emden, TOV or isothermal-sphere equations, together with virial and scaling arguments, to get mass-radius relations, maximum masses and structural constants."
+  },
+  {
+   "name": "Hamiltonian, action-angle and secular perturbation theory",
+   "scope": "Using canonical transformations, orbit averaging and resonance analysis to compute precession rates, secular oscillations such as von Zeipel-Lidov-Kozai cycles, resonance widths and diffusion coefficients."
+  },
+  {
+   "name": "Gaussian random field and excursion-set statistics",
+   "scope": "Computing power spectra, correlation functions, variances, and peak or threshold statistics of Gaussian or weakly non-Gaussian fields with Wick's theorem, window functions and barrier-crossing arguments."
+  },
+  {
+   "name": "Radiative processes and radiative transfer",
+   "scope": "Deriving emissivities, absorption coefficients, spectra and optical depths for synchrotron, Compton, bremsstrahlung and line processes, and solving the transfer equation in simple geometries."
+  }
+ ],
+ "field": "astrophysics and cosmology",
+ "categories": [
+  "astro-ph.CO",
+  "astro-ph.HE",
+  "astro-ph.SR",
+  "astro-ph.GA",
+  "gr-qc"
+ ]
+}

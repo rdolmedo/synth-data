@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Geography",
+ "target_leaves": 8,
+ "expected_problems": 20,
+ "leaves": [
+  {
+   "leaf": "Map projection distortion via Tissot indicatrix",
+   "scope": "Problems give the forward equations of a standard or custom projection and ask for scale factors, angular or areal deformation, or the latitudes where a property holds. They are hard because they need differential geometry of the sphere or ellipsoid and careful handling of meridian and parallel scale.",
+   "techniques": [
+    "Computing meridian scale h and parallel scale k from partial derivatives of x(\u03c6,\u03bb), y(\u03c6,\u03bb)",
+    "Maximum angular deformation \u03c9 = 2\u00b7arcsin((a\u2212b)/(a+b)) from the indicatrix semi-axes",
+    "Testing for conformal or equal-area behaviour using the Jacobian determinant and Cauchy\u2013Riemann-type conditions",
+    "Cone constant and standard parallels of secant conic projections",
+    "Isometric latitude for Mercator, and why rhumb lines map to straight lines",
+    "Substituting authalic or conformal latitude for the ellipsoid"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "latitude in degrees to stated precision",
+    "real number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Geodesic and loxodrome navigation computations",
+   "scope": "Problems ask for distances, initial and final azimuths, vertex latitudes, intersections of routes, or areas of spherical polygons between given places. They are hard because of spherical-trigonometry quadrant ambiguities, near-antipodal cases, and the differences between great-circle and rhumb-line routes.",
+   "techniques": [
+    "Haversine formula and spherical law of cosines for central angles",
+    "Clairaut's relation to find the vertex (highest latitude) of a geodesic",
+    "Rhumb-line length and bearing from the difference in isometric latitude",
+    "Intersecting two great circles using cross products of normal vectors",
+    "Spherical excess (Girard's theorem) for the area of a geodesic polygon",
+    "Locus of points equidistant from given sites on the sphere"
+   ],
+   "answer_forms": [
+    "distance in km rounded to integer",
+    "angle in degrees",
+    "ordered pair (latitude, longitude)",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Solar geometry, day length and insolation",
+   "scope": "Problems ask for sunrise and sunset times, day length, twilight duration, noon altitude, shadow geometry, or daily top-of-atmosphere insolation at a given latitude and date. They are hard because refraction, equation-of-time, eccentricity and polar-day edge cases must be combined correctly.",
+   "techniques": [
+    "Sunrise hour angle cos h\u2080 = (sin(\u22120.833\u00b0) \u2212 sin \u03c6 sin \u03b4)/(cos \u03c6 cos \u03b4)",
+    "Equation of time and the analemma, to convert between local mean, apparent and zone time",
+    "Daily insolation integral Q = (S\u2080/\u03c0)(d\u0304/d)\u00b2(h\u2080 sin \u03c6 sin \u03b4 + cos \u03c6 cos \u03b4 sin h\u2080)",
+    "Civil, nautical and astronomical twilight durations from depression angles",
+    "Latitude thresholds for polar day and polar night, including refraction",
+    "Shadow length and azimuth from solar altitude and hour angle"
+   ],
+   "answer_forms": [
+    "time in hh:mm",
+    "integer number of days",
+    "latitude in degrees",
+    "real number in W/m\u00b2 or MJ/m\u00b2"
+   ]
+  },
+  {
+   "leaf": "Drainage network topology and DEM flow routing",
+   "scope": "Given a stream network or a small gridded elevation model, problems ask for stream orders, magnitudes, flow accumulation, basin outlets, or Horton ratios. They are hard because tie-breaking rules, pits and flats, and the combinatorics of topologically distinct networks all change the answer.",
+   "techniques": [
+    "Strahler versus Shreve stream ordering",
+    "Horton's laws: bifurcation, length and area ratios",
+    "D8 versus D-infinity flow direction, with \u221a2 weighting for diagonal steps",
+    "Priority-flood pit filling and routing across flats",
+    "Counting topologically distinct channel networks of given magnitude (Catalan-type enumeration)",
+    "Drainage density, Melton ruggedness and hypsometric integral"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of grid cells",
+    "rational number",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Central place hierarchies and hexagonal lattices",
+   "scope": "Problems derive numbers of centres, market-area sizes, nesting factors, spacings, or lattice orientations in Christaller or L\u00f6sch systems for given K values and hierarchy levels. They are hard because they need the geometry of hexagonal tessellations and the number theory of admissible L\u00f6schian networks.",
+   "techniques": [
+    "Admissible L\u00f6sch K values as Eisenstein norms K = a\u00b2 + ab + b\u00b2",
+    "Market area scaling as K\u207f, and spacing ratio \u221aK between successive levels",
+    "Rotation angle of nested hexagonal lattices for non-standard K",
+    "Counting centres of each order inside a bounded region",
+    "Threshold and range conditions for complete coverage of service",
+    "Coincidence of centres when L\u00f6schian networks are superimposed"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "angle in degrees",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Spatial autocorrelation statistics on small lattices",
+   "scope": "Problems ask for exact values, expectations or variances of Moran's I, Geary's C or join-count statistics on small specified maps under a stated contiguity rule. They are hard because the results depend heavily on the choice of weights and on the moments used (normality, randomization, free or non-free sampling).",
+   "techniques": [
+    "Rook versus queen contiguity matrices, with and without row standardization",
+    "E[I] = \u22121/(n\u22121) and variance formulas using S\u2080, S\u2081, S\u2082",
+    "BB, BW and WW join counts under free and non-free sampling",
+    "Classifying local Moran (LISA) quadrants",
+    "Bounding the range of Moran's I with extreme eigenvalues of the weight matrix",
+    "Configurations that maximize or minimize I on a grid"
+   ],
+   "answer_forms": [
+    "rational number",
+    "real number to stated precision",
+    "integer",
+    "small set describing a configuration"
+   ]
+  },
+  {
+   "leaf": "Districting combinatorics and partisan-fairness metrics",
+   "scope": "On small grid or graph geographies with given voter distributions, problems ask for the number of valid contiguous, equal-population districting plans, or for the plan that optimizes seats, efficiency gap or compactness. They are hard because they need exhaustive enumeration of connected partitions under constraints and precise metric definitions.",
+   "techniques": [
+    "Enumerating connected k-partitions and polyomino tilings of grids",
+    "Wasted-vote accounting for the efficiency gap",
+    "Polsby\u2013Popper and Reock compactness for lattice-shaped districts",
+    "Extremal packing and cracking arguments for seat bounds",
+    "Mean\u2013median difference and the symmetry of seats\u2013votes curves",
+    "Matrix-tree theorem for spanning-tree counts used in ReCom weighting"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "ordered pair (seats for each party)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Classical location theory and bid-rent equilibria",
+   "scope": "Problems solve for optimal facility or firm locations, land-use ring boundaries, or market-area limits from given transport costs, yields, prices and weights (Weber, von Th\u00fcnen, Alonso, Hotelling, p-median). They are hard because optima often sit at corner or vertex solutions and rent envelopes are piecewise-linear.",
+   "techniques": [
+    "Weighted Fermat\u2013Torricelli point of the Weber triangle, and the corner solution when one weight is at least the sum of the others",
+    "Von Th\u00fcnen locational rent R = Y(p \u2212 c) \u2212 Yfd and where crop rings cross over",
+    "Alonso bid-rent curves and the equilibrium urban edge",
+    "Hakimi's vertex-optimality theorem for p-median problems on networks",
+    "Reilly breaking points and Huff probabilistic market shares",
+    "Hotelling linear-city location and price equilibria"
+   ],
+   "answer_forms": [
+    "real number distance",
+    "closed-form expression",
+    "name of a network vertex",
+    "ordered tuple"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Immunology",
+ "target_leaves": 8,
+ "expected_problems": 55,
+ "leaves": [
+  {
+   "leaf": "Agnathan variable lymphocyte receptor systems",
+   "scope": "Holds documented specifics of the lamprey/hagfish alternative adaptive system: VLRA, VLRB and VLRC lineages, leucine-rich-repeat module assembly by copy-choice gene conversion, the CDA1/CDA2 cytidine deaminases restricted to distinct lymphocyte lineages, VLRB secretion as multivalent plasma protein, and the thymoid at the gill filament tips. A question can give an assembly or expression description and require inferring which receptor lineage or anatomical site is implicated, or comparing module counts and effector form with gnathostome immunoglobulin counterparts.",
+   "queries": [
+    "variable lymphocyte receptor lamprey",
+    "VLRB hagfish multimer",
+    "CDA1 cytidine deaminase lamprey",
+    "leucine-rich repeat gene conversion agnathan",
+    "lamprey thymoid gill filament"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Pre-1929 immunochemical terminology and units",
+   "scope": "Early-20th-century serology texts fix now-obsolete vocabulary and quantitation: amboceptor and 'complement' nomenclature in hemolytic systems, the Ehrlich side-chain/receptor classification of toxins and antitoxins, antitoxin immunizing units, Wright's opsonic index, Bordet\u2013Gengou phenomena, and the Arrhenius law-of-mass-action treatment of toxin\u2013antitoxin neutralization. A question can require translating an archaic unit, titre convention or term into the modern pathway component it names, or computing a ratio from a historically defined index.",
+   "queries": [
+    "amboceptor complement fixation",
+    "Ehrlich side-chain receptor toxin",
+    "opsonic index Wright",
+    "antitoxin immunizing unit standard",
+    "Bordet haemolysin sensitiser"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Complement regulator and lectin-pathway deficiencies",
+   "scope": "Obscure genotype-to-phenotype detail for the regulatory and recognition arms: properdin deficiency and recurrent meningococcal disease, factor H versus CFHR gene rearrangements in dense deposit disease and atypical HUS, CD46/CD55 defects, C1-inhibitor consumption patterns distinguishing hereditary angioedema types, MASP-1/3 and collectin-11 in 3MC syndrome, ficolin-3 deficiency. A question can supply assay values (CH50, AH50, C4, C1q, specific factor levels) and require deducing the single deficient component or which pathway arm is intact.",
+   "queries": [
+    "properdin deficiency meningococcal",
+    "CFHR5 nephropathy complement",
+    "C1 inhibitor functional assay angioedema",
+    "collectin-11 MASP3 3MC",
+    "ficolin-3 deficiency"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "HLA allele nomenclature and ligand epitopes",
+   "scope": "Encodes the formal naming grammar (field separation by colons, the N/L/S/C/A/Q expression suffixes, G and P group designations) plus allele-level immunological facts such as supertype peptide anchor preferences, the Bw4/Bw6 and C1/C2 KIR ligand epitopes defined by specific residue positions, and trans-encoded class II heterodimer formation. A question can present an allele string or a residue at a stated position and require inferring expression status, KIR ligand assignment, or which heterodimer a heterozygous genotype can assemble.",
+   "queries": [
+    "HLA allele nomenclature expression suffix",
+    "Bw4 epitope KIR3DL1 ligand",
+    "HLA-C C1 C2 dimorphism position 80",
+    "DQ2.5 trans heterodimer",
+    "HLA peptide binding anchor motif"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Inborn errors of immunity diagnostic signatures",
+   "scope": "Holds the fine detail of the IUIS phenotypic classification and the laboratory signatures that separate look-alike disorders: hypomorphic RAG alleles producing Omenn syndrome versus null alleles, DHR/NBT burst patterns distinguishing X-linked carriers from autosomal CGD, NEMO hypomorphic variants with ectodermal dysplasia, gain- versus loss-of-function STAT1 and STAT3 phenotypes, and lymphocyte subset profiles in specific gene defects. A question can give a subset panel plus one functional assay and require naming the affected gene or inheritance pattern.",
+   "queries": [
+    "IUIS inborn errors classification table",
+    "hypomorphic RAG1 Omenn syndrome",
+    "dihydrorhodamine oxidative burst carrier",
+    "NEMO hypomorphic immunodeficiency",
+    "STAT1 gain-of-function candidiasis"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Insect antimicrobial peptide repertoires and pathway specificity",
+   "scope": "Documents the named effector gene families of Drosophila and other insects (Diptericin, Drosocin, Metchnikowin, Attacins, Bomanins, Daisho, Drosomycin) with their class-restricted activity, the upstream recognition proteins (PGRP-SA, GNBP1/GNBP3, PGRP-LC/LE) routing signals to Toll versus Imd, Sp\u00e4tzle processing, and the prophenoloxidase melanization cascade. A question can describe a mutant combination or an induction profile and require deducing which recognition protein, NF-\u03baB homologue, or effector gene is missing.",
+   "queries": [
+    "Imd pathway Relish Diptericin",
+    "PGRP-SA GNBP1 Gram-positive",
+    "Bomanin Toll effector Drosophila",
+    "prophenoloxidase melanization cascade insect",
+    "Spatzle processing enzyme Toll"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Allergen nomenclature and cross-reactive protein families",
+   "scope": "Covers the WHO/IUIS systematic naming rules (genus/species abbreviation, sequential allergen number, four-digit isoallergen and variant coding) together with the structural family memberships that drive clinical cross-reactivity: PR-10 Bet v 1 homologues, non-specific lipid transfer proteins, profilins, tropomyosins, serum albumins, and the non-protein alpha-Gal epitope. A question can give a designation or a stated fold/family and require predicting the cross-reacting source or distinguishing genuine co-sensitization from shared-family reactivity.",
+   "queries": [
+    "WHO IUIS allergen nomenclature rules",
+    "isoallergen variant numbering allergen",
+    "nsLTP Pru p 3 cross-reactivity",
+    "PR-10 Bet v 1 homologue",
+    "galactose-alpha-1,3-galactose IgE"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Therapeutic antibody naming and Fc engineering details",
+   "scope": "Holds the INN stem system for antibodies (source infixes, the -mab stem and the revised post-2017 -tug/-bart/-mig/-ment scheme) alongside documented constant-region facts: IgG1 and IgG3 allotypes, the effector-silencing and half-life-extending substitution sets, afucosylation and Fc receptor affinity, IgG4 Fab-arm exchange and hinge stabilization, and format-specific valency. A question can give a name or a listed set of heavy-chain substitutions and require inferring the engineered property, isotype, or expected receptor-binding change.",
+   "queries": [
+    "monoclonal antibody INN stem revised",
+    "IgG1 allotype G1m polymorphism",
+    "Fc half-life extension substitutions",
+    "afucosylated antibody FcgammaRIIIa",
+    "IgG4 Fab-arm exchange hinge"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,397 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Medicine",
+ "target_leaves": 22,
+ "expected_problems": 174,
+ "leaves": [
+  {
+   "leaf": "Mixed acid-base disorder decomposition",
+   "scope": "Given arterial gases, serum and urine chemistries, albumin and lactate, identify every coexisting primary acid-base disorder or quantify a hidden one. This is hard because compensation, low albumin and unmeasured anions can hide each other or look like other disorders.",
+   "techniques": [
+    "Expected compensation ranges (Winter's formula; acute vs chronic respiratory rules)",
+    "Albumin-corrected anion gap and delta-delta ratio",
+    "Stewart strong ion difference and strong ion gap",
+    "Osmolal gap with ethanol correction for toxic alcohols",
+    "Urine anion and osmolal gaps to separate renal tubular acidosis from GI bicarbonate loss",
+    "Henderson-Hasselbalch internal consistency check of the reported values"
+   ],
+   "answer_forms": [
+    "integer count of primary disorders",
+    "small set of disorders",
+    "rational number in mEq/L",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Dysnatremia correction and tonicity balance",
+   "scope": "Predict how serum sodium changes with infusions, losses and urine output, or design a correction that stays within osmotic demyelination limits. This is hard because electrolyte-free water clearance, potassium shifts, desmopressin effects and hyperglycemia all interact.",
+   "techniques": [
+    "Edelman relation of serum Na to (Na_e + K_e)/total body water",
+    "Adrogue-Madias infusate formula and its failure modes",
+    "Electrolyte-free water clearance from urine Na + K",
+    "Hyperglycemia sodium correction (Katz vs Hillier factors)",
+    "Total body water fractions by age and sex",
+    "Tonicity balance over mixed inputs and outputs"
+   ],
+   "answer_forms": [
+    "rational number in mmol/L",
+    "volume in mL",
+    "infusion rate in mL/h",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nonlinear and multicompartment pharmacokinetic dosing",
+   "scope": "Work out loading and maintenance doses, troughs or time to target for drugs with saturable elimination, two-compartment kinetics or changing clearance. This is hard because steady-state shortcuts fail and multiple doses must be superposed exactly.",
+   "techniques": [
+    "Michaelis-Menten Vmax and Km from two steady-state dose-concentration pairs",
+    "Free-fraction correction for hypoalbuminemia and uremia",
+    "Superposition of intermittent infusions with accumulation factor",
+    "Sawchuk-Zaske individualization from two post-dose levels",
+    "Two-compartment alpha/beta phase separation",
+    "Extracorporeal clearance (dialysis, CRRT) added to native clearance"
+   ],
+   "answer_forms": [
+    "dose in mg",
+    "concentration in mg/L",
+    "time in hours",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Gas exchange and oxygen delivery quantification",
+   "scope": "Compute A-a gradients, shunt fraction, dead space, oxygen content and delivery at altitude, with anemia, carbon monoxide or abnormal hemoglobin. This is hard because the dissociation curve is nonlinear and several defects often coexist.",
+   "techniques": [
+    "Alveolar gas equation with respiratory quotient and barometric pressure at altitude",
+    "Berggren shunt equation using end-capillary oxygen content",
+    "Bohr-Enghoff dead space fraction",
+    "Hill equation with P50 shifts (Bohr effect, 2,3-DPG, carboxyhemoglobin)",
+    "Fick-derived mixed venous saturation",
+    "Oxygen delivery and extraction ratio comparisons"
+   ],
+   "answer_forms": [
+    "percentage",
+    "partial pressure in mmHg",
+    "mL O2/dL or mL O2/min",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Ventilator mechanics and intrinsic PEEP",
+   "scope": "From pressure, flow and volume data under volume or pressure control, deduce compliance, resistance, intrinsic PEEP or transpulmonary pressure, or predict what a setting change will do. This is hard because time constants interact and lung and chest-wall components must be separated.",
+   "techniques": [
+    "Equation of motion of the respiratory system",
+    "Inspiratory and expiratory hold maneuvers",
+    "Exponential emptying and time-constant calculations for gas trapping",
+    "Esophageal pressure partition into lung and chest-wall elastance",
+    "Driving pressure and simplified mechanical power formula",
+    "Pressure-control delivered volume as a function of inspiratory time over tau"
+   ],
+   "answer_forms": [
+    "pressure in cmH2O",
+    "compliance or resistance value",
+    "tidal volume in mL",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Catheterization-lab shunt and valve hemodynamics",
+   "scope": "From oximetry runs, chamber pressures and oxygen consumption, compute Qp/Qs, resistances and valve areas, and find the level of a shunt. This is hard because of mixed venous estimation, bidirectional shunting and low-flow states.",
+   "techniques": [
+    "Fick principle with assumed vs measured VO2",
+    "Flamm formula for mixed venous saturation",
+    "Effective pulmonary blood flow in bidirectional shunts",
+    "Gorlin and Hakki valve area formulas",
+    "Continuity equation and dimensionless index",
+    "Indexed PVR/SVR in Wood units and vasoreactivity criteria"
+   ],
+   "answer_forms": [
+    "ratio",
+    "resistance in Wood units",
+    "area in cm^2",
+    "anatomical level of shunt"
+   ]
+  },
+  {
+   "leaf": "Pacemaker and ICD timing-cycle analysis",
+   "scope": "Given programmed intervals and a sequence of sensed and paced events, predict the next event or explain what looks like a malfunction. This is hard because blanking, refractory periods, upper-rate behavior and algorithm overrides all interact.",
+   "techniques": [
+    "DDD timing: lower rate interval, AV delay, VA interval, total atrial refractory period",
+    "Upper-rate behavior: pacemaker Wenckebach vs fixed 2:1 block",
+    "PVARP extension after PVCs and endless-loop tachycardia",
+    "Ventricular safety pacing and crosstalk windows",
+    "Rate hysteresis and dynamic AV delay",
+    "ICD detection zones, duration counters and SVT discriminators"
+   ],
+   "answer_forms": [
+    "time in ms",
+    "rate in bpm",
+    "sequence of event markers",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Neuroanatomical localization from combined deficits",
+   "scope": "From cranial nerve, motor, sensory, reflex and autonomic findings, identify the single lesion site or vascular territory. This is hard because the solver must track decussations, segment vs vertebral level offsets and rare crossed syndromes.",
+   "techniques": [
+    "Crossed brainstem syndromes (ipsilateral nucleus, contralateral tract)",
+    "Spinal segment vs vertebral level, sacral sparing, partial hemicord patterns",
+    "Dissociated sensory loss along spinothalamic vs dorsal column paths",
+    "Vascular territory mapping (AICA vs PICA, artery of Percheron, anterior choroidal)",
+    "Thalamic nucleus and internal capsule limb localization",
+    "Recognizing false localizing signs"
+   ],
+   "answer_forms": [
+    "structure name",
+    "segmental level",
+    "artery name",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Ocular motility and diplopia localization",
+   "scope": "From deviations measured in different gaze positions, head-tilt responses, torsion and saccade findings, deduce the weak muscle, the nerve or a supranuclear lesion. This is hard because of contracture, spread of comitance and supranuclear mimics.",
+   "techniques": [
+    "Three-step head-tilt analysis for vertical deviations",
+    "Hering's and Sherrington's laws; primary vs secondary deviation",
+    "Internuclear ophthalmoplegia and one-and-a-half patterns",
+    "Skew deviation vs trochlear palsy (upright-supine test, torsion direction)",
+    "Hess/Lees chart interpretation",
+    "Pupil-involvement and aberrant regeneration rules for oculomotor palsy"
+   ],
+   "answer_forms": [
+    "muscle name",
+    "nerve and side",
+    "lesion site",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nerve conduction and EMG lesion localization",
+   "scope": "Use numerical nerve conduction data and needle EMG findings to localize a lesion (root, plexus element, nerve segment) and classify its pathophysiology. This is hard because of anomalous innervation, timing after injury and strict conduction-block criteria.",
+   "techniques": [
+    "Preserved SNAPs in preganglionic lesions",
+    "Martin-Gruber and Riche-Cannieu anastomoses",
+    "Conduction block and temporal dispersion criteria",
+    "Electrodiagnostic demyelination cutoffs (latency, velocity, F-wave)",
+    "Myotome overlap tables to localize plexus elements",
+    "Wallerian degeneration timeline and repetitive stimulation decrement/increment"
+   ],
+   "answer_forms": [
+    "anatomical site",
+    "percentage or integer",
+    "small set of findings",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Bayesian sequential diagnostic testing and thresholds",
+   "scope": "Compute post-test probabilities, best cutoffs or test/treat decisions when several tests are combined and may share errors. This is hard because of conditional dependence, spectrum effects and utility trade-offs.",
+   "techniques": [
+    "Odds-likelihood ratio updating",
+    "Correction for conditional dependence of tests in series or parallel",
+    "Test and treatment threshold derivation from harms and benefits",
+    "Utility-optimal ROC operating point from prevalence and cost ratio",
+    "Verification-bias correction of sensitivity and specificity",
+    "Expected value of diagnostic information"
+   ],
+   "answer_forms": [
+    "probability as a rational number",
+    "percentage",
+    "threshold value",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Pedigree-based Bayesian genetic risk",
+   "scope": "Calculate carrier or recurrence risks using conditioning evidence such as unaffected offspring, imperfect test sensitivity, age-dependent penetrance or germline mosaicism. This is hard because every piece of evidence must be conditioned on correctly.",
+   "techniques": [
+    "Bayesian prior/conditional/joint/posterior tables",
+    "X-linked lethal mutation-selection balance for the mother's prior carrier risk",
+    "Age-dependent penetrance curves as conditional evidence",
+    "Residual carrier risk after a negative test of limited sensitivity",
+    "Germline mosaicism recurrence estimates",
+    "Hardy-Weinberg carrier frequency from disease incidence, including consanguinity"
+   ],
+   "answer_forms": [
+    "rational fraction",
+    "percentage",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Hemoglobinopathy and thalassemia genotype deduction",
+   "scope": "Infer family genotypes from hemoglobin fractions, red cell indices and children's phenotypes, or predict probabilities for offspring. This is hard because alpha and beta defects interact and deletional vs non-deletional alleles behave differently.",
+   "techniques": [
+    "Alpha-globin gene counting with cis vs trans deletions",
+    "HbA2 lowering by iron deficiency or co-inherited alpha-thalassemia",
+    "HbS fraction modulation by alpha-gene number",
+    "HPFH vs delta-beta thalassemia discrimination",
+    "Segregation probabilities for compound heterozygotes",
+    "HbH and Hb Constant Spring phenotype reasoning"
+   ],
+   "answer_forms": [
+    "genotype notation",
+    "probability",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Red cell antibody identification and compatibility",
+   "scope": "Interpret panel reactivity, autocontrol, DAT, reaction phase and enzyme or DTT treatment to identify alloantibodies and choose compatible units. This is hard because of multiple antibodies, dosage effects and strict rule-out logic.",
+   "techniques": [
+    "Rule-out using homozygous (double-dose) antigen cells",
+    "Enzyme-sensitive vs enzyme-enhanced antigen behavior",
+    "DTT treatment for Kell-system and anti-CD38 interference",
+    "Autoadsorption and alloadsorption reasoning",
+    "Number of units to screen from products of antigen-negative frequencies",
+    "Statistical confirmation of specificity (3-positive/3-negative rule, exact probability)"
+   ],
+   "answer_forms": [
+    "set of antibody specificities",
+    "integer number of units",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Coagulation pattern and inhibitor deduction",
+   "scope": "From PT, aPTT, thrombin time, fibrinogen, mixing studies, factor assays and anti-Xa levels, deduce the defect, the interfering drug or the inhibitor titer. This is hard because lupus anticoagulant, heparins, DOACs and combined factor deficiencies interact.",
+   "techniques": [
+    "Immediate vs incubated mixing and mixing-correction indices",
+    "Time- and temperature-dependent factor VIII inhibition",
+    "Bethesda unit calculation from residual activity and dilution",
+    "Non-parallelism in factor assays as an inhibitor signal",
+    "Thrombin time vs reptilase time discrimination",
+    "Citrate volume adjustment for high hematocrit"
+   ],
+   "answer_forms": [
+    "factor or defect name",
+    "Bethesda units",
+    "volume in mL",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Steroidogenic enzyme defect deduction",
+   "scope": "From karyotype, genital phenotype, blood pressure, electrolytes and steroid precursor and product levels, identify the enzyme defect or predict a hormone level. This is hard because enzymes share cofactors and partial defects blur the patterns.",
+   "techniques": [
+    "Mapping precursor accumulation onto the adrenal and gonadal pathway",
+    "Mineralocorticoid excess vs deficiency among hydroxylase defects",
+    "Combined P450 oxidoreductase pattern with skeletal findings",
+    "Delta5/Delta4 steroid ratios for 3-beta-HSD deficiency",
+    "Alternative (backdoor) androgen pathway",
+    "Testosterone/DHT and androstenedione/testosterone ratios after hCG stimulation"
+   ],
+   "answer_forms": [
+    "enzyme or gene name",
+    "small set of enzymes",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Metabolite-profile localization of inborn errors",
+   "scope": "From amino acids, acylcarnitines, organic acids, ammonia, lactate/pyruvate and urinary orotate, identify the blocked enzyme or predict which metabolites build up. This is hard because of secondary effects and markers that overlap between disorders.",
+   "techniques": [
+    "Urea-cycle localization by citrulline, argininosuccinate and orotic acid",
+    "Acylcarnitine chain-length and hydroxylation pattern analysis",
+    "Cobalamin pathway defects: methylmalonic acid with or without homocysteine",
+    "Ketotic vs hypoketotic hypoglycemia logic",
+    "CSF/plasma glycine and lactate/pyruvate ratios",
+    "Secondary carnitine depletion and stress-state artifacts"
+   ],
+   "answer_forms": [
+    "enzyme name",
+    "metabolite name",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Radiobiological fractionation equivalence calculations",
+   "scope": "Compute BED or EQD2 for treatment schedules, re-irradiation limits, compensation for treatment gaps, or combined external-beam and brachytherapy plans. This is hard because of the alpha/beta choice, repopulation onset and incomplete repair.",
+   "techniques": [
+    "Linear-quadratic BED and EQD2",
+    "Repopulation correction after a kickoff time",
+    "Gap compensation by extra fractions or twice-daily fractions",
+    "Incomplete repair and dose-rate correction factors for brachytherapy",
+    "Solving for dose per fraction that matches two tissues' isoeffects",
+    "Poisson tumor control probability"
+   ],
+   "answer_forms": [
+    "dose in Gy",
+    "integer number of fractions",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Antibiogram phenotype to resistance mechanism",
+   "scope": "From MIC or disk-diffusion patterns across antibiotic panels, including inhibitor-combination and synergy tests, infer the resistance mechanism and its therapeutic consequence. This is hard because phenotypes overlap and intrinsic resistance must be separated out.",
+   "techniques": [
+    "ESBL vs plasmid or chromosomal AmpC discrimination",
+    "Carbapenemase class inference from inhibitor responses (avibactam, vaborbactam, EDTA, boronic acid)",
+    "Inducible MLSB detection by disk approximation",
+    "Intrinsic resistance tables used to flag impossible phenotypes",
+    "Aminoglycoside-modifying enzyme profiles",
+    "Porin loss plus efflux combinations"
+   ],
+   "answer_forms": [
+    "mechanism or enzyme class name",
+    "antibiotic name",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "HLA haplotype inheritance and crossmatch interpretation",
+   "scope": "Deduce family haplotypes, sibling match probabilities and recombination events, and interpret virtual, flow-cytometric or complement-dependent crossmatches. This is hard because of recombination, homozygosity and false-positive causes such as therapeutic antibodies or IgM.",
+   "techniques": [
+    "Haplotype assignment from parental and sibling typing",
+    "Probability that at least one of n siblings matches",
+    "Detecting recombination between HLA loci",
+    "Calculated PRA from antigen frequencies",
+    "T vs B cell flow crossmatch patterns with rituximab, IgM and DTT",
+    "Eplet mismatch counting"
+   ],
+   "answer_forms": [
+    "probability",
+    "haplotype assignment",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Prenatal screening risk and fetomaternal hemorrhage",
+   "scope": "Combine a maternal-age prior with marker MoMs into an aneuploidy risk, or quantify a fetomaternal hemorrhage and the anti-D dose. This is hard because of weight and IVF corrections, correlated markers, twins and the details of cell-free DNA.",
+   "techniques": [
+    "MoM conversion with maternal weight correction",
+    "Multivariate Gaussian likelihood ratios with marker correlation",
+    "Gestational-age adjustment of prior risk for fetal loss",
+    "Kleihauer-Betke hemorrhage volume and anti-D vial rounding rules",
+    "Cell-free DNA positive predictive value vs fetal fraction",
+    "Confined placental mosaicism reasoning"
+   ],
+   "answer_forms": [
+    "risk as 1 in N",
+    "integer number of vials",
+    "probability",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Clinical masking and audiogram interpretation",
+   "scope": "Determine effective masking levels, whether a masking dilemma exists, true thresholds, and the type and site of a hearing loss. This is hard because of interaural attenuation, the occlusion effect, central masking and cross-hearing.",
+   "techniques": [
+    "Interaural attenuation for supra-aural, insert and bone-conduction transducers",
+    "Plateau (Hood) masking method",
+    "Minimum and maximum effective masking formulas",
+    "Occlusion effect correction for bone-conduction masking",
+    "Stenger principle for functional hearing loss",
+    "Acoustic reflex and tympanometry patterns for conductive vs retrocochlear loss"
+   ],
+   "answer_forms": [
+    "dB level as integer",
+    "hearing loss type",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

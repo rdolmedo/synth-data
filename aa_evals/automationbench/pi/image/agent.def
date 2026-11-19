@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: python:3.13-slim
+
+# The agent's sandbox for AutomationBench under the Pi harness (#348): plain python:3.13-slim (bash, python3), the
+# same base as world.def but without the simulated apps' code. `ab` and the tool list are staged per task
+# (task inputs: /usr/local/bin/ab, /opt/ab/tools.json).
+
+%post
+    python -I -c "import sys; print(sys.version)"

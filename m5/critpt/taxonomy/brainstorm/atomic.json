@@ -1,0 +1,584 @@
+{
+ "subtopics": [
+  {
+   "name": "Bound-state QED and exotic atoms",
+   "scope": "Relativistic, recoil, radiative and finite-nuclear-size corrections to energy levels of hydrogen, helium, positronium, muonic and antiprotonic atoms.",
+   "keywords": [
+    "Lamb shift",
+    "bound-state QED",
+    "hydrogen spectroscopy",
+    "positronium",
+    "muonic hydrogen",
+    "proton radius",
+    "Breit equation",
+    "hyperfine splitting",
+    "NRQED",
+    "helium fine structure"
+   ]
+  },
+  {
+   "name": "Atomic polarizabilities and field-induced level shifts",
+   "scope": "Static and dynamic polarizabilities and the Stark, Zeeman and hyperfine shifts of atoms and ions in external fields, including magic wavelengths and blackbody shifts.",
+   "keywords": [
+    "dynamic polarizability",
+    "AC Stark shift",
+    "magic wavelength",
+    "Zeeman effect",
+    "Paschen-Back",
+    "Breit-Rabi",
+    "hyperfine structure",
+    "blackbody radiation shift",
+    "tensor polarizability"
+   ]
+  },
+  {
+   "name": "Dispersion forces and Casimir-Polder interactions",
+   "scope": "Van der Waals, retarded Casimir-Polder and resonant interactions between atoms, molecules and surfaces, including dispersion coefficients and thermal or nonequilibrium effects.",
+   "keywords": [
+    "Casimir-Polder",
+    "van der Waals",
+    "C6 coefficient",
+    "dispersion interaction",
+    "atom-surface interaction",
+    "resonance interaction",
+    "Lifshitz theory",
+    "quantum friction",
+    "retardation"
+   ]
+  },
+  {
+   "name": "Photoionization and electron-atom scattering",
+   "scope": "Single- and multiphoton ionization cross sections, angular distributions, autoionizing resonances and low-energy electron or positron scattering from atoms and ions.",
+   "keywords": [
+    "photoionization cross section",
+    "Fano resonance",
+    "autoionization",
+    "asymmetry parameter",
+    "electron-atom scattering",
+    "Coulomb wave",
+    "quantum defect",
+    "R-matrix",
+    "Wigner threshold law",
+    "Wigner time delay"
+   ]
+  },
+  {
+   "name": "Strong-field ionization and harmonic generation",
+   "scope": "Tunnel and multiphoton ionization, above-threshold ionization, rescattering and high-harmonic generation in atoms and molecules driven by intense laser fields.",
+   "keywords": [
+    "strong-field approximation",
+    "tunnel ionization",
+    "ADK rate",
+    "Keldysh parameter",
+    "above-threshold ionization",
+    "high-harmonic generation",
+    "cutoff law",
+    "attosecond",
+    "rescattering",
+    "Volkov states"
+   ]
+  },
+  {
+   "name": "Rydberg atoms and dipole blockade",
+   "scope": "Highly excited atomic states, their scaling laws, long-range dipolar and van der Waals interactions, blockade, facilitation and Rydberg dressing.",
+   "keywords": [
+    "Rydberg atom",
+    "dipole blockade",
+    "Rydberg dressing",
+    "F\u00f6rster resonance",
+    "quantum defect",
+    "Rydberg molecules",
+    "facilitation",
+    "C6 interaction",
+    "Rydberg excitation"
+   ]
+  },
+  {
+   "name": "Spectral line shapes and pressure broadening",
+   "scope": "Natural, Doppler, collisional and transit-time broadening, line-shape profiles, Dicke narrowing and line mixing in atomic and molecular gases.",
+   "keywords": [
+    "line shape",
+    "pressure broadening",
+    "Voigt profile",
+    "Dicke narrowing",
+    "Doppler broadening",
+    "collisional shift",
+    "impact approximation",
+    "line mixing",
+    "speed-dependent profile"
+   ]
+  },
+  {
+   "name": "Molecular rovibrational structure and spectroscopy",
+   "scope": "Rotational, vibrational, fine and hyperfine structure of diatomic and polyatomic molecules, including anharmonic potentials, Hund's cases, intensities and selection rules.",
+   "keywords": [
+    "rovibrational spectrum",
+    "Morse potential",
+    "Dunham expansion",
+    "Hund's case",
+    "centrifugal distortion",
+    "Lambda doubling",
+    "asymmetric top",
+    "anharmonicity",
+    "Franck-Condon factors",
+    "rotational constants"
+   ]
+  },
+  {
+   "name": "Nonadiabatic dynamics and conical intersections",
+   "scope": "Breakdown of the Born-Oppenheimer approximation, vibronic coupling, geometric phases, Jahn-Teller and Renner-Teller effects, and radiationless transitions in molecules.",
+   "keywords": [
+    "conical intersection",
+    "vibronic coupling",
+    "Jahn-Teller",
+    "Born-Oppenheimer",
+    "geometric phase",
+    "nonadiabatic coupling",
+    "diabatic states",
+    "Renner-Teller",
+    "internal conversion"
+   ]
+  },
+  {
+   "name": "Chemical reaction rates and tunneling",
+   "scope": "Transition-state, instanton, Kramers and Marcus theories of thermal reaction and transfer rates, including quantum tunneling corrections and isotope effects.",
+   "keywords": [
+    "transition state theory",
+    "instanton",
+    "tunneling correction",
+    "Kramers rate",
+    "rate constant",
+    "Marcus theory",
+    "kinetic isotope effect",
+    "ring-polymer",
+    "crossover temperature"
+   ]
+  },
+  {
+   "name": "Solvable model systems in electronic structure",
+   "scope": "Exactly or quasi-exactly solvable few-electron models used to benchmark quantum-chemical approximations and exact conditions of density-functional theory.",
+   "keywords": [
+    "Hooke's atom",
+    "harmonium",
+    "exchange-correlation",
+    "density functional theory",
+    "Hubbard dimer",
+    "Hartree-Fock",
+    "correlation energy",
+    "Kato cusp",
+    "virial theorem",
+    "Wigner molecule"
+   ]
+  },
+  {
+   "name": "Ultracold collisions and few-body universality",
+   "scope": "Low-energy atomic and molecular scattering, Feshbach resonances, inelastic loss, and universal three-body physics such as Efimov states and recombination near resonant interactions.",
+   "keywords": [
+    "scattering length",
+    "Feshbach resonance",
+    "effective range",
+    "Efimov effect",
+    "three-body recombination",
+    "confinement-induced resonance",
+    "quantum defect theory",
+    "universal dimer",
+    "hyperspherical"
+   ]
+  },
+  {
+   "name": "Bose-Einstein condensates: mean-field and excitations",
+   "scope": "Gross-Pitaevskii dynamics, Bogoliubov spectra, collective modes, vortices, solitons and beyond-mean-field corrections in trapped Bose gases.",
+   "keywords": [
+    "Gross-Pitaevskii",
+    "Bogoliubov",
+    "collective modes",
+    "quantized vortex",
+    "dark soliton",
+    "Lee-Huang-Yang",
+    "quantum depletion",
+    "Thomas-Fermi",
+    "superfluid",
+    "quantum droplet"
+   ]
+  },
+  {
+   "name": "Spinor and dipolar quantum gases",
+   "scope": "Quantum gases with internal spin degrees of freedom, synthetic spin-orbit coupling, or long-range anisotropic dipolar interactions, including their phases, spin dynamics and roton excitations.",
+   "keywords": [
+    "spinor condensate",
+    "spin-1",
+    "dipolar BEC",
+    "roton",
+    "supersolid",
+    "spin-mixing",
+    "quadratic Zeeman",
+    "polar molecules",
+    "spin-orbit coupling",
+    "magnetic atoms"
+   ]
+  },
+  {
+   "name": "Strongly interacting Fermi gases and pairing",
+   "scope": "BCS-BEC crossover, unitary Fermi gas thermodynamics, spin-imbalanced and mass-imbalanced mixtures, Tan contact relations and Fermi polarons.",
+   "keywords": [
+    "BCS-BEC crossover",
+    "unitary Fermi gas",
+    "Tan contact",
+    "Fermi polaron",
+    "gap equation",
+    "imbalanced Fermi gas",
+    "FFLO",
+    "Bertsch parameter",
+    "pseudogap"
+   ]
+  },
+  {
+   "name": "Optical lattices and Hubbard models",
+   "scope": "Band structure, tight-binding and Hubbard descriptions of atoms in optical lattices, including Mott transitions, superexchange, Bloch oscillations and artificial gauge fields.",
+   "keywords": [
+    "optical lattice",
+    "Bose-Hubbard",
+    "Mott insulator",
+    "Wannier function",
+    "superexchange",
+    "Hofstadter",
+    "artificial gauge field",
+    "Bloch oscillations",
+    "tunneling amplitude",
+    "Floquet engineering"
+   ]
+  },
+  {
+   "name": "One-dimensional integrable quantum gases",
+   "scope": "Lieb-Liniger, Yang-Gaudin and Tonks-Girardeau gases, their thermodynamics and correlations, and their nonequilibrium dynamics in one dimension.",
+   "keywords": [
+    "Lieb-Liniger",
+    "Tonks-Girardeau",
+    "Yang-Gaudin",
+    "Bethe ansatz",
+    "Luttinger liquid",
+    "generalized hydrodynamics",
+    "quantum Newton's cradle",
+    "Yang-Yang thermodynamics",
+    "one-dimensional Bose gas"
+   ]
+  },
+  {
+   "name": "Laser cooling and optical forces",
+   "scope": "Doppler, sub-Doppler and sideband cooling limits, radiation pressure, optical dipole traps and magneto-optical trapping of atoms and molecules.",
+   "keywords": [
+    "Doppler cooling",
+    "Sisyphus cooling",
+    "radiation pressure",
+    "magneto-optical trap",
+    "dipole trap",
+    "recoil limit",
+    "gray molasses",
+    "sideband cooling",
+    "laser cooling molecules"
+   ]
+  },
+  {
+   "name": "Trapped-ion motion and entangling gates",
+   "scope": "Motional modes of ion crystals in Paul and Penning traps, Lamb-Dicke physics, sideband transitions and spin-motion entangling gates.",
+   "keywords": [
+    "Paul trap",
+    "Mathieu equation",
+    "Lamb-Dicke",
+    "M\u00f8lmer-S\u00f8rensen",
+    "normal modes",
+    "ion crystal",
+    "Penning trap",
+    "sideband transition",
+    "micromotion",
+    "phonon-mediated interaction"
+   ]
+  },
+  {
+   "name": "Coherent atomic media and optical pumping",
+   "scope": "Electromagnetically induced transparency, coherent population trapping, slow light, optical pumping and atomic magnetometry in multilevel atomic ensembles.",
+   "keywords": [
+    "electromagnetically induced transparency",
+    "coherent population trapping",
+    "slow light",
+    "dark state",
+    "optical pumping",
+    "atomic magnetometer",
+    "spin-exchange relaxation",
+    "lambda system",
+    "Faraday rotation",
+    "Autler-Townes"
+   ]
+  },
+  {
+   "name": "Precision measurement with clocks and interferometers",
+   "scope": "Optical and microwave atomic clocks, atom interferometers, and atomic or molecular searches for electric dipole moments, varying constants and new forces.",
+   "keywords": [
+    "atomic clock",
+    "atom interferometer",
+    "electric dipole moment",
+    "fine-structure constant variation",
+    "Ramsey spectroscopy",
+    "gravitational redshift",
+    "Sagnac effect",
+    "dark matter search",
+    "parity violation",
+    "systematic shift"
+   ]
+  },
+  {
+   "name": "Cavity QED and Jaynes-Cummings models",
+   "scope": "Coupling of atoms or artificial atoms to quantized cavity modes, including vacuum Rabi splitting, photon blockade, and the Rabi, Tavis-Cummings and Dicke models.",
+   "keywords": [
+    "Jaynes-Cummings",
+    "vacuum Rabi splitting",
+    "Purcell effect",
+    "photon blockade",
+    "Tavis-Cummings",
+    "Dicke model",
+    "Rabi model",
+    "cooperativity",
+    "dispersive regime",
+    "strong coupling"
+   ]
+  },
+  {
+   "name": "Waveguide QED and collective emission",
+   "scope": "Emitters coupled to one-dimensional or structured photonic continua, including superradiance, subradiance and cooperative scattering in atomic arrays.",
+   "keywords": [
+    "waveguide QED",
+    "superradiance",
+    "subradiance",
+    "collective Lamb shift",
+    "atom array",
+    "chiral quantum optics",
+    "bound state in continuum",
+    "giant atoms",
+    "photon-mediated interactions"
+   ]
+  },
+  {
+   "name": "Open quantum systems and master equations",
+   "scope": "Markovian and non-Markovian dynamics of driven dissipative quantum systems, covering decoherence, resonance fluorescence and nonequilibrium steady states.",
+   "keywords": [
+    "Lindblad master equation",
+    "non-Markovian",
+    "decoherence",
+    "resonance fluorescence",
+    "Mollow triplet",
+    "quantum trajectories",
+    "spin-boson",
+    "dissipative phase transition",
+    "Liouvillian gap"
+   ]
+  },
+  {
+   "name": "Nonclassical light and photon statistics",
+   "scope": "Squeezed, Fock and cat states of light, photon correlations, and multiphoton interference in linear optical networks.",
+   "keywords": [
+    "squeezed light",
+    "second-order correlation",
+    "antibunching",
+    "Hong-Ou-Mandel",
+    "boson sampling",
+    "Wigner function",
+    "cat state",
+    "homodyne detection",
+    "parametric down-conversion",
+    "nonclassicality"
+   ]
+  },
+  {
+   "name": "Cavity optomechanics and radiation-pressure coupling",
+   "scope": "Radiation-pressure coupling between light and mechanical oscillators, covering sideband cooling, optomechanically induced transparency and quantum-limited displacement sensing.",
+   "keywords": [
+    "optomechanics",
+    "radiation pressure",
+    "sideband cooling",
+    "standard quantum limit",
+    "optomechanically induced transparency",
+    "ponderomotive squeezing",
+    "optical spring",
+    "mechanical resonator",
+    "back-action"
+   ]
+  },
+  {
+   "name": "Quantum metrology and estimation bounds",
+   "scope": "Ultimate precision limits for estimating phases, frequencies and fields with entangled or squeezed probes, with and without noise.",
+   "keywords": [
+    "quantum Fisher information",
+    "Heisenberg limit",
+    "spin squeezing",
+    "Cram\u00e9r-Rao bound",
+    "NOON state",
+    "Ramsey interferometry",
+    "noisy metrology",
+    "standard quantum limit",
+    "quantum sensing"
+   ]
+  },
+  {
+   "name": "Nonlinear optics and optical solitons",
+   "scope": "Parametric and Kerr processes, phase matching, harmonic generation, modulational instability, and soliton propagation in fibers and waveguides.",
+   "keywords": [
+    "nonlinear Schr\u00f6dinger equation",
+    "optical soliton",
+    "Kerr nonlinearity",
+    "phase matching",
+    "second-harmonic generation",
+    "modulational instability",
+    "supercontinuum",
+    "four-wave mixing",
+    "self-phase modulation",
+    "group-velocity dispersion"
+   ]
+  },
+  {
+   "name": "Photonic lattices and periodic structures",
+   "scope": "Photonic crystals, coupled waveguide arrays and metamaterials, including band gaps, edge states and parity-time-symmetric gain-loss structures.",
+   "keywords": [
+    "photonic crystal",
+    "waveguide array",
+    "band gap",
+    "Bragg reflection",
+    "topological edge state",
+    "PT symmetry",
+    "exceptional point",
+    "discrete diffraction",
+    "flat band",
+    "metamaterial"
+   ]
+  },
+  {
+   "name": "Light scattering and plasmonic nanophotonics",
+   "scope": "Scattering and absorption by small particles and nanostructures, surface plasmon resonances, near-field enhancement, and how nanostructured environments modify emitters.",
+   "keywords": [
+    "Mie scattering",
+    "surface plasmon",
+    "localized plasmon resonance",
+    "quasistatic approximation",
+    "extinction cross section",
+    "Purcell enhancement",
+    "near field",
+    "nanoantenna",
+    "Rayleigh scattering",
+    "optical theorem"
+   ]
+  },
+  {
+   "name": "Beam propagation, diffraction and polarization optics",
+   "scope": "Paraxial and nonparaxial propagation of Gaussian and orbital-angular-momentum beams, diffraction, partial coherence, and polarization transformations.",
+   "keywords": [
+    "Gaussian beam",
+    "orbital angular momentum",
+    "Laguerre-Gaussian",
+    "paraxial wave equation",
+    "Gouy phase",
+    "diffraction integral",
+    "Stokes parameters",
+    "spin-orbit interaction of light",
+    "partial coherence",
+    "Jones calculus"
+   ]
+  },
+  {
+   "name": "Laser theory and resonator dynamics",
+   "scope": "Semiclassical and quantum laser theory, including thresholds, linewidths, relaxation oscillations, mode locking and optical resonator modes.",
+   "keywords": [
+    "laser linewidth",
+    "Schawlow-Townes",
+    "Henry factor",
+    "rate equations",
+    "mode locking",
+    "relaxation oscillations",
+    "laser threshold",
+    "optical resonator",
+    "Fabry-Perot",
+    "gain saturation"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Sum-over-states perturbation theory",
+   "scope": "Rayleigh-Schr\u00f6dinger and Dalgarno-Lewis perturbation theory for level shifts, polarizabilities and dispersion coefficients, evaluated in closed form or as rapidly converging sums."
+  },
+  {
+   "name": "Adiabatic elimination and effective Hamiltonians",
+   "scope": "Schrieffer-Wolff transformations and elimination of fast or far-detuned states to obtain effective couplings, light shifts, superexchange and two-photon Rabi frequencies."
+  },
+  {
+   "name": "Lindblad master equations and quantum regression",
+   "scope": "Solving Markovian master equations for steady states, decay rates, fluorescence spectra, and two-time correlation functions via the quantum regression theorem."
+  },
+  {
+   "name": "Input-output theory and quantum Langevin equations",
+   "scope": "Linearized Heisenberg-Langevin equations with input-output relations to compute transmission spectra, noise spectra, squeezing and cooling limits."
+  },
+  {
+   "name": "Bogoliubov diagonalization and linear stability",
+   "scope": "Diagonalizing quadratic bosonic or fermionic Hamiltonians and linearizing nonlinear equations about stationary solutions to obtain excitation spectra, instability thresholds and growth rates."
+  },
+  {
+   "name": "Partial-wave and zero-range scattering theory",
+   "scope": "Phase shifts, effective-range expansions and Bethe-Peierls contact conditions to obtain cross sections, bound-state energies, resonance positions and threshold laws."
+  },
+  {
+   "name": "Born-Oppenheimer and hyperspherical adiabatic methods",
+   "scope": "Separation of fast and slow coordinates to obtain effective potentials, nonadiabatic couplings and universal scaling laws in molecules and few-body systems."
+  },
+  {
+   "name": "WKB and semiclassical quantization",
+   "scope": "Bohr-Sommerfeld and WKB approximations with connection formulas to obtain bound-state spectra, tunneling rates, level densities and quantum defects."
+  },
+  {
+   "name": "Saddle-point and stationary-phase asymptotics",
+   "scope": "Asymptotic evaluation of integrals in a large parameter to obtain ionization rates, harmonic cutoffs, diffraction patterns and semiclassical amplitudes."
+  },
+  {
+   "name": "Floquet theory and high-frequency expansions",
+   "scope": "Quasienergy spectra of periodically driven systems, with Magnus and high-frequency expansions to derive effective static Hamiltonians and renormalized couplings."
+  },
+  {
+   "name": "Electromagnetic Green's tensors and mode expansions",
+   "scope": "Dyadic Green's functions and normal-mode expansions to compute radiative rates, Lamb shifts, Casimir-Polder potentials and dipole-dipole couplings near material structures."
+  },
+  {
+   "name": "Coupled-mode theory and transfer matrices",
+   "scope": "Coupled-amplitude equations and transfer or scattering matrices for waveguides, multilayers, periodic media and resonator networks, giving dispersion relations and transmission spectra."
+  },
+  {
+   "name": "Phase-space and Gaussian-state methods",
+   "scope": "Wigner, P and Q quasiprobability distributions and the covariance-matrix formalism, used to quantify squeezing, entanglement and noise in continuous-variable systems."
+  },
+  {
+   "name": "Quantum Fisher information and estimation bounds",
+   "scope": "Computing quantum and classical Fisher information to derive Cram\u00e9r-Rao precision limits, optimal probe states and optimal measurements."
+  },
+  {
+   "name": "Landau-Zener and adiabatic passage analysis",
+   "scope": "Exactly solvable time-dependent level-crossing models and adiabaticity criteria to obtain transition probabilities and the efficiency of population transfer, as in STIRAP and rapid adiabatic passage."
+  },
+  {
+   "name": "Variational and Thomas-Fermi mean-field methods",
+   "scope": "Gaussian or trial-wavefunction variational ans\u00e4tze, Thomas-Fermi limits and self-consistent gap equations for ground-state properties, phase boundaries and collective-mode frequencies."
+  },
+  {
+   "name": "Bethe ansatz and exact integrability",
+   "scope": "Exact solution of integrable many-body and impurity models through Bethe equations, giving energies, thermodynamics, excitation spectra and correlation properties."
+  },
+  {
+   "name": "Angular-momentum algebra and irreducible tensors",
+   "scope": "Wigner-Eckart theorem, 3j and 6j symbols, and spherical-tensor decompositions for deriving selection rules, line strengths, angular distributions and tensor level shifts."
+  }
+ ],
+ "field": "atomic, molecular and optical physics",
+ "categories": [
+  "physics.atom-ph",
+  "physics.optics",
+  "quant-ph",
+  "cond-mat.quant-gas",
+  "physics.chem-ph"
+ ]
+}

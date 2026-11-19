@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Geology",
+ "target_leaves": 8,
+ "expected_problems": 55,
+ "leaves": [
+  {
+   "leaf": "IMA-approved new mineral species descriptions",
+   "scope": "Type-locality data, empirical formulas, unit-cell parameters, optical properties, and naming etymologies from formal descriptions of rare minerals approved by the IMA CNMNC. A question could ask the solver to calculate density from the cell volume and Z, to check charge balance, or to work out which related species a described phase is isostructural with.",
+   "queries": [
+    "new mineral species description",
+    "IMA CNMNC approved mineral",
+    "type locality holotype specimen",
+    "crystal structure new mineral",
+    "named in honour of mineralogist"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Phanerozoic GSSP boundary markers and sections",
+   "scope": "Ratified Global Boundary Stratotype Sections and Points: the section's location, the level of the golden spike, the primary marker (first appearance datum, isotope excursion, magnetic reversal), secondary markers, and ratification year. A question could ask the solver to identify a stage from a given set of markers, put boundaries in order, or work out time spans from the ages of adjacent GSSPs.",
+   "queries": [
+    "Global Boundary Stratotype Section",
+    "GSSP base stage ratified",
+    "golden spike first appearance datum",
+    "stage boundary proposal section",
+    "chronostratigraphic boundary marker"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Ordovician\u2013Silurian graptolite biozonation history",
+   "scope": "Graptolite zonal schemes, from Lapworth and Elles & Wood up to modern revisions: index species, the order of zones, synonymies, and the localities of type material in British and Baltic sequences. A question could ask the solver to map an obsolete zone onto a modern zone or stage, or to infer relative age from the species in an assemblage.",
+   "queries": [
+    "British graptolites monograph",
+    "graptolite zone Llandovery",
+    "Didymograptus zone Ordovician",
+    "Monograptus biozone Silurian",
+    "Lapworth graptolite zones"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Great Basin pluvial lake shoreline records",
+   "scope": "Shoreline names, elevations, outlet thresholds, and overflow history of Lake Bonneville and Lake Lahontan, as recorded in Gilbert's and Russell's USGS monographs and in later radiocarbon studies. A question could ask the solver to calculate the drop in level between named shorelines, the depth at a given point, or how fast the Bonneville Flood lowered the lake.",
+   "queries": [
+    "Lake Bonneville shoreline Provo",
+    "Lake Lahontan Russell monograph",
+    "Bonneville flood Red Rock Pass",
+    "Gilbert Lake Bonneville",
+    "pluvial lake terraces Utah"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Contemporary reports of 19th\u2013early 20th-century eruptions",
+   "scope": "Eyewitness and commission accounts of eruptions such as Krakatau 1883, Tarawera 1886, and Mont Pel\u00e9e and Soufri\u00e8re 1902: timelines, ash-fall distances, sound-propagation records, and casualty figures. A question could ask the solver to work out how fast a pressure wave travelled or what time an event happened from stated arrival times, or to compare two accounts.",
+   "queries": [
+    "Krakatoa eruption Royal Society report",
+    "Mont Pel\u00e9e nu\u00e9e ardente 1902",
+    "Tarawera eruption 1886",
+    "Soufri\u00e8re St Vincent eruption",
+    "volcanic dust air wave barograph"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Chondrite group and petrologic type classification",
+   "scope": "Classification criteria for ordinary, carbonaceous, and enstatite chondrites (fayalite and ferrosilite contents in olivine and pyroxene, shock and weathering grades, petrologic types 1\u20137), with the data for specific named falls and finds. A question could give mineral compositions and ask for the H/L/LL group and type, or ask which of several meteorites falls outside a stated range.",
+   "queries": [
+    "ordinary chondrite fayalite content",
+    "Meteoritical Bulletin classification",
+    "carbonaceous chondrite petrologic type",
+    "shock stage chondrite",
+    "meteorite fall recovered classification"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Apex rule and extralateral rights litigation",
+   "scope": "US case law under the 1872 Mining Law on apex and extralateral rights, lode versus placer claims, and the discovery and prudent-man tests, including the geological testimony about veins, dips, and end lines. A question could ask the solver to apply a holding to a described vein geometry, or to decide which claimant prevailed and on what doctrine.",
+   "queries": [
+    "extralateral rights apex vein",
+    "lode claim end lines",
+    "prudent man test discovery",
+    "placer claim valuable mineral",
+    "Mining Law 1872 vein dip"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Fluid inclusion microthermometry of hydrothermal ores",
+   "scope": "Homogenization temperatures, ice-melting temperatures, salinities, and inclusion types reported for specific Mississippi Valley-type, epithermal, and porphyry deposits. A question could ask the solver to convert freezing-point depression to wt% NaCl equivalent, apply a pressure correction, or compare the fluids of different deposits.",
+   "queries": [
+    "fluid inclusion homogenization temperature",
+    "Mississippi Valley-type fluid inclusions",
+    "salinity wt% NaCl equivalent",
+    "epithermal vein fluid inclusions",
+    "porphyry copper brine inclusions"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

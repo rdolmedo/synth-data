@@ -1,0 +1,4709 @@
+[
+{
+"set": "TB2.1",
+"task": "adaptive-rejection-sampler",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "scientific-computing",
+"domain_detail": "statistical sampling",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "bn-fit-modify",
+"anchor_class": "tabular-data",
+"anchor_kind": "sampled Bayesian network dataset",
+"code_scale": "none",
+"assets": [
+{
+"what": "BN sample CSV",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "analyze-answer",
+"domain": "data-science-ml",
+"domain_detail": "Bayesian network learning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "break-filter-js-from-html",
+"anchor_class": "python-code",
+"anchor_kind": "HTML sanitizer script",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "filter.py sanitizer",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "selenium test harness",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "XSS filter bypass",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "build-cython-ext",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "Cython numpy compatibility",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "build-pmars",
+"anchor_class": "other-code",
+"anchor_kind": "sample Redcode warriors",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Redcode warrior files",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "configure-deploy",
+"domain": "software-engineering",
+"domain_detail": "build legacy C project",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "build-pov-ray",
+"anchor_class": "other-code",
+"anchor_kind": "scene description file",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "POV-Ray scene file",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "configure-deploy",
+"domain": "software-engineering",
+"domain_detail": "build legacy renderer",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "caffe-cifar-10",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "train-evaluate-ml",
+"domain": "data-science-ml",
+"domain_detail": "CNN training CIFAR-10",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "cancel-async-tasks",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "implement-feature",
+"domain": "software-engineering",
+"domain_detail": "asyncio concurrency",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "chess-best-move",
+"anchor_class": "media",
+"anchor_kind": "rendered chess board image",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "chess board PNG",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "render script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "symbol font",
+"class": "media",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "analyze-answer",
+"domain": "games-puzzles-creative",
+"domain_detail": "chess position",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "circuit-fibsqrt",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "logic-gate simulator in C",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "sim.c simulator",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "example gates.txt",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "logic circuit design",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "cobol-modernization",
+"anchor_class": "other-code",
+"anchor_kind": "COBOL program with data files",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "program.cbl",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "DAT data files",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "INPUT.DAT",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "port-migrate",
+"domain": "software-engineering",
+"domain_detail": "COBOL to Python",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "code-from-image",
+"anchor_class": "media",
+"anchor_kind": "pseudocode image",
+"code_scale": "none",
+"assets": [
+{
+"what": "pseudocode PNG",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "analyze-answer",
+"domain": "media-documents",
+"domain_detail": "image pseudocode",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "compile-compcert",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "software-engineering",
+"domain_detail": "build verified compiler",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "configure-git-webserver",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "networking-devops",
+"domain_detail": "git push deploy",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "constraints-scheduling",
+"anchor_class": "text-data",
+"anchor_kind": "personal calendar ICS files",
+"code_scale": "none",
+"assets": [
+{
+"what": "three ICS calendars",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "analyze-answer",
+"domain": "business-finance-ops",
+"domain_detail": "meeting scheduling",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "count-dataset-tokens",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "analyze-answer",
+"domain": "data-science-ml",
+"domain_detail": "dataset token counting",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "crack-7z-hash",
+"anchor_class": "text-data",
+"anchor_kind": "secret word in encrypted archive",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "secret word",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "secrets.7z",
+"class": "archive",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "John the Ripper",
+"class": "upstream-project",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "archive",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "password cracking",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "custom-memory-heap-crash",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "crashing C++ program",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "main.cpp program",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "libstdc++ patches",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "GCC source",
+"class": "upstream-project",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "patched libstdc++ builds",
+"class": "binary",
+"role": "derived",
+"derived_from": 2
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "C++ allocator crash",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "db-wal-recovery",
+"anchor_class": "database",
+"anchor_kind": "SQLite database with WAL",
+"code_scale": "none",
+"assets": [
+{
+"what": "main.db",
+"class": "database",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "encrypted WAL",
+"class": "database",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "database",
+"agent_action": "recover-data",
+"domain": "data-engineering",
+"domain_detail": "SQLite WAL recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "distribution-search",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "analyze-answer",
+"domain": "math-formal",
+"domain_detail": "KL divergence distribution",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "dna-assembly",
+"anchor_class": "scientific-data",
+"anchor_kind": "plasmid and gene sequences FASTA",
+"code_scale": "none",
+"assets": [
+{
+"what": "sequences FASTA",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "build-from-spec",
+"domain": "life-sciences",
+"domain_detail": "Golden Gate primer design",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "dna-insert",
+"anchor_class": "scientific-data",
+"anchor_kind": "plasmid pair FASTA",
+"code_scale": "none",
+"assets": [
+{
+"what": "plasmid sequences FASTA",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "build-from-spec",
+"domain": "life-sciences",
+"domain_detail": "mutagenesis primer design",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "extract-elf",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "tiny C program",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "hi.c",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "a.out ELF",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "systems-os",
+"domain_detail": "ELF memory extraction",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "extract-moves-from-video",
+"anchor_class": "media",
+"anchor_kind": "gameplay screen recording",
+"code_scale": "none",
+"assets": [
+{
+"what": "Zork gameplay video",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "analyze-answer",
+"domain": "games-puzzles-creative",
+"domain_detail": "text adventure transcription",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "feal-differential-cryptanalysis",
+"anchor_class": "python-code",
+"anchor_kind": "toy block cipher implementation",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "feal.py cipher",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "differential cryptanalysis",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "feal-linear-cryptanalysis",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "toy cipher in C",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "feal.c cipher",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "decrypt.c",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "gen.py generator",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "compiled binaries",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "pairs and ciphertexts",
+"class": "text-data",
+"role": "derived",
+"derived_from": 2
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "linear cryptanalysis",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "filter-js-from-html",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "security",
+"domain_detail": "HTML XSS sanitizer",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "financial-document-processor",
+"anchor_class": "document",
+"anchor_kind": "real invoices and receipts",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "invoice/receipt PDFs and JPGs",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "filename randomizer",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "renamed documents",
+"class": "document",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "document",
+"agent_action": "transform-convert",
+"domain": "business-finance-ops",
+"domain_detail": "invoice extraction",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "fix-code-vulnerability",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream Python web framework",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "framework repo",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "repo with fix removed",
+"class": "upstream-project",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "security",
+"domain_detail": "CWE vulnerability fix",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "fix-git",
+"anchor_class": "git-repo",
+"anchor_kind": "cloned repo with lost commit",
+"code_scale": "none",
+"assets": [
+{
+"what": "personal site repo",
+"class": "git-repo",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "setup script",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "patch files",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "git-repo",
+"agent_action": "recover-data",
+"domain": "software-engineering",
+"domain_detail": "git lost commit",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "low"
+},
+{
+"set": "TB2.1",
+"task": "fix-ocaml-gc",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream compiler with injected bug",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "OCaml compiler fork",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "garbage collector bug",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "gcode-to-text",
+"anchor_class": "text-data",
+"anchor_kind": "3D printer gcode file",
+"code_scale": "none",
+"assets": [
+{
+"what": "gcode file",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "gz archive",
+"class": "archive",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "analyze-answer",
+"domain": "physical-sciences-engineering",
+"domain_detail": "3D printing gcode",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "git-leak-recovery",
+"anchor_class": "git-repo",
+"anchor_kind": "git repo with rewritten secret",
+"code_scale": "none",
+"assets": [
+{
+"what": "git repo",
+"class": "git-repo",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "setup script",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "git-repo",
+"agent_action": "recover-data",
+"domain": "security",
+"domain_detail": "leaked secret in history",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "git-multibranch",
+"anchor_class": "config",
+"anchor_kind": "web server site config",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "nginx site config",
+"class": "config",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "self-signed cert",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "config",
+"agent_action": "configure-deploy",
+"domain": "networking-devops",
+"domain_detail": "git hook deploy nginx",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "gpt2-codegolf",
+"anchor_class": "ml-model",
+"anchor_kind": "GPT-2 checkpoint with BPE vocab",
+"code_scale": "none",
+"assets": [
+{
+"what": "GPT-2 weights and vocab",
+"class": "ml-model",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "ml-model",
+"agent_action": "build-from-spec",
+"domain": "data-science-ml",
+"domain_detail": "tiny LLM inference in C",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "headless-terminal",
+"anchor_class": "python-code",
+"anchor_kind": "abstract interface skeleton",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "BaseTerminal interface",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "implement-feature",
+"domain": "systems-os",
+"domain_detail": "terminal emulation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "hf-model-inference",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "data-science-ml",
+"domain_detail": "model inference API",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "install-windows-3.11",
+"anchor_class": "vm-image",
+"anchor_kind": "legacy OS disk image",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Windows 3.11 disk image",
+"class": "vm-image",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "nginx/pulse/supervisor configs",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "webaudio.js",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "vm-image",
+"agent_action": "configure-deploy",
+"domain": "systems-os",
+"domain_detail": "QEMU VM setup",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "kv-store-grpc",
+"anchor_class": null,
+"anchor_kind": "none",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "software-engineering",
+"domain_detail": "gRPC service",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "large-scale-text-editing",
+"anchor_class": "tabular-data",
+"anchor_kind": "generated large CSV",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "input.csv",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "generator script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "expected.csv",
+"class": "tabular-data",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "transform-convert",
+"domain": "data-engineering",
+"domain_detail": "Vim macro CSV edit",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "largest-eigenval",
+"anchor_class": "python-code",
+"anchor_kind": "function skeleton with benchmark",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "eigen.py skeleton",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "eval.py benchmark",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "optimize",
+"domain": "scientific-computing",
+"domain_detail": "eigenvalue computation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "llm-inference-batching-scheduler",
+"anchor_class": "structured-data",
+"anchor_kind": "request trace plus cost model",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "request JSONL traces",
+"class": "structured-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "cost model script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "baseline packer script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "structured-data",
+"agent_action": "optimize",
+"domain": "systems-os",
+"domain_detail": "LLM batching scheduler",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "log-summary-date-ranges",
+"anchor_class": "python-code",
+"anchor_kind": "deterministic log generator script",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "log generator script",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "dated log files",
+"class": "text-data",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "analyze-answer",
+"domain": "data-engineering",
+"domain_detail": "log severity counts",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "mailman",
+"anchor_class": "running-service",
+"anchor_kind": "installed mail server stack",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "postfix and mailman3 install",
+"class": "running-service",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "eval checker script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "configure-deploy",
+"domain": "networking-devops",
+"domain_detail": "mailing list server",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "make-doom-for-mips",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream game source at pinned commit",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "doomgeneric source repo",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "game WAD data",
+"class": "binary",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "frame-writer C file",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "MIPS VM in JavaScript",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "port-migrate",
+"domain": "systems-os",
+"domain_detail": "cross-compile to MIPS",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "make-mips-interpreter",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream game source at pinned commit",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "doomgeneric source repo",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "MIPS patch file",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "MIPS ELF binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "game WAD data",
+"class": "binary",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "implement-feature",
+"domain": "systems-os",
+"domain_detail": "MIPS emulator",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "mcmc-sampling-stan",
+"anchor_class": "tabular-data",
+"anchor_kind": "small binomial counts table",
+"code_scale": "none",
+"assets": [
+{
+"what": "binomial counts CSV",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "build-from-spec",
+"domain": "scientific-computing",
+"domain_detail": "hierarchical Bayesian MCMC",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "merge-diff-arc-agi-task",
+"anchor_class": "git-repo",
+"anchor_kind": "pair of git bundles",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "git bundle one",
+"class": "git-repo",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "git bundle two",
+"class": "git-repo",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "ARC examples JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "git-repo",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "merge conflicts, ARC puzzle",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "model-extraction-relu-logits",
+"anchor_class": "python-code",
+"anchor_kind": "black-box neural network function",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "forward.py black-box network",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "reverse-engineer",
+"domain": "security",
+"domain_detail": "model extraction attack",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "modernize-scientific-stack",
+"anchor_class": "python-code",
+"anchor_kind": "legacy Python 2 script",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "legacy analysis script",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "config file",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "climate CSV",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "old requirements file",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "port-migrate",
+"domain": "scientific-computing",
+"domain_detail": "legacy climate analysis",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "mteb-leaderboard",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "analyze-answer",
+"domain": "data-science-ml",
+"domain_detail": "embedding leaderboard lookup",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "mteb-retrieve",
+"anchor_class": "text-data",
+"anchor_kind": "line-per-document text file",
+"code_scale": "none",
+"assets": [
+{
+"what": "documents text file",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "analyze-answer",
+"domain": "data-science-ml",
+"domain_detail": "embedding retrieval",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "multi-source-data-merger",
+"anchor_class": "tabular-data",
+"anchor_kind": "user records in several formats",
+"code_scale": "none",
+"assets": [
+{
+"what": "users JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "users CSV",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "users Parquet",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "transform-convert",
+"domain": "data-engineering",
+"domain_detail": "user record merging",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "nginx-request-logging",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "networking-devops",
+"domain_detail": "nginx logging, rate limiting",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "openssl-selfsigned-cert",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "security",
+"domain_detail": "self-signed TLS certificate",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "overfull-hbox",
+"anchor_class": "document",
+"anchor_kind": "LaTeX document with prose",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "LaTeX main file",
+"class": "document",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "LaTeX prose input",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "synonym list",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "document",
+"agent_action": "debug-fix",
+"domain": "media-documents",
+"domain_detail": "LaTeX overfull boxes",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "password-recovery",
+"anchor_class": "vm-image",
+"anchor_kind": "ext filesystem image with deleted file",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "setup script",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "ext filesystem image",
+"class": "vm-image",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "vm-image",
+"agent_action": "recover-data",
+"domain": "security",
+"domain_detail": "deleted file forensics",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "path-tracing",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "authored C path tracer",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "path tracer C source",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "rendered PPM image",
+"class": "media",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "media",
+"agent_action": "reverse-engineer",
+"domain": "media-documents",
+"domain_detail": "image reconstruction in C",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "path-tracing-reverse",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "authored C path tracer",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "path tracer C source",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "compiled static binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "software-engineering",
+"domain_detail": "binary decompilation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "polyglot-c-py",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "games-puzzles-creative",
+"domain_detail": "C/Python polyglot",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "polyglot-rust-c",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "games-puzzles-creative",
+"domain_detail": "Rust/C++ polyglot",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "portfolio-optimization",
+"anchor_class": "python-code",
+"anchor_kind": "Python baseline with C extension skeleton",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "Python baseline",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "C extension skeleton",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "benchmark scripts",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "setup.py",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "optimize",
+"domain": "business-finance-ops",
+"domain_detail": "portfolio risk computation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "protein-assembly",
+"anchor_class": "scientific-data",
+"anchor_kind": "antibody and plasmid sequences",
+"code_scale": "none",
+"assets": [
+{
+"what": "antibody FASTA",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "plasmid GenBank file",
+"class": "scientific-data",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "PDB ID list",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "build-from-spec",
+"domain": "life-sciences",
+"domain_detail": "gBlock fusion protein design",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "prove-plus-comm",
+"anchor_class": "other-code",
+"anchor_kind": "partial Coq proof",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "partial Coq proof",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "prove-verify",
+"domain": "math-formal",
+"domain_detail": "Coq induction proof",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "pypi-server",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "configure-deploy",
+"domain": "networking-devops",
+"domain_detail": "local PyPI server",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "pytorch-model-cli",
+"anchor_class": "ml-model",
+"anchor_kind": "MNIST PyTorch model checkpoint",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "MNIST model weights",
+"class": "ml-model",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "model definition",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "test PNG image",
+"class": "media",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "cJSON library",
+"class": "c-cpp-code",
+"role": "stock",
+"derived_from": null
+},
+{
+"what": "lodepng library",
+"class": "c-cpp-code",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "ml-model",
+"agent_action": "build-from-spec",
+"domain": "data-science-ml",
+"domain_detail": "C inference CLI",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "pytorch-model-recovery",
+"anchor_class": "ml-model",
+"anchor_kind": "PyTorch state dict with dataset",
+"code_scale": "none",
+"assets": [
+{
+"what": "weights state dict",
+"class": "ml-model",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "dataset tensors",
+"class": "ml-model",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "ml-model",
+"agent_action": "train-evaluate-ml",
+"domain": "data-science-ml",
+"domain_detail": "model architecture recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "qemu-alpine-ssh",
+"anchor_class": "vm-image",
+"anchor_kind": "Linux installer ISO",
+"code_scale": "none",
+"assets": [
+{
+"what": "Alpine ISO",
+"class": "vm-image",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "blank qcow2 disk",
+"class": "vm-image",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "vm-image",
+"agent_action": "configure-deploy",
+"domain": "systems-os",
+"domain_detail": "QEMU VM with SSH",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "qemu-startup",
+"anchor_class": "vm-image",
+"anchor_kind": "Linux installer ISO",
+"code_scale": "none",
+"assets": [
+{
+"what": "Alpine ISO",
+"class": "vm-image",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "blank qcow2 disk",
+"class": "vm-image",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "vm-image",
+"agent_action": "configure-deploy",
+"domain": "systems-os",
+"domain_detail": "QEMU VM serial telnet",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "query-optimize",
+"anchor_class": "database",
+"anchor_kind": "real lexical SQLite database",
+"code_scale": "none",
+"assets": [
+{
+"what": "WordNet SQLite database",
+"class": "database",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "slow SQL query",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "optimize",
+"domain": "data-engineering",
+"domain_detail": "SQL query optimization",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "raman-fitting",
+"anchor_class": "scientific-data",
+"anchor_kind": "Raman spectrum measurement file",
+"code_scale": "none",
+"assets": [
+{
+"what": "graphene Raman spectrum",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "physical-sciences-engineering",
+"domain_detail": "Raman peak fitting",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "regex-chess",
+"anchor_class": "python-code",
+"anchor_kind": "chess move checker harness",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "check.py harness",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "build-from-spec",
+"domain": "games-puzzles-creative",
+"domain_detail": "regex chess move generator",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "regex-log",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "software-engineering",
+"domain_detail": "log date regex",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "reshard-c4-data",
+"anchor_class": "text-data",
+"anchor_kind": "downloaded text corpus slice",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "C4 JSONL shards",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "setup download script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "revert script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "build-from-spec",
+"domain": "data-engineering",
+"domain_detail": "dataset resharding",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "rstan-to-pystan",
+"anchor_class": "other-code",
+"anchor_kind": "R/Stan Gaussian process script",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "R Stan GP script",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "train/test CSVs",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "meta JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "port-migrate",
+"domain": "scientific-computing",
+"domain_detail": "Stan model port",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "sam-cell-seg",
+"anchor_class": "media",
+"anchor_kind": "histopathology image with masks",
+"code_scale": "none",
+"assets": [
+{
+"what": "H&E histology image",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "mask metadata CSV",
+"class": "tabular-data",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "build-from-spec",
+"domain": "life-sciences",
+"domain_detail": "cell mask segmentation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "sanitize-git-repo",
+"anchor_class": "git-repo",
+"anchor_kind": "real repo with injected secrets",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "cloned upstream repo",
+"class": "git-repo",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "injected secret keys",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "setup script",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "git-repo",
+"agent_action": "transform-convert",
+"domain": "security",
+"domain_detail": "secret sanitization",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "schemelike-metacircular-eval",
+"anchor_class": "python-code",
+"anchor_kind": "Scheme interpreter in Python",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "interpreter script",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Scheme test programs",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "implement-feature",
+"domain": "software-engineering",
+"domain_detail": "metacircular evaluator",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "sparql-university",
+"anchor_class": "structured-data",
+"anchor_kind": "RDF knowledge graph",
+"code_scale": "none",
+"assets": [
+{
+"what": "Turtle university graph",
+"class": "structured-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "structured-data",
+"agent_action": "build-from-spec",
+"domain": "data-engineering",
+"domain_detail": "SPARQL query",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "sqlite-db-truncate",
+"anchor_class": "database",
+"anchor_kind": "truncated SQLite database",
+"code_scale": "none",
+"assets": [
+{
+"what": "truncated SQLite file",
+"class": "database",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "database",
+"agent_action": "recover-data",
+"domain": "data-engineering",
+"domain_detail": "corrupted SQLite recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "sqlite-with-gcov",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream C database source tarball",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "SQLite source tarball",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "sha256 checksum",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "configure-deploy",
+"domain": "software-engineering",
+"domain_detail": "gcov instrumented build",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "torch-pipeline-parallelism",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "implement-feature",
+"domain": "data-science-ml",
+"domain_detail": "pipeline parallel training",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "torch-tensor-parallelism",
+"anchor_class": null,
+"anchor_kind": null,
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "data-science-ml",
+"domain_detail": "tensor parallel layers",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "train-fasttext",
+"anchor_class": "tabular-data",
+"anchor_kind": "real text-classification dataset",
+"code_scale": "none",
+"assets": [
+{
+"what": "Yelp review parquet",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "reformatted train/test split",
+"class": "tabular-data",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "reformat script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "train-evaluate-ml",
+"domain": "data-science-ml",
+"domain_detail": "review sentiment classifier",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "tune-mjcf",
+"anchor_class": "scientific-data",
+"anchor_kind": "physics simulation model file",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "MJCF cable model",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "eval script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "optimize",
+"domain": "physical-sciences-engineering",
+"domain_detail": "MuJoCo model tuning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "video-processing",
+"anchor_class": "media",
+"anchor_kind": "real sports video clip",
+"code_scale": "none",
+"assets": [
+{
+"what": "hurdle jump video",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "build-from-spec",
+"domain": "media-documents",
+"domain_detail": "athlete jump video analysis",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "vulnerable-secret",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "small C program with hidden secret",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "vulnerable C source",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "stripped ELF binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "security",
+"domain_detail": "binary secret extraction",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB2.1",
+"task": "winning-avg-corewars",
+"anchor_class": "other-code",
+"anchor_kind": "set of opponent Redcode programs",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "opponent warriors",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "pMARS simulator",
+"class": "upstream-project",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "build-from-spec",
+"domain": "games-puzzles-creative",
+"domain_detail": "CoreWars warrior",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB2.1",
+"task": "write-compressor",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "custom decompressor C source",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "decomp.c decompressor",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "data.txt text",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "compiled decomp",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "build-from-spec",
+"domain": "software-engineering",
+"domain_detail": "custom compression format",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "atrx-vep-crispr",
+"anchor_class": "scientific-data",
+"anchor_kind": "human gene locus sequence plus annotations",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "ATRX locus FASTA",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "mutated transcripts",
+"class": "text-data",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "Ensembl VEP release+cache",
+"class": "upstream-project",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "InterPro domain table",
+"class": "tabular-data",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "CDS join data",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "NMD VEP plugin",
+"class": "other-code",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "life-sciences",
+"domain_detail": "variant annotation CRISPR",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "batched-eval-parity",
+"anchor_class": "python-code",
+"anchor_kind": "buggy evaluation Python package",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "evalbench package",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "tiny LM weights",
+"class": "ml-model",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "JSONL eval shards",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "SPEC document",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "data-science-ml",
+"domain_detail": "LM evaluation harness",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "biped-contact-dynamics",
+"anchor_class": "scientific-data",
+"anchor_kind": "robot model description with starter code",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "planar biped URDF",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "model loader script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "starter solver and trajectory scripts",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "config JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "upstream README and license",
+"class": "document",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "biped trajectory generation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "bun-sourcemap-leak",
+"anchor_class": "other-code",
+"anchor_kind": "small TypeScript app with release script",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "Bun TypeScript app",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "visibility policy JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "source map leak",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "cad-model",
+"anchor_class": "media",
+"anchor_kind": "2D engineering schematic image",
+"code_scale": "none",
+"assets": [
+{
+"what": "schematic PNG",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "CAD STEP from drawing",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "cargo-flight-dispatch",
+"anchor_class": "python-code",
+"anchor_kind": "buggy planning Python program",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "dispatch planner modules",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "airport/aircraft/manifest/weather JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "business-finance-ops",
+"domain_detail": "flight dispatch planning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "cli-2ph-simplex",
+"anchor_class": "python-code",
+"anchor_kind": "starter Python package with CLI",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "simplex starter package",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "lp_solve launcher",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "implement-feature",
+"domain": "scientific-computing",
+"domain_detail": "two-phase simplex",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "coq-block-bound",
+"anchor_class": "other-code",
+"anchor_kind": "Coq project with admitted theorem",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Main.v admitted theorem",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "_CoqProject",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "prove-verify",
+"domain": "math-formal",
+"domain_detail": "Coq proof",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "ctr-optimization",
+"anchor_class": "running-service",
+"anchor_kind": "simulated web service with API",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "FastAPI campaign simulator",
+"class": "running-service",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "simulator config",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "optimize",
+"domain": "business-finance-ops",
+"domain_detail": "ad campaign tuning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "cumulative-layout-shift",
+"anchor_class": "other-code",
+"anchor_kind": "web site codebase",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "Next.js barber-shop site",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "data backend service",
+"class": "running-service",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "git repo of site",
+"class": "git-repo",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "web layout shift",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "data-anonymization",
+"anchor_class": "python-code",
+"anchor_kind": "synthetic data generator script",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "input generator script",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "related CSV tables",
+"class": "tabular-data",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "anonymization policy YAML",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "build-from-spec",
+"domain": "data-engineering",
+"domain_detail": "CSV anonymization",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "distributed-dedup",
+"anchor_class": "other-code",
+"anchor_kind": "sbt Scala project skeleton",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Scala interface and stub",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "sbt build config",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "sbt toolchain",
+"class": "upstream-project",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "implement-feature",
+"domain": "data-engineering",
+"domain_detail": "Spark near-duplicate dedup",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "embedding-drift-monitor",
+"anchor_class": "python-code",
+"anchor_kind": "buggy Python mini-package",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "drift_monitor package",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "embedding npy arrays",
+"class": "scientific-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "data-science-ml",
+"domain_detail": "embedding drift detection",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "erp-procurement-planning",
+"anchor_class": "database",
+"anchor_kind": "ERP database snapshot",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Odoo SQL snapshot",
+"class": "database",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Odoo ERP service",
+"class": "running-service",
+"role": "stock",
+"derived_from": null
+},
+{
+"what": "customer order CSV",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "odoo config and entrypoint",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "optimize",
+"domain": "business-finance-ops",
+"domain_detail": "ERP procurement planning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "exam-pdf-eval",
+"anchor_class": "document",
+"anchor_kind": "real exam booklets and answer keys",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "AMC10 exam and key PDFs",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Qwen and StableLM weights",
+"class": "ml-model",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "eval protocol",
+"class": "document",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "dev predictions",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "document",
+"agent_action": "build-from-spec",
+"domain": "data-science-ml",
+"domain_detail": "LLM exam evaluation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "fin-saccr-rwa",
+"anchor_class": "tabular-data",
+"anchor_kind": "trade portfolio and terms tables",
+"code_scale": "none",
+"assets": [
+{
+"what": "portfolio and counterparties CSV",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "CSA terms and dispute log",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "supervisory factors and risk weights",
+"class": "tabular-data",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "fx, vols, calendars",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "analyze-answer",
+"domain": "business-finance-ops",
+"domain_detail": "counterparty credit capital",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "fix-uautomizer-soundness",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream software verifier release and source",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "UAutomizer source tree",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "UAutomizer release build",
+"class": "binary",
+"role": "sourced",
+"derived_from": null
+},
+{
+"what": "bug injection script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "patched plugin jar",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "demo program and property",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "program verifier bug",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "foodstuff-beta-activity",
+"anchor_class": "tabular-data",
+"anchor_kind": "lab measurement spreadsheets",
+"code_scale": "none",
+"assets": [
+{
+"what": "measurement data xls",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "sample xls",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Sr-90 tables PDF",
+"class": "document",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "analyze-answer",
+"domain": "physical-sciences-engineering",
+"domain_detail": "beta activity radiochemistry",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "formal-crypto",
+"anchor_class": "other-code",
+"anchor_kind": "academic cipher source code",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "cipher Sage source",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "data tar.gz",
+"class": "archive",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "SageMath environment",
+"class": "upstream-project",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "cipher cryptanalysis",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "fp8-rmsnorm-gemm",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "CUDA kernel stub",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "CUDA kernel stub",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "build script",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "dispatch wrapper",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "example check script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "optimize",
+"domain": "data-science-ml",
+"domain_detail": "fused GPU kernel",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "freecad-impeller",
+"anchor_class": null,
+"anchor_kind": null,
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "parametric impeller CAD",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "freecad-platform-drawing",
+"anchor_class": "media",
+"anchor_kind": "engineering drawing image",
+"code_scale": "none",
+"assets": [
+{
+"what": "engineering drawing PNG",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "CAD from drawing",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "freecad-spring-clip",
+"anchor_class": null,
+"anchor_kind": null,
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "parametric spring clip CAD",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "freight-dispatch-shift",
+"anchor_class": "document",
+"anchor_kind": "shift packet of policies and records",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "dispatch packet policies/schemas",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "static fleet/route/contract CSVs",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "timestamped event emails",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "event feed service",
+"class": "running-service",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "document",
+"agent_action": "build-from-spec",
+"domain": "business-finance-ops",
+"domain_detail": "freight dispatch planning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "glycan-ms2-elucidation",
+"anchor_class": "scientific-data",
+"anchor_kind": "real mass spectrometry spectra",
+"code_scale": "none",
+"assets": [
+{
+"what": "LC-MS/MS spectrum workbook",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "output format rules",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "life-sciences",
+"domain_detail": "glycan mass spectrometry",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "gpt2-codegolf",
+"anchor_class": "ml-model",
+"anchor_kind": "pretrained language model checkpoint",
+"code_scale": "none",
+"assets": [
+{
+"what": "GPT-2 checkpoint and BPE vocab",
+"class": "ml-model",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "ml-model",
+"agent_action": "build-from-spec",
+"domain": "data-science-ml",
+"domain_detail": "GPT-2 inference in C",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "gsea-proteomics",
+"anchor_class": "tabular-data",
+"anchor_kind": "real proteomics expression dataset",
+"code_scale": "none",
+"assets": [
+{
+"what": "proteomics Excel dataset",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Broad GSEA CLI",
+"class": "upstream-project",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "analyze-answer",
+"domain": "life-sciences",
+"domain_detail": "proteomics gene set enrichment",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "heat-pump-warranty",
+"anchor_class": "document",
+"anchor_kind": "warranty policy and claim records",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "warranty policy document",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "claims and ledger JSON data",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "six microservices",
+"class": "running-service",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "evidence PNG images",
+"class": "media",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "claim export CSV",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "analyze-answer",
+"domain": "business-finance-ops",
+"domain_detail": "warranty claim adjudication",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "low"
+},
+{
+"set": "TB3.0",
+"task": "hof-topology-interpenetration",
+"anchor_class": "scientific-data",
+"anchor_kind": "real crystal structure files",
+"code_scale": "none",
+"assets": [
+{
+"what": "HOF CIF files",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "physical-sciences-engineering",
+"domain_detail": "crystal framework topology",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "html-js-filter",
+"anchor_class": null,
+"anchor_kind": null,
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "security",
+"domain_detail": "HTML XSS sanitizer",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "ico-path-patch",
+"anchor_class": "binary",
+"anchor_kind": "stripped native service binary",
+"code_scale": "none",
+"assets": [
+{
+"what": "ico service ELF",
+"class": "binary",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "HVIF icon file",
+"class": "media",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "debug-fix",
+"domain": "security",
+"domain_detail": "binary hot patch",
+"bucket_ok": false,
+"bucket_suggested": "best-found-online",
+"confidence": "low"
+},
+{
+"set": "TB3.0",
+"task": "interleaved-vigenere",
+"anchor_class": "python-code",
+"anchor_kind": "synthetic cipher sample generator",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "sample generator script",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "sample ciphertext/plaintext",
+"class": "text-data",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "english stats generator",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "english stats JSON",
+"class": "structured-data",
+"role": "derived",
+"derived_from": 2
+},
+{
+"what": "system word list",
+"class": "text-data",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "build-from-spec",
+"domain": "security",
+"domain_detail": "classical cipher cracking",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "intrastat-meldung",
+"anchor_class": "running-service",
+"anchor_kind": "simulated business system server",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "multi-role Flask simulator",
+"class": "running-service",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "SOP documents",
+"class": "document",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "prior-period XML/PDF/CSV",
+"class": "document",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "endpoint credentials YAML",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "contract docx and code table",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "analyze-answer",
+"domain": "business-finance-ops",
+"domain_detail": "Intrastat customs filing",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "jax-speedrun-gpu",
+"anchor_class": "text-data",
+"anchor_kind": "pretokenized web text corpus",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "FineWeb token shards",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "fetch script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "train/load starter stubs",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "train-evaluate-ml",
+"domain": "data-science-ml",
+"domain_detail": "LM training speedrun",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "ks-solver-cpp",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "hidden PDE oracle header",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "oracle header",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "build-from-spec",
+"domain": "scientific-computing",
+"domain_detail": "PDE numerical solver",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "kv-live-surgery",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "C network server source",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "KV server C source",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "stripped static server binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "Rust load generator",
+"class": "other-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "entrypoint and compose",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "optimize",
+"domain": "systems-os",
+"domain_detail": "live process patching",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "lake-temp-glm",
+"anchor_class": "tabular-data",
+"anchor_kind": "real lake observation and forcing CSVs",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "lake forcing and profiles",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "LSTM model/train scripts",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "torch install",
+"class": "config",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "train-evaluate-ml",
+"domain": "physical-sciences-engineering",
+"domain_detail": "lake temperature profiles",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "layout-config-recreation",
+"anchor_class": "media",
+"anchor_kind": "poster layout image",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "target layout image",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "component PNG library",
+"class": "media",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "render script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Google Fonts archive",
+"class": "archive",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "reverse-engineer",
+"domain": "media-documents",
+"domain_detail": "poster layout recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "layout-config-recreation2",
+"anchor_class": "media",
+"anchor_kind": "graphic design layout image",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "target layout image",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "component PNG library",
+"class": "media",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "render script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Google Fonts archive",
+"class": "archive",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "reverse-engineer",
+"domain": "media-documents",
+"domain_detail": "poster layout recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "lean-midpoint-proof",
+"anchor_class": "other-code",
+"anchor_kind": "Lean axiom system with sorry",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Lean geometry project",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "git baseline",
+"class": "git-repo",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "Lean toolchain",
+"class": "config",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "prove-verify",
+"domain": "math-formal",
+"domain_detail": "axiomatic geometry proof",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "legacy-utility-triage",
+"anchor_class": "running-service",
+"anchor_kind": "legacy billing web app",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "legacy billing app",
+"class": "running-service",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "case database JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "operator manual",
+"class": "document",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "modern case packet",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "VNC browser workstation",
+"class": "running-service",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "analyze-answer",
+"domain": "business-finance-ops",
+"domain_detail": "utility billing exceptions",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "live-database-cutover",
+"anchor_class": "python-code",
+"anchor_kind": "web API backed by MySQL",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "FastAPI app",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "MySQL seed scripts",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "seeded MySQL datadir",
+"class": "archive",
+"role": "derived",
+"derived_from": 1
+},
+{
+"what": "load-generating customer",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Postgres init",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "git baseline",
+"class": "git-repo",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "running-service",
+"agent_action": "port-migrate",
+"domain": "data-engineering",
+"domain_detail": "live MySQL to Postgres",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "math-eval-grader",
+"anchor_class": "document",
+"anchor_kind": "competition exam and key PDFs",
+"code_scale": "none",
+"assets": [
+{
+"what": "AIME and LaTeX-set PDFs",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "problems JSONL",
+"class": "structured-data",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "eval protocol and dev suite",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Qwen math model",
+"class": "ml-model",
+"role": "sourced",
+"derived_from": null
+}
+],
+"agent_works_on": "document",
+"agent_action": "train-evaluate-ml",
+"domain": "data-science-ml",
+"domain_detail": "math LLM evaluation",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "medical-claims-processing",
+"anchor_class": "running-service",
+"anchor_kind": "claims review web app",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "claims workspace app",
+"class": "running-service",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "case JSON files",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "invoice PDFs and PNGs",
+"class": "document",
+"role": "derived",
+"derived_from": 1
+},
+{
+"what": "buggy flag engine",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "Playwright browser sidecar",
+"class": "running-service",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "business-finance-ops",
+"domain_detail": "medical invoice claims",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "memcached-backdoor",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream key-value cache source",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "memcached source",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "backdoor patch",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "stripped backdoored binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "Ghidra",
+"class": "archive",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "security",
+"domain_detail": "backdoor detection",
+"bucket_ok": false,
+"bucket_suggested": "best-found-online",
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "mp-checkpoint-consolidation",
+"anchor_class": "ml-model",
+"anchor_kind": "reference MoE model definition",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "reference HF model",
+"class": "ml-model",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "parallelism framework source",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "16 sharded checkpoints",
+"class": "ml-model",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "reference logits",
+"class": "ml-model",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "ml-model",
+"agent_action": "transform-convert",
+"domain": "data-science-ml",
+"domain_detail": "sharded checkpoint merge",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "music-harmony",
+"anchor_class": "document",
+"anchor_kind": "music excerpt PDF",
+"code_scale": "none",
+"assets": [
+{
+"what": "music excerpt PDF",
+"class": "document",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "document",
+"agent_action": "build-from-spec",
+"domain": "media-documents",
+"domain_detail": "Bach chorale harmonization",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "mvcc-lsm-compaction",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "reduced C++ storage engine model",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "MVCC LSM C++ model",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "crash report",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "regression tests",
+"class": "c-cpp-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "c-cpp-code",
+"agent_action": "debug-fix",
+"domain": "systems-os",
+"domain_detail": "LSM visibility bug",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "nextjs-performance",
+"anchor_class": "other-code",
+"anchor_kind": "Next.js web app",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "Next.js warehouse app",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "warehouse API sidecar",
+"class": "running-service",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "optimize",
+"domain": "software-engineering",
+"domain_detail": "web app latency",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "ontology-kg-querying",
+"anchor_class": "structured-data",
+"anchor_kind": "OWL ontology with RDF submissions",
+"code_scale": "none",
+"assets": [
+{
+"what": "OWL ontology files",
+"class": "structured-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Turtle submissions",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "structured-data",
+"agent_action": "build-from-spec",
+"domain": "data-engineering",
+"domain_detail": "railway knowledge graph",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "payments-pipeline-fix",
+"anchor_class": "python-code",
+"anchor_kind": "Kafka consumer worker",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "Kafka worker",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "supervisor config",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "history seeder",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "customer service",
+"class": "running-service",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "seeded transactions topic",
+"class": "database",
+"role": "derived",
+"derived_from": 2
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "optimize",
+"domain": "data-engineering",
+"domain_detail": "transaction stream worker",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "photonic-waveguide-routing",
+"anchor_class": "structured-data",
+"anchor_kind": "layout geometry spec",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "layout spec",
+"class": "structured-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "routing checker",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "structured-data",
+"agent_action": "optimize",
+"domain": "physical-sciences-engineering",
+"domain_detail": "photonic waveguide routing",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "pretrain-shard-corruption",
+"anchor_class": "text-data",
+"anchor_kind": "text corpus with tokenizer",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "corpus and tokenizer",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "tokenized training chunks",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "training scripts",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "decoy git history",
+"class": "git-repo",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "recover-data",
+"domain": "data-science-ml",
+"domain_detail": "corrupted pretraining shards",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "production-planning",
+"anchor_class": "database",
+"anchor_kind": "ERP/MES/WMS SQLite databases",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "ERP MES WMS databases",
+"class": "database",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "db gateway script",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "connections config",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "gateway README",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "database",
+"agent_action": "build-from-spec",
+"domain": "business-finance-ops",
+"domain_detail": "manufacturing production planning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "protein-autointerp-disulfide",
+"anchor_class": "scientific-data",
+"anchor_kind": "labeled protein sequences",
+"code_scale": "none",
+"assets": [
+{
+"what": "protein sequence JSON",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "life-sciences",
+"domain_detail": "protein residue feature",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "react-lead-form",
+"anchor_class": "other-code",
+"anchor_kind": "React TypeScript intake app",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "React lead app",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "schema policy calendar specs",
+"class": "config",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "lead input JSON",
+"class": "structured-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "lead intake pipeline",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "retro-console-soc",
+"anchor_class": "text-data",
+"anchor_kind": "test ROM hex dump",
+"code_scale": "none",
+"assets": [
+{
+"what": "test ROM hex",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "FPGA console SoC",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "risk-scorer-replay",
+"anchor_class": "c-cpp-code",
+"anchor_kind": "legacy scorer C program",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "legacy scorer source",
+"class": "c-cpp-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "compiled scorer binary",
+"class": "binary",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "parityctl evaluator",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "incident packet CSV/JSON",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "migration docs",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "reverse-engineer",
+"domain": "business-finance-ops",
+"domain_detail": "model risk scorer parity",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "roy-polymorph-cn",
+"anchor_class": "scientific-data",
+"anchor_kind": "ROY conformer molecule files",
+"code_scale": "none",
+"assets": [
+{
+"what": "conformer mol files",
+"class": "scientific-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "color and wavenumber CSV",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "scientific-data",
+"agent_action": "analyze-answer",
+"domain": "physical-sciences-engineering",
+"domain_detail": "polymorph spectroscopy",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "rs-archive-clone",
+"anchor_class": "binary",
+"anchor_kind": "reference archive tool binary",
+"code_scale": "none",
+"assets": [
+{
+"what": "reference tool binaries",
+"class": "binary",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "example archive package",
+"class": "archive",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "sample files and manifest",
+"class": "text-data",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "software-engineering",
+"domain_detail": "archive format cloning",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "satb-audio-transcription",
+"anchor_class": "media",
+"anchor_kind": "choral audio recording",
+"code_scale": "none",
+"assets": [
+{
+"what": "SATB chorale mp3",
+"class": "media",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "media",
+"agent_action": "transform-convert",
+"domain": "media-documents",
+"domain_detail": "audio to music score",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "session-window-debug",
+"anchor_class": "python-code",
+"anchor_kind": "buggy stream-processing package",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "session window package",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "design document",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "session window processor",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "sglang-qwen-burst",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream LLM serving framework",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "sglang repo at pinned commit",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "LLM serving streaming",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "shadow-relay",
+"anchor_class": "binary",
+"anchor_kind": "synthetic exfiltration capture set",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "flow logs, DNS, C2 capture, VM binaries",
+"class": "binary",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "git baseline",
+"class": "git-repo",
+"role": "derived",
+"derived_from": 0
+}
+],
+"agent_works_on": "binary",
+"agent_action": "reverse-engineer",
+"domain": "security",
+"domain_detail": "exfiltration forensics",
+"bucket_ok": false,
+"bucket_suggested": "best-generated",
+"confidence": "medium"
+},
+{
+"set": "TB3.0",
+"task": "sound-change-cascade",
+"anchor_class": "text-data",
+"anchor_kind": "proto/modern word pair list",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "word pair TSV",
+"class": "text-data",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "rule engine",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "text-data",
+"agent_action": "reverse-engineer",
+"domain": "games-puzzles-creative",
+"domain_detail": "historical linguistics rules",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "takens-embedding-lean",
+"anchor_class": "other-code",
+"anchor_kind": "Lean project theorem stub",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "Lean Takens project",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "Mathlib cache",
+"class": "archive",
+"role": "stock",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "prove-verify",
+"domain": "math-formal",
+"domain_detail": "Takens embedding theorem",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "telecom-entity-resolution",
+"anchor_class": "tabular-data",
+"anchor_kind": "multi-system customer CSVs",
+"code_scale": "none",
+"assets": [
+{
+"what": "four billing CSVs",
+"class": "tabular-data",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "tabular-data",
+"agent_action": "analyze-answer",
+"domain": "data-engineering",
+"domain_detail": "customer entity resolution",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "uefi-bootkit",
+"anchor_class": "vm-image",
+"anchor_kind": "patched UEFI firmware plus disk",
+"code_scale": "snippet",
+"assets": [
+{
+"what": "patched OVMF firmware and disk",
+"class": "vm-image",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "NVRAM vars",
+"class": "binary",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "VM run script",
+"class": "config",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "binary",
+"agent_action": "security-attack-defend",
+"domain": "security",
+"domain_detail": "UEFI bootkit removal",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "vba-userform-port",
+"anchor_class": "other-code",
+"anchor_kind": "exported VBA app project",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "VBA forms and modules",
+"class": "other-code",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "sheet CSVs",
+"class": "tabular-data",
+"role": "authored",
+"derived_from": null
+},
+{
+"what": "xlsm workbook",
+"class": "document",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "form screenshots",
+"class": "media",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "README and traces",
+"class": "document",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "other-code",
+"agent_action": "port-migrate",
+"domain": "software-engineering",
+"domain_detail": "Excel VBA to web app",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "vf2-speedup-networkx",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "software-engineering",
+"domain_detail": "graph isomorphism library",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "vllm-deepseek-streaming",
+"anchor_class": "upstream-project",
+"anchor_kind": "upstream LLM inference engine",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "vllm package",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "software-engineering",
+"domain_detail": "LLM streaming parser",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "vpp-loss-divergence",
+"anchor_class": "upstream-project",
+"anchor_kind": "installed training framework packages",
+"code_scale": "real-project",
+"assets": [
+{
+"what": "NeMo megatron-core install",
+"class": "upstream-project",
+"role": "anchor",
+"derived_from": null
+},
+{
+"what": "CPU compatibility patches",
+"class": "python-code",
+"role": "derived",
+"derived_from": 0
+},
+{
+"what": "pretrain harness",
+"class": "python-code",
+"role": "authored",
+"derived_from": null
+}
+],
+"agent_works_on": "upstream-project",
+"agent_action": "debug-fix",
+"domain": "data-science-ml",
+"domain_detail": "pipeline parallel training bug",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "wal-recovery-ordering",
+"anchor_class": "python-code",
+"anchor_kind": "buggy WAL storage package",
+"code_scale": "mini-package",
+"assets": [
+{
+"what": "WAL engine package",
+"class": "python-code",
+"role": "anchor",
+"derived_from": null
+}
+],
+"agent_works_on": "python-code",
+"agent_action": "debug-fix",
+"domain": "systems-os",
+"domain_detail": "write-ahead log recovery",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+},
+{
+"set": "TB3.0",
+"task": "wdm-design",
+"anchor_class": null,
+"anchor_kind": "no assets",
+"code_scale": "none",
+"assets": [],
+"agent_works_on": null,
+"agent_action": "build-from-spec",
+"domain": "physical-sciences-engineering",
+"domain_detail": "photonic wavelength demultiplexer",
+"bucket_ok": true,
+"bucket_suggested": null,
+"confidence": "high"
+}
+]

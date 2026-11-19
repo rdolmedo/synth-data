@@ -1,0 +1,129 @@
+{
+ "partition": "knowledge",
+ "category": "Computer Science/AI",
+ "subject": "Robotics",
+ "target_leaves": 8,
+ "expected_problems": 17,
+ "leaves": [
+  {
+   "leaf": "Eighteenth-century androids and writing automata",
+   "scope": "Documented construction details of historical automata such as the Jaquet-Droz Writer, Draughtsman and Musician, Vaucanson's flute player and duck, and the Maillardet automaton: cam counts, pieces in the mechanism, number of characters or drawings stored, builders, dates and exhibition history as reported in period accounts. A question could ask the solver to combine several reported specifications, for example working out stored-program capacity or putting rival claims in date order.",
+   "queries": [
+    "Jaquet-Droz writer automaton",
+    "Vaucanson flute player mechanism",
+    "Maillardet automaton drawings",
+    "history of automata androids",
+    "mechanical figures cams clockwork"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Robots and animatronics in US case law",
+   "scope": "US court decisions where the meaning or legal status of a robot or automated machine mattered: tariff classification of robot toys and figures, amusement-tax disputes over animatronic performers, salvage 'telepossession' through remotely operated submersibles, and product-liability or malpractice claims involving surgical robots. A question could ask which legal test a court applied and how the outcome would change if the facts changed, or ask the solver to compare holdings across jurisdictions.",
+   "queries": [
+    "animatronic robot performer tax",
+    "robotic surgical system liability",
+    "telepossession submersible salvage",
+    "robot toy tariff classification",
+    "industrial robot workplace injury"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Published PUMA 560 and Stanford Arm parameters",
+   "scope": "Denavit-Hartenberg tables, link masses, inertias, motor gear ratios and friction values for classic research manipulators. Different papers report these parameters differently and conflict with one another. A question could ask the solver to compute a joint torque, a workspace extent or a gravity load from one paper's values, or to quantify how far two published parameter sets disagree.",
+   "queries": [
+    "PUMA 560 dynamic parameters",
+    "Stanford arm kinematics",
+    "Denavit-Hartenberg parameter table",
+    "manipulator inertial parameter identification",
+    "PUMA 560 consensus parameters"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "McKibben pneumatic artificial muscle force models",
+   "scope": "Static and dynamic models of braided pneumatic muscles, including the Chou-Hannaford geometric model, end-effect and braid-friction corrections, the limiting braid angle, and experimentally reported dimensions, pressures and contraction ratios. A question could ask for the force or maximum contraction of a specific reported muscle, computed by combining the model with that paper's geometry.",
+   "queries": [
+    "McKibben artificial muscle model",
+    "braided pneumatic actuator force",
+    "Chou Hannaford muscle",
+    "pneumatic muscle braid angle",
+    "pleated pneumatic artificial muscle"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Planetary rover mobility and terramechanics",
+   "scope": "Rocker-bogie suspension geometry, wheel dimensions and grouser designs of particular rovers (Lunokhod, Sojourner, Spirit/Opportunity, Curiosity, Yutu), Bekker and Wong soil parameters measured for lunar and Martian regolith simulants, and documented embedding or slip incidents. A question could ask the solver to apply Bekker pressure-sinkage equations to a given rover's load and wheel geometry, or to compare traverse capabilities across missions.",
+   "queries": [
+    "rocker-bogie suspension rover",
+    "Bekker pressure sinkage regolith",
+    "Mars rover wheel slip",
+    "lunar rover terramechanics",
+    "Lunokhod chassis performance"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Anthropomorphic robot hand designs and grasp taxonomies",
+   "scope": "Specifications of dexterous hands such as the Utah/MIT, Stanford/JPL (Salisbury), DLR, Shadow and Robonaut hands: degrees of freedom, tendon counts and routing schemes (n, n+1, 2n), and actuator placement. Also the categories defined in the Cutkosky and Feix (GRASP) grasp taxonomies. A question could ask the solver to count actuators from a given tendon scheme, or to map a described grasp onto a taxonomy class and its parent categories.",
+   "queries": [
+    "Utah MIT dexterous hand",
+    "tendon-driven robot hand",
+    "GRASP taxonomy human grasp",
+    "Cutkosky grasp taxonomy",
+    "Salisbury hand kinematics"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Passive dynamic walking and compass-gait models",
+   "scope": "Reported parameters and results for passive and minimally actuated walkers: McGeer's machines, the simplest walking model, compass-gait period-doubling routes to chaos, the Cornell, Delft and MIT powered walkers, and their measured energetic cost of transport. A question could ask the solver to relate slope angle, leg parameters and step period from the published scaling laws, or to compare cost-of-transport figures across machines.",
+   "queries": [
+    "passive dynamic walking McGeer",
+    "compass gait period doubling",
+    "simplest walking model slope",
+    "cost of transport biped",
+    "Cornell efficient biped"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Visual-inertial SLAM benchmark dataset specifications",
+   "scope": "Sensor rigs and collection details of SLAM and odometry datasets such as KITTI, EuRoC MAV, TUM RGB-D, TUM VI, Oxford RobotCar and Newer College: camera resolution and frame rate, stereo baseline, IMU rate, ground-truth system, sequence lengths and evaluation metrics (ATE, RPE). A question could ask for a derived quantity, such as depth resolution at a given range from the stereo baseline, total sequence duration, or which dataset meets a stated set of sensing constraints.",
+   "queries": [
+    "EuRoC MAV dataset",
+    "KITTI odometry benchmark sensors",
+    "TUM RGB-D benchmark",
+    "visual inertial dataset ground truth",
+    "absolute trajectory error evaluation"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

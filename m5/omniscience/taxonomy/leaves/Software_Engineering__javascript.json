@@ -1,0 +1,1195 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "javascript",
+ "weight": 0.018306,
+ "leaves": [
+  {
+   "leaf": "ECMAScript history, editions and TC39 standardization",
+   "scope": "The history of JavaScript from Netscape's Mocha/LiveScript and Microsoft JScript through the ECMA-262 editions (ES1 to ES2026), the abandoned ES4/ActionScript/E4X branch, Harmony, and the TC39 proposal stage process.",
+   "queries": [
+    "Brendan Eich Netscape Mocha LiveScript JavaScript 1995",
+    "ECMA-262 edition ECMAScript 2015 published June",
+    "ECMAScript 4 abandoned Harmony ActionScript 3",
+    "TC39 proposal stage 3 champion advanced"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Type coercion, equality and abstract operations",
+   "scope": "Implicit conversion rules (ToPrimitive, ToNumber, ToString), loose vs strict equality, SameValue/SameValueZero, typeof and instanceof results, falsy values and the document.all quirk.",
+   "queries": [
+    "abstract equality comparison algorithm type coercion",
+    "ToPrimitive Symbol.toPrimitive valueOf toString hint",
+    "SameValueZero Object.is NaN negative zero",
+    "typeof operator null object result table"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Scope, hoisting, closures and this binding",
+   "scope": "Scoping with var/let/const, the temporal dead zone, hoisting, closures, strict versus sloppy mode, this binding via call/apply/bind and arrow functions, and the arguments object.",
+   "queries": [
+    "temporal dead zone let const hoisting",
+    "strict mode use strict differences sloppy",
+    "Function.prototype.bind this arrow functions lexical",
+    "arguments object callee non-strict mapped parameters"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Operators, syntax additions and automatic semicolon insertion",
+   "scope": "Grammar-level features: ASI rules and restricted productions, operator precedence, optional chaining, nullish coalescing, logical assignment, exponentiation, numeric separators, labels, comma/void/delete, and destructuring/spread syntax.",
+   "queries": [
+    "automatic semicolon insertion rules restricted productions",
+    "optional chaining nullish coalescing operator precedence",
+    "logical assignment operators numeric separators ES2021",
+    "destructuring assignment default values rest spread"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Object model, classes and metaprogramming",
+   "scope": "Prototype chains, property descriptors and Object static methods, class syntax with private fields and static blocks, well-known Symbols, Proxy traps and their invariants, and the Reflect API.",
+   "queries": [
+    "Object.defineProperty property descriptor writable configurable enumerable",
+    "class private fields static initialization blocks",
+    "Proxy handler traps invariants Reflect",
+    "well-known symbols Symbol.iterator Symbol.species Symbol.hasInstance"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Promises, async/await and the event loop",
+   "scope": "Promise states and combinators, async function and await resolution semantics, microtask and macrotask queues, queueMicrotask, job ordering and unhandled rejection tracking.",
+   "queries": [
+    "Promise.allSettled Promise.any AggregateError combinators",
+    "microtask queue event loop job ordering",
+    "async function await thenable resolution ticks",
+    "unhandledrejection event Promise.withResolvers"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Iterators, generators and async iteration",
+   "scope": "Iteration protocols, generator functions and generator objects, for-of and for-await-of, async generators, iterator helpers and Array.fromAsync.",
+   "queries": [
+    "iteration protocols iterator next done value",
+    "generator function yield return throw methods",
+    "for await of async iterator Symbol.asyncIterator",
+    "iterator helpers map filter take drop"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numbers, BigInt and Math",
+   "scope": "IEEE 754 double representation, Number constants such as MAX_SAFE_INTEGER and EPSILON, number formatting and parsing methods, BigInt semantics, and Math functions including later additions such as f16round and sumPrecise.",
+   "queries": [
+    "Number.MAX_SAFE_INTEGER EPSILON IEEE 754 double precision",
+    "BigInt literal n suffix asUintN mixing types",
+    "toFixed toPrecision parseInt radix behavior",
+    "Math.fround Math.clz32 Math.imul functions"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Strings, Unicode and template literals",
+   "scope": "UTF-16 code units and surrogate pairs, code point methods, normalization forms, well-formed string methods, String.raw and tagged templates, and string methods added in each edition.",
+   "queries": [
+    "UTF-16 surrogate pairs codePointAt fromCodePoint",
+    "String.prototype.normalize NFC NFD forms",
+    "tagged template literals String.raw strings raw",
+    "isWellFormed toWellFormed lone surrogates replaceAll"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Regular expressions",
+   "scope": "RegExp syntax and flags (g, i, m, s, u, v, y, d), named capture groups, lookbehind, Unicode property escapes, lastIndex behavior and matchAll/replace semantics.",
+   "queries": [
+    "RegExp flags sticky dotAll hasIndices unicodeSets",
+    "named capture groups lookbehind assertions ES2018",
+    "Unicode property escapes Script General_Category regex",
+    "RegExp lastIndex matchAll replace special patterns"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Arrays and keyed collections",
+   "scope": "Array methods including the change-array-by-copy variants, flat/at/findLast, holes and array-likes, grouping, and Map, Set (with the set-algebra methods), WeakMap, WeakSet, WeakRef and FinalizationRegistry.",
+   "queries": [
+    "Array.prototype.toSorted toReversed with change array by copy",
+    "Object.groupBy Map.groupBy grouping",
+    "Set.prototype.union intersection difference symmetricDifference",
+    "WeakRef FinalizationRegistry garbage collection"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Binary data: typed arrays, ArrayBuffer and Atomics",
+   "scope": "ArrayBuffer (including resizable buffers and transfer), the TypedArray subclasses, DataView endianness, SharedArrayBuffer with cross-origin isolation, Atomics wait/notify and Float16Array.",
+   "queries": [
+    "TypedArray Uint8ClampedArray Float64Array element size",
+    "DataView getUint32 littleEndian byte order",
+    "SharedArrayBuffer Atomics.wait notify cross-origin isolation",
+    "resizable ArrayBuffer maxByteLength transfer"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Dates, Temporal and date libraries",
+   "scope": "The legacy Date object (epoch milliseconds, parsing quirks, getYear), the Temporal API types (PlainDate, ZonedDateTime, Instant, Duration), and libraries such as Moment.js, Luxon, date-fns and Day.js.",
+   "queries": [
+    "Date object milliseconds since epoch parsing format",
+    "Temporal PlainDate ZonedDateTime Instant Duration",
+    "Moment.js maintenance mode Luxon Day.js",
+    "date-fns format parse function locale"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Intl internationalization API",
+   "scope": "The ECMA-402 constructors (Collator, DateTimeFormat, NumberFormat, PluralRules, RelativeTimeFormat, ListFormat, Segmenter, DisplayNames, DurationFormat), their options and locale negotiation.",
+   "queries": [
+    "ECMA-402 Intl.DateTimeFormat options timeZone",
+    "Intl.NumberFormat notation compact unit style",
+    "Intl.PluralRules RelativeTimeFormat ListFormat",
+    "Intl.Segmenter granularity grapheme word sentence"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Modules: ES modules, CommonJS and loaders",
+   "scope": "import/export syntax and live bindings, module evaluation order, dynamic import, import.meta, import maps, import attributes and JSON modules, top-level await, CommonJS interop, and the history of AMD/UMD/SystemJS.",
+   "queries": [
+    "ES modules import export live bindings",
+    "import maps script type importmap",
+    "import attributes with type json modules",
+    "CommonJS require AMD RequireJS UMD module format"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Errors, JSON and structured cloning",
+   "scope": "The built-in Error types, error cause, AggregateError and SuppressedError, Error.captureStackTrace and stack formats, JSON.parse/stringify reviver and replacer semantics, and the structured clone algorithm.",
+   "queries": [
+    "Error cause option RangeError TypeError SyntaxError",
+    "JSON.stringify replacer space toJSON behavior",
+    "structuredClone structured clone algorithm transferable",
+    "Error.captureStackTrace stackTraceLimit stack trace API"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "V8 engine internals and release history",
+   "scope": "V8's compilation pipeline (Ignition, Sparkplug, Maglev, TurboFan, Turboshaft), hidden classes and inline caches, the Orinoco garbage collector, pointer compression, and the features announced in each V8 version.",
+   "queries": [
+    "V8 Ignition interpreter TurboFan optimizing compiler",
+    "Maglev Sparkplug baseline compiler V8 release",
+    "hidden classes inline caching V8 maps",
+    "Orinoco garbage collector pointer compression V8"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Non-V8 JavaScript engines",
+   "scope": "SpiderMonkey (IonMonkey, Warp), JavaScriptCore (LLInt, Baseline, DFG, FTL), Chakra/ChakraCore, and embedded or alternative engines such as QuickJS, Hermes, Duktape, JerryScript, Rhino, Nashorn and GraalJS.",
+   "queries": [
+    "SpiderMonkey IonMonkey WarpBuilder JIT Firefox",
+    "JavaScriptCore DFG FTL JIT tiers",
+    "Chakra engine Internet Explorer Edge ChakraCore",
+    "QuickJS Hermes Duktape Rhino Nashorn engine"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Node.js runtime: core modules and release lines",
+   "scope": "Node.js core APIs (fs, events, streams, buffer, worker_threads, child_process, the built-in test runner, the permission model), libuv, Node-API, CLI flags, and release/LTS history including codenames and the io.js fork.",
+   "queries": [
+    "Node.js LTS codename release schedule end-of-life",
+    "Node.js streams backpressure Readable Writable pipeline",
+    "worker_threads child_process cluster module Node",
+    "Node-API N-API ABI stability version"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Deno and Bun runtimes",
+   "scope": "Deno's permission flags, standard library, JSR, deno.json and Deno 2's Node compatibility, and Bun's JavaScriptCore-based runtime, package manager, bundler and test runner, with the version history of both.",
+   "queries": [
+    "Deno permissions allow-net allow-read flags",
+    "Deno 2 npm compatibility JSR deno.json",
+    "Bun runtime JavaScriptCore Zig bun install",
+    "Bun 1.0 release test runner bundler"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Package managers and the npm registry",
+   "scope": "npm, Yarn (Classic, Berry, Plug'n'Play) and pnpm, package.json fields (exports, engines, workspaces), semver range syntax, lockfiles, npx, and registry incidents such as left-pad.",
+   "queries": [
+    "package.json exports field conditional exports",
+    "semver caret tilde range npm version",
+    "Yarn Plug'n'Play pnpm content-addressable store",
+    "npm left-pad incident unpublish policy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bundlers, build tools and source maps",
+   "scope": "webpack (loaders, plugins, Module Federation), Rollup, Vite, esbuild, Parcel, Turbopack and Rspack, tree shaking and code splitting, the Grunt/Gulp task runners, and the Source Map v3 format.",
+   "queries": [
+    "webpack loaders plugins module federation configuration",
+    "Vite Rollup esbuild dev server dependency pre-bundling",
+    "tree shaking sideEffects code splitting chunks",
+    "source map revision 3 mappings VLQ"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Transpilers, polyfills and minifiers",
+   "scope": "Babel presets and plugins including preset-env, SWC, Traceur, core-js and regenerator, browserslist queries, and the Closure Compiler, UglifyJS and Terser minifiers.",
+   "queries": [
+    "Babel preset-env useBuiltIns core-js",
+    "browserslist query defaults last 2 versions",
+    "Terser UglifyJS minify mangle compress options",
+    "Google Closure Compiler ADVANCED_OPTIMIZATIONS"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "TypeScript language and compiler",
+   "scope": "TypeScript type system features (generics, conditional and mapped types, satisfies, enums), tsconfig compiler options, declaration files and DefinitelyTyped, and per-version release notes including the native Go compiler port.",
+   "queries": [
+    "TypeScript release notes satisfies operator",
+    "tsconfig compilerOptions strict moduleResolution target",
+    "conditional types infer mapped types template literal",
+    "DefinitelyTyped declaration files d.ts types"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Linters, formatters and static type checkers",
+   "scope": "ESLint (rules, flat config, plugins), JSLint, JSHint, Prettier options, Biome/Rome, StandardJS and the Flow type checker.",
+   "queries": [
+    "ESLint flat config eslint.config.js rules",
+    "Prettier options printWidth trailingComma",
+    "JSLint JSHint Douglas Crockford linter",
+    "Flow static type checker Facebook annotations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Testing frameworks and browser automation",
+   "scope": "The APIs and configuration of unit and end-to-end test tools: Jest, Mocha, Jasmine, QUnit, Vitest, Karma, Chai, Sinon, Cypress, Playwright, Puppeteer, Selenium WebDriver and Istanbul coverage.",
+   "queries": [
+    "Jest configuration snapshot testing mock functions",
+    "Mocha Chai Sinon assertion spies stubs",
+    "Playwright Cypress Puppeteer end-to-end browser testing",
+    "Vitest Karma QUnit Jasmine test runner"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "React",
+   "scope": "React components, hooks, JSX, Fiber reconciliation, concurrent features, Server Components, the React Compiler, and API changes and deprecations by version.",
+   "queries": [
+    "React hooks useEffect useMemo useTransition",
+    "React Fiber reconciliation concurrent rendering",
+    "React 19 Server Components actions use",
+    "React release changelog deprecated lifecycle methods"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vue.js",
+   "scope": "Vue's reactivity system, the Options and Composition APIs, single-file components, directives, migration from Vue 2 to 3, Pinia/Vuex, Vue Router and release codenames.",
+   "queries": [
+    "Vue Composition API ref reactive computed",
+    "Vue directives v-model v-if v-for",
+    "Vue 3 migration guide breaking changes",
+    "Pinia Vuex Vue Router navigation guards"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Angular and AngularJS",
+   "scope": "AngularJS 1.x (scopes, digest cycle, directives) and Angular 2+ (components, dependency injection, RxJS integration, signals, standalone components, Ivy, the CLI) with their version history.",
+   "queries": [
+    "AngularJS digest cycle scope watchers directives",
+    "Angular signals standalone components release",
+    "Angular Ivy renderer dependency injection",
+    "Angular CLI ng generate schematics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Svelte, Solid and lightweight UI libraries",
+   "scope": "Compiler-based and fine-grained-reactivity UI libraries: Svelte (runes), SolidJS, Preact, Lit and other Web Components libraries, Qwik, Alpine.js, Mithril and Inferno.",
+   "queries": [
+    "Svelte 5 runes state derived effect",
+    "SolidJS signals createSignal fine-grained reactivity",
+    "Preact Lit web components LitElement",
+    "Qwik resumability Alpine.js directives"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "jQuery-era and legacy client-side libraries",
+   "scope": "jQuery (selectors, $.ajax, Deferred, versions), Prototype.js, script.aculo.us, MooTools, Dojo Toolkit, YUI, Ext JS, Backbone.js, Knockout and Ember.js, and their histories.",
+   "queries": [
+    "jQuery ajax Deferred selectors version release",
+    "Prototype.js MooTools script.aculo.us Dojo Toolkit",
+    "Backbone.js models views collections router",
+    "Ember.js Knockout.js YUI library history"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Utility, reactive and state-management libraries",
+   "scope": "General-purpose libraries such as Lodash, Underscore, Ramda, Immutable.js and the RxJS operators, plus state managers such as Redux Toolkit, MobX, Zustand, XState and TanStack Query.",
+   "queries": [
+    "Lodash Underscore debounce throttle chain functions",
+    "RxJS operators Observable switchMap mergeMap",
+    "Redux Toolkit createSlice reducers store middleware",
+    "MobX observable Zustand XState state machines"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Server-side web frameworks for Node.js",
+   "scope": "Express middleware and routing, Koa, Fastify, Hapi, NestJS, Meteor, Sails and Socket.IO, with their APIs and version changes.",
+   "queries": [
+    "Express middleware app.use router req res",
+    "Fastify schema plugins hooks performance",
+    "NestJS modules providers decorators controllers",
+    "Koa Hapi Meteor Socket.IO framework"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Meta-frameworks, SSR and static site generation",
+   "scope": "Full-stack and static-site frameworks (Next.js App Router and ISR, Nuxt, Remix/React Router, Gatsby, Astro islands, SvelteKit, Eleventy) and rendering strategies such as hydration and streaming SSR.",
+   "queries": [
+    "Next.js App Router getServerSideProps incremental static regeneration",
+    "Nuxt Remix Gatsby server-side rendering",
+    "Astro islands architecture partial hydration",
+    "SvelteKit load functions adapters Eleventy"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "DOM and browser events",
+   "scope": "DOM node interfaces, traversal and manipulation, event propagation phases, addEventListener options, custom events, the Mutation/Intersection/Resize observers, Shadow DOM and custom elements.",
+   "queries": [
+    "addEventListener options passive once capture",
+    "event bubbling capturing stopPropagation phases",
+    "MutationObserver IntersectionObserver ResizeObserver callback",
+    "custom elements shadow DOM attachShadow lifecycle callbacks"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Web platform APIs: networking, storage and workers",
+   "scope": "fetch and AbortController, the history of XMLHttpRequest, WebSockets and Server-Sent Events, Web Workers, Service Workers and the Cache API, localStorage, IndexedDB, the Streams API, and Performance timing APIs.",
+   "queries": [
+    "Fetch API Request Response AbortController signal",
+    "Service Worker lifecycle install activate Cache API",
+    "IndexedDB transactions object stores localStorage quota",
+    "XMLHttpRequest readyState Ajax history Microsoft"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Graphics, multimedia and WebAssembly from JavaScript",
+   "scope": "Canvas 2D, WebGL and WebGPU, Web Audio and WebRTC, libraries such as Three.js, D3.js and Chart.js, and the WebAssembly JavaScript API.",
+   "queries": [
+    "Canvas 2D context drawImage getImageData",
+    "WebGL WebGPU GPU device shader pipeline",
+    "D3.js selections scales Three.js scene renderer",
+    "WebAssembly.instantiate Memory Table JavaScript API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JavaScript and web security",
+   "scope": "The same-origin policy, CORS headers and preflight, CSP directives, XSS and DOM sinks, Trusted Types, prototype pollution, Subresource Integrity, npm supply-chain incidents, and sandboxing such as SES.",
+   "queries": [
+    "Content Security Policy script-src nonce strict-dynamic",
+    "CORS Access-Control-Allow-Origin preflight request",
+    "prototype pollution __proto__ vulnerability CVE",
+    "Trusted Types DOM XSS sinks innerHTML"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Compile-to-JavaScript languages",
+   "scope": "Languages and toolchains that target JavaScript: CoffeeScript, Dart (dart2js), Elm, ClojureScript, ReScript/ReasonML/BuckleScript, PureScript, Haxe, GWT, Scala.js, Kotlin/JS, Emscripten and asm.js.",
+   "queries": [
+    "CoffeeScript syntax compiles to JavaScript Jeremy Ashkenas",
+    "Elm architecture ClojureScript PureScript compiler",
+    "ReScript ReasonML BuckleScript OCaml JavaScript",
+    "Emscripten asm.js GWT Scala.js Kotlin/JS"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Cross-platform desktop and mobile apps with JavaScript",
+   "scope": "Electron (main and renderer processes, contextIsolation, preload), NW.js, Tauri, React Native (the bridge and the New Architecture), Apache Cordova/PhoneGap, Ionic/Capacitor and NativeScript.",
+   "queries": [
+    "Electron main process renderer contextIsolation preload",
+    "React Native new architecture Fabric TurboModules",
+    "Apache Cordova PhoneGap plugins Ionic Capacitor",
+    "NW.js Tauri NativeScript desktop apps"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Strict mode, Annex B and legacy web-compatibility features",
+   "scope": "Semantics of 'use strict' versus sloppy mode and the Annex B legacy features kept for web compatibility, such as the with statement, arguments.callee, __proto__, escape/unescape, HTML-like comments, block-level function quirks and document.all.",
+   "queries": [
+    "use strict directive strict mode restrictions ECMAScript 5",
+    "Annex B additional ECMAScript features web browsers",
+    "with statement arguments.callee strict mode TypeError",
+    "__defineGetter__ escape unescape substr legacy deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "ECMAScript dialects and vendor language extensions",
+   "scope": "Non-standard and pre-standard ECMAScript implementations and their extensions, including Mozilla JavaScript 1.x versions, Microsoft JScript and JScript .NET, ActionScript, E4X, array comprehensions and expression closures.",
+   "queries": [
+    "JavaScript 1.7 1.8 Mozilla new features",
+    "JScript version Internet Explorer script engine",
+    "ActionScript 3.0 ECMAScript AVM2 Flash Player",
+    "E4X ECMAScript for XML ECMA-357 removed Firefox"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Function objects, parameters and tail calls",
+   "scope": "Function declarations, expressions and arrow functions as objects: default and rest parameters, the mapped and unmapped arguments object, the name, length and toString properties, Function constructor variants and proper tail calls.",
+   "queries": [
+    "default parameters rest parameters arguments object mapped",
+    "Function.prototype.toString revision source text",
+    "proper tail calls ES2015 Safari JavaScriptCore",
+    "function name property length inferred arrow function"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "eval, global object, realms and sandboxing",
+   "scope": "Direct and indirect eval, the Function constructor, globalThis and the global object, realms, and isolation mechanisms such as ShadowRealm, SES/Hardened JavaScript compartments, the Node.js vm module and isolated-vm.",
+   "queries": [
+    "direct indirect eval global scope behavior",
+    "ShadowRealm proposal realm isolation importValue",
+    "Hardened JavaScript SES lockdown harden Compartment",
+    "Node.js vm module runInNewContext createContext"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Browser developer tools, Console API and debugging protocols",
+   "scope": "Console API methods and format specifiers, the debugger statement, Chrome and Firefox DevTools features and their history (including Firebug), the Chrome DevTools Protocol and Node.js inspector debugging.",
+   "queries": [
+    "console.table console.time format specifiers Console API",
+    "Chrome DevTools Protocol domains Runtime Debugger",
+    "Firebug Firefox extension web development tool",
+    "node --inspect inspector debugging breakpoints"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Web performance APIs and Core Web Vitals",
+   "scope": "High-resolution timing and performance timeline APIs (User Timing, Navigation and Resource Timing, Long Tasks, Event Timing, Long Animation Frames) and the Core Web Vitals metrics, thresholds and tools such as the web-vitals library and Lighthouse.",
+   "queries": [
+    "Interaction to Next Paint replaces First Input Delay",
+    "Largest Contentful Paint threshold Cumulative Layout Shift",
+    "performance.mark performance.measure User Timing Level 3",
+    "PerformanceObserver Long Tasks API Navigation Timing"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JavaScript benchmark and conformance test suites",
+   "scope": "Engine and browser benchmark suites (SunSpider, Kraken, V8 Benchmark Suite, Octane, Dromaeo, JetStream, Speedometer, ARES-6, Web Tooling Benchmark) and conformance suites such as Test262 and web-platform-tests.",
+   "queries": [
+    "SunSpider JavaScript benchmark WebKit tests",
+    "Octane benchmark retired V8 subtests",
+    "Speedometer 3 browser benchmark responsiveness",
+    "Test262 ECMAScript conformance test suite"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Web Components: Custom Elements, Shadow DOM and Lit",
+   "scope": "The Custom Elements and Shadow DOM specifications (v0 to v1, slots, declarative shadow DOM, form-associated elements), HTML templates and HTML Imports, and libraries built on them such as Polymer, Lit and Stencil.",
+   "queries": [
+    "customElements.define connectedCallback attributeChangedCallback observedAttributes",
+    "Shadow DOM v1 slot declarative shadowrootmode",
+    "Polymer library LitElement lit-html release",
+    "ElementInternals form-associated custom elements"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "CSS-in-JS, CSSOM and CSS Houdini",
+   "scope": "Styling from JavaScript through the CSS Object Model, constructable stylesheets, CSS Typed OM and Houdini worklets, plus CSS-in-JS libraries such as styled-components, Emotion, JSS, Linaria and vanilla-extract.",
+   "queries": [
+    "styled-components tagged template literals theming",
+    "Emotion css prop JSS vanilla-extract zero-runtime",
+    "CSSStyleSheet constructable stylesheets adoptedStyleSheets",
+    "CSS Typed OM Houdini Paint Worklet registerPaint"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Animation libraries and the Web Animations API",
+   "scope": "Scripted animation through requestAnimationFrame, the Web Animations API (Element.animate, KeyframeEffect, timelines, scroll-driven animations) and libraries such as GSAP, anime.js, Velocity.js, Motion (Framer Motion) and Lottie.",
+   "queries": [
+    "Element.animate KeyframeEffect Web Animations API",
+    "GSAP GreenSock timeline tween ScrollTrigger",
+    "Lottie Bodymovin After Effects animation JSON",
+    "Framer Motion animation library spring variants"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "UI component libraries and design systems",
+   "scope": "Reusable component kits and design-system tooling, including Material UI, Ant Design, Bootstrap's JavaScript plugins, Semantic UI, Chakra UI, Radix, Headless UI, shadcn/ui, Vuetify, PrimeNG and Storybook.",
+   "queries": [
+    "Material UI MUI v5 migration styled engine",
+    "Ant Design components version release notes",
+    "Bootstrap 5 JavaScript plugins dropped jQuery",
+    "Storybook Component Story Format addons"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Data visualization and charting libraries",
+   "scope": "Browser charting and visualization libraries such as D3.js and its modules, Chart.js, Highcharts, Apache ECharts, Plotly.js, Vega and Vega-Lite, Observable Plot, Recharts and Google Charts.",
+   "queries": [
+    "D3.js selection data join scales modules",
+    "Chart.js chart types configuration version 4",
+    "Vega-Lite grammar interactive graphics specification",
+    "Apache ECharts Highcharts Plotly.js charting library"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Web mapping and geospatial JavaScript libraries",
+   "scope": "Interactive map and geospatial libraries (Leaflet, OpenLayers, Mapbox GL JS, MapLibre GL JS, Google Maps JavaScript API, CesiumJS, deck.gl, Turf.js) and the formats they consume, such as GeoJSON and vector tiles.",
+   "queries": [
+    "Leaflet map tile layer marker plugin",
+    "Mapbox GL JS license change MapLibre fork",
+    "OpenLayers projection vector source layer",
+    "Turf.js geospatial analysis GeoJSON"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rich text editors and in-browser code editors",
+   "scope": "contenteditable-based editing frameworks (ProseMirror, Quill, Slate, Draft.js, Lexical, TinyMCE, CKEditor, Tiptap) and browser code editors (CodeMirror, Monaco, Ace), including their document models and the execCommand legacy.",
+   "queries": [
+    "ProseMirror schema transactions editor state",
+    "Quill Delta format rich text editor",
+    "CodeMirror 6 Monaco Editor Ace language support",
+    "contenteditable execCommand deprecated Lexical Draft.js"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Schema validation and form libraries",
+   "scope": "Runtime data validation and form-state libraries such as Zod, Yup, Joi, Ajv with JSON Schema, Valibot, io-ts, class-validator, Formik and React Hook Form, and the HTML Constraint Validation API.",
+   "queries": [
+    "Zod schema parse safeParse infer",
+    "Ajv JSON Schema draft validator",
+    "Joi validation hapi object schema",
+    "React Hook Form Formik register validation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Client-side routing, History and Navigation APIs",
+   "scope": "Single-page-app navigation through hash routing, the History API, the Navigation API, URLPattern and View Transitions, and routing libraries such as React Router, Vue Router, TanStack Router and page.js.",
+   "queries": [
+    "history.pushState popstate event History API",
+    "Navigation API navigate event intercept",
+    "React Router v6 loaders data routers",
+    "Vue Router navigation guards history mode"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GraphQL in JavaScript",
+   "scope": "The GraphQL specification and its JavaScript ecosystem: the graphql-js reference implementation, Apollo Client and Server, Relay, urql, GraphQL Yoga, DataLoader, subscriptions over graphql-ws and GraphQL Code Generator.",
+   "queries": [
+    "graphql-js reference implementation execute schema",
+    "Apollo Client InMemoryCache Apollo Server",
+    "Relay compiler fragments useFragment",
+    "DataLoader batching graphql-ws subscriptions protocol"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HTTP client libraries",
+   "scope": "HTTP client packages for browsers and Node.js, including Axios, request, got, node-fetch, superagent, ky, needle, undici and cross-fetch, along with their options, interceptors, retries and deprecations.",
+   "queries": [
+    "Axios interceptors request config timeout",
+    "request package deprecated alternatives",
+    "got HTTP request library retries hooks",
+    "undici Node.js HTTP client fetch dispatcher"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Real-time messaging libraries",
+   "scope": "Libraries and protocols layered over WebSockets and similar transports, such as Socket.IO and Engine.IO, ws, SockJS, Faye, µWebSockets.js, MQTT.js, the SignalR JavaScript client, PeerJS and simple-peer.",
+   "queries": [
+    "Socket.IO rooms namespaces Engine.IO protocol",
+    "ws WebSocket library Node.js server",
+    "SockJS fallback transports long polling",
+    "MQTT.js PeerJS simple-peer WebRTC"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database drivers, ORMs and query builders for Node.js",
+   "scope": "Database access from Node.js: drivers (pg, mysql2, the MongoDB driver, better-sqlite3, ioredis), ODMs and ORMs (Mongoose, Sequelize, TypeORM, Prisma, Drizzle, MikroORM) and query builders such as Knex.js.",
+   "queries": [
+    "Mongoose schema model populate middleware",
+    "Sequelize model associations migrations",
+    "Prisma schema Prisma Client migrate",
+    "Knex.js query builder node-postgres pool"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Authentication, sessions and JWT libraries",
+   "scope": "Identity handling in JavaScript apps: Passport.js strategies, express-session and cookie sessions, jsonwebtoken and jose, OAuth/OIDC clients (oidc-client-ts, MSAL.js), Auth.js/NextAuth and WebAuthn helper libraries.",
+   "queries": [
+    "Passport.js strategy authenticate serializeUser",
+    "jsonwebtoken sign verify algorithms",
+    "NextAuth.js Auth.js providers session callbacks",
+    "MSAL.js oidc-client-ts OAuth PKCE"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cryptography APIs and libraries",
+   "scope": "Cryptographic primitives available to JavaScript: Web Crypto (SubtleCrypto, getRandomValues, randomUUID), Node.js crypto, and libraries such as CryptoJS, SJCL, node-forge, TweetNaCl, libsodium.js, bcrypt and the noble packages.",
+   "queries": [
+    "SubtleCrypto encrypt importKey algorithms Web Crypto",
+    "crypto.getRandomValues randomUUID secure context",
+    "Node.js crypto createHash scrypt webcrypto",
+    "TweetNaCl libsodium.js CryptoJS SJCL"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Template engines",
+   "scope": "String and HTML templating languages for JavaScript, such as Mustache, Handlebars, EJS, Pug (formerly Jade), Nunjucks, Dust.js, doT, Underscore templates, LiquidJS and Marko.",
+   "queries": [
+    "Handlebars helpers partials block expressions",
+    "Mustache logic-less templates sections",
+    "Pug Jade renamed template engine",
+    "EJS Nunjucks template syntax filters"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Logging, observability and process managers",
+   "scope": "Logging libraries (Winston, Pino, Bunyan, debug, log4js, morgan), error-tracking and tracing SDKs (Sentry, OpenTelemetry JS) and process supervisors and reloaders (PM2, forever, nodemon).",
+   "queries": [
+    "Winston transports log levels format",
+    "Pino logger fast JSON transports",
+    "PM2 cluster mode ecosystem file",
+    "OpenTelemetry JavaScript instrumentation Sentry SDK"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Command-line tool libraries for Node.js",
+   "scope": "Building CLIs in Node.js with argument parsers (Commander, yargs, minimist, meow), prompt libraries (Inquirer, prompts, Enquirer), terminal styling and UI (chalk, Ora, Ink) and frameworks such as oclif.",
+   "queries": [
+    "Commander.js options commands program",
+    "yargs command builder positional arguments",
+    "Inquirer.js prompts question types",
+    "chalk ESM only oclif CLI framework"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Node.js native addons and Node-API",
+   "scope": "Extending Node.js with C, C++ or Rust via node-gyp, NAN, Node-API (N-API) and node-addon-api, ABI versioning (NODE_MODULE_VERSION), prebuilt binaries (node-pre-gyp, prebuildify) and bindings such as napi-rs and Neon.",
+   "queries": [
+    "Node-API N-API version matrix ABI stable",
+    "node-gyp build native addon Python",
+    "NODE_MODULE_VERSION native module rebuild",
+    "napi-rs Neon Rust Node.js addon"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Monorepo and task orchestration tools",
+   "scope": "Tools for managing multi-package JavaScript repositories, including Lerna, Nx, Turborepo, Rush, Lage, Bolt and Changesets, with their versioning modes, caching and task graphs.",
+   "queries": [
+    "Lerna fixed independent versioning mode",
+    "Nx workspace affected computation caching",
+    "Turborepo pipeline remote caching turbo.json",
+    "Rush monorepo Changesets versioning"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JavaScript parsers, ASTs and codemods",
+   "scope": "Parsing JavaScript into syntax trees and transforming source code: the ESTree spec, parsers (Esprima, Acorn, Espree, @babel/parser, Meriyah), traversal and code generation (estraverse, escodegen, recast) and codemod tools such as jscodeshift.",
+   "queries": [
+    "ESTree specification AST node types",
+    "Acorn JavaScript parser ecmaVersion plugins",
+    "Esprima parser syntax tree",
+    "jscodeshift codemod recast transform"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Documentation comments and API doc generators",
+   "scope": "JSDoc block tags and type expressions, TSDoc, Closure-style annotations, and documentation generators such as JSDoc, TypeDoc, ESDoc, documentation.js, YUIDoc, Docco and API Extractor.",
+   "queries": [
+    "JSDoc block tags @param @typedef @callback",
+    "TypeDoc TSDoc documentation generator",
+    "YUIDoc ESDoc documentation.js",
+    "Docco literate programming documentation generator"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Browser compatibility, feature detection and Baseline",
+   "scope": "Deciding what code runs where: user-agent sniffing and User-Agent Client Hints, Modernizr feature detection, Can I use and MDN browser-compat-data, Browserslist queries, Baseline status labels and the Interop project.",
+   "queries": [
+    "Browserslist queries defaults last 2 versions",
+    "Modernizr feature detection tests",
+    "Baseline newly available widely available",
+    "User-Agent Client Hints navigator.userAgentData reduction"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Progressive Web Apps and offline caching",
+   "scope": "Installable, offline-capable web apps: the Web App Manifest, install prompts, service worker caching strategies, Cache Storage, Workbox, the Push and Notifications APIs, Background Sync and the deprecated AppCache.",
+   "queries": [
+    "Web App Manifest display start_url members",
+    "Workbox caching strategies precaching routing",
+    "Push API Notifications service worker subscription",
+    "beforeinstallprompt Background Sync AppCache deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Browser extensions and userscripts",
+   "scope": "Extending browsers with JavaScript: WebExtensions and chrome.* APIs, the Manifest V2 to V3 migration, content scripts and background service workers, Safari Web Extensions, and userscript managers such as Greasemonkey and Tampermonkey.",
+   "queries": [
+    "Manifest V3 migration service worker declarativeNetRequest",
+    "chrome.runtime sendMessage content scripts",
+    "WebExtensions browser namespace Firefox add-ons",
+    "Greasemonkey Tampermonkey userscript GM API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Serverless, edge runtimes and cloud SDKs",
+   "scope": "Running JavaScript on FaaS and edge platforms (AWS Lambda Node.js runtimes, Cloudflare Workers, Vercel and Netlify functions, WinterCG/WinterTC) and using cloud client SDKs such as AWS SDK for JavaScript v3 and the Firebase JS SDK.",
+   "queries": [
+    "AWS Lambda Node.js runtime handler deprecation",
+    "Cloudflare Workers isolates Durable Objects wrangler",
+    "AWS SDK for JavaScript v3 modular clients",
+    "Firebase JavaScript SDK modular v9 tree-shakeable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Device, file and clipboard Web APIs",
+   "scope": "Browser APIs for hardware and local data access: Web Bluetooth, WebUSB, Web Serial, WebHID, Web NFC, Gamepad, Generic Sensor and Geolocation, plus the File and FileReader APIs, the File System Access API, the Clipboard API and drag and drop.",
+   "queries": [
+    "Web Bluetooth requestDevice GATT server",
+    "WebUSB Web Serial WebHID API",
+    "File System Access API showOpenFilePicker",
+    "Clipboard API navigator.clipboard writeText permissions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JavaScript on microcontrollers and IoT",
+   "scope": "JavaScript for embedded and physical computing: Espruino, the Moddable SDK and XS engine, Kinoma, Tessel, Johnny-Five and Firmata, Cylon.js, Microsoft DeviceScript, low.js and Node-RED flows.",
+   "queries": [
+    "Espruino JavaScript interpreter microcontroller boards",
+    "Johnny-Five robotics Firmata Arduino",
+    "Moddable SDK XS engine ECMAScript",
+    "Node-RED flow-based programming nodes"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "JavaScript scripting in host applications",
+   "scope": "JavaScript as a scripting language inside non-browser applications, e.g. Google Apps Script, JavaScript for Automation (JXA) on macOS, Adobe ExtendScript and UXP, Acrobat JavaScript, Windows Script Host and HTA, GNOME GJS, Qt QML and the MongoDB shell.",
+   "queries": [
+    "Google Apps Script V8 runtime Rhino",
+    "JavaScript for Automation JXA macOS",
+    "Adobe ExtendScript UXP scripting Photoshop",
+    "Windows Script Host WScript JScript HTA"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Machine learning in JavaScript",
+   "scope": "Running and training ML models in browsers and Node.js with TensorFlow.js (and its predecessor deeplearn.js), ONNX Runtime Web, Transformers.js, ml5.js, Brain.js, ConvNetJS, MediaPipe and WebLLM, including WebGL/WASM/WebGPU backends and the WebNN API.",
+   "queries": [
+    "TensorFlow.js backends WebGL WASM tfjs-node",
+    "Transformers.js pipeline ONNX Runtime Web",
+    "ml5.js Brain.js neural network JavaScript",
+    "WebNN API MLContext graph builder"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Web3 and blockchain JavaScript libraries",
+   "scope": "JavaScript tooling for blockchains: web3.js, ethers.js, viem and wagmi, EIP-1193 wallet providers (window.ethereum), Solana web3.js, and development frameworks such as Hardhat and Truffle.",
+   "queries": [
+    "ethers.js v6 migration BigInt provider",
+    "web3.js version contract ABI ChainSafe",
+    "EIP-1193 provider window.ethereum request",
+    "Hardhat Truffle viem wagmi"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Document, image and spreadsheet processing libraries",
+   "scope": "Libraries for generating or parsing files in JavaScript: PDF.js, pdf-lib, PDFKit and jsPDF for PDF; sharp, Jimp and node-canvas for images; SheetJS and ExcelJS for spreadsheets; mammoth.js for DOCX; and Nodemailer for email.",
+   "queries": [
+    "PDF.js Mozilla PDF renderer worker",
+    "sharp libvips image resize formats",
+    "SheetJS xlsx ExcelJS spreadsheet parsing",
+    "Nodemailer SMTP transport jsPDF PDFKit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Accessibility scripting and a11y tooling",
+   "scope": "Making scripted interfaces accessible: WAI-ARIA roles and states set from JavaScript, ARIA Authoring Practices patterns, focus management (tabindex, inert, roving focus), live regions, ARIA reflection and the Accessibility Object Model, and tools such as axe-core, eslint-plugin-jsx-a11y and React Aria.",
+   "queries": [
+    "WAI-ARIA authoring practices keyboard interaction patterns",
+    "aria-live region announcements polite assertive",
+    "inert attribute focus management tabindex",
+    "axe-core rules eslint-plugin-jsx-a11y"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Client-side databases, sync engines and CRDT libraries",
+   "scope": "Embedded and in-browser JavaScript data stores and local-first sync tools such as PouchDB, Dexie.js, RxDB, localForage, sql.js/wa-sqlite, PGlite, Yjs and Automerge, covering their replication protocols, storage adapters, conflict resolution and version histories.",
+   "queries": [
+    "PouchDB CouchDB replication revisions conflict resolution",
+    "Dexie.js IndexedDB wrapper schema version upgrade",
+    "Yjs Automerge CRDT shared types document merge",
+    "sql.js SQLite WebAssembly OPFS persistence"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Job queues, cron schedulers and worker pools for Node.js",
+   "scope": "Node.js libraries for background job processing, cron-style scheduling and moving CPU-heavy work off the main thread, such as Bull/BullMQ, Bee-Queue, Agenda, Bree, node-cron, node-schedule, Piscina and workerpool, including their Redis/MongoDB backends, options and release changes.",
+   "queries": [
+    "BullMQ Redis queue worker concurrency rate limiter",
+    "Agenda MongoDB job scheduling Node.js",
+    "node-cron schedule expression syntax timezone",
+    "Piscina worker thread pool options"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Data serialization and parsing libraries beyond JSON",
+   "scope": "JavaScript implementations of non-JSON data formats (CSV, YAML, TOML, XML, Protocol Buffers, MessagePack, CBOR), such as Papa Parse, csv-parse, js-yaml, fast-xml-parser, xml2js, sax-js and protobuf.js, including parser options, spec versions supported and security-driven API changes.",
+   "queries": [
+    "Papa Parse CSV parser streaming worker config",
+    "js-yaml YAML 1.2 schema safeLoad removed",
+    "fast-xml-parser xml2js sax parser options",
+    "protobuf.js MessagePack CBOR JavaScript encoding"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HTML5 game frameworks and physics engines",
+   "scope": "JavaScript game development frameworks and physics libraries such as Phaser, Excalibur, melonJS, Kaboom/KAPLAY, PlayCanvas, Cocos Creator, Construct, Matter.js, Planck.js, cannon-es, Ammo.js and Rapier, covering their versions, scene and physics APIs, renderers and project histories.",
+   "queries": [
+    "Phaser 3 game framework scene arcade physics",
+    "Matter.js rigid body physics engine composite",
+    "PlayCanvas WebGL game engine editor release",
+    "Box2D port Planck.js cannon-es Ammo.js"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  }
+ ]
+}

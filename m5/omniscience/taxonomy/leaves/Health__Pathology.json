@@ -1,0 +1,435 @@
+{
+ "domain": "Health",
+ "subtopic": "Pathology",
+ "weight": 0.0064995,
+ "leaves": [
+  {
+   "leaf": "Cell injury, cell death, intracellular accumulations and amyloidosis",
+   "scope": "Reversible and irreversible cell injury, morphologic patterns of necrosis, apoptosis and other regulated cell death, cellular adaptations, pigments, inclusions, pathologic calcification, and amyloid fibril types and their detection.",
+   "queries": [
+    "coagulative liquefactive caseous fat necrosis morphology",
+    "apoptosis necroptosis pyroptosis ferroptosis caspase pathways",
+    "Mallory-Denk bodies Russell bodies lipofuscin hemosiderin",
+    "amyloid fibril nomenclature Congo red typing mass spectrometry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Inflammation, granulomatous reactions and tissue repair",
+   "scope": "Acute and chronic inflammation, chemical mediators and leukocyte recruitment, granuloma types and giant cells with their inclusions, and wound healing, regeneration and fibrosis.",
+   "queries": [
+    "acute inflammation chemical mediators leukocyte extravasation selectins integrins",
+    "granulomatous inflammation epithelioid histiocytes Langhans giant cells",
+    "asteroid bodies Schaumann bodies sarcoidosis granulomas",
+    "wound healing granulation tissue myofibroblasts primary secondary intention"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Histotechnology, histochemical special stains and whole-slide imaging",
+   "scope": "Tissue fixation, processing, embedding, sectioning, decalcification, frozen sections and artifacts, histochemical special stains and what they detect, and digital pathology and whole-slide imaging systems.",
+   "queries": [
+    "formalin fixation tissue processing paraffin embedding histotechnology",
+    "periodic acid Schiff Masson trichrome Grocott methenamine silver",
+    "frozen section cryostat artifact intraoperative consultation",
+    "whole slide imaging FDA clearance digital pathology"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Diagnostic immunohistochemistry markers and antibody panels",
+   "scope": "Immunohistochemical markers, antibody clones, staining patterns and sensitivity/specificity data used to work out tumor lineage and primary site.",
+   "queries": [
+    "CK7 CK20 immunohistochemistry carcinoma unknown primary",
+    "TTF-1 napsin A p40 lung carcinoma immunostaining",
+    "SOX10 S100 HMB-45 Melan-A melanoma markers",
+    "GATA3 SATB2 CDX2 PAX8 immunohistochemistry specificity"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cancer staging (AJCC/UICC TNM) and synoptic pathology reporting protocols",
+   "scope": "AJCC and UICC TNM staging editions and their changes, pathologic T/N/M category definitions, prognostic stage groups, and CAP and ICCR synoptic cancer reporting datasets.",
+   "queries": [
+    "AJCC Cancer Staging Manual eighth edition changes",
+    "pathologic TNM staging definitions pT pN categories",
+    "CAP cancer protocol synoptic reporting required elements",
+    "ICCR dataset histopathology reporting carcinoma"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Molecular pathology methods and predictive tumor biomarkers",
+   "scope": "Molecular diagnostic techniques (PCR, FISH, NGS, MSI/MMR testing, fusion detection) and the predictive and prognostic genomic biomarkers and companion diagnostics used in tumor pathology.",
+   "queries": [
+    "microsatellite instability mismatch repair testing Bethesda panel",
+    "FISH break-apart probe ALK ROS1 rearrangement",
+    "next-generation sequencing tumor mutational burden companion diagnostic",
+    "NTRK fusion detection pan-TRK immunohistochemistry RNA sequencing"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lymphoid neoplasms and lymph node pathology",
+   "scope": "Morphology, immunophenotype, genetics and WHO-HAEM5/ICC classification of B-cell, T/NK-cell and Hodgkin lymphomas, plus reactive and non-neoplastic lymph node disorders.",
+   "queries": [
+    "WHO classification haematolymphoid tumours fifth edition lymphoma",
+    "Reed-Sternberg cells CD15 CD30 classic Hodgkin lymphoma",
+    "mantle cell lymphoma cyclin D1 SOX11 translocation",
+    "Castleman disease Kikuchi reactive lymphadenopathy histology"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Myeloid neoplasms and bone marrow pathology",
+   "scope": "Bone marrow morphology, diagnostic criteria, genetic drivers and classification of AML, MDS, MPN, MDS/MPN overlap disorders, mastocytosis and related myeloid neoplasms.",
+   "queries": [
+    "acute myeloid leukemia defining genetic abnormalities blast threshold",
+    "myelodysplastic syndrome ring sideroblasts SF3B1 IPSS-M",
+    "JAK2 CALR MPL myeloproliferative neoplasm diagnostic criteria",
+    "systemic mastocytosis KIT D816V tryptase criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "CNS tumor neuropathology and WHO CNS5 classification",
+   "scope": "Histologic and molecular classification, integrated diagnosis and grading of gliomas, embryonal tumors, meningiomas, nerve sheath and other brain and spinal tumors.",
+   "queries": [
+    "WHO CNS5 classification integrated diagnosis glioma",
+    "IDH mutant astrocytoma CDKN2A homozygous deletion grade",
+    "medulloblastoma molecular groups WNT SHH",
+    "meningioma grading brain invasion TERT promoter"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Neurodegenerative, prion and neuromuscular pathology",
+   "scope": "Neuropathologic features and staging schemes of neurodegenerative and prion diseases, and the diagnostic findings of skeletal muscle and peripheral nerve biopsies.",
+   "queries": [
+    "Braak staging neurofibrillary tangles Alzheimer neuropathologic change",
+    "Lewy bodies alpha-synuclein TDP-43 frontotemporal lobar degeneration",
+    "Creutzfeldt-Jakob disease spongiform change prion protein",
+    "muscle biopsy ragged red fibers inclusion body myositis"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dermatopathology of inflammatory dermatoses and cutaneous neoplasms",
+   "scope": "Histopathologic reaction patterns of inflammatory and blistering skin diseases, immunofluorescence findings, melanocytic lesions, and cutaneous adnexal and other skin tumors.",
+   "queries": [
+    "interface dermatitis lichenoid spongiotic pattern dermatopathology",
+    "bullous pemphigoid pemphigus direct immunofluorescence pattern",
+    "Breslow thickness mitotic rate melanoma microstaging",
+    "cutaneous adnexal tumors trichoepithelioma cylindroma poroma"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Medical renal pathology and glomerular disease classifications",
+   "scope": "Kidney biopsy findings on light, immunofluorescence and electron microscopy in glomerular, tubulointerstitial and vascular diseases, and their formal classification and scoring schemes.",
+   "queries": [
+    "ISN/RPS lupus nephritis classification class IV",
+    "Oxford classification IgA nephropathy MEST-C score",
+    "focal segmental glomerulosclerosis Columbia classification variants",
+    "membranous nephropathy PLA2R subepithelial deposits electron microscopy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Transplant rejection pathology and graft grading schemes",
+   "scope": "Histologic grading of acute and chronic cellular and antibody-mediated rejection in kidney, heart, lung and liver allografts, and pathology of graft-versus-host disease.",
+   "queries": [
+    "Banff classification antibody-mediated rejection C4d peritubular capillaries",
+    "ISHLT grading cardiac allograft acute cellular rejection",
+    "lung allograft perivascular infiltrates obliterative bronchiolitis grading",
+    "graft-versus-host disease histologic grading crypt apoptosis"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Gastrointestinal tract pathology from esophagus to anus",
+   "scope": "Non-neoplastic and neoplastic pathology of the esophagus, stomach, small bowel, colon, appendix and anus, including biopsy grading systems, polyp classification and GI mesenchymal tumors.",
+   "queries": [
+    "Barrett esophagus intestinal metaplasia dysplasia histology",
+    "celiac disease Marsh Oberhuber classification intraepithelial lymphocytes",
+    "sessile serrated lesion traditional serrated adenoma colorectal",
+    "gastrointestinal stromal tumor KIT DOG1 risk stratification"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Liver, biliary and exocrine pancreatic pathology",
+   "scope": "Pathology of the liver, gallbladder, bile ducts and exocrine pancreas, including hepatitis and steatohepatitis grading and staging, cholestatic disease, hepatic tumors, and pancreatic precursor lesions and cysts.",
+   "queries": [
+    "Ishak METAVIR fibrosis staging chronic hepatitis biopsy",
+    "NAFLD activity score steatohepatitis Kleiner Brunt",
+    "hepatocellular adenoma subtypes HNF1A beta-catenin inflammatory",
+    "intraductal papillary mucinous neoplasm subtypes pancreatic intraepithelial neoplasia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Breast pathology and breast carcinoma biomarkers",
+   "scope": "Benign, high-risk and malignant breast lesions, histologic grading, special carcinoma subtypes, fibroepithelial tumors, and ER/PR/HER2 testing guidelines.",
+   "queries": [
+    "Nottingham histologic grade tubule formation nuclear pleomorphism mitoses",
+    "HER2 testing ASCO CAP guideline HER2-low",
+    "invasive lobular carcinoma E-cadherin loss pleomorphic",
+    "phyllodes tumor fibroadenoma stromal overgrowth classification"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gynecologic pathology of the lower and upper female genital tract",
+   "scope": "Pathology of the vulva, vagina, cervix, uterus, fallopian tube and ovary, including HPV-related lesions, molecular classes of endometrial carcinoma, ovarian tumor types and FIGO staging.",
+   "queries": [
+    "endometrial carcinoma molecular classification POLE p53abn MMRd",
+    "high-grade serous carcinoma serous tubal intraepithelial carcinoma STIC",
+    "cervical squamous intraepithelial lesion p16 LAST terminology",
+    "ovarian sex cord stromal tumor granulosa FOXL2"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Placental, perinatal and pediatric pathology",
+   "scope": "Placental examination and lesion consensus criteria, fetal and perinatal autopsy findings, and pediatric-specific tumors and diseases such as small round blue cell tumors.",
+   "queries": [
+    "Amsterdam placental workshop consensus maternal vascular malperfusion",
+    "chorioamnionitis staging grading maternal fetal inflammatory response",
+    "neuroblastoma International Neuroblastoma Pathology Classification Shimada",
+    "Wilms tumor nephroblastoma anaplasia nephrogenic rests"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Genitourinary and male genital tract pathology",
+   "scope": "Pathology of the prostate, urinary bladder, kidney tumors, testis and penis, including Gleason/ISUP grading, renal tumor nuclear grading, urothelial variants and germ cell tumors.",
+   "queries": [
+    "ISUP Grade Group Gleason score prostate adenocarcinoma",
+    "clear cell renal carcinoma WHO/ISUP nuclear grade",
+    "urothelial carcinoma variant histology micropapillary plasmacytoid",
+    "testicular germ cell neoplasia in situ seminoma"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Endocrine organ pathology and neuroendocrine neoplasm grading",
+   "scope": "Pathology of the thyroid, parathyroid, adrenal, pituitary and paraganglia, and the classification and Ki-67/mitotic grading of neuroendocrine neoplasms.",
+   "queries": [
+    "papillary thyroid carcinoma nuclear features NIFTP",
+    "pheochromocytoma paraganglioma PASS GAPP score",
+    "neuroendocrine tumor Ki-67 grading G1 G2 G3",
+    "pituitary neuroendocrine tumor transcription factor PIT1 SF1"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Head and neck, oral, salivary and ophthalmic pathology",
+   "scope": "Pathology of the oral cavity, oropharynx, sinonasal tract, larynx, salivary glands, jaws and odontogenic lesions, ear, and the eye and ocular adnexa.",
+   "queries": [
+    "salivary gland tumors pleomorphic adenoma mucoepidermoid carcinoma MAML2",
+    "HPV-associated oropharyngeal squamous cell carcinoma p16",
+    "odontogenic keratocyst ameloblastoma odontogenic tumors classification",
+    "uveal melanoma retinoblastoma ophthalmic pathology"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pulmonary, pleural and occupational lung pathology",
+   "scope": "Pathology of the lung and pleura, including lung carcinoma subtypes and grading, interstitial lung disease patterns, pneumoconioses and mesothelioma.",
+   "queries": [
+    "lung adenocarcinoma lepidic acinar micropapillary IASLC grading",
+    "usual interstitial pneumonia fibroblastic foci honeycombing",
+    "asbestosis ferruginous bodies silicosis silicotic nodule",
+    "malignant mesothelioma BAP1 loss MTAP pleura"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cardiovascular pathology, vasculitis and thrombosis",
+   "scope": "Pathology of the heart and blood vessels, including dating of myocardial infarction, cardiomyopathies, myocarditis, valve disease, atherosclerosis, vasculitis nomenclature, thrombi and emboli.",
+   "queries": [
+    "myocardial infarction histologic timeline contraction band necrosis",
+    "Dallas criteria myocarditis endomyocardial biopsy",
+    "Chapel Hill consensus vasculitis nomenclature giant cell arteritis",
+    "lines of Zahn thrombus Virchow triad embolism"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bone and soft tissue tumor pathology",
+   "scope": "Classification, grading, morphology and characteristic gene fusions, amplifications and mutations of bone and soft tissue tumors, plus non-neoplastic bone disease.",
+   "queries": [
+    "synovial sarcoma SS18-SSX fusion translocation",
+    "FNCLCC grading soft tissue sarcoma differentiation necrosis",
+    "well-differentiated liposarcoma MDM2 amplification atypical lipomatous tumor",
+    "giant cell tumor of bone H3F3A osteosarcoma"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cytopathology techniques and standardized reporting systems",
+   "scope": "Cytologic specimen preparation and staining methods, and the tiered diagnostic reporting systems for cervical, thyroid, urine, salivary, serous fluid and pancreatobiliary cytology.",
+   "queries": [
+    "Bethesda System thyroid cytopathology categories risk of malignancy",
+    "Paris System urine cytology high-grade urothelial carcinoma",
+    "Papanicolaou stain liquid-based cytology ThinPrep SurePath",
+    "Milan system salivary gland cytopathology"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forensic pathology and medicolegal autopsy practice",
+   "scope": "Medicolegal death investigation systems, autopsy technique, postmortem changes and estimating time since death, interpreting wounds and asphyxia, and certifying cause and manner of death.",
+   "queries": [
+    "postmortem interval estimation rigor mortis livor algor",
+    "gunshot wound entrance exit stippling range of fire",
+    "asphyxia ligature strangulation hanging petechiae hyoid fracture",
+    "medical examiner coroner system death certificate manner"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Clinical chemistry and immunoassay test interpretation",
+   "scope": "Analytes, analytical methods, reference intervals and decision limits, cardiac and tumor markers, protein electrophoresis, calculated indices, and assay interferences in clinical chemistry.",
+   "queries": [
+    "high-sensitivity cardiac troponin 99th percentile upper reference limit",
+    "serum protein electrophoresis M-spike free light chain ratio",
+    "anion gap osmolal gap calculation laboratory",
+    "immunoassay interference heterophile antibodies biotin hook effect"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transfusion medicine and blood group serology",
+   "scope": "Blood group systems and antigens, antibody screening and identification, compatibility testing, blood components, transfusion reactions, and hemolytic disease of the fetus and newborn.",
+   "queries": [
+    "ISBT blood group systems antigens Kell Duffy Kidd",
+    "direct antiglobulin test antibody identification panel",
+    "transfusion-related acute lung injury TACO hemolytic reaction",
+    "Rh immune globulin dose fetomaternal hemorrhage Kleihauer-Betke"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diagnostic clinical microbiology and infectious disease histopathology",
+   "scope": "Laboratory identification of bacteria, fungi, parasites and viruses with culture media, stains, biochemical and MALDI-TOF/molecular methods, susceptibility breakpoints, and tissue features of infection.",
+   "queries": [
+    "selective differential culture media MacConkey agar",
+    "MALDI-TOF mass spectrometry bacterial identification clinical laboratory",
+    "CLSI EUCAST antimicrobial susceptibility breakpoints",
+    "fungal histopathology Grocott Aspergillus Mucorales hyphae"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Laboratory hematology and hemostasis testing",
+   "scope": "Automated blood counts and red cell indices, peripheral smear morphology and inclusions, and coagulation, inhibitor and platelet function testing.",
+   "queries": [
+    "red cell indices MCV RDW automated hematology analyzer",
+    "peripheral blood smear schistocytes Howell-Jolly bodies Heinz",
+    "prothrombin time INR ISI activated partial thromboplastin time",
+    "lupus anticoagulant dilute Russell viper venom time"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}

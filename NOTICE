@@ -1,0 +1,19 @@
+This repository is released under the MIT License (LICENSE), except for the third-party components below, which
+keep their own licenses.
+
+Third-party components
+----------------------
+- aa_evals/scicode/vendor/scicode/  SciCode benchmark code (https://github.com/scicode-bench/SciCode).
+  Apache License 2.0; the full text is in aa_evals/scicode/vendor/LICENSE. Modified: see the files' history notes.
+- tb_agents/deepseek_v41_encoding.py  Text encoding adapted from the DeepSeek V4.1 reference encoder as shipped in
+  vLLM. Apache License 2.0 (SPDX header in the file); copyright the vLLM project contributors.
+- synth/vllm_plugins/  Runtime patches to vLLM (https://github.com/vllm-project/vllm), which is licensed under the
+  Apache License 2.0. Where a patch reproduces vLLM code, that code remains under Apache-2.0.
+
+External tools used but not included: Harbor (harbor-framework/harbor), Terminal-Bench, the Pi coding agent,
+mini-swe-agent, vLLM, Apptainer. Their licenses apply to them.
+
+Benchmarks: this repository ships no benchmark items. Item ID lists and download scripts fetch each benchmark from
+its official source under that benchmark's own terms (see each benchmark's README).
+
+This file is a dry-run draft; the license inventory that finalises it is in progress.

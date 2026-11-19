@@ -1,0 +1,1075 @@
+{
+ "domain": "Law",
+ "subtopic": "US Torts Law",
+ "weight": 0.016965,
+ "leaves": [
+  {
+   "leaf": "Battery, assault and false imprisonment",
+   "scope": "Intentional torts to the person: harmful or offensive contact, apprehension of imminent contact, transferred intent, unlawful confinement, and the shopkeeper's detention privilege.",
+   "queries": [
+    "battery harmful offensive contact intent Garratt Dailey",
+    "assault reasonable apprehension imminent harmful contact",
+    "false imprisonment shopkeeper privilege detention suspected shoplifter",
+    "transferred intent doctrine battery unintended victim"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intentional infliction of emotional distress (outrage)",
+   "scope": "The tort of outrage under Restatement (Second) of Torts section 46: extreme and outrageous conduct, severe distress, recovery by third parties, and First Amendment limits on the tort.",
+   "queries": [
+    "intentional infliction emotional distress extreme outrageous conduct",
+    "Restatement Second Torts section 46 outrage",
+    "Snyder Phelps funeral picketing emotional distress",
+    "Hustler Magazine Falwell parody emotional distress"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trespass to land, trespass to chattels and conversion",
+   "scope": "Intentional interference with possession of land and personal property, including nominal and punitive damages for trespass, airspace and subsurface intrusion, electronic trespass to computer systems, and the forced-sale remedy for conversion.",
+   "queries": [
+    "trespass to land intentional entry punitive nominal damages",
+    "Intel Hamidi trespass to chattels email",
+    "conversion personal property serious interference forced sale",
+    "Moore Regents University California conversion cells"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privileges and defenses to intentional torts",
+   "scope": "Consent and its scope, self-defense and defense of others, defense of property and spring guns, recapture of chattels, and public and private necessity.",
+   "queries": [
+    "Katko Briney spring gun defense property",
+    "Vincent Lake Erie Transportation private necessity dock",
+    "self-defense privilege reasonable force deadly force tort",
+    "Mohr Williams consent surgery scope battery"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Malicious prosecution, abuse of process and wrongful civil proceedings",
+   "scope": "Torts for misusing legal process, with elements such as favorable termination, lack of probable cause, malice, ulterior purpose and the special injury rule, plus their Section 1983 counterparts.",
+   "queries": [
+    "malicious prosecution favorable termination probable cause malice",
+    "abuse of process ulterior purpose improper act",
+    "wrongful use civil proceedings special injury requirement",
+    "Thompson Clark favorable termination Fourth Amendment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Negligence standard of care and the reasonable person",
+   "scope": "The reasonable person standard and its variations: Hand formula cost-benefit analysis, the role of custom, children and people with disabilities, the sudden emergency doctrine, and heightened standards for experts.",
+   "queries": [
+    "Carroll Towing Hand formula burden precautions",
+    "T.J. Hooper custom radio receiving sets",
+    "child standard of care adult activity",
+    "sudden emergency doctrine jury instruction negligence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Negligence per se and res ipsa loquitur",
+   "scope": "Doctrines that establish or allow an inference of breach: statutory violations treated as negligence (protected class, type of harm, excuse) and res ipsa loquitur's requirements of exclusive control and probable negligence.",
+   "queries": [
+    "negligence per se statute class persons protected",
+    "Martin Herzog statutory violation lights negligence",
+    "res ipsa loquitur exclusive control instrumentality",
+    "Ybarra Spangard unconscious patient res ipsa"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Affirmative duties, special relationships and duty to protect",
+   "scope": "The no-duty-to-rescue rule and its exceptions: special relationships, voluntary undertakings, the Tarasoff duty to warn, landlords' and businesses' duty to protect against third-party crime, and Good Samaritan statutes.",
+   "queries": [
+    "no duty to rescue special relationship",
+    "Tarasoff Regents duty warn therapist identifiable victim",
+    "Good Samaritan statute immunity emergency care",
+    "landlord duty protect tenants criminal attack Kline"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cause in fact and indeterminate-defendant doctrines",
+   "scope": "Factual causation: but-for and substantial factor tests, multiple sufficient causes, alternative liability, market share liability, and the loss-of-chance doctrine.",
+   "queries": [
+    "Summers Tice alternative liability two hunters",
+    "Sindell Abbott Laboratories market share liability DES",
+    "loss of chance doctrine survival percentage malpractice",
+    "substantial factor test multiple sufficient causes"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Proximate cause and scope of liability",
+   "scope": "Legal cause: foreseeability tests, the Palsgraf unforeseeable-plaintiff problem, Wagon Mound versus Polemis, the eggshell plaintiff rule, intervening and superseding causes, and the rescue doctrine.",
+   "queries": [
+    "Palsgraf Long Island Railroad foreseeable plaintiff",
+    "superseding intervening cause foreseeability proximate cause",
+    "eggshell plaintiff rule preexisting condition aggravation",
+    "rescue doctrine danger invites rescue Wagner"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Negligent infliction of emotional distress",
+   "scope": "Recovery for negligently caused emotional harm: the impact rule, the zone of danger test, bystander tests from Dillon v. Legg and Thing v. La Chusa, FELA claims under Gottshall, and direct-victim theories.",
+   "queries": [
+    "Dillon Legg bystander emotional distress mother",
+    "zone of danger test Gottshall FELA",
+    "impact rule emotional distress physical manifestation",
+    "Thing La Chusa bystander closely related present"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pure economic loss rule",
+   "scope": "Limits on recovering purely financial losses in negligence and products cases (Robins Dry Dock, East River, People Express) and the economic loss doctrine as a line between contract and tort.",
+   "queries": [
+    "economic loss rule purely financial harm negligence",
+    "Robins Dry Dock Flint time charterer",
+    "East River Steamship Transamerica Delaval turbines",
+    "People Express Airlines Consolidated Rail evacuation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Premises liability and entrant status",
+   "scope": "What land possessors owe invitees, licensees and trespassers, Rowland v. Christian's abolition of those categories, open and obvious dangers, attractive nuisance, and recreational use statutes.",
+   "queries": [
+    "invitee licensee trespasser duty land possessor",
+    "Rowland Christian abolished entrant classifications",
+    "attractive nuisance child trespasser Restatement 339",
+    "recreational use statute landowner immunity charge"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Medical malpractice and informed consent",
+   "scope": "The physician's standard of care, the locality rule, expert testimony requirements, informed consent standards (Canterbury), affidavit-of-merit statutes, and medical malpractice damage caps such as California's MICRA.",
+   "queries": [
+    "Canterbury Spence informed consent material risk",
+    "locality rule physician standard care national",
+    "affidavit of merit medical malpractice statute",
+    "MICRA noneconomic damages cap 250,000"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Attorney malpractice",
+   "scope": "Elements of legal malpractice: case-within-a-case causation, judgmental immunity, privity and liability to nonclient beneficiaries, and the actual-innocence or exoneration requirement in criminal malpractice claims.",
+   "queries": [
+    "legal malpractice case within a case causation",
+    "Lucas Hamm attorney will beneficiary privity",
+    "criminal malpractice actual innocence exoneration requirement",
+    "attorney judgmental immunity error judgment malpractice"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Dram shop and social host liability",
+   "scope": "Liability of alcohol sellers and social hosts for injuries caused by intoxicated people, including dram shop acts, the visibly intoxicated standard, serving minors, and statutory caps.",
+   "queries": [
+    "dram shop act visibly intoxicated patron",
+    "social host liability serving alcohol minors",
+    "Kelly Gwinnell social host drunk driver",
+    "tavern keeper liability intoxicated driver injuries"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contributory and comparative negligence",
+   "scope": "Rules on plaintiff fault: the contributory negligence bar, last clear chance, pure versus modified (50%/51%) comparative fault, the seat belt defense, and the state decisions and statutes that adopted comparative fault.",
+   "queries": [
+    "Li Yellow Cab pure comparative negligence",
+    "modified comparative fault 51 percent bar",
+    "last clear chance doctrine contributory negligence",
+    "seat belt defense failure to wear evidence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Assumption of risk, exculpatory releases and the firefighter's rule",
+   "scope": "Express and implied (primary and secondary) assumption of risk, sports and recreation rules such as the baseball rule and ski acts, enforceability of releases under Tunkl, and the firefighter's or professional rescuer rule.",
+   "queries": [
+    "primary assumption of risk Knight Jewett",
+    "Tunkl Regents exculpatory release public interest",
+    "firefighter's rule police officer injured negligence",
+    "baseball rule spectator foul ball injury"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Joint and several liability, contribution, indemnity and settlement credits",
+   "scope": "How liability is divided among multiple tortfeasors: joint and several liability and its statutory abolition, contribution and indemnity, pro tanto versus proportionate settlement credits, Mary Carter agreements, and allocating fault to nonparties.",
+   "queries": [
+    "joint and several liability abolished statute",
+    "McDermott AmClyde proportionate share settlement credit",
+    "Mary Carter agreement settling defendant",
+    "Uniform Contribution Among Tortfeasors Act pro rata"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Statutes of limitations and repose in tort",
+   "scope": "Time bars on tort claims: the discovery rule, continuing torts, tolling for minority and fraudulent concealment, statutes of repose for products and construction, and CERCLA's federal discovery-rule provision.",
+   "queries": [
+    "discovery rule statute limitations latent injury",
+    "statute of repose product liability years",
+    "CTS Waldburger CERCLA statute of repose",
+    "fraudulent concealment tolling limitations tort"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Vicarious liability and negligent hiring or entrustment",
+   "scope": "Respondeat superior and scope of employment (frolic and detour), independent contractors and nondelegable duties, ostensible agency, the family purpose doctrine and owner-liability statutes, plus direct liability for negligent hiring, retention, supervision and entrustment.",
+   "queries": [
+    "respondeat superior scope employment frolic detour",
+    "independent contractor nondelegable duty inherently dangerous",
+    "negligent entrustment vehicle incompetent driver owner",
+    "negligent hiring retention supervision employer"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Strict liability for abnormally dangerous activities and animals",
+   "scope": "Rylands v. Fletcher and the Restatement sections 519-520 factors (blasting, toxic storage and transport, Indiana Harbor Belt), and liability for wild and domestic animals, including dog-bite statutes and the one-bite rule.",
+   "queries": [
+    "abnormally dangerous activity Restatement 520 factors",
+    "Indiana Harbor Belt American Cyanamid acrylonitrile",
+    "dog bite statute strict liability one bite",
+    "blasting strict liability Spano Perini"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Origins of strict products liability and manufacturing defects",
+   "scope": "How products liability moved from privity to strict liability (MacPherson, Escola, Henningsen, Greenman, Restatement section 402A), along with implied warranty, manufacturing defects and the malfunction doctrine.",
+   "queries": [
+    "MacPherson Buick privity negligence manufacturer",
+    "Greenman Yuba Power Products strict liability",
+    "Restatement 402A unreasonably dangerous defective condition",
+    "manufacturing defect malfunction doctrine circumstantial evidence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Design defect tests and crashworthiness",
+   "scope": "Tests for defective design: consumer expectations, risk-utility, Barker's burden shift, the Restatement (Third) reasonable alternative design requirement, crashworthiness and enhanced injury, and state-of-the-art and open-and-obvious defenses.",
+   "queries": [
+    "Barker Lull design defect two-prong test",
+    "risk utility reasonable alternative design Restatement Third",
+    "crashworthiness doctrine enhanced injury Larsen",
+    "Soule General Motors consumer expectations test"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Failure to warn and warning-defect doctrines",
+   "scope": "Liability for inadequate warnings and instructions: the learned intermediary and sophisticated user doctrines, the heeding presumption, the post-sale duty to warn, and exceptions such as direct-to-consumer advertising.",
+   "queries": [
+    "learned intermediary doctrine prescription drug warning",
+    "heeding presumption adequate warning causation",
+    "sophisticated user bulk supplier warning",
+    "post-sale duty to warn product"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal preemption and statutory tort immunities",
+   "scope": "Federal displacement of state tort claims through express and implied preemption (Cipollone, Geier, Riegel, Wyeth, PLIVA, Bruesewitz), the government contractor defense, and statutory shields such as PLCAA, Section 230, GARA and the PREP Act.",
+   "queries": [
+    "Riegel Medtronic premarket approval preemption",
+    "PLIVA Mensing generic drug impossibility preemption",
+    "Protection Lawful Commerce Arms Act predicate exception",
+    "Section 230 immunity Zeran America Online"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Private and public nuisance",
+   "scope": "Private nuisance (substantial and unreasonable interference, Boomer, coming to the nuisance, right-to-farm acts) and public nuisance (the special injury rule, and lead paint, opioid and climate change litigation).",
+   "queries": [
+    "Boomer Atlantic Cement permanent damages injunction",
+    "Spur Industries Del Webb coming nuisance",
+    "public nuisance opioid litigation Oklahoma Johnson",
+    "right to farm act nuisance"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Constitutional limits on defamation",
+   "scope": "First Amendment limits on defamation: actual malice, public officials and public figures, Gertz's rules for private figures, the plaintiff's burden to prove falsity, protection for opinion (Milkovich), and limits on presumed and punitive damages.",
+   "queries": [
+    "New York Times Sullivan actual malice",
+    "Gertz Robert Welch private figure",
+    "limited purpose public figure defamation test",
+    "Milkovich Lorain Journal opinion defamation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Common-law defamation, privileges and anti-SLAPP statutes",
+   "scope": "Common-law elements of defamation (publication, defamatory meaning, libel versus slander per se, special damages), absolute and qualified privileges, the fair report privilege, retraction statutes, and state anti-SLAPP procedures.",
+   "queries": [
+    "slander per se categories special damages",
+    "qualified privilege common interest abuse defamation",
+    "anti-SLAPP motion strike public issue",
+    "fair report privilege official proceedings"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privacy torts and the right of publicity",
+   "scope": "Prosser's four privacy torts: intrusion upon seclusion, public disclosure of private facts, false light, and appropriation, including right-of-publicity statutes, post-mortem rights and celebrity voice and look-alike cases.",
+   "queries": [
+    "intrusion upon seclusion highly offensive",
+    "false light invasion privacy Time Hill",
+    "right of publicity Midler Ford voice",
+    "public disclosure private facts newsworthiness"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fraudulent and negligent misrepresentation",
+   "scope": "Deceit (scienter, justifiable reliance, concealment and duties to disclose), negligent misrepresentation under Restatement section 552, accountant liability to third parties (Ultramares, Credit Alliance, Bily), and innocent misrepresentation.",
+   "queries": [
+    "fraudulent misrepresentation scienter justifiable reliance",
+    "Ultramares Touche accountant third party liability",
+    "negligent misrepresentation Restatement 552 information",
+    "fraudulent concealment duty to disclose"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Tortious interference and injurious falsehood",
+   "scope": "Intentional interference with contracts and with prospective economic advantage, the improper-means and privilege requirements, injurious falsehood and trade libel, and landmark verdicts such as Pennzoil v. Texaco.",
+   "queries": [
+    "tortious interference contract improper means",
+    "interference prospective economic advantage independently wrongful",
+    "Pennzoil Texaco Getty Oil verdict",
+    "injurious falsehood trade libel special damages"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Compensatory damages and damage caps",
+   "scope": "Measuring personal injury damages: economic and noneconomic losses, the collateral source rule, statutory caps and challenges to their constitutionality, hedonic damages, per diem arguments, present-value discounting, remittitur, and periodic payment statutes.",
+   "queries": [
+    "collateral source rule personal injury damages",
+    "noneconomic damages cap unconstitutional jury trial",
+    "hedonic damages loss enjoyment life",
+    "Jones Laughlin Steel Pfeifer present value"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Punitive damages and due process limits",
+   "scope": "Standards and constitutional limits for punitive damages: malice and clear-and-convincing evidence, the BMW v. Gore guideposts, ratios after State Farm v. Campbell, Philip Morris v. Williams, the maritime ratio in Exxon v. Baker, and split-recovery statutes.",
+   "queries": [
+    "BMW Gore guideposts punitive damages reprehensibility",
+    "State Farm Campbell single-digit ratio",
+    "Exxon Shipping Baker punitive ratio maritime",
+    "split recovery statute punitive damages state"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wrongful death and survival actions",
+   "scope": "Wrongful death and survival statutes: their origin in Lord Campbell's Act, statutory beneficiaries, pecuniary and non-pecuniary damages, loss of consortium and society, and federal maritime regimes (Moragne, DOHSA).",
+   "queries": [
+    "wrongful death statute beneficiaries pecuniary loss",
+    "survival action decedent conscious pain suffering",
+    "Moragne States Marine Lines wrongful death",
+    "loss of consortium spouse parent child"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal Tort Claims Act",
+   "scope": "The FTCA's waiver of federal sovereign immunity: the discretionary function and other section 2680 exceptions, the Feres doctrine, Westfall Act substitution, administrative claim requirements, and the leading Supreme Court cases.",
+   "queries": [
+    "Federal Tort Claims Act discretionary function exception",
+    "Feres doctrine incident to service",
+    "Westfall Act certification scope employment",
+    "Berkovitz Gaubert discretionary function test"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State, municipal and charitable immunity",
+   "scope": "Non-federal immunities: state tort claims acts and their caps, notice-of-claim requirements, the governmental versus proprietary function distinction, the public duty doctrine, and the abrogation or capping of charitable immunity.",
+   "queries": [
+    "state tort claims act damages cap",
+    "notice of claim requirement municipality",
+    "public duty doctrine special duty police",
+    "charitable immunity hospital abolished"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Toxic and mass torts",
+   "scope": "Toxic exposure and mass tort litigation (asbestos, Agent Orange, Bendectin, tobacco, PFAS), general versus specific causation and expert epidemiology, medical monitoring and fear-of-disease claims, and MDL bellwether practice.",
+   "queries": [
+    "Borel Fibreboard asbestos insulation workers",
+    "medical monitoring claim toxic exposure",
+    "Agent Orange product liability litigation settlement",
+    "general causation specific causation epidemiology expert"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Prenatal injury, wrongful birth and wrongful life",
+   "scope": "Claims arising from pregnancy and birth: prenatal injury after Bonbrest, fetal wrongful death and the viability line, wrongful birth, wrongful life (Curlender, Turpin, Procanik), and damages for wrongful conception or pregnancy.",
+   "queries": [
+    "wrongful life claim child impaired Turpin Sortini",
+    "wrongful birth genetic counseling parents damages",
+    "wrongful conception failed sterilization child rearing costs",
+    "prenatal injury viable fetus wrongful death Bonbrest"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intrafamily immunities and heart balm torts",
+   "scope": "Torts within and against the family: interspousal and parent-child immunity and their abrogation, and heart balm actions (alienation of affections, criminal conversation, breach of promise to marry, seduction) along with the anti-heart-balm statutes.",
+   "queries": [
+    "alienation of affections North Carolina verdict",
+    "criminal conversation heart balm statute abolished",
+    "parental immunity doctrine Hewellette Goller",
+    "interspousal immunity abrogated tort spouse"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Section 1983 constitutional torts and qualified immunity",
+   "scope": "Damages actions under 42 U.S.C. 1983 against state and local actors, covering color of law, Monell municipal liability, qualified immunity and the excessive-force standard.",
+   "queries": [
+    "section 1983 qualified immunity clearly established law",
+    "Monell municipal liability policy or custom",
+    "excessive force Graham v. Connor objective reasonableness",
+    "Pearson v. Callahan qualified immunity sequence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bivens actions against federal officers",
+   "scope": "Implied damages remedies for constitutional violations by federal officials, from Bivens, Davis and Carlson through the limits set in Ziglar v. Abbasi and Egbert v. Boule.",
+   "queries": [
+    "Bivens implied damages remedy federal narcotics agents",
+    "Ziglar v. Abbasi new Bivens context special factors",
+    "Egbert v. Boule border patrol Bivens",
+    "Carlson v. Green prison medical care Bivens"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alien Tort Statute and Torture Victim Protection Act",
+   "scope": "Tort suits in US courts for violations of the law of nations and for torture or extrajudicial killing, including limits on extraterritorial reach and on corporate defendants.",
+   "queries": [
+    "Sosa v. Alvarez-Machain law of nations",
+    "Kiobel Royal Dutch Petroleum presumption against extraterritoriality",
+    "Torture Victim Protection Act extrajudicial killing individual",
+    "Filartiga v. Pena-Irala torture Paraguay"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Civil terrorism liability under the Anti-Terrorism Act and FSIA terrorism exception",
+   "scope": "Damages suits by terrorism victims under 18 U.S.C. 2333, including JASTA secondary liability, and suits against foreign states under the state-sponsor-of-terrorism exception to the FSIA.",
+   "queries": [
+    "Anti-Terrorism Act 2333 treble damages material support",
+    "JASTA aiding and abetting Twitter v. Taamneh",
+    "FSIA 1605A state sponsor of terrorism damages",
+    "Flatow Amendment Iran default judgment terrorism victims"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Workers' compensation exclusivity and third-party actions",
+   "scope": "The exclusive-remedy bar of workers' compensation statutes, its intentional-injury and dual-capacity exceptions, statutory-employer immunity, and injured employees' suits against third parties subject to employer liens.",
+   "queries": [
+    "workers compensation exclusive remedy intentional injury exception",
+    "dual capacity doctrine employer manufacturer exclusivity",
+    "statutory employer general contractor immunity workers compensation",
+    "third-party tortfeasor employer lien reimbursement compensation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "FELA railroad employee injury actions",
+   "scope": "Federal Employers' Liability Act suits by railroad workers, including the relaxed causation standard, pure comparative negligence, Safety Appliance and Locomotive Inspection Act violations, and emotional-distress and occupational-disease claims.",
+   "queries": [
+    "Federal Employers Liability Act railroad employee negligence",
+    "FELA Rogers v. Missouri Pacific featherweight causation",
+    "Consolidated Rail v. Gottshall zone of danger FELA",
+    "Locomotive Inspection Act Safety Appliance Act strict liability"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maritime personal injury and death",
+   "scope": "Admiralty tort remedies for seamen and maritime workers, including Jones Act negligence, unseaworthiness, maintenance and cure, LHWCA vessel negligence, DOHSA, general maritime wrongful death and the Limitation of Liability Act.",
+   "queries": [
+    "Jones Act seaman status unseaworthiness",
+    "maintenance and cure punitive damages Atlantic Sounding",
+    "Longshore Harbor Workers Compensation Act 905(b) vessel negligence",
+    "Death on the High Seas Act Moragne"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Aviation accident liability",
+   "scope": "Liability for air crashes and in-flight injuries under the Warsaw and Montreal Conventions, the General Aviation Revitalization Act's repose period, and federal standards of care in aviation tort suits.",
+   "queries": [
+    "Montreal Convention Article 17 accident bodily injury",
+    "Warsaw Convention Air France v. Saks accident",
+    "General Aviation Revitalization Act eighteen year repose",
+    "air crash wrongful death airline FAA preemption"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Automobile no-fault insurance and guest statutes",
+   "scope": "State motor-vehicle compensation regimes, including no-fault personal injury protection systems with monetary and verbal tort thresholds, and the historical automobile guest statutes that limited passenger suits.",
+   "queries": [
+    "no-fault serious injury threshold permanent consequential limitation",
+    "personal injury protection tort threshold verbal monetary",
+    "automobile guest statute gross negligence passenger",
+    "Michigan no-fault serious impairment body function"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seat belt, helmet and avoidable-consequences defenses",
+   "scope": "Whether evidence that a plaintiff failed to wear a seat belt or helmet is admissible and how it affects recovery, plus the related duties to mitigate damages and avoid consequences after injury.",
+   "queries": [
+    "seat belt defense evidence admissible mitigation damages",
+    "failure to wear motorcycle helmet comparative fault",
+    "avoidable consequences doctrine failure to mitigate surgery",
+    "seat belt statute reduction damages percent"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Collateral source rule and medical expense recovery",
+   "scope": "The collateral source rule, statutory offsets and modifications, subrogation interplay, and the paid-versus-billed dispute over how much medical expense a plaintiff can recover.",
+   "queries": [
+    "collateral source rule insurance benefits damages",
+    "Howell v. Hamilton Meats paid versus billed",
+    "collateral source statute offset subrogation right",
+    "written-off medical expenses reasonable value"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Loss of consortium",
+   "scope": "Derivative claims for lost society and services brought by spouses, children, parents and unmarried partners of injured persons, including the recognition of wives' claims and limits on filial and cohabitant claims.",
+   "queries": [
+    "loss of consortium spouse Hitaffer Rodriguez",
+    "parental consortium child claim injured parent",
+    "filial consortium loss of adult child",
+    "unmarried cohabitant loss of consortium Elden v. Sheldon"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Remittitur, additur and review of excessive verdicts",
+   "scope": "How trial and appellate courts control jury damage awards through remittitur, additur, conditional new trials and standards such as shocks the conscience or deviates materially.",
+   "queries": [
+    "remittitur excessive verdict shocks the conscience",
+    "additur Dimick v. Schiedt Seventh Amendment",
+    "Gasperini deviates materially from reasonable compensation",
+    "maximum recovery rule remittitur pain and suffering"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Spoliation of evidence tort",
+   "scope": "Whether states recognize independent tort claims for intentional or negligent destruction of evidence by parties or third parties, and how that tort relates to adverse-inference sanctions.",
+   "queries": [
+    "independent tort intentional spoliation of evidence",
+    "negligent spoliation third party duty preserve evidence",
+    "Cedars-Sinai Medical Center spoliation tort",
+    "spoliation inference adverse destroyed evidence"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Civil conspiracy and aiding-and-abetting liability",
+   "scope": "Secondary tort liability for those who agree with, or knowingly give substantial help to, a primary tortfeasor, including the Halberstam framework, the underlying-tort requirement and the intracorporate conspiracy doctrine.",
+   "queries": [
+    "civil conspiracy overt act underlying tort",
+    "Halberstam v. Welch aiding abetting substantial assistance",
+    "Restatement 876 concert of action knowing assistance",
+    "intracorporate conspiracy doctrine agents"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Insurance bad faith tort",
+   "scope": "Tort liability of insurers that unreasonably refuse to settle within policy limits or to pay first-party benefits, including excess-judgment exposure, assignment of claims and punitive damages.",
+   "queries": [
+    "insurer bad faith failure to settle within policy limits",
+    "Gruenberg v. Aetna first-party bad faith",
+    "Crisci v. Security Insurance excess judgment",
+    "implied covenant good faith insurer punitive damages"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wrongful discharge in violation of public policy",
+   "scope": "Tort exceptions to at-will employment for firings that violate public policy, including discharge for refusing to commit illegal acts, for whistleblowing, and in retaliation for workers' compensation claims.",
+   "queries": [
+    "wrongful discharge violation public policy at-will",
+    "Petermann v. Teamsters perjury refusal discharge",
+    "retaliatory discharge workers compensation claim tort",
+    "Tameny v. Atlantic Richfield public policy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nursing home negligence and elder abuse statutes",
+   "scope": "Tort claims against long-term-care facilities, including statutory elder-abuse causes of action, residents' rights statutes, pressure-ulcer and fall cases, and enforcement of pre-dispute arbitration agreements.",
+   "queries": [
+    "nursing home negligence pressure ulcers resident",
+    "Elder Abuse Dependent Adult Civil Protection Act",
+    "nursing home arbitration agreement wrongful death",
+    "residents rights statute nursing home damages"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Childhood sexual abuse claims and institutional liability",
+   "scope": "Civil suits by survivors of childhood sexual abuse against abusers and institutions, including delayed-discovery rules, legislative revival windows, and negligent supervision claims against churches, schools and youth organizations.",
+   "queries": [
+    "childhood sexual abuse revival window statute",
+    "Child Victims Act revived claims diocese",
+    "repressed memory delayed discovery sexual abuse",
+    "Boy Scouts negligent supervision sexual abuse"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Common carrier, innkeeper and bailee duties",
+   "scope": "The heightened duties common carriers and innkeepers owe passengers and guests, including liability for employee assaults and amusement rides treated as carriers, plus negligence presumptions against bailees.",
+   "queries": [
+    "common carrier highest degree of care passenger",
+    "innkeeper liability guest assault hotel",
+    "roller coaster amusement ride common carrier",
+    "bailment presumption negligence bailee goods damaged"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Recreational use statutes",
+   "scope": "State statutes that limit the liability of landowners who open land to the public for free recreation, including the willful-or-malicious and fee exceptions and whether the statutes cover public entities.",
+   "queries": [
+    "recreational use statute landowner immunity without charge",
+    "recreational use act willful malicious failure guard warn",
+    "recreational purpose immunity municipality park",
+    "recreational use statute fee consideration exception"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Ski, equine and other inherent-risk recreation statutes",
+   "scope": "Statutory and judge-made limits on liability for the inherent risks of skiing, equine activities and spectator sports, including skier responsibility codes and the baseball rule.",
+   "queries": [
+    "ski safety act inherent risks of skiing",
+    "equine activity liability act inherent risks",
+    "baseball rule spectator foul ball limited duty",
+    "skier responsibility collision statute operator"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Good Samaritan statutes and the rescue doctrine",
+   "scope": "Statutory immunity for people who give emergency aid, and the common-law rescue doctrine that lets an injured rescuer recover from whoever negligently created the danger.",
+   "queries": [
+    "Good Samaritan statute emergency care immunity gross negligence",
+    "rescue doctrine danger invites rescue Wagner",
+    "physician Good Samaritan immunity hospital emergency",
+    "rescuer injured recovery negligent tortfeasor"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public duty doctrine and governmental failure to protect",
+   "scope": "The rule that duties a government owes the public at large do not support individual negligence claims without a special relationship, as applied to police protection, 911 dispatch and inspection failures.",
+   "queries": [
+    "public duty doctrine special relationship exception",
+    "Riss v. City of New York police protection",
+    "Cuffy v. City of New York special duty",
+    "911 call negligent dispatch public duty"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Highway and sidewalk defect liability",
+   "scope": "Liability of governments and abutting landowners for defective roads, sidewalks and traffic devices, including prior written notice laws, highway defect statutes and design immunity.",
+   "queries": [
+    "prior written notice law sidewalk defect municipality",
+    "abutting landowner liability sidewalk snow ice",
+    "highway defect statute pothole notice",
+    "negligent highway design traffic signal immunity"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Fire spread and utility wildfire liability",
+   "scope": "Liability for negligently set or spreading fires, including historical limits on recovery for spreading fire, railroad fire statutes, and utility wildfire liability through negligence and inverse condemnation.",
+   "queries": [
+    "Ryan v. New York Central fire spread",
+    "railroad fire statute sparks locomotive liability",
+    "inverse condemnation utility wildfire power lines",
+    "negligent fire spread adjoining property damages"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Breach of warranty in products liability",
+   "scope": "Contract-based product claims under the UCC, covering express warranties, the implied warranties of merchantability and fitness, privity under UCC 2-318, disclaimers and notice, and the Magnuson-Moss Warranty Act.",
+   "queries": [
+    "implied warranty of merchantability personal injury privity",
+    "express warranty basis of the bargain reliance",
+    "Magnuson-Moss Warranty Act consumer",
+    "UCC 2-318 third party beneficiary warranty"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Liability of non-manufacturers, component suppliers and successor corporations",
+   "scope": "Strict liability of retailers, distributors, online marketplaces and used-product sellers, the component-part and raw-material supplier doctrines, innocent-seller statutes, and successor liability such as the product-line exception.",
+   "queries": [
+    "product line exception successor liability Ray v. Alad",
+    "component part supplier raw material liability",
+    "innocent seller statute product liability distributor",
+    "Amazon third-party seller strict product liability"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "What counts as a product: services, blood, electricity and information",
+   "scope": "Threshold questions about whether strict products liability applies at all, including the sale-versus-service distinction, blood shield statutes, electricity, real estate, publications and software.",
+   "queries": [
+    "blood shield statute service not sale",
+    "electricity product strict liability stream of commerce",
+    "Winter v. G.P. Putnam's Sons mushroom encyclopedia",
+    "sales service distinction hybrid transaction strict liability"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Product misuse, alteration and state-of-the-art defenses",
+   "scope": "Defenses in product cases based on plaintiff misuse, substantial modification after sale, compliance with regulations, state of the art, and comparative fault applied to strict liability.",
+   "queries": [
+    "product misuse foreseeable defense strict liability",
+    "substantial alteration modification after sale",
+    "state of the art defense knowledge at manufacture",
+    "Daly v. General Motors comparative fault strict liability"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Food product liability",
+   "scope": "Liability for harmful food, including the foreign-natural and reasonable-expectation tests for bones and shells, pathogen contamination outbreaks, and claims against restaurants and processors.",
+   "queries": [
+    "foreign natural test food bone chicken",
+    "reasonable expectation test fish chowder bone",
+    "E. coli outbreak contaminated food strict liability",
+    "Mexicali Rose chicken enchilada bone"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Tobacco litigation and the Master Settlement Agreement",
+   "scope": "Suits by smokers and governments against cigarette makers, including the Engle class and its progeny cases, light-cigarette deception claims, punitive awards and the 1998 Master Settlement Agreement.",
+   "queries": [
+    "Master Settlement Agreement tobacco states payments",
+    "Engle class decertification Phase I findings",
+    "smoker fraud addiction punitive damages Philip Morris",
+    "light cigarettes Altria v. Good deceptive"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "No-fault compensation funds and programs",
+   "scope": "Administrative alternatives to tort suits for specific injuries, such as the National Vaccine Injury Compensation Program, the September 11th Victim Compensation Fund, state birth-injury funds and the Price-Anderson Act.",
+   "queries": [
+    "National Vaccine Injury Compensation Program vaccine table",
+    "September 11th Victim Compensation Fund special master",
+    "Virginia Birth-Related Neurological Injury Compensation Act",
+    "Price-Anderson Act nuclear incident public liability action"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Data breach negligence and privacy-injury standing",
+   "scope": "Negligence and related claims over compromised personal data, including the duty to safeguard data, how the economic loss rule applies, and Article III standing based on the risk of identity theft.",
+   "queries": [
+    "data breach negligence duty safeguard personal information",
+    "TransUnion v. Ramirez concrete harm standing",
+    "risk of future identity theft standing data breach",
+    "Spokeo v. Robins concrete injury statutory violation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Choice of law in tort cases",
+   "scope": "Methods for picking the governing law in multistate torts, including lex loci delicti, governmental interest analysis, the Restatement (Second) most-significant-relationship test and better-law approaches.",
+   "queries": [
+    "lex loci delicti choice of law tort",
+    "Babcock v. Jackson guest statute Ontario",
+    "governmental interest analysis false conflict",
+    "most significant relationship Restatement Second Conflict 145"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of tort law, forms of action and the Restatements",
+   "scope": "How tort law developed from the writs of trespass and trespass on the case into fault-based negligence, and the history of the ALI Restatements of Torts and their reporters.",
+   "queries": [
+    "trespass vi et armis action on the case",
+    "Brown v. Kendall fault negligence dog fight",
+    "Restatement Second Torts reporter Prosser Wade",
+    "Scott v. Shepherd lighted squib"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State constitutional challenges to tort reform",
+   "scope": "Challenges to tort reform statutes under state open-courts, right-to-remedy, jury-trial, equal-protection and special-legislation clauses, and how state supreme courts have ruled.",
+   "queries": [
+    "open courts provision right to remedy statute",
+    "damages cap unconstitutional right to trial by jury",
+    "Best v. Taylor Machine Works special legislation",
+    "Smith v. Department of Insurance access to courts"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Wrongful adoption and interference with custody",
+   "scope": "Torts protecting parent-child and adoptive relationships, including wrongful adoption based on misrepresenting a child's history, intentional interference with custodial relations, and parental child abduction.",
+   "queries": [
+    "wrongful adoption fraudulent misrepresentation child history",
+    "Burr v. Board of County Commissioners adoption",
+    "intentional interference with custodial relations parent",
+    "child abduction tort damages noncustodial parent"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  }
+ ]
+}

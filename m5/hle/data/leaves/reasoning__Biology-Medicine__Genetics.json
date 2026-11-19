@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Genetics",
+ "target_leaves": 8,
+ "expected_problems": 20,
+ "leaves": [
+  {
+   "leaf": "Tetrad analysis with chromatid interference",
+   "scope": "Problems give ordered or unordered tetrad class counts from fungal crosses (Neurospora, yeast) and ask for gene\u2013centromere distances, gene order, map distances, or interference parameters. They are hard because multiple-exchange classes have to be reconstructed by hand, chromatid and chiasma interference have to be kept apart, and map functions have to be inverted from PD/NPD/T frequencies.",
+   "techniques": [
+    "Perkins formula and its generalizations relating PD, NPD and T frequencies to mean exchange number",
+    "Second-division segregation frequency as a centromere-mapping statistic with a 2/3 asymptotic ceiling",
+    "Enumeration of two-, three- and four-strand double exchanges and their tetrad-class signatures",
+    "Mather's formulation of exchange-rank distributions from tetrad data",
+    "Count-location (chi-square / gamma) interference models fitted to tetrad frequencies",
+    "Distinguishing chromatid interference from chiasma interference using NPD/T ratios"
+   ],
+   "answer_forms": [
+    "rational number",
+    "decimal map distance in cM",
+    "ordered tuple of gene order",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Meiotic products of rearrangement heterozygotes",
+   "scope": "Problems ask for the spectrum, viability or chromosomal content of gametes from individuals heterozygous for inversions, reciprocal translocations, Robertsonian fusions or insertional rearrangements, given where the crossovers fall. They are hard because the problem solver has to track centromere orientation, loop topology and bridge/fragment formation through one or more exchanges, and then combine this with segregation modes.",
+   "techniques": [
+    "Paracentric vs pericentric inversion loop crossover outcomes (dicentric bridges, acentric fragments, duplication-deficiency products)",
+    "Two- and three-strand double crossovers within and across inversion loops",
+    "Quadrivalent segregation modes (alternate, adjacent-1, adjacent-2, 3:1) in reciprocal translocation carriers",
+    "Effect of interstitial-segment crossovers on the balance of translocation segregants",
+    "Unbalanced gamete enumeration and expected live-birth risk for Robertsonian carriers",
+    "Pseudolinkage and apparent recombination suppression in rearrangement heterozygotes"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer count of gamete types",
+    "small set of karyotypes",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Polysomic inheritance in autopolyploids",
+   "scope": "Problems ask for gametic and zygotic genotype ratios, equilibrium frequencies or test-cross expectations at loci in autotetraploids or autohexaploids, where the locus may sit at varying distances from the centromere. They are hard because double reduction, random chromosome vs random chromatid segregation and multivalent pairing all change the multinomial structure of the gametes.",
+   "techniques": [
+    "Random chromosome segregation vs maximum equational segregation for gamete ratios",
+    "Double reduction coefficient alpha as a function of quadrivalent frequency and distance from the centromere",
+    "Generation-by-generation approach to Hardy\u2013Weinberg equilibrium in tetraploids",
+    "Dosage-class (nulliplex to quadruplex) test-cross and self-cross ratios",
+    "Inbreeding-coefficient recursions under selfing in autopolyploids",
+    "Disomic vs tetrasomic inheritance discrimination in segmental allopolyploids"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ratio as ordered tuple",
+    "closed-form expression in alpha",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Jacquard identity coefficients in complex pedigrees",
+   "scope": "Problems give looped, consanguineous or multigenerational pedigrees and ask for kinship coefficients, inbreeding coefficients, the nine condensed identity states, or sex-linked analogues. They are hard because several paths have to be summed exactly, ancestors may themselves be inbred, and X-linked or haplodiploid transmission rules change the path weights.",
+   "techniques": [
+    "Path-counting with inbred common ancestors (Wright's formula with (1+F_A) terms)",
+    "Recursive kinship-matrix computation in topological order",
+    "Condensed identity states Delta_1 to Delta_9 and their relation to relative covariances",
+    "X-chromosome kinship with zero male\u2013male transmission weights",
+    "Identity coefficients for double first cousins, quadruple half-cousins and other multiply related pairs",
+    "Haplodiploid relatedness asymmetries (e.g., sister\u2013brother vs brother\u2013sister)"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered 9-tuple of rationals",
+    "integer power of 1/2",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Coalescent expectations under demographic structure",
+   "scope": "Problems ask for exact expected site-frequency-spectrum entries, segregating-site counts, tree-length moments or probabilities of particular genealogical topologies for small samples under population size changes, structure or migration. They are hard because the solver has to handle time-inhomogeneous coalescent rates, condition on sample configurations, and integrate over lineage-event orderings in closed form.",
+   "techniques": [
+    "Fu's formula for the expected SFS under a constant-size neutral coalescent",
+    "Time-rescaling for exponential growth or instantaneous bottlenecks",
+    "Structured coalescent with symmetric migration and isolation-with-migration models",
+    "Probability of ranked or unranked gene-tree topologies (incomplete lineage sorting given a species tree)",
+    "Variance of the number of segregating sites and moments of Tajima's D components",
+    "Lineage-counting Markov chains for the time to the most recent common ancestor of a subsample"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in theta or N",
+    "integer",
+    "polynomial in migration rate"
+   ]
+  },
+  {
+   "leaf": "Population dynamics of selfish genetic elements",
+   "scope": "Problems ask for equilibrium frequencies, invasion thresholds, stability conditions or fixation times for meiotic drivers, homing gene drives, toxin\u2013antidote elements, B chromosomes or sex-ratio distorters, given parameters for fitness cost, conversion efficiency and resistance. They are hard because transmission bias interacts nonlinearly with dominance of costs, sex-specific effects and resistance-allele formation, so stability analysis has to be done by hand.",
+   "techniques": [
+    "Recursion for allele frequency under biased heterozygote transmission with dominance of fitness costs",
+    "Threshold-dependent invasion analysis for underdominant and toxin\u2013antidote (e.g., Medea-like) systems",
+    "Homing drive with nonhomologous end-joining resistance allele generation",
+    "Sex-linked meiotic drive with population sex-ratio feedback and Fisherian selection",
+    "Linear stability analysis of internal equilibria and eigenvalues of the Jacobian",
+    "Suppressor-allele invasion criteria at unlinked modifier loci"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in parameters",
+    "inequality threshold value",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Multivariate selection response and variance partitioning",
+   "scope": "Problems give G and P matrices, selection gradients, mating designs or relative covariances and ask for correlated responses, realized heritabilities, causal variance components or changes in variance under selection. They are hard because they require matrix algebra on genetic covariance structure, separating dominance and epistatic terms from designed comparisons, and accounting for gametic disequilibrium from selection.",
+   "techniques": [
+    "Multivariate breeder's equation Delta z = G beta and constrained response",
+    "Bulmer effect: reduction of additive variance from linkage disequilibrium under truncation selection",
+    "Cockerham coefficients for additive, dominance and epistatic covariance among relatives",
+    "Diallel and North Carolina design variance-component extraction",
+    "Smith\u2013Hazel selection index weights and accuracy",
+    "Robertson's secondary theorem and selection on a trait correlated with fitness"
+   ],
+   "answer_forms": [
+    "rational number",
+    "vector as ordered tuple",
+    "closed-form expression",
+    "decimal value"
+   ]
+  },
+  {
+   "leaf": "Bayesian risk in counseling pedigrees",
+   "scope": "Problems give a clinical pedigree with phenotypes, unaffected offspring, test results or linked marker genotypes and ask for an individual's exact posterior carrier or affected risk. They are hard because several independent lines of conditioning have to be combined consistently, often alongside new mutation, germline mosaicism, age-dependent penetrance or imperfect test sensitivity.",
+   "techniques": [
+    "Prior-conditional-joint-posterior tables over multiple consultands",
+    "Haldane's mutation\u2013selection balance for the probability that an isolated X-linked lethal case is a new mutation",
+    "Incorporating linked-marker phase with a given recombination fraction",
+    "Age-dependent penetrance curves as conditional likelihoods for unaffected relatives",
+    "Germline mosaicism recurrence modelling in de novo dominant disorders",
+    "Residual risk after negative carrier screening with known assay detection rate"
+   ],
+   "answer_forms": [
+    "rational number",
+    "fraction in lowest terms",
+    "percentage to stated precision",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

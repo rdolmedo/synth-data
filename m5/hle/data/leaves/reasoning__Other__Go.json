@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Go",
+ "target_leaves": 8,
+ "expected_problems": 56,
+ "leaves": [
+  {
+   "leaf": "Chilled Go infinitesimals in late endgames",
+   "scope": "Problems give a 1-point or sub-1-point endgame position (corridors, dame, last-move fights), ask for its exact chilled canonical value or for the winner of a sum of such regions, and then recover the actual territory result. They are hard because ups, stars, tinies and remote stars cancel in ways that intuition gets wrong, and turning a value back into a territory count needs exact warming.",
+   "techniques": [
+    "Chilling (cooling by 1) as a map from territory-scored Go to combinatorial games",
+    "Canonical form reduction: removing dominated options and bypassing reversible ones",
+    "Atomic weight and the two-ahead rule for infinitesimal sums",
+    "Warming operator to recover exact territory counts from chilled values",
+    "Dyadic-rational values of blocked corridors and stepwise invasions",
+    "Norton multiplication by up and remote-star tracking"
+   ],
+   "answer_forms": [
+    "canonical game expression",
+    "dyadic rational number",
+    "integer (territory margin)",
+    "a move (board coordinate)"
+   ]
+  },
+  {
+   "leaf": "Hot endgame move-value and tally arithmetic",
+   "scope": "Problems set up several independent hot regions with follow-ups (gote, sente, reverse sente, multi-stage) and ask for each region's miai value, the best order of play, or the exact final score under perfect play. They are hard because sente/gote classification changes with follow-up depth and with ambient temperature, and greedy biggest-move-first play can be wrong.",
+   "techniques": [
+    "Miai counting vs deiri counting of swing values",
+    "Thermograph construction for multi-stage follow-ups",
+    "Classifying sente, gote and reverse sente by comparing follow-up temperature to move temperature",
+    "Sentestrat/hotstrat and orderly play in sums of switches",
+    "Tally (sente move count) corrections to the mean value",
+    "Play against a coupon-stack ambient environment"
+   ],
+   "answer_forms": [
+    "rational number (move value or score)",
+    "integer",
+    "ordered sequence of regions/moves",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Semeai liberty counting with eyes and approaches",
+   "scope": "Problems give a capturing race with specified outside, shared, approach and eye liberties and ask for the outcome, who must move first, or the minimum extra liberties needed to change the result. They are hard because shared liberties count differently depending on eyes, big eyes give nonlinear liberty totals, and approach moves or ko liberties change the count.",
+   "techniques": [
+    "Shared-liberty assignment rules for eye vs no-eye races",
+    "Big-eye liberty values (3, 5, 8, 12 for nakade shapes of size 3\u20136)",
+    "Approach-move liberties and when to fill them",
+    "Seki conditions in eye-vs-eye races of equal size",
+    "Ko-semeai counting with threat parity",
+    "Inside/outside liberty filling order"
+   ],
+   "answer_forms": [
+    "word (win, loss, seki, ko)",
+    "integer (minimum liberties or moves)",
+    "a move (board coordinate)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Eye-space classification and unconditional life",
+   "scope": "Problems ask for the status of a group whose eye space is a given polyomino at a center, edge or corner location, for the vital point, or for counts of eye-space shapes with a given status. They are hard because edge and corner effects, false-eye diagonal conditions, and where the outside liberties are all change the status of shapes that look alike.",
+   "techniques": [
+    "Nakade shape enumeration and vital-point location",
+    "False-eye criteria from diagonal control (center vs edge vs corner)",
+    "Benson's algorithm for unconditionally alive chains and vital regions",
+    "Shortage-of-liberties (damezumari) analysis",
+    "Polyomino enumeration under board-boundary symmetry",
+    "Reduction of an eye space by inside placements to a known dead shape"
+   ],
+   "answer_forms": [
+    "integer (count of shapes)",
+    "a move (board coordinate)",
+    "word (alive, dead, unsettled, seki)",
+    "small set of coordinates"
+   ]
+  },
+  {
+   "leaf": "Multi-stage and approach ko resolution",
+   "scope": "Problems describe approach kos, two-stage kos, ten-thousand-year kos or double kos together with a ko-threat budget, and ask who wins locally, how many threats are needed, or the ko's exact move value. They are hard because each extra stage or approach move changes the threat requirement and the value in non-obvious ways, and who has local threats shifts the outcome.",
+   "techniques": [
+    "Counting ko threats and stages in approach (yose) kos",
+    "Value of a simple ko as one third of the swing, and its extension to approach kos",
+    "Ko thermography with komaster assumptions",
+    "Local versus external threat accounting",
+    "Recognising double kos that act as seki or unconditional life",
+    "Deciding when to resolve rather than fight a ko"
+   ],
+   "answer_forms": [
+    "integer (number of threats or moves)",
+    "rational number (move value)",
+    "word (who wins, seki, ko)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Rule-set divergence in scoring and cycles",
+   "scope": "Problems give a finished or nearly finished game, or a cyclic position, and ask how its score or legality differs under Japanese 1989, Chinese, AGA, Ing or New Zealand rules. They are hard because each rule set handles seki points, the parity of dame, pass stones, handicap compensation, suicide and superko differently, and those effects add up in exact ways.",
+   "techniques": [
+    "Area vs territory score conversion and dame-parity corrections",
+    "Seki-territory and prisoner handling across rule sets",
+    "Handicap compensation (N vs N\u22121 points) and pass-stone accounting",
+    "Positional vs situational superko legality checks on long cycles",
+    "Rule-based life-and-death confirmation (e.g. bent-four rulings, eternal-life cycles)",
+    "Legality of multi-stone suicide and its effect on area counts"
+   ],
+   "answer_forms": [
+    "integer or half-integer score margin",
+    "yes/no (legality)",
+    "letter for multiple choice",
+    "name of a rule set"
+   ]
+  },
+  {
+   "leaf": "Legal-position enumeration on small boards",
+   "scope": "Problems ask for the exact number of legal positions (every chain has a liberty) on strips, small rectangles, tori or other small graphs, possibly limited by stone count, colour balance or symmetry class. They are hard because legality is a global connectivity-to-liberty condition, so counting needs border-state transfer matrices or careful inclusion-exclusion rather than independent local counts.",
+   "techniques": [
+    "Transfer-matrix method with border connectivity and liberty-status states",
+    "Linear recurrences and generating functions for 1\u00d7n and 2\u00d7n strips",
+    "Burnside's lemma for counting positions up to board symmetry",
+    "Inclusion-exclusion over chains with no liberties",
+    "Colour-swap and stone-count refinements of the count",
+    "Comparison of planar, toroidal and cylindrical boundary conditions"
+   ],
+   "answer_forms": [
+    "integer",
+    "linear recurrence or closed-form expression",
+    "rational number (fraction of all colourings)",
+    "generating function"
+   ]
+  },
+  {
+   "leaf": "Perfect play on tiny boards and graphs",
+   "scope": "Problems ask for the optimal area-score result, the fair komi, or the best first move for Go played on tiny boards (1\u00d7n, 2\u00d7n, 3\u00d73), on cycles, or on small non-grid graphs under a stated ko and pass rule. They are hard because superko makes play depend on history, and passing plus capture\u2013recapture loops make naive minimax search incorrect.",
+   "techniques": [
+    "Minimax with transposition and history-aware (superko) states",
+    "Symmetry reduction and mirror strategies on symmetric graphs",
+    "Strategy-stealing arguments that bound the first player's score",
+    "Pruning with Benson-unconditional regions",
+    "Analysis of capture\u2013recapture cycles under positional superko",
+    "Treating pass/termination as a move in the game tree"
+   ],
+   "answer_forms": [
+    "integer (optimal score or komi)",
+    "a move (vertex or coordinate)",
+    "sequence of moves",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

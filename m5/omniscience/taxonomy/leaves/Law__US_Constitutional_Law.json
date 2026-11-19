@@ -1,0 +1,1472 @@
+{
+ "domain": "Law",
+ "subtopic": "US Constitutional Law",
+ "weight": 0.022839,
+ "leaves": [
+  {
+   "leaf": "Article III standing, mootness and ripeness",
+   "scope": "Case-or-controversy rules on who may sue and when: injury in fact, traceability, redressability, taxpayer, organizational and legislator standing, mootness exceptions and ripeness of pre-enforcement challenges.",
+   "queries": [
+    "Article III standing injury in fact traceability redressability",
+    "Lujan Defenders Wildlife Spokeo concrete particularized injury",
+    "taxpayer standing Flast Cohen organizational standing",
+    "mootness voluntary cessation ripeness pre-enforcement challenge"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Judicial review, political questions and congressional control of federal jurisdiction",
+   "scope": "Where judicial review comes from and how far it reaches (Marbury, Martin v. Hunter's Lessee, Cooper v. Aaron), the political question doctrine and Guarantee Clause, jurisdiction-stripping under the Exceptions Clause, and non-Article III tribunals and public rights.",
+   "queries": [
+    "Marbury Madison judicial review Judiciary Act 1789 mandamus",
+    "political question doctrine textually demonstrable commitment Baker Carr",
+    "jurisdiction stripping Exceptions Clause Ex parte McCardle",
+    "Article I courts public rights doctrine Stern Marshall"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eleventh Amendment, state sovereign immunity and Section 5 abrogation",
+   "scope": "State immunity from suit in federal and state courts, the Ex parte Young exception, waiver, and when Congress may abrogate immunity under the congruence-and-proportionality test.",
+   "queries": [
+    "Eleventh Amendment state sovereign immunity Hans Louisiana",
+    "Ex parte Young prospective injunctive relief state officials",
+    "Seminole Tribe abrogation congruence proportionality Section 5",
+    "Alden Maine sovereign immunity state court suits"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Commerce Clause and Necessary and Proper Clause limits on federal power",
+   "scope": "How far Congress may regulate interstate commerce and use implied powers, from Gibbons v. Ogden and McCulloch through the New Deal cases, Wickard, Lopez, Morrison, Raich, Comstock and the individual mandate in NFIB v. Sebelius.",
+   "queries": [
+    "Commerce Clause substantial effects Lopez Morrison",
+    "Wickard Filburn aggregation wheat quota interstate commerce",
+    "McCulloch Maryland Necessary and Proper implied powers",
+    "individual mandate Commerce Clause NFIB Sebelius inactivity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dormant Commerce Clause and state taxation of interstate commerce",
+   "scope": "Limits on state laws that discriminate against or unduly burden interstate commerce: the Pike balancing test, the market-participant exception, extraterritoriality (National Pork Producers) and state tax nexus (Complete Auto, Quill, Wayfair).",
+   "queries": [
+    "Philadelphia New Jersey dormant Commerce Clause discrimination",
+    "Pike Bruce Church undue burden balancing",
+    "market participant exception dormant Commerce Clause",
+    "Complete Auto Transit state tax nexus Wayfair"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Taxing and Spending Clause and conditional federal grants",
+   "scope": "Congress's taxing power (the tax/penalty distinction, direct taxes, apportionment, the Sixteenth Amendment) and its spending power, including the Dole conditions, the Pennhurst clear-statement rule and the coercion limit from the Medicaid expansion ruling.",
+   "queries": [
+    "Spending Clause conditional grants South Dakota Dole",
+    "Medicaid expansion coercion NFIB spending power",
+    "taxing power penalty Child Labor Tax Case",
+    "direct tax apportionment Pollock Sixteenth Amendment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tenth Amendment and the anti-commandeering doctrine",
+   "scope": "Federalism limits that keep Congress from directing state legislatures or officers (New York v. United States, Printz, Murphy v. NCAA), plus the National League Cities and Garcia line on regulating states as employers.",
+   "queries": [
+    "anti-commandeering doctrine Printz Brady Act",
+    "New York United States radioactive waste take title",
+    "Murphy NCAA sports betting PASPA commandeering",
+    "Garcia San Antonio Metropolitan Transit National League Cities"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal preemption and intergovernmental immunity",
+   "scope": "Supremacy Clause doctrine on express, field, conflict and obstacle preemption, the presumption against preemption, and federal and state immunity from each other's taxes and regulation.",
+   "queries": [
+    "Supremacy Clause express field conflict preemption",
+    "Arizona United States immigration preemption SB 1070",
+    "presumption against preemption Wyeth Levine impossibility",
+    "intergovernmental tax immunity federal contractors state taxation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Article IV interstate relations clauses",
+   "scope": "The Full Faith and Credit Clause, the Article IV Privileges and Immunities Clause for nonresidents, the Extradition and Fugitive Slave Clauses, and the Compact Clause requirement of congressional consent to interstate compacts.",
+   "queries": [
+    "Full Faith and Credit Clause sister state judgments",
+    "Article IV Privileges and Immunities nonresidents Toomer Witsell",
+    "Extradition Clause fugitive interstate rendition Puerto Rico Branstad",
+    "Compact Clause congressional consent interstate compact Virginia Tennessee"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Citizenship Clause, expatriation and the constitutional status of territories",
+   "scope": "Birthright citizenship and its limits, loss of citizenship, and the Territorial Clause and Insular Cases as they apply to Puerto Rico, Guam, American Samoa and other unincorporated territories.",
+   "queries": [
+    "Citizenship Clause birthright citizenship Wong Kim Ark",
+    "Insular Cases unincorporated territories Downes Bidwell",
+    "expatriation Afroyim Rusk Vance Terrazas citizenship",
+    "Puerto Rico Territorial Clause Sanchez Valle Aurelius"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Appointments Clause and presidential removal power",
+   "scope": "Principal versus inferior officers, appointment by heads of departments and courts of law, recess appointments, and removal protections for independent agencies and officials (Myers, Humphrey's Executor, Morrison v. Olson, Free Enterprise Fund, Seila Law, Lucia, Arthrex).",
+   "queries": [
+    "Appointments Clause principal inferior officers Edmond Morrison Olson",
+    "removal power Humphrey's Executor Myers independent agency",
+    "Seila Law Collins Yellen removal protection director",
+    "Recess Appointments Clause Noel Canning pro forma"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nondelegation, major questions and the Article I lawmaking process",
+   "scope": "Limits on delegating legislative power (intelligible principle, Schechter, Panama Refining, Gundy, the major questions doctrine) and the bicameralism and presentment rules behind the legislative veto, line-item veto, pocket veto and Origination Clause cases.",
+   "queries": [
+    "nondelegation doctrine intelligible principle J.W. Hampton",
+    "major questions doctrine West Virginia EPA",
+    "legislative veto INS Chadha bicameralism presentment",
+    "Line Item Veto Act Clinton City New York"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Executive privilege, presidential immunity and the pardon power",
+   "scope": "Personal constitutional prerogatives of the President: executive privilege against subpoenas, civil and criminal immunity for official acts, and the scope and history of the pardon and clemency power.",
+   "queries": [
+    "executive privilege United States Nixon subpoena tapes",
+    "presidential immunity official acts Trump United States",
+    "Nixon Fitzgerald absolute immunity Clinton Jones",
+    "presidential pardon power commutation Ex parte Garland"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "War powers, emergency powers and wartime detention",
+   "scope": "How Congress and the President divide authority over military force and emergencies (Youngstown, the Prize Cases, the War Powers Resolution, AUMFs, national emergency statutes), plus habeas suspension, military commissions and detention of enemy combatants.",
+   "queries": [
+    "Youngstown Sheet Tube steel seizure Jackson concurrence",
+    "War Powers Resolution hostilities sixty day withdrawal",
+    "habeas corpus suspension Ex parte Milligan Merryman",
+    "Boumediene Bush Guantanamo Hamdi enemy combatant detention"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foreign affairs, treaty power and executive agreements",
+   "scope": "Constitutional allocation of foreign relations powers: treaty-making and its federalism effects, self-executing versus non-self-executing treaties, sole executive agreements, the recognition power and claims settlement.",
+   "queries": [
+    "Curtiss-Wright foreign affairs power sole organ",
+    "treaty power Missouri Holland migratory birds",
+    "Medellin Texas self-executing treaty Vienna Convention",
+    "Dames Moore executive agreement Zivotofsky recognition power"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Impeachment of federal officers",
+   "scope": "The impeachment clauses and how they have been used: the meaning of high crimes and misdemeanors, House and Senate procedures, presidential impeachments, and impeachment and removal of federal judges and other officers.",
+   "queries": [
+    "impeachment high crimes misdemeanors Senate trial conviction",
+    "Andrew Johnson impeachment Tenure of Office Act",
+    "federal judge impeached removed Senate Porteous",
+    "Nixon United States impeachment trial committee nonjusticiable"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Congressional investigations, contempt and the Speech or Debate Clause",
+   "scope": "Congress's implied power to investigate and subpoena, the legislative-purpose requirement, inherent and statutory contempt, and legislative immunity under the Speech or Debate Clause.",
+   "queries": [
+    "McGrain Daugherty congressional investigation subpoena power",
+    "contempt of Congress Watkins legislative purpose",
+    "Speech or Debate Clause Gravel legislative immunity",
+    "Trump Mazars congressional subpoena presidential records"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Qualifications, selection and succession of the President and members of Congress",
+   "scope": "Constitutional qualifications and disqualifications for federal office (natural-born citizen, term limits, Fourteenth Amendment Section 3, emoluments), the Electoral College and Twelfth Amendment, faithless electors, the Electoral Count Act, and the Twentieth, Twenty-Second and Twenty-Fifth Amendments.",
+   "queries": [
+    "Twenty-fifth Amendment presidential disability succession vice president",
+    "Electoral College Twelfth Amendment contingent election House",
+    "congressional term limits Thornton Powell McCormack qualifications",
+    "Section 3 Fourteenth Amendment insurrection disqualification Trump Anderson"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Equal protection: race, national origin and alienage classifications",
+   "scope": "Strict scrutiny of racial, ethnic and alienage classifications, from Strauder, Yick Wo and Plessy through Brown, Loving and Korematsu, the discriminatory-purpose requirement, and school desegregation remedies.",
+   "queries": [
+    "Brown Board Education separate but equal Plessy",
+    "Loving Virginia strict scrutiny racial classification",
+    "school desegregation remedies busing Swann Milliken",
+    "discriminatory purpose Washington Davis Arlington Heights"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Affirmative action and race-conscious government programs",
+   "scope": "Constitutional review of race-conscious admissions, contracting set-asides and student assignment, from Bakke, Croson and Adarand through Grutter, Gratz, Fisher, Parents Involved and Students for Fair Admissions.",
+   "queries": [
+    "affirmative action admissions Bakke Grutter diversity",
+    "Students for Fair Admissions Harvard race-conscious",
+    "Adarand Croson minority set-aside strict scrutiny",
+    "Parents Involved Seattle racial tiebreaker student assignment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sex, gender and legitimacy classifications under intermediate scrutiny",
+   "scope": "Heightened scrutiny of sex-based laws (Reed, Frontiero, Craig v. Boren, VMI, Nguyen, Morales-Santana, transgender-related classifications) and of classifications based on nonmarital birth.",
+   "queries": [
+    "intermediate scrutiny sex discrimination Craig Boren",
+    "United States Virginia VMI exceedingly persuasive justification",
+    "Frontiero Richardson Reed Reed gender classification",
+    "nonmarital children illegitimacy equal protection Clark Jeter"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rational basis review and the end of Lochner-era economic due process",
+   "scope": "The rise and fall of liberty of contract (Lochner, Adkins, Nebbia, West Coast Hotel), Carolene Products footnote four, deferential rational basis review, and its sharper versions for disability, sexual orientation, wealth and education.",
+   "queries": [
+    "Lochner liberty of contract West Coast Hotel",
+    "Carolene Products footnote four Williamson Lee Optical",
+    "Cleburne Living Center Romer Evans rational basis",
+    "San Antonio Rodriguez school finance Plyler Doe"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Voting rights, apportionment and redistricting",
+   "scope": "The right to vote and districting: one person, one vote, racial and partisan gerrymandering, poll taxes and voter qualifications, the census and House apportionment, the Elections Clause, and Fifteenth Amendment enforcement through the Voting Rights Act.",
+   "queries": [
+    "one person one vote Reynolds Sims Wesberry",
+    "racial gerrymandering Shaw Reno majority-minority district",
+    "partisan gerrymandering Rucho Common Cause justiciability",
+    "Voting Rights Act Shelby County preclearance coverage formula"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Substantive due process and unenumerated personal rights",
+   "scope": "Fundamental rights not listed in the text (privacy, contraception, abortion, marriage, intimate conduct, family and parental rights, refusing medical treatment), including the Ninth Amendment and the Glucksberg history-and-tradition test.",
+   "queries": [
+    "right to privacy Griswold Connecticut penumbras contraception",
+    "Dobbs Jackson Women's Health Roe Casey overruled",
+    "Obergefell Hodges same-sex marriage Lawrence Texas",
+    "Washington Glucksberg assisted suicide history tradition"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contracts Clause, ex post facto and bill of attainder prohibitions",
+   "scope": "The Article I, Sections 9 and 10 limits on retroactive and punitive legislation: impairment of contracts, ex post facto criminal laws, bills of attainder, and related prohibitions such as titles of nobility.",
+   "queries": [
+    "Contracts Clause Blaisdell mortgage moratorium impairment",
+    "Dartmouth College Woodward Fletcher Peck contract",
+    "Ex Post Facto Clause Calder Bull retroactive",
+    "bill of attainder legislative punishment Lovett Cummings"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Procedural due process",
+   "scope": "When government must give notice and a hearing before taking life, liberty or property: protected property and liberty interests, the Mathews v. Eldridge balancing test, and pre- and post-deprivation hearing requirements.",
+   "queries": [
+    "Mathews Eldridge balancing procedural due process",
+    "Goldberg Kelly welfare termination evidentiary hearing",
+    "Board of Regents Roth property interest entitlement",
+    "Loudermill pretermination hearing public employee"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Takings Clause and eminent domain",
+   "scope": "Physical and regulatory takings, the public use requirement, just compensation, exactions, and procedural access to federal court (Penn Central, Loretto, Lucas, Kelo, Nollan, Dolan, Koontz, Knick, Cedar Point).",
+   "queries": [
+    "Penn Central regulatory taking factors",
+    "Lucas Coastal Council total deprivation economically beneficial use",
+    "Kelo New London public use eminent domain",
+    "Nollan Dolan exactions rough proportionality Koontz"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Incorporation of the Bill of Rights and the Privileges or Immunities Clause",
+   "scope": "How the Bill of Rights came to apply to the states (Barron, Slaughter-House, Twining, Palko, Duncan, McDonald, Timbs, Ramos), the narrowing of the Privileges or Immunities Clause, and the right to interstate travel.",
+   "queries": [
+    "selective incorporation Bill of Rights Fourteenth Amendment",
+    "Slaughter-House Cases privileges or immunities",
+    "Barron Baltimore Bill of Rights states",
+    "Saenz Roe right to travel durational residency"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State action doctrine and the Thirteenth Amendment",
+   "scope": "When private conduct counts as government action (public function, entanglement, judicial enforcement, state compulsion) and the Thirteenth Amendment's reach to private discrimination and the badges and incidents of slavery.",
+   "queries": [
+    "state action doctrine Civil Rights Cases 1883",
+    "Shelley Kraemer restrictive covenants judicial enforcement",
+    "public function exception Marsh Alabama company town",
+    "Thirteenth Amendment badges incidents slavery Jones Mayer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Second Amendment right to keep and bear arms",
+   "scope": "The individual right to arms and the method for reviewing gun laws, from Miller (1939) through Heller, McDonald, Caetano, Bruen and Rahimi, with lower-court application to specific firearm restrictions.",
+   "queries": [
+    "Heller Second Amendment individual right handgun",
+    "Bruen text history tradition firearm regulation",
+    "McDonald Chicago Second Amendment incorporation",
+    "Rahimi domestic violence restraining order firearm"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Unprotected speech categories: incitement, threats, fighting words and obscenity",
+   "scope": "Historically excluded or low-value speech and its tests: clear and present danger to Brandenburg incitement, fighting words, true threats, obscenity under Miller, child pornography, and the Stevens and Alvarez refusals to add new categories.",
+   "queries": [
+    "Brandenburg Ohio imminent lawless action incitement",
+    "Chaplinsky fighting words clear and present danger",
+    "true threats Virginia Black cross burning Counterman",
+    "Miller California obscenity test Ferber child pornography"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public forum doctrine, symbolic speech and content neutrality",
+   "scope": "The forum categories, time, place and manner rules, the content-based versus content-neutral distinction (Reed v. Town of Gilbert), expressive conduct such as draft-card and flag burning, and the government speech doctrine.",
+   "queries": [
+    "traditional public forum designated forum Perry Education",
+    "time place manner Ward Rock Against Racism",
+    "O'Brien draft card symbolic speech flag burning",
+    "government speech doctrine Summum Walker Shurtleff"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Freedom of the press, prior restraint and defamation",
+   "scope": "Press Clause doctrine: prior restraints and gag orders, reporter's privilege, access to criminal trials, right-of-reply laws, and the constitutional law of defamation and emotional-distress torts (Sullivan, Gertz, Hustler).",
+   "queries": [
+    "New York Times Sullivan actual malice",
+    "prior restraint Near Minnesota Pentagon Papers",
+    "Gertz Robert Welch private figure defamation",
+    "Branzburg Hayes reporter's privilege grand jury"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Commercial speech and professional speech",
+   "scope": "First Amendment protection for advertising and commercial information: the Central Hudson test, compelled commercial disclosures under Zauderer, lawyer advertising and solicitation, and regulation of professional speech.",
+   "queries": [
+    "Central Hudson commercial speech four-part test",
+    "Virginia Pharmacy Board commercial speech advertising",
+    "Zauderer compelled commercial disclosure factual uncontroversial",
+    "attorney advertising Bates State Bar Arizona solicitation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Campaign finance and political spending",
+   "scope": "First Amendment review of limits on contributions and expenditures, corporate and union spending, disclosure rules, soft money and coordinated expenditures, from Buckley v. Valeo through Citizens United and McCutcheon.",
+   "queries": [
+    "Buckley Valeo contribution expenditure limits",
+    "Citizens United corporate independent expenditures",
+    "McCutcheon FEC aggregate contribution limits",
+    "McConnell FEC BCRA electioneering communications soft money"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Speech of public employees and students",
+   "scope": "Speech rights inside government institutions: Pickering balancing, the Garcetti official-duties rule, and student speech from Tinker through Fraser, Hazelwood, Morse and Mahanoy.",
+   "queries": [
+    "Pickering balancing public employee speech",
+    "Garcetti Ceballos official duties speech",
+    "Tinker Des Moines armbands substantial disruption",
+    "Mahanoy off-campus student speech Morse Frederick"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Freedom of association and compelled speech",
+   "scope": "The right not to speak or subsidize speech (Barnette, Wooley, Janus, 303 Creative), expressive association and membership policies, and protection of membership and donor lists from compelled disclosure.",
+   "queries": [
+    "Barnette flag salute compelled speech",
+    "Boy Scouts Dale expressive association Roberts Jaycees",
+    "NAACP Alabama membership lists disclosure",
+    "303 Creative Elenis public accommodations compelled speech"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Establishment Clause",
+   "scope": "Government endorsement of or aid to religion: school prayer, religious displays, legislative prayer, aid to religious schools and vouchers, and the move from the Lemon test to the history-and-tradition approach in Kennedy v. Bremerton.",
+   "queries": [
+    "Lemon Kurtzman test Establishment Clause",
+    "Kennedy Bremerton historical practices understandings",
+    "Engel Vitale school prayer Abington Schempp",
+    "Ten Commandments display Van Orden McCreary"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Free Exercise Clause and religious liberty statutes",
+   "scope": "Constitutional and statutory protection for religious practice: Sherbert and Yoder, the neutral-and-generally-applicable rule of Employment Division v. Smith, RFRA and RLUIPA, the ministerial exception, and recent cases on religious exclusion from public benefits.",
+   "queries": [
+    "Employment Division Smith neutral generally applicable",
+    "Sherbert Verner compelling interest unemployment",
+    "Religious Freedom Restoration Act Hobby Lobby",
+    "Church Lukumi Babalu Aye ordinance"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Constitutional founding, ratification and the Article V amendment process",
+   "scope": "Historical facts about the Articles of Confederation, the 1787 Convention and its plans and compromises, the ratification debates and Federalist Papers, the Bill of Rights, and how amendments are proposed and ratified (including the Twenty-Seventh Amendment and the ERA deadline).",
+   "queries": [
+    "Constitutional Convention 1787 delegates Virginia Plan",
+    "Article V amendment ratification state conventions",
+    "Twenty-seventh Amendment congressional pay ratification",
+    "Equal Rights Amendment ratification deadline Coleman Miller"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Fourth Amendment searches of homes, curtilage, open fields and physical spaces",
+   "scope": "What counts as a Fourth Amendment search of physical spaces and property: the Katz expectation-of-privacy and Jones/Jardines trespass tests, curtilage, open fields, abandoned garbage, aerial overflights and canine sniffs.",
+   "queries": [
+    "curtilage open fields doctrine Oliver Dunn factors",
+    "canine sniff front porch Jardines search",
+    "aerial surveillance helicopter altitude Ciraolo reasonable expectation privacy",
+    "Katz reasonable expectation of privacy trespass test"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Digital privacy, electronic surveillance and the third-party doctrine",
+   "scope": "Fourth Amendment protection for digital data and electronic surveillance, including cell phone searches, cell-site location records, GPS tracking, thermal imaging, wiretaps, geofence warrants and the third-party doctrine.",
+   "queries": [
+    "cell site location information Carpenter warrant days",
+    "GPS tracking device vehicle Jones trespass",
+    "geofence warrant Google location history Fourth Amendment",
+    "third-party doctrine pen register Smith Maryland"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Warrants, probable cause and exceptions to the warrant requirement",
+   "scope": "Probable cause standards, warrant particularity and execution including knock-and-announce, and the automobile, search-incident-to-arrest, exigent-circumstances, consent, plain-view and inventory exceptions.",
+   "queries": [
+    "automobile exception probable cause Carroll Acevedo container",
+    "search incident to arrest Chimel Gant vehicle",
+    "exigent circumstances warrantless home entry hot pursuit",
+    "consent search third party authority Randolph Rodriguez"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Investigatory stops, arrests and police use of force",
+   "scope": "Seizures of persons: when a seizure occurs, Terry stops and frisks, reasonable suspicion, traffic stops, warrantless arrests, and the Graham v. Connor and Tennessee v. Garner standards for excessive and deadly force.",
+   "queries": [
+    "Terry stop frisk reasonable suspicion pat down",
+    "traffic stop prolonged dog sniff Rodriguez",
+    "deadly force fleeing suspect Tennessee Garner",
+    "excessive force objective reasonableness Graham Connor factors"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exclusionary rule, its exceptions and Fourth Amendment standing",
+   "scope": "The exclusionary rule and fruit-of-the-poisonous-tree doctrine, the good-faith, inevitable-discovery, independent-source and attenuation exceptions, and who has standing to seek suppression.",
+   "queries": [
+    "good faith exception Leon warrant suppression",
+    "fruit of the poisonous tree attenuation Wong Sun",
+    "inevitable discovery independent source doctrine Nix Williams",
+    "Fourth Amendment standing passenger rental car Rakas Byrd"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Special needs, administrative, school and border searches",
+   "scope": "Suspicionless and reduced-suspicion search regimes: drug testing, sobriety and immigration checkpoints, border and port-of-entry searches, closely regulated industry inspections, school searches, probationer searches and arrestee DNA collection.",
+   "queries": [
+    "suspicionless drug testing student athletes special needs",
+    "sobriety checkpoint roadblock Sitz Edmond",
+    "border search routine nonroutine Flores-Montano",
+    "administrative inspection closely regulated industry warrantless Burger"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Privilege against self-incrimination, Miranda and confession voluntariness",
+   "scope": "The Fifth Amendment privilege against self-incrimination: Miranda warnings, custody and interrogation, invocation and waiver, the Edwards rule, the public-safety exception, due process voluntariness of confessions, immunity and the act-of-production doctrine.",
+   "queries": [
+    "Miranda custodial interrogation warnings waiver invocation",
+    "Edwards Arizona request counsel reinitiate interrogation",
+    "coerced confession voluntariness due process involuntary",
+    "derivative use immunity Kastigar act of production"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Double Jeopardy Clause",
+   "scope": "When jeopardy attaches, the Blockburger same-elements test, the dual-sovereignty doctrine, mistrials and manifest necessity, the finality of acquittals, collateral estoppel, and civil penalties treated as punishment.",
+   "queries": [
+    "Blockburger same elements test double jeopardy",
+    "dual sovereignty doctrine separate sovereigns Gamble",
+    "mistrial manifest necessity retrial double jeopardy",
+    "collateral estoppel acquittal Ashe Swenson"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sixth Amendment right to counsel and ineffective assistance",
+   "scope": "The right to appointed and retained counsel, critical stages, Massiah deliberate elicitation, self-representation, counsel of choice, and the Strickland and Cronic standards for ineffective assistance, including during plea bargaining.",
+   "queries": [
+    "Gideon right to appointed counsel indigent felony",
+    "Strickland ineffective assistance deficient performance prejudice",
+    "plea bargaining ineffective assistance Lafler Frye Padilla deportation",
+    "Faretta self-representation waiver of counsel"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Confrontation Clause and testimonial hearsay",
+   "scope": "The Crawford testimonial framework and its offshoots: forensic reports and analyst testimony, ongoing emergencies, codefendant confessions under Bruton, forfeiture by wrongdoing, and child-witness procedures.",
+   "queries": [
+    "Crawford testimonial hearsay confrontation clause",
+    "forensic laboratory report analyst testify Melendez-Diaz",
+    "ongoing emergency 911 call testimonial Davis Bryant",
+    "Bruton codefendant confession redacted"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Criminal jury trial right, unanimity and Apprendi sentencing facts",
+   "scope": "The scope of the criminal jury right, including the petty-offense line, jury size, unanimity, and the Apprendi–Blakely–Booker rule that juries must find facts raising sentencing ranges.",
+   "queries": [
+    "Apprendi fact increases penalty statutory maximum jury",
+    "nonunanimous jury verdict Ramos Louisiana Oregon",
+    "petty offense six months jury trial right",
+    "jury size six member Williams Florida Ballew"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Jury selection: Batson challenges, fair cross-section and death qualification",
+   "scope": "Constitutional limits on composing juries: Batson discriminatory peremptory strikes based on race and sex, the Duren fair cross-section test, and Witherspoon–Witt death qualification.",
+   "queries": [
+    "Batson peremptory challenge race neutral explanation",
+    "fair cross-section requirement Duren prima facie",
+    "Witherspoon Witt death qualified jury excluded",
+    "peremptory strikes sex discrimination J.E.B. Alabama"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Speedy trial, public trial, venue and pretrial publicity",
+   "scope": "The Barker v. Wingo speedy trial factors and the Speedy Trial Act, courtroom closure and the public trial right, Article III and Sixth Amendment venue and vicinage, and fair-trial protections against prejudicial publicity.",
+   "queries": [
+    "Barker Wingo speedy trial four factors delay",
+    "Speedy Trial Act seventy days excludable delay",
+    "public trial closure courtroom voir dire Waller Presley",
+    "pretrial publicity change of venue Sheppard Skilling"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Due process trial rights: Brady disclosure, burden of proof, identifications and competency",
+   "scope": "Due process guarantees in criminal trials: Brady and Giglio disclosure, Napue false testimony, the Winship reasonable-doubt requirement, lost evidence, suggestive eyewitness identifications, competency to stand trial and the insanity defense.",
+   "queries": [
+    "Brady material exculpatory evidence suppression prosecution",
+    "Giglio impeachment Napue false testimony",
+    "eyewitness identification suggestive lineup Manson Brathwaite",
+    "competency to stand trial Dusky rational understanding"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Harmless error, structural error and retroactivity of new constitutional rules",
+   "scope": "Remedial doctrines for constitutional violations in criminal cases: Chapman and Brecht harmless-error standards, structural errors requiring automatic reversal, and Teague retroactivity of new rules on direct and collateral review.",
+   "queries": [
+    "Chapman harmless beyond reasonable doubt constitutional error",
+    "structural error automatic reversal Fulminante",
+    "Teague retroactivity new rule watershed collateral review",
+    "Brecht substantial injurious effect habeas harmless"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Death penalty under the Eighth Amendment",
+   "scope": "Capital punishment jurisprudence from Furman and Gregg onward, including categorical exemptions (intellectual disability, juveniles, non-homicide crimes), competency to be executed, individualized sentencing, racial disparity claims and methods of execution.",
+   "queries": [
+    "Furman Gregg death penalty moratorium guided discretion",
+    "execution intellectually disabled Atkins IQ",
+    "lethal injection protocol midazolam method execution",
+    "death penalty juveniles Roper child rape Kennedy Louisiana"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Noncapital Eighth Amendment: proportionality, juvenile sentencing, excessive fines and bail",
+   "scope": "Eighth Amendment limits outside the death penalty: gross disproportionality of prison terms and recidivist laws, juvenile life-without-parole limits, status crimes, the Excessive Fines Clause and forfeitures, and the Excessive Bail Clause.",
+   "queries": [
+    "gross disproportionality three strikes Ewing Harmelin",
+    "juvenile life without parole Miller Graham",
+    "excessive fines civil forfeiture Timbs Bajakajian",
+    "excessive bail Stack Boyle pretrial detention Salerno"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Prisoners' constitutional rights and conditions of confinement",
+   "scope": "Constitutional claims by prisoners and detainees: deliberate indifference to medical needs and safety, excessive force by guards, overcrowding and solitary confinement, and the Turner v. Safley test for prison regulations burdening speech, marriage and access to courts.",
+   "queries": [
+    "deliberate indifference serious medical needs Estelle Gamble",
+    "prison regulation reasonably related penological interests Turner Safley",
+    "prison overcrowding Brown Plata population reduction",
+    "solitary confinement conditions Eighth Amendment Farmer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Void-for-vagueness and First Amendment overbreadth doctrines",
+   "scope": "Facial-invalidity doctrines: due process vagueness challenges to criminal statutes and sentencing clauses such as residual clauses, and First Amendment substantial-overbreadth challenges.",
+   "queries": [
+    "void for vagueness residual clause Johnson Dimaya",
+    "loitering ordinance vague Papachristou Morales",
+    "substantial overbreadth facial challenge Broadrick Stevens",
+    "fair notice arbitrary enforcement vagueness statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Constitutional tort remedies: Section 1983, Bivens and qualified immunity",
+   "scope": "Damages actions for constitutional violations: 42 U.S.C. 1983 elements, Monell municipal liability, the Heck bar, the Bivens implied cause of action and its narrowing, and qualified and absolute official immunities.",
+   "queries": [
+    "qualified immunity clearly established law Harlow Pearson",
+    "Bivens new context special factors Egbert",
+    "Monell municipal liability policy custom section 1983",
+    "Heck Humphrey favorable termination section 1983"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fundamental-interest equal protection: wealth, education, access to courts and durational residency",
+   "scope": "Equal protection claims based on poverty and fundamental interests outside voting: school-finance disparities, fees and transcripts for indigent litigants, incarceration for inability to pay, and durational residency requirements burdening interstate migration.",
+   "queries": [
+    "school finance property tax disparities San Antonio Rodriguez",
+    "indigent appeal transcript filing fee Griffin Boddie",
+    "durational residency requirement welfare right to travel Shapiro",
+    "state constitution school funding adequacy litigation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sexual orientation, gender identity and same-sex marriage",
+   "scope": "Constitutional litigation over sexual orientation and transgender status, from Bowers, Romer, Windsor and Obergefell to state marriage cases, Proposition 8, transgender military service and bans on gender-affirming care for minors.",
+   "queries": [
+    "same-sex marriage ban Obergefell Fourteenth Amendment",
+    "Defense of Marriage Act section 3 Windsor",
+    "Proposition 8 Perry Hollingsworth standing",
+    "transgender minors gender-affirming care ban equal protection"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State constitutional law and adequate and independent state grounds",
+   "scope": "State constitutions as independent sources of rights and structure: new judicial federalism, lockstep versus independent interpretation, the Michigan v. Long plain-statement rule, and state constitutional conventions and amendments.",
+   "queries": [
+    "adequate and independent state ground Michigan Long",
+    "state constitution broader protection than federal counterpart",
+    "lockstep interpretation state constitution search seizure",
+    "state constitutional convention amendment ratified voters"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supreme Court original jurisdiction, interstate disputes and the Compact Clause",
+   "scope": "State-versus-state litigation under the Court's original jurisdiction (boundary, water and river disputes heard through special masters) and the Compact Clause requirement of congressional consent to interstate agreements.",
+   "queries": [
+    "original jurisdiction special master interstate water apportionment",
+    "Compact Clause congressional consent Virginia Tennessee",
+    "Rio Grande compact Texas New Mexico",
+    "boundary dispute between states Supreme Court decree"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supreme Court composition, history and Article III judicial independence",
+   "scope": "The institutional history of the federal judiciary: Judiciary Acts and the number of seats, court-packing proposals, nominations and confirmations, Chief Justice eras, and good-behavior tenure and Compensation Clause protections.",
+   "queries": [
+    "Judiciary Act number of justices seats Supreme Court",
+    "Judicial Procedures Reform Bill 1937 court packing",
+    "Compensation Clause judicial salaries diminished Will Hatter",
+    "Supreme Court nomination confirmed Senate vote associate justice"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Non-Article III adjudication and the Seventh Amendment civil jury right",
+   "scope": "When Congress may assign cases to bankruptcy courts, agencies, magistrates and territorial or legislative courts under the public-rights doctrine, and the Seventh Amendment civil jury right in suits at common law.",
+   "queries": [
+    "bankruptcy court Article III Stern Marshall counterclaim",
+    "public rights doctrine administrative adjudication Jarkesy jury",
+    "Seventh Amendment suits at common law legal equitable",
+    "Northern Pipeline Schor non-Article III tribunal"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Due process limits on personal jurisdiction, punitive damages and choice of law",
+   "scope": "Due Process Clause limits on state civil power: specific and general personal jurisdiction from Pennoyer and International Shoe to Mallory, tag and consent jurisdiction, constitutional caps on punitive damages ratios, and limits on choice of law.",
+   "queries": [
+    "minimum contacts International Shoe purposeful availment",
+    "general jurisdiction at home Daimler Goodyear",
+    "punitive damages ratio grossly excessive BMW Gore State Farm",
+    "consent registration jurisdiction Mallory Norfolk Southern"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Government speech and conditions on government-funded speech",
+   "scope": "The government speech doctrine (monuments, license plates, flags, trademarks) and the unconstitutional-conditions limits on speech-related conditions in government subsidies, arts grants and legal services funding.",
+   "queries": [
+    "government speech monument Summum specialty license plates",
+    "disparagement clause trademark Matal Tam Brunetti",
+    "Rust Sullivan Title X funding abortion counseling",
+    "unconstitutional conditions funding Agency for International Development"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Broadcast, cable and internet speech regulation",
+   "scope": "First Amendment rules for electronic media: broadcast scarcity and the fairness doctrine, FCC indecency enforcement, cable must-carry, internet indecency and age-verification laws, and social media content moderation.",
+   "queries": [
+    "scarcity rationale broadcast licensing Red Lion fairness doctrine",
+    "indecency fleeting expletives Pacifica FCC broadcast",
+    "must-carry cable operators Turner Broadcasting",
+    "social media platforms content moderation NetChoice First Amendment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intellectual Property Clause: copyright and patent power",
+   "scope": "Constitutional limits under Article I, Section 8, Clause 8: the limited-times requirement, originality and novelty, copyright term extensions and restoration, the Trade-Mark Cases, and the interplay of copyright with the First Amendment.",
+   "queries": [
+    "Copyright Term Extension Act Eldred limited times",
+    "Progress of Science useful Arts originality Feist",
+    "Trade-Mark Cases 1879 Congress power",
+    "patent clause obviousness Graham John Deere constitutional"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bankruptcy, monetary, postal and other lesser enumerated Article I powers",
+   "scope": "Less-litigated Article I, Section 8 powers: the uniformity requirement of the Bankruptcy Clause, coinage and legal tender (Legal Tender and Gold Clause Cases), the Postal Clause, the uniform rule of naturalization, and the Define and Punish Clause.",
+   "queries": [
+    "Legal Tender Cases Hepburn Griswold Knox Lee",
+    "Gold Clause cases Norman Perry 1935",
+    "Bankruptcy Clause uniform laws Gibbons Siegel",
+    "Postal power Ex parte Jackson mail"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal immigration power and the plenary power doctrine",
+   "scope": "Constitutional sources and limits of federal power over admission, exclusion, detention and removal of noncitizens: the Chinese Exclusion cases, plenary power, consular nonreviewability, immigration detention and travel bans.",
+   "queries": [
+    "plenary power doctrine Chinese Exclusion Case Chae Chan Ping",
+    "indefinite detention removable aliens Zadvydas",
+    "consular nonreviewability facially legitimate bona fide Mandel",
+    "travel ban proclamation Trump Hawaii"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Indian Commerce Clause, tribal sovereignty and federal Indian law",
+   "scope": "The constitutional status of tribes: the Indian Commerce Clause and congressional plenary power, the Marshall Trilogy, reservation boundaries and disestablishment, tribal court jurisdiction over non-members, and state authority in Indian country.",
+   "queries": [
+    "Indian Commerce Clause tribal sovereignty Worcester Georgia",
+    "reservation never disestablished McGirt Oklahoma",
+    "Indian Child Welfare Act Brackeen",
+    "tribal court jurisdiction non-Indians Oliphant Montana"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "District of Columbia, federal enclaves and the Seat of Government Clause",
+   "scope": "Congress's exclusive legislative authority over the national capital and federal enclaves: DC home rule, the Twenty-third Amendment, DC voting representation and statehood efforts, and Enclave Clause jurisdiction.",
+   "queries": [
+    "District of Columbia Home Rule Act Congress",
+    "Twenty-third Amendment District of Columbia electors",
+    "federal enclave exclusive jurisdiction Enclave Clause",
+    "District of Columbia voting representation Congress statehood"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Emoluments, Titles of Nobility, Religious Test Clause and the Third Amendment",
+   "scope": "Rarely litigated textual provisions: the Foreign and Domestic Emoluments Clauses, the Titles of Nobility Clauses, the Article VI Religious Test Clause and oath requirements, and the Third Amendment ban on quartering soldiers.",
+   "queries": [
+    "Foreign Emoluments Clause present office title king prince",
+    "Domestic Emoluments Clause President lawsuit hotel",
+    "Third Amendment quartering soldiers Engblom Carey",
+    "Religious Test Clause Article VI oath office"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Constitutional interpretation methods and stare decisis",
+   "scope": "Theories and tools of constitutional interpretation (originalism, original public meaning, living constitutionalism, textualism, the avoidance canon) and the stare decisis factors the Court uses when overruling constitutional precedent.",
+   "queries": [
+    "originalism original public meaning constitutional interpretation",
+    "stare decisis overruling precedent workability reliance interests",
+    "living constitution judicial restraint textualism",
+    "constitutional avoidance canon serious doubts"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Petition Clause, right of assembly and First Amendment retaliation",
+   "scope": "The right to petition the government (including Noerr-Pennington immunity and petitioning-based claims), the right of peaceable assembly, and First Amendment retaliation claims such as retaliatory arrest and prosecution.",
+   "queries": [
+    "Petition Clause Noerr-Pennington sham litigation",
+    "retaliatory arrest probable cause Nieves Bartlett",
+    "First Amendment retaliation claim adverse action causation",
+    "right of peaceable assembly De Jonge"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Militia Clauses, conscription, military justice and service members' rights",
+   "scope": "Congress's powers to raise armies and govern the militia: National Guard federalization, the draft and selective service, court-martial jurisdiction, and judicial deference on constitutional claims by service members.",
+   "queries": [
+    "Militia Clauses National Guard federal service Perpich",
+    "court-martial jurisdiction service connection Solorio O'Callahan",
+    "military deference First Amendment Goldman Parker Levy",
+    "Selective Draft Law Cases conscription registration Rostker"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Elections Clause, ballot access and state regulation of election procedures",
+   "scope": "Constitutional review of election mechanics: the Elections Clause and independent state legislature theory, the Anderson-Burdick balancing test for ballot access and candidate restrictions, write-in and petition requirements, and the Purcell principle.",
+   "queries": [
+    "Anderson Burdick ballot access burden state interest",
+    "Elections Clause independent state legislature Moore Harper",
+    "Purcell principle election rules changes close election",
+    "write-in ballot signature requirement minor party candidates"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Treason Clause and treason prosecutions",
+   "scope": "Article III's definition of treason, the two-witness and overt-act requirements, corruption of blood, and the history of federal and state treason prosecutions from the Whiskey Rebellion and Burr through World War II cases.",
+   "queries": [
+    "Treason Clause two witnesses same overt act",
+    "Cramer United States treason overt act",
+    "Aaron Burr treason trial Marshall levying war",
+    "treason conviction wartime propaganda broadcasts Tokyo Rose"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal habeas corpus review of state and federal convictions",
+   "scope": "Collateral attack on criminal convictions under 28 U.S.C. 2241, 2254 and 2255 and AEDPA: deference to state courts, exhaustion, procedural default, the one-year limitations period, successive petitions, actual-innocence gateways and the Suspension Clause after conviction (retroactivity and harmless error are excluded).",
+   "queries": [
+    "AEDPA 2254(d) unreasonable application clearly established federal law",
+    "procedural default cause and prejudice Wainwright v. Sykes",
+    "actual innocence gateway Schlup House v. Bell",
+    "second or successive habeas petition 2244(b) one-year limitation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Grand Jury Clause and indictment requirements",
+   "scope": "The Fifth Amendment grand jury right: why it is not incorporated against the states (Hurtado), what counts as an infamous crime, grand jury secrecy and subpoena power, what evidence may go before the grand jury, whether an indictment is sufficient, constructive amendment and variance, and discrimination in choosing grand jurors.",
+   "queries": [
+    "Hurtado v. California grand jury indictment due process",
+    "constructive amendment indictment variance Stirone",
+    "grand jury secrecy Rule 6(e) disclosure particularized need",
+    "grand jury subpoena Dionisio R. Enterprises relevancy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Guilty pleas and plea bargaining",
+   "scope": "What the Constitution requires for a valid guilty plea or plea bargain: knowing and voluntary waiver (Boykin, Brady v. United States), Alford pleas, a factual basis, breached plea agreements (Santobello), appeal waivers, and which claims survive a guilty plea.",
+   "queries": [
+    "Boykin v. Alabama guilty plea knowing voluntary",
+    "North Carolina v. Alford plea maintaining innocence",
+    "Santobello breach of plea agreement specific performance",
+    "appeal waiver plea agreement Garza v. Idaho"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Compulsory Process and the right to present a complete defense",
+   "scope": "The Sixth Amendment Compulsory Process and Notice Clauses and the due process right to present a defense: subpoenaing and calling defense witnesses, the defendant's right to testify, evidence rules that exclude defense evidence (polygraph, third-party guilt, hearsay), and sanctions that preclude defense witnesses.",
+   "queries": [
+    "Chambers v. Mississippi right to present defense hearsay",
+    "Washington v. Texas compulsory process witness incompetency",
+    "Rock v. Arkansas hypnotically refreshed defendant testimony",
+    "Holmes v. South Carolina third-party guilt evidence exclusion"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Juvenile delinquency proceedings and due process",
+   "scope": "Constitutional procedure in juvenile courts: Gault's rights to notice, counsel and confrontation, Winship's reasonable-doubt standard, no right to a jury (McKeiver), waiver hearings that transfer juveniles to adult court (Kent), preventive detention (Schall v. Martin) and the history of the juvenile court movement (juvenile sentencing is excluded).",
+   "queries": [
+    "In re Gault juvenile delinquency notice counsel",
+    "McKeiver v. Pennsylvania juvenile jury trial",
+    "Kent v. United States juvenile waiver adult court",
+    "Schall v. Martin preventive detention juveniles"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Civil commitment, sexually violent predator laws and sex offender registration",
+   "scope": "Constitutional limits on non-criminal confinement and monitoring: the standard of proof for civil commitment, commitment of defendants found incompetent or not guilty by reason of insanity, sexually violent predator statutes (Hendricks, Crane, Comstock), and challenges to sex offender registration and notification laws.",
+   "queries": [
+    "Kansas v. Hendricks sexually violent predator civil commitment",
+    "Addington v. Texas clear and convincing commitment standard",
+    "Jackson v. Indiana incompetent defendant indefinite commitment",
+    "Smith v. Doe sex offender registration punitive"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Constitutional limits on criminal liability: status offenses, mens rea and insanity",
+   "scope": "Eighth Amendment and due process limits on what conduct and mental states may be made criminal: status crimes (Robinson, Powell v. Texas), camping bans aimed at homeless people (Grants Pass), strict liability and notice (Lambert), and state power to abolish or narrow the insanity and intoxication defenses (Clark, Kahler, Egelhoff).",
+   "queries": [
+    "Robinson v. California status crime addiction",
+    "Grants Pass camping ban homelessness Eighth Amendment",
+    "Kahler v. Kansas insanity defense abolition due process",
+    "Lambert v. California notice registration ordinance mens rea"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vindictive and selective prosecution, entrapment and outrageous government conduct",
+   "scope": "Due process and equal protection limits on prosecutors' charging power and on police inducement: presumptions of vindictiveness after a retrial or appeal (Pearce, Blackledge), selective-prosecution claims and discovery (Wayte, Armstrong), the entrapment defense's predisposition test, and the outrageous-government-conduct defense.",
+   "queries": [
+    "North Carolina v. Pearce vindictiveness harsher sentence retrial",
+    "Blackledge v. Perry prosecutorial vindictiveness felony charge",
+    "United States v. Armstrong selective prosecution discovery",
+    "entrapment predisposition Sorrells Sherman Jacobson"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Church autonomy, ministerial exception and church property disputes",
+   "scope": "The religion-clause doctrine that keeps courts out of internal church governance: deference to hierarchical churches (Watson, Kedroff, Milivojevich), the neutral-principles approach to church property after denominational splits (Jones v. Wolf), and the ministerial exception from employment-discrimination law (Hosanna-Tabor, Our Lady of Guadalupe).",
+   "queries": [
+    "ministerial exception Hosanna-Tabor employment discrimination",
+    "Our Lady of Guadalupe School Morrissey-Berru ministerial",
+    "church property dispute neutral principles Jones v. Wolf",
+    "Kedroff Serbian Orthodox Diocese hierarchical church autonomy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eighteenth and Twenty-first Amendments and state alcohol regulation",
+   "scope": "National Prohibition and its repeal: drafting and ratification of the Eighteenth and Twenty-first Amendments, the Volstead, Webb-Kenyon and Wilson Acts, and how far Section 2 of the Twenty-first Amendment lets states regulate liquor sales, shipment, licensing and advertising.",
+   "queries": [
+    "Twenty-first Amendment section 2 state liquor regulation",
+    "Granholm v. Heald direct wine shipment discrimination",
+    "Tennessee Wine Spirits Retailers durational residency liquor license",
+    "National Prohibition Cases Volstead Act Eighteenth Amendment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Direct Tax, Export, Uniformity and Origination Clauses and the Sixteenth Amendment",
+   "scope": "The Constitution's specific limits on federal taxation: apportionment of direct taxes and capitations, the income-tax cases from Hylton and Pollock through the Sixteenth Amendment and Moore v. United States, the ban on taxing exports, geographic uniformity of duties, and the rule that revenue bills must originate in the House.",
+   "queries": [
+    "Pollock v. Farmers' Loan income tax apportionment",
+    "Moore v. United States mandatory repatriation tax realization",
+    "Export Clause tax on exports United States Shoe",
+    "Origination Clause revenue bills Munoz-Flores Sissel"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Census Clause and apportionment of House seats among states",
+   "scope": "The decennial actual enumeration and the allocation of House seats among the states: statistical sampling and imputation, the citizenship question and counting noncitizens, the method of equal proportions, the Apportionment and Reapportionment Acts, and Section 2 of the Fourteenth Amendment.",
+   "queries": [
+    "census citizenship question Department of Commerce 2019",
+    "Utah v. Evans hot-deck imputation census",
+    "method of equal proportions House apportionment Montana",
+    "Reapportionment Act 1929 congressional seats census"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Article IV Admissions, Property and Guarantee Clauses",
+   "scope": "Article IV Sections 3 and 4: admission of new states and enabling acts, the equal footing doctrine and state title to submerged lands and navigable riverbeds, congressional power over federal public lands (including Antiquities Act monuments), and the Guarantee Clause of a republican form of government.",
+   "queries": [
+    "equal footing doctrine Coyle v. Smith new states",
+    "Property Clause Kleppe v. New Mexico federal lands",
+    "submerged lands navigable riverbeds PPL Montana title",
+    "Guarantee Clause republican form government Luther Borden"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Article III heads of jurisdiction: arising-under, diversity and admiralty",
+   "scope": "The constitutional categories of federal judicial power and how far they reach: Osborn's broad reading of arising-under jurisdiction, complete versus minimal diversity, how citizens of D.C. and the territories are treated, alienage jurisdiction (Verlinden), and the scope of admiralty and maritime jurisdiction.",
+   "queries": [
+    "Strawbridge v. Curtiss complete diversity Article III",
+    "Osborn v. Bank arising under jurisdiction Article III",
+    "admiralty jurisdiction navigable waters Genesee Chief",
+    "Hepburn v. Ellzey District of Columbia citizens diversity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal court abstention and comity doctrines",
+   "scope": "Federalism-based limits on federal courts hearing cases tied to state proceedings: Pullman, Burford, Younger and Colorado River abstention, the Rooker-Feldman doctrine, the Anti-Injunction and Tax Injunction Acts, and declaratory relief against threatened state prosecutions (Steffel).",
+   "queries": [
+    "Younger v. Harris abstention pending state prosecution",
+    "Railroad Commission v. Pullman abstention unclear state law",
+    "Rooker-Feldman doctrine state court judgment review",
+    "Colorado River abstention exceptional circumstances parallel proceedings"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Take Care Clause, executive orders and presidential signing statements",
+   "scope": "The President's duty and power to execute domestic law: the Take Care Clause, ministerial duties enforceable by mandamus (Kendall), enforcement discretion and nonenforcement, executive orders and their numbering, publication and revocation, the Opinions Clause, and signing statements.",
+   "queries": [
+    "Take Care Clause faithfully executed laws president",
+    "executive order Federal Register presidential directive revoked",
+    "presidential signing statement constitutional objection",
+    "Kendall Stokes ministerial duty postmaster mandamus"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Appropriations Clause, impoundment and the power of the purse",
+   "scope": "Congress's control of federal spending: the Appropriations and Statement and Account Clauses, agency funding outside annual appropriations (CFPB v. Community Financial Services), executive impoundment and the Impoundment Control Act, the Antideficiency Act and government shutdowns, and estoppel against the Treasury (OPM v. Richmond).",
+   "queries": [
+    "Appropriations Clause CFPB funding Community Financial Services",
+    "Impoundment Control Act rescission deferral GAO",
+    "Antideficiency Act government shutdown lapse appropriations",
+    "Train v. City of New York impoundment funds"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Congressional rules of proceedings, quorum, expulsion and the enrolled bill rule",
+   "scope": "Article I Section 5 internal self-governance: each chamber's power to set its rules (Ballin), quorum requirements, the Journal and Adjournment Clauses, expulsion and censure of members and their history, Senate cloture and filibuster rules, and judicial deference to enrolled bills (Field v. Clark).",
+   "queries": [
+    "expulsion from House of Representatives two-thirds vote",
+    "United States v. Ballin quorum rules proceedings",
+    "enrolled bill rule Marshall Field Clark",
+    "Senate cloture rule filibuster nuclear option"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Impartial tribunal, judicial recusal and contempt power",
+   "scope": "The due process right to a neutral decisionmaker (financial interest, earlier role as prosecutor, bias from campaign contributions, combined investigative and adjudicative functions) and constitutional limits on judges' summary and criminal contempt power.",
+   "queries": [
+    "Caperton v. Massey campaign contributions judge recusal",
+    "Tumey v. Ohio pecuniary interest judge due process",
+    "Williams v. Pennsylvania former prosecutor justice recusal",
+    "criminal contempt jury trial Bloom v. Illinois Bagwell"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Facial versus as-applied challenges, severability and universal injunctions",
+   "scope": "Cross-cutting doctrines on the form and remedy of constitutional challenges: the Salerno no-set-of-circumstances test, as-applied versus facial invalidation, severability and severability clauses, choosing between extending and nullifying a benefit in equal treatment cases, and limits on universal and nationwide injunctions.",
+   "queries": [
+    "facial challenge no set of circumstances Salerno",
+    "severability clause invalid provision severed Barr AAPC",
+    "universal injunction nationwide Trump v. CASA",
+    "remedy extension versus nullification Morales-Santana equal treatment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "School segregation, Brown v. Board and desegregation remedies",
+   "scope": "Constitutional law of segregated public education: the graduate-school cases before Brown, Brown I and II and the cases consolidated with them, massive resistance and school closures, freedom-of-choice plans, busing and interdistrict remedies, and ending desegregation decrees once a district reaches unitary status.",
+   "queries": [
+    "Brown v. Board of Education all deliberate speed",
+    "Swann Charlotte-Mecklenburg busing desegregation remedy",
+    "Milliken v. Bradley interdistrict remedy Detroit",
+    "unitary status desegregation decree Dowell Freeman Pitts"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Child pornography and protecting minors from sexual material",
+   "scope": "First Amendment doctrine on sexual material involving or aimed at minors: child pornography as a category outside protection (Ferber, Osborne), virtual and morphed images, pandering offenses (Williams), harmful-to-minors laws (Ginsberg), and age-verification requirements for online pornography (Free Speech Coalition v. Paxton).",
+   "queries": [
+    "New York v. Ferber child pornography unprotected",
+    "Ashcroft v. Free Speech Coalition virtual child pornography",
+    "Free Speech Coalition v. Paxton age verification pornography",
+    "Ginsberg harmful to minors variable obscenity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Loyalty oaths, Communist Party membership and Cold War internal-security laws",
+   "scope": "The anti-subversion cases of the 1940s-60s: loyalty oaths for public employees and teachers, Smith Act membership prosecutions, registration orders from the Subversive Activities Control Board, passport denials, bar admission inquiries, and state sedition laws preempted by federal law.",
+   "queries": [
+    "loyalty oath public employees Keyishian Board of Regents",
+    "Smith Act membership clause Scales Communist Party",
+    "Subversive Activities Control Board Communist Party registration",
+    "Aptheker passport denial Communist Party members"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public health police power: compulsory vaccination, quarantine and forced medication",
+   "scope": "Constitutional limits on government health measures against individuals: compulsory vaccination (Jacobson, Zucht), quarantine and isolation orders, eugenic sterilization (Buck v. Bell, Skinner), and involuntary antipsychotic medication of prisoners and criminal defendants (Harper, Riggins, Sell).",
+   "queries": [
+    "Jacobson v. Massachusetts compulsory smallpox vaccination police power",
+    "Buck v. Bell compulsory sterilization feebleminded",
+    "Sell v. United States forced antipsychotic medication competency",
+    "quarantine isolation order Compagnie Francaise Board of Health"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Slavery and the antebellum Constitution",
+   "scope": "The Constitution's slavery provisions before the Civil War and the cases that construed them: the Three-Fifths, Slave Trade and Fugitive Slave Clauses, the Fugitive Slave Acts of 1793 and 1850, Prigg, Ableman v. Booth, Dred Scott, the Amistad and slave-trade cases, and the Corwin Amendment.",
+   "queries": [
+    "Prigg v. Pennsylvania Fugitive Slave Act 1793",
+    "Dred Scott v. Sandford citizenship Missouri Compromise",
+    "Ableman v. Booth Wisconsin fugitive slave habeas",
+    "Three-Fifths Compromise Slave Trade Clause 1808"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  }
+ ]
+}

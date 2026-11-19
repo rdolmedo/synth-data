@@ -1,0 +1,72 @@
+{
+  "protocol": "Generic evaluator setup; attempt-local offline agent installation",
+  "proof_job": "17869226.0",
+  "proof_code_sha": "b544c782cecb1f7721c8dc2df88c14149b167197",
+  "manifest_sha256": "1859207a6a049ffb29e7e7725f9d753ad0955a07ac09d5f654e05bab602bf7c7",
+  "proof_report_sha256": "8315a82a12d7d38be09e65109fb59321729d48367f3f6bfb67a01c9cadd607a4",
+  "sif_sha256": "79079522716486d27779ba4cef117859a999f661f702c08513dfce27fabb8d07",
+  "host_model_client_calls": 2,
+  "host_environment_unchanged": true,
+  "generation_requests": 0,
+  "gpu_requests": 0,
+  "tests": {
+    "gdpval_suite": 43
+  },
+  "cases": [
+    {
+      "task_id": "0e386e32-df20-4d1f-b536-7159bc409ad5",
+      "passed": true,
+      "payload_immutable": true,
+      "command_exit_codes": {
+        "agent-local-node-install": 0,
+        "agent-local-npm-offline-install": 0,
+        "neutral-ethers-solidity": 0,
+        "readonly-payload": 1,
+        "known-proxy-egress-denied": 5,
+        "raw-socket-egress-denied": 1,
+        "host-loopback-isolated": 7
+      },
+      "instruction_sha256": "46ed5372bbd43151663c4fc2db09329b2d6b65526d71b8088cc430c48ddaaa9c",
+      "task_prompt_sha256": "7c75d48c51b94f0511ed95d1053730fa1507ce58996626ef2014350cd3349659",
+      "npm_package_count": 28
+    },
+    {
+      "task_id": "7de33b48-5163-4f50-b5f3-8deea8185e57",
+      "passed": true,
+      "payload_immutable": true,
+      "command_exit_codes": {
+        "agent-local-node-install": 0,
+        "agent-local-npm-offline-install": 0,
+        "neutral-react-testing-library-sinon": 0,
+        "neutral-typescript-execution": 0,
+        "readonly-payload": 1,
+        "known-proxy-egress-denied": 5,
+        "raw-socket-egress-denied": 1,
+        "host-loopback-isolated": 7
+      },
+      "instruction_sha256": "cef772e71afe0f208ba383f428b223265d9d7bc7a9a3e61b461667338687a10b",
+      "task_prompt_sha256": "cb1f5d05eeb38947e7700eb7ef609aa4a2149b4ddcb285da8ad42577bb5d06cf",
+      "npm_package_count": 133
+    },
+    {
+      "task_id": "4122f866-01fa-400b-904d-fa171cdab7c7",
+      "passed": true,
+      "payload_immutable": true,
+      "command_exit_codes": {
+        "agent-local-node-install": 0,
+        "agent-local-npm-offline-install": 0,
+        "neutral-aws-sdk-load": 0,
+        "agent-local-terraform-install": 0,
+        "neutral-terraform-provider-offline-init": 0,
+        "readonly-payload": 1,
+        "known-proxy-egress-denied": 5,
+        "raw-socket-egress-denied": 1,
+        "host-loopback-isolated": 7
+      },
+      "instruction_sha256": "8253120efea70c367ab51690f51d6aad459cb559b137c6465c9165bca597fb4e",
+      "task_prompt_sha256": "432282cde3c13d50d4b28628894790fd9d50355c87911cd52246794b2ba84d87",
+      "npm_package_count": 66
+    }
+  ],
+  "bootstrap_findings": "Original SIF has stdlib lzma/tarfile but no external xz. Extract as current owner, preserving executable modes; upstream numeric owners are unmapped. Actual diagnostic ruled out noexec mounts. No SIF/kernel/network relaxation."
+}

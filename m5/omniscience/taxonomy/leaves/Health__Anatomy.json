@@ -1,0 +1,1170 @@
+{
+ "domain": "Health",
+ "subtopic": "Anatomy",
+ "weight": 0.0173745,
+ "leaves": [
+  {
+   "leaf": "Skull osteology, cranial fossae and foramina",
+   "scope": "Bones of the neurocranium and viscerocranium, sutures and fontanelles, the anterior/middle/posterior cranial fossae, and the foramina and canals with the structures they transmit.",
+   "queries": [
+    "foramen ovale spinosum rotundum transmitted structures",
+    "cranial sutures fontanelles closure age pterion",
+    "sphenoid bone greater wing pterygoid process",
+    "jugular foramen hypoglossal canal posterior cranial fossa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Vertebral column, spinal ligaments and intrinsic back muscles",
+   "scope": "Regional and atypical vertebrae (atlas, axis, sacrum, coccyx), intervertebral discs, craniovertebral and spinal ligaments, and the erector spinae and transversospinalis muscle groups.",
+   "queries": [
+    "atlas axis dens transverse alar ligament",
+    "intervertebral disc annulus fibrosus nucleus pulposus",
+    "erector spinae iliocostalis longissimus multifidus",
+    "lumbar vertebrae pedicle morphometry sacrum coccyx"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Shoulder girdle, arm and elbow",
+   "scope": "Clavicle, scapula and humerus, the sternoclavicular, acromioclavicular, glenohumeral and elbow joints, and rotator cuff and arm muscles with their attachments and innervation.",
+   "queries": [
+    "rotator cuff supraspinatus infraspinatus teres minor subscapularis",
+    "glenohumeral joint labrum glenohumeral ligaments capsule",
+    "scapula coracoid process acromion muscle attachments",
+    "elbow ulnar collateral ligament annular ligament"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Forearm, wrist and hand",
+   "scope": "Radius, ulna, carpals, metacarpals and phalanges, forearm compartments, dorsal extensor compartments, the carpal tunnel, flexor pulleys and the intrinsic muscles of the hand.",
+   "queries": [
+    "carpal bones scaphoid lunate triquetrum hamate",
+    "extensor retinaculum six dorsal compartments tendons",
+    "thenar hypothenar lumbrical interossei muscles",
+    "flexor tendon pulleys zones digital sheath"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Bony pelvis, hip joint, gluteal region and thigh",
+   "scope": "Hip bone and femur, the hip joint capsule, ligaments and labrum, gluteal and short external rotator muscles, and the anterior, medial and posterior thigh compartments.",
+   "queries": [
+    "acetabular labrum iliofemoral ischiofemoral pubofemoral ligament",
+    "gluteus medius minimus piriformis short external rotators",
+    "femoral neck shaft angle anteversion trochanter",
+    "adductor canal hamstrings quadriceps femoris attachments"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Knee, leg, ankle and foot",
+   "scope": "Knee menisci, cruciate and collateral ligaments and posterolateral corner, the tibia and fibula, leg compartments, ankle ligaments, tarsal bones, foot arches and plantar muscle layers.",
+   "queries": [
+    "anterior cruciate ligament menisci posterolateral corner knee",
+    "deltoid ligament anterior talofibular calcaneofibular",
+    "tarsal bones talus calcaneus navicular cuboid cuneiform",
+    "plantar aponeurosis foot muscle layers arches"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Brachial plexus and upper limb neurovasculature",
+   "scope": "Roots, trunks, divisions, cords and terminal branches of the brachial plexus, peripheral nerve courses in the upper limb, and the axillary, brachial, radial and ulnar arteries, palmar arches and superficial veins.",
+   "queries": [
+    "brachial plexus roots trunks divisions cords branches",
+    "axillary artery three parts branches thoracoacromial",
+    "median ulnar radial nerve course innervation",
+    "cephalic basilic median cubital vein palmar arch"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Lumbosacral plexus and lower limb neurovasculature",
+   "scope": "Branches of the lumbar and sacral plexuses (femoral, obturator, sciatic, tibial, common fibular nerves) and the femoral, popliteal and tibial arteries and the saphenous veins.",
+   "queries": [
+    "lumbar plexus genitofemoral lateral femoral cutaneous nerve",
+    "sciatic nerve piriformis tibial common fibular division",
+    "femoral triangle profunda femoris circumflex branches",
+    "great saphenous vein popliteal artery anterior tibial"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Cranial nerves: nuclei, courses, ganglia and branches",
+   "scope": "The twelve cranial nerves' functional fiber types, brainstem nuclei, intracranial courses, exit foramina, associated ganglia and peripheral branches.",
+   "queries": [
+    "trigeminal nerve ophthalmic maxillary mandibular branches",
+    "facial nerve geniculate ganglion chorda tympani petrosal",
+    "glossopharyngeal vagus accessory nerve jugular foramen",
+    "oculomotor trochlear abducens nerve cavernous sinus course"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Brainstem and cerebellum",
+   "scope": "External and internal anatomy of the midbrain, pons and medulla (nuclei, colliculi, olives, reticular formation) and the cerebellar lobes, deep nuclei, peduncles and cortical layers.",
+   "queries": [
+    "medulla oblongata inferior olive pyramid nucleus ambiguus",
+    "midbrain tegmentum red nucleus substantia nigra",
+    "cerebellar peduncles dentate emboliform globose fastigial",
+    "cerebellar cortex Purkinje granular layer flocculonodular lobe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cerebral cortex, gyri and white matter tracts",
+   "scope": "Lobes, gyri and sulci, Brodmann areas, cortical cytoarchitectonic layers, and the association, commissural and projection fiber systems of the cerebral hemispheres.",
+   "queries": [
+    "Brodmann areas primary motor somatosensory cortex",
+    "superior longitudinal arcuate uncinate fasciculus",
+    "corpus callosum genu splenium internal capsule limbs",
+    "central sulcus precentral gyrus insula operculum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Diencephalon, basal ganglia and limbic system",
+   "scope": "Thalamic and hypothalamic nuclei, pituitary and pineal glands, striatum, globus pallidus and subthalamic nucleus, and the hippocampal formation, amygdala and Papez circuit structures.",
+   "queries": [
+    "thalamic nuclei ventral posterolateral pulvinar mediodorsal",
+    "hypothalamic nuclei paraventricular supraoptic arcuate",
+    "caudate putamen globus pallidus subthalamic nucleus",
+    "hippocampus dentate gyrus fornix mammillary Papez circuit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Spinal cord, spinal nerve roots, dermatomes and myotomes",
+   "scope": "Spinal cord segments, enlargements, conus medullaris and cauda equina, Rexed laminae, ascending and descending tracts, spinal nerve roots, and dermatome and myotome maps.",
+   "queries": [
+    "Rexed laminae spinal cord gray matter",
+    "spinothalamic corticospinal dorsal column tracts",
+    "conus medullaris cauda equina filum terminale level",
+    "dermatome map myotomes spinal nerve roots"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Meninges, ventricular system and CSF pathways",
+   "scope": "Dura, arachnoid and pia mater with their dural folds and spaces, the lateral, third and fourth ventricles and their foramina, choroid plexus, subarachnoid cisterns, and CSF production and flow.",
+   "queries": [
+    "falx cerebri tentorium cerebelli diaphragma sellae",
+    "foramen of Monro cerebral aqueduct Luschka Magendie",
+    "subarachnoid cisterns cisterna magna interpeduncular",
+    "choroid plexus cerebrospinal fluid volume production"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cerebral arteries and dural venous sinuses",
+   "scope": "Internal carotid and vertebrobasilar systems, segment classifications, circle of Willis variants, cerebral artery territories and perforators, and the dural venous sinuses and deep cerebral veins.",
+   "queries": [
+    "circle of Willis variants posterior communicating artery",
+    "internal carotid artery segments Bouthillier classification",
+    "lenticulostriate arteries middle cerebral artery branches",
+    "dural venous sinuses confluence vein of Galen"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Autonomic nervous system anatomy",
+   "scope": "Sympathetic trunk and ganglia, white and gray rami, splanchnic nerves, cranial and sacral parasympathetic outflow and ganglia, and the prevertebral and enteric plexuses.",
+   "queries": [
+    "sympathetic trunk stellate ganglion cervical ganglia",
+    "greater lesser least splanchnic nerves celiac ganglion",
+    "ciliary pterygopalatine otic submandibular ganglia",
+    "enteric nervous system myenteric submucosal plexus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Heart: chambers, valves, conduction system and coronary circulation",
+   "scope": "Internal features of the cardiac chambers, valves and fibrous skeleton, the sinoatrial and atrioventricular conduction system, and coronary arteries, dominance patterns and cardiac veins.",
+   "queries": [
+    "sinoatrial node atrioventricular node bundle of His",
+    "triangle of Koch crista terminalis fossa ovalis",
+    "left anterior descending circumflex coronary dominance",
+    "coronary sinus great cardiac vein Thebesian valve"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Mediastinum, pericardium and thoracic great vessels",
+   "scope": "Mediastinal divisions and contents, pericardium and its sinuses, aortic arch branching patterns, pulmonary trunk, venae cavae, the azygos system and the thoracic esophagus.",
+   "queries": [
+    "mediastinum superior anterior middle posterior contents",
+    "aortic arch branching variants bovine arch",
+    "azygos hemiazygos accessory hemiazygos vein drainage",
+    "pericardial transverse oblique sinus ligamentum arteriosum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Lungs, bronchopulmonary segments, pleura and diaphragm",
+   "scope": "Lung lobes, fissures and hila, bronchopulmonary segments and the bronchial tree, pleural reflections and recesses, and the diaphragm's attachments, openings and vertebral levels.",
+   "queries": [
+    "bronchopulmonary segments right left lung",
+    "lung fissures lobes hilum structures",
+    "pleural reflections costodiaphragmatic recess",
+    "diaphragm caval esophageal aortic hiatus vertebral level"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Larynx, pharynx and trachea",
+   "scope": "Laryngeal cartilages, membranes, intrinsic and extrinsic muscles and their innervation, vocal folds, pharyngeal constrictors, recesses and weak points, and tracheal structure and dimensions.",
+   "queries": [
+    "laryngeal cartilages thyroid cricoid arytenoid epiglottis",
+    "posterior cricoarytenoid intrinsic laryngeal muscles innervation",
+    "pharyngeal constrictors Killian dehiscence piriform recess",
+    "trachea cartilaginous rings carina length"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Oral cavity, tongue, palate, salivary glands and dental anatomy",
+   "scope": "Hard and soft palate, tongue muscles and papillae, the major salivary glands and their ducts, and tooth morphology, dental numbering systems and eruption sequences.",
+   "queries": [
+    "tongue intrinsic extrinsic muscles genioglossus papillae",
+    "submandibular Wharton duct parotid Stensen duct",
+    "permanent teeth eruption ages FDI numbering",
+    "soft palate muscles tensor veli palatini"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nasal cavity and paranasal sinuses",
+   "scope": "Nasal septum, turbinates and meatuses, the ostiomeatal complex, frontal, maxillary, ethmoid and sphenoid sinuses, their drainage pathways, named air cells, and nasal blood supply.",
+   "queries": [
+    "ostiomeatal complex uncinate process ethmoid bulla",
+    "Onodi cell Haller cell agger nasi",
+    "maxillary sinus ostium middle meatus drainage",
+    "nasal septum Kiesselbach plexus sphenopalatine artery"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Orbit, eyeball and lacrimal apparatus",
+   "scope": "Orbital walls, fissures and canals, extraocular muscles and the common tendinous ring, layers of the eyeball and retina, the lens and ciliary body, and the lacrimal drainage system.",
+   "queries": [
+    "orbital walls superior inferior orbital fissure",
+    "extraocular muscles annulus of Zinn innervation",
+    "retina layers photoreceptors fovea macula",
+    "lacrimal gland nasolacrimal duct valve of Hasner"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "External, middle and inner ear",
+   "scope": "Auricle and external acoustic meatus, tympanic membrane, ossicles, middle ear walls and muscles, the cochlea and organ of Corti, and the vestibule and semicircular canals.",
+   "queries": [
+    "malleus incus stapes ossicles tympanic membrane",
+    "cochlea scala vestibuli tympani organ of Corti",
+    "semicircular canals utricle saccule vestibule",
+    "stapedius tensor tympani middle ear walls"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neck triangles, cervical fascia, thyroid and parathyroid glands",
+   "scope": "Boundaries and contents of the cervical triangles, deep cervical fascial layers and spaces, thyroid and parathyroid anatomy, the carotid sheath and the root of the neck.",
+   "queries": [
+    "anterior posterior triangles of the neck boundaries",
+    "deep cervical fascia layers retropharyngeal space",
+    "thyroid pyramidal lobe parathyroid gland location",
+    "carotid sheath contents carotid bifurcation level"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Face, scalp, muscles of mastication and temporomandibular joint",
+   "scope": "Scalp layers, muscles of facial expression, extracranial facial nerve branches and the parotid region, muscles of mastication, the infratemporal and pterygopalatine fossae, and the temporomandibular joint.",
+   "queries": [
+    "muscles of mastication masseter pterygoid temporalis",
+    "temporomandibular joint articular disc ligaments",
+    "muscles of facial expression zygomaticus orbicularis",
+    "infratemporal fossa pterygopalatine fossa contents"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anterior abdominal wall and inguinal region",
+   "scope": "Layers and muscles of the anterolateral abdominal wall, the rectus sheath and arcuate line, inguinal canal walls, rings and contents, and the anatomy of inguinal and femoral hernias.",
+   "queries": [
+    "inguinal canal deep superficial ring contents",
+    "rectus sheath arcuate line layers",
+    "Hesselbach triangle direct indirect inguinal hernia",
+    "transversus abdominis internal oblique conjoint tendon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Peritoneum, mesenteries and retroperitoneal spaces",
+   "scope": "Peritoneal folds and ligaments, greater and lesser omentum, mesenteries, the lesser sac and epiploic foramen, peritoneal recesses and gutters, and the retroperitoneal compartments.",
+   "queries": [
+    "lesser sac omental bursa epiploic foramen",
+    "greater lesser omentum peritoneal ligaments",
+    "hepatorenal pouch Morison paracolic gutters",
+    "anterior pararenal perirenal posterior pararenal space"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Stomach, small intestine, colon and anal canal",
+   "scope": "Regions of the stomach, parts of the duodenum, jejunum and ileum, cecum and appendix positions, colon and rectum, and anal canal landmarks and sphincters.",
+   "queries": [
+    "duodenum four parts major duodenal papilla",
+    "appendix positions retrocecal McBurney point",
+    "anal canal pectinate line anal columns sphincters",
+    "stomach regions cardia fundus pylorus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Liver segments, biliary tree, pancreas and spleen",
+   "scope": "Couinaud segments and hepatic ligaments, intra- and extrahepatic bile ducts and the hepatocystic triangle, parts and ducts of the pancreas, and the spleen and its ligaments.",
+   "queries": [
+    "Couinaud liver segments hepatic veins portal",
+    "Calot triangle cystic artery cystic duct",
+    "pancreatic duct Wirsung Santorini uncinate process",
+    "spleen ligaments splenorenal gastrosplenic hilum"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Abdominal aorta, visceral arteries and portal venous system",
+   "scope": "Branches of the abdominal aorta (celiac trunk, superior and inferior mesenteric, renal, gonadal), their variants, tributaries of the inferior vena cava, formation of the portal vein, and portosystemic anastomoses.",
+   "queries": [
+    "celiac trunk branches variations hepatic artery",
+    "superior mesenteric artery branches marginal artery Drummond",
+    "portal vein formation splenic superior mesenteric vein",
+    "portosystemic anastomoses inferior vena cava tributaries"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kidneys, ureters, adrenal glands and urinary bladder",
+   "scope": "Renal capsule, fascia and internal structure, renal vascular segments, ureteric course and constrictions, adrenal zones and blood supply, the urinary bladder trigone, and the urethra.",
+   "queries": [
+    "renal fascia Gerota capsule hilum structures",
+    "ureter constrictions course pelvic brim",
+    "adrenal cortex zones medulla arterial supply",
+    "urinary bladder trigone detrusor internal sphincter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Pelvic floor, perineum and pelvic fascia",
+   "scope": "Components of levator ani and coccygeus, the perineal body, urogenital and anal triangles, superficial and deep perineal pouches, the ischioanal fossa and pudendal canal, and endopelvic fascia.",
+   "queries": [
+    "levator ani puborectalis pubococcygeus iliococcygeus",
+    "perineal body superficial deep perineal pouch",
+    "ischioanal fossa pudendal canal Alcock",
+    "endopelvic fascia arcus tendineus pelvic support"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Male reproductive anatomy",
+   "scope": "Testis and its coverings, epididymis, ductus deferens and spermatic cord, seminal vesicles and ejaculatory ducts, prostate zones, the penis, and the parts of the male urethra.",
+   "queries": [
+    "prostate zones peripheral transition central McNeal",
+    "spermatic cord contents fascial layers",
+    "testis tunica albuginea epididymis ductus deferens",
+    "penis corpora cavernosa spongiosum urethra parts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Female reproductive anatomy and breast",
+   "scope": "Ovaries, uterine tubes, uterus and its supporting ligaments, cervix, vagina and vulva, and breast structure, suspensory ligaments, blood supply and lymphatic drainage.",
+   "queries": [
+    "uterus ligaments broad round cardinal uterosacral",
+    "fallopian tube infundibulum ampulla isthmus fimbriae",
+    "ovary suspensory ligament ovarian artery",
+    "breast Cooper ligaments axillary tail lobules"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Lymphatic system, lymph node stations and lymphoid organs",
+   "scope": "Lymphatic trunks, the thoracic duct and cisterna chyli, classifications of regional lymph node groups and levels, and the thymus, tonsils and Waldeyer's ring.",
+   "queries": [
+    "thoracic duct cisterna chyli course termination",
+    "cervical lymph node levels classification",
+    "axillary lymph node levels Rotter nodes",
+    "Waldeyer ring palatine tonsils thymus"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Histology of tissues, skin and organs",
+   "scope": "Microscopic anatomy of epithelia, connective tissue, cartilage, bone, muscle and nervous tissue, skin layers and appendages, and the defining histological features of organs.",
+   "queries": [
+    "epithelium types simple stratified pseudostratified",
+    "epidermis layers stratum basale spinosum granulosum",
+    "osteon Haversian canal Volkmann canal lamellae",
+    "sarcomere A band I band Z disc"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Embryology and developmental anatomy",
+   "scope": "Germ layers and early embryonic stages, pharyngeal arches and pouches, neural tube and somite formation, development of the heart, gut and urogenital system, and the embryological basis of congenital anomalies.",
+   "queries": [
+    "pharyngeal arches pouches derivatives nerves",
+    "neural tube closure somites Carnegie stages",
+    "heart development septum primum secundum",
+    "midgut rotation mesonephric paramesonephric duct"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Surface anatomy and clinical landmarks",
+   "scope": "Palpable bony landmarks, vertebral levels of surface planes and structures, surface projections of organs, valves and vessels, and anatomical landmarks used for clinical procedures.",
+   "queries": [
+    "transpyloric plane vertebral level landmarks",
+    "sternal angle of Louis T4 T5",
+    "surface projection heart valves auscultation areas",
+    "Tuffier line iliac crest lumbar puncture"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of anatomy, anatomical eponyms and nomenclature",
+   "scope": "Landmark anatomists and works (Galen, Vesalius's Fabrica, Gray's Anatomy editions), the origins of anatomical eponyms, and successive nomenclatures (BNA, PNA, Nomina Anatomica, Terminologia Anatomica).",
+   "queries": [
+    "Vesalius De humani corporis fabrica 1543",
+    "Terminologia Anatomica FIPAT nomenclature edition",
+    "anatomical eponyms history named structures",
+    "Gray's Anatomy Henry Gray first edition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Thoracic wall, ribs, sternum and intercostal spaces",
+   "scope": "Bones of the ribs and sternum, costovertebral and sternocostal joints, intercostal and accessory respiratory muscles, intercostal neurovascular bundles and the internal thoracic artery and its branches.",
+   "queries": [
+    "typical atypical ribs costovertebral joints anatomy",
+    "intercostal neurovascular bundle costal groove order",
+    "internal thoracic artery branches perforators anatomy",
+    "sternum manubrium xiphoid sternal angle variants foramen"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Posterior abdominal wall muscles and thoracolumbar fascia",
+   "scope": "Psoas major and minor, iliacus, quadratus lumborum, the diaphragmatic crura and arcuate ligaments, and the layers and attachments of the thoracolumbar fascia.",
+   "queries": [
+    "psoas minor prevalence attachment anatomy",
+    "quadratus lumborum anatomy attachments innervation",
+    "thoracolumbar fascia layers posterior anterior middle",
+    "medial lateral arcuate ligament diaphragm crura"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Internal iliac artery branches and pelvic vascular anatomy",
+   "scope": "Branching patterns of the anterior and posterior divisions of the internal iliac artery, the corona mortis and other pelvic arterial anastomoses, and the pelvic visceral venous plexuses.",
+   "queries": [
+    "internal iliac artery anterior posterior division branches",
+    "corona mortis obturator anastomosis prevalence",
+    "superior gluteal artery inferior gluteal artery origin variations",
+    "pelvic venous plexus vesical uterine rectal veins"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Extracranial carotid, vertebral and jugular vessels",
+   "scope": "Level of the carotid bifurcation, carotid sinus and body, order of the external carotid branches, the V1-V4 segments of the vertebral artery, and the internal, external and anterior jugular veins and their tributaries.",
+   "queries": [
+    "external carotid artery branches order origin",
+    "carotid bifurcation level vertebral cadaveric study",
+    "vertebral artery V1 V2 V3 V4 segments",
+    "internal jugular vein tributaries anatomy relations"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Superficial and perforator veins of the limbs",
+   "scope": "Great and small saphenous veins, saphenofemoral and saphenopopliteal junctions, named perforators (Cockett, Dodd, Boyd), the Giacomini vein, and the cephalic, basilic and median cubital veins with their patterns.",
+   "queries": [
+    "great saphenous vein saphenofemoral junction tributaries",
+    "Cockett Dodd Boyd perforator veins",
+    "small saphenous vein termination variations Giacomini",
+    "cephalic basilic median cubital vein patterns"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Azygos venous system, vertebral venous plexus and caval anomalies",
+   "scope": "Azygos, hemiazygos and accessory hemiazygos veins, Batson's vertebral venous plexus, and caval variants such as persistent left superior vena cava, azygos continuation, IVC duplication and retroaortic renal vein.",
+   "queries": [
+    "azygos hemiazygos accessory hemiazygos vein anatomy",
+    "Batson vertebral venous plexus valveless",
+    "persistent left superior vena cava prevalence coronary sinus",
+    "inferior vena cava duplication azygos continuation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arterial branching variants and collateral anastomoses",
+   "scope": "Named arterial variants and their prevalences and classifications, such as aortic arch branching patterns, arteria lusoria, Michels hepatic artery types, the arc of Riolan, the marginal artery of Drummond and the scapular anastomosis.",
+   "queries": [
+    "aortic arch branching variants bovine arch prevalence",
+    "aberrant right subclavian artery arteria lusoria",
+    "Michels classification hepatic artery variants",
+    "arc of Riolan marginal artery Drummond"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accessory ossicles, sesamoid bones and skeletal variants",
+   "scope": "Accessory bones and sesamoids (os trigonum, accessory navicular, os peroneum, fabella), bipartite patella, cervical ribs and other non-pathological skeletal variants, with their prevalences and classification systems.",
+   "queries": [
+    "accessory navicular bone type classification",
+    "os trigonum os peroneum prevalence",
+    "fabella prevalence knee sesamoid",
+    "cervical rib prevalence bipartite patella Saupe"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accessory and variant muscles",
+   "scope": "Extra or absent muscles and their prevalences, such as absence of palmaris longus, sternalis, the axillary arch of Langer, accessory soleus, peroneus quartus and psoas tertius.",
+   "queries": [
+    "palmaris longus agenesis prevalence population",
+    "sternalis muscle prevalence cadaveric",
+    "axillary arch Langer muscle variant",
+    "peroneus quartus accessory soleus muscle"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Peripheral nerve variants and interneural communications",
+   "scope": "Named nerve-to-nerve connections (Martin-Gruber, Marinacci, Riche-Cannieu, Berrettini), median-musculocutaneous communications, and variants of the sciatic nerve's relation to piriformis (Beaton classification).",
+   "queries": [
+    "Martin-Gruber anastomosis prevalence types",
+    "Riche-Cannieu anastomosis Berrettini communicating branch",
+    "sciatic nerve piriformis variation Beaton classification",
+    "musculocutaneous median nerve communication types"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Craniovertebral junction and craniometric lines",
+   "scope": "The occipital condyles, atlas and axis, the transverse, alar and apical ligaments and tectorial membrane, ponticulus posticus, and radiographic reference lines and intervals (Chamberlain, McGregor, McRae, atlantodental and basion-dens intervals).",
+   "queries": [
+    "Chamberlain McGregor McRae line basilar invagination",
+    "atlantodental interval normal adult child",
+    "alar ligament transverse ligament tectorial membrane anatomy",
+    "ponticulus posticus prevalence atlas arcuate foramen"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infratemporal and pterygopalatine fossae",
+   "scope": "Boundaries, openings and contents of the infratemporal and pterygopalatine fossae, including the segments and branches of the maxillary artery, branches of the mandibular nerve, the otic and pterygopalatine ganglia and the pterygoid venous plexus.",
+   "queries": [
+    "pterygopalatine fossa boundaries communications contents",
+    "maxillary artery segments branches pterygoid part",
+    "infratemporal fossa mandibular nerve branches chorda tympani",
+    "sphenopalatine foramen vidian canal anatomy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cavernous sinus, Meckel's cave and skull base surgical triangles",
+   "scope": "Microsurgical anatomy of the cavernous sinus and its contents, the clinoid segment of the internal carotid artery and its dural rings, Meckel's cave, Dorello's canal, and the named parasellar and middle fossa triangles (Parkinson, Kawase, Glasscock) used in skull base approaches.",
+   "queries": [
+    "cavernous sinus triangles Parkinson Kawase microsurgical",
+    "Meckel cave trigeminal cistern anatomy",
+    "Dorello canal abducens nerve petroclinoid ligament",
+    "clinoid segment internal carotid artery dural rings"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Pituitary gland, pineal gland and sellar region",
+   "scope": "Gross and microscopic divisions of the pituitary, its portal system and arterial supply, the size and shape of the sella turcica and the diaphragma sellae, and the anatomy and calcification of the pineal gland.",
+   "queries": [
+    "hypophyseal portal system superior inferior hypophyseal arteries",
+    "sella turcica dimensions normal morphology",
+    "adenohypophysis pars tuberalis intermedia anatomy",
+    "pineal gland calcification prevalence age"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spinal cord vascular supply",
+   "scope": "Anterior and posterior spinal arteries, the segmental arteries feeding the cord (including the level and side of the artery of Adamkiewicz), the arterial vasocorona and watershed zones, and venous drainage of the spinal cord.",
+   "queries": [
+    "artery of Adamkiewicz level side origin",
+    "anterior spinal artery posterior spinal arteries supply",
+    "radiculomedullary artery segmental feeders spinal cord",
+    "spinal cord venous drainage coronal venous plexus"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ascending and descending spinal tracts and somatotopy",
+   "scope": "Course, level of crossing, position in the white matter and body-map layout of the dorsal column-medial lemniscus, spinothalamic, spinocerebellar, corticospinal, rubrospinal, reticulospinal and vestibulospinal tracts, plus the Rexed laminae.",
+   "queries": [
+    "corticospinal tract decussation lateral anterior percentage fibers",
+    "dorsal column medial lemniscus fasciculus gracilis cuneatus",
+    "spinothalamic tract somatotopy anterolateral system",
+    "Rexed laminae spinal cord gray matter"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Visual, auditory and vestibular central pathways",
+   "scope": "The optic chiasm, lateral geniculate layers, Meyer's loop and optic radiations; the cochlear nuclei, superior olive, lateral lemniscus, inferior colliculus and medial geniculate body; and the vestibular nuclei and their projections.",
+   "queries": [
+    "Meyer loop optic radiation temporal pole distance",
+    "lateral geniculate nucleus layers magnocellular parvocellular",
+    "central auditory pathway superior olivary complex inferior colliculus",
+    "vestibular nuclei projections medial longitudinal fasciculus"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Neuromodulatory nuclei and neurochemical projection systems",
+   "scope": "Location, numbered cell groups (A1-A16, B1-B9, Ch1-Ch6) and projections of the noradrenaline, serotonin, dopamine, acetylcholine and histamine systems, such as the locus coeruleus, raphe nuclei, ventral tegmental area, nucleus basalis of Meynert and tuberomammillary nucleus.",
+   "queries": [
+    "locus coeruleus neuron number noradrenergic projections",
+    "raphe nuclei serotonergic B1 B9 groups",
+    "nucleus basalis Meynert Ch4 cholinergic",
+    "dopaminergic cell groups A8 A9 A10"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stereotactic neuroanatomy, brain atlases and deep brain stimulation targets",
+   "scope": "Stereotactic coordinate systems (AC-PC line, Talairach, MNI), classic atlases (Schaltenbrand-Wahren), and the coordinates and anatomy of deep brain stimulation and lesioning targets (subthalamic nucleus, GPi, Vim, anterior thalamus).",
+   "queries": [
+    "subthalamic nucleus stereotactic coordinates midcommissural point",
+    "Talairach atlas MNI space coordinate system",
+    "ventral intermediate nucleus thalamus targeting DBS",
+    "Schaltenbrand Wahren atlas anterior commissure posterior commissure"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Peripheral nerve microanatomy and fiber classification",
+   "scope": "Endoneurium, perineurium and epineurium, fascicle patterns and the internal layout of nerves, Seddon and Sunderland injury grades, and the Erlanger-Gasser and Lloyd-Hunt fiber classes with their diameters and conduction velocities.",
+   "queries": [
+    "epineurium perineurium endoneurium fascicular anatomy",
+    "Erlanger Gasser nerve fiber classification diameter conduction",
+    "Sunderland classification nerve injury degrees",
+    "intraneural fascicular topography median nerve"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Visceral afferent pathways and referred pain patterns",
+   "scope": "The spinal segments that carry sensory fibers from each organ, the convergence-projection theory and Head's zones, and named referred-pain signs (Kehr's sign, Boas' sign, cardiac and appendiceal referred pain).",
+   "queries": [
+    "referred pain visceral organs spinal segments",
+    "Kehr sign referred shoulder pain diaphragm",
+    "visceral afferent fibers sympathetic pathways pain",
+    "Head zones referred pain convergence projection"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Ossification centres and epiphyseal fusion timelines",
+   "scope": "Primary and secondary ossification centres, the ages at which they appear and fuse in long bones, carpals and tarsals (e.g. the CRITOE sequence at the elbow), and bone-age atlases such as Greulich-Pyle and Tanner-Whitehouse.",
+   "queries": [
+    "elbow ossification centers CRITOE age appearance",
+    "epiphyseal fusion age medial clavicle",
+    "carpal bones ossification sequence age",
+    "Greulich Pyle Tanner Whitehouse bone age"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forensic osteology: sex, age, stature and ancestry estimation",
+   "scope": "Skeletal methods for building a biological profile, such as the Phenice traits, Suchey-Brooks pubic symphysis and auricular surface phases, cranial suture closure scoring, and Trotter-Gleser stature formulae.",
+   "queries": [
+    "Suchey Brooks pubic symphysis phases age",
+    "Phenice method ventral arc sex estimation",
+    "Trotter Gleser stature formula femur",
+    "cranial suture closure age estimation Meindl Lovejoy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Normal visceral organ dimensions and weights",
+   "scope": "Reference values for adult and child organ sizes and weights from autopsy and imaging studies, e.g. spleen length, liver span, kidney length, heart weight, and aortic and common bile duct diameters.",
+   "queries": [
+    "normal organ weights autopsy reference adults",
+    "normal spleen length ultrasound adults",
+    "normal kidney length ultrasound reference",
+    "common bile duct diameter normal age"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Musculoskeletal radiographic angles and alignment measurements",
+   "scope": "Named radiographic angles, lines and ratios and their normal ranges, e.g. the Böhler and Gissane angles, Baumann angle, femoral neck-shaft and anteversion angles, Insall-Salvati ratio, Cobb angle, acetabular index and center-edge angle.",
+   "queries": [
+    "Bohler angle Gissane angle calcaneus normal",
+    "Insall Salvati ratio patellar height normal",
+    "center edge angle Wiberg acetabular index",
+    "femoral neck shaft angle anteversion normal values"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Joint ranges of motion, kinesiology and gait",
+   "scope": "Normal joint ranges of motion and how they are measured, the axes of joint movement, muscle actions, the elbow carrying angle, scapulohumeral rhythm, and the phases and muscle activity of the gait cycle.",
+   "queries": [
+    "normal range of motion goniometry AAOS values",
+    "scapulohumeral rhythm ratio glenohumeral scapulothoracic",
+    "gait cycle stance swing phases percentage",
+    "carrying angle elbow normal values sex"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Skeletal muscle architecture and fiber-type composition",
+   "scope": "Fascicle length, pennation angle, physiological cross-sectional area and fiber-type percentages of individual human muscles, and the classification of muscles by fiber arrangement (fusiform, unipennate, bipennate, multipennate).",
+   "queries": [
+    "muscle architecture pennation angle fascicle length cadaver",
+    "physiological cross-sectional area human lower limb muscles",
+    "fiber type composition human muscles type I percentage",
+    "unipennate bipennate multipennate muscle examples"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Synovial joints, bursae, tendon sheaths and entheses",
+   "scope": "Classification of joints (fibrous, cartilaginous and the synovial subtypes), named bursae and the joints they connect to, synovial tendon sheaths and retinacula, fibrocartilaginous entheses and the enthesis organ concept.",
+   "queries": [
+    "synovial joint classification types examples",
+    "bursae anatomy named bursa communications knee",
+    "enthesis organ fibrocartilaginous fibrous enthesis",
+    "synovial tendon sheath anatomy retinaculum"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Cross-sectional and radiographic imaging anatomy",
+   "scope": "Normal anatomy as seen on axial CT and MRI and on plain radiographs, including relations at standard slice levels, normal chest radiograph lines and stripes, and the vertebral levels of major vascular and organ landmarks on imaging.",
+   "queries": [
+    "cross-sectional anatomy axial CT abdomen levels",
+    "celiac trunk SMA origin vertebral level CT",
+    "aortic bifurcation vertebral level imaging",
+    "chest radiograph normal anatomy lines stripes"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ultrasound anatomy for regional anesthesia and fascial plane blocks",
+   "scope": "Anatomy seen on ultrasound and the target planes for nerve and fascial plane blocks such as interscalene, supraclavicular, TAP, erector spinae, PENG, adductor canal and quadratus lumborum blocks, including cadaver dye-spread studies.",
+   "queries": [
+    "erector spinae plane block cadaveric dye spread",
+    "transversus abdominis plane block anatomy",
+    "adductor canal block anatomy nerve to vastus medialis",
+    "pericapsular nerve group block hip innervation"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Angiosomes, perforator flaps and cutaneous vascular territories",
+   "scope": "The angiosome concept (Taylor and Palmer), choke vessels, source arteries and perforator anatomy of common flaps (DIEP, ALT, SIEA, TDAP, fibula, radial forearm), and flap classifications (Mathes-Nahai, Cormack-Lamberty).",
+   "queries": [
+    "angiosome concept Taylor Palmer source arteries",
+    "deep inferior epigastric perforator anatomy number",
+    "anterolateral thigh flap perforators descending branch",
+    "Mathes Nahai classification muscle flap vascular"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Anatomical tunnels, spaces and nerve entrapment sites",
+   "scope": "Bony and fibrous canals and spaces between muscles where nerves and vessels pass or get trapped, e.g. the carpal and cubital tunnels, Guyon's canal, arcade of Struthers, quadrangular space, suprascapular notch, thoracic outlet, tarsal tunnel and Alcock's canal.",
+   "queries": [
+    "Guyon canal zones ulnar nerve",
+    "quadrangular space boundaries axillary nerve",
+    "suprascapular notch types Rengachary classification",
+    "tarsal tunnel contents flexor retinaculum entrapment"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric and neonatal anatomy",
+   "scope": "Features that set infants and children apart from adults: fontanelles and when they close, the pediatric airway (larynx position, narrowest point), where the spinal cord ends, thymus size and body proportions that change with growth.",
+   "queries": [
+    "anterior fontanelle closure age size",
+    "pediatric airway anatomy cricoid narrowest",
+    "conus medullaris level neonates infants",
+    "infant larynx position vertebral level epiglottis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Placenta, umbilical cord and fetal membranes",
+   "scope": "Gross anatomy of the term placenta (cotyledons, weight, diameter, cord insertion types), the umbilical cord's vessels, length and Wharton's jelly, and the layers of the amnion, chorion and decidua.",
+   "queries": [
+    "placenta weight diameter term cotyledons",
+    "umbilical cord length vessels Wharton jelly",
+    "velamentous marginal cord insertion prevalence",
+    "amnion chorion decidua basalis layers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Nail unit, hair follicles and skin tension lines",
+   "scope": "Gross and microscopic anatomy of the nail unit (matrix, lunula, hyponychium, growth rates), the segments of the hair follicle, and Langer's lines, relaxed skin tension lines and Blaschko's lines.",
+   "queries": [
+    "nail unit anatomy matrix lunula hyponychium",
+    "fingernail growth rate per month",
+    "hair follicle isthmus infundibulum bulge",
+    "Langer lines relaxed skin tension lines Blaschko"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Anatomical education, body donation and specimen preservation",
+   "scope": "Modern anatomy teaching and how donated bodies are obtained and preserved: body donation programs and laws, embalming methods (Thiel, formalin), plastination, and dissection versus prosection teaching.",
+   "queries": [
+    "Thiel embalming method composition",
+    "plastination von Hagens silicone technique",
+    "body donation program willed body consent",
+    "anatomy dissection teaching hours curriculum"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Esophagus and gastroesophageal junction",
+   "scope": "Segments of the esophagus, its narrowings and their distances from the incisors, the upper and lower esophageal sphincters, Killian's and Laimer's triangles, blood supply and lymph drainage, and the Z-line and angle of His.",
+   "queries": [
+    "esophageal constrictions distance from incisors",
+    "Killian triangle Laimer triangle cricopharyngeus",
+    "lower esophageal sphincter anatomy angle of His",
+    "esophagus arterial supply venous drainage portosystemic"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Quantitative neuroanatomy: neuron counts, brain volumes and cortical thickness",
+   "scope": "Counting-based and imaging estimates of human neuron and glia numbers, whole-brain and regional volumes and weights, and cortical thickness, including differences by age and sex.",
+   "queries": [
+    "number of neurons human brain isotropic fractionator",
+    "cerebellar neurons count Herculano-Houzel",
+    "normal hippocampal volume MRI adults",
+    "cortical thickness human average millimeters"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bone blood supply and nutrient arteries",
+   "scope": "Nutrient, metaphyseal, epiphyseal and periosteal blood supply of bones, where nutrient foramina sit, and the vessels behind bones prone to avascular necrosis such as the femoral head, scaphoid, talus and lunate.",
+   "queries": [
+    "nutrient foramen location long bones morphometric",
+    "femoral head blood supply medial circumflex retinacular",
+    "scaphoid blood supply dorsal carpal branch retrograde",
+    "talus blood supply artery of tarsal canal"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Meningeal lymphatics, glymphatic system and perivascular spaces",
+   "scope": "Anatomy of the lymphatic vessels in the dura, perivascular (Virchow-Robin) spaces, the glymphatic pathway, CSF outflow through arachnoid granulations versus lymphatics, and recently described layers such as SLYM.",
+   "queries": [
+    "meningeal lymphatic vessels dura mater discovery",
+    "glymphatic system aquaporin-4 perivascular",
+    "Virchow-Robin spaces enlarged perivascular MRI",
+    "subarachnoid lymphatic-like membrane SLYM"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}

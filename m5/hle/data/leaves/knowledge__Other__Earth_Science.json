@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Earth Science",
+ "target_leaves": 8,
+ "expected_problems": 37,
+ "leaves": [
+  {
+   "leaf": "Obsolete igneous rock names and type localities",
+   "scope": "Historical petrographic names (e.g., kentallenite, monchiquite, tinguaite, essexite) with their original type localities, defining mineral modes and chemical analyses as given in pre-1929 petrography texts. A question could ask the solver to reassign an old name to its modern IUGS QAPF/TAS field from the reported mode or oxide analysis, or to compare two type rocks.",
+   "queries": [
+    "kentallenite type locality",
+    "monchiquite petrography analysis",
+    "tinguaite nepheline aegirine",
+    "obsolete rock names IUGS",
+    "essexite type locality"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "GSSP boundary stratotype marker definitions",
+   "scope": "Ratified Global Boundary Stratotype Sections and Points: section names, the exact level in metres, the primary marker (first appearance datum of a conodont, graptolite or ammonite, or an isotope excursion), and the ratification year. A question could combine the marker taxon, the section's location and the numerical boundary age to work out stage durations or which biozone brackets a given level.",
+   "queries": [
+    "GSSP ratified stage base",
+    "global stratotype section point",
+    "conodont FAD boundary",
+    "golden spike stratotype",
+    "stage boundary proposal ICS"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "New mineral species formal descriptions",
+   "scope": "IMA-approved new mineral descriptions: empirical formulae, unit-cell parameters, Z, measured versus calculated density, type specimen repository and name origin. A question could ask the solver to recompute calculated density or ideal formula from the reported cell and composition, or to infer the structural group.",
+   "queries": [
+    "new mineral species IMA",
+    "empirical formula calculated density",
+    "type material deposited holotype",
+    "new mineral type locality",
+    "crystal structure new mineral"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Challenger expedition deep-sea deposit stations",
+   "scope": "Station-by-station records from the HMS Challenger reports (Murray & Renard): sounding depths, sediment classes (Globigerina ooze, radiolarian ooze, red clay, pteropod ooze) and their CaCO3 percentages. A question could ask the solver to infer the carbonate compensation behaviour from depth and carbonate content across stations, or to identify which ooze type appears at a given depth range.",
+   "queries": [
+    "Challenger deep-sea deposits",
+    "Globigerina ooze station",
+    "red clay carbonate percentage",
+    "Murray Renard deposits",
+    "pteropod ooze depth"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century macroseismic earthquake reports",
+   "scope": "Field reports on historical earthquakes, such as Mallet on the 1857 Neapolitan shock, Dutton on the 1886 Charleston earthquake, and Oldham on the 1897 Assam earthquake, including isoseismal radii, inferred focal depths, crack orientations and timing observations. A question could ask the solver to reproduce the author's focal-depth or wave-velocity calculation from reported distances and times, or to convert old intensity scales.",
+   "queries": [
+    "Charleston earthquake 1886 Dutton",
+    "Mallet Neapolitan earthquake",
+    "isoseismal lines focal depth",
+    "Rossi-Forel intensity scale",
+    "Assam earthquake 1897 Oldham"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Interstate river and aquifer apportionment litigation",
+   "scope": "US original-jurisdiction and appellate water cases (e.g., Pecos River, Arkansas River, Republican River, Middle Claiborne aquifer), with the hydrogeologic facts on record: stream depletion from well pumping, compact accounting and apportioned acre-feet. A question could combine the documented numbers or the court's hydrologic reasoning to compute a shortfall or identify which party's model the court adopted.",
+   "queries": [
+    "Pecos River Compact shortfall",
+    "Republican River Compact groundwater",
+    "Middle Claiborne aquifer",
+    "stream depletion well pumping",
+    "equitable apportionment aquifer"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Glacial Lake Agassiz strandlines and outlets",
+   "scope": "Named beach levels of Lake Agassiz and related proglacial lakes (Herman, Norcross, Tintah, Campbell, McCauleyville), with their elevations, outlet channels and drainage chronology from Upham's monograph and later work. A question could ask the solver to order the strandlines, compute the drop in lake level between stages, or link a beach to the outlet that controlled it.",
+   "queries": [
+    "Lake Agassiz Herman beach",
+    "Upham glacial Lake Agassiz",
+    "Campbell strandline elevation",
+    "Lake Agassiz outlet drainage",
+    "proglacial lake shorelines Minnesota"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Holocene marker tephra glass geochemistry",
+   "scope": "Distal tephra layers (e.g., Hekla, Askja, Mazama, Vedde, Kikai-Akahoya) with their glass major-element compositions, radiocarbon or ice-core ages and distribution in lake, peat or ice sequences. A question could give a glass analysis or stratigraphic position and ask the solver to identify the tephra and bracket a site's age.",
+   "queries": [
+    "cryptotephra glass geochemistry",
+    "Hekla tephra layer age",
+    "Vedde Ash distal",
+    "Mazama tephra correlation",
+    "tephrochronology peat lake sediments"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

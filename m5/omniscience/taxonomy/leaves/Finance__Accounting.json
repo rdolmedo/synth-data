@@ -1,0 +1,1059 @@
+{
+ "domain": "Finance",
+ "subtopic": "Accounting",
+ "weight": 0.016281,
+ "leaves": [
+  {
+   "leaf": "Revenue recognition under ASC 606 and IFRS 15",
+   "scope": "The five-step model for contracts with customers (performance obligations, variable consideration, principal-versus-agent, licenses, contract costs) and the legacy ASC 605, SAB 101/104 and IAS 18/IAS 11 guidance it replaced.",
+   "queries": [
+    "ASC 606 five-step model performance obligations transaction price",
+    "variable consideration constraint principal versus agent considerations",
+    "IFRS 15 licenses intellectual property right to access",
+    "SAB 104 revenue recognition criteria persuasive evidence arrangement"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Lease accounting under ASC 842, IFRS 16 and legacy ASC 840/IAS 17",
+   "scope": "Lessee and lessor accounting for leases: right-of-use assets, classification tests, discount rates, practical expedients, sale-leasebacks and transition from the old operating/capital lease standards.",
+   "queries": [
+    "ASC 842 right-of-use asset incremental borrowing rate",
+    "IFRS 16 short-term low-value lease exemption",
+    "sale and leaseback transaction failed sale financing",
+    "lease classification bright-line tests 75 percent 90 percent"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Financial instrument classification and credit losses (CECL, IFRS 9 ECL)",
+   "scope": "How investments in debt and equity securities and loans are classified and measured, and how they are impaired under ASC 320/321/326, IFRS 9 expected credit losses and the earlier incurred-loss models.",
+   "queries": [
+    "CECL ASC 326 current expected credit losses allowance",
+    "IFRS 9 three-stage significant increase credit risk",
+    "held-to-maturity available-for-sale trading securities ASC 320",
+    "IFRS 9 business model SPPI test amortised cost"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Derivatives and hedge accounting",
+   "scope": "Recognition of freestanding and embedded derivatives and the fair value, cash flow and net investment hedging models under ASC 815, IAS 39 and IFRS 9, including effectiveness testing and the shortcut method.",
+   "queries": [
+    "ASC 815 cash flow hedge effectiveness shortcut method",
+    "embedded derivative bifurcation clearly and closely related",
+    "ASU 2017-12 targeted improvements hedging activities",
+    "IFRS 9 hedge accounting net investment foreign operation"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Business combinations and purchase price allocation",
+   "scope": "The acquisition method under ASC 805 and IFRS 3 (identifying the acquirer, definition of a business, contingent consideration, bargain purchases, measurement period) and its history from APB 16 pooling-of-interests through SFAS 141/141R.",
+   "queries": [
+    "ASC 805 acquisition method purchase price allocation",
+    "bargain purchase gain contingent consideration measurement period",
+    "pooling of interests method APB Opinion 16 abolished",
+    "IFRS 3 definition of a business concentration test"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Impairment of goodwill and long-lived assets, held-for-sale and discontinued operations",
+   "scope": "Impairment testing of goodwill, indefinite-lived intangibles and long-lived assets (ASC 350, ASC 360, IAS 36), plus the classification, measurement and presentation of assets held for sale and discontinued operations (ASC 205-20, SFAS 144, IFRS 5).",
+   "queries": [
+    "goodwill impairment test reporting unit qualitative assessment",
+    "IAS 36 cash-generating unit recoverable amount",
+    "ASC 360 recoverability test undiscounted cash flows",
+    "IFRS 5 held for sale discontinued operations criteria"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Consolidation, variable interest entities and noncontrolling interests",
+   "scope": "Control-based consolidation under ASC 810 and IFRS 10, the VIE model from FIN 46(R) onward, primary beneficiary analysis, noncontrolling interests (SFAS 160) and deconsolidation.",
+   "queries": [
+    "variable interest entity primary beneficiary consolidation ASC 810",
+    "FIN 46R special purpose entities consolidation interpretation",
+    "IFRS 10 control power returns de facto control",
+    "noncontrolling interest presentation SFAS 160 deconsolidation gain"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Equity method investments and joint arrangements",
+   "scope": "Accounting for associates and joint ventures under ASC 323, IAS 28 and IFRS 11: the 20% significant-influence presumption, basis differences, intra-entity profit elimination, loss limits and joint operations.",
+   "queries": [
+    "equity method investment significant influence 20 percent",
+    "IFRS 11 joint operation joint venture classification",
+    "equity method basis difference intra-entity profit elimination",
+    "IAS 28 associates losses exceeding carrying amount"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Income tax accounting under ASC 740 and IAS 12",
+   "scope": "Current and deferred tax accounting: temporary differences, valuation allowances, uncertain tax positions (FIN 48), rate reconciliation disclosures (ASU 2023-09) and how the Pillar Two global minimum tax is accounted for.",
+   "queries": [
+    "ASC 740 deferred tax asset valuation allowance",
+    "FIN 48 uncertain tax positions recognition threshold",
+    "IAS 12 temporary differences initial recognition exemption",
+    "Pillar Two global minimum tax deferred taxes"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Share-based payment accounting",
+   "scope": "Measurement and recognition of employee and nonemployee equity awards under ASC 718 (and its predecessors SFAS 123/123R and APB 25) and IFRS 2: option-pricing inputs, vesting conditions, modifications, forfeitures and ESPPs.",
+   "queries": [
+    "ASC 718 stock-based compensation grant date fair value",
+    "Black-Scholes expected term simplified method SAB 107",
+    "IFRS 2 market condition non-vesting condition modification",
+    "APB 25 intrinsic value method SFAS 123R"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pensions and other postretirement benefits",
+   "scope": "Defined benefit and OPEB accounting under ASC 715 and IAS 19: projected benefit obligations, expected return on plan assets, corridor amortization, settlements and curtailments, and funded-status reporting.",
+   "queries": [
+    "projected benefit obligation expected return plan assets",
+    "corridor approach actuarial gains losses amortization",
+    "IAS 19 revised net interest remeasurements",
+    "SFAS 158 funded status postretirement benefits"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Inventory costing and valuation",
+   "scope": "Cost-flow assumptions and inventory measurement (FIFO, LIFO, weighted average, retail method, dollar-value LIFO, LIFO reserve and liquidations, lower of cost and net realizable value) under ASC 330 and IAS 2.",
+   "queries": [
+    "LIFO reserve LIFO liquidation inventory disclosure",
+    "dollar-value LIFO link-chain index method",
+    "net realizable value inventory write-down ASU 2015-11",
+    "IAS 2 inventories retail method cost formulas"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Property, plant and equipment, investment property and depreciation",
+   "scope": "Capitalization, depreciation methods, component accounting, the revaluation model, capitalized borrowing costs, asset retirement obligations and investment property under ASC 360/410/835-20 and IAS 16/23/40.",
+   "queries": [
+    "IAS 16 revaluation model component depreciation",
+    "asset retirement obligation accretion expense ASC 410",
+    "capitalized interest qualifying assets IAS 23",
+    "IAS 40 investment property fair value model"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Intangible assets, R&D and software development costs",
+   "scope": "Recognition and amortization of acquired and internally generated intangibles, R&D expensing (ASC 730, IAS 38), capitalization of internal-use and for-sale software (ASC 350-40, ASC 985-20), cloud computing arrangements and crypto assets (ASU 2023-08).",
+   "queries": [
+    "ASC 350-40 internal-use software capitalization stages",
+    "ASC 985-20 technological feasibility software to be sold",
+    "IAS 38 development costs recognition criteria",
+    "ASU 2023-08 crypto assets fair value measurement"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Foreign currency translation and hyperinflationary reporting",
+   "scope": "Determining the functional currency, translation versus remeasurement, the cumulative translation adjustment and its release, and reporting in hyperinflationary economies under ASC 830, IAS 21 and IAS 29.",
+   "queries": [
+    "functional currency determination ASC 830 remeasurement",
+    "cumulative translation adjustment release sale foreign entity",
+    "IAS 29 hyperinflationary economies cumulative inflation 100 percent",
+    "IAS 21 lack of exchangeability amendments"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Fair value measurement",
+   "scope": "The exit-price fair value framework of ASC 820 (SFAS 157) and IFRS 13: principal market, highest and best use, the Level 1-3 hierarchy, valuation techniques, Level 3 disclosures, the NAV practical expedient and the fair value option.",
+   "queries": [
+    "fair value hierarchy Level 3 unobservable inputs",
+    "SFAS 157 fair value measurements exit price",
+    "IFRS 13 principal market highest and best use",
+    "fair value option ASC 825 election"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Debt, equity and hybrid instrument accounting",
+   "scope": "Whether an instrument is a liability or equity, accounting for convertible debt (including the history of beneficial-conversion and cash-conversion models), debt issuance costs, modifications and extinguishments, and treasury stock under ASC 470, 480, 505, 815-40 and IAS 32.",
+   "queries": [
+    "ASU 2020-06 convertible instruments beneficial conversion feature",
+    "ASC 480 mandatorily redeemable shares liability classification",
+    "debt modification extinguishment 10 percent cash flow test",
+    "IAS 32 fixed-for-fixed equity classification puttable"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Earnings per share",
+   "scope": "Basic and diluted EPS under ASC 260 and IAS 33: weighted-average shares, the treasury stock, if-converted and two-class methods, contingently issuable shares and antidilution rules.",
+   "queries": [
+    "diluted earnings per share treasury stock method",
+    "two-class method participating securities EPS",
+    "if-converted method antidilutive securities excluded",
+    "IAS 33 contingently issuable shares weighted average"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Statement of cash flows",
+   "scope": "Preparation and classification rules for the cash flow statement under ASC 230 (SFAS 95) and IAS 7: direct versus indirect method, where interest and dividends go, restricted cash, noncash disclosures and supplier finance arrangements.",
+   "queries": [
+    "statement of cash flows indirect method reconciliation",
+    "ASC 230 classification cash receipts payments ASU 2016-15",
+    "IAS 7 interest paid dividends classification choice",
+    "supplier finance arrangements disclosure ASU 2022-04"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Financial statement presentation and comprehensive income",
+   "scope": "Structure and content of the primary statements under IAS 1, IFRS 18 and ASC 205/210/220: classified balance sheets, other comprehensive income and recycling, extraordinary and unusual items, management-defined performance measures and expense disaggregation.",
+   "queries": [
+    "IFRS 18 operating profit management-defined performance measures",
+    "other comprehensive income reclassification adjustments recycling",
+    "extraordinary items elimination ASU 2015-01 unusual infrequent",
+    "ASU 2024-03 income statement expense disaggregation"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Segment reporting",
+   "scope": "Identifying and disclosing operating segments under ASC 280 (SFAS 131, replacing SFAS 14) and IFRS 8: the management approach, the CODM, quantitative thresholds, aggregation criteria, entity-wide disclosures and ASU 2023-07 significant segment expenses.",
+   "queries": [
+    "operating segments chief operating decision maker ASC 280",
+    "segment quantitative thresholds 10 percent 75 percent",
+    "ASU 2023-07 significant segment expenses disclosure",
+    "IFRS 8 aggregation criteria reportable segments entity-wide"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Contingencies, provisions, guarantees and subsequent events",
+   "scope": "Recognition and disclosure of loss and gain contingencies, provisions and onerous contracts, guarantees and warranties, and events after the reporting period under ASC 450, ASC 460 (FIN 45), ASC 855, IAS 37 and IAS 10.",
+   "queries": [
+    "loss contingency probable reasonably possible remote",
+    "IAS 37 provisions onerous contracts constructive obligation",
+    "FIN 45 guarantor accounting product warranties disclosure",
+    "subsequent events recognized nonrecognized ASC 855"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Accounting changes, error corrections and interim reporting",
+   "scope": "Changes in accounting principle and estimate, error corrections and the types of restatement, how materiality is assessed (SAB 99/108), and interim-period reporting under ASC 250, ASC 270, IAS 8 and IAS 34.",
+   "queries": [
+    "ASC 250 change in accounting principle retrospective application",
+    "SAB 108 rollover iron curtain misstatements",
+    "Big R restatement little r revision",
+    "IAS 34 interim financial reporting condensed statements"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Going concern, bankruptcy and fresh-start accounting",
+   "scope": "Accounting for financially distressed entities: going-concern evaluations, troubled debt restructurings, Chapter 11 reorganization accounting and fresh-start reporting (ASC 852), the liquidation basis (ASC 205-30) and quasi-reorganizations.",
+   "queries": [
+    "fresh-start reporting reorganization value emergence Chapter 11",
+    "ASC 852 liabilities subject to compromise",
+    "going concern substantial doubt one year ASU 2014-15",
+    "troubled debt restructuring concession creditor ASC 310-40"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Insurance contract accounting",
+   "scope": "Insurer accounting under IFRS 17 (and IFRS 4 before it), US GAAP long-duration targeted improvements (ASU 2018-12) and short-duration contracts, and NAIC statutory accounting principles.",
+   "queries": [
+    "IFRS 17 contractual service margin general measurement model",
+    "premium allocation approach variable fee approach",
+    "ASU 2018-12 long-duration targeted improvements market risk benefits",
+    "NAIC statutory accounting principles admitted assets"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Bank, broker-dealer and investment company accounting",
+   "scope": "Accounting specific to banks, broker-dealers and investment companies or funds (ASC 942, ASC 940, ASC 946, the IFRS 10 investment-entity exception): loan fees and costs, regulatory call reports, net asset value and financial highlights.",
+   "queries": [
+    "ASC 946 investment company financial highlights",
+    "IFRS 10 investment entity exception consolidation",
+    "loan origination fees costs deferred FAS 91",
+    "FFIEC call report regulatory accounting instructions"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Oil and gas, mining and rate-regulated utility accounting",
+   "scope": "Oil and gas accounting (successful efforts versus full cost, the ceiling test, ASC 932 reserves disclosures and Rule 4-10), mineral exploration and mining disclosure (IFRS 6, S-K 1300), and regulatory assets and liabilities of rate-regulated utilities (ASC 980).",
+   "queries": [
+    "successful efforts full cost method oil gas",
+    "full cost ceiling test standardized measure discounted",
+    "ASC 980 regulatory assets regulatory liabilities utilities",
+    "IFRS 6 exploration evaluation mineral resources"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Conceptual frameworks and accounting standard-setting bodies",
+   "scope": "The FASB and IASB conceptual frameworks (Concepts Statements, qualitative characteristics, elements) and the history, structure and due process of standard setters (CAP, APB, FASB, EITF, PCC, IASC, IASB, IFRS Foundation), including the 2009 Codification.",
+   "queries": [
+    "Accounting Principles Board opinions Committee on Accounting Procedure",
+    "FASB conceptual framework concepts statements qualitative characteristics",
+    "International Accounting Standards Committee founded 1973 IASB",
+    "Accounting Standards Codification 2009 Emerging Issues Task Force"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "National GAAPs, charts of accounts and IFRS adoption worldwide",
+   "scope": "National accounting frameworks and how far they have converged with IFRS: the EU IAS Regulation, UK FRS 102, Japanese GAAP, China ASBE, Ind AS, German HGB, the French Plan comptable général, IFRS for SMEs and US private company alternatives.",
+   "queries": [
+    "IFRS adoption jurisdictions EU IAS Regulation 2002",
+    "FRS 102 UK GAAP small entities",
+    "China Accounting Standards for Business Enterprises convergence",
+    "French Plan comptable général chart of accounts"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "SEC financial reporting and disclosure rules",
+   "scope": "SEC requirements for registrants: Regulation S-X and S-K, Form 10-K/10-Q items and filing deadlines, filer categories, Staff Accounting Bulletins, non-GAAP rules (Regulation G, Item 10(e)) and XBRL/EDGAR tagging.",
+   "queries": [
+    "large accelerated filer deadlines Form 10-K 60 days",
+    "Regulation S-X Rule 3-05 significant acquiree financial statements",
+    "non-GAAP financial measures Regulation G Item 10(e)",
+    "inline XBRL tagging requirements EDGAR filers"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Governmental and public-sector accounting",
+   "scope": "Accounting by US state and local governments (GASB statements, fund accounting, modified accrual, the ACFR), by US federal entities (FASAB SFFAS), and by other public sectors under IPSAS.",
+   "queries": [
+    "GASB Statement 34 government-wide fund financial statements",
+    "modified accrual basis governmental funds",
+    "FASAB federal financial accounting standards SFFAS",
+    "IPSAS accrual basis public sector standards"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Not-for-profit accounting",
+   "scope": "Nonprofit financial reporting under ASC 958: net asset classes, contributions and conditional promises, functional expense reporting, endowments under UPMIFA, and split-interest agreements.",
+   "queries": [
+    "ASU 2016-14 net assets with donor restrictions",
+    "conditional contributions barrier right of return",
+    "statement of functional expenses natural classification",
+    "UPMIFA endowment underwater funds reporting"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Auditing standards, audit reports and audit oversight",
+   "scope": "Generally accepted auditing standards and the audit process (risk assessment, materiality, evidence, sampling) under PCAOB AS, AICPA SAS and IAASB ISA, the types of audit opinion, critical and key audit matters, and PCAOB oversight inspections.",
+   "queries": [
+    "PCAOB AS 3101 critical audit matters auditor report",
+    "ISA 701 key audit matters IAASB",
+    "qualified adverse disclaimer of opinion modifications",
+    "performance materiality audit risk model sampling"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Internal control over financial reporting and SOX",
+   "scope": "Sarbanes-Oxley Sections 302 and 404, management and auditor ICFR assessments (AS 2201), material weaknesses and significant deficiencies, and the COSO 1992/2013 internal control and ERM frameworks.",
+   "queries": [
+    "Sarbanes-Oxley Section 404 internal control auditor attestation",
+    "COSO 2013 internal control integrated framework 17 principles",
+    "material weakness significant deficiency definition",
+    "AS 2201 audit of internal control integrated"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accountancy profession, qualifications, ethics and independence",
+   "scope": "Professional accountancy bodies and credentials (AICPA, state boards, ICAEW, ICAS, ACCA, CIMA, IMA), CPA exam structure and licensing rules, and codes of ethics and auditor-independence rules (AICPA Code, IESBA Code, SEC Rule 2-01, partner and firm rotation).",
+   "queries": [
+    "Uniform CPA Examination sections CPA Evolution discipline",
+    "Institute of Chartered Accountants royal charter founded",
+    "IESBA Code of Ethics independence non-assurance services",
+    "audit partner rotation SEC independence Rule 2-01"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cost accounting and product costing systems",
+   "scope": "Product costing and cost analysis: job-order and process costing, equivalent units, overhead allocation, standard costing and variance analysis, activity-based costing, and joint-product and by-product costing.",
+   "queries": [
+    "process costing equivalent units weighted average FIFO",
+    "standard costing materials price usage variance",
+    "activity-based costing cost drivers cost pools",
+    "joint costs split-off point net realizable value"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Management accounting and performance measurement",
+   "scope": "Tools for decision-making and control: cost-volume-profit analysis, budgeting, relevant costing, internal transfer pricing, responsibility centers, residual income and EVA, the balanced scorecard, and target, kaizen and throughput costing.",
+   "queries": [
+    "cost-volume-profit analysis contribution margin break-even",
+    "transfer pricing methods responsibility centers divisional performance",
+    "balanced scorecard Kaplan Norton perspectives",
+    "economic value added residual income Stern Stewart"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of accounting and double-entry bookkeeping",
+   "scope": "How record-keeping and double-entry bookkeeping developed, from Mesopotamian tokens and ancient accounts through medieval Italian merchants (Pacioli, Cotrugli, the Medici), to early-modern trading companies and industrial-era cost and railway accounting.",
+   "queries": [
+    "Luca Pacioli Summa de arithmetica 1494 double-entry",
+    "history of double-entry bookkeeping Italian merchants",
+    "Benedetto Cotrugli bookkeeping manuscript",
+    "ancient accounting clay tokens Mesopotamia record keeping"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Accounting scandals, fraud and forensic accounting",
+   "scope": "Major accounting frauds and enforcement cases (Enron, WorldCom, Parmalat, Satyam, Olympus, Toshiba, Wirecard and others), earnings-management techniques, and forensic detection tools (Beneish M-score, Benford's law, the fraud triangle, ACFE studies).",
+   "queries": [
+    "WorldCom line costs capitalized fraud restatement",
+    "Wirecard accounting scandal missing 1.9 billion",
+    "Beneish M-score earnings manipulation variables",
+    "fraud triangle Cressey ACFE occupational fraud report"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sustainability and climate-related reporting standards",
+   "scope": "Sustainability and climate disclosure frameworks and their assurance: ISSB IFRS S1/S2, EU CSRD and ESRS, GRI, SASB, TCFD, GHG Protocol emission scopes, and the SEC and California climate disclosure rules.",
+   "queries": [
+    "IFRS S2 climate-related disclosures ISSB",
+    "CSRD European Sustainability Reporting Standards double materiality",
+    "GRI standards SASB industry-specific standards",
+    "GHG Protocol scope 3 emissions categories"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accounting cycle, journal entries, ledgers and trial balance",
+   "scope": "The bookkeeping cycle: source documents, special journals, subsidiary ledgers, adjusting, closing and reversing entries, worksheets and the post-closing trial balance.",
+   "queries": [
+    "adjusting entries accruals deferrals trial balance",
+    "closing entries income summary account retained earnings",
+    "special journals sales purchases cash receipts subsidiary ledger",
+    "reversing entries post-closing trial balance worksheet"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cash controls, bank reconciliations and receivables management",
+   "scope": "Practical accounting for cash and cash equivalents, petty cash, bank reconciliations, compensating balances, notes receivable, aging schedules and the allowance versus direct write-off methods.",
+   "queries": [
+    "bank reconciliation deposits in transit outstanding checks",
+    "petty cash fund imprest system replenishment",
+    "aging of accounts receivable allowance doubtful accounts",
+    "notes receivable interest discounting dishonored note"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Payroll accounting and employer payroll tax obligations",
+   "scope": "Recording gross pay, withholdings and employer payroll taxes (FICA, FUTA, SUTA, PAYE, national insurance), plus payroll registers, wage bases, filing forms and deposit schedules.",
+   "queries": [
+    "FUTA credit reduction state unemployment tax rate",
+    "Social Security wage base FICA employer withholding",
+    "Form 941 semiweekly deposit schedule lookback period",
+    "payroll register journal entry accrued wages withholdings"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Transfers of financial assets, factoring and securitization accounting",
+   "scope": "Sale versus secured-borrowing accounting for transferred receivables and loans under ASC 860 and IFRS 9 derecognition, including legal isolation, pass-through tests, continuing involvement, servicing assets and repurchase agreements.",
+   "queries": [
+    "ASC 860 sale accounting legal isolation",
+    "servicing asset servicing liability fair value amortization",
+    "IFRS 9 derecognition pass-through test continuing involvement",
+    "receivables securitization facility accounted secured borrowing"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Shareholders' equity transactions, treasury stock and distributable reserves",
+   "scope": "Accounting for share issuance, par value and share premium, treasury stock methods, stock dividends and splits, retained earnings appropriations, quasi-reorganizations and legal capital or distributable reserve rules.",
+   "queries": [
+    "treasury stock cost method par value method",
+    "small versus large stock dividend percentage",
+    "quasi-reorganization deficit eliminated additional paid-in capital",
+    "distributable reserves share premium account capital reduction"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Related party transactions and disclosures",
+   "scope": "Identifying and disclosing related parties and their transactions under ASC 850, IAS 24 and Regulation S-K Item 404, including key management personnel compensation and the government-related entity exemption.",
+   "queries": [
+    "IAS 24 key management personnel compensation disclosure",
+    "ASC 850 related party transactions disclosure",
+    "Regulation S-K Item 404 related person transactions",
+    "government-related entities exemption related party"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Government grants, assistance and investment tax credits",
+   "scope": "Recognition and presentation of government grants and assistance under IAS 20 and ASC 832 (ASU 2021-10), US analogies to IAS 20, and the deferral and flow-through methods for investment and refundable credits such as the ITC and ERC.",
+   "queries": [
+    "IAS 20 government grants deferred income approach",
+    "ASC 832 government assistance disclosures ASU 2021-10",
+    "employee retention credit accounting grant model",
+    "investment tax credit deferral method flow-through"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Capitalization of borrowing costs and imputed interest",
+   "scope": "Interest capitalization on qualifying assets under ASC 835-20 and IAS 23 (avoidable interest, accumulated expenditures, capitalization periods), and interest imputation on notes under ASC 835-30.",
+   "queries": [
+    "capitalized interest qualifying assets weighted average accumulated expenditures",
+    "IAS 23 borrowing costs qualifying asset suspension",
+    "ASC 835-30 imputation of interest notes receivable",
+    "interest capitalized construction projects total interest incurred"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Agriculture and biological assets accounting",
+   "scope": "Measurement of biological assets, agricultural produce and bearer plants under IAS 41 and the IAS 16 amendments, plus US agricultural producer guidance in ASC 905.",
+   "queries": [
+    "IAS 41 biological assets costs to sell",
+    "bearer plants amendment IAS 16 IAS 41",
+    "ASC 905 agricultural producers cooperatives inventory",
+    "livestock crops harvest agricultural produce measurement"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Service concession arrangements and public-private partnerships",
+   "scope": "Operator and grantor accounting for service concessions under IFRIC 12, SIC-29, ASC 853, GASB 60 and GASB 94, including the financial-asset and intangible-asset models.",
+   "queries": [
+    "IFRIC 12 service concession intangible asset model",
+    "ASC 853 service concession arrangements operating entity",
+    "GASB 94 public-private partnerships availability payment",
+    "toll road concession financial asset model operator"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Emission allowances, renewable energy certificates and carbon credits accounting",
+   "scope": "Accounting for cap-and-trade allowances, RECs, carbon offsets and compliance obligations, including the withdrawn IFRIC 3, the net liability approach, EITF 03-14 and the FASB environmental credits project.",
+   "queries": [
+    "IFRIC 3 emission rights withdrawn net liability approach",
+    "renewable energy certificates inventory accounting utility",
+    "EU ETS allowances intangible asset accounting policy",
+    "FASB environmental credits project compliance obligation"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Crypto asset and digital asset accounting",
+   "scope": "Holder, issuer and custodian accounting for cryptocurrencies, stablecoins and tokens, including ASU 2023-08 fair value measurement, the 2019 IFRS IC agenda decision, SAB 121 and its rescission, and practice at miners and broker-dealers.",
+   "queries": [
+    "ASU 2023-08 crypto assets fair value",
+    "SAB 121 safeguarding obligation crypto rescinded",
+    "IFRS Interpretations Committee holdings of cryptocurrencies IAS 38",
+    "bitcoin impairment indefinite-lived intangible asset"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Compensated absences, termination benefits and deferred compensation",
+   "scope": "Short-term employee benefits, vacation and sick pay accruals, sabbaticals, one-time and contractual termination benefits, nonqualified deferred compensation, rabbi trusts and company-owned life insurance under ASC 710, 712, 420 and IAS 19.",
+   "queries": [
+    "compensated absences accrual vesting accumulating sick pay",
+    "rabbi trust nonqualified deferred compensation plan",
+    "one-time termination benefits ASC 420 communication date",
+    "company-owned life insurance cash surrender value"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Employee benefit plan financial statements and ESOP accounting",
+   "scope": "Financial reporting by pension, 401(k) and health and welfare plans themselves (ASC 960, 962, 965, IAS 26, Form 5500 audits), and sponsor accounting for ESOPs, including leveraged ESOPs and SOP 93-6.",
+   "queries": [
+    "ASC 962 net assets available for benefits",
+    "Form 5500 limited scope audit ERISA section 103",
+    "leveraged ESOP unearned shares released SOP 93-6",
+    "IAS 26 retirement benefit plans actuarial present value"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Common control transactions, pushdown accounting and carve-out financial statements",
+   "scope": "Combinations and transfers between entities under common control, predecessor accounting, pushdown accounting (ASU 2014-17, SAB 54), and carve-out or spin-off financial statements with corporate allocations.",
+   "queries": [
+    "common control transaction carryover basis predecessor",
+    "pushdown accounting election ASU 2014-17 change-in-control event",
+    "carve-out financial statements corporate allocations parent",
+    "spin-off net parent investment combined financial statements"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Private company and SME reporting frameworks",
+   "scope": "Reporting frameworks for smaller and private entities: IFRS for SMEs, FRS 102 and FRS 105, Private Company Council accounting alternatives, the AICPA FRF for SMEs, and cash- or tax-basis special purpose frameworks.",
+   "queries": [
+    "IFRS for SMEs third edition sections",
+    "FRS 102 micro-entities FRS 105 UK GAAP",
+    "Private Company Council accounting alternative goodwill amortization",
+    "AICPA FRF for SMEs special purpose framework"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Partnership and LLC accounting",
+   "scope": "Partnership formation, capital and drawing accounts, income allocation formulas, admission and withdrawal of partners (bonus and goodwill methods), liquidation schedules and LLC member equity.",
+   "queries": [
+    "partnership admission new partner bonus method goodwill",
+    "partnership liquidation schedule safe payments",
+    "income allocation salaries interest capital balances partners",
+    "partner capital account drawing account withdrawal"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Trust, estate and fiduciary accounting",
+   "scope": "Accounting by executors, trustees and receivers, including principal versus income allocation under the Uniform Principal and Income Act and its successor act, charge-and-discharge statements, court accountings and personal financial statements (ASC 274).",
+   "queries": [
+    "Uniform Principal and Income Act allocation receipts trustee",
+    "charge and discharge statement executor estate accounting",
+    "fiduciary accounting principal income unitrust",
+    "personal financial statements estimated current values ASC 274"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Health care entity accounting",
+   "scope": "Accounting by hospitals, physician practices, continuing care retirement communities and health plans under ASC 954, including patient service revenue, implicit price concessions, charity care, third-party payor settlements and Medicare cost reports.",
+   "queries": [
+    "patient service revenue implicit price concessions charity care",
+    "third-party payor settlements Medicare cost report",
+    "continuing care retirement community advance fees obligation",
+    "ASC 954 health care entities malpractice claims"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Film, broadcasting and music industry accounting",
+   "scope": "Industry-specific accounting for film and episodic content costs (ASC 926, ASU 2019-02), broadcasters' program rights (ASC 920), music and record labels (ASC 928), individual-film-forecast amortization and content impairment.",
+   "queries": [
+    "film costs individual-film-forecast-computation method amortization",
+    "ASC 926 ASU 2019-02 episodic television costs",
+    "broadcast program rights license agreement capitalized",
+    "music catalog royalty advances recording artists accounting"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Real estate, homebuilding and REIT accounting",
+   "scope": "Real estate development and project cost accounting (ASC 970, 976, 978 time-share), homebuilder inventory and impairment, cost allocation methods, and REIT reporting measures such as NAREIT FFO.",
+   "queries": [
+    "homebuilding inventory land held for development impairment",
+    "time-share ASC 978 uncollectibility vacation ownership",
+    "funds from operations NAREIT definition reconciliation",
+    "real estate project costs allocated relative sales value"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Government contract cost accounting (CAS, FAR Part 31, DCAA)",
+   "scope": "Cost accounting rules for US federal contractors: the Cost Accounting Standards (CAS 401-420), FAR Part 31 allowability, indirect rate structures, disclosure statements, incurred cost submissions and DCAA audits.",
+   "queries": [
+    "Cost Accounting Standards CAS 418 allocation indirect costs",
+    "FAR 31.205 unallowable costs contractor",
+    "DCAA incurred cost submission indirect rates",
+    "CAS disclosure statement DS-1 coverage threshold"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Islamic finance accounting and AAOIFI standards",
+   "scope": "Financial reporting for Islamic financial institutions and Sharia-compliant contracts (murabaha, ijarah, sukuk, mudaraba, musharaka, takaful) under AAOIFI FAS and IFRS, including zakat accounting.",
+   "queries": [
+    "AAOIFI financial accounting standard murabaha",
+    "ijarah muntahia bittamleek accounting",
+    "sukuk issuance accounting IFRS AAOIFI",
+    "zakat base computation Islamic bank financial statements"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "XBRL and digital financial reporting",
+   "scope": "Structured electronic reporting with XBRL and Inline XBRL: US GAAP and IFRS taxonomies, SEC phase-in rules, ESEF in the EU, dimensions, extension elements and filing validation.",
+   "queries": [
+    "Inline XBRL SEC phase-in large accelerated filers",
+    "ESEF regulation iXBRL annual financial reports",
+    "US GAAP financial reporting taxonomy extension elements",
+    "XBRL specification 2.1 dimensions linkbase"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Financial statement analysis, ratios and earnings quality models",
+   "scope": "Ratios and models for interpreting financial statements, including DuPont decomposition, liquidity and solvency ratios, the Altman Z-score, Beneish M-score, Piotroski F-score, accrual ratios and common-size analysis.",
+   "queries": [
+    "Altman Z-score coefficients working capital total assets",
+    "Beneish M-score eight variables days sales receivables",
+    "DuPont analysis return on equity three-step",
+    "Piotroski F-score nine criteria"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Non-GAAP financial measures and alternative performance measures",
+   "scope": "Rules and practice for non-GAAP and alternative performance measures, including SEC Regulation G and Item 10(e), SEC C&DIs, ESMA APM guidelines, IFRS 18 management-defined performance measures and adjusted EBITDA.",
+   "queries": [
+    "Regulation G non-GAAP reconciliation most directly comparable",
+    "ESMA guidelines alternative performance measures",
+    "IFRS 18 management-defined performance measures disclosure",
+    "adjusted EBITDA reconciliation net income non-GAAP"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Accounting information systems and accounting software",
+   "scope": "Accounting software and ERP systems (QuickBooks, Sage, Xero, SAP, Oracle), general ledger design, transaction processing cycles, and the history of computerized accounting.",
+   "queries": [
+    "QuickBooks Intuit accounting software history",
+    "SAP S/4HANA general ledger universal journal",
+    "Xero cloud accounting software founded",
+    "accounting information system revenue cycle expenditure cycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inflation and current-value accounting",
+   "scope": "Historical and theoretical approaches to price-level-adjusted reporting: current purchasing power accounting, current cost accounting, SFAS 33, SSAP 7 and SSAP 16, the Sandilands report, and Chambers's continuously contemporary accounting.",
+   "queries": [
+    "SFAS 33 financial reporting and changing prices",
+    "Sandilands report current cost accounting SSAP 16",
+    "current purchasing power accounting general price level",
+    "Chambers continuously contemporary accounting exit values"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US GAAP literature identifiers and Codification structure",
+   "scope": "The numbering and lineage of US GAAP pronouncements (ARBs, APB Opinions, SFAS, FINs, FSPs, EITF Issues, AICPA SOPs, ASUs) and how they map to ASC topics and subtopics.",
+   "queries": [
+    "Accounting Research Bulletin APB Opinion superseded",
+    "SFAS Statement of Financial Accounting Standards issued",
+    "EITF Issue consensus codified ASC subtopic",
+    "Accounting Standards Codification topic numbering structure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Academic accounting research, journals and accounting theory",
+   "scope": "Accounting as an academic discipline: major journals and associations (AAA, The Accounting Review, Journal of Accounting Research, JAE), seminal studies such as Ball and Brown 1968, positive accounting theory, and honors such as the Accounting Hall of Fame.",
+   "queries": [
+    "Ball and Brown 1968 Journal of Accounting Research",
+    "positive accounting theory Watts Zimmerman",
+    "American Accounting Association The Accounting Review founded",
+    "Accounting Hall of Fame Ohio State inductees"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Government auditing, Single Audit and supreme audit institutions",
+   "scope": "Public-sector auditing: GAO Government Auditing Standards (Yellow Book), the Single Audit Act and Uniform Guidance thresholds, inspectors general, INTOSAI ISSAIs and national audit offices.",
+   "queries": [
+    "Government Auditing Standards Yellow Book 2024 revision",
+    "Single Audit threshold Uniform Guidance federal expenditures",
+    "INTOSAI ISSAI supreme audit institutions",
+    "National Audit Office Comptroller and Auditor General"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Internal auditing profession and IIA standards",
+   "scope": "The internal audit function: the IIA's 2024 Global Internal Audit Standards and earlier IPPF, the Three Lines Model, the CIA certification, internal audit charters and external quality assessments.",
+   "queries": [
+    "Global Internal Audit Standards 2024 domains principles",
+    "Institute of Internal Auditors Three Lines Model",
+    "Certified Internal Auditor exam parts",
+    "internal audit charter external quality assessment five years"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Attestation engagements, SOC reports and assurance services",
+   "scope": "Assurance and attestation work other than financial statement audits: AICPA SSAEs, SOC 1, SOC 2 and SOC 3 reports, Trust Services Criteria, ISAE 3000 and 3402, SSARS compilations and reviews, and agreed-upon procedures.",
+   "queries": [
+    "SOC 2 Type II trust services criteria",
+    "SSAE 18 service organization controls report",
+    "ISAE 3402 assurance reports controls service organization",
+    "SSARS 21 compilation review engagement preparation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Company law financial reporting requirements and filing thresholds",
+   "scope": "Statutory accounts and filing obligations under company law, such as size thresholds in EU Accounting Directive 2013/34/EU, UK Companies Act 2006 audit exemptions, Companies House filing deadlines and penalties, and strategic and directors' reports.",
+   "queries": [
+    "Accounting Directive 2013/34/EU size criteria thresholds",
+    "Companies Act 2006 small companies audit exemption",
+    "Companies House filing deadline annual accounts penalties",
+    "directors report strategic report section 414"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Asset retirement obligations and environmental remediation liabilities",
+   "scope": "Recognition and measurement of legal retirement and decommissioning obligations (ASC 410-20, SFAS 143, FIN 47, IFRIC 1) and environmental remediation liabilities (ASC 410-30, SOP 96-1, Superfund PRP allocations).",
+   "queries": [
+    "asset retirement obligation accretion expense credit-adjusted risk-free rate",
+    "conditional asset retirement obligation FIN 47",
+    "environmental remediation liability potentially responsible party Superfund",
+    "IFRIC 1 changes decommissioning restoration liabilities"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  }
+ ]
+}

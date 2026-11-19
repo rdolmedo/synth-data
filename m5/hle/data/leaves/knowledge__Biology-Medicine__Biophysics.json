@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Biophysics",
+ "target_leaves": 8,
+ "expected_problems": 36,
+ "leaves": [
+  {
+   "leaf": "Gating charge of voltage-gated K+ channels",
+   "scope": "Measured gating-charge values per channel (e.g., ~12\u201313 e0 for Shaker), how much charge each S4 arginine contributes according to charge-neutralization mutants, Cole\u2013Moore shift magnitudes, and Boltzmann slope factors reported for specific Kv/Nav isoforms. A question could ask the solver to combine a reported total charge and midpoint voltage to compute open probability, or to infer which residue neutralizations account for a given charge deficit.",
+   "queries": [
+    "Shaker gating charge per channel",
+    "S4 arginine charge neutralization",
+    "Cole-Moore shift potassium",
+    "gating current limiting slope",
+    "voltage sensor Boltzmann valence"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Stator stoichiometry of bacterial flagellar motors",
+   "scope": "Documented numbers of MotA/MotB or PomA/PomB stator units, discrete torque steps seen in resurrection experiments, ion flux per revolution, step counts per turn (~26), and torque\u2013speed curve knee values for E. coli, Vibrio, and Salmonella motors. Reasoning could turn ion counts and protonmotive force into thermodynamic efficiency, or relate stator number to the observed speed increments.",
+   "queries": [
+    "flagellar motor stator resurrection",
+    "MotA MotB torque steps",
+    "flagellar torque-speed curve",
+    "sodium-driven PomA PomB",
+    "protons per motor revolution"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Phi-value analysis of protein folding transition states",
+   "scope": "Published phi values for individual mutations in model two-state folders (CI2, barnase, SH3 domains, protein L/G), chevron-plot m-values, and Tanford beta values. A question could ask the solver to rebuild a phi value from the reported \u0394\u0394G of folding and of activation, or to work out which secondary-structure element forms early from a set of phi values.",
+   "queries": [
+    "phi-value analysis mutants",
+    "chevron plot m-value",
+    "chymotrypsin inhibitor 2 transition",
+    "Tanford beta folding",
+    "nucleation-condensation folding nucleus"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Excitonic structure of bacterial light-harvesting complexes",
+   "scope": "Specific values for LH2 and FMO complexes: the B800/B850 ring pigment counts, nearest-neighbour coupling energies, site energies of individual FMO bacteriochlorophylls, energy-transfer times between rings, and measured coherence lifetimes. Reasoning could estimate the exciton bandwidth or transfer rate from couplings, or pick out the terminal energy-sink pigment from tabulated site energies.",
+   "queries": [
+    "LH2 B850 exciton coupling",
+    "FMO site energies bacteriochlorophyll",
+    "B800 B850 transfer time",
+    "Fenna-Matthews-Olson coherence",
+    "purple bacteria antenna ring"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Gating-spring mechanics of hair-cell bundles",
+   "scope": "Reported gating-spring stiffness, single-channel gating force and swing distances, tip-link (cadherin-23/protocadherin-15) dimensions, and adaptation-motor time constants for bullfrog sacculus and mammalian cochlear hair cells. A question could combine stiffness and gating swing to predict the bundle's nonlinear stiffness or the displacement at half-activation.",
+   "queries": [
+    "hair bundle gating spring",
+    "tip link stiffness",
+    "negative stiffness hair bundle",
+    "bullfrog sacculus mechanotransduction",
+    "gating swing channel displacement"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Latch-mediated spring actuation in small organisms",
+   "scope": "Measured accelerations, power densities, latch release times, and spring materials (resilin, cuticle, saddle) for mantis shrimp strikes, trap-jaw ant mandibles, froghopper jumps, snapping shrimp claws, and Utricularia suction traps. Reasoning could compare power amplification against muscle limits, or derive the kinetic energy and recoil from the reported mass and velocity.",
+   "queries": [
+    "latch-mediated spring actuation",
+    "mantis shrimp strike saddle",
+    "trap-jaw ant mandible",
+    "froghopper jump resilin",
+    "Utricularia trap suction"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Electric organ physiology of strongly electric fishes",
+   "scope": "Historical and modern measurements of discharge voltage, current, electrocyte counts and stacking geometry in Electrophorus, Torpedo, and Malapterurus, including 18th\u201319th-century experiments (Walsh, Faraday, du Bois-Reymond) and later electrocyte biophysics. Reasoning could use electrocyte potentials and series/parallel stacking to estimate peak voltage or power, or reconcile values from historical sources with modern ones.",
+   "queries": [
+    "Gymnotus electric discharge experiments",
+    "Torpedo electric organ electroplax",
+    "electrocyte series stacking",
+    "Malapterurus electric catfish",
+    "electric eel shock voltage"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Radical-pair magnetoreception in avian cryptochromes",
+   "scope": "Specific findings on Cry4 photochemistry: the flavin\u2013tryptophan tetrad electron-transfer chain, radical-pair lifetimes, hyperfine coupling constants, and the radiofrequency bands and intensities that disrupt robin orientation in behavioural assays. A question could ask the solver to compare a radical-pair lifetime with the Larmor period in the geomagnetic field, or to check whether a given RF frequency matches a hyperfine-induced resonance.",
+   "queries": [
+    "cryptochrome 4 radical pair",
+    "flavin tryptophan tetrad",
+    "radiofrequency disruption robin orientation",
+    "radical pair hyperfine magnetoreception",
+    "European robin Cry4a"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

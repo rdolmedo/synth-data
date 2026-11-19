@@ -1,0 +1,332 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Linguistics",
+ "target_leaves": 18,
+ "expected_problems": 145,
+ "leaves": [
+  {
+   "leaf": "Rule ordering and opacity in serial phonology",
+   "scope": "Problems give paradigms from a real or constructed language and ask for underlying forms, the rule ordering, or the derivation of a new surface form. They are hard because opaque interactions hide the generalizations, and every possible ordering has to be checked against all of the data at once.",
+   "techniques": [
+    "Diagnosing feeding, bleeding, counterfeeding and counterbleeding interactions",
+    "Choosing underlying forms from neutralization contexts",
+    "Cyclic versus noncyclic application under the Strict Cycle Condition",
+    "Elsewhere Condition and disjunctive ordering",
+    "Directional iterative application versus simultaneous application",
+    "Detecting Duke-of-York derivations"
+   ],
+   "answer_forms": [
+    "surface form transcription",
+    "underlying form",
+    "ordered tuple of rule labels",
+    "integer (number of consistent orderings)"
+   ]
+  },
+  {
+   "leaf": "OT ranking arguments and factorial typology",
+   "scope": "Problems ask for the rankings consistent with winner\u2013loser data, the number of distinct languages a constraint set generates, or the winners under weighted or ranked grammars. They are hard because candidate sets, harmonic bounding and ties must all be enumerated exhaustively.",
+   "techniques": [
+    "Recursive Constraint Demotion on comparative tableaux",
+    "ERC fusion and entailment between ranking arguments",
+    "Simple and collective harmonic bounding",
+    "Enumerating factorial typologies over permutations",
+    "Harmonic Grammar weight feasibility as a system of linear inequalities",
+    "MaxEnt candidate probability computation"
+   ],
+   "answer_forms": [
+    "integer (number of languages or rankings)",
+    "ranking as ordered tuple",
+    "winning candidate",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Metrical stress assignment and foot parsing",
+   "scope": "Problems ask solvers to predict primary and secondary stress, or to infer metrical parameters from stress data. They are hard because foot type, directionality, extrametricality, weight criteria and clash resolution interact in non-obvious ways.",
+   "techniques": [
+    "Bracketed grid construction (Halle\u2013Idsardi style)",
+    "Iambic versus trochaic parsing with left-to-right or right-to-left directionality",
+    "Extrametricality and nonfinality",
+    "Language-specific moraic weight criteria (CVV vs CVC)",
+    "End Rule and stress clash resolution",
+    "Counting word shapes that yield a given stress pattern"
+   ],
+   "answer_forms": [
+    "syllable index of primary stress",
+    "stress-marked transcription",
+    "set of parameter values",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Autosegmental tone association and tone sandhi",
+   "scope": "Problems ask for surface tones derived from underlying melodies through association, spreading, downstep, floating tones and domain-sensitive sandhi. They are hard because association conventions, the OCP and prosodic or syntactic domains interact, and the outcome often depends on the order of cyclic application.",
+   "techniques": [
+    "Universal association conventions and left-to-right one-to-one mapping",
+    "OCP-driven fusion or deletion of adjacent identical tones",
+    "Floating tones and downstep",
+    "Third-tone-style sandhi applied cyclically over prosodic or syntactic constituents",
+    "Bounded versus unbounded spreading and Meeussen-type dissimilation",
+    "Counting the possible sandhi outputs of a tone string"
+   ],
+   "answer_forms": [
+    "tone string (e.g. H L H)",
+    "tone-marked surface form",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Contrastive feature hierarchies and natural classes",
+   "scope": "Given an inventory and its phonological activity, problems ask for minimal feature specifications, the order of the contrastive hierarchy, or which segment sets form natural classes. They are hard because which features are redundant or active depends on that order and on choices between privative and binary features.",
+   "techniques": [
+    "Successive Division Algorithm",
+    "Minimal pairwise contrast specification",
+    "Counting natural classes under privative versus binary feature systems",
+    "Feature-geometric dependencies such as place nodes",
+    "Underspecification and redundancy rules",
+    "Identifying active features from harmony or assimilation patterns"
+   ],
+   "answer_forms": [
+    "integer (minimal number of features or natural classes)",
+    "ordered tuple of features",
+    "small set of segments",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Reduplication, infixation and prosodic templates",
+   "scope": "Problems ask solvers to infer the shape and anchoring of a reduplicant or infix from data and then generate new forms. They are hard because template satisfaction, base\u2013reduplicant identity and ordinary phonology interact, which causes overapplication and underapplication effects.",
+   "techniques": [
+    "Satisfying prosodic templates (\u03c3, \u03bc\u03bc, foot)",
+    "Base\u2013reduplicant correspondence and overapplication or underapplication",
+    "Infix placement by prosodic subcategorization or alignment",
+    "Fixed segmentism in the reduplicant",
+    "Edge-in association and copy direction",
+    "Simplifying clusters inside copied material"
+   ],
+   "answer_forms": [
+    "transcription of the derived form",
+    "template label",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Morphological analysis of unfamiliar-language corpora",
+   "scope": "From glossed or partly glossed words or sentences in an unfamiliar language, problems ask solvers to segment morphemes, work out agreement, case or numeral systems, and translate or produce a new form. They are hard because allomorphy, zero morphs and portmanteaus all have to be inferred together.",
+   "techniques": [
+    "Morpheme segmentation from minimal pairs",
+    "Finding the conditioning environment for allomorphs",
+    "Position-class template induction",
+    "Decoding numeral systems with mixed bases, subtraction or overcounting",
+    "Noun-class concord tracking",
+    "Detecting portmanteau and zero morphs"
+   ],
+   "answer_forms": [
+    "word or phrase in the target language",
+    "English translation",
+    "integer value of a numeral expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Comparative reconstruction and sound-change chronology",
+   "scope": "From cognate sets across related real or constructed languages, problems ask for proto-forms, the relative chronology of changes, or the predicted reflex of a proto-form in a daughter language. They are hard because conditioned mergers, splits and analogy obscure the regular correspondences.",
+   "techniques": [
+    "Building correspondence sets and testing for complementary distribution",
+    "Judging the directionality of change by naturalness and economy",
+    "Relative chronology from historical feeding and bleeding",
+    "Conditioned split and merger, including accent-conditioned (Verner-type) alternations",
+    "Separating analogical leveling from regular change",
+    "Projecting the reflexes of a proto-form forward"
+   ],
+   "answer_forms": [
+    "reconstructed proto-form",
+    "daughter-language reflex",
+    "ordered tuple of sound changes",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Quantitative meter scansion and prosodic combinatorics",
+   "scope": "Problems ask solvers to scan lines in quantitative meters (Greek, Latin, Sanskrit, Arabic or Persian) or to count the admissible realizations of a metrical template. They are hard because weight by position, elision, synizesis, correption, anceps and resolution must all be applied exactly.",
+   "techniques": [
+    "Syllable weight by nature versus position, including muta cum liquida",
+    "Elision, synizesis and correption",
+    "Resolution and contraction substitutions within feet",
+    "Recurrence-based enumeration of light and heavy sequences with a fixed mora count",
+    "Placement of caesura and diaeresis",
+    "Mora counting per verse quarter (p\u0101da) or colon"
+   ],
+   "answer_forms": [
+    "scansion string (e.g. \u2013 \u222a \u222a \u2013)",
+    "integer",
+    "name of the meter",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Morphosyntactic alignment and valency-changing operations",
+   "scope": "From sentence data, problems ask solvers to work out the alignment system (accusative, ergative, split, direct\u2013inverse or Philippine-type voice) and how passives, antipassives, applicatives and causatives affect it. They are hard because splits conditioned by person, aspect or clause type interact with valency changes and with which argument can be extracted.",
+   "techniques": [
+    "Mapping S, A and P to cases and agreement slots",
+    "Person and animacy hierarchies with direct/inverse marking",
+    "Argument demotion in passives and antipassives",
+    "Applicative promotion and asymmetries between objects",
+    "Causatives of transitive verbs along the grammatical-relations hierarchy",
+    "Voice-conditioned restrictions on extraction (pivot restrictions)"
+   ],
+   "answer_forms": [
+    "target-language sentence",
+    "case or grammatical-role label",
+    "small set of grammatical sentences",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Binding, reconstruction and movement in syntax",
+   "scope": "Given sentences with stated structures or derivations, problems ask for the possible coreference indexings, reconstruction effects or grammaticality patterns. They are hard because the binding conditions apply to different copies of moved elements, and ellipsis and phase boundaries change what the theory predicts.",
+   "techniques": [
+    "C-command and binding domains (Conditions A, B and C)",
+    "Copy theory of movement and A\u2032-reconstruction",
+    "Weak and strong crossover",
+    "Vehicle change under ellipsis",
+    "Islands and the Phase Impenetrability Condition",
+    "Counting the coindexation patterns the theory allows"
+   ],
+   "answer_forms": [
+    "integer (number of licit indexings)",
+    "small set of indices",
+    "tuple of grammaticality judgments",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Type-driven compositional semantics in lambda calculus",
+   "scope": "Problems ask for the semantic types and denotations of constituents, how type mismatches are resolved, or truth conditions evaluated in a given model. They are hard because quantifier raising, type-shifting, assignment-dependent binding and intensionality interact during composition.",
+   "techniques": [
+    "Function Application, Predicate Modification and Predicate Abstraction",
+    "Partee type shifts (lift, iota, BE, A)",
+    "Quantifier raising to resolve a type mismatch",
+    "Variable binding with assignment functions",
+    "Computing the cardinality of the domain of a type over a finite model",
+    "Neo-Davidsonian event composition"
+   ],
+   "answer_forms": [
+    "semantic type (e.g. <<e,t>,t>)",
+    "lambda term",
+    "integer",
+    "truth value"
+   ]
+  },
+  {
+   "leaf": "Generalized quantifiers and scope ambiguity",
+   "scope": "Problems ask which semantic properties a determiner has, or how many truth-conditionally distinct readings a sentence with several quantifiers has. They are hard because some scope permutations turn out to be equivalent, and each property has to be verified across all models.",
+   "techniques": [
+    "Conservativity, extension and isomorphism invariance",
+    "Monotonicity profiles and licensing of negative polarity items",
+    "Number-tree representations of quantifiers",
+    "Counting scope readings up to logical equivalence",
+    "Cumulative and branching readings",
+    "Counting quantifiers with a given property over finite universes"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n",
+    "small set of properties",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Modal, temporal and aspectual semantics in models",
+   "scope": "Problems ask for the truth values of sentences with modals, conditionals, tense and aspect, evaluated against explicit models of worlds and times. They are hard because ordering sources, counterfactual similarity, inertia worlds and sequence-of-tense effects require careful model-checking.",
+   "techniques": [
+    "Kratzer modal bases and ordering sources",
+    "Counterfactuals evaluated by closest-world similarity (Lewis\u2013Stalnaker)",
+    "Reichenbachian event, reference and speech time configurations",
+    "Vendler classes and telicity diagnostics",
+    "Progressive semantics with inertia worlds",
+    "Simultaneous readings under sequence of tense"
+   ],
+   "answer_forms": [
+    "truth value",
+    "set of worlds or times",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Scalar implicature, exhaustification and RSA computation",
+   "scope": "Problems ask for strengthened meanings computed with formal alternatives, or for listener and speaker probabilities in Rational Speech Act models. They are hard because the choice of alternatives, embedded exhaustification, recursion depth and cost parameters all change the result.",
+   "techniques": [
+    "Generating structural alternatives (Katzir)",
+    "Innocent Exclusion and Innocent Inclusion",
+    "Deriving free choice through recursive exhaustification",
+    "Checking the Hurford constraint",
+    "RSA recursion from literal listener to pragmatic speaker to pragmatic listener",
+    "Including rationality and utterance cost in RSA"
+   ],
+   "answer_forms": [
+    "set of worlds",
+    "rational number (probability)",
+    "propositional formula",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Formal language classes and mildly context-sensitive grammars",
+   "scope": "Problems ask for the generative capacity of a grammar, or for a minimal grammar of a natural-language-like pattern in a given formalism (CFG, TAG, CCG, MCFG, Minimalist Grammar or a subregular class). They are hard because capacity arguments need pumping lemmas, closure properties and formalism-specific limits.",
+   "techniques": [
+    "Pumping lemma and Ogden's lemma",
+    "Closure under intersection with regular languages and under homomorphism",
+    "Cross-serial dependencies and copy languages",
+    "MCFG dimension and rank",
+    "Adjunction constraints in TAG",
+    "Classifying phonotactic patterns in the subregular hierarchy (strictly local, strictly piecewise and related classes)"
+   ],
+   "answer_forms": [
+    "name of the smallest language class",
+    "integer (minimal k, number of rules or states)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Probabilistic parsing and structural ambiguity counting",
+   "scope": "Problems ask for the number of parses of an ambiguous string under a given grammar, or for a CKY, inside or Viterbi computation carried out by hand on a PCFG. They are hard because ambiguity grows combinatorially, and unary rules and conversion to Chomsky normal form complicate the chart.",
+   "techniques": [
+    "Catalan-type counts of attachment ambiguities",
+    "Filling a CKY chart after conversion to Chomsky normal form",
+    "Inside probabilities and the Viterbi parse",
+    "Expected rule counts from the inside\u2013outside algorithm",
+    "Counting projective dependency trees",
+    "Tracking Earley parser states"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "bracketed tree",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Acoustic phonetics via source\u2013filter tube models",
+   "scope": "Problems ask for formant frequencies, the direction of formant shifts, or spectral properties derived from idealized vocal-tract models. They are hard because boundary conditions, Helmholtz resonances, coupling between tube sections and which cavity each formant belongs to must all be modeled correctly.",
+   "techniques": [
+    "Quarter-wavelength resonances of a tube closed at one end",
+    "Half-wavelength resonances of tubes closed or open at both ends",
+    "Helmholtz resonance of a constriction-plus-cavity system",
+    "Assigning formants to cavities in two-tube models",
+    "Perturbation theory and sensitivity functions for formant shifts",
+    "Converting between Hz, Bark and mel scales"
+   ],
+   "answer_forms": [
+    "frequency in Hz",
+    "ratio",
+    "integer",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

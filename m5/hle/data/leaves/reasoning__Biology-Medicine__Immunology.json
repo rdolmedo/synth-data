@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Immunology",
+ "target_leaves": 8,
+ "expected_problems": 41,
+ "leaves": [
+  {
+   "leaf": "V(D)J recombination RSS topology and junctions",
+   "scope": "Problems give a schematic antigen-receptor locus (segment order, RSS orientations and spacer lengths, sometimes coding-end sequences) and ask which rearrangements are possible, what joints and excision products form, or how many junctions are productive. They are hard because the 12/23 rule, deletion vs inversion geometry, hairpin-derived P nucleotides, trimming/N-addition and reading-frame arithmetic all have to be tracked together.",
+   "techniques": [
+    "12/23 rule plus beyond-12/23 restriction (e.g., TCR\u03b2 D\u2013J before V\u2013D, no direct V\u03b2\u2013J\u03b2)",
+    "Deletional vs inversional joining from relative RSS orientation, and which joint (signal or coding) stays on the chromosome",
+    "P-nucleotide palindromes from asymmetric hairpin opening, combined with exonuclease trimming",
+    "TdT N-addition and mod-3 frame arithmetic for counting productive junctions and stop codons",
+    "Allelic/isotypic exclusion, receptor editing by upstream V\u03ba to downstream J\u03ba, and kappa-deleting element outcomes",
+    "Constrained combinatorial counting of V\u2013(D)\u2013J pairings, including D segments read in multiple frames"
+   ],
+   "answer_forms": [
+    "integer",
+    "nucleotide sequence",
+    "ordered tuple",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "IgH constant-locus class-switch deletion logic",
+   "scope": "Given human or mouse IGH constant-gene order, switch-circle contents, genomic deletion haplotypes, or Southern/PCR data, deduce which isotypes a B cell or its progeny can still express, what circle transcripts form, or the cell's switching history. They are hard because sequential switching, two alleles, IgD by alternative splicing vs S\u03bc\u2013\u03c3\u03b4 recombination, and polymorphic deletions all interact.",
+   "techniques": [
+    "Human (\u03bc-\u03b4-\u03b33-\u03b31-\u03c8\u03b5-\u03b11-\u03c8\u03b3-\u03b32-\u03b34-\u03b5-\u03b12) vs mouse (\u03bc-\u03b4-\u03b33-\u03b31-\u03b32b-\u03b32a/c-\u03b5-\u03b1) gene order reasoning",
+    "Hybrid switch-region composition after sequential switching (e.g., \u03bc\u2192\u03b31\u2192\u03b5) and circle transcript identity",
+    "Retained vs deleted fragment inference from restriction maps or PCR across switch junctions",
+    "Germline transcription and cytokine dependence (IL-4, TGF-\u03b2, IFN-\u03b3) gating which S regions can be targeted",
+    "Allele-specific reasoning with heterozygous IGHG/IGHA deletion or duplication haplotypes",
+    "Distinguishing alternative splicing (\u03bc/\u03b4 co-expression) from deletional switching"
+   ],
+   "answer_forms": [
+    "small set of isotypes",
+    "integer",
+    "name of an isotype or segment",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Anchor-motif epitope mapping with processing constraints",
+   "scope": "Problems give a protein sequence, allele-specific anchor rules for class I (P2/P\u03a9) or class II (P1/P4/P6/P9) pockets, and processing rules (proteasomal C-termini, TAP preference, ERAP trimming, length limits), then ask how many or which peptides could be presented, or what effect a mutation has. They are hard because overlapping registers, the closed class I groove vs the open class II groove, and stacked processing filters make enumeration error-prone.",
+   "techniques": [
+    "Register enumeration of 8\u201311-mers with primary and secondary anchor rules",
+    "Locating the class II 9-mer core inside longer peptides, including flanking-residue effects",
+    "Proteasome vs immunoproteasome C-terminal cleavage preferences combined with ERAP N-terminal trimming",
+    "Supertype pocket chemistry (B and F pockets) to predict cross-allele binding",
+    "Separating anchor substitutions from TCR-contact substitutions (altered peptide ligands, escape mutants)",
+    "Pathway constraints for cross-presentation vs classical endogenous presentation"
+   ],
+   "answer_forms": [
+    "integer count",
+    "peptide sequence",
+    "small set of residue positions",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Radiation chimera and thymic restriction outcomes",
+   "scope": "Problems describe bone marrow chimeras, thymus grafts, nude or MHC-deficient hosts, or TCR-transgenic systems, and ask which MHC the resulting T cells are restricted to or tolerant of, which lineage develops, and whether a response can occur in vivo. They are hard because positive selection, negative selection and peripheral antigen presentation depend on different cell compartments, and each has to be tracked separately.",
+   "techniques": [
+    "Positive selection on cortical thymic epithelium vs negative selection on hematopoietic APCs and AIRE+ mTECs",
+    "Parent\u2192F1 and F1\u2192parent chimera restriction and the need for peripheral APCs that share the restriction element",
+    "CD4/CD8 lineage outcomes in \u03b22m-, CIITA- or MHC II-deficient thymi",
+    "H-Y-specific TCR transgenics in male vs female or mismatched-MHC hosts",
+    "Mixed chimeras, split tolerance, and the persistence of radioresistant host cells",
+    "Thymus-graft-into-nude experiments that separate the education site from the effector site"
+   ],
+   "answer_forms": [
+    "set of MHC haplotypes",
+    "ordered tuple of yes/no outcomes",
+    "letter for multiple choice",
+    "name of a lineage or cell type"
+   ]
+  },
+  {
+   "leaf": "HLA haplotype segregation and KIR-ligand mismatch",
+   "scope": "Pedigree or donor-pool problems with HLA typing (possibly with recombinants or homozygosity) ask for match probabilities, haplotype phase, recombination sites, graft-versus-host or host-versus-graft mismatch direction, or predicted NK alloreactivity from KIR-ligand groups. They are hard because phase inference, one-way mismatches and correct KIR epitope assignment all combine in one answer.",
+   "techniques": [
+    "Haplotype phase reconstruction from parent and sibling typings, including detecting crossovers between HLA-A, -B and -DR",
+    "Conditional probabilities of HLA-identical or haploidentical siblings given n children and known genotypes",
+    "Unidirectional mismatch from homozygosity (GVH-only vs HVG-only vectors)",
+    "KIR-ligand grouping: HLA-C C1/C2 by position 80, Bw4 with I80/T80, HLA-A3/A11 for KIR3DL2",
+    "Missing-self NK alloreactivity direction in haploidentical transplants",
+    "KIR A vs B haplotype gene content and donor ranking"
+   ],
+   "answer_forms": [
+    "rational probability",
+    "ordered tuple of haplotypes",
+    "small set of eligible donors",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Complement deficiency lab-profile deduction",
+   "scope": "Given CH50, AH50, lectin-pathway activity, C3/C4/factor levels, reconstitution or mixing experiments and clinical features, identify the defective component or regulator, or predict assay results after an intervention. They are hard because regulator deficiencies cause secondary consumption, the pathways converge, and acquired and inherited forms look alike.",
+   "techniques": [
+    "Pattern matrix of CH50/AH50/MBL-pathway assays to localize a block",
+    "Secondary C3 and factor B consumption in factor H or factor I deficiency",
+    "Hereditary vs acquired C1-INH deficiency, using C4 and C1q levels",
+    "C3 and C4 nephritic factors stabilizing convertases",
+    "Reconstitution of deficient serum with purified components to pinpoint the missing factor",
+    "Terminal-pathway and properdin defects in Neisseria susceptibility, and PNH CD55/CD59 flow logic"
+   ],
+   "answer_forms": [
+    "name of component or regulator",
+    "ordered tuple of predicted assay results",
+    "small set",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Kinetic proofreading and ligand-discrimination models",
+   "scope": "Quantitative problems on TCR, BCR or Fc\u03b5RI ligand discrimination using kinetic proofreading, serial engagement and occupancy models ask for productive-complex fractions, discrimination ratios, EC50 shifts, or the minimum number of proofreading steps that meets a specificity target. They are hard because exact closed forms need careful steady-state derivations with ligand depletion, rebinding and feedback.",
+   "techniques": [
+    "N-step proofreading fraction (kp/(kp+koff))^N and discrimination ratios between ligands with different koff",
+    "Sensitivity vs specificity tradeoff, solving for the minimal N or the required kp",
+    "Serial-triggering counts from bond half-life and contact duration",
+    "Steady-state occupancy with ligand depletion (quadratic solution) vs the free-ligand approximation",
+    "Negative-feedback (SHP-1-like) or sustained-signaling modifications to the basic scheme",
+    "Bivalent avidity via effective local concentration and rebinding"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer",
+    "real number to specified precision"
+   ]
+  },
+  {
+   "leaf": "Red-cell alloantibody panel identification",
+   "scope": "Given a reagent red-cell antigram, reactivity by phase (immediate spin, 37\u00b0C, antiglobulin test), enzyme or DTT treatment results, the autocontrol and DAT, and the patient's phenotype, deduce the alloantibody specificities and plan compatible units. They are hard because dosage effects, treatment sensitivities, mixtures of antibodies, and rule-out and statistical criteria must all be applied together.",
+   "techniques": [
+    "Cross-out rule-outs that use only homozygous (double-dose) cells for Kidd, Rh, Duffy and MNS",
+    "Ficin/papain destruction (Fy, M, N, S) vs enhancement (Rh, Kidd) to separate mixed specificities",
+    "DTT sensitivity (Kell; CD38 interference from anti-daratumumab) and phase-of-reactivity clues",
+    "Rule-of-three / Fisher exact-probability criterion for confirming a specificity",
+    "Antigen-negative unit frequency from independent population antigen frequencies, giving the number of units to screen",
+    "Warm-autoantibody adsorption logic and patient-phenotype consistency checks"
+   ],
+   "answer_forms": [
+    "set of antibody specificities",
+    "integer number of units",
+    "probability",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

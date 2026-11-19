@@ -1,0 +1,452 @@
+{
+ "domain": "Health",
+ "subtopic": "Internal Medicine",
+ "weight": 0.0061245,
+ "leaves": [
+  {
+   "leaf": "Heart failure and non-infiltrative cardiomyopathies",
+   "scope": "Classification, diagnostic criteria, guideline-directed medical and device therapy, and landmark trials for HFrEF/HFpEF and for the dilated, hypertrophic, arrhythmogenic and stress cardiomyopathies (amyloid cardiomyopathy excluded).",
+   "queries": [
+    "NYHA functional class ACC AHA heart failure stages",
+    "sacubitril valsartan PARADIGM-HF trial ejection fraction",
+    "hypertrophic cardiomyopathy septal thickness mavacamten",
+    "arrhythmogenic right ventricular cardiomyopathy task force criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coronary artery disease and acute coronary syndromes",
+   "scope": "Stable ischemic heart disease and ACS: universal MI definitions, troponin algorithms, risk scores, reperfusion timing, antiplatelet regimens and the trials behind them.",
+   "queries": [
+    "fourth universal definition myocardial infarction troponin",
+    "TIMI GRACE risk score unstable angina",
+    "STEMI door-to-balloon time fibrinolysis",
+    "dual antiplatelet therapy ticagrelor PLATO trial"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cardiac arrhythmias, conduction disorders and electrocardiography",
+   "scope": "Atrial and ventricular arrhythmias, AV and bundle-branch blocks, ECG criteria, stroke and bleeding risk scores in atrial fibrillation, antiarrhythmic drug classes and inherited channelopathies.",
+   "queries": [
+    "CHA2DS2-VASc HAS-BLED atrial fibrillation anticoagulation",
+    "Vaughan Williams antiarrhythmic drug classification",
+    "Mobitz type II second degree AV block",
+    "Brugada syndrome long QT SCN5A"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Valvular heart disease and pericardial disease",
+   "scope": "Severity grading and intervention thresholds for stenotic and regurgitant valve lesions, transcatheter and surgical valve trials, and acute pericarditis, tamponade and constrictive pericarditis (infective endocarditis excluded).",
+   "queries": [
+    "severe aortic stenosis valve area gradient criteria",
+    "TAVR PARTNER trial surgical risk",
+    "mitral regurgitation MitraClip COAPT trial",
+    "constrictive pericarditis cardiac tamponade pulsus paradoxus"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hypertension and dyslipidemia in cardiovascular prevention",
+   "scope": "Blood pressure and cholesterol guideline thresholds and targets, cardiovascular risk calculators, resistant hypertension, hypertensive emergency, familial hypercholesterolemia and the outcome trials of antihypertensive and lipid-lowering drugs.",
+   "queries": [
+    "2017 ACC AHA hypertension guideline stage 1",
+    "SPRINT trial intensive blood pressure target",
+    "familial hypercholesterolemia Dutch Lipid Clinic criteria",
+    "PCSK9 inhibitor evolocumab FOURIER LDL cholesterol"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Asthma, COPD and other obstructive airway diseases",
+   "scope": "Spirometric diagnosis, GINA and GOLD classification and treatment steps, exacerbation management and biologic therapy for asthma and COPD, plus bronchiectasis and alpha-1 antitrypsin deficiency.",
+   "queries": [
+    "GOLD COPD classification FEV1 exacerbation groups",
+    "GINA asthma step therapy inhaled corticosteroid formoterol",
+    "eosinophilic asthma mepolizumab benralizumab dupilumab",
+    "bronchiectasis alpha-1 antitrypsin deficiency PiZZ"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interstitial, occupational and pleural lung disease",
+   "scope": "Idiopathic and secondary interstitial lung diseases and their HRCT patterns, sarcoidosis, pneumoconioses and hypersensitivity pneumonitis, and pleural effusion, pneumothorax and mesothelioma.",
+   "queries": [
+    "idiopathic pulmonary fibrosis UIP pattern nintedanib pirfenidone",
+    "sarcoidosis Scadding stage bilateral hilar lymphadenopathy",
+    "silicosis asbestosis berylliosis pneumoconiosis",
+    "Light's criteria pleural effusion exudate"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Venous thromboembolism and pulmonary hypertension",
+   "scope": "Clinical probability rules, D-dimer use, risk stratification, anticoagulant and thrombolytic therapy for DVT and pulmonary embolism, and hemodynamic definitions, WHO groups and treatment of pulmonary hypertension including CTEPH.",
+   "queries": [
+    "Wells score PERC rule pulmonary embolism",
+    "PESI sPESI pulmonary embolism severity",
+    "apixaban rivaroxaban venous thromboembolism treatment duration",
+    "pulmonary arterial hypertension WHO group mean pulmonary pressure"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sepsis, shock, ARDS and critical care medicine",
+   "scope": "Consensus definitions of sepsis and septic shock, vasopressor and fluid strategies, ARDS definitions and lung-protective ventilation, and ICU severity scores and the trials behind them.",
+   "queries": [
+    "Sepsis-3 SOFA score qSOFA definition",
+    "Berlin definition ARDS PaO2 FiO2",
+    "ARDSNet low tidal volume ventilation prone positioning",
+    "APACHE II SAPS ICU severity scoring"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Acute kidney injury, chronic kidney disease and dialysis",
+   "scope": "AKI staging and differential diagnosis, eGFR equations and CKD G/A staging, CKD complications including mineral-bone disorder, and dialysis modalities, indications and adequacy.",
+   "queries": [
+    "KDIGO acute kidney injury staging creatinine urine output",
+    "CKD-EPI equation eGFR albuminuria categories",
+    "fractional excretion sodium prerenal acute tubular necrosis",
+    "hemodialysis adequacy Kt/V peritoneal dialysis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Glomerular diseases",
+   "scope": "Nephrotic and nephritic syndromes, including IgA nephropathy, membranous nephropathy, minimal change disease, FSGS, lupus nephritis, C3 glomerulopathy and anti-GBM disease, with their biopsy classifications, autoantibodies and therapy.",
+   "queries": [
+    "IgA nephropathy Oxford MEST-C classification",
+    "membranous nephropathy anti-PLA2R antibody",
+    "focal segmental glomerulosclerosis minimal change nephrotic syndrome",
+    "lupus nephritis ISN RPS classification class"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Electrolyte and acid-base disorders",
+   "scope": "Disorders of sodium, potassium, magnesium and phosphate, renal tubular acidoses, and acid-base analysis with anion and osmolar gaps and compensation formulas (calcium disorders excluded).",
+   "queries": [
+    "hyponatremia SIADH correction rate osmotic demyelination",
+    "anion gap metabolic acidosis Winter's formula",
+    "hyperkalemia ECG changes calcium gluconate patiromer",
+    "renal tubular acidosis type 1 type 4 urine anion gap"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Esophageal and gastroduodenal disorders and GI bleeding",
+   "scope": "GERD, Barrett's esophagus, eosinophilic esophagitis and motility disorders, H. pylori and peptic ulcer disease, and risk scores and endoscopic classifications for upper and lower GI bleeding.",
+   "queries": [
+    "Los Angeles classification erosive esophagitis Barrett",
+    "Helicobacter pylori eradication bismuth quadruple therapy",
+    "Glasgow-Blatchford score Forrest classification ulcer bleeding",
+    "achalasia Chicago classification high resolution manometry"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inflammatory bowel disease, celiac disease and functional bowel disorders",
+   "scope": "Classification, activity indices and biologic therapy of Crohn's disease and ulcerative colitis, celiac serology and histology, microscopic colitis, and Rome criteria for functional GI disorders.",
+   "queries": [
+    "Crohn's disease Montreal classification ulcerative colitis Mayo score",
+    "celiac disease tissue transglutaminase Marsh classification",
+    "Rome IV irritable bowel syndrome criteria",
+    "microscopic colitis collagenous lymphocytic budesonide"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pancreatic and biliary disease",
+   "scope": "Acute pancreatitis definitions and severity scores, chronic pancreatitis and exocrine insufficiency, gallstone disease, choledocholithiasis, and diagnostic and severity grading of acute cholecystitis and cholangitis.",
+   "queries": [
+    "revised Atlanta classification acute pancreatitis",
+    "Ranson criteria BISAP score pancreatitis severity",
+    "Tokyo guidelines acute cholangitis cholecystitis",
+    "chronic pancreatitis fecal elastase exocrine insufficiency"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cirrhosis, portal hypertension and acute liver failure",
+   "scope": "Prognostic scores for cirrhosis, ascites and SBP, varices and TIPS, hepatorenal syndrome, hepatic encephalopathy grading, and the criteria and management of acute liver failure.",
+   "queries": [
+    "Child-Pugh MELD-Na score cirrhosis",
+    "spontaneous bacterial peritonitis ascitic neutrophil count SAAG",
+    "esophageal varices Baveno TIPS portal hypertension",
+    "King's College criteria acute liver failure"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Viral, autoimmune, metabolic and cholestatic liver disease",
+   "scope": "Serology, natural history and antiviral therapy of hepatitis A-E, and the diagnosis and treatment of autoimmune hepatitis, PBC, PSC, MASLD, alcohol-associated hepatitis, Wilson disease and hereditary hemochromatosis.",
+   "queries": [
+    "hepatitis B serology HBsAg anti-HBc HBeAg",
+    "hepatitis C direct-acting antiviral sofosbuvir genotype",
+    "autoimmune hepatitis primary biliary cholangitis antibodies",
+    "Wilson disease ceruloplasmin hemochromatosis HFE"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diabetes mellitus and obesity",
+   "scope": "Diagnostic thresholds and classification of diabetes, hyperglycemic emergencies, glucose-lowering and anti-obesity drugs and their cardiovascular and renal outcome trials, and chronic diabetic complications.",
+   "queries": [
+    "ADA diagnostic criteria HbA1c fasting plasma glucose",
+    "diabetic ketoacidosis hyperosmolar hyperglycemic state criteria",
+    "SGLT2 inhibitor EMPA-REG OUTCOME cardiovascular trial",
+    "semaglutide tirzepatide obesity weight loss trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thyroid, parathyroid and metabolic bone disease",
+   "scope": "Hyper- and hypothyroidism, thyroiditis, thyroid nodule risk stratification and cytology, calcium and parathyroid disorders, osteoporosis diagnosis and therapy, and Paget disease of bone.",
+   "queries": [
+    "Graves disease TSH receptor antibody radioiodine",
+    "thyroid nodule Bethesda system TI-RADS",
+    "primary hyperparathyroidism surgery criteria calcium",
+    "osteoporosis T-score FRAX denosumab zoledronic acid"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pituitary and adrenal disorders",
+   "scope": "Pituitary adenomas and hormone excess or deficiency (prolactinoma, acromegaly, diabetes insipidus, hypopituitarism) and adrenal disorders including Cushing syndrome, adrenal insufficiency, primary aldosteronism, pheochromocytoma and adrenal incidentaloma.",
+   "queries": [
+    "Cushing syndrome dexamethasone suppression test cortisol",
+    "primary aldosteronism aldosterone renin ratio",
+    "pheochromocytoma plasma metanephrines paraganglioma",
+    "acromegaly IGF-1 prolactinoma cabergoline"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anemias and hemoglobinopathies",
+   "scope": "Laboratory evaluation and treatment of nutritional, hemolytic, aplastic and inherited anemias, including iron and B12 deficiency, sickle cell disease, thalassemias, G6PD deficiency and PNH.",
+   "queries": [
+    "iron deficiency anemia ferritin transferrin saturation",
+    "sickle cell disease hydroxyurea voxelotor crizanlizumab",
+    "beta thalassemia hemoglobin A2 Mentzer index",
+    "paroxysmal nocturnal hemoglobinuria aplastic anemia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bleeding, platelet and thrombotic microangiopathy disorders",
+   "scope": "Inherited and acquired coagulopathies (hemophilia, von Willebrand disease, DIC), immune and heparin-induced thrombocytopenia, TTP and HUS, with their scoring systems, assays and targeted therapies.",
+   "queries": [
+    "von Willebrand disease types factor VIII",
+    "heparin-induced thrombocytopenia 4Ts score",
+    "thrombotic thrombocytopenic purpura ADAMTS13 PLASMIC score",
+    "immune thrombocytopenia thrombopoietin receptor agonist"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inflammatory arthritis and crystal arthropathies",
+   "scope": "Classification criteria, serology, imaging and DMARD or biologic therapy for rheumatoid arthritis, the spondyloarthritides and adult-onset Still disease, plus gout and calcium pyrophosphate deposition disease.",
+   "queries": [
+    "2010 ACR EULAR rheumatoid arthritis classification criteria",
+    "gout urate lowering allopurinol febuxostat target",
+    "calcium pyrophosphate deposition chondrocalcinosis pseudogout",
+    "axial spondyloarthritis ASAS criteria HLA-B27"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Systemic connective tissue diseases and inflammatory myopathies",
+   "scope": "Classification criteria, autoantibody profiles and organ manifestations of SLE, systemic sclerosis, Sjogren disease, mixed connective tissue disease, antiphospholipid syndrome and the idiopathic inflammatory myopathies.",
+   "queries": [
+    "systemic lupus erythematosus EULAR ACR 2019 classification",
+    "systemic sclerosis anti-Scl-70 anticentromere antibodies",
+    "dermatomyositis anti-MDA5 anti-Jo-1 antisynthetase syndrome",
+    "Sjogren syndrome anti-Ro SSA classification"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Systemic vasculitides",
+   "scope": "Large-, medium- and small-vessel vasculitis (GCA, Takayasu, PAN, ANCA-associated vasculitis, IgA vasculitis, cryoglobulinemia, Behcet disease), with nomenclature, ANCA serology, diagnostic criteria and immunosuppressive trials.",
+   "queries": [
+    "giant cell arteritis temporal artery biopsy tocilizumab",
+    "granulomatosis with polyangiitis PR3 ANCA rituximab",
+    "eosinophilic granulomatosis polyangiitis Churg-Strauss mepolizumab",
+    "Chapel Hill consensus nomenclature vasculitides"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bacterial infectious syndromes and antimicrobial therapy",
+   "scope": "Diagnosis and empiric or targeted treatment of pneumonia, infective endocarditis, bacterial meningitis, urinary tract, skin, bone and joint infections and C. difficile infection, plus antimicrobial resistance mechanisms and agents.",
+   "queries": [
+    "CURB-65 pneumonia severity index community-acquired",
+    "modified Duke criteria infective endocarditis",
+    "Clostridioides difficile fidaxomicin recurrence",
+    "carbapenem-resistant Enterobacterales ESBL treatment"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HIV, tuberculosis and opportunistic infections",
+   "scope": "Antiretroviral regimens and HIV monitoring, CD4-guided prophylaxis, latent and active tuberculosis testing and regimens, nontuberculous mycobacteria, and opportunistic fungal, viral and parasitic infections in immunocompromised hosts.",
+   "queries": [
+    "antiretroviral therapy integrase inhibitor bictegravir regimen",
+    "Pneumocystis pneumonia prophylaxis CD4 count",
+    "latent tuberculosis interferon gamma release assay rifapentine",
+    "cryptococcal meningitis amphotericin flucytosine"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Allergy and clinical immunology",
+   "scope": "Anaphylaxis, urticaria and angioedema, drug hypersensitivity syndromes, eosinophilic and mast cell disorders, and adult primary immunodeficiencies with their diagnostic criteria and therapy.",
+   "queries": [
+    "anaphylaxis epinephrine serum tryptase diagnostic criteria",
+    "hereditary angioedema C1 esterase inhibitor",
+    "common variable immunodeficiency immunoglobulin replacement",
+    "systemic mastocytosis KIT D816V"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geriatric medicine and geriatric syndromes",
+   "scope": "Comprehensive geriatric assessment, frailty instruments, delirium, falls, polypharmacy and potentially inappropriate medications, pressure injuries and functional assessment scales in older adults.",
+   "queries": [
+    "AGS Beers Criteria potentially inappropriate medications",
+    "Fried frailty phenotype clinical frailty scale",
+    "Confusion Assessment Method delirium older adults",
+    "falls prevention older adults timed up and go"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Amyloidosis and rare multisystem disorders",
+   "scope": "AL and ATTR amyloidosis, IgG4-related disease, porphyrias, lysosomal storage diseases in adults, autoinflammatory fever syndromes, Castleman disease, HLH and other uncommon multisystem conditions seen by internists.",
+   "queries": [
+    "transthyretin amyloid cardiomyopathy tafamidis",
+    "IgG4-related disease serum IgG4 diagnostic criteria",
+    "acute intermittent porphyria hemin porphobilinogen",
+    "familial Mediterranean fever MEFV colchicine"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}

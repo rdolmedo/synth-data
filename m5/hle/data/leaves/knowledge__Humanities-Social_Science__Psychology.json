@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Psychology",
+ "target_leaves": 8,
+ "expected_problems": 19,
+ "leaves": [
+  {
+   "leaf": "Nineteenth-century geometric optical illusions",
+   "scope": "Documented facts on named illusion figures (Z\u00f6llner, Poggendorff, M\u00fcller-Lyer, Delboeuf, Hering, Oppel-Kundt, Jastrow), including who first described each, the year and journal, the figure's construction parameters, and the illusion magnitudes measured in early studies. A question could ask the solver to identify a figure from its description and then compare or order discoverers by date, or use a reported percentage distortion to compute a perceived length.",
+   "queries": [
+    "Z\u00f6llner pattern illusion",
+    "Poggendorff illusion oblique",
+    "Delboeuf concentric circles",
+    "Oppel-Kundt filled space",
+    "geometrical optical illusions"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Ebbinghaus-tradition nonsense-syllable memory experiments",
+   "scope": "Specific procedures and numbers from early verbal-learning research: Ebbinghaus's savings scores at given retention intervals, list lengths and repetition counts, Jost's laws, M\u00fcller and Pilzecker's perseveration and retroactive interference findings, and the learning-by-wholes versus learning-by-parts studies. A question could ask for a savings percentage to be derived from reported relearning times, or for a predicted outcome under one of these laws.",
+   "queries": [
+    "Ebbinghaus savings method",
+    "nonsense syllables retention",
+    "Jost's law associations",
+    "M\u00fcller Pilzecker perseveration",
+    "whole versus part learning"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Item placement in early intelligence scales",
+   "scope": "Which tasks sat at which age level in the 1905/1908/1911 Binet-Simon scales, the 1916 Stanford-Binet, and Goddard's and Kuhlmann's revisions, plus the month credit each item earned and the subtests of Army Alpha and Beta. A question could give a child's pattern of passes and failures and ask for the mental age or ratio IQ under a specific revision.",
+   "queries": [
+    "Binet-Simon scale tests",
+    "Stanford revision Terman 1916",
+    "mental age basal year",
+    "Army Alpha examination",
+    "Kuhlmann revision Binet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Pre-1930 comparative psychology learning apparatus",
+   "scope": "Details of early animal-learning studies: Thorndike's puzzle-box designs and escape-time curves, Small's Hampton Court maze for rats, Yerkes's multiple-choice apparatus and discrimination box, Hobhouse's and K\u00f6hler's ape problem-solving tasks, and the species and individual animals used in each. A question could ask the solver to pick out the apparatus from its description and then reason about which species or which criterion trial count the study reported.",
+   "queries": [
+    "Thorndike puzzle box cats",
+    "multiple choice apparatus Yerkes",
+    "Small white rat maze",
+    "K\u00f6hler chimpanzee boxes",
+    "animal intelligence experimental"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "biodiversity_heritage_library",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Early English translations of psychoanalytic case histories",
+   "scope": "Facts from Brill's, Long's and other early English translations of Freud, Breuer and Jung: the pseudonyms of patients, the symptoms and dream contents described, the dating of treatment, and which works came out in which translated collection. A question could ask the solver to match a symptom or dream fragment to its case and then work out the interval between treatment and publication.",
+   "queries": [
+    "selected papers on hysteria",
+    "Brill translation Freud",
+    "psychology of the unconscious Jung",
+    "dream interpretation analysis case",
+    "Breuer hysteria case"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "IQ cutoffs in US intellectual-disability death-penalty cases",
+   "scope": "How state and federal courts after Atkins, Hall v. Florida and Moore v. Texas treated full-scale IQ scores, the standard error of measurement, Flynn-effect adjustments, practice effects and adaptive-behavior evidence, including the specific test scores recorded in particular cases. A question could take the scores reported in a case and ask whether the defendant falls inside a confidence band, or which legal standard the court applied.",
+   "queries": [
+    "Atkins intellectual disability IQ",
+    "Flynn effect adjustment execution",
+    "standard error measurement IQ",
+    "adaptive functioning deficits capital",
+    "Hall v. Florida cutoff"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Effect sizes in multi-site social-psychology replications",
+   "scope": "Original versus replication effect sizes, sample sizes and heterogeneity estimates for particular effects tested in Many Labs 1-5, Registered Replication Reports, and the Reproducibility Project: Psychology (for example ego depletion, facial feedback and anchoring). A question could ask the solver to compute the ratio of replication to original effect, or to say which effects passed a stated replication criterion.",
+   "queries": [
+    "Many Labs replication",
+    "registered replication report",
+    "ego depletion multisite",
+    "facial feedback replication",
+    "reproducibility project psychology"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Facet structure of HEXACO and Big Five inventories",
+   "scope": "Facet names, item counts per scale, interstitial facets, and the reported reliabilities and factor loadings for the HEXACO-PI-R, BFI-2, IPIP-NEO and their translated versions in open-access validation papers. A question could ask which domain an unusual facet belongs to in one model compared with another, or have the solver compute total items or a Spearman-Brown reliability for a shortened form.",
+   "queries": [
+    "HEXACO-PI-R facets",
+    "BFI-2 validation facets",
+    "IPIP-NEO facet reliability",
+    "honesty-humility facet structure",
+    "interstitial facet altruism"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

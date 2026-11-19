@@ -1,0 +1,32 @@
+{
+ "note": "Pairs (TB2.1 test task, CalibForge task) labelled with the user on 2026-10-27. Rubric: copying the test task's specific setup (premise + interface + success criterion, or its specific trick / bespoke harness / data) = exclude; sharing only a domain, tool or skill = keep.",
+ "exclude": [
+  ["cancel-async-tasks", "software-engineering_20260507_172207_003", "DUPLICATE", "same run_tasks(tasks, max_concurrent) in /app/run.py; tests copy TB's test names and CLI args (already lexically flagged)"],
+  ["cancel-async-tasks", "software-engineering_20260429_103257_003", "REWRITE", "run_tasks(tasks, max_workers) in /app/run.py"],
+  ["break-filter-js-from-html", "security_20260509_202829_001", "REWRITE", "bypass a provided HTML JS sanitizer; TB's Selenium XSS checker copied (flagged)"],
+  ["polyglot-c-py", "software-engineering_20260612_191200_018", "REWRITE", "Write me a single file in /app/polyglot/main.c which is a polyglot (flagged)"],
+  ["polyglot-c-py", "software-engineering_20260612_191200_017", "REWRITE", "bash/C polyglot in /app/polyglot/"],
+  ["polyglot-rust-c", "software-engineering_20260612_191200_017", "REWRITE", "same polyglot premise"],
+  ["query-optimize", "data-science_20260604_003814_005", "REWRITE", "a saved SQLite query is not optimized; rewrite it as efficiently as possible"],
+  ["model-extraction-relu-logits", "mathematics_20260604_003814_004", "REWRITE", "black box queried via forward.py forward(x); TB canary header copied (flagged)"],
+  ["model-extraction-relu-logits", "mathematics_20260604_002443_004", "REWRITE", "black box in /app/forward.py, recover hidden structure; TB canary header"],
+  ["model-extraction-relu-logits", "mathematics_20260612_191200_004", "REWRITE", "black-box generator lfsr.py, recover hidden structure; TB canary header"],
+  ["model-extraction-relu-logits", "mathematics_20260617_210354_004", "REWRITE", "black-box f(x) in /app/target_function.py; TB canary header"],
+  ["build-pmars", "software-engineering_20260513_204536_001", "REWRITE", "build a program from Debian source packages with a specific config (GDB); user-confirmed borderline"],
+  ["rstan-to-pystan", "data-science_20260604_002443_007", "REWRITE", "convert a Stan model to PyMC on train_X/train_y csv; user-confirmed borderline"],
+  ["raman-fitting", "scientific-computing_20260419_065313_007", "REWRITE", "fit peaks of a raw Raman spectrum; user-confirmed borderline"],
+  ["chess-best-move", "games_20260604_004411_001", "REWRITE", "board image -> best move to /app/move.txt (tic-tac-toe instead of chess) (flagged)"]
+ ],
+ "expected_exclude_unconfirmed": [
+  ["portfolio-optimization", "optimization_20260604_194036_001", "Python-loop baseline -> faster C implementation, same numerics"],
+  ["count-dataset-tokens", "model-training_20260503_030115_001", "count tokens of a HF dataset split with a given Qwen2.5 tokenizer"]
+ ],
+ "keep": [
+  ["crack-7z-hash", "security_20260508_045740_002", "RELATED", "KeePass master-password recovery with John the Ripper; shares TB's Dockerfile only (flagged on Dockerfile)"],
+  ["crack-7z-hash", "security_20260419_023954_002", "RELATED", "AES/RSA decryption; TB's Dockerfile (John the Ripper build) copied, task differs (flagged on Dockerfile)"],
+  ["cobol-modernization", "software-engineering_20260419_065313_005", "RELATED", "port a legacy AWK inventory script"],
+  ["git-leak-recovery", "file-operations_20260615_143301_005", "RELATED", "repair a corrupted git repository"],
+  ["git-leak-recovery", "software-engineering_20260514_010833_009", "UNRELATED", "git bisect perf regression; shared Dockerfile boilerplate only (flagged)"],
+  ["mteb-retrieve", "data-science_20260503_182123_004", "UNRELATED", "entity resolution; TB's stock python-slim Dockerfile only (flagged)"]
+ ]
+}

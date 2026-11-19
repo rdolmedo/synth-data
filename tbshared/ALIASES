@@ -1,0 +1,6 @@
+# aa-evals' per-benchmark snapshots copy only parts of aa_evals/ (omniscience/submit.sh, gdpval/submit.py, m5/*):
+# the shared modules stay importable at their old paths as pinned, byte-identical copies.
+aa_evals/common/condor_cost.py condor_cost.py
+aa_evals/common/reslog.py reslog.py
+aa_evals/common/fastio.py fastio.py
+aa_evals/common/serving.py serving.py

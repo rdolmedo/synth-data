@@ -1,0 +1,132 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Philosophy",
+ "target_leaves": 8,
+ "expected_problems": 74,
+ "leaves": [
+  {
+   "leaf": "Stoic indemonstrables and Chrysippean themata",
+   "scope": "Reported forms of the five Stoic indemonstrable arguments, the four themata used to reduce non-simple arguments, and the competing truth criteria for conditionals (Philo, Diodorus, Chrysippus) as given in Diogenes Laertius, Sextus Empiricus and Galen. A question could ask the solver to reduce a compound argument to indemonstrables and count the themata applied, or to test a conditional against each school's criterion.",
+   "queries": [
+    "Chrysippus indemonstrables",
+    "Stoic themata analysis",
+    "Diodorean conditional criterion",
+    "Stoic logic axiomata lekta",
+    "Sextus hypothetical syllogism"
+   ],
+   "sources": [
+    "peS2o",
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Tempier's 1277 Paris condemnation articles",
+   "scope": "The 219 propositions condemned by Bishop \u00c9tienne Tempier: their original order compared with Mandonnet's thematic renumbering, the sources attributed to them (Siger of Brabant, Boethius of Dacia, Aquinas, Averroes), and how later scholars such as Hissette judged those attributions. A question could ask the solver to map an article between numbering systems, count condemned theses on a theme, or work out which author a given thesis targets.",
+   "queries": [
+    "Tempier condemnation 1277",
+    "219 propositions Paris",
+    "Siger Brabant Averroism",
+    "Hissette condemned articles",
+    "Boethius Dacia eternity world"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Ny\u0101ya hetv\u0101bh\u0101sa and Dign\u0101ga's hetucakra",
+   "scope": "How fallacious reasons are classified in the Ny\u0101ya-s\u016btra, Pra\u015bastap\u0101da, Dign\u0101ga's nine-cell wheel of reasons and later Navya-Ny\u0101ya, including the subtypes and Sanskrit names each text uses. A question could ask the solver to place a sample inference in the correct hetucakra cell or hetv\u0101bh\u0101sa subtype, or to compare how many subtypes different texts recognise.",
+   "queries": [
+    "Nyaya Sutra hetvabhasa",
+    "Dignaga wheel of reasons",
+    "Vidyabhusana Indian logic",
+    "savyabhicara viruddha asiddha",
+    "five-membered Nyaya syllogism"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Korean Four-Seven debate letters",
+   "scope": "The letters exchanged between Yi Hwang (Toegye) and Ki Daeseung (Gobong) from 1559 to 1566, and the later exchange between Yi I (Yulgok) and Seong Hon (Ugye), including how Toegye revised his li\u2013qi formulation of the Four Beginnings and Seven Feelings over time. A question could ask the solver to assign a formulation to a particular letter or stage, or to infer one thinker's stance from another's rebuttal.",
+   "queries": [
+    "Four-Seven debate Toegye",
+    "Ki Daeseung Gobong letters",
+    "Yulgok li qi",
+    "sadan chiljeong Neo-Confucian",
+    "Korean Neo-Confucianism Yi Hwang"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Hutcheson's moral algebra and British moralists",
+   "scope": "Hutcheson's 1725 algebraic formulas for moral importance (M = B\u00d7A and its variants with interest and self-love), along with the specific doctrines of Shaftesbury, Butler, Clarke, Wollaston, Balguy, Gay and Price as collected in Selby-Bigge's British Moralists. A question could ask the solver to compute moral importance or benevolence from given quantities, or to identify which moralist holds a quoted position.",
+   "queries": [
+    "Hutcheson moral importance benevolence",
+    "Selby-Bigge British Moralists",
+    "Butler sermons conscience",
+    "Wollaston fitness truth morality",
+    "Shaftesbury Inquiry Virtue Merit"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Peirce's sign trichotomies and classes",
+   "scope": "Peirce's 1903 ten classes of signs, the expanded systems of 28 and 66 classes in his 1904\u20131908 letters to Lady Welby, and the rule that restricts which combinations across the trichotomies are allowed, along with the competing orderings proposed by later commentators. A question could ask the solver to decide whether a combination such as a dicent iconic legisign is admissible, or to derive how many classes a given ordering produces.",
+   "queries": [
+    "Peirce ten classes signs",
+    "Peirce sixty-six classes",
+    "rhematic indexical sinsign",
+    "Peirce Welby trichotomies",
+    "dicent symbol legisign"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Vienna Circle protocol sentence debate",
+   "scope": "The exchange of 1931\u20131935, mainly in Erkenntnis, between Neurath, Carnap, Schlick, Zilsel, Hempel and Popper over the form, status and revisability of protocol sentences and Schlick's Konstatierungen. A question could ask the solver to put the positions in chronological order, assign a proposed protocol-sentence form to its author, or infer how one stance changed in reply to another.",
+   "queries": [
+    "Neurath protocol sentences",
+    "Schlick Konstatierungen foundation knowledge",
+    "Carnap physicalism protocol",
+    "Vienna Circle physicalism debate",
+    "Zilsel Hempel protocol"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Preference-based dyadic deontic logic systems",
+   "scope": "Hansson's preference semantics and \u00c5qvist's dyadic systems E, F and G, together with later soundness and completeness results (e.g. by Parent), the frame conditions such as limitedness, smoothness and totality, and the axioms that separate the systems. A question could ask the solver to decide whether a given conditional-obligation principle can be derived in a particular system, or which frame condition validates it.",
+   "queries": [
+    "Aqvist dyadic deontic logic",
+    "Hansson preference semantics obligation",
+    "system F G completeness",
+    "conditional obligation betterness",
+    "Parent dyadic deontic completeness"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

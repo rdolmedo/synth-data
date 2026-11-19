@@ -1,0 +1,225 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Classics",
+ "target_leaves": 12,
+ "expected_problems": 95,
+ "leaves": [
+  {
+   "leaf": "Greek choral lyric colometry and strophic responsion",
+   "scope": "Problems give a strophe and antistrophe from tragedy, comedy or epinician, or text written to a set metrical pattern. The solver must analyse the cola, find a fault in the responsion, or say which emendation restores it. They are hard because resolution, anceps freedom, aeolic bases and synizesis all have to be handled at once across both stanzas.",
+   "techniques": [
+    "resolution and contraction in iambic, trochaic and dochmiac metra, including listing the possible dochmiac shapes",
+    "finding the aeolic base and choriambic nucleus (glyconic, pherecratean, hipponactean, telesillean)",
+    "dactylo-epitrite analysis in D/e notation with link anceps",
+    "period-end tests: brevis in longo, hiatus, catalexis, word-end at colon boundaries",
+    "free responsion of anceps and resolved against unresolved longs in corresponding stanzas",
+    "synizesis and correption as ways to make a colon respond"
+   ],
+   "answer_forms": [
+    "integer (e.g. number of resolved longs or dochmiacs in a stanza)",
+    "metrical label or sequence of colon names",
+    "line number of the non-responding colon",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Latin verse scansion under prosodic licences",
+   "scope": "Problems ask the solver to scan Latin lines in hexameter, elegiacs, Horatian lyric strophes or Plautine senarii and septenarii. They then fix quantities, foot patterns or caesurae, or count a given phenomenon. They are hard because elision, synizesis, hidden quantity, muta cum liquida, iambic shortening and prosodic hiatus all interact.",
+   "techniques": [
+    "elision, prodelision (est/es) and aphaeresis at word junctions",
+    "synizesis and consonantal i/u (e.g. trisyllabic forms of words normally scanned longer)",
+    "hidden quantity from Lachmann's law and lengthening before ns/nf",
+    "brevis brevians (iambic shortening) and prosodic hiatus at a change of speaker in early Latin drama",
+    "classifying caesurae (penthemimeral, trihemimeral plus hephthemimeral, bucolic diaeresis) and bridges",
+    "Horatian strophe schemes (Alcaic, Sapphic, the Asclepiads) and their fixed and variable positions"
+   ],
+   "answer_forms": [
+    "integer (count of dactyls, elisions or shortened syllables)",
+    "string of D/S foot pattern",
+    "name of the metre or the caesura",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Greek accentuation of inflected and enclitic forms",
+   "scope": "Problems ask for the correct accent (its type and position) on inflected, contracted, compounded or crasis forms, or across chains of enclitics and proclitics. They are hard because several rules, each with its own exceptions, have to be applied in the right order.",
+   "techniques": [
+    "law of limitation and the \u03c3\u03c9\u03c4\u1fc6\u03c1\u03b1 rule, with final -\u03b1\u03b9/-\u03bf\u03b9 counted long in the optative",
+    "recessive accent of finite verbs against persistent accent of nouns, participles and infinitives",
+    "accenting contracted syllables from the accent of the uncontracted vowels",
+    "accent in enclitic sequences and on proclitics followed by enclitics",
+    "Vendryes' and Wheeler's laws as Attic and Common Greek retractions",
+    "augment and preverb limiting how far the accent recedes in compound verbs"
+   ],
+   "answer_forms": [
+    "a Greek word with its accent",
+    "a small set of accented syllable positions",
+    "integer (number of forms in a paradigm with a circumflex)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Comparative sound laws deriving Greek and Latin forms",
+   "scope": "Problems give a Proto-Indo-European preform and ask for its outcome in Attic, Doric, Aeolic or Latin, or ask which preform accounts for a set of attested cognates. They are hard because the sound changes are ordered, and applying them in the wrong relative chronology gives the wrong result.",
+   "techniques": [
+    "laryngeal reflexes, including the Greek triple vowel reflex (\u03b5/\u03b1/\u03bf)",
+    "Grassmann's law and how it is ordered relative to aspirate devoicing",
+    "Osthoff's law and compensatory lengthening, which differ by dialect",
+    "Latin rhotacism, weakening of vowels in medial syllables, and syncope",
+    "labiovelar outcomes by dialect and phonetic environment",
+    "working out a relative chronology from feeding and bleeding interactions"
+   ],
+   "answer_forms": [
+    "an attested or reconstructed word form",
+    "ordered list of the sound changes applied",
+    "integer (number of rule applications)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Roman and Egyptian calendar date conversion",
+   "scope": "Problems convert dates between systems or compute intervals between them. The systems are Roman inclusive reckoning (Kalends, Nones, Ides), the pre-Julian republican calendar with intercalation, the Egyptian wandering and Alexandrian years, and consular, AUC and Olympiad eras. They are hard because of inclusive counting, the bissextile day, irregular intercalation and era epochs with no year zero.",
+   "techniques": [
+    "inclusive counting back to Kalends, Nones and Ides, using republican (29/31-day) and Julian month lengths",
+    "the bissextile day (a.d. VI Kal. Mart. counted twice) in leap years",
+    "inserting the republican intercalary month after the Terminalia",
+    "the Egyptian 365-day year with epagomenal days, and the Alexandrian epoch of 1 Thoth",
+    "converting between Olympiad, AUC (Varronian) and BC/AD years with no year zero",
+    "nundinal letters and the planetary week to fix weekdays"
+   ],
+   "answer_forms": [
+    "a date (day, month, year)",
+    "integer (number of days between two dates)",
+    "a Roman date formula in Latin",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Imperial titulature and senatorial career dating",
+   "scope": "Problems give the titles in an inscription or coin legend (tribunicia potestas, consulships, imperatorial acclamations, victory titles) and ask for its exact date or narrowest date range. Others ask for the order of offices and minimum ages in a senatorial or equestrian cursus. They are hard because the constraints overlap and the rules for renewing tribunician power differed from reign to reign.",
+   "techniques": [
+    "numbering tribunician years and finding the renewal day (dies imperii against 10 December)",
+    "intersecting the ranges given by consulship iterations, acclamations and victory cognomina",
+    "telling ascending from descending cursus order and placing omitted offices",
+    "minimum ages and required intervals, with remissions under ius liberorum",
+    "when titles such as pater patriae were taken, and erasures from damnatio memoriae",
+    "connecting suffect and ordinary consulships to the dates of provincial commands"
+   ],
+   "answer_forms": [
+    "a year or year range AD",
+    "integer (minimum age at an office)",
+    "ordered tuple of offices",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stoichedon restoration and Attic calendar equations",
+   "scope": "Problems ask the solver to restore gaps in Attic stoichedon decrees by counting letters and using standard formulae. Others set a festival-calendar date equal to a prytany date and ask for the year type or day number. They are hard because line length, the period's spelling and the calendar combinations must all agree.",
+   "techniques": [
+    "fixing line length from secure restorations that run across line breaks",
+    "the length in letters of prescript and enactment formulae (prytany, secretary, epistates, proposer)",
+    "how Old Attic and Ionic spelling (E, O, H) changes letter counts",
+    "ordinary and intercalary years, hollow and full months, and the prytany lengths for 10- and 12-tribe years",
+    "inferring intercalation or missing days from prytany-festival equations",
+    "using the cycle of secretaries by tribe to fix or check the archon year"
+   ],
+   "answer_forms": [
+    "integer (line length or day of the year)",
+    "restored Greek text string",
+    "name of a month or tribe",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stemmatic reconstruction from collation evidence",
+   "scope": "Problems give manuscript readings at a set of passages and ask for the stemma, the archetype's reading, the codices descripti, or a contaminated witness. They are hard because shared innovations have to be told apart from errors that arose independently, and because contamination breaks simple tree logic.",
+   "techniques": [
+    "analysis of conjunctive and separative errors (Leitfehler)",
+    "eliminatio codicum descriptorum from inherited errors plus errors peculiar to one manuscript",
+    "majority decision in tripartite stemmata, and why it fails in bipartite ones",
+    "detecting contamination and horizontal transmission from readings that conflict",
+    "using palaeographic confusions (uncial, minuscule, insular abbreviations) to tell which reading is the error",
+    "inferring the exemplar's line length from saut du m\u00eame au m\u00eame omissions"
+   ],
+   "answer_forms": [
+    "a stemma as a nested parenthesized expression",
+    "the archetype's reading (a word)",
+    "siglum of a manuscript",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Roman law of succession with fractional shares",
+   "scope": "Problems ask the solver to compute the shares of heirs and legatees under classical Roman law. Scenarios include testaments that institute heirs in unciae, heirs who fail, legacies that exceed the estate, and intestacy under civil or praetorian rules. They are hard because the rules apply in a strict order, and institutions in fractions must be normalized before reductions are made.",
+   "techniques": [
+    "the as of 12 unciae and normalizing institutions that fall short of or exceed it (dipondius)",
+    "accrual (ius adcrescendi) when an instituted heir fails or refuses",
+    "the lex Falcidia quarter and proportional reduction of legacies",
+    "civil intestate order (sui heredes, agnati, gentiles) against the praetorian classes of bonorum possessio",
+    "the senatus consulta Tertullianum and Orphitianum on succession between mother and child",
+    "the querela inofficiosi testamenti, portio legitima, and collatio bonorum by emancipated children"
+   ],
+   "answer_forms": [
+    "a rational number (fraction of the estate)",
+    "an amount in sesterces",
+    "ordered tuple of shares",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Greek harmonic theory and tetrachord ratios",
+   "scope": "Problems ask the solver to compute intervals, note positions or ratios in ancient Greek harmonics. The material includes named theorists' tetrachord divisions, Aristoxenian measures in fractions of a tone, positions in the Perfect Systems, tonoi and octave species. They are hard because Pythagorean ratio arithmetic and Aristoxenian additive measures have to be reconciled.",
+   "techniques": [
+    "composing and decomposing superparticular ratios within the fourth and the fifth",
+    "the enharmonic, chromatic and diatonic divisions of Archytas, Eratosthenes, Didymus and Ptolemy",
+    "Aristoxenian tones in twelfths, and the chroai (shades) of each genus",
+    "note names and positions in the Greater and Lesser Perfect Systems",
+    "octave species and tonoi (Cleonides; Ptolemy's thetic against dynamic naming)",
+    "Alypian vocal and instrumental notation for a given note in a given tonos"
+   ],
+   "answer_forms": [
+    "a ratio (rational number)",
+    "a Greek note name",
+    "integer (number of dieses or twelfth-tones)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Mycenaean Linear B spelling and tablet arithmetic",
+   "scope": "Problems ask the solver to read Linear B syllabic spellings by the orthographic rules and identify the alphabetic Greek word. Others ask for tablet totals reconciled from ideograms, numerals and metrograms. They are hard because the script under-specifies sounds, and dry, liquid and weight measures are mixed with fractional subunits.",
+   "techniques": [
+    "spelling conventions: omitted final -s, -n, -r, dead vowels in consonant clusters, merged l/r, no marking of aspiration",
+    "q-series labiovelars and how they relate to later Greek reflexes",
+    "dry and liquid measure subunits and weight subunits, and converting to the smallest unit",
+    "deficit and payment bookkeeping (o-pe-ro entries) and checking totals",
+    "the fixed proportions of assessment series across commodities",
+    "using tablet-series and scribal-hand conventions to settle an ambiguous entry"
+   ],
+   "answer_forms": [
+    "a Greek word in alphabetic form",
+    "integer (quantity in the smallest unit)",
+    "a small set of possible transcriptions",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Greek numerals and financial-inscription arithmetic",
+   "scope": "Problems ask the solver to read and compute with Attic acrophonic and alphabetic numerals in accounts, tribute quota lists, temple inventories and loan records. They then convert between talents, minas, drachmas, obols and their fractions, or between weight standards. They are hard because numeral variants, fractional obol signs and coinage standards must be applied consistently over several steps.",
+   "techniques": [
+    "acrophonic numerals with compound pente signs and local variants",
+    "alphabetic numerals with stigma, koppa and sampi, plus myriad notation",
+    "converting the 1/60 aparche quota into the full tribute assessment",
+    "converting between Attic, Aeginetan and Euboic weight standards",
+    "fractions of the obol (hemiobol, tetartemorion, chalkous)",
+    "simple interest in temple and polis loans quoted per drachma per month"
+   ],
+   "answer_forms": [
+    "integer (total in drachmas or obols)",
+    "a Greek numeral string",
+    "a rational number",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

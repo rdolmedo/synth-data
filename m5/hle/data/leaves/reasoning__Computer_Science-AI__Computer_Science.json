@@ -1,0 +1,1673 @@
+{
+ "partition": "reasoning",
+ "category": "Computer Science/AI",
+ "subject": "Computer Science",
+ "target_leaves": 100,
+ "expected_problems": 802,
+ "leaves": [
+  {
+   "leaf": "State complexity of regular language operations",
+   "scope": "Problems ask for the exact number of states of the minimal DFA, or a tight NFA bound, for languages built by applying operations such as reversal, shuffle, quotient, cyclic shift or boolean combinations to concretely given regular languages. They are hard because the solver must prove both that every claimed state is reachable and that every pair of states is distinguishable.",
+   "techniques": [
+    "Myhill\u2013Nerode equivalence classes",
+    "subset construction with reachability pruning",
+    "distinguishing-suffix arguments",
+    "fooling-set lower bounds for NFAs",
+    "transition semigroup analysis of witness automata"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Syntactic monoids and algebraic language classes",
+   "scope": "Problems give a regular language by an expression or an automaton and ask for the size or structure of its syntactic monoid, or which algebraic class it belongs to (star-free, piecewise testable, locally threshold testable, a dot-depth level). They are hard because the transition monoid must be computed exactly and identities checked through Green's relations.",
+   "techniques": [
+    "transition monoid computation from the minimal DFA",
+    "Sch\u00fctzenberger's aperiodicity criterion",
+    "Simon's J-triviality characterization of piecewise testability",
+    "Green's relations and egg-box diagrams",
+    "Eilenberg variety correspondence and profinite identities"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of a variety or language class",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Enumeration and ambiguity of context-free grammars",
+   "scope": "Problems ask for the number of words of a given length that a grammar generates, the number of parse trees of a word, the degree of ambiguity, or the Parikh image of a context-free language. They are hard because grammars must be translated into systems of algebraic generating functions and inherent ambiguity must be handled.",
+   "techniques": [
+    "Chomsky\u2013Sch\u00fctzenberger algebraic generating functions",
+    "CYK chart counting of parse trees",
+    "Parikh's theorem and semilinear set computation",
+    "Ogden's lemma for inherent-ambiguity arguments",
+    "normal-form transformations and their size blowup"
+   ],
+   "answer_forms": [
+    "integer",
+    "generating function",
+    "semilinear set description"
+   ]
+  },
+  {
+   "leaf": "\u03c9-automata conversions and parity games",
+   "scope": "Problems ask which player wins from which vertices of a concretely given parity, Muller or Rabin game, or for state counts when converting or complementing B\u00fcchi, Muller and parity automata on infinite words. They are hard because attractor recursions and the blowup in index and states must be tracked exactly.",
+   "techniques": [
+    "Zielonka's recursive attractor algorithm",
+    "latest appearance records for Muller-to-parity conversion",
+    "Safra or Piterman determinization",
+    "rank-based B\u00fcchi complementation",
+    "positional determinacy and strategy extraction",
+    "Rabin index computation in the Wagner hierarchy"
+   ],
+   "answer_forms": [
+    "set of vertices",
+    "integer",
+    "ordered pair of index and state count"
+   ]
+  },
+  {
+   "leaf": "CTL and LTL model checking on Kripke structures",
+   "scope": "Problems give a small Kripke structure or transition system, possibly with fairness constraints, and ask which states satisfy a nested temporal formula, or how many states of a product B\u00fcchi automaton are reachable. They are hard because of nested fixpoints, fairness, and subtle semantic differences between LTL and CTL.",
+   "techniques": [
+    "CTL labeling via least and greatest fixpoints",
+    "fair-SCC analysis for fair CTL",
+    "LTL-to-B\u00fcchi tableau construction",
+    "product automaton emptiness via nested DFS",
+    "expressiveness separations among LTL, CTL and CTL*"
+   ],
+   "answer_forms": [
+    "set of states",
+    "integer",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Arithmetical hierarchy classification of index sets",
+   "scope": "Problems define a set of program indices by a property of the partial function computed or the set enumerated, and ask for its exact position in the arithmetical hierarchy, for example \u03a3^0_3-complete. They are hard because the upper bound needs a careful quantifier normal form and the lower bound needs a reduction from a canonical complete set.",
+   "techniques": [
+    "Tarski\u2013Kuratowski quantifier counting",
+    "many-one reductions from Fin, Tot, Cof and Rec",
+    "Post's theorem and relativized halting sets",
+    "Rice and Rice\u2013Shapiro theorems",
+    "limit lemma and movable-marker constructions"
+   ],
+   "answer_forms": [
+    "hierarchy class such as \u03a3^0_n or \u03a0^0_n",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Trace analysis of small register and tag machines",
+   "scope": "Problems give an explicit Minsky counter machine, Post tag system, small Turing machine or Fractran-like program, and ask for its halting time, final configuration or the function it computes. They are hard because direct simulation is infeasible, so the solver must find macro-level invariants or closed-form recurrences for the counters.",
+   "techniques": [
+    "macro-step abstraction of repeated configurations",
+    "Collatz-like recurrence extraction",
+    "counter invariants and G\u00f6del encodings of configurations",
+    "cycle and translated-cycle detection",
+    "simulations between tag systems and counter machines"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "final configuration as a tuple"
+   ]
+  },
+  {
+   "leaf": "Ehrenfeucht\u2013Fra\u00efss\u00e9 and pebble game distinguishability",
+   "scope": "Problems ask for the smallest quantifier rank, number of variables or Weisfeiler\u2013Leman dimension needed to distinguish two given structures (graphs, linear orders, words), or for the stable color-refinement partition. They are hard because optimal Spoiler and Duplicator strategies must be built for both directions.",
+   "techniques": [
+    "Ehrenfeucht\u2013Fra\u00efss\u00e9 games on linear orders and the 2^k threshold",
+    "bijective k-pebble games and counting logic C^k",
+    "color refinement and stable partition computation",
+    "Hanf and Gaifman locality",
+    "CFI-style gadget constructions"
+   ],
+   "answer_forms": [
+    "integer",
+    "logical formula",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Factor complexity of morphic and automatic words",
+   "scope": "Problems define an infinite word by a morphism, an automaton or a Sturmian slope, and ask for its factor complexity at given lengths, its critical exponent, its recurrence function or its number of palindromes. They are hard because the counts depend on the special factors and the self-similar structure of the word.",
+   "techniques": [
+    "left/right special and bispecial factor analysis",
+    "return words and derived sequences",
+    "Fine\u2013Wilf periodicity theorem",
+    "first-order decision procedures for automatic sequences",
+    "critical exponents via continued fraction expansions"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "closed-form expression",
+    "finite word"
+   ]
+  },
+  {
+   "leaf": "Exact circuit and formula size of explicit functions",
+   "scope": "Problems ask for the smallest number of gates, the minimal depth or the minimal formula leaf-size needed to compute a specific small Boolean function over a given basis (De Morgan, full binary, monotone). They are hard because lower bounds need gate elimination or combinatorial measures, while upper bounds need clever constructions.",
+   "techniques": [
+    "gate elimination arguments",
+    "Khrapchenko and Nechiporuk formula lower bounds",
+    "monotone circuit approximation",
+    "exhaustive structural reasoning over small bases",
+    "symmetric-function decomposition via counters and adders"
+   ],
+   "answer_forms": [
+    "integer",
+    "explicit circuit description",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Communication complexity of explicit matrices",
+   "scope": "Problems give a two-party function on a small domain or a structured family and ask for its exact deterministic or nondeterministic communication complexity, or its partition number. They are hard because tight bounds need a protocol that matches a rectangle, fooling-set or rank lower bound.",
+   "techniques": [
+    "fooling sets and monochromatic rectangle covers",
+    "log-rank lower bound over the reals or GF(2)",
+    "protocol tree constructions",
+    "rectangle partition number versus cover number",
+    "direct-sum and composition arguments"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Query complexity and sensitivity measures",
+   "scope": "Problems ask for the exact deterministic decision-tree depth, certificate complexity, sensitivity, block sensitivity or polynomial degree of given Boolean functions, including compositions and graph properties. They are hard because these measures behave subtly under composition, and evasiveness proofs need adversary or topological methods.",
+   "techniques": [
+    "adversary strategies for deterministic query lower bounds",
+    "multilinear polynomial representation and degree",
+    "separations between sensitivity and block sensitivity",
+    "composition behavior of measures for iterated functions",
+    "Rivest\u2013Vuillemin topological evasiveness arguments"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "ordered tuple of measures"
+   ]
+  },
+  {
+   "leaf": "Resolution complexity of structured CNF families",
+   "scope": "Problems ask for the exact minimal resolution width, tree-like resolution size, refutation depth or clause space of explicit unsatisfiable formulas, such as pebbling, ordering or Tseitin formulas on small graphs. They are hard because each lower bound needs a game or expansion argument that matches an explicit refutation.",
+   "techniques": [
+    "Prover\u2013Delayer games for tree-like resolution",
+    "Ben-Sasson\u2013Wigderson width arguments",
+    "Tseitin formulas and graph expansion",
+    "pebbling formulas and black-white pebbling numbers",
+    "DPLL search tree size counting"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "CSP complexity via polymorphism classification",
+   "scope": "Problems give a finite constraint language (relations on a small domain) and ask whether its CSP is in P or NP-complete, which polymorphisms it admits, or how many polymorphisms of a given arity it has. They are hard because Taylor, majority, Mal'tsev or semilattice operations must be found or ruled out.",
+   "techniques": [
+    "Schaefer's Boolean classification",
+    "pp-definability and pp-interpretation reductions",
+    "search for Mal'tsev, majority and near-unanimity polymorphisms",
+    "core computation for relational structures",
+    "bounded-width characterizations"
+   ],
+   "answer_forms": [
+    "complexity class name",
+    "integer",
+    "name of a polymorphism",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Kernels and branching in parameterized algorithms",
+   "scope": "Problems ask for the exact base of a branching algorithm's running time from its branching vectors, the size of the best kernel that given reduction rules achieve, or the W-hierarchy level of a parameterized problem. They are hard because characteristic roots and tight kernel bounds need careful case analysis.",
+   "techniques": [
+    "branching vectors and characteristic polynomial roots",
+    "measure-and-conquer weighting",
+    "crown decomposition and LP-based kernels",
+    "sunflower lemma reductions",
+    "parameterized reductions for W[1] and W[2] hardness"
+   ],
+   "answer_forms": [
+    "real algebraic constant",
+    "integer",
+    "complexity class name"
+   ]
+  },
+  {
+   "leaf": "Integrality gaps of LP and SDP relaxations",
+   "scope": "Problems ask for the exact integrality gap of a relaxation on a given family of instances, or for the tight approximation ratio of a rounding or greedy scheme. They are hard because the answer needs both an optimal fractional solution and a matching rounding argument or dual certificate.",
+   "techniques": [
+    "LP duality and complementary slackness",
+    "factor-revealing linear programs",
+    "primal-dual schema",
+    "randomized rounding analysis",
+    "explicit fractional solutions on symmetric instances",
+    "hyperplane rounding geometry"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "real constant"
+   ]
+  },
+  {
+   "leaf": "Competitive ratios of online algorithms",
+   "scope": "Problems define a variant of an online problem (rental, paging with constraints, k-server on a small metric, online bipartite matching) and ask for the optimal deterministic or randomized competitive ratio. They are hard because the answer needs an algorithm and an adversary lower bound that match.",
+   "techniques": [
+    "adversary constructions for deterministic lower bounds",
+    "Yao's minimax principle",
+    "potential function analysis",
+    "work function algorithm",
+    "primal-dual online LP analysis",
+    "optimization of continuous randomized rental strategies"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Amortized analysis of operation sequences",
+   "scope": "Problems ask for the exact worst-case total cost of a sequence of operations on structures such as binary counters with increments and decrements, union-find, splay trees, Fibonacci heaps, or dynamic arrays with a given resize policy. They are hard because a tight answer needs both a potential-function upper bound and an adversarial sequence.",
+   "techniques": [
+    "potential and accounting methods",
+    "Fibonacci heap degree bounds",
+    "access lemma for splay trees",
+    "rank-based inverse Ackermann analysis",
+    "adversarial sequence construction"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Exact expectations in randomized algorithms and hashing",
+   "scope": "Problems ask for the exact expected number of comparisons, probes, depths or collisions in randomized quicksort variants, treaps, skip lists, randomized selection, linear probing or cuckoo hashing under a stated model. They are hard because exact rather than asymptotic answers need careful indicator decompositions and solved recurrences.",
+   "techniques": [
+    "linearity of expectation over indicator pairs",
+    "harmonic-number recurrence solving",
+    "backward analysis",
+    "linear probing displacement analysis",
+    "k-wise independence collision bounds",
+    "random graph arguments for cuckoo hashing"
+   ],
+   "answer_forms": [
+    "closed-form expression with harmonic numbers",
+    "rational number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Suffix automata and Burrows\u2013Wheeler transforms",
+   "scope": "Problems ask for the number of distinct substrings, suffix automaton states and transitions, BWT outputs and inversions, LCP values, number of runs, or Lyndon factorizations of given strings or string families. They are hard because structured families need structural reasoning that goes beyond direct computation.",
+   "techniques": [
+    "suffix automaton construction and endpos classes",
+    "LF-mapping BWT inversion",
+    "Lyndon factorization via Duval's algorithm",
+    "runs theorem and Lyndon roots",
+    "LCP array computation",
+    "border and failure function arrays"
+   ],
+   "answer_forms": [
+    "integer",
+    "string",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Cut structure and multi-terminal network flows",
+   "scope": "Problems ask for maximum flow values, the number of minimum s-t cuts or global minimum cuts, Gomory\u2013Hu trees, or flow decompositions in parameterized graph families. They are hard because counting cuts and computing all-pairs cut values need structural insight beyond running a flow algorithm.",
+   "techniques": [
+    "max-flow min-cut duality",
+    "Gomory\u2013Hu tree construction",
+    "Picard\u2013Queyranne representation of all minimum cuts",
+    "cactus representation of global minimum cuts",
+    "Menger's theorem and edge-disjoint paths"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "tree description"
+   ]
+  },
+  {
+   "leaf": "Treewidth, pathwidth and graph searching",
+   "scope": "Problems ask for the exact treewidth, pathwidth, treedepth or node-search number of specific graph families such as grids, graph products, M\u00f6bius ladders or Kneser graphs. They are hard because lower bounds need brambles or obstruction arguments from search games.",
+   "techniques": [
+    "brambles and treewidth duality",
+    "minimal separators and chordal completions",
+    "cops-and-robber and node-search games",
+    "minor-monotonicity and forbidden minors",
+    "elimination orderings"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Hitting and commute times via electrical networks",
+   "scope": "Problems ask for exact expected hitting times, commute times, cover times or effective resistances of random walks on explicit graphs. They are hard because exact answers need symmetry reduction, resistance computations or the solution of a linear system.",
+   "techniques": [
+    "commute time identity via effective resistance",
+    "series-parallel and star-mesh reductions",
+    "Foster's theorem",
+    "Laplacian pseudoinverse methods",
+    "symmetry lumping of Markov chains"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Combinatorial complexity in computational geometry",
+   "scope": "Problems ask for exact counts of faces, vertices or edges in arrangements, Voronoi diagrams, convex hulls, lower envelopes or triangulations of given configurations, or for the maximum complexity over all configurations. They are hard because extremal constructions must be paired with tight upper bounds.",
+   "techniques": [
+    "Euler's formula for planar subdivisions",
+    "Davenport\u2013Schinzel sequences",
+    "zone theorem",
+    "point-line duality",
+    "lifting map to the paraboloid for Delaunay triangulations",
+    "Clarkson\u2013Shor random sampling bounds"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Real-time schedulability and response-time analysis",
+   "scope": "Problems give periodic or sporadic task sets with periods, deadlines, worst-case execution times and possibly blocking, and ask for worst-case response times, schedulability under RM, DM or EDF, or the largest feasible utilization. They are hard because response-time iterations and demand-bound functions interact subtly with priority inversion and release jitter.",
+   "techniques": [
+    "response-time fixpoint iteration",
+    "Liu\u2013Layland utilization bound",
+    "processor demand criterion for EDF",
+    "priority ceiling and inheritance protocols",
+    "critical instant arguments",
+    "hyperperiod analysis"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Round complexity in the LOCAL model",
+   "scope": "Problems ask for the exact number of rounds needed for symmetry-breaking tasks (coloring, MIS, maximal matching) on rings, paths or bounded-degree trees, often as a precise function involving log*. They are hard because lower bounds need neighborhood-graph or round-elimination arguments.",
+   "techniques": [
+    "Cole\u2013Vishkin color reduction",
+    "chromatic number of neighborhood graphs",
+    "round elimination",
+    "Ramsey-based lower bounds for order-invariant algorithms",
+    "Linial's lower bound"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression involving log*"
+   ]
+  },
+  {
+   "leaf": "Fault-tolerant consensus resilience and round bounds",
+   "scope": "Problems ask for the minimum number of processes, rounds or messages for agreement tasks under crash, omission or Byzantine failures, in synchronous or partially synchronous models with a given connectivity or authentication. They are hard because tight bounds need both a protocol and an indistinguishability lower bound.",
+   "techniques": [
+    "bivalence and valency arguments",
+    "chains of indistinguishable executions",
+    "scenario arguments for Byzantine bounds",
+    "f+1 round lower bound",
+    "connectivity bounds for Byzantine agreement"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in f or n"
+   ]
+  },
+  {
+   "leaf": "Consensus numbers of shared objects",
+   "scope": "Problems define a shared-memory object type and ask for its consensus number, its set-agreement power, or the minimal number of registers a task needs. They are hard because upper bounds need valency case analysis over critical states, while lower bounds need explicit wait-free protocols.",
+   "techniques": [
+    "critical-state valency analysis",
+    "commuting versus overwriting operation arguments",
+    "explicit consensus protocols from object semantics",
+    "BG simulation",
+    "topological arguments for set agreement"
+   ],
+   "answer_forms": [
+    "integer",
+    "infinity",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Litmus test outcomes under weak memory models",
+   "scope": "Problems give a small multi-threaded program and ask which final register or memory states are allowed, or how many, under SC, x86-TSO, ARMv8, POWER or C11 with given fences and memory orderings. They are hard because axiomatic models require checking that combined relations are acyclic across all candidate executions.",
+   "techniques": [
+    "candidate execution enumeration over rf, co and fr",
+    "derivation of happens-before and synchronizes-with",
+    "store buffer operational semantics",
+    "fence and dependency ordering constraints",
+    "release-acquire and SC-fence semantics in C11"
+   ],
+   "answer_forms": [
+    "integer count of outcomes",
+    "set of outcomes",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Lambda calculus reduction and combinator translation",
+   "scope": "Problems ask for the number of reduction steps to normal form under a given strategy, the normal form of terms built from Church or Scott encodings, or the size of the combinator translation of a given term. They are hard because sharing, the choice of strategy and encoding details change the counts drastically.",
+   "techniques": [
+    "normal-order and applicative-order reduction",
+    "Church and Scott numeral arithmetic",
+    "bracket abstraction algorithms over S, K, I, B, C",
+    "de Bruijn indices and term size measures",
+    "fixed-point combinators and recursion unfolding"
+   ],
+   "answer_forms": [
+    "integer",
+    "lambda term",
+    "combinator expression"
+   ]
+  },
+  {
+   "leaf": "Type inhabitation and principal type inference",
+   "scope": "Problems ask for the principal type of a term under Hindley\u2013Milner or the simply typed lambda calculus, or for the number of \u03b2-normal \u03b7-long inhabitants of a given type in simple types or System F. They are hard because counting inhabitants involves proof search with variable reuse, and inference needs exact unification.",
+   "techniques": [
+    "Robinson unification",
+    "let-polymorphism generalization",
+    "Ben-Yelles proof search for normal inhabitants",
+    "Curry\u2013Howard correspondence with intuitionistic logic",
+    "parametricity and free theorems"
+   ],
+   "answer_forms": [
+    "type expression",
+    "integer",
+    "lambda term"
+   ]
+  },
+  {
+   "leaf": "Bisimulation equivalences in process calculi",
+   "scope": "Problems give CCS, CSP or labelled-transition-system processes and ask for the number of equivalence classes under strong, weak or branching bisimulation, trace equivalence or failures equivalence, or for a minimal distinguishing Hennessy\u2013Milner formula. They are hard because \u03c4-abstraction and divergence create subtle differences among these equivalences.",
+   "techniques": [
+    "Paige\u2013Tarjan partition refinement",
+    "weak transition saturation",
+    "Hennessy\u2013Milner logic distinguishing formulas",
+    "linear-time\u2013branching-time spectrum",
+    "congruence properties under choice and restriction"
+   ],
+   "answer_forms": [
+    "integer",
+    "modal formula",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Termination and completion of term rewriting systems",
+   "scope": "Problems give a rewriting system and ask for its derivational complexity, its number of critical pairs, the system that Knuth\u2013Bendix completion produces under a given ordering, or normal forms. They are hard because completion can diverge or needs a careful choice of ordering.",
+   "techniques": [
+    "critical pair computation via unification",
+    "Knuth\u2013Bendix completion",
+    "recursive and lexicographic path orderings",
+    "polynomial and matrix interpretations",
+    "dependency pair method",
+    "Newman's lemma"
+   ],
+   "answer_forms": [
+    "integer",
+    "set of rewrite rules",
+    "normal form term"
+   ]
+  },
+  {
+   "leaf": "Abstract interpretation with widening and narrowing",
+   "scope": "Problems give a short imperative program and an abstract domain (intervals, octagons, congruences, signs) and ask for the abstract invariant at a program point after a specified fixpoint iteration with widening and narrowing. They are hard because the result depends exactly on iteration order, widening thresholds and the domain operations.",
+   "techniques": [
+    "Kleene iteration in monotone frameworks",
+    "widening with thresholds and narrowing",
+    "Galois connections and best abstract transformers",
+    "reduced products of domains",
+    "worklist chaotic iteration ordering"
+   ],
+   "answer_forms": [
+    "interval or abstract value",
+    "tuple of abstract values",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "SSA form, dominance and register allocation",
+   "scope": "Problems give a control-flow graph or code fragment and ask for dominator trees, dominance frontiers, the number of \u03c6-functions in minimal or pruned SSA, the chromatic number of the interference graph, or spill counts. They are hard because liveness and SSA properties interact in non-obvious ways.",
+   "techniques": [
+    "dominance frontier computation",
+    "pruned and semi-pruned SSA via liveness",
+    "chordality of SSA interference graphs",
+    "graph coloring with coalescing",
+    "loop nesting forests and reducibility"
+   ],
+   "answer_forms": [
+    "integer",
+    "set of nodes",
+    "tree description"
+   ]
+  },
+  {
+   "leaf": "Cycle counting in pipelined and out-of-order processors",
+   "scope": "Problems give an instruction sequence and microarchitectural parameters (pipeline stages, forwarding paths, functional unit latencies, ROB size, branch predictor) and ask for total cycles, stall counts or the minimal initiation interval of a software-pipelined loop. They are hard because hazards interact and a precise timeline must be built.",
+   "techniques": [
+    "data hazard analysis with forwarding",
+    "Tomasulo reservation stations and register renaming",
+    "reorder buffer commit timing",
+    "resource and recurrence MII for modulo scheduling",
+    "branch predictor state machines"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of cycle numbers"
+   ]
+  },
+  {
+   "leaf": "Cache miss counts under replacement policies",
+   "scope": "Problems give memory access patterns (for example, loop nests over arrays with a given layout) and a cache configuration, and ask for exact miss counts or hit ratios under LRU, FIFO, tree-PLRU or optimal replacement. They are hard because set mapping, associativity and policy anomalies must be tracked precisely.",
+   "techniques": [
+    "reuse and stack distance analysis",
+    "set-index mapping and conflict analysis",
+    "Belady's MIN algorithm",
+    "tree-PLRU state tracking",
+    "inclusion property of stack algorithms",
+    "tiling and blocking analysis"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Exact IEEE floating-point evaluation",
+   "scope": "Problems ask for the exact value a floating-point expression or loop produces in a given IEEE 754 format and rounding mode, the number of representable values in a range, or the rounding error of a summation scheme. They are hard because rounding must be tracked at every step, including subnormals, ties-to-even and FMA effects.",
+   "techniques": [
+    "ulp and binade analysis",
+    "Sterbenz lemma",
+    "round-to-nearest ties-to-even reasoning",
+    "error-free transformations such as TwoSum",
+    "subnormal and overflow handling",
+    "double rounding effects"
+   ],
+   "answer_forms": [
+    "exact rational or decimal value",
+    "integer",
+    "hexadecimal bit pattern"
+   ]
+  },
+  {
+   "leaf": "Functional dependencies and normal-form decomposition",
+   "scope": "Problems give a relational schema with functional (and possibly multivalued) dependencies and ask for the number of candidate keys, the prime attributes, the size of a canonical cover, or the result of a decomposition test. They are hard because enumerating candidate keys is combinatorial, and lossless-join and dependency-preservation tests need careful chase reasoning.",
+   "techniques": [
+    "attribute closure",
+    "canonical cover computation",
+    "chase test for lossless joins",
+    "BCNF and 3NF synthesis algorithms",
+    "Armstrong relations",
+    "dependency preservation checks"
+   ],
+   "answer_forms": [
+    "integer",
+    "set of attributes",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Conjunctive query containment and Datalog evaluation",
+   "scope": "Problems ask whether one conjunctive query, possibly with inequalities or unions, is contained in another, for the size of a query's core, or for the fixpoint of a Datalog program under stratified or well-founded semantics. They are hard because containment needs a homomorphism search, and the different semantics for negation diverge subtly.",
+   "techniques": [
+    "Chandra\u2013Merlin homomorphism theorem",
+    "core computation and query minimization",
+    "semi-naive bottom-up evaluation",
+    "stratified negation",
+    "well-founded and stable model semantics",
+    "containment with inequalities via linearizations"
+   ],
+   "answer_forms": [
+    "integer",
+    "set of tuples",
+    "query",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Serializability classes of transaction schedules",
+   "scope": "Problems give transaction schedules and ask about conflict, view or final-state serializability, the number of equivalent serial orders, or whether 2PL, strict 2PL, timestamp ordering or snapshot isolation admits the schedule. They are hard because view serializability is NP-complete in general and snapshot-isolation anomalies are subtle.",
+   "techniques": [
+    "precedence graph acyclicity",
+    "polygraphs for view serializability",
+    "counting topological sorts",
+    "lock-point analysis for 2PL",
+    "dependency graph cycles for snapshot isolation anomalies"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered sequence of transactions",
+    "multiple choice letter"
+   ]
+  },
+  {
+   "leaf": "Differential and linear metrics of S-boxes",
+   "scope": "Problems give a small vectorial Boolean function, such as a power map over GF(2^n) or a 4-bit S-box, and ask for its differential uniformity, linearity, nonlinearity, boomerang uniformity, algebraic degree or number of fixed points. They are hard because finite-field structure must be used to avoid brute force or to verify exact spectra.",
+   "techniques": [
+    "difference distribution table analysis",
+    "Walsh\u2013Hadamard spectrum computation",
+    "algebraic normal form and degree",
+    "APN and almost bent function theory",
+    "boomerang connectivity table",
+    "affine equivalence invariants"
+   ],
+   "answer_forms": [
+    "integer",
+    "spectrum or multiset description"
+   ]
+  },
+  {
+   "leaf": "Concrete security advantage of symmetric constructions",
+   "scope": "Problems define a mode of operation, MAC or PRF construction and ask for the exact optimal advantage of an adversary with a given query budget, or the success probability of a given generic attack. They are hard because the exact constants from collision events and hybrid steps must be computed rather than loosely bounded.",
+   "techniques": [
+    "game-hopping proofs",
+    "PRP/PRF switching lemma",
+    "birthday and multicollision probability calculations",
+    "explicit distinguishing attacks on MAC variants",
+    "coefficient-H technique"
+   ],
+   "answer_forms": [
+    "closed-form expression in q and n",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Weight structure of linear error-correcting codes",
+   "scope": "Problems ask for the minimum distance, weight enumerator, covering radius, number of codewords of a given weight, or dual parameters of given linear codes (BCH, Reed\u2013Muller, quadratic residue, product or concatenated codes). They are hard because the weight enumerators come from structure theorems rather than enumeration.",
+   "techniques": [
+    "MacWilliams identities",
+    "BCH and Hartmann\u2013Tzeng bounds",
+    "Reed\u2013Muller recursive structure",
+    "Gleason-type theorems for self-dual codes",
+    "syndrome and coset leader analysis",
+    "Griesmer and Plotkin bounds"
+   ],
+   "answer_forms": [
+    "integer",
+    "polynomial",
+    "ordered tuple of code parameters"
+   ]
+  },
+  {
+   "leaf": "Lossless compression and prefix-code optimization",
+   "scope": "Problems ask for the expected codeword length of Huffman or length-limited codes, the number of phrases in an LZ77 or LZ78 parse, arithmetic coding intervals, or optimal alphabetic codes for given distributions or string families. They are hard because ties, length limits and string structure change the answer in subtle ways.",
+   "techniques": [
+    "Huffman merging with tie analysis",
+    "package-merge for length-limited codes",
+    "Hu\u2013Tucker alphabetic codes",
+    "Kraft\u2013McMillan inequality",
+    "LZ78 dictionary growth on structured strings",
+    "entropy and redundancy computation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "codeword length vector"
+   ]
+  },
+  {
+   "leaf": "Quantum circuits and stabilizer codes",
+   "scope": "Problems ask for the exact output state or success probability of a given quantum circuit, the minimal T-count or CNOT count of a small unitary, or the [[n,k,d]] parameters and logical operators of a given stabilizer code. They are hard because Clifford tableaux and phases must be tracked exactly.",
+   "techniques": [
+    "stabilizer tableau simulation",
+    "Clifford+T synthesis and phase polynomials",
+    "Grover rotation-angle analysis",
+    "check matrix rank and symplectic inner products",
+    "Knill\u2013Laflamme conditions",
+    "commutation identities for CNOTs and phase gates"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "ordered triple of code parameters"
+   ]
+  },
+  {
+   "leaf": "VC and Littlestone dimensions of concept classes",
+   "scope": "Problems define a concept class (geometric shapes, Boolean formulas, automata of bounded size, threshold units) and ask for its VC dimension, Littlestone dimension, teaching dimension or optimal mistake bound. They are hard because the lower bound needs an explicit shattered set or mistake tree, and the upper bound needs a combinatorial impossibility argument.",
+   "techniques": [
+    "explicit shattering constructions",
+    "Radon's theorem and convexity arguments",
+    "Sauer\u2013Shelah lemma counting",
+    "mistake trees and the Standard Optimal Algorithm",
+    "sample compression schemes"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in d"
+   ]
+  },
+  {
+   "leaf": "Price of anarchy and mechanism payments",
+   "scope": "Problems define congestion games, auctions or network routing games and ask for the exact price of anarchy or price of stability, equilibrium flows, or VCG and Myerson payments and revenues. They are hard because tight bounds need worst-case instance constructions matched by smoothness arguments.",
+   "techniques": [
+    "Pigou- and Braess-style worst-case instances",
+    "smoothness framework",
+    "Rosenthal potential functions",
+    "Myerson's lemma and virtual valuations",
+    "VCG externality payments",
+    "Wardrop equilibrium computation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "tuple of payments"
+   ]
+  },
+  {
+   "leaf": "Privacy loss accounting in differential privacy",
+   "scope": "Problems ask for the exact privacy parameters of composed, subsampled or post-processed mechanisms (randomized response variants, Laplace, Gaussian, exponential mechanism), or for the global sensitivity of given queries. They are hard because exact accounting uses privacy loss distributions or R\u00e9nyi divergences instead of loose composition bounds.",
+   "techniques": [
+    "global and smooth sensitivity computation",
+    "privacy loss random variable analysis",
+    "R\u00e9nyi DP composition and conversion",
+    "amplification by subsampling",
+    "optimal composition theorems",
+    "hypothesis-testing f-DP characterization"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Routing convergence and transport protocol dynamics",
+   "scope": "Problems give a network topology with link changes, or a transport-protocol scenario, and ask for the number of convergence rounds of distance-vector routing, the number of count-to-infinity iterations, congestion-window trajectories under loss events, or CRC remainders. They are hard because protocol rules such as split horizon, poisoned reverse and fast recovery interact precisely with timing.",
+   "techniques": [
+    "synchronous Bellman\u2013Ford iteration",
+    "split horizon and poisoned reverse analysis",
+    "TCP slow start, AIMD and fast recovery dynamics",
+    "sliding window sequence-number constraints",
+    "CRC polynomial division over GF(2)"
+   ],
+   "answer_forms": [
+    "integer",
+    "bit string",
+    "sequence of window sizes"
+   ]
+  },
+  {
+   "leaf": "Comparator sorting networks and 0-1 principle",
+   "scope": "Problems give, or ask for, comparator networks on a small number of wires. They ask how many 0-1 inputs a network fails to sort, the fewest comparators that repair it, or the size/depth of a network that merges or selects. They are hard because checking all 2^n inputs is infeasible, so the solver needs structural arguments about the sets of outputs each layer can produce.",
+   "techniques": [
+    "0-1 principle",
+    "Batcher odd-even merge and bitonic constructions",
+    "layer-by-layer tracking of reachable output sets",
+    "redundant comparator elimination",
+    "(n,k)-selector and merging network constructions",
+    "subsumption between generalized network prefixes"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple (comparator list)",
+    "small set of 0-1 input vectors",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Rebalancing traces in AVL and red-black trees",
+   "scope": "Given insertion/deletion sequences or shape constraints, determine the number of rotations, recolorings, the final tree shape, or extremal node counts. The difficulty is that fixups can cascade, each step depends on a delicate case analysis, and extremal shapes have to be derived through recurrences.",
+   "techniques": [
+    "AVL balance-factor case analysis (single vs double rotation)",
+    "red-black insertion and deletion fixup cases",
+    "isomorphism between red-black and 2-3-4 trees",
+    "Fibonacci-tree extremal recurrences",
+    "counting valid red-black colorings of a fixed shape",
+    "rank rules of weak AVL trees"
+   ],
+   "answer_forms": [
+    "integer",
+    "preorder key sequence of the final tree",
+    "ordered tuple of counts"
+   ]
+  },
+  {
+   "leaf": "Deterministic streaming frequency and quantile summaries",
+   "scope": "Problems run or analyze deterministic summaries such as Misra-Gries, SpaceSaving, lossy counting or Greenwald-Khanna on adversarially ordered streams. They ask for exact final counter states, worst-case estimation error, or the minimum space that guarantees a threshold. Hard because decrement and eviction rules interact with orderings and with merges in ways that are not obvious.",
+   "techniques": [
+    "Misra-Gries decrement accounting and the n/(k+1) error bound",
+    "SpaceSaving minimum-counter replacement",
+    "isomorphism between Misra-Gries and SpaceSaving states",
+    "mergeable summary combination rules",
+    "Greenwald-Khanna tuple invariants",
+    "adversarial stream construction for lower bounds"
+   ],
+   "answer_forms": [
+    "integer",
+    "final set of (item, counter) pairs",
+    "rational error bound"
+   ]
+  },
+  {
+   "leaf": "Stable matching lattices and rotations",
+   "scope": "For explicit preference profiles, count the stable matchings, identify the rotation poset, find egalitarian or minimum-regret matchings, or work out how a strategic misreport changes the result of deferred acceptance. Hard because the lattice structure is hidden inside the preference lists, and one misreport alters the whole proposal run.",
+   "techniques": [
+    "Gale-Shapley proposal traces",
+    "rotation exposure and elimination",
+    "bijection between closed subsets of the rotation poset and stable matchings",
+    "cyclic and Latin-square preference profiles",
+    "truncation and misreport manipulation",
+    "Irving's algorithm for stable roommates"
+   ],
+   "answer_forms": [
+    "integer",
+    "matching as a set of pairs",
+    "ordered tuple",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Matroid rank, circuits and greedy optimality",
+   "scope": "Problems define matroids (graphic, transversal, laminar, gammoids, linear over small fields) and ask for ranks, numbers of bases or circuits, optima of matroid intersection or union, or whether greedy is optimal on an independence system. Hard because the solver has to spot hidden matroid structure or compute through duality and representability.",
+   "techniques": [
+    "submodular rank function computations",
+    "duality, deletion and contraction",
+    "matroid intersection via exchange-graph augmenting paths",
+    "matroid union and Nash-Williams covering/packing",
+    "representability over GF(2) and GF(3)",
+    "Rado-Edmonds characterization of greedy optimality"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set",
+    "polynomial (e.g. characteristic or Tutte polynomial)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Perfect matching counting via Pfaffian orientations",
+   "scope": "Count the perfect matchings, dimer coverings or weighted matching sums of explicit planar or near-planar graphs, defective grids, or bipartite graphs given as permanents. Direct enumeration is infeasible, so the solver must build Pfaffian orientations or transfer matrices, or use determinantal identities.",
+   "techniques": [
+    "FKT Pfaffian orientation of planar graphs",
+    "Kasteleyn matrices for grid graphs",
+    "Temperley bijection with spanning trees",
+    "transfer-matrix methods",
+    "Lindstr\u00f6m-Gessel-Viennot lattice paths",
+    "graphical condensation and urban renewal"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "polynomial generating function"
+   ]
+  },
+  {
+   "leaf": "Tight ratios of greedy and local-search heuristics",
+   "scope": "Find the exact worst-case approximation ratio of a specified greedy, list or local-search heuristic (set cover and coverage variants, bin packing, swap-based facility location, load balancing), including a tight instance family. Hard because the upper bound needs charging or factor-revealing arguments and the matching lower bound needs explicit adversarial constructions.",
+   "techniques": [
+    "factor-revealing linear programs",
+    "dual fitting and charging schemes",
+    "local-optimality swap inequalities",
+    "weighting functions for bin-packing heuristics",
+    "harmonic-sum bounds",
+    "limit constructions of tight instance families"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression (e.g. involving e or H_k)",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Simplex pivoting rules and degeneracy",
+   "scope": "Trace the simplex method on explicit LPs under a given pivot rule (Dantzig, Bland, largest increase, steepest edge). Questions ask for pivot counts, whether cycling occurs, final dual values, or sensitivity ranges. Hard because degenerate pivots and tie-breaking produce long or cyclic paths that are easy to miscount.",
+   "techniques": [
+    "tableau and revised simplex updates",
+    "Bland's anticycling rule",
+    "lexicographic perturbation",
+    "Klee-Minty style deformed cubes",
+    "complementary slackness for dual recovery",
+    "parametric and sensitivity range analysis"
+   ],
+   "answer_forms": [
+    "integer (pivot count)",
+    "rational vector",
+    "interval with rational endpoints",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Border arrays and multi-pattern matching automata",
+   "scope": "Questions about KMP failure functions, border and prefix arrays, and Aho-Corasick automata. Examples: count the strings that realize a given border array, find worst-case comparison counts, count fail or output links, or count the states of string-matching DFAs. Hard because whether a border sequence is valid, and how failure-link chains behave, depend on subtle periodicity constraints.",
+   "techniques": [
+    "border chains and the Fine-Wilf periodicity lemma",
+    "validity conditions for border and prefix arrays",
+    "minimal-alphabet realizations of border arrays",
+    "MP vs KMP comparison counting",
+    "Aho-Corasick goto, fail and dictionary-suffix links",
+    "string-matching automaton construction"
+   ],
+   "answer_forms": [
+    "integer",
+    "string",
+    "integer sequence"
+   ]
+  },
+  {
+   "leaf": "Addition chains and exponentiation cost",
+   "scope": "Find shortest addition chains, addition-subtraction chains or addition sequences for specific exponents, or exact multiplication counts for windowed and recoded exponentiation. Hard because proving optimality needs lower-bound arguments that go beyond counting steps of the binary method.",
+   "techniques": [
+    "binary, m-ary and sliding-window methods",
+    "star (Brauer) chains vs general chains",
+    "Sch\u00f6nhage-type lower bounds via binary weight",
+    "NAF and width-w NAF recoding",
+    "vectorial chains and Straus-Shamir simultaneous exponentiation",
+    "Scholz-Brauer relations for 2^n - 1"
+   ],
+   "answer_forms": [
+    "integer",
+    "chain as an integer sequence",
+    "ordered pair"
+   ]
+  },
+  {
+   "leaf": "Work-span analysis of parallel algorithms",
+   "scope": "Compute the exact work, span and parallelism of fork-join or PRAM algorithms given as recurrences or DAGs, or exact greedy-scheduler completion bounds on P processors. Hard because span recurrences with parallel loops, scans and nested recursion give closed forms that are not obvious, and scheduling anomalies can appear.",
+   "techniques": [
+    "span recurrences with logarithmic-depth parallel loops",
+    "Brent's theorem and greedy scheduling bounds",
+    "Blelloch scan up-sweep/down-sweep costs",
+    "parallel merge and mergesort recurrences",
+    "critical paths in series-parallel DAGs",
+    "work-stealing steal-count bounds"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer",
+    "ordered pair (work, span)"
+   ]
+  },
+  {
+   "leaf": "Black-white and reversible pebbling of DAGs",
+   "scope": "Find black, black-white or reversible pebbling numbers and time-space tradeoffs for explicit DAGs such as pyramids, trees, butterflies or custom gadgets. Hard because optimal strategies are not greedy, and lower bounds need potential-function or frontier-cut arguments.",
+   "techniques": [
+    "pyramid lower-bound arguments",
+    "white-pebble savings analysis",
+    "reversible (Bennett) pebbling games",
+    "frontier and blocking-path arguments",
+    "time-space tradeoff constructions",
+    "Dymond-Tompa pebble games"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (space, time)",
+    "closed form in the DAG height"
+   ]
+  },
+  {
+   "leaf": "Fourier weight and noise stability of Boolean functions",
+   "scope": "Compute Fourier coefficients, the spectral weight at given levels, influences, noise stability or noise sensitivity of explicit Boolean functions (tribes, recursive majority, address and threshold functions). Hard because exact values need combinatorial identities, not asymptotic estimates.",
+   "techniques": [
+    "Walsh-Hadamard expansion",
+    "influences via discrete derivatives",
+    "Stab_rho as a weighted sum of squared Fourier coefficients",
+    "Krawtchouk polynomials for symmetric functions",
+    "Fourier formulas for composed functions",
+    "Chow parameters of threshold functions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "polynomial in the noise parameter",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Tensor rank of small bilinear maps",
+   "scope": "Find the rank, border rank or multiplicative complexity of small bilinear maps over specified fields, such as polynomial multiplication modulo a polynomial, small rectangular matrix products, or structured tensors. Hard because upper bounds need clever algorithms, while lower bounds need substitution, flattening or field-dependent arguments.",
+   "techniques": [
+    "substitution method lower bounds",
+    "flattening and Koszul-flattening rank bounds",
+    "Chinese-remainder and Toom-Cook interpolation algorithms",
+    "field dependence (GF(2) vs algebraically closed fields)",
+    "border rank via degenerations",
+    "isotropy groups of tensors"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of ranks",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Gadget reductions and inapproximability thresholds",
+   "scope": "Given a gadget or a starting hardness gap, compute the inapproximability threshold that results, or the optimal gadget parameter for implementing one constraint type with another. Hard because it means optimizing gadget weights over all auxiliary assignments and propagating completeness and soundness correctly.",
+   "techniques": [
+    "alpha-gadgets and their LP formulation",
+    "completeness/soundness gap propagation",
+    "linear-equation CSPs as hardness sources",
+    "constraint-to-2CSP expansions",
+    "label cover parameter tracking",
+    "composition of gap-preserving reductions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Structural collapses among complexity classes",
+   "scope": "Determine which collapses, inclusions or separations follow from stated hypotheses (sparse hard sets, nonuniform inclusions, hierarchy containments), or place a newly defined resource-bounded class within known classes. Hard because several known theorems must be chained correctly, with quantifiers and contrapositives tracked exactly.",
+   "techniques": [
+    "Karp-Lipton style collapses",
+    "Mahaney-type sparse-set arguments",
+    "Toda's theorem and counting classes",
+    "padding and translation arguments",
+    "quantifier manipulation in Sigma_k/Pi_k",
+    "relativization considerations"
+   ],
+   "answer_forms": [
+    "letter for multiple choice",
+    "name of a complexity class",
+    "small set of classes"
+   ]
+  },
+  {
+   "leaf": "Spectral expansion of explicit graph products",
+   "scope": "Compute eigenvalues, spectral gaps and expansion parameters of explicit Cayley graphs, lifts, and replacement, zig-zag, tensor or derandomized-square products. Hard because the eigenbases have to be found from group characters, or the products bounded exactly.",
+   "techniques": [
+    "characters of abelian groups for Cayley graph spectra",
+    "zig-zag product eigenvalue bounds",
+    "replacement and tensor/Cartesian product spectra",
+    "2-lifts and signed adjacency matrices",
+    "expander mixing lemma",
+    "Cheeger-type edge expansion bounds"
+   ],
+   "answer_forms": [
+    "algebraic number",
+    "closed-form expression",
+    "small set (spectrum)",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Classical versus quantum values of nonlocal games",
+   "scope": "Compute the classical, quantum and no-signalling values of explicit two-player nonlocal games such as XOR games, linear-system games or custom predicate games. Hard because the classical value needs exhaustive reasoning over strategies, and the quantum value needs SDP or Tsirelson-type operator arguments.",
+   "techniques": [
+    "Tsirelson's theorem for XOR-game bias via SDP",
+    "Grothendieck-constant ratio bounds",
+    "operator solutions of linear-system games",
+    "parallel repetition of XOR games",
+    "no-signalling polytope and PR boxes",
+    "strategy symmetrization"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression (e.g. trigonometric)",
+    "ordered triple of values"
+   ]
+  },
+  {
+   "leaf": "CDCL conflict analysis and clause learning",
+   "scope": "Given a CNF, a decision sequence and a propagation order, determine the learned clause (first UIP, all-UIP, or decision scheme), the backjump level, the LBD, or the number of conflicts before refutation under a fixed heuristic. Hard because building the implication graph and carrying out the resolution steps are error-prone and depend on propagation order.",
+   "techniques": [
+    "implication graph construction",
+    "first-UIP cut identification",
+    "recursive learned-clause minimization",
+    "non-chronological backjumping",
+    "literal block distance computation",
+    "VSIDS bumping and decay"
+   ],
+   "answer_forms": [
+    "clause (set of literals)",
+    "integer",
+    "ordered pair (clause size, backjump level)"
+   ]
+  },
+  {
+   "leaf": "OBDD and ZDD size under variable orderings",
+   "scope": "Count the nodes of reduced ordered BDDs or ZDDs for explicit functions under given variable orders, or find the best and worst orders. Hard because node counts equal numbers of distinct subfunctions per level, and these must be enumerated exactly.",
+   "techniques": [
+    "distinct-subfunction counting per level",
+    "interleaved vs separated orders for comparators and adders",
+    "BDD size of symmetric functions",
+    "zero-suppression rules",
+    "sifting and local variable swaps",
+    "fooling-set lower bounds for multiplication bits"
+   ],
+   "answer_forms": [
+    "integer",
+    "variable ordering (permutation)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Petri net coverability and boundedness",
+   "scope": "For small place/transition nets, decide boundedness, coverability, reachability or liveness, or find the size of the Karp-Miller coverability tree. Hard because omega-acceleration interacts with invariants, and reachability sets get large quickly.",
+   "techniques": [
+    "Karp-Miller coverability tree",
+    "place and transition semiflows",
+    "siphons and traps (Commoner's condition)",
+    "marking equation over the integers",
+    "workflow-net soundness",
+    "Rackoff-style coverability bounds"
+   ],
+   "answer_forms": [
+    "integer",
+    "marking vector",
+    "small set of markings",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Timed automata regions and zones",
+   "scope": "Count clock regions or reachable zones, decide reachability, or find the minimum time to reach a location in small timed automata. Hard because region counts grow combinatorially with the clock constants, and resets and diagonal constraints complicate the analysis.",
+   "techniques": [
+    "region equivalence counting formula",
+    "difference bound matrices and canonical forms",
+    "LU-extrapolation of zones",
+    "corner-point abstraction for optimal time",
+    "clock reset and invariant effects",
+    "Zeno and non-Zeno run analysis"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational time value",
+    "difference bound matrix"
+   ]
+  },
+  {
+   "leaf": "Quantitative model checking of Markov models",
+   "scope": "Compute exact reachability probabilities, expected rewards, PCTL satisfaction sets or optimal scheduler values for small DTMCs and MDPs. Hard because end components, the difference between minimizing and maximizing schedulers, and nested probabilistic operators all require careful setup of linear systems.",
+   "techniques": [
+    "linear equation systems for reachability",
+    "maximal end component decomposition",
+    "value iteration vs policy iteration",
+    "nested PCTL operator evaluation",
+    "expected total reward under almost-sure reachability",
+    "product with deterministic omega-automata for LTL objectives"
+   ],
+   "answer_forms": [
+    "rational number",
+    "small set of states",
+    "ordered tuple of probabilities"
+   ]
+  },
+  {
+   "leaf": "Weakest preconditions and inductive loop invariants",
+   "scope": "Compute weakest (liberal) preconditions, strongest postconditions or the strongest inductive invariant for small imperative programs over integers or arrays, including total-correctness variants. Hard because loops require the exact invariant to be found, and wp of nested loops expands in non-trivial ways.",
+   "techniques": [
+    "Dijkstra wp calculus",
+    "inductive invariants and loop variants",
+    "strongest postcondition with existential elimination",
+    "Craig interpolation",
+    "predicate abstraction",
+    "linear ranking functions for termination"
+   ],
+   "answer_forms": [
+    "logical formula",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "LR and LL parsing table construction",
+   "scope": "Count LR(0), SLR, LALR(1) or canonical LR(1) states and conflicts, compute FIRST/FOLLOW sets, or find which parameterized grammars fall into a given parsing class. Hard because lookahead propagation and LALR state merging have subtle effects on conflicts.",
+   "techniques": [
+    "canonical LR(1) item-set construction",
+    "LALR merging and induced reduce-reduce conflicts",
+    "DeRemer-Pennello lookahead computation",
+    "FIRST/FOLLOW fixpoint computation",
+    "left factoring and left-recursion elimination",
+    "precedence and associativity conflict resolution"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of terminals",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Inclusion-based versus unification-based pointer analysis",
+   "scope": "For small C-like programs, compute points-to sets under inclusion-based, unification-based, field-sensitive, flow-sensitive or context-sensitive analyses, and compare how precise they are. Hard because propagation through dereferences, and the merges forced by unification, cascade in non-obvious ways.",
+   "techniques": [
+    "inclusion constraint graph propagation",
+    "online cycle elimination",
+    "union-find unification (Steensgaard style)",
+    "field-sensitive modeling",
+    "flow-sensitive strong updates",
+    "call-string and k-limited context sensitivity"
+   ],
+   "answer_forms": [
+    "small set of abstract locations",
+    "integer (number of may-alias pairs)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Polyhedral dependence analysis and loop legality",
+   "scope": "For affine loop nests, compute dependence distance or direction vectors, count dependent iteration pairs, or decide whether interchange, skewing, tiling or fusion is legal, and give the resulting iteration counts. Hard because integer constraints and lexicographic positivity call for exact Presburger-style reasoning.",
+   "techniques": [
+    "GCD and Banerjee tests",
+    "Fourier-Motzkin and Omega-test elimination",
+    "unimodular loop transformations",
+    "lexicographic positivity of dependence vectors",
+    "Ehrhart-style lattice point counting",
+    "tiling hyperplane legality conditions"
+   ],
+   "answer_forms": [
+    "integer",
+    "integer vector",
+    "small set of vectors",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Subtyping with recursive and variant types",
+   "scope": "Decide subtyping, or compute joins and meets, between equi-recursive or iso-recursive types built from records, functions and variants, or count types up to equivalence. Hard because the reasoning is coinductive and contravariance flips the direction of the comparison.",
+   "techniques": [
+    "coinductive subtyping algorithms with assumption sets",
+    "regular-tree interpretation of recursive types",
+    "contravariance of function domains",
+    "width and depth record subtyping",
+    "coinductive axiomatizations of type equality",
+    "existence conditions for joins and meets"
+   ],
+   "answer_forms": [
+    "letter for multiple choice",
+    "type expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Garbage collector traces and heap reachability",
+   "scope": "Simulate copying, mark-compact, generational, incremental or reference-counting collectors on given heaps and mutator sequences. Questions ask for final object addresses, promoted objects, write-barrier events, or cycles left unreclaimed. Hard because traversal order, barriers and remembered sets fix the exact outcome.",
+   "techniques": [
+    "Cheney breadth-first copying scan order",
+    "sliding and two-finger compaction",
+    "tri-color invariant with insertion and deletion barriers",
+    "remembered sets and card marking",
+    "trial-deletion cycle collection",
+    "deferred and coalesced reference counting"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered list of object addresses",
+    "small set of objects"
+   ]
+  },
+  {
+   "leaf": "Cache coherence protocol transaction counting",
+   "scope": "Given multicore access traces, find the bus or directory messages, invalidations, per-line states or false-sharing events under MSI, MESI, MOESI or directory protocols. Hard because protocol variants, upgrades and block sizes change the exact counts.",
+   "techniques": [
+    "MESI/MOESI state machines",
+    "Owned-state dirty sharing",
+    "full-map vs limited-pointer directories",
+    "upgrade vs read-exclusive requests",
+    "false sharing analysis by block size",
+    "three-hop vs four-hop directory transactions"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of line states",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Integer adder and multiplier architectures",
+   "scope": "Compute delay, gate count, fanout, number of reduction stages or partial-product counts for prefix adders, carry-save trees, Booth-recoded multipliers and carry-select designs. Hard because the exact counts depend on structural details and on optimizing block sizes.",
+   "techniques": [
+    "parallel prefix graph size-depth-fanout tradeoffs",
+    "radix-4 Booth recoding",
+    "Wallace vs Dadda reduction stage counts",
+    "optimal carry-skip and carry-select block sizing",
+    "4:2 compressor trees",
+    "sign-extension elimination"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (depth, size)",
+    "digit string (recoded multiplier)"
+   ]
+  },
+  {
+   "leaf": "Multi-level page tables and address translation",
+   "scope": "Given address widths, page sizes, PTE formats and access sequences, compute page-table memory, memory references per translation, TLB hit counts, or the maximum mappable memory. Hard because multi-level sparsity, huge pages and nested two-dimensional walks compound each other.",
+   "techniques": [
+    "radix-tree level and index-width computation",
+    "sparse page-table allocation counting",
+    "superpage mapping effects",
+    "nested paging two-dimensional walk cost",
+    "hashed and inverted page tables",
+    "TLB reach and page-walk caches"
+   ],
+   "answer_forms": [
+    "integer",
+    "size in bytes",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Deadlock avoidance and resource-allocation safety",
+   "scope": "For multi-resource allocation states, count safe sequences, find the largest grantable requests, or find the minimum resources that guarantee deadlock freedom under given claim patterns. Hard because the space of orderings is large and safety is not monotone in requests.",
+   "techniques": [
+    "Banker's algorithm safety check",
+    "counting safe sequences as linear extensions",
+    "resource-allocation and wait-for graphs",
+    "minimum-resource deadlock-freedom bounds",
+    "Coffman conditions",
+    "lock-ordering arguments"
+   ],
+   "answer_forms": [
+    "integer",
+    "sequence of process labels",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Mutual exclusion protocol state-space analysis",
+   "scope": "Analyze small shared-memory mutual exclusion or synchronization algorithms (Peterson, Dekker, bakery and filter variants) for safety, deadlock freedom, starvation freedom, bypass bounds or the number of reachable states. Hard because interleavings are subtle, and small changes can silently break a property.",
+   "techniques": [
+    "exhaustive interleaving state enumeration",
+    "invariant assertions",
+    "bypass and overtaking bounds",
+    "register lower bounds for mutual exclusion",
+    "bounded vs unbounded tickets",
+    "weak vs strong fairness assumptions"
+   ],
+   "answer_forms": [
+    "integer",
+    "letter for multiple choice",
+    "execution trace"
+   ]
+  },
+  {
+   "leaf": "Queueing models for system performance",
+   "scope": "Compute exact mean response times, utilizations or throughputs for M/M/1, M/M/c and M/G/1 systems, closed networks, or priority and processor-sharing disciplines. Hard because the right model must be chosen and then Little's law, Pollaczek-Khinchine and product-form results combined.",
+   "techniques": [
+    "Little's law",
+    "Pollaczek-Khinchine mean-value formula",
+    "Erlang C formula",
+    "mean value analysis for closed networks",
+    "Jackson product-form networks",
+    "PASTA and the inspection paradox"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Join order enumeration and plan spaces",
+   "scope": "Count join trees (left-deep, bushy, with or without cross products) for query graphs of given shapes, count the csg-cmp pairs a dynamic-programming enumerator visits, or find optimal plans under explicit cost models. Hard because the counts depend intricately on the topology of the query graph.",
+   "techniques": [
+    "csg-cmp pair enumeration",
+    "Catalan-based bushy tree counting",
+    "chain, star, cycle and clique counting formulas",
+    "C_out cost model",
+    "IKKBZ ordering for acyclic queries",
+    "interesting orders"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed form in the number of relations",
+    "join tree expression"
+   ]
+  },
+  {
+   "leaf": "AGM bounds and worst-case optimal joins",
+   "scope": "Compute AGM bounds, fractional edge cover numbers or worst-case output sizes for conjunctive queries with given relation sizes or degree constraints, and compare the running times of join algorithms. Hard because it needs LP optimization plus the construction of tight instances.",
+   "techniques": [
+    "fractional edge cover LP",
+    "Shearer's lemma",
+    "tight product instances",
+    "degree constraints and polymatroid bounds",
+    "generic join and leapfrog triejoin analysis",
+    "fractional hypertree width"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational exponent",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "ARIES crash recovery log analysis",
+   "scope": "Given a write-ahead log, checkpoint records and page LSNs, find the transaction and dirty-page tables after analysis, the redo start point, the records redone, the CLRs written, or final page states after crashes during recovery. Hard because fuzzy checkpoints, pageLSN tests and repeated crashes interact.",
+   "techniques": [
+    "analysis-pass table reconstruction",
+    "recLSN/pageLSN redo test",
+    "undoNextLSN chaining in CLRs",
+    "nested top actions",
+    "repeated crashes during undo",
+    "steal/no-force buffer policy"
+   ],
+   "answer_forms": [
+    "integer (LSN)",
+    "small set of LSNs or pages",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Linearizability checking of concurrent histories",
+   "scope": "Decide whether concurrent histories of queues, stacks, registers or sets are linearizable or sequentially consistent, count their valid linearizations, or identify the linearization points of lock-free algorithms. Hard because real-time order constraints interact with the semantics of each object.",
+   "techniques": [
+    "Wing-Gong backtracking search",
+    "real-time partial order of operations",
+    "locality (compositionality) of linearizability",
+    "sequential vs quiescent consistency",
+    "linearization points of lock-free stacks and queues",
+    "pending operation completion rules"
+   ],
+   "answer_forms": [
+    "integer",
+    "letter for multiple choice",
+    "operation sequence"
+   ]
+  },
+  {
+   "leaf": "Quorum system load and availability",
+   "scope": "Compute the load, resilience, failure probability or number of minimal quorums for quorum systems: majorities, grids, trees, projective planes and weighted voting. Hard because optimal load needs an LP over access strategies, and availability needs exact combinatorial probabilities.",
+   "techniques": [
+    "load LP over access strategies",
+    "fractional covering duality",
+    "finite projective plane quorums",
+    "crumbling-wall constructions",
+    "weighted voting thresholds",
+    "Byzantine masking and dissemination intersection conditions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "polynomial in the failure probability",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Vector clocks and lattices of consistent cuts",
+   "scope": "From space-time diagrams or message traces, compute vector timestamps, count consistent global states, or decide whether a predicate holds possibly or definitely. Hard because the lattice of consistent cuts can be large and causality must be tracked exactly.",
+   "techniques": [
+    "vector clock update rules",
+    "consistent cuts as order ideals of the event poset",
+    "Possibly/Definitely predicate detection",
+    "Chandy-Lamport snapshots",
+    "matrix clocks",
+    "ideal counting via chain decompositions"
+   ],
+   "answer_forms": [
+    "integer",
+    "vector timestamp",
+    "small set of events"
+   ]
+  },
+  {
+   "leaf": "Population protocols and predicate computation",
+   "scope": "Design or analyze population protocols and chemical reaction networks: which predicates are stably computable, the minimum number of states for threshold or modulo predicates, or the expected parallel time to converge. Hard because the semilinear characterization and state-count lower bounds need non-trivial arguments.",
+   "techniques": [
+    "semilinear/Presburger characterization",
+    "leader vs leaderless protocols",
+    "state-count lower bounds",
+    "global fairness and convergence arguments",
+    "three-state approximate majority",
+    "stable function computation in CRNs"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of states or predicates",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Elliptic-curve arithmetic over small fields",
+   "scope": "Count points, find group structure, orders of points, scalar multiples, embedding degrees or discrete logs on explicit elliptic curves over small prime or extension fields. Hard because getting Frobenius traces and group structure right needs careful hand reasoning.",
+   "techniques": [
+    "Hasse bound and Frobenius trace",
+    "point counting via Legendre symbols",
+    "extension-field counts via trace recurrences",
+    "group structure and embedding degree",
+    "double-and-add in projective coordinates",
+    "Pohlig-Hellman decomposition"
+   ],
+   "answer_forms": [
+    "integer",
+    "point coordinates",
+    "group structure as an ordered pair"
+   ]
+  },
+  {
+   "leaf": "LLL and lattice basis reduction",
+   "scope": "Run or bound Lagrange-Gauss, LLL or BKZ reduction on explicit low-dimensional bases, or compute successive minima, Gram-Schmidt norms or the number of swaps. Hard because size reduction and the Lov\u00e1sz condition interact, and the exact rational arithmetic is subtle.",
+   "techniques": [
+    "Lagrange-Gauss reduction in dimension two",
+    "Gram-Schmidt orthogonalization",
+    "Lov\u00e1sz condition with parameter delta",
+    "potential-function bounds on swaps",
+    "Hermite normal form",
+    "small-root lattice constructions"
+   ],
+   "answer_forms": [
+    "integer matrix (reduced basis)",
+    "integer",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Secret sharing access structures and information ratio",
+   "scope": "Decide whether access structures are ideal, bound their information ratios, find minimal share sizes, or count minimal qualified sets for threshold, compartmented or graph-based structures. Hard because ideal structures correspond to matroid ports, and lower bounds need entropy inequalities.",
+   "techniques": [
+    "polynomial threshold schemes",
+    "vector space (linear) constructions",
+    "matroid-port characterization of ideality",
+    "Shannon entropy inequality lower bounds",
+    "graph access structures with non-ideal ratios",
+    "decomposition constructions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Garbled circuits and MPC cost accounting",
+   "scope": "Compute exact ciphertext counts, communication, rounds or AND-gate counts for garbled-circuit and secret-sharing MPC protocols on specific circuits, with combinations of optimizations. Hard because the optimizations interact with each other and with circuit minimization.",
+   "techniques": [
+    "Yao garbling with point-and-permute",
+    "garbled row reduction",
+    "free-XOR and half-gates",
+    "Beaver multiplication triples",
+    "AND-count and multiplicative-depth minimization",
+    "oblivious transfer extension costs"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered pair (ciphertexts, rounds)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "TCAM range expansion and ternary encoding",
+   "scope": "Find the minimum number of ternary prefixes or TCAM entries needed to represent ranges or multi-field packet classification rules, before or after encoding optimizations. Hard because optimal ternary covers differ from prefix covers, and products across fields blow up.",
+   "techniques": [
+    "prefix expansion of ranges",
+    "minimal ternary covers with don't-cares",
+    "Gray-code range encoding",
+    "extra-bit range encoding",
+    "priority and overlap exploitation",
+    "cross-product field expansion"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of ternary strings"
+   ]
+  },
+  {
+   "leaf": "B\u00e9zier and B-spline curve computations",
+   "scope": "Find exact control points after de Casteljau subdivision, degree elevation or knot insertion, evaluate rational B\u00e9zier curves, or determine continuity orders at knots. Hard because exact rational arithmetic and knot multiplicities must be handled precisely.",
+   "techniques": [
+    "de Casteljau subdivision",
+    "Bernstein basis and degree elevation",
+    "Boehm knot insertion",
+    "blossoming (polar forms)",
+    "rational B\u00e9zier weights for conics",
+    "continuity conditions at multiple knots"
+   ],
+   "answer_forms": [
+    "ordered tuple of rational points",
+    "rational number",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Elementary cellular automata on finite rings",
+   "scope": "For elementary or small-radius cellular automata on finite cyclic lattices, count Garden-of-Eden configurations, cycle and transient lengths, or decide reversibility and surjectivity. Hard because global behavior emerges from local rules and has to be analyzed through de Bruijn graphs or algebra.",
+   "techniques": [
+    "de Bruijn graph analysis",
+    "polynomial representation of linear rules over GF(2)",
+    "Garden-of-Eden theorem",
+    "rule equivalence under reflection and complement",
+    "conserved quantities",
+    "injectivity and surjectivity tests"
+   ],
+   "answer_forms": [
+    "integer",
+    "rule number",
+    "small set of configurations"
+   ]
+  },
+  {
+   "leaf": "MC/DC and logic coverage test suites",
+   "scope": "Find minimal test suites that achieve MC/DC, condition/decision or multiple-condition coverage for Boolean decisions with coupled conditions or short-circuit evaluation, or count independence pairs. Hard because masking and unique-cause MC/DC differ, and coupling restricts the feasible vectors.",
+   "techniques": [
+    "unique-cause vs masking MC/DC",
+    "independence pair identification",
+    "short-circuit evaluation effects",
+    "n+1 lower bound arguments",
+    "coupled-condition infeasibility",
+    "Boolean derivative reasoning"
+   ],
+   "answer_forms": [
+    "integer",
+    "set of test vectors",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "julia",
+ "weight": 0.007214,
+ "leaves": [
+  {
+   "leaf": "Julia project history, release timeline and community",
+   "scope": "Julia's origins at MIT, its founders, the 2012 announcement, version release dates and LTS designations from 0.x to 1.12, JuliaCon, Julia Computing/JuliaHub, NumFOCUS sponsorship and awards.",
+   "queries": [
+    "Julia programming language history Bezanson Karpinski Shah Edelman",
+    "Julia 1.0 release JuliaCon 2018",
+    "Julia long-term support LTS release 1.6 1.10",
+    "Julia Computing JuliaHub funding Wilkinson Prize"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type system: abstract, parametric and Union types",
+   "scope": "Julia's nominative type lattice: abstract and concrete types, parametric types, invariance, UnionAll and where clauses, Union and small-union optimization, singleton and Type{T} types, and type intersection and join.",
+   "queries": [
+    "abstract type subtyping UnionAll where clause",
+    "parametric types invariance Vector{Int} Vector{Real}",
+    "Union types Nothing Missing small union optimization",
+    "typejoin typeintersect DataType Type{T} singleton"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Composite types, mutability and constructors",
+   "scope": "struct and mutable struct definitions, inner and outer constructors, new() and incomplete initialization, const fields in mutable structs, Base.@kwdef, isbits layout and field introspection.",
+   "queries": [
+    "inner constructor outer constructor new incomplete initialization",
+    "mutable struct const fields Julia 1.8",
+    "Base.@kwdef keyword constructor default field values",
+    "isbitstype immutable struct memory layout fieldtypes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Multiple dispatch, method tables and world age",
+   "scope": "How Julia chooses methods: specificity rules, ambiguity errors, invoke, Vararg and type-parameter dispatch, method redefinition, method tables and the world-age mechanism.",
+   "queries": [
+    "method specificity ambiguity error resolution",
+    "invoke method dispatch world age",
+    "methods methodswith method table redefinition",
+    "dispatch on type parameters Vararg methods"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Function syntax, operators and variable scoping rules",
+   "scope": "Function definition forms, keyword and optional arguments, varargs and splatting, do-blocks, closures and anonymous functions, operator precedence, Unicode operator input, and global/local and soft/hard scope rules.",
+   "queries": [
+    "keyword arguments varargs splatting optional arguments",
+    "do block syntax anonymous function closures",
+    "soft scope hard scope global local Julia 1.5",
+    "operator precedence Unicode operators LaTeX tab completion"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Metaprogramming: expressions, macros and generated functions",
+   "scope": "Expr objects, quoting and interpolation, Symbol and QuoteNode, macro hygiene and esc, Meta.parse and eval, @generated functions, and non-standard string literals.",
+   "queries": [
+    "macro hygiene esc Expr quote interpolation",
+    "generated functions @generated staged programming",
+    "Meta.parse eval QuoteNode Symbol head args",
+    "non-standard string literals macro @r_str"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Arrays, indexing and broadcasting",
+   "scope": "Array and the AbstractArray interface, IndexStyle, linear and Cartesian indexing, views and SubArray, the Memory-backed Array implementation, and broadcasting with dot fusion and BroadcastStyle.",
+   "queries": [
+    "AbstractArray interface size getindex IndexStyle",
+    "broadcasting dot syntax fusion BroadcastStyle Broadcasted",
+    "views SubArray @view CartesianIndices LinearIndices",
+    "Memory type Array implementation Julia 1.11"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Collections, dictionaries and the iteration protocol",
+   "scope": "The iterate protocol and its traits, Dict, Set, IdDict and WeakKeyDict hashing semantics, the Iterators module, comprehensions, generators, and reduction functions.",
+   "queries": [
+    "iteration protocol iterate IteratorSize IteratorEltype",
+    "Dict Set IdDict WeakKeyDict hashing",
+    "Iterators module zip product partition flatten",
+    "comprehensions generators filter reduce mapreduce"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Numeric types, promotion and arithmetic semantics",
+   "scope": "Integer and floating-point types, overflow behavior, checked arithmetic, promotion and conversion rules, BigInt and BigFloat via GMP and MPFR, Rational, Complex, Irrational, Float16 and rounding modes.",
+   "queries": [
+    "integer overflow wraparound Int64 UInt8 checked arithmetic",
+    "promotion rules promote_rule convert Number",
+    "BigInt BigFloat GMP MPFR precision setprecision",
+    "Rational Complex Irrational Float16 rounding modes"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Strings, characters, Unicode and regular expressions",
+   "scope": "UTF-8 String representation, code units versus Char code points, string indexing pitfalls, SubString, interpolation and raw/triple-quoted literals, and PCRE2-based Regex matching.",
+   "queries": [
+    "String UTF-8 codeunits Char codepoint indexing",
+    "SubString StringIndexError thisind nextind",
+    "regular expressions PCRE2 Regex match eachmatch",
+    "string interpolation raw strings triple-quoted escapes"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Modules, namespaces and code loading",
+   "scope": "module, using and import semantics, export and the public keyword, baremodule, Core and Base, include, __init__, relative module paths and how Julia locates and loads code.",
+   "queries": [
+    "module using import export namespace",
+    "public keyword Julia 1.11 API declaration",
+    "baremodule Core Base include __init__",
+    "code loading LOAD_PATH relative module paths"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Exceptions, stack traces and logging",
+   "scope": "try/catch/finally, throw and rethrow, the built-in exception hierarchy, backtraces and StackFrame, and the Logging standard library with log levels, loggers and logging macros.",
+   "queries": [
+    "try catch finally throw rethrow exception",
+    "ArgumentError BoundsError MethodError DomainError exception types",
+    "stacktrace backtrace catch_backtrace StackFrame",
+    "Logging stdlib @info @warn ConsoleLogger LogLevel"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Pkg package manager, environments and registries",
+   "scope": "Project.toml and Manifest.toml, compat and semver rules, Pkg REPL commands, environment stacks, package extensions and weak dependencies, workspaces, the General registry, Registrator, TagBot and package servers.",
+   "queries": [
+    "Project.toml Manifest.toml compat entries semver",
+    "Pkg REPL add develop pin free",
+    "package extensions weakdeps Julia 1.9",
+    "General registry Registrator TagBot pkg server"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "C/Fortran interop and binary dependencies",
+   "scope": "ccall and @ccall, cfunction callbacks, Ptr and Ref, C type mappings, GC.@preserve and unsafe operations, Libdl, and binary dependency delivery through BinaryBuilder, Yggdrasil, JLL packages and Artifacts.",
+   "queries": [
+    "ccall @ccall calling C Fortran functions",
+    "cfunction Ptr Ref unsafe_convert GC.@preserve",
+    "BinaryBuilder Yggdrasil JLL packages",
+    "Artifacts.toml artifact lazy download Libdl dlopen"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Interoperability with Python, R, C++ and other languages",
+   "scope": "Packages that connect Julia with other languages, including PyCall, PythonCall/juliacall, RCall, CxxWrap, JavaCall and MATLAB.jl, covering their conversion rules and configuration.",
+   "queries": [
+    "PyCall PythonCall juliacall Python interoperability",
+    "RCall R interoperability Julia",
+    "CxxWrap C++ wrapping Julia",
+    "JavaCall MATLAB.jl calling from Julia"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Multithreading, tasks and asynchronous programming",
+   "scope": "Tasks and Channels, @async and the libuv event loop, Threads.@threads and @spawn, the scheduler and thread pools, thread-count settings, atomics, locks and ScopedValues.",
+   "queries": [
+    "Threads.@threads Threads.@spawn task scheduler",
+    "interactive thread pool JULIA_NUM_THREADS --threads",
+    "atomic fields @atomic ReentrantLock SpinLock",
+    "Channel @async Task yield wait ScopedValue"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Distributed and cluster computing",
+   "scope": "The Distributed standard library (addprocs, remotecall, pmap, @distributed, futures), cluster managers for schedulers, SharedArrays, DistributedArrays, MPI.jl and Dagger.jl.",
+   "queries": [
+    "Distributed remotecall pmap @distributed addprocs",
+    "ClusterManagers SlurmClusterManager worker processes",
+    "MPI.jl message passing Julia",
+    "SharedArrays DistributedArrays Dagger.jl"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "GPU programming",
+   "scope": "Julia's GPU stack: CUDA.jl, AMDGPU.jl, Metal.jl and oneAPI.jl, kernel programming, GPUArrays semantics such as scalar indexing, and portable kernels with KernelAbstractions.",
+   "queries": [
+    "CUDA.jl CuArray kernel programming @cuda",
+    "AMDGPU.jl ROCm Metal.jl oneAPI.jl",
+    "KernelAbstractions backend portable kernels",
+    "GPUArrays scalar indexing allowscalar"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler internals: lowering, type inference and IR",
+   "scope": "The compilation pipeline from parsing (JuliaSyntax) and lowering to CodeInfo, SSA IR and IRCode, abstract-interpretation type inference in Core.Compiler, effects analysis, inlining and opaque closures.",
+   "queries": [
+    "type inference abstract interpretation Core.Compiler",
+    "lowered code CodeInfo SSA IR IRCode",
+    "effects analysis Base.@assume_effects consistent",
+    "JuliaSyntax parser opaque closures inlining cost"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "LLVM code generation and SIMD optimization",
+   "scope": "How Julia emits LLVM IR and native code, the introspection macros, LLVM version upgrades across releases, and vectorization tools including @simd, @inbounds, @fastmath, LoopVectorization and SIMD.jl.",
+   "queries": [
+    "@code_llvm @code_native @code_typed output",
+    "LLVM version upgrade Julia release",
+    "@simd @inbounds @fastmath vectorization",
+    "LoopVectorization @turbo SIMD.jl"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Precompilation, latency and static compilation",
+   "scope": "Time-to-first-execution issues and fixes: precompile caches and package images, method invalidations, PrecompileTools and SnoopCompile, system images with PackageCompiler, and juliac/--trim static executables.",
+   "queries": [
+    "package images pkgimages native code caching Julia 1.9",
+    "PrecompileTools @compile_workload @setup_workload",
+    "method invalidations SnoopCompile time to first plot",
+    "PackageCompiler create_sysimage create_app juliac trim"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Garbage collection and runtime memory management",
+   "scope": "Julia's generational mark-sweep garbage collector, parallel and concurrent GC threads, heap-size hints, finalizers and WeakRef, object allocation and pools, and GC-related runtime options.",
+   "queries": [
+    "garbage collector generational mark sweep Julia",
+    "parallel GC threads --gcthreads",
+    "--heap-size-hint memory limit GC.gc",
+    "finalizer WeakRef GC.enable_finalizers allocation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Profiling, benchmarking and performance analysis",
+   "scope": "Performance tips and diagnostic tools: @time and allocation tracking, the Profile stdlib and allocation profiler, flame graphs, BenchmarkTools, @code_warntype, JET.jl and Cthulhu.",
+   "queries": [
+    "Profile @profile sampling profiler flamegraph",
+    "BenchmarkTools @btime @benchmark",
+    "@code_warntype type instability performance tips",
+    "JET.jl Cthulhu @descend allocation profiler"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "REPL, command line, editors and notebooks",
+   "scope": "REPL modes and keybindings, Revise.jl workflows, julia command-line flags, startup.jl and environment variables, juliaup, the VS Code Julia extension and LanguageServer, debuggers, and Pluto and IJulia notebooks.",
+   "queries": [
+    "REPL modes help shell pkg mode keybindings",
+    "Revise.jl code reloading workflow",
+    "julia command line options startup.jl environment variables",
+    "juliaup VS Code Julia extension Pluto IJulia"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing, documentation and package quality tooling",
+   "scope": "The Test standard library and its macros, docstring conventions and @doc, Documenter.jl site generation and deployment, DocStringExtensions, Aqua.jl and CI templates such as PkgTemplates.",
+   "queries": [
+    "Test stdlib @testset @test_throws @inferred",
+    "Documenter.jl makedocs deploydocs docstrings",
+    "docstring conventions @doc DocStringExtensions",
+    "Aqua.jl PkgTemplates package quality CI"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Linear algebra and sparse matrices",
+   "scope": "The LinearAlgebra stdlib: factorizations, structured matrix types, UniformScaling, BLAS/LAPACK bindings through libblastrampoline and OpenBLAS or MKL, and SparseArrays with SuiteSparse solvers.",
+   "queries": [
+    "LinearAlgebra factorization lu qr cholesky svd",
+    "BLAS LAPACK libblastrampoline OpenBLAS MKL.jl",
+    "SparseArrays SparseMatrixCSC SuiteSparse UMFPACK",
+    "Symmetric Hermitian Diagonal UniformScaling I"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dates, Random, I/O and other standard library utilities",
+   "scope": "Smaller standard libraries and Base I/O: Dates periods and formats, Random RNGs and seeding (Xoshiro, MersenneTwister), Printf, Serialization, Sockets, TOML, Downloads, and file system and stream functions.",
+   "queries": [
+    "Dates DateTime Period arithmetic DateFormat",
+    "Random Xoshiro default RNG seed MersenneTwister",
+    "Serialization Sockets TOML Downloads stdlib",
+    "Printf @printf @sprintf IOBuffer filesystem"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "DataFrames and tabular data ecosystem",
+   "scope": "DataFrames.jl manipulation verbs, CSV.jl reading and writing options, the Tables.jl interface, missing-value handling, CategoricalArrays, Arrow.jl and DataFramesMeta.",
+   "queries": [
+    "DataFrames.jl groupby combine transform select",
+    "CSV.jl CSV.read file options",
+    "Tables.jl interface columntable rowtable",
+    "CategoricalArrays Arrow.jl missing values"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Plotting and visualization packages",
+   "scope": "Plots.jl and its backends, the Makie family (GLMakie, CairoMakie, WGLMakie), plot recipes, Gadfly's grammar of graphics, and terminal plotting with UnicodePlots.",
+   "queries": [
+    "Plots.jl backends GR PlotlyJS PyPlot",
+    "Makie.jl GLMakie CairoMakie WGLMakie",
+    "plot recipes RecipesBase @recipe",
+    "Gadfly grammar of graphics UnicodePlots"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "SciML and differential equation solving",
+   "scope": "DifferentialEquations.jl problem types and solver algorithms, stiff and non-stiff methods, callbacks and events, ModelingToolkit symbolic-acausal modeling, and the wider SciML organization's packages.",
+   "queries": [
+    "DifferentialEquations.jl ODEProblem solve Tsit5",
+    "stiff solvers Rodas5 TRBDF2 Julia",
+    "ModelingToolkit symbolic acausal modeling",
+    "SciML DiffEqFlux callbacks events"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mathematical optimization with JuMP and Optim",
+   "scope": "The JuMP algebraic modeling language and its macros, MathOptInterface and solver wrappers, Convex.jl, and nonlinear and unconstrained optimizers in Optim.jl, NLopt and Optimization.jl.",
+   "queries": [
+    "JuMP modeling language @variable @constraint @objective",
+    "MathOptInterface solver wrappers HiGHS Ipopt",
+    "Optim.jl BFGS Nelder-Mead LBFGS",
+    "Optimization.jl NLopt Convex.jl"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Machine learning and automatic differentiation",
+   "scope": "Flux.jl and Lux.jl neural-network APIs, automatic differentiation with ForwardDiff dual numbers, Zygote source-to-source reverse mode and Enzyme, and the ChainRules rule system.",
+   "queries": [
+    "Flux.jl Chain Dense train layers",
+    "Zygote source-to-source reverse mode differentiation",
+    "ForwardDiff dual numbers Enzyme autodiff",
+    "ChainRules rrule frule Lux.jl"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Statistics and probabilistic programming",
+   "scope": "Distributions.jl types and methods, StatsBase, StatsModels formulas and GLM.jl regression, MixedModels, HypothesisTests, and Bayesian inference with Turing.jl samplers.",
+   "queries": [
+    "Distributions.jl Normal pdf cdf fit",
+    "StatsBase GLM.jl @formula lm",
+    "Turing.jl probabilistic programming NUTS sampler",
+    "HypothesisTests StatsModels MixedModels"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  }
+ ]
+}

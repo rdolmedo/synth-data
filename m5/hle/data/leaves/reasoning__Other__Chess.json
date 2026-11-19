@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Chess",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Retrograde legality and last-move deduction",
+   "scope": "Given a diagram, find which moves must have been played, whether castling or en passant is still legal, or which piece was last captured. These are hard because the solver must account for every capture, promotion, pawn path and checking line, and an argument that skips one case is wrong.",
+   "techniques": [
+    "Capture accounting: comparing missing material with the pawn-file shifts it allows",
+    "Promotion bookkeeping and the order of events when original pieces are trapped",
+    "Retracting out of impossible double or discovered checks",
+    "Square-colour parity of bishops and promoted bishops",
+    "Deducing castling rights from king and rook moves that were forced",
+    "Proving en passant rights by retracting the last move"
+   ],
+   "answer_forms": [
+    "a move in algebraic notation",
+    "a small set of squares or pieces",
+    "yes/no with a letter choice",
+    "integer (number of captures or promotions)"
+   ]
+  },
+  {
+   "leaf": "Shortest proof games and tempo counting",
+   "scope": "Find the minimum number of plies needed to reach a given legal position from the starting array, or count how many distinct games reach it in exactly that many plies. These are hard because tempo arguments have to be tight while still covering hidden switchbacks, piece swaps and moves that lose a tempo.",
+   "techniques": [
+    "Lower bounds from the sum of each unit's minimum moves",
+    "Tracking whether a unit can be the original piece or must be a different one",
+    "Spending spare tempi through switchbacks and wasted moves",
+    "Arguments forcing a particular capture",
+    "Counting the move orders that respect check and pin constraints",
+    "Pronkin-style deductions that a piece is a promoted unit"
+   ],
+   "answer_forms": [
+    "integer (number of plies)",
+    "integer (number of distinct games)",
+    "a move sequence",
+    "name of the piece that must be promoted"
+   ]
+  },
+  {
+   "leaf": "Corresponding squares in pawn endgames",
+   "scope": "In king-and-pawn positions, work out the outcome, the only winning king move, or the full set of mutual-zugzwang squares. Several pawn islands and spare-tempo battles mean simple opposition rules are not enough.",
+   "techniques": [
+    "Building corresponding-square maps from key squares",
+    "Triangulation to hand the move to the opponent",
+    "Counting spare pawn tempi on both wings",
+    "Distant and protected passed pawns used as decoys",
+    "Using the rule of the square when the king's path is blocked",
+    "Analysing breakthrough sacrifices against pawn chains"
+   ],
+   "answer_forms": [
+    "a single move",
+    "a small set of squares",
+    "integer (number of mutual-zugzwang positions)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Combinatorial game values of chess endgames",
+   "scope": "Treat independent pawn fights or blocked-file regions as sums of combinatorial games, give each its value (numbers, ups, stars, tinies, overheated values), and decide who wins the sum or what the best move is. This is hard because it needs the full Conway-style theory, not just chess intuition.",
+   "techniques": [
+    "Breaking a board into non-interacting components",
+    "Computing canonical forms and removing dominated options",
+    "Infinitesimals such as up, star, tiny and miny in tempo fights",
+    "Temperature theory and thermographs to pick the hottest move",
+    "Treating zugzwang as a reversed tempo in the sum",
+    "Comparing against zero to decide who wins in the sum"
+   ],
+   "answer_forms": [
+    "closed-form game value (e.g. \u2191*, 1/2, \u29fe2)",
+    "a single move",
+    "name of the winning side",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Non-attacking placements and board domination",
+   "scope": "Count the arrangements of orthodox pieces on m\u00d7n or toroidal boards that meet a non-attacking or covering condition, or find extremal values such as domination and independence numbers. The hard part is that piece interactions and board-edge effects rule out simple formulas.",
+   "techniques": [
+    "Transfer-matrix counting row by row",
+    "Rook polynomials and inclusion\u2013exclusion over forbidden squares",
+    "Splitting the board by colour class for bishops and kings",
+    "Symmetry reduction with Burnside's lemma",
+    "Lower bounds for domination from a weighting argument",
+    "Building blocks for independent kings and knights"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in n",
+    "polynomial",
+    "ordered pair (minimum, number of extremal configurations)"
+   ]
+  },
+  {
+   "leaf": "Fairy leaper and rider geometry",
+   "scope": "Study the move graphs of generalised (a,b)-leapers, riders and compound fairy pieces on finite or infinite boards: connectivity, distances, tour existence, or how many moves are needed to reach a square. These are hard because the answers depend on number theory (gcd and parity conditions) as much as on geometry.",
+   "techniques": [
+    "gcd(a,b) and a+b parity conditions for connectivity",
+    "Lattice-reduction views of reachable squares",
+    "Closed formulas for leaper distance found from small cases",
+    "Colouring arguments that rule out tours",
+    "Warnsdorff-type constructions for open and closed tours",
+    "How riders are blocked when other pieces are on the board"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression in board size",
+    "yes/no with a letter choice",
+    "small set of (a,b) pairs"
+   ]
+  },
+  {
+   "leaf": "Stipulated problems: helpmates, selfmates, series-movers",
+   "scope": "Solve orthodox or lightly fairy-modified problems where the goal is reversed or cooperative (helpmate in n, selfmate in n, series-helpstalemate), finding the unique solution or counting the solutions. The difficulty is that normal evaluation instincts do not apply, and the solver must use cooperative or forced-mate logic exhaustively.",
+   "techniques": [
+    "Working back from a target mating picture to the moves that reach it",
+    "Self-pin and self-block manoeuvres in helpmates",
+    "Forcing the opponent to deliver mate through zugzwang in selfmates",
+    "Ruling out checks in the middle of a series-mover",
+    "Telling a cook from a dual when counting solutions",
+    "Exploiting white-to-move and black-to-move twins"
+   ],
+   "answer_forms": [
+    "a move sequence",
+    "the key move",
+    "integer (number of solutions)",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Rating, pairing and tie-break arithmetic",
+   "scope": "Compute FIDE/Elo rating changes, performance ratings, norm eligibility, or tie-break orderings (Buchholz variants, Sonneborn\u2013Berger, progressive score) from tournament data, often working backwards from incomplete results. The rules are exact and fussy, and running them in reverse turns a calculation into a constraint-solving problem.",
+   "techniques": [
+    "Expected score from the logistic Elo curve and FIDE lookup tables",
+    "The K-factor and the 400-point cap on rating differences",
+    "Rebuilding missing game results from tie-break totals",
+    "Berger round-robin tables and colour allocation",
+    "Buchholz cut variants and adjustments for unplayed games",
+    "Performance-rating inversion via the dp table"
+   ],
+   "answer_forms": [
+    "integer (rating points)",
+    "rational number",
+    "ordered tuple (final standings)",
+    "name of the player who takes first place"
+   ]
+  }
+ ]
+}

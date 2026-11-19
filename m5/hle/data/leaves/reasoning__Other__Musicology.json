@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Musicology",
+ "target_leaves": 8,
+ "expected_problems": 32,
+ "leaves": [
+  {
+   "leaf": "Neo-Riemannian PLR paths on the Tonnetz",
+   "scope": "Problems ask for distances, paths, or orbits of consonant triads under neo-Riemannian transformations and their compounds. They are hard because the group is non-abelian, it acts dualistically on major and minor triads, and reasoning about shortest words in it is easy to get wrong.",
+   "techniques": [
+    "PLR group as a dihedral group of order 24 acting simply transitively on the 24 consonant triads",
+    "Hexatonic (PL) and octatonic (PR) cycles, Weitzmann regions and hexatonic poles",
+    "Cayley-graph distance to find the minimal PLR word length between two triads",
+    "Duality between the T/I group and the PLR group (Lewin's commuting actions)",
+    "Compound transformations such as Slide, Nebenverwandt and the hexatonic pole H",
+    "Parsimonious voice-leading counts in the semitone-displacement metric"
+   ],
+   "answer_forms": [
+    "integer",
+    "word in P, L, R",
+    "name of a triad",
+    "ordered tuple of triads"
+   ]
+  },
+  {
+   "leaf": "Twelve-tone row combinatoriality and invariance",
+   "scope": "Problems give a row, or a list of its properties, and ask which row forms combine to make aggregates, which operations leave segments invariant, or how many row classes satisfy given constraints. They are hard because of the bookkeeping across 48 forms and the symmetries among them.",
+   "techniques": [
+    "Hexachordal and tetrachordal combinatoriality, including Babbitt's all-combinatorial source hexachords",
+    "Stabilizers of pitch-class sets under T_n and T_nI operations (degree of symmetry)",
+    "Burnside's lemma to count row classes under the serial operations",
+    "Rotational arrays and their verticals in the style of Krenek and Stravinsky",
+    "Multiplicative operations M5/M7 and their effect on interval content",
+    "Interval vectors, Z-relations, and derived rows built from a generating trichord"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of T/I operators",
+    "prime form of a pitch-class set",
+    "ordered 12-tuple"
+   ]
+  },
+  {
+   "leaf": "Comma arithmetic in historical temperaments",
+   "scope": "Problems ask for the exact size of intervals, wolves, or beat rates in meantone, irregular, and equal-division temperaments defined by how they distribute commas. They are hard because exact ratio arithmetic in the 5-limit lattice has to be combined with how the comma is spread around the circle of fifths.",
+   "techniques": [
+    "Relations among the Pythagorean comma, syntonic comma, schisma, and the lesser and greater diesis",
+    "Distribution of comma fractions in irregular well-temperaments to find a specific third or fifth",
+    "Beat rates of tempered intervals from coinciding partials at a given reference frequency",
+    "Prime factorization of ratios and their position on the 5-limit Tonnetz",
+    "Continued fractions to find which equal division best approximates a just interval",
+    "Size of the meantone wolf fifth and of the diminished-fourth substitute for a major third"
+   ],
+   "answer_forms": [
+    "rational number",
+    "value in cents to stated precision",
+    "beats per second as a closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "White mensural notation duration resolution",
+   "scope": "Problems give a sequence of note shapes, ligatures, dots, coloration, and mensuration or proportion signs, and ask for the resulting durations or alignments. They are hard because the rules on perfection, imperfection, and alteration depend on context and interact with one another.",
+   "techniques": [
+    "Rules of perfection and imperfection a parte ante and a parte post",
+    "Alteration of the second of two equal values within a perfection",
+    "Telling the dot of division from the dot of addition",
+    "Ligature values by propriety and perfection of the first and last notes",
+    "Coloration and proportions (dupla, tripla, sesquialtera) under combined mensuration signs",
+    "Aligning the voices of a mensuration canon from a single notated line"
+   ],
+   "answer_forms": [
+    "integer number of minims or breves",
+    "sequence of modern note values",
+    "ordered tuple of alignment points"
+   ]
+  },
+  {
+   "leaf": "Guidonian hexachord mutation and modal classification",
+   "scope": "Problems ask for the correct solmization of a melody with the fewest mutations, for Guidonian loci, or for the mode a melody belongs to under medieval or Renaissance criteria. They are hard because several mutation points are valid, ficta must be applied, and different theorists use competing criteria.",
+   "techniques": [
+    "Natural, hard, and soft hexachords and their combined locus names on the gamut",
+    "Minimal-mutation solmization treated as a shortest-path problem through hexachord states",
+    "Mode determination from the final, the ambitus, and the species of fifth and fourth",
+    "Telling authentic, plagal, mixed, and commixed modes apart",
+    "Musica ficta and coniunctae, including the 'una nota supra la' rule",
+    "Glarean's twelve-mode system compared with the eight-mode system"
+   ],
+   "answer_forms": [
+    "sequence of solmization syllables",
+    "integer number of mutations",
+    "mode number",
+    "gamut locus name"
+   ]
+  },
+  {
+   "leaf": "Invertible counterpoint and canon feasibility",
+   "scope": "Problems ask which intervals, entry points, or note choices survive when a contrapuntal combination is inverted at a given interval or is built as a canon or stretto under strict rules. They are hard because every constraint has to hold at the same time in both the original and the transformed version.",
+   "techniques": [
+    "Interval complementation under inversion at the octave, tenth, and twelfth",
+    "Intervals and parallel motions forbidden by each type of double counterpoint",
+    "Strict species rules treated as a constraint-satisfaction or counting problem",
+    "Possible intervals and time delays for a canon against a given subject",
+    "Stretto feasibility from the subject's interval sequence",
+    "Counting valid voice permutations in triple and quadruple invertible counterpoint"
+   ],
+   "answer_forms": [
+    "integer",
+    "interval name",
+    "note sequence",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Carnatic melakarta and tala arithmetic",
+   "scope": "Problems ask for the scale, index, or name of a melakarta or janya raga, or for cycle arithmetic in tala and cadential patterns. They are hard because the systematic combinatorics depend on specialist encoding conventions and on the rules for landing exactly on sam.",
+   "techniques": [
+    "Katapayadi decoding of melakarta names into index numbers",
+    "Chakra structure and the R/G, D/N, and Ma variant combinations of the 72 melakartas",
+    "Akshara counts of the 35 suladi talas across the five jatis",
+    "Changes of gati/nadai and the resulting subdivision counts per avartana",
+    "Tihai and korvai arithmetic for patterns that end on sam or on a set eduppu offset",
+    "Counting audava/shadava janya ragas under rules for which notes may be omitted"
+   ],
+   "answer_forms": [
+    "integer",
+    "raga name",
+    "ordered tuple of swaras",
+    "tala name"
+   ]
+  },
+  {
+   "leaf": "Change ringing methods, extents, and truth",
+   "scope": "Problems ask for lead heads, course structures, call placements, or whether a touch or extent on n bells is true (no row repeated). They are hard because they rest on permutation-group structure and coset arguments that are easy to miscount by hand.",
+   "techniques": [
+    "Expanding place notation into rows and computing lead-head permutations",
+    "Cycle structure of the plain-course lead head and coursing order",
+    "How bobs and singles change the lead head",
+    "False course heads and coset decomposition to prove truth",
+    "Parity arguments for when an extent can be reached using only certain calls",
+    "Counting rows and leads in touches of a given method and stage"
+   ],
+   "answer_forms": [
+    "integer",
+    "row as a string of bell numbers",
+    "place notation",
+    "number of calls"
+   ]
+  }
+ ]
+}

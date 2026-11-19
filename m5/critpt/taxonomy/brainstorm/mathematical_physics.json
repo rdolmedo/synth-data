@@ -1,0 +1,492 @@
+{
+ "subtopics": [
+  {
+   "name": "Bethe-ansatz solvable quantum many-body models",
+   "scope": "Exact spectra, thermodynamics, finite-size effects and correlation functions of quantum integrable models such as XXZ, Hubbard, Lieb-Liniger and Gaudin, solved by coordinate, algebraic or nested Bethe ansatz.",
+   "keywords": [
+    "Bethe ansatz",
+    "XXZ spin chain",
+    "integrable spin chain",
+    "Bethe roots",
+    "thermodynamic Bethe ansatz",
+    "Lieb-Liniger",
+    "Hubbard model",
+    "Gaudin model",
+    "finite-size corrections",
+    "open boundary conditions"
+   ]
+  },
+  {
+   "name": "Solitons and the inverse scattering transform",
+   "scope": "Soliton, breather and rogue-wave solutions, conservation laws and long-time asymptotics of integrable nonlinear PDEs (KdV, NLS, sine-Gordon, KP) using Lax pairs and inverse scattering.",
+   "keywords": [
+    "inverse scattering transform",
+    "soliton solutions",
+    "Lax pair",
+    "nonlinear Schr\u00f6dinger equation",
+    "Korteweg-de Vries",
+    "rogue waves",
+    "breathers",
+    "Riemann-Hilbert problem",
+    "long-time asymptotics",
+    "conservation laws"
+   ]
+  },
+  {
+   "name": "Discrete integrable systems and lattice equations",
+   "scope": "Integrable difference and differential-difference equations, birational maps and ultradiscrete systems, characterised by multidimensional consistency, singularity confinement and low algebraic entropy.",
+   "keywords": [
+    "discrete integrable systems",
+    "lattice equations",
+    "consistency around the cube",
+    "integrable maps",
+    "singularity confinement",
+    "algebraic entropy",
+    "Toda lattice",
+    "QRT map",
+    "ultradiscrete",
+    "Yang-Baxter maps"
+   ]
+  },
+  {
+   "name": "Painlev\u00e9 equations and isomonodromic deformations",
+   "scope": "Painlev\u00e9 transcendents and their discrete and higher-order analogues: special solutions, connection formulae, asymptotics, tau functions and isomonodromic Hamiltonian structure.",
+   "keywords": [
+    "Painlev\u00e9 equation",
+    "isomonodromic deformation",
+    "tau function",
+    "connection formulae",
+    "Painlev\u00e9 transcendents",
+    "B\u00e4cklund transformations",
+    "affine Weyl group",
+    "discrete Painlev\u00e9",
+    "Okamoto",
+    "rational solutions"
+   ]
+  },
+  {
+   "name": "Superintegrable and separable Hamiltonian systems",
+   "scope": "Classical and quantum Hamiltonian systems with extra integrals of motion or separable coordinates (Calogero-Moser, Kepler-type, St\u00e4ckel systems), their polynomial symmetry algebras and exact spectra.",
+   "keywords": [
+    "superintegrable systems",
+    "separation of variables",
+    "Calogero-Moser",
+    "quadratic algebra",
+    "St\u00e4ckel transform",
+    "integrals of motion",
+    "Liouville integrability",
+    "Kepler problem",
+    "Ruijsenaars",
+    "degenerate spectrum"
+   ]
+  },
+  {
+   "name": "Lie symmetry analysis of differential equations",
+   "scope": "Point, contact, nonlocal and Noether symmetries of ordinary and partial differential equations, used to classify equations, build conservation laws and find invariant solutions.",
+   "keywords": [
+    "Lie point symmetries",
+    "symmetry reduction",
+    "invariant solutions",
+    "Noether's theorem",
+    "conservation laws",
+    "group classification",
+    "optimal system",
+    "nonclassical symmetries",
+    "similarity solutions",
+    "nonlinear self-adjointness"
+   ]
+  },
+  {
+   "name": "Random matrix ensembles and eigenvalue statistics",
+   "scope": "Eigenvalue densities, correlation kernels, gap probabilities, extreme eigenvalues and moments of Gaussian, Wishart, circular and \u03b2-ensembles, including Coulomb-gas and matrix-integral formulations.",
+   "keywords": [
+    "random matrix theory",
+    "\u03b2-ensemble",
+    "eigenvalue density",
+    "gap probability",
+    "Tracy-Widom",
+    "Coulomb gas",
+    "Wishart matrices",
+    "circular ensemble",
+    "spectral form factor",
+    "matrix integrals"
+   ]
+  },
+  {
+   "name": "Exactly solved lattice models in statistical mechanics",
+   "scope": "Two-dimensional lattice models (Ising, Potts, six- and eight-vertex, dimers, hard hexagons) solved with transfer matrices, the Yang-Baxter equation, Pfaffians or corner transfer matrices.",
+   "keywords": [
+    "Ising model",
+    "six-vertex model",
+    "Yang-Baxter equation",
+    "transfer matrix",
+    "dimer model",
+    "free energy",
+    "corner transfer matrix",
+    "Potts model",
+    "partition function",
+    "domain wall boundary conditions"
+   ]
+  },
+  {
+   "name": "Interacting particle systems and KPZ universality",
+   "scope": "Exactly solvable stochastic particle systems and growth models (ASEP, TASEP, zero-range processes, directed polymers) analysed with integrable-probability tools.",
+   "keywords": [
+    "asymmetric simple exclusion process",
+    "TASEP",
+    "KPZ equation",
+    "directed polymer",
+    "integrable probability",
+    "current fluctuations",
+    "stationary measure",
+    "matrix product ansatz",
+    "large deviations",
+    "zero-range process"
+   ]
+  },
+  {
+   "name": "Mean-field spin glasses and disordered models",
+   "scope": "Free energies, phase transitions and ground-state properties of disordered mean-field models (Sherrington-Kirkpatrick, p-spin, random energy model, perceptron) and related random optimisation problems.",
+   "keywords": [
+    "spin glass",
+    "Sherrington-Kirkpatrick model",
+    "Parisi formula",
+    "replica symmetry breaking",
+    "random energy model",
+    "p-spin model",
+    "TAP equations",
+    "cavity method",
+    "free energy",
+    "perceptron"
+   ]
+  },
+  {
+   "name": "Random Schr\u00f6dinger operators and localization",
+   "scope": "Spectral and transport properties of Schr\u00f6dinger and Jacobi operators with random or quasi-periodic potentials, including Anderson localization, Lyapunov exponents and the integrated density of states.",
+   "keywords": [
+    "Anderson localization",
+    "random Schr\u00f6dinger operator",
+    "Lyapunov exponent",
+    "integrated density of states",
+    "quasi-periodic operator",
+    "almost Mathieu operator",
+    "Jacobi matrices",
+    "mobility edge",
+    "dynamical localization",
+    "Lifshitz tails"
+   ]
+  },
+  {
+   "name": "Schr\u00f6dinger operator spectra and eigenvalue bounds",
+   "scope": "Bound states, eigenvalue counting, resonances and sharp spectral inequalities (Lieb-Thirring, Hardy, CLR) for Schr\u00f6dinger, Dirac and magnetic operators.",
+   "keywords": [
+    "Schr\u00f6dinger operator",
+    "eigenvalue bounds",
+    "Lieb-Thirring inequality",
+    "Hardy inequality",
+    "bound states",
+    "resonances",
+    "magnetic Laplacian",
+    "Dirac operator",
+    "essential spectrum",
+    "semiclassical eigenvalue asymptotics"
+   ]
+  },
+  {
+   "name": "Spectral geometry and quantum graphs",
+   "scope": "Eigenvalues of Laplace-type operators on domains, manifolds and metric graphs: Weyl asymptotics, isospectrality, nodal counts, eigenvalue optimisation and the effect of boundary or vertex conditions.",
+   "keywords": [
+    "quantum graphs",
+    "metric graph",
+    "Laplacian eigenvalues",
+    "Weyl law",
+    "isospectral",
+    "nodal domains",
+    "Robin boundary conditions",
+    "spectral gap",
+    "Dirichlet-to-Neumann",
+    "trace formula"
+   ]
+  },
+  {
+   "name": "Heat kernels, zeta functions and Casimir energies",
+   "scope": "Spectral functions of Laplace-type operators (heat-kernel coefficients, zeta-regularised determinants) and the vacuum (Casimir) energies of fields in bounded or topologically nontrivial geometries.",
+   "keywords": [
+    "heat kernel coefficients",
+    "spectral zeta function",
+    "functional determinant",
+    "Casimir effect",
+    "zeta-function regularization",
+    "vacuum energy",
+    "boundary conditions",
+    "Casimir force",
+    "conical singularity",
+    "effective action"
+   ]
+  },
+  {
+   "name": "Quantum fields in curved spacetime",
+   "scope": "Particle creation, vacuum polarisation, Hawking and Unruh effects, and renormalised stress tensors of quantum fields on black-hole, de Sitter and cosmological backgrounds.",
+   "keywords": [
+    "quantum field theory in curved spacetime",
+    "Hawking radiation",
+    "Unruh effect",
+    "particle creation",
+    "Bogoliubov coefficients",
+    "de Sitter space",
+    "renormalized stress-energy tensor",
+    "greybody factors",
+    "Hadamard state",
+    "detector response"
+   ]
+  },
+  {
+   "name": "Exact solutions and perturbations in gravity",
+   "scope": "Exact solutions of Einstein and modified-gravity field equations and their linear perturbations: black holes, horizons, geodesic motion, quasinormal modes and stability.",
+   "keywords": [
+    "exact solutions",
+    "Einstein equations",
+    "black hole",
+    "quasinormal modes",
+    "geodesics",
+    "Kerr metric",
+    "linear stability",
+    "photon sphere",
+    "black hole shadow",
+    "Petrov type"
+   ]
+  },
+  {
+   "name": "Two-dimensional conformal field theory and VOAs",
+   "scope": "Minimal models, Liouville and WZW theories, W-algebras and vertex operator algebras: characters, fusion rules, modular invariants, conformal blocks and boundary states.",
+   "keywords": [
+    "conformal field theory",
+    "Virasoro algebra",
+    "vertex operator algebra",
+    "W-algebra",
+    "characters",
+    "fusion rules",
+    "modular invariance",
+    "conformal blocks",
+    "Liouville theory",
+    "WZW model"
+   ]
+  },
+  {
+   "name": "Exact results in supersymmetric gauge theories",
+   "scope": "Exact partition functions, indices, BPS spectra and prepotentials of supersymmetric gauge theories obtained from localization, Seiberg-Witten geometry and dualities.",
+   "keywords": [
+    "supersymmetric localization",
+    "Seiberg-Witten theory",
+    "Nekrasov partition function",
+    "superconformal index",
+    "BPS states",
+    "prepotential",
+    "sphere partition function",
+    "AGT correspondence",
+    "Seiberg duality",
+    "Coulomb branch"
+   ]
+  },
+  {
+   "name": "Scattering amplitudes and Feynman integrals",
+   "scope": "Analytic evaluation and structure of perturbative scattering amplitudes and multiloop Feynman integrals: polylogarithms, elliptic integrals, symbols, recursion relations and differential equations.",
+   "keywords": [
+    "Feynman integrals",
+    "scattering amplitudes",
+    "multiple polylogarithms",
+    "differential equations",
+    "integration by parts",
+    "elliptic integrals",
+    "symbol",
+    "BCFW recursion",
+    "loop integrals",
+    "Mellin-Barnes"
+   ]
+  },
+  {
+   "name": "Topological field theories and knot invariants",
+   "scope": "Chern-Simons and other topological quantum field theories, their partition functions, link and three-manifold invariants, and the associated quantum-group and modular-category structures.",
+   "keywords": [
+    "Chern-Simons theory",
+    "topological quantum field theory",
+    "knot invariants",
+    "Jones polynomial",
+    "HOMFLY polynomial",
+    "Reshetikhin-Turaev invariants",
+    "modular tensor category",
+    "volume conjecture",
+    "three-manifold invariants",
+    "anyons"
+   ]
+  },
+  {
+   "name": "Topological solitons in classical field theory",
+   "scope": "Kinks, vortices, monopoles, instantons and skyrmions in classical field theories: BPS bounds, moduli spaces, energies, interactions and topological charges.",
+   "keywords": [
+    "topological solitons",
+    "BPS bound",
+    "magnetic monopoles",
+    "instantons",
+    "vortices",
+    "Skyrmions",
+    "kinks",
+    "moduli space",
+    "Bogomolny equations",
+    "topological charge"
+   ]
+  },
+  {
+   "name": "Exactly solvable and non-Hermitian quantum mechanics",
+   "scope": "Exactly and quasi-exactly solvable potentials, supersymmetric quantum mechanics, shape invariance, exceptional orthogonal polynomials, and PT-symmetric or pseudo-Hermitian Hamiltonians.",
+   "keywords": [
+    "exactly solvable potentials",
+    "supersymmetric quantum mechanics",
+    "shape invariance",
+    "quasi-exactly solvable",
+    "PT symmetry",
+    "pseudo-Hermitian",
+    "exceptional points",
+    "exceptional orthogonal polynomials",
+    "Darboux transformation",
+    "position-dependent mass"
+   ]
+  },
+  {
+   "name": "Semiclassical asymptotics, WKB and resurgence",
+   "scope": "Semiclassical and large-order behaviour in quantum mechanics and field theory: WKB and exact WKB, instantons, Borel summability, trans-series and resurgent structure.",
+   "keywords": [
+    "WKB approximation",
+    "exact WKB",
+    "resurgence",
+    "Borel summation",
+    "trans-series",
+    "large-order behavior",
+    "instantons",
+    "Stokes phenomenon",
+    "semiclassical limit",
+    "quantization conditions"
+   ]
+  },
+  {
+   "name": "Open quantum systems and Lindblad dynamics",
+   "scope": "Markovian and non-Markovian dynamics of quantum systems coupled to environments: GKLS generators, quantum channels, steady states, spectral gaps and exactly solvable dissipative models.",
+   "keywords": [
+    "Lindblad equation",
+    "open quantum systems",
+    "quantum dynamical semigroup",
+    "non-equilibrium steady state",
+    "Liouvillian spectrum",
+    "quantum channels",
+    "decoherence",
+    "dissipative spin chain",
+    "non-Markovian",
+    "third quantization"
+   ]
+  },
+  {
+   "name": "Orthogonal polynomials and special functions",
+   "scope": "Classical, q- and multivariate orthogonal polynomials and hypergeometric-type special functions: recurrences, asymptotics, zeros, generating functions and their algebraic structures (Askey-Wilson, Racah).",
+   "keywords": [
+    "orthogonal polynomials",
+    "hypergeometric functions",
+    "q-series",
+    "Askey scheme",
+    "Askey-Wilson algebra",
+    "asymptotics of zeros",
+    "Jacobi polynomials",
+    "Macdonald polynomials",
+    "three-term recurrence",
+    "Racah coefficients"
+   ]
+  },
+  {
+   "name": "Mean-field and kinetic limits of many-body systems",
+   "scope": "Derivation and analysis of effective equations (Hartree, Gross-Pitaevskii, Vlasov, Boltzmann) and Bogoliubov corrections for large interacting quantum and classical particle systems, including stability of matter.",
+   "keywords": [
+    "mean-field limit",
+    "Gross-Pitaevskii",
+    "Bogoliubov theory",
+    "Vlasov equation",
+    "Boltzmann equation",
+    "dilute Bose gas",
+    "ground-state energy",
+    "Lee-Huang-Yang",
+    "stability of matter",
+    "Hartree equation"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Coordinate and algebraic Bethe ansatz",
+   "scope": "Diagonalise integrable Hamiltonians or transfer matrices through Bethe equations, then get ground-state energies, excitations and finite-size corrections in the thermodynamic limit from root densities or nonlinear integral equations."
+  },
+  {
+   "name": "Riemann-Hilbert analysis and nonlinear steepest descent",
+   "scope": "Recast a problem as a matrix Riemann-Hilbert problem and deform its contours (Deift-Zhou method) to obtain explicit leading and subleading asymptotics."
+  },
+  {
+   "name": "Hirota bilinear and Darboux-B\u00e4cklund constructions",
+   "scope": "Build explicit multi-soliton, breather, rational and determinant solutions from bilinear forms, tau functions and Darboux, B\u00e4cklund or dressing transformations."
+  },
+  {
+   "name": "Transfer-matrix and Lyapunov exponent methods",
+   "scope": "Write partition functions or one-dimensional eigenproblems as products of transfer matrices, whose leading eigenvalues or growth rates give free energies, correlation lengths or localization lengths."
+  },
+  {
+   "name": "Saddle-point and large-N asymptotics",
+   "scope": "Evaluate integrals by Laplace and steepest-descent methods, including equilibrium measures and Coulomb-gas variational problems, to obtain leading and subleading large-parameter behaviour."
+  },
+  {
+   "name": "WKB, matched asymptotics and Borel resummation",
+   "scope": "Use singular-perturbation expansions with turning-point connection formulas, boundary-layer matching, and Borel or Pad\u00e9 analysis of divergent series."
+  },
+  {
+   "name": "Perturbation theory and renormalization-group flow",
+   "scope": "Expand order by order (Feynman diagrams or Rayleigh-Schr\u00f6dinger) with regularisation to get beta functions, anomalous dimensions, fixed points and critical exponents."
+  },
+  {
+   "name": "Integration-by-parts and differential equations for integrals",
+   "scope": "Reduce families of parametric integrals to master integrals and solve the resulting Picard-Fuchs or canonical differential equations, supplemented by Mellin-Barnes representations."
+  },
+  {
+   "name": "Spectral zeta functions and heat-kernel expansions",
+   "scope": "Compute regularised determinants, vacuum energies and anomalies from zeta functions, Mellin transforms and heat-kernel asymptotic coefficients."
+  },
+  {
+   "name": "Toeplitz and Fredholm determinant asymptotics",
+   "scope": "Express gap probabilities, emptiness formation, entanglement and correlation functions as Toeplitz, Hankel or Fredholm determinants and evaluate them with Szeg\u0151 and Fisher-Hartwig asymptotics."
+  },
+  {
+   "name": "Replica and cavity methods",
+   "scope": "Average over disorder with replicated partition functions or message-passing self-consistency, using replica-symmetric or symmetry-broken ans\u00e4tze to obtain free energies and thresholds."
+  },
+  {
+   "name": "Representation theory and character formulas",
+   "scope": "Use the representation theory of Lie (super)algebras, quantum groups and the Virasoro algebra (Casimirs, branching rules, Weyl-Kac characters, fusion) to obtain spectra, degeneracies and multiplicities."
+  },
+  {
+   "name": "Separation of variables and special functions",
+   "scope": "In adapted coordinates, reduce linear PDEs or eigenvalue problems to ODEs solved by hypergeometric, Heun, Bessel or Mathieu functions, with spectra fixed by quantisation or boundary conditions."
+  },
+  {
+   "name": "Variational principles and sharp inequalities",
+   "scope": "Derive optimal constants and exact bounds from min-max characterisations, trial states, Euler-Lagrange equations, and rearrangement or Sobolev-type inequalities."
+  },
+  {
+   "name": "Linear stability and normal-mode analysis",
+   "scope": "Linearise around exact solutions to get eigenvalue problems, and compute their spectra (quasinormal frequencies, instability thresholds, bifurcation points) analytically or with shooting or spectral numerics."
+  },
+  {
+   "name": "Generating functions and exact enumeration",
+   "scope": "Encode counting problems, partition functions and moments in generating functions, Pfaffians or Kasteleyn matrices, then use kernel and transfer methods to extract closed forms and asymptotic growth constants."
+  }
+ ],
+ "field": "mathematical physics",
+ "categories": [
+  "math-ph",
+  "nlin.SI",
+  "hep-th"
+ ]
+}

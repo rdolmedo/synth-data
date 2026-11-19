@@ -1,0 +1,132 @@
+{
+ "partition": "knowledge",
+ "category": "Computer Science/AI",
+ "subject": "Artificial Intelligence",
+ "target_leaves": 8,
+ "expected_problems": 83,
+ "leaves": [
+  {
+   "leaf": "Description logic expressivity and complexity results",
+   "scope": "Documented facts on which constructors (inverse roles, nominals, qualified number restrictions, role chains, concrete domains) define named DLs like ALC, SHIQ, SHOIN(D), SROIQ and EL++, and the proven complexity or undecidability results for their reasoning tasks. A question can name a constructor combination and ask for its complexity class, or the smallest change that makes reasoning undecidable or tractable.",
+   "queries": [
+    "SROIQ description logic complexity",
+    "EL++ polynomial subsumption",
+    "SHOIN nominals inverse roles",
+    "description logic undecidable role inclusion",
+    "tableau algorithm ALCQI"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Benchmark Bayesian network repository specifications",
+   "scope": "Facts about standard benchmark networks (ALARM, Hailfinder, Pathfinder, Munin, Andes, Win95pts, Insurance, Child): node, arc and parameter counts, variable cardinalities, original application domains and authors. A question can ask the solver to work out free-parameter counts, compare treewidth or density across networks, or name a network from combined structural facts.",
+   "queries": [
+    "ALARM network 37 nodes",
+    "Hailfinder Bayesian network",
+    "Munin network neuromuscular diagnosis",
+    "bnlearn repository benchmark networks",
+    "Pathfinder lymph node pathology"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Uncertainty calculi in classic expert systems",
+   "scope": "Details of how certainty factors were defined and combined in MYCIN and EMYCIN, the odds-likelihood (LS/LN) updating in PROSPECTOR, INTERNIST-1 evoking strengths and frequency weights, and documented rule-base sizes of systems like R1/XCON. A question can apply the documented combination function to given evidence, or compare system properties.",
+   "queries": [
+    "MYCIN certainty factor combination",
+    "PROSPECTOR sufficiency necessity LS",
+    "INTERNIST-1 evoking strength",
+    "EMYCIN rule-based consultation",
+    "R1 XCON configuration rules"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century mechanical logic machines",
+   "scope": "Descriptions in period books and papers of Jevons's logic piano, the Stanhope demonstrator, Marquand's logic machine, Venn's diagram apparatus and Torres Quevedo's automata: how many terms each handled, key layout, and the procedure for eliminating inconsistent combinations. A question can ask which combinations a machine would keep for a given set of premises, or compare capacities across devices.",
+   "queries": [
+    "Jevons logical machine piano",
+    "Stanhope demonstrator syllogism",
+    "Marquand logic machine",
+    "logical abacus combinations",
+    "Torres Quevedo automaton chess"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "International Planning Competition tracks and PDDL versions",
+   "scope": "Facts about which PDDL version (2.1, 2.2, 3.0, 3.1, PDDL+) introduced durative actions, derived predicates, timed initial literals, preferences, object fluents or processes, plus IPC track structures, domains and winning planners by year. A question can ask which planners or competition years could handle a domain with a given feature set, or work out a timeline relation.",
+   "queries": [
+    "PDDL2.1 durative actions",
+    "timed initial literals PDDL2.2",
+    "PDDL3 preferences trajectory constraints",
+    "International Planning Competition results",
+    "PDDL+ processes events"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Architecture tables in language model reports",
+   "scope": "Hyperparameters reported in technical reports for specific open LLM families: layer count, model width, attention heads, KV-head grouping, FFN multiplier, vocabulary size, context length and training-token counts. A question can ask the solver to work out parameter counts, KV-cache size or training FLOPs from the reported configuration, or to spot which variant matches the derived quantities.",
+   "queries": [
+    "grouped-query attention KV heads",
+    "model architecture hyperparameters table",
+    "SwiGLU feedforward dimension",
+    "training tokens compute budget",
+    "open foundation language models"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Internals of classic game-playing programs",
+   "scope": "Documented design details of Samuel's checkers player, TD-Gammon's input encoding and hidden units, Chinook's endgame databases and the man-machine title history, Deep Blue's evaluation hardware, and Logistello's pattern features. A question can combine these specs to work out input dimensions, database sizes or search figures, or compare design choices between systems.",
+   "queries": [
+    "TD-Gammon input encoding",
+    "Chinook endgame databases checkers",
+    "Samuel checkers signature tables",
+    "Deep Blue evaluation chip",
+    "Logistello Othello patterns"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Court rulings on algorithmic decision systems",
+   "scope": "US opinions about automated risk-assessment and scoring tools (e.g., COMPAS in sentencing, EVAAS teacher evaluation, automated benefit determinations), including the due-process arguments raised, required warnings or remedies, and which courts decided them. A question can ask the solver to compare holdings, find which rationale was used, or work out the outcome under a stated set of facts.",
+   "queries": [
+    "COMPAS risk assessment sentencing",
+    "proprietary algorithm due process",
+    "value-added model teacher evaluation",
+    "automated eligibility determination notice",
+    "risk assessment instrument presentence"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  }
+ ]
+}

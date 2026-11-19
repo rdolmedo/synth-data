@@ -1,0 +1,10 @@
+# tasks requiring GPUs (task.toml [environment].gpus > 0): all 8 GPUs serve GLM-5.3-Flash
+cfg-vllm	gpus=1	['H100']
+gpt-ioi-circuit	gpus=1	['H100']
+gpu-component-labeler	gpus=1	['H100']
+gpu-embed-dedup	gpus=1	
+grpo-wordle-dense	gpus=1	['H100']
+jax-gpu-regression	gpus=1	['H100']
+moe-permute-invariant	gpus=1	['H100']
+mxfp4-matmul-bug	gpus=1	['H100']
+oss-tesla-grid-outage	gpus=1	

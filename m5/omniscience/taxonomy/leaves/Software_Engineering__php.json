@@ -1,0 +1,658 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "php",
+ "weight": 0.010244000000000001,
+ "leaves": [
+  {
+   "leaf": "PHP release history, versioning and governance",
+   "scope": "History of PHP versions from PHP/FI through PHP 8.x, covering release dates, support and end-of-life timelines, release managers, the RFC voting process and the PHP Foundation.",
+   "queries": [
+    "PHP/FI Rasmus Lerdorf Personal Home Page Tools 1995",
+    "PHP supported versions active security support EOL",
+    "PHP 6 Unicode abandoned PHP 7 PHPNG",
+    "PHP RFC voting process release managers PHP Foundation"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Backward-incompatible changes, deprecations and removals in migration guides",
+   "scope": "Content of each version's migration guide: removed functions and extensions, deprecated features and behavior changes that break backward compatibility, such as ereg, mysql, each(), create_function and dynamic properties.",
+   "queries": [
+    "migrating PHP 8.0 backward incompatible changes",
+    "deprecated features PHP 8.2 dynamic properties utf8_encode",
+    "removed extensions PHP 7.0 ereg mysql mssql",
+    "PHP 7.4 deprecated curly brace array offset"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Zend Engine internals, memory management, OPcache and JIT",
+   "scope": "How the Zend Engine stores zvals and HashTables, compiles to opcodes, counts references and collects reference cycles, plus OPcache, preloading and the tracing and function JIT.",
+   "queries": [
+    "Zend Engine zval refcount HashTable internals",
+    "opcache.jit tracing function JIT buffer size",
+    "opcache.preload preloading PHP 7.4 opcache.validate_timestamps",
+    "garbage collection cycles gc_collect_cycles root buffer"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type declarations and the type system",
+   "scope": "Type declarations on parameters, return values and properties: scalar, nullable, union, intersection, DNF, mixed, never, void, iterable, static and standalone true/false/null types, plus the strict_types coercion rules.",
+   "queries": [
+    "declare strict_types coercive typing mode scalar",
+    "union types intersection types DNF types PHP 8.2",
+    "never return type mixed type PHP 8.1",
+    "nullable types void return type PHP 7.1"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Variables, operators, control structures and type juggling",
+   "scope": "Core language semantics: variable scope, static and global variables, references, operator precedence and behavior (null coalescing, spaceship, nullsafe), control structures including match and alternative syntax, and the rules for loose comparison and type juggling.",
+   "queries": [
+    "saner string to number comparisons type juggling",
+    "operator precedence associativity null coalescing spaceship",
+    "match expression nullsafe operator alternative syntax control structures",
+    "references variable scope static variables global keyword"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Classes, inheritance, interfaces, traits and magic methods",
+   "scope": "The basics of the class model: visibility, abstract and final, interfaces, class constants, static members and late static binding, traits and trait conflict resolution, constructor promotion, cloning, and magic methods such as __get, __call, __toString and __invoke.",
+   "queries": [
+    "late static binding static self parent keywords",
+    "traits insteadof conflict resolution trait abstract methods",
+    "magic methods __get __set __call __callStatic __invoke",
+    "constructor property promotion object cloning __clone"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Enums, readonly and modern object model features (PHP 8.1+)",
+   "scope": "Object model features added since PHP 8.1: pure and backed enums, readonly properties and classes, new in initializers, property hooks, asymmetric visibility, lazy objects, typed class constants and the Override attribute.",
+   "queries": [
+    "backed enums cases from tryFrom UnitEnum BackedEnum",
+    "readonly properties readonly classes PHP 8.2",
+    "property hooks asymmetric visibility PHP 8.4",
+    "lazy objects newLazyGhost typed class constants Override"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Functions, closures and callables",
+   "scope": "Features of user-defined functions: default and variadic parameters, argument unpacking, named arguments, by-reference parameters, anonymous functions and Closure methods (bind, call, fromCallable), arrow functions, first-class callable syntax and the callable type.",
+   "queries": [
+    "named arguments variadic functions argument unpacking",
+    "Closure bind bindTo fromCallable call anonymous functions",
+    "arrow functions fn PHP 7.4 by-value capture",
+    "first-class callable syntax PHP 8.1 callable strings"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generators and Fibers",
+   "scope": "Generator functions with yield, keys, yield from delegation and Generator methods (send, throw, getReturn), and the Fiber class for cooperative concurrency added in PHP 8.1.",
+   "queries": [
+    "generators yield from delegation getReturn",
+    "Generator send throw current key valid",
+    "Fiber class start resume suspend FiberError",
+    "fibers RFC PHP 8.1 stackful coroutines"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Errors, exceptions and error handling",
+   "scope": "The Throwable, Exception and Error hierarchy (TypeError, ValueError, ArithmeticError and others), try/catch/finally behavior, the E_* error level constants, error_reporting, custom error and exception handlers, and the @ suppression operator.",
+   "queries": [
+    "Throwable Error Exception hierarchy TypeError ValueError",
+    "E_STRICT E_DEPRECATED E_USER_ERROR error level constants",
+    "set_error_handler set_exception_handler error_reporting",
+    "ErrorException DivisionByZeroError ArgumentCountError"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Attributes and the Reflection API",
+   "scope": "Native attribute syntax, built-in attributes such as Attribute, SensitiveParameter, Deprecated and ReturnTypeWillChange, and the Reflection classes for inspecting classes, functions, parameters, types and enums.",
+   "queries": [
+    "attributes syntax Attribute TARGET_CLASS IS_REPEATABLE flags",
+    "ReflectionClass getAttributes newInstance ReflectionAttribute",
+    "ReflectionNamedType ReflectionUnionType getType allowsNull",
+    "SensitiveParameter ReturnTypeWillChange AllowDynamicProperties attribute"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Namespaces and autoloading",
+   "scope": "Declaring namespaces, importing and aliasing with use, the name resolution rules and global fallback, __NAMESPACE__, and class autoloading through spl_autoload_register after __autoload was removed.",
+   "queries": [
+    "namespaces name resolution rules fully qualified global fallback",
+    "use function use const group use declarations",
+    "spl_autoload_register __autoload deprecated removed",
+    "namespace keyword __NAMESPACE__ aliasing importing"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "SPL data structures, iterators and predefined interfaces",
+   "scope": "The Standard PHP Library's data structures (SplStack, SplQueue, SplHeap, SplFixedArray, SplObjectStorage, SplPriorityQueue), its iterator classes and exceptions, and predefined interfaces and classes such as ArrayAccess, Countable, IteratorAggregate, Stringable and WeakMap.",
+   "queries": [
+    "SplFixedArray SplObjectStorage SplDoublyLinkedList",
+    "RecursiveIteratorIterator RecursiveDirectoryIterator CachingIterator",
+    "ArrayAccess IteratorAggregate Countable predefined interfaces",
+    "SplPriorityQueue SplMinHeap extract flags"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Arrays and array functions",
+   "scope": "How arrays behave (key casting, ordering, copy-on-write, list and destructuring, spread with string keys) and the array_* and sorting functions, including their flags and edge cases.",
+   "queries": [
+    "array_splice array_slice preserve_keys",
+    "sort flags SORT_NATURAL SORT_FLAG_CASE usort stable sorting",
+    "array destructuring list keys spread operator string keys",
+    "array_is_list array_find array_any PHP 8.4"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, formatting and multibyte text",
+   "scope": "String syntax (single and double quotes, heredoc and nowdoc, interpolation), the core string functions, printf-family format specifiers, and multibyte text handling with mbstring and iconv.",
+   "queries": [
+    "heredoc nowdoc syntax closing marker indentation PHP 7.3",
+    "sprintf format specifiers padding precision argnum",
+    "mb_substr mb_internal_encoding mbstring function overloading",
+    "str_contains str_starts_with substr_count strtr"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "PCRE regular expressions",
+   "scope": "The preg_* functions, pattern delimiters and modifiers, the move to PCRE2 in PHP 7.3, preg_last_error codes, backtracking and recursion limits, and JIT compilation of patterns.",
+   "queries": [
+    "preg_match_all PREG_SET_ORDER PREG_OFFSET_CAPTURE flags",
+    "PCRE pattern modifiers delimiters escape sequences",
+    "pcre.backtrack_limit pcre.jit preg_last_error_msg",
+    "PCRE2 migration PHP 7.3 preg_replace_callback_array"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Date and time handling",
+   "scope": "The date extension: DateTime, DateTimeImmutable, DateInterval, DatePeriod and DateTimeZone, the date() format characters, strtotime relative formats and the bundled timezonedb.",
+   "queries": [
+    "date format characters DateTimeInterface format",
+    "DateInterval format DatePeriod EXCLUDE_START_DATE",
+    "strtotime relative formats supported date time formats",
+    "DateTimeZone timezonedb date.timezone ini"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Numbers, math and arbitrary precision",
+   "scope": "How integers and floats behave (PHP_INT_MAX, overflow, precision settings), math functions and constants, rounding modes, BCMath, GMP, and the Random extension with Randomizer and its engines.",
+   "queries": [
+    "integer overflow PHP_INT_MAX float precision serialize_precision",
+    "BCMath bcscale bcdiv BcMath Number class",
+    "GMP gmp_powm gmp_strval arbitrary length integers",
+    "Random Randomizer Mt19937 Xoshiro256StarStar engines"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cryptography, hashing and password APIs",
+   "scope": "password_hash and password_verify with their algorithm constants, the hash extension and HMAC, the Sodium (libsodium) bindings, OpenSSL functions, random_bytes and random_int, and the removal of mcrypt.",
+   "queries": [
+    "password_hash PASSWORD_ARGON2ID PASSWORD_BCRYPT cost",
+    "sodium_crypto_secretbox libsodium PHP 7.2",
+    "openssl_encrypt cipher methods openssl_pkey_new",
+    "hash_hmac hash_algos xxh128 murmur3"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Security features, hardening and vulnerability history",
+   "scope": "The history of security-related language and configuration features (register_globals, magic_quotes, safe_mode, open_basedir, disable_functions, allow_url_include), object injection through unserialize, type-juggling exploits and notable PHP CVEs.",
+   "queries": [
+    "register_globals magic_quotes_gpc safe_mode removed",
+    "open_basedir disable_functions allow_url_include security",
+    "PHP object injection unserialize allowed_classes",
+    "PHP-CGI argument injection CVE-2024-4577 CVE-2012-1823"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database access with PDO and native drivers",
+   "scope": "The PDO API and its drivers, prepared statements, fetch modes and attributes, mysqli, the removed mysql extension, and other native database extensions such as pgsql, sqlite3 and oci8.",
+   "queries": [
+    "PDO ATTR_ERRMODE FETCH_ASSOC fetch modes",
+    "mysqli prepared statements bind_param mysqlnd",
+    "PDO driver subclasses Pdo Mysql Sqlite PHP 8.4",
+    "SQLite3 pgsql extension pg_query_params"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Web request handling, sessions and cookies",
+   "scope": "Superglobals ($_SERVER, $_GET, $_POST, $_FILES, $_REQUEST), php://input, header and output buffering functions, file uploads, setcookie options, and the session extension with its ini directives and save handlers.",
+   "queries": [
+    "session.cookie_samesite session.use_strict_mode session.gc_maxlifetime",
+    "setcookie options SameSite httponly expires",
+    "file uploads $_FILES UPLOAD_ERR_INI_SIZE upload_max_filesize",
+    "output buffering ob_start headers_sent header function"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "SAPIs, PHP-FPM and php.ini configuration",
+   "scope": "The server APIs (CLI, PHP-FPM, CGI/FastCGI, Apache module, embed, built-in web server), FPM pool configuration, and how php.ini directives are handled (changeable modes, .user.ini, ini_set, core directives).",
+   "queries": [
+    "PHP-FPM pm.max_children pm.dynamic pool configuration",
+    "built-in web server router script CLI",
+    "php.ini directives PHP_INI_PERDIR PHP_INI_SYSTEM changeable modes",
+    "user.ini files memory_limit max_execution_time core directives"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Streams, filesystem and Phar",
+   "scope": "The streams layer (wrappers such as php://, data://, compress.zlib:// and phar://, stream contexts and filters, custom wrappers), filesystem functions, and creating Phar archives and their metadata.",
+   "queries": [
+    "stream wrappers php://memory php://temp data://",
+    "stream_context_create http context options",
+    "stream_filter_append stream_wrapper_register custom wrapper",
+    "Phar archive phar.readonly stub Phar webPhar"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Serialization and JSON",
+   "scope": "The serialize/unserialize format and its hooks (__sleep, __wakeup, __serialize, __unserialize, the deprecated Serializable interface), var_export, json_encode and json_decode flags and errors, JsonSerializable and json_validate.",
+   "queries": [
+    "json_encode JSON_THROW_ON_ERROR JSON_PRETTY_PRINT flags",
+    "__serialize __unserialize Serializable interface deprecated",
+    "unserialize format serialized string max_depth",
+    "json_validate JsonSerializable json_last_error"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "XML, DOM and HTML processing",
+   "scope": "The XML-related extensions: DOM (DOMDocument and the HTML5 parser added in PHP 8.4 as Dom HTMLDocument), SimpleXML, XMLReader and XMLWriter, XSL, libxml options and the xml parser extension.",
+   "queries": [
+    "DOMDocument loadHTML LIBXML_NOENT libxml options",
+    "Dom HTMLDocument HTML5 parser PHP 8.4 querySelector",
+    "SimpleXMLElement xpath children attributes",
+    "XMLReader XMLWriter XSLTProcessor registerPHPFunctions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Networking, HTTP clients and remote protocols",
+   "scope": "Extensions for network communication: cURL options and multi handles, sockets and stream_socket functions, mail(), FTP, SOAP, LDAP and DNS functions.",
+   "queries": [
+    "curl_setopt CURLOPT_RETURNTRANSFER curl_multi_exec",
+    "socket_create stream_socket_server stream_select",
+    "SoapClient WSDL soap options classmap",
+    "ldap_bind ftp_connect mail function sendmail_path"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "CLI scripting and process control",
+   "scope": "Command-line PHP options and environment ($argv, getopt, STDIN, the interactive shell), program execution functions (exec, proc_open, shell_exec), pcntl signals and forking, POSIX functions, and System V IPC and shmop.",
+   "queries": [
+    "PHP CLI command line options interactive shell",
+    "pcntl_fork pcntl_signal pcntl_async_signals",
+    "proc_open descriptorspec escapeshellarg exec",
+    "shmop sysvsem sysvmsg posix_getpid"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Internationalization and localization",
+   "scope": "The ICU-based intl extension (NumberFormatter, Collator, IntlDateFormatter, MessageFormatter, Normalizer, Transliterator, IntlChar, grapheme functions), gettext, and locale functions such as setlocale.",
+   "queries": [
+    "NumberFormatter IntlDateFormatter ICU patterns",
+    "Collator Normalizer Transliterator intl extension",
+    "grapheme_strlen IntlChar Spoofchecker",
+    "gettext ngettext bindtextdomain setlocale LC_ALL"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Extension development, PECL and FFI",
+   "scope": "Writing PHP extensions in C (phpize, config.m4, zend_parse_parameters, stubs and arginfo), distributing them through PECL and PIE, popular PECL extensions such as APCu, Redis, Imagick and MongoDB, and the FFI extension.",
+   "queries": [
+    "phpize config.m4 ext_skel extension skeleton",
+    "zend_parse_parameters ZEND_FUNCTION arginfo stub",
+    "FFI cdef ffi.enable FFI preload",
+    "PECL APCu PIE PHP Installer for Extensions"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Composer and Packagist",
+   "scope": "The Composer dependency manager: the composer.json schema, version constraints, the lock file, autoload configuration, scripts and plugins, repositories, and the Packagist registry.",
+   "queries": [
+    "composer.json schema require-dev autoload psr-4",
+    "version constraints caret tilde stability flags",
+    "composer.lock install update platform config",
+    "Packagist Composer 2.0 plugins scripts events"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "PHP-FIG and PSR standards",
+   "scope": "The PHP Framework Interop Group and its PHP Standards Recommendations (PSR-1, 3, 4, 6, 7, 11, 12, 14, 15, 16, 17, 18, 20 and PER Coding Style), with their status and interfaces.",
+   "queries": [
+    "PSR-7 HTTP message interfaces ServerRequestInterface",
+    "PSR-12 extended coding style PER Coding Style",
+    "PSR-3 LoggerInterface PSR-11 ContainerInterface",
+    "PHP-FIG PSR-15 middleware PSR-17 HTTP factories"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Testing frameworks",
+   "scope": "PHPUnit (versions, assertions, data providers, attributes, test doubles, XML configuration, code coverage) and other PHP testing tools such as Pest, Mockery, Codeception, Behat and Infection.",
+   "queries": [
+    "PHPUnit DataProvider attribute assertSame test doubles",
+    "phpunit.xml configuration coverage source element",
+    "Pest PHP expectations architecture testing",
+    "Codeception Behat Mockery Infection mutation testing"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Static analysis, coding standards and refactoring tools",
+   "scope": "PHPStan rule levels and configuration, Psalm, Phan, PHP_CodeSniffer, PHP-CS-Fixer, and automated upgrades with Rector.",
+   "queries": [
+    "PHPStan rule levels baseline phpstan.neon",
+    "Psalm taint analysis annotations psalm.xml",
+    "PHP_CodeSniffer phpcs phpcbf standards",
+    "PHP-CS-Fixer rule sets Rector upgrade sets"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Debugging and profiling",
+   "scope": "Xdebug modes and settings (develop, debug, coverage, profile, trace), the DBGp protocol, phpdbg, and profilers such as XHProf, Blackfire, Tideways and SPX.",
+   "queries": [
+    "xdebug.mode develop debug profile trace coverage",
+    "xdebug.start_with_request client_port DBGp protocol",
+    "phpdbg breakpoints commands interactive debugger",
+    "XHProf Blackfire Tideways profiler call graph"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Laravel framework",
+   "scope": "Laravel's components and release history: Eloquent ORM, Artisan commands, Blade templates, routing, middleware, queues, the service container and facades, and ecosystem packages such as Sanctum, Octane and Horizon.",
+   "queries": [
+    "Laravel Eloquent relationships eager loading",
+    "Artisan commands migrations seeders Laravel",
+    "Blade directives components Laravel",
+    "Laravel release support policy Octane Sanctum Horizon"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Symfony components and Doctrine ORM",
+   "scope": "The Symfony framework and its standalone components (HttpKernel, HttpFoundation, DependencyInjection, Console, EventDispatcher, Messenger), Twig templating, the release cadence and LTS versions, and Doctrine ORM/DBAL mapping and DQL.",
+   "queries": [
+    "Symfony HttpKernel events kernel.request kernel.response",
+    "Symfony DependencyInjection autowiring service tags",
+    "Doctrine ORM mapping attributes DQL EntityManager UnitOfWork",
+    "Twig filters functions Symfony LTS release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Other PHP frameworks and template engines",
+   "scope": "Frameworks and micro-frameworks other than Laravel and Symfony (Zend Framework/Laminas, Mezzio, CodeIgniter, CakePHP, Yii, Slim, Phalcon, Nette) and template engines such as Smarty and Latte.",
+   "queries": [
+    "CodeIgniter 4 controllers models release",
+    "Laminas Project Zend Framework Mezzio middleware",
+    "CakePHP Yii framework Gii conventions",
+    "Phalcon C extension framework Slim Smarty templates"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "PHP-based content management systems and applications",
+   "scope": "Major applications written in PHP (WordPress with its hooks, plugin and theme APIs and versions, Drupal, Joomla, MediaWiki, Magento, Moodle, phpBB, Nextcloud) and their PHP requirements and architecture.",
+   "queries": [
+    "WordPress hooks add_action add_filter plugin API",
+    "Drupal 10 Symfony components hooks release",
+    "Joomla MediaWiki Magento PHP requirements",
+    "Moodle phpBB Nextcloud PHP application"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Alternative implementations, runtimes and application servers",
+   "scope": "PHP implementations and runtimes outside the standard request model: HHVM and Hack, PeachPie, KPHP, Quercus and Phalanger, plus long-running and async servers and libraries such as Swoole, ReactPHP, Amp, RoadRunner, FrankenPHP and the parallel extension.",
+   "queries": [
+    "HHVM HipHop compiler Hack language Facebook",
+    "PeachPie KPHP Quercus Phalanger PHP compiler",
+    "Swoole coroutines ReactPHP event loop Amp",
+    "RoadRunner FrankenPHP worker mode Caddy"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Image processing and graphics extensions (GD, Imagick, Gmagick, Exif)",
+   "scope": "Raster image creation, manipulation and metadata reading through the bundled GD library, the ImageMagick/GraphicsMagick bindings and the Exif extension, including supported formats, function signatures and the versions that added them.",
+   "queries": [
+    "GD imagecreatetruecolor imagecopyresampled function parameters",
+    "Imagick class methods ImageMagick extension",
+    "exif_read_data sections thumbnail EXIF extension",
+    "imageavif imagewebp GD bundled libgd version"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "PDF, spreadsheet and office document generation libraries",
+   "scope": "Userland libraries that produce or parse PDF, spreadsheet and word-processing files, such as FPDF, TCPDF, Dompdf, mPDF, PhpSpreadsheet (successor to PHPExcel), PHPWord and OpenSpout, including their authors, lineage, release milestones and supported formats.",
+   "queries": [
+    "TCPDF FPDF PDF generation library PHP",
+    "PhpSpreadsheet PHPExcel successor reader writer",
+    "Dompdf HTML to PDF CSS support",
+    "PHPWord mPDF OpenSpout document library release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Caching, key-value store and message queue client extensions (APCu, Memcached, phpredis, AMQP, rdkafka)",
+   "scope": "PECL and userland clients for in-memory user caches, key-value stores and message brokers, covering their APIs, option constants, serializers, ini settings and version history (separate from OPcache).",
+   "queries": [
+    "APCu apcu_fetch apcu_store user cache",
+    "Memcached extension libmemcached options Memcached::OPT",
+    "phpredis Redis extension serializer compression options",
+    "php-amqp rdkafka message queue extension"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Event loops and asynchronous I/O libraries (ReactPHP, Amp, Revolt, ev/event extensions)",
+   "scope": "Userland async ecosystems and event-loop backends for non-blocking I/O in PHP, including ReactPHP components, Amp and the Revolt event loop, promise libraries, and the PECL ev, event and uv extensions.",
+   "queries": [
+    "ReactPHP event loop stream promise components",
+    "Amp Revolt event loop fibers coroutines",
+    "PECL ev event libevent extension EventBase",
+    "async PHP non-blocking I/O promises library"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Output buffering, file inclusion and script execution lifecycle",
+   "scope": "How a PHP script is loaded, run and ended: include/require semantics and return values, include_path and auto_prepend/append files, ob_* output control and handlers, shutdown functions, connection handling, execution time limits and declare ticks.",
+   "queries": [
+    "output buffering ob_start callback chunk_size flags",
+    "include require include_once return value include_path",
+    "register_shutdown_function connection handling ignore_user_abort",
+    "auto_prepend_file max_execution_time set_time_limit"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Building, installing and packaging PHP (configure options, ZTS/NTS, Windows builds, Docker images)",
+   "scope": "Compiling PHP from source and distributing binaries: configure flags and build dependencies, thread-safe versus non-thread-safe builds, Windows builds and their Visual Studio toolchains, the official Docker images and helper scripts, and distribution packaging.",
+   "queries": [
+    "configure options compile PHP from source enable",
+    "thread safety ZTS NTS Windows builds Visual Studio",
+    "official Docker image docker-php-ext-install php-fpm",
+    "PHP SDK binary tools Windows build x64"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Email sending and mailbox handling (mail(), IMAP extension, PHPMailer)",
+   "scope": "Sending and reading email from PHP: the mail() function and its mail.* and sendmail ini directives, mb_send_mail, the IMAP extension and its unbundling, and mail libraries such as PHPMailer and SwiftMailer, including their versions and known vulnerabilities.",
+   "queries": [
+    "mail function additional_headers sendmail_path php.ini",
+    "IMAP extension imap_open mailbox functions",
+    "PHPMailer SMTP class release vulnerability",
+    "mail.add_x_header mail.log configuration directives"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

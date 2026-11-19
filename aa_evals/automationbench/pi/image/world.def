@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: python:3.13-slim
+
+# AutomationBench world service for the Pi harness (#348): upstream's schema and api tools (zapier/AutomationBench
+# 4a8e106, MIT) with pydantic at the AB venv's versions, plus world_server.py. No task builders, assertions or
+# rubric (domains/, rubric/, runner.py are not copied). Built by build_world.sh. Tasks run the world_server.py their
+# bundle ships (environment/world/, mounted at /task), not the copy in the image (v1 has one; it is unused).
+
+%files
+    ctx/automationbench /opt/abworld/automationbench
+    world_server.py /opt/abworld/world_server.py
+
+%post
+    set -eu
+    export http_proxy=${BUILD_PROXY:-http://proxy.internal:8080} https_proxy=${BUILD_PROXY:-http://proxy.internal:8080}
+    # openai: imported at module level by upstream's zapier tools (never called by the api toolset)
+    pip install --no-cache-dir "pydantic==2.12.5" "pydantic-core==2.41.5" "openai==2.53.0" "httpx==0.28.1"
+    chmod -R a+rX /opt/abworld
+    cd /opt/abworld && python -I -c "import sys; sys.path.insert(0, '/opt/abworld'); from automationbench.tools.api import API_TOOLS; from automationbench.schema.world import WorldState; print([t.__name__ for t in API_TOOLS])"
+    pip freeze > /opt/abworld/pip_freeze.txt
+
+%environment
+    export PYTHONPATH=/opt/abworld
+    export PYTHONDONTWRITEBYTECODE=1

@@ -1,0 +1,6 @@
+[
+ {"task": "animal-reid", "file": "environment/Dockerfile",
+  "why": "glue-factory@1f56839 depends on unpinned git+LightGlue; LightGlue main moved past the pinned eb42fee on 2026-10-25 (after the v0.1.0 release), so uv now fails with conflicting URLs for lightglue and the environment no longer builds under Docker either. A uv override restores the authoring-time resolution (HEAD == eb42fee).",
+  "old": "    && uv pip install --python /opt/venv/bin/python --no-cache -r /app/requirements.txt\n",
+  "new": "    && echo 'lightglue @ git+https://github.com/cvg/LightGlue.git@eb42fee2d71449efb0aa5c10549752b5d75384d8' > /tmp/uv-overrides.txt \\\n    && uv pip install --python /opt/venv/bin/python --no-cache --override /tmp/uv-overrides.txt -r /app/requirements.txt\n"}
+]

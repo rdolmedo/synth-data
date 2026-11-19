@@ -1,0 +1,2 @@
+[vllm.general_plugins]
+synth_evict_dead = synth_evict_dead:register

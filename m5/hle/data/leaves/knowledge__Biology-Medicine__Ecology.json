@@ -1,0 +1,150 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Ecology",
+ "target_leaves": 9,
+ "expected_problems": 109,
+ "leaves": [
+  {
+   "leaf": "Clementsian sere terminology and succession stages",
+   "scope": "Early 20th-century succession vocabulary from Clements, Cowles and Tansley: named seres (hydrosere, xerosere, psammosere, halosere, lithosere, oxysere), stage names, and the communities documented at sites such as the Lake Michigan dunes. A question could give a described sequence of communities and ask for the sere type, the next stage, or how many stages lie before the reported climax.",
+   "queries": [
+    "Clements plant succession sere",
+    "Cowles sand dune vegetation",
+    "hydrosere xerosere stages",
+    "psammosere halosere climax",
+    "prisere subsere formation"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "biodiversity_heritage_library",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Cohort life tables of wild ungulates",
+   "scope": "Published age-specific survivorship and mortality data for wild populations (e.g., skull-based Dall sheep life tables, Rum red deer, Soay sheep, chamois), including lx, dx, qx columns and how ages were assigned. A question could have the solver compute life expectancy at a given age, identify the survivorship curve type, or compare mortality between sexes or cohorts.",
+   "queries": [
+    "ungulate life table survivorship",
+    "Dall sheep skull mortality",
+    "red deer Rum cohort survival",
+    "Soay sheep age-specific mortality",
+    "static life table horn annuli"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Insect degree-day thermal constants and voltinism",
+   "scope": "Species-specific lower developmental thresholds and thermal constants (degree-days) for pest and beneficial insects, taken from laboratory rearing studies at constant temperatures. A question could give a site's heat accumulation and ask the solver to work out the number of generations, the date a stage emerges, or which of two species finishes development first.",
+   "queries": [
+    "lower developmental threshold degree-days",
+    "thermal constant insect development",
+    "voltinism degree-day accumulation",
+    "linear development rate temperature",
+    "phenology model pest emergence"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Fig and fig-wasp pollinator specificity",
+   "scope": "Records of which agaonid pollinator genera and species pollinate which Ficus sections and species, cases where the one-to-one rule breaks down, and the non-pollinating wasp genera reared from particular figs. A question could ask the solver to infer the pollinator genus of a fig from its section, or to count how many host species are shared in a documented local community.",
+   "queries": [
+    "Ficus pollinator Agaonidae specificity",
+    "fig wasp host switching",
+    "non-pollinating fig wasps Sycophaginae",
+    "Ficus section Ceratosolen Pleistodontes",
+    "fig wasp cospeciation"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Wallacean faunal boundary lines and islands",
+   "scope": "How Wallace's, Huxley's, Weber's, Lydekker's and Murray's lines were drawn and repositioned, and which islands and taxa (mammals, birds, butterflies) lie on each side or in the transition zone. A question could ask how many named islands fall between two specified lines, or which line a given distribution record supports.",
+   "queries": [
+    "Wallace line Weber line",
+    "Lydekker line Sahul shelf",
+    "Wallacea faunal transition",
+    "Malay Archipelago zoological regions",
+    "Huxley line Philippines"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "New Zealand acclimatisation society introductions",
+   "scope": "Nineteenth- and early-twentieth-century records of animals and plants released in New Zealand by acclimatisation societies: species, years, numbers liberated, release districts and whether they became established. A question could ask the solver to compare outcomes across a group of species, work out the interval between first release and recorded establishment, or count which introductions failed.",
+   "queries": [
+    "acclimatisation society New Zealand",
+    "naturalisation animals plants New Zealand",
+    "introduced birds liberated Canterbury",
+    "Thomson naturalisation 1922",
+    "game birds released Otago"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Holocene pollen zones and chronozones",
+   "scope": "Regional pollen zone schemes (Godwin's British zones, Firbas zones, the Blytt-Sernander periods), the pollen events that mark their boundaries (elm decline, alder rise, lime decline) and how the boundaries are radiocarbon dated at type sites. A question could take a described pollen sequence and ask for the zone, or the time between two events at a named site.",
+   "queries": [
+    "Godwin pollen zones Holocene",
+    "Blytt-Sernander Atlantic Subboreal",
+    "elm decline radiocarbon date",
+    "pollen diagram alder rise",
+    "Firbas pollen zone"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Meromictic lakes and lake mixing regimes",
+   "scope": "Classification of lakes by how they mix (holomictic, dimictic, monomictic, polymictic, meromictic), the causes of meromixis (crenogenic, ectogenic, biogenic), and documented features of particular meromictic lakes such as monimolimnion depth and chemocline chemistry. A question could ask for a lake's mixing class given its latitude, depth and salinity profile, or the cause of its meromixis.",
+   "queries": [
+    "meromictic lake monimolimnion",
+    "crenogenic ectogenic meromixis",
+    "dimictic monomictic lake classification",
+    "chemocline anoxic hypolimnion",
+    "lake mixing regime Hutchinson"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Hydrothermal vent faunal biogeographic provinces",
+   "scope": "How chemosynthetic vent fauna divides into provinces (East Pacific Rise, Mid-Atlantic Ridge, western Pacific back-arc basins, Indian Ocean, Southern Ocean ridges), the dominant symbiont-bearing taxa in each (siboglinid tubeworms, Rimicaris shrimp, Alviniconcha snails, Bathymodiolus mussels) and the vent fields where they occur. A question could ask the solver to place a vent field in its province from the fauna reported there, or to count the dominant taxa two provinces share.",
+   "queries": [
+    "hydrothermal vent biogeographic provinces",
+    "Rimicaris Mid-Atlantic Ridge vent",
+    "Alviniconcha back-arc basin",
+    "Riftia East Pacific Rise",
+    "Indian Ocean vent fauna Kairei"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

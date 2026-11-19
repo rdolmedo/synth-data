@@ -1,0 +1,349 @@
+{
+ "partition": "reasoning",
+ "category": "Math",
+ "subject": "broad",
+ "target_leaves": 20,
+ "expected_problems": 160,
+ "leaves": [
+  {
+   "leaf": "UMVU estimation in nonregular parametric families",
+   "scope": "Problems give a family whose support depends on the parameter, or that is truncated, censored or discrete, and ask for the exact UMVU estimator of a stated function of the parameter, or for its variance. They are hard because Cram\u00e9r\u2013Rao reasoning does not apply here, so completeness must be proved directly and the conditional expectations worked out by hand.",
+   "techniques": [
+    "Lehmann\u2013Scheff\u00e9 via complete sufficient statistics",
+    "Rao\u2013Blackwellization of a crude unbiased estimator",
+    "Basu's theorem for independence of ancillary statistics",
+    "joint and conditional distributions of order statistics",
+    "solving unbiasedness integral or power-series equations term by term",
+    "Chapman\u2013Robbins and Hammersley variance bounds"
+   ],
+   "answer_forms": [
+    "closed-form expression in n and the sufficient statistic",
+    "rational number",
+    "closed-form variance expression"
+   ]
+  },
+  {
+   "leaf": "Minimax and Bayes risk under nonstandard losses",
+   "scope": "Problems ask for the minimax estimator, the least favorable prior, or the exact Bayes or minimax risk in a concrete model under LINEX, weighted squared, absolute or zero-one loss, often with a bounded parameter space. The difficulty is guessing the least favorable structure (often a discrete prior), proving it is least favorable, and computing the risk exactly.",
+   "techniques": [
+    "equalizer rules combined with a Bayes-optimality check",
+    "least favorable discrete priors on bounded intervals",
+    "Blyth's limiting-Bayes argument",
+    "Stein's unbiased risk estimate and James\u2013Stein dominance",
+    "Hunt\u2013Stein invariance under group actions",
+    "conjugate posterior computations"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "ordered pair of estimator coefficients"
+   ]
+  },
+  {
+   "leaf": "Pitman efficiency of rank and sign tests",
+   "scope": "Problems ask for the exact Pitman asymptotic relative efficiency, efficacy or Bahadur slope of nonparametric tests against given shift or scale alternatives when the underlying density is nonstandard. They are hard because one must derive the asymptotic mean slope and null variance of the test statistic and then evaluate nontrivial integrals of the density and score functions.",
+   "techniques": [
+    "Noether's efficacy formula",
+    "H\u00e1jek projection of rank statistics",
+    "evaluation of integrals of f squared and of optimal score functions",
+    "Chernoff\u2013Savage theorem for normal-scores tests",
+    "extremal densities for efficiency lower bounds",
+    "U-statistic variance computations"
+   ],
+   "answer_forms": [
+    "closed-form constant",
+    "rational number",
+    "exact infimum or supremum over a family of densities"
+   ]
+  },
+  {
+   "leaf": "Hitting times of random walks on finite structures",
+   "scope": "Problems ask for exact expected hitting, cover or commute times, or exit probabilities, for walks on explicit graphs, Cayley graphs or card-shuffling chains. They are hard because the linear systems are too large to solve by brute force, so the answer has to come from symmetry, electrical-network or spectral arguments.",
+   "techniques": [
+    "commute time identity via effective resistance",
+    "Kac's return-time lemma and stationary distributions",
+    "optional stopping applied to a constructed martingale",
+    "lumping the chain into orbits of a symmetry group",
+    "spectral decomposition of Cayley-graph Laplacians via group characters",
+    "series-parallel and star-mesh network reductions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in n",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Exact laws of Brownian path functionals",
+   "scope": "Problems ask for the exact distribution, Laplace transform or a moment of a functional of Brownian motion or a related diffusion, such as occupation time, local time, running maximum, exit time or signed area. They are hard because each one requires picking the right transform or path decomposition and then solving an ODE or evaluating a special-function integral exactly.",
+   "techniques": [
+    "Feynman\u2013Kac formula with a Sturm\u2013Liouville ODE",
+    "reflection principle and the joint law of maximum and endpoint",
+    "L\u00e9vy's arcsine laws and the Tanaka formula",
+    "Ray\u2013Knight theorems for local time",
+    "Girsanov change of measure to add or remove drift",
+    "Williams path decomposition and Brownian bridge conditioning"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "explicit Laplace transform"
+   ]
+  },
+  {
+   "leaf": "Galton\u2013Watson trees and total progeny",
+   "scope": "Problems ask for extinction probabilities, total-progeny distributions, generation sizes or statistics of conditioned trees for branching processes with explicit offspring laws, possibly multitype or with immigration. They are hard because exact answers need fixed points of generating functions or inversion formulas, not approximations.",
+   "techniques": [
+    "fixed points of the offspring probability generating function",
+    "Lagrange inversion and the Otter\u2013Dwass hitting-time theorem",
+    "explicit iteration of linear-fractional offspring laws",
+    "size-biased trees and spine decomposition",
+    "Perron\u2013Frobenius analysis of multitype mean matrices",
+    "Kesten's tree as the limit under survival conditioning"
+   ],
+   "answer_forms": [
+    "algebraic number in radicals",
+    "rational number",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "Ordinal arithmetic and order-type computation",
+   "scope": "Problems ask for the Cantor normal form or order type of an explicit ordinal expression, a concrete well-order, or a construction indexed by ordinals (sums, products, natural sums, exponentials, fixed points). They are hard because ordinal operations are not commutative and behave unexpectedly at limits, so ordinary algebra fails, and fixed points need Veblen-style reasoning.",
+   "techniques": [
+    "Cantor normal form manipulation using only left distributivity",
+    "Hessenberg natural sum and product",
+    "epsilon numbers and Veblen phi-function fixed points",
+    "order types of lexicographic and multiset orderings",
+    "fundamental sequences and fast-growing hierarchies",
+    "Cantor\u2013Bendixson rank of countable compact spaces"
+   ],
+   "answer_forms": [
+    "ordinal in Cantor normal form",
+    "integer",
+    "name of an ordinal"
+   ]
+  },
+  {
+   "leaf": "Cardinal arithmetic under stated set-theoretic hypotheses",
+   "scope": "Problems ask for the cardinality of a concretely defined set (of functions, ultrafilters, topologies, Borel sets, automorphisms), or for the value of a cardinal expression, assuming GCH, SCH or a specified failure of CH. They are hard because ZFC theorems have to be combined with the stated hypothesis, and the solver must know which values are forced and which are independent.",
+   "techniques": [
+    "K\u00f6nig's theorem and cofinality constraints",
+    "Hausdorff's formula and the Bukovsk\u00fd\u2013Hechler theorem for exponentiation",
+    "Posp\u00ed\u0161il's count of ultrafilters",
+    "Silver's theorem on singular cardinals of uncountable cofinality",
+    "Easton's theorem for consistency of values at regular cardinals",
+    "Borel hierarchy counting arguments"
+   ],
+   "answer_forms": [
+    "cardinal expression",
+    "independence status (provable, refutable or independent)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Countable models and Morley rank",
+   "scope": "Problems give an explicit first-order theory (equivalence relations with given class sizes, unary predicates, dense orders with colors, vector spaces with extra structure) and ask for the number of countable models, the number of n-types, or the Morley rank and degree of a definable set. They are hard because one must establish the correct quantifier elimination and then classify types exactly.",
+   "techniques": [
+    "quantifier elimination by back-and-forth arguments",
+    "Ryll-Nardzewski characterization of omega-categoricity",
+    "Vaught's never-two theorem and Ehrenfeucht-style constructions",
+    "Cantor\u2013Bendixson analysis of Stone spaces of types",
+    "Morley rank via strongly minimal sets and dimension",
+    "counting automorphism-group orbits on n-tuples"
+   ],
+   "answer_forms": [
+    "integer",
+    "cardinal (aleph-null or continuum)",
+    "ordered pair (Morley rank, Morley degree)"
+   ]
+  },
+  {
+   "leaf": "Arithmetical complexity of index sets",
+   "scope": "Problems ask for the exact level of the arithmetical or analytical hierarchy at which a natural set of program indices, or a property of computable structures, is complete. They are hard because the answer needs both an upper bound from quantifier counting and a matching many-one hardness reduction.",
+   "techniques": [
+    "Tarski\u2013Kuratowski quantifier-counting algorithm",
+    "Post's theorem linking Sigma_n to iterated Turing jumps",
+    "Shoenfield limit lemma",
+    "Rice\u2013Shapiro theorem",
+    "many-one reductions from Fin, Tot, Cof and Rec",
+    "Pi^1_1-completeness via well-foundedness of computable trees"
+   ],
+   "answer_forms": [
+    "name of a hierarchy class (for example Sigma^0_3-complete)",
+    "letter for multiple choice",
+    "ordered tuple of hierarchy classes"
+   ]
+  },
+  {
+   "leaf": "Kripke semantics and modal logic counting",
+   "scope": "Problems ask for the number of pairwise non-equivalent formulas in finitely many variables in a given modal or intermediate logic, for the first-order frame condition of a modal axiom, or for which logic a frame class determines. They are hard because they need canonical or finite model constructions and careful counting up to logical equivalence.",
+   "techniques": [
+    "Sahlqvist correspondence",
+    "filtration and the finite model property",
+    "free algebras and the Rieger\u2013Nishimura lattice",
+    "bisimulation and n-bisimilarity types",
+    "Esakia duality for Heyting algebras",
+    "Jankov\u2013de Jongh characteristic formulas"
+   ],
+   "answer_forms": [
+    "integer",
+    "first-order frame condition",
+    "name of a logic"
+   ]
+  },
+  {
+   "leaf": "Inhabitation and normal forms in typed lambda calculi",
+   "scope": "Problems ask how many closed beta-eta-normal inhabitants a given simple or polymorphic type has, what the normal form of a term is, or whether a type is inhabited in a stated system. They are hard because counting requires a careful grammar of long normal forms, and inhabitation is tied to provability in intuitionistic or substructural logics.",
+   "techniques": [
+    "long beta-eta-normal form grammars and generating functions",
+    "Curry\u2013Howard correspondence with implicational intuitionistic logic",
+    "Ben-Yelles inhabitation algorithm",
+    "Church encodings and parametricity (free theorems)",
+    "linear and affine typing restrictions",
+    "B\u00f6hm tree comparison"
+   ],
+   "answer_forms": [
+    "integer",
+    "lambda term",
+    "finite set of terms"
+   ]
+  },
+  {
+   "leaf": "Weight enumerators of constructed linear codes",
+   "scope": "Problems define a linear or self-dual code by a construction (generator matrix, roots of a cyclic code, concatenation, extension, puncturing) and ask for its weight distribution, minimum distance, number of codewords of a given weight, or covering radius. They are hard because direct enumeration is infeasible, so duality or invariant-theory constraints have to determine the answer.",
+   "techniques": [
+    "MacWilliams identity",
+    "Gleason's theorem for Type I and Type II self-dual codes",
+    "BCH and Hartmann\u2013Tzeng bounds",
+    "Assmus\u2013Mattson theorem and supported designs",
+    "Griesmer and Delsarte linear-programming bounds",
+    "Pless power moments"
+   ],
+   "answer_forms": [
+    "integer",
+    "weight enumerator polynomial",
+    "ordered tuple [n, k, d]"
+   ]
+  },
+  {
+   "leaf": "Zero-error and Shannon capacity computations",
+   "scope": "Problems ask for the exact Shannon capacity, zero-error capacity or rate-distortion function of an explicitly specified channel, source or confusability graph. They are hard because capacity is a nonlinear optimization, and zero-error capacity requires a code construction that matches an upper bound such as the Lov\u00e1sz theta function.",
+   "techniques": [
+    "uniform-input argument for symmetric channels",
+    "KKT conditions for capacity-achieving input distributions",
+    "Lov\u00e1sz theta for vertex-transitive graphs",
+    "Haemers rank bound",
+    "Shannon lower bound for rate-distortion",
+    "fractional clique-cover bounds"
+   ],
+   "answer_forms": [
+    "closed-form expression in bits",
+    "logarithm of an algebraic number",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Cryptographic criteria of Boolean functions",
+   "scope": "Problems give Boolean or vectorial functions on F_2^n (power maps, Maiorana\u2013McFarland constructions, rotation-symmetric functions) and ask for their nonlinearity, differential uniformity, algebraic degree, algebraic immunity or correlation immunity. They are hard because the Walsh spectrum has to be computed by exploiting finite-field structure rather than by brute force.",
+   "techniques": [
+    "Walsh\u2013Hadamard transform and Parseval's identity",
+    "Gold and Kasami power functions",
+    "bent function constructions",
+    "evaluation of Gauss and Kloosterman sums",
+    "Siegenthaler's degree\u2013resiliency tradeoff",
+    "rank of quadratic forms over F_2"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of cryptographic parameters",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "State complexity of regular language operations",
+   "scope": "Problems ask for the exact number of states in the minimal DFA (or minimal NFA) for a language built from given automata by reversal, star, quotient, shuffle, concatenation or combinations of these. They are hard because the solver must prove both that a large set of states is reachable and that every pair of those states is distinguishable.",
+   "techniques": [
+    "Myhill\u2013Nerode congruence",
+    "Brzozowski derivatives and quotient counting",
+    "fooling-set lower bounds for NFAs",
+    "syntactic monoids and transition semigroups",
+    "Chrobak normal form for unary automata",
+    "Landau's function for unary NFA-to-DFA conversion"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form formula in n",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Critical exponents and factor complexity of morphic words",
+   "scope": "Problems define an infinite word by a morphism, a numeration system or a rotation coding, and ask for its critical exponent, its factor or palindromic complexity, or the avoidability index of a pattern. They are hard because these quantities depend on subtle recurrence structure, and usually need bispecial-factor analysis or a decision procedure for automatic sequences.",
+   "techniques": [
+    "bispecial factors and Cassaigne's complexity differences",
+    "Sturmian words and the continued fraction of the slope",
+    "first-order decision procedures for k-automatic words",
+    "return words and derived sequences",
+    "Zimin words and pattern avoidability",
+    "repetition thresholds of Dejean type"
+   ],
+   "answer_forms": [
+    "rational number or quadratic irrational",
+    "integer",
+    "closed-form complexity function"
+   ]
+  },
+  {
+   "leaf": "Counting structures in finite categories",
+   "scope": "Problems ask for the number of functors, natural transformations, adjunctions, monads or (co)limits of a given shape for small explicit categories, posets or monoids, or ask for the value of a Kan extension. They are hard because universal properties have to be combined with careful finite combinatorics.",
+   "techniques": [
+    "Yoneda lemma and representable functors",
+    "pointwise Kan extensions as ends and coends",
+    "monads on posets as closure operators",
+    "Leinster's Euler characteristic of finite categories",
+    "Day convolution",
+    "Grothendieck construction"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of an object or category",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Tiling enumeration and tiling obstructions",
+   "scope": "Problems ask for the number of tilings of an explicit region by dominoes, lozenges, polyominoes or ribbon tiles, or ask whether a region can be tiled at all. They are hard because exact counts need determinant or transfer-matrix methods, and proving impossibility needs a well-chosen invariant.",
+   "techniques": [
+    "Kasteleyn\u2013Percus determinants",
+    "transfer-matrix method with boundary states",
+    "Conway\u2013Lagarias tiling groups",
+    "height functions and local flip moves",
+    "Lindstr\u00f6m\u2013Gessel\u2013Viennot nonintersecting lattice paths",
+    "coloring invariants"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form product formula",
+    "letter for a yes/no multiple choice"
+   ]
+  },
+  {
+   "leaf": "Invariants of explicitly constructed knots and links",
+   "scope": "Problems describe a knot or link concretely (braid word, rational tangle, pretzel parameters, satellite or cabling construction) and ask for a polynomial invariant, the signature, the determinant, the number of Fox colorings, or the unknotting number or genus. They are hard because the description must first be turned into a computable presentation, and sharp values usually need several invariants combined.",
+   "techniques": [
+    "Kauffman bracket state sums",
+    "Seifert matrices and Levine\u2013Tristram signatures",
+    "Fox free differential calculus for Alexander modules",
+    "Conway skein relations",
+    "continued-fraction classification of rational knots",
+    "genus and unknotting-number bounds from signatures and Rasmussen-type invariants"
+   ],
+   "answer_forms": [
+    "Laurent polynomial",
+    "integer",
+    "ordered pair of invariants"
+   ]
+  }
+ ]
+}

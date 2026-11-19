@@ -1,0 +1,634 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "Linguistics",
+ "target_leaves": 40,
+ "expected_problems": 478,
+ "leaves": [
+  {
+   "leaf": "PIE laryngeals and Anatolian reflexes",
+   "scope": "Reflexes of *h1, *h2 and *h3 in Hittite and Luwian \u1e2b, Greek triple vocalism, Armenian prothesis and Indo-Iranian aspiration, as in Saussure's coefficients and later work. A question could give cognate sets and ask which laryngeal, or which root shape, the evidence requires.",
+   "queries": [
+    "Hittite laryngeal reflex",
+    "Saussure coefficients sonantiques",
+    "Greek triple reflex laryngeals",
+    "h2 a-coloring",
+    "Anatolian laryngeal evidence"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Elder and Younger Futhark runic inscriptions",
+   "scope": "Rune values and names, readings of specific inscriptions (Gallehus, Tune, Eggja, R\u00f6k), and the shift from 24 to 16 runes along with the sound mergers that came with it. A question could ask for a transliteration, a count of ambiguous rune values, or a date range inferred from rune forms.",
+   "queries": [
+    "Elder Futhark inscription",
+    "Younger Futhark sixteen runes",
+    "R\u00f6k runestone reading",
+    "Anglo-Saxon futhorc",
+    "Proto-Norse runic"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Insular Celtic initial consonant mutations",
+   "scope": "Lenition, nasalization and aspiration triggers in Old Irish, Welsh and Breton, and how they arose from lost word-final consonants. A question could give an article, possessive or numeral plus a noun's gender and case, and ask for the mutated form or for the lost final segment.",
+   "queries": [
+    "Old Irish lenition nasalization",
+    "Welsh soft mutation triggers",
+    "Celtic mutation origin",
+    "Breton consonant mutation",
+    "W\u00fcrzburg glosses grammar"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Oscan and Umbrian epigraphic texts",
+   "scope": "Sabellic sound laws (labiovelars becoming p, f from aspirates), native alphabets, and the vocabulary of the Iguvine Tables and the Tabula Bantina. A question could ask for the Latin cognate of an Umbrian word, or which sound law explains a given spelling.",
+   "queries": [
+    "Iguvine Tables Umbrian",
+    "Tabula Bantina Oscan",
+    "Oscan Umbrian grammar",
+    "Sabellic phonology",
+    "Umbrian ritual inscription"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Linear B spelling and Mycenaean Greek",
+   "scope": "Syllabogram values, ideograms, and the spelling rules for consonant clusters, final consonants and labiovelars, with readings of specific tablets from Pylos and Knossos. A question could ask the solver to apply the spelling rules and work out the alphabetic Greek word behind a Linear B sequence.",
+   "queries": [
+    "Linear B syllabary values",
+    "Mycenaean Greek tablets",
+    "Pylos tablets Linear B",
+    "Mycenaean spelling conventions",
+    "Knossos tablet ideograms"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Old Church Slavonic yers and Glagolitic",
+   "scope": "Glagolitic and Cyrillic letter forms and numerical values, strong and weak yers under Havl\u00edk's law, and how the canonical codices (Zographensis, Marianus, Suprasliensis) differ. A question could ask which yers vocalize in a given word, or what number a letter sequence stands for.",
+   "queries": [
+    "Havl\u00edk's law jers",
+    "Old Church Slavonic grammar",
+    "Glagolitic numerical values",
+    "Codex Zographensis",
+    "Codex Suprasliensis"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Coptic dialect correspondences and orthography",
+   "scope": "Sound and spelling differences between the Sahidic, Bohairic, Akhmimic, Lycopolitan and Fayyumic dialects, including Fayyumic lambdacism, and the letters taken from Demotic. A question could ask which dialect a given spelling belongs to, or what a word would look like in another dialect.",
+   "queries": [
+    "Sahidic Bohairic differences",
+    "Coptic Demotic-derived letters",
+    "Fayyumic Coptic lambdacism",
+    "Akhmimic Coptic",
+    "Coptic dialectology"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Sumerian cuneiform sign values and grammar",
+   "scope": "Sign polyphony, determinatives such as gi\u0161, dingir and ki, the Emesal dialect, ergative case marking, and the order of prefixes in the verbal chain. A question could ask the solver to parse a transliterated line and name the agent, or to pick the right reading of a sign.",
+   "queries": [
+    "Sumerian determinatives",
+    "Emesal dialect Sumerian",
+    "Sumerian verbal prefix chain",
+    "cuneiform sign polyphony",
+    "Sumerian ergative"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "P\u0101\u1e47inian grammar: \u015aiva S\u016btras and praty\u0101h\u0101ras",
+   "scope": "The 14 \u015aiva S\u016btras, it-markers (anubandhas), how praty\u0101h\u0101ras are formed, the technical terms gu\u1e47a and v\u1e5bddhi, and rule-conflict principles such as asiddha and viprati\u1e63edha. A question could ask which sounds a praty\u0101h\u0101ra contains, or which rule applies first in a derivation.",
+   "queries": [
+    "\u015aiva S\u016btras praty\u0101h\u0101ra",
+    "A\u1e63\u1e6d\u0101dhy\u0101y\u012b rule ordering",
+    "P\u0101\u1e47ini anubandha",
+    "asiddha trip\u0101d\u012b",
+    "K\u0101ty\u0101yana v\u0101rttika"
+   ],
+   "sources": [
+    "doab",
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Basran versus Kufan Arabic grammatical disputes",
+   "scope": "What S\u012bbawayhi's Kit\u0101b teaches, the disputes catalogued in Ibn al-Anb\u0101r\u012b's In\u1e63\u0101f, and grammatical terms such as \u02bfamal, i\u02bfr\u0101b and ma\u1e63dar. A question could ask which school held a given position, or how many disputes concern a given category.",
+   "queries": [
+    "Sibawayh Kitab",
+    "Basran Kufan disputes",
+    "Ibn al-Anbari Insaf",
+    "Arabic grammatical theory",
+    "early Arabic grammarians"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Middle Chinese rhyme tables and fanqie",
+   "scope": "Qieyun and Guangyun rhyme groups, the divisions (d\u011bng) of the Yunjing tables, the traditional 36 initials, and fanqie spellings for specific characters. A question could ask for a Middle Chinese initial and rhyme worked out from a given fanqie pair.",
+   "queries": [
+    "Qieyun rhyme dictionary",
+    "fanqie Middle Chinese",
+    "Yunjing rhyme tables",
+    "thirty-six initials",
+    "Karlgren Ancient Chinese"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Japanese dialect pitch-accent class systems",
+   "scope": "Kindaichi's historical accent classes (ruibetsu), the Tokyo and Kyoto-Osaka accent systems, the Kagoshima two-pattern system, and accentless dialects. A question could give a word's class and ask how it surfaces in a particular dialect, or which classes have merged.",
+   "queries": [
+    "Japanese pitch accent dialects",
+    "Kindaichi accent classes",
+    "Kagoshima two-pattern accent",
+    "Keihan accent system",
+    "accentless Japanese dialects"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Hunminjeongeum Haerye and Hangul design",
+   "scope": "The 1446 explanation of the alphabet's design: basic consonant shapes modelled on the speech organs, strokes added for extra features, the three-element vowel cosmology, and letters now obsolete. A question could ask the solver to derive a letter's shape and feature from these principles, or to count letters in a category.",
+   "queries": [
+    "Hunminjeongeum Haerye",
+    "Hangul featural design",
+    "obsolete Hangul letters",
+    "Middle Korean orthography",
+    "Sejong alphabet creation"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Bantu noun classes and concord",
+   "scope": "Meinhof's class numbering, singular-plural pairings, the locative classes 16 to 18, the augment, and agreement patterns in particular Bantu languages. A question could give a noun's prefix and ask for its class and the agreement marker a modifier or verb would take.",
+   "queries": [
+    "Bantu noun class prefixes",
+    "Meinhof class numbering",
+    "Bantu locative classes",
+    "Swahili concord",
+    "Proto-Bantu reconstructions"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Philippine-type Austronesian voice systems",
+   "scope": "Actor, patient, locative and circumstantial voice affixes in Tagalog, Formosan languages and Malagasy, and how the case-marked pivot argument works. A question could give a clause and ask which voice it is and which argument is the pivot.",
+   "queries": [
+    "Philippine-type voice",
+    "Tagalog focus affixes",
+    "Formosan voice system",
+    "Malagasy circumstantial voice",
+    "symmetrical voice Austronesian"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Eskimo-Aleut polysynthetic derivational morphology",
+   "scope": "Derivational suffixes in West Greenlandic, Yupik and Inuktitut, the morphophonemic rules at suffix boundaries, and Kleinschmidt's orthography versus the 1973 reform. A question could ask the solver to split a long word into morphemes, or to convert it from one orthography to the other.",
+   "queries": [
+    "West Greenlandic affixes",
+    "Kleinschmidt orthography",
+    "Central Alaskan Yupik grammar",
+    "Inuktitut polysynthesis",
+    "Aleut morphology"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Khoisan click consonant inventories",
+   "scope": "Click places of articulation and the accompaniments combined with them in Taa (!X\u00f3\u00f5), Khoekhoe and \u01c2H\u00f5\u00e3, plus the transcriptions in Bleek and Lloyd's /Xam records. A question could ask how many contrasting clicks a language has, or how an old transcription maps onto modern symbols.",
+   "queries": [
+    "Taa click inventory",
+    "!X\u00f3\u00f5 phonetics",
+    "Bleek Lloyd /Xam",
+    "click accompaniments",
+    "Khoekhoe click consonants"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Australian Aboriginal avoidance speech registers",
+   "scope": "Mother-in-law and respect registers such as Dyirbal Jalnguy and Guugu Yimidhirr's brother-in-law vocabulary, Warlpiri special speech styles, and how many everyday words map to one avoidance word. A question could ask which register a speaker must use with a given relative, or for the avoidance form of a word.",
+   "queries": [
+    "Dyirbal Jalnguy",
+    "mother-in-law language",
+    "Australian avoidance speech",
+    "Guugu Yimidhirr respect",
+    "Warlpiri special registers"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Grammatical evidentiality systems typology",
+   "scope": "The number and meaning of evidential terms in Tuyuca, Tariana, Quechua, Turkish and Bulgarian, the classification of system types, and how evidentials interact with person and tense. A question could ask which system type a given language has, or which evidential fits a scenario.",
+   "queries": [
+    "grammatical evidentiality systems",
+    "Tariana evidentials",
+    "Quechua evidential suffixes",
+    "Tuyuca evidentials",
+    "mirativity typology"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Numeral bases and body-part tally systems",
+   "scope": "Body-part counting in New Guinea (Oksapmin and other Papuan systems), base-6 Ndom, vigesimal and quinary systems, and the cases in Conant's survey of number words. A question could ask the value of a compound number word, or which body part names a given number.",
+   "queries": [
+    "body-part tally system",
+    "Oksapmin counting",
+    "Papuan numeral systems",
+    "Conant number concept",
+    "vigesimal numeral typology"
+   ],
+   "sources": [
+    "peS2o",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Balkan Sprachbund shared features",
+   "scope": "Postposed articles, futures built on 'want', loss of the infinitive, object clitic doubling and the mid-central vowel, and how these are distributed across Albanian, Romanian, Bulgarian, Macedonian, Greek and Torlak. A question could ask which language has a given combination of features.",
+   "queries": [
+    "Balkan Sprachbund features",
+    "postposed article Balkan",
+    "Balkan infinitive loss",
+    "Balkan future want",
+    "clitic doubling Balkan"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Boas Handbook of American Indian Languages",
+   "scope": "The grammatical sketches in Bureau of American Ethnology Bulletin 40 (Tlingit, Haida, Kwakiutl, Chinook, Maidu, Takelma, Fox, Dakota and others): their reported categories, affixes and sound systems. A question could compare what two sketches report, or ask which language has a stated feature.",
+   "queries": [
+    "Handbook American Indian Languages",
+    "Bureau American Ethnology Bulletin",
+    "Kwakiutl grammar Boas",
+    "Takelma language Sapir",
+    "Chinook grammatical sketch"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Cherokee and Cree syllabary scripts",
+   "scope": "How Sequoyah's Cherokee syllabary and James Evans's Cree syllabics were created, how many characters each has, and how syllabics were adapted for Inuktitut and Ojibwe, including the rotation system for vowels. A question could ask for the value of a rotated character, or for a character count.",
+   "queries": [
+    "Cherokee syllabary Sequoyah",
+    "Cree syllabics Evans",
+    "Canadian Aboriginal syllabics",
+    "Cherokee Phoenix newspaper",
+    "Inuktitut syllabics adaptation"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Classical Nahuatl colonial grammars",
+   "scope": "How Olmos, Molina and Carochi mark vowel length and the saltillo (glottal stop), reverential and pejorative forms, and the vocabulary in Molina's 1571 Vocabulario. A question could ask the solver to parse a Nahuatl word into morphemes, or to state what one grammarian's spelling convention marks.",
+   "queries": [
+    "Carochi Nahuatl grammar",
+    "Molina Vocabulario mexicana",
+    "Nahuatl saltillo",
+    "Nahuatl reverential forms",
+    "colonial Nahuatl orthography"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Atlantic and Pacific creole grammars",
+   "scope": "Tense-mood-aspect marker order, the Tok Pisin and Bislama transitive suffix and predicate marker, the morphology of Saramaccan and Sranan, and substrate claims for Haitian Creole. A question could ask the solver to put markers in order for a target meaning, or to compare the same construction across creoles.",
+   "queries": [
+    "Tok Pisin transitive marker",
+    "Saramaccan grammar",
+    "creole TMA markers",
+    "Bislama grammar",
+    "Haitian Creole substrate"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Village sign languages and families",
+   "scope": "Al-Sayyid Bedouin, Kata Kolok, Adamorobe and Martha's Vineyard signing, plus sign language families (BANZSL, the French Sign Language family) worked out from shared vocabulary. A question could ask the solver to infer a language's family or origin, or to compare the size of a community and its deaf population.",
+   "queries": [
+    "Al-Sayyid Bedouin Sign Language",
+    "Kata Kolok",
+    "Adamorobe Sign Language",
+    "Martha's Vineyard deafness",
+    "sign language lexicostatistics"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "North American English vowel chain shifts",
+   "scope": "The order of steps in the Northern Cities Shift, the Southern and Canadian shifts, and where the low-back merger extends, as mapped by the Atlas of North American English. A question could ask which vowel moves next in a shift, or which region shows a given combination of features.",
+   "queries": [
+    "Northern Cities Vowel Shift",
+    "Atlas North American English",
+    "Canadian Shift vowels",
+    "low back merger",
+    "Southern Vowel Shift"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Last speakers of extinct languages",
+   "scope": "Documented last speakers, such as Tuone Udaina for Dalmatian, Ned Maddrell for Manx, Tevfik Esen\u00e7 for Ubykh, Livonian's last speakers and Dolly Pentreath for Cornish, with dates and who recorded them. A question could ask for the time between two deaths, or which language was recorded before the last speaker died.",
+   "queries": [
+    "last native speaker",
+    "Dalmatian Udaina Vegliote",
+    "Ubykh Tevfik Esen\u00e7",
+    "Manx Ned Maddrell",
+    "Livonian last speaker"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Natural Semantic Metalanguage semantic primes",
+   "scope": "The current list of semantic primes and their categories, how specific languages express them, and NSM definitions of particular words. A question could ask how many primes fall into a category, or which prime a given word expresses in a language.",
+   "queries": [
+    "Natural Semantic Metalanguage",
+    "semantic primes Wierzbicka",
+    "NSM explications",
+    "semantic molecules",
+    "lexical universals primes"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Folk biological classification and nomenclature",
+   "scope": "Berlin's folk taxonomic ranks (life form, generic, specific, varietal), Tzeltal plant and animal categories, and vernacular species names recorded in natural-history sources. A question could ask what rank a given folk name holds, or how folk categories line up with scientific taxa.",
+   "queries": [
+    "folk biological classification",
+    "ethnobiological nomenclature",
+    "Tzeltal plant classification",
+    "vernacular plant names",
+    "folk taxonomy life form"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century phonetic notation systems",
+   "scope": "Melville Bell's Visible Speech, the Lepsius Standard Alphabet, Ellis's Palaeotype and phonotypy, Sweet's Broad and Narrow Romic, and the earliest IPA charts. A question could ask what sound a symbol stands for, or how one system's symbol maps onto another's.",
+   "queries": [
+    "Visible Speech Bell",
+    "Lepsius Standard Alphabet",
+    "Sweet Broad Romic",
+    "Ellis Palaeotype",
+    "early International Phonetic Alphabet"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Philosophical and international auxiliary languages",
+   "scope": "Wilkins's 1668 classification of concepts into genera, Dalgarno's scheme, Volap\u00fck word formation, the Esperanto Fundamento rules, and Ido's reforms of Esperanto. A question could ask the solver to decode or build a word using a system's rules.",
+   "queries": [
+    "Wilkins Real Character",
+    "Volap\u00fck grammar Schleyer",
+    "Esperanto Fundamento",
+    "Ido reform Esperanto",
+    "Dalgarno philosophical language"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Early modern English lexicography",
+   "scope": "The headwords, definitions and quotation sources of Cawdrey, Bailey, Johnson (1755) and Webster (1828), and the fascicles of Murray's New English Dictionary. A question could ask the solver to compare how two dictionaries treat a word, or to date a usage from them.",
+   "queries": [
+    "Johnson Dictionary 1755",
+    "Webster 1828 dictionary",
+    "Cawdrey Table Alphabeticall",
+    "Murray New English Dictionary",
+    "Bailey Etymological Dictionary"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Scandinavian place-names in the Danelaw",
+   "scope": "Place-names ending in -by and -thorp, Grimston-type hybrids, Domesday Book spellings, and the etymologies in English Place-Name Society volumes. A question could ask the solver to infer a place-name's language of origin and its personal-name element from its early spellings.",
+   "queries": [
+    "Scandinavian place-names Danelaw",
+    "Grimston hybrids",
+    "Old Norse by place-names",
+    "thorp settlement names",
+    "English Place-Name Society"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century aphasia case histories",
+   "scope": "Broca's patients Leborgne and Lelong, Wernicke's 1874 cases, Lichtheim's 'house' diagram of aphasia types, and Hughlings Jackson's writings on speech. A question could ask the solver to identify the aphasia type from a case description, or to place a syndrome on Lichtheim's diagram.",
+   "queries": [
+    "Broca Leborgne aphemia",
+    "Wernicke sensory aphasia",
+    "Lichtheim aphasia model",
+    "Hughlings Jackson speech",
+    "conduction aphasia history"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Trademark genericide and linguistic evidence",
+   "scope": "US cases on whether a trademark has become a generic word (Aspirin, Thermos, Cellophane, Escalator, Google), the primary significance test, and Teflon-style consumer surveys. A question could ask the solver to compare holdings or dates, or to apply the court's test to a new term.",
+   "queries": [
+    "Bayer United Drug aspirin",
+    "King-Seeley Thermos generic",
+    "Elliott v. Google",
+    "primary significance test",
+    "Teflon survey genericness"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Language rights in US case law",
+   "scope": "Meyer v. Nebraska, Farrington v. Tokushige, Lau v. Nichols, the three-part test of Casta\u00f1eda v. Pickard, the Ann Arbor 'Black English' case, and decisions on English-only workplace rules. A question could ask the solver to apply a test to a set of facts, or to order the holdings in time.",
+   "queries": [
+    "Meyer v. Nebraska",
+    "Lau v. Nichols",
+    "Casta\u00f1eda v. Pickard",
+    "Ann Arbor Black English",
+    "English-only workplace rule"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Corpus linguistics in statutory interpretation",
+   "scope": "Judicial opinions that use corpus data such as COCA to find 'ordinary meaning' (State v. Rasabout, People v. Harris and others), and how they compare with dictionary-based reasoning. A question could ask what method or outcome a court reached, or how corpus frequency evidence was weighed.",
+   "queries": [
+    "corpus linguistics ordinary meaning",
+    "State v. Rasabout",
+    "law and corpus linguistics",
+    "COCA statutory interpretation",
+    "dictionaries ordinary meaning"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Universal Dependencies annotation conventions",
+   "scope": "The UD relation labels and subtypes, rules for which word heads a construction, enhanced dependencies, and choices specific to individual treebanks. A question could ask the solver to apply the guidelines and give the correct analysis of a sentence, or to count relations of a given type.",
+   "queries": [
+    "Universal Dependencies treebank",
+    "UD annotation guidelines",
+    "universal dependency relations",
+    "enhanced dependencies",
+    "treebank annotation consistency"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Whistled and drummed speech surrogates",
+   "scope": "How tone, vowels and consonants are encoded in Silbo Gomero, Ku\u015fk\u00f6y whistled Turkish, Hmong and Pirah\u00e3 whistling, and the talking drums of the Akan, Yoruba and Bora. A question could ask the solver to infer how a word would be whistled or drummed from the system's encoding rules.",
+   "queries": [
+    "Silbo Gomero",
+    "whistled language phonetics",
+    "talking drum surrogate",
+    "Bora manguar\u00e9 drums",
+    "Ku\u015fk\u00f6y whistled Turkish"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  }
+ ]
+}

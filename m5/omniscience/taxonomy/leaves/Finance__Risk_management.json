@@ -1,0 +1,486 @@
+{
+ "domain": "Finance",
+ "subtopic": "Risk management",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "Value at Risk methodologies and backtesting",
+   "scope": "Historical, parametric (variance-covariance) and Monte Carlo VaR, confidence levels and holding periods, time scaling, and backtesting regimes such as the Kupiec and Christoffersen tests and the Basel traffic-light zones.",
+   "queries": [
+    "historical simulation VaR confidence level holding period",
+    "Basel traffic light backtesting exceptions yellow zone multiplier",
+    "Kupiec proportion of failures test VaR",
+    "average daily VaR 95% confidence trading desk"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Expected shortfall and coherent risk measures",
+   "scope": "Axioms and properties of risk measures (subadditivity, coherence, elicitability), expected shortfall/CVaR/tail VaR definitions and estimation, spectral and distortion risk measures, and the key papers that introduced them.",
+   "queries": [
+    "expected shortfall coherent risk measure subadditivity",
+    "Artzner Delbaen Eber Heath coherent measures",
+    "expected shortfall 97.5% backtesting elicitability",
+    "conditional value at risk Rockafellar Uryasev optimization"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Volatility and correlation forecasting for risk models",
+   "scope": "EWMA and RiskMetrics decay factors, ARCH/GARCH model families and parameters, dynamic conditional correlation, realized and implied volatility estimators, and square-root-of-time scaling as used in risk measurement.",
+   "queries": [
+    "EWMA volatility decay factor lambda 0.94",
+    "GARCH(1,1) volatility forecasting persistence long-run variance",
+    "DCC GARCH dynamic conditional correlation Engle",
+    "historical volatility annualized square root of time rule"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Extreme value theory and copula tail-dependence modeling",
+   "scope": "Block-maxima and peaks-over-threshold methods, GEV and generalized Pareto distributions, tail index estimation, and copula families and tail-dependence coefficients used to model joint extreme losses.",
+   "queries": [
+    "generalized Pareto distribution peaks over threshold",
+    "Fisher Tippett Gnedenko theorem Gumbel Frechet Weibull",
+    "Hill estimator tail index heavy tails",
+    "Gaussian copula Student t tail dependence"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Market risk sensitivities and hedging (duration, DV01, Greeks)",
+   "scope": "Interest rate sensitivities such as Macaulay/modified/effective duration, convexity, DV01/PV01 and key rate durations, along with option Greeks and the delta, gamma and vega hedging practices built on them.",
+   "queries": [
+    "modified duration convexity bond price approximation",
+    "DV01 key rate duration hedge ratio",
+    "option Greeks delta gamma vega theta",
+    "delta hedging gamma risk rebalancing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fundamental Review of the Trading Book (FRTB)",
+   "scope": "The Basel minimum capital requirements for market risk: the trading/banking book boundary, sensitivities-based method, default risk charge and residual risk add-on, IMA expected shortfall with liquidity horizons, NMRFs, P&L attribution, and jurisdictional implementation dates.",
+   "queries": [
+    "FRTB internal models approach P&L attribution test",
+    "non-modellable risk factors eligibility test",
+    "sensitivities-based method delta vega curvature",
+    "FRTB liquidity horizons trading book boundary"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Basel III capital adequacy, buffers and leverage ratio",
+   "scope": "Capital definitions (CET1, AT1, Tier 2), minimum ratios, the conservation, countercyclical and stress capital buffers, the leverage ratio, the output floor and Basel III finalization ('endgame') timelines across jurisdictions.",
+   "queries": [
+    "CET1 minimum 4.5% capital conservation buffer 2.5%",
+    "countercyclical capital buffer leverage ratio 3% Tier 1",
+    "Basel III endgame output floor 72.5% risk-weighted assets",
+    "stress capital buffer requirement bank holding company"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bank liquidity risk standards (LCR, NSFR) and funding liquidity",
+   "scope": "The liquidity coverage ratio and its HQLA levels, haircuts and run-off rates, the net stable funding ratio's ASF/RSF factors, intraday liquidity, and contingency funding plans at banks.",
+   "queries": [
+    "LCR high-quality liquid assets Level 2A haircut",
+    "net stable funding ratio available stable funding factors",
+    "30-day stressed cash outflow run-off rates deposits",
+    "contingency funding plan liquidity buffer bank"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interest rate risk in the banking book and bank ALM",
+   "scope": "IRRBB measurement through EVE and NII sensitivity, the prescribed Basel shock scenarios and supervisory outlier tests, repricing gap analysis, behavioral assumptions for deposits and prepayments, and asset-liability committee practice.",
+   "queries": [
+    "IRRBB economic value of equity shock scenarios",
+    "net interest income sensitivity parallel rate shock",
+    "repricing gap analysis asset liability management",
+    "supervisory outlier test 15% Tier 1 EVE"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Regulatory credit risk capital (standardised and IRB approaches)",
+   "scope": "Credit RWA calculation under the standardised approach risk-weight tables and the foundation/advanced IRB approaches, including PD/LGD/EAD floors, supervisory LGDs, asset correlation and maturity adjustment in the Vasicek ASRF formula.",
+   "queries": [
+    "internal ratings-based approach PD LGD EAD maturity adjustment",
+    "Vasicek asymptotic single risk factor correlation formula",
+    "foundation IRB supervisory LGD 45% senior unsecured",
+    "standardised approach credit risk weights rated corporate exposures"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Structural and portfolio credit risk models and concentration",
+   "scope": "Merton and KMV structural models with distance to default, CreditMetrics, CreditRisk+ and CreditPortfolioView portfolio models, and credit concentration measures such as the granularity adjustment and large-exposure limits.",
+   "queries": [
+    "Merton distance to default KMV EDF",
+    "CreditMetrics rating migration portfolio credit VaR",
+    "CreditRisk+ Poisson default actuarial model",
+    "granularity adjustment name concentration large exposures limit"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Retail credit scoring and scorecard development",
+   "scope": "Consumer credit scores (FICO, VantageScore) with their ranges and factor weights, application and behavioral scorecards, weight of evidence and information value, reject inference, and discrimination metrics such as Gini and KS.",
+   "queries": [
+    "FICO score range factors payment history weighting",
+    "credit scorecard weight of evidence information value",
+    "Gini coefficient KS statistic scorecard validation",
+    "reject inference application scorecard development"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Credit ratings, rating transitions and default/recovery studies",
+   "scope": "Agency rating scales and definitions, rating transition matrices, historical cumulative default rates, recovery rates by seniority and instrument, and fallen-angel dynamics as reported in agency default studies.",
+   "queries": [
+    "Moody's annual default study cumulative default rates",
+    "S&P rating transition matrix investment grade",
+    "recovery rates by seniority defaulted bonds",
+    "fallen angels downgrade speculative grade default rate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Expected credit loss provisioning (IFRS 9 and CECL)",
+   "scope": "Impairment accounting under IFRS 9's three-stage model and the US CECL standard (ASU 2016-13), covering significant increase in credit risk, lifetime versus 12-month ECL, forecast periods, adoption dates and allowance disclosures.",
+   "queries": [
+    "CECL current expected credit losses ASU 2016-13",
+    "IFRS 9 staging significant increase credit risk",
+    "allowance for credit losses reasonable supportable forecast period",
+    "12-month expected credit loss lifetime ECL"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Counterparty credit risk exposure and XVA",
+   "scope": "Counterparty exposure metrics (EE, EPE, PFE), the SA-CCR and IMM regulatory approaches, netting and collateral effects, wrong-way risk, and CVA/DVA/FVA/KVA/MVA valuation adjustments with CVA capital charges.",
+   "queries": [
+    "SA-CCR alpha 1.4 potential future exposure add-on",
+    "expected positive exposure effective EPE counterparty",
+    "credit debit funding valuation adjustment XVA desk",
+    "wrong-way risk collateral netting set counterparty"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Credit derivatives and credit risk transfer",
+   "scope": "Single-name CDS mechanics, ISDA credit event definitions, Determinations Committees and auctions, CDX/iTraxx index series and rolls, and synthetic securitisation and significant risk transfer transactions used by banks.",
+   "queries": [
+    "credit default swap ISDA determinations committee credit event",
+    "CDS auction final price restructuring settlement",
+    "CDX iTraxx index series roll",
+    "significant risk transfer synthetic securitisation credit protection"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Central counterparty clearing risk management",
+   "scope": "CCP risk frameworks: margin models (SPAN, VaR-based), default waterfalls, skin-in-the-game and default fund sizing, cover-1/cover-2 standards under the CPMI-IOSCO PFMI, and historical clearing member default episodes.",
+   "queries": [
+    "central counterparty default waterfall skin in the game",
+    "CPMI-IOSCO principles financial market infrastructures cover 2",
+    "SPAN initial margin variation margin clearing house",
+    "clearing house guaranty fund contribution member default"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Uncleared margin rules and ISDA SIMM",
+   "scope": "BCBS-IOSCO margin requirements for non-centrally cleared derivatives, including phase-in schedules and AANA thresholds, initial margin thresholds and segregation, eligible collateral haircuts, and ISDA SIMM versions and risk weights.",
+   "queries": [
+    "uncleared margin rules phase 6 aggregate average notional",
+    "ISDA SIMM risk weights version calibration",
+    "initial margin threshold 50 million segregation custodian",
+    "BCBS IOSCO margin requirements non-centrally cleared derivatives"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Operational risk measurement and loss data",
+   "scope": "Basel operational risk event types and business lines, the BIA/TSA/AMA approaches and their replacement by the new Standardised Approach (business indicator, ILM), loss distribution modeling, and loss data consortia such as ORX.",
+   "queries": [
+    "Basel operational risk event types seven categories",
+    "business indicator component internal loss multiplier",
+    "advanced measurement approach loss distribution operational risk",
+    "ORX operational loss data consortium"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Rogue trading and major risk management failures",
+   "scope": "Case histories of large financial losses and collapses (Barings, Daiwa, Sumitomo, Metallgesellschaft, LTCM, Amaranth, Société Générale, UBS, London Whale, Archegos), covering who was involved, loss amounts, instruments and control failures.",
+   "queries": [
+    "Barings Bank Nick Leeson 88888 account",
+    "Société Générale Jérôme Kerviel trading loss",
+    "JPMorgan London Whale synthetic credit portfolio loss",
+    "Archegos Capital total return swaps prime broker losses"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Model risk management and model validation",
+   "scope": "Supervisory model risk guidance (SR 11-7/OCC 2011-12, PRA SS1/23, ECB TRIM), model definitions, inventories and tiering, validation components such as conceptual soundness and outcomes analysis, and effective challenge.",
+   "queries": [
+    "SR 11-7 supervisory guidance model risk management",
+    "model validation conceptual soundness outcomes analysis benchmarking",
+    "PRA SS1/23 model risk management principles",
+    "model inventory tiering effective challenge"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Supervisory and enterprise stress testing",
+   "scope": "Fed CCAR/DFAST, EBA EU-wide, Bank of England and other supervisory stress tests, covering scenario variables and severities, result metrics, ICAAP stress testing and reverse stress testing methodology.",
+   "queries": [
+    "CCAR severely adverse scenario unemployment rate peak",
+    "Dodd-Frank Act stress test DFAST results",
+    "EBA EU-wide stress test adverse scenario",
+    "reverse stress testing scenario design ICAAP"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Enterprise risk management frameworks and risk governance",
+   "scope": "ERM standards and governance models such as COSO ERM (2004, 2017), ISO 31000, the IIA Three Lines Model, risk appetite statements and limits, CRO and board risk committee roles, and risk culture.",
+   "queries": [
+    "COSO enterprise risk management 2017 components principles",
+    "ISO 31000 risk management guidelines principles",
+    "IIA three lines model 2020 roles",
+    "risk appetite statement tolerance limits board"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Corporate hedging programs and hedge accounting",
+   "scope": "Non-financial companies' management of FX, commodity and interest rate exposures with derivatives, hedge accounting under ASC 815 and IFRS 9 (fair value, cash flow and net investment hedges, effectiveness testing), and Item 7A market risk disclosures.",
+   "queries": [
+    "cash flow hedge fair value hedge ASC 815",
+    "hedge effectiveness 80 125 percent dollar offset",
+    "quantitative qualitative disclosures market risk hypothetical 10% change",
+    "commodity swaps foreign currency forward contracts notional"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Insurance solvency regimes and capital models",
+   "scope": "Insurer capital regimes such as Solvency II (SCR, MCR, standard formula modules, internal models, ORSA), NAIC risk-based capital action levels, the Swiss Solvency Test and the IAIS Insurance Capital Standard.",
+   "queries": [
+    "Solvency II SCR 99.5% one-year VaR",
+    "minimum capital requirement standard formula risk modules",
+    "NAIC risk-based capital authorized control level",
+    "own risk and solvency assessment ORSA"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Catastrophe risk modeling and insurance-linked securities",
+   "scope": "Catastrophe models and metrics (exceedance probability curves, PML, return periods), reinsurance structures such as excess-of-loss layers and retentions, and cat bonds, sidecars and ILS trigger types.",
+   "queries": [
+    "catastrophe bond parametric indemnity industry loss trigger",
+    "probable maximum loss 1-in-100 exceedance probability",
+    "catastrophe excess of loss reinsurance retention",
+    "insurance-linked securities sidecar collateralized reinsurance"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Climate-related financial risk management",
+   "scope": "Physical and transition risk in finance, including TCFD and ISSB IFRS S2 disclosure frameworks, NGFS scenarios, supervisory climate stress tests and expectations (ECB, BoE, Fed pilot), and financed-emissions metrics.",
+   "queries": [
+    "TCFD recommendations physical transition risk disclosure",
+    "NGFS climate scenarios orderly disorderly hot house",
+    "ECB climate stress test banks",
+    "ISSB IFRS S2 climate-related disclosures"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cyber, ICT and operational resilience risk",
+   "scope": "Cyber and technology risk in financial institutions: the EU DORA regime and ICT third-party oversight, UK operational resilience (important business services, impact tolerances), and SEC cybersecurity disclosure rules (Form 8-K Item 1.05, Item 1C).",
+   "queries": [
+    "Digital Operational Resilience Act ICT third-party",
+    "operational resilience important business services impact tolerance",
+    "SEC cybersecurity incident disclosure Form 8-K Item 1.05",
+    "cybersecurity risk management strategy governance Item 1C"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Systemic risk, G-SIB designation and resolution planning",
+   "scope": "Systemic risk measures (SRISK, CoVaR, MES), the BCBS G-SIB assessment methodology with its indicators, buckets and surcharges, TLAC and MREL requirements, and living wills and bail-in resolution strategies.",
+   "queries": [
+    "G-SIB surcharge methodology indicator buckets",
+    "total loss-absorbing capacity TLAC term sheet",
+    "SRISK CoVaR marginal expected shortfall systemic",
+    "resolution plan living will single point of entry"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Investment fund liquidity risk management",
+   "scope": "Liquidity risk rules and tools for open-end and money market funds, including SEC Rule 22e-4 classification buckets and the 15% illiquid limit, swing pricing, anti-dilution levies, redemption gates and money market fund liquidity requirements.",
+   "queries": [
+    "SEC Rule 22e-4 liquidity risk management program",
+    "illiquid investments 15% limit highly liquid minimum",
+    "swing pricing anti-dilution levy redemption gates",
+    "money market fund liquidity fees weekly liquid assets"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Country and sovereign risk",
+   "scope": "Measuring and managing cross-border risk: transfer and convertibility risk, OECD country risk classifications, sovereign ratings and default history, country risk premiums, political risk insurance, and banks' cross-border exposure disclosures.",
+   "queries": [
+    "OECD country risk classification export credit",
+    "country risk premium sovereign default spread",
+    "transfer convertibility political risk insurance MIGA",
+    "cross-border outstandings country exposure bank"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Economic capital and risk-adjusted performance (RAROC)",
+   "scope": "Internal economic capital frameworks and their calibration to target ratings, risk aggregation and diversification, Euler and marginal capital allocation, and RAROC/RORAC and hurdle-rate based performance measurement.",
+   "queries": [
+    "risk-adjusted return on capital RAROC Bankers Trust",
+    "economic capital confidence level target rating",
+    "Euler allocation marginal risk contribution capital",
+    "risk-adjusted performance measurement hurdle rate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Buy-side portfolio risk models and risk budgeting",
+   "scope": "Investment-manager risk practice: multi-factor risk models (Barra, Axioma), ex-ante tracking error and active risk decomposition, risk budgeting and risk parity, drawdown measures and downside risk ratios.",
+   "queries": [
+    "Barra multi-factor equity risk model exposures",
+    "ex ante tracking error active risk",
+    "risk parity equal risk contribution portfolio",
+    "maximum drawdown Sortino ratio downside deviation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

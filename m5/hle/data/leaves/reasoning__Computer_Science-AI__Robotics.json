@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Computer Science/AI",
+ "subject": "Robotics",
+ "target_leaves": 8,
+ "expected_problems": 21,
+ "leaves": [
+  {
+   "leaf": "Inverse kinematics solution counting for serial arms",
+   "scope": "Problems give the DH parameters or product-of-exponentials screw axes of a non-standard serial arm and a target pose, then ask for the number of real inverse-kinematics solutions, one explicit joint solution, or the largest possible number of branches. They are hard because the solver has to spot special geometry (axes that intersect or are parallel), eliminate variables by hand and count real roots exactly instead of solving numerically.",
+   "techniques": [
+    "Pieper decoupling for arms with a spherical wrist",
+    "Paden\u2013Kahan canonical subproblems",
+    "Tangent half-angle substitution followed by resultant elimination",
+    "Raghavan\u2013Roth style elimination giving a univariate polynomial of degree at most 16",
+    "Sturm sequences or Descartes' rule to count real roots",
+    "Workspace-boundary analysis from the zero set of the Jacobian determinant"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of joint angles",
+    "closed-form expression",
+    "polynomial"
+   ]
+  },
+  {
+   "leaf": "Mobility and singularities of closed-chain mechanisms",
+   "scope": "Problems ask for the true degrees of freedom of planar or spatial linkages and parallel manipulators where the Gr\u00fcbler\u2013Kutzbach count is wrong (overconstrained or degenerate cases), or ask the solver to locate and classify the singularities of a given parallel robot. They are hard because generic counting formulas mislead, so the solver must work out the rank of the constraint screw system and the geometry of the line complex.",
+   "techniques": [
+    "Gr\u00fcbler\u2013Kutzbach count corrected for redundant constraints",
+    "Reciprocal screw systems and the rank of the constraint wrench system",
+    "Gosselin\u2013Angeles classification into type I, type II and constraint singularities",
+    "Pl\u00fccker line geometry and Grassmann degeneracy of the leg lines in Stewart-type platforms",
+    "Intersection of displacement subgroups (Lie-group mobility analysis)",
+    "Conditions for overconstrained 4R, 5R and 6R loops"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of configurations",
+    "name of a mechanism or singularity type",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Form and force closure of rigid-body grasps",
+   "scope": "Given an object's geometry, contact locations and a contact model (frictionless point, point contact with Coulomb friction, or soft finger), problems ask whether the grasp achieves closure, how many contacts are minimally needed, the critical friction coefficient, or an exact grasp-quality value. They are hard because they require convex-hull and positive-span reasoning in 3- or 6-dimensional wrench space, and exceptional geometries break the generic bounds.",
+   "techniques": [
+    "Testing whether the primitive contact wrenches positively span wrench space (origin inside their convex hull)",
+    "Carath\u00e9odory and Steinitz bounds on contact counts (4 planar, 7 spatial, frictionless)",
+    "Linearized polyhedral friction cones and soft-finger torsional limits",
+    "Ferrari\u2013Canny epsilon metric using a convex-hull or Minkowski-sum wrench space",
+    "Antipodal friction-cone test for two-finger planar grasps",
+    "Reuleaux rotation-center method for planar first-order mobility"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form threshold for the friction coefficient",
+    "closed-form quality metric",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nonholonomic controllability and optimal car paths",
+   "scope": "For driftless nonholonomic systems (unicycles, cars towing trailers, chained-form systems, forward-only or reversing cars), problems ask for growth vectors, the degree of nonholonomy, or the exact type and length of the optimal path between two given configurations. They are hard because they need repeated Lie-bracket computations and careful case analysis within the optimal-path families, including singular configurations.",
+   "techniques": [
+    "Iterated Lie brackets and the filtration growth vector",
+    "Chow\u2013Rashevskii theorem and its rank condition",
+    "Transformation of trailer systems to chained form",
+    "Dubins CSC/CCC words and their feasibility conditions",
+    "Optimal word families with cusps for cars that can reverse",
+    "Pontryagin maximum principle switching-function analysis"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple (growth vector)",
+    "closed-form path length",
+    "a word or sequence of motion primitives"
+   ]
+  },
+  {
+   "leaf": "Configuration-space topology and homotopic path classes",
+   "scope": "Problems ask for topological invariants of a free configuration space, such as the number of connected components, Betti numbers or the Euler characteristic, for planar linkages, several robots on a graph, or arms among obstacles. They may also ask how many homotopy classes of paths or cells an exact decomposition produces. They are hard because they require combinatorial topology in non-Euclidean configuration spaces rather than intuition about the workspace.",
+   "techniques": [
+    "Morse theory on the moduli spaces of closed planar polygon linkages",
+    "Discretized configuration spaces of points on graphs (cube complexes)",
+    "Counting cells in trapezoidal and cylindrical algebraic decompositions",
+    "C-obstacles as Minkowski sums sliced over SO(2)",
+    "Homotopy-class signatures via winding numbers",
+    "Additivity of the Euler characteristic over stratifications"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of Betti numbers",
+    "name of a manifold or surface",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Observability and gauge freedoms in SLAM",
+   "scope": "For a specified sensor suite and motion profile (monocular, stereo or inertial, range-only or bearing-only, 2D or 3D pose graphs), problems ask for the dimension or basis of the unobservable subspace, the null space of the information matrix, or the fill-in produced by a given elimination ordering. They are hard because rank deficiencies depend on degenerate motions, on the linearization points (spurious information in the EKF) and on the sparsity structure.",
+   "techniques": [
+    "Nonlinear observability rank condition from Lie derivatives",
+    "Gauge symmetry groups (SE(3), Sim(3), the 4-DOF yaw-plus-translation freedom of visual-inertial odometry)",
+    "Null space of the Fisher information or Hessian",
+    "First-estimates-Jacobian consistency argument",
+    "Fill-in from variable elimination orderings in factor graphs",
+    "Schur-complement marginalization and the density it induces"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of unobservable directions",
+    "name of a group",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Underactuated legged balance and hybrid stride maps",
+   "scope": "Using reduced models such as the linear inverted pendulum, the compass gait or the rimless wheel, problems ask for capture-region bounds, the minimum number of steps needed to stop, fixed points of the stride map, or the stability eigenvalues of a periodic gait. They are hard because the continuous dynamics have to be combined with impact maps, constraints on step length and timing, and the analysis of discrete return maps.",
+   "techniques": [
+    "Closed-form cosh/sinh solutions of the linear inverted pendulum",
+    "Instantaneous and N-step capture points (divergent component of motion)",
+    "ZMP and support-polygon feasibility constraints",
+    "Conservation of angular momentum through plastic impacts",
+    "Fixed points and linearization of Poincar\u00e9 return maps",
+    "Energy balance between slope gain and impact loss"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "integer (minimum number of steps)",
+    "real number to stated precision",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Formation rigidity and multi-robot consensus spectra",
+   "scope": "For a team of robots with given sensing graphs, problems ask whether a distance- or bearing-constrained formation is infinitesimally or globally rigid, the minimum number of edges to add to make it rigid, or the exact convergence rate of consensus or formation control. They are hard because they mix generic rigidity combinatorics, rank arguments on the rigidity matrix and exact computation of graph spectra.",
+   "techniques": [
+    "Laman counting condition and Henneberg constructions",
+    "Rank and infinitesimal motions of the rigidity matrix",
+    "Global rigidity via redundant rigidity plus 3-connectivity",
+    "Bearing rigidity and the bearing Laplacian",
+    "Algebraic connectivity of the graph Laplacian and spectra of graph products",
+    "Consensus over directed graphs with spanning-tree conditions"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form eigenvalue",
+    "small set of edges",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

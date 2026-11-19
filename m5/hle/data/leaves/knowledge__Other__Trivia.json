@@ -1,0 +1,992 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Trivia",
+ "target_leaves": 63,
+ "expected_problems": 753,
+ "leaves": [
+  {
+   "leaf": "Change ringing methods and peal compositions",
+   "scope": "Obscure facts about English change-ringing method names (Grandsire, Stedman, Plain Bob, Treble Bob), place notation, early peals and ringing societies from Victorian ringing manuals. A question could ask for the number of changes in an extent, how many leads make up a course, or the order of bells after a given call.",
+   "queries": [
+    "change ringing grandsire triples",
+    "Stedman principle bells",
+    "Plain Bob major peal",
+    "ancient society college youths",
+    "treble bob hunting course"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "English heraldic blazon and ordinaries",
+   "scope": "Tinctures, ordinaries, sub-ordinaries, marks of cadency and the blazons of particular families, taken from Victorian and Edwardian heraldry manuals. A question could have the solver decode a blazon to count charges, identify the tinctures, or find a cadet's position from their cadency mark.",
+   "queries": [
+    "blazon argent chevron gules",
+    "marks of cadency label",
+    "heraldry ordinaries subordinaries",
+    "complete guide heraldry tinctures",
+    "quartering arms heiress escutcheon"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Victorian language of flowers dictionaries",
+   "scope": "Symbolic meanings given to particular plants in 19th-century floriography books, where different compilers often disagree. A question could ask the solver to decode a described bouquet using one named dictionary, or to compare one flower's meaning across two sources.",
+   "queries": [
+    "language of flowers dictionary",
+    "floral emblems sentiment",
+    "flora's interpreter meanings",
+    "floriography Victorian bouquet",
+    "emblematic flowers signification"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Discontinued events of early Olympics 1896-1928",
+   "scope": "Results, competitors and rules of Olympic events that have since been dropped (tug of war, rope climbing, standing jumps, art competitions, live pigeon shooting), drawn from official reports and sports-history papers. A question could ask for a competitor's age at a win, or for medal totals combined across Games.",
+   "queries": [
+    "Olympic tug of war 1908",
+    "standing high jump Olympic",
+    "Olympic art competitions medals",
+    "1900 Paris Olympic events",
+    "official report Olympiad 1912"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Pre-Prohibition bartenders' guide recipes",
+   "scope": "Drink recipes, glassware and naming in 19th-century bartending manuals by Jerry Thomas, Harry Johnson and others, including drinks that were later renamed or changed. A question could have the solver work out spirit proportions, identify a drink from its ingredients, or compare one recipe across editions.",
+   "queries": [
+    "bar-tender's guide Jerry Thomas",
+    "Harry Johnson bartenders manual",
+    "punch recipe gill brandy",
+    "cocktail bitters gum syrup",
+    "fancy drinks sangaree flip"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Court card names in historical playing card packs",
+   "scope": "The traditional names written on French-suited court cards (such as Hector, Lancelot, Judith and Argine), regional card patterns and card taxes, as recorded in 19th-century histories of playing cards. A question could ask the solver to match a named figure to its suit and rank, or to count cards across different regional packs.",
+   "queries": [
+    "history of playing cards",
+    "court cards names French",
+    "tarot cards origin history",
+    "card makers stamp duty",
+    "knave hearts Lahire"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Shatranj and medieval chess piece moves",
+   "scope": "How the old chess pieces moved (alfil, fers, the original pawn), early names for the pieces, and medieval chess problems (mansubat), taken from early-20th-century chess histories. A question could ask how many squares an alfil can ever reach, or how a medieval position would play out under the old rules.",
+   "queries": [
+    "shatranj alfil fers move",
+    "history of chess medieval",
+    "mansubat chess problems Arabic",
+    "chess pieces names origin",
+    "courier game chess variant"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Stewart Culin's ethnography of Native American games",
+   "scope": "Dice games, stick games, hoop-and-pole games and their scoring rules, recorded tribe by tribe in Culin's Bureau of American Ethnology report. A question could ask the solver to compute a score or the odds of a throw, or to find which tribes used a particular kind of game implement.",
+   "queries": [
+    "games of North American Indians",
+    "Culin dice game tribe",
+    "hoop and pole game",
+    "stick dice counting score",
+    "hand game guessing"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century maritime flag signal codes",
+   "scope": "Marryat's code, the 1857 Commercial Code of Signals, distinguishing signals and the meanings of particular flag hoists. A question could ask the solver to decode a described hoist, or to count how many signals a given number of flags can make under the code's rules.",
+   "queries": [
+    "Marryat code signals",
+    "commercial code of signals",
+    "signal flags hoist meaning",
+    "distinguishing signal merchant vessels",
+    "pennant flag numeral code"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Commercial telegraphic code books",
+   "scope": "The ABC Code, Bentley's, Lieber's and other cable code books that stood codewords for whole phrases to save on telegraph charges. A question could have the solver decode a codeword message, or work out the cost saved under period per-word rates.",
+   "queries": [
+    "telegraphic code book",
+    "ABC universal commercial code",
+    "cipher code words cable",
+    "Lieber's standard telegraphic code",
+    "cable message economy codeword"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lighthouse characteristics and Fresnel lens orders",
+   "scope": "Flash patterns, focal heights, Fresnel lens orders and construction histories of particular lighthouses, from light lists and lighthouse histories. A question could ask the solver to identify a light from its characteristic, or to compute its geographic range from its height.",
+   "queries": [
+    "lighthouse Fresnel lens order",
+    "light list characteristic flashing",
+    "lighthouse board report",
+    "revolving light interval seconds",
+    "lightship station history"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Victorian stage conjuring apparatus and illusions",
+   "scope": "Named tricks, mechanical apparatus and the performers credited with them, from Hoffmann's Modern Magic, Robert-Houdin's writings and similar manuals. A question could ask the solver to trace who invented an illusion, or to work out the method behind a described piece of apparatus.",
+   "queries": [
+    "modern magic Hoffmann",
+    "Robert-Houdin conjuring memoirs",
+    "Pepper's ghost illusion",
+    "conjuring apparatus trick",
+    "second sight performance"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century baseball rule changes",
+   "scope": "Changing pitching distances, ball-and-strike counts, the 1887 rule that scored walks as hits, and records from Spalding's and Reach's guides. A question could have the solver recompute a batting average under the old rules, or date a game from the rules it describes.",
+   "queries": [
+    "Spalding base ball guide",
+    "base ball rules pitcher box",
+    "Chadwick base ball scoring",
+    "national league championship record",
+    "called balls strikes rule"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Victorian first-class cricket records",
+   "scope": "Scores, averages and match records of 19th-century cricketers such as W.G. Grace and early touring sides, from Lillywhite's annuals and cricket histories. A question could have the solver compute a batting or bowling average, or compare seasons using the stated figures.",
+   "queries": [
+    "Lillywhite cricketers companion",
+    "W.G. Grace cricket scores",
+    "first class cricket averages",
+    "Australian eleven tour England",
+    "cricket century innings record"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Thoroughbred foundation sires and stud lineages",
+   "scope": "Descent from the Darley Arabian, Godolphin Arabian and Byerley Turk, and early Derby and St Leger winners, as recorded in racing histories and genetics papers. A question could ask the solver to count generations between two horses, or to work out a sire-line from the pedigrees given.",
+   "queries": [
+    "Darley Arabian descendants",
+    "Godolphin Arabian stud book",
+    "thoroughbred founder sire genetics",
+    "Derby winners pedigree Eclipse",
+    "Byerley Turk sire line"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Fancy pigeon breeds in Victorian fancier literature",
+   "scope": "Points, origins and standards of breeds such as the tumbler, pouter, carrier, jacobin and fantail, from Fulton, Tegetmeier and Darwin's Variation. A question could ask the solver to compare tail-feather counts or skeletal traits between breeds, or to trace how a breed was derived.",
+   "queries": [
+    "book of pigeons Fulton",
+    "pouter carrier tumbler breeds",
+    "fantail tail feathers number",
+    "Tegetmeier pigeons history",
+    "jacobin pigeon standard"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Heirloom apple cultivars in American pomology",
+   "scope": "Origins, synonyms, discoverers and dates of introduction for old apple varieties, from Beach's Apples of New York, Downing and USDA pomological records. A question could ask the solver to work out how two cultivars are related, or how many years separate the introduction of two varieties.",
+   "queries": [
+    "apples of New York Beach",
+    "apple variety origin seedling",
+    "fruits and fruit trees Downing",
+    "pomological watercolor variety",
+    "russet pippin synonym"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Arabic-derived star names and etymologies",
+   "scope": "The origins of star names such as Aldebaran, Fomalhaut and Zubenelgenubi, including garbled transliterations, as documented in Allen's Star Names and in history-of-astronomy papers. A question could have the solver translate a name back to the body part or figure it originally described, and so place the star within its constellation.",
+   "queries": [
+    "star names their meanings",
+    "Arabic star names etymology",
+    "lunar mansions manazil stars",
+    "Zubenelgenubi claw scorpion",
+    "Allen star lore constellation"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "English place-name elements and etymologies",
+   "scope": "Old English, Old Norse and Celtic place-name elements (-thorpe, -by, -ham, -wick, combe, pen) and how particular towns got their names, from place-name studies. A question could ask the solver to break a place name into its elements, or to count Norse-derived elements in a list of settlements.",
+   "queries": [
+    "English place names etymology",
+    "Danish place names thorpe",
+    "Anglo-Saxon place name elements",
+    "Celtic place names Cornwall",
+    "place names county origin"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Thieves' cant and canting dictionaries",
+   "scope": "Underworld slang recorded in Grose's Classical Dictionary of the Vulgar Tongue, Hotten's Slang Dictionary and older canting glossaries, where meanings shifted over time. A question could have the solver translate a cant sentence, or date a term from the dictionary edition it first appears in.",
+   "queries": [
+    "classical dictionary vulgar tongue",
+    "Hotten slang dictionary",
+    "canting crew thieves cant",
+    "flash language Newgate",
+    "rhyming slang cockney origin"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Calendar customs in Chambers' Book of Days",
+   "scope": "Customs, superstitions and observances tied to particular days of the year: quarter days, Plough Monday, Old Christmas Day and saints' days. A question could have the solver work out a date (such as the date shift caused by the Old Style/New Style change) or connect several customs to the same day.",
+   "queries": [
+    "Chambers book of days",
+    "plough Monday custom",
+    "quarter day Lady Day",
+    "old style Christmas twelfth",
+    "saint's day popular custom"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Terms of venery and collective nouns",
+   "scope": "The collective nouns for animals and people found in the Book of Saint Albans and other late-medieval lists, including spurious and satirical ones. A question could ask the solver to match collective nouns across manuscript lists, or to count the terms for a particular class of animal.",
+   "queries": [
+    "book of Saint Albans",
+    "terms of venery hunting",
+    "collective nouns animals medieval",
+    "company of beasts fowls",
+    "Egerton manuscript terms association"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Weather lore proverbs and folk forecasting",
+   "scope": "Weather proverbs tied to saints' days, animals, plants and the sky, collected in Inwards' Weather Lore and similar books, along with later studies of whether they work. A question could have the solver apply a saying to a stated condition, or compare versions of one saying from different regions.",
+   "queries": [
+    "weather lore Inwards",
+    "Saint Swithin rain proverb",
+    "weather proverbs sayings",
+    "red sky shepherd warning",
+    "groundhog Candlemas weather"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Polar expedition ships and crew rosters",
+   "scope": "Ship names, tonnages, crew lists and the fate of individual members on Franklin search, Antarctic heroic-age and Arctic drift expeditions, from published narratives. A question could ask the solver to find a crew member who served on two expeditions, or to compute how long a ship was beset in ice.",
+   "queries": [
+    "Franklin search expedition ship",
+    "voyage of the Discovery",
+    "Fram drift Nansen",
+    "Antarctic expedition crew list",
+    "Endurance Shackleton narrative"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Pioneer aviation records 1903-1914",
+   "scope": "Early flight records for duration, altitude and distance, the first pilot licences, aviation meets and prize competitions, from period aeronautics books and journals. A question could ask the solver to compute average speeds, or to order record-holders correctly from the stated dates.",
+   "queries": [
+    "aeroplane altitude record 1910",
+    "Wright brothers flights Kitty",
+    "Reims aviation meeting",
+    "aviator certificate number",
+    "cross-channel flight Bleriot"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Classic-era postage stamp issues",
+   "scope": "Plate numbers, check letters, perforations, watermarks and printing errors of 19th-century stamps, from philatelic handbooks and catalogues. A question could ask the solver to work out how many stamps were on a sheet from the check-letter scheme, or to identify an issue from its described features.",
+   "queries": [
+    "penny black plate letters",
+    "postage stamp catalogue issue",
+    "perforation gauge watermark",
+    "stamp collecting handbook",
+    "inverted error stamp"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Roman imperial coin legends and titulature",
+   "scope": "Abbreviated coin legends recording an emperor's tribunician power, consulships, imperatorial acclamations and mint marks, from numismatic handbooks. A question could have the solver expand a legend to find the emperor and narrow down the year the coin was struck.",
+   "queries": [
+    "Roman coin legend abbreviations",
+    "tribunicia potestas coin dating",
+    "imperial coinage mint marks",
+    "denarius reverse legend",
+    "Roman numismatics handbook"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Gemstone lore and birthstone traditions",
+   "scope": "Gems assigned to months, zodiac signs and the stones of the High Priest's breastplate, which differ between traditions, as compiled in Kunz's lore books. A question could ask the solver to compare two lists to find which months changed stones, or to map a breastplate stone to its tribe.",
+   "queries": [
+    "curious lore precious stones",
+    "birthstones months list",
+    "breastplate high priest stones",
+    "Kunz gem talisman",
+    "zodiacal stones amulets"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Minerals named after people",
+   "scope": "Minerals named in honour of scientists, collectors and others, as described in the open-access papers that formally describe them. A question could ask the solver to link a mineral to the person it honours and their field, or to count eponymous minerals that share an element.",
+   "queries": [
+    "new mineral named honour",
+    "mineral species description type locality",
+    "IMA approved mineral named",
+    "eponymous mineral name",
+    "new mineral species crystal structure"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Species named after celebrities",
+   "scope": "Animals and plants given names honouring musicians, actors and fictional characters, together with the reasons stated in their original descriptions. A question could ask the solver to identify the genus or the trait that inspired the name, or to count such names within one taxonomic group.",
+   "queries": [
+    "new species named honor musician",
+    "etymology species name dedicated",
+    "patronym celebrity taxonomy",
+    "new genus named after",
+    "eponym species description etymology"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Phantom islands and cartographic fictions",
+   "scope": "Islands that appeared on charts but do not exist (Sandy Island, Hy-Brasil, Pepys Island, the Aurora Islands), with when each was first reported and finally removed. A question could ask the solver to compute how long an island stayed on charts, or to find the expedition that disproved it.",
+   "queries": [
+    "phantom island charts",
+    "Sandy Island Coral Sea",
+    "nonexistent islands cartography",
+    "Aurora Islands sighting",
+    "Hy-Brasil map legend"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Eurovision Song Contest voting analyses",
+   "scope": "Voting blocs, scoring-system changes, results and network analyses of Eurovision votes from statistics and social-science papers. A question could have the solver apply a stated scoring rule to an example, or find which countries form a bloc in a named study.",
+   "queries": [
+    "Eurovision voting blocs",
+    "Eurovision song contest network",
+    "Eurovision televoting jury",
+    "song contest voting bias",
+    "Eurovision cultural proximity"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Bibliometric statistics of Nobel laureates",
+   "scope": "Ages at the time of the prize-winning work and at the award, gaps between discovery and prize, and mentor-student lineages of Nobel laureates, from bibliometric studies. A question could have the solver compute a delay or age difference, or trace a chain of laureates linked as teachers and students.",
+   "queries": [
+    "Nobel laureates age discovery",
+    "Nobel prize delay award",
+    "Nobel laureate mentorship lineage",
+    "Nobel physics prize bibliometric",
+    "Nobel chemistry laureates statistics"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Skill versus chance gambling case law",
+   "scope": "US court decisions on whether poker, fantasy sports, pinball, bingo and contests count as gambling under the predominance test or the material element test. A question could have the solver apply a named court's test to a described game, or identify which court held the opposite view.",
+   "queries": [
+    "game of skill chance predominance",
+    "pinball machine gambling device",
+    "poker skill gambling statute",
+    "contest prize consideration lottery",
+    "bingo game chance statute"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Board game trademark and patent litigation",
+   "scope": "US cases over game names and rules, such as Anti-Monopoly v. General Mills, Scrabble trademark disputes and early game patents like the Landlord's Game. A question could have the solver connect a ruling to the doctrine it rests on (for example genericness), or date the patents involved.",
+   "queries": [
+    "Anti-Monopoly General Mills",
+    "board game trademark generic",
+    "game patent infringement board",
+    "Parker Brothers trademark",
+    "Scrabble trademark Selchow Righter"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Opera premieres in Kobb\u00e9's Opera Book",
+   "scope": "Premiere dates, theatres, original singers and first performances in America of 19th-century operas, from Kobb\u00e9 and other period opera guides. A question could ask the solver to compute how long an opera took to reach New York, or to find which singer created roles in two operas.",
+   "queries": [
+    "Kobb\u00e9 complete opera book",
+    "opera first produced Paris",
+    "Metropolitan Opera first performance",
+    "opera premiere cast original",
+    "grand opera story libretto"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Gilbert and Sullivan original productions",
+   "scope": "Opening dates, theatres, run lengths, original casts and the patter-song roles of the Savoy operas, from librettos and period theatre histories. A question could ask the solver to count performances across productions, or to find which singer created matching roles in several operas.",
+   "queries": [
+    "Savoy opera original cast",
+    "D'Oyly Carte company production",
+    "Gilbert Sullivan first night",
+    "patter song role baritone",
+    "Savoy Theatre run performances"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Child ballads numbering and variants",
+   "scope": "The numbers and letter-designated variants Francis James Child gave English and Scottish popular ballads, with their sources and story types. A question could have the solver map a ballad title to its Child number, or count the variants listed for one ballad.",
+   "queries": [
+    "English Scottish popular ballads",
+    "Child ballad version manuscript",
+    "border minstrelsy ballad",
+    "Percy reliques ballad",
+    "ballad variant broadside"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Origins of nursery rhymes in Halliwell's collections",
+   "scope": "Early printed versions, variant wordings and the historical explanations (often spurious) offered for nursery rhymes in Halliwell and later collections. A question could have the solver find the earliest-attested version, or compare stanza counts between editions.",
+   "queries": [
+    "nursery rhymes of England",
+    "Halliwell popular rhymes",
+    "Mother Goose melody",
+    "nursery rhyme origin history",
+    "Tommy Thumb pretty song"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Medieval English cookery manuscripts",
+   "scope": "Recipes, ingredient names and cooking terms from the Forme of Cury, the Harleian cookery books and Tudor household books. A question could have the solver identify a dish from its Middle English recipe, or count spices across a group of recipes.",
+   "queries": [
+    "Forme of Cury",
+    "ancient cookery recipes manuscript",
+    "Harleian cookery books",
+    "medieval English recipe spices",
+    "two fifteenth century cookery"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Victorian mourning etiquette and periods",
+   "scope": "Prescribed mourning periods by relationship, the stages of deep and half mourning, and rules on dress and stationery in 19th-century etiquette manuals. A question could have the solver compute when a widow's half mourning would end, or compare the rules given in two manuals.",
+   "queries": [
+    "mourning etiquette widow crape",
+    "half mourning period months",
+    "manners customs society mourning",
+    "etiquette funeral black border",
+    "court mourning regulations"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "British peerage courtesy titles and precedence",
+   "scope": "The courtesy titles of peers' children, tables of precedence and correct forms of address, from Victorian peerage and etiquette handbooks. A question could have the solver work out the style used by a duke's younger son, or which of two people takes precedence.",
+   "queries": [
+    "courtesy title eldest son",
+    "table of precedence peerage",
+    "forms of address titled",
+    "peerage baronetage knightage",
+    "younger son lord style"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Royal Navy ship name lineages",
+   "scope": "The succession of ships that have carried the same name (Victory, Revenge, Temeraire), with their rates, guns and fates, from naval histories and ship lists. A question could ask the solver to count earlier ships of a name, or to compute armament differences between successive ships.",
+   "queries": [
+    "ship of the line rate guns",
+    "Royal Navy ship name history",
+    "navy list ships names",
+    "first rate ship launched",
+    "naval history Great Britain"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "First ascents in the Alpine golden age",
+   "scope": "Dates, parties, guides and routes of first ascents of Alpine peaks between 1854 and 1865, from Whymper and Alpine Club narratives. A question could ask the solver to find a guide who took part in several first ascents, or to compute the gaps between ascents.",
+   "queries": [
+    "scrambles amongst the Alps",
+    "first ascent Matterhorn party",
+    "Alpine Club peaks passes",
+    "Alpine guide Zermatt ascent",
+    "glaciers Alps Tyndall climb"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "World's fair exhibition statistics and exhibits",
+   "scope": "Attendance, building sizes, prize juries and the debuts of famous exhibits at the 1851, 1876, 1889 and 1893 expositions, from official catalogues and reports. A question could ask the solver to compare attendance across fairs, or to work out which fair debuted a given invention.",
+   "queries": [
+    "Great Exhibition 1851 catalogue",
+    "Centennial Exhibition Philadelphia official",
+    "World's Columbian Exposition building",
+    "Exposition Universelle 1889",
+    "exhibition jury awards report"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Historic typefaces and type foundries",
+   "scope": "Who cut particular types (Garamond, Caslon, Baskerville, Bodoni), the history of foundries and the old names for type sizes (pica, brevier, nonpareil). A question could have the solver convert between named body sizes and points, or trace a typeface's revivals.",
+   "queries": [
+    "printing types history Updike",
+    "Caslon type foundry",
+    "type sizes nonpareil brevier",
+    "Baskerville type founder",
+    "typefounding specimen book"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Renaissance fencing masters and treatises",
+   "scope": "Fencing masters (Agrippa, Capo Ferro, Thibault, Silver), the titles and dates of their treatises, and their guards and terms, from Castle's Schools and Masters of Fence and later scholarship. A question could ask the solver to set out the chronology of the masters, or how one master numbered the guards.",
+   "queries": [
+    "schools masters of fence",
+    "rapier treatise Capo Ferro",
+    "George Silver paradoxes defence",
+    "fencing guard prime seconde",
+    "Italian fencing master treatise"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Kriegsspiel and early tabletop wargame rules",
+   "scope": "Movement rates, casualty tables and umpire procedures in Prussian Kriegsspiel and in H.G. Wells' Little Wars and Floor Games. A question could have the solver resolve a described combat under the stated rules, or compare movement allowances between rule sets.",
+   "queries": [
+    "Little Wars Wells",
+    "Kriegsspiel war game rules",
+    "floor games toy soldiers",
+    "war game umpire Prussian",
+    "tactical war game table"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Internal details of the Sherlock Holmes canon",
+   "scope": "Dates, addresses, clients, recurring minor characters and internal contradictions in Doyle's Holmes stories. A question could ask the solver to count the stories featuring a character, or to reconcile two dates given in different stories.",
+   "queries": [
+    "adventures of Sherlock Holmes",
+    "Baker Street Watson narrative",
+    "Lestrade Scotland Yard inspector",
+    "memoirs of Sherlock Holmes",
+    "Holmes Moriarty Reichenbach"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Dime novel house pseudonyms and authors",
+   "scope": "House names such as Nick Carter, Old Sleuth and Frank Merriwell, and the writers known to have produced them, from dime-novel bibliographies and digitized story papers. A question could have the solver attribute a series to an author, or count the authors who wrote under one name.",
+   "queries": [
+    "dime novel Beadle",
+    "Nick Carter detective library",
+    "Street Smith story paper",
+    "Frank Merriwell Burt Standish",
+    "half dime library series"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Obsolete English units of measure",
+   "scope": "Little-known historical units such as the firkin, kilderkin, chaldron, wey, last, tod, hide and perch, along with how their values differed by commodity, region and statute. A question could ask the solver to convert between several archaic units or to reconcile conflicting definitions.",
+   "queries": [
+    "firkin kilderkin hogshead tun",
+    "chaldron coal measure",
+    "wey last tod wool",
+    "ancient weights measures England",
+    "Winchester bushel ale gallon"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "English inn signboards and their origins",
+   "scope": "Origins of tavern and shop signs as recorded in Larwood and Hotten's History of Signboards and similar works: heraldic signs, corrupted names (e.g. 'Bag o' Nails'), trade emblems and the dates of particular London signs. Questions could trace a corrupted name back to its source or link a sign to the guild or family behind it.",
+   "queries": [
+    "history of signboards Larwood",
+    "tavern sign corruption name",
+    "London inn signs heraldic",
+    "Hotten signboards origin",
+    "alehouse sign emblem"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Curious epitaphs in Victorian collections",
+   "scope": "Odd, punning and acrostic epitaphs collected in nineteenth-century anthologies, with the churchyard, the person commemorated and the date for each. A question could ask the solver to identify the deceased from wordplay in the verse, or to compare details between collections.",
+   "queries": [
+    "curious epitaphs churchyard collected",
+    "quaint epitaphs anthology",
+    "epitaph acrostic tombstone",
+    "remarkable epitaphs England",
+    "gravestone inscriptions humorous"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Patent medicine nostrums and their analyses",
+   "scope": "Chemical analyses of proprietary remedies from the early twentieth century, as published in AMA reports such as Nostrums and Quackery and in Pure Food and Drug Act prosecutions: alcohol content, hidden opiates, active ingredients and the claims made for each product. Questions could rank products by an analysed ingredient or connect a remedy to its court case.",
+   "queries": [
+    "nostrums and quackery",
+    "patent medicine analysis alcohol",
+    "misbranded drug Food Drugs Act",
+    "proprietary remedy chemist report",
+    "cure-all opium soothing syrup"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Hymn tune names and metrical indices",
+   "scope": "The named tunes of Protestant hymnody (e.g. Old Hundredth, St Anne, Duke Street), their composers, metres (CM, LM, 8.7.8.7D) and the texts traditionally paired with them, as catalogued in hymnals and Julian's Dictionary of Hymnology. A question could ask which named tunes fit a given text's metre, or ask the solver to trace a tune's attribution history.",
+   "queries": [
+    "hymn tune metrical index",
+    "Julian dictionary hymnology",
+    "common metre tune name",
+    "psalm tune composer attribution",
+    "hymnal tunes 8.7.8.7"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Whyte notation steam locomotive type names",
+   "scope": "Named wheel arrangements of steam locomotives (Mogul, Prairie, Mikado, Atlantic, Consolidation, Decapod), when each was introduced, which railroad named it and its first builder. Questions could ask the solver to work out wheel counts from type names or to order the types by the date they were introduced.",
+   "queries": [
+    "Whyte classification locomotive",
+    "Mogul Consolidation Mikado type",
+    "locomotive wheel arrangement 4-6-2",
+    "Baldwin locomotive works record",
+    "Decapod locomotive first built"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Transatlantic Blue Riband liner speed records",
+   "scope": "Record-setting North Atlantic crossings by named steamships: shipping lines, routes, dates, average speeds in knots and passage times. Questions could compute speed differences between record holders or establish the order in which ships and lines held the record.",
+   "queries": [
+    "Atlantic record passage steamship",
+    "fastest crossing Cunard liner",
+    "Blue Riband knots record",
+    "Collins Line Inman steamer",
+    "Lusitania Mauretania speed trials"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Victoria Cross awards and citations",
+   "scope": "Individual Victoria Cross awards from the Crimean War through the First World War: recipients' ranks and regiments, the actions cited, gazette dates, and unusual cases such as forfeitures, bars and family recipients. Questions could count awards by campaign or regiment, or identify a recipient from a combination of facts in the citations.",
+   "queries": [
+    "Victoria Cross gazetted gallantry",
+    "V.C. recipients regiment Crimea",
+    "Victoria Cross bar awarded",
+    "Indian Mutiny Victoria Cross",
+    "deeds that won Empire"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Gomme's traditional British children's games",
+   "scope": "Singing games, counting-out rhymes and street games catalogued by Alice Gomme and other folklorists, with regional variant names, rhyme texts and recorded localities. Questions could link a game known under several regional names to its rhyme, or compare variants across counties.",
+   "queries": [
+    "traditional games England Scotland Ireland",
+    "Gomme singing games",
+    "counting-out rhymes children",
+    "street games regional names",
+    "London Bridge game variants"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Obsolete card games in Hoyle editions",
+   "scope": "Rules and scoring of extinct or rare card games such as ombre, quadrille, piquet, basset, loo and boston, and how they changed between Hoyle editions. A question could ask the solver to score a stated hand under historical piquet rules or identify which edition introduced a rule.",
+   "queries": [
+    "Hoyle games piquet repique",
+    "ombre quadrille rules spadille",
+    "game of basset faro",
+    "loo card game pool",
+    "Boston whist rules"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Bare-knuckle prize ring champions and rules",
+   "scope": "Champions of the London Prize Ring era, along with the dates, venues and round counts of their fights as recorded in Boxiana and Pugilistica, the Broughton and London rules, and US cases that outlawed prize fighting. Questions could reconstruct the lineage of the championship or compute fight durations under the round-ending rules.",
+   "queries": [
+    "Pugilistica prize ring history",
+    "Boxiana pugilists fights",
+    "London prize ring rules",
+    "Broughton rules pugilism",
+    "prize fight unlawful indictment"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Cheese varieties in early USDA bulletins",
+   "scope": "Descriptions of named cheese varieties from early twentieth-century USDA bulletins (such as Varieties of Cheese, 1918): region of origin, milk source, synonyms, ripening methods and analysed composition. Questions could compare fat or moisture figures across varieties, or resolve a synonym to the variety it names.",
+   "queries": [
+    "varieties of cheese bulletin",
+    "cheese descriptions analyses synonyms",
+    "Bureau Animal Industry cheese",
+    "sheep milk cheese ripening",
+    "Roquefort Camembert manufacture"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Saints' iconographic attributes and patronages",
+   "scope": "The attributes by which saints are identified in Christian art (wheel, gridiron, keys, tower, eyes on a dish) and their patronages of trades, places and ailments, as recorded by Mrs Jameson, Butler and others. Questions could identify a saint from a combination of attributes or find the patrons a given trade and town have in common.",
+   "queries": [
+    "sacred legendary art Jameson",
+    "saint emblem attribute painting",
+    "patron saint trade guild",
+    "Butler lives of saints",
+    "martyr iconography gridiron wheel"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Law",
+ "target_leaves": 10,
+ "expected_problems": 78,
+ "leaves": [
+  {
+   "leaf": "Rule Against Perpetuities and future interests",
+   "scope": "Problems give a multi-clause will or deed with class gifts, executory interests and later events (births, deaths, remarriages). They ask which interests are valid under the common-law Rule, wait-and-see, or USRAP, and who holds title afterward. They are hard because traps such as the fertile octogenarian, the unborn widow and class closing interact with older doctrines such as destructibility and merger.",
+   "techniques": [
+    "identifying validating lives and testing every possible chain of later events",
+    "rule of convenience for closing a class, and the all-or-nothing rule for class gifts with its subclass and specific-sum exceptions",
+    "unborn-widow, slothful-executor and administrative-contingency traps",
+    "USRAP 90-year wait-and-see, judicial reformation and the effect of saving clauses",
+    "Rule in Shelley's Case, Doctrine of Worthier Title and destructibility of contingent remainders",
+    "classifying the interest (vested subject to open, contingent remainder, shifting or springing executory interest) before applying the Rule"
+   ],
+   "answer_forms": [
+    "small set of valid interests",
+    "name of current title holder",
+    "integer count",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "UCC Article 9 priority contests",
+   "scope": "Problems set out a timeline of loans, filings, collateral sales, debtor relocations and commingling. They ask how the collateral or its proceeds is ranked and split among secured parties, buyers and lien creditors. They are hard because perfection rules, PMSI superpriority and proceeds tracing change the order at different points in the timeline.",
+   "techniques": [
+    "first-to-file-or-perfect rule of 9-322 with after-acquired property and future advances",
+    "PMSI superpriority for inventory and for non-inventory goods, including notification and 20-day grace periods under 9-324",
+    "proceeds perfection and tracing commingled funds through the lowest intermediate balance rule",
+    "buyer in ordinary course and lien-creditor rules (9-320, 9-317, 9-323)",
+    "debtor relocation and the four-month and one-year continuation rules of 9-316",
+    "control-based perfection of deposit accounts and investment property beating filing"
+   ],
+   "answer_forms": [
+    "ordered tuple of creditor rankings",
+    "dollar amount recovered by a named party",
+    "name of prevailing party",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Intestate shares under competing representation schemes",
+   "scope": "Problems describe a family tree with predeceased, disclaiming, adopted or half-blood relatives and ask for exact fractional shares of an estate under a stated statute. They are hard because strict per stirpes, modern per stirpes and per capita at each generation split the estate at different generations, and spousal-share and survivorship rules change the pool first.",
+   "techniques": [
+    "strict per stirpes vs modern per stirpes vs UPC 2-106 per capita at each generation",
+    "UPC 2-102 spousal share depending on stepchildren and surviving parents",
+    "120-hour survivorship requirement and simultaneous-death rules",
+    "advancements and hotchpot recalculation",
+    "disclaimers treated as predeceasing and their effect on where the division is made",
+    "status of half-blood, adopted, posthumous and stepchild heirs"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple of fractions",
+    "dollar amount"
+   ]
+  },
+  {
+   "leaf": "Islamic fixed-share inheritance with awl and radd",
+   "scope": "Problems give a set of surviving relatives and ask for each heir's exact share under classical fara'id, sometimes comparing Sunni schools with Ja'fari law. They are hard because exclusion rules, residuary shares and the corrections for over- or under-subscribed estates must be applied in the right order.",
+   "techniques": [
+    "assigning Qur'anic fixed shares (1/2, 1/4, 1/8, 2/3, 1/3, 1/6) by heir and circumstance",
+    "hajb: total and partial exclusion of more remote heirs",
+    "residuary heirs ('asaba) and the 2:1 male-to-female ratio",
+    "'awl: raising the base number when fixed shares exceed the whole",
+    "radd: returning surplus to non-spouse sharers",
+    "special cases such as the 'Umariyyatan, Mushtaraka and Akdariyya"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple of fractions",
+    "integer base of the problem (asl al-mas'ala)"
+   ]
+  },
+  {
+   "leaf": "Treaty reservations and resulting bilateral relations",
+   "scope": "Problems give a multilateral treaty and a timeline of ratifications, reservations, acceptances and objections by several states. They ask which pairs of states are in treaty relations, on what modified terms, and when the treaty enters into force. They are hard because VCLT Articles 19-21 and the tacit-acceptance and counting rules interact.",
+   "techniques": [
+    "Article 20(4): an acceptance establishes treaty relations, and a reserving state counts only after at least one acceptance",
+    "Article 20(5): tacit acceptance after twelve months",
+    "Article 21(1): reciprocal modification of the treaty between the reserving and accepting states",
+    "Article 21(3): an objection that does not oppose entry into force excludes the reserved provisions only to the extent of the reservation",
+    "Article 20(2)-(3): unanimity for treaties with limited participation and organ acceptance for constituent instruments",
+    "entry-into-force threshold counting under Article 24, and how late reservations are handled"
+   ],
+   "answer_forms": [
+    "integer number of bilateral relations",
+    "small set of state pairs",
+    "date of entry into force",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Layered hearsay under the Federal Rules",
+   "scope": "Problems present documents or testimony with several layers of out-of-court statements offered for various purposes. They ask which statements, or how many, are admissible against a given party. They are hard because each layer needs its own exemption or exception, and in criminal cases must also survive the Confrontation Clause.",
+   "techniques": [
+    "FRE 805 analysis of hearsay within hearsay, layer by layer",
+    "not-for-truth uses, verbal acts and non-assertive conduct",
+    "801(d)(2) statements by a party opponent, its agents and co-conspirators, with the Bourjaily foundation",
+    "803 exceptions that do not depend on availability vs 804 exceptions that require unavailability",
+    "Crawford and Davis tests for testimonial statements, and forfeiture by wrongdoing",
+    "FRE 806 impeachment of a hearsay declarant who does not testify"
+   ],
+   "answer_forms": [
+    "integer count of admissible statements",
+    "small set of statement labels",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Subject-matter jurisdiction over joined multiparty claims",
+   "scope": "Problems describe a federal action with several plaintiffs, defendants, counterclaims, crossclaims, impleaders and interveners, and possibly removal. They ask exactly which claims the court can hear. They are hard because diversity, federal-question jurisdiction, supplemental jurisdiction and removal statutes each restrict claims differently depending on who asserts them.",
+   "techniques": [
+    "complete diversity, corporate citizenship under the Hertz nerve-center test, and citizenship of unincorporated associations",
+    "aggregation rules for amount in controversy",
+    "\u00a71367(b) limits on plaintiffs' claims against parties joined under Rules 14, 19, 20 and 24, as read in Exxon Mobil v. Allapattah",
+    "the well-pleaded complaint rule and Grable's test for embedded federal issues",
+    "the forum-defendant rule, unanimity, the 30-day and one-year time limits for removal, and \u00a71441(c) severance",
+    "CAFA minimal diversity and its home-state and local-controversy exceptions"
+   ],
+   "answer_forms": [
+    "small set of claim labels",
+    "integer count of claims",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Partnership tax basis and allocation computations",
+   "scope": "Problems trace contributions of built-in-gain property, liability shifts, operating allocations, distributions and transfers of interests in a partnership. They ask for a partner's exact basis, gain or income figure. They are hard because Subchapter K adjustments depend on each other and on which method or election applies.",
+   "techniques": [
+    "outside basis under \u00a7\u00a7722 and 705, and deemed contributions and distributions of money under \u00a7752",
+    "allocating recourse liabilities (Reg. 1.752-2) vs the three tiers of nonrecourse liabilities (Reg. 1.752-3)",
+    "\u00a7704(c) traditional, curative and remedial methods and the ceiling rule",
+    "\u00a7\u00a7731-732 gain on distributions and allocation of basis to distributed property",
+    "\u00a7751 hot assets on sales and disproportionate distributions",
+    "\u00a7754 elections with \u00a7743(b) and \u00a7734(b) adjustments to inside basis"
+   ],
+   "answer_forms": [
+    "integer dollar amount",
+    "ordered tuple of partner amounts",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Double jeopardy multiplicity and successive prosecutions",
+   "scope": "Problems give a criminal episode with several charges, trials, mistrials, appeals and prosecuting sovereigns. They ask how many convictions or later prosecutions are constitutionally permitted. They are hard because element comparison, unit-of-prosecution analysis, the point at which jeopardy attaches, and issue preclusion must all be applied together.",
+   "techniques": [
+    "Blockburger same-elements test and legislative intent to allow cumulative punishment",
+    "unit-of-prosecution analysis for continuing or repeated conduct",
+    "lesser-included offenses and Brown v. Ohio on successive prosecutions",
+    "when jeopardy attaches, manifest necessity for a mistrial, and the Oregon v. Kennedy goading exception",
+    "implied acquittal (Green, Price), collateral estoppel under Ashe v. Swenson, and Burks insufficiency vs Ball retrial",
+    "dual sovereignty under Gamble"
+   ],
+   "answer_forms": [
+    "integer count of permissible convictions",
+    "small set of charge labels",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Constitutional vote thresholds and succession contingencies",
+   "scope": "Problems describe scenarios involving bill presentment, vetoes, deadlocked electoral counts, vacancies or presidential incapacity. They ask for an exact vote count, deadline, or person holding office. They are hard because Article I, the 12th, 20th and 25th Amendments, and the succession and electoral-count statutes have overlapping quorum, timing and eligibility rules.",
+   "techniques": [
+    "Article I \u00a77 ten-day rule (Sundays excepted), pocket vetoes, and overriding a veto by two-thirds of members present with a quorum",
+    "12th Amendment contingent election: House voting by state delegation, Senate choosing the Vice President, and the quorum rules for each",
+    "20th Amendment \u00a73 and the order and eligibility rules of the succession statute (3 U.S.C. \u00a719)",
+    "25th Amendment \u00a74 timelines (4 days, 48 hours, 21 days) and two-thirds votes",
+    "Electoral Count Reform Act objection thresholds (one-fifth of each house) and its grounds for objection",
+    "Article V proposal and ratification counting, including rescissions and deadlines"
+   ],
+   "answer_forms": [
+    "integer",
+    "calendar date",
+    "name of office or officeholder",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

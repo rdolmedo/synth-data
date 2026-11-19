@@ -1,0 +1,517 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "History",
+ "target_leaves": 32,
+ "expected_problems": 383,
+ "leaves": [
+  {
+   "leaf": "Tetrarchic and Constantinian mint marks",
+   "scope": "Exergue mint marks, officina letters and numerals, and emission dates at late Roman mints such as Trier, Siscia, Antioch and Alexandria from c. 294 to 364 CE, as catalogued in RIC VI\u2013VIII. A question could ask the solver to date or attribute a coin from its mark, or to count the officinae active at a mint during one emission.",
+   "queries": [
+    "Roman mint marks officina",
+    "follis reform 294 mint",
+    "Constantinian bronze coinage Siscia",
+    "exergue mint mark Trier",
+    "late Roman coinage RIC"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Athenian Tribute Lists assessment records",
+   "scope": "Quota-list entries (the 1/60 aparche paid to Athena) for individual Delian League members by year and tribute district, plus assessment decrees such as that of 425/4 BCE. A question could have the solver work back from a quota to a city's tribute, compare one city across assessment periods, or count the cities in a district.",
+   "queries": [
+    "Athenian tribute lists",
+    "Delian League phoros quota",
+    "assessment decree Thoudippos",
+    "aparche sixtieth Athena",
+    "tribute districts Ionia Hellespont"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Seleucid Era dating in cuneiform texts",
+   "scope": "Babylonian astronomical diaries, king lists and contracts dated by the Seleucid Era: the Babylonian reckoning starts in Nisan 311 BCE and the Macedonian one in autumn 312 BCE, and co-regencies are named in the dates. A question could ask the solver to convert a Seleucid Era date to a Julian year or to identify the reigning king or co-regent.",
+   "queries": [
+    "Seleucid era Babylonian dating",
+    "astronomical diaries Babylon",
+    "Seleucid king list cuneiform",
+    "Arsacid era Babylonian tablets",
+    "Uruk contracts Hellenistic"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Han commandery census of 2 CE",
+   "scope": "Household and individual counts for each commandery and kingdom in the geography treatise of the Hanshu, set against the c. 140 CE figures in the Hou Hanshu. A question could have the solver compute average household size or population change, or rank regions by the size of the shift.",
+   "queries": [
+    "Han dynasty census 2 CE",
+    "Hanshu geography treatise",
+    "commandery population households",
+    "Eastern Han census 140",
+    "Bielenstein Han population"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Classic Maya dynastic stela inscriptions",
+   "scope": "Long Count and Calendar Round dates for royal births, accessions, wars and deaths at sites such as Piedras Negras, Cop\u00e1n, Yaxchilan and Tikal. A question could ask the solver to convert dates through the GMT correlation, or to compute a ruler's age at accession or the length of a reign.",
+   "queries": [
+    "Maya Long Count stela",
+    "Piedras Negras dynastic sequence",
+    "Copan rulers hieroglyphic stairway",
+    "Calendar Round accession date",
+    "Maya emblem glyph"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Anglo-Saxon charter witness lists",
+   "scope": "Attestations by bishops, ealdormen and thegns in Latin and Old English diplomas (Sawyer, Birch, Kemble), together with the known tenures of the witnesses. A question could have the solver narrow the date of an undated or suspect charter by intersecting those tenures.",
+   "queries": [
+    "Anglo-Saxon charters witness lists",
+    "Sawyer catalogue diploma",
+    "Cartularium Saxonicum Birch",
+    "ealdorman attestation charter",
+    "Kemble Codex Diplomaticus"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Byzantine Anno Mundi and indiction chronology",
+   "scope": "Dating in Theophanes and other Byzantine chronicles and documents by the Alexandrian or Byzantine world era combined with the indiction cycle, including Theophanes' documented year-offset errors. A question could ask the solver to convert an AM year and indiction to AD, or to detect and correct a displaced entry.",
+   "queries": [
+    "Theophanes chronographia chronology",
+    "Byzantine world era indiction",
+    "Anno Mundi Alexandrian era",
+    "Byzantine chronicle dating error",
+    "indiction cycle conversion"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Domesday Book tenants-in-chief holdings",
+   "scope": "Manors, hides or carucates, ploughteams and values in 1066 and 1086 (TRE and TRW) held by named tenants-in-chief in particular counties. A question could have the solver total or compare holdings, or compute the change in value between 1066 and 1086.",
+   "queries": [
+    "Domesday Book tenant in chief",
+    "Domesday hides ploughlands",
+    "Victoria County History Domesday",
+    "TRE value manor",
+    "Domesday survey county translation"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Papal chancery dating by pontifical year",
+   "scope": "Dating clauses of papal letters and bulls (place, day and pontificatus anno) in the registers and the Calendar of Papal Registers, where the pontifical year runs from consecration or coronation rather than election. A question could ask the solver to convert a clause to a calendar date, or to spot an impossible date that marks a forgery.",
+   "queries": [
+    "Calendar of Papal Registers",
+    "pontifical year dating clause",
+    "papal registers calendar letters",
+    "Innocent III register letters",
+    "papal bull datum Laterani"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Kingdom of Jerusalem knight-service list",
+   "scope": "John of Ibelin's list of the knights and sergeants owed by each fief and lordship of the Latin Kingdom, alongside the lineages of lordship holders in the Lignages and the Familles d'Outremer. A question could have the solver total the service owed by a barony or compare the obligations of different lordships.",
+   "queries": [
+    "John of Ibelin knight service",
+    "Assises de J\u00e9rusalem fiefs",
+    "crusader lordships Kingdom Jerusalem",
+    "Familles d'Outremer Ducange",
+    "servitium debitum Latin East"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Hanseatic kontors and L\u00fcbeck-law towns",
+   "scope": "Privileges and organisation of the four main kontors (Bruges, the London Steelyard, Bergen and the Peterhof at Novgorod), attendance at Hanseatic Diets, and which towns received L\u00fcbeck law rather than Magdeburg law, and when. A question could ask the solver to sequence the grants or to count the towns of a regional Drittel present at a given Diet.",
+   "queries": [
+    "Hanseatic kontor Bergen",
+    "L\u00fcbeck law towns",
+    "Hansetag recess",
+    "Peterhof Novgorod Hanse",
+    "Steelyard Hanseatic London"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Venetian state galley convoys (mude)",
+   "scope": "The galley lines the Venetian Senate auctioned (Flanders, Romania, Beirut, Alexandria, Aigues-Mortes, Barbary, Trafego), with years sailed, numbers of galleys and incanto bid prices. A question could have the solver compare how often a line sailed across decades or date when a route lapsed.",
+   "queries": [
+    "Venetian galley mude",
+    "incanto galleys Senate",
+    "Flanders galleys Venice",
+    "Venetian merchant galleys convoy",
+    "Barbary galleys Venice"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Ottoman tahrir defter household counts",
+   "scope": "Registered households (hane), bachelors (m\u00fccerred) and revenue figures for sancaks, towns and villages in 15th- and 16th-century Ottoman cadastral surveys. A question could ask the solver to estimate population with a stated household multiplier or to compare successive surveys of the same district.",
+   "queries": [
+    "Ottoman tahrir defteri",
+    "Ottoman cadastral survey sancak",
+    "hane m\u00fccerred population",
+    "timar register Ottoman",
+    "icmal defter"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Mughal mansab ranks in Ain-i-Akbari",
+   "scope": "Abu'l Fazl's list of Akbar's mansabdars grouped by zat rank, with Blochmann's biographical notes and the pay schedules. A question could have the solver count the holders of a grade who share some biographical trait, or compute monthly pay from the schedules.",
+   "queries": [
+    "Ain-i-Akbari mansabdars Blochmann",
+    "zat sawar rank",
+    "Mughal mansabdari system",
+    "commanders of five thousand",
+    "Akbar nobility list"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Songhay askiyas in Timbuktu chronicles",
+   "scope": "Reigns, depositions and kinship ties of the Askiya rulers and of Timbuktu's qadis as recorded in the Tarikh al-Sudan and the Tarikh al-Fattash. A question could ask the solver to compute reign lengths from Hijri dates or to count successions that passed between brothers.",
+   "queries": [
+    "Tarikh al-Sudan Askiya",
+    "Tarikh al-Fattash Songhay",
+    "Askiya Muhammad Gao",
+    "Timbuktu qadi chronicle",
+    "Songhay empire Tondibi"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Tokugawa daimyo transfers and kokudaka",
+   "scope": "Domain assessments in koku, fudai or tozama status, and the attainders (kaieki) and transfers (tenp\u014d) of daimyo houses during the Edo period. A question could have the solver compute a house's net change in assessment across several transfers or rank domains within a province.",
+   "queries": [
+    "Tokugawa daimyo kokudaka",
+    "han domain transfer kaieki",
+    "fudai tozama daimyo",
+    "sankin kotai domain",
+    "Edo period domain assessment"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Potos\u00ed mita labor draft quotas",
+   "scope": "Viceroy Toledo's 1570s allocation of mitayos by Andean province, later revisions such as the Duque de la Palata's 1680s census, and the related tributary and silver-output figures. A question could ask the solver for the share of tributaries drafted or for the change in a province's quota.",
+   "queries": [
+    "Potos\u00ed mita quotas",
+    "Toledo mita provinces",
+    "mitayos Potos\u00ed silver",
+    "Palata census mita",
+    "Andean forasteros tribute"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "VOC Asian shipping voyages",
+   "scope": "Ship names, home chambers, outward and return voyages, Cape calls and losses as recorded in the Dutch Asiatic Shipping data for the VOC. A question could have the solver compute voyage durations, count a chamber's sailings in a decade, or work out loss rates.",
+   "queries": [
+    "Dutch Asiatic Shipping VOC",
+    "VOC chamber Zeeland ships",
+    "retourschepen Batavia voyage",
+    "VOC shipwreck Cape",
+    "East India Company Dutch fleets"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Protestant estates at Imperial Diets",
+   "scope": "The princes and imperial cities that signed the 1529 Speyer Protestation and the 1530 Augsburg Confession, and the membership of the Schmalkaldic League over time. A question could ask the solver to count cities against princes or to identify which signatories later changed side.",
+   "queries": [
+    "Protestation Speyer 1529",
+    "Augsburg Confession signatories",
+    "Schmalkaldic League members",
+    "imperial cities Reformation",
+    "Reichstag Augsburg 1530"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Scottish witch trial commissions",
+   "scope": "Privy Council and parliamentary commissions to try witches, with the names, parishes and outcomes of the accused in the 1590\u20131662 panics. A question could have the solver count executions in one panic or compare the incidence of cases across presbyteries.",
+   "queries": [
+    "Scottish witchcraft trials",
+    "witch commission Privy Council",
+    "1661 witch hunt Scotland",
+    "North Berwick witches",
+    "Survey Scottish Witchcraft"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Royalist fines of the Committee for Compounding",
+   "scope": "Compositions imposed on royalist delinquents at fixed fractions of estate value (a tenth, a sixth or a third), as recorded in the Calendar of the Committee for Compounding. A question could ask the solver to work back from a fine and its rate to the assessed estate value, or to compare families.",
+   "queries": [
+    "Committee for Compounding delinquents",
+    "royalist composition fines",
+    "sequestration delinquent estates",
+    "Goldsmiths Hall compounding",
+    "Calendar Committee Compounding"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "French Revolutionary calendar legislation",
+   "scope": "Decrees of the Convention and the Directory and revolutionary journ\u00e9es dated in the Republican calendar, including the sansculottides and the rule for leap years. A question could have the solver convert dates or compute intervals between decrees.",
+   "queries": [
+    "French Republican calendar decree",
+    "National Convention decrees Year II",
+    "sansculottides leap year",
+    "Thermidor coup Robespierre",
+    "Fabre d'\u00c9glantine calendar"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Grande Arm\u00e9e corps orders of battle",
+   "scope": "Commanders, regiments and strengths of corps, divisions and brigades in Napoleonic campaigns from 1805 to 1813, as given in campaign histories and strength returns. A question could ask the solver to total a corps' infantry or to identify who commanded a division on a given date.",
+   "queries": [
+    "Grande Arm\u00e9e order of battle",
+    "Napoleon corps divisions 1805",
+    "Austerlitz French regiments",
+    "Wagram order of battle",
+    "Napoleonic campaign strength returns"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Polish-Lithuanian royal free elections",
+   "scope": "Candidates, convocation and election sejm dates, pacta conventa terms and support by palatinate in the royal elections of 1573 to 1764. A question could have the solver compare the lengths of interregna or count the foreign-born candidates in a set of elections.",
+   "queries": [
+    "Polish royal election 1573",
+    "pacta conventa Henrician Articles",
+    "electoral sejm interregnum",
+    "Polish Lithuanian Commonwealth election",
+    "Stanislaw August election 1764"
+   ],
+   "sources": [
+    "doab",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Russian Table of Ranks equivalences",
+   "scope": "The fourteen classes of the Table of Ranks with their civil, army, naval and court equivalents, forms of address, and the class thresholds for personal and hereditary nobility as changed in 1845 and 1856. A question could ask the solver to map a title across services and decide what noble status it conferred in a given year.",
+   "queries": [
+    "Table of Ranks Peter",
+    "Russian civil service rank chin",
+    "hereditary nobility rank 1845",
+    "collegiate assessor rank",
+    "Russian bureaucracy ranks"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Irish Famine Poor Law unions",
+   "scope": "Workhouse capacities, inmate numbers, deaths and outdoor relief for individual Poor Law unions between 1845 and 1852. A question could have the solver compute mortality rates or compare overcrowding between unions.",
+   "queries": [
+    "Poor Law union workhouse Ireland",
+    "Irish famine workhouse mortality",
+    "Board of Guardians famine",
+    "Skibbereen famine relief",
+    "Gregory clause outdoor relief"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Hertslet's Map of Africa by Treaty",
+   "scope": "The articles of Anglo-German, Anglo-French and Anglo-Portuguese boundary agreements from 1884 to 1914 that define frontiers by rivers, meridians and parallels. A question could ask the solver which instrument assigned a given locality, or to trace how one boundary changed across successive agreements.",
+   "queries": [
+    "Map of Africa by Treaty",
+    "Anglo-German agreement 1890",
+    "Heligoland Zanzibar treaty",
+    "Anglo-Portuguese treaty 1891",
+    "African boundary convention"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Chinese Maritime Customs treaty ports",
+   "scope": "The treaty and year under which each Chinese treaty port opened, the commissioners posted there, and customs revenue returns by port. A question could have the solver order ports by opening date or compute one port's share of total revenue.",
+   "queries": [
+    "Chinese Maritime Customs returns",
+    "treaty ports opening China",
+    "Inspector General Robert Hart",
+    "Customs commissioner treaty port",
+    "Chefoo convention ports"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Union regimental losses in Fox (1889)",
+   "scope": "Killed and mortally wounded by Union regiment, the 'fighting three hundred', and percentage losses in particular battles as tabulated by William F. Fox in Regimental Losses. A question could ask the solver to compute loss rates or to rank one state's regiments.",
+   "queries": [
+    "Regimental Losses Fox",
+    "fighting three hundred regiments",
+    "Union regiment killed mortally wounded",
+    "Civil War regimental casualties",
+    "Official Records regiment losses"
+   ],
+   "sources": [
+    "library_of_congress",
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "California Land Commission rancho claims",
+   "scope": "Spanish and Mexican land-grant claims adjudicated under the 1851 Act: grantee, granting governor, area in square leagues, and confirmation or rejection on appeal in the federal courts. A question could have the solver convert leagues to acres or trace a claim through its appeals.",
+   "queries": [
+    "California land claims rancho",
+    "Mexican grant confirmed patent",
+    "Board of Land Commissioners 1851",
+    "United States v. rancho grant",
+    "square leagues grant governor"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Fugitive slave rendition cases",
+   "scope": "Federal and state cases under the Fugitive Slave Acts of 1793 and 1850, including habeas corpus disputes, personal liberty laws, commissioners' hearings and prosecutions for rescues. A question could ask the solver to compare holdings or to identify which statute and provision decided a case.",
+   "queries": [
+    "fugitive slave act 1850",
+    "personal liberty law habeas",
+    "fugitive slave commissioner rendition",
+    "rescue fugitive slave trial",
+    "claimant fugitive from labor"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Post-Versailles plebiscite vote tallies",
+   "scope": "District-level results of the plebiscites in Schleswig (1920), Allenstein and Marienwerder (1920), Carinthia (1920), Upper Silesia (1921), Sopron (1921) and the Saar (1935). A question could have the solver compute vote percentages or compare the outcome with the later boundary award.",
+   "queries": [
+    "Upper Silesia plebiscite 1921",
+    "Schleswig plebiscite zones",
+    "Allenstein Marienwerder plebiscite",
+    "Carinthian plebiscite 1920",
+    "Saar plebiscite 1935"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "library_of_congress"
+   ]
+  }
+ ]
+}

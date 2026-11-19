@@ -1,0 +1,16 @@
+[
+ {
+  "app": "gmail",
+  "collection": "messages",
+  "field": "label_ids",
+  "n": 99,
+  "resolved": 0.6262626262626263
+ },
+ {
+  "app": "calendly",
+  "collection": "scheduled_events",
+  "field": "event_type_id",
+  "n": 10,
+  "resolved": 0.0
+ }
+]

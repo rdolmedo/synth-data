@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Engineering",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 63,
+ "leaves": [
+  {
+   "leaf": "Plastic collapse analysis of steel frames",
+   "scope": "Problems ask for the exact collapse load factor, the governing mechanism, or the plastic moment required for frames, grillages, or continuous beams under combined or proportional loads. They are hard because you have to combine elementary mechanisms correctly, and the hinge pattern that governs is only certain once the static check passes.",
+   "techniques": [
+    "Upper-bound kinematic method with virtual work over mechanisms",
+    "Combining beam, sway and joint-rotation mechanisms into the governing one",
+    "Lower-bound static check that M \u2264 Mp everywhere at the trial collapse load",
+    "Locating a hinge under distributed load by minimizing over its position",
+    "Interaction diagrams for load combinations (wind plus gravity)",
+    "Shakedown limits under variable repeated loading (Melan's theorem)"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression in Mp/L",
+    "name of the governing mechanism",
+    "ordered tuple of hinge locations"
+   ]
+  },
+  {
+   "leaf": "Optimal impulsive orbital transfer sequences",
+   "scope": "Problems ask for the total delta-v, the transfer time, or the crossover radius ratio of multi-impulse transfers that combine coplanar and plane-change maneuvers. They are hard because you have to share the plane change between burns optimally and know when three-impulse or phasing strategies beat a two-impulse transfer.",
+   "techniques": [
+    "Vis-viva relations for elliptic transfer arcs",
+    "Splitting the plane change optimally between apoapsis and periapsis burns",
+    "Comparing bi-elliptic and Hohmann transfers through the threshold radius ratio",
+    "Phasing-orbit design for rendezvous with integer revolution constraints",
+    "Oberth-effect gains from burns made deep in a gravity well",
+    "Kepler's equation for time of flight on non-half transfer arcs"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number to stated precision",
+    "integer (number of phasing revolutions)",
+    "ordered tuple of burn magnitudes"
+   ]
+  },
+  {
+   "leaf": "Mobility and singularities of spatial linkages",
+   "scope": "Problems ask for the true degree of freedom, the finite or instantaneous mobility, or the singularity conditions of planar, spherical, and spatial closed-loop mechanisms and parallel manipulators. They are hard because the Gr\u00fcbler\u2013Kutzbach count fails for overconstrained or specially proportioned linkages, so you need screw-theoretic reasoning to get it right.",
+   "techniques": [
+    "Gr\u00fcbler\u2013Kutzbach counting with correction for redundant constraints",
+    "Twist and wrench screw systems with reciprocal-screw rank analysis",
+    "Overconstrained loop conditions (Bennett-type geometric constraints)",
+    "Classifying Jacobian singularities of parallel manipulators (Gosselin\u2013Angeles)",
+    "Telling instantaneous mobility apart from finite mobility",
+    "Assur-group decomposition of planar mechanisms"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of singular configurations",
+    "closed-form condition on link parameters",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Stabilizing gain regions for dead-time systems",
+   "scope": "Problems ask for exact stability boundaries, the maximum stabilizing gain, or the critical delay of feedback loops whose plants contain pure time delay. They are hard because the characteristic quasi-polynomial has infinitely many roots, so you need frequency-sweeping or Hermite\u2013Biehler-type arguments rather than Routh tables.",
+   "techniques": [
+    "D-partition and crossing-direction analysis of imaginary-axis roots",
+    "Generalized Hermite\u2013Biehler theorem for quasi-polynomials",
+    "Delay margin from phase-crossover frequency equations",
+    "Smith predictor mismatch robustness",
+    "Pad\u00e9 approximation pitfalls and exact transcendental boundaries",
+    "Lambert W function solutions for scalar delay equations"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number to stated precision",
+    "interval of gains",
+    "integer (number of stability switches)"
+   ]
+  },
+  {
+   "leaf": "Nonideal reactor conversion from residence-time distributions",
+   "scope": "Problems give a residence-time distribution (from a tracer experiment, a compartment network, or a dispersion model) and ask for conversion under segregation or maximum mixedness for nonlinear kinetics. They are hard because second-order or non-integer-order kinetics make the micromixing assumption matter, and the integrals rarely reduce in standard ways.",
+   "techniques": [
+    "Segregated-flow integral of the batch conversion weighted by E(t)",
+    "Zwietering maximum-mixedness differential equation",
+    "Tanks-in-series and axial-dispersion RTD moments",
+    "Compartment models with bypass and dead volume",
+    "Bounds on conversion from micromixing extremes",
+    "Laplace-domain convolution of RTDs for units in series"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Radiation exchange in gray diffuse enclosures",
+   "scope": "Problems ask for exact view factors or net radiative heat flows in two- and three-dimensional enclosures made of gray diffuse surfaces, including shields and reradiating walls. They are hard because you have to chain reciprocity, summation, and decomposition rules carefully, and the radiosity network often has nonstandard topology.",
+   "techniques": [
+    "Hottel's crossed-strings method for 2D geometries",
+    "View-factor algebra via reciprocity, summation and superposition",
+    "Radiosity network solution with reradiating surfaces",
+    "Radiation-shield placement and emissivity effects",
+    "Inside-sphere and enclosed-convex-body limiting cases",
+    "Nusselt unit-sphere projection for differential view factors"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "real number to stated precision"
+   ]
+  },
+  {
+   "leaf": "Kinematic-wave traffic flow at bottlenecks",
+   "scope": "Problems ask for queue lengths, shock speeds, total delay, or clearance times on roads with signals, lane drops, or incidents, using the Lighthill\u2013Whitham\u2013Richards model. They are hard because shocks and fans interact over time and the boundary conditions at the bottleneck change with demand.",
+   "techniques": [
+    "Triangular and Greenshields fundamental diagrams",
+    "Rankine\u2013Hugoniot shock speeds between traffic states",
+    "Newell's cumulative-count (three-detector) method",
+    "Rarefaction-fan analysis at signal discharge",
+    "Moving-bottleneck theory for slow vehicles",
+    "Cell transmission model sending/receiving functions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "real number to stated precision",
+    "ordered tuple (time, position)"
+   ]
+  },
+  {
+   "leaf": "Hydrostatic stability of floating prismatic bodies",
+   "scope": "Problems ask for metacentric height, the critical density or draft ratio at which upright flotation becomes unstable, or the stable equilibrium heel angle of homogeneous or composite floating prisms, including free-surface effects from internal liquids. They are hard because the waterplane geometry changes with heel and with which faces the waterline crosses, so the GZ curve has to be built in pieces.",
+   "techniques": [
+    "Metacentric radius BM = I/\u2207 from waterplane second moment",
+    "Wall-sided formula for GZ at large angles",
+    "Free-surface correction from internal tank second moments",
+    "Piecewise waterplane geometry as the deck edge or bilge immerses",
+    "Bifurcation of equilibrium heel angles with density ratio",
+    "Inclining-experiment and moment-to-heel reasoning"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "interval of density ratios",
+    "real number (angle) to stated precision"
+   ]
+  }
+ ]
+}

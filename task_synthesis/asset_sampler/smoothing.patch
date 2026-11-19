@@ -1,0 +1,75 @@
+--- sample_assets.py	2026-10-14 21:31:25
++++ sample_assets.py	2026-10-14 22:00:27
+@@ -199,7 +199,8 @@
+     return [(w[r['set']], r) for r in rows if r['set'] in w and w[r['set']] > 0]
+ 
+ 
+-def fit(rows, a, b, lam, rng, k_pair=10.0, k_back=3.0, a_class=0.2, a_detail=0.3):
++def fit(rows, a, b, lam, rng, k_pair=10.0, k_back=3.0, a_class=0.2, a_detail=0.3, k_anchor=12.0, k_domain_none=12.0):
++    # k_anchor and k_domain_none were chosen by leave-one-author-out CV (smoothing_cv.py); k_back still sets origin.
+     W = weighted(rows, a, b, lam)
+     A = [(w, r) for w, r in W if r['bucket'] != 'none']
+     N = [(w, r) for w, r in W if r['bucket'] == 'none']
+@@ -208,7 +209,7 @@
+ 
+     # Anchor class given the bucket, backed off to the pooled anchor distribution.
+     pooled = norm({c: tally(A, lambda r: r['anchor'])[c] + a_class for c in CLASSES})
+-    m['anchor'] = {bk: shrink(tally([(w, r) for w, r in A if r['bucket'] == bk], lambda r: r['anchor']), pooled, k_back)
++    m['anchor'] = {bk: shrink(tally([(w, r) for w, r in A if r['bucket'] == bk], lambda r: r['anchor']), pooled, k_anchor)
+                    for bk in BUCKETS[1:]}
+     m['anchor_pooled'] = pooled
+ 
+@@ -274,7 +275,7 @@
+     m['action_prior'] = act_prior
+     dom_prior = norm(tally(W, lambda r: r['domain']))
+     m['domain'] = conditional(A, lambda r: r['anchor'], lambda r: r['domain'], dom_prior, 2)
+-    m['domain_none'] = shrink(tally(N, lambda r: r['domain']), dom_prior, 2)
++    m['domain_none'] = shrink(tally(N, lambda r: r['domain']), dom_prior, k_domain_none)
+     m['domain_prior'] = dom_prior
+ 
+     # Per-class details, matched from extensions and asset descriptions.
+@@ -349,19 +350,21 @@
+             m['lift'][(y, x)] = m['lift'][(x, y)]
+ 
+ 
+-def sampler(m, tau_class, tau_detail, bucket_mix=None):
++def sampler(m, tau_class, tau_detail, bucket_mix=None, tau_domain=None, tau_origin=1.0):
++    # CV: domain fits best near tau 1.25-1.5 (2.0 costs likelihood); origin is build mechanics and fits best untempered.
++    tau_domain = tau_detail if tau_domain is None else tau_domain
+     T = lambda d, t: {k: temper(v, t) for k, v in d.items()}
+     mix = bucket_mix or m['bucket']
+     anchor = T(m['anchor'], tau_class)
+     base = temper(m['base'], tau_class)
+     action, action_prior, action_none = T(m['action'], tau_class), temper(m['action_prior'], tau_class), \
+         temper(m['action_none'], tau_class)
+-    domain, domain_prior, domain_none = T(m['domain'], tau_detail), temper(m['domain_prior'], tau_detail), \
+-        temper(m['domain_none'], tau_detail)
++    domain, domain_prior, domain_none = T(m['domain'], tau_domain), temper(m['domain_prior'], tau_domain), \
++        temper(m['domain_none'], tau_domain)
+     details = {c: dict(d, dist=temper(d['dist'], tau_detail)) for c, d in m['details'].items()}
+     details_dom = T(m['details_by_domain'], tau_detail)
+     langs = T(m['languages'], tau_detail)
+-    origin = T(m['origin'], tau_class)  # build mechanics, not formatting
++    origin = T(m['origin'], tau_origin)  # build mechanics, not formatting
+ 
+     def sample(rng):
+         bk = draw(mix, rng)
+@@ -499,6 +502,8 @@
+     ap.add_argument('--lam', type=float, default=0.5)
+     ap.add_argument('--tau-class', type=float, default=1.5)
+     ap.add_argument('--tau-detail', type=float, default=2.0)
++    ap.add_argument('--tau-domain', type=float, default=1.5, help='domain temperature (CV-supported range 1.25-1.5)')
++    ap.add_argument('--tau-origin', type=float, default=1.0)
+     ap.add_argument('--bucket-mix', help='override, e.g. none=0.1,best-generated=0.5,best-found-online=0.15,must-source=0.25')
+     ap.add_argument('--n', type=int, default=1000)
+     ap.add_argument('--seed', type=int, default=0)
+@@ -513,7 +518,8 @@
+     if args.bucket_mix:
+         mix = norm({k: float(v) for k, v in (kv.split('=') for kv in args.bucket_mix.split(','))})
+         assert set(mix) <= set(BUCKETS), f'buckets are {BUCKETS}'
+-    sample = sampler(fit(rows, args.a, args.b, args.lam, rng), args.tau_class, args.tau_detail, mix)
++    sample = sampler(fit(rows, args.a, args.b, args.lam, rng), args.tau_class, args.tau_detail, mix,
++                     tau_domain=args.tau_domain, tau_origin=args.tau_origin)
+     out = open(args.out, 'w') if args.out != '-' else None
+     for i in range(args.n):
+         spec = {'id': f'asset-spec-{args.seed}-{i:06d}', 'lam': args.lam, 'tau_class': args.tau_class,

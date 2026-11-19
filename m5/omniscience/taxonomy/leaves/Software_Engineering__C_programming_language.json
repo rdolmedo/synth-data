@@ -1,0 +1,1236 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "C programming language",
+ "weight": 0.018822000000000002,
+ "leaves": [
+  {
+   "leaf": "History and standardization of C (Bell Labs origins, K&R, ANSI X3J11, ISO WG14 editions)",
+   "scope": "Origins of C at Bell Labs from BCPL and B, K&R C, and its standardization by ANSI X3J11 and ISO/IEC JTC1/SC22/WG14 across the ISO/IEC 9899 editions, technical corrigenda and defect reports.",
+   "queries": [
+    "Dennis Ritchie Bell Labs B language BCPL NB",
+    "K&R The C Programming Language first edition 1978",
+    "ANSI X3J11 committee X3.159-1989 C89 ratified",
+    "ISO/IEC 9899 WG14 technical corrigendum defect report"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C99 revision features",
+   "scope": "Language and library features introduced by ISO/IEC 9899:1999 and its corrigenda, such as variable-length arrays, long long, _Bool, inline, restrict, // comments, __func__ and new headers.",
+   "queries": [
+    "C99 new features variable-length arrays long long",
+    "ISO/IEC 9899:1999 stdbool.h stdint.h complex.h added",
+    "C99 snprintf va_copy hexadecimal floating constants",
+    "C99 implicit int removed __func__ predefined identifier"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C11 and C17 revision features",
+   "scope": "Changes in ISO/IEC 9899:2011 and the C17 bug-fix revision, including _Generic, _Static_assert, _Noreturn, _Alignas, anonymous structures, optional features, Annex K, removal of gets and the __STDC_VERSION__ values.",
+   "queries": [
+    "C11 standard _Generic _Static_assert _Noreturn added",
+    "C11 gets removed anonymous structures unions",
+    "C17 ISO/IEC 9899:2018 defect fixes 201710L",
+    "C11 optional features __STDC_NO_THREADS__ __STDC_NO_VLA__"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C23 revision features",
+   "scope": "Features adopted in ISO/IEC 9899:2024 (C23), such as nullptr, constexpr, typeof, auto type inference, #embed, _BitInt, standard attributes, bool/true/false keywords, stdbit.h and stdckdint.h, and removals such as K&R function definitions.",
+   "queries": [
+    "C23 nullptr constexpr typeof auto keyword",
+    "C23 #embed directive _BitInt bit-precise integers",
+    "stdckdint.h ckd_add stdbit.h stdc_count_ones C23",
+    "C23 attributes deprecated fallthrough nodiscard unsequenced"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Post-C23 (C2y) proposals and ISO technical specifications for C",
+   "scope": "WG14 work beyond C23, including C2y proposals (_Countof, defer, if-declarations, named loops) and ISO/IEC technical specifications and reports such as TS 18661, TS 17961, TR 24731-2, TR 24732, TS 6010 and TS 25755.",
+   "queries": [
+    "C2y _Countof named loops if declaration",
+    "defer technical specification TS 25755 WG14",
+    "ISO/IEC TS 18661 floating-point extensions C parts",
+    "TS 6010 provenance-aware memory object model"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lexical elements and translation phases",
+   "scope": "Translation phases and C tokens: keywords, identifiers, universal character names, integer, floating, character and string literals with their prefixes and suffixes, escape sequences, trigraphs, digraphs and comments.",
+   "queries": [
+    "C trigraph sequences ??= ??/ digraphs <: %:",
+    "C integer constant suffixes u l ll hexadecimal octal",
+    "C escape sequences character constants universal character names",
+    "translation phases string literal concatenation u8 prefix"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Preprocessor directives and macro expansion",
+   "scope": "C preprocessor directives and macro expansion rules: #define, the # and ## operators, variadic macros and __VA_OPT__, conditional inclusion, #include search paths, #pragma and _Pragma, #line, #error/#warning and include guards.",
+   "queries": [
+    "C preprocessor stringification token pasting ## operator",
+    "variadic macros __VA_ARGS__ __VA_OPT__",
+    "#pragma once include guards _Pragma operator",
+    "macro expansion rescanning self-referential macros cpp"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Predefined, compiler-identification and feature-test macros",
+   "scope": "Standard predefined macros (__STDC__, __STDC_VERSION__, __STDC_HOSTED__, __FILE__, __LINE__), compiler and platform identification macros (__GNUC__, __clang__, _MSC_VER, __x86_64__), and feature-test macros such as _POSIX_C_SOURCE, _GNU_SOURCE and __STDC_WANT_LIB_EXT1__.",
+   "queries": [
+    "standard predefined macros __STDC_VERSION__ __STDC_HOSTED__",
+    "feature test macros _POSIX_C_SOURCE _XOPEN_SOURCE _GNU_SOURCE",
+    "_MSC_VER predefined macros Visual C++ version",
+    "GCC common predefined macros __GNUC_MINOR__ __SIZEOF_POINTER__"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Integer types, conversions and limits",
+   "scope": "C integer types and their ranges, integer promotions and usual arithmetic conversions, overflow and wraparound rules, limits.h, stdint.h/inttypes.h typedefs and format macros, and data models such as LP64, LLP64 and ILP32.",
+   "queries": [
+    "integer promotions usual arithmetic conversions C",
+    "stdint.h int_least32_t intmax_t uintptr_t",
+    "inttypes.h PRId64 SCNu32 format macros",
+    "LP64 LLP64 ILP32 data model sizeof long"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Floating-point representation and environment (float.h, fenv.h, Annex F)",
+   "scope": "Floating-point representation and environment in C: float.h characteristics (FLT_EPSILON, DBL_DIG, FLT_EVAL_METHOD), fenv.h rounding modes and exception flags, the Annex F IEC 60559 binding, NaNs and infinities, hex float literals and long double formats.",
+   "queries": [
+    "float.h FLT_EVAL_METHOD DBL_DECIMAL_DIG FLT_EPSILON",
+    "fenv.h fesetround FE_TONEAREST feraiseexcept",
+    "Annex F IEC 60559 floating-point arithmetic C",
+    "long double x87 80-bit extended precision format"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mathematical library: math.h, complex.h and tgmath.h",
+   "scope": "Mathematical functions in math.h (classification macros, rounding, fma, special functions, math_errhandling), complex.h types and functions with Annex G imaginary types, and tgmath.h type-generic macros.",
+   "queries": [
+    "math.h fpclassify isnan signbit math_errhandling",
+    "complex.h cabs cexp CMPLX _Complex_I",
+    "tgmath.h type-generic macros",
+    "lround nearbyint remquo fma tgamma math.h"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Declarations, storage classes, scope and linkage",
+   "scope": "Declaration syntax and semantics: declarators for pointers, arrays and function pointers, typedef, storage-class specifiers (auto, register, static, extern, _Thread_local), tentative definitions, scope kinds, linkage and storage duration.",
+   "queries": [
+    "C storage-class specifiers static extern register auto",
+    "tentative definitions internal external linkage C",
+    "C declarator syntax function pointer typedef cdecl",
+    "storage duration automatic static thread allocated _Thread_local"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Type qualifiers, strict aliasing and effective type",
+   "scope": "The const, volatile, restrict and _Atomic qualifiers and their semantics, plus the strict aliasing and effective type rules, type punning through unions and memcpy, and compiler flags such as -fno-strict-aliasing.",
+   "queries": [
+    "restrict type qualifier pointer aliasing C99",
+    "volatile qualifier semantics memory-mapped hardware",
+    "strict aliasing rule effective type -fno-strict-aliasing",
+    "type punning union memcpy character type aliasing"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Structures, unions, bit-fields, alignment and aggregate initialization",
+   "scope": "Structure and union types, bit-fields, padding and alignment (offsetof, _Alignas, alignof, max_align_t), flexible array members, anonymous members, and aggregate initialization with designated initializers and compound literals.",
+   "queries": [
+    "C bit-fields struct layout implementation-defined",
+    "flexible array member struct hack",
+    "offsetof alignof _Alignas max_align_t stdalign.h",
+    "designated initializers compound literals struct initialization"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arrays, pointers and variable-length arrays",
+   "scope": "Array types and array-to-pointer decay, pointer arithmetic and comparison rules, null pointers and NULL, void pointers, multidimensional and variable-length arrays, array parameters declared with static, and ptrdiff_t.",
+   "queries": [
+    "array to pointer decay sizeof array parameter",
+    "variable-length arrays VLA C99 optional C11",
+    "pointer arithmetic ptrdiff_t one past end",
+    "null pointer constant NULL macro void pointer"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Operators, precedence and expression evaluation",
+   "scope": "C operators and expression semantics: precedence and associativity, sequence points and sequenced-before relations, lvalues, sizeof and _Alignof, comma, conditional and compound assignment operators, short-circuit evaluation and cast rules.",
+   "queries": [
+    "C operator precedence associativity table",
+    "sequence points sequenced before unsequenced modifications",
+    "lvalue modifiable lvalue conversion C",
+    "comma operator conditional operator short-circuit evaluation"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Undefined, unspecified and implementation-defined behavior",
+   "scope": "How the C standard classifies undefined, unspecified and implementation-defined behavior (Annex J), common sources of UB such as signed overflow and null dereference, and how optimizing compilers exploit UB.",
+   "queries": [
+    "undefined behavior signed integer overflow optimization",
+    "Annex J portability issues unspecified implementation-defined behavior",
+    "nasal demons undefined behavior C standard",
+    "-fwrapv -fno-delete-null-pointer-checks undefined behavior"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Functions: prototypes, variadic arguments, inline and main",
+   "scope": "Function declarations and definitions: prototypes versus K&R old-style definitions, default argument promotions, variadic functions via stdarg.h, inline semantics in C99 versus GNU89, _Noreturn, and the allowed signatures and return values of main.",
+   "queries": [
+    "stdarg.h va_start va_arg va_end va_copy",
+    "C99 inline extern inline gnu89 semantics",
+    "K&R old-style function definition identifier list",
+    "main function argc argv return value signature"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "stdio.h streams, file operations and formatted I/O",
+   "scope": "The stdio.h library: FILE streams, fopen mode strings, buffering (setvbuf, BUFSIZ), positioning (fseek, fgetpos), character and line I/O, and printf/scanf family conversion specifiers, flags and length modifiers.",
+   "queries": [
+    "printf conversion specifiers length modifiers hh z j",
+    "fopen mode strings rb+ wx exclusive",
+    "setvbuf _IOFBF _IOLBF _IONBF buffering",
+    "scanf format scanset %n fgets gets removal"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "String and memory functions (string.h, Annex K bounds-checking)",
+   "scope": "String and memory functions in string.h (strcpy, strncpy, strtok, memcpy, memmove, memset_explicit, strerror), nonstandard variants such as strlcpy and strdup, and the Annex K bounds-checking interfaces such as strcpy_s and rsize_t.",
+   "queries": [
+    "string.h memcpy memmove memset strncpy",
+    "Annex K bounds-checking interfaces strcpy_s rsize_t",
+    "strlcpy strlcat OpenBSD glibc 2.38",
+    "strtok strtok_r strerror memset_explicit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dynamic memory allocation and allocator implementations",
+   "scope": "Heap allocation in C through malloc, calloc, realloc, free, aligned_alloc and free_sized and their edge cases, plus allocator implementations such as dlmalloc, ptmalloc, jemalloc, tcmalloc and mimalloc.",
+   "queries": [
+    "malloc calloc realloc free aligned_alloc C standard",
+    "realloc zero size undefined C23 free_sized",
+    "jemalloc tcmalloc mimalloc allocator",
+    "dlmalloc ptmalloc glibc malloc arenas tunables"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "stdlib.h general utilities and program termination",
+   "scope": "General utilities in stdlib.h: numeric conversions (strtol, strtod, atoi), pseudo-random numbers (rand, RAND_MAX), qsort and bsearch, environment access and system, and program termination through exit, atexit, quick_exit, _Exit and abort.",
+   "queries": [
+    "strtol strtoul strtod endptr base conversion",
+    "qsort bsearch comparison function stdlib.h",
+    "exit atexit quick_exit at_quick_exit _Exit abort",
+    "rand srand RAND_MAX getenv system stdlib.h"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Character handling, locales, wide characters and Unicode",
+   "scope": "Character classification and conversion (ctype.h, wctype.h), locales (setlocale, localeconv, LC_ categories), wide characters (wchar_t, wchar.h), multibyte conversion and the Unicode types in uchar.h (char8_t, char16_t, char32_t).",
+   "queries": [
+    "ctype.h isalpha isspace toupper unsigned char",
+    "setlocale LC_ALL LC_NUMERIC localeconv",
+    "uchar.h char16_t char32_t mbrtoc16 c32rtomb",
+    "wchar.h wcslen mbstate_t wide character functions"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Date and time library (time.h)",
+   "scope": "Date and time facilities in time.h: time_t, clock_t, struct tm, mktime, gmtime, localtime, strftime conversion specifiers, timespec and timespec_get, CLOCKS_PER_SEC, and issues such as the Year 2038 problem.",
+   "queries": [
+    "time.h struct tm mktime gmtime localtime",
+    "strftime conversion specifiers %j %U %V",
+    "timespec_get TIME_UTC CLOCKS_PER_SEC clock",
+    "Year 2038 problem 32-bit time_t"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Signals, non-local jumps, errno and assertions",
+   "scope": "Error handling and control-transfer facilities: signal.h (signal, raise, standard signals, sig_atomic_t), setjmp.h (setjmp, longjmp, jmp_buf), errno.h error codes, and assert.h with NDEBUG.",
+   "queries": [
+    "setjmp longjmp jmp_buf volatile local variables",
+    "signal.h SIGABRT SIGFPE sig_atomic_t raise",
+    "errno.h EDOM ERANGE EILSEQ error codes",
+    "assert.h NDEBUG assert macro static_assert"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C11 threads, atomics and the memory model",
+   "scope": "The C11 concurrency model and libraries: threads.h (thrd_create, mtx_t, cnd_t, tss_t, call_once), stdatomic.h atomic types and operations, memory_order values, atomic_flag, fences and data-race semantics.",
+   "queries": [
+    "threads.h thrd_create mtx_lock cnd_wait",
+    "stdatomic.h memory_order_acquire atomic_compare_exchange",
+    "atomic_flag test_and_set ATOMIC_INT_LOCK_FREE",
+    "C11 memory model data race happens-before"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "POSIX C interfaces (pthreads, unistd.h, fcntl.h)",
+   "scope": "POSIX interfaces commonly used from C beyond ISO C: pthreads (pthread_create, mutexes, condition variables), unistd.h and fcntl.h system calls (fork, exec, read, write, open), and POSIX additions such as getline, strdup and dlopen.",
+   "queries": [
+    "pthread_create pthread_mutex_lock pthread_cond_wait",
+    "unistd.h fork execve read write file descriptor",
+    "POSIX getline getdelim strdup dlopen dlsym",
+    "fcntl.h open O_CREAT O_CLOEXEC flags"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "C standard library implementations (glibc, musl, newlib, Bionic)",
+   "scope": "Implementations of the C standard library such as glibc, musl, newlib, picolibc, uClibc-ng, Bionic, the BSD libcs and dietlibc: their licenses, release histories and feature differences.",
+   "queries": [
+    "glibc release notes new functions version",
+    "musl libc release static linking",
+    "newlib picolibc embedded C library",
+    "Bionic Android libc uClibc-ng dietlibc"
+   ],
+   "sources": [
+    "changelog",
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "GCC as a C compiler: dialect options, warnings and release changes",
+   "scope": "Using GCC to compile C: -std dialect options and the default standard in each release, warning flags (-Wall, -Wextra, -Wpedantic), optimization levels, and C-related changes in GCC release notes.",
+   "queries": [
+    "GCC -std=gnu17 c2x default C dialect",
+    "GCC warning options -Wall -Wextra -Wpedantic",
+    "GCC release changes C family new warnings",
+    "GCC optimize options -O2 -O3 -Os -Og"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GNU C language extensions, attributes and builtins",
+   "scope": "GNU C extensions supported by GCC and Clang: __attribute__ for functions, variables and types, statement expressions, typeof, nested functions, labels as values, zero-length arrays, case ranges, extended inline assembly and __builtin_ functions.",
+   "queries": [
+    "GCC statement expressions labels as values computed goto",
+    "__attribute__ packed aligned cleanup constructor",
+    "GCC extended asm constraints clobbers",
+    "__builtin_expect __builtin_unreachable __builtin_add_overflow"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Clang/LLVM C frontend",
+   "scope": "Clang as a C compiler: driver options, diagnostics, C language extensions (blocks, __has_builtin, __has_attribute, overloadable, nullability), C standard conformance status, and C-related changes in Clang release notes.",
+   "queries": [
+    "Clang language extensions __has_builtin __has_feature",
+    "Clang blocks extension caret syntax",
+    "Clang release notes C language changes",
+    "Clang C status C23 implementation papers"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "MSVC, historical and alternative C compilers",
+   "scope": "C compilers other than GCC and Clang: Microsoft Visual C++ C conformance (/std:c11, /std:c17, UCRT), Intel compilers, historical PC compilers (Turbo C, Borland C, Watcom, QuickC), and small or research compilers (TCC, PCC, LCC, SDCC, Pelles C, chibicc, cproc).",
+   "queries": [
+    "MSVC C11 C17 support /std:c11 Visual Studio",
+    "Tiny C Compiler TCC Fabrice Bellard",
+    "Turbo C Borland Open Watcom history",
+    "SDCC LCC Pelles C portable C compiler"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Linking, object files, ABIs and calling conventions",
+   "scope": "How C programs are compiled and linked: object file formats (ELF, COFF, Mach-O), static and shared libraries, symbol resolution, weak symbols and visibility, linkers (ld, gold, lld, mold), and calling conventions and ABIs such as cdecl, stdcall, System V AMD64 and AAPCS.",
+   "queries": [
+    "ELF shared library symbol visibility weak symbols",
+    "System V AMD64 ABI calling convention registers",
+    "cdecl stdcall fastcall calling conventions x86",
+    "GNU ld gold lld mold linker"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Build systems for C projects (Make, Autotools, pkg-config, CMake)",
+   "scope": "Tools used to build C projects: make and Makefile syntax (rules, automatic variables, implicit rules), GNU Autotools (autoconf, automake, libtool), pkg-config, and C support in CMake and Meson.",
+   "queries": [
+    "GNU make automatic variables implicit rules",
+    "autoconf automake libtool configure script",
+    "pkg-config .pc file cflags libs",
+    "CMake C_STANDARD Meson build C project"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Debugging and dynamic analysis tools (GDB, Valgrind, sanitizers)",
+   "scope": "Runtime debugging and dynamic analysis tools for C programs: GDB commands, Valgrind tools (Memcheck, Cachegrind, Helgrind, Massif), sanitizers (AddressSanitizer, UndefinedBehaviorSanitizer, MemorySanitizer, ThreadSanitizer), Electric Fence and core dumps.",
+   "queries": [
+    "Valgrind Memcheck Cachegrind Helgrind Massif tools",
+    "AddressSanitizer -fsanitize=address shadow memory",
+    "UndefinedBehaviorSanitizer -fsanitize=undefined checks",
+    "GDB breakpoint watchpoint backtrace commands"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Static analysis and formal verification of C (lint, Frama-C, CompCert)",
+   "scope": "Static analyzers and verification tools for C: lint and splint, cppcheck, Coverity, the Clang Static Analyzer, clang-tidy, PVS-Studio, Infer, and formal tools such as Frama-C, CompCert, CBMC and VeriFast.",
+   "queries": [
+    "lint splint static analysis C history",
+    "Frama-C ACSL plugins WP Eva",
+    "CompCert verified C compiler Coq",
+    "cppcheck Coverity Clang Static Analyzer checkers"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Secure and safety-critical C coding standards (CERT C, MISRA C, hardening)",
+   "scope": "Secure and safety-critical C coding guidelines and hardening: SEI CERT C Coding Standard rules, MISRA C editions and rule categories, CWE weaknesses such as buffer overflows and format string bugs, _FORTIFY_SOURCE and stack protectors.",
+   "queries": [
+    "SEI CERT C coding standard rules recommendations",
+    "MISRA C:2012 rules directives mandatory required advisory",
+    "format string vulnerability buffer overflow C",
+    "_FORTIFY_SOURCE -fstack-protector-strong hardening"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Embedded and freestanding C (TR 18037, memory-mapped I/O, embedded toolchains)",
+   "scope": "C for embedded and freestanding environments: freestanding implementation requirements and headers, ISO/IEC TR 18037 Embedded C (fixed-point _Fract/_Accum types, named address spaces), memory-mapped I/O through volatile, interrupt attributes, and embedded toolchains such as Keil, IAR and Microchip XC.",
+   "queries": [
+    "freestanding implementation required headers C standard",
+    "Embedded C TR 18037 fixed-point _Fract _Accum",
+    "named address spaces __flash avr-gcc",
+    "IAR Keil ARM compiler interrupt keyword"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "C coding styles, idioms and folklore (indent styles, Duff's device, IOCCC)",
+   "scope": "C programming culture and conventions: indentation styles (K&R, Allman, GNU, Whitesmiths), the Linux kernel and GNU coding standards, Hungarian notation, common idioms (Duff's device, X-macros, container_of, opaque pointers), and the IOCCC and Underhanded C contests.",
+   "queries": [
+    "indentation style K&R Allman Whitesmiths GNU",
+    "Linux kernel coding style tabs 8 characters",
+    "Duff's device loop unrolling switch",
+    "International Obfuscated C Code Contest winners"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C-derived languages, dialects and C++ compatibility",
+   "scope": "Languages and dialects derived from or closely tied to C, such as Objective-C, Cyclone, Checked C, Cilk, Unified Parallel C, OpenCL C, CUDA C and C--, and the compatibility differences between C and C++ (extern \"C\", void* conversion, keyword differences).",
+   "queries": [
+    "compatibility of C and C++ differences",
+    "Objective-C Cyclone Checked C dialect",
+    "Unified Parallel C Cilk OpenCL C language",
+    "extern C linkage name mangling C++"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Statements and control flow (switch, loops, goto, labels)",
+   "scope": "Selection, iteration and jump statements, compound statements and blocks, labels, and the rules for switch/case, including fallthrough and jumps into the scope of variably modified types.",
+   "queries": [
+    "switch statement case label constant expression C",
+    "goto statement label jump into block scope",
+    "for loop clause declaration C99 iteration statement",
+    "fallthrough attribute switch case implicit-fallthrough warning"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Unit testing and mocking frameworks for C (Check, CUnit, Unity, CMocka, Criterion)",
+   "scope": "Unit test frameworks and mocking libraries for C, with their assertion APIs, test runners, process isolation modes and release history.",
+   "queries": [
+    "CMocka unit testing framework mock objects C",
+    "Check unit test framework C fork mode",
+    "Unity test framework ThrowTheSwitch CMock embedded",
+    "Criterion CUnit test runner assertions C library"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Fuzz testing of C programs (AFL, AFL++, libFuzzer, OSS-Fuzz)",
+   "scope": "Coverage-guided fuzzing of C code with AFL, AFL++, libFuzzer, honggfuzz and OSS-Fuzz, including instrumentation modes, harness entry points and notable bugs found.",
+   "queries": [
+    "american fuzzy lop AFL fuzzer instrumentation Zalewski",
+    "libFuzzer LLVMFuzzerTestOneInput fuzz target options",
+    "AFL++ persistent mode QEMU mode cmplog",
+    "OSS-Fuzz ClusterFuzz honggfuzz open source projects"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Profiling and code-coverage tools (gprof, gcov, lcov, perf)",
+   "scope": "Performance profiling and coverage measurement for C programs with gprof, gcov, lcov/gcovr, Linux perf, OProfile and Intel VTune, including their compiler flags and data file formats.",
+   "queries": [
+    "gprof call graph profiling pg option",
+    "gcov code coverage gcda gcno files",
+    "lcov genhtml coverage report branch",
+    "perf record perf report Linux profiling events"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Compiler optimization of C code (optimization levels, LTO, PGO, auto-vectorization)",
+   "scope": "How C compilers optimize code across GCC, Clang and MSVC: optimization levels, link-time and profile-guided optimization, auto-vectorization, inlining heuristics and the use of restrict.",
+   "queries": [
+    "link-time optimization flto ThinLTO GCC LLVM",
+    "profile-guided optimization fprofile-generate fprofile-use",
+    "auto-vectorization loop vectorizer GCC Clang",
+    "optimization levels O2 O3 Os Og flags enabled"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "SIMD intrinsics in C (x86 immintrin.h, ARM NEON, SVE ACLE, RISC-V vector)",
+   "scope": "Vendor SIMD intrinsic APIs used from C: Intel SSE/AVX/AVX-512 headers and naming conventions, ARM NEON and SVE ACLE types and functions, and RISC-V vector intrinsics.",
+   "queries": [
+    "Intel intrinsics immintrin.h AVX2 _mm256 functions",
+    "ARM NEON intrinsics arm_neon.h vector types",
+    "SVE ACLE arm_sve.h svfloat32_t intrinsics",
+    "RISC-V vector intrinsics riscv_vector.h"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inline assembly (GCC extended asm, constraints, MSVC __asm)",
+   "scope": "Embedding assembly in C source: GCC/Clang basic and extended asm syntax, operand constraints and modifiers, clobbers, asm goto and volatile asm, and MSVC __asm blocks and their absence on x64.",
+   "queries": [
+    "GCC extended asm operand constraints clobbers",
+    "asm goto labels inline assembly GCC",
+    "machine constraints x86 register modifiers inline asm",
+    "MSVC __asm inline assembler x64 not supported"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Program startup and C runtime initialization (crt0, _start, constructors)",
+   "scope": "What runs before main and after it returns, at the object-code level: crt0/crt1.o/crti.o/crtbegin.o, _start, __libc_start_main, the .init/.fini and .init_array sections, constructor priorities and the ELF auxiliary vector.",
+   "queries": [
+    "crt0 startup code _start entry point",
+    "__libc_start_main glibc crt1.o crti.o",
+    "init_array fini_array constructor attribute priority",
+    "ELF auxiliary vector getauxval AT_HWCAP"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dynamic loading and library interposition (dlopen, LoadLibrary, LD_PRELOAD)",
+   "scope": "Loading shared objects at runtime from C through dlfcn.h (dlopen, dlsym, dladdr, dlmopen, RTLD flags) and Windows LoadLibrary/GetProcAddress, and interposing symbols through LD_PRELOAD and DYLD_INSERT_LIBRARIES.",
+   "queries": [
+    "dlopen RTLD_LAZY RTLD_NOW RTLD_GLOBAL flags",
+    "dlsym RTLD_NEXT symbol interposition",
+    "LD_PRELOAD dynamic linker environment variables ld.so",
+    "LoadLibrary GetProcAddress DLL search order"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "BSD sockets and network programming in C",
+   "scope": "The Berkeley sockets API as used from C: socket/bind/listen/accept/connect, sockaddr structures, getaddrinfo, socket options, select/poll multiplexing and how Winsock differs.",
+   "queries": [
+    "Berkeley sockets API socket bind listen accept",
+    "getaddrinfo struct addrinfo AI_PASSIVE hints",
+    "setsockopt SO_REUSEADDR SOL_SOCKET options",
+    "select poll file descriptor sets FD_SETSIZE"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Event-driven I/O libraries (libevent, libev, libuv, liburing)",
+   "scope": "C libraries that provide event loops and asynchronous I/O, such as libevent, libev, libuv and liburing for io_uring, with their API versions, backends and thread pools.",
+   "queries": [
+    "libevent event_base bufferevent API",
+    "libuv event loop uv_run handles requests",
+    "libev ev_io watcher event loop",
+    "liburing io_uring_submit submission queue completion"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Linux-specific system interfaces (epoll, inotify, eventfd, prctl, seccomp)",
+   "scope": "Linux-only system call interfaces for C and their headers, including epoll, inotify/fanotify, eventfd, signalfd, timerfd, memfd_create, prctl, seccomp and clone flags, and the kernel versions that introduced them.",
+   "queries": [
+    "epoll_create1 epoll_ctl EPOLLET edge triggered",
+    "inotify_add_watch IN_MODIFY file events",
+    "eventfd signalfd timerfd file descriptors Linux",
+    "seccomp prctl PR_SET_NO_NEW_PRIVS filter"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inter-process communication (pipes, FIFOs, System V and POSIX IPC, mmap)",
+   "scope": "C APIs for communication between processes: pipe and mkfifo, System V shared memory, semaphores and message queues, POSIX shm_open/sem_open/mq_open, shared mmap mappings and Unix domain sockets.",
+   "queries": [
+    "System V shared memory shmget shmat IPC_PRIVATE",
+    "POSIX message queues mq_open mq_send",
+    "shm_open mmap MAP_SHARED shared memory",
+    "pipe mkfifo named pipe PIPE_BUF atomic"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Terminal I/O and text user interfaces (termios, ncurses, readline, conio.h)",
+   "scope": "Terminal control and text UI programming in C: termios canonical and raw modes, window-size ioctls, curses/ncurses APIs, GNU Readline and the DOS-era conio.h.",
+   "queries": [
+    "termios tcsetattr canonical mode ICANON ECHO",
+    "ncurses initscr wrefresh window functions",
+    "GNU Readline library history completion",
+    "conio.h getch clrscr Turbo C"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Command-line parsing and regular expressions (getopt, argp, regex.h, PCRE2)",
+   "scope": "Option-parsing and pattern-matching libraries used in C programs: POSIX getopt, GNU getopt_long and argp, popt, POSIX regcomp/regexec, PCRE/PCRE2, and fnmatch/glob.",
+   "queries": [
+    "getopt_long struct option has_arg optind",
+    "argp_parse GNU argp option parser",
+    "regcomp regexec REG_EXTENDED regmatch_t",
+    "PCRE2 pcre2_compile pcre2_match JIT"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Windows C programming (Win32 API, Universal CRT, SEH, DLL exports)",
+   "scope": "Writing C for Windows: Win32 API conventions (HANDLE, TCHAR, A/W function variants, WinMain), the Universal CRT versus msvcrt, structured exception handling with __try/__except, and __declspec(dllexport/dllimport).",
+   "queries": [
+    "Universal CRT ucrtbase.dll msvcrt.dll Windows 10",
+    "structured exception handling __try __except __finally",
+    "__declspec dllexport dllimport DLL C",
+    "WinMain TCHAR UNICODE _UNICODE Win32 API"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Linux kernel C (coding style, kernel APIs, sparse, Kbuild)",
+   "scope": "The C dialect and conventions of the Linux kernel: kernel coding style and checkpatch, minimum GCC/Clang versions and the gnu11 standard, core APIs such as printk, kmalloc and container_of, sparse annotations and Kbuild/Kconfig.",
+   "queries": [
+    "Linux kernel coding style indentation tabs",
+    "kernel minimal GCC version requirements gnu11 standard",
+    "sparse __user __iomem annotations kernel",
+    "Kbuild Kconfig makefiles obj-y obj-m"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "General-purpose C utility libraries (GLib, GObject, APR, sys/queue.h, uthash, stb)",
+   "scope": "Reusable data-structure and utility libraries for C, including GLib and the GObject type system, the Apache Portable Runtime, BSD sys/queue.h and sys/tree.h macros, uthash, klib and the stb single-header libraries.",
+   "queries": [
+    "GLib GHashTable GList data types",
+    "GObject type system signals properties G_DEFINE_TYPE",
+    "sys/queue.h LIST_HEAD TAILQ macros BSD",
+    "uthash HASH_ADD hash table macros C"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Portability layers and compatibility libraries (gnulib, libiberty, libbsd, Cygwin)",
+   "scope": "Libraries and environments that hide platform differences from C code: gnulib modules and gnulib-tool, libiberty, libbsd, and the Cygwin and MSYS2 POSIX emulation layers.",
+   "queries": [
+    "gnulib modules gnulib-tool portability library",
+    "libiberty GNU binutils GCC library functions",
+    "libbsd strlcpy BSD functions Linux",
+    "Cygwin POSIX emulation cygwin1.dll"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "GNU Binutils and cross-compilation toolchains",
+   "scope": "The binary utilities and cross-toolchain conventions used around C compilers: as, objdump, nm, readelf, ar, strip and objcopy, target triplets, sysroots, and toolchain builders such as crosstool-NG and Buildroot.",
+   "queries": [
+    "GNU Binutils objdump readelf nm objcopy",
+    "target triplet cross compiler sysroot",
+    "crosstool-NG toolchain build configuration",
+    "binutils release ChangeLog new features version"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alternative build tools and package managers (Meson, Ninja, ccache, Conan, vcpkg)",
+   "scope": "Build and dependency tooling for C beyond Make, Autotools and CMake: Meson, Ninja, SCons and Bazel, compiler caches and distributed builds (ccache, distcc), and the Conan and vcpkg package managers.",
+   "queries": [
+    "Meson build system meson.build options",
+    "Ninja build file generator rules",
+    "ccache distcc compiler cache distributed compilation",
+    "Conan vcpkg C package manager"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Source formatting, documentation and code navigation tools (clang-format, Doxygen, ctags, cscope)",
+   "scope": "Tools that format, document and index C source: clang-format style options, GNU indent and Artistic Style, Doxygen and kernel-doc comment syntax, Universal Ctags, cscope, GNU GLOBAL and clangd with compile_commands.json.",
+   "queries": [
+    "clang-format style options BasedOnStyle",
+    "Doxygen special commands param brief",
+    "cscope ctags source code browsing",
+    "clangd compile_commands.json language server"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lexer and parser generators producing C (lex/flex, yacc/Bison, re2c, Lemon)",
+   "scope": "Tools that generate C scanners and parsers, including lex and flex, yacc, GNU Bison and Berkeley yacc, re2c, Lemon and Ragel, with their grammar file syntax, options and generated APIs.",
+   "queries": [
+    "flex lexical analyzer yylex yytext options",
+    "GNU Bison parser generator define directives",
+    "yacc LALR parser generator Stephen Johnson",
+    "re2c Lemon parser generator SQLite"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Parallel programming in C (OpenMP, MPI, OpenACC, OpenCL host API)",
+   "scope": "Shared-memory and distributed parallelism from C: OpenMP pragmas and specification versions, MPI C bindings and implementations, OpenACC directives and the OpenCL host API.",
+   "queries": [
+    "OpenMP pragma omp parallel for reduction",
+    "OpenMP specification version 5.0 features",
+    "MPI_Send MPI_Recv MPI C bindings",
+    "OpenACC directives kernels parallel loop"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numerical and arbitrary-precision libraries (GMP, MPFR, GSL, FFTW, CBLAS)",
+   "scope": "C libraries for scientific and multiprecision computation, such as GMP, MPFR, MPC, the GNU Scientific Library, FFTW and CBLAS/LAPACKE, with their API conventions and releases.",
+   "queries": [
+    "GMP mpz_t integer functions GNU multiple precision",
+    "MPFR rounding modes mpfr_t precision",
+    "GNU Scientific Library gsl functions",
+    "FFTW plan fftw_plan_dft_r2c"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Database client C APIs (SQLite C interface, libpq, MySQL C API, ODBC)",
+   "scope": "C interfaces for embedding or connecting to databases: the SQLite C interface and its compile-time options, PostgreSQL libpq, the MySQL/MariaDB C API, Berkeley DB and ODBC.",
+   "queries": [
+    "sqlite3_prepare_v2 sqlite3_step sqlite3_bind C interface",
+    "SQLite compile-time options SQLITE_THREADSAFE",
+    "libpq PQconnectdb PQexec PostgreSQL",
+    "MySQL C API mysql_real_connect"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compression, data-format and HTTP libraries (zlib, zstd, libcurl, libxml2, cJSON)",
+   "scope": "Widely embedded C libraries for compression, HTTP transfer and structured data, such as zlib, bzip2, zstd and liblzma, libcurl's easy and multi interfaces, libxml2, Expat, Jansson and cJSON.",
+   "queries": [
+    "zlib deflate inflate z_stream windowBits",
+    "libcurl curl_easy_setopt CURLOPT options",
+    "libxml2 xmlParseFile parser API",
+    "Zstandard zstd compression level library API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cryptographic C libraries (OpenSSL, LibreSSL, BoringSSL, libsodium, Mbed TLS)",
+   "scope": "TLS and cryptography libraries with C APIs, including OpenSSL's 1.1 and 3.x API changes and providers, the LibreSSL and BoringSSL forks, libsodium, Mbed TLS and wolfSSL.",
+   "queries": [
+    "OpenSSL 3.0 providers EVP API deprecated",
+    "LibreSSL fork OpenBSD Heartbleed",
+    "libsodium crypto_box crypto_secretbox API",
+    "Mbed TLS wolfSSL embedded TLS library"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Graphics, multimedia and GUI libraries with C APIs (SDL, GTK, FFmpeg, libpng)",
+   "scope": "C libraries for windows, graphics, audio and video, such as SDL, GTK, GLFW, the OpenGL and Vulkan C APIs, Cairo, libpng/libjpeg and FFmpeg's libavcodec/libavformat.",
+   "queries": [
+    "SDL2 SDL_CreateWindow SDL_Init subsystems",
+    "GTK widget toolkit GTK 4 C API",
+    "FFmpeg libavcodec avcodec_send_packet API",
+    "libpng png_read_info libjpeg API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foreign function interfaces to C (libffi, ctypes, cffi, JNI, cgo, Rust bindgen)",
+   "scope": "How other languages call C libraries and receive callbacks: libffi, Python ctypes and cffi, Java JNI and Panama, Go cgo, Rust extern C blocks and bindgen, SWIG and Zig's cImport.",
+   "queries": [
+    "libffi foreign function interface ffi_call ffi_cif",
+    "Python ctypes CDLL argtypes restype",
+    "JNI Java Native Interface JNIEnv",
+    "cgo import C Go pointer passing rules"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Scripting-language embedding and extension APIs (Lua C API, CPython C API, Tcl)",
+   "scope": "C APIs for embedding interpreters or writing native extensions: the Lua C API stack model and lua_State, CPython's extension and embedding API, the Tcl C library, Ruby C extensions and Guile.",
+   "queries": [
+    "Lua C API lua_State stack lua_pushnumber",
+    "luaL_newstate lua_pcall auxiliary library",
+    "Python C API PyObject reference counting extension module",
+    "Tcl_CreateObjCommand Tcl C library interpreter"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C as a compilation target (Cfront, f2c, Cython, Nim, Vala, Chicken Scheme)",
+   "scope": "Compilers and translators that emit C as an intermediate or portable assembly language, such as Cfront, f2c, Cython, Nim, Vala, Chicken Scheme, GHC's via-C backend and C--.",
+   "queries": [
+    "compiler generates C code backend portable assembly",
+    "f2c Fortran to C translator",
+    "Chicken Scheme compiler C Cheney MTA",
+    "Vala compiler GObject C code generation"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C compiled to WebAssembly (Emscripten, WASI SDK, wasi-libc)",
+   "scope": "Targeting WebAssembly from C with Emscripten, Clang's wasm32 targets, the WASI SDK and wasi-libc, including their libc choices, linker flags and JavaScript interop APIs.",
+   "queries": [
+    "Emscripten emcc compile C to WebAssembly",
+    "WASI SDK wasi-libc clang wasm32-wasi",
+    "Emscripten EMSCRIPTEN_KEEPALIVE ccall cwrap",
+    "wasm32-unknown-unknown target clang WebAssembly linker"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Coroutines and user-level context switching (ucontext, protothreads, libco)",
+   "scope": "Techniques and libraries for coroutines and green threads in C, including getcontext/makecontext/swapcontext and their removal from POSIX, Simon Tatham's switch-based coroutines, protothreads, libco and libmill/libdill.",
+   "queries": [
+    "makecontext swapcontext ucontext_t coroutines",
+    "protothreads Adam Dunkels lightweight stackless threads",
+    "Simon Tatham coroutines in C switch",
+    "libdill libmill structured concurrency C"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Endianness, byte order and bit manipulation",
+   "scope": "Handling byte order and bit-level operations in C: htonl/ntohs, endian.h and htobe32, byteswap.h functions, bit-twiddling idioms, and population-count and leading/trailing-zero operations.",
+   "queries": [
+    "htonl ntohl network byte order conversion",
+    "endian.h htobe32 le32toh functions",
+    "byteswap.h bswap_32 byte swap functions",
+    "bit twiddling hacks population count trailing zeros"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Random number generation APIs (rand, random, drand48, arc4random, getrandom)",
+   "scope": "Pseudo-random and cryptographically secure random number interfaces available to C programs: ISO rand/srand and RAND_MAX, BSD random, the drand48 family's LCG parameters, arc4random, getrandom/getentropy and Windows rand_s.",
+   "queries": [
+    "rand srand RAND_MAX implementation linear congruential",
+    "drand48 erand48 lrand48 48-bit linear congruential",
+    "arc4random OpenBSD ChaCha20 glibc",
+    "getrandom getentropy system call Linux"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Real-time operating system C APIs (FreeRTOS, Zephyr, RTEMS, VxWorks)",
+   "scope": "C programming interfaces of RTOS kernels used in embedded systems, including FreeRTOS tasks, queues and configuration macros, Zephyr kernel services and devicetree, RTEMS, VxWorks, ThreadX and µC/OS.",
+   "queries": [
+    "FreeRTOS xTaskCreate vTaskDelay task API",
+    "FreeRTOS queues semaphores configUSE_PREEMPTION",
+    "Zephyr RTOS kernel API k_thread devicetree",
+    "RTEMS VxWorks ThreadX real-time operating system"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Memory-safety extensions for C (CHERI C, Checked C, bounds-safety, Fil-C, MTE)",
+   "scope": "Research and industry efforts to add spatial and temporal memory safety to C, such as CHERI C capabilities and Morello, Checked C, Clang's bounds-safety annotations, Fil-C, SoftBound/CETS and Arm MTE and pointer authentication.",
+   "queries": [
+    "CHERI C capabilities Morello pure-capability",
+    "Checked C Microsoft Research checked pointers",
+    "Clang fbounds-safety counted_by annotations",
+    "Arm Memory Tagging Extension pointer authentication"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "C benchmark programs and suites (Dhrystone, Whetstone, CoreMark, SPEC CPU)",
+   "scope": "Benchmarks written in C and their history, such as Dhrystone, the C port of Whetstone, CoreMark, the C programs in the SPEC CPU suites, MiBench and the Computer Language Benchmarks Game.",
+   "queries": [
+    "Dhrystone benchmark Reinhold Weicker DMIPS",
+    "CoreMark EEMBC benchmark embedded processors",
+    "SPEC CPU2017 benchmarks C language integer",
+    "Whetstone benchmark MWIPS floating point"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Classic C books and reference works (Harbison & Steele, Plauger, Koenig, Modern C)",
+   "scope": "Influential C books other than K&R, with their authors and editions: Harbison & Steele's C: A Reference Manual, Plauger's The Standard C Library, Koenig's C Traps and Pitfalls, van der Linden's Expert C Programming, Hanson's C Interfaces and Implementations and Gustedt's Modern C.",
+   "queries": [
+    "C Reference Manual Harbison Steele edition",
+    "Expert C Programming Deep Secrets van der Linden",
+    "C Traps and Pitfalls Andrew Koenig",
+    "Modern C Jens Gustedt book edition"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "BSD and macOS/Darwin system interfaces (kqueue, pledge/unveil, Capsicum, libdispatch, Mach)",
+   "scope": "C APIs found on FreeBSD, OpenBSD, NetBSD and Darwin/macOS but not on Linux, including kqueue/kevent filters, OpenBSD pledge promises and unveil, FreeBSD Capsicum capability mode, Grand Central Dispatch (libdispatch) and Mach ports, and the OS release in which each appeared.",
+   "queries": [
+    "kqueue kevent EVFILT_VNODE filter flags",
+    "OpenBSD pledge unveil system call promises",
+    "Capsicum cap_enter capability mode FreeBSD",
+    "Grand Central Dispatch libdispatch dispatch_async queue"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "eBPF programs in restricted C (libbpf, BTF, CO-RE, XDP)",
+   "scope": "Kernel eBPF programs written in restricted C and compiled with clang -target bpf, then loaded through libbpf: helper functions, map and program types, BTF and CO-RE relocations, verifier limits, XDP/tc/kprobe attach points, and the kernel version that introduced each feature.",
+   "queries": [
+    "libbpf CO-RE BTF relocation bpf_core_read",
+    "BPF_MAP_TYPE ring buffer kernel version",
+    "bpf helper functions bpf_probe_read_kernel",
+    "XDP program verifier instruction complexity limit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "JIT and runtime code-generation libraries with C APIs (libgccjit, LLVM-C, GNU lightning, libtcc, DynASM)",
+   "scope": "Libraries that let a C program generate and run machine code at runtime, covering their API entry points, intermediate representations, supported architectures and release history: libgccjit, the LLVM-C API, GNU lightning, libtcc, DynASM and MIR.",
+   "queries": [
+    "libgccjit gcc_jit_context_compile API reference",
+    "GNU lightning jit_new_state instruction set",
+    "libtcc tcc_compile_string tcc_relocate",
+    "LLVM-C API LLVMModuleCreateWithName execution engine"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Memory-corruption vulnerability classes and notable C security bugs",
+   "scope": "Security defect classes typical of C code (stack and heap buffer overflows, format-string attacks, use-after-free, double free, integer overflow, off-by-one), their CWE identifiers, and well-known exploited C vulnerabilities such as the Morris worm, Heartbleed and Stagefright with their CVE numbers and dates.",
+   "queries": [
+    "stack buffer overflow CWE-121 strcpy exploit",
+    "format string vulnerability printf %n attack",
+    "Heartbleed OpenSSL CVE-2014-0160 heartbeat extension",
+    "Morris worm fingerd gets buffer overflow 1988"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Message catalogs and character-set conversion (gettext, catgets, iconv, ICU4C)",
+   "scope": "Internationalization of C programs through GNU gettext and libintl (xgettext, msgfmt, .po/.mo formats, ngettext plural forms), X/Open catgets message catalogs, POSIX iconv encoding conversion and the ICU4C C API, as distinct from setlocale and wide-character handling.",
+   "queries": [
+    "GNU gettext ngettext Plural-Forms header",
+    "xgettext msgfmt po mo file format",
+    "iconv_open conversion descriptor EILSEQ E2BIG",
+    "catopen catgets message catalog NLSPATH"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "High-level synthesis of hardware from C (Vitis HLS, Intel HLS Compiler, LegUp, Bambu, Catapult)",
+   "scope": "Tools and coding conventions that turn C code into FPGA or ASIC hardware: HLS pragmas (pipeline, unroll, array partition, interface), arbitrary-precision types, the C subsets each tool supports, and the history of tools such as Vivado/Vitis HLS, Catapult, LegUp and Bambu.",
+   "queries": [
+    "Vitis HLS pragma PIPELINE initiation interval",
+    "HLS ARRAY_PARTITION UNROLL INTERFACE directive",
+    "LegUp high-level synthesis C to Verilog",
+    "Bambu PandA high-level synthesis framework"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "C compiler testing and conformance validation suites (Csmith, C-Reduce, Plum Hall, SuperTest, GCC torture tests)",
+   "scope": "How C compilers are tested for correctness and standard conformance: random program generators (Csmith, YARPGen), test-case reducers (C-Reduce, C-Vise), commercial validation suites (Plum Hall, Perennial, Solid Sands SuperTest), and compiler test suites such as GCC's c-torture/DejaGnu tests and the LLVM test-suite.",
+   "queries": [
+    "Csmith random C program generator compiler bugs",
+    "C-Reduce test case reduction compiler",
+    "Plum Hall validation suite C conformance",
+    "GCC testsuite c-torture DejaGnu execute"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1004 @@
+{
+ "domain": "Health",
+ "subtopic": "Obstetrics and Gynecology",
+ "weight": 0.015374999999999998,
+ "leaves": [
+  {
+   "leaf": "Prenatal care, gestational age dating and maternal physiological adaptations",
+   "scope": "Routine prenatal visit content and schedules, due-date and gestational-age dating rules, weight-gain and supplementation recommendations, and the normal cardiovascular, renal, respiratory and hematologic changes of pregnancy.",
+   "queries": [
+    "crown-rump length gestational age dating ultrasound",
+    "gestational weight gain recommendations prepregnancy BMI",
+    "pregnancy cardiac output plasma volume physiological changes",
+    "Naegele rule estimated due date calculation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Prenatal aneuploidy screening and invasive genetic diagnosis",
+   "scope": "First- and second-trimester serum and ultrasound marker screening, cell-free DNA screening, carrier screening, and chorionic villus sampling or amniocentesis with chromosomal microarray.",
+   "queries": [
+    "cell-free DNA screening trisomy positive predictive value",
+    "nuchal translucency first trimester combined screening",
+    "quadruple screen alpha-fetoprotein inhibin estriol",
+    "chorionic villus sampling amniocentesis procedure-related loss rate"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hypertensive disorders of pregnancy",
+   "scope": "Diagnostic criteria, classification, prediction, prevention and management of gestational hypertension, preeclampsia, eclampsia and HELLP syndrome.",
+   "queries": [
+    "preeclampsia severe features diagnostic criteria proteinuria",
+    "HELLP syndrome Mississippi Tennessee classification",
+    "magnesium sulfate eclampsia seizure prophylaxis regimen",
+    "low-dose aspirin preeclampsia prevention ASPRE trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diabetes mellitus in pregnancy",
+   "scope": "Screening thresholds, diagnostic criteria, landmark trials, and pharmacologic and obstetric management of gestational and pregestational diabetes and their fetal consequences.",
+   "queries": [
+    "gestational diabetes Carpenter-Coustan glucose tolerance thresholds",
+    "IADPSG criteria HAPO study hyperglycemia outcomes",
+    "metformin glyburide insulin gestational diabetes treatment",
+    "pregestational diabetes congenital anomalies caudal regression"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Thyroid disease, hyperemesis gravidarum and liver disorders of pregnancy",
+   "scope": "Thyroid dysfunction in pregnancy, hyperemesis and gestational transient thyrotoxicosis, intrahepatic cholestasis of pregnancy and acute fatty liver of pregnancy.",
+   "queries": [
+    "hyperemesis gravidarum Wernicke encephalopathy treatment",
+    "intrahepatic cholestasis of pregnancy bile acids ursodeoxycholic",
+    "acute fatty liver of pregnancy Swansea criteria",
+    "gestational transient thyrotoxicosis hCG levothyroxine pregnancy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cardiac disease and venous thromboembolism in pregnancy",
+   "scope": "Maternal cardiovascular risk classification, valvular and congenital heart disease, peripartum cardiomyopathy, inherited thrombophilias, and anticoagulation for VTE prevention and treatment in pregnancy.",
+   "queries": [
+    "modified WHO classification maternal cardiovascular risk pregnancy",
+    "peripartum cardiomyopathy bromocriptine ejection fraction",
+    "low molecular weight heparin thromboprophylaxis pregnancy postpartum",
+    "mechanical heart valve pregnancy warfarin embryopathy anticoagulation"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Perinatal infections and vertical transmission",
+   "scope": "Maternal-fetal transmission, screening, prophylaxis and fetal effects of CMV, toxoplasmosis, syphilis, parvovirus, HIV, hepatitis B and group B streptococcus.",
+   "queries": [
+    "congenital cytomegalovirus primary maternal infection transmission rate",
+    "group B streptococcus intrapartum antibiotic prophylaxis penicillin",
+    "congenital syphilis toxoplasmosis maternal screening treatment",
+    "perinatal HIV hepatitis B vertical transmission prophylaxis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Teratogens and medication safety in pregnancy and lactation",
+   "scope": "Specific teratogenic drugs and exposures, critical periods of embryogenesis, drug-labeling systems for pregnancy, and transfer of medications into breast milk.",
+   "queries": [
+    "isotretinoin valproate teratogen congenital malformation risk",
+    "FDA pregnancy lactation labeling rule letter categories",
+    "thalidomide embryopathy critical period limb defects",
+    "drug transfer breast milk relative infant dose"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early pregnancy loss, ectopic pregnancy and recurrent pregnancy loss",
+   "scope": "Diagnosis and medical or surgical management of miscarriage, pregnancy of unknown location and ectopic pregnancy, and the workup and treatment of recurrent pregnancy loss, including antiphospholipid syndrome.",
+   "queries": [
+    "ectopic pregnancy methotrexate single-dose protocol hCG",
+    "hCG discriminatory zone transvaginal ultrasound",
+    "early pregnancy loss mifepristone misoprostol management",
+    "recurrent pregnancy loss antiphospholipid syndrome heparin aspirin"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gestational trophoblastic disease",
+   "scope": "Genetics, pathology, hCG surveillance, staging, prognostic scoring and chemotherapy of hydatidiform moles and gestational trophoblastic neoplasms.",
+   "queries": [
+    "complete hydatidiform mole androgenetic diploid karyotype",
+    "FIGO WHO prognostic scoring gestational trophoblastic neoplasia",
+    "placental site trophoblastic tumor epithelioid trophoblastic tumor",
+    "choriocarcinoma methotrexate actinomycin-D EMA-CO"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Preterm labor, preterm prelabor rupture of membranes and preterm birth prevention",
+   "scope": "Risk assessment, cervical length screening, progesterone and cerclage, tocolysis, antenatal corticosteroids, magnesium neuroprotection, and latency management of PPROM.",
+   "queries": [
+    "vaginal progesterone short cervix preterm birth",
+    "cervical cerclage McDonald Shirodkar indications",
+    "antenatal corticosteroids magnesium sulfate neuroprotection preterm",
+    "preterm prelabor rupture membranes latency antibiotics"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Multiple gestation and monochorionic twin complications",
+   "scope": "Chorionicity determination, twin-specific complications such as TTTS, TAPS, TRAP and selective growth restriction, their staging systems and fetoscopic treatment, and timing of delivery.",
+   "queries": [
+    "twin-twin transfusion syndrome Quintero staging laser",
+    "monochorionic diamniotic twins chorionicity lambda sign",
+    "selective fetal growth restriction Gratacos classification",
+    "twin anemia polycythemia sequence TRAP sequence"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fetal growth restriction, antepartum fetal surveillance and stillbirth",
+   "scope": "Definitions and Doppler staging of fetal growth restriction, nonstress test and biophysical profile scoring, postterm pregnancy management, and stillbirth evaluation and classification.",
+   "queries": [
+    "fetal growth restriction umbilical artery Doppler absent end-diastolic",
+    "biophysical profile nonstress test scoring criteria",
+    "Delphi consensus definition fetal growth restriction",
+    "stillbirth evaluation causes classification system"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Red cell alloimmunization and fetal anemia",
+   "scope": "Rh(D) and non-D antibody alloimmunization, anti-D immunoglobulin prophylaxis and dosing, fetomaternal hemorrhage quantification, Doppler detection of fetal anemia and intrauterine transfusion.",
+   "queries": [
+    "Rh immune globulin dose fetomaternal hemorrhage Kleihauer-Betke",
+    "middle cerebral artery peak systolic velocity fetal anemia",
+    "anti-Kell alloimmunization critical titer",
+    "intrauterine transfusion hydrops fetalis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fetal structural anomalies and fetal surgery",
+   "scope": "Prenatal diagnosis, prognostic indices and in utero or delivery-time interventions for anomalies such as spina bifida, congenital diaphragmatic hernia, abdominal wall defects and airway obstruction.",
+   "queries": [
+    "Management of Myelomeningocele Study prenatal repair",
+    "congenital diaphragmatic hernia fetoscopic tracheal occlusion lung-to-head ratio",
+    "gastroschisis omphalocele prenatal diagnosis outcomes",
+    "ex utero intrapartum treatment procedure"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Placenta previa, placenta accreta spectrum, abruption and umbilical cord abnormalities",
+   "scope": "Diagnosis, classification and management of abnormal placentation, placental abruption, vasa previa and cord insertion or vessel anomalies.",
+   "queries": [
+    "placenta accreta spectrum FIGO classification cesarean hysterectomy",
+    "placental abruption risk factors Couvelaire uterus",
+    "vasa previa velamentous cord insertion prenatal diagnosis",
+    "placenta previa low-lying placenta distance internal os"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Labor physiology, cervical ripening, induction and augmentation",
+   "scope": "Stages and mechanisms of labor, labor progress curves and definitions of arrest, cervical scoring, and pharmacologic or mechanical induction and augmentation methods and trials.",
+   "queries": [
+    "Bishop score cervical ripening induction of labor",
+    "misoprostol dinoprostone Foley balloon labor induction",
+    "Friedman curve Zhang labor progression active phase",
+    "ARRIVE trial elective induction 39 weeks"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Intrapartum fetal heart rate monitoring and fetal acid-base assessment",
+   "scope": "Fetal heart rate pattern definitions and category systems, intrauterine resuscitation, ancillary tests such as ST analysis and scalp sampling, and umbilical cord blood gas interpretation.",
+   "queries": [
+    "NICHD three-tier fetal heart rate categories",
+    "late decelerations variable decelerations fetal hypoxia",
+    "umbilical cord blood gas pH base deficit",
+    "fetal scalp blood sampling ST analysis STAN"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Malpresentation, shoulder dystocia and operative vaginal delivery",
+   "scope": "Breech and other malpresentations, external cephalic version, shoulder dystocia maneuvers, and forceps and vacuum delivery classification, instruments and complications.",
+   "queries": [
+    "shoulder dystocia McRoberts maneuver Woods screw Zavanelli",
+    "external cephalic version breech success rate",
+    "vacuum extraction forceps classification fetal station",
+    "Term Breech Trial planned vaginal breech delivery"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cesarean delivery technique and trial of labor after cesarean",
+   "scope": "Cesarean incisions and surgical techniques, infection prophylaxis, long-term scar complications, and VBAC candidacy, prediction and uterine rupture risk.",
+   "queries": [
+    "vaginal birth after cesarean calculator uterine rupture",
+    "Pfannenstiel Joel-Cohen incision cesarean technique",
+    "cesarean surgical site infection azithromycin prophylaxis",
+    "cesarean scar niche isthmocele scar pregnancy"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Postpartum hemorrhage and acute obstetric emergencies",
+   "scope": "Definitions, uterotonic and surgical management of postpartum hemorrhage, and management of amniotic fluid embolism, uterine inversion, cord prolapse and maternal cardiac arrest.",
+   "queries": [
+    "postpartum hemorrhage tranexamic acid WOMAN trial",
+    "carbetocin oxytocin carboprost methylergonovine uterotonics",
+    "B-Lynch compression suture Bakri balloon tamponade",
+    "amniotic fluid embolism uterine inversion cord prolapse"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Obstetric anesthesia and labor analgesia",
+   "scope": "Neuraxial labor analgesia techniques and drugs, anesthesia for cesarean delivery, obstetric airway management, and complications such as hypotension and post-dural puncture headache.",
+   "queries": [
+    "combined spinal epidural labor analgesia bupivacaine fentanyl",
+    "post-dural puncture headache epidural blood patch",
+    "general anesthesia cesarean failed intubation obstetric",
+    "spinal anesthesia hypotension phenylephrine cesarean"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Puerperium, lactation and perinatal mood disorders",
+   "scope": "Normal postpartum physiology, postpartum infections, breastfeeding physiology and complications, and screening and treatment of postpartum depression and psychosis.",
+   "queries": [
+    "Edinburgh Postnatal Depression Scale cutoff score",
+    "brexanolone zuranolone postpartum depression",
+    "lactational mastitis breast abscess management",
+    "lochia uterine involution postpartum physiology"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Abnormal uterine bleeding and menstrual disorders",
+   "scope": "Classification and treatment of abnormal and heavy menstrual bleeding, endometrial ablation, dysmenorrhea, and premenstrual syndrome and PMDD.",
+   "queries": [
+    "PALM-COEIN classification abnormal uterine bleeding FIGO",
+    "heavy menstrual bleeding tranexamic acid levonorgestrel IUD",
+    "endometrial ablation global techniques outcomes",
+    "premenstrual dysphoric disorder DSM-5 criteria treatment"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Uterine leiomyomas",
+   "scope": "Classification, imaging, medical therapy, myomectomy, embolization and ablative treatments for fibroids, and the issue of occult sarcoma and morcellation.",
+   "queries": [
+    "FIGO leiomyoma classification submucosal type",
+    "uterine artery embolization fibroids outcomes",
+    "relugolix elagolix GnRH antagonist fibroids bleeding",
+    "power morcellation occult leiomyosarcoma risk"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Endometriosis and adenomyosis",
+   "scope": "Pathogenesis theories, surgical and imaging staging systems, and hormonal and surgical treatment of endometriosis, deep infiltrating disease and adenomyosis.",
+   "queries": [
+    "revised ASRM endometriosis staging classification",
+    "deep infiltrating endometriosis Enzian classification",
+    "dienogest elagolix endometriosis pain treatment",
+    "adenomyosis MRI junctional zone thickness"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Polycystic ovary syndrome and hyperandrogenism",
+   "scope": "Diagnostic criteria and phenotypes of PCOS, hirsutism scoring, ovulation induction, metabolic risks, and differential causes of hyperandrogenism such as nonclassic CAH and androgen-secreting tumors.",
+   "queries": [
+    "Rotterdam criteria polycystic ovary syndrome diagnosis",
+    "letrozole clomiphene ovulation induction PCOS",
+    "modified Ferriman-Gallwey hirsutism score",
+    "nonclassic congenital adrenal hyperplasia 17-hydroxyprogesterone"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hypothalamic-pituitary amenorrhea, hyperprolactinemia and premature ovarian insufficiency",
+   "scope": "Functional hypothalamic amenorrhea, hypogonadotropic hypogonadism, prolactinomas and their dopamine-agonist therapy, and the genetic and autoimmune causes and management of primary ovarian insufficiency.",
+   "queries": [
+    "functional hypothalamic amenorrhea relative energy deficiency",
+    "prolactinoma cabergoline bromocriptine hyperprolactinemia",
+    "premature ovarian insufficiency FMR1 premutation FSH",
+    "Kallmann syndrome hypogonadotropic hypogonadism anosmia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric and adolescent gynecology, Müllerian anomalies and differences of sex development",
+   "scope": "Puberty staging and precocious or delayed puberty, prepubertal genital conditions, Müllerian anomaly classifications and syndromes, and DSD conditions that present gynecologically.",
+   "queries": [
+    "Mayer-Rokitansky-Küster-Hauser syndrome vaginal agenesis",
+    "complete androgen insensitivity syndrome gonadectomy",
+    "ASRM Müllerian anomalies classification septate bicornuate",
+    "central precocious puberty GnRH agonist girls"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infertility evaluation and assisted reproductive technology",
+   "scope": "Ovarian reserve and semen testing, IVF stimulation protocols, embryo culture, grading and preimplantation testing, and ART complications such as OHSS.",
+   "queries": [
+    "anti-Müllerian hormone antral follicle count ovarian reserve",
+    "WHO semen analysis reference values",
+    "ovarian hyperstimulation syndrome classification prevention",
+    "preimplantation genetic testing aneuploidy blastocyst grading"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Contraception",
+   "scope": "Mechanisms, efficacy, duration, eligibility criteria and side effects of hormonal, intrauterine, barrier, emergency and permanent contraceptive methods.",
+   "queries": [
+    "levonorgestrel intrauterine system duration efficacy",
+    "US medical eligibility criteria contraceptive use categories",
+    "emergency contraception ulipristal acetate levonorgestrel",
+    "etonogestrel implant Pearl Index contraceptive failure"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Induced abortion and pregnancy termination methods",
+   "scope": "Medication abortion regimens, aspiration and dilation-and-evacuation techniques, cervical preparation, second-trimester induction termination and complications.",
+   "queries": [
+    "mifepristone misoprostol medication abortion regimen gestational age",
+    "dilation evacuation cervical preparation osmotic dilators",
+    "manual vacuum aspiration first trimester abortion",
+    "second trimester induction termination digoxin feticide"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Menopause and menopausal hormone therapy",
+   "scope": "Reproductive aging staging, vasomotor and genitourinary symptoms, hormone therapy trials and formulations, and non-hormonal therapies.",
+   "queries": [
+    "Women's Health Initiative estrogen progestin trial results",
+    "STRAW+10 reproductive aging staging",
+    "fezolinetant neurokinin 3 receptor vasomotor symptoms",
+    "genitourinary syndrome of menopause vaginal estrogen ospemifene"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pelvic floor disorders: prolapse, urinary incontinence and obstetric perineal injury",
+   "scope": "Prolapse quantification and repair, stress and urge incontinence evaluation and treatment, mesh and sling procedures, obstetric anal sphincter injury classification, and genital fistulas.",
+   "queries": [
+    "POP-Q pelvic organ prolapse quantification stages",
+    "midurethral sling tension-free vaginal tape incontinence",
+    "overactive bladder mirabegron onabotulinumtoxinA",
+    "obstetric anal sphincter injury classification vesicovaginal fistula"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vaginitis, pelvic inflammatory disease and benign vulvar disorders",
+   "scope": "Diagnosis and treatment of bacterial vaginosis, candidiasis and trichomoniasis, PID and tubo-ovarian abscess, Bartholin gland disease, vulvar dermatoses and vulvodynia.",
+   "queries": [
+    "bacterial vaginosis Amsel criteria Nugent score",
+    "pelvic inflammatory disease CDC treatment ceftriaxone doxycycline",
+    "vulvar lichen sclerosus clobetasol treatment",
+    "recurrent vulvovaginal candidiasis fluconazole oteseconazole"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gynecologic surgery and endoscopy",
+   "scope": "Hysterectomy routes and classifications, laparoscopic entry and robotic techniques, hysteroscopic procedures and distension media, abdominal incisions, and surgical complications such as ureteral and bowel injury.",
+   "queries": [
+    "hysteroscopy distension media fluid deficit limits",
+    "laparoscopic entry Veress needle Palmer point",
+    "vaginal laparoscopic hysterectomy route complications ureteral injury",
+    "Maylard Cherney transverse abdominal incision gynecologic"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Cervical cancer screening, HPV and preinvasive cervical disease",
+   "scope": "Cytology reporting terminology, HPV testing and genotyping, risk-based management guidelines, colposcopy, excisional and ablative treatment of CIN, and HPV vaccination.",
+   "queries": [
+    "Bethesda system cervical cytology ASC-US LSIL HSIL",
+    "ASCCP risk-based management consensus guidelines",
+    "loop electrosurgical excision procedure CIN2 CIN3",
+    "nonavalent HPV vaccine Gardasil types"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cervical, vulvar and vaginal cancer",
+   "scope": "FIGO staging, histologic types, radical surgery classifications, sentinel node and chemoradiation approaches, and landmark trials for invasive cancers of the cervix, vulva and vagina.",
+   "queries": [
+    "FIGO 2018 cervical cancer staging",
+    "LACC trial minimally invasive radical hysterectomy",
+    "vulvar squamous cell carcinoma sentinel node GROINSS-V",
+    "vaginal clear cell adenocarcinoma diethylstilbestrol"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Endometrial hyperplasia, endometrial cancer and uterine sarcomas",
+   "scope": "Hyperplasia classification and progestin therapy, endometrial cancer histotypes, molecular classification, FIGO staging, Lynch syndrome, and uterine sarcomas and carcinosarcoma.",
+   "queries": [
+    "FIGO 2023 endometrial cancer staging molecular classification",
+    "POLE mutation mismatch repair deficient endometrial carcinoma",
+    "atypical endometrial hyperplasia progestin fertility-sparing",
+    "uterine leiomyosarcoma endometrial stromal sarcoma carcinosarcoma"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Adnexal masses, ovarian cancer and hereditary gynecologic cancer syndromes",
+   "scope": "Ultrasound and biomarker risk stratification of adnexal masses and torsion, epithelial, germ cell and sex cord-stromal ovarian tumors, BRCA-related risk reduction, and PARP-inhibitor and cytoreductive treatment.",
+   "queries": [
+    "O-RADS ultrasound adnexal mass risk stratification",
+    "BRCA1 BRCA2 risk-reducing salpingo-oophorectomy",
+    "PARP inhibitor maintenance olaparib ovarian cancer",
+    "ovarian germ cell sex cord-stromal granulosa tumors"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reproductive physiology: menstrual cycle, folliculogenesis and ovarian steroidogenesis",
+   "scope": "Normal hypothalamic-pituitary-ovarian axis function, including follicle recruitment and selection, ovulation, corpus luteum function, the two-cell steroidogenesis model and cyclic endometrial changes.",
+   "queries": [
+    "LH surge ovulation follicular phase estradiol progesterone",
+    "folliculogenesis primordial follicle dominant follicle selection FSH",
+    "two-cell two-gonadotropin theory theca granulosa aromatase",
+    "corpus luteum luteolysis inhibin activin menstrual cycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Placental development, placental hormones and placental pathology",
+   "scope": "Implantation, trophoblast differentiation and spiral artery remodeling, placental endocrine products such as hCG and hPL, and the histopathologic examination and classification of placental lesions.",
+   "queries": [
+    "trophoblast invasion spiral artery remodeling placentation",
+    "human placental lactogen hCG placental hormones pregnancy",
+    "placental pathology villitis of unknown etiology Amsterdam criteria",
+    "syncytiotrophoblast cytotrophoblast chorionic villi development"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Embryonic and fetal development, fetal circulation and fetal lung maturation",
+   "scope": "Normal embryogenesis and organogenesis timelines, fetal cardiovascular shunts and oxygen transport, and the stages of fetal lung development and surfactant production.",
+   "queries": [
+    "fetal circulation ductus venosus foramen ovale ductus arteriosus",
+    "fetal lung development surfactant lecithin sphingomyelin ratio",
+    "embryonic period organogenesis Carnegie stages",
+    "fetal hemoglobin oxygen affinity fetal physiology"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Newborn transition, neonatal resuscitation and immediate newborn care",
+   "scope": "Cardiopulmonary transition at birth, Apgar scoring, neonatal resuscitation algorithms, umbilical cord clamping timing and routine newborn prophylaxis delivered in the delivery room.",
+   "queries": [
+    "Apgar score components neonatal assessment",
+    "neonatal resuscitation program algorithm positive pressure ventilation",
+    "delayed umbilical cord clamping term preterm infants",
+    "newborn vitamin K prophylaxis erythromycin eye ointment"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Preconception care and expanded genetic carrier screening",
+   "scope": "Pre-pregnancy risk assessment and optimization, plus carrier screening for autosomal recessive and X-linked conditions such as cystic fibrosis, spinal muscular atrophy, fragile X and ancestry-based panels.",
+   "queries": [
+    "expanded carrier screening cystic fibrosis spinal muscular atrophy",
+    "fragile X premutation carrier screening CGG repeats",
+    "preconception counseling folic acid supplementation dose",
+    "Ashkenazi Jewish carrier screening Tay-Sachs hexosaminidase"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Maternal immunization in pregnancy",
+   "scope": "Vaccines recommended, permitted or contraindicated during pregnancy (Tdap, influenza, RSV, COVID-19, live vaccines), including timing windows, transplacental antibody transfer and trial evidence for infant protection.",
+   "queries": [
+    "Tdap vaccination pregnancy 27 36 weeks pertussis",
+    "RSV prefusion F vaccine pregnancy infant protection",
+    "influenza vaccination pregnant women randomized trial",
+    "live attenuated vaccines contraindicated pregnancy rubella varicella"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Autoimmune and rheumatologic disease in pregnancy",
+   "scope": "Management and outcomes of systemic lupus erythematosus, antiphospholipid syndrome, rheumatoid arthritis, inflammatory bowel disease and related immune disorders in pregnancy, including neonatal lupus and congenital heart block.",
+   "queries": [
+    "antiphospholipid syndrome pregnancy lupus anticoagulant criteria",
+    "systemic lupus erythematosus pregnancy flare hydroxychloroquine",
+    "neonatal lupus congenital heart block anti-Ro SSA",
+    "rheumatoid arthritis inflammatory bowel disease pregnancy outcomes"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hematologic disorders in pregnancy: anemia, thrombocytopenia, hemoglobinopathies and bleeding disorders",
+   "scope": "Diagnosis and management of iron deficiency and other anemias, gestational and immune thrombocytopenia, sickle cell disease and thalassemias, and inherited bleeding disorders such as von Willebrand disease in pregnant patients.",
+   "queries": [
+    "gestational thrombocytopenia immune thrombocytopenic purpura pregnancy",
+    "iron deficiency anemia pregnancy intravenous iron",
+    "sickle cell disease pregnancy outcomes transfusion",
+    "von Willebrand disease pregnancy delivery factor levels"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Neurologic disorders in pregnancy",
+   "scope": "Epilepsy and antiseizure drug management, multiple sclerosis, migraine, pregnancy-associated stroke, cerebral venous thrombosis, idiopathic intracranial hypertension and peripheral neuropathies during pregnancy and postpartum.",
+   "queries": [
+    "epilepsy pregnancy antiseizure medication levels lamotrigine",
+    "multiple sclerosis relapse rate pregnancy postpartum",
+    "pregnancy-associated stroke cerebral venous thrombosis",
+    "idiopathic intracranial hypertension Bell palsy pregnancy"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Renal disease and urinary tract infection in pregnancy",
+   "scope": "Asymptomatic bacteriuria, cystitis and pyelonephritis in pregnancy, plus pregnancy with chronic kidney disease, dialysis or a kidney transplant, and pregnancy-related acute kidney injury.",
+   "queries": [
+    "asymptomatic bacteriuria pregnancy screening pyelonephritis",
+    "pregnancy after kidney transplantation outcomes",
+    "chronic kidney disease pregnancy dialysis outcomes",
+    "pregnancy-related acute kidney injury causes"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pulmonary disease and critical illness in pregnancy",
+   "scope": "Asthma, pneumonia, cystic fibrosis and acute respiratory distress syndrome in pregnancy, including ventilatory physiology, blood-gas targets and intensive care management of pregnant patients.",
+   "queries": [
+    "asthma exacerbation pregnancy inhaled corticosteroids",
+    "pneumonia influenza ARDS pregnant women intensive care",
+    "cystic fibrosis pregnancy maternal outcomes",
+    "mechanical ventilation pregnancy arterial blood gas"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Trauma, nonobstetric surgery and diagnostic imaging in pregnancy",
+   "scope": "Evaluation of the injured pregnant patient, nonobstetric surgery such as appendectomy and cholecystectomy during pregnancy, and fetal radiation dose and contrast-agent safety for imaging.",
+   "queries": [
+    "trauma in pregnancy Kleihauer-Betke fetal monitoring",
+    "appendicitis pregnancy laparoscopic appendectomy",
+    "fetal radiation dose diagnostic imaging pregnancy",
+    "gadolinium MRI pregnancy iodinated contrast safety"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Maternal obesity, bariatric surgery and gestational weight gain",
+   "scope": "Pregnancy risks associated with obesity, Institute of Medicine gestational weight gain targets by BMI, and pregnancy timing, nutrition and complications after bariatric surgery.",
+   "queries": [
+    "gestational weight gain Institute of Medicine guidelines BMI",
+    "pregnancy after bariatric surgery outcomes",
+    "maternal obesity pregnancy complications cesarean",
+    "gastric bypass pregnancy micronutrient deficiency"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cancer during pregnancy",
+   "scope": "Diagnosis, staging and treatment of malignancies found during gestation (breast, cervical, lymphoma, melanoma and others), including chemotherapy timing, fetal outcomes and placental metastasis.",
+   "queries": [
+    "breast cancer during pregnancy chemotherapy",
+    "cervical cancer diagnosed during pregnancy management",
+    "chemotherapy during pregnancy fetal outcomes",
+    "melanoma lymphoma pregnancy placental metastasis"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Substance use disorders in pregnancy and neonatal withdrawal",
+   "scope": "Opioid, alcohol, tobacco, cannabis and stimulant use in pregnancy, medication for opioid use disorder, fetal alcohol spectrum disorder criteria and neonatal opioid withdrawal syndrome scoring.",
+   "queries": [
+    "buprenorphine methadone opioid use disorder pregnancy",
+    "neonatal abstinence syndrome Finnegan scoring",
+    "fetal alcohol spectrum disorder diagnostic criteria",
+    "cannabis tobacco smoking pregnancy outcomes"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dermatoses of pregnancy",
+   "scope": "Pregnancy-specific skin disorders and how they are classified, including pemphigoid gestationis, polymorphic eruption of pregnancy, atopic eruption of pregnancy and pustular psoriasis of pregnancy.",
+   "queries": [
+    "pemphigoid gestationis BP180 autoantibodies",
+    "polymorphic eruption of pregnancy PUPPP",
+    "atopic eruption of pregnancy classification",
+    "impetigo herpetiformis pustular psoriasis pregnancy"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intra-amniotic infection, puerperal infection and maternal sepsis",
+   "scope": "Infections of the mother (as opposed to the fetus) around delivery: intra-amniotic infection definitions, postpartum endometritis, wound and pelvic infections, septic pelvic thrombophlebitis and maternal sepsis criteria.",
+   "queries": [
+    "intraamniotic infection triple I chorioamnionitis definition",
+    "postpartum endometritis clindamycin gentamicin",
+    "maternal sepsis criteria obstetric early warning score",
+    "septic pelvic thrombophlebitis ovarian vein thrombosis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Amniotic fluid disorders and post-term pregnancy",
+   "scope": "How amniotic fluid volume is regulated and measured, causes and management of oligohydramnios and polyhydramnios, and the risks and timing of delivery in late-term and post-term pregnancy.",
+   "queries": [
+    "amniotic fluid index deepest vertical pocket oligohydramnios",
+    "polyhydramnios causes amnioreduction",
+    "postterm pregnancy induction 41 weeks",
+    "amniotic fluid volume regulation fetal swallowing"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Maternal mortality, severe maternal morbidity and obstetric quality measures",
+   "scope": "Definitions and surveillance of maternal deaths and near-misses, national confidential enquiries, severe maternal morbidity indicators, and obstetric classification and quality tools such as the Robson classification.",
+   "queries": [
+    "maternal mortality ratio definition pregnancy-related death",
+    "severe maternal morbidity indicators CDC",
+    "MBRRACE-UK confidential enquiry maternal deaths",
+    "Robson ten group classification cesarean rates"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Birth settings, midwifery and models of maternity care",
+   "scope": "Planned home birth, freestanding birth centers, water birth, midwifery-led and continuity-of-care models, doula support, and midwife credentialing.",
+   "queries": [
+    "planned home birth outcomes nulliparous",
+    "freestanding birth center perinatal outcomes",
+    "midwife-led continuity of care doula support",
+    "water birth immersion labor neonatal outcomes"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Obstetric fistula and female genital mutilation",
+   "scope": "Causes, classification systems and surgical repair of obstetric vesicovaginal and rectovaginal fistulas, and the WHO typology, health consequences and deinfibulation management of female genital mutilation/cutting.",
+   "queries": [
+    "obstetric fistula vesicovaginal repair classification",
+    "female genital mutilation WHO types",
+    "deinfibulation type III FGM obstetric outcomes",
+    "obstructed labor fistula prevalence sub-Saharan Africa"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of obstetrics and gynecology, eponyms and landmark firsts",
+   "scope": "Historical figures, discoveries, instruments and firsts in the field (forceps, puerperal fever, cesarean section, Pap test, IVF) and the origins of eponymous signs and procedures.",
+   "queries": [
+    "history of obstetric forceps Chamberlen",
+    "Semmelweis puerperal fever handwashing",
+    "history of caesarean section first successful",
+    "Hegar sign Chadwick sign Goodell sign pregnancy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Female sexual function and dysfunction",
+   "scope": "Models of the female sexual response, DSM-5 sexual dysfunction diagnoses, validated instruments such as the FSFI, and drug and behavioral treatments for desire, arousal, orgasm and genito-pelvic pain disorders.",
+   "queries": [
+    "hypoactive sexual desire disorder flibanserin bremelanotide",
+    "Female Sexual Function Index FSFI validation",
+    "female orgasmic disorder arousal disorder DSM-5",
+    "genito-pelvic pain penetration disorder vaginismus"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chronic pelvic pain, bladder pain syndrome and pelvic congestion",
+   "scope": "Evaluation and treatment of non-endometriosis chronic pelvic pain in women, including interstitial cystitis/bladder pain syndrome, pelvic congestion syndrome, pudendal neuralgia and myofascial pelvic floor pain.",
+   "queries": [
+    "interstitial cystitis bladder pain syndrome pentosan polysulfate",
+    "pelvic congestion syndrome ovarian vein embolization",
+    "chronic pelvic pain women myofascial trigger points",
+    "pudendal neuralgia Nantes criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Menstrual products and toxic shock syndrome",
+   "scope": "Tampons, menstrual cups and other menstrual products (their design, regulation and absorbency standards) and the epidemiology, microbiology and diagnostic criteria of menstrual toxic shock syndrome.",
+   "queries": [
+    "menstrual toxic shock syndrome tampon TSST-1",
+    "Rely tampon toxic shock 1980 outbreak",
+    "menstrual cup safety leakage systematic review",
+    "tampon absorbency FDA regulation labeling"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Benign breast disease and breast cancer screening in women's health",
+   "scope": "Gynecologic-practice evaluation of breast masses, mastalgia and nipple discharge, benign and high-risk breast lesions, breast cancer risk models and screening mammography recommendations.",
+   "queries": [
+    "fibroadenoma phyllodes tumor benign breast lesion",
+    "mastalgia nipple discharge evaluation",
+    "BI-RADS mammography screening recommendations women",
+    "atypical ductal hyperplasia breast cancer risk Gail model"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sexually transmitted infections in women: chlamydia, gonorrhea, syphilis, herpes and genital ulcer disease",
+   "scope": "Diagnosis, testing algorithms and guideline treatment regimens for chlamydia, gonorrhea, syphilis, genital herpes, chancroid, lymphogranuloma venereum and granuloma inguinale in women.",
+   "queries": [
+    "chlamydia gonorrhea treatment ceftriaxone doxycycline",
+    "syphilis serologic testing treponemal reverse algorithm",
+    "genital herpes HSV-2 suppressive therapy",
+    "chancroid lymphogranuloma venereum granuloma inguinale"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sexual assault care and intimate partner violence",
+   "scope": "Medical-forensic examination after sexual assault, post-assault prophylaxis, screening and intervention for intimate partner violence and reproductive coercion, and violence during pregnancy.",
+   "queries": [
+    "sexual assault forensic examination evidence collection",
+    "intimate partner violence screening pregnancy",
+    "HIV postexposure prophylaxis sexual assault",
+    "reproductive coercion intimate partner violence"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gynecologic care of transgender and gender-diverse people",
+   "scope": "Gynecologic effects of gender-affirming hormones, screening needs of transmasculine patients, and gender-affirming surgeries such as hysterectomy, oophorectomy and vaginoplasty along with their complications.",
+   "queries": [
+    "testosterone therapy transgender men amenorrhea",
+    "vaginoplasty penile inversion complications",
+    "cervical cancer screening transgender men",
+    "gender-affirming hysterectomy oophorectomy transmasculine"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fertility preservation, gestational carriers and uterus transplantation",
+   "scope": "Oocyte, embryo and ovarian tissue cryopreservation for cancer and other indications, gestational surrogacy arrangements, and uterus transplantation for absolute uterine factor infertility.",
+   "queries": [
+    "ovarian tissue cryopreservation transplantation live births",
+    "oocyte vitrification fertility preservation cancer",
+    "uterus transplantation live birth deceased donor",
+    "gestational carrier surrogacy outcomes"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Female pelvic surgical anatomy and nerve and ureteral injury",
+   "scope": "Surgical anatomy of the female pelvis and perineum (vasculature, ureteral course, avascular retroperitoneal spaces, ligaments and nerves) and the patterns of ureteral and nerve injury seen in gynecologic surgery.",
+   "queries": [
+    "ureter injury hysterectomy uterine artery anatomy",
+    "pudendal nerve Alcock canal anatomy",
+    "retroperitoneal spaces pelvis paravesical pararectal",
+    "femoral obturator nerve injury gynecologic surgery"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}

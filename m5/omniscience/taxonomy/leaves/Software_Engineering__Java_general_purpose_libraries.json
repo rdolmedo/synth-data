@@ -1,0 +1,442 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "Java general purpose libraries",
+ "weight": 0.004698000000000001,
+ "leaves": [
+  {
+   "leaf": "Guava collection types and collection utilities",
+   "scope": "Google Guava's com.google.common.collect package: immutable collections, Multiset, Multimap, BiMap, Table, RangeSet/RangeMap, ClassToInstanceMap and helpers such as Lists, Maps, Sets, Iterables, Ordering and Comparators, and how they changed across Guava releases.",
+   "queries": [
+    "Guava ImmutableList ImmutableSortedMap builder copyOf",
+    "Guava Multimap ArrayListMultimap Multiset count",
+    "Guava BiMap Table HashBasedTable rowKeySet",
+    "Guava RangeSet TreeRangeSet Range closedOpen canonical"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Guava base, concurrency, hashing, I/O and other utilities",
+   "scope": "Guava's non-collection, non-cache packages (base Preconditions/Splitter/Joiner/CharMatcher/Strings, util.concurrent ListenableFuture/Futures/RateLimiter/MoreExecutors, hash, io, primitives, math, eventbus, graph, reflect), plus Guava's version numbering, its -jre/-android flavors and its release history.",
+   "queries": [
+    "Guava Splitter Joiner Preconditions checkArgument CharMatcher",
+    "Guava ListenableFuture Futures transformAsync MoreExecutors",
+    "Guava Hashing murmur3_128 BloomFilter Funnel",
+    "Guava release android jre flavor minimum Java"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Apache Commons Lang and Commons Text",
+   "scope": "The org.apache.commons.lang3 utilities (StringUtils, ArrayUtils, ObjectUtils, builder, reflect, time, tuple, Validate, exception) and Commons Text (StringSubstitutor, similarity and distance metrics, escaping, WordUtils), including version history and the Text4Shell vulnerability.",
+   "queries": [
+    "Commons Lang3 StringUtils isBlank abbreviate",
+    "Commons Lang EqualsBuilder HashCodeBuilder ToStringStyle",
+    "Commons Text StringSubstitutor interpolation lookups CVE-2022-42889",
+    "Commons Text LevenshteinDistance JaroWinklerSimilarity StringEscapeUtils"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Apache Commons Collections and BeanUtils",
+   "scope": "Commons Collections 3.x/4.x data structures and functors (Bag, BidiMap, MultiValuedMap, Trie, LRUMap, decorators, Transformer/Predicate/Closure) and Commons BeanUtils property access and type conversion, including the InvokerTransformer deserialization vulnerabilities and the package changes between major versions.",
+   "queries": [
+    "Commons Collections4 BidiMap DualHashBidiMap HashBag",
+    "Commons Collections InvokerTransformer deserialization vulnerability 3.2.2",
+    "Commons Collections PatriciaTrie LRUMap MultiValuedMap",
+    "Commons BeanUtils PropertyUtils ConvertUtils BeanUtilsBean"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Apache Commons IO, Codec, Compress and CSV",
+   "scope": "Commons IO (FileUtils, IOUtils, FilenameUtils, file monitors, stream decorators), Commons Codec (Base64, Hex, DigestUtils, phonetic encoders), Commons Compress archive and compression formats, and Commons CSV formats and parsing.",
+   "queries": [
+    "Commons IO FileUtils IOUtils FilenameUtils copy",
+    "Commons Codec Base64 DigestUtils Soundex Metaphone",
+    "Commons Compress ZipArchiveOutputStream TarArchiveEntry formats",
+    "Commons CSV CSVFormat RFC4180 EXCEL CSVParser"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Jackson JSON processor (core, databind, annotations, modules)",
+   "scope": "FasterXML Jackson's streaming core, ObjectMapper data binding, annotations, polymorphic type handling, feature flags and their defaults, datatype modules and dataformat backends, and the move from 2.x to Jackson 3.0.",
+   "queries": [
+    "Jackson ObjectMapper DeserializationFeature FAIL_ON_UNKNOWN_PROPERTIES default",
+    "Jackson JsonTypeInfo JsonSubTypes polymorphic deserialization",
+    "Jackson 3.0 tools.jackson package release notes",
+    "Jackson dataformat YAML CBOR Smile jsr310 module"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Gson and other JSON libraries and APIs",
+   "scope": "JSON handling in Java outside Jackson: Google Gson, Square Moshi, org.json, Alibaba fastjson/fastjson2, json-smart, Jayway JsonPath, and the Jakarta JSON-P/JSON-B specifications with implementations such as Yasson and Parsson.",
+   "queries": [
+    "Gson GsonBuilder TypeAdapter serializeNulls FieldNamingPolicy",
+    "Moshi JsonAdapter Kotlin codegen reflection",
+    "Jakarta JSON Binding Yasson JsonbConfig JSON-P",
+    "fastjson autoType vulnerability fastjson2 release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "XML, HTML and YAML parsing and binding libraries",
+   "scope": "Java XML APIs and libraries (JAXP DOM/SAX/StAX, JAXB/Jakarta XML Binding, Xerces, Woodstox, Aalto, Saxon, dom4j, JDOM, XStream), HTML parsing with jsoup, and YAML handling with SnakeYAML and SnakeYAML Engine.",
+   "queries": [
+    "JAXB Jakarta XML Binding XmlRootElement Marshaller",
+    "StAX XMLStreamReader Woodstox XMLInputFactory properties",
+    "jsoup Jsoup.connect select CSS Safelist",
+    "SnakeYAML SafeConstructor LoaderOptions CVE-2022-1471"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Binary serialization and schema-based data formats",
+   "scope": "Java libraries and APIs for compact or schema-driven serialization (Protocol Buffers Java, Apache Avro, Apache Thrift, FlatBuffers, Kryo, MessagePack, FST) and built-in java.io object serialization with its serialization filters (JEP 290/415).",
+   "queries": [
+    "protobuf Java generated code GeneratedMessageV3 builder",
+    "Apache Avro SpecificRecord GenericRecord schema evolution",
+    "Kryo serializer registration references configuration",
+    "Java serialization filter ObjectInputFilter JEP 290"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Logging facades and frameworks",
+   "scope": "SLF4J (bindings vs 2.x providers, the fluent API), Logback, Log4j 1.x/reload4j and Log4j 2 (appenders, layouts, lookups, async loggers, the Log4Shell CVEs), java.util.logging, Apache Commons Logging, JBoss Logging and tinylog.",
+   "queries": [
+    "SLF4J 2.0 fluent API ServiceLoader provider binding",
+    "Logback RollingFileAppender encoder pattern configuration",
+    "Log4j 2 JNDI lookup CVE-2021-44228 2.17.1",
+    "java.util.logging Level LogManager Handler Formatter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Date and time libraries (java.time, Joda-Time, ThreeTen)",
+   "scope": "The JSR-310 java.time API (LocalDate, ZonedDateTime, Instant, Duration/Period, DateTimeFormatter, TemporalAdjusters, chronologies, tzdb), the earlier Joda-Time and legacy Date/Calendar/SimpleDateFormat, and ThreeTen-Backport/ThreeTen-Extra.",
+   "queries": [
+    "java.time DateTimeFormatter pattern letters ResolverStyle",
+    "Joda-Time DateTime Period Interval DateTimeZone",
+    "ThreeTen-Extra YearQuarter Interval ThreeTen-Backport",
+    "JSR 310 ZonedDateTime OffsetDateTime Instant ChronoUnit"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Java Collections Framework (java.util)",
+   "scope": "The JDK's core collection interfaces and implementations (ArrayList, LinkedList, HashMap, TreeMap, LinkedHashMap, ArrayDeque, PriorityQueue, EnumSet/EnumMap, WeakHashMap, IdentityHashMap), the Collections and Arrays utilities, unmodifiable factory methods, and sequenced collections across Java releases.",
+   "queries": [
+    "HashMap load factor initial capacity treeify threshold",
+    "SequencedCollection SequencedMap JEP 431 reversed",
+    "List.of Map.ofEntries unmodifiable collections JEP 269",
+    "LinkedHashMap removeEldestEntry access order ArrayDeque"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "java.util.concurrent and virtual threads",
+   "scope": "JDK concurrency utilities (executors and thread pools, ForkJoinPool, CompletableFuture, locks, atomics, synchronizers, concurrent collections) and the Project Loom additions (virtual threads, structured concurrency, scoped values) with their JEP and release history.",
+   "queries": [
+    "ThreadPoolExecutor corePoolSize RejectedExecutionHandler policies",
+    "CompletableFuture thenCompose supplyAsync orTimeout",
+    "virtual threads JEP 444 newVirtualThreadPerTaskExecutor",
+    "StructuredTaskScope ScopedValue preview JEP"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Streams API, functional interfaces and Optional",
+   "scope": "java.util.stream (Stream, primitive streams, Collectors, Spliterator, parallel streams, Gatherers) together with the java.util.function interfaces and Optional, including the methods added from Java 9 through Java 24.",
+   "queries": [
+    "Collectors groupingBy partitioningBy toMap teeing",
+    "Stream Gatherers JEP 485 windowFixed fold",
+    "java.util.function BiFunction UnaryOperator Supplier interfaces",
+    "Optional orElseThrow ifPresentOrElse Java 9"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "java.io and NIO/NIO.2 file and buffer APIs",
+   "scope": "Java's I/O libraries: java.io streams and readers, java.nio buffers, channels, selectors and charsets, and NIO.2 java.nio.file (Path, Files, FileSystems, file attributes, WatchService, the zip file system) across JDK versions.",
+   "queries": [
+    "java.nio.file Files walk readString StandardOpenOption",
+    "ByteBuffer allocateDirect flip compact ByteOrder",
+    "WatchService StandardWatchEventKinds register FileSystem",
+    "Selector SocketChannel AsynchronousFileChannel JSR 203"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "String, regex, formatting and internationalization APIs",
+   "scope": "java.lang String/StringBuilder methods and text blocks, java.util.regex Pattern/Matcher, Formatter/String.format, HexFormat, java.text (NumberFormat, DecimalFormat, MessageFormat, Collator, BreakIterator), Locale/ResourceBundle and CLDR locale data, and ICU4J.",
+   "queries": [
+    "java.util.regex Pattern flags named groups Matcher",
+    "String strip repeat indent text blocks JEP 378",
+    "DecimalFormat MessageFormat CompactNumberFormat ChoiceFormat",
+    "ICU4J Transliterator CLDR locale provider ResourceBundle"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numeric and mathematics libraries",
+   "scope": "java.math (BigDecimal, BigInteger, MathContext, RoundingMode), Math/StrictMath, the RandomGenerator algorithms (JEP 356), and third-party numerics such as Apache Commons Math, Commons Numbers/RNG/Statistics, Hipparchus, EJML and ojAlgo.",
+   "queries": [
+    "BigDecimal MathContext RoundingMode HALF_EVEN scale",
+    "RandomGenerator JEP 356 L64X128MixRandom algorithms",
+    "Apache Commons Math SimpleRegression optimization linear",
+    "Hipparchus fork Commons Math ODE integrators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Primitive and high-performance collection libraries",
+   "scope": "Third-party collection and data-structure libraries built for memory efficiency and speed: Eclipse Collections (formerly GS Collections), fastutil, Trove, HPPC, Koloboke, Agrona, JCTools lock-free queues, and the LMAX Disruptor ring buffer.",
+   "queries": [
+    "Eclipse Collections MutableList ImmutableBag GS Collections",
+    "fastutil Int2IntOpenHashMap type-specific primitive collections",
+    "JCTools MpscArrayQueue SPSC lock-free queues",
+    "LMAX Disruptor RingBuffer WaitStrategy EventHandler"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Functional programming libraries (Vavr and peers)",
+   "scope": "Libraries that bring functional idioms to Java: Vavr (formerly Javaslang) with Try/Either/Option/Validation, persistent collections and pattern matching, plus jOOλ, Functional Java, Cyclops and PCollections.",
+   "queries": [
+    "Vavr Try Either Option Validation",
+    "Javaslang renamed Vavr persistent collections",
+    "Functional Java library fj.data immutable",
+    "PCollections TreePVector HashTreePMap jOOλ Seq"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reactive Streams libraries (RxJava, Project Reactor)",
+   "scope": "Reactive programming libraries on the JVM: the Reactive Streams specification and java.util.concurrent.Flow, RxJava 1/2/3, Project Reactor (Flux/Mono), SmallRye Mutiny and Akka/Pekko Streams, covering their operators, schedulers and backpressure.",
+   "queries": [
+    "RxJava Flowable Observable BackpressureStrategy",
+    "Project Reactor Flux Mono Schedulers boundedElastic",
+    "Reactive Streams specification Publisher Subscriber Subscription rules",
+    "SmallRye Mutiny Uni Multi operators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "In-process caching libraries",
+   "scope": "Java caching libraries and APIs: Caffeine (W-TinyLFU eviction, async loading, refresh), Guava Cache, Ehcache 2/3, cache2k, JCache (JSR-107), and off-heap caches such as Chronicle Map.",
+   "queries": [
+    "Caffeine W-TinyLFU maximumSize refreshAfterWrite",
+    "Ehcache 3 CacheConfigurationBuilder heap offheap tiers",
+    "JCache JSR 107 CacheManager ExpiryPolicy",
+    "Guava CacheBuilder LoadingCache expireAfterAccess cache2k"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HTTP client and network I/O libraries",
+   "scope": "Libraries for HTTP and networking: Apache HttpComponents (HttpClient 4.x/5.x, HttpCore), OkHttp, the JDK java.net.http HttpClient (JEP 321), Retrofit, OpenFeign, AsyncHttpClient, Jetty client, and the Netty event-driven network framework.",
+   "queries": [
+    "Apache HttpClient 5 classic async connection pool",
+    "OkHttp interceptors ConnectionPool HTTP/2 Okio",
+    "java.net.http HttpClient BodyHandlers JEP 321",
+    "Netty EventLoopGroup ChannelPipeline ByteBuf"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Bytecode manipulation and runtime code generation",
+   "scope": "Libraries for reading, transforming and generating JVM class files at build time or run time: ASM, Byte Buddy, Javassist, cglib, Apache BCEL, Objenesis, JDK dynamic proxies, and the JDK Class-File API (JEP 457/484).",
+   "queries": [
+    "ASM ClassVisitor MethodVisitor ClassWriter COMPUTE_FRAMES",
+    "Byte Buddy ElementMatchers subclass intercept agent",
+    "Javassist CtClass ClassPool bytecode editing",
+    "Class-File API JEP 484 java.lang.classfile"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Annotation-processor code generators (Lombok, AutoValue, Immutables, MapStruct)",
+   "scope": "Compile-time libraries that cut boilerplate or generate mappers: Project Lombok annotations and lombok.config, Google AutoValue/AutoService/AutoFactory, Immutables, MapStruct bean mappers and JavaPoet, and how they work with records and javac.",
+   "queries": [
+    "Lombok @Builder @Value @Data lombok.config",
+    "AutoValue builder memoized AutoService",
+    "MapStruct @Mapper componentModel @Mapping",
+    "Immutables Value.Immutable style JavaPoet TypeSpec"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dependency injection libraries (Guice, Dagger, JSR-330)",
+   "scope": "Lightweight dependency-injection containers and standards: the JSR-330 javax/jakarta.inject annotations, Google Guice modules, bindings and scopes, Dagger 2 compile-time components and Hilt, plus HK2, Avaje Inject and PicoContainer.",
+   "queries": [
+    "Guice AbstractModule bind Provides Singleton Injector",
+    "Dagger 2 Component Module Subcomponent Hilt",
+    "JSR 330 javax.inject Named Qualifier Provider",
+    "HK2 Avaje Inject PicoContainer dependency injection"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Command-line parsing and configuration libraries",
+   "scope": "Libraries for parsing program arguments (picocli, JCommander, Apache Commons CLI, args4j, JOpt Simple, Airline) and for loading application configuration (Typesafe/Lightbend Config and HOCON, Apache Commons Configuration, OWNER, java.util.Properties/Preferences).",
+   "queries": [
+    "picocli @Command @Option subcommands annotation",
+    "JCommander @Parameter args4j jopt-simple",
+    "Apache Commons CLI DefaultParser Options HelpFormatter",
+    "Lightbend Config HOCON ConfigFactory reference.conf"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Office document and PDF libraries",
+   "scope": "Libraries for reading and writing documents: Apache POI (HSSF/XSSF/SXSSF, HWPF/XWPF, HSLF/XSLF), Apache PDFBox, iText and OpenPDF, Apache Tika content detection and extraction, docx4j and JasperReports.",
+   "queries": [
+    "Apache POI XSSFWorkbook SXSSFWorkbook HSSF formats",
+    "Apache PDFBox PDDocument PDPageContentStream text extraction",
+    "iText AGPL license change OpenPDF fork",
+    "Apache Tika AutoDetectParser MIME type detection"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Unit testing, mocking and assertion libraries",
+   "scope": "Java testing libraries: JUnit 4/5/6 (Jupiter, Platform, Vintage, extensions), TestNG, Mockito, EasyMock, PowerMock, AssertJ, Hamcrest, Google Truth, and helpers such as Awaitility and Testcontainers.",
+   "queries": [
+    "JUnit Jupiter ParameterizedTest ExtendWith annotations",
+    "Mockito ArgumentCaptor mockStatic inline mock maker",
+    "AssertJ assertThat Hamcrest matchers Google Truth",
+    "TestNG DataProvider groups testng.xml"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cryptography and security libraries",
+   "scope": "Java cryptography APIs and libraries: JCA/JCE providers and standard algorithm names, Bouncy Castle (provider, lightweight API, PKIX, FIPS), Google Tink, Conscrypt, Jasypt, and JOSE/JWT libraries such as Nimbus JOSE+JWT and jjwt.",
+   "queries": [
+    "Bouncy Castle provider lightweight API release notes",
+    "JCA standard algorithm names Cipher transformation",
+    "Google Tink Java AEAD keyset primitives",
+    "Nimbus JOSE JWT jjwt JWS signing"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Embedded scripting and expression language engines",
+   "scope": "Libraries that evaluate scripts or expressions inside Java applications: JSR 223 javax.script, Nashorn (deprecated, then removed), Mozilla Rhino, GraalJS, Groovy and BeanShell embedding, Apache JEXL, MVEL, OGNL, SpEL and Jakarta Expression Language.",
+   "queries": [
+    "javax.script ScriptEngineManager JSR 223 Bindings",
+    "Nashorn removed JEP 372 deprecated JEP 335",
+    "Mozilla Rhino JavaScript engine release",
+    "Apache JEXL MVEL OGNL expression evaluation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  }
+ ]
+}

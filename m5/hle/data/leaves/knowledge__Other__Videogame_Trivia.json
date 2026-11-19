@@ -1,0 +1,129 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Videogame Trivia",
+ "target_leaves": 8,
+ "expected_problems": 37,
+ "leaves": [
+  {
+   "leaf": "Early arcade game copyright litigation",
+   "scope": "Holdings, circuits, dates, and the games at issue in 1980s US cases over arcade and console games: whether the attract mode counted as an audiovisual work, speed-up kits, clone games, and the idea/expression line. A question could ask the solver to compare holdings across cases or work out which precedent a later court relied on for a specific game feature.",
+   "queries": [
+    "Stern Electronics Kaufman Scramble",
+    "Midway Artic speed-up kit",
+    "Atari North American Philips Munchkin",
+    "Data East Epyx karate",
+    "audiovisual work video game copyright"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Violent video game statute constitutional challenges",
+   "scope": "The details of state and municipal laws restricting sales of violent games to minors and the federal decisions striking them down: statutory definitions, fines, the social-science evidence the courts weighed, and the levels of scrutiny they applied. A question could have the solver combine the timeline of cases with their reasoning to work out which statute or court came first, or which test was applied.",
+   "queries": [
+    "Brown Entertainment Merchants Association",
+    "Video Software Dealers Schwarzenegger",
+    "Entertainment Software Association Blagojevich",
+    "Interactive Digital Software Association Kendrick",
+    "violent video game ordinance"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Computational complexity of classic commercial games",
+   "scope": "Published hardness results for specific commercial games (NP-hardness, PSPACE-completeness, undecidability), the gadget frameworks and metatheorems used to prove them, and the game mechanics each proof depends on. A question could ask which mechanic makes a given proof work, or which complexity class follows when generalized versions of two results are combined.",
+   "queries": [
+    "NP-hard Nintendo games",
+    "PSPACE-complete video game",
+    "Lemmings NP-complete",
+    "Tetris NP-hard offline",
+    "Super Mario Bros complexity"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Arcade Learning Environment Atari benchmark results",
+   "scope": "Per-game scores, human baselines, evaluation protocols (no-op starts, sticky actions, frame skipping), and the hard-exploration games reported in reinforcement-learning papers that use the Atari 2600 suite. A question could ask the solver to compute human-normalized scores, or to compare agents across papers that used different protocols.",
+   "queries": [
+    "Arcade Learning Environment",
+    "human-normalized score Atari",
+    "Montezuma's Revenge exploration",
+    "Agent57 Atari 57",
+    "sticky actions ALE"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "PLATO and mainframe-era computer games",
+   "scope": "Authors, institutions, years, hardware, and design features of games written for university mainframes, minicomputers, and the PLATO network before commercial home gaming, including early multiplayer and dungeon games. A question could ask the solver to order which game came first or to trace one design feature's lineage across systems.",
+   "queries": [
+    "PLATO system games",
+    "Spacewar PDP-1",
+    "Empire PLATO multiplayer",
+    "mainframe computer games history",
+    "Oubliette dnd PLATO"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Socialist-bloc 8-bit home computer game cultures",
+   "scope": "Little-known facts about homebrew and state-sector game making in Czechoslovakia, Poland, Hungary, the USSR and the GDR: cloned hardware, cassette-tape distribution, specific text adventures and their political satire, and hobbyist club histories. A question could ask the solver to identify a title from its author, platform and year, or to compare production conditions across countries.",
+   "queries": [
+    "Czechoslovak ZX Spectrum games",
+    "Soviet Elektronika game",
+    "socialist home computer",
+    "Polish computer game history",
+    "Eastern Bloc gaming"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Loot box regulation and empirical research",
+   "scope": "Findings from studies of paid randomized rewards: effect sizes linking them to problem gambling, rates of disclosing drop probabilities, national regulators' rulings (Belgium, Netherlands, Japan's kompu gacha ban, China's disclosure rules), and how individual games were classified. A question could have the solver combine a regulator's legal criteria with a game's mechanics to work out whether that game would fall under the rule.",
+   "queries": [
+    "loot boxes problem gambling",
+    "Belgian Gaming Commission loot",
+    "Zendle Cairns loot box",
+    "gacha regulation Japan kompu",
+    "paid random items"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Sound chip architecture and game music",
+   "scope": "Specifications of console and home-computer sound hardware (channel counts, waveform types, FM operators, sample playback) and musicological analyses of how particular composers worked within those limits. A question could ask the solver to work out how many voices an arrangement must have shared on a given chip, or which hardware feature made a documented compositional technique possible.",
+   "queries": [
+    "SID chip Commodore 64 music",
+    "chiptune sound chip",
+    "ludomusicology",
+    "NES audio processing unit",
+    "FM synthesis YM2612 game"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "arxiv"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,433 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "python data analytics and visualisation libraries",
+ "weight": 0.004698000000000001,
+ "leaves": [
+  {
+   "leaf": "pandas indexing, MultiIndex, reshaping and combining",
+   "scope": "Selecting data by label and by position (loc, iloc, at, xs), building MultiIndexes and working with their levels, reshaping with pivot, pivot_table, melt, stack/unstack, explode and crosstab, and how merge, join and concat behave.",
+   "queries": [
+    "pandas MultiIndex from_product levels codes",
+    "DataFrame pivot_table aggfunc margins fill_value",
+    "pandas melt id_vars value_vars var_name",
+    "pandas merge how validate indicator suffixes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pandas groupby, aggregation and window operations",
+   "scope": "GroupBy split-apply-combine (agg, transform, apply, filter, named aggregation, and the observed, dropna and as_index options) plus rolling, expanding and exponentially weighted windows.",
+   "queries": [
+    "pandas groupby named aggregation NamedAgg",
+    "GroupBy transform filter apply observed dropna",
+    "DataFrame rolling window min_periods center win_type",
+    "pandas ewm span halflife alpha adjust"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pandas I/O readers and writers",
+   "scope": "read_csv/to_csv parsing parameters and engines, Excel engines (openpyxl, xlrd, odf, calamine), Parquet, Feather and ORC, SQL through SQLAlchemy, JSON orients, HDF5/PyTables, pickle compression, and the HTML, XML and clipboard readers.",
+   "queries": [
+    "pandas read_csv engine pyarrow dtype_backend",
+    "read_excel engine openpyxl calamine sheet_name",
+    "DataFrame to_json orient records split",
+    "pandas to_sql chunksize method if_exists"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pandas time series, date offsets and time zones",
+   "scope": "Timestamp, Timedelta, Period and DatetimeIndex, frequency aliases and DateOffset classes, date_range, resample and asfreq, time zone localization, datetime resolution units, and business-day holiday calendars.",
+   "queries": [
+    "pandas offset aliases frequency strings ME QE",
+    "DateOffset BusinessDay CustomBusinessDay holiday calendar",
+    "tz_localize ambiguous nonexistent DST transition",
+    "Timestamp min max nanosecond resolution unit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pandas dtypes, internals and version-to-version changes",
+   "scope": "Nullable extension dtypes (Int64, boolean, string) and pd.NA, Categorical, ArrowDtype and PyArrow-backed strings, Copy-on-Write, BlockManager internals, and deprecations and removals in the pandas 1.x, 2.x and 3.0 release notes.",
+   "queries": [
+    "pandas nullable integer dtype pd.NA",
+    "Copy-on-Write pandas 3.0 chained assignment",
+    "ArrowDtype string pyarrow storage infer_string",
+    "whats new pandas 2.0 deprecations removed"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "pandas options, Styler and plotting accessor",
+   "scope": "The display, compute and mode options set through pd.set_option, the Styler API for conditional HTML and LaTeX table formatting, and the DataFrame.plot accessor with its plot kinds, plotting backends and pandas.plotting helpers.",
+   "queries": [
+    "pandas set_option display.max_rows max_columns",
+    "Styler background_gradient highlight_max format",
+    "Styler to_latex hrules siunitx environment",
+    "pandas plotting scatter_matrix andrews_curves radviz"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "NumPy ndarray core, dtypes and ufuncs",
+   "scope": "ndarray memory layout and strides, scalar dtypes and type promotion (NEP 50), broadcasting rules, advanced indexing, ufunc methods (reduce, accumulate, outer, at), structured arrays, and the API and ABI changes in NumPy 2.0.",
+   "queries": [
+    "NumPy broadcasting rules trailing dimensions",
+    "ufunc reduce accumulate outer at methods",
+    "NumPy 2.0 migration guide removed aliases",
+    "structured array dtype fields itemsize alignment"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "NumPy submodules: random, linalg, fft, polynomial and masked arrays",
+   "scope": "numpy.random's Generator, BitGenerators (PCG64, Philox, SFC64, MT19937) and SeedSequence, numpy.linalg decompositions, numpy.fft normalization modes, the numpy.polynomial convenience classes, and numpy.ma masked arrays.",
+   "queries": [
+    "numpy random Generator PCG64 SeedSequence spawn",
+    "numpy linalg svd eigh lstsq rcond",
+    "numpy fft norm ortho forward rfft",
+    "numpy polynomial Chebyshev Legendre fit domain window"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "SciPy statistical distributions and hypothesis tests",
+   "scope": "scipy.stats continuous and discrete distribution objects and how they are parameterized, hypothesis tests (t-tests, Mann-Whitney U, Kolmogorov-Smirnov, chi-square contingency), resampling methods such as bootstrap and permutation_test, and the newer random-variable infrastructure.",
+   "queries": [
+    "scipy.stats rv_continuous loc scale shape parameters",
+    "scipy stats mannwhitneyu alternative method exact",
+    "scipy.stats bootstrap confidence_interval BCa",
+    "scipy stats make_distribution ContinuousDistribution"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "SciPy optimization, integration, interpolation, signal and sparse routines",
+   "scope": "scipy.optimize (minimize methods, root finding, curve_fit, linprog with HiGHS), scipy.integrate (quad, solve_ivp), scipy.interpolate, scipy.signal filter design, sparse array formats in scipy.sparse, and the spatial data structures in scipy.spatial.",
+   "queries": [
+    "scipy optimize minimize method L-BFGS-B SLSQP",
+    "solve_ivp RK45 LSODA Radau rtol atol",
+    "scipy signal butter sosfiltfilt filter design",
+    "scipy sparse csr_array coo format sparray"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "statsmodels regression, econometrics and time series analysis",
+   "scope": "statsmodels OLS, GLM and discrete models through the formula and array APIs, robust covariance estimators, diagnostic tests, ANOVA, and the tsa module (ARIMA, SARIMAX, VAR, ExponentialSmoothing, STL, unit-root tests).",
+   "queries": [
+    "statsmodels formula api ols summary",
+    "statsmodels GLM family link Binomial Poisson",
+    "SARIMAX order seasonal_order statsmodels tsa",
+    "statsmodels adfuller kpss het_breuschpagan diagnostic"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "scikit-learn estimators, pipelines and model selection",
+   "scope": "The scikit-learn estimator API, preprocessing transformers, Pipeline and ColumnTransformer, cross-validation splitters and hyperparameter search, metrics and scorer strings, set_output and metadata routing, and the library's release history.",
+   "queries": [
+    "scikit-learn ColumnTransformer remainder passthrough",
+    "GridSearchCV refit scoring cv_results_",
+    "sklearn scoring string neg_mean_squared_error metrics",
+    "scikit-learn release highlights metadata routing set_output"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Time series forecasting libraries beyond statsmodels",
+   "scope": "Dedicated forecasting and time-series feature libraries such as Prophet, sktime, Darts, pmdarima, Nixtla's statsforecast and neuralforecast, and tsfresh, covering their model classes, parameters and APIs.",
+   "queries": [
+    "Prophet changepoint_prior_scale seasonality_mode holidays",
+    "sktime ForecastingHorizon forecaster fit predict",
+    "Darts TimeSeries forecasting models backtest",
+    "pmdarima auto_arima stepwise seasonal m"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Polars DataFrames, expressions and lazy queries",
+   "scope": "Polars expressions and contexts (select, with_columns, group_by, over), LazyFrame query optimization and the streaming engine, Polars data types, and API changes from the 0.x releases through 1.x.",
+   "queries": [
+    "polars LazyFrame collect streaming engine",
+    "polars expression over window function group_by",
+    "polars join_asof strategy by tolerance",
+    "polars 1.0 upgrade guide breaking changes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Apache Arrow, PyArrow and Parquet",
+   "scope": "PyArrow arrays, tables, schemas and the type system, pyarrow.compute functions, Parquet read and write options, datasets and partitioning, the IPC and Feather formats, and the Arrow C data interface and PyCapsule interchange.",
+   "queries": [
+    "pyarrow Table schema from_pandas preserve_index",
+    "pyarrow parquet write_table row_group_size compression",
+    "pyarrow dataset partitioning hive filesystem",
+    "Arrow PyCapsule interface __arrow_c_stream__"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Scaling pandas: Dask, Modin, cuDF, Vaex and pandas API on Spark",
+   "scope": "Parallel, distributed, out-of-core and GPU DataFrame libraries that mirror the pandas API: Dask DataFrame and the distributed scheduler, Modin, RAPIDS cuDF and cudf.pandas, Vaex, and the pandas API on Spark (formerly Koalas).",
+   "queries": [
+    "dask dataframe partitions npartitions repartition",
+    "dask distributed scheduler client dashboard workers",
+    "cudf.pandas accelerator mode RAPIDS GPU",
+    "pandas API on Spark Koalas pyspark.pandas"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "DuckDB, Ibis and SQL-on-DataFrame engines",
+   "scope": "In-process analytical SQL engines and backend-portable DataFrame APIs used from Python: DuckDB's Python relational API and replacement scans, Ibis expressions and backends, DataFusion, the dataframe interchange protocol, and the Narwhals compatibility layer.",
+   "queries": [
+    "duckdb python relational API df arrow",
+    "duckdb replacement scan pandas DataFrame query",
+    "Ibis backends expression execute to_pandas",
+    "Narwhals dataframe agnostic API polars pandas"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "xarray labeled multidimensional arrays",
+   "scope": "The xarray DataArray and Dataset data model, coordinates and indexes, groupby, resample and rolling, the netCDF and Zarr I/O backends, Dask-backed chunking, and DataTree hierarchies.",
+   "queries": [
+    "xarray Dataset DataArray coords dims attrs",
+    "xarray open_mfdataset combine by_coords chunks",
+    "xarray to_zarr netcdf engine h5netcdf",
+    "xarray DataTree hierarchical groups"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Matplotlib Figure, Axes and Artist API",
+   "scope": "Matplotlib's object hierarchy and the pyplot interface, layout tools (subplots, GridSpec, subplot_mosaic, constrained and tight layout engines), the transforms framework, the mplot3d and axes_grid1 toolkits, and animation.",
+   "queries": [
+    "matplotlib subplot_mosaic layout constrained",
+    "matplotlib transforms transData transAxes blended",
+    "FuncAnimation interval blit save writer",
+    "mpl_toolkits mplot3d Axes3D plot_surface"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Matplotlib configuration, styling, text rendering and backends",
+   "scope": "rcParams and matplotlibrc, style sheets, colormaps and normalization classes, fonts with mathtext and usetex text rendering, interactive and non-interactive backends, and API changes listed in Matplotlib release notes.",
+   "queries": [
+    "matplotlib rcParams matplotlibrc default style",
+    "matplotlib colormaps viridis cividis Normalize LogNorm",
+    "mathtext usetex font family fontset",
+    "matplotlib backends Agg TkAgg QtAgg ipympl"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "seaborn statistical visualisation",
+   "scope": "seaborn's figure-level and axes-level functions (relplot, displot, catplot), FacetGrid, PairGrid and JointGrid, statistical estimation and error bars, themes, contexts and color palettes, and the seaborn.objects interface.",
+   "queries": [
+    "seaborn displot kde histplot stat element",
+    "seaborn errorbar ci sd pi estimator",
+    "seaborn color_palette husl cubehelix set_theme",
+    "seaborn objects interface Plot Mark Stat"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Plotly.py, Plotly Express and graph_objects",
+   "scope": "Plotly Express and graph_objects figures, trace types and layout attributes, templates, make_subplots, FigureWidget, and static image export through Kaleido.",
+   "queries": [
+    "plotly express px.scatter facet_col animation_frame",
+    "plotly graph_objects layout template plotly_dark",
+    "plotly make_subplots specs secondary_y",
+    "plotly write_image kaleido static export"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Bokeh interactive plotting and server",
+   "scope": "Bokeh's models, glyphs and ColumnDataSource, layouts, tools and interactions, CustomJS callbacks and widgets, embedding plots, and Bokeh server applications.",
+   "queries": [
+    "bokeh ColumnDataSource glyph figure scatter",
+    "bokeh CustomJS callback widgets js_on_change",
+    "bokeh serve server application curdoc",
+    "bokeh embed components output_file"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "HoloViz ecosystem: HoloViews, hvPlot, Datashader and Panel",
+   "scope": "HoloViews elements, containers and dynamic maps, the .hvplot accessor, Datashader rasterization pipelines for large datasets, Panel apps and widgets, GeoViews, and Param.",
+   "queries": [
+    "HoloViews elements DynamicMap HoloMap overlay",
+    "hvplot accessor kind rasterize datashade",
+    "datashader Canvas aggregate shade reduction",
+    "Panel pn.extension serve template widgets"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Altair and Vega-Lite declarative charts",
+   "scope": "Altair's declarative grammar of graphics on top of Vega-Lite: Chart and marks, encoding channels and shorthand data types, transforms, selections and parameters, layered and concatenated charts, and renderers and saving.",
+   "queries": [
+    "altair encoding shorthand quantitative nominal ordinal",
+    "altair selection_point selection_interval param",
+    "altair transform_filter transform_aggregate",
+    "Vega-Lite mark encoding specification"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python dashboard and data app frameworks",
+   "scope": "Frameworks for building interactive data apps and dashboards in Python: Dash callbacks and components, Streamlit caching, session state and its rerun model, Voilà, Shiny for Python, and Gradio.",
+   "queries": [
+    "Dash callback Input Output State prevent_initial_call",
+    "streamlit cache_data cache_resource session_state",
+    "Shiny for Python reactive render ui",
+    "Voila notebook dashboard template"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Geospatial analysis and mapping libraries",
+   "scope": "GeoPandas GeoDataFrames, CRS handling and spatial joins, Shapely geometry operations, pyogrio and Fiona I/O, rasterio, Cartopy map projections, and web maps with Folium and ipyleaflet.",
+   "queries": [
+    "geopandas sjoin predicate to_crs GeoDataFrame",
+    "shapely 2.0 vectorized geometry functions",
+    "cartopy crs projections PlateCarree transform",
+    "folium Map choropleth tiles marker"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Jupyter, IPython and notebook tooling",
+   "scope": "IPython shell features and magics, Jupyter kernels and the messaging protocol, the nbformat notebook format, JupyterLab and Notebook 7, ipywidgets, nbconvert and papermill, and the rich display protocol.",
+   "queries": [
+    "IPython magic commands timeit autoreload",
+    "ipywidgets interact observe widget layout",
+    "nbconvert export formats execute preprocessor",
+    "Jupyter Notebook 7 JupyterLab release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "3D and GPU-accelerated scientific visualisation",
+   "scope": "Python libraries for 3D, volumetric, mesh and GPU-accelerated scientific visualisation, including VTK's Python bindings, PyVista, Mayavi, VisPy, napari and K3D.",
+   "queries": [
+    "PyVista mesh plotter add_mesh scalars",
+    "VTK pipeline vtkPolyData mapper actor",
+    "Mayavi mlab surf contour3d",
+    "VisPy OpenGL scene canvas visuals"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Network analysis and graph visualisation libraries",
+   "scope": "NetworkX graph classes, algorithms (shortest paths, centrality, community detection), graph I/O formats and drawing, plus the alternatives python-igraph, graph-tool and pyvis.",
+   "queries": [
+    "networkx betweenness_centrality pagerank algorithms",
+    "networkx DiGraph MultiGraph add_edge attributes",
+    "networkx drawing spring_layout draw_networkx",
+    "python-igraph community detection Leiden"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  }
+ ]
+}

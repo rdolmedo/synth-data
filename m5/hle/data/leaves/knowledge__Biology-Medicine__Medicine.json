@@ -1,0 +1,131 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Medicine",
+ "target_leaves": 8,
+ "expected_problems": 61,
+ "leaves": [
+  {
+   "leaf": "Pellagra field investigations in early-1900s America",
+   "scope": "Incidence counts, dietary surveys and household income data from Public Health Service pellagra studies in Southern mill villages and institutions (Goldberger-era reports). A question can ask for computing or comparing attack rates across income or diet groups described in a specific report, or deciding which dietary factor the data most support.",
+   "queries": [
+    "pellagra mill villages incidence",
+    "Goldberger pellagra diet study",
+    "pellagra orphanage asylum experiment",
+    "Public Health Reports pellagra",
+    "pellagra household income survey"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cadaveric prevalence of arterial branching variants",
+   "scope": "Reported frequencies of specific vascular anomalies (persistent median artery, retroesophageal right subclavian, obturator-epigastric anastomosis, variant renal arteries) in individual dissection series and meta-analyses. A question can ask for pooling or comparing prevalences across cited series, or working out the surgical consequence of a given variant.",
+   "queries": [
+    "persistent median artery prevalence",
+    "aberrant right subclavian cadaveric",
+    "corona mortis dissection frequency",
+    "accessory renal artery cadavers",
+    "arterial variation meta-analysis"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Urea cycle disorder biochemical marker profiles",
+   "scope": "Characteristic plasma amino acid and urinary orotic acid patterns for each urea cycle enzyme or transporter defect, plus inheritance modes and neonatal versus late-onset forms. A question can give a laboratory profile and ask which enzyme block is the only one consistent with it.",
+   "queries": [
+    "urea cycle disorder citrulline",
+    "orotic acid ornithine transcarbamylase",
+    "argininosuccinic aciduria plasma",
+    "hyperammonemia amino acid profile",
+    "carbamoyl phosphate synthetase deficiency"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Historical visual acuity notations and test types",
+   "scope": "Original definitions behind Snellen fractions, Jaeger and Parinaud near-reading types, decimal and logMAR scales, and the letter sizes and test distances given in early ophthalmology texts. A question can ask for converting a historical acuity record between notations, or finding the visual angle a specific chart letter subtends.",
+   "queries": [
+    "Snellen test types optotype",
+    "Jaeger reading types",
+    "visual acuity decimal notation",
+    "logMAR conversion Snellen",
+    "minute of arc letter"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Dental maturity staging for age estimation",
+   "scope": "Tooth-development stage definitions and population-specific maturity scores or reference tables (Demirjian, Moorrees, London Atlas variants) published for different populations. A question can ask for scoring a described set of developmental stages and turning the total into an estimated age with a particular published table.",
+   "queries": [
+    "Demirjian dental maturity score",
+    "tooth development stages radiograph",
+    "dental age estimation population",
+    "Moorrees mineralization stages",
+    "third molar age estimation"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Informed consent disclosure standards in state courts",
+   "scope": "Whether individual US jurisdictions use a professional (reasonable-physician) or a material-risk (reasonable-patient) disclosure standard, the causation tests they apply, and the risk percentages argued in specific opinions. A question can ask for applying a named jurisdiction's standard to a stated set of facts to say whether a nondisclosure claim survives.",
+   "queries": [
+    "informed consent reasonable patient",
+    "material risk disclosure physician",
+    "objective causation informed consent",
+    "failure to disclose surgical risk",
+    "professional disclosure standard consent"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Occupational hearing impairment rating formulas",
+   "scope": "Audiometric frequency sets, low fences, per-decibel percentages and better-ear weighting in AMA Guides and state workers' compensation formulas, and how courts have read them. A question can give audiogram thresholds and ask for the monaural or binaural impairment under a specified formula, or how two formulas differ for the same audiogram.",
+   "queries": [
+    "binaural hearing impairment formula",
+    "AMA Guides hearing loss",
+    "workers compensation hearing loss",
+    "audiometric low fence decibels",
+    "noise-induced hearing loss award"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Orthopedic fracture classification systems and prognosis",
+   "scope": "Definitions and reported complication rates for specific grading schemes (Garden, Pauwels, Schatzker, Gustilo-Anderson, Neer) as given in the original series and later validation studies. A question can describe the features of a fracture and ask for its grade, plus the avascular necrosis, nonunion or infection risk a cited series reports for that grade.",
+   "queries": [
+    "Garden classification femoral neck",
+    "Gustilo Anderson open fracture",
+    "Schatzker tibial plateau",
+    "Pauwels angle nonunion",
+    "Neer proximal humerus parts"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

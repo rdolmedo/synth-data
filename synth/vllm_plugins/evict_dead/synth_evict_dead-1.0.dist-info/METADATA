@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: synth-evict-dead
+Version: 1.0
+Summary: vLLM general plugin: evict completion-covering and superseded KV blocks before reusable prefixes

@@ -1,0 +1,722 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Abrahamic traditions",
+ "weight": 0.0113745,
+ "leaves": [
+  {
+   "leaf": "Hebrew Bible canon, Masoretic Text and ancient versions",
+   "scope": "The books and tripartite division of the Tanakh, its canonization, the Masoretic Text and its major codices, and ancient versions such as the Septuagint, Targumim, Samaritan Pentateuch and Peshitta.",
+   "queries": [
+    "Aleppo Codex Leningrad Codex Masoretic Text",
+    "Septuagint translation Alexandria Letter of Aristeas",
+    "Tanakh Torah Nevi'im Ketuvim books order",
+    "Targum Onkelos Jonathan Aramaic translation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dead Sea Scrolls and Second Temple Jewish sects",
+   "scope": "The Qumran discoveries, scroll sigla and contents, and the Pharisees, Sadducees, Essenes, Zealots and other groups of Second Temple Judaism as described by Josephus and Philo.",
+   "queries": [
+    "Qumran caves Dead Sea Scrolls discovery 1947",
+    "Great Isaiah Scroll Copper Scroll Community Rule",
+    "Pharisees Sadducees Essenes Josephus sects",
+    "Damascus Document Teacher of Righteousness Qumran"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mishnah, Talmud and Midrash",
+   "scope": "Orders and tractates of the Mishnah and Tosefta, the Babylonian and Jerusalem Talmuds, midrashic collections, and the Tannaim, Amoraim and Savoraim who produced them.",
+   "queries": [
+    "Mishnah six orders tractates Zeraim Nezikin",
+    "Babylonian Talmud Jerusalem Talmud redaction Amoraim",
+    "Tannaim Judah ha-Nasi Hillel Shammai",
+    "Midrash Rabbah Mekhilta Sifra halakhic midrash"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval rabbinic commentators, codes and responsa",
+   "scope": "The Geonim, Rishonim and Acharonim, their Talmud and Bible commentaries, the major halakhic codes (Mishneh Torah, Arba'ah Turim, Shulchan Aruch, Mishnah Berurah) and responsa literature.",
+   "queries": [
+    "Rashi Tosafists Talmud commentary Troyes",
+    "Maimonides Mishneh Torah fourteen books",
+    "Joseph Karo Shulchan Aruch Moses Isserles",
+    "Geonim Sura Pumbedita responsa literature"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kabbalah, Sabbateanism and Hasidism",
+   "scope": "Jewish mysticism from Merkabah literature and Sefer Yetzirah through the Zohar and Lurianic Kabbalah, Sabbatean and Frankist messianism, and the founders, courts and dynasties of Hasidism and their Misnagdic opponents.",
+   "queries": [
+    "Zohar Moses de Leon Kabbalah sefirot",
+    "Isaac Luria Safed tzimtzum Lurianic Kabbalah",
+    "Sabbatai Zevi Nathan of Gaza Jacob Frank",
+    "Hasidic dynasty Baal Shem Tov rebbe Chabad"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Jewish denominations and movements",
+   "scope": "The Haskalah and the rise of Reform, Conservative, Orthodox, Neo-Orthodox, Reconstructionist and Haredi movements, with their seminaries, platforms, leaders and religious Zionist offshoots.",
+   "queries": [
+    "Reform Judaism Pittsburgh Platform Hebrew Union College",
+    "Conservative Judaism Jewish Theological Seminary Schechter",
+    "Haskalah Moses Mendelssohn Jewish Enlightenment",
+    "Agudath Israel Mizrachi religious Zionism Kook"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jewish calendar, festivals and synagogue liturgy",
+   "scope": "The Hebrew calendar with its months, intercalation and postponement rules, the festivals and fast days, and the siddur, machzor, Torah reading cycle and principal prayers.",
+   "queries": [
+    "Hebrew calendar Metonic cycle leap month Adar",
+    "Amidah Shema siddur prayer services",
+    "weekly Torah portion parashah haftarah cycle",
+    "Sukkot Shavuot Purim Tisha B'Av observance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Halakhic observance and Jewish life-cycle rites",
+   "scope": "Jewish law and custom in daily practice: kashrut, Shabbat labors and eruv, niddah and mikveh, tefillin and tzitzit, conversion, marriage, divorce and mourning.",
+   "queries": [
+    "kashrut kosher laws meat dairy separation",
+    "39 melakhot Shabbat prohibited labors eruv",
+    "ketubah get Jewish divorce agunah",
+    "shiva kaddish Jewish mourning customs yahrzeit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Karaite, Samaritan and minority Israelite communities",
+   "scope": "Karaite Judaism, Samaritanism, Beta Israel, Bene Israel, Cochin Jews and other communities whose scriptures, calendars, priesthoods or customs sit outside mainstream rabbinic Judaism.",
+   "queries": [
+    "Karaite Judaism Anan ben David",
+    "Samaritans Mount Gerizim Samaritan Pentateuch high priest",
+    "Beta Israel Ethiopian Jews Orit kahen",
+    "Bene Israel Cochin Jews India history"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "New Testament canon, manuscripts and textual criticism",
+   "scope": "How the New Testament canon formed, the Greek papyri and great uncial codices, text-types, critical editions such as Nestle-Aland and the Textus Receptus, and the synoptic problem.",
+   "queries": [
+    "Codex Sinaiticus Codex Vaticanus New Testament manuscripts",
+    "Rylands Papyrus P52 earliest New Testament fragment",
+    "Nestle-Aland Textus Receptus Erasmus critical edition",
+    "synoptic problem Q source Markan priority"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Biblical apocrypha, pseudepigrapha and Gnostic texts",
+   "scope": "The deuterocanonical books and how each church places them in its canon, Old Testament pseudepigrapha such as Enoch and Jubilees, New Testament apocrypha, and the Nag Hammadi library and other Gnostic writings.",
+   "queries": [
+    "deuterocanonical books Tobit Judith Maccabees canon",
+    "Book of Enoch Jubilees Ethiopian canon pseudepigrapha",
+    "Nag Hammadi library Gospel of Thomas codices",
+    "Gospel of Judas Infancy Gospel apocrypha"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bible translations and editions",
+   "scope": "Historic and modern translations of the Bible into Latin, vernacular and modern languages, with their translators, dates, source texts and later revisions.",
+   "queries": [
+    "Vulgate Jerome Latin translation Sixto-Clementine",
+    "King James Version 1611 translators companies",
+    "Luther Bible 1534 German translation Wartburg",
+    "Wycliffe Tyndale Geneva Bible English translation"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Church Fathers and patristic literature",
+   "scope": "The Apostolic Fathers, apologists and the Greek, Latin and Syriac Church Fathers, with their works, sees and dates, through the end of the patristic era.",
+   "queries": [
+    "Apostolic Fathers Clement Ignatius Polycarp letters",
+    "Augustine of Hippo City of God Confessions",
+    "Cappadocian Fathers Basil Gregory Nazianzus Nyssa",
+    "Ephrem the Syrian John Chrysostom homilies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ecumenical councils, creeds and Christological controversies",
+   "scope": "The ecumenical and general councils from Nicaea to Vatican II, their canons, decrees and creeds, and the controversies they settled, such as Arianism, Nestorianism, Monophysitism and Iconoclasm.",
+   "queries": [
+    "First Council of Nicaea 325 Arius creed",
+    "Council of Chalcedon 451 Christological definition",
+    "Council of Trent sessions decrees Counter-Reformation",
+    "Second Vatican Council constitutions Lumen Gentium"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Papacy, conclaves and papal documents",
+   "scope": "Popes and antipopes, conclave rules and papal elections, regnal names and numbering, and encyclicals, bulls and apostolic constitutions.",
+   "queries": [
+    "papal conclave Universi Dominici Gregis election rules",
+    "antipope Western Schism Avignon papacy",
+    "papal encyclical Rerum Novarum Humanae Vitae",
+    "papal bull Unam Sanctam Exsurge Domine"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Catholic canon law, Roman Curia and hierarchy",
+   "scope": "The 1917 and 1983 Codes of Canon Law and the Eastern code, the dicasteries and offices of the Roman Curia, the College of Cardinals, and the types of diocese, prelature and ordinariate.",
+   "queries": [
+    "1983 Code of Canon Law canons books",
+    "Roman Curia dicastery Praedicate Evangelium reform",
+    "College of Cardinals cardinal bishop priest deacon",
+    "personal ordinariate territorial prelature apostolic vicariate"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Catholic religious orders, monasticism and military orders",
+   "scope": "Monastic rules and religious institutes such as the Benedictines, Cistercians, Franciscans, Dominicans, Jesuits and Carmelites, with their founders, constitutions and superiors, plus the medieval military orders.",
+   "queries": [
+    "Rule of Saint Benedict monastic Cluny Cistercians",
+    "Franciscan order Friars Minor Capuchins Poor Clares",
+    "Society of Jesus Ignatius Loyola superior general",
+    "Knights Templar Hospitaller Teutonic Order military orders"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Saints, canonization and Marian apparitions",
+   "scope": "The procedures for beatification and canonization, patron saints, feast days, martyrologies, Doctors of the Church, relics, and approved Marian apparitions and their shrines.",
+   "queries": [
+    "canonization process beatification venerable miracle",
+    "Roman Martyrology feast day patron saint",
+    "Marian apparition Lourdes Fatima Guadalupe approved",
+    "Doctor of the Church declared saints list"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eastern Orthodox Church: autocephaly, patriarchates and Byzantine rite",
+   "scope": "The autocephalous and autonomous Orthodox churches, the Ecumenical and other patriarchates, the Great Schism, the Byzantine liturgy, hesychasm, Mount Athos and iconography.",
+   "queries": [
+    "Ecumenical Patriarchate Constantinople autocephaly tomos",
+    "Russian Orthodox Church patriarch Moscow Holy Synod",
+    "Divine Liturgy Saint John Chrysostom Byzantine rite",
+    "hesychasm Gregory Palamas Mount Athos monasteries"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Oriental Orthodox, Church of the East and Eastern Catholic churches",
+   "scope": "The Coptic, Ethiopian, Eritrean, Armenian, Syriac and Malankara churches, the Assyrian Church of the East, and the Eastern Catholic sui iuris churches with their rites and hierarchs.",
+   "queries": [
+    "Coptic Orthodox Pope of Alexandria patriarch",
+    "Ethiopian Orthodox Tewahedo Church canon abuna",
+    "Assyrian Church of the East Catholicos-Patriarch",
+    "Eastern Catholic churches sui iuris Maronite Melkite"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Magisterial Reformation and Lutheran and Reformed confessions",
+   "scope": "Luther, Zwingli, Calvin and other reformers, the key events and documents of the Reformation (Ninety-five Theses, Diet of Worms, Augsburg Confession, Heidelberg Catechism, Westminster Confession), and Lutheran and Reformed church bodies.",
+   "queries": [
+    "Ninety-five Theses Luther Wittenberg 1517",
+    "Augsburg Confession Melanchthon Book of Concord",
+    "John Calvin Institutes Geneva Reformed",
+    "Westminster Confession Heidelberg Catechism Synod of Dort"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anglicanism and the Anglican Communion",
+   "scope": "The English Reformation, the editions of the Book of Common Prayer, the Thirty-nine Articles, the Lambeth Conferences, the provinces of the Anglican Communion, the Archbishops of Canterbury and the Oxford Movement.",
+   "queries": [
+    "Book of Common Prayer 1549 1662 Cranmer",
+    "Thirty-nine Articles Elizabethan Religious Settlement",
+    "Lambeth Conference Anglican Communion provinces",
+    "Archbishop of Canterbury list Oxford Movement"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Radical Reformation and historic peace churches",
+   "scope": "Anabaptists, Mennonites, Amish, Hutterites, Moravians, Quakers and Brethren, with their founders, confessions, practices and migrations.",
+   "queries": [
+    "Anabaptists Schleitheim Confession Swiss Brethren",
+    "Menno Simons Mennonites Dordrecht Confession",
+    "Amish Ordnung Hutterites Bruderhof",
+    "Quakers George Fox Religious Society of Friends"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Methodist, Baptist and Pentecostal evangelical traditions",
+   "scope": "The Wesleyan movement, Baptist origins and conventions, the Great Awakenings and revivalism, and Pentecostal and charismatic churches from Azusa Street onward.",
+   "queries": [
+    "John Wesley Methodism Aldersgate conference",
+    "Southern Baptist Convention founded 1845 Baptist",
+    "Azusa Street Revival William Seymour Pentecostal",
+    "Great Awakening Jonathan Edwards George Whitefield"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latter Day Saint movement",
+   "scope": "Joseph Smith, the Book of Mormon and the other LDS scriptures, church presidents and succession crises, temples, and the denominations of the Latter Day Saint movement.",
+   "queries": [
+    "Joseph Smith Book of Mormon golden plates",
+    "Doctrine and Covenants Pearl of Great Price sections",
+    "Latter-day Saints church presidents succession Brigham Young",
+    "Community of Christ Reorganized Church Latter Day Saints"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adventist, Jehovah's Witness and restorationist movements",
+   "scope": "Millerism and Seventh-day Adventism, the Bible Student movement and Jehovah's Witnesses, Christadelphians, the Stone-Campbell movement and Christian Science.",
+   "queries": [
+    "William Miller Great Disappointment 1844 Adventism",
+    "Seventh-day Adventist Ellen White General Conference",
+    "Jehovah's Witnesses Watch Tower Russell Rutherford",
+    "Stone-Campbell Restoration Movement Christadelphians Christian Science"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Christian liturgy, liturgical year and hymnody",
+   "scope": "Western liturgical rites (Roman, Tridentine, Ambrosian, Mozarabic) and their missals, the liturgical year and lectionaries, the Divine Office, and hymn writers and hymnals.",
+   "queries": [
+    "Tridentine Mass Missale Romanum 1570 Novus Ordo",
+    "liturgical year Advent Ordinary Time Ember days",
+    "Liturgy of the Hours canonical hours breviary",
+    "Charles Wesley Isaac Watts hymn writers hymnal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Quran: structure, compilation and recitation",
+   "scope": "The surahs, verses and divisions (juz', hizb) of the Quran, the Meccan/Medinan classification, the Uthmanic codex and early manuscripts, the canonical qira'at, and classical tafsir works.",
+   "queries": [
+    "Quran surahs Meccan Medinan verses count",
+    "Uthmanic codex compilation Zayd ibn Thabit",
+    "seven qira'at Hafs Warsh Quran readers",
+    "tafsir al-Tabari Ibn Kathir Jalalayn commentary"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hadith literature and hadith sciences",
+   "scope": "The canonical Sunni collections (Kutub al-Sittah), the Muwatta and Musnad works, their compilers, isnad analysis, narrator criticism (rijal) and grading terminology.",
+   "queries": [
+    "Sahih al-Bukhari Sahih Muslim hadith collections",
+    "Kutub al-Sittah Sunan Abu Dawud Tirmidhi",
+    "hadith terminology sahih hasan da'if isnad",
+    "Muwatta Malik Musnad Ahmad ibn Hanbal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Life of Muhammad, the Companions and the Rashidun caliphate",
+   "scope": "Sira literature, the events of Muhammad's life (Hijra, battles, treaties), his wives and family, notable Sahaba, and succession under the Rashidun caliphs.",
+   "queries": [
+    "Ibn Ishaq sira Muhammad biography",
+    "Battle of Badr Uhud Trench Hudaybiyyah",
+    "Rashidun caliphs Abu Bakr Umar Uthman Ali",
+    "Sahaba companions Ten Promised Paradise Ahl al-Bayt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sunni schools of law and usul al-fiqh",
+   "scope": "The Hanafi, Maliki, Shafi'i and Hanbali madhhabs and the extinct schools, their founders and key texts, and legal theory: qiyas, ijma, istihsan, maslaha, ijtihad and the institutions that issue fatwas.",
+   "queries": [
+    "Hanafi Maliki Shafi'i Hanbali madhhab founders",
+    "usul al-fiqh qiyas ijma istihsan",
+    "al-Shafi'i Risala Islamic legal theory",
+    "Zahiri school Ibn Hazm extinct madhhabs"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Islamic ritual practice, Hajj and the Hijri calendar",
+   "scope": "The Five Pillars, the rules and times of salat, zakat, Ramadan fasting, the rites and stations of Hajj and Umrah, the Eid festivals and the Hijri calendar.",
+   "queries": [
+    "Hajj rituals Arafat Mina Muzdalifah tawaf",
+    "Islamic calendar Hijri months Muharram Ramadan",
+    "salat five daily prayers rakat times",
+    "zakat nisab sadaqah zakat al-fitr"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Twelver Shi'ism",
+   "scope": "The Twelve Imams, the Occultation and its four deputies, the Four Books of Twelver hadith, the marja'iyya and the hawza seminaries, the Usuli-Akhbari dispute, and observances such as Ashura and Arba'een.",
+   "queries": [
+    "Twelve Imams Shia Occultation Mahdi deputies",
+    "Four Books Kitab al-Kafi Shia hadith",
+    "marja taqlid grand ayatollah hawza Najaf Qom",
+    "Ashura Karbala Husayn Arbaeen pilgrimage"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ismaili, Zaydi, Alawite and Druze traditions",
+   "scope": "The Ismaili branches (Nizari, Musta'li, Dawoodi Bohra) and their imams and da'is, the Fatimid da'wa, Zaydism in Yemen, the Alawites, and the Druze faith and its scriptures.",
+   "queries": [
+    "Nizari Ismaili Aga Khan imamate",
+    "Dawoodi Bohra Musta'li Tayyibi dai al-mutlaq",
+    "Zaydi imamate Yemen Zaydism",
+    "Druze Epistles of Wisdom al-Hakim Hamza"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sufism and Sufi orders",
+   "scope": "Early Sufi figures, Sufi terminology and treatises, and the founders, silsilas and practices of tariqas such as the Qadiriyya, Naqshbandiyya, Chishtiyya, Shadhiliyya and Mevlevi.",
+   "queries": [
+    "Naqshbandi Qadiri Chishti Sufi orders founders",
+    "Rumi Mevlevi order whirling dervishes Konya",
+    "Rabia al-Adawiyya Junayd al-Hallaj Sufism",
+    "Ibn Arabi Fusus al-Hikam wahdat al-wujud"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kalam and Islamic philosophy",
+   "scope": "The theological schools (Mu'tazila, Ash'ariyya, Maturidiyya, Athari) and their doctrines, and the falsafa tradition of al-Kindi, al-Farabi, Ibn Sina, al-Ghazali and Ibn Rushd and their works.",
+   "queries": [
+    "Mu'tazila five principles createdness Quran",
+    "Ash'ari Maturidi Sunni theology schools",
+    "al-Ghazali Incoherence of the Philosophers",
+    "Ibn Rushd Ibn Sina al-Farabi falsafa"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Islamic reform and revivalist movements",
+   "scope": "Wahhabism, Salafism, the Deobandi, Barelvi and Ahl-i Hadith movements, Islamic modernism (al-Afghani, Abduh), the Muslim Brotherhood, Jamaat-e-Islami, Tablighi Jamaat and the Nur movement.",
+   "queries": [
+    "Muhammad ibn Abd al-Wahhab Wahhabism Diriyah",
+    "Darul Uloom Deoband Barelvi movement founded",
+    "Muslim Brotherhood Hassan al-Banna founded 1928",
+    "Tablighi Jamaat Jamaat-e-Islami Maududi Nursi"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Prophets and biblical figures in Islamic tradition",
+   "scope": "The Quranic prophets and other figures shared with Jewish and Christian scripture, their Arabic names and Quranic narratives, Qisas al-Anbiya literature, and the shrines linked to them.",
+   "queries": [
+    "prophets of Islam named in Quran",
+    "Isa Maryam Quran Jesus Islamic view",
+    "Qisas al-Anbiya stories of the prophets",
+    "Ibrahim Ismail Kaaba Musa Harun Quran"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Babi and Baha'i Faith",
+   "scope": "The Báb and Bábism, Bahá'u'lláh, 'Abdu'l-Bahá and Shoghi Effendi, the Bahá'í scriptures, the Universal House of Justice, the Badí' calendar and the Bahá'í holy places.",
+   "queries": [
+    "Bab Babism Shiraz 1844 declaration",
+    "Bahaullah Kitab-i-Aqdas Kitab-i-Iqan",
+    "Universal House of Justice Shoghi Effendi Guardian",
+    "Bahai calendar Naw-Ruz Badi months"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Abrahamic new religious movements",
+   "scope": "Modern movements built on Abrahamic traditions, including the Ahmadiyya, the Nation of Islam and Moorish Science Temple, Rastafari, Black Hebrew Israelites, Messianic Judaism and the Unification Church.",
+   "queries": [
+    "Ahmadiyya Mirza Ghulam Ahmad Qadian caliphate",
+    "Nation of Islam Wallace Fard Elijah Muhammad",
+    "Rastafari Haile Selassie Kebra Nagast Garvey",
+    "Messianic Judaism Jews for Jesus Unification Church"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Biblical archaeology and Northwest Semitic inscriptions",
+   "scope": "Excavated sites and inscribed objects that bear on the Hebrew Bible and ancient Israel and Judah, such as the Mesha Stele, Tel Dan Stele, Merneptah Stele, Siloam inscription, Lachish and Arad ostraca and the Ketef Hinnom amulets.",
+   "queries": [
+    "Mesha Stele Moabite inscription Dhiban discovery",
+    "Tel Dan stele House of David Aramaic",
+    "Siloam inscription Hezekiah's tunnel paleo-Hebrew",
+    "Lachish letters ostraca Babylonian siege excavation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Historical-critical biblical scholarship and source hypotheses",
+   "scope": "Modern critical theories of how the biblical books were composed and the scholars behind them, including the Documentary Hypothesis, the Deuteronomistic History, Deutero-Isaiah, form and redaction criticism, the Synoptic Problem, the Q source and the quests for the historical Jesus.",
+   "queries": [
+    "Documentary hypothesis Wellhausen JEDP sources Pentateuch",
+    "Deuteronomistic history Martin Noth hypothesis",
+    "two-source hypothesis Q source Markan priority",
+    "form criticism Gunkel Bultmann Sitz im Leben"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hebrew Bible narrative: patriarchs, judges and kings of Israel and Judah",
+   "scope": "The stories and figures of the Hebrew Bible from Genesis through Kings and Chronicles, including genealogies and lifespans, the tribal allotments, the judges, the united and divided monarchies with their regnal chronology, and the narratives of prophets such as Elijah and Elisha.",
+   "queries": [
+    "kings of Israel and Judah regnal chronology",
+    "Book of Judges list of judges",
+    "Genesis patriarchs genealogy ages Abraham Jacob",
+    "Elijah Elisha prophets narrative Books of Kings"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jesus, the apostles and the Apostolic Age in the New Testament",
+   "scope": "The narrative content of the Gospels, Acts and Epistles and the early traditions built on it, covering Jesus' parables and miracles, the Twelve and how tradition says they died, the Jerusalem church, the Council of Jerusalem and Paul's missionary journeys.",
+   "queries": [
+    "Paul's missionary journeys Acts cities route",
+    "Twelve Apostles names traditions martyrdom fates",
+    "parables and miracles of Jesus gospels",
+    "Council of Jerusalem Acts 15 James Peter"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval and modern Jewish philosophy",
+   "scope": "Jewish philosophical theology from Saadia Gaon, Maimonides' Guide for the Perplexed, Judah Halevi, Gersonides and Crescas through Mendelssohn, Hermann Cohen, Rosenzweig, Buber, Heschel, Soloveitchik and Levinas.",
+   "queries": [
+    "Maimonides Guide for the Perplexed negative attributes",
+    "Judah Halevi Kuzari Khazar king dialogue",
+    "Gersonides Wars of the Lord Crescas",
+    "Rosenzweig Star of Redemption Buber Heschel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sephardic and Ashkenazi diaspora history and the Cairo Geniza",
+   "scope": "The history and self-government of medieval and early modern Jewish diaspora communities, including the Cairo Geniza, the Rhineland massacres of 1096, the expulsions from England, France and Spain, Sephardic exile communities and the Council of Four Lands.",
+   "queries": [
+    "Cairo Geniza Ben Ezra Synagogue Schechter",
+    "Alhambra Decree 1492 expulsion Jews Spain",
+    "Edict of Expulsion 1290 Jews England",
+    "Council of Four Lands Polish Jewry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval scholastic theology",
+   "scope": "Latin Christian theology of the cathedral schools and universities from about 1050 to 1500, including Anselm, Abelard, Peter Lombard's Sentences, Aquinas, Bonaventure, Duns Scotus, Ockham, the Condemnations of 1277 and late medieval nominalism.",
+   "queries": [
+    "Thomas Aquinas Summa Theologiae five ways structure",
+    "Peter Lombard Sentences medieval theology commentary",
+    "Duns Scotus univocity haecceity Franciscan theologian",
+    "Condemnations of 1277 Tempier Paris"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval heresies and the Inquisitions",
+   "scope": "Medieval and early modern Christian dissenting movements and how they were suppressed, including the Bogomils, Cathars, Waldensians, Lollards and Hussites, the Albigensian Crusade, and the medieval, Spanish, Portuguese and Roman Inquisitions.",
+   "queries": [
+    "Cathars Albigensian Crusade Montségur Béziers",
+    "Waldensians Peter Waldo Lollards Wycliffe heresy",
+    "Hussites Jan Hus Taborites Utraquists",
+    "Spanish Inquisition Torquemada auto-da-fé tribunal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Modern Christian theology and theologians",
+   "scope": "Protestant and Catholic theological movements since the 19th century, including Schleiermacher and liberal Protestantism, Barth and neo-orthodoxy, Tillich, Bonhoeffer, Rahner and the nouvelle théologie, and liberation, feminist and Black theologies.",
+   "queries": [
+    "Karl Barth Church Dogmatics neo-orthodoxy",
+    "Schleiermacher liberal Protestant theology feeling dependence",
+    "liberation theology Gustavo Gutiérrez base communities",
+    "Bonhoeffer Confessing Church Cost of Discipleship"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Christian missions and the ecumenical movement",
+   "scope": "Catholic and Protestant missionary work and missionary societies, such as the Jesuit missions, the Baptist Missionary Society, the London Missionary Society, the Church Missionary Society and the China Inland Mission, and the ecumenical movement from Edinburgh 1910 to the World Council of Churches and agreements between churches.",
+   "queries": [
+    "Edinburgh 1910 World Missionary Conference",
+    "World Council of Churches assemblies Amsterdam 1948",
+    "Hudson Taylor China Inland Mission founded",
+    "Matteo Ricci Chinese Rites controversy Jesuit"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tafsir and Quranic exegesis",
+   "scope": "Classical and modern commentaries on the Quran and the disciplines used to interpret it, including al-Tabari, al-Zamakhshari, Fakhr al-Din al-Razi, al-Qurtubi, Ibn Kathir, Tafsir al-Jalalayn, Shi'i and Sufi tafsir, the occasions of revelation (asbab al-nuzul) and abrogation (naskh).",
+   "queries": [
+    "Tafsir al-Tabari Jami al-Bayan exegesis",
+    "Zamakhshari al-Kashshaf Mu'tazili commentary",
+    "Tafsir al-Jalalayn al-Mahalli al-Suyuti",
+    "asbab al-nuzul occasions of revelation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kharijites and Ibadi Islam",
+   "scope": "The Kharijite break after the arbitration at Siffin, its sub-sects such as the Azariqa, Najdat and Sufriyya, and the surviving Ibadi tradition with its imamates, scholars and communities in Oman, the Mzab, Jerba and Zanzibar.",
+   "queries": [
+    "Kharijites Battle of Siffin arbitration Nahrawan",
+    "Azariqa Najdat Sufriyya Kharijite sects",
+    "Ibadi imamate Oman Rustamid dynasty Tahert",
+    "Mzab valley Ibadi Ghardaia Jerba community"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

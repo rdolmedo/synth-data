@@ -1,0 +1,104 @@
+# AA evals: SFT checkpoints of the Snowflakes (tiny GrugMoe, d512 / d768 / d1024; the Snowball architecture at
+# small width, HF exports of sft_snowball/hf_io.py), one replica per B200, 128k context, text only:
+#   serve_teacher submit --teacher snowflake-eval --checkpoint DIR --name NAME     (1x B200 at bid 61 by default)
+#
+# snowball-eval.toml (read its header) with ONE change: bf16 weights and bf16 KV cache instead of block-FP8 weights and
+# FP8 KV. Block FP8 costs these small models +0.0035-0.0052 BPB (~1%) vs Snowball +0.0017 (Snowflake TB ladder, 11-08),
+# a size-dependent bias on a width ladder, so the Snowflake TB evals ran bf16; the M5 ladder BPB of these checkpoints
+# is bf16 too (vLLM 0.20.1, sft_qwen35/vllm_bpb.py). Everything else is snowball-eval's: the GrugMoe plugin (SWA keep,
+# seeded sampler, Triton routing; FP8 is applied only when quantization is fp8, grug_moe.py), the Snowball text-level
+# reasoning / tool parsers, template check, request overrides, ctx turn gate, resources. KV at bf16 is ample here:
+# d1024 is 11 layers x 2 KV heads x 128 x 2 bytes x 2 = 11 KiB/token, ~12M tokens on a B200 at 0.90 (d512 3 KiB/token).
+# - MoE kernel: VLLM_USE_FLASHINFER_MOE_FP16=0 drops vLLM 0.20.1's FlashInfer unquantized MoE backends, so the bf16
+#   experts run on Triton fused_moe. Its auto pick on B200, FlashInfer CUTLASS, crashed sf-d768 with a CUDA illegal memory
+#   access at 142 running requests on 2026-11-16, after 20 minutes clean at canary load (~10). The H100 Snowflake evals ran Triton.
+slug = "snowflake-eval"
+model = "GrugMoe Snowflakes (d512 / d768 / d1024, Snowball architecture), SFT exports of sft_snowball/hf_io.py"
+revision = "per checkpoint: serve_teacher --checkpoint (recorded in job.json, launch.json and endpoints.json)"
+checkpoint = "/data/aai/grug-b200/snowflake/tb/ckpts/m5l-sf-d512-full"
+served_name = "snowball"
+stage_checkpoint = true
+
+[checkpoint_checks]
+architectures = ["GrugMoeForCausalLM"]
+# sft_snowball/snowball_chat_template.jinja (eval_q35 common.GRUG_TEMPLATES['snowball']): <think> and XML tool calls,
+# which snowball_parsers.py reads
+chat_template_sha256 = ["cb728ba63d3c6393bbce328a7c6a00359f259b7b9b1bbdc074b1ad53e5029f7c"]
+
+[runtime]
+venv = "/home/user/vllm0201"
+vllm_version = "0.20.1"
+cuda_home = "/is/software/nvidia/cuda-13.2"
+cuda_visible_devices = "index"   # vLLM 0.20.1 parses CUDA_VISIBLE_DEVICES as integers (HTCondor assigns UUIDs)
+cache_env = ["HOME", "VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE",
+             "XDG_CACHE_HOME"]
+env = { PATH = "/is/software/nvidia/cuda-13.2/bin:/home/user/vllm0201/bin:/usr/local/bin:/usr/bin:/bin", PYTHONPATH = "{repo}/serve_snowball/plugin", HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", VLLM_WORKER_MULTIPROC_METHOD = "spawn", VLLM_ENGINE_READY_TIMEOUT_S = "3600", GRUG_SWA_KEEP = "1", GRUG_SEEDED_SAMPLER = "1", GRUG_TRITON_ROUTING = "1", GRUG_FP8_POW2 = "1", VLLM_USE_DEEP_GEMM = "0", VLLM_USE_FLASHINFER_MOE_FP16 = "0" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--max-model-len", "{max_model_len}", "--tensor-parallel-size", "1", "--gpu-memory-utilization", "{gpu_util}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}", "--api-server-count", "{api_servers}",
+  "--enable-prefix-caching",
+  "--hf-overrides", '{{"architectures":["GrugMoeServeForCausalLM"]}}',
+  "--reasoning-parser-plugin", "{repo}/serve_snowball/snowball_parsers.py",
+  "--tool-parser-plugin", "{repo}/serve_snowball/snowball_parsers.py",
+  "--reasoning-parser", "snowball", "--enable-auto-tool-choice", "--tool-call-parser", "snowball",
+  "--generation-config", "vllm", "--override-generation-config", '{{"temperature":1.0,"top_p":0.95}}',
+  "--chat-template", "{model_dir}/chat_template.jinja",
+  "--language-model-only", "--enable-prompt-tokens-details",
+  "--no-enable-log-requests", "--seed", "{seed}",
+]
+seed = 0
+startup_timeout_sec = 3600
+# Startup probes (synth.probe: greedy "17 + 25" and a bare-bash tool call) are logged to <registry>/probe.jsonl, not
+# fatal: a student that answers the bare prompt in plain text (m5v-W-1b, 2026-11-13) is a model outcome; parsing was
+# validated in the smoke (notes/serving.md).
+probe = "log"
+
+[serving.env]
+GRUG_FI_AOT_DIR = "/data/aai/tbenchtrain/snowball_serve/fi_aot/{fi_aot_arch}"
+
+[serving.tunables]
+gpu_util = 0.90          # eval_q35 submit.py default
+max_seqs = 256           # eval_q35 default
+max_batched = 16384      # eval_q35 serve_job.sh
+api_servers = 4          # eval_q35 snowball_config
+fi_aot_arch = "100a"     # B200; "90a" with --cuda-cap 9.0
+omp_threads = 8
+
+[request]
+client_model = "hosted_vllm/snowball"
+# pi_eval: run eval_q35's context-aware turn gate with the run, plus the proxies' KV brake 0.80/0.72
+ctx_gate = true
+ctx_fill = 0.7
+kv_gate = "0.80,0.72"
+overrides = { temperature = 1.0, top_p = 0.95, reasoning_effort = "high", chat_template_kwargs = { clear_thinking = false } }
+
+[counting]
+# synth-campaign token accounting only (synth/serializers.py, synth/prepare.py); serve_teacher never reads it, so the
+# engine argv, env and engine-cache key are unchanged. The checkpoint's own Llama-3 tokenizer and Snowball template.
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false }
+
+[serving_resources]
+# #378 method (2026-11-14, optim-port-snowshape-1, 1x B200 at 8c/96G, replay of eval_q35's TB2.1 Snowball traffic at
+# 128 agents, the dispatcher budget: 4,366 gen tok/s, prefix hit 0.94, no holds): cgroup non-reclaimable peak 8.8 GiB
+# (rss 8.6 + shmem 0.2; page cache is reclaimed, never held; M5's long AA runs: condor RSS <= 10.6 GB per engine),
+# serving cores p99 2.51 (load window 2.35), start-up max 3.9. CPUs bind: 3x p99 -> 8. RAM is free up to 16 x CPUs
+# (units = max(CPUs, GB/16)), so 128 GiB at the same 8 units as 96 (no saving: CPUs were already at need). More page
+# cache for the 125 GiB staged checkpoint, though it still does not fit whole with the 8.8 GiB peak (benefit unmeasured).
+# /data/aai/aa_evals/audits/snowball_port_20261114/live/shape_summary.json. Was 8 / 96 (#258 eval_q35 numbers).
+cpus_per_gpu = 8
+memory_gib_per_gpu = 128   # hard peak 8.8 GiB; serving cores p99 2.51, start-up 3.9; was 96
+cuda_capability = "10.0"   # B200
+default_gpus = 1           # one replica (submit --gpus N: N independent engines, one per GPU)
+default_bid = 61
+disk_gib = 60              # Snowflake checkpoints are 1.5-8.9 GB bf16 (staged on local disk), plus engine caches
+bypass_lxcfs = true
+exclude_nodes = ["cpu102", "cpu307", "cpu403", "cpu405"]   # eval_q35 submit.py's Snowball exclusions

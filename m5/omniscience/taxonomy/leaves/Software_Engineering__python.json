@@ -1,0 +1,1535 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "python",
+ "weight": 0.023398000000000002,
+ "leaves": [
+  {
+   "leaf": "asyncio event loop, tasks and async/await APIs",
+   "scope": "The asyncio package across CPython 3.x: event loops and policies, tasks, TaskGroup, timeouts, cancellation semantics, streams, transports/protocols, and API additions and deprecations per release.",
+   "queries": [
+    "asyncio TaskGroup timeout new in version 3.11",
+    "asyncio event loop policy deprecated get_event_loop",
+    "asyncio.run create_task gather shield cancellation",
+    "asyncio streams StreamReader subprocess transports protocols"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Threads, processes, the GIL and free-threaded CPython",
+   "scope": "threading, multiprocessing, concurrent.futures, the global interpreter lock, the PEP 703 free-threaded build, and subinterpreters (PEP 554/684/734).",
+   "queries": [
+    "global interpreter lock free-threaded build PEP 703",
+    "multiprocessing start method fork spawn forkserver default",
+    "concurrent.futures ThreadPoolExecutor max_workers default",
+    "subinterpreters PEP 734 InterpreterPoolExecutor concurrent.interpreters"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Syntax additions by Python version",
+   "scope": "Grammar changes introduced by specific PEPs and releases, e.g. the walrus operator, positional-only parameters, match statements, PEP 701 f-strings, t-strings, parenthesized context managers and PEP 758 except clauses.",
+   "queries": [
+    "assignment expressions walrus operator PEP 572",
+    "structural pattern matching match case PEP 634",
+    "f-string grammar formalized PEP 701 nested quotes",
+    "template string literals t-strings PEP 750"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type hints, the typing module and static type checkers",
+   "scope": "Typing PEPs and typing-module constructs (TypedDict, Protocol, ParamSpec, TypeVarTuple, PEP 695 generics), stub files and typeshed, and checkers such as mypy, pyright, pyre and pytype.",
+   "queries": [
+    "typing module TypedDict Protocol ParamSpec TypeVarTuple",
+    "type parameter syntax PEP 695 type alias statement",
+    "mypy configuration strict mode error codes",
+    "PEP 484 type hints stub files typeshed"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Data model: special methods, descriptors, metaclasses and MRO",
+   "scope": "The Python object model: dunder methods, attribute lookup, the descriptor protocol, __slots__, metaclasses, __init_subclass__ and __set_name__, and C3 method resolution order.",
+   "queries": [
+    "data model special method names __getattribute__ __set_name__",
+    "descriptor protocol __get__ __set__ data descriptor precedence",
+    "metaclass __prepare__ __init_subclass__ class creation",
+    "method resolution order C3 linearization __mro__"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Iterators, generators, functional tools and context managers",
+   "scope": "Iterator and generator protocols, yield from, closures and scoping (LEGB, nonlocal), decorators, and the itertools, functools, operator and contextlib modules.",
+   "queries": [
+    "itertools recipes pairwise batched accumulate chain",
+    "functools lru_cache cached_property singledispatch partial",
+    "generator send throw close yield from PEP 380",
+    "contextlib contextmanager ExitStack suppress nullcontext"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "CPython compiler pipeline and bytecode interpreter internals",
+   "scope": "How CPython tokenizes, parses (PEG parser, ast, symtable), compiles to bytecode and runs code: dis opcodes, code objects, the specializing adaptive interpreter (PEP 659) and the experimental JIT (PEP 744).",
+   "queries": [
+    "dis module bytecode instructions opcode LOAD_FAST",
+    "specializing adaptive interpreter PEP 659 quickening",
+    "experimental JIT compiler copy-and-patch PEP 744",
+    "ast module node classes NodeTransformer parse"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "CPython memory management and garbage collection",
+   "scope": "Reference counting, the gc module and its generations and thresholds, pymalloc arenas and pools, immortal objects, weak references, and memory-allocator environment settings.",
+   "queries": [
+    "gc module generations thresholds collect get_threshold",
+    "pymalloc allocator arenas pools PYTHONMALLOC",
+    "immortal objects PEP 683 reference count",
+    "weakref module WeakValueDictionary finalize callbacks"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "C API, stable ABI and native extension tooling",
+   "scope": "Writing and binding native code: the CPython C API, the limited API/stable ABI (abi3), ctypes, cffi, Cython, pybind11 and nanobind.",
+   "queries": [
+    "limited C API stable ABI Py_LIMITED_API abi3",
+    "ctypes foreign function library CDLL Structure",
+    "Cython cdef typed memoryviews compiler directives",
+    "pybind11 nanobind binding C++ classes Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python compilers, JITs and application bundlers",
+   "scope": "Tools that compile or freeze Python programs, e.g. Nuitka, mypyc, Numba, Codon, PyInstaller, cx_Freeze, py2exe, Briefcase and zipapp, plus their modes and options.",
+   "queries": [
+    "PyInstaller onefile bootloader spec file hooks",
+    "Nuitka compile Python to C standalone mode",
+    "Numba jit nopython mode LLVM decorator",
+    "zipapp executable archive shebang pyz"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Packaging standards, build backends and PyPI",
+   "scope": "PyPA specifications and tooling for building and publishing distributions: pyproject.toml, PEP 517/518/621/660, wheels and platform tags, core metadata, version specifiers, setuptools/hatchling/flit, twine and PyPI.",
+   "queries": [
+    "pyproject.toml build-system requires PEP 517 backend",
+    "wheel filename platform compatibility tags manylinux",
+    "core metadata fields Requires-Dist version specifiers",
+    "PyPI trusted publishing twine upload sdist"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Virtual environments and dependency management tools",
+   "scope": "Installing packages and isolating environments: venv, virtualenv, pip and its resolver, PEP 668 externally managed environments, lock files, and tools such as Poetry, Pipenv, conda, pyenv and uv.",
+   "queries": [
+    "venv module pyvenv.cfg activate scripts",
+    "pip dependency resolver install options requirements file",
+    "externally managed environment PEP 668 EXTERNALLY-MANAGED",
+    "uv Poetry lockfile dependency resolution tool"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Built-in types, built-in functions and container modules",
+   "scope": "How core types (int, list, dict, set, tuple, bytes, memoryview) and built-in functions behave, plus the collections, heapq, bisect and array modules.",
+   "queries": [
+    "built-in functions round sorted enumerate zip strict",
+    "dict insertion order preserved language guarantee 3.7",
+    "bytes bytearray memoryview buffer protocol methods",
+    "collections deque Counter OrderedDict defaultdict ChainMap"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, Unicode, codecs and regular expressions",
+   "scope": "str methods and format specifications, Unicode handling and unicodedata, codecs and error handlers, and the re module's syntax, flags and behavior changes.",
+   "queries": [
+    "re module regular expression syntax lookbehind flags",
+    "str methods casefold removeprefix format specification mini-language",
+    "codecs standard encodings error handlers surrogateescape",
+    "unicodedata normalize NFC Unicode database version"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numeric types and math libraries",
+   "scope": "Integer and float semantics, decimal and fractions, math and cmath, the statistics and random modules, and numeric limits such as the int/str conversion length limit.",
+   "queries": [
+    "decimal module context precision rounding modes",
+    "math module isqrt comb prod fsum new functions",
+    "integer string conversion length limit int_max_str_digits",
+    "random Mersenne Twister statistics fmean linear_regression"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Date, time and time zone handling",
+   "scope": "The datetime, time, zoneinfo and calendar modules, strftime directives, clocks, and third-party libraries such as pytz and dateutil.",
+   "queries": [
+    "datetime fromisoformat strftime directives timezone aware",
+    "zoneinfo IANA time zone database tzdata PEP 615",
+    "time module perf_counter monotonic clock resolution",
+    "pytz dateutil relativedelta localize normalize"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Filesystem paths, file I/O and archive modules",
+   "scope": "pathlib, os.path, io and open(), shutil, tempfile and glob, plus the compression and archive modules (zlib, gzip, bz2, lzma, zstd, zipfile, tarfile).",
+   "queries": [
+    "pathlib Path methods PurePath glob walk",
+    "io module TextIOWrapper buffering open encoding default",
+    "tarfile zipfile extraction filters PEP 706",
+    "zlib gzip lzma zstd compression level"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Serialization and data-format modules",
+   "scope": "Standard-library data formats: pickle protocols, marshal, json, csv, struct, tomllib, configparser, plistlib, shelve and xml.etree.",
+   "queries": [
+    "pickle protocol versions highest default protocol 5",
+    "json module dumps separators object_hook JSONDecoder",
+    "struct format characters byte order alignment",
+    "csv dialect quoting constants configparser interpolation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Networking, TLS and HTTP clients",
+   "scope": "socket, ssl, selectors, http.client, urllib, email and smtplib, ipaddress, and third-party HTTP clients such as requests, urllib3, httpx and aiohttp.",
+   "queries": [
+    "socket module address families options timeout",
+    "ssl module SSLContext TLS protocol versions certificates",
+    "urllib.request http.client HTTPConnection",
+    "requests httpx aiohttp HTTP client sessions timeouts"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Processes, signals and operating-system interfaces",
+   "scope": "subprocess, os process and environment functions, signal handling, platform detection, and Unix-specific modules such as resource, pty, fcntl and pwd.",
+   "queries": [
+    "subprocess run Popen check_output capture_output",
+    "signal module handlers SIGINT set_wakeup_fd",
+    "os module process management fork exec environ",
+    "platform sys.platform os.uname system identification"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "The import system and module loading",
+   "scope": "How imports resolve and execute: finders and loaders, sys.meta_path, importlib and importlib.metadata/resources, namespace packages, __main__ and runpy, zipimport, and .pyc caching and invalidation.",
+   "queries": [
+    "import system finders loaders meta path",
+    "importlib.metadata entry points resources files",
+    "namespace packages PEP 420 __init__ portions",
+    "cached bytecode pyc invalidation hash-based PEP 552"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Interpreter startup, command-line options and environment variables",
+   "scope": "Configuring the python executable: -X options and other flags, PYTHON* environment variables, the site module and .pth files, UTF-8 mode, isolated and safe-path modes, and the interactive REPL.",
+   "queries": [
+    "command line options -X dev mode importtime",
+    "environment variables PYTHONPATH PYTHONHASHSEED PYTHONSAFEPATH",
+    "site module site-packages .pth files usercustomize",
+    "Python UTF-8 Mode PEP 540 locale coercion"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Exceptions, tracebacks and warnings",
+   "scope": "The built-in exception hierarchy, exception chaining, exception groups and except*, add_note, traceback error locations, and the warnings framework and its filters.",
+   "queries": [
+    "built-in exceptions class hierarchy BaseException OSError subclasses",
+    "exception groups except star PEP 654",
+    "warnings filter actions DeprecationWarning default display",
+    "traceback module add_note error locations PEP 657"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Debugging, profiling, tracing and logging",
+   "scope": "pdb and breakpoint(), cProfile/profile and pstats, timeit, tracemalloc, faulthandler, sys.monitoring and sys.settrace, perf and remote-debugging support, and the logging package.",
+   "queries": [
+    "pdb debugger commands breakpoint PYTHONBREAKPOINT",
+    "cProfile pstats profile deterministic profiling",
+    "tracemalloc faulthandler sys.monitoring PEP 669",
+    "logging module handlers formatters LogRecord attributes levels"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing frameworks and test tooling",
+   "scope": "unittest, unittest.mock, doctest, pytest and its plugins, Hypothesis, tox/nox, and coverage.py.",
+   "queries": [
+    "unittest TestCase assert methods setUpClass skip",
+    "unittest.mock patch MagicMock side_effect autospec",
+    "pytest fixtures scope parametrize markers conftest",
+    "Hypothesis property-based testing strategies tox coverage"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Code style, linters, formatters and documentation tools",
+   "scope": "PEP 8 and PEP 257 conventions, linters and formatters (flake8, pylint, Black, Ruff, isort, pre-commit), and documentation tooling (Sphinx, reStructuredText, docstring styles, MkDocs, pydoc).",
+   "queries": [
+    "PEP 8 style guide line length naming conventions",
+    "Ruff Black Flake8 Pylint lint rules configuration",
+    "Sphinx autodoc reStructuredText directives roles",
+    "PEP 257 docstring conventions numpydoc Google style"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Python history, governance and release lifecycle",
+   "scope": "The language's origins, Guido van Rossum and the BDFL era, the PSF and Steering Council (PEP 13), the PEP process, release managers, the annual release cycle (PEP 602), and version support and end-of-life dates.",
+   "queries": [
+    "Python Software Foundation steering council PEP 13 governance",
+    "Guido van Rossum BDFL history ABC language",
+    "PEP 602 annual release cycle Python version status",
+    "CPython release managers end of life dates"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python 2 legacy and the migration to Python 3",
+   "scope": "How Python 2.x differs from 3.x, Python 3.0's breaking changes, migration tooling (2to3, six, future, __future__ imports), and the 2.7 sunset.",
+   "queries": [
+    "Python 2.7 end of life sunset 2020",
+    "2to3 fixers lib2to3 automated translation",
+    "six compatibility library __future__ imports",
+    "Python 3.0 changes print function unicode strings integer division"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alternative Python implementations",
+   "scope": "Non-CPython runtimes and their compatibility and design: PyPy, Jython, IronPython, GraalPy, MicroPython, CircuitPython, Pyodide, Brython, Stackless and Cinder.",
+   "queries": [
+    "PyPy JIT tracing RPython compatibility",
+    "MicroPython CircuitPython microcontroller ports",
+    "Jython IronPython Java .NET implementation",
+    "Pyodide WebAssembly Emscripten GraalPy implementation"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "NumPy, SciPy and scientific computing libraries",
+   "scope": "NumPy arrays, dtypes, broadcasting, ufuncs and NEPs, the NumPy 2.0 changes, SciPy subpackages (optimize, linalg, stats, signal, sparse), and SymPy.",
+   "queries": [
+    "NumPy 2.0 release notes dtype promotion NEP 50",
+    "numpy broadcasting rules ufunc casting",
+    "scipy.optimize minimize methods scipy.linalg",
+    "SymPy symbolic computation solve simplify"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pandas and DataFrame libraries",
+   "scope": "The pandas API, its indexing, groupby, dtypes and release changes (Copy-on-Write, PyArrow-backed strings), plus Polars and PyArrow.",
+   "queries": [
+    "pandas Copy-on-Write default 3.0",
+    "DataFrame groupby agg merge join options",
+    "pandas PyArrow string dtype nullable extension types",
+    "Polars lazy API expressions Apache Arrow"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Machine learning and deep learning frameworks",
+   "scope": "scikit-learn's estimator API and its modules, plus PyTorch, TensorFlow/Keras and JAX: APIs, compilation features and version history.",
+   "queries": [
+    "scikit-learn estimator fit predict Pipeline API",
+    "PyTorch torch.compile autograd tensor release",
+    "TensorFlow Keras 3 backend model layers",
+    "JAX jit grad vmap XLA"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Plotting and visualization libraries",
+   "scope": "Matplotlib's pyplot and object APIs, rcParams, backends and colormaps, plus seaborn, Plotly/Dash, Bokeh and Altair.",
+   "queries": [
+    "Matplotlib pyplot rcParams backends colormaps",
+    "Matplotlib release notes API changes deprecations",
+    "seaborn statistical plotting functions objects interface",
+    "Plotly Bokeh interactive figures Dash"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Jupyter and IPython interactive computing",
+   "scope": "IPython shell features and magics, the Jupyter notebook format, kernels and the messaging protocol, JupyterLab and Notebook releases, and ipywidgets.",
+   "queries": [
+    "IPython magic commands %timeit %run line cell",
+    "Jupyter notebook nbformat JSON kernels",
+    "JupyterLab extensions server version release",
+    "ipykernel ipywidgets interactive widgets kernel protocol"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Django web framework",
+   "scope": "Django's releases and LTS schedule, ORM and QuerySet API, migrations, admin, middleware, settings, templates and security features.",
+   "queries": [
+    "Django release LTS version supported Python versions",
+    "Django ORM QuerySet methods field lookups",
+    "Django middleware settings reference SECRET_KEY",
+    "Django migrations makemigrations admin site"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Flask, FastAPI and the WSGI/ASGI server ecosystem",
+   "scope": "Microframeworks and async web frameworks (Flask, Werkzeug, Jinja2, FastAPI, Starlette), the WSGI (PEP 3333) and ASGI specs, and servers such as Gunicorn, uWSGI and Uvicorn.",
+   "queries": [
+    "WSGI PEP 3333 application environ start_response",
+    "ASGI specification lifespan Uvicorn Starlette",
+    "Flask application context blueprints Werkzeug Jinja2",
+    "FastAPI dependency injection Pydantic path operations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database access and ORMs",
+   "scope": "The DB-API 2.0 spec (PEP 249), the sqlite3 module, SQLAlchemy Core and ORM, Alembic, and database drivers such as psycopg.",
+   "queries": [
+    "DB-API 2.0 PEP 249 paramstyle cursor",
+    "sqlite3 module connection isolation_level autocommit",
+    "SQLAlchemy 2.0 ORM Session select declarative",
+    "psycopg Alembic migrations PostgreSQL adapter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dataclasses, enums, ABCs and data-validation libraries",
+   "scope": "Declarative class tooling: dataclasses, enum, abc and collections.abc, NamedTuple, attrs, and Pydantic (v1 vs v2).",
+   "queries": [
+    "dataclasses field frozen slots kw_only",
+    "enum module Enum Flag auto StrEnum",
+    "abc module ABCMeta abstractmethod collections.abc",
+    "Pydantic v2 BaseModel validators attrs define"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Command-line, terminal and GUI toolkits",
+   "scope": "Building user interfaces in Python: argparse and getopt, Click and Typer, curses, Rich and Textual, tkinter/ttk, and GUI bindings such as PyQt, PySide, wxPython and Kivy.",
+   "queries": [
+    "argparse ArgumentParser nargs action subparsers",
+    "Click Typer Rich Textual terminal applications",
+    "tkinter Tk widgets ttk themed Tcl version",
+    "PyQt PySide Qt for Python bindings licensing"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Security, hashing and cryptography",
+   "scope": "hashlib, hmac and secrets, the cryptography package, audit hooks (PEP 578), and CPython security fixes and CVEs.",
+   "queries": [
+    "hashlib algorithms blake2 scrypt pbkdf2_hmac",
+    "secrets module token_bytes token_urlsafe hmac compare_digest",
+    "audit hooks PEP 578 sys.audit events",
+    "CPython security fix CVE vulnerability release"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Execution model: name binding, scopes, closures and namespaces",
+   "scope": "How Python binds and resolves names at runtime: LEGB lookup, global and nonlocal declarations, closures and cell variables, class-body and comprehension scoping, frame locals semantics, and exec/eval namespaces and builtins lookup.",
+   "queries": [
+    "nonlocal global statement name binding rules",
+    "closure free variables cell objects __closure__",
+    "comprehension inlining PEP 709 class scope",
+    "locals frame f_locals PEP 667 semantics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lexical analysis, literals and expression evaluation rules",
+   "scope": "The language reference's rules for tokens, keywords and soft keywords, identifiers, numeric, string and bytes literal forms, operator precedence, comparison chaining, evaluation order, and conditional and lambda expressions.",
+   "queries": [
+    "soft keywords match case type identifiers",
+    "operator precedence table language reference",
+    "numeric literals underscores imaginary literal syntax",
+    "evaluation order comparison chaining short-circuit"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "CPython built-in object implementation and core algorithms",
+   "scope": "How CPython implements its core objects and algorithms, such as compact ordered dicts, hash randomization and SipHash, list over-allocation, arbitrary-precision int digits and the int-to-str limit, Timsort/Powersort and small-integer caching.",
+   "queries": [
+    "compact dict implementation insertion order 3.6",
+    "SipHash hash randomization PEP 456",
+    "Timsort list sort powersort merge",
+    "integer string conversion length limit 4300 digits"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Building CPython from source and platform support tiers",
+   "scope": "Compiling and configuring CPython itself: configure flags (PGO, LTO, debug and sanitizer builds), build dependencies, PEP 11 platform tiers, minimum OS and compiler versions, and the devguide build workflow.",
+   "queries": [
+    "configure enable-optimizations with-lto PGO build",
+    "PEP 11 platform support tiers",
+    "with-pydebug debug build ABI flags",
+    "devguide build dependencies Windows PCbuild"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python on Windows and macOS platform integration",
+   "scope": "Installing and using Python on Windows and macOS: the py launcher, the python.org, Microsoft Store and Python install manager installers, pywin32/COM automation, winreg, PyObjC and macOS framework builds.",
+   "queries": [
+    "py launcher Windows shebang PEP 397",
+    "pywin32 COM automation win32com client",
+    "PyObjC Cocoa bridge macOS framework build",
+    "Python install manager Windows Store installer"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Python on WebAssembly, browsers and mobile platforms",
+   "scope": "Running Python in browsers and on mobile devices: Pyodide, PyScript, Emscripten and WASI platform support, PEP 730/738 iOS and Android support, BeeWare (Toga, Briefcase) and Chaquopy.",
+   "queries": [
+    "Pyodide WebAssembly packages micropip",
+    "PyScript browser Python HTML tags",
+    "PEP 730 iOS PEP 738 Android support",
+    "BeeWare Briefcase Toga mobile app packaging"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Deprecated and removed standard library modules",
+   "scope": "Standard library modules and APIs that were deprecated and removed, such as PEP 594's 'dead batteries' (cgi, telnetlib, audioop, crypt, etc.), distutils, asyncore/asynchat and imp, with the versions they were removed in and their recommended replacements.",
+   "queries": [
+    "PEP 594 removing dead batteries standard library",
+    "distutils removed Python 3.12 setuptools replacement",
+    "asyncore asynchat smtpd removed modules",
+    "cgi cgitb telnetlib nntplib removal 3.13"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Email, MIME and mail protocol modules",
+   "scope": "The email package (EmailMessage, policies, parsers, generators, header handling) and the mail protocol and storage modules smtplib, imaplib, poplib and mailbox, including how they follow the relevant RFCs.",
+   "queries": [
+    "email.message EmailMessage policy default",
+    "smtplib SMTP starttls login sendmail",
+    "imaplib IMAP4_SSL fetch search",
+    "mailbox mbox Maildir MIME multipart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "XML processing modules and libraries",
+   "scope": "Parsing, building and querying XML with xml.etree.ElementTree, minidom, SAX, pulldom, expat, lxml (XPath, XSLT, objectify) and defusedxml, including XML security vulnerabilities.",
+   "queries": [
+    "xml.etree.ElementTree iterparse XPath support",
+    "lxml etree XSLT objectify",
+    "defusedxml billion laughs XML vulnerabilities",
+    "xml.sax handler minidom pulldom expat"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Web scraping and browser automation libraries",
+   "scope": "Tools for extracting data from web pages and driving browsers: Scrapy, Beautiful Soup, html5lib, parsel, MechanicalSoup, Selenium's Python bindings and Playwright for Python.",
+   "queries": [
+    "Scrapy spider item pipeline middleware",
+    "Beautiful Soup parser html.parser lxml",
+    "Selenium WebDriver Python bindings",
+    "Playwright Python async browser context"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Template engines",
+   "scope": "Text and HTML templating libraries such as Jinja, Mako, Chameleon, Genshi and Cheetah, covering their syntax, inheritance, filters, sandboxing, autoescaping and template compilation.",
+   "queries": [
+    "Jinja template inheritance filters autoescape",
+    "Jinja sandboxed environment extensions",
+    "Mako templates def inheritance",
+    "Chameleon page templates Genshi Cheetah"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pyramid, Zope, Plone, Tornado and other web frameworks",
+   "scope": "Python web frameworks and CMS platforms other than Django, Flask and FastAPI, including Pyramid, Zope, Plone, Tornado, Bottle, CherryPy, web2py, Falcon, TurboGears and Wagtail.",
+   "queries": [
+    "Pyramid web framework traversal configuration",
+    "Zope object publishing Plone content management",
+    "Tornado web framework IOLoop RequestHandler",
+    "Bottle CherryPy web2py Falcon framework release"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Alternative async and event-driven libraries",
+   "scope": "Concurrency frameworks outside core asyncio, including Twisted (reactor, Deferreds), Trio and structured concurrency, AnyIO, curio, gevent and eventlet green threads built on greenlet, and the uvloop event loop.",
+   "queries": [
+    "Twisted reactor Deferred callbacks",
+    "Trio nursery structured concurrency cancellation",
+    "gevent greenlet monkey patching",
+    "AnyIO task groups backend uvloop"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "RPC, gRPC, Protocol Buffers and GraphQL libraries",
+   "scope": "Libraries for remote procedure calls and API protocols, including xmlrpc, gRPC Python, the protobuf Python runtime, Apache Thrift, Pyro, RPyC, and GraphQL libraries such as Graphene and Strawberry.",
+   "queries": [
+    "grpcio Python generated stubs protoc",
+    "protobuf Python upb implementation",
+    "xmlrpc.client ServerProxy SimpleXMLRPCServer",
+    "Graphene Strawberry GraphQL schema Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Celery, task queues and message broker clients",
+   "scope": "Background job and messaging libraries, including Celery (brokers, workers, beat, canvas primitives), RQ, Dramatiq, Huey and Kombu, plus broker clients such as pika, redis-py and confluent-kafka.",
+   "queries": [
+    "Celery worker beat broker result backend",
+    "Celery canvas chord group chain",
+    "RQ Redis Queue worker job",
+    "pika RabbitMQ kombu confluent-kafka Python client"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Workflow orchestration and data pipeline frameworks",
+   "scope": "DAG-based workflow and pipeline orchestrators written in Python, such as Apache Airflow, Luigi, Prefect, Dagster and Kedro, covering their operators, schedulers, executors and release histories.",
+   "queries": [
+    "Airflow DAG operators scheduler executor",
+    "Airflow TaskFlow API XCom",
+    "Prefect flows tasks deployments",
+    "Dagster assets Luigi Kedro pipeline"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Parallel and distributed computing libraries",
+   "scope": "Libraries that scale Python across cores and clusters, including Dask (delayed, futures, distributed scheduler), Ray (tasks, actors, object store), joblib, mpi4py and IPython Parallel.",
+   "queries": [
+    "Dask distributed scheduler delayed futures",
+    "Ray actors remote tasks object store",
+    "joblib Parallel delayed backend loky",
+    "mpi4py MPI communicator Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "PySpark, Apache Beam and Arrow-based big data APIs",
+   "scope": "The Python APIs of big-data engines and columnar formats, including PySpark (DataFrame, pandas API on Spark, Spark Connect), Apache Beam's Python SDK, PyFlink, PyArrow and Parquet datasets.",
+   "queries": [
+    "PySpark DataFrame pandas API on Spark",
+    "Spark Connect Python client",
+    "PyArrow Table Parquet dataset",
+    "Apache Beam Python SDK PyFlink"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "GPU computing with Python",
+   "scope": "Python libraries for programming GPUs directly, including CuPy, Numba's CUDA target, PyCUDA, PyOpenCL, NVIDIA's CUDA Python and RAPIDS (cuDF, cuML).",
+   "queries": [
+    "CuPy NumPy compatible GPU arrays",
+    "Numba CUDA kernel jit decorator",
+    "PyCUDA PyOpenCL kernel source module",
+    "RAPIDS cuDF cuML GPU DataFrame"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Cloud provider SDKs and serverless Python runtimes",
+   "scope": "Python SDKs and runtimes for cloud platforms, including boto3/botocore, the Google Cloud client libraries, the Azure SDK for Python, the AWS Lambda and Cloud Functions Python runtimes, and AWS CDK and Pulumi Python bindings.",
+   "queries": [
+    "boto3 client resource session botocore",
+    "AWS Lambda Python runtime handler versions",
+    "Google Cloud client libraries Python",
+    "Azure SDK for Python identity credential"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Infrastructure automation and SSH tools written in Python",
+   "scope": "Configuration management, remote execution and build automation tools built in Python, including Ansible (modules, collections, ansible-core versions), SaltStack, Fabric, Invoke, Paramiko and Buildbot.",
+   "queries": [
+    "Ansible modules collections ansible-core release",
+    "SaltStack Salt minion master states",
+    "Paramiko SSHClient transport",
+    "Fabric Invoke tasks remote execution"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Natural language processing libraries",
+   "scope": "Text-processing and NLP toolkits for Python, including NLTK (corpora, tokenizers, WordNet), spaCy (pipelines, trained models), Gensim (word2vec, LDA), TextBlob, Stanza and Pattern.",
+   "queries": [
+    "NLTK corpus tokenizer WordNet",
+    "spaCy pipeline components trained models",
+    "Gensim word2vec LDA topic modeling",
+    "Stanza TextBlob Python NLP toolkit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Image processing and computer vision libraries",
+   "scope": "Raster image and vision libraries for Python, including Pillow (file formats, image modes, its history as a PIL fork), OpenCV's Python bindings, scikit-image, imageio, Mahotas and SimpleITK.",
+   "queries": [
+    "Pillow Image modes file formats",
+    "PIL Python Imaging Library fork Pillow",
+    "OpenCV Python cv2 bindings",
+    "scikit-image filters imageio SimpleITK"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "SymPy and computer algebra systems",
+   "scope": "Symbolic mathematics in Python, including SymPy (expressions, solvers, simplification, printing, lambdify), mpmath arbitrary-precision arithmetic, SymEngine and SageMath, with their release histories.",
+   "queries": [
+    "SymPy solve simplify symbols expression",
+    "SymPy printing LaTeX lambdify",
+    "mpmath arbitrary precision functions",
+    "SageMath computer algebra Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Statistical modeling and probabilistic programming libraries",
+   "scope": "Packages for statistical estimation and Bayesian modeling, including statsmodels (OLS, GLM, time-series models), PyMC, ArviZ, PyStan/CmdStanPy, NumPyro, lifelines and Patsy/formulaic model formulas.",
+   "queries": [
+    "statsmodels OLS GLM formula API",
+    "statsmodels ARIMA SARIMAX time series",
+    "PyMC sampler NUTS model context",
+    "ArviZ CmdStanPy lifelines survival"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Mathematical optimization modeling libraries",
+   "scope": "Python modeling layers and solver interfaces for linear, integer, convex and nonlinear optimization, such as CVXPY, Pyomo, PuLP, Google OR-Tools, gurobipy, python-mip and CasADi.",
+   "queries": [
+    "CVXPY disciplined convex programming solvers",
+    "Pyomo concrete model solver factory",
+    "PuLP linear programming CBC solver",
+    "OR-Tools CP-SAT routing Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Graph and network analysis libraries",
+   "scope": "Libraries for building, analysing and drawing graphs and networks, including NetworkX (graph classes, algorithms, backend dispatching), python-igraph, graph-tool, rustworkx, and the Graphviz bindings pygraphviz and graphviz.",
+   "queries": [
+    "NetworkX Graph DiGraph algorithms",
+    "NetworkX backends dispatching nx-cugraph",
+    "python-igraph graph-tool performance",
+    "rustworkx pygraphviz Graphviz Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Geospatial and GIS libraries",
+   "scope": "Python tools for vector and raster geodata, including GeoPandas, Shapely, Fiona, pyproj, rasterio, the GDAL/OGR bindings, Cartopy and folium.",
+   "queries": [
+    "GeoPandas GeoDataFrame CRS spatial join",
+    "Shapely geometry GEOS predicates",
+    "pyproj CRS transformer PROJ",
+    "rasterio GDAL Python bindings raster"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Scientific array data formats and storage libraries",
+   "scope": "Storing and accessing large labelled or chunked arrays with h5py and PyTables (HDF5), netCDF4-python, xarray and Zarr, including their chunking, compression and indexing features.",
+   "queries": [
+    "h5py HDF5 dataset group attributes",
+    "xarray DataArray Dataset coordinates",
+    "Zarr chunked array storage format v3",
+    "netCDF4 PyTables HDF5 compression"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Domain-specific scientific packages (astronomy, biology, chemistry)",
+   "scope": "Field-specific Python ecosystems such as Astropy (units, coordinates, FITS), SunPy, Biopython (Seq, SeqIO, Entrez), scikit-bio, RDKit, ASE, PySCF and MDAnalysis.",
+   "queries": [
+    "Astropy units coordinates FITS io",
+    "Biopython SeqIO Entrez Bio.PDB",
+    "RDKit Chem molecule SMILES",
+    "MDAnalysis ASE PySCF Python package"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Quantum computing SDKs",
+   "scope": "Python frameworks for quantum programming and simulation, including Qiskit (circuits, transpiler, primitives, version history), Cirq, PennyLane, the Amazon Braket SDK, PyQuil and QuTiP.",
+   "queries": [
+    "Qiskit QuantumCircuit transpiler primitives",
+    "Qiskit 1.0 release migration",
+    "Cirq Google quantum circuits",
+    "PennyLane QNode QuTiP PyQuil"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Game development, audio and multimedia libraries",
+   "scope": "Libraries for games, graphics, sound and music, including Pygame (SDL) and pygame-ce, pyglet, Arcade, Panda3D, Ren'Py, PyOpenGL, librosa, pydub and music21.",
+   "queries": [
+    "Pygame SDL display sprite module",
+    "pyglet Arcade Panda3D game engine Python",
+    "Ren'Py visual novel engine",
+    "librosa music21 audio analysis Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Data app and dashboard frameworks",
+   "scope": "Frameworks for building interactive data apps from Python scripts, including Streamlit, Plotly Dash, Gradio, Panel, Voilà, Shiny for Python, NiceGUI and Reflex.",
+   "queries": [
+    "Streamlit session state caching widgets",
+    "Dash callbacks Input Output layout",
+    "Gradio Interface Blocks components",
+    "Panel Shiny for Python Voila NiceGUI"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Office document, spreadsheet and PDF libraries",
+   "scope": "Reading and generating office documents from Python, including openpyxl, xlrd, XlsxWriter, xlwings, Python in Excel, python-docx, python-pptx, ReportLab, pypdf/PyPDF2, PyMuPDF and pdfminer.six.",
+   "queries": [
+    "openpyxl workbook worksheet cell styles",
+    "XlsxWriter xlrd xlwings Excel Python",
+    "ReportLab PDF canvas platypus",
+    "pypdf PyPDF2 PyMuPDF pdfminer extraction"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python as an embedded scripting language in applications",
+   "scope": "Python APIs exposed by host applications, such as Blender's bpy, QGIS's PyQGIS, Esri ArcPy, Autodesk Maya and Houdini scripting, GIMP Python-Fu, FreeCAD, LibreOffice UNO and KiCad.",
+   "queries": [
+    "Blender Python API bpy operators",
+    "PyQGIS QGIS Python console plugins",
+    "ArcPy geoprocessing ArcGIS Pro",
+    "Maya Houdini GIMP Python scripting"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Microcontrollers, single-board computers and hardware interfacing",
+   "scope": "Python for physical computing, including CircuitPython boards and libraries, MicroPython hardware modules (machine, network), Raspberry Pi's gpiozero and RPi.GPIO, pySerial, smbus and Adafruit Blinka.",
+   "queries": [
+    "CircuitPython board support Adafruit libraries",
+    "MicroPython machine module Pin I2C",
+    "gpiozero RPi.GPIO Raspberry Pi",
+    "pySerial serial port Blinka"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cross-language runtime bridges",
+   "scope": "Libraries that connect Python to other language runtimes rather than to C, such as rpy2 (R), JPype and Py4J (JVM), Python.NET/pythonnet, juliacall/PyCall (Julia), and PythonMonkey or PyMiniRacer (JavaScript).",
+   "queries": [
+    "rpy2 R interface robjects",
+    "JPype Py4J Java gateway Python",
+    "pythonnet Python.NET clr CLR",
+    "juliacall PythonCall PyCall Julia"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "IDEs, editors and language servers",
+   "scope": "Development environments and editor tooling for Python, including IDLE, PyCharm, Spyder, Thonny, Wing, Mu, the VS Code Python extension and Pylance, Jedi, python-lsp-server and rope.",
+   "queries": [
+    "IDLE editor shell configuration",
+    "PyCharm Professional Community edition features",
+    "Spyder Thonny Wing Python IDE",
+    "Pylance Jedi python-lsp-server rope refactoring"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Internationalization and localization",
+   "scope": "Translating and localizing Python programs with gettext (catalogs, plural forms, contexts, pygettext), locale (categories, formatting, encodings), Babel and CLDR data, PyICU and polib.",
+   "queries": [
+    "gettext translation catalogs ngettext pgettext",
+    "locale setlocale LC_ALL getencoding",
+    "Babel CLDR message extraction",
+    "PyICU polib msgfmt pygettext"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python community, conferences and PSF programs",
+   "scope": "The Python community's events and recognition programs, including PyCon US and regional conferences such as EuroPython and PyCon APAC, PSF Fellows, the Distinguished Service and Community Service Awards, PyLadies, user groups and PSF grants.",
+   "queries": [
+    "PyCon US conference location year",
+    "EuroPython conference history",
+    "Python Software Foundation Distinguished Service Award",
+    "PSF Fellows PyLadies community service award"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "CPython contribution workflow, developer guide and core-development tooling",
+   "scope": "How changes reach CPython: the devguide, issue migration from bugs.python.org to GitHub, core developer and triager roles, Argument Clinic, blurb NEWS entries, buildbots and the bedevere and miss-islington bots.",
+   "queries": [
+    "CPython devguide pull request lifecycle core developer",
+    "Argument Clinic converter docstring signature",
+    "blurb NEWS entry miss-islington backport",
+    "bugs.python.org migration GitHub issues triage"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Structural pattern matching semantics",
+   "scope": "The match statement as specified in PEPs 634-636: pattern kinds, __match_args__, guards, irrefutability rules, name binding and evaluation order.",
+   "queries": [
+    "match statement class patterns __match_args__",
+    "PEP 634 structural pattern matching specification",
+    "irrefutable case block wildcard capture pattern",
+    "mapping pattern sequence pattern guard evaluation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Introspection: inspect, signatures, frames and code objects",
+   "scope": "Runtime introspection APIs such as inspect.signature and Parameter kinds, frame and code object attributes, getmembers and getsource, annotationlib and sys._getframe.",
+   "queries": [
+    "inspect signature Parameter kind POSITIONAL_ONLY",
+    "code object attributes co_flags co_varnames",
+    "frame object f_locals f_back f_lineno",
+    "annotationlib get_annotations Format FORWARDREF"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Binary data: struct, array, memoryview and the buffer protocol",
+   "scope": "Packing and viewing raw bytes in the standard library: struct format characters and byte order, array typecodes, memoryview casting, bytearray and the PEP 3118 buffer protocol.",
+   "queries": [
+    "struct format characters byte order alignment",
+    "array module typecodes itemsize",
+    "memoryview cast format shape tolist",
+    "PEP 3118 buffer protocol bytes-like object"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Random number generation, sampling and the statistics module",
+   "scope": "Pseudo-random generation and descriptive statistics: the random module's Mersenne Twister and distribution functions, numpy.random Generator and bit generators, and the statistics module's functions and when they were added.",
+   "queries": [
+    "random module Mersenne Twister seed getrandbits",
+    "numpy random Generator PCG64 SeedSequence",
+    "statistics module fmean geometric_mean quantiles",
+    "random choices sample binomialvariate new in version"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Text-processing utility modules",
+   "scope": "Standard-library helpers for working with text beyond str and re: difflib, textwrap, string.Template and string constants, shlex, pprint and reprlib.",
+   "queries": [
+    "difflib SequenceMatcher ratio unified_diff",
+    "textwrap wrap dedent shorten width",
+    "string Template substitute safe_substitute delimiter",
+    "shlex split quote posix mode pprint"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Configuration files and application settings libraries",
+   "scope": "Reading and layering application configuration with configparser interpolation, tomllib, python-dotenv, Dynaconf, Hydra and OmegaConf.",
+   "queries": [
+    "configparser ExtendedInterpolation DEFAULT section",
+    "Hydra OmegaConf config composition overrides",
+    "python-dotenv load_dotenv override environment",
+    "Dynaconf settings environments validators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Python in education and beginner-oriented tools",
+   "scope": "Teaching-oriented modules and environments: the turtle module, IDLE, Thonny, the Mu editor, Pygame Zero and similar tools for beginners.",
+   "queries": [
+    "turtle module graphics forward pensize screen",
+    "IDLE editor shell configuration features",
+    "Thonny IDE beginners debugger University of Tartu",
+    "Mu editor Pygame Zero beginner modes"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Python culture, the Zen of Python and easter eggs",
+   "scope": "The language's folklore and in-jokes: PEP 20 and import this, Monty Python naming such as spam, eggs and the Cheese Shop, antigravity, barry_as_FLUFL and __future__ braces.",
+   "queries": [
+    "Zen of Python PEP 20 aphorisms Tim Peters",
+    "import antigravity xkcd easter egg",
+    "barry_as_FLUFL PEP 401 April Fools",
+    "Cheese Shop Monty Python spam eggs naming"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Observability SDKs for metrics, tracing and error reporting",
+   "scope": "Instrumenting production Python services with the OpenTelemetry API and SDK, prometheus_client metric types, the Sentry SDK and StatsD clients.",
+   "queries": [
+    "OpenTelemetry Python auto-instrumentation TracerProvider exporter",
+    "prometheus_client Counter Gauge Histogram Summary",
+    "Sentry Python SDK integrations traces sample rate",
+    "statsd client timer gauge Python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "MLOps: experiment tracking, model registries and model serving",
+   "scope": "Python tools for managing the machine learning lifecycle, including MLflow tracking and registry, Weights & Biases, DVC, BentoML and KServe.",
+   "queries": [
+    "MLflow tracking server model registry aliases",
+    "DVC data version control remote storage pipelines",
+    "wandb init sweep artifacts logging",
+    "BentoML service runner model store"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Hyperparameter optimization and AutoML libraries",
+   "scope": "Search and tuning frameworks such as Optuna samplers and pruners, Hyperopt TPE, Ray Tune schedulers, scikit-optimize, auto-sklearn, TPOT, AutoGluon and FLAML.",
+   "queries": [
+    "Optuna TPESampler pruner study trial",
+    "Hyperopt tree-structured Parzen estimator fmin",
+    "Ray Tune ASHA scheduler search algorithm",
+    "auto-sklearn TPOT AutoGluon FLAML AutoML"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Reinforcement learning environments and libraries",
+   "scope": "The Gym and Gymnasium environment API and its move to the Farama Foundation, Stable-Baselines3, RLlib, PettingZoo, TorchRL, spaces and wrappers.",
+   "queries": [
+    "Gymnasium environment step terminated truncated API",
+    "Stable-Baselines3 PPO SAC policy algorithms",
+    "RLlib AlgorithmConfig env runners",
+    "PettingZoo multi-agent AEC API Farama"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "LLM inference, orchestration and agent frameworks",
+   "scope": "Python libraries for serving and composing large language models, such as vLLM, llama-cpp-python, LangChain, LlamaIndex, DSPy, Outlines and vendor Python SDKs, excluding classical NLP toolkits.",
+   "queries": [
+    "vLLM PagedAttention SamplingParams engine arguments",
+    "LangChain LCEL runnable chains retrievers",
+    "LlamaIndex index query engine node parser",
+    "llama-cpp-python GGUF n_ctx n_gpu_layers"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Model interpretability and fairness toolkits",
+   "scope": "Explaining and auditing models with SHAP explainers, LIME, Captum, InterpretML, Fairlearn and AIF360.",
+   "queries": [
+    "SHAP TreeExplainer KernelExplainer Shapley values",
+    "LIME local surrogate explanation tabular",
+    "Captum integrated gradients attribution PyTorch",
+    "Fairlearn demographic parity MetricFrame mitigation"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Time series analysis and forecasting libraries",
+   "scope": "Dedicated forecasting and time-series feature tools such as Prophet, sktime, Darts, pmdarima, statsforecast, GluonTS and tsfresh.",
+   "queries": [
+    "Prophet changepoints seasonality holidays forecast",
+    "sktime forecasting horizon transformers interface",
+    "pmdarima auto_arima seasonal order",
+    "Darts tsfresh feature extraction time series"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Search, information retrieval and vector similarity libraries",
+   "scope": "Full-text and vector search from Python with Whoosh, Elasticsearch and OpenSearch clients, Pyserini, rank_bm25, FAISS index types, Annoy and hnswlib.",
+   "queries": [
+    "FAISS IndexIVFFlat IndexHNSW product quantization",
+    "Annoy approximate nearest neighbors trees Spotify",
+    "Whoosh schema analyzer BM25F scoring",
+    "Elasticsearch Python client bulk helpers"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Quantitative finance and trading libraries",
+   "scope": "Pricing, backtesting and portfolio tools such as QuantLib-Python, zipline, backtrader, PyPortfolioOpt, pandas-datareader, yfinance and QuantEcon.",
+   "queries": [
+    "QuantLib Python yield curve bond pricing",
+    "zipline backtesting algorithm Quantopian",
+    "backtrader Cerebro strategy analyzers",
+    "PyPortfolioOpt efficient frontier covariance shrinkage"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Robotics and physics simulation libraries",
+   "scope": "The ROS client libraries rclpy and rospy, PyBullet, MuJoCo Python bindings, Pinocchio and Peter Corke's Robotics Toolbox for Python.",
+   "queries": [
+    "rclpy node publisher subscription executor ROS 2",
+    "PyBullet loadURDF stepSimulation physics",
+    "MuJoCo Python bindings MjModel MjData",
+    "Robotics Toolbox Python Peter Corke kinematics"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Finite element, CFD and PDE solver packages",
+   "scope": "Python frameworks for numerical PDEs, such as FEniCS and DOLFINx with UFL, Firedrake, scikit-fem, Devito, Dedalus, PyClaw and FiPy.",
+   "queries": [
+    "FEniCS DOLFINx UFL variational form",
+    "Firedrake finite element PETSc solver",
+    "Devito symbolic finite difference stencil",
+    "Dedalus spectral PDE solver FiPy"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Earth, atmospheric and ocean science packages",
+   "scope": "Domain packages for meteorology, climate and oceanography, such as MetPy, Iris, xclim, xESMF, cfgrib, wrf-python, Siphon and GSW-Python.",
+   "queries": [
+    "MetPy units calculations thermodynamics skew-T",
+    "Iris cube CF conventions Met Office",
+    "xclim climate indicators xESMF regridding",
+    "cfgrib GRIB engine wrf-python"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Neuroscience and medical imaging libraries",
+   "scope": "Python tools for brain data and medical images, such as MNE-Python, Nilearn, NiBabel, Nipype, pydicom, SimpleITK, MONAI, Brian2 and the NEURON Python interface.",
+   "queries": [
+    "MNE-Python Raw Epochs EEG MEG",
+    "NiBabel NIfTI image header affine",
+    "pydicom dataset tags transfer syntax",
+    "Brian2 spiking neural network simulator equations"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "3D geometry, mesh processing and CAD libraries",
+   "scope": "Mesh, point-cloud and solid-modeling libraries such as trimesh, Open3D, PyVista, meshio, CadQuery, build123d and pythonOCC.",
+   "queries": [
+    "trimesh mesh watertight convex hull",
+    "Open3D point cloud registration ICP",
+    "PyVista VTK mesh plotting filters",
+    "CadQuery workplane OpenCascade build123d"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Audio analysis, music and speech processing libraries",
+   "scope": "Signal-level and symbolic music and speech analysis with librosa, Essentia, madmom, music21, mido, pretty_midi, torchaudio and pyannote.audio, excluding playback and game audio.",
+   "queries": [
+    "librosa mel spectrogram hop_length sr",
+    "music21 stream score corpus MusicXML",
+    "mido pretty_midi MIDI messages ticks",
+    "pyannote audio speaker diarization pipeline"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Chat bot and messaging platform SDKs",
+   "scope": "Python libraries for building bots on messaging platforms, such as discord.py, python-telegram-bot, aiogram, Slack Bolt and slack_sdk, matrix-nio and Errbot.",
+   "queries": [
+    "discord.py intents commands extension cogs",
+    "python-telegram-bot Application handlers ConversationHandler",
+    "Slack Bolt Python app event listener",
+    "matrix-nio AsyncClient Errbot plugins"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Network device automation libraries",
+   "scope": "Managing routers and switches from Python with Netmiko, NAPALM, Nornir, ncclient for NETCONF, pyATS and Genie, and TextFSM parsing templates.",
+   "queries": [
+    "Netmiko ConnectHandler device_type send_command",
+    "NAPALM getters drivers configuration merge replace",
+    "Nornir inventory tasks plugins runner",
+    "ncclient NETCONF TextFSM templates pyATS"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Third-party data structure libraries",
+   "scope": "Specialized containers beyond the standard library, such as sortedcontainers, pyrsistent, bidict, bitarray, intervaltree, pyroaring and blist.",
+   "queries": [
+    "sortedcontainers SortedList SortedDict load factor",
+    "pyrsistent persistent vector pmap pvector",
+    "bitarray bidict intervaltree data structure",
+    "pyroaring Roaring bitmap blist B-tree"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Physical units, quantities and uncertainty propagation",
+   "scope": "Unit-aware and error-propagating numerics with Pint, astropy.units, unyt, quantities and the uncertainties package.",
+   "queries": [
+    "Pint UnitRegistry Quantity conversion contexts",
+    "uncertainties ufloat error propagation correlations",
+    "unyt array unit system yt",
+    "astropy units equivalencies decompose"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  }
+ ]
+}

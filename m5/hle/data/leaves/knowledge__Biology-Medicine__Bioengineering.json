@@ -1,0 +1,125 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "Bioengineering",
+ "target_leaves": 8,
+ "expected_problems": 19,
+ "leaves": [
+  {
+   "leaf": "Hydrogel mesh size from swelling data",
+   "scope": "Reported equilibrium swelling ratios, polymer\u2013solvent interaction parameters and crosslink densities for PEG, PVA and alginate hydrogels. A question can apply Flory\u2013Rehner or Peppas\u2013Merrill theory to the reported values to work out mesh size or molecular weight between crosslinks.",
+   "queries": [
+    "Peppas-Merrill hydrogel mesh size",
+    "PEG diacrylate swelling ratio",
+    "molecular weight between crosslinks",
+    "Flory-Rehner hydrogel crosslink density"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Stirred bioreactor oxygen transfer scale-up",
+   "scope": "Published kLa correlation constants and exponents (Van't Riet type) for coalescing and non-coalescing media, impeller power numbers and gassed-power ratios. A question can use them to compare kLa between vessel scales or impeller types.",
+   "queries": [
+    "kLa correlation Van't Riet",
+    "gassed power number Rushton",
+    "volumetric mass transfer coefficient scale-up",
+    "non-coalescing medium kLa"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Bj\u00f6rk-Shiley valve strut fracture litigation",
+   "scope": "Court rulings about the convexo-concave heart valve outlet strut fractures: the valve models and opening angles at issue, the settlement fund terms, and how preemption and causation were argued. A question can combine device details with the legal outcomes across separate cases.",
+   "queries": [
+    "Bjork-Shiley convexo-concave valve",
+    "Shiley outlet strut fracture",
+    "heart valve settlement class",
+    "Shiley Pfizer valve claim"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century artificial limb makers and patents",
+   "scope": "Period catalogues and treatises describing specific artificial legs and arms, such as Palmer, Marks rubber-foot and Hanger designs, along with their joint mechanisms, materials and prices. A question can compare design features or work out dates and costs across makers.",
+   "queries": [
+    "Palmer artificial leg",
+    "Marks rubber foot artificial limbs",
+    "artificial limbs treatise amputation",
+    "Hanger limb patent 1860s"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Anisotropic elastic constants of cortical bone",
+   "scope": "Ultrasonically and mechanically measured orthotropic or transversely isotropic stiffness coefficients for human and bovine cortical bone at different anatomical sites. A question can derive engineering moduli or anisotropy ratios from the reported tensors.",
+   "queries": [
+    "cortical bone orthotropic elastic constants",
+    "ultrasonic stiffness tensor bone",
+    "transversely isotropic femoral cortex",
+    "bone anisotropy ratio C33 C11"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Cochlear implant electrode array specifications",
+   "scope": "Manufacturer and study data on electrode counts, contact spacing, array lengths and insertion depths, plus stimulation-rate parameters for strategies such as CIS, ACE and HiRes. A question can estimate cochlear coverage angle or compare total stimulation rates.",
+   "queries": [
+    "cochlear implant electrode array insertion depth",
+    "ACE strategy stimulation rate",
+    "perimodiolar lateral wall electrode",
+    "angular insertion depth cochlea"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Hollow-fiber dialyzer mass transfer performance",
+   "scope": "Reported KoA values, membrane surface areas, ultrafiltration coefficients and fiber geometries for specific dialyzer models and membrane materials. A question can use Michaels' equation to compute urea clearance under given blood and dialysate flow rates.",
+   "queries": [
+    "dialyzer KoA urea clearance",
+    "hollow fiber dialyzer ultrafiltration coefficient",
+    "polysulfone high-flux membrane",
+    "Michaels equation dialysance"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Immobilized enzyme diffusion and effectiveness factors",
+   "scope": "Published kinetic constants, particle radii and effective diffusivities for enzymes immobilized on beads, such as glucose isomerase and penicillin acylase. A question can compute the Thiele modulus and effectiveness factor, or infer whether a system is diffusion-limited.",
+   "queries": [
+    "immobilized enzyme effectiveness factor",
+    "Thiele modulus enzyme bead",
+    "glucose isomerase immobilized kinetics",
+    "penicillin acylase immobilization support"
+   ],
+   "sources": [
+    "libretexts",
+    "peS2o",
+    "doab"
+   ]
+  }
+ ]
+}

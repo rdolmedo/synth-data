@@ -1,0 +1,464 @@
+{
+ "domain": "Finance",
+ "subtopic": "Taxation",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "US individual income tax rates, brackets, filing statuses and individual AMT",
+   "scope": "Federal individual income tax rate schedules, filing statuses, standard deduction and exemption amounts, annual inflation-adjusted figures in IRS Revenue Procedures, the kiddie tax and the individual alternative minimum tax.",
+   "queries": [
+    "federal income tax brackets married filing jointly standard deduction",
+    "Revenue Procedure inflation adjusted items tax year",
+    "alternative minimum tax exemption phaseout individuals",
+    "head of household qualifying person kiddie tax"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Individual deductions and personal tax credits",
+   "scope": "Itemized and above-the-line deductions (SALT cap, mortgage interest, charitable, medical) and personal credits such as the EITC, Child Tax Credit, education credits and dependent care credit.",
+   "queries": [
+    "earned income tax credit maximum qualifying children",
+    "SALT deduction cap state local taxes itemized",
+    "child tax credit refundable portion additional",
+    "American Opportunity Credit Lifetime Learning phaseout"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Capital gains, investment income and securities trading taxation",
+   "scope": "Taxation of capital gains, qualified dividends and net investment income, including holding periods, collectibles and Section 1250 rates, Section 1202 QSBS, wash sales, Section 1256 60/40 contracts, straddles and digital asset reporting.",
+   "queries": [
+    "long-term capital gains rate net investment income tax",
+    "qualified small business stock Section 1202 exclusion",
+    "wash sale rule substantially identical securities",
+    "cryptocurrency digital asset broker reporting Form 1099-DA"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Depreciation and cost recovery",
+   "scope": "MACRS recovery periods and conventions, bonus depreciation under Section 168(k), Section 179 expensing, Section 197 amortization of intangibles, listed property limits and depreciation recapture.",
+   "queries": [
+    "MACRS recovery period class life depreciation",
+    "bonus depreciation Section 168(k) phase-down percentage",
+    "Section 179 expensing limit phase-out threshold",
+    "Section 197 intangibles 15-year amortization goodwill"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Tax accounting methods, capitalization and inventories",
+   "scope": "Tax timing rules: cash versus accrual methods, accounting method changes under Section 481(a) and Form 3115, LIFO, UNICAP under Section 263A, Section 174 R&E capitalization, Section 460 long-term contracts and the small business gross receipts test.",
+   "queries": [
+    "change in accounting method Form 3115 Section 481(a)",
+    "uniform capitalization rules Section 263A inventory costs",
+    "Section 174 research experimental expenditures amortization",
+    "LIFO inventory method conformity recapture"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Federal business, energy and housing tax credits",
+   "scope": "General business credits including the Section 41 research credit, Section 42 LIHTC, New Markets Tax Credit and Inflation Reduction Act clean energy credits (45, 48, 45Q, 45X, 30D), plus transferability and elective direct pay.",
+   "queries": [
+    "research tax credit Section 41 qualified research expenses",
+    "low-income housing tax credit Section 42 qualified census tract",
+    "Inflation Reduction Act production tax credit transferability",
+    "clean vehicle credit Section 30D critical minerals"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US corporate income tax",
+   "scope": "Taxation of C corporations: the 21% rate, the corporate AMT on adjusted financial statement income, the dividends-received deduction, Section 163(j) interest limits, NOL rules, accumulated earnings and personal holding company taxes, and the stock buyback excise tax.",
+   "queries": [
+    "corporate alternative minimum tax adjusted financial statement income",
+    "dividends received deduction percentage ownership corporation",
+    "Section 163(j) business interest expense limitation",
+    "stock repurchase excise tax one percent Section 4501"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate reorganizations, distributions and NOL limitations",
+   "scope": "Subchapter C transactions: Section 351 transfers, Section 368 Type A-G reorganizations, Section 355 spin-offs, Section 302 redemptions, earnings and profits, and Section 382 ownership-change limits on loss carryforwards.",
+   "queries": [
+    "tax-free reorganization Section 368 continuity of interest",
+    "Section 355 spin-off device active trade business",
+    "Section 382 ownership change net operating loss limitation",
+    "earnings and profits redemption Section 302 dividend equivalence"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Partnership taxation (Subchapter K)",
+   "scope": "Partnership tax rules including Section 704(b) substantial economic effect, Section 704(c) built-in gain, Section 752 liability allocations, Section 754 basis elections, Section 751 hot assets, Section 1061 carried interest and the BBA centralized audit regime.",
+   "queries": [
+    "partnership allocations substantial economic effect Section 704(b)",
+    "Section 754 election basis adjustment partnership",
+    "carried interest three-year holding period Section 1061",
+    "Bipartisan Budget Act partnership audit representative"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "S corporations and the pass-through deduction",
+   "scope": "Subchapter S eligibility (shareholder limits, one class of stock), elections and terminations, the Section 1374 built-in gains tax, reasonable compensation, the Section 199A qualified business income deduction and state pass-through entity tax elections.",
+   "queries": [
+    "S corporation eligibility 100 shareholders one class stock",
+    "qualified business income deduction Section 199A specified service",
+    "pass-through entity tax election SALT workaround",
+    "built-in gains tax Section 1374 recognition period"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Real estate taxation",
+   "scope": "Tax rules specific to real property: Section 1031 like-kind exchanges, REIT qualification tests, Qualified Opportunity Zones, Section 469 passive activity loss rules and real estate professional status, and FIRPTA withholding.",
+   "queries": [
+    "like-kind exchange Section 1031 qualified intermediary 45 days",
+    "REIT distribution requirement 90 percent asset income tests",
+    "qualified opportunity zone fund deferral basis step-up",
+    "FIRPTA withholding foreign person US real property"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US international taxation of cross-border income",
+   "scope": "US rules for outbound and inbound income: GILTI/NCTI, Subpart F, FDII/FDDEI, BEAT, Section 904 foreign tax credit baskets, the Section 965 transition tax, PFICs and Section 7874 corporate inversions.",
+   "queries": [
+    "global intangible low-taxed income controlled foreign corporation",
+    "Subpart F income foreign base company sales",
+    "base erosion anti-abuse tax BEAT",
+    "foreign tax credit limitation Section 904 basket"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Transfer pricing",
+   "scope": "The arm's length principle, Section 482 regulations, OECD Transfer Pricing Guidelines, pricing methods (CUP, TNMM, profit split), cost sharing, APAs, documentation rules such as CbCR, and major disputes like Coca-Cola, Medtronic and Amazon.",
+   "queries": [
+    "transfer pricing arm's length comparable uncontrolled price",
+    "Section 482 cost sharing arrangement Tax Court",
+    "advance pricing agreement mutual agreement procedure",
+    "country-by-country reporting master file local file"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "OECD BEPS project, global minimum tax and digital services taxes",
+   "scope": "The 15 BEPS Actions, the Inclusive Framework, Pillar One Amounts A and B, Pillar Two GloBE rules (IIR, UTPR, QDMTT, STTR, side-by-side safe harbors) and unilateral digital services taxes.",
+   "queries": [
+    "Pillar Two GloBE rules income inclusion rule",
+    "qualified domestic minimum top-up tax 15 percent",
+    "BEPS action plan Inclusive Framework",
+    "digital services tax revenue threshold France"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Tax treaties and cross-border withholding",
+   "scope": "Bilateral income tax treaties under the OECD and UN Model Conventions: permanent establishment, residence tie-breakers, treaty withholding rates, limitation-on-benefits and principal purpose tests, the Multilateral Instrument and W-8BEN documentation.",
+   "queries": [
+    "OECD Model Tax Convention permanent establishment Article 5",
+    "double taxation agreement withholding tax rate dividends",
+    "limitation on benefits principal purpose test treaty",
+    "Multilateral Instrument BEPS tax treaty signatories"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Offshore tax havens, evasion and information exchange",
+   "scope": "Tax havens and offshore financial centers, FATCA, the Common Reporting Standard, FBAR reporting and penalties, voluntary disclosure programs, Swiss bank secrecy enforcement, offshore data leaks and the EU list of non-cooperative jurisdictions.",
+   "queries": [
+    "Foreign Account Tax Compliance Act intergovernmental agreement",
+    "Common Reporting Standard automatic exchange financial account",
+    "FBAR penalty willful foreign bank account",
+    "tax haven Panama Papers offshore secrecy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Value-added tax and GST systems worldwide",
+   "scope": "Value-added and goods and services taxes: the EU VAT Directive, standard and reduced rates, reverse charge, the OSS scheme, the invoice-credit method, India's GST, Australian/New Zealand GST, Canada's GST/HST and Gulf VAT regimes.",
+   "queries": [
+    "EU VAT Directive reverse charge intra-community supply",
+    "standard VAT rate reduced rate member state",
+    "India goods and services tax GST Council slabs",
+    "Canada harmonized sales tax HST rate province"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US sales and use tax and nexus",
+   "scope": "State and local sales and use taxes: economic nexus after South Dakota v. Wayfair, marketplace facilitator laws, the Streamlined Sales and Use Tax Agreement, exemption and resale certificates, taxability of SaaS and digital goods, and combined local rates.",
+   "queries": [
+    "South Dakota v. Wayfair economic nexus threshold",
+    "marketplace facilitator sales tax collection law",
+    "Streamlined Sales and Use Tax Agreement member states",
+    "use tax exemption certificate resale"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "State and local income, franchise and gross receipts taxes",
+   "scope": "State individual and corporate income taxes, apportionment formulas, combined reporting, Public Law 86-272, IRC conformity, franchise and gross receipts taxes (Texas margin tax, Ohio CAT, Washington B&O) and local income taxes.",
+   "queries": [
+    "state corporate income tax apportionment single sales factor",
+    "Public Law 86-272 solicitation protection",
+    "Texas franchise tax margin gross receipts tax",
+    "states with no individual income tax"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Property and land value taxation",
+   "scope": "Ad valorem real and personal property taxes: assessment ratios, millage rates, California Proposition 13 and other assessment caps, homestead exemptions, circuit breakers, tax increment financing and land value taxation in the Georgist tradition.",
+   "queries": [
+    "property tax assessment millage rate assessed value",
+    "California Proposition 13 assessment limit",
+    "homestead exemption property tax relief",
+    "land value tax Henry George"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Estate, gift, generation-skipping transfer and trust taxation",
+   "scope": "Federal transfer taxes and trust income tax: the basic exclusion amount, portability, the gift tax annual exclusion, GST tax, Section 2036 inclusion, GRATs and IDGTs, step-up in basis, Forms 706/709/1041, DNI and the grantor trust rules.",
+   "queries": [
+    "estate tax basic exclusion amount portability",
+    "gift tax annual exclusion generation-skipping transfer",
+    "grantor retained annuity trust intentionally defective",
+    "distributable net income trust Form 1041"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Payroll and self-employment taxes",
+   "scope": "FICA Social Security and Medicare taxes, the wage base, the Additional Medicare Tax, FUTA and SUTA, SECA self-employment tax, the trust fund recovery penalty, worker classification, and Forms 941 and W-2.",
+   "queries": [
+    "Social Security wage base FICA tax rate",
+    "self-employment tax SECA Schedule SE",
+    "FUTA credit reduction state unemployment tax",
+    "trust fund recovery penalty responsible person"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Retirement plans and tax-advantaged savings accounts",
+   "scope": "401(k), 403(b), 457 and IRA/Roth contribution and income limits, catch-up contributions, required minimum distributions, SECURE Act and SECURE 2.0 changes, early withdrawal penalties, HSAs, 529 plans and ABLE accounts.",
+   "queries": [
+    "401(k) elective deferral limit catch-up contribution",
+    "required minimum distribution age SECURE 2.0",
+    "Roth IRA income limit backdoor conversion",
+    "health savings account contribution limit HDHP"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Executive and equity compensation taxation",
+   "scope": "Taxation of ISOs, NSOs, RSUs and restricted stock, Section 83(b) elections, Section 409A deferred compensation, Section 280G golden parachutes, the Section 162(m) deduction limit and fringe benefit rules.",
+   "queries": [
+    "incentive stock options AMT disqualifying disposition",
+    "Section 83(b) election restricted stock 30 days",
+    "Section 409A nonqualified deferred compensation",
+    "golden parachute excise tax Section 280G"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Tax-exempt organizations",
+   "scope": "Section 501(c) categories, public charity versus private foundation status, UBIT, private foundation excise taxes (Sections 4940-4945), Form 990, the Johnson Amendment, donor-advised funds and the college endowment excise tax.",
+   "queries": [
+    "Section 501(c)(3) public charity private foundation",
+    "unrelated business taxable income exempt organization",
+    "private foundation excise tax net investment income",
+    "college endowment excise tax 1.4 percent"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Accounting for income taxes (ASC 740 and IAS 12)",
+   "scope": "Financial reporting of income taxes: deferred tax assets and liabilities, valuation allowances, uncertain tax positions (FIN 48), effective tax rate reconciliations, ASU 2023-09 disclosures and the IAS 12 Pillar Two exception.",
+   "queries": [
+    "deferred tax assets valuation allowance realizability",
+    "unrecognized tax benefits uncertain tax positions penalties",
+    "effective tax rate reconciliation statutory federal rate",
+    "ASU 2023-09 income tax disclosures"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tax procedure, IRS administration and penalties",
+   "scope": "IRS organization and audits, Section 6501 statutes of limitation, notices of deficiency and Tax Court petitions, collection tools (liens, levies, CDP hearings, offers in compromise), civil penalties, Circular 230 and the Taxpayer Advocate.",
+   "queries": [
+    "statute of limitations assessment Section 6501 extended",
+    "notice of deficiency 90 days Tax Court petition",
+    "offer in compromise collection due process hearing",
+    "accuracy-related penalty substantial understatement Section 6662"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Landmark tax cases and judicial anti-abuse doctrines",
+   "scope": "Key Supreme Court and appellate tax decisions (Pollock, Eisner v. Macomber, Lucas v. Earl, Gregory v. Helvering, Glenshaw Glass, Crane, Cottage Savings, Moore) and doctrines such as substance over form, step transaction, assignment of income and economic substance under Section 7701(o).",
+   "queries": [
+    "Gregory v. Helvering business purpose doctrine",
+    "Commissioner v. Glenshaw Glass gross income",
+    "economic substance doctrine codified Section 7701(o)",
+    "Moore v. United States mandatory repatriation tax"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of US federal tax legislation",
+   "scope": "Major federal revenue laws and constitutional milestones: the Civil War income tax, the Sixteenth Amendment, the Revenue Act of 1913, wartime revenue acts, the 1939/1954/1986 Codes, the Tax Reform Act of 1986, EGTRRA, the TCJA and the 2025 One Big Beautiful Bill Act.",
+   "queries": [
+    "Revenue Act 1913 Sixteenth Amendment ratified",
+    "Civil War income tax Revenue Act 1862",
+    "Tax Reform Act of 1986 provisions",
+    "Tax Cuts and Jobs Act 2017 sunset provisions"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Excise, sin and environmental taxes",
+   "scope": "Selective excise taxes on fuel, tobacco, alcohol, sugary drinks, firearms and air travel, plus environmental taxes such as carbon taxes, the EU Carbon Border Adjustment Mechanism, Superfund and landfill taxes, and their Pigouvian rationale.",
+   "queries": [
+    "federal gasoline excise tax cents per gallon",
+    "cigarette tax per pack state excise",
+    "carbon tax rate per tonne CO2",
+    "carbon border adjustment mechanism CBAM"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "United Kingdom taxation",
+   "scope": "The UK tax system administered by HMRC: income tax bands and the personal allowance, National Insurance classes, capital gains tax, Inheritance Tax nil-rate bands, Stamp Duty Land Tax, corporation tax, IR35 and the abolition of the non-dom regime.",
+   "queries": [
+    "UK income tax personal allowance higher rate threshold",
+    "inheritance tax nil-rate band residence",
+    "Stamp Duty Land Tax rates thresholds",
+    "IR35 off-payroll working rules"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "National tax systems outside the US and UK",
+   "scope": "Income and corporate tax regimes of other jurisdictions, such as Canada (CRA, RRSP, TFSA), Australia (ATO, franking credits, superannuation), Germany (solidarity surcharge, trade tax), Ireland, Switzerland's cantonal system, India's income tax regimes and new Gulf corporate taxes.",
+   "queries": [
+    "Canada Revenue Agency RRSP TFSA contribution limit",
+    "Australia franking credits dividend imputation",
+    "Germany solidarity surcharge trade tax Gewerbesteuer",
+    "Ireland corporation tax 12.5 percent trading"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tax policy economics and public finance theory",
+   "scope": "Economic analysis and measurement of taxation: tax incidence, deadweight loss, the Laffer curve, optimal taxation (Ramsey, Mirrlees, Atkinson-Stiglitz), progressivity indices, tax expenditures, the tax gap, tax-to-GDP comparisons and wealth taxes.",
+   "queries": [
+    "tax incidence elasticity deadweight loss",
+    "optimal income taxation Mirrlees model",
+    "Laffer curve revenue-maximizing tax rate",
+    "tax-to-GDP ratio OECD revenue statistics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

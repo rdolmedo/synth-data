@@ -1,0 +1,796 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "dart",
+ "weight": 0.012244,
+ "leaves": [
+  {
+   "leaf": "Sound null safety and null-safety migration",
+   "scope": "Nullable and non-nullable types, late variables, required named parameters, the null assertion operator, and the migration path from Dart 2.12 opt-in null safety to Dart 3's removal of unsound mode.",
+   "queries": [
+    "sound null safety Dart 2.12 nullable types",
+    "late variables required keyword null assertion operator",
+    "dart migrate tool unsound null safety removed",
+    "mixed mode legacy libraries opted out null safety"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Static type system, type inference and flow-analysis type promotion",
+   "scope": "Dart's sound static typing, including generics, covariant parameters, dynamic/Object?/Never top and bottom types, inference rules, and flow-based promotion of locals and private final fields.",
+   "queries": [
+    "Dart type inference generics covariant keyword",
+    "type promotion flow analysis private final fields",
+    "Never type Object dynamic top bottom types",
+    "generic methods reified type arguments runtime checks"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Records and pattern matching (Dart 3)",
+   "scope": "Record types with positional and named fields, destructuring, the pattern kinds, switch expressions, if-case, guard clauses and exhaustiveness checking introduced in Dart 3.0.",
+   "queries": [
+    "Dart records positional named fields record type",
+    "pattern matching switch expression guard clause",
+    "destructuring patterns list map object pattern",
+    "exhaustiveness checking if-case statement Dart 3"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Class modifiers and sealed class hierarchies",
+   "scope": "The Dart 3.0 class modifiers abstract, base, interface, final, sealed and mixin class, how they combine, and the rules for implicit interfaces and subtyping across libraries.",
+   "queries": [
+    "class modifiers base interface final sealed",
+    "mixin class modifier Dart 3.0",
+    "sealed class subtypes same library exhaustive",
+    "implicit interface implements extends restrictions modifiers"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Mixins and extension methods",
+   "scope": "Mixin declarations with on clauses, mixin application and linearization, and extension methods (Dart 2.7), including static resolution, conflict handling and unnamed extensions.",
+   "queries": [
+    "Dart mixin on clause superclass constraint",
+    "extension methods Dart 2.7 static resolution",
+    "mixin application linearization super calls",
+    "extension conflict resolution show hide unnamed extension"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Extension types",
+   "scope": "Zero-cost extension types introduced in Dart 3.3, covering representation types, implements clauses, runtime erasure, and their role in the new JS interop.",
+   "queries": [
+    "extension type representation type Dart 3.3",
+    "extension type implements clause erasure",
+    "zero-cost wrapper extension type declaration",
+    "inline classes views extension types experiment"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Classes, constructors, enums and constant expressions",
+   "scope": "Instance and static members, getters and setters, named, factory, redirecting and const constructors, initializer lists, super parameters, enhanced enums (Dart 2.17), equality and hashCode, and const canonicalization.",
+   "queries": [
+    "factory constructor redirecting constructor initializer list",
+    "enhanced enums Dart 2.17 fields constructors",
+    "super parameters initializing formals constructor",
+    "const constructor canonicalization identical constant expressions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Functions, parameters, closures and tear-offs",
+   "scope": "Optional positional and named parameters, default values, closures, function type syntax, generalized typedefs (Dart 2.13), constructor tear-offs (Dart 2.15), and the main() entry point.",
+   "queries": [
+    "optional positional named parameters default values",
+    "constructor tear-offs Dart 2.15 generic instantiation",
+    "generalized type aliases typedef Dart 2.13",
+    "function type syntax closures lexical scope main"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Operators and syntactic conveniences",
+   "scope": "Operator precedence, cascades, null-aware operators, triple-shift, spread and collection if/for, digit separators, wildcard variables, null-aware elements and dot shorthands, along with the Dart release that added each one.",
+   "queries": [
+    "cascade notation null-aware operators precedence table",
+    "triple shift operator unsigned Dart 2.14",
+    "digit separators wildcard variables Dart 3.7",
+    "null-aware elements dot shorthands spread collection if"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Libraries, imports, parts and deferred loading",
+   "scope": "Library directives, import prefixes, show/hide combinators, exports, part/part of files, underscore privacy, conditional imports on dart.library.* environment flags, and deferred loading.",
+   "queries": [
+    "import prefix show hide combinators export",
+    "deferred loading loadLibrary deferred as",
+    "conditional imports dart.library.io dart.library.js_interop",
+    "part of directive library privacy underscore"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Metadata annotations, pragmas and dart:mirrors reflection",
+   "scope": "Built-in and package:meta annotations, @pragma hints for the VM and compilers, and runtime reflection through dart:mirrors along with where it is not supported.",
+   "queries": [
+    "pragma vm:entry-point vm:prefer-inline annotation",
+    "package meta annotations immutable mustCallSuper visibleForTesting",
+    "dart:mirrors reflection ClassMirror InstanceMirror",
+    "Deprecated annotation override metadata Dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Exceptions, errors and stack traces",
+   "scope": "Exception versus Error, throw/try/on/catch/finally/rethrow, StackTrace handling, Error.throwWithStackTrace, assert, and the built-in error subtypes in dart:core.",
+   "queries": [
+    "Dart try on catch finally rethrow",
+    "Error.throwWithStackTrace StackTrace current",
+    "ArgumentError RangeError StateError UnsupportedError",
+    "assert statements enable-asserts debug mode"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Futures, async/await and the event loop",
+   "scope": "Future and Completer APIs, async/await semantics, the microtask and event queues, Timer, Zones and unawaited-future handling in dart:async.",
+   "queries": [
+    "Future then catchError whenComplete Completer",
+    "event loop microtask queue scheduleMicrotask",
+    "Zone runZonedGuarded zone values error handling",
+    "Future.wait Future.any timeout unawaited"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Streams and generator functions",
+   "scope": "Single-subscription and broadcast streams, StreamController, StreamSubscription, StreamTransformer, await for, and sync*/async* generators with yield and yield*.",
+   "queries": [
+    "StreamController broadcast stream subscription pause",
+    "async* generator yield await for",
+    "StreamTransformer fromHandlers stream transform",
+    "sync* Iterable generator yield recursive"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Isolates and concurrency",
+   "scope": "Isolate.spawn, Isolate.run, SendPort/ReceivePort messaging, isolate groups, transferable data, isolate lifecycle, and the concurrency limits on native and web platforms.",
+   "queries": [
+    "Isolate.spawn SendPort ReceivePort message passing",
+    "Isolate.run Dart 2.19 short-lived isolate",
+    "isolate groups shared heap TransferableTypedData",
+    "Isolate exit kill ping onExit errors"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Core collections and package:collection",
+   "scope": "List, Set, Map, Queue and Iterable APIs in dart:core and dart:collection, ordering guarantees, fixed-length and unmodifiable lists, and the helpers in package:collection.",
+   "queries": [
+    "Iterable methods whereType firstWhere fold",
+    "LinkedHashMap HashSet SplayTreeMap dart:collection",
+    "List.unmodifiable growable fixed-length list",
+    "package collection IterableExtension groupBy equality"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, Unicode and regular expressions",
+   "scope": "Strings as UTF-16 code units, runes, grapheme clusters through package:characters, StringBuffer, interpolation, raw and multi-line strings, and RegExp syntax and flags.",
+   "queries": [
+    "String UTF-16 code units runes codeUnitAt",
+    "package characters grapheme clusters",
+    "RegExp named groups unicode dotAll multiLine",
+    "StringBuffer raw strings interpolation multi-line"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numbers, integer semantics and dart:math",
+   "scope": "int, double and num behavior, 64-bit integers on native platforms versus JavaScript numbers on the web, BigInt, number parsing and formatting, and dart:math functions, Random and Point.",
+   "queries": [
+    "int 64-bit native JavaScript numbers web",
+    "BigInt parse toRadixString bitLength",
+    "dart:math Random secure max min sqrt",
+    "double toStringAsFixed num parse tryParse"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "dart:io file system, processes and sockets",
+   "scope": "The native-platform dart:io APIs: File, Directory, Link, RandomAccessFile, Process, Platform, stdio, Socket, SecureSocket, HttpServer, HttpClient and SecurityContext.",
+   "queries": [
+    "dart:io File Directory readAsString writeAsBytes",
+    "Process.run Process.start exitCode",
+    "Platform.environment operatingSystem numberOfProcessors",
+    "HttpServer SecureSocket SecurityContext RawSocket"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "dart:convert and JSON serialization",
+   "scope": "Codecs and converters in dart:convert (JSON, UTF-8, Base64, Latin-1, LineSplitter, chunked conversion) and generated serialization with json_serializable, built_value and freezed.",
+   "queries": [
+    "jsonEncode jsonDecode JsonCodec reviver",
+    "utf8 base64 Codec Converter chunked conversion",
+    "json_serializable JsonSerializable fieldRename explicitToJson",
+    "built_value freezed immutable data classes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "dart:typed_data, binary data and SIMD",
+   "scope": "Typed lists, ByteBuffer and ByteData views, endianness, unmodifiable typed-data views, and the SIMD types Float32x4, Int32x4 and Float64x2.",
+   "queries": [
+    "Uint8List ByteData Endian getInt32",
+    "Float32x4 Int32x4 SIMD typed_data",
+    "ByteBuffer asUint8List view offsetInBytes",
+    "unmodifiable typed data views sublistView"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "dart:ffi and native interop",
+   "scope": "Calling C from Dart with dart:ffi (Pointer, Struct, Union, NativeFunction, DynamicLibrary, @Native), generating bindings with ffigen and jnigen, NativeCallable callbacks, and build hooks for native assets.",
+   "queries": [
+    "dart:ffi Pointer Struct DynamicLibrary lookupFunction",
+    "ffigen bindings generator configuration yaml",
+    "NativeCallable listener isolateLocal callbacks",
+    "native assets build hook code assets"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JavaScript interop and web platform libraries",
+   "scope": "JavaScript interop through dart:js_interop, @JS annotations, JS types and conversions, package:web, and the deprecation of dart:html, dart:js, dart:js_util and package:js.",
+   "queries": [
+    "dart:js_interop JSObject JSAny toJS toDart",
+    "package web dart:html migration",
+    "JS annotation staticInterop external members",
+    "dart:js_util package js deprecated"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Web compilers: dart2js, DDC and dart2wasm",
+   "scope": "Compiling Dart to JavaScript and WebAssembly: dart2js optimization levels, the dartdevc development compiler, dart2wasm on WasmGC, and the dart compile js/wasm options.",
+   "queries": [
+    "dart2js optimization levels O2 O4 minify",
+    "dart2wasm WasmGC browser support",
+    "dartdevc development compiler modules hot reload",
+    "dart compile wasm js source maps"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dart VM, AOT compilation and runtime internals",
+   "scope": "The native Dart VM's JIT and AOT pipelines, the common front end and kernel binaries, snapshot kinds, dart compile exe/aot-snapshot, dartaotruntime, hot reload, the garbage collector design and VM flags.",
+   "queries": [
+    "dart compile exe aot-snapshot kernel jit-snapshot",
+    "Dart VM garbage collector scavenger mark-sweep",
+    "kernel binary format common front end",
+    "dartaotruntime cross-compilation target-os"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "DevTools, VM service protocol and debugging",
+   "scope": "Dart DevTools views (CPU profiler, memory, network, logging, timeline), DevTools extensions, the VM service protocol and its versions, Observatory, and debugging and profiling flags.",
+   "queries": [
+    "Dart DevTools CPU profiler memory view",
+    "VM service protocol version JSON-RPC",
+    "Observatory enable-vm-service pause-isolates-on-start",
+    "DevTools extensions heap snapshot timeline"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pubspec, dependency constraints and resolution",
+   "scope": "pubspec.yaml fields, caret version constraints, hosted/git/path/SDK dependencies, overrides, pubspec.lock and package_config.json, the PubGrub solver, and pub workspaces.",
+   "queries": [
+    "pubspec.yaml dependencies dev_dependencies environment sdk",
+    "caret syntax version constraints semantic versioning",
+    "dependency_overrides pubspec_overrides git path dependencies",
+    "pub workspaces monorepo shared resolution"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "pub.dev publishing and package hosting",
+   "scope": "Publishing with dart pub publish, verified publishers, pub points from pana and other scoring signals, retraction and discontinued packages, automated publishing from CI, and third-party package repositories.",
+   "queries": [
+    "dart pub publish verified publisher",
+    "pub points pana scoring likes downloads",
+    "retract package version discontinued",
+    "automated publishing GitHub Actions pub.dev token"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Static analysis, lint rules and dart fix",
+   "scope": "The Dart analyzer, analysis_options.yaml settings and strict modes, lint rule sets (package:lints core and recommended, flutter_lints), diagnostic codes, dart fix, and analyzer plugins.",
+   "queries": [
+    "analysis_options.yaml strict-casts strict-raw-types",
+    "package lints core recommended rule set",
+    "linter rule avoid_print prefer_const_constructors",
+    "dart fix apply quick fixes diagnostics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Formatting and Effective Dart style",
+   "scope": "The dart format tool and dart_style, the tall style introduced in Dart 3.7, page width and trailing-comma handling, and the Effective Dart guidelines on style, documentation, usage and design.",
+   "queries": [
+    "dart format tall style trailing commas",
+    "dart_style formatter page width configuration",
+    "Effective Dart naming conventions lowerCamelCase",
+    "Effective Dart usage design guidelines"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing with package:test and mocking",
+   "scope": "package:test structure (test, group, setUp, expect, matchers), runner configuration through dart_test.yaml, tags and platforms, async tests, mockito and mocktail, and code coverage.",
+   "queries": [
+    "package test group setUp expect matcher",
+    "dart_test.yaml tags platforms timeout",
+    "mockito GenerateMocks when thenReturn verify",
+    "dart test coverage collect lcov"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Code generation, build_runner and macros",
+   "scope": "build_runner and package:build (Builder, build.yaml, build_extensions), source_gen generators, generated part-file conventions, and the experimental macros and augmentations work that was later cancelled.",
+   "queries": [
+    "build_runner build watch delete-conflicting-outputs",
+    "build.yaml builders build_extensions auto_apply",
+    "source_gen GeneratorForAnnotation LibraryReader",
+    "Dart macros augmentations experiment cancelled"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "The dart command-line tool and dartdoc",
+   "scope": "dart CLI subcommands (create and its templates, run, info, analyze, doc), SDK layout and environment, and API documentation with dartdoc and doc comment syntax.",
+   "queries": [
+    "dart create template console package server-shelf",
+    "dart run executable package bin script",
+    "dart doc dartdoc_options yaml",
+    "documentation comments triple slash square bracket references"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Language versioning and experiment flags",
+   "scope": "Per-package and per-library language versions derived from SDK constraints, version override comments, --enable-experiment flags, and which language features each version unlocks.",
+   "queries": [
+    "language versioning per-library version override comment",
+    "enable-experiment flag experimental language features",
+    "SDK constraint lower bound language version",
+    "language feature version gating records patterns"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dart SDK release history and support policy",
+   "scope": "Dart SDK versions and release dates from 1.0 through 3.x, the stable/beta/dev/main channels, release cadence, breaking-change policy, and platform support changes such as dropped ia32 and added RISC-V or Windows ARM64.",
+   "queries": [
+    "Dart SDK stable release channel beta dev",
+    "Dart 3.0 release breaking changes announcement",
+    "breaking change policy deprecation Dart SDK",
+    "Dart SDK supported platforms ia32 riscv64 arm64"
+   ],
+   "sources": [
+    "changelog",
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Dart history, design origins and ECMA-408 standardization",
+   "scope": "Dart's origins at Google (Lars Bak, Kasper Lund, the GOTO 2011 unveiling, the codename Dash), Dartium and the Dart Editor, the abandoned plan for a VM in Chrome, ECMA TC52 and the ECMA-408 editions, and Dart's influences.",
+   "queries": [
+    "Dart programming language Lars Bak Kasper Lund",
+    "ECMA-408 Dart language specification TC52",
+    "Dartium Chromium Dart VM browser abandoned",
+    "Dart Editor Eclipse GOTO conference 2011"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "HTTP clients and server-side frameworks",
+   "scope": "package:http and its platform clients (cupertino_http, cronet_http), WebSocket channels, shelf middleware and routing, and backend frameworks such as Dart Frog, Serverpod, Conduit/Aqueduct and grpc-dart.",
+   "queries": [
+    "package http Client get post BaseClient",
+    "shelf middleware Pipeline shelf_router handler",
+    "Dart Frog Serverpod backend framework",
+    "grpc dart protobuf web_socket_channel"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dart web frameworks and historical web stack",
+   "scope": "AngularDart, Polymer.dart, Web UI, the Dart 1 pub serve and barback transformer build system, and newer Dart web frameworks such as Jaspr.",
+   "queries": [
+    "AngularDart components templates dependency injection",
+    "Polymer.dart web components Dart",
+    "pub serve barback transformers Dart 1",
+    "Jaspr Dart web framework server-side rendering"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Core dart-lang utility packages",
+   "scope": "Widely used first-party packages such as path, args, logging, intl, crypto, async, io and stack_trace, and their APIs.",
+   "queries": [
+    "package args ArgParser addOption addFlag",
+    "package path join basename context posix",
+    "package intl DateFormat NumberFormat Intl.message",
+    "package crypto sha256 Hmac digest"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "IDE tooling, analysis server and DartPad",
+   "scope": "The Dart analysis server and its LSP support, the VS Code and IntelliJ Dart plugins, DartPad features and history, and AI-assistant tooling such as the Dart and Flutter MCP server.",
+   "queries": [
+    "Dart analysis server LSP protocol",
+    "DartPad embedding gists Flutter snippets",
+    "Dart Code VS Code extension settings",
+    "Dart MCP server tools AI assistants"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generics, reified type arguments and variance",
+   "scope": "Generic classes, functions and methods: type parameter bounds, instantiate-to-bound, type arguments kept at runtime, covariant parameters and the proposal for declaration-site variance.",
+   "queries": [
+    "dart generic methods type parameter bounds",
+    "covariant keyword parameter override dart",
+    "reified generics runtime type arguments dart",
+    "instantiate to bound raw types dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Variables, statements and control flow",
+   "scope": "Variable declarations (var, final, const, late), lazy initialization of top-level and static variables, wildcard variables, and statements such as loops, labels, break/continue, switch statements and assert.",
+   "queries": [
+    "dart late final variables lazy initialization",
+    "wildcard variables underscore dart 3.7",
+    "dart labeled break continue loops",
+    "assert statement enable-asserts dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dart Language Specification, grammar and reserved words",
+   "scope": "The editions and drafts of the Dart Language Specification, plus its lexical structure, grammar rules, reserved words, built-in identifiers, contextual keywords and terminology.",
+   "queries": [
+    "dart language specification draft version",
+    "dart reserved words built-in identifiers",
+    "contextual keywords dart grammar",
+    "dart specification lexical rules identifiers"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Object protocol, equality and hashing",
+   "scope": "The members of Object and the rules they must follow (operator ==, hashCode, identical, toString, runtimeType, noSuchMethod), along with the Object.hash helpers, Comparable, Symbol and Type objects.",
+   "queries": [
+    "Object.hash hashAll hashAllUnordered dart",
+    "dart operator == hashCode contract",
+    "noSuchMethod Invocation forwarding dart",
+    "identical canonicalization const objects dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "DateTime, Duration, Stopwatch and time zones",
+   "scope": "How DateTime, Duration and Stopwatch in dart:core behave (value ranges, UTC versus local time, ISO 8601 parsing, microsecond precision on each platform), plus the time-zone and clock packages.",
+   "queries": [
+    "DateTime.parse ISO 8601 format dart",
+    "dart Duration microsecondsPerDay constants",
+    "Stopwatch elapsedTicks frequency dart",
+    "timezone package tz database dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Zones, timers and zone-scoped error handling",
+   "scope": "The Zone API in dart:async (runZoned, runZonedGuarded, ZoneSpecification hooks, zone values), one-shot and periodic Timers, and controlling time in tests with fake_async.",
+   "queries": [
+    "runZonedGuarded uncaught error handler dart",
+    "ZoneSpecification handleUncaughtError createTimer",
+    "dart zone values fork zoneValues",
+    "Timer.periodic tick fake_async dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Internationalization and localization with package:intl",
+   "scope": "Extracting and formatting messages with package:intl (Intl.message, plural and gender forms, DateFormat, NumberFormat), ARB files, Flutter gen-l10n, CLDR locale data and the dart-lang i18n packages.",
+   "queries": [
+    "Intl.message plural gender select dart",
+    "ARB file format application resource bundle",
+    "DateFormat skeletons NumberFormat compact intl",
+    "flutter gen-l10n l10n.yaml localizations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Garbage collection, weak references and finalizers",
+   "scope": "Garbage collection in the Dart VM (the new-space scavenger, old-space mark-sweep and mark-compact, concurrent marking) and the WeakReference, Finalizer and Expando classes in dart:core.",
+   "queries": [
+    "dart vm garbage collector scavenger old space",
+    "WeakReference Finalizer attach detach dart",
+    "Expando weak properties dart core",
+    "dart gc mark compact concurrent marking"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Common front end, Kernel IR and hot reload",
+   "scope": "The common front end (CFE), the Kernel intermediate representation and .dill files, frontend_server and incremental compilation, and how hot reload and hot restart work and where they fall short.",
+   "queries": [
+    "dart kernel binary format dill file",
+    "common front end cfe dart compiler",
+    "hot reload limitations state preserved flutter",
+    "frontend_server incremental compiler dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Uri handling, package: URIs and package_config.json",
+   "scope": "Parsing, building and percent-encoding URIs with the Uri class in dart:core, data: URIs, resolving package: URIs, and the package_config.json format that replaced the .packages file.",
+   "queries": [
+    "package_config.json format configVersion languageVersion",
+    "dart .packages file deprecated removed",
+    "Uri.encodeQueryComponent encodeComponent dart",
+    "Isolate.resolvePackageUri package uri dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Native assets and build hooks",
+   "scope": "Dart's hooks system (hook/build.dart and link hooks), code and data assets, package:hooks and its predecessor native_assets_cli, native_toolchain_c, and how native libraries get bundled with apps.",
+   "queries": [
+    "dart native assets build hook",
+    "hook/build.dart code assets package hooks",
+    "native_toolchain_c CBuilder dart",
+    "link hooks tree shaking data assets dart"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Protocol Buffers and gRPC for Dart",
+   "scope": "The Dart code that protoc_plugin generates, the runtime APIs and well-known types in package:protobuf, and the grpc-dart package for clients, servers, interceptors and gRPC-Web.",
+   "queries": [
+    "protoc_plugin dart generated code",
+    "package protobuf GeneratedMessage dart",
+    "grpc dart ClientChannel interceptors",
+    "grpc-web dart well-known types Timestamp"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Database and local persistence packages",
+   "scope": "Storage packages for Dart and Flutter: sqflite, sqlite3, drift (formerly moor), Hive, Isar, ObjectBox and shared_preferences, plus server-side database drivers such as postgres.",
+   "queries": [
+    "drift moor sqlite dart database",
+    "sqflite flutter sqlite plugin",
+    "hive isar nosql database flutter",
+    "postgres dart driver connection pool"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Flutter widget, element and render object framework",
+   "scope": "Flutter's widget, element and render-object trees, the lifecycles of StatelessWidget and StatefulWidget, BuildContext, keys, InheritedWidget and the layout and painting pipeline.",
+   "queries": [
+    "StatefulWidget State lifecycle initState dispose",
+    "flutter element tree render object",
+    "InheritedWidget updateShouldNotify BuildContext",
+    "flutter keys GlobalKey ValueKey widgets"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Flutter state management, dependency injection and routing packages",
+   "scope": "Packages for Flutter state management, dependency injection and navigation, including Provider, Riverpod, BLoC, GetX, MobX, Redux, RxDart, get_it and go_router.",
+   "queries": [
+    "riverpod provider notifier ref watch",
+    "flutter_bloc Cubit BlocProvider events states",
+    "go_router GoRoute redirect navigation",
+    "get_it service locator rxdart BehaviorSubject"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Flutter platform channels, Pigeon and federated plugins",
+   "scope": "Flutter platform channels (MethodChannel, EventChannel, BasicMessageChannel), their message codecs, code generation with Pigeon, and how federated plugin packages and platform interfaces are structured.",
+   "queries": [
+    "flutter MethodChannel invokeMethod platform channel",
+    "StandardMessageCodec supported types platform channels",
+    "pigeon code generator flutter host api",
+    "federated plugins platform interface endorsed"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

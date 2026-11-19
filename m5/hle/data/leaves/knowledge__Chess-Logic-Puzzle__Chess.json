@@ -1,0 +1,139 @@
+{
+ "partition": "knowledge",
+ "category": "Chess/Logic/Puzzle",
+ "subject": "Chess",
+ "target_leaves": 8,
+ "expected_problems": 18,
+ "leaves": [
+  {
+   "leaf": "Shatranj rules and medieval mansubat collections",
+   "scope": "Covers how the pieces of medieval Arabic, Persian and European chess moved (alfil, fers, the pawn promoting only to fers), how games were won (bare king, stalemate under different regional rules), and the mansubat problem collections linked to al-Adli, as-Suli and the Alfonso X manuscript, plus offshoots such as courier chess. A question could ask the solver to work out which squares a medieval piece can reach, whether a described position is a win under one historical ruleset, or to compare counts and attributions across manuscript traditions.",
+   "queries": [
+    "shatranj alfil fers",
+    "mansuba medieval chess problems",
+    "Murray History of Chess",
+    "courier chess Kurierspiel",
+    "Alfonso Libro de los juegos",
+    "bare king shatranj"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Chess automata hoaxes and early machines",
+   "scope": "Covers the documented history of the Kempelen Turk under Maelzel, later automata such as Ajeeb and Mephisto, and Torres y Quevedo's El Ajedrecista, a real electromechanical machine that played the king-and-rook versus king ending. This includes dates, owners, venues, the people hidden inside, and how each mechanism was explained at the time. A question could combine accounts from different periods to identify the operator in a given year, compare the theories of how the Turk worked, or work out what the El Ajedrecista algorithm would do in a stated position.",
+   "queries": [
+    "Kempelen automaton chess player",
+    "Maelzel chess automaton",
+    "Ajeeb chess automaton",
+    "Torres Quevedo ajedrecista",
+    "Willis analyse automaton chess"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century chess congress tournament books",
+   "scope": "Covers the formats, scoring conventions, time limits, pairing methods and prize lists of early international congresses: London 1851's knockout, Paris 1867, Baden-Baden 1870, Vienna 1873's mini-match scoring, the American Chess Congresses, and Hastings 1895. All are recorded in contemporary tournament books. A question could ask the solver to rebuild final standings or prize shares from a congress's own rules, or to compare how two events handled drawn games.",
+   "queries": [
+    "London 1851 chess tournament",
+    "Hastings 1895 tournament book",
+    "Vienna 1873 chess congress",
+    "American Chess Congress 1857",
+    "chess congress prize fund",
+    "Baden-Baden 1870 chess"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Chess problem theme nomenclature and composing schools",
+   "scope": "Covers how early-20th-century problem literature defined and attributed strategic themes (Grimshaw, Novotny, Plachutta, Holzhausen and Wurzburg-Plachutta interferences, Bristol, Turton and Loyd-Turton clearances) and the rules of the Bohemian, English, Old German and Good Companion schools, including what counts as a model mate. A question could describe a mechanism in abstract terms and ask the solver to classify it, or ask which namesake or school a convention traces to and what that implies about a described construction.",
+   "queries": [
+    "Grimshaw interference chess problem",
+    "Novotny Plachutta interference",
+    "Bohemian model mate",
+    "two-move chess problem",
+    "Christmas series chess problems",
+    "Good Companion chess problem"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Endgame tablebase depth metrics and records",
+   "scope": "Covers the results of retrograde endgame databases (Thompson, Nalimov, Lomonosov seven-piece, Syzygy): the depth-to-mate, depth-to-conversion and depth-to-zeroing metrics, maximum-length wins for particular material balances, and how these findings led FIDE to change, and later reverse, its fifty-move-rule exceptions. A question could ask the solver to decide whether a stated maximal win can be achieved under a given fifty-move-rule variant, or to compare how different metrics rank the same endings.",
+   "queries": [
+    "endgame tablebase depth to mate",
+    "retrograde analysis endgame database",
+    "Lomonosov seven-piece tablebase",
+    "fifty-move rule endgame",
+    "depth to conversion metric",
+    "Syzygy DTZ tablebase"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Self-play neural engines and alternative rule sets",
+   "scope": "Covers documented results from AlphaZero-style research: concept-probing studies of when human chess concepts appear during training, Maia's prediction of human moves by rating band, Leela Chess Zero, and AlphaZero experiments on modified rules (no castling, torpedo pawns, stalemate counted as a win, self-capture), with their reported draw rates and opening statistics. A question could ask the solver to compare reported outcome rates across rule variants, or to infer from published training details which concept was learned first.",
+   "queries": [
+    "AlphaZero alternative chess rules",
+    "no-castling chess AlphaZero",
+    "Maia human move prediction",
+    "concept probing AlphaZero chess",
+    "Leela Chess Zero network"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Cognitive psychology of chess expertise",
+   "scope": "Covers the documented findings of expertise research: Binet's 1894 blindfold study, the 1925 Moscow study of grandmasters, de Groot's think-aloud protocols, Chase and Simon's chunking recall experiments, Gobet's template theory and CHREST, Einstellung-effect studies, and deliberate-practice estimates. A question could ask the solver to combine reported recall scores or practice hours across skill groups, or to work out which theory predicts a described experimental result.",
+   "queries": [
+    "chess expertise chunking recall",
+    "template theory chess memory",
+    "Einstellung effect chess players",
+    "blindfold chess memory Binet",
+    "chess skill deliberate practice",
+    "CHREST chess simulation"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Rating models and engine-based cheating detection",
+   "scope": "Covers the statistical machinery of chess ratings and fair-play screening: Elo's logistic and normal expected-score models, FIDE K-factor rules, Glicko rating deviation, studies of rating inflation, and Regan-style intrinsic performance ratings built on engine agreement and average centipawn loss. A question could ask the solver to apply a documented formula or parameter set to a stated scenario, or to compare how two published models treat the same results.",
+   "queries": [
+    "Elo rating system chess",
+    "intrinsic performance rating chess",
+    "chess cheating detection engine",
+    "Glicko rating deviation",
+    "rating inflation chess FIDE",
+    "average centipawn loss"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  }
+ ]
+}

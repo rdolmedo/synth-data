@@ -1,0 +1,276 @@
+{
+ "partition": "knowledge",
+ "category": "Computer Science/AI",
+ "subject": "Computer Science",
+ "target_leaves": 18,
+ "expected_problems": 212,
+ "leaves": [
+  {
+   "leaf": "Babbage Analytical and Difference Engine designs",
+   "scope": "Documented design parameters of Babbage's engines: digits per column, number of store variables, the operation and variable card formats, carriage mechanisms, and the operation sequences in the Menabrea/Lovelace notes. A question could have the solver count operations or cards for a described computation, or compare capacities between design versions.",
+   "queries": [
+    "Analytical Engine store mill",
+    "Menabrea sketch Analytical Engine",
+    "Difference Engine anticipating carriage",
+    "Babbage operation cards variables",
+    "Passages Life Philosopher engine"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century mechanical logic machines",
+   "scope": "Construction details and capabilities of Jevons's logical piano, Marquand's logic machine, and similar devices (keys, the number of term combinations shown, how premises are entered), as described in period treatises. A question could have the solver work out which combinations survive a set of premises on such a machine, or compare the sizes of two designs.",
+   "queries": [
+    "Jevons logical piano",
+    "logical abacus combinations",
+    "Marquand logic machine",
+    "Principles of Science logical machine",
+    "mechanical performance logical inference"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Hollerith punched-card census tabulation",
+   "scope": "Specifics of Hollerith's tabulating system for the 1890 and 1900 US censuses: card dimensions and hole positions, counter dials, sorting-box operation, and the processing rates and costs that were reported. A question could combine card-field layouts with reported throughput to get processing times or capacities.",
+   "queries": [
+    "Hollerith electric tabulating system",
+    "census tabulating machine punched cards",
+    "Eleventh Census tabulation",
+    "Hollerith sorting box counters",
+    "punching cards census schedules"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Software patent eligibility under Section 101",
+   "scope": "Federal Circuit and district court rulings applying the Alice/Mayo two-step test to claims on algorithms, data structures, and computer-implemented methods, including which claim elements were held to be an 'inventive concept'. A question could ask the solver to apply a holding's reasoning to a described algorithmic claim, or to reconcile two decisions.",
+   "queries": [
+    "abstract idea Alice step two",
+    "patent-eligible computer-implemented method",
+    "Enfish self-referential table",
+    "inventive concept software claim",
+    "McRO automated lip synchronization"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Copyright in software structure and interfaces",
+   "scope": "Case law on whether non-literal elements of programs are protectable (structure, sequence and organization, menu hierarchies, API declarations), including the abstraction-filtration-comparison test and merger/sc\u00e8nes \u00e0 faire doctrines. A question could have the solver filter a described program's elements under a specific court's test and say which remain protectable.",
+   "queries": [
+    "abstraction filtration comparison",
+    "structure sequence organization program",
+    "menu command hierarchy method operation",
+    "Altai nonliteral elements",
+    "merger doctrine computer program"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "State complexity of regular language operations",
+   "scope": "Published tight bounds on DFA/NFA state complexity for operations such as concatenation, star, reversal, shuffle, and their combinations, including results restricted to unary, finite, or suffix-free languages. A question could have the solver evaluate or compare the bounds for specific parameters, or decide which subclass result applies.",
+   "queries": [
+    "state complexity concatenation tight bound",
+    "unary language state complexity",
+    "operational state complexity combined",
+    "suffix-free languages state complexity",
+    "nondeterministic state complexity reversal"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Small universal Turing machines and busy beavers",
+   "scope": "The documented (states, symbols) pairs of the smallest known universal Turing machines under different universality notions (weak, semi-weak, standard), and proven busy beaver and \u03a3/S values for small machine classes. A question could ask the solver to compare products of states and symbols across records, or to identify which bound is the open frontier.",
+   "queries": [
+    "small universal Turing machines",
+    "weakly universal Turing machine",
+    "busy beaver value proof",
+    "tag system simulation universality",
+    "bi-tag system universal"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Fine-grained complexity conditional lower bounds",
+   "scope": "Specific reductions and conditional lower bounds under SETH, the Orthogonal Vectors, APSP, and 3SUM hypotheses for problems such as edit distance, graph diameter approximation, and dynamic problems. A question could chain two published reductions to get the implied exponent for a third problem.",
+   "queries": [
+    "SETH hardness edit distance",
+    "orthogonal vectors conjecture reduction",
+    "3SUM-hard geometric problems",
+    "APSP subcubic equivalence",
+    "conditional lower bound dynamic"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Matrix multiplication exponent bound history",
+   "scope": "The successive published upper bounds on \u03c9 and on the rectangular exponent \u03b1, the tensors and laser-method variants each one used, and related barrier results. A question could ask for the improvement margin between particular papers, or which tensor power produced a given bound.",
+   "queries": [
+    "matrix multiplication exponent omega",
+    "laser method Coppersmith-Winograd tensor",
+    "rectangular matrix multiplication alpha",
+    "asymmetric hashing matrix multiplication",
+    "barriers fast matrix multiplication"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Lightweight block cipher cryptanalysis records",
+   "scope": "Round counts, key sizes, and the best published attacks (differential, linear, integral, meet-in-the-middle) on lightweight ciphers such as PRESENT, SIMON, SPECK, GIFT, and SKINNY, with their data and time complexities. A question could have the solver compute the fraction of rounds broken, or compare attack complexities across variants.",
+   "queries": [
+    "SIMON SPECK differential cryptanalysis",
+    "PRESENT cipher linear attack",
+    "GIFT block cipher rounds",
+    "SKINNY related-tweakey attack",
+    "lightweight cipher integral distinguisher"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lattice post-quantum scheme parameter sets",
+   "scope": "Concrete parameters (n, q, module rank k, noise distributions, compression bits) of Kyber/ML-KEM, Dilithium/ML-DSA, Falcon, NTRU, and Saber, together with their key and ciphertext sizes and estimated security levels. A question could have the solver derive byte sizes from the parameters, or compare security margins across parameter sets.",
+   "queries": [
+    "Kyber parameter sets ciphertext",
+    "module lattice KEM parameters",
+    "Dilithium signature size parameters",
+    "NTRU Prime parameters",
+    "Falcon NTRU lattice signature"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Transient-execution attack variants and mitigations",
+   "scope": "Taxonomies and documented details of Spectre/Meltdown-class variants (the microarchitectural buffers they leak from, the affected vendors, CVE identifiers) and which hardware or software mitigations address each. A question could ask which variants survive a given combination of mitigations.",
+   "queries": [
+    "transient execution attacks systematization",
+    "Spectre variant mitigation",
+    "microarchitectural data sampling",
+    "speculative store bypass",
+    "Foreshadow L1 terminal fault"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Erasure codes in distributed storage systems",
+   "scope": "Parameters and properties of deployed and proposed codes, such as Azure LRC, Facebook HDFS-Xorbas, regenerating codes at the MSR/MBR points, and piggybacked Reed-Solomon codes, including locality, storage overhead, and repair bandwidth. A question could have the solver compute repair traffic or fault tolerance for a given configuration.",
+   "queries": [
+    "locally repairable codes Azure",
+    "minimum storage regenerating codes",
+    "repair bandwidth erasure coding",
+    "piggybacking Reed-Solomon repair",
+    "HDFS-Xorbas locality"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Consensus protocol quorums and message complexity",
+   "scope": "Documented quorum sizes, fast-path conditions, message delays, and fault thresholds of Paxos variants, EPaxos, Fast Paxos, Viewstamped Replication, Raft, PBFT, and HotStuff. A question could have the solver compute the minimum replicas or quorum sizes for a given number of faults under a specific protocol's rules.",
+   "queries": [
+    "Fast Paxos quorum size",
+    "Egalitarian Paxos fast path",
+    "flexible Paxos quorum intersection",
+    "HotStuff linear view change",
+    "Viewstamped Replication revisited"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "TCP congestion control algorithm constants",
+   "scope": "Specific constants and update rules of congestion control algorithms such as CUBIC (C, \u03b2), BBR (pacing-gain cycle, probe intervals), Vegas (\u03b1, \u03b2), Compound TCP, and DCTCP (g), with their published rationales. A question could have the solver trace window evolution after a loss event, or compare recovery times between algorithms.",
+   "queries": [
+    "CUBIC congestion window function",
+    "BBR pacing gain cycle",
+    "DCTCP ECN marking fraction",
+    "TCP Vegas expected throughput",
+    "Compound TCP delay window"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Join enumeration in query optimizers",
+   "scope": "Dynamic-programming join enumerators (DPsize, DPsub, DPccp, DPhyp) and the published formulas for the number of csg-cmp pairs on chain, cycle, star, and clique query graphs. A question could have the solver evaluate those counts for a specific query shape, or compare how many pairs each algorithm considers.",
+   "queries": [
+    "csg-cmp pairs enumeration",
+    "DPccp join ordering",
+    "DPhyp hypergraph join enumeration",
+    "join order dynamic programming",
+    "bushy join trees counting"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Documented type-system unsoundness in mainstream languages",
+   "scope": "Published counterexamples showing unsoundness in the type systems of Java, Scala, TypeScript, Rust, Dart, and similar languages, naming the interacting features each relies on (wildcards, path-dependent types, null, variance). A question could ask which feature combination a counterexample needs, or whether a variant program would type-check.",
+   "queries": [
+    "Java Scala type systems unsound",
+    "TypeScript unsoundness bivariance",
+    "existential types null pointer",
+    "wildcards subtyping undecidable",
+    "type soundness counterexample language"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Quantum resource estimates for cryptanalysis",
+   "scope": "Published logical and physical qubit counts, Toffoli/T counts, and runtime estimates for running Shor's algorithm against RSA moduli and elliptic-curve discrete logarithms, under different error-correction assumptions. A question could ask the solver to compare estimates across papers, or to scale one estimate to a different key size.",
+   "queries": [
+    "factor RSA-2048 noisy qubits",
+    "elliptic curve discrete logarithm quantum resource",
+    "Toffoli count Shor algorithm",
+    "windowed arithmetic quantum factoring",
+    "surface code factoring estimate"
+   ],
+   "sources": [
+    "arxiv"
+   ]
+  }
+ ]
+}

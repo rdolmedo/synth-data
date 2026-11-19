@@ -1,0 +1,22 @@
+# dropped after investigation (filled by triage)
+gateway-access-denied-debug	git-clones private GitHub repo devrev/gateway (needs GITHUB_TOKEN); fails upstream
+mercury-redis-identification	git-clones private GitHub repo devrev/timeline (needs GITHUB_TOKEN); fails upstream
+leelachess0-pytorch-conversion	build downloads lczero network file that now returns HTTP 404
+extract-ip-from-log	seed is missing environment/server.log (not committed upstream); Dockerfile COPY fails
+cfn-stack-update-rollback	compose service needs the host Docker socket (/run/docker.sock); no Docker on cluster
+configforge-cfn-deploy	compose service needs the host Docker socket (/run/docker.sock); no Docker on cluster
+svg-generation	solution.sh is the TB1 template stub (never writes hello_world.svg) and test_outputs.py has an undefined svg_path (NameError); broken upstream
+chess-move-explanation	TB1 run-tests.sh runs `python3 -m pytest tests/` from /app but pytest is not installed in the image and the oracle needs bc; fails under the original harness too
+cprofiling-python	test hashes 9 images from picsum.photos; the remote content has drifted, expected hash no longer reproducible
+download-book	test functions are not named test_*, pytest collects 0 items (exit 5); broken upstream
+fab-scheduling	oracle generator imports numba, which the image does not install; no validated reference solution
+ctf-image	test reads $TEST_DIR/post-agent.txt, a capture of the agent's tmux pane made by the TB1 harness; Harbor has no equivalent
+find-sec-state	same TB1-harness dependency on post-agent.txt (pane capture) as ctf-image
+clean-dataset	tests' setup_module() regenerates cleaned_reviews.parquet from the original data itself, so the reward never depends on the agent's output (oracle also reads the wrong path; nltk punkt_tab drift empties the frame)
+codex-conversation-resolver-debug	build git-clones private GitHub repo devrev/codex (needs GITHUB_TOKEN); fails upstream
+inception	oracle clones terminal-bench and runs `tb run`, which needs a Docker daemon (Docker-in-Docker)
+inclusion_energy	tests contradict each other (-8.1+-0.2 vs -2.6+-0.2 for the same quantity; the oracle computes -9.7); no answer can pass
+posthog-voice-of-customer	7 of 8 tests are GPT-5 LLM-as-judge calls (litellm, OPENAI_API_KEY); no key here, and substituting another judge would change the task
+text-positioning-2	oracle's template matcher misplaces one word per sample (corner RMSE 197-432 px vs <=9) even with creation-date pins; unvalidated upstream task
+timeline-db-identification	build git-clones private GitHub repos devrev/{timeline,gateway,codex,notifications} (needs GITHUB_TOKEN); fails upstream
+vessel-stowage	the evaluator's 6 solver processes must finish under a hard 600 s deadline with fixed iteration budgets; worker CPUs miss it even on a dedicated 8-CPU slot (quality_score 0.999996 < 1.0; ~413 s only on i404-class cores)

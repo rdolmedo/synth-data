@@ -1,0 +1,481 @@
+{
+ "domain": "Finance",
+ "subtopic": "Fixed income investments",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "US Treasury bills, notes and bonds: issuance and auction mechanics",
+   "scope": "Covers marketable US Treasury securities: their tenors and features, and the single-price auction process, including competitive and noncompetitive tenders, bid-to-cover ratios, TreasuryDirect, cash management bills and the history of tenors such as the 30-year bond's suspension and the 20-year bond's return.",
+   "queries": [
+    "Treasury auction competitive noncompetitive bids high yield",
+    "30-year Treasury bond suspended 2001 reintroduced 2006",
+    "Treasury bill cash management bill 52-week",
+    "single-price uniform auction Treasury 1998 bid-to-cover ratio"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Zero-coupon bonds, Treasury STRIPS and original issue discount",
+   "scope": "Covers zero-coupon instruments, including Treasury STRIPS and reconstitution, the earlier broker-created receipts (TIGRs, CATS) and the tax treatment of original issue discount (accretion, phantom income, de minimis rules).",
+   "queries": [
+    "Treasury STRIPS program 1985 separate trading registered interest principal",
+    "TIGRs CATS zero coupon Treasury receipts Merrill Lynch Salomon",
+    "original issue discount de minimis rule accrual",
+    "zero-coupon bond phantom income imputed interest taxation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inflation-linked bonds: TIPS, I bonds and sovereign linkers",
+   "scope": "Covers inflation-indexed debt: TIPS (CPI-U indexation, index ratio, deflation floor), Series I savings bonds, UK index-linked gilts, French OATi/OAT€i and breakeven inflation.",
+   "queries": [
+    "TIPS index ratio CPI-U reference deflation floor",
+    "Series I savings bond fixed rate composite rate purchase limit",
+    "index-linked gilts 1981 RPI eight-month lag",
+    "breakeven inflation rate TIPS nominal Treasury spread"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Non-US developed-market government bond markets",
+   "scope": "Covers the sovereign debt markets of the UK, Japan, Germany, France, Italy, Canada and Australia: their issuing agencies, instrument names (gilts, JGBs, Bunds, Bobls, Schätze, OATs, BTPs), issuance methods and historical perpetuals such as consols and War Loan.",
+   "queries": [
+    "UK Debt Management Office gilt syndication conventional gilts",
+    "German Bund Bobl Schatz Finanzagentur maturity",
+    "Agence France Tresor OAT BTF issuance",
+    "consols War Loan perpetual gilt redeemed 2015"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Emerging-market sovereign debt and debt restructurings",
+   "scope": "Covers emerging-market sovereign bonds and their workouts: Brady bonds, collective action clauses, pari passu litigation, EMBI benchmarks and major defaults such as Russia 1998, Argentina 2001 and the Greek 2012 PSI exchange.",
+   "queries": [
+    "Brady bonds Mexico 1989 par discount bonds",
+    "collective action clauses sovereign bonds aggregation",
+    "Argentina pari passu NML Capital holdout litigation",
+    "Greece 2012 private sector involvement debt exchange haircut"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Supranational, agency and GSE debt",
+   "scope": "Covers bonds from multilateral development banks (IBRD, EIB, ADB), government agencies (KfW, TVA) and US government-sponsored enterprises (FHLB consolidated obligations, Farm Credit, Fannie Mae and Freddie Mac debenture programs).",
+   "queries": [
+    "Federal Home Loan Banks consolidated obligations discount notes",
+    "IBRD World Bank bonds first issued 1947",
+    "Freddie Mac Reference Notes Fannie Mae Benchmark Notes program",
+    "Tennessee Valley Authority power bonds Farm Credit System"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Municipal bond structures, tax exemption and market regulation",
+   "scope": "Covers US state and local government debt: general obligation versus revenue bonds, private activity and AMT bonds, Build America Bonds, monoline bond insurance, MSRB rules, EMMA disclosure and SEC Rule 15c2-12.",
+   "queries": [
+    "general obligation revenue bond municipal pledge security",
+    "Build America Bonds 2009 direct payment subsidy 35 percent",
+    "MSRB EMMA continuing disclosure Rule 15c2-12",
+    "monoline bond insurers MBIA Ambac municipal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Municipal defaults and Chapter 9 bankruptcies",
+   "scope": "Covers notable US municipal credit events and how they were resolved, including New York City 1975, WPPSS 1983, Orange County 1994, Jefferson County, Detroit 2013, Stockton and Puerto Rico under PROMESA.",
+   "queries": [
+    "Washington Public Power Supply System default 1983",
+    "Detroit Chapter 9 bankruptcy 2013 grand bargain",
+    "Puerto Rico PROMESA oversight board COFINA restructuring",
+    "Orange County bankruptcy 1994 Robert Citron"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Corporate bond indentures, covenants and trustees",
+   "scope": "Covers the legal structure of corporate bonds: the Trust Indenture Act of 1939, indenture trustees, affirmative and negative covenants, negative pledges, change-of-control puts, restricted payments, cross-default and events of default.",
+   "queries": [
+    "Trust Indenture Act 1939 qualified indenture trustee",
+    "negative pledge covenant change of control put 101",
+    "restricted payments covenant incurrence test indenture",
+    "event of default acceleration 25 percent holders"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Callable, putable and sinking fund bonds",
+   "scope": "Covers bonds with embedded options and amortization features: call protection and call schedules, make-whole calls priced at a Treasury spread, holder put options, sinking fund provisions and option-adjusted spread valuation on binomial trees.",
+   "queries": [
+    "make-whole call Treasury rate plus basis points redemption",
+    "sinking fund provision mandatory redemption bonds",
+    "option-adjusted spread binomial interest rate tree callable",
+    "putable bond holder put option yield to worst"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High-yield bond market and its history",
+   "scope": "Covers speculative-grade corporate bonds: the Drexel Burnham Lambert and Milken era, LBO financing, fallen angels versus original-issue high yield, PIK toggle notes, equity clawbacks, and high-yield spread and default cycles.",
+   "queries": [
+    "Drexel Burnham Lambert junk bonds Michael Milken",
+    "fallen angels original issue high yield bonds",
+    "PIK toggle notes leveraged buyout financing",
+    "equity clawback 35 percent high yield notes"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Distressed debt investing and Chapter 11 restructuring",
+   "scope": "Covers investing in and restructuring defaulted corporate debt: Chapter 11 plans, the absolute priority rule, cramdown, DIP financing, distressed exchange offers with exit consents, credit bidding and Section 363 sales.",
+   "queries": [
+    "debtor-in-possession financing superpriority Chapter 11",
+    "absolute priority rule cramdown Section 1129",
+    "distressed exchange offer consent solicitation exit consents",
+    "Section 363 sale credit bidding bankruptcy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Credit rating agencies, rating scales and default statistics",
+   "scope": "Covers NRSROs and their rating systems (scales, notches, outlooks, watches), their regulation (Credit Rating Agency Reform Act 2006, Dodd-Frank) and published cumulative default and recovery rate studies.",
+   "queries": [
+    "nationally recognized statistical rating organization NRSRO designation",
+    "Moody's rating scale Baa3 investment grade threshold",
+    "cumulative default rates by rating category recovery",
+    "Credit Rating Agency Reform Act 2006"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bond pricing conventions: yield measures, spreads and day counts",
+   "scope": "Covers the conventions for quoting and pricing bonds: yield to maturity and yield to worst, current yield, bond-equivalent and discount yields, G-, I- and Z-spreads, clean versus dirty price, accrued interest and day count conventions such as 30/360 and Actual/Actual.",
+   "queries": [
+    "day count convention 30/360 actual/actual accrued interest",
+    "clean price dirty price accrued interest bond",
+    "Z-spread I-spread G-spread bond",
+    "bond equivalent yield money market yield discount basis"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Duration, convexity and interest rate risk measures",
+   "scope": "Covers measures of bond price sensitivity: Macaulay, modified, effective and key rate duration, DV01/PVBP, convexity and negative convexity, and spread duration.",
+   "queries": [
+    "Macaulay duration modified duration formula",
+    "effective convexity negative convexity callable bonds",
+    "key rate duration partial duration yield curve",
+    "DV01 price value basis point hedge ratio"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Term structure theories, yield curve fitting and short-rate models",
+   "scope": "Covers explanations and models of the yield curve: expectations, liquidity preference and preferred habitat theories, bootstrapping, Nelson-Siegel-Svensson fitting, and short-rate and no-arbitrage models (Vasicek, CIR, Ho-Lee, Hull-White, BDT, HJM).",
+   "queries": [
+    "Nelson-Siegel-Svensson yield curve parameters",
+    "Vasicek model mean reversion short rate",
+    "Cox Ingersoll Ross Feller condition interest rate",
+    "preferred habitat liquidity preference expectations hypothesis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Agency mortgage-backed securities and prepayment",
+   "scope": "Covers pass-through MBS guaranteed by Ginnie Mae, Fannie Mae and Freddie Mac: pool types, the TBA market and good-delivery rules, dollar rolls, PSA/CPR/SMM prepayment conventions, payment delays and the Uniform MBS.",
+   "queries": [
+    "TBA market good delivery SIFMA settlement",
+    "PSA prepayment benchmark CPR SMM",
+    "Uniform Mortgage-Backed Security UMBS 2019",
+    "Ginnie Mae pass-through first issued 1970"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "CMOs and non-agency residential MBS",
+   "scope": "Covers structured residential mortgage securities: CMO tranche types (sequential, PAC, TAC, support, Z, IO/PO, inverse floaters), REMIC rules, and private-label RMBS (jumbo, Alt-A, subprime) with their credit enhancement.",
+   "queries": [
+    "planned amortization class PAC band support tranche",
+    "collateralized mortgage obligation 1983 Freddie Mac",
+    "REMIC Tax Reform Act 1986 residual interest",
+    "subprime RMBS overcollateralization excess spread subordination"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Commercial mortgage-backed securities",
+   "scope": "Covers CMBS conduit and single-asset single-borrower deals: master and special servicers, B-piece buyers and controlling classes, risk retention, defeasance and yield maintenance, appraisal reductions and delinquency tracking.",
+   "queries": [
+    "CMBS special servicer master servicer B-piece buyer",
+    "defeasance yield maintenance commercial mortgage prepayment",
+    "single asset single borrower CMBS conduit",
+    "appraisal reduction controlling class CMBS"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Asset-backed securities: auto, credit card, student loan and esoteric ABS",
+   "scope": "Covers non-mortgage securitizations, including credit card master trusts, auto loan and lease ABS, FFELP and private student loan ABS, and whole-business and other esoteric deals, with structural features such as early amortization, excess spread and Regulation AB disclosure.",
+   "queries": [
+    "credit card master trust early amortization trigger",
+    "auto loan ABS cumulative net loss subordinate notes",
+    "FFELP student loan asset-backed securities",
+    "whole business securitization franchise royalties"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Leveraged loans, CLOs and CDOs",
+   "scope": "Covers syndicated leveraged loans (term loan B, covenant-lite, LSTA conventions) and collateralized debt structures: CLO overcollateralization and interest coverage tests, reinvestment periods, CLO equity, CDO-squared and synthetic CDOs such as Abacus.",
+   "queries": [
+    "CLO overcollateralization interest coverage test reinvestment period",
+    "term loan B covenant-lite leveraged loan LSTA",
+    "synthetic CDO Abacus Goldman Sachs",
+    "CLO equity tranche collateral manager fee"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Covered bonds",
+   "scope": "Covers dual-recourse bank bonds secured by cover pools: the German Pfandbrief and Pfandbrief Act, Danish mortgage bonds and the balance principle, Spanish cédulas, French obligations foncières and the EU Covered Bond Directive.",
+   "queries": [
+    "Pfandbrief cover pool Pfandbrief Act",
+    "Danish mortgage bonds balance principle match funding",
+    "EU covered bond directive 2019 premium label",
+    "obligations foncieres cedulas hipotecarias covered bonds"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Convertible bonds and exchangeable securities",
+   "scope": "Covers bonds convertible into equity: conversion ratio, price and premium, contingent conversion triggers, mandatory convertibles, exchangeable bonds, capped call hedges and convertible arbitrage.",
+   "queries": [
+    "conversion ratio conversion price premium convertible notes",
+    "convertible senior notes capped call transactions",
+    "mandatory convertible preferred stock conversion rate",
+    "convertible arbitrage delta hedging"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bank capital hybrids, contingent convertibles and preferred securities",
+   "scope": "Covers loss-absorbing and hybrid capital instruments: Basel III AT1 CoCos with their triggers and write-downs (including Credit Suisse 2023), Tier 2 subordinated debt, TLAC, trust preferred securities, and fixed-to-floating preferred stock.",
+   "queries": [
+    "Additional Tier 1 contingent convertible trigger CET1 5.125",
+    "Credit Suisse AT1 write-down 2023",
+    "trust preferred securities TruPS Tier 1 phase-out",
+    "fixed-to-floating noncumulative perpetual preferred stock depositary shares"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Floating-rate notes and the LIBOR-to-SOFR transition",
+   "scope": "Covers floating-rate debt and its reference rates: FRN quoted and discount margins, caps and floors, Treasury FRNs, LIBOR's history and scandal, ARRC fallbacks and spread adjustments, and SOFR, SONIA and €STR.",
+   "queries": [
+    "floating rate notes quoted margin discount margin reset",
+    "ARRC fallback spread adjustment SOFR LIBOR",
+    "Secured Overnight Financing Rate first published 2018",
+    "Treasury floating rate notes 13-week bill index 2014"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Money market instruments and money market funds",
+   "scope": "Covers short-term debt (commercial paper, certificates of deposit, bankers' acceptances) and money market funds under SEC Rule 2a-7, including stable NAV, breaking the buck at the Reserve Primary Fund in 2008, and later fund reforms.",
+   "queries": [
+    "Rule 2a-7 money market fund weighted average maturity",
+    "Reserve Primary Fund broke the buck 2008",
+    "commercial paper 270 days exemption tier",
+    "bankers acceptances certificates of deposit money market"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Repurchase agreements and the repo market",
+   "scope": "Covers how the repo market works: bilateral, tri-party and GCF repo, haircuts, specials and fails charges, FICC sponsored repo, the Fed's ON RRP and Standing Repo Facility, and episodes such as the September 2019 repo spike.",
+   "queries": [
+    "tri-party repo clearing bank haircut collateral",
+    "GCF repo FICC sponsored repo",
+    "September 2019 repo rate spike",
+    "overnight reverse repurchase facility Federal Reserve standing repo"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bond market indices and bond index funds",
+   "scope": "Covers fixed income benchmarks (Bloomberg US Aggregate and its Lehman/Barclays lineage, ICE BofA, FTSE WGBI, JPMorgan GBI-EM and EMBI, iBoxx), their inclusion rules, and the bond mutual funds and ETFs that track them.",
+   "queries": [
+    "Bloomberg US Aggregate Bond Index inclusion rules",
+    "FTSE World Government Bond Index inclusion",
+    "iShares Core US Aggregate Bond ETF expense ratio",
+    "JPMorgan GBI-EM index country weights"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Bond market structure, dealers and trade reporting",
+   "scope": "Covers how bonds are traded and reported: primary dealers, OTC dealer markets, FINRA TRACE, MSRB RTRS, electronic platforms (MarketAxess, Tradeweb, BrokerTec) and portfolio trading.",
+   "queries": [
+    "FINRA TRACE corporate bond trade reporting 2002",
+    "primary dealers Federal Reserve Bank of New York list",
+    "MarketAxess Tradeweb electronic bond trading",
+    "BrokerTec interdealer Treasury trading platform"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Green, social, sustainability and sustainability-linked bonds",
+   "scope": "Covers labelled bonds: the ICMA Green and Social Bond Principles, pioneering issues such as the EIB Climate Awareness Bond, Climate Bonds Initiative certification, sustainability-linked coupon step-ups and the EU Green Bond Standard.",
+   "queries": [
+    "ICMA Green Bond Principles use of proceeds",
+    "EIB Climate Awareness Bond 2007",
+    "sustainability-linked bond coupon step-up KPI",
+    "European Green Bond Standard regulation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Eurobonds, foreign bonds and offshore or private-placement issuance",
+   "scope": "Covers cross-border and unregistered bond issuance: the Eurobond market's origins (Autostrade 1963), named foreign bonds (Yankee, Samurai, Bulldog, Panda, Kangaroo, Maple, Dim Sum), Rule 144A, Regulation S and shelf registration.",
+   "queries": [
+    "Eurobond Autostrade 1963 first issue",
+    "Samurai Yankee Bulldog Panda foreign bonds",
+    "Rule 144A qualified institutional buyers Regulation S",
+    "dim sum bonds offshore renminbi Hong Kong"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Fixed income portfolio management strategies",
+   "scope": "Covers approaches to managing bond portfolios: Redington immunization, cash-flow matching, contingent immunization, liability-driven investing, ladder, barbell and bullet structures, riding the yield curve and core-plus mandates.",
+   "queries": [
+    "Redington immunization 1952 duration matching",
+    "liability-driven investing pension hedge ratio",
+    "bond ladder barbell bullet strategy",
+    "contingent immunization cushion spread"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Catastrophe bonds and insurance-linked securities",
+   "scope": "Covers bonds that transfer insurance risk to capital markets: indemnity, parametric and industry-loss triggers, special purpose insurers and collateral trusts, cat bond indices, and notable issues such as the World Bank pandemic bonds.",
+   "queries": [
+    "catastrophe bond parametric trigger indemnity industry loss",
+    "World Bank pandemic emergency financing bonds 2017",
+    "special purpose insurer cat bond collateral trust",
+    "Swiss Re catastrophe bond index returns"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

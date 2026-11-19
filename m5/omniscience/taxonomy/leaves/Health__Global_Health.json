@@ -1,0 +1,911 @@
+{
+ "domain": "Health",
+ "subtopic": "Global Health",
+ "weight": 0.0133755,
+ "leaves": [
+  {
+   "leaf": "WHO constitution, governance bodies and Director-General elections",
+   "scope": "The legal and institutional structure of the World Health Organization: its 1946 Constitution, the World Health Assembly, the Executive Board, the six regional offices and regional committees, Director-General elections, membership changes, and the programme budget and assessed contributions.",
+   "queries": [
+    "World Health Assembly Executive Board members elected",
+    "WHO Director-General election history candidates",
+    "WHO regional offices regional committee headquarters",
+    "WHO assessed contributions programme budget member states withdrawal"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International health organizations before WHO (sanitary conferences to UNRRA)",
+   "scope": "International health cooperation before 1948: the International Sanitary Conferences and Conventions, the Pan American Sanitary Bureau, the Office International d'Hygiène Publique, the League of Nations Health Organisation, the Rockefeller Foundation International Health Board and UNRRA health work.",
+   "queries": [
+    "International Sanitary Conference 1851 Paris cholera quarantine",
+    "Office International d'Hygiène Publique 1907 Rome agreement",
+    "League of Nations Health Organisation Rajchman",
+    "Rockefeller Foundation International Health Board hookworm yellow fever"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "International Health Regulations, PHEIC declarations and the WHO Pandemic Agreement",
+   "scope": "The legal instruments and mechanisms of global health security: the IHR (2005) and its 2024 amendments, Emergency Committees and the PHEICs they declared, Joint External Evaluations, GOARN, CEPI's 100 Days Mission and the 2025 WHO Pandemic Agreement with its PABS annex.",
+   "queries": [
+    "International Health Regulations 2005 amendments pandemic emergency",
+    "public health emergency international concern declaration",
+    "Joint External Evaluation IHR core capacities scores",
+    "WHO Pandemic Agreement pathogen access benefit sharing"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global health initiatives and development assistance for health",
+   "scope": "The institutions and money flows that finance global health: the Global Fund, Gavi, PEPFAR, the President's Malaria Initiative, COVAX and the ACT-Accelerator, the Pandemic Fund, replenishment pledges, IHME estimates of development assistance for health, and cuts in donor funding.",
+   "queries": [
+    "Global Fund replenishment pledges billion conference",
+    "development assistance for health IHME estimates donors",
+    "PEPFAR authorization funding Emergency Plan AIDS Relief",
+    "COVAX facility doses delivered advance market commitment"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Smallpox, dracunculiasis and yaws eradication campaigns",
+   "scope": "Eradication programmes other than polio: the WHO Intensified Smallpox Eradication Programme, its last cases and 1980 certification; the Guinea worm eradication programme with its annual case counts and country certifications; and the Morges strategy for eradicating yaws.",
+   "queries": [
+    "Intensified Smallpox Eradication Programme last case certification 1980",
+    "dracunculiasis eradication Guinea worm cases Carter Center",
+    "International Commission Certification Dracunculiasis Eradication countries certified",
+    "yaws eradication azithromycin Morges strategy India"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Polio eradication and the Global Polio Eradication Initiative",
+   "scope": "The GPEI since 1988: the wild poliovirus serotypes and when each was certified eradicated, the remaining endemic countries, outbreaks of circulating vaccine-derived poliovirus, the 2016 tOPV-to-bOPV switch and nOPV2, and AFP and environmental surveillance.",
+   "queries": [
+    "wild poliovirus type 1 endemic Pakistan Afghanistan",
+    "circulating vaccine-derived poliovirus type 2 outbreaks nOPV2",
+    "trivalent bivalent OPV switch 2016 inactivated polio vaccine",
+    "acute flaccid paralysis surveillance environmental sampling poliovirus"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Expanded Programme on Immunization and routine coverage monitoring",
+   "scope": "Routine immunization programmes at national and global level: the history of the EPI, the Immunization Agenda 2030, WHO/UNICEF national coverage estimates (DTP3, MCV2), zero-dose children, the cold chain, vaccine vial monitors and the introduction of new vaccines into schedules.",
+   "queries": [
+    "Expanded Programme on Immunization 1974 vaccines schedule",
+    "WHO UNICEF estimates national immunization coverage DTP3",
+    "zero-dose children Immunization Agenda 2030 targets",
+    "vaccine cold chain vaccine vial monitor"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Measles and rubella elimination and verification",
+   "scope": "Regional goals to eliminate measles and rubella, the regional verification commissions, supplementary immunization campaigns, congenital rubella syndrome, and major measles outbreaks with their genotypes, case counts and the loss of elimination status.",
+   "queries": [
+    "measles elimination verified region regional verification commission",
+    "rubella congenital rubella syndrome elimination Americas",
+    "measles supplementary immunization activities campaign coverage",
+    "measles outbreak genotype D8 B3 cases deaths"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "HIV/AIDS global epidemiology, treatment programmes and targets",
+   "scope": "The HIV response in low- and middle-income countries: the UNAIDS 90-90-90 and 95-95-95 targets, PEPFAR programmes, WHO antiretroviral guidelines (Treat All, dolutegravir-based first-line), PMTCT Option B+, voluntary medical male circumcision and long-acting PrEP.",
+   "queries": [
+    "UNAIDS 95-95-95 targets people living with HIV",
+    "WHO antiretroviral therapy guidelines dolutegravir first-line",
+    "prevention mother-to-child transmission Option B+ Malawi",
+    "voluntary medical male circumcision HIV trial Orange Farm"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tuberculosis global control and drug-resistant TB",
+   "scope": "Global tuberculosis policy and programmes: DOTS, the Stop TB and End TB Strategies, estimates from the WHO Global TB Report, the high-burden country lists, Xpert MTB/RIF diagnostics, MDR/pre-XDR/XDR-TB definitions and the BPaL/BPaLM regimens.",
+   "queries": [
+    "End TB Strategy targets incidence reduction 2035",
+    "WHO high burden country list tuberculosis MDR-TB",
+    "bedaquiline pretomanid linezolid BPaL regimen trial",
+    "Xpert MTB/RIF Ultra diagnostic accuracy rifampicin resistance"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Malaria control, elimination and certification",
+   "scope": "Malaria control from the 1955-1969 Global Malaria Eradication Programme to today: insecticide-treated nets and indoor residual spraying, ACTs and kelch13-mediated partial artemisinin resistance, seasonal malaria chemoprevention, the RTS,S and R21 vaccines, World Malaria Report figures and WHO malaria-free certification.",
+   "queries": [
+    "WHO certified malaria-free country certification year",
+    "artemisinin partial resistance kelch13 mutation Africa",
+    "RTS,S R21 Matrix-M malaria vaccine efficacy",
+    "seasonal malaria chemoprevention sulfadoxine-pyrimethamine amodiaquine Sahel"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dengue, yellow fever, Zika and chikungunya control",
+   "scope": "Aedes-borne arboviral diseases in global health: their epidemiology and major outbreaks, the EYE strategy for yellow fever with fractional dosing and vaccine stockpiles, dengue vaccines (Dengvaxia, Qdenga), congenital Zika syndrome, chikungunya vaccines and Wolbachia-based vector control.",
+   "queries": [
+    "Eliminate Yellow Fever Epidemics strategy fractional dose",
+    "dengue vaccine TAK-003 Dengvaxia seronegative efficacy",
+    "Wolbachia wMel Aedes aegypti release dengue incidence",
+    "Zika virus microcephaly Brazil outbreak 2015"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Preventive-chemotherapy neglected tropical diseases and mass drug administration",
+   "scope": "Lymphatic filariasis, onchocerciasis, schistosomiasis, soil-transmitted helminthiases and trachoma: mass drug administration regimens (IDA, ivermectin, praziquantel, azithromycin), drug donation programmes, the SAFE strategy and WHO validation or verification of elimination by country.",
+   "queries": [
+    "lymphatic filariasis elimination validated ivermectin DEC albendazole",
+    "onchocerciasis elimination verified Mectizan Donation Program",
+    "trachoma SAFE strategy elimination public health problem",
+    "schistosomiasis praziquantel mass drug administration school-age children"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Case-management neglected tropical diseases (sleeping sickness, leishmaniasis, Chagas, leprosy, Buruli ulcer, snakebite)",
+   "scope": "NTDs controlled mainly through diagnosis and treatment: human African trypanosomiasis, visceral and cutaneous leishmaniasis, Chagas disease, leprosy, Buruli ulcer, mycetoma and snakebite envenoming, with their drugs, elimination milestones and targets in the NTD Road Map 2021-2030.",
+   "queries": [
+    "human African trypanosomiasis fexinidazole gambiense elimination",
+    "visceral leishmaniasis kala-azar elimination Indian subcontinent",
+    "leprosy single-dose rifampicin post-exposure prophylaxis",
+    "snakebite envenoming neglected tropical disease antivenom WHO"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ebola and viral haemorrhagic fever outbreaks",
+   "scope": "Epidemics of filoviruses and other viral haemorrhagic fevers (Ebola, Marburg, Lassa, Crimean-Congo): outbreak case and death counts, index cases and locations, the rVSV-ZEBOV ring vaccination trial, monoclonal antibody treatments from the PALM trial, and response operations.",
+   "queries": [
+    "West Africa Ebola epidemic 2014 cases deaths Guinea",
+    "rVSV-ZEBOV ring vaccination trial Ebola ça Suffit",
+    "Marburg virus disease outbreak Rwanda case fatality",
+    "Lassa fever Nigeria cases ribavirin"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cholera epidemics and oral cholera vaccine deployment",
+   "scope": "Global cholera epidemiology and control: the seventh pandemic and El Tor variants, major outbreaks (Haiti, Yemen, Zimbabwe), the Global Task Force on Cholera Control's Ending Cholera 2030 roadmap, the ICG oral cholera vaccine stockpile and single-dose strategies.",
+   "queries": [
+    "oral cholera vaccine stockpile International Coordinating Group",
+    "Haiti cholera outbreak 2010 peacekeepers Nepal",
+    "seventh cholera pandemic El Tor Vibrio cholerae O1",
+    "Global Task Force Cholera Control Ending Cholera 2030"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "One Health, zoonotic spillover and rabies elimination",
+   "scope": "Zoonotic threats where human and animal health meet: the Zero by 30 plan for dog-mediated rabies, Nipah and MERS outbreaks, mpox clades and their spread, and the Quadripartite (FAO, UNEP, WHO, WOAH) One Health Joint Plan of Action.",
+   "queries": [
+    "Zero by 30 dog-mediated rabies elimination",
+    "Nipah virus outbreak Bangladesh Kerala date palm sap",
+    "mpox clade Ib outbreak Democratic Republic of Congo",
+    "One Health Joint Plan Action Quadripartite FAO WOAH"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global influenza surveillance, vaccine strain selection and the PIP Framework",
+   "scope": "WHO's Global Influenza Surveillance and Response System with its collaborating centres and National Influenza Centres, the twice-yearly vaccine composition recommendations, the Pandemic Influenza Preparedness Framework and risk assessment of avian H5/H7 viruses for pandemic potential.",
+   "queries": [
+    "Global Influenza Surveillance Response System National Influenza Centres",
+    "WHO recommended composition influenza vaccines southern hemisphere",
+    "Pandemic Influenza Preparedness Framework partnership contribution",
+    "H5N1 human cases avian influenza clade 2.3.4.4b"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Viral hepatitis elimination programmes",
+   "scope": "Eliminating hepatitis B and C worldwide: the WHO 2030 targets and global health sector strategies, coverage of the hepatitis B birth dose, HBsAg prevalence, national HCV treatment programmes (Egypt, Georgia, Rwanda) and pricing of generic direct-acting antivirals.",
+   "queries": [
+    "hepatitis C elimination Egypt 100 Million Healthy Lives",
+    "hepatitis B birth dose vaccine coverage Africa",
+    "global health sector strategy viral hepatitis targets",
+    "Georgia hepatitis C elimination program sofosbuvir"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Antimicrobial resistance global policy and surveillance",
+   "scope": "The international response to antimicrobial resistance: the 2015 Global Action Plan, GLASS surveillance, the AWaRe classification of antibiotics, the UN General Assembly high-level meetings of 2016 and 2024, GRAM estimates of AMR burden, and initiatives on antibiotic access and development.",
+   "queries": [
+    "Global Antimicrobial Resistance Use Surveillance System GLASS",
+    "AWaRe classification Access Watch Reserve antibiotics",
+    "UN General Assembly high-level meeting antimicrobial resistance 2024",
+    "global burden bacterial antimicrobial resistance deaths attributable"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maternal mortality and obstetric care in low-resource settings",
+   "scope": "Maternal health in LMICs: MMEIG estimates of the maternal mortality ratio and SDG 3.1, causes of maternal death, trials on postpartum haemorrhage and eclampsia (WOMAN, E-MOTIVE, Magpie), EmONC signal functions, obstetric fistula and skilled birth attendance.",
+   "queries": [
+    "maternal mortality ratio estimates MMEIG sub-Saharan Africa",
+    "postpartum haemorrhage tranexamic acid WOMAN trial",
+    "emergency obstetric care signal functions EmONC",
+    "obstetric fistula prevalence repair Ethiopia"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Newborn and under-five child survival interventions",
+   "scope": "Child survival in LMICs: UN IGME estimates of under-five and neonatal mortality, IMCI, ORS and zinc for diarrhoea, community case management of pneumonia, kangaroo mother care, chlorhexidine cord care and the Every Newborn Action Plan.",
+   "queries": [
+    "Integrated Management of Childhood Illness IMCI evaluation",
+    "kangaroo mother care low birthweight mortality trial",
+    "oral rehydration solution zinc diarrhoea children coverage",
+    "under-five mortality rate UN IGME estimates"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Child undernutrition: stunting, wasting and severe acute malnutrition management",
+   "scope": "How undernutrition is defined and treated: the WHO Child Growth Standards and their z-score cutoffs, MUAC thresholds, community-based management of acute malnutrition, RUTF formulations, the World Health Assembly 2025 global nutrition targets and stunting prevalence trends.",
+   "queries": [
+    "WHO Child Growth Standards Multicentre Growth Reference Study",
+    "ready-to-use therapeutic food Plumpy'Nut severe acute malnutrition",
+    "MUAC cutoff 115 mm wasting children",
+    "World Health Assembly global nutrition targets 2025 stunting"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Micronutrient deficiencies, supplementation and food fortification",
+   "scope": "Global 'hidden hunger': vitamin A supplementation, universal salt iodization and iodine deficiency disorders, iron deficiency and anaemia, folic acid fortification against neural tube defects, zinc, biofortified crops and national fortification standards.",
+   "queries": [
+    "vitamin A supplementation child mortality meta-analysis",
+    "universal salt iodization iodine deficiency disorders goitre",
+    "folic acid flour fortification neural tube defects mandatory",
+    "biofortification orange-fleshed sweet potato HarvestPlus"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Family planning and sexual and reproductive health in LMICs",
+   "scope": "Contraceptive programmes and reproductive health policy: the 1994 ICPD Cairo Programme of Action, FP2020/FP2030, measures of unmet need and contraceptive prevalence, injectables and implants, estimates of unsafe abortion, and the Mexico City Policy.",
+   "queries": [
+    "unmet need family planning contraceptive prevalence rate",
+    "International Conference Population Development Cairo 1994",
+    "FP2030 commitments modern contraceptive users",
+    "Mexico City Policy global gag rule"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Water, sanitation and hygiene (WASH) in low-income settings",
+   "scope": "WASH worldwide: the service ladders of the WHO/UNICEF Joint Monitoring Programme, SDG 6 indicators, open defecation, community-led total sanitation, household water treatment, trials of handwashing and WASH interventions, and India's Swachh Bharat Mission.",
+   "queries": [
+    "Joint Monitoring Programme safely managed drinking water sanitation",
+    "community-led total sanitation open defecation free",
+    "WASH Benefits trial Bangladesh Kenya child growth",
+    "Swachh Bharat Mission toilets open defecation India"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Air pollution, climate change and planetary health",
+   "scope": "Environmental determinants of global health: household air pollution and clean cooking, the guideline values in the 2021 WHO Air Quality Guidelines, mortality from air pollution, heat-related mortality, Lancet Countdown indicators and climate-sensitive diseases.",
+   "queries": [
+    "WHO air quality guidelines 2021 PM2.5 annual",
+    "household air pollution solid fuel cookstove trial HAPIN",
+    "Lancet Countdown health climate change indicators",
+    "heat-related mortality attributable climate change"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global NCD targets, best buys and cardiometabolic risk policies",
+   "scope": "The international agenda on noncommunicable diseases: UN high-level meetings and political declarations, the 25 by 25 targets, the WHO 'best buys', the HEARTS hypertension package, salt reduction, REPLACE for trans-fat elimination, taxes on sugar-sweetened beverages and the SAFER alcohol initiative.",
+   "queries": [
+    "United Nations high-level meeting noncommunicable diseases political declaration",
+    "WHO best buys noncommunicable diseases cost-effective interventions",
+    "REPLACE trans fat elimination industrially produced countries",
+    "sugar-sweetened beverage tax Mexico purchases reduction"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tobacco control and the WHO Framework Convention on Tobacco Control",
+   "scope": "Global tobacco control law and policy: the FCTC (adopted 2003, in force 2005) and its articles, sessions of the Conference of the Parties, the Protocol to Eliminate Illicit Trade in Tobacco Products, the MPOWER measures, litigation over plain packaging and graphic health warnings.",
+   "queries": [
+    "Framework Convention Tobacco Control article parties ratification",
+    "MPOWER measures WHO report global tobacco epidemic",
+    "plain packaging Australia tobacco Philip Morris arbitration",
+    "Protocol Eliminate Illicit Trade Tobacco Products entry force"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cancer control in LMICs and cervical cancer elimination",
+   "scope": "Global cancer policy: the WHO cervical cancer elimination strategy (90-70-90 targets, threshold of 4 per 100,000), single-dose HPV vaccination, screen-and-treat with VIA and thermal ablation, IARC GLOBOCAN estimates, and the WHO initiatives on breast and childhood cancer.",
+   "queries": [
+    "cervical cancer elimination 90-70-90 targets WHO strategy",
+    "single-dose HPV vaccine efficacy KEN SHE trial",
+    "visual inspection acetic acid screen-and-treat thermal ablation",
+    "GLOBOCAN estimates cancer incidence mortality IARC"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global mental health and the treatment gap",
+   "scope": "Mental, neurological and substance-use disorders in LMICs: the mhGAP Intervention Guide, task-shared psychological interventions (Friendship Bench, Problem Management Plus, Thinking Healthy), Mental Health Atlas indicators, suicide prevention and the Lancet Commissions on global mental health.",
+   "queries": [
+    "mhGAP Intervention Guide non-specialist health settings",
+    "Friendship Bench Zimbabwe problem-solving therapy trial",
+    "Mental Health Atlas psychiatrists per 100000 population",
+    "task-sharing psychological intervention lay health workers depression"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global surgery, anaesthesia and emergency care",
+   "scope": "Access to surgical, obstetric and anaesthesia care in LMICs: the indicators and targets of the 2015 Lancet Commission on Global Surgery, density of the SAO workforce, WHA resolution 68.15, National Surgical, Obstetric and Anaesthesia Plans, and the WHO Surgical Safety Checklist.",
+   "queries": [
+    "Lancet Commission Global Surgery 2030 indicators",
+    "surgical anaesthesia obstetric workforce density per 100000",
+    "National Surgical Obstetric Anaesthesia Plan Zambia",
+    "WHO Surgical Safety Checklist mortality complications trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Road traffic injuries and injury prevention",
+   "scope": "Global injury epidemiology and prevention: road traffic deaths reported in the WHO Global Status Report on Road Safety, the Decades of Action for Road Safety and SDG 3.6, laws on helmets and seat belts, drowning prevention and burns in LMICs.",
+   "queries": [
+    "Global status report road safety deaths WHO",
+    "Decade of Action Road Safety 2021-2030 Stockholm Declaration",
+    "motorcycle helmet law low-income countries fatalities",
+    "drowning prevention World Drowning Report children Bangladesh"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Primary health care declarations and movements",
+   "scope": "The primary health care movement and its policy milestones: the 1978 Declaration of Alma-Ata and 'Health for All by the Year 2000', selective PHC and GOBI-FFF, the 1987 Bamako Initiative, China's barefoot doctors and the 2018 Declaration of Astana.",
+   "queries": [
+    "Declaration of Alma-Ata 1978 primary health care",
+    "selective primary health care GOBI Walsh Warren",
+    "Bamako Initiative user fees community financing 1987",
+    "barefoot doctors China rural cooperative medical system"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Universal health coverage and health financing reforms",
+   "scope": "Measuring and financing UHC in LMICs: the UHC service coverage index and catastrophic expenditure indicators under SDG 3.8, out-of-pocket spending, abolition of user fees, and national schemes such as Thailand's Universal Coverage Scheme, Ghana's NHIS, Rwanda's Mutuelles and India's PM-JAY.",
+   "queries": [
+    "UHC service coverage index catastrophic health expenditure",
+    "Thailand Universal Coverage Scheme 30 baht",
+    "Rwanda mutuelles de santé community-based health insurance",
+    "Ayushman Bharat PM-JAY health insurance coverage"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Health workforce and community health worker programmes",
+   "scope": "Human resources for health in LMICs: workforce density thresholds and shortage estimates, the 2010 WHO Global Code of Practice on international recruitment, task shifting, and national CHW programmes such as Ethiopia's Health Extension Programme, India's ASHAs, Pakistan's Lady Health Workers and Brazil's community health agents.",
+   "queries": [
+    "WHO Global Code Practice International Recruitment Health Personnel",
+    "health worker density threshold doctors nurses midwives shortage",
+    "Ethiopia Health Extension Programme health extension workers",
+    "accredited social health activist ASHA India incentives"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Essential medicines, prequalification and access to medicines",
+   "scope": "Access to medicines in global health: the WHO Model List of Essential Medicines and its revisions, WHO prequalification, TRIPS flexibilities and the Doha Declaration, compulsory licensing, the Medicines Patent Pool, and substandard and falsified medicines.",
+   "queries": [
+    "WHO Model List Essential Medicines edition added",
+    "Doha Declaration TRIPS public health compulsory licensing",
+    "Medicines Patent Pool voluntary licence generic manufacturers",
+    "substandard falsified medical products prevalence low-income"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global Burden of Disease study and summary measures of population health",
+   "scope": "Measuring the burden of disease: DALYs, YLLs and YLDs, disability weights, HALE, the 1993 World Development Report, and the successive rounds of the IHME Global Burden of Disease study with their rankings of leading causes and risk factors.",
+   "queries": [
+    "disability-adjusted life years DALY disability weights",
+    "Global Burden Disease study 2021 leading causes",
+    "World Development Report 1993 Investing in Health",
+    "healthy life expectancy HALE estimates countries"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Population health surveys, vital registration and verbal autopsy",
+   "scope": "Sources of health data in LMICs: Demographic and Health Surveys, UNICEF MICS, civil registration and vital statistics systems, sample registration systems, verbal autopsy tools (InterVA, SmartVA), and health and demographic surveillance sites such as the INDEPTH network and CHAMPS.",
+   "queries": [
+    "Demographic and Health Surveys program phases countries",
+    "verbal autopsy InterVA cause of death assignment",
+    "civil registration vital statistics completeness death registration",
+    "health demographic surveillance system site INDEPTH network"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Humanitarian emergencies, refugee health and conflict",
+   "scope": "Health in complex emergencies and displacement: the Sphere minimum standards, emergency thresholds for crude and under-five mortality, the IASC Global Health Cluster, health in refugee camps, attacks on health care, and the health effects of conflicts such as those in Syria, Yemen, Sudan and Gaza.",
+   "queries": [
+    "Sphere Handbook minimum standards health action",
+    "crude mortality rate emergency threshold refugees",
+    "refugee camp health outcomes UNHCR mortality",
+    "attacks on health care conflict Surveillance System"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "COVID-19 global response, COVAX and the ACT-Accelerator",
+   "scope": "Multilateral mechanisms for the COVID-19 pandemic, including COVAX, the ACT-Accelerator, WHO Emergency Use Listing of COVID-19 products, global vaccine equity and WHO excess-mortality estimates.",
+   "queries": [
+    "COVAX facility vaccine doses delivered low-income countries",
+    "Access to COVID-19 Tools Accelerator pillars funding",
+    "WHO emergency use listing COVID-19 vaccine",
+    "COVID-19 excess mortality estimates WHO 2020 2021"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mpox clades, global outbreaks and vaccine response",
+   "scope": "Epidemiology of monkeypox/mpox clades I and II, endemic transmission in Central and West Africa, the 2022 and 2024 emergency declarations, the renaming of the disease, and deployment of MVA-BN and LC16 vaccines.",
+   "queries": [
+    "mpox clade Ib Democratic Republic of Congo outbreak",
+    "2022 multi-country monkeypox outbreak public health emergency",
+    "MVA-BN smallpox vaccine mpox effectiveness",
+    "monkeypox Nigeria 2017 re-emergence human cases"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "SARS, MERS, Nipah and WHO R&D Blueprint priority pathogens",
+   "scope": "Emerging coronavirus and henipavirus outbreaks (SARS 2002-03, MERS-CoV, Nipah, Hendra) and how the WHO R&D Blueprint ranks priority pathogens, including Disease X.",
+   "queries": [
+    "SARS 2003 Hong Kong Metropole hotel super-spreader",
+    "MERS-CoV dromedary camels Saudi Arabia case fatality",
+    "Nipah virus outbreak Kerala Bangladesh date palm sap",
+    "WHO R&D Blueprint priority diseases Disease X"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "African meningitis belt epidemics and MenAfriVac",
+   "scope": "Epidemic meningococcal meningitis in the Sahelian belt, shifts between serogroups (A, W135, C, X), the MenAfriVac conjugate vaccine campaigns, the Men5CV vaccine, and the WHO roadmap Defeating Meningitis by 2030.",
+   "queries": [
+    "African meningitis belt serogroup A epidemics Lapeyssonnie",
+    "MenAfriVac PsA-TT conjugate vaccine campaign introduction",
+    "Neisseria meningitidis serogroup C Nigeria Niger epidemic",
+    "Defeating meningitis by 2030 global roadmap"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Typhoid fever and neglected bacterial febrile illnesses in the tropics",
+   "scope": "Burden and control of enteric fever, including XDR typhoid and typhoid conjugate vaccines, and of other non-malarial fevers such as scrub typhus, leptospirosis, melioidosis and brucellosis in LMICs.",
+   "queries": [
+    "extensively drug-resistant typhoid Pakistan Sindh outbreak",
+    "typhoid conjugate vaccine Typbar-TCV efficacy trial",
+    "scrub typhus Orientia tsutsugamushi burden Asia",
+    "melioidosis Burkholderia pseudomallei global burden estimate"
+   ],
+   "sources": [
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Neglected fungal infections and the WHO fungal priority pathogens list",
+   "scope": "Global burden of serious fungal disease (cryptococcal meningitis, histoplasmosis, chronic pulmonary aspergillosis, mycetoma, chromoblastomycosis, Candida auris) and the 2022 WHO Fungal Priority Pathogens List.",
+   "queries": [
+    "WHO fungal priority pathogens list critical group",
+    "cryptococcal meningitis HIV Africa mortality flucytosine",
+    "Candida auris emergence global outbreaks",
+    "mycetoma chromoblastomycosis neglected tropical disease"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Curable sexually transmitted infections and congenital syphilis elimination",
+   "scope": "Global estimates and control of syphilis, gonorrhoea, chlamydia and trichomoniasis, antenatal syphilis screening, antimicrobial-resistant gonorrhoea surveillance, and WHO validation of eliminating mother-to-child transmission of syphilis.",
+   "queries": [
+    "congenital syphilis elimination validation Cuba 2015",
+    "WHO global estimates curable sexually transmitted infections",
+    "Neisseria gonorrhoeae ceftriaxone resistance WHO GASP",
+    "antenatal syphilis screening point-of-care test"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sickle cell disease, rheumatic heart disease and NCDs of poverty",
+   "scope": "Non-communicable conditions concentrated among the poorest populations: sickle cell disease and thalassaemia, rheumatic heart disease, type 1 diabetes in LMICs, and the agenda of the Lancet NCDI Poverty Commission.",
+   "queries": [
+    "sickle cell disease sub-Saharan Africa newborn screening hydroxyurea",
+    "rheumatic heart disease echocardiographic screening prevalence Africa",
+    "Lancet NCDI Poverty Commission",
+    "Addis Ababa communique rheumatic heart disease"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global eye health, avoidable blindness and VISION 2020",
+   "scope": "Global prevalence and causes of blindness and vision impairment (cataract, refractive error, glaucoma, xerophthalmia), VISION 2020: The Right to Sight, the IAPB, and the effective-coverage indicators of the WHO World Report on Vision.",
+   "queries": [
+    "Vision Loss Expert Group blindness prevalence",
+    "VISION 2020 Right to Sight IAPB",
+    "cataract surgical coverage rate low-income countries",
+    "World Report on Vision effective refractive error coverage"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global oral health and noma",
+   "scope": "Global burden of untreated dental caries and periodontal disease, WHO oral health resolutions and the global action plan, fluoridation programmes, and noma (cancrum oris), now recognised as a neglected tropical disease.",
+   "queries": [
+    "noma cancrum oris neglected tropical disease Niger",
+    "global burden untreated dental caries permanent teeth",
+    "WHO global oral health action plan resolution",
+    "community water fluoridation salt fluoridation programme"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Disability, rehabilitation, hearing loss and assistive technology",
+   "scope": "Global disability prevalence estimates, the World Report on Disability and the UN CRPD, community-based rehabilitation, Rehabilitation 2030, the World Report on Hearing, and WHO's GATE initiative and Priority Assistive Products List.",
+   "queries": [
+    "World Report on Disability 2011 prevalence estimate",
+    "community-based rehabilitation matrix WHO guidelines",
+    "Priority Assistive Products List GATE",
+    "World Report on Hearing hearing loss prevalence"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Population ageing, dementia and long-term care in LMICs",
+   "scope": "Demographic ageing in low- and middle-income countries, the UN Decade of Healthy Ageing, WHO ICOPE, the global dementia action plan, and cross-national studies such as the 10/66 Dementia Research Group.",
+   "queries": [
+    "10/66 Dementia Research Group prevalence low middle income",
+    "Global action plan public health response dementia",
+    "UN Decade of Healthy Ageing 2021-2030",
+    "WHO integrated care older people ICOPE"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Palliative care and access to controlled opioid analgesics",
+   "scope": "Global need for palliative care and pain relief, inequities in morphine consumption and INCB estimates, the WHO analgesic ladder, resolution WHA67.19, and the Lancet Commission's measure of serious health-related suffering.",
+   "queries": [
+    "global access morphine consumption per capita INCB",
+    "Lancet Commission palliative care serious health-related suffering",
+    "WHO analgesic ladder cancer pain",
+    "Uganda oral morphine palliative care Hospice Africa"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global alcohol and drug policy, SAFER and harm reduction",
+   "scope": "International policy on harmful alcohol use (the 2010 Global Strategy, SAFER, the Global Alcohol Action Plan, per-capita consumption estimates) and on illicit drugs (UN drug conventions, coverage of opioid agonist therapy and needle-syringe programmes).",
+   "queries": [
+    "global strategy reduce harmful use of alcohol WHA63.13",
+    "SAFER initiative alcohol control measures",
+    "total alcohol per capita consumption global status report",
+    "needle syringe programme opioid agonist therapy coverage global"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Violence against women, female genital mutilation and child marriage",
+   "scope": "Global prevalence and prevention of intimate partner and sexual violence, female genital mutilation/cutting and its WHO typology, and child marriage, drawing on the WHO multi-country study and the World Report on Violence and Health.",
+   "queries": [
+    "WHO multi-country study women's health domestic violence",
+    "female genital mutilation prevalence WHO classification type",
+    "child marriage prevalence UNICEF South Asia",
+    "intimate partner violence global prevalence estimates"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Toxic chemical and occupational exposures in LMICs",
+   "scope": "Health effects and control of lead (leaded petrol phase-out, lead paint), mercury from artisanal gold mining under the Minamata Convention, highly hazardous pesticides, industrial disasters such as Bhopal, and chronic kidney disease of unknown origin among farm workers.",
+   "queries": [
+    "leaded petrol phase-out UNEP Partnership Clean Fuels",
+    "artisanal small-scale gold mining mercury exposure Minamata Convention",
+    "Bhopal methyl isocyanate gas disaster",
+    "Mesoamerican nephropathy chronic kidney disease unknown origin sugarcane"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Social determinants of health and health equity measurement",
+   "scope": "The 2008 WHO Commission on Social Determinants of Health and its conceptual framework, the Rio Political Declaration, measures of health inequality (concentration index, slope index), and cross-national evidence on income and health such as the Preston curve.",
+   "queries": [
+    "Commission Social Determinants Health Closing the Gap",
+    "Rio Political Declaration social determinants 2011",
+    "concentration index health inequality measurement",
+    "Preston curve life expectancy national income"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "International Code of Marketing of Breast-milk Substitutes and breastfeeding promotion",
+   "scope": "The 1981 International Code and later WHA resolutions, the Nestlé boycott, the Innocenti Declaration and Baby-friendly Hospital Initiative, and global breastfeeding indicators and targets.",
+   "queries": [
+    "International Code of Marketing Breast-milk Substitutes 1981 WHA",
+    "Nestlé boycott infant formula developing countries",
+    "Baby-friendly Hospital Initiative Ten Steps",
+    "exclusive breastfeeding prevalence global target 2025"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Substandard and falsified medical products",
+   "scope": "Prevalence and harms of substandard and falsified medicines and vaccines, WHO terminology and its Global Surveillance and Monitoring System, Interpol's Operation Pangea, the MEDICRIME Convention, and mass-poisoning incidents such as diethylene glycol in cough syrups.",
+   "queries": [
+    "substandard falsified antimalarials prevalence sub-Saharan Africa",
+    "WHO Global Surveillance Monitoring System falsified medicines",
+    "diethylene glycol contaminated cough syrup Gambia children",
+    "Interpol Operation Pangea counterfeit medicines"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Patient safety, infection prevention and control, injection and blood safety",
+   "scope": "WHO patient safety programmes (Global Patient Safety Challenges, Clean Care is Safer Care, World Patient Safety Day), the burden of healthcare-associated infection in LMICs, unsafe injections and syringe reuse, and blood transfusion safety.",
+   "queries": [
+    "WHO Clean Care is Safer Care hand hygiene",
+    "unsafe injections hepatitis C transmission syringe reuse",
+    "healthcare-associated infection prevalence developing countries",
+    "blood transfusion safety voluntary unpaid donation WHO"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Product development partnerships and neglected-disease R&D funding",
+   "scope": "Non-profit product development partnerships (DNDi, MMV, TB Alliance, IAVI, PATH, FIND) and the products they delivered, the 10/90 gap, G-FINDER tracking of R&D funding, and tropical disease priority review vouchers.",
+   "queries": [
+    "Drugs for Neglected Diseases initiative fexinidazole",
+    "Medicines for Malaria Venture product development partnership",
+    "G-FINDER neglected disease research development funding",
+    "priority review voucher tropical disease FDA"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Priority setting, cost-effectiveness analysis and Disease Control Priorities",
+   "scope": "Economic evaluation for setting global health priorities: the 1993 World Development Report, the Disease Control Priorities editions, WHO-CHOICE and cost-per-DALY thresholds, health technology assessment agencies in LMICs, and essential packages of health services.",
+   "queries": [
+    "Disease Control Priorities third edition essential package",
+    "World Development Report 1993 Investing in Health",
+    "WHO-CHOICE cost-effectiveness threshold GDP per capita",
+    "health technology assessment Thailand HITAP"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "partition": "knowledge",
+ "category": "Chemistry",
+ "subject": "Chemistry",
+ "target_leaves": 23,
+ "expected_problems": 276,
+ "leaves": [
+  {
+   "leaf": "Lichen depsides, depsidones and spot tests",
+   "scope": "Covers which named lichen substances (atranorin, usnic, fumarprotocetraric, norstictic acids, etc.) occur in particular genera and how each reacts in the K, C, KC and PD spot tests and on standardized TLC. A question could give a set of colour reactions and ask which compound is present, or ask how many aromatic rings, ester links or chlorines a compound has.",
+   "queries": [
+    "lichen substances depsidone",
+    "spot test K C PD lichen",
+    "atranorin thin layer chromatography",
+    "norstictic acid chemotype",
+    "lichen secondary metabolites genus"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Radioastronomical detection of interstellar molecules",
+   "scope": "Covers the first detections of specific molecules (cyanopolyynes, carbon-chain radicals, protonated ions, aromatic nitriles) in sources such as TMC-1, Sgr B2 and IRC+10216, along with the transitions and column densities reported. A question could ask for an abundance ratio, an isotopologue comparison, or the heavy-atom count or dipole behaviour of the detected species.",
+   "queries": [
+    "TMC-1 new molecule detection",
+    "cyanopolyyne column density",
+    "IRC+10216 carbon chain radical",
+    "interstellar aromatic nitrile",
+    "rotational spectroscopy interstellar ion"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century atomic weight determinations",
+   "scope": "Covers the historical values measured by Berzelius, Stas, Marignac and T. W. Richards, the reference standards they used (H = 1 vs O = 16 vs O = 100) and the stoichiometric methods involved (silver/halide ratios). A question could ask the solver to convert a historical value to a modern scale or work out the discrepancy implied by a reported mass ratio.",
+   "queries": [
+    "Stas atomic weight silver",
+    "Richards atomic weight revision",
+    "Berzelius table atomic weights",
+    "oxygen standard atomic weights",
+    "equivalent weights determination ratio"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Blowpipe analysis and borax bead tests",
+   "scope": "Covers the documented colours of borax and microcosmic-salt beads, charcoal incrustations and flame colorations for each metal under oxidizing and reducing flames, as given in classic determinative mineralogy manuals. A question could combine several observations and ask which element or mineral is indicated.",
+   "queries": [
+    "blowpipe analysis bead colour",
+    "microcosmic salt bead reducing flame",
+    "charcoal incrustation sublimate",
+    "Plattner blowpipe assaying",
+    "determinative mineralogy blowpipe"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Polyhedral borane and carborane cluster chemistry",
+   "scope": "Covers the structures, isomer interconversion temperatures and 11B NMR features of specific boranes, carboranes and metallacarboranes. A question could apply Wade\u2013Mingos skeletal electron counting to a reported formula to predict whether it is closo, nido or arachno, or to count its vertices.",
+   "queries": [
+    "closo carborane isomerization",
+    "metallacarborane synthesis structure",
+    "Wade's rules skeletal electron",
+    "11B NMR borane cluster",
+    "nido decaborane derivative"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Polyoxometalate Keggin and Dawson isomers",
+   "scope": "Covers the documented Baker\u2013Figgis rotational isomers, lacunary derivatives, heteroatom substitutions and reduced heteropoly blue species of tungstates and molybdates. A question could ask how many isomers are possible, what the overall anion charge is, or how many addenda atoms a reported species has.",
+   "queries": [
+    "Keggin isomer beta gamma",
+    "lacunary polyoxotungstate",
+    "Wells-Dawson anion",
+    "heteropoly blue reduction",
+    "polyoxometalate crystal structure"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Lanthanide luminescence and hydration numbers",
+   "scope": "Covers reported Eu(III) and Tb(III) excited-state lifetimes in H2O and D2O, the parameters of the Horrocks and Supkowski equations, and the selection rules for 5D0\u21927FJ transitions. A question could ask the solver to compute the number of inner-sphere water molecules from quoted lifetimes, or to infer site symmetry from the observed bands.",
+   "queries": [
+    "europium lifetime D2O hydration",
+    "Horrocks equation inner-sphere water",
+    "5D0 7F2 hypersensitive transition",
+    "terbium complex luminescence",
+    "lanthanide antenna effect"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Gas-phase chemistry of transactinide elements",
+   "scope": "Covers one-atom-at-a-time experiments on Rf, Db, Sg, Bh, Hs, Cn and Fl compounds: their volatilities, adsorption enthalpies on gold or quartz, and the relativistic effects predicted for them. A question could ask the solver to rank volatility against lighter homologues or to identify the isotope and production reaction that was used.",
+   "queries": [
+    "hassium tetroxide chemistry",
+    "copernicium adsorption gold",
+    "seaborgium oxychloride volatility",
+    "flerovium chemical experiment",
+    "transactinide relativistic effects"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Synthesis and structures of noble-gas compounds",
+   "scope": "Covers specific xenon, krypton and argon compounds (XeF+ salts, KrF2 adducts, Xe\u2013N and Xe\u2013C bonded species, HArF) with their preparation conditions and bond metrics. A question could ask for an oxidation state, the VSEPR geometry, or a comparison of bond lengths across a reported series.",
+   "queries": [
+    "krypton difluoride adduct",
+    "xenon fluoride cation salt",
+    "xenon nitrogen bond",
+    "HArF matrix isolation",
+    "noble gas compound crystal structure"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Historical coal-tar dyestuffs and trade names",
+   "scope": "Covers the 19th- and early-20th-century commercial names, patentees and starting materials of azo, triphenylmethane and anthraquinone dyes as listed in dye manuals. A question could ask the solver to work out a dye's molecular formula or number of sulfonate groups from its stated diazo and coupling components.",
+   "queries": [
+    "coal tar colours manufacture",
+    "azo dye coupling naphthol",
+    "aniline dyes history",
+    "triphenylmethane dye fuchsine",
+    "Farbstofftabellen dyestuff tables"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Historical artists' pigments and degradation",
+   "scope": "Covers conservation-science findings on pigments such as lead-tin yellow types I and II, smalt, Egyptian blue, orpiment and verdigris, including their dates of use, the analytical signatures that identify them and their degradation products. A question could ask for a date bound for a painting given the pigments found in it, or for the chemistry of a reported alteration.",
+   "queries": [
+    "lead tin yellow type II",
+    "smalt discoloration potassium",
+    "Egyptian blue luminescence imaging",
+    "pigment degradation painting analysis",
+    "verdigris copper carboxylate"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Compositional classification of ancient glass",
+   "scope": "Covers analytical data distinguishing natron glass from plant-ash glass (MgO and K2O thresholds), together with the colourants, opacifiers and recycling markers found in Roman, Islamic and medieval assemblages. A question could give oxide percentages and ask which glass group or production region they point to.",
+   "queries": [
+    "natron glass plant ash",
+    "Roman glass composition",
+    "antimony opacifier glass",
+    "LA-ICP-MS archaeological glass",
+    "Levantine glass production"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Alkaloid chemistry of medicinal plant genera",
+   "scope": "Covers which named alkaloids were isolated from particular genera (Aconitum, Strychnos, Cinchona, Erythrina), the dates of their isolation and the structural revisions that followed. A question could ask the solver to work out the biosynthetic amino acid precursor, count stereocentres, or compare molecular formulas across congeners.",
+   "queries": [
+    "diterpenoid alkaloids Aconitum",
+    "Erythrina alkaloids isolation",
+    "Strychnos indole alkaloids",
+    "cinchona alkaloids history",
+    "alkaloid structure elucidation"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Structure revisions of marine natural products",
+   "scope": "Covers halogenated and polyketide metabolites from sponges, tunicates and red algae whose originally proposed structures were later corrected by synthesis or new NMR data. A question could ask what changed in the revision (a stereocentre, ring size or halogen position) or what the corrected molecular formula implies.",
+   "queries": [
+    "marine natural product structure revision",
+    "sponge bromotyrosine alkaloid",
+    "Laurencia halogenated sesquiterpene",
+    "tunicate cytotoxic metabolite",
+    "revised stereochemistry total synthesis"
+   ],
+   "sources": [
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Case law on chemical compound patents",
+   "scope": "Covers US decisions applying obviousness and anticipation doctrines to structurally similar compounds, enantiomers, salts, polymorphs and prodrugs, including the lead-compound analysis. A question could ask which structural relationship was at issue and which way the court ruled, or ask the solver to compare the holdings of two cases.",
+   "queries": [
+    "prima facie obviousness structural similarity",
+    "enantiomer patent obviousness",
+    "lead compound analysis",
+    "polymorph patent anticipation",
+    "homolog isomer patentability"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Kinetic isotope effects in mechanism studies",
+   "scope": "Covers measured primary and secondary deuterium, 13C and 18O kinetic isotope effects for particular organic and enzymatic reactions, along with the mechanistic conclusions drawn from them. A question could ask the solver to infer the rate-determining step, or to judge whether tunnelling is implicated from the size or temperature dependence of a reported KIE.",
+   "queries": [
+    "primary deuterium kinetic isotope effect",
+    "secondary isotope effect hybridization",
+    "heavy atom isotope effect",
+    "tunneling isotope effect enzyme",
+    "intramolecular competition isotope effect"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts"
+   ]
+  },
+  {
+   "leaf": "Criegee intermediates and atmospheric radical kinetics",
+   "scope": "Covers measured rate coefficients of stabilized Criegee intermediates and OH/NO3 radicals with atmospheric trace gases, including their conformer dependence and branching ratios. A question could ask the solver to compute an atmospheric lifetime from a given rate constant and concentration, or to compare the reactivity of syn and anti conformers.",
+   "queries": [
+    "Criegee intermediate rate coefficient",
+    "syn anti Criegee conformer",
+    "OH radical rate constant",
+    "ozonolysis alkene products",
+    "NO3 radical nighttime chemistry"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Zeolite framework types and structure-directing agents",
+   "scope": "Covers IZA framework codes, ring sizes, channel dimensionality and the organic structure-directing agents used to make specific frameworks. A question could ask the solver to compare pore apertures, count T-atoms per unit cell, or identify the framework from its reported synthesis.",
+   "queries": [
+    "zeolite framework type code",
+    "organic structure directing agent zeolite",
+    "small pore chabazite synthesis",
+    "germanosilicate extra-large pore",
+    "zeolite ring channel system"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "M\u00f6ssbauer parameters of iron compounds",
+   "scope": "Covers reported 57Fe isomer shifts and quadrupole splittings for specific iron complexes, minerals and metalloproteins in different oxidation and spin states. A question could give a set of parameters and ask the solver to assign the oxidation state and spin state, or the ratio of iron sites from relative areas.",
+   "queries": [
+    "57Fe M\u00f6ssbauer isomer shift",
+    "quadrupole splitting high spin",
+    "M\u00f6ssbauer iron mineral",
+    "iron(IV) oxo M\u00f6ssbauer",
+    "spin crossover M\u00f6ssbauer"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Classical carbohydrate stereochemistry and degradation",
+   "scope": "Covers historical sugar chemistry: Fischer's configurational proofs, osazone identities, Kiliani\u2013Fischer, Ruff and Wohl chain changes, and the properties of rare sugars. A question could ask the solver to deduce which aldose results from a stated sequence of degradations or chain extensions, or which sugars give identical osazones.",
+   "queries": [
+    "osazone formation sugars",
+    "Kiliani Fischer synthesis",
+    "Ruff degradation aldose",
+    "Fischer glucose configuration proof",
+    "rare sugar properties"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "libretexts",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Metal\u2013metal multiple bonds in paddlewheel complexes",
+   "scope": "Covers reported metal\u2013metal distances, bond orders and axial-ligand effects in dimolybdenum, dichromium, dirhenium and diruthenium complexes, plus the quintuple-bonded species. A question could ask the solver to derive the bond order from a d-electron count, or to compare distances across a reported series.",
+   "queries": [
+    "quadruple bond dimolybdenum",
+    "paddlewheel complex metal-metal distance",
+    "quintuple bond chromium",
+    "diruthenium tetracarboxylate",
+    "delta bond electronic structure"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Archaic chemical names and pharmacopoeia preparations",
+   "scope": "Covers pre-modern names (butter of antimony, sal prunella, Glauber's salt, Turpeth mineral) and the old pharmacopoeia recipes for making them. A question could ask the solver to identify the modern compound, work out its formula, or balance the reaction implied by a historical recipe.",
+   "queries": [
+    "butter of antimony preparation",
+    "old chemical names synonyms",
+    "pharmacopoeia mercury preparations",
+    "sal ammoniac manufacture",
+    "dispensatory chemical preparations"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Early synthetic polymers and rubber chemistry",
+   "scope": "Covers the documented formulations and processes for celluloid, Bakelite, galalith, vulcanized rubber and early synthetic rubbers, including the role of accelerators and fillers. A question could ask the solver to work out the reagent stoichiometry, the crosslinking chemistry, or the chronology of a process from the source details.",
+   "queries": [
+    "celluloid camphor nitrocellulose",
+    "Bakelite phenol formaldehyde",
+    "rubber vulcanization accelerator",
+    "casein plastic galalith",
+    "synthetic rubber methyl isoprene"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  }
+ ]
+}

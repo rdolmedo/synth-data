@@ -1,0 +1,139 @@
+# Text-only eval variant (#348, 2026-11-11) of glm53-flash-eval.toml: every AAI-open model is served without vision. The
+# only change is --language-model-only in place of the image allowance: vLLM 0.32 then skips building and
+# loading the vision tower (_mark_tower_model) and serves text alone; every other setting is the M3.6 spec's.
+# Launch evidence: aa_evals protocol.image_inputs and pi_eval model_input read --language-model-only as text-only.
+# GLM-5.3-Flash (NVIDIA NVFP4): DP2/EP2 engines (TP1, one API server per rank, external LB); a serving job of 2 GPUs
+# runs one engine, of 4 GPUs two. The 10-16 campaign ran one DP4/EP4 engine per 4 GPUs.
+# Provenance: campaign 20261016T171932Z (generation/pi-submit-20261016T171932Z/glm53-flash),
+# 111.07M tokens / TB2.1 pass@1 76.03%. Launcher: inference/serve_glm_dpep.sh + gen/glm53_campaign_server.py
+# (vLLM 0.31, MTP2, fp32 KDA state, 16,384 batched tokens, 0.92 memory, 32 GiB default CPU offload per rank).
+# 2026-10-30 serving study (docs/campaigns/glm53-flash-throughput-20261030.md; replays of that campaign's own Pi
+# traffic, 4xB200): vLLM 0.32 (equal to 0.31 at equal load), bf16 KDA recurrent state (+37% KV per rank; next-token
+# distributions move about as much as a prefix-cache hit does), 8,192 batched tokens (+8-9%: shorter DP lockstep
+# stalls behind prefill chunks), MTP3 (+5% below the knee), 0.95 memory (+2% at the knee), and Super's CPU tier:
+# SimpleCPUOffloadConnector + synth-cpu-supersede v2 (+13.5% closed loop on 2xB200). Kernel arms that measured
+# neutral or worse: FlashInfer autotune, stream interval 8, CuTeDSL / CUTLASS / MoE-EP megakernel MoE backends.
+# AAI-open eval (M3): the glm53-flash teacher of the study above (data-synthesis 60f67da) with two differences: image
+# inputs are allowed (--limit-mm-per-prompt below), and no PI_CONTEXT_RENDERER in [request], because that module is not
+# in the frozen eval code the M3.6 models ran on (the Pi context guard counts via vLLM's /tokenize, as for the other
+# eval models). Serve one 4xB200 job (two DP2/EP2 engines).
+slug = "glm53-flash-eval-text"
+model = "zai-org/GLM-5.3-Flash"
+revision = "da920bb0b9f4a06727223a349e55468e38352348"   # nvidia/GLM-5.3-Flash-NVFP4
+checkpoint = "/data/aai/tbench/synth/shared/checkpoints/glm53-flash/da920bb0b9f4a06727223a349e55468e38352348"   # synth.fetch (hard links to /data/aai/models/GLM-5.3-Flash-NVFP4, verified)
+served_name = "glm-5.3-flash"
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+cu13_ld_library_path = true
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["HUMMING_CACHE_DIR", "HUMMING_TMP_DIR", "VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR",
+             "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME", "HF_HOME"]
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", HUMMING_DISABLE_PARALLEL_BUILD = "1", MKL_NUM_THREADS = "4", VLLM_ENGINE_READY_TIMEOUT_S = "7200", VLLM_USE_RUST_FRONTEND = "0", VLLM_EXECUTE_MODEL_TIMEOUT_SECONDS = "1200" }
+
+[serving]
+mode = "dp_external_lb"
+gpus_per_replica = 1
+# DP2/EP2 engines (a 4-GPU job runs two): paired on one 4xB200 node (round 3, closed loop), two DP2 engines peaked at
+# 9.5k generated tok/s vs 8.6k for one DP4/EP4 engine (+11%; +19.5% at 256 agents). Each DP rank steps in lockstep
+# with its group, so a group of 2 waits less behind prefill chunks, at the cost of EP2's 96 GB of experts per GPU.
+dp_group_gpus = 2
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--tensor-parallel-size", "1", "--data-parallel-size", "{dp_size}", "--data-parallel-size-local", "{dp_size}",
+  "--data-parallel-multi-port-external-lb", "--data-parallel-rpc-port", "{rpc_port}",
+  "--data-parallel-supervisor-port", "{supervisor_port}", "--enable-expert-parallel",
+  "--kv-cache-dtype", "fp8", "--max-model-len", "{max_model_len}", "--max-num-seqs", "{max_seqs}",
+  "--max-num-batched-tokens", "{max_batched}", "--gpu-memory-utilization", "{mem_util}", "--enable-prefix-caching",
+  "--reasoning-parser", "glm47", "--trust-remote-code", "--no-enable-log-requests",
+  "--prefix-match-unit", "128", "--mamba-ssm-cache-dtype", "{ssm_cache_dtype}",
+  "--enable-ep-weight-filter", "--enable-auto-tool-choice", "--tool-call-parser", "glm47",
+  "--generation-config", "vllm",
+  "--override-generation-config", '{{"temperature": 1.0, "top_p": 0.95, "max_new_tokens": {max_output_tokens}}}',
+  "--chat-template", "{model_dir}/chat_template.jinja", "--seed", "{seed}",
+  # vLLM's 5 s DP health probe tore down busy API servers (three memory holds) before this.
+  "--dp-supervisor-probe-timeout-s", "120",
+  # Text-only (#348): the vision tower is not built; the eval stack reads this flag from the launch argv.
+  "--language-model-only",
+]
+seed = 0
+startup_timeout_sec = 5400
+# CPU KV tier through SimpleCPUOffloadConnector (the connector synth-cpu-supersede patches), and that plugin.
+env = { VLLM_USE_SIMPLE_KV_OFFLOAD = "1", PYTHONPATH = "/data/aai/tbench/vllm_plugins/cpu_supersede_v2", SYNTH_CPU_SUPERSEDE = "1" }
+
+[serving.tunables]
+mtp = 3
+max_seqs = 256              # per rank; never binds (the KV knee is ~80 running per rank)
+max_batched = 8192          # must stay >= the hybrid block (4,608 tokens with bf16 state, 8,704 with fp32): at 4,096
+                            # the engine dropped prompt tokens (start-up probe read "17 + ?"), and vLLM does not refuse it
+omp_threads = 4
+mem_util = 0.95
+kv_offloading_size = 64     # GiB of pinned host RAM per DP rank; 0 = off
+ssm_cache_dtype = "bfloat16"  # KDA recurrent state ("auto" = fp32: 8,704- instead of 4,352-token state blocks)
+
+[serving.optional_args]
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+# Per-request cached_tokens in the usage (kv_fit's per-agent reuse signal).
+prompt_tokens_details = ["--enable-prompt-tokens-details"]
+
+[request]
+client_model = "hosted_vllm/glm-5.3-flash"
+pi_thinking = "max"
+pi_compat = { supportsDeveloperRole = false }
+# vLLM reads history thinking from `reasoning` (0.32: both fields); Pi sends `reasoning_content`.
+adapters = ["mirror_reasoning_content"]
+overrides = { temperature = 1.0, top_p = 0.95, reasoning_effort = "max", chat_template_kwargs = { clear_thinking = false } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, clear_thinking = false, reasoning_effort = "max" }
+tokenize_crosscheck = "reasoning_field"
+
+[serving_resources]
+# #378 (2026-11-14): sized from the job cgroup (task_synthesis/serve/reslog.py), RAM ~1.25x the non-reclaimable peak (rss + shmem + dirty; page cache is reclaimed, never held), CPUs = RAM/16 (free under max(CPUs, GB/16)); /data/aai/aa_evals/audits/server_shapes_20261114/report.md
+cpus_per_gpu = 6
+# Per GPU (one DP rank each): API server + 64 GiB pinned CPU KV tier + share of the staged checkpoint's page cache.
+# 2-GPU jobs ran at 768 GiB and 4-GPU jobs at 1536 GiB through the 2026-10-30 study (the 10-16 campaign was held at
+# 768/1024 GiB for 4 GPUs with 32 GiB tiers). The efficient unit is one 2-GPU job (one DP2/EP2 engine): the NVFP4
+# weights (191 GB) do not fit one B200, and DP2 beat DP4 per GPU.
+memory_gib_per_gpu = 96   # 4xB200: 384 GiB / 24 CPUs; peak 297 GiB (two DP2 engines, 4 x 64 GiB pinned tier + 4 API servers), cores p99 13.6, cold start-up 21; was 8 / 384
+disk_gib = 500
+bid_per_job = { 2 = 56, 4 = 63 }
+exclude_nodes = ["cpu207", "cpu307", "cpu403", "cpu405", "gpu132", "cpu203"]   # cpu404: only a stale 10-15 GLM reservation (d5333f3); cpu403 cuInit fails; cpu405 stuck foreign GPU memory (10-24); cpu203 NVML errors
+
+[worker_resources]
+# The DeepSeek-1017 / Super worker shape (measured on the same Pi harness and task sets, which set the tool load;
+# the teacher does not): 48 agent slots per 16-CPU job ran ~0.2 cores and ~0.3 GiB per agent with no tool slowdown
+# against 32 slots, and bid 36 left ~120 worker jobs queued (docs/campaigns/synth-20261025-deepseek.md).
+slots = 48
+cpus = 16
+memory_gib = 192
+disk_gib = 320
+bid = 56
+exclude_nodes = ["gpu132", "gpu110", "cpu105", "cpu301", "cpu208", "gpu158"]   # /data I/O: unreachable OSTs or crawling (10-23..10-26)
+
+[admission]               # dp_external_lb: every DP rank is its own backend, so these are per rank
+# 2026-10-31 (docs/campaigns/glm53-flash-throughput-20261030.md): kv_fit with slope search. On GLM's own TB traffic the
+# throughput knee is prefill, not KV: past ~64 running requests per rank (closed loop, no idle time; ~80 with recorded
+# tool gaps x3) every step slows faster than the batch grows, while in-flight KV is still ~50%. An admission-driven
+# replay (r2-after-adapt, DP4) with KV budgeting alone held in-flight KV at ~0.9 with ~105 running per rank: 10.7-11.5k
+# generated tok/s per 4xB200 while contexts were short, then 7.2k as they grew (fixed-level peak 8.5k). Hence the
+# per-rank cap on attempts; live attempts also spend ~1/3 of their time outside model calls (10-16 campaign: 121 of
+# 189 in flight).
+mode = "kv_fit"
+target_search = "slope"
+agent_tokens_prior = 50000                # replay working set per agent: 40-70k tokens as attempts age
+kv_target_fraction = 0.5
+new_agents_per_backend_per_period = 16    # per rank per 15 s tick: the cap fills in ~1.5 min
+max_waiting = 16
+max_agents_per_backend = 96               # per rank (~64 running at the knee + attempts in setup / verification)
+emergency_kv_high = 0.92
+resume_kv = 0.85

@@ -1,0 +1,132 @@
+{
+ "partition": "knowledge",
+ "category": "Chemistry",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 36,
+ "leaves": [
+  {
+   "leaf": "Constitution of early synthetic azo dyestuffs",
+   "scope": "Trade names, patentees, dates and constitutions of 19th- and early 20th-century coal-tar azo, disazo and trisazo dyes, including which diazo and coupling components each uses. A question could ask the solver to work out a dye's molecular formula, its number of azo linkages or its sulfonate count, or to compare two commercial dyes made from the same intermediate.",
+   "queries": [
+    "azo dyestuff constitution",
+    "coal-tar colours manufacture",
+    "diazotised naphthylamine coupling",
+    "Farbstofftabellen Schultz",
+    "benzidine direct cotton dyes"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Essential oil composition of specific plant chemotypes",
+   "scope": "Reported percentage compositions, physical constants (optical rotation, specific gravity) and main terpenoids of volatile oils from particular species, chemotypes and growing regions, from early monographs and modern GC-MS studies. A question could ask for monoterpene-to-sesquiterpene ratios, a chemotype identified from its main constituents, or a comparison of historical and modern figures for the same oil.",
+   "queries": [
+    "volatile oils Gildemeister Hoffmann",
+    "essential oil chemotype GC-MS",
+    "thymol carvacrol chemotype",
+    "oil optical rotation specific gravity",
+    "hydrodistillation leaf oil composition"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "biodiversity_heritage_library"
+   ]
+  },
+  {
+   "leaf": "Lanthanide luminescence lifetimes and hydration numbers",
+   "scope": "Measured Eu(III) and Tb(III) excited-state lifetimes in H2O and D2O for particular complexes, with the empirical equations (Horrocks, Supkowski\u2013Horrocks, Beeby) that convert them into inner-sphere water counts. A question could ask the solver to recompute q from the reported lifetimes with a stated equation, or to infer how many coordination sites the ligand leaves open.",
+   "queries": [
+    "europium luminescence lifetime D2O",
+    "inner-sphere hydration number q",
+    "Horrocks equation europium",
+    "terbium complex lifetime hydration",
+    "lanthanide coordinated water quenching"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Zeolite framework types and unit-cell compositions",
+   "scope": "Three-letter framework codes, ring sizes, channel dimensionality, T-atoms per unit cell and the reported compositions of specific natural and synthetic zeolites and aluminophosphates. A question could ask for the Si/Al ratio, the exchangeable-cation count, the framework density, or which structure-directing agent made a given phase.",
+   "queries": [
+    "zeolite framework type code",
+    "unit cell composition zeolite",
+    "structure-directing agent synthesis",
+    "aluminophosphate molecular sieve topology",
+    "framework density T-atoms"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Classical atomic weight determinations, 1860\u20131925",
+   "scope": "The experimental ratios (silver halide, chloride-to-silver and similar) that Stas, Richards, Baxter and others reported in their atomic weight work, along with the reference values they assumed. A question could ask the solver to recalculate the atomic weight those ratios imply using modern values for the reference elements, or to measure the gap from today's standard atomic weight.",
+   "queries": [
+    "atomic weight revision Richards",
+    "Stas atomic weights silver",
+    "ratio silver chloride determination",
+    "international atomic weights report",
+    "Baxter atomic weight bromide"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Degradation chemistry of historical artists' pigments",
+   "scope": "Documented degradation mechanisms and products (lead soaps, darkening of chrome yellow, loss of colour in smalt, fading of cadmium sulfide, blackening of vermilion) found in particular named paintings and analysed by synchrotron, Raman or XRF. A question could ask for oxidation-state changes, the stoichiometry of the degradation reaction, or which named artwork showed which product.",
+   "queries": [
+    "chrome yellow darkening synchrotron",
+    "lead soap formation paintings",
+    "smalt discoloration cobalt coordination",
+    "vermilion blackening chlorine",
+    "cadmium yellow degradation painting"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US case law on obviousness of chemical analogs",
+   "scope": "Federal court decisions on whether claimed compounds are obvious over structurally similar prior art (homologs, positional isomers, enantiomers, bioisosteres), including the specific structures compared and the lead-compound reasoning the court applied. A question could ask the solver to identify the structural difference that decided a case, or to apply its holding to a new pair of molecules.",
+   "queries": [
+    "prima facie obviousness homolog",
+    "lead compound analysis obviousness",
+    "structural similarity chemical patent",
+    "enantiomer patent obviousness racemate",
+    "unexpected results chemical compound"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "OH-radical rate coefficients of oxygenated VOCs",
+   "scope": "Measured gas-phase rate coefficients and Arrhenius parameters for OH reacting with specific ethers, esters, ketones, alcohols and fluorinated compounds, plus the branching between abstraction sites. A question could ask the solver to compute an atmospheric lifetime at a stated OH concentration and temperature, or to compare values against structure\u2013activity estimates.",
+   "queries": [
+    "OH rate coefficient ether",
+    "relative rate OH ester",
+    "Arrhenius OH hydrofluoroether",
+    "atmospheric lifetime OH reaction",
+    "structure-activity relationship OH abstraction"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  }
+ ]
+}

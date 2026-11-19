@@ -1,0 +1,132 @@
+{
+ "partition": "knowledge",
+ "category": "Computer Science/AI",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 37,
+ "leaves": [
+  {
+   "leaf": "Babbage engines' mechanical design specifics",
+   "scope": "Documented details of Babbage's Difference Engines and the Analytical Engine as given in period sources: digit capacity, number of axes or columns, carriage mechanisms, the operation and variable cards described by Menabrea and Lovelace, and figures from Babbage's own memoirs. A question could ask the solver to trace a Lovelace-style program table, or to work out how many cards, columns or cycles a given calculation would need.",
+   "queries": [
+    "Analytical Engine Menabrea",
+    "Lovelace notes Bernoulli numbers",
+    "Difference Engine carriage",
+    "Babbage Passages Life Philosopher",
+    "Analytical Engine operation cards"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Early twentieth-century military cipher manuals",
+   "scope": "Specific cipher systems, key conventions and solution methods set out in pre-1929 US and European military cryptography manuals, such as Hitt's 1916 manual, the US Army disk and strip ciphers, Playfair variants, Nihilist and route transpositions, and the frequency tables they print. A question could have the solver apply a documented key convention or frequency table to encipher, decipher or identify a short text.",
+   "queries": [
+    "Manual Solution Military Ciphers",
+    "Hitt cipher disk",
+    "route transposition cipher military",
+    "Playfair cipher Army signal",
+    "Nihilist cipher solution"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Commercial telegraph code book construction",
+   "scope": "How pre-1929 commercial telegraphic codebooks (ABC, Bentley's, Western Union, Lieber's) were built: codeword length limits, rules requiring codewords to differ in at least two letters, mutilation tables, and cable-company rules for counting words. A question could ask how many legal codewords a stated rule allows, or what a short coded cable cost or meant under the documented counting rules.",
+   "queries": [
+    "telegraphic code two-letter difference",
+    "Bentley's complete phrase code",
+    "ABC telegraphic code edition",
+    "code word mutilation table",
+    "cable code word counting rules"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Federal Circuit software patent eligibility decisions",
+   "scope": "Holdings of individual post-Alice Federal Circuit and district court decisions on whether specific software and data-processing claims are eligible for patents under \u00a7101: which claim elements counted as an 'inventive concept' and which were dismissed as abstract ideas. A question could ask the solver to compare two decisions, or to say how the stated reasoning would apply to a new claim with matching features.",
+   "queries": [
+    "Alice step two inventive concept",
+    "abstract idea software claim 101",
+    "Enfish self-referential table",
+    "McRO automatic lip synchronization",
+    "ineligible data processing claims"
+   ],
+   "sources": [
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Quantum error-correcting code family parameters",
+   "scope": "Reported [[n,k,d]] parameters, thresholds, stabilizer weights and decoder results for less-common quantum code families (color codes, subsystem Bacon-Shor codes, hyperbolic surface codes, quantum LDPC and bivariate bicycle codes) in research papers. A question could ask the solver to combine reported parameters to work out overhead, encoding rate, or how a figure changes when two codes are concatenated or compared.",
+   "queries": [
+    "bivariate bicycle code parameters",
+    "hyperbolic surface code rate",
+    "color code threshold decoder",
+    "Bacon-Shor subsystem code",
+    "quantum LDPC code distance"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lattice-based post-quantum scheme parameter sets",
+   "scope": "Exact parameter choices in lattice-based KEMs and signatures (Kyber/ML-KEM, Dilithium, Falcon, NTRU Prime, FrodoKEM, Saber): modulus, ring dimension, module rank, noise distributions and compression bit-widths, as specified in design and analysis papers. A question could ask the solver to work out a public key or ciphertext size in bytes, or a failure-probability or security-margin comparison, from the documented parameters.",
+   "queries": [
+    "Kyber parameter set modulus",
+    "FrodoKEM parameters noise",
+    "NTRU Prime sntrup parameters",
+    "Saber module learning rounding",
+    "Falcon signature size parameters"
+   ],
+   "sources": [
+    "arxiv",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Fitts' law pointing throughput studies",
+   "scope": "Regression coefficients, effective-width corrections and throughput values that particular HCI experiments report for different input devices (touchpads, eye trackers, VR controllers, styluses, head pointers), plus which Fitts' law formulation each study used. A question could ask the solver to predict a movement time or compare devices' throughput under given target conditions, using a study's published intercept and slope.",
+   "queries": [
+    "Fitts law throughput device",
+    "effective target width pointing",
+    "ISO 9241-9 pointing evaluation",
+    "Shannon formulation index difficulty",
+    "eye tracking Fitts law"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv"
+   ]
+  },
+  {
+   "leaf": "Alignment scoring matrices and Karlin-Altschul statistics",
+   "scope": "How specific substitution matrices (BLOSUM clustering thresholds, PAM extrapolation, matrices built for particular composition or transmembrane regions) were derived, and the \u03bb, K and gap-penalty constants published for them. A question could ask the solver to turn a raw score into a bit score or E-value for a stated database size, or to reason about which matrix a stated derivation would produce.",
+   "queries": [
+    "BLOSUM clustering percentage derivation",
+    "Karlin Altschul lambda K",
+    "PAM matrix extrapolation",
+    "compositionally adjusted substitution matrices",
+    "gapped alignment statistics parameters"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "arxiv"
+   ]
+  }
+ ]
+}

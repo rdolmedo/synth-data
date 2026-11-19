@@ -1,0 +1,258 @@
+{
+ "partition": "reasoning",
+ "category": "Other",
+ "subject": "Trivia",
+ "target_leaves": 14,
+ "expected_problems": 115,
+ "leaves": [
+  {
+   "leaf": "Cross-calendar date conversion and computus",
+   "scope": "Problems ask for a weekday, date, or count of events in Julian, Gregorian, Hebrew, Islamic tabular, or French Republican calendars, often across a reform boundary. They are hard because the solver has to apply leap rules, epoch offsets, and the Easter computus exactly, with no lookup to fall back on.",
+   "techniques": [
+    "Gaussian or Meeus Easter algorithms with epact and golden number",
+    "Julian Day Number conversion between calendars",
+    "Dominical letter and solar cycle reasoning",
+    "Metonic 19-year cycle and Hebrew postponement rules (dehiyyot)",
+    "Handling country-specific Gregorian adoption gaps",
+    "Counting recurrences such as Friday the 13ths across centuries"
+   ],
+   "answer_forms": [
+    "integer",
+    "date in a stated calendar",
+    "day of the week",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Time zones, date line, and great-circle travel",
+   "scope": "Problems describe itineraries, flights, or observers at stated coordinates and ask for local times, calendar dates, distances, or sunrise conditions. They are hard because date-line crossings, DST rules, non-integer UTC offsets, and spherical geometry all interact.",
+   "techniques": [
+    "Haversine and spherical law of cosines distances",
+    "Initial bearing and vertex latitude of great circles",
+    "Bookkeeping of the International Date Line and UTC offsets",
+    "Antipode computation",
+    "Solar declination and day-length estimation",
+    "Reasoning about half-hour and 45-minute offset zones"
+   ],
+   "answer_forms": [
+    "integer (kilometres or minutes)",
+    "local time and date",
+    "ordered pair of coordinates",
+    "name of a place"
+   ]
+  },
+  {
+   "leaf": "Pre-decimal currency and historical units arithmetic",
+   "scope": "Problems pose transactions, wages, or recipes in pounds-shillings-pence, guineas, groats, imperial and apothecaries' weights, or old land measures, and ask for exact results. They are hard because the mixed-radix systems and obsolete conversion factors have to be handled without error.",
+   "techniques": [
+    "Mixed-radix arithmetic (12d = 1s, 20s = \u00a31, 21s = 1 guinea)",
+    "Troy versus avoirdupois versus apothecaries' weight conversion",
+    "Chains, rods, furlongs, and acres in area problems",
+    "Rule-of-three and practice methods from historical arithmetic",
+    "Exact fraction handling with farthings and halfpennies",
+    "Converting between wine, ale, and imperial gallons"
+   ],
+   "answer_forms": [
+    "amount in \u00a3sd notation",
+    "rational number",
+    "integer",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Ten-pin bowling and darts score reconstruction",
+   "scope": "Problems give partial frames, totals, or throw constraints and ask for the number of valid games, the minimum or maximum score, or the unique missing throws. They are hard because strike/spare bonuses and double-out rules create non-obvious dependencies between throws.",
+   "techniques": [
+    "Frame-by-frame dynamic programming with bonus look-ahead",
+    "Counting distinct darts checkouts under double-out or double-in rules",
+    "Bogey numbers and impossible three-dart finishes",
+    "Inverting cumulative scorecards",
+    "Ordering versus multiset distinctions in counting",
+    "Handling tenth-frame fill balls"
+   ],
+   "answer_forms": [
+    "integer",
+    "sequence of throws",
+    "small set of scores"
+   ]
+  },
+  {
+   "leaf": "League table and championship clinch scenarios",
+   "scope": "Problems describe a partial round-robin or a points-based season (football groups, F1, cycling classifications) and ask which final standings, clinch conditions, or tiebreak outcomes are possible. They are hard because ordered tiebreakers such as head-to-head, goal difference, and countback have to be applied exactly over many result combinations.",
+   "techniques": [
+    "Enumerating win/draw/loss vectors consistent with point totals",
+    "Head-to-head mini-league tiebreakers",
+    "Countback by number of wins or placings",
+    "Maximum-flow formulation of elimination",
+    "Dropped-score and best-n-results rules",
+    "Reconstructing scorelines from goal difference"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of standings",
+    "name of a team or driver",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Cricket scorecard and over-by-over reconstruction",
+   "scope": "Problems give fragments of a cricket scorecard (batting figures, bowling analyses, extras, fall of wickets) and ask for a missing value, who was on strike, or which bowler bowled a given over. They are hard because the Laws on strike rotation, no-balls, wides, byes, and over completion constrain the solution in non-obvious ways.",
+   "techniques": [
+    "Strike-rotation parity from runs scored",
+    "Attributing extras to bowler versus team totals",
+    "Maiden-over and consecutive-over bowling constraints",
+    "Fall-of-wickets partnership arithmetic",
+    "Distinguishing balls faced from legal deliveries",
+    "Strike rate and economy back-calculation"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of a player position or role",
+    "ordered tuple",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Contract bridge play, auction, and scoring",
+   "scope": "Problems give a full or partial deal and ask for the double-dummy trick count, the optimal line, or the exact duplicate or rubber score after doubles and vulnerability. They are hard because they need expert card-play technique and the precise scoring tables.",
+   "techniques": [
+    "Squeeze recognition and the count",
+    "Endplay and throw-in construction",
+    "Restricted choice and suit-combination odds",
+    "Duplicate scoring with doubled and redoubled overtricks",
+    "IMP and matchpoint conversion",
+    "Inferring hidden hands from auction constraints"
+   ],
+   "answer_forms": [
+    "integer (tricks or points)",
+    "a card such as \u2660Q",
+    "sequence of plays",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Change ringing method and composition analysis",
+   "scope": "Problems define or name a ringing method on n bells and ask for its lead-end, plain-course length, place notation output, or whether a composition is true. They are hard because they need permutation-group reasoning together with campanological conventions.",
+   "techniques": [
+    "Expanding place notation into rows",
+    "Lead-head permutations and plain-course length via cycle structure",
+    "Bobs and singles as permutation modifiers",
+    "Proving truth (no repeated rows) of touches",
+    "Coursing order and the hunt bell's path",
+    "Parity of rows and extent counting"
+   ],
+   "answer_forms": [
+    "integer",
+    "a row of bells as a digit string",
+    "place notation string",
+    "yes/no with count"
+   ]
+  },
+  {
+   "leaf": "Cryptic crossword clue construction and solving",
+   "scope": "Problems give an original cryptic clue, or a set of interlocking clues with checkers, and ask for the unique answer or the wordplay element in a stated position. They are hard because they need command of the standard abbreviations, indicators, and Ximenean conventions.",
+   "techniques": [
+    "Anagram and container/contents indicators",
+    "Hidden words and reversals in down clues",
+    "Standard abbreviations (e.g., 'sailor' = AB, 'learner' = L)",
+    "Homophones and spoonerism indicators",
+    "Letter-selection devices (initially, oddly, heartless)",
+    "Using checking letters to disambiguate"
+   ],
+   "answer_forms": [
+    "a word",
+    "a short phrase",
+    "a single letter",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Scrabble-type tile and board optimization",
+   "scope": "Problems fix a board state, rack, and tile distribution and ask for the highest-scoring legal play, the number of valid bingos, or the probability of a draw. They are hard because premium-square multipliers, cross-words, and finite tile counts interact.",
+   "techniques": [
+    "Cross-word score accumulation with premium squares",
+    "Multinomial counting from a finite tile bag",
+    "Blank-tile substitution enumeration",
+    "Endgame minimax with known opponent rack",
+    "Letter-value parity and leave evaluation",
+    "Hook and extension legality checks"
+   ],
+   "answer_forms": [
+    "integer",
+    "a word with board coordinates",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Vexillological construction-sheet geometry",
+   "scope": "Problems give the official proportions and construction rules for a flag (stars, crosses, triangles, emblems) and ask for an exact area fraction, a length, or a count. They are hard because the specifications nest ratios and need exact geometry.",
+   "techniques": [
+    "Area fractions of Nordic and saltire crosses with fimbriation",
+    "Regular star polygon area from circumradius",
+    "Hoist-to-fly ratio rescaling",
+    "Overlap subtraction for counterchanged designs",
+    "Coordinate placement of star grids",
+    "Symmetry-based counting of distinct flag orientations"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "integer",
+    "name of a flag"
+   ]
+  },
+  {
+   "leaf": "Heraldic blazon parsing and emblazoning",
+   "scope": "Problems give a blazon and ask about the resulting arms (number of charges, tincture of a region, marshalling of quarters), or ask for the correct blazon of a described shield. They are hard because they need the strict grammar of heraldry and its rules on tincture, cadency, and marshalling.",
+   "techniques": [
+    "Rule of tincture (metal on colour) validation",
+    "Quartering order and impalement positions",
+    "Brisures and marks of cadency",
+    "Charge counting and arrangement conventions (2 and 1, in orle)",
+    "Lines of partition and their effect on regions",
+    "Counterchanging across partition lines"
+   ],
+   "answer_forms": [
+    "a tincture name",
+    "integer",
+    "a blazon string",
+    "a letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Classical cipher cryptanalysis by hand",
+   "scope": "Problems give a short ciphertext with partial key information for a Playfair, Vigen\u00e8re, ADFGVX, rail-fence, or rotor-type cipher and ask for the plaintext or the key. They are hard because the ciphertexts are short and the solver has to use structural constraints rather than plain frequency analysis.",
+   "techniques": [
+    "Kasiski examination and index of coincidence",
+    "Playfair digraph rules and keysquare reconstruction",
+    "Columnar transposition anagramming",
+    "Known-plaintext crib dragging",
+    "Rotor stepping and reflector involution properties",
+    "Fractionation/transposition decomposition"
+   ],
+   "answer_forms": [
+    "a word or short phrase",
+    "a key string",
+    "integer (key length or period)"
+   ]
+  },
+  {
+   "leaf": "Dice-driven board game probability analysis",
+   "scope": "Problems ask for exact probabilities, expected values, or optimal decisions in games such as backgammon, Monopoly-like circuits, or Yahtzee-type scoring, given a stated position and ruleset. They are hard because they need Markov-chain or game-tree reasoning on top of the rules.",
+   "techniques": [
+    "Backgammon pip counts and bear-off probabilities",
+    "Doubling-cube take/drop thresholds",
+    "Absorbing Markov chains for board circuits",
+    "Optimal reroll strategy via backward induction",
+    "Counting dice combinations with doubles rules",
+    "Stationary distribution of square occupancy"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "a move in standard notation",
+    "a letter for multiple choice"
+   ]
+  }
+ ]
+}

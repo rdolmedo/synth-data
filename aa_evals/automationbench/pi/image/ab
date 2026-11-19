@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""ab: call an AutomationBench tool from the shell.
+
+  ab <tool> '<json arguments>'        e.g. ab api_search '{"query": "salesforce update opportunity"}'
+  ab <tool> -                         read the JSON arguments from stdin (a heredoc avoids shell quoting)
+  ab tools                            list the tools and their arguments
+
+Prints the tool's result exactly as the tool returns it. The workspace state lives in a separate service and
+persists across calls for the whole task.
+"""
+import json
+import os
+import sys
+import urllib.error
+import urllib.request
+
+URL = os.environ.get('AB_WORLD_URL', 'http://world:8080')
+TOOLS_FILE = os.environ.get('AB_TOOLS_FILE', '/opt/ab/tools.json')
+
+
+def tool_names() -> list[str]:
+    try:
+        with open(TOOLS_FILE) as f:
+            return [t['function']['name'] for t in json.load(f)]
+    except (OSError, ValueError, KeyError, TypeError):
+        return []
+
+
+def main(argv):
+    if not argv or argv[0] in ('-h', '--help'):
+        print(__doc__.strip())
+        return 0
+    if argv[0] == 'tools':
+        try:
+            with open(TOOLS_FILE) as f:
+                print(f.read().strip())
+        except OSError as e:
+            print(f'ab: {e}', file=sys.stderr)
+            return 2
+        return 0
+    tool = argv[0]
+    known = tool_names()
+    if known and tool not in known:
+        print(f'ab: unknown tool {tool!r}; the first argument is one of: {", ".join(known)}.\n'
+              f'usage: ab <tool> \'<JSON arguments>\', e.g. ab api_search \'{{"query": "send a slack message"}}\'',
+              file=sys.stderr)
+        return 2
+    raw = argv[1] if len(argv) > 1 else '{}'
+    if raw == '-':
+        raw = sys.stdin.read()
+    if len(argv) > 2:
+        print(f'ab: pass the arguments as one JSON object in single quotes, e.g. ab {tool} \'{{"key": "value"}}\', '
+              'or pass - and the JSON on stdin', file=sys.stderr)
+        return 2
+    try:
+        args = json.loads(raw) if raw.strip() else {}
+    except ValueError as e:
+        print(f'ab: the arguments are not valid JSON: {e}', file=sys.stderr)
+        return 2
+    req = urllib.request.Request(URL + '/call', data=json.dumps({'tool': tool, 'args': args}).encode(),
+                                 headers={'Content-Type': 'application/json'})
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    try:
+        with opener.open(req, timeout=600) as r:
+            out = json.load(r)
+    except (urllib.error.URLError, OSError, ValueError) as e:
+        print(f'ab: the workspace service did not answer: {e}', file=sys.stderr)
+        return 3
+    sys.stdout.write(out.get('result', ''))
+    if not out.get('result', '').endswith('\n'):
+        sys.stdout.write('\n')
+    return 0 if out.get('ok', True) else 1
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))

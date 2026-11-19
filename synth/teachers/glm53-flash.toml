@@ -1,0 +1,86 @@
+# GLM-5.3-Flash (NVIDIA NVFP4), TP1 / DP4 / EP4 with one API server per rank (external LB).
+# Provenance: campaign 20261016T171932Z (generation/pi-submit-20261016T171932Z/glm53-flash),
+# 111.07M tokens / TB2.1 pass@1 76.03%. Launcher: inference/serve_glm_dpep.sh + gen/glm53_campaign_server.py.
+# That campaign served from a relocated tar snapshot of venvs/vllm031 on node scratch because four API
+# servers importing the venv over NFS stalled; serve from the venv only if that is acceptable.
+slug = "glm53-flash"
+model = "zai-org/GLM-5.3-Flash"
+revision = "da920bb0b9f4a06727223a349e55468e38352348"   # nvidia/GLM-5.3-Flash-NVFP4
+checkpoint = "/data/aai/models/GLM-5.3-Flash-NVFP4"
+served_name = "glm-5.3-flash"
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm031"
+vllm_version = "0.31.0"
+cuda_home = "cu13-wheel"
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR", "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME"]
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", HUMMING_DISABLE_PARALLEL_BUILD = "1", MKL_NUM_THREADS = "4" }
+
+[serving]
+mode = "dp_external_lb"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--tensor-parallel-size", "1", "--data-parallel-size", "{dp_size}", "--data-parallel-size-local", "{dp_size}",
+  "--data-parallel-multi-port-external-lb", "--data-parallel-rpc-port", "{rpc_port}",
+  "--data-parallel-supervisor-port", "{supervisor_port}", "--enable-expert-parallel",
+  "--kv-cache-dtype", "fp8", "--max-model-len", "{max_model_len}", "--max-num-seqs", "{max_seqs}",
+  "--max-num-batched-tokens", "{max_batched}", "--gpu-memory-utilization", "0.92", "--enable-prefix-caching",
+  "--reasoning-parser", "glm47", "--trust-remote-code", "--no-enable-log-requests",
+  "--kv-offloading-size", "32", "--prefix-match-unit", "128",
+  "--enable-ep-weight-filter", "--enable-auto-tool-choice", "--tool-call-parser", "glm47",
+  "--generation-config", "vllm",
+  "--override-generation-config", '{{"temperature": 1.0, "top_p": 0.95, "max_new_tokens": {max_output_tokens}}}',
+  "--chat-template", "{model_dir}/chat_template.jinja", "--seed", "{seed}",
+  # vLLM's 5 s DP health probe tore down busy API servers (three memory holds) before this.
+  "--dp-supervisor-probe-timeout-s", "120",
+]
+seed = 0
+startup_timeout_sec = 5400
+
+[serving.tunables]
+mtp = 2
+max_seqs = 256
+max_batched = 16384
+omp_threads = 4
+
+[serving.optional_args]
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+
+[request]
+client_model = "hosted_vllm/glm-5.3-flash"
+pi_thinking = "max"
+pi_compat = { supportsDeveloperRole = false }
+# vLLM 0.31 reads history thinking from `reasoning`; Pi sends `reasoning_content`.
+adapters = ["mirror_reasoning_content"]
+overrides = { temperature = 1.0, top_p = 0.95, reasoning_effort = "max", chat_template_kwargs = { clear_thinking = false } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, clear_thinking = false, reasoning_effort = "max" }
+tokenize_crosscheck = "reasoning_field"
+
+[serving_resources]
+cpus_per_gpu = 8
+memory_gib = 1536   # 4 API servers + 32 GiB KV offload per rank; 768/1024 GiB were held
+disk_gib = 500
+bid_per_job = { 4 = 63 }
+exclude_nodes = ["cpu207", "cpu307", "gpu132", "cpu404", "cpu403"]
+
+[worker_resources]
+slots = 24
+cpus = 16
+memory_gib = 256
+disk_gib = 300
+bid = 35
+
+[admission]
+initial_limit_per_backend = 48
+maximum_limit_per_backend = 64
+emergency_kv_high = 0.75
+resume_kv = 0.60

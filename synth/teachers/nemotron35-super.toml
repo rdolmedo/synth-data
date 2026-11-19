@@ -1,0 +1,114 @@
+# NVIDIA Nemotron 3.5 Super VL (NVFP4), one replica per B200.
+# Provenance: campaign 20261016T171932Z (branch generation/pi-submit-20261016T171932Z/nemotron35-super),
+# 110.68M tokens / TB2.1 pass@1 56.93%. Serving recipe = inference/serve_nemotron.sh (HARDWARE=b200).
+# 2026-11-19 (#478, coordinator): vLLM main 8f3c672dc (/data/aai/venvs/vllm-0.34.0rc1.dev815-g8f3c672dc-cu132,
+# as nemotron35-super-mm / -mm-text since #552). Synthesis campaigns add both plugins in extra_env: now
+# /data/aai/tbench/vllm_plugins/cpu_supersede_v3 + eot_checkpoint_v5 (v2 + v4 before; the campaign files were
+# repointed, and the replay experiments of 0.32 plugin builds pinned to vllm032). Data-generation recipe (MTP3, CPU tier
+# 200 GiB, 32k batched tokens, both plugins), closed-loop TMax replay, one B200, 384 agents (branch rt-vllm-super:
+# synth/campaigns/nemotron35-super-datagen-vllm-main-478.toml): 8,057 vs 7,681 gen tok/s (+4.9%) against vllm032 + v2
+# + v4, computed prefill per turn 761 vs 862, prefix hit 0.94 vs 0.93, MTP3 mean accepted length 3.18 on both.
+# eot 5.0 end-state hits match stock prefix hits on the same conversations (eot_logprob_check.py --variants paired,
+# n=20: TV vs fresh median 0.045 vs 0.067, Wilcoxon p 0.79; max |dlogprob| 1.10 vs 1.25, p 0.10).
+# Engine parity and T=1 sampling: nemotron35-super-mm's checks (same weights, kernels and MTP3; #552).
+slug = "nemotron35-super"
+model = "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+revision = "82d93699acd3be9e4617c53360fe5b3f5dbeb1b3"
+checkpoint = "/data/aai/models/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+served_name = "nemotron-3.5-super-vl"
+stage_checkpoint = true
+
+[runtime]
+venv = "/data/aai/venvs/vllm-0.34.0rc1.dev815-g8f3c672dc-cu132"
+vllm_version = "0.34.0rc1.dev815+g8f3c672dc"
+cuda_home = "cu13-wheel"
+cu13_ld_library_path = true
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["HUMMING_CACHE_DIR", "HUMMING_TMP_DIR", "VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR",
+             "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME", "HF_HOME"]
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", FLASHINFER_NO_DOWNLOAD = "1" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 1
+entrypoint = ["{venv}/bin/vllm", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--trust-remote-code", "--seed", "{seed}", "--tensor-parallel-size", "1",
+  "--max-model-len", "{max_model_len}", "--gpu-memory-utilization", "{gpu_memory_utilization}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}",
+  "--enable-prefix-caching", "--prefix-match-unit", "16",
+  "--enable-mamba-shared-prefix-checkpoint", "--mamba-cache-mode", "align",
+  "--mamba-backend", "flashinfer", "--mamba-ssm-cache-dtype", "float16",
+  "--enable-mamba-cache-stochastic-rounding", "--mamba-cache-philox-rounds", "5",
+  "--async-scheduling", "--enable-auto-tool-choice", "--tool-call-parser", "qwen3_coder",
+  "--reasoning-parser", "nemotron_v3", "--no-enable-log-requests",
+  # renderer thread pool (vLLM default 1): the M5 GDPval engine logged "Chat template render timed out - executor pool
+  # replaced (1 worker(s))" and stalled admissions ~30 s at a time (#451 ws4). Threads only: outputs are unchanged.
+  "--renderer-num-workers", "4",
+  "--generation-config", "vllm", "--override-generation-config", '{{"temperature":1.0,"top_p":0.95}}',
+  "--limit-mm-per-prompt", '{{"image":0,"video":0}}',
+  "--kernel-config", '{{"linear_backend_per_quant":{{"fp8_w8a8":"torch"}}}}',
+  "--compilation-config", '{{"pass_config":{{"fuse_attn_quant":true}},"use_inductor_graph_partition":true,"cudagraph_mode":"FULL_AND_PIECEWISE"}}',
+]
+seed = 20261016
+startup_timeout_sec = 5400
+# synth.serve's fallback snapshot (engine_cache.seed_first; a campaign's serving.seed_from comes first): vLLM main's
+# first Super start compiles FlashInfer modules and NVFP4 CuTe-DSL GEMMs (~11 min per engine). cbe361c0 is an
+# unstaged (/data venv) nemotron35-super-mm start in engine slot r0, the paths a data-gen engine in slot r0 has: it
+# reuses all of it, engines in other slots its CuTe-DSL kernels and content-keyed caches.
+seed_from = "cbe361c05603776b9444"
+
+[serving.tunables]
+mtp = 1
+gpu_memory_utilization = 0.89
+max_seqs = 512
+max_batched = 16384
+omp_threads = 16
+
+[serving.optional_args]
+mtp = ["--speculative-config", '{{"method":"mtp","num_speculative_tokens":{mtp}}}']
+# Per-request cached-prompt counts for kv_fit admission's cache-reuse signal (campaigns opt in with
+# teacher_overrides.serving.tunables.prompt_tokens_details = 1; usage metadata only).
+prompt_tokens_details = ["--enable-prompt-tokens-details"]
+# Serving A/B arms (2026-10-23), off unless a control file sets them. CPU KV offload follows NVIDIA's Dynamo
+# agg-b200-swebenchpro recipe (native SimpleCPUOffloadConnector, eager offload); the arm also sets
+# extra_env VLLM_USE_SIMPLE_KV_OFFLOAD=1, without which vLLM swaps in OffloadingConnector, and needs host RAM
+# for the GiB it asks (serving memory_gib_per_gpu). MTP above ~3 needs a larger graph capture size: each
+# running request decodes mtp + 1 tokens and the default captures up to 1024.
+kv_offloading_size = ["--kv-offloading-size", "{kv_offloading_size}", "--kv-offloading-backend", "native",
+                      "--kv-transfer-config", '{{"kv_connector":"SimpleCPUOffloadConnector","kv_role":"kv_both","kv_connector_extra_config":{{"lazy_offload":false}}}}']
+max_cudagraph_capture_size = ["--max-cudagraph-capture-size", "{max_cudagraph_capture_size}"]
+
+[request]
+client_model = "hosted_vllm/nemotron-3.5-super-vl"
+pi_thinking = "high"
+adapters = ["inline_reasoning_history"]
+overrides = { temperature = 1.0, top_p = 0.95, chat_template_kwargs = { enable_thinking = true, medium_effort = false, truncate_history_thinking = false } }
+
+[counting]
+serializer = "jinja"
+tokenizer = "{checkpoint}/tokenizer.json"
+chat_template = "{checkpoint}/chat_template.jinja"
+render_kwargs = { add_generation_prompt = false, enable_thinking = true, medium_effort = false, truncate_history_thinking = false }
+# vLLM 0.32 /tokenize drops reasoning_content; cross-check with the same template's inline <think> form.
+tokenize_crosscheck = "inline_think"
+
+[serving_resources]
+cpus_per_gpu = 16
+memory_gib_per_gpu = 96
+disk_gib = 200
+bid_per_job = { 1 = 61, 4 = 63, 8 = 301 }
+exclude_nodes = ["cpu404", "gpu132", "cpu307", "cpu207", "cpu403"]
+
+[worker_resources]
+slots = 8
+cpus = 16
+memory_gib = 160
+disk_gib = 120
+bid = 35
+exclude_nodes = ["gpu132", "cpu307", "cpu207", "gpu106"]
+
+[admission]
+initial_limit_per_backend = 64
+maximum_limit_per_backend = 160

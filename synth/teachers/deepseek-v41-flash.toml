@@ -1,0 +1,86 @@
+# DeepSeek-V4.1-Flash (NVIDIA NVFP4, FP8-Engram revision), TP4 single replica, DSpark-5 drafts,
+# Engram tables offloaded to pinned host memory (~189 GiB).
+# Provenance: campaign 20261016T171932Z (generation/pi-submit-20261016T171932Z/deepseek-v41-flash),
+# 110.46M tokens / TB2.1 pass@1 78.65%. Command: ops/.../current-vllm-command.json.
+# That campaign's best throughput came from per-request KV reservations (384 trajectories,
+# 192 in-flight leases); KV peaked at 12%, so a high per-backend trajectory limit is the analogue here.
+slug = "deepseek-v41-flash"
+model = "deepseek-ai/DeepSeek-V4.1-Flash"
+revision = "3431dde3247c13b5957f682b1e3c6fcae2566079"   # nvidia/DeepSeek-V4.1-Flash-NVFP4
+checkpoint = "/data/aai/tbench/pi-cont16k-110m/20261015T215325Z/ops/deepseek-v41-flash/checkpoint"
+served_name = "deepseek-v41-flash"
+stage_checkpoint = true
+
+[runtime]
+venv = "/opt/aai/venvs/vllm032"
+vllm_version = "0.32.0rc1.dev190+g3f1bcfd82"
+cuda_home = "cu13-wheel"
+cu13_ld_library_path = true
+nvcc_append_flags = "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK"
+cache_env = ["HUMMING_CACHE_DIR", "HUMMING_TMP_DIR", "VLLM_CACHE_ROOT", "TORCHINDUCTOR_CACHE_DIR",
+             "TRITON_CACHE_DIR", "FLASHINFER_WORKSPACE_BASE", "XDG_CACHE_HOME", "HF_HOME"]
+env = { HF_HUB_OFFLINE = "1", TRANSFORMERS_OFFLINE = "1", MKL_NUM_THREADS = "1", OPENBLAS_NUM_THREADS = "1", VLLM_ENGINE_READY_TIMEOUT_S = "7200", VLLM_USE_RUST_FRONTEND = "0" }
+
+[serving]
+mode = "replicas"
+gpus_per_replica = 4
+entrypoint = ["{venv}/bin/python", "-m", "vllm.entrypoints.cli.main", "serve"]
+args = [
+  "{model_dir}", "--served-model-name", "{served_name}", "--host", "0.0.0.0", "--port", "{port}",
+  "--tensor-parallel-size", "4", "--data-parallel-size", "1",
+  "--tokenizer-mode", "deepseek_v41", "--reasoning-parser", "deepseek_v41", "--tool-call-parser", "deepseek_v41",
+  "--enable-auto-tool-choice", "--language-model-only", "--max-model-len", "{max_model_len}",
+  "--max-num-seqs", "{max_seqs}", "--max-num-batched-tokens", "{max_batched}", "--gpu-memory-utilization", "0.9",
+  "--enable-chunked-prefill", "--kv-cache-dtype", "fp8",
+  "--engram-config", '{{"cpu_offload": true, "dp_shared_memory": false}}',
+  "--attention-config", '{{"backend": "FLASHINFER_MLA_SPARSE_DSV41", "indexer_kv_dtype": "mxfp4", "indexer_sparse_logits": true}}',
+  "--generation-config", "vllm",
+  "--override-generation-config", '{{"temperature":1.0,"top_p":0.95,"max_new_tokens":{max_output_tokens}}}',
+  "--default-chat-template-kwargs", '{{"thinking":true,"reasoning_effort":"max"}}',
+  "--seed", "{seed}", "--no-enable-log-requests",
+  "--model-loader-extra-config", '{{"enable_multithread_load":true,"num_threads":16}}', "--enable-prefix-caching",
+]
+seed = 341015
+startup_timeout_sec = 7200
+
+[serving.tunables]
+spec_tokens = 5
+max_seqs = 128
+max_batched = 8192
+omp_threads = 1
+
+[serving.optional_args]
+spec_tokens = ["--speculative-config", '{{"method": "dspark", "num_speculative_tokens": {spec_tokens}, "draft_sample_method": "probabilistic", "rejection_sample_method": "block", "enable_adaptive_verification": true}}']
+
+[request]
+client_model = "openai/deepseek-v41-flash"
+pi_thinking = "max"
+# Pi's top-level reasoning_effort overrides template kwargs in vLLM; pin both.
+overrides = { temperature = 1.0, top_p = 0.95, reasoning_effort = "max", chat_template_kwargs = { thinking = true, reasoning_effort = "max", drop_thinking = false } }
+# vLLM's /tokenize crashes on DeepSeek V4.1 tool histories; the guard renders with the vendored encoder.
+env = { PI_CONTEXT_RENDERER = "deepseek_v41" }
+
+[counting]
+serializer = "deepseek"
+encoder = "/opt/aai/venvs/vllm032/lib/python3.12/site-packages/vllm/tokenizers/deepseek_v41_encoding.py"
+tokenizer = "{checkpoint}/tokenizer.json"
+encode_kwargs = { thinking_mode = "thinking", drop_thinking = false, reasoning_effort = "max" }
+
+[serving_resources]
+cpus_per_gpu = 8
+memory_gib = 768
+disk_gib = 1200
+bid_per_job = { 4 = 63 }
+exclude_nodes = ["cpu207", "cpu307", "cpu403", "cpu404", "gpu132"]   # cpu403: cuInit fails (GPU preflight)
+
+[worker_resources]
+slots = 16
+cpus = 16
+memory_gib = 384
+disk_gib = 200
+bid = 56
+exclude_nodes = ["gpu132"]   # gpu132 cannot reach one /data OST
+
+[admission]
+initial_limit_per_backend = 192
+maximum_limit_per_backend = 384

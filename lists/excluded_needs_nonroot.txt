@@ -1,0 +1,10 @@
+# tasks whose challenge depends on the agent being an unprivileged user (Docker USER + file permissions).
+# harbor_ns can only map uid 0 (no subuid range on the cluster), so the agent runs as root and could
+# bypass the intended restriction; trajectories would not reflect the task.
+privilege-escalation	agent "alice" must delete root-only /root/protected_file.txt
+blackbox-sorting-network	reference binaries chmod 0111 (execute-only) "Root would bypass DAC, hence USER agent"
+ecdsa-nonce-recovery	/flag chmod 600 root-only; root can just read it
+mtls-gateway-repair	"Non-root means CapEff/CapPrm = 0"; secrets in chmod 0700 dirs of another service account
+signal-gate	sudoers/permission challenge for USER user
+time-travel-debugger	test expects user 'runner' to get EACCES on root-only /root/oracle_vm.js; needs real DAC between uids
+agent-eval-migrator	anti-cheat probes expect EPERM/EACCES for user agent_runner (root-only files); needs real DAC between uids

@@ -1,0 +1,325 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "Art History",
+ "target_leaves": 20,
+ "expected_problems": 238,
+ "leaves": [
+  {
+   "leaf": "Attic red-figure painter attributions and kalos-names",
+   "scope": "This leaf covers Beazley-style attributions of Attic vases to named painters: name-vases, potter signatures (epoiesen/egraphsen), kalos-name acclamations and workshop groupings, with pieces held in particular museum collections. A question could use a kalos-name or a potter-painter partnership to date a vase, or to work out which workshop links two pieces.",
+   "queries": [
+    "Beazley Attic red-figured vases",
+    "kalos inscription vase painter",
+    "name vase painter attribution",
+    "Pioneer Group Euthymides",
+    "potter signature epoiesen kylix"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Pliny's Natural History on Greek artists",
+   "scope": "This leaf covers Books 34\u201336 of Pliny's Natural History: the Olympiad floruit dates of bronze-casters and painters, lists of teachers and pupils, prices paid for works and anecdotes about rival artists. A question could convert Olympiad dates to BCE years, or rebuild a teacher-pupil line across several generations.",
+   "queries": [
+    "Pliny chapters history of art",
+    "Jex-Blake Sellers Pliny",
+    "Natural History bronze sculptors Olympiad",
+    "Apelles Protogenes anecdote",
+    "Lysippus pupils Pliny"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Pompeian wall-painting styles in named houses",
+   "scope": "This leaf covers how Mau's four styles are assigned to rooms in specific Pompeian and Herculanean houses, the subjects of their central panels, and the redecoration after the earthquake of 62 CE. A question could work out the relative order in which a house's rooms were decorated, or compare style assignments across houses.",
+   "queries": [
+    "Mau Pompeii its life art",
+    "Pompeian fourth style decoration",
+    "House of the Vettii paintings",
+    "second style architectural wall painting",
+    "Pompeii earthquake redecoration"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Byzantine painter's manual iconographic prescriptions",
+   "scope": "This leaf covers the rules in Dionysius of Fourna's Hermeneia (Didron's Manuel d'iconographie, later English translations): where each scene goes in a church, the texts on prophets' scrolls, the physical types of saints, and how many figures a composition needs. A question could identify a figure from the prescribed details, or count and place elements in a prescribed decorative scheme.",
+   "queries": [
+    "Dionysius of Fourna Hermeneia",
+    "Didron Manuel iconographie chr\u00e9tienne",
+    "Mount Athos painter's guide",
+    "Byzantine church decoration programme",
+    "prophets scrolls inscriptions iconography"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Insular gospel books decoration and colophons",
+   "scope": "This leaf covers the Lindisfarne, Kells, Durrow and Lichfield gospels: how their carpet pages and canon tables are laid out, the order of the evangelist symbols, and colophons that name scribes, binders and metalworkers. A question could compare decorative features across the manuscripts, or use the colophon evidence to infer dates and who made what.",
+   "queries": [
+    "Lindisfarne Gospels Aldred colophon",
+    "Book of Kells canon tables",
+    "Book of Durrow evangelist symbols",
+    "Insular carpet page interlace",
+    "Hiberno-Saxon illuminated manuscript"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Books of Hours liturgical Use localisation",
+   "scope": "This leaf covers the textual tests used to place a Book of Hours: the responsories of the Office of the Dead, the antiphons and capitula of the Hours of the Virgin, and regional saints in the calendar, which separate the Uses of Rome, Sarum, Paris and other places. A question could give a set of textual tests and ask the solver to work out the manuscript's Use and likely place of origin.",
+   "queries": [
+    "Book of Hours Use Sarum",
+    "Office of the Dead responsories",
+    "Hours of the Virgin Use Paris",
+    "calendar saints localisation manuscript",
+    "Horae Beatae Mariae Virginis"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Gothic cathedral master masons and labyrinths",
+   "scope": "This leaf covers master masons named in the pavement labyrinth inscriptions at Amiens and Reims, in building accounts and in Villard de Honnecourt's portfolio, together with the dated building campaigns of particular cathedrals. A question could reconstruct the order in which architects succeeded one another, or how long a building campaign lasted.",
+   "queries": [
+    "Amiens labyrinth Robert de Luzarches",
+    "Reims labyrinth master masons",
+    "Villard de Honnecourt sketchbook",
+    "medieval master mason building accounts",
+    "cathedral building campaigns chronology"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Vasari's Lives: 1550 versus 1568 editions",
+   "scope": "This leaf covers how the Torrentino (1550) and Giunti (1568) editions of Vasari's Lives differ: which lives were added or rewritten, what Vasari says about minor artists, and the dates and ages he got wrong, as corrected by later editors such as Milanesi. A question could work out an artist's age from Vasari's claims, or spot where the two editions or the documents contradict each other.",
+   "queries": [
+    "Vasari Lives most eminent painters",
+    "Torrentino 1550 Giunti 1568",
+    "De Vere translation Vasari",
+    "Vasari Milanesi commentary",
+    "Vasari minor painters biography"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Italian Renaissance altarpiece contracts and payments",
+   "scope": "This leaf covers notarial painting contracts that set the grade of ultramarine, the amount of gold leaf, deadlines and penalties, and arbitrated valuations given in florins or lire. A question could calculate the total cost of a commission, compare prices per figure or per panel, or check whether a contract clause was met.",
+   "queries": [
+    "altarpiece contract ultramarine florins",
+    "Renaissance painting commission contract",
+    "notarial contract painter patron",
+    "arbitration valuation altarpiece price",
+    "Quattrocento workshop practice"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Dutch Guild of St Luke membership records",
+   "scope": "This leaf covers registration dates, apprentice entries, and terms as headman or dean in the painters' guilds of Delft, Haarlem and Leiden, as published in Obreen's Archief and Bredius's K\u00fcnstler-Inventare. A question could infer an artist's age or training period, or work out when particular artists' guild careers overlapped.",
+   "queries": [
+    "Guild of Saint Luke Delft",
+    "Obreen Archief Nederlandsche Kunstgeschiedenis",
+    "Bredius K\u00fcnstler-Inventare",
+    "Haarlem painters guild register",
+    "Dutch painter apprenticeship records"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Rembrandt etching states across catalogues",
+   "scope": "This leaf covers how the Bartsch, Middleton and Hind catalogues number Rembrandt's etchings and count their states, and which plate alterations (drypoint additions, burnished areas, cut-down plates) mark each state. A question could match numbers across catalogues, compare state counts between them, or put a set of alterations in order.",
+   "queries": [
+    "Rembrandt etchings Hind catalogue",
+    "Bartsch Rembrandt etching states",
+    "Middleton Rembrandt etched work",
+    "drypoint burr impression state",
+    "Hundred Guilder Print states"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Paris Salon livrets, medals and juries",
+   "scope": "This leaf covers the catalogue numbers and entries in Salon livrets, the classes of medals awarded, the lists of Prix de Rome laureates, and how juries were made up from year to year. A question could trace an artist's progression through the medal classes, or work out who exhibited what in a particular Salon.",
+   "queries": [
+    "Salon explication des ouvrages",
+    "Paris Salon medal first class",
+    "Prix de Rome painting laureates",
+    "Salon des Refus\u00e9s 1863",
+    "Acad\u00e9mie des Beaux-Arts jury"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Ukiyo-e censor, date and publisher seals",
+   "scope": "This leaf covers the censorship seals on Edo woodblock prints (kiwame, single and paired nanushi seals, and later date seals combining zodiac year and month) and the trademarks of publishers. A question could decode the year a print was issued from its seals, or check whether a seal combination fits the claimed artist and publisher.",
+   "queries": [
+    "ukiyo-e censor seal dating",
+    "kiwame seal woodblock print",
+    "nanushi censor seals",
+    "Edo publisher mark hanmoto",
+    "Kuniyoshi print publisher seal"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Chinese collectors' seals and Qing imperial catalogues",
+   "scope": "This leaf covers the Shiqu baoji catalogues, the Qianlong emperor's seals and inscriptions, the seals of private collectors such as Xiang Yuanbian, and the colophons attached to particular handscrolls. A question could work out the order in which a painting passed between owners from its seals and colophons, or judge whether its documented history hangs together.",
+   "queries": [
+    "Shiqu baoji imperial catalogue",
+    "Qianlong collector seals painting",
+    "Xiang Yuanbian collection seals",
+    "Chinese painting colophon provenance",
+    "handscroll inscriptions connoisseurship"
+   ],
+   "sources": [
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Mughal manuscript painting collaborative ascriptions",
+   "scope": "This leaf covers the marginal notes in Akbar-period manuscripts (Akbarnama, Razmnama, Baburnama, Hamzanama) that credit the designer, the colourist and the painter of faces on each folio, naming artists such as Basawan, Daswanth and Miskin. A question could count how often two artists worked together, or infer master-pupil and workshop relationships.",
+   "queries": [
+    "Akbarnama painter ascriptions",
+    "Basawan Mughal painter",
+    "Razmnama Daswanth",
+    "Mughal atelier tarh amal",
+    "Hamzanama folios painting"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Benin court brass plaques and 1897 dispersal",
+   "scope": "This leaf covers the iconography of Benin brass plaques and ivories (obas, Portuguese figures, mudfish-legged figures, palace architecture) as catalogued by Read & Dalton and Pitt-Rivers, and how the objects were scattered after 1897. A question could identify a plaque's subject from its motifs, or follow an object's path to the museum that holds it now.",
+   "queries": [
+    "Antiquities from the City of Benin",
+    "Benin bronze plaques Portuguese",
+    "Pitt-Rivers Benin antique works",
+    "1897 Benin punitive expedition",
+    "Oba ivory carving Benin"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Classic Maya painted ceramics and signatures",
+   "scope": "This leaf covers codex-style and Ik'-style polychrome vessels, the dedicatory texts of the Primary Standard Sequence (vessel type, contents, owner's title), painters' signatures, and Kerr rollout numbers. A question could read the parts of a vessel's text to identify its owner or royal court, or link signed vessels to the same painter.",
+   "queries": [
+    "Primary Standard Sequence Maya",
+    "codex-style Maya ceramics",
+    "Maya vase painter signature",
+    "Ik' style polychrome vessels",
+    "Kerr rollout Maya vase"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Pigment chronology for terminus post quem dating",
+   "scope": "This leaf covers the first documented use of synthetic pigments (Prussian blue, cobalt blue, emerald green, chrome yellow, zinc white), the periods in which lead-tin yellow types I and II were used, and pigment-analysis results for particular paintings. A question could use a painting's pigments to find the earliest date it could have been made, or to expose an anachronism in a forgery.",
+   "queries": [
+    "lead-tin yellow type II",
+    "Prussian blue earliest use painting",
+    "pigment analysis forgery dating",
+    "smalt discoloration painting",
+    "Raman spectroscopy painting pigments"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Dendrochronology of Netherlandish oak panels",
+   "scope": "This leaf covers tree-ring results for particular Flemish and Dutch panel paintings: the youngest heartwood ring, whether the oak came from the Baltic or western Europe, sapwood statistics and assumed seasoning times. A question could calculate the earliest likely felling date and the earliest plausible date the painting was made.",
+   "queries": [
+    "dendrochronology panel paintings oak",
+    "Baltic oak sapwood estimate",
+    "Flemish panel felling date",
+    "Klein dendrochronological analysis painting",
+    "tree-ring dating altarpiece"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US litigation over Nazi-looted artworks",
+   "scope": "This leaf covers US court decisions on art lost through Nazi persecution, including Altmann, Von Saher v. Norton Simon, Cassirer v. Thyssen-Bornemisza and Bakalar v. Vavra. They deal with the Foreign Sovereign Immunities Act, statutes of limitation, laches and choice of law. A question could apply a court's holding to a new set of facts, or compare how different courts ruled.",
+   "queries": [
+    "Republic of Austria Altmann",
+    "Von Saher Norton Simon",
+    "Cassirer Thyssen-Bornemisza Pissarro",
+    "Holocaust looted art restitution",
+    "Bakalar Vavra Schiele drawing"
+   ],
+   "sources": [
+    "caselaw_access_project",
+    "peS2o"
+   ]
+  }
+ ]
+}

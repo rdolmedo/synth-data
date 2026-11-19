@@ -1,0 +1,480 @@
+{
+ "domain": "Finance",
+ "subtopic": "Insurance",
+ "weight": 0.007280999999999999,
+ "leaves": [
+  {
+   "leaf": "P&C loss reserving and IBNR estimation methods",
+   "scope": "Actuarial estimation of unpaid claim liabilities for property-casualty insurers, including loss development triangles, chain-ladder, Bornhuetter-Ferguson, Cape Cod and Mack methods, LAE reserves and disclosed reserve development.",
+   "queries": [
+    "chain ladder loss development factors triangle",
+    "Bornhuetter-Ferguson expected loss ratio IBNR",
+    "Mack model reserve variability standard error",
+    "prior year reserve development loss adjustment expenses"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "P&C ratemaking, credibility theory and experience rating",
+   "scope": "Property-casualty pricing techniques such as pure premium and loss ratio methods, trending and on-leveling, limited fluctuation and Buhlmann credibility, increased limits factors, GLMs, and experience and retrospective rating plans.",
+   "queries": [
+    "Buhlmann Straub credibility factor ratemaking",
+    "limited fluctuation credibility full standard 1082 claims",
+    "parallelogram method on-level premium trend",
+    "retrospective rating plan basic premium factor"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Life contingencies and mortality tables",
+   "scope": "The actuarial mathematics of life insurance and annuities, covering CSO and VBT valuation tables, Gompertz-Makeham laws, select-and-ultimate periods, commutation functions, actuarial present values and mortality improvement scales.",
+   "queries": [
+    "2017 CSO mortality table valuation",
+    "commutation functions actuarial present value annuity",
+    "select and ultimate mortality table period",
+    "Society of Actuaries mortality improvement scale MP"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Life insurance product design and US tax qualification",
+   "scope": "Features of term, whole, universal, variable and indexed universal life policies, including IRC Section 7702 tests, modified endowment contracts, nonforfeiture options, riders and the life settlement secondary market.",
+   "queries": [
+    "Section 7702 guideline premium cash value accumulation test",
+    "modified endowment contract seven pay test",
+    "indexed universal life cap participation rate illustration",
+    "life settlement viatical settlement secondary market"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Annuities, guaranteed living benefits and pension risk transfer",
+   "scope": "Fixed, fixed indexed, variable and registered index-linked annuities, GMDB/GMWB/GMIB riders, surrender charges and crediting methods, and group annuity buyouts and buy-ins used in pension risk transfer.",
+   "queries": [
+    "fixed indexed annuity cap rate surrender charge",
+    "guaranteed minimum withdrawal benefit variable annuity rider",
+    "registered index-linked annuity buffer floor",
+    "pension risk transfer group annuity buyout"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Long-term care and disability income insurance",
+   "scope": "Traditional and hybrid long-term care insurance (ADL benefit triggers, elimination periods, partnership programs, rate increases on legacy blocks) and individual and group disability income coverage (own-occupation definitions, benefit periods).",
+   "queries": [
+    "long-term care insurance activities of daily living trigger",
+    "long-term care partnership program Deficit Reduction Act",
+    "disability income own occupation elimination period",
+    "long-term care premium rate increase morbidity reserves"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US health insurance markets: ACA, employer plans, Medicare Advantage and Medigap",
+   "scope": "Private and government-contracted US health coverage, including ACA marketplace rules (metal tiers, MLR, risk adjustment, cost-sharing reductions), ERISA employer plans, Medicare Advantage and Part D star ratings and CMS-HCC, and the standardized Medigap plans.",
+   "queries": [
+    "Affordable Care Act medical loss ratio rebate",
+    "ACA metal tiers actuarial value bronze silver",
+    "Medicare Advantage star ratings quality bonus payment",
+    "Medigap standardized plan letters Plan G"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Homeowners and dwelling property policy forms",
+   "scope": "Personal property insurance forms such as ISO HO-2, HO-3, HO-5 and HO-6 and the DP dwelling fire forms, Coverages A-F, named versus open perils, replacement cost versus actual cash value, and standard exclusions.",
+   "queries": [
+    "HO-3 special form named perils coverage",
+    "dwelling fire DP-3 policy form",
+    "replacement cost actual cash value depreciation homeowners",
+    "homeowners Coverage A loss of use ordinance or law"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Personal auto insurance and no-fault systems",
+   "scope": "Personal automobile coverage under the ISO personal auto policy, split liability limit notation, state financial responsibility minimums, no-fault/PIP regimes and tort thresholds, uninsured motorist coverage and usage-based insurance.",
+   "queries": [
+    "no-fault personal injury protection tort threshold state",
+    "minimum auto liability limits 25/50/25",
+    "uninsured underinsured motorist coverage stacking",
+    "usage-based insurance telematics auto premium"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Commercial general liability and package policies",
+   "scope": "ISO commercial liability and package forms, including CGL Coverages A/B/C, occurrence versus claims-made triggers, retroactive dates and tails, additional insured endorsements, products-completed operations, umbrella/excess and businessowners policies.",
+   "queries": [
+    "CG 00 01 commercial general liability coverage form",
+    "claims-made retroactive date extended reporting period",
+    "additional insured endorsement CG 20 10",
+    "businessowners policy commercial umbrella excess liability"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Professional and management liability (D&O, E&O, EPL, medical malpractice)",
+   "scope": "Directors and officers Side A/B/C coverage, errors and omissions, employment practices and fiduciary liability, medical malpractice insurance and its crises and damage caps, and key exclusions such as insured-versus-insured.",
+   "queries": [
+    "directors and officers Side A B C coverage",
+    "insured versus insured exclusion D&O policy",
+    "medical malpractice insurance crisis damage caps",
+    "employment practices liability insurance EPLI claims"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Cyber insurance coverage and war exclusions",
+   "scope": "Standalone cyber insurance, covering first- and third-party coverages, ransomware and network business interruption, silent cyber, Lloyd's state-backed attack exclusions (LMA 5564-5567) and NotPetya disputes such as Mondelez v. Zurich and Merck v. ACE.",
+   "queries": [
+    "cyber insurance ransomware first-party business interruption",
+    "Lloyd's state-backed cyber attack exclusion LMA",
+    "Mondelez Zurich NotPetya war exclusion",
+    "silent cyber non-affirmative exposure"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Workers' compensation systems and rating",
+   "scope": "State workers' compensation benefit structures, exclusive remedy, NCCI classification codes and experience modification, monopolistic state funds, and federal schemes such as FECA, the Longshore Act and the Jones Act.",
+   "queries": [
+    "NCCI experience modification factor calculation",
+    "monopolistic state fund workers compensation",
+    "Longshore and Harbor Workers Compensation Act benefits",
+    "workers compensation exclusive remedy temporary total disability"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Marine insurance, P&I clubs and general average",
+   "scope": "Marine hull, cargo and liability insurance, including the Institute Cargo and Hull Clauses, the Marine Insurance Act 1906, P&I clubs and the International Group pooling arrangement, general average under the York-Antwerp Rules, and marine war risks.",
+   "queries": [
+    "Institute Cargo Clauses A B C",
+    "York-Antwerp Rules general average adjustment",
+    "International Group P&I clubs pooling reinsurance",
+    "Marine Insurance Act 1906 warranty section"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aviation, space and energy insurance",
+   "scope": "Aviation hull and liability insurance and airline war risk clauses (AVN 48B), Montreal Convention liability limits, satellite launch and in-orbit coverage, and offshore and onshore energy insurance with its landmark losses.",
+   "queries": [
+    "aviation hull war liability AVN 48B",
+    "satellite launch in-orbit insurance claim",
+    "Montreal Convention special drawing rights carrier liability",
+    "offshore energy insurance platform loss"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surety, fidelity and financial guaranty",
+   "scope": "Three-party surety bonds (bid, performance, payment, license, court), the Miller Act and state Little Miller Acts, fidelity and commercial crime coverage, and monoline financial guaranty insurers of municipal and structured bonds.",
+   "queries": [
+    "Miller Act performance payment bond threshold",
+    "contract surety bid bond general indemnity agreement",
+    "financial guaranty insurance municipal bond Assured Guaranty",
+    "commercial crime fidelity employee dishonesty coverage"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Title and mortgage insurance",
+   "scope": "Owner's and lender's title insurance (ALTA policy forms and endorsements, title plants, underwriter-agent structure) and mortgage insurance (private MI, FHA mortgage insurance premiums, PMIERs, Homeowners Protection Act cancellation rules).",
+   "queries": [
+    "ALTA owner's policy lender's policy endorsement",
+    "title insurance underwriter title plant agent remittance",
+    "private mortgage insurance PMIERs GSE eligibility",
+    "Homeowners Protection Act PMI cancellation 78 percent"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Crop and livestock insurance",
+   "scope": "The US Federal Crop Insurance Program (FCIC, RMA, Approved Insurance Providers, Standard Reinsurance Agreement, revenue and yield protection, CAT coverage), livestock policies, and index-based agricultural insurance.",
+   "queries": [
+    "Federal Crop Insurance Corporation Risk Management Agency",
+    "revenue protection harvest price option crop",
+    "Standard Reinsurance Agreement approved insurance providers",
+    "pasture rangeland forage rainfall index insurance"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Flood insurance and the National Flood Insurance Program",
+   "scope": "The NFIP and US flood coverage, including FEMA flood zones and FIRMs, the Write Your Own program, coverage limits and waiting periods, Risk Rating 2.0, the Biggert-Waters and HFIAA reforms, the Community Rating System and private flood.",
+   "queries": [
+    "National Flood Insurance Program Write Your Own",
+    "Risk Rating 2.0 NFIP premiums",
+    "Biggert-Waters Flood Insurance Reform Act 2012",
+    "Community Rating System class discount flood"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Residual markets, public catastrophe pools and terrorism backstops",
+   "scope": "Insurers of last resort and government-backed catastrophe schemes other than the NFIP: FAIR plans, Citizens Property, state wind pools, the Florida Hurricane Catastrophe Fund, the California Earthquake Authority, TRIA and Pool Re, and national pools such as CCR, Consorcio, EQC and CCRIF.",
+   "queries": [
+    "Terrorism Risk Insurance Act program trigger deductible",
+    "Florida Hurricane Catastrophe Fund reimbursement premium",
+    "California Earthquake Authority policy deductible",
+    "FAIR plan residual market insurer of last resort"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reinsurance contract structures and market",
+   "scope": "Facultative versus treaty reinsurance, quota share and surplus treaties, per-risk and catastrophe excess of loss, stop loss, reinstatements, hours clauses, retrocession, renewal pricing and the major global reinsurers.",
+   "queries": [
+    "quota share surplus treaty reinsurance",
+    "catastrophe excess of loss reinstatement premium",
+    "hours clause loss occurrence definition reinsurance",
+    "rate on line property catastrophe renewals"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Catastrophe modeling and insurance-linked securities",
+   "scope": "Vendor catastrophe models, exceedance probability curves and PML, catastrophe bonds and their triggers (indemnity, industry index, parametric), industry loss warranties, collateralized reinsurance, sidecars and parametric insurance.",
+   "queries": [
+    "catastrophe bond trigger indemnity parametric industry index",
+    "exceedance probability curve probable maximum loss",
+    "industry loss warranty collateralized reinsurance sidecar",
+    "catastrophe bond special purpose vehicle issuance"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Lloyd's of London market structure",
+   "scope": "The institutions and rules of Lloyd's: syndicates and managing agents, Names and corporate members, Funds at Lloyd's, the Central Fund and chain of security, the Council and Corporation, Reconstruction and Renewal and Equitas, the Lloyd's Acts and modernization programs.",
+   "queries": [
+    "Lloyd's syndicate managing agent capacity",
+    "Lloyd's Names unlimited liability Reconstruction Renewal Equitas",
+    "Lloyd's Central Fund chain of security",
+    "Lloyd's Act 1982 Council Corporation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US state insurance regulation and the NAIC",
+   "scope": "State-based US insurance oversight: the McCarran-Ferguson Act and its precedents, NAIC model laws and accreditation, rate filing regimes (prior approval, file-and-use), risk-based capital action levels, holding company rules and the Federal Insurance Office.",
+   "queries": [
+    "McCarran-Ferguson Act 1945 state regulation",
+    "NAIC risk-based capital authorized control level",
+    "prior approval file and use rate regulation",
+    "Federal Insurance Office Dodd-Frank insurance"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Solvency II and international insurance capital regimes",
+   "scope": "Non-US prudential regimes, including the three Solvency II pillars, SCR and MCR, the standard formula, matching and volatility adjustments, ORSA and EIOPA, the IAIS Insurance Capital Standard and ComFrame, Bermuda BSCR, the Swiss SST and China C-ROSS.",
+   "queries": [
+    "Solvency II solvency capital requirement 99.5 VaR",
+    "matching adjustment volatility adjustment Solvency II",
+    "IAIS Insurance Capital Standard ComFrame",
+    "Bermuda Solvency Capital Requirement BSCR"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurance accounting and financial reporting standards",
+   "scope": "Insurer financial reporting under IFRS 17 (CSM, GMM, PAA, VFA) and IFRS 4, US GAAP LDTI (ASU 2018-12), DAC and market risk benefits, statutory accounting principles and NAIC Annual Statement schedules, and embedded value reporting.",
+   "queries": [
+    "IFRS 17 contractual service margin measurement",
+    "premium allocation approach variable fee approach",
+    "ASU 2018-12 long-duration targeted improvements market risk benefits",
+    "statutory accounting principles NAIC annual statement schedule"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurer financial strength ratings and performance metrics",
+   "scope": "The measures used to evaluate insurers, including loss, expense and combined ratios, investment yield, float and premium leverage, the financial strength rating scales of AM Best, S&P, Moody's and Fitch, and premium-based market share rankings.",
+   "queries": [
+    "AM Best financial strength rating scale superior",
+    "combined ratio loss ratio expense ratio underwriting",
+    "insurance float Berkshire Hathaway underwriting profit",
+    "direct premiums written market share largest insurers"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurance contract law doctrines",
+   "scope": "The legal principles governing insurance contracts: insurable interest, utmost good faith and misrepresentation, indemnity, subrogation and contribution, proximate cause, warranties, contra proferentem and reasonable expectations, bad faith, and landmark cases and statutes.",
+   "queries": [
+    "insurable interest doctrine life insurance case",
+    "utmost good faith Carter v Boehm disclosure",
+    "contra proferentem reasonable expectations doctrine insurance",
+    "insurer bad faith failure to settle punitive damages"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Captives, risk retention groups and excess & surplus lines",
+   "scope": "Alternative risk transfer vehicles and the nonadmitted market: single-parent, group and protected cell captives and their domiciles, 831(b) micro-captives, risk retention groups under the LRRA, fronting arrangements, and surplus lines regulation under the NRRA.",
+   "queries": [
+    "captive insurance domicile Vermont protected cell",
+    "831(b) micro-captive IRS listed transaction",
+    "Liability Risk Retention Act risk retention group",
+    "excess and surplus lines Nonadmitted Reinsurance Reform Act"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Insurer insolvency, guaranty associations and legacy run-off",
+   "scope": "Insurer receivership, rehabilitation and liquidation, state guaranty association limits and NOLHGA, notable failures (Executive Life, Reliance, HIH), asbestos and environmental legacy liabilities, loss portfolio transfers, adverse development covers, and UK Part VII transfers and schemes of arrangement.",
+   "queries": [
+    "state guaranty association coverage limits insolvency",
+    "Executive Life insolvency rehabilitation policyholders",
+    "loss portfolio transfer adverse development cover",
+    "Part VII transfer scheme of arrangement run-off"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Insurance distribution: agents, brokers, MGAs and bancassurance",
+   "scope": "How insurance is sold: captive versus independent agents, the major brokers, MGAs and delegated underwriting authority, producer licensing, commissions and the 2004 contingent commission scandal, bancassurance, and direct and insurtech channels.",
+   "queries": [
+    "independent agents captive agents distribution channel",
+    "contingent commissions Spitzer broker investigation",
+    "managing general agent delegated underwriting authority",
+    "bancassurance partnership agreement life insurer"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Takaful and microinsurance",
+   "scope": "Islamic insurance (wakala, mudaraba and hybrid takaful models, tabarru funds, retakaful, Shariah boards, Malaysian and GCC regulation) and microinsurance and inclusive insurance products for low-income markets.",
+   "queries": [
+    "takaful wakala mudaraba model tabarru",
+    "retakaful operator Islamic Financial Services Board",
+    "Islamic Financial Services Act Malaysia family takaful",
+    "microinsurance low-income index-based mobile"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "History of insurance and mutual versus stock organization",
+   "scope": "The origins and institutional development of insurance, from bottomry, Hammurabi and Italian marine contracts through post-1666 London fire offices, early life offices, tontines, friendly societies and US firsts, to mutual and stock forms and modern demutualizations.",
+   "queries": [
+    "Philadelphia Contributionship 1752 fire insurance",
+    "Great Fire of London Nicholas Barbon fire office",
+    "Equitable Life Assurance Society 1762 history",
+    "demutualization mutual insurance company stock conversion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

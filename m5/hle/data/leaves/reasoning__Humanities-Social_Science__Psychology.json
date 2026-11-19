@@ -1,0 +1,153 @@
+{
+ "partition": "reasoning",
+ "category": "Humanities/Social Science",
+ "subject": "Psychology",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Signal detection theory and ROC geometry",
+   "scope": "Problems give hit and false-alarm rates, confidence-rating counts, or forced-choice accuracies and ask for sensitivity, bias, or predicted performance in another paradigm. They are hard because the solver has to choose the right noise model (equal vs. unequal variance, high-threshold vs. Gaussian) and convert carefully between yes/no, 2AFC, m-AFC and same-different tasks.",
+   "techniques": [
+    "z-transformed ROC slope as the ratio of noise to signal standard deviations, and d_a for unequal variance",
+    "Converting yes/no d' to 2AFC proportion correct via Phi(d'/sqrt(2)) and to m-AFC accuracy via integrals over order statistics",
+    "Likelihood-ratio criterion beta, the optimal criterion from priors and payoff matrices",
+    "Area under a cumulated rating ROC computed by the trapezoid rule or from a binormal fit",
+    "Ideal observer for combining independent cues, with d' adding in quadrature",
+    "Convergence points of Levitt transformed up-down staircases (for example 70.7% for 2-down/1-up)"
+   ],
+   "answer_forms": [
+    "rational number",
+    "decimal to stated precision",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Trial-by-trial associative learning model computation",
+   "scope": "Problems describe a multi-phase conditioning design (blocking, overexpectation, conditioned inhibition, latent inhibition, compound tests) and ask for the exact associative strength or predicted response after a set number of trials under a stated model. They are hard because summed-error updates, attention changes and configural units interact across phases and are easy to mis-track.",
+   "techniques": [
+    "Rescorla-Wagner summed prediction error with stimulus-specific alpha and outcome-specific beta, solved in closed form as geometric convergence",
+    "Overexpectation and negative asymptotes when cues trained separately to asymptote are then trained in compound",
+    "Pearce-Hall associability updates driven by the absolute prediction error",
+    "Mackintosh relative-predictiveness attention rules",
+    "Pearce configural similarity products for generalisation from compounds to elements",
+    "Temporal-difference error with eligibility traces in serial-compound designs"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "ordered tuple",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Generalizability theory variance-component designs",
+   "scope": "Problems give mean squares or a design (crossed or nested persons x raters x occasions) and ask for variance components, G and Phi coefficients, or the smallest D-study configuration that reaches a target dependability. They are hard because expected-mean-square algebra changes with nesting and fixed facets, and because relative and absolute error terms differ.",
+   "techniques": [
+    "Solving expected-mean-square equations for random-effects components in p x r x o designs",
+    "Separating relative error (interactions only) from absolute error (all non-person components) for G versus Phi",
+    "Collapsing nested facets (r:p, (r:o) x p) and treating a facet as fixed by averaging it into the universe score",
+    "Optimising a D-study over the number of conditions per facet under a budget constraint",
+    "Spearman-Brown and correction for attenuation as special cases of a one-facet design",
+    "Coefficient alpha versus omega when tau-equivalence fails"
+   ],
+   "answer_forms": [
+    "rational number",
+    "integer",
+    "ordered tuple",
+    "decimal to stated precision"
+   ]
+  },
+  {
+   "leaf": "Drift-diffusion first-passage time analysis",
+   "scope": "Problems give Wiener diffusion parameters (drift, boundary separation, starting point, non-decision time) or summary statistics and ask for choice probabilities, mean decision times, or parameters recovered from data. They are hard because the closed forms for biased starting points and for conditional (correct vs. error) mean times are delicate, and parameter trade-offs have to be untangled.",
+   "techniques": [
+    "Gambler's-ruin exit probability for a Wiener process with drift and an arbitrary starting point",
+    "Closed-form unconditional and conditional mean first-passage times",
+    "EZ-diffusion inversion from accuracy, RT variance and mean RT",
+    "Sequential probability ratio test equivalence and the optimal boundary from a reward-rate objective",
+    "Effect of a starting-point bias versus a drift-criterion shift on fast vs. slow errors",
+    "Race and LBA models compared with diffusion for the probability of the minimum finishing time"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "decimal to stated precision",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Concurrent-schedule matching and intertemporal discounting",
+   "scope": "Problems describe concurrent VI/VR schedules, changeover delays, or choices between delayed and probabilistic rewards, and ask for steady-state allocation, the point of indifference, or the time at which preference reverses. They are hard because generalized-matching sensitivity and bias, schedule feedback functions and the shape of the discount function all have to be combined correctly.",
+   "techniques": [
+    "Generalized matching law log(B1/B2) = a log(R1/R2) + log b, with undermatching and bias",
+    "Feedback functions of VI and VR schedules and melioration equilibria",
+    "Herrnstein's hyperbola for absolute response rate with extraneous reinforcement",
+    "Mazur hyperbolic discounting and the preference-reversal crossover time between small-soon and large-late rewards",
+    "Odds-against probability discounting and hyperboloid exponents",
+    "Area under the empirical discounting curve, normalised"
+   ],
+   "answer_forms": [
+    "rational number",
+    "closed-form expression",
+    "decimal to stated precision",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Cumulative prospect theory and choice-rule computations",
+   "scope": "Problems specify mixed or multi-outcome gambles together with value-function, probability-weighting and loss-aversion parameters, and ask for certainty equivalents, which option is preferred, or whether a stated axiom is violated. They are hard because rank-dependent decision weights are built from differences of the weighting function, applied separately to gains and losses, and they interact with framing and editing operations.",
+   "techniques": [
+    "Rank-dependent decision weights computed as w(P(X >= x_i)) - w(P(X > x_i)), separately for gains and losses",
+    "Tversky-Kahneman and Prelec weighting functions, and inverse-S fixed points",
+    "Certainty equivalents obtained by inverting the power value function, including loss-aversion kinks",
+    "Detecting violations of stochastic dominance, betweenness, or the common-consequence/common-ratio pattern",
+    "Luce choice axiom versus Thurstone Case V predictions for triples, and independence from irrelevant alternatives",
+    "Weak and strong stochastic transitivity checks on pairwise choice matrices"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "decimal to stated precision",
+    "letter for multiple choice",
+    "small set"
+   ]
+  },
+  {
+   "leaf": "Multinomial processing tree models of memory",
+   "scope": "Problems give response-category frequencies from recognition, source-monitoring, or inclusion/exclusion tasks, and ask for maximum-likelihood or closed-form estimates of latent process parameters, or whether a model is identifiable. They are hard because tree-structured probabilities have to be written out exactly, equality constraints imposed, and degrees of freedom counted correctly.",
+   "techniques": [
+    "Two-high-threshold recognition with the detection and guessing parameters Pr = H - FA and Br",
+    "Jacoby process-dissociation equations for recollection and familiarity under an independence assumption",
+    "Batchelder-Riefer source-monitoring trees with item detection, source discrimination and guessing branches",
+    "Counting identifiable parameters against free categories, and checking identifiability through the Jacobian rank",
+    "Closed-form ML estimates when trees are saturated, and the G-squared statistic for a nested constraint",
+    "Remember/know estimates under independence versus exclusivity (redundancy) assumptions"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ordered tuple",
+    "integer",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Coombsian unfolding of preference rankings",
+   "scope": "Problems give stimulus positions or sets of individual preference rankings (I-scales) and ask for the number of admissible rankings, the implied ordering of midpoints, or whether a set of rankings fits a unidimensional or two-dimensional ideal-point model. They are hard because the solver must reason combinatorially about orders of pairwise bisectors and the metric constraints they impose.",
+   "techniques": [
+    "Counting the C(n,2) + 1 I-scales of a qualitative J-scale and identifying which rankings are folded versions of it",
+    "Deriving the ordering of midpoints from adjacent I-scales and checking the metric consistency of midpoint inequalities",
+    "Single-peakedness tests, and recovering the unique J-scale up to reversal",
+    "Counting regions of the arrangement of perpendicular bisectors in the plane for two-dimensional unfolding",
+    "Telling admissible from inadmissible I-scales through interval-order constraints on distances",
+    "Linking unfolding to Black's single-peaked preferences and majority-rule transitivity"
+   ],
+   "answer_forms": [
+    "integer",
+    "a ranking/sequence of stimuli",
+    "small set",
+    "letter for multiple choice"
+   ]
+  }
+ ]
+}

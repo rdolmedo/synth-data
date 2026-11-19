@@ -1,0 +1,547 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Upstream Energy Engineering",
+ "weight": 0.0085,
+ "leaves": [
+  {
+   "leaf": "Source rock geochemistry, kerogen maturation and hydrocarbon migration",
+   "scope": "Organic-rich source rocks, kerogen types, thermal maturity indicators, geochemical screening methods, biomarkers, and primary and secondary migration of hydrocarbons.",
+   "queries": [
+    "kerogen type hydrogen index oxygen index",
+    "vitrinite reflectance oil window gas window",
+    "Rock-Eval pyrolysis S2 Tmax total organic carbon",
+    "biomarker sterane hopane oil source correlation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hydrocarbon traps, seals and petroleum basin types",
+   "scope": "Structural, stratigraphic and combination traps, salt tectonics, caprock seal capacity, and the classification of sedimentary basins by tectonic setting and petroleum system elements.",
+   "queries": [
+    "structural stratigraphic trap anticline fault closure",
+    "salt dome diapir petroleum trap",
+    "caprock seal capillary entry pressure column height",
+    "rift foreland passive margin basin petroleum system"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reservoir depositional systems, sequence stratigraphy and carbonate/fractured reservoirs",
+   "scope": "Clastic and carbonate reservoir depositional environments, sequence stratigraphic surfaces and systems tracts, carbonate classification and diagenesis, and naturally fractured reservoir models.",
+   "queries": [
+    "turbidite deltaic fluvial reservoir sandstone facies",
+    "sequence stratigraphy systems tract maximum flooding surface",
+    "Dunham carbonate classification dolomitization reservoir porosity",
+    "naturally fractured reservoir dual porosity Warren Root"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seismic data acquisition and processing",
+   "scope": "Land and marine seismic survey sources, receivers and geometries, plus the processing chain from deconvolution and velocity analysis through stacking and time/depth migration.",
+   "queries": [
+    "marine seismic air gun streamer acquisition",
+    "vibroseis sweep land seismic survey geophone",
+    "common midpoint stacking normal moveout velocity analysis",
+    "Kirchhoff reverse time migration prestack depth"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Seismic interpretation, AVO and direct hydrocarbon indicators",
+   "scope": "Structural and stratigraphic interpretation of seismic volumes, amplitude-versus-offset classes, seismic attributes and inversion, bright/flat spots, and time-lapse reservoir monitoring.",
+   "queries": [
+    "amplitude versus offset AVO class gas sand",
+    "bright spot flat spot direct hydrocarbon indicator",
+    "seismic inversion acoustic impedance coherence attribute",
+    "4D time-lapse seismic reservoir monitoring field"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Non-seismic exploration methods",
+   "scope": "Gravity, magnetic, electromagnetic (CSEM, magnetotelluric), remote sensing and surface geochemical techniques used to find and delineate petroleum prospects.",
+   "queries": [
+    "gravity survey Bouguer anomaly petroleum exploration",
+    "aeromagnetic survey depth to basement sedimentary basin",
+    "controlled source electromagnetic CSEM hydrocarbon detection",
+    "surface geochemical exploration oil seeps magnetotelluric"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Well log interpretation and petrophysics",
+   "scope": "Wireline and LWD logging tools (resistivity, gamma ray, SP, density, neutron, sonic, NMR) and the petrophysical equations used to derive lithology, porosity and saturation.",
+   "queries": [
+    "Archie equation water saturation cementation exponent",
+    "neutron density porosity log gas crossover",
+    "gamma ray spontaneous potential shale volume log",
+    "NMR logging T2 cutoff bound fluid"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Routine and special core analysis",
+   "scope": "Laboratory measurement of porosity, permeability, capillary pressure, relative permeability and wettability on core plugs, and the correlations used to apply them.",
+   "queries": [
+    "core analysis Klinkenberg gas permeability correction",
+    "relative permeability Corey exponent drainage imbibition",
+    "mercury injection capillary pressure Leverett J-function",
+    "wettability Amott index USBM method"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mud logging, wireline formation testing and fluid sampling",
+   "scope": "Wellsite cuttings and gas logging, wireline formation pressure testers, pressure gradient analysis and downhole fluid sampling and analysis.",
+   "queries": [
+    "mud logging gas chromatograph cuttings lag time",
+    "wireline formation tester MDT pressure gradient",
+    "repeat formation tester pretest mobility",
+    "downhole fluid analysis sample contamination PVT"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reservoir fluid PVT and phase behavior",
+   "scope": "Black-oil, volatile-oil, gas-condensate and dry-gas fluid properties, PVT laboratory experiments, empirical correlations, gas compressibility and equation-of-state fluid characterization.",
+   "queries": [
+    "bubble point solution gas oil ratio formation volume factor",
+    "Standing Katz gas compressibility factor chart",
+    "gas condensate retrograde dew point constant volume depletion",
+    "Peng-Robinson equation of state reservoir fluid characterization"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Petroleum geomechanics, pore pressure and wellbore stability",
+   "scope": "In-situ stress determination, pore pressure and fracture gradient prediction, leak-off testing, wellbore breakouts and reservoir compaction and subsidence.",
+   "queries": [
+    "pore pressure prediction Eaton method sonic",
+    "leak-off test fracture gradient minimum horizontal stress",
+    "wellbore stability breakout drilling induced fracture",
+    "reservoir compaction subsidence Ekofisk geomechanics"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drilling rigs, rig systems and offshore drilling units",
+   "scope": "Land and offshore rig types (jackups, semisubmersibles, drillships, tender rigs), rig generations and ratings, and hoisting, rotating and circulating system components.",
+   "queries": [
+    "jackup semisubmersible drillship rig generation",
+    "drilling rig drawworks top drive derrick hoisting",
+    "mud pump circulating system rotary rig components",
+    "ultra-deepwater drillship water depth record"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Drilling fluids",
+   "scope": "Water-based, oil-based and synthetic-based muds, their additives and weighting agents, rheology and filtration properties, and lost circulation and shale inhibition practices.",
+   "queries": [
+    "drilling mud barite bentonite weighting agent",
+    "oil-based synthetic-based drilling fluid",
+    "drilling fluid plastic viscosity yield point rheology",
+    "lost circulation material shale inhibition mud"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Drill bits, drill string and bottomhole assembly",
+   "scope": "Roller-cone and PDC bit design and IADC classification, drill pipe and collar grades, BHA components and drilling mechanics such as rate of penetration and vibration.",
+   "queries": [
+    "PDC bit polycrystalline diamond compact cutter",
+    "roller cone tricone bit IADC code",
+    "bottomhole assembly drill collar stabilizer jar",
+    "drill pipe grade tool joint mechanical specific energy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Directional and horizontal drilling, MWD and geosteering",
+   "scope": "Well trajectory planning and surveying, mud motors and rotary steerable systems, MWD telemetry, geosteering, and extended-reach and multilateral well records.",
+   "queries": [
+    "directional drilling mud motor bent housing",
+    "rotary steerable system push-the-bit point-the-bit",
+    "measurement while drilling mud pulse telemetry",
+    "extended reach drilling record well Sakhalin"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Well control and blowout preventers",
+   "scope": "Kick detection, shut-in procedures, kill methods and calculations, and BOP stack components and ratings for surface and subsea wells.",
+   "queries": [
+    "kick detection shut-in drillpipe pressure",
+    "driller's method wait and weight kill",
+    "blowout preventer annular ram blind shear",
+    "kill mud weight calculation well control"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Casing design and well cementing",
+   "scope": "Casing strings and API grades, burst/collapse/tension design, cement classes and additives, primary and squeeze cementing, and cement evaluation logs.",
+   "queries": [
+    "API casing grade J55 N80 P110",
+    "casing design burst collapse tension safety factor",
+    "oil well cement API class G H additives",
+    "cement bond log squeeze cementing"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Well completions and sand control",
+   "scope": "Completion string components (tubing, packers, safety valves), perforating, gravel packs and screens, and intelligent and multizone completion technology.",
+   "queries": [
+    "production packer tubing subsurface safety valve",
+    "shaped charge perforating gun tubing conveyed",
+    "gravel pack frac pack screen sand control",
+    "intelligent completion inflow control device"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hydraulic fracturing and acid stimulation",
+   "scope": "Fracturing fluids and proppants, fracture geometry models, multistage horizontal completion techniques, and matrix acidizing and acid fracturing of sandstones and carbonates.",
+   "queries": [
+    "hydraulic fracturing proppant ceramic sand",
+    "slickwater crosslinked guar fracturing fluid",
+    "PKN KGD fracture geometry model",
+    "matrix acidizing hydrochloric hydrofluoric mud acid"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Artificial lift systems",
+   "scope": "Sucker rod pumping, electrical submersible pumps, gas lift, progressing cavity pumps, hydraulic jet pumps and plunger lift, with their design and diagnostics.",
+   "queries": [
+    "electrical submersible pump ESP oil well",
+    "sucker rod pump pumpjack dynamometer card",
+    "gas lift valve unloading continuous intermittent",
+    "progressing cavity pump plunger lift"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Well deliverability, nodal analysis and wellbore multiphase flow",
+   "scope": "Inflow performance relationships, productivity index and skin, tubing performance, and vertical and inclined multiphase flow correlations used in nodal analysis.",
+   "queries": [
+    "Vogel inflow performance relationship",
+    "nodal analysis tubing performance curve",
+    "Beggs Brill multiphase flow correlation",
+    "Hagedorn Brown vertical lift productivity index"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pressure transient analysis and well testing",
+   "scope": "Drawdown, buildup, drill stem, interference and deliverability tests, diagnostic derivative plots, flow regimes and interpretation of permeability, skin and boundaries.",
+   "queries": [
+    "pressure buildup test Horner plot",
+    "pressure derivative diagnostic plot wellbore storage",
+    "drill stem test DST interpretation",
+    "interference test radius of investigation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Material balance, drive mechanisms and decline curve analysis",
+   "scope": "Reservoir material balance equations, primary drive mechanisms and aquifer influx models, p/z analysis, and Arps-type and rate-transient production forecasting.",
+   "queries": [
+    "material balance equation Havlena Odeh",
+    "solution gas drive water drive gas cap recovery",
+    "Arps decline curve hyperbolic exponent",
+    "van Everdingen Hurst aquifer influx p/z plot"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Reservoir simulation and history matching",
+   "scope": "Black-oil and compositional numerical simulation formulations, commercial simulators, upscaling, SPE benchmark problems and history matching and uncertainty workflows.",
+   "queries": [
+    "black oil compositional reservoir simulation",
+    "ECLIPSE reservoir simulator keywords grid",
+    "IMPES fully implicit finite difference reservoir",
+    "SPE comparative solution project benchmark"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Waterflooding and displacement theory",
+   "scope": "Fractional flow and Buckley-Leverett theory, mobility ratio, areal and vertical sweep efficiency, injection patterns, heterogeneity measures and low-salinity waterflooding.",
+   "queries": [
+    "Buckley Leverett fractional flow equation",
+    "five-spot waterflood pattern sweep efficiency",
+    "mobility ratio areal vertical sweep",
+    "Dykstra Parsons coefficient low salinity waterflood"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thermal recovery, heavy oil and oil sands",
+   "scope": "Steam flooding, cyclic steam stimulation, SAGD, in-situ combustion and oil sands surface mining, including major heavy-oil deposits and projects.",
+   "queries": [
+    "steam assisted gravity drainage SAGD",
+    "cyclic steam stimulation huff and puff",
+    "in-situ combustion fire flood heavy oil",
+    "Athabasca oil sands bitumen Orinoco belt"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gas and CO2 injection, miscibility and CO2 storage",
+   "scope": "Miscible and immiscible hydrocarbon, nitrogen and CO2 flooding, minimum miscibility pressure measurement, WAG schemes and subsurface CO2 storage projects.",
+   "queries": [
+    "CO2 flooding minimum miscibility pressure",
+    "water alternating gas WAG injection",
+    "slim tube test multicontact miscibility",
+    "Sleipner Weyburn CO2 storage saline aquifer"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Chemical and microbial enhanced oil recovery",
+   "scope": "Polymer, surfactant, alkaline and ASP flooding, capillary number and interfacial tension effects, major chemical EOR field projects and microbial EOR.",
+   "queries": [
+    "polymer flooding HPAM viscosity",
+    "alkaline surfactant polymer ASP flooding",
+    "Daqing polymer flood field",
+    "capillary number interfacial tension microbial EOR"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shale oil and shale gas plays",
+   "scope": "Geology, history, operators and production characteristics of specific shale and tight-oil plays worldwide and the development of horizontal multistage shale wells.",
+   "queries": [
+    "Bakken formation tight oil play",
+    "Marcellus shale gas production Pennsylvania",
+    "Permian basin Wolfcamp Spraberry",
+    "Vaca Muerta Barnett shale development"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Coalbed methane, tight gas and gas hydrate resources",
+   "scope": "Coal seam gas storage and desorption, CBM basins and dewatering, tight sandstone and basin-centered gas, and methane hydrate resource assessment and production tests.",
+   "queries": [
+    "coalbed methane Langmuir isotherm desorption",
+    "coal seam gas Surat Bowen basin",
+    "tight gas sandstone basin-centered accumulation",
+    "methane hydrate production test Nankai Mallik"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Offshore platforms and floating production systems",
+   "scope": "Fixed jackets, compliant towers, gravity-based structures, TLPs, spars, semisubmersible FPUs and FPSOs, their mooring systems and notable installations.",
+   "queries": [
+    "tension leg platform deepwater",
+    "spar platform floating production",
+    "FPSO turret mooring system",
+    "gravity based structure Troll Hibernia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Subsea production systems, risers and flowlines",
+   "scope": "Subsea wellheads and trees, manifolds, umbilicals, riser types, subsea boosting and processing, and long-distance subsea tiebacks.",
+   "queries": [
+    "subsea christmas tree wellhead manifold",
+    "subsea umbilical riser flowline system",
+    "steel catenary riser flexible riser",
+    "subsea tieback distance boosting compression"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Surface production facilities and produced water handling",
+   "scope": "Oil-gas-water separation, emulsion treating, gas dehydration and sweetening at the field, crude stabilization, and produced water treatment and disposal.",
+   "queries": [
+    "three phase separator oil gas water",
+    "glycol dehydration TEG natural gas",
+    "heater treater crude oil emulsion",
+    "produced water treatment disposal injection well"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Flow assurance",
+   "scope": "Prevention and remediation of gas hydrates, wax, asphaltenes, scale, corrosion and slugging in wells, flowlines and pipelines.",
+   "queries": [
+    "gas hydrate inhibition methanol MEG pipeline",
+    "wax appearance temperature pigging",
+    "asphaltene precipitation deposition onset",
+    "barium sulfate scale inhibitor severe slugging"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Landmark discoveries and giant oil and gas fields",
+   "scope": "Discovery history, discovery wells, operators, reserves and production histories of historic and supergiant oil and gas fields worldwide.",
+   "queries": [
+    "Ghawar oil field discovery production",
+    "largest oil fields world supergiant list",
+    "Drake well Titusville Spindletop gusher",
+    "South Pars North Dome gas field"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reserves classification and upstream petroleum economics",
+   "scope": "PRMS and SEC reserves and resources categories and reporting rules, plus licensing, production sharing contracts, royalties, petroleum taxes and project economics.",
+   "queries": [
+    "PRMS proved probable possible reserves",
+    "SEC oil gas reserves reporting rules",
+    "production sharing contract cost oil profit oil",
+    "petroleum fiscal regime royalty tax"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Well intervention, workover, plug and abandonment and decommissioning",
+   "scope": "Slickline, wireline, coiled tubing and snubbing intervention, workovers, well integrity, plugging and abandonment, and removal of offshore installations.",
+   "queries": [
+    "coiled tubing well intervention",
+    "workover rig snubbing unit slickline",
+    "plug and abandonment cement plugs well",
+    "offshore platform decommissioning removal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Major upstream accidents and offshore safety regulation",
+   "scope": "Blowouts, platform and rig disasters, their investigations and causes, and the safety and regulatory regimes that followed.",
+   "queries": [
+    "Deepwater Horizon Macondo blowout investigation",
+    "Piper Alpha disaster Cullen report",
+    "Ixtoc I oil spill blowout",
+    "Alexander Kielland Ocean Ranger rig capsized"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Geothermal resource drilling and reservoir engineering",
+   "scope": "Exploration, drilling and reservoir management of hydrothermal and enhanced geothermal systems, including historic and major geothermal fields.",
+   "queries": [
+    "geothermal well drilling high temperature",
+    "enhanced geothermal system EGS stimulation",
+    "The Geysers Larderello geothermal field",
+    "geothermal reservoir flash steam binary cycle"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

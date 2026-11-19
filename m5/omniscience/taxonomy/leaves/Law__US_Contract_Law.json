@@ -1,0 +1,1894 @@
+{
+ "domain": "Law",
+ "subtopic": "US Contract Law",
+ "weight": 0.03,
+ "leaves": [
+  {
+   "leaf": "Offers, advertisements, revocation and option contracts",
+   "scope": "How offers are formed and told apart from advertisements, price quotes and invitations to bargain, how they end by revocation, rejection, lapse or death, and when they become irrevocable as option contracts or UCC 2-205 firm offers.",
+   "queries": [
+    "Lefkowitz Great Minneapolis Surplus advertisement offer",
+    "revocation of offer before acceptance option contract",
+    "firm offer merchant signed writing UCC 2-205",
+    "reward offer acceptance knowledge of offer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Acceptance: mailbox rule, silence, mirror image and unilateral contracts",
+   "scope": "Common-law rules on acceptance: when it takes effect (mailbox rule), silence or conduct as acceptance, the mirror image rule and counteroffers, and acceptance by performance in unilateral contracts.",
+   "queries": [
+    "mailbox rule acceptance effective upon dispatch",
+    "silence as acceptance prior course of dealing",
+    "mirror image rule counteroffer rejection",
+    "unilateral contract acceptance by performance Restatement 45"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Battle of the forms under UCC 2-207",
+   "scope": "Conflicting and additional terms in exchanged commercial forms under UCC 2-207, including material alteration between merchants, the knockout rule, and contracts formed by conduct.",
+   "queries": [
+    "battle of the forms UCC 2-207 additional terms",
+    "knockout rule different terms purchase order acknowledgment",
+    "Step-Saver Data Systems box-top license",
+    "material alteration arbitration clause between merchants"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Indefiniteness, agreements to agree and preliminary agreements",
+   "scope": "Whether incomplete bargains, agreements to agree, letters of intent, agreements in principle and Type I/Type II preliminary commitments are enforceable, and how intent to be bound is judged.",
+   "queries": [
+    "agreement to agree unenforceable indefiniteness essential terms",
+    "letter of intent binding preliminary agreement",
+    "Teachers Insurance Annuity Tribune preliminary commitment good faith",
+    "Texaco Pennzoil agreement in principle intent bound"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consideration: bargain theory, illusory promises and requirements contracts",
+   "scope": "The bargained-for-exchange requirement, legal detriment, nominal and sham consideration, illusory promises and mutuality of obligation, and implied efforts in exclusive-dealing, requirements and output contracts.",
+   "queries": [
+    "bargained for exchange legal detriment Hamer Sidway",
+    "illusory promise lack of mutuality of obligation",
+    "Wood Lucy Lady Duff-Gordon implied reasonable efforts",
+    "requirements contract output contract good faith UCC 2-306"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Moral obligation, past consideration and charitable subscriptions",
+   "scope": "Promises enforced without a bargain: the material benefit rule (Restatement 86), past consideration, new promises to pay time-barred or discharged debts, and charitable subscriptions.",
+   "queries": [
+    "past consideration moral obligation Webb McGowin",
+    "Mills Wyman moral obligation promise unenforceable",
+    "charitable subscription enforceable without consideration",
+    "promise pay time-barred debt new promise"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Promissory estoppel and Restatement section 90 reliance",
+   "scope": "Enforcing promises based on foreseeable detrimental reliance under Restatement (Second) section 90, covering precontractual reliance, subcontractor bids and how relief is measured.",
+   "queries": [
+    "promissory estoppel Restatement Second section 90",
+    "Hoffman Red Owl Stores franchise reliance",
+    "Drennan Star Paving subcontractor bid irrevocable",
+    "detrimental reliance injustice avoided only by enforcement"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Statute of frauds",
+   "scope": "Which contracts must be in a signed writing (land, one-year, suretyship, marriage, executor, and goods of $500 or more under UCC 2-201), what counts as a sufficient memorandum, and exceptions such as part performance, merchant confirmations and admissions.",
+   "queries": [
+    "statute of frauds one year provision",
+    "UCC 2-201 merchant confirmation reasonable time",
+    "part performance exception sale of land",
+    "suretyship main purpose rule statute of frauds"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Parol evidence rule and merger clauses",
+   "scope": "When prior or contemporaneous agreements can be shown alongside a written contract: total vs. partial integration, merger clauses, collateral agreements, and the fraud and condition-precedent exceptions.",
+   "queries": [
+    "parol evidence rule integrated writing merger clause",
+    "partial integration consistent additional terms Masterson Sine",
+    "collateral agreement exception Mitchill Lath",
+    "fraud exception parol evidence merger clause reliance"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contract interpretation, ambiguity and trade usage",
+   "scope": "How courts construe contract language: plain meaning vs. contextual approaches, patent and latent ambiguity, contra proferentem and other canons, and the ranking of express terms, course of performance, course of dealing and usage of trade.",
+   "queries": [
+    "contra proferentem ambiguity construed against drafter",
+    "latent ambiguity extrinsic evidence four corners rule",
+    "Frigaliment chicken trade usage meaning",
+    "course of performance usage of trade UCC 1-303"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Implied covenant of good faith and fair dealing",
+   "scope": "The duty of good faith implied in every contract, its limits on discretionary powers, termination and opportunism, and the rule that it cannot override express terms.",
+   "queries": [
+    "implied covenant of good faith fair dealing",
+    "Fortune National Cash Register good faith termination commissions",
+    "Market Street Associates Posner good faith",
+    "implied covenant cannot override express terms"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Mistake, misunderstanding and reformation",
+   "scope": "Avoiding contracts for mutual or unilateral mistake about a basic assumption, allocation of the risk of mistake, misunderstanding over ambiguous terms, and reforming writings that do not reflect the agreement.",
+   "queries": [
+    "mutual mistake basic assumption Sherwood Walker cow",
+    "unilateral mistake bid computational error rescission",
+    "Raffles Wichelhaus Peerless ship misunderstanding",
+    "reformation mutual mistake written instrument clear convincing"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Misrepresentation, fraudulent inducement and nondisclosure",
+   "scope": "Avoiding contracts or recovering for fraudulent or material misrepresentation, opinions and puffery, justifiable reliance, and duties to disclose latent defects.",
+   "queries": [
+    "fraudulent inducement contract rescission material misrepresentation",
+    "duty to disclose latent defect nondisclosure seller",
+    "Stambovsky haunted house nondisclosure",
+    "Vokes Arthur Murray dance lessons misrepresentation opinion"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Duress, economic duress and undue influence",
+   "scope": "Avoiding contracts made under physical or economic duress (wrongful threats with no reasonable alternative), coercive modifications, and undue influence in confidential or dominant relationships.",
+   "queries": [
+    "economic duress wrongful threat no reasonable alternative",
+    "Austin Instrument Loral duress subcontract",
+    "undue influence confidential relationship contract avoidance",
+    "Odorizzi undue influence teacher resignation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Unconscionability and adhesion contracts",
+   "scope": "Procedural and substantive unconscionability at common law and under UCC 2-302, standard-form adhesion contracts, and unconscionable price and cross-collateral terms.",
+   "queries": [
+    "procedural substantive unconscionability adhesion contract",
+    "Williams Walker-Thomas Furniture cross-collateral clause",
+    "unconscionable contract UCC 2-302",
+    "Jones Star Credit excessive price unconscionable"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Capacity: minors, mental incapacity and intoxication",
+   "scope": "The infancy doctrine and disaffirmance, liability for necessaries, ratification at majority, cognitive and volitional tests for mental incapacity, intoxication, and restitution once a contract is avoided.",
+   "queries": [
+    "minor disaffirm contract infancy doctrine necessaries",
+    "mental incapacity contract Ortelere volitional test",
+    "intoxication contract capacity Lucy Zehmer",
+    "ratification after reaching majority disaffirmance restitution"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Illegality, public policy and exculpatory clauses",
+   "scope": "Contracts that are unenforceable because they are illegal or against public policy: in pari delicto, unlicensed contractors, wagering, surrogacy, and exculpatory or release clauses that violate public policy.",
+   "queries": [
+    "illegal contract unenforceable in pari delicto",
+    "unlicensed contractor recover compensation illegal contract",
+    "exculpatory clause void public policy Tunkl",
+    "Baby M surrogacy contract public policy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Noncompete agreements and restrictive covenants",
+   "scope": "Enforceability of covenants not to compete, nonsolicitation and no-hire clauses: reasonableness in duration and geography, protectable interests, blue-penciling and reformation, consideration, and state bans such as California's section 16600.",
+   "queries": [
+    "covenant not to compete reasonable duration geographic scope",
+    "blue pencil doctrine overbroad noncompete",
+    "Business Professions Code 16600 noncompete void",
+    "nonsolicitation agreement consideration continued employment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Express and constructive conditions, waiver and excuse",
+   "scope": "Conditions precedent and subsequent, strict compliance with express conditions, satisfaction clauses, constructive conditions and order of performance, and excusing conditions by waiver, estoppel or to avoid disproportionate forfeiture.",
+   "queries": [
+    "express condition precedent strict compliance forfeiture",
+    "satisfaction clause reasonable person standard",
+    "waiver of condition estoppel excuse forfeiture Restatement 229",
+    "constructive conditions order of performance dependent promises"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Substantial performance, material breach and divisible contracts",
+   "scope": "Substantial performance vs. material breach, the Restatement 241 factors, willful deviations, and divisible or severable contracts with apportioned performances.",
+   "queries": [
+    "substantial performance Jacob Youngs Kent Reading pipe",
+    "material breach factors Restatement 241",
+    "divisible contract apportioned performance severable",
+    "willful deviation substantial performance contractor recovery"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anticipatory repudiation and adequate assurance",
+   "scope": "What counts as an anticipatory repudiation, the aggrieved party's options, retracting a repudiation, and demands for adequate assurance of performance under UCC 2-609 and Restatement 251.",
+   "queries": [
+    "anticipatory repudiation Hochster De la Tour",
+    "demand adequate assurance of performance UCC 2-609",
+    "retraction of repudiation UCC 2-611",
+    "repudiation unequivocal refusal to perform future"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Impossibility, impracticability, frustration of purpose and force majeure",
+   "scope": "Excuse from performance when supervening events make it impossible, impracticable (including UCC 2-615) or pointless, and how force majeure clauses are read, including in pandemic litigation.",
+   "queries": [
+    "commercial impracticability UCC 2-615 unforeseen contingency",
+    "frustration of purpose Krell Henry coronation",
+    "Transatlantic Financing Suez Canal closure impracticability",
+    "force majeure clause COVID-19 pandemic performance excused"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Modification, accord and satisfaction, and novation",
+   "scope": "Changing or discharging existing contracts: the preexisting duty rule, UCC 2-209 modifications and no-oral-modification clauses, accord and satisfaction including full-payment checks under UCC 3-311, and novation or substituted contracts.",
+   "queries": [
+    "contract modification preexisting duty rule Alaska Packers",
+    "UCC 2-209 modification without consideration good faith",
+    "accord and satisfaction full payment check UCC 3-311",
+    "novation substituted contract discharge original obligor"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Expectation and reliance damages measures",
+   "scope": "Measuring the expectation interest (cost of completion vs. diminution in value, lost profits, the benefit of the bargain) and the reliance interest, including the losing-contract limit.",
+   "queries": [
+    "cost of completion diminution in value Peevyhouse Garland Coal",
+    "Groves John Wunder cost of performance",
+    "Hawkins McGee hairy hand expectation damages",
+    "reliance damages losing contract Security Stove"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Limits on contract damages: foreseeability, certainty, mitigation and punitive bars",
+   "scope": "Hadley v. Baxendale foreseeability and consequential damages, reasonable certainty and the new business rule, the duty to mitigate, and the general bar on punitive and emotional-distress damages in contract.",
+   "queries": [
+    "Hadley Baxendale foreseeability consequential damages",
+    "new business rule lost profits reasonable certainty",
+    "duty to mitigate damages Rockingham County bridge",
+    "punitive emotional distress damages breach of contract unavailable"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Liquidated damages and penalty clauses",
+   "scope": "Telling enforceable liquidated damages apart from unenforceable penalties: reasonable forecast and difficulty of estimating loss, take-or-pay and acceleration clauses, and retained deposits.",
+   "queries": [
+    "liquidated damages clause unenforceable penalty",
+    "reasonable forecast just compensation difficult to estimate",
+    "take-or-pay clause liquidated damages penalty",
+    "earnest money deposit retention liquidated damages"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Specific performance and injunctions",
+   "scope": "Equitable remedies for breach: inadequate legal remedies, uniqueness (land and goods under UCC 2-716), personal service contracts and negative injunctions, and defenses such as hardship and unclean hands.",
+   "queries": [
+    "specific performance unique goods land inadequate legal remedy",
+    "personal services contract negative injunction Lumley Wagner",
+    "UCC 2-716 specific performance replevin unique goods",
+    "specific performance denied unclean hands hardship"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Restitution, unjust enrichment and quantum meruit",
+   "scope": "Recovery measured by benefit conferred: quasi-contract and contracts implied in law, quantum meruit, restitution for a breaching party or after a contract is avoided, officious intermeddlers, and the Restatement (Third) of Restitution.",
+   "queries": [
+    "quantum meruit reasonable value services implied contract",
+    "unjust enrichment quasi-contract benefit conferred",
+    "restitution breaching party Britton Turner",
+    "Restatement Third Restitution officious intermeddler"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Third-party beneficiaries",
+   "scope": "Who may enforce a contract they are not a party to: intended vs. incidental beneficiaries, creditor and donee beneficiaries, vesting of rights, and beneficiaries of government contracts.",
+   "queries": [
+    "intended third party beneficiary Lawrence Fox",
+    "incidental beneficiary no right to enforce contract",
+    "Seaver Ransom donee beneficiary will",
+    "government contract third party beneficiary Moch Rensselaer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Assignment of rights and delegation of duties",
+   "scope": "Transferring contract rights and duties: anti-assignment clauses and UCC 9-406, non-delegable personal duties, the assignee's position subject to the obligor's defenses, and notice rules.",
+   "queries": [
+    "anti-assignment clause contract rights void",
+    "delegation of duties personal services nondelegable",
+    "assignee takes subject to defenses obligor notice",
+    "UCC 9-406 anti-assignment term ineffective"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "UCC Article 2 scope, merchant rules and gap fillers",
+   "scope": "When Article 2 applies (goods, predominant-purpose test for mixed goods and services, software), who is a merchant under 2-104, and default terms for open price, delivery and payment.",
+   "queries": [
+    "predominant purpose test mixed goods services Article 2",
+    "merchant definition UCC 2-104 farmer",
+    "open price term reasonable price UCC 2-305",
+    "software transaction goods UCC Article 2"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sales warranties, disclaimers and Magnuson-Moss",
+   "scope": "Express warranties, implied warranties of merchantability and fitness for a particular purpose, conspicuous disclaimers and as-is sales under 2-316, privity, and the federal Magnuson-Moss Warranty Act.",
+   "queries": [
+    "implied warranty of merchantability UCC 2-314",
+    "fitness for particular purpose reliance seller skill",
+    "conspicuous disclaimer as is merchantability 2-316",
+    "Magnuson-Moss Warranty Act full limited warranty"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UCC Article 2 tender, rejection, cure and risk of loss",
+   "scope": "The perfect tender rule, inspection and rejection, the seller's right to cure, revocation of acceptance for substantial impairment, and risk of loss under shipment terms such as FOB and CIF.",
+   "queries": [
+    "perfect tender rule rejection nonconforming goods",
+    "seller right to cure UCC 2-508",
+    "revocation of acceptance substantial impairment 2-608",
+    "risk of loss FOB shipment contract 2-509"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UCC Article 2 buyer and seller remedies",
+   "scope": "Code remedies for breach of a sales contract: cover and market-price damages for buyers, resale, contract-market and lost-volume damages for sellers, incidental and consequential damages, and limited remedies that fail of their essential purpose.",
+   "queries": [
+    "buyer cover damages UCC 2-712",
+    "lost volume seller UCC 2-708 profit",
+    "market price damages 2-713 time buyer learned breach",
+    "limited remedy fails essential purpose 2-719"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "CISG in US courts",
+   "scope": "How US courts apply the UN Convention on Contracts for the International Sale of Goods: when it applies, opting out, its formation, conformity and avoidance articles, and how it treats parol evidence and the writing requirement.",
+   "queries": [
+    "United Nations Convention Contracts International Sale Goods",
+    "CISG Article 35 conformity goods federal court",
+    "MCC-Marble Ceramic CISG parol evidence",
+    "opt out CISG choice of law clause"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Electronic contracting: clickwrap, browsewrap and e-signatures",
+   "scope": "Forming contracts online and through software licenses: clickwrap, browsewrap, sign-in-wrap and shrinkwrap assent, reasonable notice of terms, and electronic signatures under the federal E-SIGN Act and UETA.",
+   "queries": [
+    "clickwrap agreement assent terms of service",
+    "browsewrap hyperlink inquiry notice Specht Netscape",
+    "ProCD Zeidenberg shrinkwrap license",
+    "E-SIGN Act UETA electronic signature enforceability"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal government contracts and the Contract Disputes Act",
+   "scope": "Contracts with the United States: Contract Disputes Act claims and contracting officer decisions, Tucker Act jurisdiction in the Court of Federal Claims, the Christian doctrine, termination for convenience, and the sovereign acts doctrine.",
+   "queries": [
+    "Contract Disputes Act contracting officer final decision",
+    "Christian doctrine mandatory clause incorporated by law",
+    "termination for convenience government contract bad faith",
+    "sovereign acts doctrine Winstar United States"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Construction contracts: Spearin, site conditions, payment and delay clauses",
+   "scope": "Contract doctrines particular to construction: the Spearin implied warranty of plans and specifications, differing site conditions, pay-if-paid vs. pay-when-paid clauses, and no-damages-for-delay clauses.",
+   "queries": [
+    "Spearin implied warranty plans specifications",
+    "differing site conditions clause equitable adjustment",
+    "pay-if-paid clause condition precedent subcontractor",
+    "no damages for delay clause construction contract"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Suretyship and guaranty contracts",
+   "scope": "The rights and defenses of sureties and guarantors: discharge by material modification, guaranties of payment vs. collection, subrogation, exoneration and reimbursement, and performance and payment bonds.",
+   "queries": [
+    "surety discharged material modification principal obligation",
+    "guaranty of payment versus guaranty of collection",
+    "surety subrogation exoneration reimbursement rights",
+    "performance bond surety obligee default"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Restatements, UCC drafting history and contract scholarship",
+   "scope": "The history of US contract law's sources: the first and second Restatements of Contracts and their reporters, the drafting and state-by-state adoption of the UCC, and influential scholars and treatises such as Williston, Corbin, Llewellyn, Gilmore and Farnsworth.",
+   "queries": [
+    "Restatement Second of Contracts American Law Institute reporter",
+    "Uniform Commercial Code Karl Llewellyn drafting",
+    "Samuel Williston Arthur Corbin contracts treatise",
+    "Grant Gilmore Death of Contract"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arbitration agreements and Federal Arbitration Act enforceability",
+   "scope": "How contractual arbitration clauses are formed, enforced and challenged under the FAA, including delegation clauses, class-action waivers, separability of arbitration provisions and preemption of state contract defenses.",
+   "queries": [
+    "Federal Arbitration Act section 2 savings clause",
+    "class arbitration waiver Concepcion unconscionability preemption",
+    "delegation clause arbitrability Rent-A-Center Prima Paint",
+    "motion to compel arbitration employment agreement"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forum selection, choice-of-law and jury waiver clauses",
+   "scope": "Whether courts enforce, and how they construe, contract clauses that choose the forum, choose the governing law (Restatement (Second) of Conflict of Laws sections 187-188) or waive a jury trial.",
+   "queries": [
+    "forum selection clause Bremen Zapata enforceable",
+    "Atlantic Marine forum selection transfer 1404",
+    "choice of law provision Restatement Conflict section 187",
+    "contractual jury trial waiver knowing voluntary"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Statutes of limitations, accrual and contractual limitations periods",
+   "scope": "When contract claims accrue, how long the limitations periods are and how they are tolled for written, oral and sales contracts (including UCC 2-725), and whether contract clauses that shorten the period are enforceable.",
+   "queries": [
+    "breach of contract statute of limitations accrues",
+    "UCC 2-725 four year limitations tender delivery",
+    "contractual limitations period shortened enforceable",
+    "limitations tolling acknowledgment partial payment debt"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Attorney's fees clauses and prejudgment interest in contract actions",
+   "scope": "The American Rule and its exceptions in contract litigation (fee-shifting clauses, reciprocal fee statutes such as Cal. Civ. Code section 1717, deciding who the prevailing party is) and the rates and accrual of prejudgment interest on contract damages.",
+   "queries": [
+    "attorney fees provision prevailing party contract",
+    "Civil Code section 1717 reciprocal attorney fees",
+    "prejudgment interest liquidated sum breach contract rate",
+    "American rule fee shifting contractual exception"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Tortious interference with contract and prospective relations",
+   "scope": "The elements, privileges and damages for intentionally interfering with existing contracts and prospective economic advantage, including inducing breach under Restatement (Second) of Torts section 766.",
+   "queries": [
+    "tortious interference with contract elements",
+    "Restatement Torts 766 inducing breach",
+    "Texaco Pennzoil Getty Oil interference verdict",
+    "interference prospective economic advantage independently wrongful"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurance policies as contracts: reasonable expectations, contra proferentem and notice",
+   "scope": "Contract doctrines specific to insurance policies, such as the reasonable expectations doctrine, construing ambiguity against the insurer, the notice-prejudice rule, the duty to defend versus the duty to indemnify, and insurer bad faith.",
+   "queries": [
+    "reasonable expectations doctrine insurance policy",
+    "notice prejudice rule late notice insurer",
+    "duty to defend eight corners complaint",
+    "insurer bad faith refusal settle within limits"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Employment contracts: at-will rule, handbooks and implied job security",
+   "scope": "Contract-based limits on at-will employment, including implied contracts from handbooks and oral assurances, for-cause provisions, handbook disclaimers, commission agreements and the Montana Wrongful Discharge from Employment Act.",
+   "queries": [
+    "employee handbook implied contract at-will",
+    "Woolley Hoffmann-La Roche employment manual",
+    "Toussaint Blue Cross termination just cause",
+    "Montana Wrongful Discharge from Employment Act"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real estate sale contracts: equitable conversion, marketable title and land contracts",
+   "scope": "Contract rules for buying and selling real property, including equitable conversion and risk of loss, marketable title, financing contingencies, forfeiture of earnest money, time of the essence, and forfeiture under installment land contracts.",
+   "queries": [
+    "equitable conversion Uniform Vendor Purchaser Risk Act",
+    "marketable title defect encumbrance purchaser rescind",
+    "earnest money deposit forfeiture buyer default",
+    "installment land contract forfeiture vendee equity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Indemnity, hold-harmless and limitation-of-liability clauses",
+   "scope": "How contractual indemnities and liability caps are drafted and enforced, including the express negligence and clear-and-unequivocal tests, anti-indemnity statutes, waivers of consequential damages, and failure of essential purpose under UCC 2-719.",
+   "queries": [
+    "express negligence doctrine indemnity Ethyl",
+    "anti-indemnity statute construction contract indemnitee negligence",
+    "limitation of liability clause gross negligence",
+    "exclusive remedy failed essential purpose 2-719"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Franchise, dealer and distributorship agreements",
+   "scope": "Contract issues in franchise and distribution relationships, including termination and nonrenewal, good cause under state franchise and dealer statutes, the FTC Franchise Rule, the Petroleum Marketing Practices Act and the Automobile Dealers' Day in Court Act.",
+   "queries": [
+    "franchise termination good cause statute",
+    "Petroleum Marketing Practices Act franchise nonrenewal",
+    "Automobile Dealers Day in Court Act",
+    "distributorship terminable reasonable notice"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consumer contract statutes: holder rule, cooling-off periods and automatic renewals",
+   "scope": "Federal and state statutes that override consumer contract terms, such as the FTC Holder in Due Course Rule, the door-to-door sales cooling-off rule, home solicitation acts and automatic renewal laws.",
+   "queries": [
+    "FTC holder rule claims defenses seller",
+    "cooling-off rule door-to-door sales cancel",
+    "automatic renewal law subscription cancellation",
+    "home solicitation sales act right to cancel"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Joint, several and joint-and-several contractual obligations",
+   "scope": "Rights and liabilities when a contract has several promisors or promisees, including joint versus several duties, contribution among co-obligors, the effect of releasing one co-obligor and the Uniform Joint Obligations Act.",
+   "queries": [
+    "joint and several obligors release discharges co-obligor",
+    "Uniform Joint Obligations Act",
+    "contribution among co-obligors promissory note",
+    "joint promisees obligees right to sue"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Agency and authority to contract: apparent authority, undisclosed principals and ratification",
+   "scope": "How agents bind principals to contracts, covering actual and apparent authority, undisclosed and partially disclosed principals, ratification, and an agent's warranty of authority and personal liability.",
+   "queries": [
+    "apparent authority bind principal contract third party",
+    "undisclosed principal agent personally liable contract",
+    "ratification unauthorized contract principal knowledge",
+    "implied warranty of authority agent"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contracts Clause of the US Constitution",
+   "scope": "The limits Article I, Section 10 places on states impairing contracts, from Dartmouth College and Blaisdell to the Energy Reserves and Sveen v. Melin tests, including public versus private contracts and the reserved powers doctrine.",
+   "queries": [
+    "Contract Clause impairment substantial Energy Reserves",
+    "Home Building Loan Blaisdell mortgage moratorium",
+    "Dartmouth College Woodward charter contract",
+    "United States Trust Co New Jersey impairment"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State and municipal public contracts: competitive bidding, ultra vires and sovereign immunity",
+   "scope": "Contracting by state and local governments, including competitive bidding rules, bid protests and bid mistakes, ultra vires and unauthorized contracts, appropriation conditions, and state sovereign immunity from contract claims.",
+   "queries": [
+    "competitive bidding statute lowest responsible bidder",
+    "municipal contract ultra vires void recovery",
+    "sovereign immunity breach of contract state waiver",
+    "bid withdrawal mistake public contract"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "UCC Article 2A leases of goods",
+   "scope": "Contracts to lease goods under Article 2A, including telling a true lease from a disguised security interest (UCC 1-203), finance leases and hell-or-high-water clauses, and the remedies of lessors and lessees.",
+   "queries": [
+    "Article 2A finance lease hell or high water",
+    "true lease security interest 1-203 residual",
+    "lessee remedies Article 2A revocation acceptance",
+    "equipment lease disguised security interest bright-line"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Boilerplate provisions: severability, notice, no-waiver, survival and time-of-the-essence clauses",
+   "scope": "How courts read and apply standard closing provisions such as severability and savings clauses, notice clauses, no-waiver provisions, survival clauses, headings, counterparts and time-is-of-the-essence clauses.",
+   "queries": [
+    "severability clause void provision remainder enforceable",
+    "nonwaiver clause course of conduct waiver",
+    "time is of the essence clause strict",
+    "notice provision certified mail strict compliance"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Settlement agreements and releases",
+   "scope": "How settlement agreements and general releases are formed, read and enforced, including releases of unknown claims (Cal. Civ. Code section 1542), OWBPA release requirements, court jurisdiction to enforce after dismissal, and rescinding personal-injury releases.",
+   "queries": [
+    "settlement agreement enforce Kokkonen ancillary jurisdiction",
+    "Civil Code section 1542 unknown claims release",
+    "Older Workers Benefit Protection Act release Oubre",
+    "general release personal injury unknown injuries"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Family and intimate contracts: premarital, cohabitation and surrogacy agreements",
+   "scope": "Whether contracts arising from intimate relationships are enforceable, including premarital and postnuptial agreements under the UPAA, cohabitation contracts (Marvin v. Marvin), surrogacy contracts (Baby M), and breach-of-promise-to-marry actions and heart balm statutes.",
+   "queries": [
+    "Uniform Premarital Agreement Act enforceability disclosure",
+    "Marvin v Marvin cohabitation agreement",
+    "surrogacy contract Baby M public policy",
+    "breach of promise to marry heart balm"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Software and intellectual property licensing contracts",
+   "scope": "Contract law of licenses, including UCITA, open-source licenses as conditions versus covenants, licensee estoppel, royalties after a patent expires, and copyright preemption of license terms.",
+   "queries": [
+    "Uniform Computer Information Transactions Act UCITA",
+    "Brulotte Thys patent royalties expiration Kimble",
+    "open source license condition covenant Jacobsen Katzer",
+    "licensee estoppel Lear Adkins"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Entertainment, sports and personal services contracts",
+   "scope": "Personal services contracts in entertainment and sports, including California's seven-year rule (Labor Code section 2855), contracts with child performers and Coogan accounts, recording and player contracts, negative injunctions and peonage limits on forced service.",
+   "queries": [
+    "Labor Code section 2855 seven year rule",
+    "Coogan trust minor entertainment contract court approval",
+    "negative injunction unique services athlete contract",
+    "recording contract royalties breach artist"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lending contracts: usury, loan commitments and lender liability",
+   "scope": "Contract issues in loans and credit, including usury limits and usury savings clauses, criminal usury, loan commitment letters, lender liability for cutting off credit, and rescission under the Truth in Lending Act.",
+   "queries": [
+    "usurious interest rate loan void savings clause",
+    "loan commitment letter breach lender damages",
+    "lender liability KMC Irving Trust line of credit",
+    "Truth in Lending rescission three days"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tort-contract boundary: economic loss rule and bad-faith breach",
+   "scope": "Where contract claims end and tort claims begin, including the economic loss rule, the independent duty doctrine, tortious breach of contract (Seaman's, Foley) and fraud claims that duplicate contract claims.",
+   "queries": [
+    "economic loss rule contract tort independent duty",
+    "Foley Interactive Data tortious breach",
+    "Seaman's Direct Buying bad faith denial contract",
+    "East River Steamship economic loss product"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Executory contracts and leases in bankruptcy",
+   "scope": "How contracts are treated under Bankruptcy Code section 365, including the Countryman test, assumption, rejection and assignment, cure of defaults, ipso facto clauses and what rejection does.",
+   "queries": [
+    "executory contract Countryman definition section 365",
+    "rejection executory contract breach Tempnology",
+    "ipso facto clause bankruptcy unenforceable",
+    "assumption assignment cure default adequate assurance"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "M&A agreements: material adverse effect, efforts covenants and earnouts",
+   "scope": "Contract doctrine in merger and stock or asset purchase agreements, including MAE/MAC clauses, efforts standards, earnouts, sandbagging, indemnification for breached representations and reverse termination fees, mostly under Delaware precedent.",
+   "queries": [
+    "material adverse effect merger agreement Akorn",
+    "IBP Tyson material adverse change",
+    "earnout provision buyer discretion good faith",
+    "commercially reasonable efforts hell or high water"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sealed instruments, formal contracts and the common-law forms of action",
+   "scope": "The historical and surviving law of contracts under seal, specialty and nominal consideration, statutes that abolished or kept the seal, the Uniform Written Obligations Act, and the forms of action (debt, covenant, assumpsit) that shaped contract law.",
+   "queries": [
+    "contract under seal limitations period twenty years",
+    "seal presumption consideration abolished statute",
+    "Uniform Written Obligations Act intending legally bound",
+    "assumpsit Slade's Case history action"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contracts of carriage: Carmack Amendment, released rates and airline contracts",
+   "scope": "Contracts to carry goods and passengers by land and air, including Carmack Amendment carrier liability and released-value rates, bills of lading, and airline contract claims under Airline Deregulation Act preemption.",
+   "queries": [
+    "Carmack Amendment carrier liability limitation released value",
+    "American Airlines Wolens frequent flyer contract",
+    "Northwest Ginsberg implied covenant preempted",
+    "bill of lading shipper carrier interstate"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maritime contracts and charter parties",
+   "scope": "Admiralty contract law, including what counts as a maritime contract (Kossick, Norfolk Southern v. Kirby), time, voyage and demise charter parties, COGSA package limitation and Himalaya clauses, and uberrimae fidei in marine insurance.",
+   "queries": [
+    "maritime contract admiralty jurisdiction Kirby",
+    "time charter party demise vessel owner",
+    "COGSA package limitation Himalaya clause",
+    "uberrimae fidei marine insurance disclosure"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Collective bargaining agreements under LMRA section 301",
+   "scope": "Reading and enforcing collective bargaining agreements as contracts, including section 301 jurisdiction and preemption, the Steelworkers Trilogy, vesting of retiree benefits (M&G Polymers v. Tackett) and successorship.",
+   "queries": [
+    "section 301 Labor Management Relations Act preemption",
+    "Steelworkers Trilogy arbitration presumption",
+    "M&G Polymers Tackett retiree benefits Yard-Man",
+    "Textile Workers Lincoln Mills federal law"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bond indentures, syndicated loans and derivatives master agreements",
+   "scope": "Contract issues in capital-markets instruments, including no-action clauses, Trust Indenture Act section 316(b), implied covenants in indentures, pari passu clauses in sovereign debt and ISDA Master Agreement terms.",
+   "queries": [
+    "Trust Indenture Act 316(b) Marblegate",
+    "no-action clause indenture trustee bondholders",
+    "pari passu clause Argentina NML",
+    "ISDA Master Agreement Section 2(a)(iii)"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Louisiana civil law of conventional obligations",
+   "scope": "Louisiana's civil-law contract rules under its Civil Code, including cause instead of consideration, redhibition, lesion beyond moiety, error vitiating consent, and absolute and relative nullity.",
+   "queries": [
+    "Louisiana Civil Code cause obligation article",
+    "redhibition defect seller Louisiana",
+    "lesion beyond moiety immovable rescission",
+    "Louisiana error vitiates consent relative nullity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lease contracts: landlord mitigation, rent acceleration and consent to assignment",
+   "scope": "Contract doctrines in leases, including the landlord's duty to mitigate, rent acceleration clauses, whether consent to assignment or sublease may be withheld, and surrender and abandonment.",
+   "queries": [
+    "landlord duty to mitigate abandoned premises",
+    "Kendall Ernest Pestana consent unreasonably withheld",
+    "rent acceleration clause penalty lease",
+    "surrender by operation of law lease"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Idea submission and implied contracts for ideas",
+   "scope": "Contract protection for submitted ideas, including Desny claims, the novelty and concreteness requirements, implied-in-fact contracts arising from entertainment pitches, and Copyright Act preemption of idea-submission claims.",
+   "queries": [
+    "Desny Wilder idea submission implied contract",
+    "idea novelty concreteness Nadel Play-by-Play",
+    "copyright preemption implied contract idea pitch",
+    "Montz Pilgrim Films"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Rights of first refusal, rights of first offer and preemptive purchase rights",
+   "scope": "How rights of first refusal and first offer are created, triggered and enforced, including matching obligations, package deals, and how the rule against perpetuities and restraints on alienation apply to preemptive rights and options.",
+   "queries": [
+    "right of first refusal triggered bona fide offer",
+    "right of first refusal package sale matching",
+    "rule against perpetuities option preemptive right",
+    "right of first offer lease purchase"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Section 1981 right to make and enforce contracts",
+   "scope": "The federal right under 42 U.S.C. section 1981 to make and enforce contracts without racial discrimination, including Runyon v. McCrary, Patterson v. McLean, the Civil Rights Act of 1991 amendment, and the causation and standing rules.",
+   "queries": [
+    "section 1981 make and enforce contracts",
+    "Patterson McLean Credit Union 1981",
+    "Domino's Pizza McDonald contractual relationship 1981",
+    "Comcast African American Owned Media 1981 causation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contracts to make or not to revoke wills",
+   "scope": "Whether contracts to leave property by will are enforceable and what remedies apply, including joint and mutual wills, contracts not to revoke, the writing requirements of UPC section 2-514, and quantum meruit or constructive trust for services given in exchange for a promised inheritance.",
+   "queries": [
+    "contract to make a will enforce estate",
+    "joint and mutual wills contract not to revoke",
+    "Uniform Probate Code 2-514 contracts concerning succession",
+    "promise to devise services rendered decedent"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Auctions: with and without reserve, bidding and UCC 2-328",
+   "scope": "How contracts form at auctions and the rules that govern them, including with-reserve versus absolute auctions, retracting bids, shill bidding and puffing, the auctioneer's role and UCC 2-328.",
+   "queries": [
+    "auction without reserve absolute withdraw",
+    "UCC 2-328 sale by auction",
+    "auctioneer shill bidding puffing",
+    "auction bid retraction hammer falls"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Champerty, litigation funding and contingency fee agreements",
+   "scope": "Contracts about lawsuits and legal fees, including champerty and maintenance, litigation funding and assignment of claims, whether contingency fee agreements are enforceable, and quantum meruit recovery by discharged attorneys.",
+   "queries": [
+    "champerty maintenance litigation funding agreement void",
+    "contingency fee agreement discharged attorney quantum meruit",
+    "Fracasse Brent attorney discharged",
+    "assignment of legal malpractice claim public policy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Energy and utility contracts: take-or-pay, Mobile-Sierra and filed-rate doctrine",
+   "scope": "Contract doctrines in regulated energy and utility markets, including take-or-pay clauses, the Mobile-Sierra presumption for wholesale contracts, the filed-rate doctrine, and price-escalation and most-favored-nation clauses in gas contracts.",
+   "queries": [
+    "take-or-pay clause natural gas contract",
+    "Mobile-Sierra presumption just and reasonable contract rate",
+    "filed rate doctrine contract claims barred",
+    "Morgan Stanley Snohomish County FERC contract"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Letters of credit under UCC Article 5",
+   "scope": "Commercial and standby letters of credit, including the independence principle, strict compliance with documentary conditions, the fraud exception, UCP 600 and ISP98, and wrongful dishonor by the issuer.",
+   "queries": [
+    "letter of credit independence principle",
+    "strict compliance documents letter of credit discrepancy",
+    "Sztejn Schroder fraud exception",
+    "standby letter of credit beneficiary draw"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pre-incorporation contracts, promoter liability and corporate ultra vires",
+   "scope": "Contracts made by promoters for corporations not yet formed, how the corporation adopts them or a novation replaces them, the de facto corporation and corporation-by-estoppel defenses, and the ultra vires doctrine in private corporate contracting.",
+   "queries": [
+    "promoter personally liable preincorporation contract adoption",
+    "corporation by estoppel de facto corporation contract",
+    "ultra vires corporate contract defense statute",
+    "promoter contract novation corporation not yet formed"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Partnership, joint venture and LLC operating agreements",
+   "scope": "Formation and interpretation of partnership agreements, joint venture agreements and LLC operating agreements as contracts, including freedom-of-contract statutes, fiduciary duty waivers, and dissociation and buyout terms under RUPA and state LLC acts.",
+   "queries": [
+    "LLC operating agreement freedom of contract Delaware",
+    "joint venture agreement elements community of interest",
+    "operating agreement eliminate fiduciary duties implied covenant",
+    "partnership agreement dissociation buyout price RUPA"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shareholder agreements, voting agreements and buy-sell provisions",
+   "scope": "Close-corporation shareholder agreements, voting agreements and voting trusts, and buy-sell or stock redemption agreements with valuation formulas triggered by death, disability, retirement or termination.",
+   "queries": [
+    "shareholder agreement buy-sell provision book value",
+    "stock redemption agreement death of shareholder price",
+    "voting agreement close corporation McQuade Clark Galler",
+    "buy-sell agreement valuation formula enforceable"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Executive employment agreements: cause, good reason, severance and change in control",
+   "scope": "Fixed-term and executive employment contracts, including definitions of cause and good reason, severance and change-in-control payments, golden parachutes under Section 280G, and clawback provisions.",
+   "queries": [
+    "employment agreement terminated for cause definition",
+    "good reason resignation executive severance agreement",
+    "change in control golden parachute agreement",
+    "fixed term employment contract wrongful discharge damages"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Employee invention assignment agreements, shop rights and hired-to-invent doctrine",
+   "scope": "Pre-invention assignment agreements and holdover clauses, the difference between present assignments and promises to assign (Stanford v. Roche), shop rights, the hired-to-invent doctrine, and state limits such as California Labor Code 2870.",
+   "queries": [
+    "invention assignment agreement hereby assign Stanford Roche",
+    "shop right employer employee invention",
+    "hired to invent doctrine patent ownership",
+    "Labor Code 2870 invention assignment employee"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nondisclosure, confidentiality and non-disparagement agreements",
+   "scope": "Enforceability and breach of NDAs, confidentiality clauses and non-disparagement provisions, and statutory limits such as the Speak Out Act, the Consumer Review Fairness Act and state laws restricting secrecy in settlements.",
+   "queries": [
+    "nondisclosure agreement breach confidential information definition",
+    "non-disparagement clause settlement agreement breach",
+    "Speak Out Act nondisclosure sexual harassment",
+    "Consumer Review Fairness Act form contract review"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Commission agreements: real estate brokers, sales representatives and procuring cause",
+   "scope": "When commissions are earned under real estate listing agreements and sales representative contracts, including procuring cause, the ready-willing-and-able buyer rule, exclusive right-to-sell listings, and state sales representative commission statutes.",
+   "queries": [
+    "broker commission procuring cause ready willing able",
+    "exclusive right to sell listing agreement commission",
+    "sales representative commission act treble damages",
+    "Ellsworth Dobbs broker commission buyer default"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Escrow agreements and escrow agent duties",
+   "scope": "How escrow arrangements are formed and run: escrow instructions and the agent's duty to follow them strictly, conditional delivery and relation back, who bears the loss on embezzled escrowed funds, and interpleader by escrow holders.",
+   "queries": [
+    "escrow agent duty strict compliance instructions",
+    "escrow holder liability embezzled funds loss",
+    "conditional delivery deed escrow relation back",
+    "escrow agreement interpleader stakeholder dispute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Implied warranties of habitability and workmanship in new home sales",
+   "scope": "Implied warranties of habitability, good workmanship and fitness in sales of new homes by builder-vendors, the decline of caveat emptor, disclaimers, claims by later purchasers, and statutory new-home warranty acts.",
+   "queries": [
+    "implied warranty habitability new home builder vendor",
+    "Humber v. Morton caveat emptor new house",
+    "subsequent purchaser implied warranty latent defects",
+    "new home warranty act builder disclaimer"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Contractor licensing statutes and recovery by unlicensed contractors",
+   "scope": "Statutes that bar unlicensed contractors from suing for payment, the substantial-compliance exception, disgorgement of amounts already paid, and the written-contract requirements of home improvement contract acts.",
+   "queries": [
+    "unlicensed contractor recover compensation Business Professions 7031",
+    "home improvement contract act written requirements",
+    "unlicensed contractor disgorgement substantial compliance",
+    "contractor license statute bar quantum meruit"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Mechanics' liens, lien waivers and Miller Act payment bond claims",
+   "scope": "Statutory mechanics' and materialmen's liens, notice and filing deadlines, conditional and unconditional lien waivers, stop notices, and payment-bond claims on public projects under the federal Miller Act and state Little Miller Acts.",
+   "queries": [
+    "mechanics lien subcontractor notice deadline",
+    "conditional lien waiver release payment",
+    "Miller Act payment bond 90 day notice",
+    "little Miller Act public works bond claim"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interstate Land Sales Act, condominium and timeshare purchase contracts",
+   "scope": "Disclosure and revocation rights under the federal Interstate Land Sales Full Disclosure Act, including the property report, the 100-lot and two-year completion exemptions, and state rescission statutes for condominium and timeshare purchases.",
+   "queries": [
+    "Interstate Land Sales Full Disclosure Act revocation",
+    "ILSA property report two years revoke",
+    "condominium purchase agreement two year completion exemption",
+    "timeshare purchase contract rescission statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shopping center lease clauses: continuous operation, co-tenancy, radius and percentage rent",
+   "scope": "Retail lease provisions and the disputes they produce: continuous operation and go-dark covenants, co-tenancy and anchor-tenant clauses, radius restrictions, exclusive-use clauses and percentage rent.",
+   "queries": [
+    "continuous operation covenant shopping center lease",
+    "co-tenancy clause anchor tenant rent reduction",
+    "radius restriction lease percentage rent",
+    "go dark anchor tenant implied covenant operate"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Oil and gas leases: habendum, implied covenants and royalty clauses",
+   "scope": "Oil and gas leases read as contracts: primary and secondary terms, cessation of production, shut-in and Pugh clauses, the implied covenants of the reasonably prudent operator, and how royalties are valued and whether postproduction costs can be deducted.",
+   "queries": [
+    "oil gas lease habendum clause cessation production",
+    "implied covenant reasonably prudent operator lease",
+    "royalty market value at well postproduction costs",
+    "shut-in royalty clause lease termination"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Agricultural contracts: PACA trusts, grain contracts and poultry growing agreements",
+   "scope": "Contracts in agricultural markets: the PACA statutory trust for produce sellers, forward and hedge-to-arrive grain contracts, whether a farmer is a merchant under the UCC, and poultry and livestock production contracts under the Packers and Stockyards Act.",
+   "queries": [
+    "PACA trust perishable agricultural commodities",
+    "hedge-to-arrive contracts grain elevator",
+    "poultry grower contract Packers Stockyards Act",
+    "farmer merchant grain forward contract statute frauds"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State motor vehicle lemon laws",
+   "scope": "State lemon laws for new and used vehicles: the reasonable-number-of-attempts and days-out-of-service presumptions, repurchase and replacement remedies, manufacturer arbitration programs, and statutes such as California's Song-Beverly Consumer Warranty Act.",
+   "queries": [
+    "lemon law reasonable number of attempts",
+    "motor vehicle warranty repurchase lemon law",
+    "Song-Beverly Consumer Warranty Act vehicle",
+    "lemon law thirty days out of service"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reinsurance contracts: follow the fortunes and utmost good faith",
+   "scope": "Treaty and facultative reinsurance contracts: the follow-the-fortunes and follow-the-settlements doctrines, the duty of utmost good faith between cedent and reinsurer, whether certificate limits cap defense expenses (Bellefonte), and reinsurance arbitration.",
+   "queries": [
+    "reinsurance follow the fortunes doctrine",
+    "reinsurer utmost good faith cedent disclosure",
+    "Bellefonte reinsurance cap expenses",
+    "facultative certificate reinsurance limit defense costs"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Life insurance contracts: incontestability, insurable interest and beneficiary designations",
+   "scope": "Doctrines specific to life insurance: incontestability clauses and their contestable periods, suicide exclusions, insurable interest and stranger-originated life insurance, delivery-in-good-health conditions, and disputes over changes of beneficiary.",
+   "queries": [
+    "life insurance incontestability clause two years",
+    "insurable interest stranger originated life insurance",
+    "change of beneficiary substantial compliance",
+    "suicide exclusion life insurance policy"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bailment contracts, warehouse receipts and innkeeper liability",
+   "scope": "Contractual bailments and the bailee's standard of care and burden of proof, parking lot and garage cases, warehouse receipts and limits on warehouse liability under UCC Article 7, and innkeeper statutes limiting what hotels owe guests for lost property.",
+   "queries": [
+    "bailment parking garage keys liability",
+    "warehouse receipt limitation liability Article 7",
+    "innkeeper statute safe hotel guest liability",
+    "bailee burden prove ordinary care"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gambling, wagering and lottery-pool agreements",
+   "scope": "Whether gambling debts can be enforced, statutes voiding wagering contracts that descend from the Statute of Anne, suits on casino credit markers and full faith and credit for them, and agreements to share lottery winnings.",
+   "queries": [
+    "gambling debt unenforceable casino marker",
+    "lottery pool agreement share winnings",
+    "wagering contract void statute Anne",
+    "casino credit marker enforce sister state"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Breach of promise to marry, heart balm statutes and engagement rings",
+   "scope": "The common-law action for breach of promise to marry and the damages it allowed, the heart balm statutes that abolished it, and who keeps engagement rings and other gifts made in contemplation of marriage.",
+   "queries": [
+    "breach of promise to marry damages",
+    "heart balm statute abolished alienation affections",
+    "engagement ring conditional gift fault",
+    "action breach promise marry statute abolished"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Student-university contracts: catalogs, tuition refunds and academic dismissal",
+   "scope": "The implied contract between students and colleges: catalogs and handbooks as contract terms, COVID-era tuition and fee refund suits, judicial deference to academic dismissals, and the contractual nature of disciplinary procedures.",
+   "queries": [
+    "student university contract catalog handbook",
+    "tuition refund COVID breach of contract university",
+    "academic dismissal implied contract deference",
+    "university disciplinary procedures contractual obligation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Plea agreements, cooperation agreements and consent decrees construed as contracts",
+   "scope": "Courts applying contract principles to plea bargains (Santobello), cooperation and immunity agreements, deferred prosecution agreements, and consent decrees: interpretation, breach and remedies.",
+   "queries": [
+    "plea agreement contract principles breach government",
+    "Santobello plea bargain promise prosecutor",
+    "cooperation agreement substantial assistance breach",
+    "consent decree construed as contract"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Contracts with Indian tribes: 25 U.S.C. 81 and tribal sovereign immunity waivers",
+   "scope": "Contracting with tribes and tribal entities: Secretary of the Interior approval under 25 U.S.C. 81, NIGC approval of gaming management contracts, and whether arbitration and sue-and-be-sued clauses waive tribal sovereign immunity (C & L Enterprises, Kiowa).",
+   "queries": [
+    "25 U.S.C. 81 approval contract tribe",
+    "tribal sovereign immunity waiver arbitration clause",
+    "C & L Enterprises Potawatomi arbitration waiver",
+    "management contract Indian gaming NIGC approval"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Contracts with foreign states: FSIA commercial activity exception and sovereign debt",
+   "scope": "Contract claims against foreign sovereigns under the FSIA commercial activity and waiver exceptions (Weltover), and disputes over sovereign bond terms such as pari passu and collective action clauses in the Argentina litigation.",
+   "queries": [
+    "commercial activity exception Weltover bonds",
+    "sovereign debt pari passu clause Argentina",
+    "foreign sovereign immunity contract direct effect",
+    "collective action clause sovereign bonds holdout"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arbitral award confirmation, vacatur and manifest disregard",
+   "scope": "Judicial review of arbitration awards: FAA sections 9 through 11, the exclusive grounds after Hall Street v. Mattel, exceeding powers (Oxford Health), evident partiality (Commonwealth Coatings), whether manifest disregard survives, and confirmation deadlines.",
+   "queries": [
+    "vacate arbitration award manifest disregard",
+    "Hall Street Mattel exclusive grounds vacatur",
+    "arbitrator exceeded powers Oxford Health",
+    "evident partiality arbitrator nondisclosure Commonwealth Coatings"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federal procurement bid protests: GAO and Court of Federal Claims",
+   "scope": "Challenges to federal contract solicitations and awards at GAO and under Tucker Act section 1491(b): standing as an interested party, the CICA automatic stay, the Blue & Gold waiver rule, timeliness rules and the standard of review.",
+   "queries": [
+    "bid protest Court of Federal Claims Tucker Act",
+    "GAO bid protest sustained interested party",
+    "Blue & Gold waiver solicitation defect",
+    "CICA automatic stay protest contract award"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Winstar, sovereign acts and unmistakability doctrines",
+   "scope": "Special rules when the government breaches its own contracts: the sovereign acts defense, the unmistakability doctrine, the Winstar supervisory-goodwill thrift cases and their damages, and repudiation cases such as Mobil Oil Exploration v. United States.",
+   "queries": [
+    "Winstar sovereign acts doctrine",
+    "unmistakability doctrine government contract",
+    "supervisory goodwill thrift merger breach Winstar damages",
+    "Mobil Oil Exploration United States repudiation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Liberty of contract, the Lochner era and peonage cases",
+   "scope": "The substantive due process doctrine of freedom of contract from Allgeyer and Lochner through Adkins to its abandonment in West Coast Hotel, and the Thirteenth Amendment peonage cases (Bailey v. Alabama) striking down criminal enforcement of labor contracts.",
+   "queries": [
+    "liberty of contract Lochner bakers hours",
+    "Adkins Children's Hospital minimum wage women",
+    "West Coast Hotel Parrish overruled Adkins",
+    "peonage statute Bailey Alabama labor contract"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Account stated, open account and sworn account actions",
+   "scope": "Specialized debt-collection claims: account stated based on a retained statement with no objection, open-account and book-account claims, verified suits on sworn account and their procedural rules, and their use in consumer credit card collection suits.",
+   "queries": [
+    "account stated implied agreement balance",
+    "suit on sworn account verified denial",
+    "open account credit card debt collection",
+    "account stated retained statement without objection"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Setoff and recoupment in contract disputes",
+   "scope": "Offsetting cross-claims in contract litigation: recoupment arising from the same transaction, setoff of mutual debts, recoupment used defensively after limitations has run, banks' right of setoff against deposits, and how bankruptcy treats each.",
+   "queries": [
+    "recoupment same transaction contract claim",
+    "setoff mutual debts contract action",
+    "recoupment defense time barred claim",
+    "bank setoff depositor account debt"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rescission as a remedy and election of remedies",
+   "scope": "Rescinding a contract for fraud, mistake or material breach: tender and restoring the status quo, loss of the right through delay or affirmance, mutual rescission, and the election-of-remedies doctrine that bars combining inconsistent remedies.",
+   "queries": [
+    "rescission restore status quo tender",
+    "election of remedies rescission damages inconsistent",
+    "rescission delay ratification fraud affirmance",
+    "mutual rescission agreement abandon contract"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Emotional distress, nominal and nonpecuniary damages in contract",
+   "scope": "Exceptions to the rule against mental-distress damages for breach (funeral, telegraph and personal-relationship contracts), contracts whose breach is likely to cause serious emotional disturbance, nominal damages, and damages for inconvenience and lost enjoyment.",
+   "queries": [
+    "emotional distress damages breach of contract",
+    "mental anguish contract funeral services body",
+    "nominal damages breach of contract no loss",
+    "telegraph message death mental distress contract"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Structured settlement and lottery prize payment transfers",
+   "scope": "Selling or assigning future periodic payments: state Structured Settlement Protection Acts and their best-interest court approval, the federal excise tax under IRC 5891, anti-assignment clauses in annuities, and court orders approving lottery prize assignments.",
+   "queries": [
+    "structured settlement transfer best interest payee",
+    "Structured Settlement Protection Act court approval",
+    "lottery prize assignment court order",
+    "annuity payments factoring company transfer approval"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Puerto Rico civil law of obligations and contracts",
+   "scope": "Contract doctrine under the Puerto Rico Civil Code of 1930 and its 2020 replacement: the requirements of consent, object and cause, dolo and vices of consent, nullity, rebus sic stantibus, and how the First Circuit applies them.",
+   "queries": [
+    "Puerto Rico Civil Code obligations contracts",
+    "Article 1206 Puerto Rico Civil Code contract",
+    "Puerto Rico consent object cause contract",
+    "dolo Puerto Rico contract nullity"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Incoterms and commercial shipment terms in US contracts",
+   "scope": "ICC Incoterms editions and their rules (EXW, FCA, FOB, CIF, DAP, DDP and others), how US courts read FOB and CIF terms for delivery, risk of loss and document tender, and the withdrawn UCC sections 2-319 to 2-324.",
+   "queries": [
+    "Incoterms FOB CIF risk of loss",
+    "CIF contract documents tender seller",
+    "Incoterms 2020 International Chamber Commerce",
+    "ex works delivery term buyer risk"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Promissory notes, negotiability and UCC Article 3 holder in due course",
+   "scope": "Promissory notes as contracts under UCC Article 3: requirements for negotiability, holder-in-due-course status, real versus personal defenses under 3-305, accommodation parties, and who may enforce a lost or transferred note.",
+   "queries": [
+    "holder in due course negotiable instrument",
+    "promissory note negotiability unconditional promise",
+    "personal defenses holder due course note",
+    "UCC 3-305 real defenses fraud factum"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Health care contracts: hospital chargemaster pricing and provider-payer disputes",
+   "scope": "Contract disputes in health care billing: hospital admission agreements and open-price terms, chargemaster rates billed to uninsured patients, reasonable-value claims by out-of-network providers, and managed-care provider agreement payment disputes.",
+   "queries": [
+    "hospital chargemaster price uninsured patient contract",
+    "hospital admission agreement reasonable charges",
+    "out of network provider reasonable value services",
+    "managed care provider agreement payment dispute"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "ERISA plans as contracts: plan documents, SPDs and benefit interpretation",
+   "scope": "Contract-style interpretation of employee benefit plans: Firestone deference, conflicts between plan documents and summary plan descriptions (CIGNA v. Amara), reformation and surcharge, and whether retiree benefits vest under Tackett and Reese.",
+   "queries": [
+    "ERISA plan document summary plan description conflict",
+    "CIGNA Amara plan reformation surcharge",
+    "Firestone deference plan interpretation administrator",
+    "retiree health benefits vest Tackett"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public employment contracts: teacher tenure, civil service and implied property interests",
+   "scope": "Contracts of public employees: teacher tenure statutes treated as contracts (Indiana ex rel. Anderson v. Brand), implied tenure and property interests in continued employment (Perry v. Sindermann), and buyouts of superintendents and other public officers.",
+   "queries": [
+    "teacher tenure contract Indiana Anderson Brand",
+    "Perry Sindermann implied tenure property interest",
+    "public employee contract civil service statute",
+    "superintendent employment contract school board buyout"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Postnuptial, separation and marital settlement agreements",
+   "scope": "Agreements between spouses made during marriage or on separation: postnuptial agreements, separation and property settlement agreements, whether they merge into or are only incorporated in the divorce decree, and changes to alimony and support the spouses agreed on.",
+   "queries": [
+    "postnuptial agreement enforceability heightened scrutiny spouses",
+    "separation agreement merged into divorce decree survives",
+    "marital settlement agreement incorporated not merged modification alimony",
+    "property settlement agreement set aside fraud overreaching spouse"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Spending Clause legislation and federal grant conditions as contracts",
+   "scope": "Courts treat conditional federal spending statutes and grant agreements as contracts between the United States and recipients; covers Pennhurst clear notice, the remedy limits in Barnes and Cummings, limits on coercion, and disputes over terminated grants.",
+   "queries": [
+    "Spending Clause nature of a contract Pennhurst",
+    "Cummings Premier Rehab emotional distress damages Spending Clause",
+    "Barnes v. Gorman punitive damages contract analogy",
+    "grant agreement termination Tucker Act jurisdiction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interstate compacts construed as contracts",
+   "scope": "Compacts between states that Congress has approved, treated as both contracts and federal law; covers Supreme Court original-jurisdiction disputes over river compacts, how compacts are interpreted, remedies, and withdrawal.",
+   "queries": [
+    "interstate compact is a contract between states",
+    "Pecos River Compact Texas v. New Mexico",
+    "Republican River Compact Kansas Nebraska disgorgement",
+    "Red River Compact Tarrant Regional Water District"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Public pension benefits as contracts",
+   "scope": "Contract protection for the pension rights of state and municipal employees: the California rule, pension clauses in state constitutions, the vested-rights doctrine, and Contracts Clause challenges to pension reform.",
+   "queries": [
+    "California rule vested pension rights Allen Long Beach",
+    "Illinois pension protection clause diminished or impaired",
+    "public employee pension contractual right legislative reform impairment",
+    "Cal Fire Local 2881 airtime service credit"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Servicemembers Civil Relief Act contract protections",
+   "scope": "Federal relief for the contracts of military members: the six percent interest cap, ending residential and vehicle leases, affidavits required before default judgments, stays, foreclosure protections and the private right of action, plus the earlier 1940 Soldiers' and Sailors' Civil Relief Act.",
+   "queries": [
+    "Servicemembers Civil Relief Act six percent interest cap",
+    "Soldiers' and Sailors' Civil Relief Act default judgment",
+    "servicemember lease termination military orders SCRA",
+    "SCRA foreclosure without court order private right action"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Married women's contracts, coverture and the doctrine of necessaries",
+   "scope": "Past and present law on whether married people could contract and when they are liable: coverture, the Married Women's Property Acts, feme sole trader statutes, limits on wives acting as sureties, and the doctrine of necessaries for medical bills, now gender-neutral.",
+   "queries": [
+    "coverture married woman incapable of contracting",
+    "Married Women's Property Act 1848 New York",
+    "doctrine of necessaries spouse liable hospital bill",
+    "Jersey Shore Medical Center Estate of Baum necessaries"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cannabis industry contracts and federal illegality",
+   "scope": "Whether contracts with marijuana businesses that are legal under state law can be enforced given the Controlled Substances Act: illegality defenses, state statutes declaring these contracts valid, insurance coverage for cannabis, and access to bankruptcy.",
+   "queries": [
+    "marijuana contract unenforceable Controlled Substances Act illegality",
+    "medical marijuana dispensary breach of contract federal law",
+    "cannabis business bankruptcy dismissed Controlled Substances Act",
+    "insurance policy marijuana plants coverage public policy"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Smart contracts, DAOs and digital asset agreements",
+   "scope": "Contracts that run on or are recorded on blockchains: the history and terms of smart contracts, state statutes recognizing blockchain signatures, liability of DAO members, user agreements of crypto exchanges, and controllable electronic records under UCC Article 12.",
+   "queries": [
+    "smart contract Nick Szabo blockchain self-executing",
+    "decentralized autonomous organization general partnership liability",
+    "cryptocurrency exchange user agreement arbitration Coinbase",
+    "UCC Article 12 controllable electronic records"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Appraisal, expert determination and multi-tiered dispute resolution clauses",
+   "scope": "Contract clauses other than classic arbitration that replace litigation or must be followed before it: insurance appraisal clauses, determination of purchase-price adjustments by an accountant or other expert, and negotiation or mediation steps that are conditions precedent.",
+   "queries": [
+    "insurance appraisal clause umpire amount of loss",
+    "independent accountant purchase price adjustment expert not arbitrator",
+    "mediation condition precedent to litigation construction contract",
+    "appraisal provision causation State Farm Lloyds Johnson"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Due-on-sale, prepayment and yield maintenance clauses in mortgages",
+   "scope": "Clauses in mortgages and commercial loans on transfer of the property and early payoff: when due-on-sale clauses are enforceable, preemption and exemptions under Garn-St Germain, the perfect tender in time rule, prepayment premiums, yield maintenance and defeasance.",
+   "queries": [
+    "due-on-sale clause Garn-St Germain enforceability",
+    "Fidelity Federal Savings de la Cuesta due-on-sale preemption",
+    "prepayment penalty perfect tender in time rule",
+    "yield maintenance premium acceleration default enforceable"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bank deposit agreements and UCC Article 4 bank-customer duties",
+   "scope": "Contract and statutory duties between depositary banks and their customers: properly payable items, wrongful dishonor, stop-payment orders, stale checks, the customer's duty to examine statements, and lawsuits over the order in which overdraft fees are posted.",
+   "queries": [
+    "stop payment order UCC 4-403 six months",
+    "wrongful dishonor bank customer damages 4-402",
+    "customer duty examine bank statement one year forgery",
+    "overdraft fees high-to-low posting order deposit agreement"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Equitable adoption, contracts to adopt and post-adoption contact agreements",
+   "scope": "Contract-based doctrines in adoption: equitable adoption (also called adoption by estoppel) for inheritance and benefits, express and implied contracts to adopt, and whether open-adoption contact agreements can be enforced.",
+   "queries": [
+    "equitable adoption contract to adopt intestate inheritance",
+    "virtual adoption adoption by estoppel heir",
+    "post-adoption contact agreement enforceable birth parent",
+    "equitable adoption clear and convincing evidence foster child"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Immigration sponsorship and guest-worker contracts: I-864 affidavits and H-2A job orders",
+   "scope": "Enforcing contracts created by immigration law: suits on Form I-864 affidavits of support, which require support at 125 percent of the poverty guidelines, the events that end that duty and the defenses to it, and H-2A job orders and clearance orders treated as employment contracts.",
+   "queries": [
+    "Form I-864 affidavit of support enforceable contract sponsor",
+    "affidavit of support 125 percent poverty guidelines divorce",
+    "H-2A clearance order employment contract three-fourths guarantee",
+    "8 U.S.C. 1183a sponsored immigrant support obligation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corporate charters, bylaws and preferred stock terms as contracts",
+   "scope": "Mostly Delaware law treating certificates of incorporation, bylaws and preferred-stock designations as contracts between the corporation and its stockholders, including forum-selection and fee-shifting bylaws and the strict reading of stock preferences.",
+   "queries": [
+    "bylaws contract between corporation stockholders Boilermakers Chevron",
+    "fee-shifting bylaw ATP Tour Deutscher Tennis Bund",
+    "preferred stock rights contractual strictly construed certificate designation",
+    "federal forum provision Salzberg Sciabacucchi"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "D'Oench Duhme doctrine and contracts with failed banks",
+   "scope": "Rules that protect the FDIC, the RTC and successor banks from side agreements missing from the bank's records, and that govern the contracts of failed banks: the D'Oench doctrine, the requirements of 12 U.S.C. 1823(e), and repudiation and damages limits under FIRREA.",
+   "queries": [
+    "D'Oench Duhme doctrine secret agreement FDIC",
+    "section 1823(e) agreement approved board official record",
+    "Langley v. FDIC misrepresentation agreement",
+    "FIRREA receiver repudiation contract compensatory damages"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Nursing home and assisted living admission agreements",
+   "scope": "Admission contracts for long-term care: arbitration clauses signed by residents or their representatives, whether attorneys-in-fact and relatives can bind the resident, the federal ban on requiring third-party guarantees, and CMS rules on arbitration.",
+   "queries": [
+    "nursing home admission agreement arbitration power of attorney",
+    "Kindred Nursing Centers Clark clear statement rule",
+    "responsible party agreement third-party guarantee nursing home",
+    "wrongful death beneficiaries not bound nursing home arbitration"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Event tickets, season tickets and personal seat licenses",
+   "scope": "Contract rights of people holding tickets and seat licenses: tickets as revocable licenses, refunds when events are cancelled or teams relocate, season-ticket renewal rights and waiting lists, personal seat licenses, and limits on resale.",
+   "queries": [
+    "ticket revocable license Marrone Washington Jockey Club",
+    "personal seat license breach of contract stadium",
+    "season ticket holders renewal rights team relocation",
+    "ticket refund cancelled event terms of use"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Duty to read, signature and incorporation by reference",
+   "scope": "Rules that bind parties to writings they signed or received: the duty to read, the effect of illiteracy or not reading the contract's language, fine print on receipts and forms, and what it takes to incorporate an outside document by reference.",
+   "queries": [
+    "duty to read signed contract bound illiterate",
+    "Upton v. Tribilcock failure to read contract",
+    "incorporation by reference clear unequivocal reference terms",
+    "signer unable to read English contract bound"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  }
+ ]
+}

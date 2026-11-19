@@ -1,0 +1,5 @@
+# tasks whose agent image contains the reference solution (TB1-era Dockerfiles COPY solution.sh into the image);
+# trajectories would just run it, so they are not useful SFT data
+billing-dst-ny	COPY solution.sh /app/solution.sh (+ tests/, run-tests.sh)
+pii-redaction	COPY solution.sh /oracle/solution.sh (+ tests/expected_redacted.txt)
+sudoku-missing-piece	COPY solution.sh /app/solution.sh

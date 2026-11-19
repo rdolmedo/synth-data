@@ -1,0 +1,647 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Military history",
+ "weight": 0.010125,
+ "leaves": [
+  {
+   "leaf": "Ancient Near Eastern and Egyptian warfare",
+   "scope": "Bronze and Iron Age warfare of Egypt, Mesopotamia, the Hittites, Assyria and early Achaemenid Persia, including chariotry, siegecraft, campaigns and army organization.",
+   "queries": [
+    "Battle of Kadesh Ramesses II Hittite chariots",
+    "Neo-Assyrian army siege warfare Lachish reliefs",
+    "Battle of Megiddo Thutmose III campaign",
+    "Achaemenid Persian army Immortals satrapal levies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Greek and Macedonian warfare from the Persian Wars to the Diadochi",
+   "scope": "Hoplite, trireme and Macedonian phalanx warfare from the Greco-Persian and Peloponnesian Wars through Philip II, Alexander's campaigns and the wars of the Successors.",
+   "queries": [
+    "hoplite phalanx Battle of Marathon Plataea",
+    "Peloponnesian War Sphacteria Sicilian expedition Thucydides",
+    "Alexander the Great Gaugamela Issus Companion cavalry",
+    "Diadochi wars Battle of Ipsus war elephants"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Roman Republican and Principate army organization and campaigns",
+   "scope": "Structure, ranks, equipment and wars of the Roman army from the manipular legion and Punic Wars to the imperial legions, auxilia and frontier systems of the Principate.",
+   "queries": [
+    "Roman legion cohort centurion organization Marian reforms",
+    "Second Punic War Cannae Hannibal Scipio Zama",
+    "Roman auxilia alae cohortes frontier forts Hadrian's Wall",
+    "Caesar Gallic Wars Alesia Vercingetorix legions"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Late Roman and Byzantine warfare",
+   "scope": "Military institutions, manuals and wars of the late Roman and Byzantine state from Adrianople to 1453, including comitatenses, themes, tagmata, cataphracts and Greek fire.",
+   "queries": [
+    "Byzantine theme system strategos tagmata",
+    "Battle of Manzikert 1071 Romanos IV Diogenes",
+    "Strategikon of Maurice cataphracts Byzantine cavalry",
+    "Belisarius Justinian Gothic War Vandal campaign"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Premodern Chinese warfare and military classics",
+   "scope": "Chinese warfare from the Shang to the Qing, including Warring States and Three Kingdoms campaigns, the Seven Military Classics, crossbows and early gunpowder weapons.",
+   "queries": [
+    "Warring States Battle of Changping Qin Zhao",
+    "Seven Military Classics Sunzi Art of War Wuzi",
+    "Battle of Red Cliffs Cao Cao Three Kingdoms",
+    "Ming dynasty firearms fire lance Huolongjing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early medieval European warfare and the Viking Age",
+   "scope": "Warfare in Europe c. 400-1100, including Merovingian and Carolingian armies, the Anglo-Saxon fyrd and burhs, Viking raids and armies, and the Norman conquest.",
+   "queries": [
+    "Viking Great Heathen Army longship raids",
+    "Anglo-Saxon fyrd burhs Alfred Burghal Hidage",
+    "Battle of Hastings 1066 housecarls Norman cavalry",
+    "Charles Martel Battle of Tours Carolingian army"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Crusades and the military religious orders",
+   "scope": "Campaigns of the Crusades in the Levant, Iberia and the Baltic, and the organization, leaders and castles of the Templars, Hospitallers and Teutonic Knights.",
+   "queries": [
+    "First Crusade Siege of Antioch Jerusalem 1099",
+    "Battle of Hattin Saladin Guy of Lusignan",
+    "Templar Hospitaller grand masters Krak des Chevaliers",
+    "Teutonic Order Battle of Grunwald Northern Crusades"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mongol conquests and steppe nomad warfare",
+   "scope": "Warfare of Eurasian steppe peoples centred on the Mongol Empire, covering decimal army organization, horse-archer tactics and campaigns from China to Hungary and the Levant.",
+   "queries": [
+    "Mongol invasion Khwarazmian Empire Genghis Khan",
+    "Battle of Mohi Legnica Mongol invasion Europe",
+    "Battle of Ain Jalut Mongols Mamluks 1260",
+    "Mongol army tumen mingghan organization horse archers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "High and late medieval European warfare and castle sieges",
+   "scope": "Western European warfare c. 1100-1500, including the Hundred Years' War, Wars of the Roses, Hussite and Swiss infantry warfare, longbowmen, and castle building and siegecraft.",
+   "queries": [
+    "Hundred Years War Crécy Agincourt English longbow",
+    "Wars of the Roses Battle of Towton Bosworth",
+    "Hussite wagon fort Swiss pikemen Morgarten Sempach",
+    "medieval castle siege trebuchet Edward I Welsh castles"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Premodern Japanese and Korean warfare",
+   "scope": "Warfare in Japan and Korea up to the 1870s, including the Genpei and Sengoku wars, samurai armies and arquebus tactics, the Imjin War and Joseon naval forces.",
+   "queries": [
+    "Battle of Sekigahara Tokugawa Ieyasu Western army",
+    "Imjin War Yi Sun-sin turtle ship Hansando",
+    "Battle of Nagashino arquebus Oda Nobunaga Takeda",
+    "Genpei War Battle of Dan-no-ura Minamoto Taira"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ottoman and Safavid military institutions and wars",
+   "scope": "Armies and wars of the Ottoman and Safavid empires c. 1300-1800, including janissaries, sipahis and the timar system, artillery, and major sieges and battles against European and Persian rivals.",
+   "queries": [
+    "Janissary corps devshirme Ottoman sipahi timar",
+    "Siege of Vienna 1683 Ottoman Kara Mustafa",
+    "Battle of Chaldiran Safavid Ismail Ottoman Selim",
+    "Fall of Constantinople 1453 Mehmed II cannons Orban"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "South Asian warfare from the Mughals to the Indo-Pakistani wars",
+   "scope": "Wars in the Indian subcontinent from Panipat through the Maratha, Anglo-Mysore and Anglo-Sikh wars and the 1857 rebellion to the Indo-Pakistani wars of 1947-1971.",
+   "queries": [
+    "Mughal army mansabdari Battle of Panipat",
+    "Anglo-Mysore Wars Tipu Sultan Seringapatam rockets",
+    "Indian Rebellion 1857 siege of Lucknow Cawnpore",
+    "Indo-Pakistani war 1971 Battle of Longewala"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Early modern European warfare 1494-1660 and the military revolution",
+   "scope": "The Italian Wars, Eighty Years' War, Thirty Years' War and British Civil Wars, with pike-and-shot tactics, the tercio, bastion fortification and the military revolution debate.",
+   "queries": [
+    "Thirty Years War Battle of Breitenfeld Gustavus Adolphus",
+    "Italian Wars Battle of Pavia arquebusiers tercio",
+    "New Model Army Battle of Naseby Fairfax Cromwell",
+    "trace italienne bastion fortress military revolution Roberts Parker"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Age of Sail naval warfare",
+   "scope": "Naval warfare c. 1500-1850, from the Spanish Armada and the Anglo-Dutch wars to the Napoleonic fleet actions, including ship rating systems, line-of-battle tactics and admirals.",
+   "queries": [
+    "Royal Navy rating system ship of the line",
+    "Anglo-Dutch Wars Four Days Battle De Ruyter",
+    "Battle of Trafalgar Nelson Victory fleet order",
+    "Spanish Armada 1588 Gravelines Medina Sidonia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "European wars of the age of linear tactics, 1660-1789",
+   "scope": "The wars of Louis XIV, the Great Northern War, the Wars of the Spanish and Austrian Succession and the Seven Years' War, including its North American French and Indian War theatre.",
+   "queries": [
+    "War of Spanish Succession Blenheim Marlborough Eugene",
+    "Frederick the Great Battle of Leuthen oblique order",
+    "Great Northern War Battle of Poltava Charles XII",
+    "French and Indian War Fort Duquesne Braddock Quebec"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "American Revolutionary War campaigns and forces",
+   "scope": "Battles, campaigns, regiments, commanders and the Franco-American alliance in the War of American Independence, 1775-1783.",
+   "queries": [
+    "Battles of Saratoga Burgoyne surrender 1777",
+    "Continental Army regiments Valley Forge Steuben",
+    "Siege of Yorktown Cornwallis Rochambeau de Grasse",
+    "Southern campaign Cowpens Guilford Courthouse Greene"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "French Revolutionary and Napoleonic Wars",
+   "scope": "Campaigns, battles, corps organization and marshals of the wars of 1792-1815, including the Peninsular War, the 1812 Russian campaign and the Waterloo campaign.",
+   "queries": [
+    "Battle of Austerlitz Napoleon corps Grande Armée",
+    "Peninsular War Wellington Salamanca Vitoria",
+    "French invasion of Russia 1812 Borodino Berezina",
+    "Waterloo campaign Ligny Quatre Bras Blücher"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "European wars of 1815-1878: Crimea and the wars of unification",
+   "scope": "The Crimean War, the Italian and German wars of unification including the Franco-Prussian War, and the Russo-Turkish War of 1877-78, with rifled weapons, railways and the Prussian general staff.",
+   "queries": [
+    "Crimean War Siege of Sevastopol Balaclava Light Brigade",
+    "Austro-Prussian War Battle of Königgrätz Moltke",
+    "Franco-Prussian War Sedan Gravelotte Metz siege",
+    "Second Italian War of Independence Solferino Magenta"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "American Civil War battles, campaigns and armies",
+   "scope": "Land campaigns, battles, orders of battle, commanders and units of the Union and Confederate armies, 1861-1865.",
+   "queries": [
+    "Battle of Gettysburg Pickett's Charge Longstreet",
+    "Army of the Potomac corps order of battle",
+    "Vicksburg campaign Grant siege 1863",
+    "Sherman's March to the Sea Atlanta campaign"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "US wars 1812-1898 and the American Indian Wars",
+   "scope": "The War of 1812, the Mexican-American War, the Spanish-American War and the US Army's frontier wars against Native American nations.",
+   "queries": [
+    "War of 1812 Battle of New Orleans Lake Erie",
+    "Mexican–American War Buena Vista Scott Veracruz",
+    "Battle of the Little Bighorn Custer 7th Cavalry",
+    "Spanish–American War San Juan Hill Rough Riders"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin American wars from independence to the Chaco War",
+   "scope": "Wars in Latin America from the Spanish American wars of independence through the Paraguayan War, the War of the Pacific, the Mexican Revolution and the Chaco War.",
+   "queries": [
+    "Spanish American wars of independence Bolívar Ayacucho Boyacá",
+    "Paraguayan War Triple Alliance Humaitá Curupayty",
+    "War of the Pacific Chile Peru Bolivia Arica",
+    "Chaco War Bolivia Paraguay Boquerón"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Colonial conquest and resistance wars in Africa, 1830-1914",
+   "scope": "European colonial campaigns in Africa and African resistance, including the Anglo-Zulu, Anglo-Ashanti, Mahdist and Boer Wars, Adwa and the German colonial wars.",
+   "queries": [
+    "Anglo-Zulu War Isandlwana Rorke's Drift 1879",
+    "Second Boer War Siege of Ladysmith Spion Kop",
+    "Battle of Omdurman Mahdist War Kitchener",
+    "Battle of Adwa Menelik II Italian army 1896"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "East Asian wars 1839-1949",
+   "scope": "The Opium Wars, Taiping Rebellion, Sino-Japanese and Russo-Japanese wars, the warlord era and the land campaigns of the Second Sino-Japanese War and Chinese Civil War.",
+   "queries": [
+    "Taiping Rebellion Ever Victorious Army Xiang Army",
+    "Russo-Japanese War Port Arthur Mukden 1905",
+    "Second Sino-Japanese War Battle of Shanghai Taierzhuang",
+    "Chinese Civil War Huaihai Campaign Liaoshen PLA"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "World War I Western Front",
+   "scope": "Campaigns, battles, trench warfare, gas, and army and corps operations on the Western Front, 1914-1918.",
+   "queries": [
+    "Battle of the Somme 1916 first day casualties",
+    "Battle of Verdun Douaumont Falkenhayn",
+    "Schlieffen Plan Battle of the Marne 1914",
+    "Hundred Days Offensive Amiens Hindenburg Line 1918"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "World War I Eastern, Italian, Balkan and Middle Eastern fronts",
+   "scope": "WWI campaigns away from the Western Front, including Tannenberg and the Brusilov offensive, the Isonzo battles, Gallipoli, Mesopotamia, Palestine and East Africa.",
+   "queries": [
+    "Gallipoli campaign ANZAC Cove landing 1915",
+    "Battle of Tannenberg 1914 Hindenburg Samsonov",
+    "Battles of the Isonzo Caporetto Italian front",
+    "Mesopotamian campaign Siege of Kut Townshend"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ironclad and dreadnought-era warships and naval battles, 1860-1922",
+   "scope": "Steam warship development from ironclads to dreadnoughts and battlecruisers, ship classes, and fleet actions from Lissa and Tsushima to Jutland.",
+   "queries": [
+    "HMS Dreadnought 1906 battleship design turbines",
+    "Battle of Jutland battlecruiser squadron losses",
+    "Battle of Tsushima Togo Rozhestvensky Baltic Fleet",
+    "Battle of Lissa ironclad ramming 1866"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interwar conflicts 1918-1940",
+   "scope": "Wars between the world wars, including the Russian Civil War, the Polish-Soviet War, the Rif War, the Italo-Ethiopian War, the Spanish Civil War and the Winter War.",
+   "queries": [
+    "Spanish Civil War Ebro International Brigades",
+    "Polish–Soviet War Battle of Warsaw 1920",
+    "Winter War Finland Mannerheim Line Suomussalmi",
+    "Russian Civil War Red Army Kolchak Denikin offensive"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "World War II Eastern Front",
+   "scope": "German-Soviet war operations 1941-1945, including army groups, Soviet fronts, code-named offensives, encirclements and casualties.",
+   "queries": [
+    "Operation Barbarossa Army Group Centre 1941",
+    "Battle of Stalingrad Operation Uranus Sixth Army",
+    "Battle of Kursk Prokhorovka Operation Citadel",
+    "Operation Bagration 1944 Soviet fronts offensive"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "World War II in Western Europe, the Mediterranean and the Atlantic",
+   "scope": "The 1940 Western campaign, North Africa and Italy, Normandy and the drive into Germany, airborne operations, and the Battle of the Atlantic.",
+   "queries": [
+    "Battle of France 1940 Sedan Ardennes panzer",
+    "Second El Alamein Eighth Army Afrika Korps",
+    "Normandy landings Omaha Beach division assault",
+    "Battle of the Atlantic U-boat wolfpack convoy"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "World War II Pacific and Burma campaigns",
+   "scope": "Naval, amphibious and land campaigns against Japan from Pearl Harbor to Okinawa, plus the Burma campaign.",
+   "queries": [
+    "Battle of Midway carriers sunk Yorktown Akagi",
+    "Guadalcanal campaign Henderson Field Marines",
+    "Battle of Leyte Gulf Kurita Halsey",
+    "Burma campaign Imphal Kohima Chindits"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Military aviation and air campaigns from WWI to the early jet age",
+   "scope": "Military aircraft development, aces and squadrons, air superiority battles and strategic bombing campaigns, c. 1911-1953.",
+   "queries": [
+    "WWI flying aces Red Baron victories Jasta",
+    "Battle of Britain Fighter Command squadrons Spitfire Hurricane",
+    "Combined Bomber Offensive Eighth Air Force Schweinfurt raid",
+    "Messerschmitt Me 262 jet fighter development"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tank development and armored warfare doctrine",
+   "scope": "Design, production, variants and combat use of tanks from WWI to modern main battle tanks, and the doctrines of mechanized warfare.",
+   "queries": [
+    "first use of tanks Flers-Courcelette Mark I",
+    "Tiger I Panzer IV production variants armor",
+    "T-34 tank design Koshkin production",
+    "M1 Abrams main battle tank development Chobham"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Development of military small arms, machine guns and artillery",
+   "scope": "Inventors, models, calibres, adoption dates and service histories of military firearms, machine guns and field artillery from the matchlock to the assault rifle.",
+   "queries": [
+    "Maxim gun machine gun adoption British Army",
+    "Lee–Enfield rifle Mark variants .303 calibre",
+    "AK-47 Kalashnikov development 7.62×39mm",
+    "French 75 mm field gun recoil mechanism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cold War nuclear forces, strategy and crises",
+   "scope": "Nuclear delivery systems, strategic commands, deterrence doctrines, NATO and Warsaw Pact postures and Cold War crises, 1945-1991.",
+   "queries": [
+    "Strategic Air Command B-52 nuclear alert",
+    "Minuteman ICBM deployment silo missile wings",
+    "Cuban Missile Crisis DEFCON Soviet missiles",
+    "massive retaliation flexible response NATO doctrine"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Korean War",
+   "scope": "Operations, battles, units and commanders of the Korean War, 1950-1953, from the Pusan Perimeter and Inchon to the static war and armistice.",
+   "queries": [
+    "Battle of Chosin Reservoir 1st Marine Division",
+    "Inchon landing Operation Chromite MacArthur",
+    "Pusan Perimeter Eighth Army 1950 defense",
+    "Battle of the Imjin River Gloucestershire Regiment"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "First Indochina and Vietnam Wars",
+   "scope": "French and American wars in Indochina, 1946-1975, including major battles, operations, units and air campaigns.",
+   "queries": [
+    "Battle of Dien Bien Phu 1954 Viet Minh",
+    "Tet Offensive 1968 Hue Khe Sanh",
+    "Battle of Ia Drang 7th Cavalry 1965",
+    "Operation Rolling Thunder Linebacker bombing North Vietnam"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arab-Israeli wars",
+   "scope": "Campaigns, operations and battles of the Arab-Israeli conflicts from 1948 through the Suez, Six-Day and Yom Kippur wars to the 1982 Lebanon War.",
+   "queries": [
+    "1948 Arab–Israeli War Latrun Operation Nachshon",
+    "Six-Day War 1967 Operation Focus air strikes",
+    "Yom Kippur War Suez Canal crossing Bar Lev Line",
+    "Suez Crisis 1956 Operation Kadesh Musketeer"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Insurgency and counterinsurgency since 1945",
+   "scope": "Decolonization and later guerrilla wars and counterinsurgency campaigns, including Malaya, Kenya, Algeria, the Portuguese colonial wars, Rhodesia and Afghanistan.",
+   "queries": [
+    "Malayan Emergency Briggs Plan Templer",
+    "Algerian War Battle of Algiers FLN paratroopers",
+    "Soviet–Afghan War mujahideen 40th Army",
+    "Rhodesian Bush War Selous Scouts Fireforce"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Conventional wars since 1980",
+   "scope": "Late and post-Cold War interstate and conventional conflicts, including the Falklands, Iran-Iraq and Gulf wars, the Yugoslav wars, the 2003 invasion of Iraq and the Russo-Ukrainian war.",
+   "queries": [
+    "Falklands War Goose Green San Carlos landings",
+    "Iran–Iraq War Battle of Khorramshahr offensives",
+    "Gulf War Desert Storm Battle of 73 Easting",
+    "Yugoslav Wars Siege of Vukovar Operation Storm"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Military theory and strategic thought",
+   "scope": "Major theorists, their works and concepts in land, naval and operational theory, from Jomini and Clausewitz to Mahan, Corbett and Soviet operational art.",
+   "queries": [
+    "Clausewitz On War friction center of gravity",
+    "Jomini Summary of the Art of War lines of operation",
+    "Mahan Influence of Sea Power Corbett maritime strategy",
+    "Soviet deep operations Tukhachevsky Svechin operational art"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pre-Columbian Mesoamerican and Andean warfare and the Spanish conquest",
+   "scope": "Warfare of the Maya, Aztec Triple Alliance and Inca states (warrior societies, weapons, campaigns, fortresses), and the Spanish conquests of Mexico, Peru and Central America from 1519 to the fall of Vilcabamba in 1572, including indigenous allied forces.",
+   "queries": [
+    "Aztec Triple Alliance flower wars warrior ranks",
+    "siege of Tenochtitlan 1521 Cortés Tlaxcalan allies",
+    "Pizarro Cajamarca Atahualpa conquest of Inca Empire",
+    "Classic Maya warfare Tikal Calakmul Caracol"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early Islamic conquests and caliphal armies, 632-c.1100",
+   "scope": "Campaigns, commanders, battles and military institutions of the Rashidun, Umayyad, Abbasid, Andalusi and Fatimid states, from the Ridda wars and the conquests of Syria, Iraq, Egypt, North Africa, Iberia and Transoxiana to the ghilman slave-soldier system.",
+   "queries": [
+    "Battle of Yarmouk 636 Khalid ibn al-Walid",
+    "Battle of al-Qadisiyyah Sasanian army Rashidun caliphate",
+    "Umayyad conquest of Hispania Tariq ibn Ziyad 711",
+    "Abbasid army ghilman Samarra Turkish slave soldiers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Precolonial sub-Saharan African warfare",
+   "scope": "Armies, weapons, tactics and wars of sub-Saharan African states before about 1830, including the Sahelian empires, Ethiopia and Adal, Kongo and Ndongo, Asante, Dahomey, and the Zulu kingdom under Shaka during the Mfecane.",
+   "queries": [
+    "Shaka Zulu impi regiments iklwa Mfecane",
+    "Songhai Empire army Battle of Tondibi 1591",
+    "Ethiopian Adal war Ahmad Gragn Wayna Daga",
+    "Queen Nzinga Ndongo Matamba Portuguese wars"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient and medieval South and Southeast Asian warfare",
+   "scope": "Armies and wars of the Indian subcontinent from the Mauryas to the Delhi Sultanate before 1526, and of Southeast Asian kingdoms such as the Khmer, Champa, Dai Viet, Srivijaya, Burma and Ayutthaya up to about 1800.",
+   "queries": [
+    "Maurya army Arthashastra war elephants Kalinga",
+    "Second Battle of Tarain 1192 Ghurid Prithviraj",
+    "Chola naval expedition Srivijaya Rajendra 1025",
+    "Burmese Siamese wars fall of Ayutthaya 1767"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Military intelligence, codebreaking and deception operations",
+   "scope": "History of signals intelligence, cryptanalysis, espionage agencies and strategic deception in wartime from the 19th century through the Cold War, including Room 40, Enigma and Ultra, Magic, the Double Cross System and Venona.",
+   "queries": [
+    "Enigma Bletchley Park Ultra codebreaking Hut 8",
+    "Room 40 Zimmermann telegram naval intelligence",
+    "Operation Fortitude Double Cross deception D-Day",
+    "JN-25 Purple cipher Magic Midway codebreakers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Military decorations, rank systems, uniforms and regimental traditions",
+   "scope": "Founding dates, criteria, grades and recipients of gallantry and service decorations and orders, the evolution of military ranks and insignia, uniform history, and regimental colours, lineages and battle honours of modern armed forces.",
+   "queries": [
+    "Victoria Cross instituted 1856 recipients bronze",
+    "Medal of Honor history Army Navy versions",
+    "Iron Cross Knight's Cross Oak Leaves grades",
+    "regimental colours battle honours British infantry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Post-1945 conventional weapons systems: jet aircraft, helicopters, missiles and warships",
+   "scope": "Design, variants, service dates and specifications of Cold War and later non-nuclear weapons systems, including jet fighter generations, military helicopters, surface-to-air, air-to-air and anti-ship missiles, aircraft carriers, surface combatants and attack submarines.",
+   "queries": [
+    "MiG-21 F-4 Phantom jet fighter generations",
+    "Nimitz class Forrestal supercarrier aircraft carrier history",
+    "SA-2 Guideline surface-to-air missile Sidewinder",
+    "UH-1 Iroquois AH-64 Apache attack helicopter development"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  }
+ ]
+}

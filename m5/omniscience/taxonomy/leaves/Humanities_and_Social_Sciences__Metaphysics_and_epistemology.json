@@ -1,0 +1,483 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Metaphysics and epistemology",
+ "weight": 0.007375499999999999,
+ "leaves": [
+  {
+   "leaf": "Possible worlds, modal realism and counterpart theory",
+   "scope": "Theories of what possible worlds are and what makes modal claims true, including Lewis's modal realism, ersatz and abstractionist worlds, actualism versus possibilism, counterpart theory and modal fictionalism.",
+   "queries": [
+    "David Lewis modal realism plurality of worlds",
+    "counterpart theory Lewis 1968 transworld identity",
+    "actualism possibilism Plantinga Adams ersatz worlds",
+    "modal fictionalism Rosen possible worlds semantics Kripke"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Essentialism, rigid designation and the necessary a posteriori",
+   "scope": "Kripkean and neo-Aristotelian accounts of essence and de re modality, including rigid designators, the necessity of identity and of origin, natural-kind essentialism, and Fine's critique of modal accounts of essence.",
+   "queries": [
+    "Kripke Naming and Necessity rigid designator lectures",
+    "necessity of identity necessary a posteriori Hesperus Phosphorus",
+    "Kit Fine Essence and Modality Socrates singleton",
+    "essentialism necessity of origin Quine de re modality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Universals, tropes, and substance versus bundle theories",
+   "scope": "The problem of universals and the nature of what bears properties, covering realism, the varieties of nominalism, trope theory, bare particulars and substrata, bundle theory and the identity of indiscernibles.",
+   "queries": [
+    "problem of universals Armstrong realism nominalism",
+    "trope theory Donald Williams Keith Campbell abstract particulars",
+    "bundle theory substratum bare particulars",
+    "identity of indiscernibles Max Black two spheres"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mereology, composition and material constitution",
+   "scope": "The metaphysics of parts and wholes and puzzles about objects that occupy the same place, including the special composition question, compositional nihilism and universalism, the ship of Theseus, the statue and the clay, and Tibbles/Tib.",
+   "queries": [
+    "special composition question van Inwagen Material Beings",
+    "extensional mereology Lesniewski Leonard Goodman calculus individuals",
+    "statue clay constitution Gibbard Lumpl Goliath",
+    "ship of Theseus Tibbles Tib Geach"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Persistence: endurantism, perdurantism and temporal parts",
+   "scope": "Theories of how ordinary objects persist through time, including three- and four-dimensionalism, temporal parts, stage theory, the problem of temporary intrinsics and the rotating disc argument.",
+   "queries": [
+    "endurantism perdurantism temporal parts four-dimensionalism",
+    "Lewis problem of temporary intrinsics persistence",
+    "stage theory Sider Hawley exdurantism",
+    "rotating homogeneous disc argument Kripke Armstrong"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Metaphysics of time: A-theory, B-theory and time travel",
+   "scope": "The nature of time and tense, including McTaggart's argument that time is unreal, presentism, eternalism, the growing block, the moving spotlight, temporal passage and the paradoxes of time travel.",
+   "queries": [
+    "McTaggart unreality of time A-series B-series",
+    "presentism eternalism growing block theory Broad",
+    "moving spotlight theory temporal becoming passage",
+    "Lewis Paradoxes of Time Travel grandfather paradox"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of causation and the metaphysics of events",
+   "scope": "Analyses of causation and of the things it relates, including regularity, counterfactual, probabilistic, process and interventionist theories, puzzles about preemption and overdetermination, and Davidson's and Kim's theories of events.",
+   "queries": [
+    "Lewis counterfactual theory of causation preemption",
+    "Mackie INUS condition regularity theory causation",
+    "Salmon Dowe conserved quantity process theory causation",
+    "Davidson Kim events property exemplification individuation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Laws of nature, dispositions and causal powers",
+   "scope": "Accounts of natural laws and modal properties, including the Mill-Ramsey-Lewis best-system view, the Dretske-Tooley-Armstrong necessitation view, Humean supervenience, dispositional essentialism and finkish dispositions.",
+   "queries": [
+    "best system account laws Mill Ramsey Lewis",
+    "Dretske Tooley Armstrong nomic necessitation laws of nature",
+    "dispositional essentialism Bird Mumford powers ontology",
+    "finkish dispositions conditional analysis Martin Lewis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Free will, determinism and moral responsibility",
+   "scope": "Metaphysical debates over free will, including compatibilism, libertarianism, hard incompatibilism, the consequence argument, Frankfurt-style cases, hierarchical theories and agent causation.",
+   "queries": [
+    "van Inwagen consequence argument incompatibilism",
+    "Frankfurt cases principle of alternate possibilities",
+    "agent causation libertarianism Chisholm O'Connor Kane",
+    "compatibilism Strawson Freedom and Resentment reactive attitudes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Personal identity over time",
+   "scope": "Criteria for the persistence of persons, including memory and psychological continuity theories, the bodily criterion, animalism, fission and brain-transplant cases, teletransportation and Parfit's reductionism.",
+   "queries": [
+    "Locke personal identity memory criterion Reid brave officer",
+    "Parfit Reasons and Persons fission teletransportation",
+    "animalism Olson Snowdon thinking animal problem",
+    "psychological continuity theory Shoemaker brain transplant"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "The mind-body problem: dualism and physicalism",
+   "scope": "Metaphysical positions on how the mental relates to the physical, including substance and property dualism, type identity theory, functionalism, epiphenomenalism, the causal exclusion problem, and anti-physicalist arguments such as zombies and the knowledge argument.",
+   "queries": [
+    "Jackson knowledge argument Mary color scientist",
+    "Chalmers philosophical zombies conceivability argument",
+    "type identity theory Place Smart Feigl",
+    "property dualism epiphenomenalism causal exclusion Kim"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ontological commitment, existence and non-existent objects",
+   "scope": "Metaontology and the theory of existence, including Quine's criterion of ontological commitment, Carnap's internal/external distinction, quantifier variance, easy ontology, Meinongianism and Russell's theory of descriptions applied to negative existentials.",
+   "queries": [
+    "Quine On What There Is ontological commitment",
+    "Carnap Empiricism Semantics Ontology internal external questions",
+    "Meinong theory of objects nonexistent golden mountain",
+    "quantifier variance Hirsch easy ontology Thomasson metaontology"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Grounding, fundamentality, supervenience and truthmakers",
+   "scope": "Relations of metaphysical dependence and priority, including grounding, the strong, weak and global varieties of supervenience, Schaffer's priority monism, levels of reality, truthmaker theory and Armstrong's states of affairs.",
+   "queries": [
+    "metaphysical grounding Fine Schaffer fundamentality",
+    "strong weak global supervenience Kim",
+    "Schaffer priority monism existence monism Horgan",
+    "truthmaker theory Armstrong states of affairs maximalism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Abstract objects and the ontology of mathematics",
+   "scope": "The metaphysics of abstract entities, including mathematical Platonism, the Quine-Putnam indispensability argument, Benacerraf's problems, Field's nominalism, fictionalism and neo-Fregean abstractionism.",
+   "queries": [
+    "Quine Putnam indispensability argument mathematical Platonism",
+    "Benacerraf What Numbers Could Not Be 1965",
+    "Hartry Field Science Without Numbers nominalism",
+    "neo-Fregean abstractionism Hume's principle Wright Hale"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Vagueness and the sorites paradox",
+   "scope": "Theories of vague predicates and vague objects, including epistemicism, supervaluationism, degree and many-valued theories, higher-order vagueness and Evans's argument against vague identity.",
+   "queries": [
+    "sorites paradox heap Eubulides vagueness",
+    "Williamson epistemicism vagueness sharp boundaries",
+    "supervaluationism Kit Fine penumbral connections",
+    "Evans 1978 can there be vague objects"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Social ontology and social construction",
+   "scope": "The metaphysics of social entities, including Searle's institutional facts and constitutive rules, collective intentionality, Gilbert's plural subjects, group agents, and social constructionism about race and gender.",
+   "queries": [
+    "Searle Construction of Social Reality institutional facts",
+    "collective intentionality we-intentions Tuomela Bratman Gilbert",
+    "Haslanger social construction race gender metaphysics",
+    "group agency List Pettit corporate agents"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of truth and the realism versus anti-realism debate",
+   "scope": "Philosophical accounts of truth and of whether reality is independent of the mind, including correspondence, coherence, pragmatist, deflationary and semantic theories, and Dummett's and Putnam's arguments against realism.",
+   "queries": [
+    "correspondence theory of truth coherence theory",
+    "deflationary theory truth Horwich minimalism Ramsey redundancy",
+    "Tarski semantic conception truth Convention T",
+    "Putnam model-theoretic argument internal realism Dummett anti-realism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Presocratic, Platonic and Aristotelian metaphysics",
+   "scope": "Ancient Greek metaphysics from the Milesians, Heraclitus, Parmenides, Zeno and the atomists through Plato's theory of Forms and Aristotle's Categories and Metaphysics on substance, form, matter and the four causes.",
+   "queries": [
+    "Parmenides Eleatic monism Zeno paradoxes",
+    "Plato Forms Third Man argument Parmenides dialogue",
+    "Aristotle Metaphysics Book Zeta substance ousia",
+    "Democritus Leucippus atomism void"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Islamic and scholastic metaphysics",
+   "scope": "Metaphysics and epistemology from Avicenna and Averroes through Aquinas, Scotus, Ockham and Suárez, including the distinction between essence and existence, univocity of being, haecceity, medieval nominalism and divine illumination.",
+   "queries": [
+    "Avicenna essence existence distinction flying man",
+    "Duns Scotus haecceity univocity of being",
+    "William of Ockham nominalism razor universals",
+    "Aquinas De ente et essentia Suárez Disputationes Metaphysicae"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early modern rationalist metaphysics",
+   "scope": "The metaphysical systems of Descartes, Spinoza, Leibniz and Malebranche, including Cartesian dualism, the cogito and Cartesian circle, substance monism, monads, pre-established harmony and occasionalism.",
+   "queries": [
+    "Descartes Meditations cogito Cartesian circle",
+    "Spinoza Ethics substance monism attributes modes",
+    "Leibniz Monadology pre-established harmony monads",
+    "Malebranche occasionalism vision in God"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early modern empiricist epistemology: Locke, Berkeley and Hume",
+   "scope": "British empiricist theories of ideas and knowledge, including Locke's Essay, primary and secondary qualities, Molyneux's problem, Berkeley's immaterialism, and Hume's impressions and ideas, copy principle and bundle theory of the self.",
+   "queries": [
+    "Locke Essay Concerning Human Understanding primary secondary qualities",
+    "Molyneux problem blind man cube sphere",
+    "Berkeley immaterialism esse est percipi Principles",
+    "Hume impressions ideas copy principle Treatise bundle self"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Kant's transcendental idealism and German idealism",
+   "scope": "Kant's theoretical philosophy in the Critique of Pure Reason and its development by Fichte, Schelling and Hegel, including synthetic a priori judgments, the categories, the transcendental deduction, the antinomies and absolute idealism.",
+   "queries": [
+    "Kant Critique of Pure Reason transcendental deduction categories",
+    "Kant antinomies paralogisms transcendental dialectic",
+    "synthetic a priori judgments Kant Prolegomena",
+    "Fichte Wissenschaftslehre Schelling Hegel absolute idealism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ancient Pyrrhonian and Academic skepticism",
+   "scope": "Hellenistic skeptical traditions, including Pyrrho, Aenesidemus, Agrippa and Sextus Empiricus, Arcesilaus and Carneades of the New Academy, the modes of suspension, epoché and ataraxia.",
+   "queries": [
+    "Sextus Empiricus Outlines of Pyrrhonism modes",
+    "Ten Modes Aenesidemus Five Modes Agrippa",
+    "Academic skepticism Arcesilaus Carneades Cicero Academica",
+    "Pyrrho Elis epoche ataraxia Timon"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indian and Buddhist metaphysics and epistemology",
+   "scope": "Classical Indian philosophical theories of being and knowledge, including Nyāya pramāṇa theory, Vaiśeṣika categories and atomism, Buddhist momentariness and no-self, Dignāga's and Dharmakīrti's epistemology, and Madhyamaka emptiness.",
+   "queries": [
+    "Nyaya pramana perception inference comparison testimony",
+    "Vaisheshika padartha categories Kanada atomism",
+    "Dignaga Dharmakirti Buddhist epistemology pramana",
+    "Nagarjuna Madhyamaka sunyata Mulamadhyamakakarika"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analysis of knowledge, Gettier problem and knowledge-first epistemology",
+   "scope": "Attempts to define propositional knowledge, including the justified-true-belief account, Gettier cases, no-false-lemmas, defeasibility, causal and safety conditions, and Williamson's knowledge-first program.",
+   "queries": [
+    "Gettier 1963 Is Justified True Belief Knowledge",
+    "fake barn country Goldman Ginet case",
+    "defeasibility theory knowledge Lehrer Paxson Tom Grabit",
+    "Williamson Knowledge and Its Limits E=K luminosity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structure of justification: foundationalism, coherentism and infinitism",
+   "scope": "Responses to the epistemic regress problem, including classical and modest foundationalism, coherentism, infinitism, Haack's foundherentism and Sellars's attack on the myth of the given.",
+   "queries": [
+    "epistemic regress problem Münchhausen trilemma Albert",
+    "BonJour Structure of Empirical Knowledge coherentism",
+    "Peter Klein infinitism justification regress",
+    "Sellars myth of the given Haack foundherentism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Internalism, externalism, reliabilism and evidentialism",
+   "scope": "Debates over what makes a belief justified, including access internalism and mentalism, process reliabilism and the generality problem, the new evil demon problem, the clairvoyance and Truetemp cases, proper functionalism and Conee-Feldman evidentialism.",
+   "queries": [
+    "Goldman process reliabilism What Is Justified Belief",
+    "generality problem reliabilism Conee Feldman",
+    "new evil demon problem Cohen Lehrer internalism",
+    "Plantinga proper functionalism warrant BonJour clairvoyant Norman"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Virtue epistemology, epistemic value and the ethics of belief",
+   "scope": "Agent-based approaches to epistemic evaluation and to the norms governing belief, including Sosa's virtue reliabilism, responsibilist virtue epistemology, the Meno and swamping problems, the Clifford-James debate and doxastic voluntarism.",
+   "queries": [
+    "Sosa virtue perspectivism AAA archer animal knowledge",
+    "Zagzebski Virtues of the Mind responsibilism",
+    "Meno problem value of knowledge swamping problem",
+    "Clifford Ethics of Belief James Will to Believe"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Radical skepticism, closure and contextualism",
+   "scope": "Contemporary skeptical arguments and replies, including Cartesian and brain-in-a-vat scenarios, epistemic closure, Nozick's sensitivity condition, Moore's proof, hinge epistemology, contextualism, subject-sensitive invariantism and pragmatic encroachment.",
+   "queries": [
+    "Nozick tracking sensitivity closure skepticism",
+    "Moore proof external world Wittgenstein On Certainty",
+    "epistemic contextualism DeRose Lewis Elusive Knowledge bank case",
+    "subject-sensitive invariantism Stanley Hawthorne pragmatic encroachment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "A priori knowledge, analyticity and modal epistemology",
+   "scope": "The nature and possibility of a priori justification, including the analytic-synthetic distinction, Quine's Two Dogmas, the contingent a priori, rational intuition, the link between conceivability and possibility, and two-dimensional semantics.",
+   "queries": [
+    "Quine Two Dogmas of Empiricism analytic synthetic",
+    "contingent a priori Kripke standard meter stick",
+    "BonJour In Defense of Pure Reason rational insight",
+    "conceivability possibility two-dimensional semantics Chalmers Yablo"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Epistemology of perception",
+   "scope": "Theories of perceptual experience and the justification it provides, including sense-datum theory, adverbialism, direct and indirect realism, disjunctivism, the arguments from illusion and hallucination, and phenomenal conservatism and dogmatism.",
+   "queries": [
+    "sense-datum theory argument from illusion Ayer Russell",
+    "disjunctivism perception McDowell Hinton Martin",
+    "adverbial theory perception Chisholm Ducasse",
+    "phenomenal conservatism Huemer dogmatism Pryor"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Testimony, peer disagreement and social epistemology",
+   "scope": "How knowledge is gained from and shaped by other people, including reductionist and anti-reductionist views of testimony, peer disagreement, higher-order evidence, epistemic injustice and feminist standpoint epistemology.",
+   "queries": [
+    "epistemology of testimony Hume Reid reductionism",
+    "peer disagreement conciliationism equal weight view Elga",
+    "Fricker epistemic injustice testimonial hermeneutical",
+    "feminist standpoint epistemology Harding Hartsock Code"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bayesian epistemology, induction and confirmation",
+   "scope": "Philosophical and formal treatments of inductive reasoning and degrees of belief, including Hume's problem of induction, Goodman's new riddle, Hempel's raven paradox, conditionalization, Dutch book arguments, the principal principle and the reflection principle.",
+   "queries": [
+    "Goodman new riddle of induction grue bleen",
+    "Hempel raven paradox confirmation",
+    "Dutch book argument Ramsey de Finetti conditionalization",
+    "Lewis principal principle chance credence van Fraassen reflection"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Epistemic logic and paradoxes of knowledge and belief",
+   "scope": "Formal logics of knowledge and belief and the puzzles they shed light on, including Hintikka's epistemic logic, the KK principle, Fitch's knowability paradox, common knowledge, the lottery, preface and surprise-examination paradoxes, Moore's paradox and the Sleeping Beauty problem.",
+   "queries": [
+    "Hintikka Knowledge and Belief epistemic logic S5",
+    "Fitch knowability paradox Church",
+    "lottery paradox Kyburg preface paradox Makinson",
+    "surprise examination paradox Moore's paradox Sleeping Beauty"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

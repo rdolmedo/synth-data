@@ -1,0 +1,864 @@
+{
+ "partition": "reasoning",
+ "category": "Chemistry",
+ "subject": "Chemistry",
+ "target_leaves": 48,
+ "expected_problems": 383,
+ "leaves": [
+  {
+   "leaf": "Symmetry-based vibrational mode counting",
+   "scope": "Assign the point group of a molecule or ion, which may be unusual, and count its IR-active, Raman-active, silent or polarized fundamentals, or the bands expected for isotopologues and lower-symmetry derivatives. Hard because point-group assignment of complex structures and reduction of reducible representations are easy to get wrong.",
+   "techniques": [
+    "point-group assignment with high-order and improper axes",
+    "reduction of the 3N Cartesian reducible representation",
+    "internal-coordinate (stretch-only) representations for \u03bd(CO) or \u03bd(M\u2013X) counting",
+    "descent in symmetry and correlation tables for substitution or site symmetry",
+    "mutual exclusion rule and Raman polarization of totally symmetric modes",
+    "overtone and combination-band symmetries from direct products"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of integers",
+    "list of Mulliken symbols",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nuclear spin statistics in symmetric molecules",
+   "scope": "Compute statistical weights of rotational levels, ortho/para ratios and intensity alternations for molecules with identical nuclei, including nonrigid molecules described by permutation\u2013inversion groups. Hard because nuclear-spin functions of mixed bosons and fermions must be combined with rovibronic symmetry.",
+   "techniques": [
+    "Pauli principle under permutation of identical nuclei",
+    "counting nuclear spin functions by irreducible representation of the permutation group",
+    "molecular symmetry (permutation\u2013inversion) groups for feasible tunneling motions",
+    "rotational subgroup character analysis for symmetric and spherical tops",
+    "high-temperature limits of spin-isomer population ratios",
+    "identifying missing levels for spin-zero bosons"
+   ],
+   "answer_forms": [
+    "rational number",
+    "ratio of integers",
+    "integer",
+    "ordered tuple of statistical weights"
+   ]
+  },
+  {
+   "leaf": "H\u00fcckel \u03c0-MO calculations with heteroatoms",
+   "scope": "Set up and solve H\u00fcckel secular determinants for conjugated, cross-conjugated or heteroatom-containing \u03c0 systems to get energies, charges, bond orders or delocalization energies in closed form. Hard because symmetry factorization and parameterized heteroatom terms must be handled exactly.",
+   "techniques": [
+    "symmetry-adapted block diagonalization of the H\u00fcckel matrix",
+    "Coulson\u2013Rushbrooke pairing theorem for alternant hydrocarbons",
+    "nonbonding MO coefficients via the zero-sum rule",
+    "heteroatom \u03b1+h\u03b2 and k\u03b2 parameterization",
+    "characteristic polynomial via Sachs graphs",
+    "first-order perturbation for substituent effects"
+   ],
+   "answer_forms": [
+    "closed-form expression in \u03b1 and \u03b2",
+    "rational number",
+    "polynomial",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Aromaticity electron counting across topologies",
+   "scope": "Classify ground and excited states of polycyclic, charged, M\u00f6bius-twisted or three-dimensional cage systems as aromatic, antiaromatic or nonaromatic, and work out the consequences, such as which ion or triplet is stabilized. Hard because several counting rules apply in different regimes and the right one has to be chosen.",
+   "techniques": [
+    "H\u00fcckel 4n+2 versus M\u00f6bius 4n counting",
+    "Baird's rule for lowest triplet and excited singlet states",
+    "Hirsch 2(n+1)^2 rule for spherical aromaticity",
+    "perimeter versus internal-bond electron counting in polycycles",
+    "homoaromatic and \u03c3-aromatic electron accounting",
+    "Frost circle energy-level construction"
+   ],
+   "answer_forms": [
+    "integer",
+    "word (aromatic/antiaromatic/nonaromatic)",
+    "small set",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Kekul\u00e9 and Clar structure enumeration",
+   "scope": "Count Kekul\u00e9 structures, Clar sextet covers, conjugated circuits or related graph invariants for benzenoid and non-benzenoid polycyclic hydrocarbons. Hard because direct enumeration grows combinatorially and needs transfer-matrix or recursive graph methods.",
+   "techniques": [
+    "perfect-matching counts via recursive edge deletion",
+    "transfer matrices for linear, zigzag and helical strips",
+    "John\u2013Sachs non-intersecting path method for benzenoids",
+    "Clar number and maximal sextet placement",
+    "Pauling bond orders from Kekul\u00e9 counts",
+    "Randi\u0107 conjugated-circuit resonance energies"
+   ],
+   "answer_forms": [
+    "integer",
+    "rational number",
+    "closed-form expression in n"
+   ]
+  },
+  {
+   "leaf": "P\u00f3lya counting of substitution isomers",
+   "scope": "Count constitutionally distinct, and optionally stereo-distinct, substitution products on a rigid molecular skeleton for a given multiset of substituents. Hard because the correct symmetry group (rotational or full) and the orbits of substitution sites must be identified.",
+   "techniques": [
+    "cycle index of the skeleton's permutation group on substitution sites",
+    "Burnside's lemma with fixed-point counting",
+    "using the proper-rotation subgroup to count enantiomers separately",
+    "orbit decomposition of inequivalent site types",
+    "generating functions for mixed substituent compositions",
+    "separating achiral isomers from chiral pairs"
+   ],
+   "answer_forms": [
+    "integer",
+    "polynomial generating function",
+    "ordered pair of integers"
+   ]
+  },
+  {
+   "leaf": "Stereoisomer counts with pseudoasymmetry and coordination",
+   "scope": "Count stereoisomers, meso forms and enantiomeric pairs for molecules with interdependent stereocenters, pseudoasymmetric centers, axial or planar chirality, or polydentate coordination geometries. Hard because naive 2^n counting fails under symmetry and constrained stereoelements.",
+   "techniques": [
+    "identifying pseudoasymmetric (r/s) centers",
+    "symmetry reduction for constitutionally symmetric chains",
+    "octahedral isomer enumeration for [M(AA)xByCz] types",
+    "atropisomeric and helical chirality as extra stereoelements",
+    "ring constraints that forbid configurations (e.g., trans-fused small rings)",
+    "distinguishing enantiomer pairs from achiral diastereomers"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple (total, chiral pairs, meso)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "CIP descriptors in hierarchically difficult cases",
+   "scope": "Assign R/S, r/s, M/P, E/Z or seqcis/seqtrans descriptors where ranking needs deep hierarchical-digraph exploration, duplicate atoms, or the later sequence rules. Hard because subtle rule ordering often flips the answer.",
+   "techniques": [
+    "hierarchical digraphs with duplicate atoms for rings and multiple bonds",
+    "sphere-by-sphere Rule 1a/1b exploration",
+    "Rule 3 seqcis > seqtrans ranking",
+    "Rule 4 like/unlike descriptor pairing",
+    "Rule 5 for enantiomorphic ligands",
+    "Rule 2 isotopic tie-breaking"
+   ],
+   "answer_forms": [
+    "descriptor string (e.g., 2R,3S)",
+    "letter for multiple choice",
+    "word"
+   ]
+  },
+  {
+   "leaf": "Pericyclic stereochemical outcome prediction",
+   "scope": "Predict products and relative stereochemistry of electrocyclic, cycloaddition, sigmatropic and cheletropic steps, often in thermal or photochemical cascades. Hard because the mode of each step (con/dis, supra/antara) and torquoselectivity must be tracked through several bond reorganizations.",
+   "techniques": [
+    "Woodward\u2013Hoffmann component counting (4q+2)s/(4r)a",
+    "M\u00f6bius\u2013H\u00fcckel transition-state analysis",
+    "torquoselectivity of substituted cyclobutene openings",
+    "endo rule and secondary orbital interactions",
+    "chair versus boat transition states in [3,3] shifts",
+    "suprafacial/antarafacial constraints on [1,j] shifts"
+   ],
+   "answer_forms": [
+    "relative stereodescriptor",
+    "name of product",
+    "integer (number of stereoisomeric products)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Isotopic label tracing through rearrangements",
+   "scope": "Follow a 13C, 2H, 18O or 15N label through multistep mechanisms such as rearrangements, scrambling equilibria and degenerate shifts, and predict how the label is distributed in the product. Hard because scrambling through symmetric intermediates and competing pathways must be quantified.",
+   "techniques": [
+    "atom mapping through cationic 1,2-shifts",
+    "degenerate rearrangements and statistical scrambling",
+    "symmetric intermediates (cyclopropanones, arynes, bridged ions) that split the label",
+    "solvent oxygen exchange through carbonyl hydrate equilibria",
+    "fractional label incorporation from rate competition",
+    "predicting positional 13C NMR enhancement"
+   ],
+   "answer_forms": [
+    "atom-position locant",
+    "rational number (fraction labeled)",
+    "ordered tuple of percentages",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Carbocation cascade cyclization skeleton prediction",
+   "scope": "Predict the carbon skeleton, ring sizes and new stereocenters from cationic polyene cyclizations and terpene-synthase-like hydride and alkyl shift cascades. Hard because Markovnikov, conformational and stereoelectronic choices at each step compound.",
+   "techniques": [
+    "chair\u2013chair versus chair\u2013boat folding of polyene chains",
+    "Markovnikov versus anti-Markovnikov ring-closure size rules",
+    "1,2-hydride and methyl shift sequences toward tertiary cations",
+    "Wagner\u2013Meerwein rearrangements in bicyclic cations",
+    "Stork\u2013Eschenmoser antiparallel addition stereochemistry",
+    "regiochemistry of terminating deprotonation or nucleophile capture"
+   ],
+   "answer_forms": [
+    "name of skeleton or compound",
+    "integer (new rings or stereocenters)",
+    "molecular formula",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Multistep synthesis product deduction",
+   "scope": "From a starting material and a reagent sequence given without structures, deduce the final product and report a structural property such as its formula, stereocenter count or NMR signal count. Hard because chemoselectivity, protecting-group behavior and stereochemistry must be tracked over many steps.",
+   "techniques": [
+    "chemoselectivity of hydride and organometallic reagents",
+    "Felkin\u2013Anh versus chelation control in additions",
+    "protecting-group orthogonality",
+    "kinetic versus thermodynamic enolate regioselectivity",
+    "symmetry analysis of the product for signal counting",
+    "oxidation-level bookkeeping"
+   ],
+   "answer_forms": [
+    "integer",
+    "molecular formula",
+    "name of compound",
+    "SMILES string"
+   ]
+  },
+  {
+   "leaf": "Conformational energy analysis of rings",
+   "scope": "Compute or rank conformational free energies and equilibrium populations for substituted cyclohexanes, decalins, heterocycles and medium rings using additive increments and stereoelectronic corrections. Hard because 1,3-diaxial, gauche, anomeric and syn-pentane terms must be combined correctly.",
+   "techniques": [
+    "A-value additivity and its breakdown for 1,3-diaxial pairs",
+    "gauche-butane counting in decalins and perhydrophenanthrenes",
+    "anomeric-effect corrections in tetrahydropyrans",
+    "syn-pentane interaction penalties",
+    "Boltzmann populations from \u0394G\u00b0",
+    "ring-flip versus configurationally locked analysis"
+   ],
+   "answer_forms": [
+    "real number (kcal/mol)",
+    "integer (gauche interaction count)",
+    "percentage",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Structure elucidation from combined spectral data",
+   "scope": "Deduce an unknown structure from its formula, degree of unsaturation, IR, 1H/13C NMR with DEPT and 2D correlations, and MS fragments, all given as text. Hard because several candidate isomers fit partial data and only the full set of constraints gives a unique answer.",
+   "techniques": [
+    "degree of unsaturation from the formula",
+    "DEPT bookkeeping of CH3/CH2/CH/C",
+    "assembling connectivity from 2\u20133-bond HMBC correlations",
+    "McLafferty and \u03b1-cleavage fragment interpretation",
+    "inferring symmetry from signal counts",
+    "chemical-shift additivity rules"
+   ],
+   "answer_forms": [
+    "name of compound",
+    "SMILES string",
+    "molecular formula",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "NMR spin system multiplet analysis",
+   "scope": "Predict line counts, intensities and appearance of multiplets for coupled spin systems, including heteronuclei, magnetic inequivalence and second-order AB and AA'BB' effects. Hard because chemical versus magnetic equivalence and nuclei with spin above 1/2 break the naive n+1 rule.",
+   "techniques": [
+    "Pople spin-system notation and magnetic-equivalence tests",
+    "multiplicity with spin >1/2 nuclei (2nI+1)",
+    "tree diagrams with unequal couplings",
+    "AB quartet line positions and roofing",
+    "satellite spectra from low-abundance isotopes (13C, 195Pt, 117/119Sn)",
+    "Karplus-based coupling estimates for stereochemistry"
+   ],
+   "answer_forms": [
+    "integer (number of lines)",
+    "ordered tuple of relative intensities",
+    "real number (Hz)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "EPR hyperfine pattern prediction",
+   "scope": "Predict line counts, intensity ratios and spacings in EPR spectra of radicals and paramagnetic complexes with several sets of equivalent nuclei, including isotopic mixtures. Hard because the combinatorics of nuclear-spin coupling must be combined with natural-abundance weighting.",
+   "techniques": [
+    "multinomial line intensities for n equivalent spin-I nuclei",
+    "convolving hyperfine patterns from inequivalent sets",
+    "natural-abundance isotopologue weighting",
+    "McConnell relation for spin densities",
+    "g-anisotropy and axial spectrum features",
+    "detecting coincident overlapping lines"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple of intensities",
+    "real number (spin density or mT)"
+   ]
+  },
+  {
+   "leaf": "Mass spectral isotope pattern calculation",
+   "scope": "Compute relative intensities of isotopologue peaks (M, M+1, M+2, \u2026) for molecules containing polyisotopic elements such as Cl, Br, S, Sn, Hg or transition metals. Hard because multinomial expansions over several elements must be combined and normalized.",
+   "techniques": [
+    "polynomial expansion of isotopic abundances",
+    "convolving element-wise isotope distributions",
+    "distinguishing nominal from exact mass using mass defect",
+    "identifying the most abundant peak",
+    "peak spacing for multiply charged ESI ions",
+    "nitrogen rule and ring-plus-double-bond constraints"
+   ],
+   "answer_forms": [
+    "ordered tuple of relative intensities",
+    "integer (m/z)",
+    "rational number",
+    "molecular formula"
+   ]
+  },
+  {
+   "leaf": "Atomic term symbols and microstate enumeration",
+   "scope": "Derive allowed Russell\u2013Saunders terms, ground terms and level degeneracies for open-shell configurations, including mixed and f^n configurations, and relate them to jj coupling. Hard because Pauli restrictions on equivalent electrons make direct counting tedious and error-prone.",
+   "techniques": [
+    "microstate tabulation by ML and MS",
+    "Hund's rules, including the J rule beyond half filling",
+    "complementarity of l^n and l^(4l+2\u2212n)",
+    "vector coupling for non-equivalent electrons",
+    "seniority and parentage for f^n",
+    "correlating jj-coupled levels with LS terms"
+   ],
+   "answer_forms": [
+    "term symbol",
+    "integer (number of microstates or levels)",
+    "small set of term symbols"
+   ]
+  },
+  {
+   "leaf": "Ligand field spectra and magnetism",
+   "scope": "Predict d\u2013d transition counts and energies, spin states, LFSE and magnetic moments of transition-metal complexes using Tanabe\u2013Sugano analysis and Racah parameters. Hard because spin-crossover regions, Jahn\u2013Teller distortion and orbital contributions change the simple predictions.",
+   "techniques": [
+    "reading Tanabe\u2013Sugano diagrams and extracting \u0394/B",
+    "counting spin-allowed transitions from term splitting in Oh and Td",
+    "LFSE including pairing energy",
+    "spin-only versus orbitally contributing magnetic moments",
+    "identifying Jahn\u2013Teller-active configurations",
+    "nephelauxetic ratio \u03b2"
+   ],
+   "answer_forms": [
+    "integer",
+    "real number (cm^-1 or \u03bcB)",
+    "term symbol",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Exchange-coupled polynuclear magnetism",
+   "scope": "Find spin ground states, energy ladders and susceptibility features of exchange-coupled di- and polynuclear clusters under Heisenberg\u2013Dirac\u2013van Vleck Hamiltonians. Hard because total-spin coupling schemes and spin frustration must be handled exactly.",
+   "techniques": [
+    "Kambe vector coupling for symmetric clusters",
+    "Bleaney\u2013Bowers susceptibility for dimers",
+    "Land\u00e9 interval rule for spin ladders",
+    "Goodenough\u2013Kanamori rules for the sign of superexchange",
+    "spin frustration in triangular topologies",
+    "counting degeneracies of spin multiplets"
+   ],
+   "answer_forms": [
+    "integer (ground-state S or degeneracy)",
+    "closed-form expression in J",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Cluster and borane electron counting",
+   "scope": "Predict polyhedral shapes, closo/nido/arachno classes, styx numbers and electron counts for boranes, carboranes, metallaboranes and transition-metal carbonyl clusters, including condensed polyhedra. Hard because isolobal substitutions and condensation rules must be applied consistently.",
+   "techniques": [
+    "Wade's skeletal electron pair counting",
+    "Mingos PSEPT for condensed clusters",
+    "isolobal analogy between fragments",
+    "Lipscomb styx topology equations",
+    "capping principle",
+    "total valence electron counts for metal polyhedra"
+   ],
+   "answer_forms": [
+    "integer",
+    "name of polyhedron",
+    "ordered tuple (s,t,y,x)",
+    "word (closo/nido/arachno/hypho)"
+   ]
+  },
+  {
+   "leaf": "Organometallic catalytic cycle bookkeeping",
+   "scope": "Track oxidation state, d-electron count, total valence electrons and coordination number of metal intermediates through catalytic cycles involving oxidative addition, migratory insertion, \u03b2-elimination and reductive elimination. Hard because ligand classes, bridging ligands and non-innocent ligands make the counts ambiguous.",
+   "techniques": [
+    "covalent (neutral) versus ionic counting conventions",
+    "MLXZ classification and equivalent neutral class",
+    "identifying elementary steps from changes in oxidation state and coordination number",
+    "redox accounting for non-innocent ligands",
+    "hapticity changes (ring slippage)",
+    "16- and 18-electron preference rules"
+   ],
+   "answer_forms": [
+    "ordered tuple (oxidation state, d-count, valence electrons)",
+    "integer",
+    "name of elementary step",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Fluxional polytopal rearrangement isomer counting",
+   "scope": "Count permutational isomers and work out which ligand sites interconvert under a stated dynamic process, such as Berry pseudorotation, turnstile rotation, Bailar or Ray\u2013Dutt twists, or ring whizzing. Hard because the process graphs and the resulting NMR equivalences need group-theoretic analysis.",
+   "techniques": [
+    "counting permutational isomers by coset decomposition",
+    "connectivity of the Berry pseudorotation (Desargues\u2013Levi) graph",
+    "trigonal-twist mechanisms for octahedral chelates",
+    "1,2- versus 1,3-shifts in \u03b71-cyclopentadienyl complexes",
+    "time-averaged NMR equivalence classes",
+    "apicophilicity constraints"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of site labels",
+    "name of mechanism",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Molecular orbital and Walsh diagram reasoning",
+   "scope": "Build qualitative MO diagrams for homonuclear and heteronuclear diatomics and small polyatomics to predict bond orders, magnetism, effects of ionization and changes of geometry with electron count. Hard because of s\u2013p mixing, orbital-ordering inversions and subtleties in Walsh correlations.",
+   "techniques": [
+    "s\u2013p mixing and the \u03c3g/\u03c0u ordering switch",
+    "bond-order changes on ionization or excitation",
+    "Walsh correlation for bending of AH2 and AB2",
+    "frontier-orbital symmetry in HAB molecules",
+    "3-center-4-electron bonding in hypervalent species",
+    "assigning photoelectron bands via Koopmans' theorem"
+   ],
+   "answer_forms": [
+    "rational number (bond order)",
+    "integer",
+    "word (linear/bent, paramagnetic/diamagnetic)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Rovibrational and electronic band analysis",
+   "scope": "Compute line positions, assignments, band heads, combination differences and molecular constants from rotational, rovibrational or rotationally resolved electronic spectra. Hard because centrifugal distortion, isotope shifts and P/Q/R branch structure must be handled quantitatively.",
+   "techniques": [
+    "rigid and nonrigid rotor energy formulas",
+    "combination differences for B' and B''",
+    "Fortrat parabola and band-head J",
+    "reduced-mass scaling for isotopic substitution",
+    "\u0394K selection rules for symmetric tops",
+    "most-populated J from the Boltzmann distribution"
+   ],
+   "answer_forms": [
+    "real number (cm^-1 or \u00c5)",
+    "integer (J value)",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Anharmonic potentials and Franck\u2013Condon progressions",
+   "scope": "Use Morse or other anharmonic potentials and displaced-oscillator models to compute bound-state counts, dissociation energies, Birge\u2013Sponer extrapolations and vibronic intensity distributions. Hard because the exact quantum results near dissociation differ from classical intuition.",
+   "techniques": [
+    "Morse level formula and number of bound states",
+    "Birge\u2013Sponer extrapolation of D0",
+    "Huang\u2013Rhys factor and Poisson progressions",
+    "zero-point isotope effects on D0",
+    "Condon approximation and overlap integrals",
+    "Dunham coefficient relations"
+   ],
+   "answer_forms": [
+    "integer",
+    "real number",
+    "closed-form expression",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Statistical thermodynamics from partition functions",
+   "scope": "Compute equilibrium constants, heat capacities, entropies or isotope-exchange equilibria from molecular partition functions with symmetry numbers and electronic degeneracies. Hard because symmetry numbers, zero-point references and low-lying states must all be included exactly.",
+   "techniques": [
+    "determining rotational symmetry numbers",
+    "factorizing translational, rotational and vibrational partition functions",
+    "isotope-exchange equilibria (Urey\u2013Bigeleisen\u2013Mayer)",
+    "Schottky anomaly of two-level systems",
+    "residual entropy from orientational disorder",
+    "contributions from electronic degeneracy and spin\u2013orbit splitting"
+   ],
+   "answer_forms": [
+    "real number",
+    "rational number",
+    "closed-form expression",
+    "integer (symmetry number)"
+   ]
+  },
+  {
+   "leaf": "Determinant and CSF counting in quantum chemistry",
+   "scope": "Count Slater determinants, configuration state functions, basis functions or nonzero Hamiltonian matrix elements for given active spaces, basis sets and symmetries, and evaluate matrix elements with the Slater\u2013Condon rules. Hard because spin and spatial-symmetry restrictions cut the naive combinatorial counts.",
+   "techniques": [
+    "Weyl\u2013Paldus dimension formula for CSFs",
+    "determinant counting with Ms and spatial-symmetry restrictions",
+    "Slater\u2013Condon rules for one- and two-electron matrix elements",
+    "spherical versus Cartesian basis-function counts for contracted shells",
+    "8-fold permutational symmetry of two-electron integrals",
+    "zero matrix elements from Brillouin's theorem"
+   ],
+   "answer_forms": [
+    "integer",
+    "closed-form expression",
+    "polynomial in n"
+   ]
+  },
+  {
+   "leaf": "Mechanistic rate law derivation",
+   "scope": "Derive rate laws, apparent orders and effective activation energies from multistep mechanisms using steady-state, pre-equilibrium and rate-determining-step approximations, or deduce mechanisms consistent with given kinetic data. Hard because limiting regimes change the orders and the composite activation energies.",
+   "techniques": [
+    "steady-state approximation for reactive intermediates",
+    "pre-equilibrium and Lindemann\u2013Hinshelwood falloff",
+    "chain initiation, propagation and termination analysis",
+    "effective activation energy as a signed sum of elementary Ea values",
+    "integrated rate laws for consecutive and parallel reactions",
+    "limiting-regime analysis at high and low concentration"
+   ],
+   "answer_forms": [
+    "closed-form rate expression",
+    "rational number (reaction order)",
+    "real number (kJ/mol)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Nonlinear chemical kinetics stability analysis",
+   "scope": "Analyze model reaction networks with feedback such as autocatalysis or inhibition for steady states, linear stability, bifurcation points, bistability, oscillations or Turing instabilities. Hard because the Jacobian analysis and the boundaries in parameter space need exact algebra.",
+   "techniques": [
+    "Jacobian eigenvalue analysis at fixed points",
+    "Hopf bifurcation conditions (zero trace, positive determinant)",
+    "saddle-node bistability from cubic steady-state equations",
+    "Turing instability with unequal diffusion coefficients",
+    "building mass-action ODEs from networks",
+    "Routh\u2013Hurwitz criteria for three-variable systems"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "rational number",
+    "integer (number of steady states)",
+    "inequality on parameters"
+   ]
+  },
+  {
+   "leaf": "Kinetic isotope effects and transition state theory",
+   "scope": "Estimate primary and secondary kinetic isotope effects, tunneling corrections and Eyring activation parameters from vibrational frequencies and temperature dependence. Hard because the size of the effect depends on zero-point energy differences and on the nature of the transition state.",
+   "techniques": [
+    "zero-point-energy KIE from stretching frequencies",
+    "Swain\u2013Schaad exponents relating H, D and T",
+    "Wigner tunneling correction",
+    "extracting \u0394H\u2021 and \u0394S\u2021 from Eyring plots",
+    "secondary \u03b1-deuterium KIE from hybridization change",
+    "Bigeleisen\u2013Mayer formulation"
+   ],
+   "answer_forms": [
+    "real number",
+    "rational number",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Marcus electron transfer quantitative analysis",
+   "scope": "Compute electron-transfer rates, reorganization energies, cross-reaction rate constants and inverted-region behavior from Marcus theory and its extensions. Hard because the dependence on driving force is non-monotonic and self-exchange parameters combine non-additively.",
+   "techniques": [
+    "Marcus quadratic free-energy relation",
+    "Marcus cross relation from self-exchange rates",
+    "inner- and outer-sphere reorganization energies (dielectric continuum)",
+    "rate maximum at \u2212\u0394G\u00b0 = \u03bb and the inverted region",
+    "Marcus\u2013Hush analysis of intervalence bands",
+    "Robin\u2013Day classification"
+   ],
+   "answer_forms": [
+    "real number",
+    "closed-form expression",
+    "ratio of rate constants",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Curtin\u2013Hammett and stereoselectivity quantification",
+   "scope": "Quantify product ratios, enantiomeric excess and kinetic-resolution outcomes from competing transition states, interconverting conformers or catalyst systems. Hard because the kinetic regime (Curtin\u2013Hammett or conformational lock, kinetic or thermodynamic control) decides which energies matter.",
+   "techniques": [
+    "Curtin\u2013Hammett product ratios",
+    "ee from \u0394\u0394G\u2021 via the Boltzmann ratio",
+    "kinetic-resolution selectivity factor versus conversion",
+    "nonlinear effects in Kagan ML_n models",
+    "Horeau principle for amplifying selectivity",
+    "yield limits in dynamic kinetic resolution"
+   ],
+   "answer_forms": [
+    "percentage",
+    "real number",
+    "rational number",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Linear free-energy relationship analysis",
+   "scope": "Use Hammett, Taft, Br\u00f8nsted, Swain\u2013Scott, Grunwald\u2013Winstein or Mayr relations to compute rate and equilibrium ratios, infer charge development in transition states, or interpret breaks in correlations. Hard because the right substituent constant (\u03c3, \u03c3+ or \u03c3\u2212) must be chosen and changes of mechanism recognized.",
+   "techniques": [
+    "Hammett \u03c1\u03c3 calculations with additive substituents",
+    "choosing \u03c3+ or \u03c3\u2212 for through-conjugation",
+    "Br\u00f8nsted \u03b1/\u03b2 and Leffler interpretation",
+    "concave and convex Hammett plots as signs of mechanism change",
+    "Yukawa\u2013Tsuno extension",
+    "Mayr nucleophilicity/electrophilicity equation"
+   ],
+   "answer_forms": [
+    "real number",
+    "rational number",
+    "ratio of rate constants",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Photophysical kinetics and energy transfer",
+   "scope": "Compute quantum yields, lifetimes, quenching constants and energy-transfer efficiencies from kinetic schemes for excited-state decay. Hard because competing channels, static versus dynamic quenching, and distance dependences must be combined.",
+   "techniques": [
+    "quantum yields from Jablonski branching ratios",
+    "Stern\u2013Volmer analysis with combined static and dynamic quenching",
+    "F\u00f6rster R0^6 distance dependence of FRET efficiency",
+    "exponential distance dependence of Dexter exchange",
+    "Strickler\u2013Berg estimate of the radiative rate",
+    "kinetics of triplet sensitization and triplet\u2013triplet annihilation"
+   ],
+   "answer_forms": [
+    "real number",
+    "rational number",
+    "percentage",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Multi-step enzyme kinetics derivation",
+   "scope": "Derive steady-state rate equations and inhibition patterns for enzyme mechanisms with several substrates or intermediates, and interpret the kinetic parameters. Hard because ordered, random and ping-pong mechanisms give distinct but easily confused patterns.",
+   "techniques": [
+    "King\u2013Altman graph method",
+    "Cleland net rate constant method",
+    "diagnosing competitive, uncompetitive and mixed inhibition",
+    "ping-pong versus sequential double-reciprocal patterns",
+    "Hill coefficients and MWC allosteric models",
+    "kcat/KM specificity and commitment factors"
+   ],
+   "answer_forms": [
+    "closed-form rate expression",
+    "real number",
+    "word (inhibition type or mechanism)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Polyprotic acid\u2013base speciation",
+   "scope": "Compute exact pH, fractional compositions, isoelectric points, buffer capacities and titration-curve features for polyprotic acids, ampholytes and mixtures. Hard because the usual approximations fail when pKa values are close or concentrations are low.",
+   "techniques": [
+    "exact charge and proton balances solved as polynomials",
+    "alpha-fraction expressions for polyprotic species",
+    "isoelectric point of ampholytes with several groups",
+    "buffer capacity \u03b2 as the derivative of the titration curve",
+    "micro- versus macro-acidity constants",
+    "Gran plot linearization"
+   ],
+   "answer_forms": [
+    "real number (pH)",
+    "rational number",
+    "closed-form expression",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Competing solubility and complexation equilibria",
+   "scope": "Determine solubilities, free-metal concentrations and selective-precipitation conditions for systems with simultaneous complexation, hydrolysis and pH dependence. Hard because conditional constants and solubility minima come from coupled equilibria.",
+   "techniques": [
+    "conditional formation constants with side-reaction coefficients",
+    "solubility minimum of amphoteric hydroxides",
+    "cumulative \u03b2_n for stepwise complexation",
+    "thresholds for selective precipitation",
+    "feasibility criteria for EDTA titrations",
+    "ionic-strength corrections with the Davies equation"
+   ],
+   "answer_forms": [
+    "real number",
+    "real number (pH)",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Pourbaix and Frost diagram reasoning",
+   "scope": "Construct or interpret potential\u2013pH, Frost and Latimer diagrams to identify stable species, disproportionation tendencies and unknown standard potentials. Hard because combining half-reactions with different electron counts and pH dependences needs careful free-energy bookkeeping.",
+   "techniques": [
+    "combining potentials through \u0394G = \u2212nFE",
+    "computing non-adjacent potentials from Latimer diagrams",
+    "disproportionation from convex points on Frost diagrams",
+    "Nernst lines with slope \u22120.059(m/n) per pH unit",
+    "stability-field boundaries and triple points",
+    "comproportionation equilibrium constants"
+   ],
+   "answer_forms": [
+    "real number (V)",
+    "name of species",
+    "real number (pH)",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Voltammetry and electrode kinetics",
+   "scope": "Analyze cyclic voltammetry, chronoamperometry and polarization data to extract diffusion coefficients, rate constants, electron counts and coupled-chemistry mechanisms. Hard because reversibility regimes and coupled chemical steps (EC, ECE) change the diagnostic criteria.",
+   "techniques": [
+    "Randles\u2013\u0160ev\u010d\u00edk peak-current scaling",
+    "Nicholson \u03c8 and peak separation for quasi-reversible systems",
+    "Butler\u2013Volmer and Tafel slope analysis",
+    "Cottrell equation for chronoamperometry",
+    "diagnosing EC and ECE mechanisms",
+    "Levich equation for rotating disk electrodes"
+   ],
+   "answer_forms": [
+    "real number",
+    "integer (electrons transferred)",
+    "name of mechanism",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Phase diagrams and the phase rule",
+   "scope": "Apply the Gibbs phase rule, the lever rule and thermodynamic models to binary and ternary phase diagrams, azeotropes, eutectics and solid solutions. Hard because reading coexistence regions and computing compositions need careful geometric and thermodynamic reasoning.",
+   "techniques": [
+    "Gibbs phase rule with reaction constraints",
+    "lever rule in binary and ternary (triangular) diagrams",
+    "regular-solution critical temperature",
+    "Schreinemakers rules at invariant points",
+    "identifying eutectic and peritectic reactions",
+    "Clausius\u2013Clapeyron slope estimates"
+   ],
+   "answer_forms": [
+    "integer (degrees of freedom)",
+    "rational number",
+    "real number",
+    "ordered tuple of compositions"
+   ]
+  },
+  {
+   "leaf": "Polymerization statistics and copolymer composition",
+   "scope": "Compute molecular-weight averages, gel points, dispersity and copolymer sequence statistics for step-growth, chain-growth and living polymerizations. Hard because stoichiometric imbalance, functionality distributions and reactivity ratios interact nonlinearly.",
+   "techniques": [
+    "Carothers equation with stoichiometric imbalance",
+    "Flory\u2013Stockmayer gel point for multifunctional monomers",
+    "Mayo\u2013Lewis copolymer equation and sequence probabilities",
+    "Poisson distribution in living polymerization",
+    "Mn, Mw and dispersity from distributions",
+    "chain-transfer constants via the Mayo equation"
+   ],
+   "answer_forms": [
+    "rational number",
+    "real number",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Crystallographic extinctions and structure factors",
+   "scope": "Determine systematic absences, allowed reflections and structure-factor magnitudes for given lattices, space groups and atomic arrangements. Hard because lattice centering, glide planes and screw axes give overlapping extinction conditions.",
+   "techniques": [
+    "structure-factor summation over basis atoms",
+    "absence conditions for I, F, C and R centering",
+    "zonal and serial absences from glides and screw axes",
+    "Friedel's law and anomalous scattering",
+    "d-spacing formulas for non-cubic cells",
+    "indexing powder patterns from Bragg angles"
+   ],
+   "answer_forms": [
+    "integer",
+    "ordered tuple (Miller indices)",
+    "name of space group",
+    "real number"
+   ]
+  },
+  {
+   "leaf": "Point defect equilibria in ionic solids",
+   "scope": "Write and solve defect reactions in Kr\u00f6ger\u2013Vink notation to predict defect concentrations, Brouwer-diagram slopes, and how conductivity depends on oxygen partial pressure or dopant level. Hard because the dominant electroneutrality condition switches between regimes, each with its own power-law exponent.",
+   "techniques": [
+    "Kr\u00f6ger\u2013Vink notation with site and charge balance",
+    "Brouwer approximation regime analysis",
+    "oxygen partial-pressure exponents for charge carriers",
+    "compensation mechanisms for aliovalent doping",
+    "Schottky and Frenkel pair equilibria",
+    "mass-action treatment of nonstoichiometry"
+   ],
+   "answer_forms": [
+    "rational number (exponent)",
+    "closed-form expression",
+    "defect reaction in Kr\u00f6ger\u2013Vink notation",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Tight-binding band structure of extended solids",
+   "scope": "Use tight-binding or H\u00fcckel models of periodic chains, ladders and 2D lattices to derive band dispersions, bandwidths, Fermi levels and Peierls instabilities. Hard because doubling of the unit cell, band folding and band filling must be treated consistently.",
+   "techniques": [
+    "Bloch functions for 1D and 2D lattices",
+    "band folding on cell doubling",
+    "Peierls distortion and gap opening at half filling",
+    "van Hove singularities in the density of states",
+    "crystal orbital overlap population analysis",
+    "band filling from Zintl electron counting"
+   ],
+   "answer_forms": [
+    "closed-form expression",
+    "real number",
+    "integer",
+    "word (metal/semiconductor/insulator)"
+   ]
+  },
+  {
+   "leaf": "Framework topology and coordination sequences",
+   "scope": "Analyze the nets of zeolites, MOFs and inorganic frameworks: coordination sequences, vertex symbols, ring counts, framework density and composition constraints such as Loewenstein's rule. Hard because topological descriptors need careful combinatorial enumeration on periodic graphs.",
+   "techniques": [
+    "computing coordination sequences of periodic nets",
+    "vertex and point symbols",
+    "Loewenstein Al\u2013O\u2013Al avoidance limits on Si/Al",
+    "identifying RCSR nets from node connectivity",
+    "framework density and T-atoms per cell",
+    "decomposition into secondary building units"
+   ],
+   "answer_forms": [
+    "integer sequence",
+    "integer",
+    "name of net (three-letter code)",
+    "rational number"
+   ]
+  },
+  {
+   "leaf": "Radioactive decay chains and radiochemistry",
+   "scope": "Solve Bateman-type decay chains, secular and transient equilibria, neutron-activation yields, and Q-value and decay-mode questions. Hard because branching, ingrowth timing and energetics must be combined.",
+   "techniques": [
+    "Bateman equations for multi-member chains",
+    "criteria for transient versus secular equilibrium",
+    "time of maximum daughter activity",
+    "activation yields with saturation factors",
+    "Q-values from atomic masses with electron-mass bookkeeping",
+    "whether \u03b2+, EC or \u03b1 decay is energetically allowed"
+   ],
+   "answer_forms": [
+    "real number",
+    "closed-form expression",
+    "name of nuclide",
+    "integer"
+   ]
+  },
+  {
+   "leaf": "Surface adsorption and overlayer structures",
+   "scope": "Determine adsorption-isotherm parameters, coverages, overlayer periodicities and LEED patterns for adsorbates on single-crystal surfaces. Hard because Wood and matrix notation, adsorption-site geometry and coverage must all agree.",
+   "techniques": [
+    "Wood and matrix notation for overlayers",
+    "coverage from overlayer unit-cell area",
+    "Langmuir isotherms, including dissociative adsorption",
+    "BET surface-area analysis",
+    "Fowler\u2013Guggenheim lateral-interaction isotherms",
+    "Redhead analysis of TPD desorption energies"
+   ],
+   "answer_forms": [
+    "rational number (coverage)",
+    "Wood notation string",
+    "real number",
+    "integer"
+   ]
+  }
+ ]
+}

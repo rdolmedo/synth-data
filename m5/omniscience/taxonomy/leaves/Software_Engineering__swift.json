@@ -1,0 +1,569 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "swift",
+ "weight": 0.008698000000000001,
+ "leaves": [
+  {
+   "leaf": "Swift project history, release timeline and governance",
+   "scope": "Swift's origins at Apple, the dates and headline features of releases from 1.0 to 6.x, open-sourcing and Swift.org, and the Core Team, steering groups, workgroups and Swift Evolution proposal process.",
+   "queries": [
+    "Swift programming language Chris Lattner WWDC 2014",
+    "Swift open source December 2015 Swift.org",
+    "Swift 5.0 release date Xcode version",
+    "Swift Evolution proposal review Core Team steering group"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Language modes, source compatibility and migration",
+   "scope": "Swift language modes and the -swift-version flag, source-breaking changes, upcoming and experimental feature flags, migration tooling, the Swift 3 Great Renaming and the API Design Guidelines.",
+   "queries": [
+    "Swift 6 language mode migration guide",
+    "enable-upcoming-feature flag SE-0362 upcoming features",
+    "Swift 3 API design guidelines great renaming",
+    "swift-version compatibility mode source breaking changes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Lexical structure, literals and operator declarations",
+   "scope": "Identifiers, keywords, comments, literal syntax, the ExpressibleBy literal protocols, custom prefix/infix/postfix operators, precedencegroup declarations and the standard operator precedence table.",
+   "queries": [
+    "precedencegroup associativity higherThan custom infix operator",
+    "ExpressibleByIntegerLiteral ExpressibleByArrayLiteral literal protocols",
+    "Swift lexical structure reserved keywords identifiers",
+    "raw identifiers SE-0451 backtick names"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Optionals and optional chaining",
+   "scope": "The Optional enum, optional binding including if-let shorthand, guard let, optional chaining, nil-coalescing, force unwrapping, implicitly unwrapped optionals and the Optional API.",
+   "queries": [
+    "optional chaining nil coalescing operator Swift",
+    "implicitly unwrapped optional SE-0054",
+    "if let shorthand unwrapping optional SE-0345",
+    "Optional map flatMap unsafelyUnwrapped Wrapped"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Structs, classes, inheritance and value semantics",
+   "scope": "Value versus reference types, mutating methods, class inheritance and overriding, final, identity operators, copy-on-write and uniqueness checks.",
+   "queries": [
+    "structures classes value types reference types",
+    "copy-on-write isKnownUniquelyReferenced value semantics",
+    "class inheritance override final preventing overrides",
+    "identity operators mutating methods self assignment"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Initializers, deinitializers and properties",
+   "scope": "Designated, convenience, failable and required initializers, two-phase initialization and initializer inheritance rules, deinit, and stored, computed, lazy and type properties with property observers.",
+   "queries": [
+    "two-phase initialization designated convenience initializer delegation",
+    "failable initializer init? required initializer",
+    "lazy stored properties willSet didSet observers",
+    "deinitializer memberwise initializer structure default values"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Enumerations and associated values",
+   "scope": "Enum cases, raw values, associated values, indirect enums, CaseIterable, frozen versus non-frozen enums and @unknown default handling.",
+   "queries": [
+    "enumeration associated values raw values Swift",
+    "indirect enum recursive enumeration case",
+    "CaseIterable allCases SE-0194 derived collection",
+    "unknown default frozen enum SE-0192"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Protocols, extensions and protocol-oriented programming",
+   "scope": "Protocol requirements, associated types, protocol extensions and default implementations, synthesized Equatable/Hashable/Comparable conformances, conditional and retroactive conformance, and protocol composition.",
+   "queries": [
+    "protocol extensions default implementations associatedtype",
+    "conditional conformance SE-0143 where clause",
+    "synthesized Equatable Hashable conformance SE-0185",
+    "retroactive conformance attribute SE-0364 warning"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generics, opaque types and existentials",
+   "scope": "Generic functions and types, where clauses, opaque result types (some), explicit existentials (any), primary associated types, parameter packs and variadic generics.",
+   "queries": [
+    "opaque result types some keyword SE-0244",
+    "any existential type SE-0335 explicit",
+    "parameter packs variadic generics repeat each",
+    "primary associated types SE-0346 lightweight constraints"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Key paths, metatypes and type casting",
+   "scope": "The KeyPath class hierarchy, key path expressions and key paths used as functions, metatypes (.Type, .self, type(of:)), Any and AnyObject, is/as?/as! casting, and Self.",
+   "queries": [
+    "KeyPath WritableKeyPath ReferenceWritableKeyPath hierarchy",
+    "key path expressions as functions SE-0249",
+    "metatype type(of:) self Type Swift",
+    "type casting is as? as! Any AnyObject"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Functions and closures",
+   "scope": "Argument labels, default and variadic parameters, inout, function types, closure syntax, escaping and autoclosure parameters, single and multiple trailing closures, and implicit returns.",
+   "queries": [
+    "escaping closures autoclosure trailing closure syntax",
+    "multiple trailing closures SE-0279 forward scan",
+    "in-out parameters variadic parameters argument labels",
+    "implicit returns single-expression functions SE-0255"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Control flow and pattern matching",
+   "scope": "Loops, switch with patterns and value bindings, where clauses, labeled statements, guard, defer, fallthrough, if and switch expressions, the ~= pattern operator and availability conditions.",
+   "queries": [
+    "switch statement patterns value bindings where clause",
+    "if and switch expressions SE-0380",
+    "defer guard fallthrough labeled statements",
+    "expression pattern operator tuple pattern enum case"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Error handling and typed throws",
+   "scope": "The Error protocol, throw/try/try?/try!, do-catch, rethrows, the Result type, typed throws, and assertions, preconditions and fatalError.",
+   "queries": [
+    "typed throws SE-0413 throws error type",
+    "do catch try? try! error propagation",
+    "Result type SE-0235 Success Failure get",
+    "rethrows functions precondition fatalError assertion"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "async/await, tasks and structured concurrency",
+   "scope": "Async functions, await, async let, Task and detached tasks, task groups, cancellation, priorities, AsyncSequence and AsyncStream, continuations and task-local values.",
+   "queries": [
+    "async let structured concurrency SE-0317",
+    "withTaskGroup withThrowingTaskGroup addTask cancellation",
+    "AsyncStream AsyncSequence for await continuation",
+    "Task detached priority task-local values"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Actors, Sendable and data-race safety",
+   "scope": "Actors and actor isolation, global actors and @MainActor, Sendable and @Sendable, nonisolated, region-based isolation and sending, Swift 6 strict concurrency checking and distributed actors.",
+   "queries": [
+    "actor isolation global actor MainActor nonisolated",
+    "Sendable protocol Sendable closures SE-0302",
+    "region based isolation sending parameter SE-0430",
+    "distributed actor DistributedActorSystem SE-0336"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ARC and memory safety",
+   "scope": "Automatic Reference Counting, strong/weak/unowned references, strong reference cycles involving instances and closures, capture lists, and exclusive-access memory safety rules.",
+   "queries": [
+    "automatic reference counting weak unowned references",
+    "strong reference cycles closures capture list",
+    "exclusive access memory safety conflicting access SE-0176",
+    "unowned unsafe weak optional deinit ARC"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Ownership, noncopyable and nonescapable types",
+   "scope": "~Copyable types, borrowing and consuming parameter modifiers, the consume and copy operators, noncopyable generics, ~Escapable types and lifetime dependencies.",
+   "queries": [
+    "noncopyable structs enums Copyable SE-0390",
+    "borrowing consuming parameter ownership modifiers SE-0377",
+    "consume operator end lifetime SE-0366",
+    "nonescapable types Escapable lifetime dependency"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Property wrappers, result builders and dynamic member lookup",
+   "scope": "@propertyWrapper with wrappedValue and projectedValue, @resultBuilder and its build methods, @dynamicMemberLookup including key-path member lookup, @dynamicCallable and callAsFunction.",
+   "queries": [
+    "propertyWrapper wrappedValue projectedValue SE-0258",
+    "resultBuilder buildBlock buildEither buildOptional",
+    "dynamicMemberLookup key path member lookup SE-0252",
+    "dynamicCallable callAsFunction SE-0253"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Swift macros and swift-syntax",
+   "scope": "Freestanding and attached macros, macro roles, macro declarations and #externalMacro, macro implementation with swift-syntax, and built-in pound directives and literals such as #fileID and #warning.",
+   "queries": [
+    "attached macros peer member accessor roles SE-0389",
+    "freestanding expression macro SE-0382 externalMacro",
+    "swift-syntax SwiftSyntaxMacros MacroExpansionContext",
+    "warning error fileID sourceLocation compiler directives"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Access control and import visibility",
+   "scope": "The open, public, package, internal, fileprivate and private access levels, setter access, subclassing rules, @testable import, and access-level modifiers on imports.",
+   "queries": [
+    "access control open public internal fileprivate private",
+    "package access modifier SE-0386",
+    "access-level modifiers import declarations SE-0409",
+    "private set setter access level testable import"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strings, Characters and Unicode",
+   "scope": "String and Character, extended grapheme clusters, String.Index and Substring, UTF-8/UTF-16/Unicode scalar views, native UTF-8 storage, multiline and raw string literals, and custom string interpolation.",
+   "queries": [
+    "extended grapheme clusters Character String.Index",
+    "UTF-8 string Swift 5 native storage",
+    "raw string literals SE-0200 multiline SE-0168",
+    "StringInterpolationProtocol appendInterpolation SE-0228"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Regex literals and RegexBuilder",
+   "scope": "The Regex type, regex literals and extended delimiters, the RegexBuilder DSL, captures and typed outputs, Unicode regex semantics, and string-processing algorithms such as wholeMatch and ranges(of:).",
+   "queries": [
+    "Regex literals SE-0354 bare slash",
+    "RegexBuilder DSL Capture TryCapture ChoiceOf",
+    "wholeMatch firstMatch prefixMatch Regex output",
+    "Unicode string processing regex semantics SE-0363"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Standard library collections and sequence protocols",
+   "scope": "Array, Dictionary, Set and ranges, the Sequence/Collection protocol hierarchy, lazy collections, higher-order methods, RangeSet and slicing APIs.",
+   "queries": [
+    "Sequence Collection BidirectionalCollection RandomAccessCollection protocol",
+    "Dictionary grouping uniqueKeysWithValues mapValues",
+    "compactMap reduce into lazy collection",
+    "RangeSet discontiguous collection SE-0270"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Numeric types and numeric protocols",
+   "scope": "Integer and floating-point types including Float16, Float80 and Int128, the numeric protocol hierarchy, overflow operators, random-number APIs and SIMD vector types.",
+   "queries": [
+    "FixedWidthInteger BinaryInteger protocol hierarchy SE-0104",
+    "Float16 BinaryFloatingPoint Float80 Double",
+    "overflow operators wrapping addition multipliedFullWidth",
+    "SIMD vector types Int128 UInt128 SE-0425"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Codable and serialization",
+   "scope": "Encodable/Decodable, synthesized conformance, CodingKeys, custom encoding and decoding with containers, JSONEncoder/PropertyListEncoder strategies, and Codable synthesis for enums.",
+   "queries": [
+    "Codable CodingKeys custom encoding decoding",
+    "JSONEncoder keyEncodingStrategy dateEncodingStrategy",
+    "KeyedDecodingContainer decodeIfPresent nestedContainer",
+    "Codable synthesis enums associated values SE-0295"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Unsafe pointers, memory layout and safe buffer types",
+   "scope": "Typed, raw and buffer unsafe pointers, withUnsafeBytes, MemoryLayout, memory binding, Span/RawSpan/MutableSpan, InlineArray and strict memory safety checking.",
+   "queries": [
+    "UnsafeMutableRawPointer bindMemory assumingMemoryBound",
+    "MemoryLayout size stride alignment",
+    "Span RawSpan safe contiguous memory SE-0447",
+    "InlineArray fixed-size array SE-0453"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Library evolution, module stability and availability",
+   "scope": "Library evolution mode and resilience, .swiftinterface files, @frozen, @inlinable, @usableFromInline, @available with #available/#unavailable, and @backDeployed.",
+   "queries": [
+    "library evolution resilience frozen inlinable usableFromInline",
+    "module stability swiftinterface BUILD_LIBRARY_FOR_DISTRIBUTION",
+    "available attribute deprecated obsoleted introduced platform",
+    "backDeployed attribute SE-0376 unavailable condition"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ABI stability, runtime metadata and name mangling",
+   "scope": "Swift 5 ABI stability and the OS-provided runtime, type metadata, value and protocol witness tables, the calling convention, the name-mangling scheme and demangling, and Mirror reflection.",
+   "queries": [
+    "Swift ABI stability Swift 5 runtime operating system",
+    "type metadata value witness table layout",
+    "Swift name mangling demangle symbol prefix",
+    "Mirror reflection children displayStyle CustomReflectable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Compiler pipeline, SIL and optimization",
+   "scope": "swift-frontend phases from parsing and type checking through SILGen, SIL optimization and IRGen to LLVM, the constraint solver, optimization levels, whole-module optimization and incremental builds.",
+   "queries": [
+    "Swift Intermediate Language SIL SILGen raw canonical",
+    "whole module optimization Osize Ounchecked",
+    "type checker constraint solver expression too complex",
+    "IRGen LLVM swift-frontend compilation pipeline"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Swift Package Manager manifests and dependency resolution",
+   "scope": "The Package.swift manifest API, swift-tools-version, targets, products and dependencies, version requirements, Package.resolved, resources, binary targets and the swift build/test/run commands.",
+   "queries": [
+    "Package.swift swift-tools-version manifest targets products",
+    "Package.resolved dependency resolution version requirement",
+    "binaryTarget XCFramework resources Bundle.module",
+    "swift package init build run test commands"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "SwiftPM plugins, package registry and Swift SDKs",
+   "scope": "SwiftPM build-tool and command plugins, the package registry service, package collections, package traits, and Swift SDKs for cross-compilation.",
+   "queries": [
+    "SwiftPM build tool plugin command plugin",
+    "package registry service SE-0292 publish",
+    "Swift SDKs cross compilation SE-0387 artifact bundle",
+    "package traits package collections SwiftPM"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Objective-C interoperability",
+   "scope": "Importing Objective-C APIs, bridging and generated headers, @objc and @objcMembers, selectors, NS_SWIFT_NAME and API notes, nullability annotations, Foundation type bridging, and dynamic dispatch with KVO.",
+   "queries": [
+    "bridging header Objective-C generated Swift header",
+    "objc objcMembers selector dynamic dispatch",
+    "NS_SWIFT_NAME NS_REFINED_FOR_SWIFT API notes",
+    "nullability annotations nonnull nullable imported optionals"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "C and C++ interoperability",
+   "scope": "The Clang importer and module maps, how C types and functions are imported, C++ interoperability mode, importing C++ classes and standard-library containers, foreign reference types, and exposing Swift APIs to C++.",
+   "queries": [
+    "C++ interoperability cxx-interoperability-mode Swift 5.9",
+    "module map clang importer C library",
+    "SWIFT_SHARED_REFERENCE foreign reference type C++",
+    "importing C enums NS_ENUM structs functions"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing with XCTest and Swift Testing",
+   "scope": "XCTest test cases, assertions, expectations and performance tests, and the Swift Testing framework (@Test, @Suite, #expect, #require, traits, parameterized tests), plus test discovery and swift test.",
+   "queries": [
+    "Swift Testing Test expect require macro",
+    "XCTestCase XCTAssertEqual expectation waitForExpectations",
+    "parameterized tests arguments traits Suite",
+    "swift test parallel filter XCTest Linux"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Server-side Swift ecosystem",
+   "scope": "The Swift Server Workgroup, SwiftNIO event loops and channel pipelines, the Vapor, Hummingbird and Kitura frameworks, swift-log/metrics/tracing, AsyncHTTPClient, gRPC Swift, the AWS Lambda runtime and Swift OpenAPI Generator.",
+   "queries": [
+    "SwiftNIO EventLoop Channel ChannelHandler pipeline",
+    "Vapor web framework Fluent Leaf",
+    "swift-log swift-metrics Swift Server Workgroup",
+    "AWS Lambda Swift runtime OpenAPI generator"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Swift on non-Apple and embedded platforms",
+   "scope": "Swift on Linux distributions, Windows, Android and WebAssembly, Embedded Swift for microcontrollers, the Static Linux SDK, and the swift-corelibs-foundation and swift-foundation ports.",
+   "queries": [
+    "Embedded Swift microcontrollers experimental feature restrictions",
+    "Swift SDK Android WebAssembly wasm32 Windows toolchain",
+    "Static Linux SDK musl fully static binaries",
+    "swift-corelibs-foundation swift-foundation FoundationEssentials"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "SwiftUI",
+   "scope": "SwiftUI views and modifiers, stack/Grid/Layout-protocol layout, state-management property wrappers, NavigationStack-based navigation, lists, animations, and which features arrived in which OS release.",
+   "queries": [
+    "SwiftUI State Binding StateObject ObservedObject",
+    "NavigationStack NavigationSplitView navigationDestination iOS 16",
+    "SwiftUI Layout protocol Grid ViewThatFits",
+    "SwiftUI animation transition matchedGeometryEffect modifier"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Observation, Combine and SwiftData",
+   "scope": "Combine publishers, subscribers and operators, ObservableObject and @Published, the Observation framework and @Observable macro, and SwiftData models, containers, contexts and queries.",
+   "queries": [
+    "Combine Publisher Subscriber sink AnyCancellable",
+    "Observable macro Observation withObservationTracking SE-0395",
+    "SwiftData Model ModelContainer ModelContext Query",
+    "ObservableObject Published objectWillChange PassthroughSubject"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Developer tooling and documentation",
+   "scope": "SourceKit and SourceKit-LSP, swift-driver, swift-format, the swiftly toolchain manager, the DocC documentation compiler and symbol graphs, the REPL and LLDB, and Swift Playgrounds and Xcode playgrounds.",
+   "queries": [
+    "SourceKit-LSP language server editor support",
+    "DocC documentation catalog symbol graph tutorials",
+    "swiftly toolchain manager install swift-format",
+    "Swift Playgrounds app iPad Xcode playground"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Official open-source Swift packages",
+   "scope": "Packages maintained alongside the standard library, including swift-collections, swift-algorithms, swift-numerics, swift-argument-parser, swift-system, swift-atomics and the Synchronization module's Atomic and Mutex.",
+   "queries": [
+    "swift-collections Deque OrderedDictionary OrderedSet Heap",
+    "swift-argument-parser ParsableCommand Option Flag Argument",
+    "swift-numerics Complex Real module",
+    "Synchronization Atomic Mutex SE-0410 swift-atomics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  }
+ ]
+}

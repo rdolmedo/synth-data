@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Other",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 93,
+ "leaves": [
+  {
+   "leaf": "English heraldic blazon and cadency marks",
+   "scope": "Obscure facts are the rules of blazon order, rare charges and tinctures, marks of cadency for sons up to the ninth, and how arms are marshalled by impalement, quartering and escutcheons of pretence, as set out in Edwardian heraldry manuals. A question can ask the solver to work out the full blazon, or the cadency mark a given descendant must bear, from a stated family line and marriages.",
+   "queries": [
+    "blazon tinctures ordinaries",
+    "marks of cadency label",
+    "escutcheon of pretence heiress",
+    "quartering arms marshalling",
+    "Fox-Davies complete guide heraldry"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Change ringing methods and place notation",
+   "scope": "Covers how named Victorian-era methods (Grandsire, Stedman, Treble Bob, Kent and others) are built: hunting courses, dodges, bobs and singles, and the method lengths and peal compositions recorded in ringing treatises. A question can ask for the row reached after a stated number of changes, or the course order a given call produces in a named method.",
+   "queries": [
+    "change ringing Grandsire Triples",
+    "Stedman method bobs singles",
+    "treble bob hunting course",
+    "peal composition changes",
+    "Troyte change ringing"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Late Roman imperial mint marks and officinae",
+   "scope": "Obscure facts include the exergue mint-mark abbreviations, officina numbering systems (Latin versus Greek letters) and the opening and closing dates of mints in the tetrarchic and Constantinian periods, as recorded in catalogues and hoard studies. A question can ask the solver to name the mint, workshop and date window of a described coin, or to rule out impossible combinations.",
+   "queries": [
+    "Roman mint mark exergue",
+    "officina Constantinian follis",
+    "tetrarchic mint reform coinage",
+    "late Roman coin hoard",
+    "nummus mint Siscia Treveri"
+   ],
+   "sources": [
+    "peS2o",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Clock escapements and horological gear trains",
+   "scope": "Covers the history and inventors of escapements (verge, anchor, deadbeat, duplex, cylinder, gravity) and the standard tooth and pinion counts of watch and clock trains, as given in 19th-century horological handbooks. A question can ask for a pendulum's beat or length, or a hand's rotation rate, worked out from the documented wheel counts of a named movement type.",
+   "queries": [
+    "deadbeat escapement Graham",
+    "duplex escapement watch",
+    "clock train wheel pinion",
+    "gravity escapement Denison",
+    "watch clockmakers handbook"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Grapevine cultivar parentage from DNA profiling",
+   "scope": "Holds the published parent\u2013offspring relationships of Vitis vinifera cultivars, worked out from SSR markers (e.g., the Gouais blanc and Pinot progenies, and Savagnin's links to other cultivars), plus synonyms that were resolved along the way. A question can ask the solver to infer grandparent, half-sibling or synonym relationships by chaining several reported crosses.",
+   "queries": [
+    "grapevine cultivar parentage SSR",
+    "Gouais blanc progeny",
+    "Vitis vinifera pedigree reconstruction",
+    "Savagnin parent offspring",
+    "microsatellite grape synonyms"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-century postage stamp watermarks and perforations",
+   "scope": "Obscure facts are the watermark types, perforation gauges, plate numbers and printing firms of Victorian-era issues from Britain and its colonies and the United States, as listed in early philatelic handbooks and catalogues. A question can ask the solver to identify the exact issue, or narrow its date, from a stated combination of watermark, gauge and colour.",
+   "queries": [
+    "stamp watermark crown CC",
+    "perforation gauge issue",
+    "plate numbers penny red",
+    "philatelic handbook colonies",
+    "Perkins Bacon printings"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "library_of_congress",
+    "project_gutenberg"
+   ]
+  },
+  {
+   "leaf": "Medieval and Tudor English recipe collections",
+   "scope": "Covers the dish names, ingredient terms, spice mixes (powder fort, powder douce) and old measures found in texts such as the Forme of Cury and fifteenth-century cookery manuscripts, as edited in Victorian and modern editions. A question can ask the solver to identify a dish from a glossed recipe, or to convert its quantities and steps into modern terms.",
+   "queries": [
+    "Forme of Cury recipes",
+    "fifteenth century cookery books",
+    "powder douce blanc manger",
+    "medieval English recipe glossary",
+    "Harleian manuscript cookery"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "US lighthouse light characteristics and Fresnel orders",
+   "scope": "Holds the station-level facts printed in historical US Light Lists and Lighthouse Board reports: lens order, flash period and colour, focal height and the year each light was established or changed. A question can ask the solver to identify a station from its stated characteristic, or to compute its geographic range of visibility from focal height and observer height.",
+   "queries": [
+    "Light List Lighthouse Board",
+    "Fresnel lens order",
+    "fixed varied by flash",
+    "lighthouse focal plane height",
+    "annual report Lighthouse Board"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books"
+   ]
+  }
+ ]
+}

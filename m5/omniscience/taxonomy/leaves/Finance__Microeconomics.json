@@ -1,0 +1,818 @@
+{
+ "domain": "Finance",
+ "subtopic": "Microeconomics",
+ "weight": 0.0124065,
+ "leaves": [
+  {
+   "leaf": "Preference axioms and utility function representation",
+   "scope": "The axioms of rational preference (completeness, transitivity, continuity, monotonicity, convexity), representation theorems such as Debreu's, and standard functional forms including Cobb-Douglas, CES, quasilinear, Stone-Geary and lexicographic preferences.",
+   "queries": [
+    "lexicographic preferences cannot be represented utility function",
+    "Debreu representation theorem continuous preferences utility",
+    "Stone-Geary utility function subsistence linear expenditure system",
+    "quasilinear utility no income effect numeraire good"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Duality in consumer demand theory",
+   "scope": "Marshallian and Hicksian demand, indirect utility and expenditure functions, and the identities that connect them (Slutsky equation, Roy's identity, Shephard's lemma, integrability conditions).",
+   "queries": [
+    "Slutsky equation substitution effect income effect decomposition",
+    "Roy's identity indirect utility function Marshallian demand",
+    "Shephard's lemma expenditure function Hicksian demand",
+    "integrability problem Hurwicz Uzawa demand system"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Revealed preference theory and nonparametric rationality tests",
+   "scope": "Samuelson's revealed preference approach, the WARP, SARP and GARP axioms, Houthakker's and Afriat's theorems, and Varian-style nonparametric tests of utility maximization on observed choice data.",
+   "queries": [
+    "weak axiom of revealed preference Samuelson 1938",
+    "Afriat theorem generalized axiom revealed preference",
+    "strong axiom revealed preference Houthakker 1950",
+    "Varian nonparametric test utility maximization data"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Demand elasticities and empirical demand estimation",
+   "scope": "Own-price, cross-price and income elasticities, Engel curves and Engel's law, published elasticity estimates for specific goods, and estimation frameworks such as AIDS, Rotterdam, conditional and nested logit, and BLP random coefficients.",
+   "queries": [
+    "short-run long-run price elasticity gasoline demand estimates",
+    "almost ideal demand system Deaton Muellbauer 1980",
+    "Berry Levinsohn Pakes random coefficients logit demand",
+    "Engel's law food budget share income"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Giffen goods, Veblen goods and demand anomalies",
+   "scope": "Exceptions to the law of demand and interdependent preferences: Giffen behavior (Irish potatoes, the Jensen-Miller evidence from China), Veblen's conspicuous consumption, and Leibenstein's bandwagon, snob and Veblen effects.",
+   "queries": [
+    "Giffen behavior Jensen Miller Hunan rice Gansu wheat",
+    "Veblen conspicuous consumption Theory of the Leisure Class",
+    "Leibenstein 1950 bandwagon snob Veblen effects demand",
+    "Irish potato famine Giffen good evidence"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Consumer surplus, compensating and equivalent variation",
+   "scope": "Measuring welfare changes from price changes: Dupuit's and Marshall's consumer surplus, Hicks's compensating and equivalent variation, Willig's approximation bounds, and Harberger-triangle deadweight-loss estimates.",
+   "queries": [
+    "compensating variation equivalent variation Hicks price change",
+    "Willig 1976 consumer surplus without apology",
+    "Dupuit 1844 utility public works consumer surplus",
+    "Harberger triangle deadweight loss welfare cost estimate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Characteristics approach, household production and hedonic pricing",
+   "scope": "Lancaster's characteristics model of demand, Becker's household production and allocation-of-time theory, and hedonic price functions (Court, Griliches, Rosen) applied to housing, automobiles and computers.",
+   "queries": [
+    "Rosen 1974 hedonic prices implicit markets",
+    "Lancaster 1966 new approach consumer theory characteristics",
+    "Court 1939 hedonic price index automobiles",
+    "Becker 1965 theory allocation of time household production"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Production functions, returns to scale and marginal productivity",
+   "scope": "Ways of representing technology (Cobb-Douglas, Leontief, CES, translog), returns to scale, the marginal rate of technical substitution, the elasticity of substitution, Euler's theorem and the marginal productivity theory of distribution.",
+   "queries": [
+    "Cobb Douglas 1928 theory of production estimates",
+    "Arrow Chenery Minhas Solow 1961 CES production function",
+    "elasticity of substitution Hicks 1932 Theory of Wages",
+    "Euler's theorem product exhaustion marginal productivity Wicksteed"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cost functions, economies of scale and scope, and learning curves",
+   "scope": "Short-run and long-run cost curves, the envelope theorem and the Viner-Wong diagram, cost subadditivity, economies of scope, minimum efficient scale, and experience-curve effects (Wright's law, the BCG experience curve).",
+   "queries": [
+    "Viner Wong envelope long-run average cost curve",
+    "Wright's law learning curve aircraft 1936 cumulative production",
+    "economies of scope multiproduct cost Panzar Willig",
+    "minimum efficient scale plant size estimates industry"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Perfect competition and long-run industry equilibrium",
+   "scope": "How price-taking firms behave: shutdown and break-even conditions, short-run and long-run supply, constant-, increasing- and decreasing-cost industries, producer surplus, and Marshallian versus Walrasian stability.",
+   "queries": [
+    "shutdown point average variable cost perfectly competitive firm",
+    "constant cost increasing cost industry long-run supply curve",
+    "Marshallian stability Walrasian stability partial equilibrium",
+    "zero economic profit long-run equilibrium free entry"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Monopoly pricing, rent seeking and durable-goods monopoly",
+   "scope": "Single-firm pricing under the inverse elasticity rule, the Lerner index, multiplant monopoly, X-inefficiency, rent-seeking costs of monopoly (Tullock, Posner), and the Coase conjecture for durable goods.",
+   "queries": [
+    "Lerner index 1934 monopoly power inverse elasticity",
+    "Coase conjecture durable goods monopoly 1972",
+    "Tullock 1967 rent seeking welfare costs monopoly",
+    "Leibenstein 1966 X-inefficiency allocative efficiency"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Price discrimination, nonlinear pricing and bundling",
+   "scope": "Pigou's three degrees of price discrimination, two-part tariffs (Oi's Disneyland dilemma), quantity discounts and versioning, tying and mixed bundling (Adams-Yellen), and yield management in practice.",
+   "queries": [
+    "Pigou first second third degree price discrimination",
+    "Oi 1971 Disneyland dilemma two-part tariff",
+    "Adams Yellen 1976 commodity bundling mixed bundling",
+    "airline yield management fare classes overbooking"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Classical oligopoly models",
+   "scope": "Cournot quantity competition, Bertrand price competition and the Bertrand paradox, Edgeworth capacity constraints, Stackelberg leadership, the kinked demand curve (Sweezy, Hall-Hitch), Kreps-Scheinkman and conjectural variations.",
+   "queries": [
+    "Cournot 1838 Recherches duopoly mineral springs",
+    "Bertrand paradox price competition identical products",
+    "Stackelberg 1934 Marktform und Gleichgewicht leader follower",
+    "Sweezy 1939 kinked demand curve oligopoly"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Monopolistic competition and product differentiation",
+   "scope": "Chamberlin-Robinson monopolistic competition and the excess capacity theorem, spatial models (Hotelling's linear city, Salop's circular city), Dixit-Stiglitz love of variety, and advertising rules such as the Dorfman-Steiner condition.",
+   "queries": [
+    "Chamberlin 1933 Theory of Monopolistic Competition excess capacity",
+    "Hotelling 1929 stability in competition linear city",
+    "Salop circular city model 1979",
+    "Dorfman Steiner condition advertising sales ratio"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Collusion, cartels and tacit coordination",
+   "scope": "Cartel theory and how repeated play sustains collusion, trigger strategies and facilitating practices, documented and prosecuted cartels (OPEC, lysine, vitamins, electrical equipment), cartel fines and leniency programs.",
+   "queries": [
+    "lysine cartel Archer Daniels Midland price fixing fine",
+    "vitamins cartel Hoffmann-La Roche fine 1999",
+    "Stigler 1964 theory of oligopoly secret price cutting",
+    "antitrust corporate leniency program amnesty cartel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Entry deterrence, limit pricing, predation and contestable markets",
+   "scope": "Barriers to entry (Bain), limit pricing (Bain, Sylos-Labini, Milgrom-Roberts), strategic capacity commitment (Dixit, Spence), tests for predatory pricing (Areeda-Turner, recoupment), and Baumol-Panzar-Willig contestability.",
+   "queries": [
+    "Areeda Turner 1975 predatory pricing average variable cost",
+    "Brooke Group Brown Williamson recoupment predatory pricing",
+    "Baumol Panzar Willig contestable markets 1982",
+    "Dixit 1980 excess capacity entry deterrence"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Vertical relationships and vertical restraints",
+   "scope": "Double marginalization (Spengler), vertical integration and foreclosure, resale price maintenance, exclusive dealing and territories, franchise fees and royalty structures, and the leading cases (Dr. Miles, GTE Sylvania, Leegin).",
+   "queries": [
+    "Spengler 1950 double marginalization vertical integration",
+    "Leegin 2007 resale price maintenance rule of reason",
+    "franchise royalty fee percentage gross sales advertising fund",
+    "exclusive dealing foreclosure raising rivals' costs"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Market concentration measures and horizontal merger analysis",
+   "scope": "Concentration ratios and the Herfindahl-Hirschman Index, DOJ/FTC Horizontal Merger Guidelines thresholds in each edition, the SSNIP hypothetical monopolist test, upward pricing pressure, GUPPI and diversion ratios, and HSR premerger review.",
+   "queries": [
+    "Horizontal Merger Guidelines HHI threshold highly concentrated markets",
+    "hypothetical monopolist test SSNIP five percent",
+    "upward pricing pressure diversion ratio Farrell Shapiro",
+    "Hart-Scott-Rodino waiting period second request merger"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Network effects, standards wars and two-sided platforms",
+   "scope": "Direct and indirect network externalities, critical mass and tipping, switching costs and lock-in, standards competition (QWERTY, VHS versus Betamax), and pricing in two-sided markets (Rochet-Tirole), including payment-card interchange fees.",
+   "queries": [
+    "Rochet Tirole two-sided markets platform pricing",
+    "Katz Shapiro 1985 network externalities competition",
+    "debit interchange fee cap Regulation II 21 cents",
+    "QWERTY David 1985 path dependence lock-in"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Natural monopoly regulation and utility rate-making",
+   "scope": "Regulating utilities through rate-of-return and price-cap (RPI-X) regimes, rate base and allowed return on equity, the Averch-Johnson effect, Ramsey pricing, peak-load pricing, and performance-based regulation.",
+   "queries": [
+    "Averch Johnson effect rate of return regulation 1962",
+    "Littlechild RPI-X price cap regulation British Telecom",
+    "rate case authorized return on equity rate base",
+    "peak-load pricing Boiteux Steiner electricity"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Theory of the firm and transaction cost economics",
+   "scope": "Coase's account of why firms exist, Williamson's asset specificity and governance structures, the hold-up problem (Fisher Body and GM), Alchian-Demsetz team production, and Grossman-Hart-Moore incomplete contracts and property rights.",
+   "queries": [
+    "Coase 1937 nature of the firm transaction costs",
+    "Williamson asset specificity hold-up governance structures",
+    "Fisher Body General Motors 1926 vertical integration hold-up",
+    "Grossman Hart Moore incomplete contracts residual control rights"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Economics of innovation, R&D and intellectual property",
+   "scope": "Arrow's replacement effect, Schumpeterian competition, patent races, optimal patent length and breadth (Nordhaus), R&D spillovers and appropriability, patent pools and FRAND licensing of standard-essential patents, and regulatory exclusivity periods.",
+   "queries": [
+    "Arrow 1962 replacement effect incentive to invent",
+    "Nordhaus optimal patent life 1969",
+    "FRAND standard essential patents royalty licensing",
+    "Hatch-Waxman five-year exclusivity 180-day generic"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Noncooperative game theory solution concepts and canonical games",
+   "scope": "Normal and extensive forms, dominance, Nash equilibrium and its existence, mixed strategies, subgame perfection, Bayesian Nash, perfect and sequential equilibrium, refinements such as the intuitive criterion, and canonical games (prisoner's dilemma, chicken, stag hunt, battle of the sexes).",
+   "queries": [
+    "Selten subgame perfect equilibrium trembling hand perfection",
+    "Harsanyi 1967 games incomplete information Bayesian players",
+    "Kreps Wilson sequential equilibrium 1982",
+    "prisoner's dilemma Flood Dresher RAND Tucker 1950"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bargaining theory",
+   "scope": "Axiomatic and strategic bargaining models: the Nash bargaining solution and its axioms, Kalai-Smorodinsky, Rubinstein alternating offers, outside options and disagreement points, and applied Nash-in-Nash bargaining in hospital-insurer and carriage-fee negotiations.",
+   "queries": [
+    "Nash bargaining solution 1950 axioms independence irrelevant alternatives",
+    "Rubinstein 1982 alternating offers perfect equilibrium bargaining",
+    "Kalai Smorodinsky solution monotonicity 1975",
+    "Nash-in-Nash bargaining hospital insurer negotiations"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Auction theory and auction design",
+   "scope": "Standard auction formats (English, Dutch, first-price and second-price sealed-bid), Vickrey's analysis, revenue equivalence, the winner's curse, affiliated values (Milgrom-Weber), reserve prices, and real designs such as FCC spectrum auctions and Treasury auctions.",
+   "queries": [
+    "Vickrey 1961 counterspeculation auctions competitive sealed tenders",
+    "revenue equivalence theorem Myerson Riley Samuelson 1981",
+    "winner's curse Capen Clapp Campbell 1971 offshore oil",
+    "FCC spectrum auction gross proceeds winning bidders licenses"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Mechanism design and matching market design",
+   "scope": "The revelation principle, incentive compatibility, VCG mechanisms, the Myerson-Satterthwaite impossibility, Gale-Shapley deferred acceptance, and applied matching markets (the NRMP residency match, school choice, kidney exchange).",
+   "queries": [
+    "Gale Shapley 1962 college admissions stability marriage",
+    "Myerson Satterthwaite theorem bilateral trade impossibility",
+    "Vickrey Clarke Groves mechanism truthful dominant strategy",
+    "National Resident Matching Program Roth Peranson algorithm"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adverse selection, signaling and screening",
+   "scope": "Markets with hidden information: Akerlof's lemons model, Spence's job-market signaling, Rothschild-Stiglitz insurance screening, separating and pooling equilibria, and real cases such as insurance death spirals.",
+   "queries": [
+    "Akerlof 1970 market for lemons quality uncertainty",
+    "Spence 1973 job market signaling education",
+    "Rothschild Stiglitz 1976 insurance screening equilibrium",
+    "adverse selection death spiral Harvard Cutler Reber"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Moral hazard, principal-agent theory and incentive contracts",
+   "scope": "Hidden action and optimal contracting, the informativeness principle, multitasking (Holmström-Milgrom), efficiency wages (Shapiro-Stiglitz), rank-order tournaments (Lazear-Rosen), and incentive pay for executives and sales staff.",
+   "queries": [
+    "Holmström 1979 moral hazard observability informativeness principle",
+    "Holmström Milgrom 1991 multitask principal agent",
+    "Shapiro Stiglitz 1984 efficiency wages shirking",
+    "Lazear Rosen 1981 rank-order tournaments compensation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Search theory and price dispersion",
+   "scope": "Stigler's economics of information, sequential and fixed-sample search, reservation prices and wages (McCall), the Diamond paradox, models of sales and clearinghouses (Varian, Burdett-Judd), and Diamond-Mortensen-Pissarides matching.",
+   "queries": [
+    "Stigler 1961 economics of information price dispersion",
+    "Diamond paradox 1971 monopoly price search costs",
+    "McCall 1970 job search reservation wage",
+    "Varian 1980 model of sales Burdett Judd"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Externalities, Coase theorem and emissions trading",
+   "scope": "Positive and negative externalities, Pigouvian taxes and subsidies, the Coase theorem and transaction costs, prices versus quantities (Weitzman), and cap-and-trade programs (the Acid Rain Program, RGGI, the EU ETS, California) with their allowance and carbon-price facts.",
+   "queries": [
+    "Coase 1960 problem of social cost theorem",
+    "Weitzman 1974 prices vs quantities",
+    "Acid Rain Program sulfur dioxide allowance trading 1990",
+    "Regional Greenhouse Gas Initiative allowance auction clearing price"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Public goods, club goods and common-pool resources",
+   "scope": "Nonrival and nonexcludable goods, the Samuelson condition, Lindahl prices, free riding and preference revelation (Clarke-Groves), Buchanan's theory of clubs, the tragedy of the commons, and Ostrom's design principles for governing commons.",
+   "queries": [
+    "Samuelson 1954 pure theory public expenditure condition",
+    "Lindahl equilibrium public goods tax shares",
+    "Buchanan 1965 economic theory of clubs",
+    "Ostrom eight design principles common pool resources"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "General equilibrium and the welfare theorems",
+   "scope": "Exchange and production economies, the Edgeworth box and contract curve, Walras's law, existence proofs (Arrow-Debreu, McKenzie), the first and second welfare theorems, the core and core convergence, tâtonnement, Scarf's algorithm and the Sonnenschein-Mantel-Debreu results.",
+   "queries": [
+    "Arrow Debreu 1954 existence competitive equilibrium",
+    "Sonnenschein Mantel Debreu theorem excess demand",
+    "Edgeworth box contract curve core convergence replica economy",
+    "Scarf algorithm computation economic equilibria 1973"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Social choice and voting theory",
+   "scope": "Aggregating individual preferences: Arrow's impossibility theorem and its conditions, the Condorcet paradox and Condorcet winners, the Borda count, Gibbard-Satterthwaite, the median voter theorem (Black, Downs), May's theorem and Sen's liberal paradox.",
+   "queries": [
+    "Arrow impossibility theorem Social Choice Individual Values 1951",
+    "Gibbard Satterthwaite theorem strategy-proof voting",
+    "May's theorem majority rule 1952 conditions",
+    "Sen liberal paradox impossibility Paretian liberal"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Expected utility, risk aversion and decision paradoxes",
+   "scope": "The von Neumann-Morgenstern axioms, Bernoulli and the St. Petersburg paradox, Arrow-Pratt absolute and relative risk aversion, certainty equivalents and risk premia, stochastic dominance, Savage's subjective expected utility, and the Allais and Ellsberg paradoxes.",
+   "queries": [
+    "Arrow Pratt measure absolute risk aversion",
+    "Allais paradox 1953 independence axiom",
+    "Ellsberg paradox 1961 ambiguity aversion urn",
+    "St. Petersburg paradox Daniel Bernoulli 1738 logarithmic utility"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Behavioral economics: prospect theory, time inconsistency and nudges",
+   "scope": "Prospect theory and the parameters of cumulative prospect theory, loss aversion and the endowment effect, mental accounting, hyperbolic and quasi-hyperbolic discounting, heuristics and bounded rationality, and choice-architecture interventions such as default enrollment.",
+   "queries": [
+    "Kahneman Tversky 1979 prospect theory value function",
+    "Tversky Kahneman 1992 cumulative prospect theory parameters",
+    "Laibson quasi-hyperbolic discounting beta delta",
+    "Madrian Shea automatic enrollment 401(k) participation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Experimental economics: market and game experiments",
+   "scope": "Lab methods and findings: Chamberlin's classroom market, Vernon Smith's double auction and induced-value method, ultimatum, dictator, trust and public-goods games, centipede and p-beauty-contest experiments, and asset-bubble experiments.",
+   "queries": [
+    "Vernon Smith 1962 double auction experimental competitive market",
+    "Güth 1982 ultimatum bargaining experiment offers",
+    "Berg Dickhaut McCabe 1995 trust game investment",
+    "Nagel 1995 p-beauty contest guessing game"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Labor market microeconomics",
+   "scope": "Labor-leisure choice and the backward-bending supply curve, derived demand and the Hicks-Marshall laws, monopsony and wage markdowns, minimum-wage evidence (Card-Krueger), human capital and the Mincer equation, compensating wage differentials and models of discrimination.",
+   "queries": [
+    "Card Krueger 1994 minimum wage New Jersey fast food",
+    "Robinson 1933 monopsony exploitation labor supply elasticity",
+    "Mincer earnings function returns to schooling",
+    "Becker 1957 taste-based discrimination statistical discrimination Phelps"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Price controls, quotas, subsidies and tax incidence",
+   "scope": "Partial-equilibrium analysis of government intervention: price ceilings and rent control, price floors and farm support programs, production quotas and marketing orders, excise taxes and tax incidence, subsidies, and cobweb price dynamics in farm markets.",
+   "queries": [
+    "rent control San Francisco Diamond McQuade Qian",
+    "tax incidence elasticity excise tax burden consumers producers",
+    "federal cigarette excise tax per pack increase",
+    "cobweb theorem Ezekiel 1938 hog cycle"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Natural resource and fishery economics",
+   "scope": "Extraction of exhaustible resources (Hotelling's rule, the Hartwick rule, backstop technology), renewable resources and fisheries (the Gordon-Schaefer model, maximum sustainable versus maximum economic yield, ITQs), Faustmann forest rotation and resource rent.",
+   "queries": [
+    "Hotelling 1931 economics of exhaustible resources rule",
+    "Gordon Schaefer model maximum economic yield fishery",
+    "individual transferable quotas New Zealand Iceland fisheries",
+    "Faustmann formula optimal forest rotation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Founders and history of microeconomic thought",
+   "scope": "How price theory developed from Cournot and Dupuit through the marginal revolution (Jevons, Menger, Walras), Marshall, Edgeworth, Pareto, Hicks-Allen ordinalism and Samuelson's Foundations, along with the Austrian, Lausanne and Cambridge schools, their key texts, dates and editions.",
+   "queries": [
+    "marginal revolution Jevons Menger Walras 1871 1874",
+    "Marshall Principles of Economics 1890 editions",
+    "Hicks Allen 1934 reconsideration theory of value",
+    "Pareto Manuale di economia politica 1906 ophelimity"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intertemporal choice, time preference and capital theory",
+   "scope": "The Fisher two-period consumption-saving model, time preference and exponential discounting, intertemporal budget constraints, the Fisher separation theorem, and classical theories of capital and interest such as Böhm-Bawerk's roundaboutness and the Cambridge capital controversy.",
+   "queries": [
+    "Fisher two-period intertemporal consumption model",
+    "Fisher separation theorem investment consumption decision",
+    "Böhm-Bawerk roundaboutness capital interest theory",
+    "Cambridge capital controversy reswitching Sraffa Samuelson"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cost-benefit analysis, compensation criteria and social discounting",
+   "scope": "The welfare-economic basis and practice of cost-benefit analysis: Kaldor-Hicks and Scitovsky compensation tests, shadow prices, social discount rates, the value of a statistical life, and government appraisal rules such as OMB Circular A-4 and the UK Green Book.",
+   "queries": [
+    "Kaldor-Hicks compensation criterion Scitovsky paradox",
+    "social discount rate Ramsey formula Stern Review",
+    "value of statistical life regulatory agencies estimate",
+    "OMB Circular A-4 regulatory impact analysis discount rate"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inequality and poverty measurement",
+   "scope": "How income inequality and poverty are measured: Lorenz curves, the Gini, Atkinson, Theil and Palma indices, the Pigou-Dalton transfer principle and decomposability, and poverty indices such as Foster-Greer-Thorbecke and the Sen index.",
+   "queries": [
+    "Gini coefficient Lorenz curve definition properties",
+    "Atkinson index inequality aversion parameter",
+    "Foster Greer Thorbecke poverty measure",
+    "Theil index Pigou-Dalton transfer principle decomposition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Price index numbers and cost-of-living measurement",
+   "scope": "Price and quantity index number theory and cost-of-living measurement: the Laspeyres, Paasche, Fisher ideal and Törnqvist indices, the Konüs true cost-of-living index, axiomatic and superlative index theory, and substitution and quality biases in the CPI.",
+   "queries": [
+    "Laspeyres Paasche Fisher ideal price index",
+    "Boskin Commission CPI substitution bias estimate",
+    "Konüs true cost of living index",
+    "Törnqvist chained superlative index Diewert"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mathematical optimization and comparative statics in microeconomics",
+   "scope": "The math toolkit of microeconomic theory: Lagrangian and Karush-Kuhn-Tucker conditions, the envelope theorem, quasiconcavity and bordered Hessians, the Le Chatelier principle, monotone comparative statics, and the fixed-point theorems used to prove that equilibria exist.",
+   "queries": [
+    "envelope theorem microeconomics Lagrange multiplier interpretation",
+    "Karush Kuhn Tucker conditions constraint qualification",
+    "Le Chatelier principle Samuelson comparative statics",
+    "monotone comparative statics Topkis supermodularity"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Evolutionary game theory and learning in games",
+   "scope": "Evolutionary and learning approaches to strategic interaction: evolutionarily stable strategies, replicator dynamics, the hawk-dove game, fictitious play, best-response dynamics, stochastic stability, and reinforcement learning models of play.",
+   "queries": [
+    "evolutionarily stable strategy Maynard Smith Price",
+    "replicator dynamics evolutionary game theory",
+    "fictitious play Brown Robinson convergence",
+    "stochastic stability Kandori Mailath Rob risk dominance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cooperative game theory: core, Shapley value and cost allocation",
+   "scope": "Coalitional games with transferable and non-transferable utility: characteristic functions, the core and the Bondareva-Shapley theorem, the Shapley value, the nucleolus, Shapley-Shubik and Banzhaf power indices, and their use in cost-sharing problems.",
+   "queries": [
+    "Shapley value axioms cooperative game",
+    "core of cooperative game Bondareva Shapley theorem",
+    "nucleolus Schmeidler cooperative game solution",
+    "airport game cost allocation Shapley value"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Empirical industrial organization: markups, SCP paradigm and productivity estimation",
+   "scope": "Empirical measurement of market power and firm performance: the structure-conduct-performance paradigm, the Lerner index and markup estimation, conduct parameters, production function and productivity estimation (Olley-Pakes, Levinsohn-Petrin), and structural entry models.",
+   "queries": [
+    "structure conduct performance paradigm Bain",
+    "markup estimation production approach De Loecker Warzynski",
+    "Olley Pakes productivity estimation telecommunications",
+    "Bresnahan Reiss entry thresholds market size"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Economics of advertising and product information",
+   "scope": "The economics of advertising: the Dorfman-Steiner condition, informative versus persuasive advertising, search, experience and credence goods, advertising as a signal of quality, advertising-to-sales ratios, and the regulation of advertising.",
+   "queries": [
+    "Dorfman Steiner condition advertising sales ratio",
+    "Nelson search goods experience goods advertising",
+    "credence goods Darby Karni fraud",
+    "advertising expense net sales fiscal year"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Switching costs, lock-in and behavioral industrial organization",
+   "scope": "Consumer switching costs and lock-in, add-on and drip pricing, shrouded attributes, loyalty programs, bargains-then-ripoffs pricing over time, and other industrial organization models where firms exploit consumer biases.",
+   "queries": [
+    "switching costs Klemperer consumer lock-in",
+    "shrouded attributes add-on pricing Gabaix Laibson",
+    "customer switching costs competitive advantage retention",
+    "drip pricing obfuscation behavioral industrial organization"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Economic theory of regulation, regulatory capture and deregulation",
+   "scope": "Positive theories of regulation (Stigler's capture theory, Peltzman, Becker's interest-group competition, Posner) and the history and effects of deregulating airlines, trucking, railroads, telecommunications and energy in the US and elsewhere.",
+   "queries": [
+    "Stigler economic theory of regulation capture",
+    "Airline Deregulation Act 1978 Civil Aeronautics Board",
+    "Staggers Rail Act Motor Carrier Act 1980",
+    "Peltzman model regulation interest groups"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Law and economics: liability rules, remedies and the economics of crime",
+   "scope": "Economic analysis of law beyond the Coase theorem: negligence versus strict liability, the Hand formula, Calabresi-Melamed property and liability rules, efficient breach and contract remedies, the economics of litigation and settlement, and Becker's economics of crime.",
+   "queries": [
+    "Learned Hand formula negligence economic analysis",
+    "Calabresi Melamed property rules liability rules",
+    "Becker crime and punishment economic approach",
+    "Priest Klein selection hypothesis litigation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Urban and spatial economics: location theory, bid-rent and agglomeration",
+   "scope": "The spatial microeconomics of land and location: von Thünen rings, Weber's industrial location theory, central place theory, the Alonso-Muth-Mills monocentric city and bid-rent curves, agglomeration economies, and the distribution of city sizes.",
+   "queries": [
+    "von Thünen model agricultural land use rings",
+    "Alonso Muth Mills monocentric city bid rent",
+    "Christaller Lösch central place theory hexagonal",
+    "agglomeration economies localization urbanization Zipf law cities"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transportation economics and congestion pricing",
+   "scope": "The microeconomics of transportation: congestion externalities and road pricing schemes, the Vickrey bottleneck model, the value of travel time, induced demand, the Braess and Downs-Thomson paradoxes, and scale economies in public transit such as the Mohring effect.",
+   "queries": [
+    "Vickrey bottleneck model congestion pricing",
+    "Singapore electronic road pricing London congestion charge",
+    "Braess paradox Downs Thomson paradox traffic",
+    "value of travel time savings Mohring effect"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Health economics: demand for health, insurance and provider behavior",
+   "scope": "Health economics: the Grossman demand-for-health model, Arrow's 1963 analysis of medical care, health insurance experiments (RAND, Oregon), supplier-induced demand, QALYs and cost-effectiveness thresholds, and how hospital and pharmaceutical markets work.",
+   "queries": [
+    "Grossman model demand for health capital",
+    "RAND Health Insurance Experiment coinsurance results",
+    "quality adjusted life year cost effectiveness threshold NICE",
+    "Arrow 1963 uncertainty welfare economics medical care"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Economics of the family: marriage, fertility and intrahousehold allocation",
+   "scope": "The economics of the family: Becker's marriage market and assortative mating, unitary versus collective and bargaining models of the household, the quantity-quality tradeoff in fertility, divorce, dowry and bride price, and evidence on how resources are shared within households.",
+   "queries": [
+    "Becker theory of marriage assortative mating",
+    "collective household model Chiappori sharing rule",
+    "quantity quality tradeoff fertility Becker Lewis",
+    "dowry bride price economics marriage payments"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Partial-equilibrium market dynamics: cobweb model and agricultural price cycles",
+   "scope": "Price dynamics and stability in a single market: the cobweb theorem, Walrasian versus Marshallian stability conditions, hog and cattle cycles, King's law of harvest prices, the Nerlove adaptive-expectations model of supply response, and how farm commodity prices behave.",
+   "queries": [
+    "cobweb theorem Ezekiel convergent divergent oscillations",
+    "Marshallian Walrasian stability excess demand price",
+    "hog cycle pork cycle agricultural prices",
+    "Nerlove supply response adaptive expectations"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

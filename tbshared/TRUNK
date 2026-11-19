@@ -1,0 +1,3 @@
+This tbshared/ is the canonical copy on the trunk `main` (#480): it is edited here, through PRs into main, and is
+not vendored from branch `shared` (no PIN). tbshared/ALIASES copies are checked against this directory itself
+(test_pin.py, `python -m tbshared.sync --check`). Pipeline config lives with each package (pipeline.json).

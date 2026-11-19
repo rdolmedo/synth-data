@@ -1,0 +1,184 @@
+{
+ "partition": "knowledge",
+ "category": "Humanities/Social Science",
+ "subject": "broad",
+ "target_leaves": 11,
+ "expected_problems": 129,
+ "leaves": [
+  {
+   "leaf": "Classificatory kinship terminology in ethnographies",
+   "scope": "Documented kin-term systems of particular societies (Crow, Omaha, Iroquois, Dravidian, Hawaiian, Sudanese types) as recorded in early ethnographic schedules and later fieldwork, including which relatives share a term. A question can ask for the term or term-class that a named genealogical position (e.g., FZDS, MBD) takes under a given society's rules, or ask how two societies' systems differ.",
+   "queries": [
+    "systems of consanguinity affinity",
+    "Omaha kinship terminology",
+    "cross-cousin terminology Dravidian",
+    "Crow type skewing",
+    "kinship terms ethnographic schedule"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "doab",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Maya Long Count inscriptions on stelae",
+   "scope": "Initial Series dates, Calendar Round notations, Lords of the Night and dedicatory period endings recorded on particular monuments at Cop\u00e1n, Quirigu\u00e1, Tikal, Palenque and other sites. A question can ask for the conversion of a recorded Long Count to its Tzolk'in/Haab' position or to a Gregorian date under the GMT correlation, or ask for the day count between two monuments' dates.",
+   "queries": [
+    "Initial Series stela date",
+    "Maya hieroglyphs Long Count",
+    "Calendar Round Tzolkin Haab",
+    "Quirigua stela inscription",
+    "GMT correlation constant"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Historical keyboard temperaments and tuning treatises",
+   "scope": "Specific prescriptions in tuning treatises and historical sources (Werckmeister, Kirnberger, Vallotti, Neidhardt, quarter- and sixth-comma meantone) for which fifths are tempered and by what fraction of which comma. A question can ask for the size in cents of a particular major third or wolf interval, or ask which key is purest under a named temperament.",
+   "queries": [
+    "Werckmeister temperament comma",
+    "Kirnberger III tuning",
+    "quarter-comma meantone wolf",
+    "well temperament fifths tempered",
+    "Pythagorean comma distribution"
+   ],
+   "sources": [
+    "doab",
+    "peS2o",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Saints' attributes in medieval Christian iconography",
+   "scope": "The conventional attributes, instruments of martyrdom and legend episodes linked to lesser-known saints in medieval Western and Byzantine art, as catalogued in iconographic handbooks and the Golden Legend. A question can ask which saint is shown given a combination of attributes, or ask what the attributes of saints in a described altarpiece or cycle have in common.",
+   "queries": [
+    "emblems of saints art",
+    "Golden Legend martyrdom",
+    "sacred legendary art",
+    "attribute iconography saint",
+    "Byzantine painter's manual"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Blazons in medieval English rolls of arms",
+   "scope": "The blazoned arms of named knights and families recorded in particular medieval rolls (Glover's, Charles's, Parliamentary, Caerlaverock), including variants and marks of cadency. A question can ask for the number of tinctures or charges, ask which bearer differences the arms of another, or ask which roll entries break the rule of tincture.",
+   "queries": [
+    "roll of arms blazon",
+    "Caerlaverock roll knights",
+    "Glover's roll arms",
+    "marks of cadency label",
+    "armorial ordinary charges"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Pali Nik\u0101ya suttas and Chinese \u0100gama parallels",
+   "scope": "Sutta numbering, vagga/sa\u1e43yutta placement, and the corresponding Chinese \u0100gama or Sanskrit fragment parallels for particular discourses, along with documented differences in content between versions. A question can ask for the parallel of a given sutta in another collection, or ask which doctrinal list or interlocutor is missing from one version.",
+   "queries": [
+    "Madhyama-agama parallel sutta",
+    "Majjhima Nikaya comparative study",
+    "Samyutta Nikaya Samyukta-agama",
+    "Pali Text Society translation",
+    "early Buddhist discourse parallels"
+   ],
+   "sources": [
+    "peS2o",
+    "doab",
+    "pre_1929_books"
+   ]
+  },
+  {
+   "leaf": "Party-list seat apportionment in national elections",
+   "scope": "Documented vote totals, legal thresholds, district magnitudes and allocation formulas (D'Hondt, Sainte-Lagu\u00eb, modified Sainte-Lagu\u00eb, Hare-Niemeyer) used in particular parliamentary elections. A question can ask for the seat outcome under the actual formula or a different one, or ask which party's seat count changes when the formula is swapped.",
+   "queries": [
+    "D'Hondt seat allocation",
+    "Sainte-Lagu\u00eb modified divisor",
+    "electoral threshold proportional representation",
+    "district magnitude disproportionality",
+    "Gallagher index election"
+   ],
+   "sources": [
+    "peS2o",
+    "arxiv",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Family reconstitution from early modern parish registers",
+   "scope": "Published demographic findings from parish-register reconstitution studies (Wrigley-Schofield parishes, French Henry-method villages, Quebec registers), such as age at first marriage, birth intervals, prenuptial conception rates and infant mortality for named communities and periods. A question can ask for a comparison of rates across parishes or cohorts, or ask for a derived measure such as total marital fertility.",
+   "queries": [
+    "family reconstitution parish registers",
+    "age at first marriage",
+    "prenuptial pregnancy baptism",
+    "infant mortality parish",
+    "marital fertility rates historical"
+   ],
+   "sources": [
+    "peS2o",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Map projections in early modern atlases",
+   "scope": "Specific facts about plates in the editions of Ortelius's Theatrum, Mercator-Hondius, Blaeu and similar atlases: the projection used, the prime meridian, the number of maps per edition, and the engravers. A question can ask how editions differ in map count or content, or ask what distortion follows from a named plate's projection.",
+   "queries": [
+    "Theatrum Orbis Terrarum edition",
+    "Mercator Hondius atlas",
+    "Blaeu Atlas Maior maps",
+    "cordiform projection map",
+    "prime meridian Canary Islands"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Room proportions in Palladio's Quattro Libri",
+   "scope": "The seven room-proportion ratios, the column-order modules, and the dimensions Palladio gives for particular villas and palazzi in his treatise, and how these compare with the buildings as surveyed. A question can ask for the ratio or the harmonic, arithmetic or geometric mean behind a named room's height, or ask which plan departs from the treatise's own rules.",
+   "queries": [
+    "Palladio four books architecture",
+    "Palladian villa proportions",
+    "room height harmonic mean",
+    "Villa Rotonda plan dimensions",
+    "Isaac Ware Palladio"
+   ],
+   "sources": [
+    "pre_1929_books",
+    "project_gutenberg",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Noh repertory categories and play structure",
+   "scope": "How individual Noh plays are classed in the five-category (gobandate) programme, along with their attributed authorship (Zeami, Zenchiku, Kojiro Nobumitsu), shite/waki roles and dan structure, as recorded in translations and performance studies. A question can ask for the category or role-type of a named play, or ask how a programme assembled from given plays breaks the traditional order.",
+   "queries": [
+    "Noh plays Japan translation",
+    "Zeami Noh play",
+    "shite waki role",
+    "fifth category demon Noh",
+    "jo-ha-kyu Noh programme"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "doab"
+   ]
+  }
+ ]
+}

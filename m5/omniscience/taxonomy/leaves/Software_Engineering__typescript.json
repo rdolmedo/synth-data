@@ -1,0 +1,933 @@
+{
+ "domain": "Software Engineering",
+ "subtopic": "typescript",
+ "weight": 0.014306,
+ "leaves": [
+  {
+   "leaf": "TypeScript history, design origins and release timeline",
+   "scope": "Origins of TypeScript at Microsoft, its key designers and design goals, milestones such as 0.8 and 1.0, the move from CodePlex to GitHub, adoption events like Angular 2, and the dates and numbering of major and minor releases.",
+   "queries": [
+    "TypeScript Anders Hejlsberg Microsoft 2012 release",
+    "TypeScript 1.0 Build conference CodePlex GitHub",
+    "TypeScript version history release dates",
+    "TypeScript design goals non-goals superset JavaScript"
+   ],
+   "sources": [
+    "wikipedia",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "TypeScript 7 native Go port (Project Corsa) and the 6.0 transition",
+   "scope": "The native rewrite of the compiler and language service in Go, the tsgo previews, the Strada and Corsa codenames, the performance claims, and the deprecations and default changes in TypeScript 6.0 that lead into 7.0.",
+   "queries": [
+    "TypeScript native port Go tsgo preview",
+    "Project Corsa Strada TypeScript 7 compiler",
+    "TypeScript 6.0 deprecations default changes",
+    "typescript-go native previews npm 10x faster"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "tsconfig.json structure, inheritance and tsc command-line usage",
+   "scope": "Top-level tsconfig fields (files, include, exclude, extends, references, compilerOptions, watchOptions, typeAcquisition), config inheritance rules, the shared tsconfig bases, and tsc CLI flags such as --init, --showConfig and --listFiles.",
+   "queries": [
+    "tsconfig extends include exclude files glob",
+    "tsc --init --showConfig --listFiles command line",
+    "tsconfig bases @tsconfig/node recommended",
+    "extends array configDir template variable"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Strictness and additional type-checking compiler flags",
+   "scope": "The strict family and other checking options such as noImplicitAny, strictNullChecks, strictFunctionTypes, strictPropertyInitialization, useUnknownInCatchVariables, exactOptionalPropertyTypes, noUncheckedIndexedAccess and the noUnused* and noFallthrough* checks.",
+   "queries": [
+    "strict strictNullChecks noImplicitAny compiler option",
+    "exactOptionalPropertyTypes noUncheckedIndexedAccess flag",
+    "useUnknownInCatchVariables strictBindCallApply strictBuiltinIteratorReturn",
+    "noFallthroughCasesInSwitch noUnusedLocals noUnusedParameters allowUnreachableCode"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Special types any, unknown, never, void and object, and type assertions",
+   "scope": "Semantics of the top, bottom and special types (any, unknown, never, void, object, the empty object type, bigint, symbol), the as and angle-bracket assertions, the non-null assertion operator, and definite assignment assertions.",
+   "queries": [
+    "unknown type top type any TypeScript 3.0",
+    "never type bottom type exhaustiveness checking",
+    "non-null assertion operator definite assignment assertion",
+    "lowercase object type non-primitive TypeScript 2.2"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type inference, literal widening, const assertions and the satisfies operator",
+   "scope": "How the checker infers types from initializers, return statements and context, best common type, literal type widening and freshness, as const assertions, and the satisfies operator.",
+   "queries": [
+    "contextual typing best common type inference",
+    "literal type widening const let freshness",
+    "const assertions as const readonly literal TypeScript 3.4",
+    "satisfies operator TypeScript 4.9 validate expression"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Structural type compatibility and assignability rules",
+   "scope": "Structural subtyping, the assignability, subtype and comparability relations, excess property checks on object literals, weak type detection, and how parameters and methods are checked bivariantly versus contravariantly.",
+   "queries": [
+    "structural typing type compatibility assignability",
+    "excess property checking object literal freshness",
+    "weak type detection all optional properties",
+    "function parameter bivariance strictFunctionTypes methods"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Union, intersection and discriminated union types with control-flow narrowing",
+   "scope": "Union and intersection semantics and reduction, discriminated unions, and narrowing by typeof, instanceof, in, equality, truthiness, user-defined type predicates, assertion functions, aliased conditions and inferred type predicates.",
+   "queries": [
+    "discriminated unions narrowing typeof instanceof guards",
+    "user-defined type predicate assertion functions asserts",
+    "control flow analysis aliased conditions discriminants TypeScript 4.4",
+    "inferred type predicates TypeScript 5.5 filter"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generics, type parameter constraints, defaults and variance",
+   "scope": "Generic functions, classes and interfaces, extends constraints, default type arguments, explicit in/out variance annotations, const type parameters, and how type arguments are inferred at call sites.",
+   "queries": [
+    "generic type parameter constraints extends keyof",
+    "generic parameter defaults TypeScript 2.3",
+    "variance annotations in out type parameters 4.7",
+    "const type parameters TypeScript 5.0 generic inference"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Conditional types, infer and recursive type-level programming",
+   "scope": "Conditional type syntax, distribution over unions, infer declarations with extends constraints, recursive type aliases and recursive conditional types, tail-recursion evaluation, and common type-level computation patterns.",
+   "queries": [
+    "conditional types distributive infer keyword TypeScript 2.8",
+    "infer extends constraints conditional types 4.7",
+    "recursive type aliases recursive conditional types 4.1",
+    "tail recursion elimination conditional types 4.5"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Mapped types, modifiers and key remapping",
+   "scope": "Mapped type syntax over keyof and unions, adding and removing the readonly and optional modifiers with + and -, homomorphic mapped types, key remapping with as clauses, and mapped types over arrays and tuples.",
+   "queries": [
+    "mapped types readonly optional modifiers TypeScript 2.1",
+    "key remapping as clause mapped types 4.1",
+    "homomorphic mapped types preserve modifiers",
+    "mapped types tuples arrays TypeScript 3.1"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Template literal types and intrinsic string manipulation types",
+   "scope": "Template literal type syntax, inference from template literal patterns, the intrinsic Uppercase, Lowercase, Capitalize and Uncapitalize types, and index signatures for template string patterns.",
+   "queries": [
+    "template literal types TypeScript 4.1 Uppercase Capitalize",
+    "intrinsic string manipulation types Uncapitalize Lowercase",
+    "template string pattern index signatures 4.4",
+    "inference template literal types infer string"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Built-in utility types",
+   "scope": "The global utility types such as Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, Parameters, ReturnType, InstanceType, ThisType, Awaited and NoInfer, their definitions and the version that introduced each.",
+   "queries": [
+    "utility types Partial Required Readonly Record Pick",
+    "Omit helper type TypeScript 3.5",
+    "Awaited type TypeScript 4.5 Promise unwrapping",
+    "ReturnType Parameters ConstructorParameters InstanceType ThisType"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "keyof, typeof, indexed access types and index signatures",
+   "scope": "The keyof and typeof type operators, indexed access types, index signatures keyed by string, number and symbol, unique symbol types, and how property keys behave.",
+   "queries": [
+    "keyof type operator indexed access types",
+    "index signatures string number symbol keys",
+    "unique symbol type TypeScript 2.7 well-known",
+    "keyofStringsOnly typeof type query"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Function signatures, overloads and tuple types",
+   "scope": "Function type expressions, call and construct signatures, overloads and implementation signatures, this parameters, optional and rest parameters, tuples with optional, rest, labeled and variadic elements, and readonly arrays.",
+   "queries": [
+    "function overloads implementation signature call signatures",
+    "variadic tuple types labeled tuple elements 4.0",
+    "this parameters ThisParameterType function",
+    "rest elements optional tuple elements TypeScript 3.0"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Interfaces, type aliases, declaration merging and module augmentation",
+   "scope": "How interface and type alias declarations differ, interface extension, merging interfaces and merging namespaces with classes, functions and enums, and the rules for global and module augmentation.",
+   "queries": [
+    "declaration merging interfaces namespaces classes",
+    "module augmentation declare global",
+    "interface versus type alias differences extends",
+    "merging namespaces with classes functions enums"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Enums, const enums and namespaces",
+   "scope": "Numeric and string enums, constant and computed members, reverse mappings, const enums and preserveConstEnums, ambient enums, namespaces (the former internal modules), and the erasableSyntaxOnly restriction on constructs that can't be erased.",
+   "queries": [
+    "const enum preserveConstEnums inlining",
+    "string enums numeric enums reverse mapping",
+    "namespace keyword internal modules nested namespaces aliases",
+    "erasableSyntaxOnly TypeScript 5.8 enums parameter properties"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Class features and member modifiers",
+   "scope": "The public, private and protected modifiers, ECMAScript private fields, readonly and parameter properties, abstract classes and members, the override keyword, static blocks, the accessor keyword, and useDefineForClassFields semantics.",
+   "queries": [
+    "abstract classes abstract members TypeScript",
+    "override keyword TypeScript 4.3 class members",
+    "ECMAScript private fields #private TypeScript 3.8",
+    "useDefineForClassFields class fields semantics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Decorators and decorator metadata",
+   "scope": "Legacy experimentalDecorators and emitDecoratorMetadata semantics, the TC39 standard decorators supported since TypeScript 5.0, decorator context objects, evaluation order, and Symbol.metadata decorator metadata.",
+   "queries": [
+    "experimentalDecorators emitDecoratorMetadata reflect-metadata",
+    "ECMAScript decorators TypeScript 5.0 context",
+    "decorator metadata Symbol.metadata TypeScript 5.2",
+    "class decorator method decorator parameter decorator evaluation order"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "ECMAScript syntax support and downlevel emit",
+   "scope": "The release that added support for each ECMAScript syntax feature, such as optional chaining, nullish coalescing, top-level await, using declarations and import attributes, and how target, downlevelIteration, importHelpers and tslib shape the emitted JavaScript.",
+   "queries": [
+    "optional chaining nullish coalescing TypeScript 3.7",
+    "using declarations explicit resource management Symbol.dispose",
+    "downlevelIteration importHelpers tslib helpers",
+    "target ES2022 ESNext emit compiler option"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Built-in declaration libraries and the lib option",
+   "scope": "The bundled lib.*.d.ts files (es5, es2015.*, esnext.*, dom, webworker, scripthost), the lib, noLib and libReplacement options, how the DOM typings are generated, and changes to built-in typings across releases.",
+   "queries": [
+    "lib compiler option dom es2015 esnext",
+    "lib.dom.d.ts TypeScript-DOM-lib-generator changes",
+    "libReplacement @typescript/lib-dom noLib",
+    "lib.es2015.iterable lib.webworker.d.ts declarations"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Module resolution strategies and path mapping",
+   "scope": "The moduleResolution modes classic, node10, node16, nodenext and bundler, how package.json exports and imports are resolved, custom conditions, paths and baseUrl mapping, rootDirs, typeRoots, and resolution tracing.",
+   "queries": [
+    "moduleResolution node16 nodenext bundler",
+    "paths baseUrl path mapping module resolution",
+    "resolvePackageJsonExports allowImportingTsExtensions customConditions",
+    "traceResolution rootDirs typeRoots resolution"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Module emit formats and ESM/CommonJS interoperability",
+   "scope": "The values of the module option (commonjs, amd, umd, system, es2015, esnext, node16, nodenext, preserve), esModuleInterop, allowSyntheticDefaultImports, verbatimModuleSyntax, type-only imports and exports, import = require, and import elision.",
+   "queries": [
+    "esModuleInterop allowSyntheticDefaultImports default import",
+    "verbatimModuleSyntax import elision TypeScript 5.0",
+    "type-only imports exports TypeScript 3.8",
+    "module preserve commonjs amd umd system emit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Project references, build mode and incremental compilation",
+   "scope": "Composite projects, tsc --build orchestration and its flags, .tsbuildinfo files, incremental compilation, watch mode and watchOptions strategies, and laying out a monorepo with project references.",
+   "queries": [
+    "project references composite tsc --build",
+    "incremental tsBuildInfoFile .tsbuildinfo",
+    "watchOptions watchFile watchDirectory fallbackPolling",
+    "tsc -b --clean --force --verbose"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Declaration files authoring and declaration emit",
+   "scope": "Writing .d.ts files with ambient declarations, declare module, UMD globals and triple-slash directives, and the declaration emit options declaration, declarationMap, emitDeclarationOnly, stripInternal and isolatedDeclarations.",
+   "queries": [
+    "declaration files .d.ts declare module ambient",
+    "triple-slash directives reference types path lib",
+    "declarationMap emitDeclarationOnly stripInternal",
+    "isolatedDeclarations TypeScript 5.5 declaration emit"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "DefinitelyTyped, @types packages and publishing typed npm packages",
+   "scope": "The DefinitelyTyped repository and the @types scope, automatic type acquisition, the types and typesVersions fields in package.json, the types export condition, dual CJS/ESM packaging, and tools that check published types.",
+   "queries": [
+    "DefinitelyTyped @types packages publishing",
+    "typesVersions package.json types field",
+    "automatic type acquisition typeAcquisition",
+    "Are the types wrong dual package exports"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "JSX and TSX type checking",
+   "scope": "The jsx option values (preserve, react, react-native, react-jsx, react-jsxdev), jsxFactory, jsxFragmentFactory and jsxImportSource, the JSX namespace and IntrinsicElements, and the rules for checking element types.",
+   "queries": [
+    "jsx react-jsx react-jsxdev compiler option",
+    "jsxImportSource jsxFactory jsxFragmentFactory pragma",
+    "JSX.IntrinsicElements ElementClass LibraryManagedAttributes",
+    "TSX files generic components type checking"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type checking JavaScript with JSDoc",
+   "scope": "allowJs, checkJs and // @ts-check, the supported JSDoc tags such as @type, @param, @typedef, @template, @satisfies, @overload and @import, and how types in JS files are inferred and emitted.",
+   "queries": [
+    "checkJs allowJs @ts-check JavaScript files",
+    "JSDoc @typedef @template @callback supported types",
+    "@satisfies @overload JSDoc TypeScript 5.0",
+    "JSDoc @import tag TypeScript 5.5"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler diagnostics, error codes and suppression comments",
+   "scope": "Numbered TSxxxx diagnostic codes and their messages, diagnostic categories and related information, the @ts-ignore, @ts-expect-error and @ts-nocheck comments, noEmitOnError, pretty output, and localized diagnostics.",
+   "queries": [
+    "@ts-expect-error @ts-ignore comments TypeScript 3.9",
+    "error TS2322 type is not assignable",
+    "diagnosticMessages.json error codes categories",
+    "noEmitOnError pretty locale diagnostics"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler API, AST and custom transformers",
+   "scope": "Using the typescript package from code: createProgram, the TypeChecker, SyntaxKind and the node factory, custom transformers, the printer and scanner, and the compiler host interfaces.",
+   "queries": [
+    "TypeScript compiler API createProgram TypeChecker",
+    "SyntaxKind node factory createSourceFile",
+    "custom transformers before after afterDeclarations",
+    "ts.transform printer emit API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "tsserver, language service and editor tooling",
+   "scope": "The tsserver protocol, language service features (completions, quick fixes, refactorings, auto-imports, inlay hints, go to definition), language service plugins, and the TypeScript Playground and Twoslash.",
+   "queries": [
+    "tsserver protocol language service commands",
+    "language service plugins tsconfig plugins",
+    "inlay hints auto imports organize imports editor",
+    "TypeScript Playground twoslash"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Compiler performance tracing and type complexity limits",
+   "scope": "Diagnosing slow builds with extendedDiagnostics and generateTrace, speedups such as skipLibCheck, and the checker's hard limits on instantiation depth, union size and recursion that trigger errors like 'excessively deep'.",
+   "queries": [
+    "extendedDiagnostics generateTrace performance tracing",
+    "type instantiation is excessively deep possibly infinite",
+    "skipLibCheck assumeChangesOnlyAffectDirectDependencies build speed",
+    "expression produces union type too complex"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Executing TypeScript directly: ts-node, tsx, Node.js type stripping, Deno and Bun",
+   "scope": "Runtimes and loaders that run .ts files without a separate build step, including ts-node, tsx, Node.js --experimental-strip-types and --experimental-transform-types, Deno's built-in type checker, and Bun's transpiler.",
+   "queries": [
+    "Node.js type stripping experimental-strip-types",
+    "ts-node esm loader transpileOnly swc",
+    "Deno TypeScript support deno check",
+    "Bun runs TypeScript files transpiler tsconfig"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Third-party TypeScript transpilers and isolated compilation",
+   "scope": "Compilers that strip types, such as Babel's preset-typescript, esbuild, swc, Sucrase and oxc, the features they don't support and their caveats, plus the isolatedModules constraint and the transpileModule API.",
+   "queries": [
+    "babel preset-typescript plugin-transform-typescript caveats",
+    "esbuild TypeScript caveats isolatedModules",
+    "swc jsc parser syntax typescript tsx",
+    "transpileModule isolatedModules single-file transpilation"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "typescript-eslint and linting TypeScript",
+   "scope": "The typescript-eslint parser, plugin and shared configs, typed linting with parserOptions.project and projectService, notable rules, flat config support, and the deprecation of TSLint.",
+   "queries": [
+    "typescript-eslint parser plugin recommended config",
+    "typed linting projectService parserOptions project",
+    "@typescript-eslint/no-explicit-any no-floating-promises rule",
+    "TSLint deprecation 2019 migration ESLint"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Testing TypeScript code and type-level assertions",
+   "scope": "Running tests on TypeScript code with ts-jest, Vitest and Jest with Babel, and testing types with tsd, expect-type, dtslint and Vitest's typecheck mode.",
+   "queries": [
+    "ts-jest preset isolatedModules diagnostics",
+    "Vitest typecheck expectTypeOf assertType",
+    "tsd expectType expectError type definitions",
+    "dtslint $ExpectType DefinitelyTyped tests"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Runtime schema validation libraries with static type inference",
+   "scope": "Libraries that derive TypeScript types from runtime schemas, such as Zod, io-ts, Valibot, ArkType, TypeBox, Yup and Effect Schema, including their APIs, inference helpers, versions and the Standard Schema interface.",
+   "queries": [
+    "Zod schema z.infer parse safeParse",
+    "io-ts codec decode runtime types fp-ts",
+    "Valibot ArkType TypeBox schema validation",
+    "Standard Schema specification validators"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Type-safe API, RPC and database tooling",
+   "scope": "Tools that carry TypeScript types across network and database boundaries, including tRPC, GraphQL Code Generator, openapi-typescript, Prisma, Drizzle ORM, Kysely and TypeORM.",
+   "queries": [
+    "tRPC router procedure end-to-end typesafe",
+    "Prisma Client generated types schema.prisma",
+    "Drizzle ORM Kysely type-safe SQL query builder",
+    "GraphQL Code Generator typescript plugin openapi-typescript"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "TypeScript integration in web frameworks",
+   "scope": "How Angular, Vue, Svelte, React, Next.js and NestJS configure and check TypeScript, including vue-tsc and Volar, svelte-check, Angular strict templates, and the TypeScript version ranges each framework supports.",
+   "queries": [
+    "Angular supported TypeScript versions strictTemplates",
+    "vue-tsc Volar defineProps TypeScript",
+    "svelte-check lang ts Svelte TypeScript",
+    "Next.js TypeScript next-env.d.ts typedRoutes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "TypeScript-like languages and alternative compile targets",
+   "scope": "Languages and compilers that reuse TypeScript syntax for other targets or stricter subsets, such as AssemblyScript for WebAssembly, TypeScriptToLua, Static TypeScript in Microsoft MakeCode, and ArkTS for HarmonyOS.",
+   "queries": [
+    "AssemblyScript WebAssembly TypeScript-like language",
+    "TypeScriptToLua transpiler Lua target",
+    "Static TypeScript MakeCode micro:bit compiler",
+    "ArkTS HarmonyOS TypeScript extension"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mixin classes, polymorphic this types and this parameters",
+   "scope": "How TypeScript types `this`: polymorphic this return types, explicit this parameters and noImplicitThis, ThisType/ThisParameterType/OmitThisParameter, and the mixin pattern built from class expressions and constructor types.",
+   "queries": [
+    "mixin classes constructor type TypeScript",
+    "polymorphic this types fluent interface",
+    "this parameters noImplicitThis callback",
+    "ThisType marker interface object literal methods"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Iterators, generators, async functions and Promise typing",
+   "scope": "How TypeScript types iteration and asynchrony: the Iterable/Iterator/IterableIterator/IteratorObject interfaces, Generator<T, TReturn, TNext>, async generators and for-await-of, iterator helper methods, Awaited and PromiseLike, and top-level await.",
+   "queries": [
+    "Generator type TReturn TNext TypeScript",
+    "IteratorObject BuiltinIteratorReturn iterator helpers",
+    "async generators for await of AsyncIterable",
+    "Awaited type Promise.all await inference"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Symbols, unique symbol and explicit resource management",
+   "scope": "Typing related to symbols, including unique symbol declarations, well-known symbols such as Symbol.iterator and Symbol.hasInstance, and the using/await using declarations with Disposable, AsyncDisposable and DisposableStack added in TypeScript 5.2.",
+   "queries": [
+    "using declarations Symbol.dispose TypeScript 5.2",
+    "await using AsyncDisposable DisposableStack",
+    "unique symbol type const declaration",
+    "Symbol.hasInstance instanceof narrowing well-known symbols"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Type-only imports, exports and import elision",
+   "scope": "The syntax and compiler options that decide whether imports survive emit: import type/export type, inline type modifiers on import names, importsNotUsedAsValues, preserveValueImports, verbatimModuleSyntax and the elision of unused imports.",
+   "queries": [
+    "import type export type TypeScript 3.8",
+    "verbatimModuleSyntax importsNotUsedAsValues preserveValueImports",
+    "type modifiers on import names 4.5",
+    "import elision unused imports emit"
+   ],
+   "sources": [
+    "changelog",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Branded, opaque and nominal type emulation",
+   "scope": "Ways to simulate nominal typing inside TypeScript's structural type system, including brand intersections, unique symbol brands, class nominality through private members, library brand helpers, and the long-running design discussions about nominal types.",
+   "queries": [
+    "branded types nominal typing TypeScript",
+    "opaque type brand intersection unique symbol",
+    "private property class nominal compatibility",
+    "zod brand Effect Brand nominal schema"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Design goals, FAQ rationales and deliberate unsoundness",
+   "scope": "The TypeScript team's stated design goals and non-goals, its position as a gradually typed superset of JavaScript, and the intentional unsoundness and design decisions explained in the official FAQ, such as method parameter bivariance, Object.keys returning string[] and the lack of exact types.",
+   "queries": [
+    "TypeScript design goals non-goals sound type system",
+    "method parameter bivariance unsoundness",
+    "Object.keys returns string not keyof",
+    "gradual typing optional static typing JavaScript superset"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TSDoc, TypeDoc and API Extractor documentation tooling",
+   "scope": "Doc-comment standards and API reporting tools for TypeScript libraries, including the TSDoc specification and its tags, TypeDoc generation, options and plugins, and Microsoft's API Extractor and API Documenter with .d.ts rollups and release tags.",
+   "queries": [
+    "TSDoc tags remarks packageDocumentation specification",
+    "TypeDoc entryPoints options plugins",
+    "API Extractor d.ts rollup api report",
+    "release tags alpha beta public internal"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Source maps and debugging compiled TypeScript",
+   "scope": "Producing and using source maps for TypeScript output (sourceMap, inlineSourceMap, inlineSources, sourceRoot, mapRoot, declarationMap) and debugging TypeScript in Node.js, browsers and editors.",
+   "queries": [
+    "sourceMap inlineSourceMap inlineSources sourceRoot mapRoot",
+    "declarationMap go to definition source",
+    "node enable-source-maps TypeScript stack traces",
+    "debugging TypeScript VS Code launch.json outFiles"
+   ],
+   "sources": [
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "Unused code detection, type coverage and dependency analysis tools",
+   "scope": "Static analysis tools for TypeScript codebases that go beyond linting, such as knip, ts-prune, ts-unused-exports, type-coverage, madge and dependency-cruiser.",
+   "queries": [
+    "knip unused files exports dependencies",
+    "type-coverage any percentage strict",
+    "dependency-cruiser circular dependencies rules",
+    "madge circular dependency graph TypeScript"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Bundler loaders and plugins for TypeScript",
+   "scope": "How bundlers and build tools take in TypeScript, including webpack's ts-loader and fork-ts-checker-webpack-plugin, @rollup/plugin-typescript and rollup-plugin-dts, how Vite and Parcel handle TypeScript, and setups that run type checking in a separate process.",
+   "queries": [
+    "ts-loader transpileOnly webpack options",
+    "fork-ts-checker-webpack-plugin type checking separate process",
+    "rollup plugin typescript rollup-plugin-dts",
+    "Vite TypeScript isolatedModules transpile only"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Monorepo and workspace tooling for TypeScript",
+   "scope": "Managing TypeScript repositories with many packages using workspace managers and build orchestrators such as Nx, Turborepo, Rush, Lerna and pnpm/yarn/npm workspaces, including task graphs, caching and internal package conventions.",
+   "queries": [
+    "Nx TypeScript monorepo project graph",
+    "Turborepo pipeline tasks caching",
+    "Rush monorepo pnpm workspaces Microsoft",
+    "Lerna workspaces internal packages TypeScript"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Code formatters and unified Rust-based toolchains",
+   "scope": "Formatting TypeScript and the all-in-one toolchains, including Prettier's TypeScript parser and options, dprint, Biome and its predecessor Rome, and the linter and formatter parts of Oxc.",
+   "queries": [
+    "Prettier TypeScript parser options trailingComma",
+    "Biome formatter linter Rome fork",
+    "dprint typescript plugin configuration",
+    "oxlint Oxc formatter JavaScript TypeScript"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Generating TypeScript types from schemas, IDLs and other languages",
+   "scope": "Code generators that produce TypeScript type definitions or clients from outside sources such as OpenAPI, GraphQL schemas, JSON Schema, Protocol Buffers and Rust or C# types (e.g. openapi-typescript, GraphQL Code Generator, quicktype, ts-proto, ts-rs, wasm-bindgen).",
+   "queries": [
+    "openapi-typescript generate types OpenAPI schema",
+    "GraphQL Code Generator typescript plugin codegen",
+    "json-schema-to-typescript quicktype generate interfaces",
+    "ts-proto protobuf TypeScript generation options"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Typed functional programming and effect libraries",
+   "scope": "Libraries that bring functional programming abstractions to TypeScript, including fp-ts and its higher-kinded type encoding, Effect, exhaustive matching with ts-pattern, Result types in neverthrow, purify-ts and Remeda.",
+   "queries": [
+    "fp-ts Option Either pipe higher kinded types",
+    "Effect TypeScript library Effect type parameters",
+    "ts-pattern match exhaustive pattern matching",
+    "neverthrow Result ok err TypeScript"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Third-party type utility libraries",
+   "scope": "Community packages that supply type-level helpers or stricter versions of the built-in typings, such as type-fest, ts-toolbelt, ts-essentials, utility-types, ts-reset and simplytyped.",
+   "queries": [
+    "type-fest utility types Simplify Except",
+    "ts-reset stricter JSON.parse fetch types",
+    "ts-toolbelt type library",
+    "ts-essentials DeepPartial DeepReadonly"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Dependency injection containers and reflection metadata",
+   "scope": "Inversion-of-control and dependency injection frameworks for TypeScript that depend on decorators and emitted type metadata, including InversifyJS, TSyringe, TypeDI, NestJS providers and the reflect-metadata polyfill.",
+   "queries": [
+    "InversifyJS container bind injectable",
+    "TSyringe dependency injection container decorators",
+    "reflect-metadata design:paramtypes",
+    "NestJS providers injection scopes"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Infrastructure as code in TypeScript",
+   "scope": "Defining cloud infrastructure in TypeScript, including AWS CDK constructs and major versions, the jsii cross-language compiler, CDK for Terraform, cdk8s and Pulumi's TypeScript SDK.",
+   "queries": [
+    "AWS CDK TypeScript constructs v2 aws-cdk-lib",
+    "jsii TypeScript cross-language bindings",
+    "CDK for Terraform cdktf TypeScript",
+    "Pulumi TypeScript program stack"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TypeScript in embedded scripting and edge platforms",
+   "scope": "Host environments that run or accept TypeScript as their scripting language, such as Excel Office Scripts, Google Apps Script through clasp, Cloudflare Workers and its type packages, Grafana k6 and Figma plugins.",
+   "queries": [
+    "Office Scripts Excel TypeScript ExcelScript",
+    "clasp Google Apps Script TypeScript",
+    "Cloudflare Workers types wrangler TypeScript",
+    "k6 TypeScript support load testing scripts"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "TypeScript for mobile and desktop application frameworks",
+   "scope": "How TypeScript is used in cross-platform native and desktop app frameworks, including React Native's TypeScript defaults, Expo, NativeScript, Ionic/Capacitor, Electron and Tauri's TypeScript APIs.",
+   "queries": [
+    "React Native TypeScript template default",
+    "NativeScript TypeScript Angular native",
+    "Electron TypeScript preload contextBridge",
+    "Capacitor Ionic plugin TypeScript API"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Migrating JavaScript and Flow codebases to TypeScript",
+   "scope": "Strategies, tools and case studies for adopting TypeScript step by step, including gradual migration with allowJs, Airbnb's ts-migrate, Flow-to-TypeScript converters, codemods, and migrations that large companies have published.",
+   "queries": [
+    "migrating from JavaScript to TypeScript allowJs",
+    "ts-migrate Airbnb codemod plugins",
+    "flow to TypeScript migration converter",
+    "incremental migration TypeScript large codebase"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TypeScript adoption statistics, surveys and notable codebases",
+   "scope": "Numbers and history showing how widely TypeScript is used, such as its rankings in GitHub Octoverse, the Stack Overflow and State of JS surveys, npm download counts, and major projects written in TypeScript or migrated to it.",
+   "queries": [
+    "TypeScript GitHub Octoverse most used language",
+    "Stack Overflow developer survey TypeScript",
+    "State of JavaScript survey TypeScript usage",
+    "projects written in TypeScript Visual Studio Code Angular"
+   ],
+   "sources": [
+    "wikipedia",
+    "software_docs"
+   ]
+  },
+  {
+   "leaf": "TC39 relationship and the Type Annotations proposal",
+   "scope": "How TypeScript interacts with ECMAScript standardization, including the Type Annotations (\"types as comments\") proposal, features TypeScript shipped before they were standardized, the erasableSyntaxOnly flag, and non-standard constructs such as enums and parameter properties.",
+   "queries": [
+    "type annotations proposal TC39 types as comments",
+    "erasableSyntaxOnly TypeScript 5.8 erasable syntax",
+    "TC39 stage proposal TypeScript implementation",
+    "ECMAScript standard TypeScript non-standard syntax enums"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TypeScript team, development process and release cadence",
+   "scope": "How the TypeScript project is run: core team members and their roles, iteration plans and design meeting notes, the beta/RC/stable release cadence, nightly builds, versioning that does not follow semver, and the breaking-change policy.",
+   "queries": [
+    "TypeScript iteration plan beta release candidate schedule",
+    "typescript@next nightly builds npm",
+    "TypeScript breaking changes semantic versioning policy",
+    "Anders Hejlsberg Ryan Cavanaugh Daniel Rosenwasser TypeScript team"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "TypeScript Playground, Twoslash and online tooling",
+   "scope": "Browser-based and documentation tooling around TypeScript, including the official Playground and its plugins, the TypeScript integration in the Monaco editor, Twoslash code-sample annotations with Shiki, and the TS AST Viewer.",
+   "queries": [
+    "TypeScript Playground plugins compiler options URL",
+    "Twoslash annotations queries errors code samples",
+    "Monaco editor TypeScript worker language defaults",
+    "shiki twoslash TypeScript documentation highlighting"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Typed state management and router libraries",
+   "scope": "Type-safety patterns and APIs in client state and routing libraries, including the RootState/AppDispatch typing in Redux Toolkit, Zustand's middleware types, MobX, the setup-based typing in XState v5, and route registration in TanStack Router.",
+   "queries": [
+    "Redux Toolkit TypeScript RootState AppDispatch createSlice",
+    "XState v5 setup types TypeScript",
+    "Zustand create TypeScript middleware types",
+    "TanStack Router type-safe routes register"
+   ],
+   "sources": [
+    "software_docs",
+    "changelog"
+   ]
+  },
+  {
+   "leaf": "Game engines and graphics libraries built with TypeScript",
+   "scope": "TypeScript use in browser game and 3D engines, including Babylon.js, Phaser, PixiJS, PlayCanvas, Excalibur.js, Cocos Creator scripting and the Three.js typings.",
+   "queries": [
+    "Babylon.js written in TypeScript engine",
+    "Phaser TypeScript definitions game framework",
+    "Cocos Creator TypeScript component scripting",
+    "Excalibur.js TypeScript game engine"
+   ],
+   "sources": [
+    "software_docs",
+    "wikipedia",
+    "changelog"
+   ]
+  }
+ ]
+}

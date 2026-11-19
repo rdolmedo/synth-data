@@ -1,0 +1,733 @@
+{
+ "subtopics": [
+  {
+   "name": "Scattering amplitudes and on-shell methods",
+   "scope": "Structure and computation of gauge-theory and gravity scattering amplitudes at tree and loop level using on-shell techniques instead of Feynman diagrams.",
+   "keywords": [
+    "scattering amplitudes",
+    "spinor-helicity",
+    "BCFW recursion",
+    "generalized unitarity",
+    "color-kinematics duality",
+    "double copy",
+    "MHV amplitudes",
+    "soft theorems",
+    "loop integrand",
+    "amplituhedron"
+   ]
+  },
+  {
+   "name": "Conformal bootstrap and CFT data",
+   "scope": "Constraints on operator dimensions and OPE coefficients of conformal field theories in more than two dimensions from crossing symmetry, unitarity and the analytic structure of correlators.",
+   "keywords": [
+    "conformal bootstrap",
+    "conformal blocks",
+    "OPE coefficients",
+    "crossing symmetry",
+    "anomalous dimensions",
+    "Lorentzian inversion formula",
+    "large spin expansion",
+    "Mellin amplitudes",
+    "four-point function",
+    "conformal defects"
+   ]
+  },
+  {
+   "name": "Two-dimensional CFT and modular invariance",
+   "scope": "Virasoro and extended chiral algebras, minimal and rational models, torus and boundary partition functions, and modular bootstrap constraints in two-dimensional conformal field theory.",
+   "keywords": [
+    "Virasoro algebra",
+    "minimal models",
+    "modular invariance",
+    "torus partition function",
+    "Verlinde formula",
+    "boundary states",
+    "W-algebras",
+    "Cardy formula",
+    "orbifold",
+    "Kac-Moody algebra"
+   ]
+  },
+  {
+   "name": "Gauge/gravity duality and holographic models",
+   "scope": "AdS/CFT computations of correlators, transport coefficients, phase structure and entanglement in strongly coupled field theories from classical bulk gravity solutions.",
+   "keywords": [
+    "AdS/CFT",
+    "holography",
+    "holographic renormalization",
+    "Ryu-Takayanagi",
+    "holographic superconductor",
+    "holographic QCD",
+    "shear viscosity",
+    "black brane",
+    "Witten diagrams",
+    "entanglement entropy"
+   ]
+  },
+  {
+   "name": "Supersymmetric gauge dynamics and localization",
+   "scope": "Exact non-perturbative results in supersymmetric gauge theories obtained from holomorphy, Seiberg-Witten geometry, dualities, supersymmetric indices and localization of path integrals.",
+   "keywords": [
+    "Seiberg-Witten",
+    "supersymmetric localization",
+    "superconformal index",
+    "Seiberg duality",
+    "Nekrasov partition function",
+    "N=2 gauge theory",
+    "BPS states",
+    "prepotential",
+    "a-maximization",
+    "sphere partition function"
+   ]
+  },
+  {
+   "name": "Integrability in gauge and string theories",
+   "scope": "Integrable structures in spin chains, two-dimensional sigma models and planar N=4 super Yang-Mills and AdS strings, solved exactly with Bethe ansatz and S-matrix methods.",
+   "keywords": [
+    "integrability",
+    "Bethe ansatz",
+    "spin chain",
+    "factorized S-matrix",
+    "Yang-Baxter equation",
+    "thermodynamic Bethe ansatz",
+    "quantum spectral curve",
+    "cusp anomalous dimension",
+    "integrable sigma model",
+    "Lax pair"
+   ]
+  },
+  {
+   "name": "String compactifications and flux vacua",
+   "scope": "Four-dimensional effective theories obtained from Calabi-Yau, orbifold, orientifold and flux compactifications of string theory, including spectra, moduli stabilization and vacuum structure.",
+   "keywords": [
+    "Calabi-Yau",
+    "flux compactification",
+    "moduli stabilization",
+    "orientifold",
+    "KKLT",
+    "large volume scenario",
+    "intersecting D-branes",
+    "K\u00e4hler potential",
+    "superpotential",
+    "F-theory"
+   ]
+  },
+  {
+   "name": "Generalized symmetries and quantum anomalies",
+   "scope": "Perturbative and global anomalies, anomaly matching and inflow, and higher-form and non-invertible symmetries as constraints on the dynamics and phases of quantum field theories.",
+   "keywords": [
+    "'t Hooft anomaly",
+    "anomaly matching",
+    "higher-form symmetry",
+    "non-invertible symmetry",
+    "anomaly inflow",
+    "global anomaly",
+    "theta angle",
+    "topological field theory",
+    "Green-Schwarz mechanism",
+    "symmetry TFT"
+   ]
+  },
+  {
+   "name": "Topological solitons, instantons and monopoles",
+   "scope": "Classical and semiclassical properties of kinks, vortices, monopoles, skyrmions and instantons, including BPS bounds, moduli spaces, fluctuation spectra and tunneling amplitudes.",
+   "keywords": [
+    "soliton",
+    "instanton",
+    "magnetic monopole",
+    "vortex",
+    "Skyrmion",
+    "kink",
+    "BPS bound",
+    "moduli space",
+    "zero modes",
+    "false vacuum decay"
+   ]
+  },
+  {
+   "name": "Matrix models, SYK and two-dimensional gravity",
+   "scope": "Large-N matrix and vector models, Sachdev-Ye-Kitaev-type disordered models, and their relation to two-dimensional quantum gravity such as Jackiw-Teitelboim and Liouville theory.",
+   "keywords": [
+    "matrix model",
+    "large N",
+    "SYK model",
+    "Jackiw-Teitelboim gravity",
+    "Liouville theory",
+    "double scaling limit",
+    "Schwarzian",
+    "spectral form factor",
+    "topological recursion",
+    "eigenvalue density"
+   ]
+  },
+  {
+   "name": "Renormalization group fixed points and critical exponents",
+   "scope": "Perturbative and non-perturbative renormalization group analysis of scalar, Yukawa and gauge field theories, their fixed points, beta functions and critical exponents.",
+   "keywords": [
+    "renormalization group",
+    "beta function",
+    "fixed point",
+    "epsilon expansion",
+    "critical exponents",
+    "Wilson-Fisher",
+    "Gross-Neveu-Yukawa",
+    "functional renormalization group",
+    "asymptotic safety",
+    "conformal window"
+   ]
+  },
+  {
+   "name": "Extra dimensions and Kaluza-Klein theories",
+   "scope": "Models with flat or warped extra dimensions, their Kaluza-Klein spectra, brane-localized fields, radion stabilization and low-energy phenomenology.",
+   "keywords": [
+    "extra dimensions",
+    "Kaluza-Klein",
+    "Randall-Sundrum",
+    "warped geometry",
+    "brane world",
+    "radion",
+    "Goldberger-Wise",
+    "orbifold compactification",
+    "gauge-Higgs unification",
+    "KK graviton"
+   ]
+  },
+  {
+   "name": "Finite-volume methods for hadron interactions",
+   "scope": "Relating finite-volume energy levels and matrix elements computed in lattice QCD to infinite-volume scattering amplitudes, resonance parameters and decay rates.",
+   "keywords": [
+    "finite volume",
+    "L\u00fcscher formula",
+    "quantization condition",
+    "two-particle scattering",
+    "three-particle scattering",
+    "Lellouch-L\u00fcscher",
+    "resonance",
+    "phase shift",
+    "twisted boundary conditions",
+    "lattice QCD"
+   ]
+  },
+  {
+   "name": "Lattice fermions and chiral symmetry",
+   "scope": "Wilson, staggered, domain-wall and overlap discretizations of fermions on the lattice, and their doublers, chiral symmetry, index theorems and Dirac spectra.",
+   "keywords": [
+    "lattice fermions",
+    "Wilson fermions",
+    "staggered fermions",
+    "domain wall fermions",
+    "overlap Dirac operator",
+    "Ginsparg-Wilson relation",
+    "fermion doubling",
+    "Nielsen-Ninomiya theorem",
+    "chiral symmetry",
+    "index theorem"
+   ]
+  },
+  {
+   "name": "Hamiltonian and strong-coupling lattice gauge theory",
+   "scope": "Kogut-Susskind Hamiltonian formulations, strong-coupling expansions, quantum link models and low-dimensional lattice gauge theories studied with tensor networks or quantum simulation.",
+   "keywords": [
+    "Hamiltonian lattice gauge theory",
+    "Kogut-Susskind",
+    "strong coupling expansion",
+    "Schwinger model",
+    "quantum link model",
+    "tensor network",
+    "quantum simulation",
+    "string tension",
+    "Gauss law",
+    "plaquette"
+   ]
+  },
+  {
+   "name": "Soft-collinear effective theory and resummation",
+   "scope": "Factorization theorems and all-order resummation of large logarithms in collider observables such as event shapes, jet rates, threshold and transverse-momentum spectra.",
+   "keywords": [
+    "soft-collinear effective theory",
+    "factorization",
+    "resummation",
+    "Sudakov logarithms",
+    "event shapes",
+    "transverse momentum resummation",
+    "threshold resummation",
+    "jet function",
+    "soft function",
+    "cusp anomalous dimension"
+   ]
+  },
+  {
+   "name": "Parton evolution and small-x QCD",
+   "scope": "Scale and energy evolution of parton distributions and high-energy scattering via DGLAP, BFKL and non-linear saturation equations.",
+   "keywords": [
+    "parton distribution functions",
+    "DGLAP",
+    "splitting functions",
+    "BFKL",
+    "small-x",
+    "gluon saturation",
+    "Balitsky-Kovchegov",
+    "color glass condensate",
+    "deep inelastic scattering",
+    "dipole model"
+   ]
+  },
+  {
+   "name": "Heavy quarkonium and nonrelativistic effective theories",
+   "scope": "Spectra, decays and production of heavy-quark bound states and heavy hadrons using NRQCD, pNRQCD, heavy quark effective theory and potential models.",
+   "keywords": [
+    "quarkonium",
+    "NRQCD",
+    "pNRQCD",
+    "heavy quark effective theory",
+    "static potential",
+    "charmonium",
+    "bottomonium",
+    "heavy quark symmetry",
+    "hyperfine splitting",
+    "potential model"
+   ]
+  },
+  {
+   "name": "Chiral perturbation theory and low-energy hadrons",
+   "scope": "Low-energy dynamics of pions, kaons and nucleons from chiral effective Lagrangians, unitarization and dispersive methods.",
+   "keywords": [
+    "chiral perturbation theory",
+    "low-energy constants",
+    "pion-pion scattering",
+    "Goldstone bosons",
+    "chiral Lagrangian",
+    "unitarization",
+    "Roy equations",
+    "Wess-Zumino-Witten term",
+    "nucleon",
+    "pion form factor"
+   ]
+  },
+  {
+   "name": "Flavor physics and rare meson decays",
+   "scope": "Quark flavor transitions, CKM structure, neutral meson mixing and loop-induced or rare decays of K, D and B mesons in the Standard Model and beyond.",
+   "keywords": [
+    "flavor physics",
+    "CKM matrix",
+    "B meson decays",
+    "rare decays",
+    "meson mixing",
+    "CP violation",
+    "flavor-changing neutral currents",
+    "effective Hamiltonian",
+    "Wilson coefficients",
+    "lepton flavor universality"
+   ]
+  },
+  {
+   "name": "Neutrino masses, mixing and oscillations",
+   "scope": "Origin of neutrino masses in seesaw and radiative models, lepton mixing from flavor symmetries, and neutrino oscillation phenomenology in vacuum and matter.",
+   "keywords": [
+    "neutrino mass",
+    "seesaw mechanism",
+    "neutrino oscillations",
+    "MSW effect",
+    "PMNS matrix",
+    "flavor symmetry",
+    "neutrinoless double beta decay",
+    "sterile neutrino",
+    "radiative neutrino mass",
+    "texture zeros"
+   ]
+  },
+  {
+   "name": "Dark matter production and detection",
+   "scope": "Particle dark matter models, their relic abundance through freeze-out or freeze-in, and the resulting direct, indirect and collider detection rates.",
+   "keywords": [
+    "dark matter",
+    "relic abundance",
+    "freeze-out",
+    "freeze-in",
+    "WIMP",
+    "direct detection",
+    "Sommerfeld enhancement",
+    "annihilation cross section",
+    "hidden sector",
+    "Boltzmann equation"
+   ]
+  },
+  {
+   "name": "Baryogenesis and leptogenesis",
+   "scope": "Dynamical generation of the cosmic baryon asymmetry through out-of-equilibrium CP- and baryon-number-violating processes such as sphaleron transitions and heavy-neutrino decays.",
+   "keywords": [
+    "baryogenesis",
+    "leptogenesis",
+    "baryon asymmetry",
+    "sphaleron",
+    "CP asymmetry",
+    "electroweak baryogenesis",
+    "Affleck-Dine",
+    "washout",
+    "right-handed neutrinos",
+    "Boltzmann equations"
+   ]
+  },
+  {
+   "name": "Axions and axion-like particles",
+   "scope": "The strong CP problem, QCD axion and axion-like particle models, their potentials, couplings, cosmological production and detection signatures.",
+   "keywords": [
+    "axion",
+    "strong CP problem",
+    "Peccei-Quinn symmetry",
+    "axion-like particles",
+    "misalignment mechanism",
+    "axion-photon coupling",
+    "axion domain walls",
+    "DFSZ",
+    "KSVZ",
+    "axion dark matter"
+   ]
+  },
+  {
+   "name": "Extended Higgs sectors and vacuum stability",
+   "scope": "Singlet, doublet and triplet scalar extensions of the Standard Model, their spectra, couplings, unitarity and boundedness constraints, and the stability of the electroweak vacuum.",
+   "keywords": [
+    "two-Higgs-doublet model",
+    "extended Higgs sector",
+    "scalar singlet",
+    "Higgs triplet",
+    "vacuum stability",
+    "perturbative unitarity",
+    "effective potential",
+    "Coleman-Weinberg",
+    "custodial symmetry",
+    "electroweak symmetry breaking"
+   ]
+  },
+  {
+   "name": "Grand unification and proton decay",
+   "scope": "Unified gauge groups such as SU(5), SO(10) and E6, gauge coupling unification, symmetry-breaking chains, fermion mass relations and baryon-number-violating decays.",
+   "keywords": [
+    "grand unified theory",
+    "SU(5)",
+    "SO(10)",
+    "gauge coupling unification",
+    "proton decay",
+    "threshold corrections",
+    "doublet-triplet splitting",
+    "Yukawa unification",
+    "symmetry breaking chain",
+    "supersymmetric GUT"
+   ]
+  },
+  {
+   "name": "Standard Model effective field theory",
+   "scope": "Parametrizing heavy new physics by higher-dimensional operators in SMEFT and low-energy EFT, including operator bases, matching, renormalization-group running and precision constraints.",
+   "keywords": [
+    "SMEFT",
+    "dimension-six operators",
+    "Warsaw basis",
+    "matching",
+    "anomalous dimension matrix",
+    "electroweak precision",
+    "oblique parameters",
+    "Wilson coefficients",
+    "Higgs couplings",
+    "operator basis"
+   ]
+  },
+  {
+   "name": "Precision QED and anomalous magnetic moments",
+   "scope": "Higher-order QED and electroweak radiative corrections to lepton magnetic moments, bound-state energy levels, and hadronic vacuum-polarization and light-by-light contributions.",
+   "keywords": [
+    "anomalous magnetic moment",
+    "muon g-2",
+    "QED corrections",
+    "vacuum polarization",
+    "hadronic light-by-light",
+    "Lamb shift",
+    "bound-state QED",
+    "positronium",
+    "hyperfine splitting",
+    "radiative corrections"
+   ]
+  },
+  {
+   "name": "Thermal field theory and quark-gluon plasma",
+   "scope": "Equilibrium and near-equilibrium properties of hot gauge theories, including thermodynamics, screening, transport coefficients and particle production rates in the quark-gluon plasma.",
+   "keywords": [
+    "thermal field theory",
+    "quark-gluon plasma",
+    "hard thermal loops",
+    "Debye mass",
+    "transport coefficients",
+    "shear viscosity",
+    "kinetic theory",
+    "relativistic hydrodynamics",
+    "jet quenching",
+    "dilepton production"
+   ]
+  },
+  {
+   "name": "Cosmological first-order phase transitions",
+   "scope": "Thermal effective potentials, bubble nucleation, wall dynamics and the stochastic gravitational-wave spectra produced by first-order phase transitions in the early universe.",
+   "keywords": [
+    "first-order phase transition",
+    "bubble nucleation",
+    "thermal effective potential",
+    "bounce action",
+    "gravitational waves",
+    "bubble wall velocity",
+    "electroweak phase transition",
+    "latent heat",
+    "percolation",
+    "dark sector"
+   ]
+  },
+  {
+   "name": "Inflationary cosmology and primordial perturbations",
+   "scope": "Inflaton dynamics and model building, and the computation of scalar and tensor power spectra, spectral tilts and non-Gaussianities of primordial fluctuations.",
+   "keywords": [
+    "inflation",
+    "slow-roll",
+    "primordial power spectrum",
+    "spectral index",
+    "tensor-to-scalar ratio",
+    "non-Gaussianity",
+    "Mukhanov-Sasaki equation",
+    "curvature perturbation",
+    "Starobinsky model",
+    "reheating"
+   ]
+  },
+  {
+   "name": "Modified gravity and cosmological dynamics",
+   "scope": "Extensions of general relativity such as f(R), scalar-tensor, Horndeski, massive and teleparallel gravity, and their cosmological background and perturbation dynamics.",
+   "keywords": [
+    "modified gravity",
+    "f(R) gravity",
+    "scalar-tensor theory",
+    "Horndeski",
+    "massive gravity",
+    "teleparallel gravity",
+    "Brans-Dicke",
+    "dark energy",
+    "dynamical systems",
+    "screening mechanism"
+   ]
+  },
+  {
+   "name": "Exact solutions of Einstein's equations",
+   "scope": "Construction and classification of exact solutions of general relativity and Einstein-matter systems, including black holes, wormholes, gravitational waves and inhomogeneous cosmologies.",
+   "keywords": [
+    "exact solutions",
+    "Einstein field equations",
+    "Kerr-Schild",
+    "Petrov type",
+    "Einstein-Maxwell",
+    "hairy black hole",
+    "Weyl metric",
+    "pp-wave",
+    "wormhole",
+    "solution generating technique"
+   ]
+  },
+  {
+   "name": "Black hole perturbations and quasinormal modes",
+   "scope": "Linear perturbations of black holes and compact objects, including quasinormal-mode spectra, greybody factors, tidal Love numbers, superradiance and stability.",
+   "keywords": [
+    "quasinormal modes",
+    "black hole perturbations",
+    "Regge-Wheeler equation",
+    "Teukolsky equation",
+    "greybody factor",
+    "tidal Love numbers",
+    "WKB approximation",
+    "ringdown",
+    "superradiance",
+    "linear stability"
+   ]
+  },
+  {
+   "name": "Post-Newtonian and post-Minkowskian binary dynamics",
+   "scope": "Analytic approximations to the conservative and dissipative dynamics of gravitationally bound binaries, including Hamiltonians, radiated fluxes, self-force and effective-one-body mappings.",
+   "keywords": [
+    "post-Newtonian",
+    "post-Minkowskian",
+    "two-body problem",
+    "effective one-body",
+    "gravitational radiation",
+    "self-force",
+    "binding energy",
+    "periastron advance",
+    "worldline effective field theory",
+    "radiation reaction"
+   ]
+  },
+  {
+   "name": "Quantum fields in curved spacetime",
+   "scope": "Quantization of fields on curved or time-dependent backgrounds, including Hawking and Unruh effects, cosmological particle creation, renormalized stress tensors and Casimir energies.",
+   "keywords": [
+    "quantum field theory in curved spacetime",
+    "Hawking radiation",
+    "Unruh effect",
+    "particle creation",
+    "Bogoliubov coefficients",
+    "renormalized stress-energy tensor",
+    "Casimir effect",
+    "de Sitter space",
+    "trace anomaly",
+    "Unruh-DeWitt detector"
+   ]
+  },
+  {
+   "name": "Loop quantum gravity and quantum cosmology",
+   "scope": "Canonical and covariant non-perturbative quantization of gravity with spin networks and spin foams, and loop or Wheeler-DeWitt quantum cosmology.",
+   "keywords": [
+    "loop quantum gravity",
+    "loop quantum cosmology",
+    "spin network",
+    "spin foam",
+    "Ashtekar variables",
+    "area spectrum",
+    "Barbero-Immirzi parameter",
+    "Wheeler-DeWitt equation",
+    "big bounce",
+    "polymer quantization"
+   ]
+  },
+  {
+   "name": "Geodesics, black hole shadows and lensing",
+   "scope": "Motion of test particles and light in stationary spacetimes, including photon spheres, shadows, gravitational lensing angles and circular-orbit properties.",
+   "keywords": [
+    "geodesics",
+    "black hole shadow",
+    "photon sphere",
+    "gravitational lensing",
+    "deflection angle",
+    "innermost stable circular orbit",
+    "Lyapunov exponent",
+    "strong deflection limit",
+    "Carter constant",
+    "Kerr spacetime"
+   ]
+  },
+  {
+   "name": "Relativistic stars and compact objects",
+   "scope": "Structure, stability and tidal properties of neutron stars, boson stars and other self-gravitating compact objects in general relativity and alternative theories.",
+   "keywords": [
+    "neutron star",
+    "Tolman-Oppenheimer-Volkoff",
+    "equation of state",
+    "boson star",
+    "mass-radius relation",
+    "maximum mass",
+    "tidal deformability",
+    "radial oscillations",
+    "anisotropic stars",
+    "compact stars"
+   ]
+  },
+  {
+   "name": "Black hole thermodynamics and information",
+   "scope": "Thermodynamics of black holes across gravitational theories, microstate counting, and the information problem including Page curves and islands.",
+   "keywords": [
+    "black hole thermodynamics",
+    "Bekenstein-Hawking entropy",
+    "Wald entropy",
+    "Hawking-Page transition",
+    "extended phase space",
+    "first law",
+    "microstate counting",
+    "information paradox",
+    "Page curve",
+    "island formula"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Feynman integrals in dimensional regularization",
+   "scope": "Evaluating loop integrals with Feynman or Schwinger parameters, Mellin-Barnes representations, integration-by-parts reduction to master integrals and canonical differential equations, giving Laurent expansions in epsilon with polylogarithmic coefficients."
+  },
+  {
+   "name": "Renormalization and anomalous dimension computation",
+   "scope": "Extracting counterterms, beta functions and anomalous dimensions at one or more loops and solving the resulting renormalization-group equations for running couplings, fixed points and critical exponents."
+  },
+  {
+   "name": "EFT matching and expansion by regions",
+   "scope": "Integrating out heavy degrees of freedom by matching amplitudes or Green's functions at threshold, organized by power counting and the method of regions, to obtain Wilson coefficients and their scale dependence."
+  },
+  {
+   "name": "On-shell recursion and unitarity cuts",
+   "scope": "Constructing tree and loop amplitudes from factorization and unitarity with spinor-helicity variables, BCFW recursion and generalized cuts projected onto a basis of integrals."
+  },
+  {
+   "name": "Dispersion relations and sum rules",
+   "scope": "Using analyticity, crossing and unitarity to write dispersive representations and sum rules that fix low-energy constants, bound EFT couplings or relate spectral functions to observables."
+  },
+  {
+   "name": "Conformal block decomposition and inversion",
+   "scope": "Expanding correlators in conformal blocks and using crossing, lightcone limits and the Lorentzian inversion formula to extract operator dimensions and OPE coefficients analytically."
+  },
+  {
+   "name": "Large-N saddle-point expansions",
+   "scope": "Introducing auxiliary fields or eigenvalue densities, solving the saddle-point equations, and computing 1/N corrections from fluctuation determinants in vector, matrix and disordered models."
+  },
+  {
+   "name": "Instanton and bounce semiclassics",
+   "scope": "Finding Euclidean classical solutions and computing their actions, zero modes and fluctuation determinants (for example with the Gel'fand-Yaglom method) to obtain tunneling rates and non-perturbative contributions."
+  },
+  {
+   "name": "Heat-kernel and zeta-function regularization",
+   "scope": "Computing one-loop effective actions, Casimir energies, trace anomalies and functional determinants from Seeley-DeWitt coefficients and spectral zeta functions."
+  },
+  {
+   "name": "Bethe ansatz and integrable bootstrap",
+   "scope": "Solving integrable models with the coordinate or algebraic Bethe ansatz, Yang-Baxter-consistent S-matrices and the thermodynamic Bethe ansatz to obtain exact spectra and free energies."
+  },
+  {
+   "name": "Supersymmetric localization and index counting",
+   "scope": "Reducing supersymmetric path integrals and indices to finite-dimensional matrix or contour integrals over BPS loci, then evaluating them with residues, plethystic formulas or asymptotic expansions."
+  },
+  {
+   "name": "Group theory and anomaly cancellation",
+   "scope": "Decomposing representations with branching rules, characters and Hilbert series, and imposing gauge and gravitational anomaly cancellation or matching conditions to constrain spectra and charges."
+  },
+  {
+   "name": "Holographic bulk solutions and renormalized actions",
+   "scope": "Solving bulk field equations in asymptotically AdS backgrounds with the appropriate boundary conditions, then evaluating holographically renormalized on-shell actions, extremal surfaces or fluctuation spectra."
+  },
+  {
+   "name": "Bogoliubov transformations and mode quantization",
+   "scope": "Solving mode equations on curved or time-dependent backgrounds and relating in and out vacua through Bogoliubov coefficients to obtain particle production, spectra and effective temperatures."
+  },
+  {
+   "name": "Black hole perturbation spectral methods",
+   "scope": "Reducing linear perturbations to master radial equations and computing quasinormal frequencies, greybody factors and Love numbers with WKB, Frobenius or continued-fraction expansions, or matched hypergeometric solutions."
+  },
+  {
+   "name": "Effective potential and thermal resummation",
+   "scope": "Computing Coleman-Weinberg and finite-temperature effective potentials with Matsubara sums, daisy resummation and high-temperature expansions to find minima, critical temperatures and transition strengths."
+  },
+  {
+   "name": "Boltzmann equations for cosmological relics",
+   "scope": "Setting up and solving, analytically or semi-numerically, Boltzmann equations with thermally averaged rates to obtain freeze-out or freeze-in abundances, asymmetries and washout factors."
+  },
+  {
+   "name": "Cosmological perturbation theory and slow-roll",
+   "scope": "Deriving gauge-invariant perturbation equations on FRW backgrounds and solving them in slow-roll or de Sitter approximations to obtain power spectra, spectral tilts and non-Gaussianity parameters."
+  },
+  {
+   "name": "Post-Newtonian and worldline EFT expansions",
+   "scope": "Expanding the dynamics of gravitating bodies in v/c or G using point-particle worldline actions, separation into potential and radiation modes, and multipole radiation formulas to obtain Hamiltonians and fluxes."
+  },
+  {
+   "name": "Lattice momentum-space and finite-volume analysis",
+   "scope": "Analyzing lattice actions in Brillouin-zone momentum space for dispersion relations, doublers and lattice perturbation theory, and deriving finite-volume quantization conditions and lattice sums."
+  }
+ ],
+ "field": "high energy and particle physics",
+ "categories": [
+  "hep-th",
+  "hep-ph",
+  "hep-lat",
+  "gr-qc"
+ ]
+}

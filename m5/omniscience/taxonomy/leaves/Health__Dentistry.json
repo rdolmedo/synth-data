@@ -1,0 +1,502 @@
+{
+ "domain": "Health",
+ "subtopic": "Dentistry",
+ "weight": 0.007375499999999999,
+ "leaves": [
+  {
+   "leaf": "Tooth morphology, dental anatomy and tooth notation systems",
+   "scope": "Crown, root and canal-chamber morphology of primary and permanent teeth, anatomical variants, and the FDI, Universal and Palmer tooth numbering systems.",
+   "queries": [
+    "maxillary first molar crown morphology cusps",
+    "FDI two-digit tooth numbering Universal Palmer notation",
+    "mandibular canine bifid root anatomical variation",
+    "cusp of Carabelli prevalence tubercle"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Odontogenesis, tooth eruption and oral histology",
+   "scope": "Stages and signalling of tooth development, microstructure of enamel, dentin, pulp, cementum and periodontal ligament, and eruption chronology of both dentitions.",
+   "queries": [
+    "bud cap bell stage enamel organ odontogenesis",
+    "Hertwig epithelial root sheath cementum formation",
+    "enamel rods Retzius striae Hunter-Schreger bands",
+    "primary teeth eruption sequence chronology months"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Developmental dental anomalies, clefts and craniofacial syndromes",
+   "scope": "Inherited and developmental anomalies of tooth number, size, shape and structure, plus cleft lip/palate and craniofacial syndromes with dental features.",
+   "queries": [
+    "amelogenesis imperfecta Witkop classification types",
+    "dens invaginatus Oehlers classification taurodontism",
+    "tooth agenesis PAX9 MSX1 hypodontia prevalence",
+    "cleft lip palate Veau classification alveolar bone graft"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dental caries etiology, detection and classification",
+   "scope": "Cariogenic microbiology and the caries process, lesion classification systems (G.V. Black, ICDAS, Mount and Hume), detection devices and caries risk assessment.",
+   "queries": [
+    "ICDAS caries detection codes enamel lesion",
+    "Streptococcus mutans Lactobacillus cariogenic biofilm acid",
+    "G.V. Black cavity classification Class V",
+    "caries risk assessment CAMBRA Cariogram"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fluorides, fissure sealants and caries-preventive agents",
+   "scope": "Community water fluoridation, topical fluoride products and their concentrations, dental fluorosis, pit-and-fissure sealants, and remineralising agents such as SDF, CPP-ACP and xylitol.",
+   "queries": [
+    "community water fluoridation 0.7 mg/L recommendation",
+    "fluoride varnish 22600 ppm sodium fluoride",
+    "silver diamine fluoride 38% caries arrest",
+    "pit fissure sealant retention resin glass ionomer"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Tooth wear, dentin hypersensitivity, discoloration and bleaching",
+   "scope": "Attrition, abrasion, erosion and abfraction, how dentin hypersensitivity arises and is treated, intrinsic and extrinsic stains, and vital and non-vital tooth whitening.",
+   "queries": [
+    "BEWE basic erosive wear examination score",
+    "dentin hypersensitivity hydrodynamic theory potassium nitrate",
+    "carbamide peroxide 10% nightguard vital bleaching",
+    "tetracycline staining intrinsic tooth discoloration"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Resin composites and dental adhesive systems",
+   "scope": "Resin composite monomers, fillers, polymerisation and light curing, and enamel/dentin bonding strategies including etch-and-rinse, self-etch and universal adhesives.",
+   "queries": [
+    "Bis-GMA TEGDMA composite polymerization shrinkage filler",
+    "camphorquinone light curing 470 nm irradiance",
+    "universal adhesive 10-MDP self-etch dentin bonding",
+    "hybrid layer Nakabayashi resin dentin interface"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dental amalgam, glass ionomers and luting cements",
+   "scope": "Amalgam alloy composition, phases and regulation, glass ionomer and resin-modified glass ionomer chemistry, and luting, base and liner cements.",
+   "queries": [
+    "dental amalgam gamma-2 phase high copper",
+    "glass ionomer cement Wilson Kent fluoroaluminosilicate",
+    "zinc phosphate polycarboxylate cement setting reaction",
+    "Minamata Convention dental amalgam phase down"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Impression materials, gypsum products and dental casting alloys",
+   "scope": "Hydrocolloid and elastomeric impression materials, gypsum products and investments, dental waxes, and noble and base-metal casting alloys with their ADA/ISO classifications.",
+   "queries": [
+    "polyvinyl siloxane polyether impression accuracy",
+    "alginate irreversible hydrocolloid syneresis imbibition",
+    "Type IV dental stone gypsum setting expansion",
+    "cobalt chromium casting alloy ADA noble classification"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fixed prosthodontics and all-ceramic restorations",
+   "scope": "Crowns, fixed partial dentures, inlays/onlays, veneers and post-and-core restorations, tooth preparation principles, and ceramics such as feldspathic porcelain, lithium disilicate and zirconia.",
+   "queries": [
+    "ferrule effect post core endodontically treated teeth",
+    "monolithic zirconia lithium disilicate crown survival",
+    "Ante's law fixed partial denture abutment",
+    "porcelain laminate veneer preparation depth"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Digital dentistry and dental lasers",
+   "scope": "CAD/CAM systems, intraoral scanners, milling and 3D printing in dentistry, and dental laser types, wavelengths and clinical uses.",
+   "queries": [
+    "CEREC chairside CAD/CAM history Mörmann",
+    "intraoral scanner trueness precision full-arch",
+    "Er:YAG laser 2940 nm hard tissue",
+    "3D printed denture resin stereolithography"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Removable prosthodontics, occlusion and jaw relations",
+   "scope": "Complete and removable partial dentures, Kennedy/Applegate classification, clasp and connector design, denture occlusal schemes, vertical dimension, jaw relation records, articulators and facebows.",
+   "queries": [
+    "Kennedy classification Applegate rules partially edentulous",
+    "RPI clasp removable partial denture design",
+    "complete denture balanced occlusion vertical dimension",
+    "semi-adjustable articulator facebow Bennett angle"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dental implantology and alveolar ridge augmentation",
+   "scope": "Osseointegration, implant materials, surfaces and loading protocols, peri-implant mucositis and peri-implantitis, ridge preservation, guided bone regeneration and sinus floor elevation.",
+   "queries": [
+    "Brånemark osseointegration titanium implant history",
+    "peri-implantitis definition prevalence bone loss",
+    "sinus floor elevation lateral window bone graft",
+    "immediate implant loading protocol survival rate"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pulp and periapical disease, endodontic diagnosis and root canal anatomy",
+   "scope": "Diagnostic terms for pulpitis and apical periodontitis, pulp sensibility testing, endodontic microbiology, and root canal configurations (Vertucci, Weine) and their variants.",
+   "queries": [
+    "Vertucci root canal configuration classification",
+    "MB2 second mesiobuccal canal maxillary molar",
+    "symptomatic irreversible pulpitis AAE diagnostic terminology",
+    "Enterococcus faecalis persistent endodontic infection"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Root canal instrumentation, irrigation, obturation and endodontic surgery",
+   "scope": "Stainless steel and NiTi rotary/reciprocating files, irrigants and intracanal medicaments, obturation techniques and sealers, bioceramics, and periradicular surgery.",
+   "queries": [
+    "nickel titanium rotary file cyclic fatigue",
+    "sodium hypochlorite EDTA chlorhexidine root canal irrigation",
+    "gutta-percha warm vertical condensation Schilder",
+    "mineral trioxide aggregate root-end filling apicoectomy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Periodontal disease classification, etiology and microbiology",
+   "scope": "Classification systems for gingival and periodontal diseases (1999 AAP, 2017 AAP/EFP staging and grading), periodontal pathogens and host response, and systemic and behavioural risk factors.",
+   "queries": [
+    "2017 classification periodontitis staging grading",
+    "red complex Porphyromonas gingivalis Tannerella forsythia",
+    "necrotizing periodontal diseases classification",
+    "periodontitis diabetes smoking risk factor"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Periodontal therapy, regeneration and mucogingival surgery",
+   "scope": "Scaling and root planing, adjunctive antimicrobials, flap and resective surgery, guided tissue regeneration, enamel matrix derivative, and gingival recession classification and grafting.",
+   "queries": [
+    "scaling root planing adjunctive amoxicillin metronidazole",
+    "guided tissue regeneration intrabony defect membrane",
+    "Miller recession classification connective tissue graft",
+    "enamel matrix derivative Emdogain periodontal regeneration"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Orthodontic diagnosis, craniofacial growth and cephalometrics",
+   "scope": "Angle and other malocclusion classifications, craniofacial growth and maturation indicators, cephalometric landmarks and analyses, and orthodontic treatment-need indices.",
+   "queries": [
+    "Angle classification malocclusion Class II division 2",
+    "Steiner cephalometric analysis SNA SNB ANB",
+    "Index of Orthodontic Treatment Need IOTN",
+    "cervical vertebral maturation skeletal growth stage"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Orthodontic appliances, biomechanics and tooth movement",
+   "scope": "Fixed and removable appliances, bracket prescriptions and archwire alloys, clear aligners, functional and expansion appliances, anchorage including TADs, and the biology of tooth movement.",
+   "queries": [
+    "MBT Roth bracket prescription straight wire",
+    "Twin Block Herbst functional appliance Class II",
+    "miniscrew temporary anchorage device orthodontic",
+    "rapid maxillary expansion midpalatal suture"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric dentistry and primary tooth management",
+   "scope": "Care of primary and mixed dentitions, early childhood caries, pulpotomy and pulpectomy agents, stainless steel crowns, space maintainers and child behaviour management.",
+   "queries": [
+    "primary molar pulpotomy formocresol MTA",
+    "Frankl behavior rating scale pediatric dentistry",
+    "Hall technique stainless steel crown",
+    "early childhood caries definition AAPD"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dental and maxillofacial trauma",
+   "scope": "Classification and management of crown/root fractures, luxations and avulsions (Ellis, Andreasen, IADT guidelines), and mandibular, zygomatic and Le Fort facial fractures.",
+   "queries": [
+    "avulsed permanent tooth replantation extraoral dry time",
+    "Ellis classification dental fracture",
+    "Le Fort fracture classification midface",
+    "mandibular condyle fracture open reduction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Exodontia, impacted third molars and orthognathic surgery",
+   "scope": "Extraction techniques and instruments, impacted third molar classification and complications, alveolar osteitis, nerve injury, and orthognathic and preprosthetic surgical procedures.",
+   "queries": [
+    "Pell Gregory Winter classification impacted third molar",
+    "alveolar osteitis dry socket incidence",
+    "bilateral sagittal split osteotomy Obwegeser",
+    "inferior alveolar nerve injury third molar extraction"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Odontogenic cysts and tumors",
+   "scope": "WHO classification, histopathology, molecular features and behaviour of odontogenic cysts and benign and malignant odontogenic tumours.",
+   "queries": [
+    "odontogenic keratocyst PTCH1 recurrence rate",
+    "ameloblastoma BRAF V600E unicystic",
+    "WHO classification odontogenic tumors 2022",
+    "calcifying epithelial odontogenic tumor Pindborg"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Oral mucosal diseases and oral manifestations of systemic disease",
+   "scope": "Immune-mediated, vesiculobullous, infectious and reactive lesions of the oral mucosa and oral signs of systemic disease.",
+   "queries": [
+    "oral lichen planus reticular erosive",
+    "recurrent aphthous stomatitis minor major herpetiform",
+    "pemphigus vulgaris desmoglein 3 oral lesions",
+    "oral candidiasis pseudomembranous HIV"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Oral potentially malignant disorders and oral cancer",
+   "scope": "Leukoplakia, erythroplakia, oral submucous fibrosis and related disorders, and the epidemiology, risk factors, staging and prognosis of oral squamous cell carcinoma.",
+   "queries": [
+    "oral leukoplakia malignant transformation rate",
+    "oral submucous fibrosis areca nut",
+    "oral squamous cell carcinoma depth of invasion TNM",
+    "proliferative verrucous leukoplakia criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Salivary gland diseases",
+   "scope": "Salivary gland anatomy and physiology, benign and malignant salivary tumours, sialadenitis, sialolithiasis, mucoceles, Sjögren's syndrome and xerostomia.",
+   "queries": [
+    "pleomorphic adenoma parotid recurrence",
+    "mucoepidermoid carcinoma salivary gland grading",
+    "submandibular sialolithiasis Wharton duct",
+    "Sjögren syndrome labial gland biopsy focus score"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Temporomandibular disorders, bruxism and orofacial pain",
+   "scope": "TMJ anatomy and disorders, DC/TMD diagnostic criteria, disc displacement staging, bruxism, and neuropathic and idiopathic orofacial pain conditions.",
+   "queries": [
+    "DC/TMD diagnostic criteria temporomandibular disorders",
+    "anterior disc displacement reduction Wilkes staging",
+    "sleep bruxism polysomnography diagnosis",
+    "trigeminal neuralgia burning mouth syndrome"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Local anesthesia and sedation in dentistry",
+   "scope": "Local anaesthetic agents and vasoconstrictors, maximum doses, injection techniques and their complications, and nitrous oxide, oral and IV sedation in dental practice.",
+   "queries": [
+    "articaine 4% epinephrine inferior alveolar nerve block",
+    "Gow-Gates Vazirani-Akinosi mandibular block technique",
+    "local anesthetic maximum recommended dose mg/kg dental",
+    "nitrous oxide oxygen inhalation sedation dentistry"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dental radiography and maxillofacial imaging",
+   "scope": "Intraoral, panoramic and cephalometric radiography, CBCT, image receptors, radiation dose and protection, and how dental and jaw conditions appear on radiographs.",
+   "queries": [
+    "CBCT effective dose microsieverts dental",
+    "panoramic radiograph ghost image focal trough",
+    "paralleling bisecting angle periapical technique",
+    "ALARA dental radiograph selection criteria"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Medically compromised patients and dental pharmacology",
+   "scope": "Dental care for patients with cardiovascular, bleeding, endocrine or immunocompromising conditions, antibiotic prophylaxis, analgesic and antimicrobial prescribing, MRONJ and office medical emergencies.",
+   "queries": [
+    "infective endocarditis antibiotic prophylaxis dental AHA",
+    "medication-related osteonecrosis jaw bisphosphonate staging",
+    "warfarin INR dental extraction bleeding",
+    "dental office medical emergencies epinephrine anaphylaxis"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Dental public health, epidemiology and oral health indices",
+   "scope": "Oral disease epidemiology and global burden, WHO oral health surveys, and indices such as DMFT, CPI, OHI-S and the plaque and gingival indices.",
+   "queries": [
+    "DMFT index WHO oral health survey",
+    "Silness Löe plaque index gingival index",
+    "Community Periodontal Index treatment needs",
+    "global burden untreated caries prevalence"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forensic odontology",
+   "scope": "Dental identification, dental age estimation methods, bite-mark analysis and its reliability, and disaster victim identification.",
+   "queries": [
+    "Demirjian dental age estimation method",
+    "bite mark analysis forensic odontology reliability",
+    "disaster victim identification dental records INTERPOL",
+    "Kvaal pulp tooth ratio age estimation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Infection control and occupational hazards in dentistry",
+   "scope": "Sterilisation and disinfection of dental instruments, dental unit waterline quality, aerosols, bloodborne pathogen exposure, and occupational hazards such as mercury and musculoskeletal disorders.",
+   "queries": [
+    "dental unit waterline biofilm CFU/mL standard",
+    "autoclave sterilization dental instruments biological indicator",
+    "dental aerosol splatter infection control",
+    "needlestick injury dental healthcare workers"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of dentistry, dental specialties and professional organizations",
+   "scope": "Key people and milestones in the history of dentistry, the founding of dental schools, journals and associations, and the recognised dental specialties.",
+   "queries": [
+    "Pierre Fauchard Le Chirurgien Dentiste 1728",
+    "Baltimore College of Dental Surgery first dental school",
+    "Horace Wells nitrous oxide anesthesia history",
+    "ADA recognized dental specialties list"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "generated_at": "2026-11-19T02:05:16Z",
+ "rule": "idle_sec = max(3 x p99 gap, 600 s); gap = no model request in flight and no tool call outstanding (Pi itself idle)",
+ "source": "aa_evals/common/pi_eval/request_gaps.py",
+ "stall_rule": "a forwarded request with no response started, and none answered since, for stall_sec",
+ "stall_sec": 3660.0,
+ "suites": {
+  "automationbench_pi": {
+   "idle_sec": 600,
+   "max_gap_sec": 2.4,
+   "n_attempts": 1338,
+   "n_attempts_no_gate_wait": 1327,
+   "n_attempts_with_session_log": 1338,
+   "n_requests_no_response": 0,
+   "over_limit_explained_by_gate_waits": 0,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.2,
+   "runs": [
+    "m5l-marin-lr1-automationbench",
+    "m5l-sb-full-automationbench",
+    "m5l-sb2-4p8b-automationbench"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 0,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 0,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "never_answered_with_accounting_error": 0,
+    "recovered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 0.0,
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 0,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 181.7,
+    "over_600_sec": 0,
+    "p99_gap_sec": 2.4
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "critpt_pi": {
+   "idle_sec": 600,
+   "max_gap_sec": 1.1,
+   "n_attempts": 555,
+   "n_attempts_no_gate_wait": 462,
+   "n_attempts_with_session_log": 555,
+   "n_requests_no_response": 67,
+   "over_limit_explained_by_gate_waits": 9,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.1,
+   "runs": [
+    "m5l-18k-9p0b-critpt",
+    "m5l-sb-full-critpt",
+    "m5l-sb2-1p0b-critpt"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 0,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 67,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 67,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "n": 67,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "never_answered_with_accounting_error": 0,
+    "recovered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 0.0,
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 0,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 900.1,
+    "over_600_sec": 4,
+    "p99_gap_sec": 120.2
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "gdpval_pi": {
+   "idle_sec": 600,
+   "max_gap_sec": 1.1,
+   "n_attempts": 558,
+   "n_attempts_no_gate_wait": 482,
+   "n_attempts_with_session_log": 558,
+   "n_requests_no_response": 4,
+   "over_limit_explained_by_gate_waits": 0,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.1,
+   "runs": [
+    "m5l-18k-9p0b-gdpval",
+    "m5l-sb-full-gdpval",
+    "m5l-sf-d768-full-r2-gdpval"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 3,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 3,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 2,
+      "2": 1,
+      "3": 0,
+      "4": 0
+     },
+     "n": 3,
+     "over_1860_sec": 1,
+     "over_3660_sec": 0
+    },
+    "never_answered_with_accounting_error": 3,
+    "recovered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 0.0,
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 0,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 180.2,
+    "over_600_sec": 0,
+    "p99_gap_sec": 2.6
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "m5l_automationbench_t2": {
+   "idle_sec": 600,
+   "max_gap_sec": 62.9,
+   "n_attempts": 7232,
+   "n_attempts_no_gate_wait": 7232,
+   "n_attempts_with_session_log": 7232,
+   "n_requests_no_response": 769,
+   "over_limit_explained_by_gate_waits": 0,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.3,
+   "runs": [
+    "t2p0of2",
+    "t2p1of2",
+    "t2s0526"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 54,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 607,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 553,
+      "2": 0,
+      "3": 0,
+      "4": 54
+     },
+     "n": 607,
+     "over_1860_sec": 54,
+     "over_3660_sec": 54
+    },
+    "never_answered_with_accounting_error": 54,
+    "recovered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 0.0,
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 54,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 240.2,
+    "over_600_sec": 0,
+    "p99_gap_sec": 4.5
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "m5l_gdpval_t2": {
+   "idle_sec": 600,
+   "max_gap_sec": 52.4,
+   "n_attempts": 5387,
+   "n_attempts_no_gate_wait": 5387,
+   "n_attempts_with_session_log": 5387,
+   "n_requests_no_response": 1674,
+   "over_limit_explained_by_gate_waits": 0,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.1,
+   "runs": [
+    "t2",
+    "t2al",
+    "t2b",
+    "t2bl",
+    "t2c",
+    "t2cl",
+    "t2fix",
+    "t2fix2",
+    "t2s0514",
+    "t2s0515",
+    "t2s0530",
+    "t2s0649",
+    "t2s0652"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 436,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 441,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 2,
+      "3": 71,
+      "4": 363
+     },
+     "n": 436,
+     "over_1860_sec": 436,
+     "over_3660_sec": 434
+    },
+    "never_answered_with_accounting_error": 436,
+    "recovered": {
+     "by_unanswered": {
+      "1": 5,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 139.4,
+     "n": 5,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [
+     [
+      139,
+      "t2",
+      "gdpm5-001039__a0__r0",
+      1
+     ],
+     [
+      90,
+      "t2",
+      "gdpm5-001051__a0__r0",
+      1
+     ],
+     [
+      59,
+      "t2",
+      "gdpm5-001415__a0__r0",
+      1
+     ],
+     [
+      38,
+      "t2bl",
+      "gdpm5-006443__a0__r0",
+      1
+     ],
+     [
+      38,
+      "t2bl",
+      "gdpm5-006439__a0__r0",
+      1
+     ]
+    ],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 434,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 180.8,
+    "over_600_sec": 0,
+    "p99_gap_sec": 4.5
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "tb21": {
+   "idle_sec": 600,
+   "max_gap_sec": 1.9,
+   "n_attempts": 808,
+   "n_attempts_no_gate_wait": 700,
+   "n_attempts_with_session_log": 808,
+   "n_requests_no_response": 0,
+   "over_limit_explained_by_gate_waits": 3,
+   "over_limit_gate_unknown": 0,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.1,
+   "runs": [
+    "m5l-18k-3p0b-r2-tb21",
+    "m5l-sb-full-tb21",
+    "uval-sb10b-t06-tb21"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 0,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 0,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "never_answered_with_accounting_error": 0,
+    "recovered": {
+     "by_unanswered": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 0.0,
+     "n": 0,
+     "over_1860_sec": 0,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 0,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 2400.1,
+    "over_600_sec": 13,
+    "p99_gap_sec": 120.2
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  },
+  "tbsci_lite": {
+   "idle_sec": 600,
+   "max_gap_sec": 0.6,
+   "n_attempts": 226,
+   "n_attempts_no_gate_wait": 174,
+   "n_attempts_with_session_log": 226,
+   "n_requests_no_response": 87,
+   "over_limit_explained_by_gate_waits": 5,
+   "over_limit_gate_unknown": 1,
+   "p50_gap_sec": 0.0,
+   "p99_gap_sec": 0.1,
+   "runs": [
+    "m5l-18k-3p0b-r2-tbsci_lite",
+    "m5l-sb2-0p33b-tbsci_lite",
+    "m5l-sf-d1024-full-r2-tbsci_lite"
+   ],
+   "stalls": {
+    "accounting_error_attempts": 0,
+    "accounting_error_then_answered": 0,
+    "n_streaks": 51,
+    "never_answered": {
+     "by_unanswered": {
+      "1": 5,
+      "2": 34,
+      "3": 0,
+      "4": 0
+     },
+     "n": 39,
+     "over_1860_sec": 10,
+     "over_3660_sec": 0
+    },
+    "never_answered_with_accounting_error": 0,
+    "recovered": {
+     "by_unanswered": {
+      "1": 10,
+      "2": 2,
+      "3": 0,
+      "4": 0
+     },
+     "max_sec": 1964.7,
+     "n": 12,
+     "over_1860_sec": 9,
+     "over_3660_sec": 0
+    },
+    "recovered_examples": [
+     [
+      1965,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "layer-aware-influence__a1__r1",
+      1
+     ],
+     [
+      1959,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "refinement-ordered-optimization__a1__r1",
+      1
+     ],
+     [
+      1947,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "specimen-swap-contamination__a1__r0",
+      2
+     ],
+     [
+      1944,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "nqs-energy-measurement__a0__r1",
+      1
+     ],
+     [
+      1939,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "unknown-payload-balancing__a1__r1",
+      1
+     ],
+     [
+      1927,
+      "m5l-sf-d1024-full-r2-tbsci_lite",
+      "phenotype-guided-ranking__a0__r1",
+      2
+     ]
+    ],
+    "stall_sec": 3660.0,
+    "would_fire_never_answered": 0,
+    "would_fire_recovered": 0
+   },
+   "with_tool_time": {
+    "max_gap_sec": 198.0,
+    "over_600_sec": 2,
+    "p99_gap_sec": 10.2
+   },
+   "would_fire": 0,
+   "would_fire_examples": []
+  }
+ }
+}

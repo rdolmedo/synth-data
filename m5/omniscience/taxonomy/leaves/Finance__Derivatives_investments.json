@@ -1,0 +1,741 @@
+{
+ "domain": "Finance",
+ "subtopic": "Derivatives investments",
+ "weight": 0.0112815,
+ "leaves": [
+  {
+   "leaf": "Black-Scholes-Merton model and closed-form option pricing extensions",
+   "scope": "The Black-Scholes-Merton formula, its assumptions and history, and closed-form variants such as Merton's dividend-yield model, Black-76 for futures options, Garman-Kohlhagen, Bachelier's normal model and Margrabe's exchange option formula.",
+   "queries": [
+    "Black-Scholes formula assumptions d1 d2 cumulative normal",
+    "Merton 1973 continuous dividend yield option pricing",
+    "Black 1976 model options on futures",
+    "Bachelier 1900 theory of speculation option pricing"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stochastic calculus and risk-neutral valuation foundations",
+   "scope": "The mathematical basis of derivative pricing: Brownian motion, Ito's lemma, geometric Brownian motion, Girsanov's theorem, equivalent martingale measures, change of numeraire, the Feynman-Kac formula and the fundamental theorems of asset pricing.",
+   "queries": [
+    "Ito's lemma geometric Brownian motion derivation",
+    "Girsanov theorem change of measure risk-neutral",
+    "fundamental theorem of asset pricing Harrison Kreps Pliska",
+    "Feynman-Kac formula partial differential equation expectation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Numerical methods for derivative pricing (lattices, Monte Carlo, finite differences)",
+   "scope": "Cox-Ross-Rubinstein, Jarrow-Rudd and trinomial lattices, Monte Carlo simulation with variance reduction and Longstaff-Schwartz least-squares regression, and explicit, implicit and Crank-Nicolson finite-difference schemes for American and path-dependent options.",
+   "queries": [
+    "Cox Ross Rubinstein binomial tree up factor",
+    "Longstaff Schwartz least squares Monte Carlo American",
+    "Crank-Nicolson finite difference option pricing",
+    "variance reduction antithetic variates control variates option"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Option Greeks and dynamic hedging",
+   "scope": "First- and higher-order option sensitivities (delta, gamma, vega, theta, rho, vanna, volga, charm, speed, color) and how they are used in delta-neutral, gamma and vega hedging and rebalancing of option books.",
+   "queries": [
+    "option delta gamma vega theta rho",
+    "vanna volga charm higher order Greeks",
+    "delta neutral hedging gamma scalping rebalancing",
+    "theta decay at-the-money option expiration"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Implied volatility surfaces and stochastic/local volatility models",
+   "scope": "Implied volatility, smiles, skews and term structures, and the models built to fit them: Dupire local volatility, Heston, SABR, Merton and Bates jump-diffusion, and variance gamma.",
+   "queries": [
+    "volatility smile skew equity index options 1987",
+    "Heston stochastic volatility model parameters mean reversion",
+    "SABR model Hagan implied volatility formula",
+    "Dupire local volatility equation implied surface"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Volatility indices, variance swaps and volatility products",
+   "scope": "Volatility as a tradable asset: the VIX methodology and related indices (VXN, VVIX, VIX9D, VSTOXX), VIX futures and options, volatility ETPs and the February 2018 Volmageddon, and OTC variance, volatility and correlation swaps.",
+   "queries": [
+    "VIX index calculation methodology Cboe 30-day",
+    "VIX futures contango term structure roll",
+    "XIV termination February 2018 volatility ETN",
+    "variance swap replication strike vega notional"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Exotic options (barrier, Asian, lookback, digital, quanto and multi-asset)",
+   "scope": "Path-dependent and non-standard OTC options (knock-in and knock-out barriers, Asian, lookback, digital/binary, compound, chooser, cliquet, rainbow, basket and quanto options) and their pricing and hedging features.",
+   "queries": [
+    "barrier option knock-in knock-out rebate",
+    "Asian option arithmetic geometric average pricing",
+    "lookback option floating strike Goldman Sosin Gatto",
+    "quanto option cliquet chooser compound option"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Option strategies, put-call parity and synthetic positions",
+   "scope": "Standard option positions and their payoffs (covered calls, protective puts, collars, vertical, calendar and diagonal spreads, straddles, strangles, butterflies, condors, ratio spreads) together with put-call parity, conversions, reversals, box spreads and synthetics.",
+   "queries": [
+    "iron condor butterfly spread maximum profit",
+    "put-call parity synthetic long stock conversion reversal",
+    "box spread arbitrage implied interest rate",
+    "covered call protective put collar breakeven"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Listed options market structure and contract conventions",
+   "scope": "How exchange-listed options work: the Options Clearing Corporation, options exchanges, OSI symbology, expiration cycles, weekly and 0DTE options, LEAPS, exercise and assignment rules, position and exercise limits, contract adjustments and account approval levels.",
+   "queries": [
+    "Options Clearing Corporation exercise assignment automatic exercise",
+    "options expiration cycle LEAPS weekly options",
+    "zero days to expiration 0DTE SPX volume",
+    "options position limits contract adjustment corporate action"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Equity index futures and index options contracts",
+   "scope": "Contract specifications and history of benchmark stock index derivatives, including CME E-mini and Micro E-mini S&P 500 and Nasdaq-100 futures, SPX and XSP options, and Nikkei 225, Euro Stoxx 50, KOSPI 200 and FTSE 100 contracts, with their multipliers, tick values and AM/PM settlement.",
+   "queries": [
+    "E-mini S&P 500 futures contract multiplier tick",
+    "SPX options AM settlement special opening quotation",
+    "Kansas City Board of Trade Value Line futures 1982",
+    "KOSPI 200 options Euro Stoxx 50 futures Eurex"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Forward and futures pricing: cost of carry and term structure theories",
+   "scope": "No-arbitrage pricing of forwards and futures through cost of carry with income and storage costs, convenience yield, basis, contango and backwardation, why forward and futures prices differ, and the Keynes-Hicks normal backwardation and expectations theories.",
+   "queries": [
+    "cost of carry model forward price storage cost",
+    "convenience yield backwardation contango theory",
+    "Keynes normal backwardation risk premium futures",
+    "forward versus futures price difference interest rate correlation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hedging with futures: hedge ratios and basis risk",
+   "scope": "Using futures to hedge price risk: short and long hedges, basis risk, cross hedging, the minimum-variance hedge ratio and hedge effectiveness, tailing the hedge, beta-adjusted index futures hedges, duration-based hedges and stack-and-roll.",
+   "queries": [
+    "minimum variance hedge ratio basis risk cross hedging",
+    "tailing the hedge number of futures contracts",
+    "stock index futures beta hedge portfolio",
+    "duration-based hedge ratio interest rate futures"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Futures trading mechanics, delivery and market data",
+   "scope": "Day-to-day futures market operation: customer margin and daily mark-to-market, price limits, contract month codes, first notice and last trading days, physical delivery, open interest, CFTC Commitments of Traders reports and speculative position limits.",
+   "queries": [
+    "Commitments of Traders report CFTC trader categories",
+    "futures daily price limit limit up limit down",
+    "futures contract month codes first notice day",
+    "open interest volume futures delivery process"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Treasury and government bond futures",
+   "scope": "CBOT Treasury bond, Ultra bond and note futures and other sovereign bond futures (Bund, Bobl, Schatz, Gilt, JGB), covering conversion factors, cheapest-to-deliver, implied repo rate, the wild card, quality and end-of-month delivery options, and the cash-futures basis trade.",
+   "queries": [
+    "Treasury bond futures conversion factor cheapest-to-deliver",
+    "implied repo rate Treasury basis trade",
+    "wild card option quality option delivery",
+    "Euro-Bund futures Eurex deliverable bonds"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Short-term interest rate futures and forward rate agreements",
+   "scope": "Short-term interest rate derivatives (Eurodollar futures and their 2023 conversion, one- and three-month SOFR futures, SONIA, Euribor and 30-day Fed funds futures), futures convexity adjustments, and forward rate agreements.",
+   "queries": [
+    "Eurodollar futures IMM index price 100 minus rate",
+    "three-month SOFR futures CME contract specifications",
+    "30-day federal funds futures FedWatch probability",
+    "forward rate agreement settlement FRA payoff"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Interest rate swaps: mechanics, conventions and valuation",
+   "scope": "Plain vanilla fixed-for-floating swaps and variants (OIS, basis, amortizing, forward-starting and zero-coupon swaps), covering valuation from discount curves, curve bootstrapping, day-count and payment conventions, swap rates and swap spreads.",
+   "queries": [
+    "interest rate swap fixed leg floating leg valuation",
+    "overnight indexed swap discounting OIS curve",
+    "negative swap spread 30-year Treasury",
+    "bootstrapping swap curve day count convention"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "IBOR transition and risk-free reference rates in derivatives",
+   "scope": "The LIBOR manipulation scandal and the move of derivatives to risk-free rates (SOFR, SONIA, ESTR, TONA, SARON), including ARRC recommendations, the ISDA IBOR Fallbacks Protocol, spread adjustments, synthetic LIBOR and cessation dates.",
+   "queries": [
+    "LIBOR cessation June 30 2023 synthetic LIBOR",
+    "ISDA IBOR fallbacks protocol spread adjustment",
+    "Alternative Reference Rates Committee SOFR selection",
+    "LIBOR manipulation fines Barclays UBS"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Swaptions, caps and floors",
+   "scope": "Interest rate options (payer and receiver swaptions, Bermudan swaptions, caps, floors, collars, caplets and floorlets) and their market conventions such as Black and Bachelier normal-volatility quoting, straddle quotes and cap-floor parity.",
+   "queries": [
+    "payer swaption receiver swaption Black model",
+    "interest rate cap caplet floorlet pricing",
+    "normal volatility basis points swaption quote",
+    "Bermudan swaption callable bond exercise"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Short-rate and term-structure models for interest rate derivatives",
+   "scope": "Yield-curve models used to price interest rate derivatives: Vasicek, Cox-Ingersoll-Ross, Ho-Lee, Hull-White, Black-Derman-Toy, Black-Karasinski, Heath-Jarrow-Morton and the LIBOR market model.",
+   "queries": [
+    "Vasicek model mean reversion short rate",
+    "Cox Ingersoll Ross Feller condition",
+    "Heath Jarrow Morton drift condition forward rates",
+    "Hull-White Black-Derman-Toy LIBOR market model"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inflation derivatives",
+   "scope": "Derivatives on price indices (zero-coupon and year-on-year inflation swaps, inflation caps and floors, CPI futures and breakeven trades) that reference US CPI-U, euro-area HICPxT and UK RPI, including their indexation lags.",
+   "queries": [
+    "zero-coupon inflation swap breakeven CPI",
+    "year-on-year inflation swap HICP ex tobacco",
+    "inflation caps floors pricing RPI",
+    "CPI futures CME inflation-linked derivatives"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Credit default swaps and CDS indices",
+   "scope": "Single-name CDS and CDS indices: contract mechanics, credit events, ISDA Credit Derivatives Determinations Committees, settlement auctions, the 2009 Big Bang and Small Bang protocols, standard coupons and upfront quoting, and CDX/iTraxx series and rolls.",
+   "queries": [
+    "credit default swap auction final price determination",
+    "ISDA Determinations Committee credit event restructuring",
+    "CDS Big Bang protocol 2009 standard coupon",
+    "CDX iTraxx index series roll constituents"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Synthetic CDOs, tranches and correlation products",
+   "scope": "Portfolio credit derivatives (cash and synthetic CDOs, index tranches, CDO-squared, nth-to-default baskets), base and compound correlation, David Li's Gaussian copula, and the role these products played in the 2007-08 crisis (e.g., Abacus, Magnetar).",
+   "queries": [
+    "synthetic CDO tranche attachment detachment point",
+    "Gaussian copula David Li default correlation",
+    "base correlation compound correlation tranche pricing",
+    "Abacus 2007-AC1 Goldman Sachs SEC settlement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Foreign exchange derivatives",
+   "scope": "Currency derivatives (outright forwards, FX swaps, non-deliverable forwards, cross-currency basis swaps, currency futures and FX options with risk-reversal, butterfly and delta conventions), covered interest parity, and milestones such as the 1981 IBM-World Bank swap.",
+   "queries": [
+    "non-deliverable forward fixing settlement currency",
+    "cross-currency swap IBM World Bank 1981",
+    "FX option risk reversal 25 delta butterfly",
+    "covered interest parity forward points basis"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Energy derivatives: crude oil, natural gas and power",
+   "scope": "Futures, options and swaps on crude oil, refined products, natural gas and electricity (NYMEX WTI, ICE Brent, Henry Hub, Dubai/Oman, power contracts), crack, spark and dark spreads, and episodes such as WTI's negative settlement in April 2020.",
+   "queries": [
+    "WTI crude oil futures Cushing delivery negative price",
+    "Henry Hub natural gas futures contract NYMEX",
+    "crack spread 3-2-1 refinery margin",
+    "spark spread heat rate electricity futures"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Agricultural, livestock, softs and metals futures",
+   "scope": "Exchange-traded derivatives on grains, oilseeds, softs, livestock, dairy and metals (CBOT corn, soybeans and wheat, ICE coffee, cocoa and sugar, CME live cattle and lean hogs, COMEX gold and silver, LME base metals) and their contract specifications and delivery systems.",
+   "queries": [
+    "CBOT corn soybean futures contract bushels",
+    "lean hogs live cattle futures CME",
+    "LME nickel short squeeze March 2022",
+    "ICE sugar No. 11 coffee C futures"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Derivatives on alternative underlyings: weather, freight, emissions, catastrophe and events",
+   "scope": "Derivatives on non-traditional underlyings: weather (HDD/CDD), freight (forward freight agreements and Baltic indices), emissions allowances (EUA futures), catastrophe and insurance-linked contracts, real estate (Case-Shiller futures) and event contracts on prediction exchanges.",
+   "queries": [
+    "weather derivatives heating degree days CME",
+    "forward freight agreement Baltic Dry Index",
+    "EU emissions allowance futures ICE Endex",
+    "Kalshi event contracts CFTC election"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cryptocurrency derivatives",
+   "scope": "Derivatives on crypto assets: CME and Cboe bitcoin and ether futures, perpetual swaps and funding rates (BitMEX, Binance), Deribit options, futures-based crypto ETFs, and related exchange failures and CFTC enforcement.",
+   "queries": [
+    "perpetual swap funding rate BitMEX",
+    "CME bitcoin futures launch December 2017",
+    "Deribit bitcoin options open interest",
+    "ProShares Bitcoin Strategy ETF futures BITO"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Delta-one equity derivatives: equity swaps, total return swaps, CFDs, single-stock and dividend futures",
+   "scope": "Linear equity derivatives (equity and total return swaps, contracts for difference, single-stock futures such as OneChicago's, dividend swaps and futures) and their use for synthetic exposure, financing and the beneficial-ownership disclosure issues they raise.",
+   "queries": [
+    "total return swap synthetic prime brokerage financing",
+    "contract for difference CFD retail leverage",
+    "OneChicago single stock futures closure 2020",
+    "dividend futures Euro Stoxx 50 dividend swap"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Convertible bonds, warrants and issuer equity hedges",
+   "scope": "Equity-linked securities with embedded options (convertible bonds with conversion ratios, premiums and call protection, mandatory convertibles, warrants including SPAC warrants), issuer capped calls and bond hedge/warrant overlays, and convertible arbitrage.",
+   "queries": [
+    "convertible notes capped call transactions conversion rate",
+    "convertible note hedge warrant transactions strike price",
+    "SPAC warrants liability accounting SEC statement 2021",
+    "convertible arbitrage delta hedging strategy"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Retail structured products and structured notes",
+   "scope": "Packaged retail derivative products (autocallables, reverse convertibles, principal-protected and buffered notes, market-linked CDs, equity-linked notes, turbo and knock-out certificates, KIKO and accumulator contracts), their payoff terms and mis-selling cases.",
+   "queries": [
+    "autocallable note coupon barrier observation date",
+    "reverse convertible knock-in level principal",
+    "buffered return enhanced notes pricing supplement",
+    "KIKO currency options Korea lawsuit"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Derivative-based funds: leveraged and inverse ETFs, commodity pools and managed futures",
+   "scope": "Funds whose returns come from derivatives (daily-reset leveraged and inverse ETFs and their volatility decay, commodity pools such as USO and its 2020 restructuring, managed futures and CTA strategies) and the rules that govern them, such as SEC Rule 18f-4 and CFTC Rule 4.5.",
+   "queries": [
+    "leveraged ETF daily reset volatility decay",
+    "United States Oil Fund contract roll 2020",
+    "Rule 18f-4 derivatives risk manager VaR limit",
+    "managed futures CTA trend following commodity pool"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Central counterparties, clearing and margin methodologies",
+   "scope": "Derivatives clearinghouses (CME Clearing, LCH SwapClear, ICE Clear, OCC, Eurex Clearing), their margin models (SPAN, VaR-based initial margin, ISDA SIMM), default waterfalls and guarantee funds, and CCP stresses such as the 2018 Nasdaq Clearing default.",
+   "queries": [
+    "SPAN margin methodology scanning risk CME",
+    "CCP default waterfall guarantee fund skin in the game",
+    "LCH SwapClear notional cleared interest rate swaps",
+    "Nasdaq Clearing default 2018 Aas power"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "OTC derivatives regulation (Dodd-Frank Title VII, EMIR, MiFID II)",
+   "scope": "The rules for swaps and OTC derivatives: the Commodity Futures Modernization Act of 2000, the G20 Pittsburgh commitments, Dodd-Frank Title VII and the CFTC/SEC jurisdictional split, swap dealer registration, SEFs and trade execution mandates, swap data repositories, EMIR, MiFID II/MiFIR and uncleared margin phases.",
+   "queries": [
+    "Dodd-Frank Title VII swap dealer de minimis threshold",
+    "swap execution facility made available to trade",
+    "EMIR clearing obligation reporting counterparties",
+    "Commodity Futures Modernization Act 2000 swaps exclusion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "ISDA documentation and close-out netting",
+   "scope": "Standard OTC derivatives documentation (the 1987, 1992 and 2002 ISDA Master Agreements, the Schedule, the Credit Support Annex and Deed, ISDA Definitions booklets such as the 2006 and 2021 rates and 2014 credit definitions), events of default, termination events, close-out netting and ISDA protocols.",
+   "queries": [
+    "ISDA Master Agreement 2002 events of default termination",
+    "Credit Support Annex threshold minimum transfer amount",
+    "close-out amount loss market quotation 1992",
+    "2021 ISDA Interest Rate Derivatives Definitions"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Derivatives and hedge accounting standards (ASC 815, IFRS 9)",
+   "scope": "Accounting for derivatives and hedging under US GAAP ASC 815 (formerly FAS 133) and ASU 2017-12 and under IFRS 9 and IAS 39, covering the definition of a derivative, bifurcation of embedded derivatives, fair value, cash flow and net investment hedges, effectiveness testing and the shortcut method.",
+   "queries": [
+    "ASC 815 cash flow hedge effectiveness shortcut method",
+    "FAS 133 embedded derivative bifurcation",
+    "IFRS 9 hedge accounting economic relationship rebalancing",
+    "ASU 2017-12 targeted improvements hedging activities"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Corporate hedging programs disclosed in annual reports",
+   "scope": "How non-financial companies use derivatives to manage commodity, currency and interest rate exposures, as described in 10-K filings: airline fuel hedging, food producers' commodity hedges, multinational FX programs, and notional amounts and fair values of designated hedges.",
+   "queries": [
+    "jet fuel hedging program call options percentage",
+    "foreign currency forward contracts notional amount designated",
+    "interest rate swap fixed rate notes converted floating",
+    "commodity futures contracts anticipated raw material purchases"
+   ],
+   "sources": [
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Counterparty credit risk, XVA and derivatives capital",
+   "scope": "Measuring and pricing counterparty risk in derivatives (expected exposure, PFE, EPE, CVA, DVA, FVA, MVA, KVA, wrong-way risk) and the regulatory capital rules around it, such as the Current Exposure Method, SA-CCR and the Basel III CVA risk charge.",
+   "queries": [
+    "credit valuation adjustment expected exposure counterparty",
+    "SA-CCR replacement cost potential future exposure",
+    "funding valuation adjustment FVA debate Hull White",
+    "wrong-way risk Basel CVA capital charge"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US tax treatment of derivatives",
+   "scope": "US federal income tax rules for derivatives: Section 1256 contracts and the 60/40 rule, straddle rules (Section 1092), constructive sales (Section 1259), wash sales, Section 1234 option rules, notional principal contract regulations, Section 871(m) dividend equivalents and Section 475 mark-to-market elections.",
+   "queries": [
+    "Section 1256 contracts 60/40 marked to market",
+    "straddle rules Section 1092 loss deferral",
+    "Section 871(m) dividend equivalent payments",
+    "constructive sale Section 1259 short against the box"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Major derivatives losses, scandals and failures",
+   "scope": "Notable derivatives-related losses and collapses (Barings and Nick Leeson, Metallgesellschaft, Orange County, Procter & Gamble and Gibson Greetings, Sumitomo copper, LTCM, Amaranth, Societe Generale and Kerviel, AIG Financial Products, JPMorgan's London Whale, Archegos), with the figures, people and dates involved.",
+   "queries": [
+    "Nick Leeson Barings Nikkei futures losses",
+    "Metallgesellschaft oil futures hedge losses 1993",
+    "Amaranth Advisors natural gas Brian Hunter",
+    "London Whale Bruno Iksil CDX losses"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History and consolidation of derivatives exchanges",
+   "scope": "How derivatives markets began and grew into today's institutions: the Dojima Rice Exchange, early Amsterdam options, the CBOT (1848) and to-arrive contracts, the CME's International Monetary Market (1972), the CBOE launch (1973), LIFFE, MATIF, Eurex and ICE, and mergers such as CME-CBOT (2007) and CME-NYMEX (2008).",
+   "queries": [
+    "Dojima Rice Exchange futures Osaka 1730",
+    "Chicago Board Options Exchange 1973 first listed options",
+    "International Monetary Market currency futures 1972 Melamed",
+    "CME CBOT merger 2007 NYMEX acquisition"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Employee stock options and share-based compensation valuation (ASC 718, IFRS 2)",
+   "scope": "How companies value and expense employee stock options, SARs and performance awards: Black-Scholes and lattice inputs, expected-term conventions, market and performance conditions, repricings and the related accounting rules.",
+   "queries": [
+    "employee stock option fair value Black-Scholes assumptions expected term",
+    "ASC 718 share-based compensation lattice model valuation",
+    "IFRS 2 share-based payment market vesting conditions",
+    "SAB 107 simplified method expected term options"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hedging and monetization of concentrated stock positions by insiders",
+   "scope": "Derivative contracts that executives, founders and large holders use to hedge or monetize concentrated shares, such as prepaid variable forwards, zero-cost collars and share-pledge financing, plus the anti-hedging policy disclosures that govern them.",
+   "queries": [
+    "prepaid variable forward contract shares pledged executive",
+    "zero-cost collar concentrated stock position hedging",
+    "anti-hedging policy directors officers derivative transactions",
+    "Item 407(i) hedging disclosure employees directors"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Variable and indexed annuity guarantees and insurer hedging programs",
+   "scope": "Option-like guarantees embedded in insurance products (GMDB, GMWB, GMIB, GMAB riders, fixed indexed and registered index-linked annuities) and the derivative programs insurers use to hedge them, including how they are valued as embedded derivatives.",
+   "queries": [
+    "GMWB guaranteed minimum withdrawal benefit hedging program",
+    "variable annuity guarantees embedded derivative nonperformance risk",
+    "registered index-linked annuity buffer cap rate options",
+    "GMDB GMIB rider captive reinsurance hedging"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Municipal and public-sector derivatives",
+   "scope": "Interest rate swaps, basis swaps and swaptions used by state and local governments, public utilities and nonprofit issuers, including synthetic fixed-rate structures on variable-rate debt, SIFMA-index basis risk, termination payments and GASB Statement 53 reporting.",
+   "queries": [
+    "municipal issuer interest rate swap variable rate demand bonds",
+    "GASB Statement 53 derivative instruments effectiveness",
+    "SIFMA municipal swap index percentage of LIBOR",
+    "public entity swap termination payment counterparty rating"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mortgage derivatives: TBAs, dollar rolls, IO/PO strips and inverse floaters",
+   "scope": "Derivative and derivative-like mortgage instruments, including TBA forwards and dollar-roll financing, interest-only and principal-only strips, inverse floaters and leveraged CMO tranches, and the swaption and TBA hedges used for mortgage REIT portfolios and servicing rights.",
+   "queries": [
+    "TBA mortgage dollar roll drop implied financing",
+    "interest-only principal-only strips prepayment sensitivity",
+    "inverse floater CMO tranche leverage",
+    "mortgage servicing rights hedging swaptions TBA"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Embedded options in bonds and option-adjusted spread analysis",
+   "scope": "Valuation and analytics of bonds with embedded options (callable, putable, extendible, sinking-fund and make-whole provisions) using interest rate trees, option-adjusted spread, effective duration and negative convexity.",
+   "queries": [
+    "option-adjusted spread callable bond binomial tree",
+    "callable bond negative convexity yield to worst",
+    "putable bond extendible bond embedded option value",
+    "make-whole call provision Treasury plus spread"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Jump-diffusion, Lévy process models and Fourier transform option pricing",
+   "scope": "Option pricing models with discontinuous or non-Gaussian returns (Merton jump-diffusion, Kou, Bates, variance gamma, NIG, CGMY) and the characteristic-function methods used to price under them (Carr-Madan FFT, COS method, Lewis formula).",
+   "queries": [
+    "Merton jump-diffusion option pricing model",
+    "variance gamma process option pricing Madan",
+    "Carr-Madan fast Fourier transform option pricing",
+    "Kou double exponential jump diffusion CGMY"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Structural and reduced-form credit risk models",
+   "scope": "Theoretical models that price default risk for credit derivatives and corporate debt, including Merton's 1974 structural model, Black-Cox first-passage models, KMV distance-to-default and CreditGrades, and Jarrow-Turnbull and Duffie-Singleton intensity-based models.",
+   "queries": [
+    "Merton structural model distance to default",
+    "KMV expected default frequency asset volatility",
+    "reduced-form hazard rate model Jarrow Turnbull",
+    "Black-Cox first passage time default barrier"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Real options analysis",
+   "scope": "Applying option pricing theory to corporate investment decisions, such as options to defer, expand, contract, abandon or switch, natural resource and R&D valuation, and named methods like McDonald-Siegel, Brennan-Schwartz and Datar-Mathews.",
+   "queries": [
+    "real options valuation option to expand abandon",
+    "real options analysis natural resource investment",
+    "option to defer investment McDonald Siegel",
+    "Datar-Mathews method real option valuation"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exchange-traded derivatives regulation, position limits and manipulation enforcement",
+   "scope": "Regulation of futures and listed options markets under the Commodity Exchange Act, CFTC and NFA, covering speculative position limits and exemptions, FCM customer segregation, anti-manipulation and anti-spoofing rules, and notable enforcement cases and penalties.",
+   "queries": [
+    "CFTC speculative position limits spot month",
+    "Commodity Exchange Act anti-manipulation Rule 180.1",
+    "spoofing futures CFTC enforcement penalty",
+    "futures commission merchant customer segregation residual interest"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Market risk measurement for derivative portfolios (VaR, expected shortfall, fund derivatives rules)",
+   "scope": "Measuring and limiting the market risk of derivative positions: delta-normal, delta-gamma and historical-simulation VaR, expected shortfall, stress testing, 10-K market risk disclosures, and fund-level rules such as SEC Rule 18f-4 VaR tests and UCITS global exposure limits.",
+   "queries": [
+    "delta-gamma value at risk options portfolio",
+    "SEC Rule 18f-4 derivatives risk manager VaR",
+    "UCITS global exposure commitment approach VaR",
+    "quantitative qualitative disclosures market risk VaR derivatives"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Option-based overlay strategies: buy-write and put-write indices, portfolio insurance and buffer ETFs",
+   "scope": "Systematic portfolio strategies built on options, including Cboe benchmark indices (BXM, PUT, CLL, BFLY), covered-call income funds, CPPI and option-based portfolio insurance, tail-risk hedging programs and defined-outcome (buffer) ETFs built from FLEX options.",
+   "queries": [
+    "Cboe S&P 500 BuyWrite Index BXM methodology",
+    "PutWrite index collar strategy benchmark",
+    "constant proportion portfolio insurance CPPI multiplier floor",
+    "buffer ETF FLEX options outcome period cap"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

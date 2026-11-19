@@ -1,0 +1,1001 @@
+{
+ "domain": "Science Engineering and Mathematics",
+ "subtopic": "Probability statistics",
+ "weight": 0.0155,
+ "leaves": [
+  {
+   "leaf": "Named discrete probability distributions",
+   "scope": "Discrete distribution families such as binomial, Poisson, geometric, negative binomial, hypergeometric, beta-binomial, Poisson binomial, Skellam, Zipf/zeta and logarithmic series, covering their pmfs, parameterizations, moments and how they relate to each other.",
+   "queries": [
+    "negative binomial distribution parameterizations mean variance",
+    "hypergeometric distribution urn sampling without replacement",
+    "Poisson binomial distribution Le Cam theorem",
+    "Zipf zeta logarithmic series distribution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Named continuous univariate distributions",
+   "scope": "Continuous families such as gamma, beta, Weibull, lognormal, Cauchy, Laplace, logistic, inverse Gaussian, Rayleigh, chi, von Mises and the sampling distributions (chi-squared, t, F), covering their densities, moments, special cases and where their names come from.",
+   "queries": [
+    "gamma distribution shape rate parameterization moments",
+    "Weibull distribution shape parameter hazard reliability",
+    "inverse Gaussian Wald distribution density cumulants",
+    "von Mises distribution circular statistics Bessel function"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Multivariate distributions and copulas",
+   "scope": "Joint distributions of random vectors (multivariate normal, multinomial, Dirichlet, Wishart and inverse Wishart, multivariate t, elliptical families) and copula-based dependence modeling (Sklar's theorem, Gaussian and Archimedean copulas, tail dependence coefficients).",
+   "queries": [
+    "Wishart distribution degrees of freedom scale matrix",
+    "Dirichlet distribution concentration parameters simplex",
+    "Sklar's theorem copula marginal distributions",
+    "Clayton Gumbel Frank Archimedean copula tail dependence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Extreme value theory and heavy-tailed distributions",
+   "scope": "How maxima and tail exceedances behave in the limit (Fisher–Tippett–Gnedenko theorem, GEV with Gumbel, Fréchet and reversed Weibull types, generalized Pareto, Pickands–Balkema–de Haan theorem, Hill estimator, return levels), plus Lévy alpha-stable, power-law and subexponential distributions.",
+   "queries": [
+    "Fisher Tippett Gnedenko theorem extreme value",
+    "generalized Pareto distribution peaks over threshold",
+    "Hill estimator tail index heavy tailed",
+    "Levy alpha stable distribution characteristic exponent"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Limit theorems and characteristic functions",
+   "scope": "Weak and strong laws of large numbers, versions of the central limit theorem (Lindeberg, Lyapunov, Berry–Esseen constants, Edgeworth expansions), the law of the iterated logarithm, and the characteristic and moment generating function tools behind them (Lévy continuity theorem, inversion formulas, cumulants, the moment problem).",
+   "queries": [
+    "Berry Esseen theorem constant bound",
+    "Lindeberg condition Lyapunov central limit theorem",
+    "law of the iterated logarithm Khinchin Kolmogorov",
+    "Levy continuity theorem characteristic function inversion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Probability inequalities, concentration and large deviations",
+   "scope": "Tail and concentration bounds (Markov, Chebyshev, Cantelli, Chernoff, Hoeffding, Bernstein, Bennett, Azuma, McDiarmid, Talagrand, Paley–Zygmund) and large deviation principles (Cramér's theorem, Sanov's theorem, rate functions, Gärtner–Ellis).",
+   "queries": [
+    "Hoeffding inequality bounded random variables tail bound",
+    "McDiarmid bounded differences inequality Azuma martingale",
+    "Cramer theorem large deviations rate function",
+    "Paley Zygmund inequality Cantelli one sided Chebyshev"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Measure-theoretic foundations and modes of convergence",
+   "scope": "Axiomatic probability (Kolmogorov axioms, sigma-algebras, Dynkin's pi-lambda theorem, the Carathéodory and Kolmogorov extension theorems, Radon–Nikodym, conditional expectation), zero-one laws, the Borel–Cantelli lemmas, uniform integrability, and the relationships between almost-sure, in-probability, L^p and in-distribution convergence.",
+   "queries": [
+    "Kolmogorov extension theorem consistent finite dimensional distributions",
+    "Borel Cantelli lemma second independence",
+    "Kolmogorov zero one law tail event",
+    "Dynkin pi lambda theorem monotone class"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Markov chains and random walks",
+   "scope": "Discrete-time and continuous-time Markov chains on countable state spaces (state classification, stationary distributions, ergodic theorems, mixing times and cutoff) and simple random walks (Pólya's recurrence theorem, gambler's ruin, reflection principle, ballot theorem, arcsine laws).",
+   "queries": [
+    "Polya recurrence theorem random walk dimensions",
+    "Markov chain mixing time cutoff card shuffling",
+    "gambler's ruin probability absorbing barriers",
+    "ballot theorem reflection principle simple random walk"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Martingales and stopping times",
+   "scope": "Martingale theory in discrete and continuous time: Doob's convergence, optional stopping, maximal and upcrossing inequalities, the Doob decomposition, Wald's identities, Burkholder–Davis–Gundy inequalities, and martingale central limit theorems.",
+   "queries": [
+    "Doob optional stopping theorem conditions",
+    "martingale convergence theorem upcrossing inequality",
+    "Wald's identity stopping time expected sum",
+    "Burkholder Davis Gundy inequality quadratic variation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Brownian motion and stochastic calculus",
+   "scope": "Properties of the Wiener process, Itô and Stratonovich integrals, Itô's lemma, stochastic differential equations (Ornstein–Uhlenbeck, geometric Brownian motion), the Girsanov and Feynman–Kac theorems, local time and Lévy processes.",
+   "queries": [
+    "Wiener process Brownian motion nowhere differentiable properties",
+    "Ito lemma stochastic differential equation",
+    "Girsanov theorem change of measure drift",
+    "Ornstein Uhlenbeck process mean reverting stationary variance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Poisson processes, renewal theory and queueing",
+   "scope": "Poisson and other point processes (thinning, superposition, compound, Cox and Hawkes processes), renewal theorems and the inspection paradox, and queueing models (Kendall notation, Little's law, M/M/1 and M/M/c, the Pollaczek–Khinchine formula for M/G/1, Erlang B and C formulas, Jackson networks).",
+   "queries": [
+    "Pollaczek Khinchine formula M/G/1 queue",
+    "Erlang B formula blocking probability trunks",
+    "Kendall notation queueing Little's law",
+    "renewal theorem inspection paradox Poisson thinning"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Branching processes, percolation and random graphs",
+   "scope": "Galton–Watson and related branching processes (extinction probability, criticality), bond and site percolation (critical thresholds on specific lattices, Kesten's theorem), and Erdős–Rényi and related random graph models (giant component, connectivity thresholds).",
+   "queries": [
+    "Galton Watson process extinction probability generating function",
+    "percolation threshold site bond square lattice",
+    "Erdos Renyi random graph giant component threshold",
+    "Kesten theorem critical probability bond percolation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Random matrix theory",
+   "scope": "Eigenvalue statistics of random matrices: the Wigner semicircle law, the Gaussian orthogonal, unitary and symplectic ensembles, the Marchenko–Pastur law, the Tracy–Widom distribution, the Dyson index, circular ensembles and level-spacing distributions.",
+   "queries": [
+    "Wigner semicircle law eigenvalue distribution",
+    "Marchenko Pastur distribution sample covariance eigenvalues",
+    "Tracy Widom distribution largest eigenvalue GUE",
+    "Dyson circular ensembles beta index"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classic probability puzzles and paradoxes",
+   "scope": "Classic problems and paradoxes of elementary and combinatorial probability, including the birthday problem, Monty Hall, Bertrand's paradox, coupon collector, St. Petersburg, Banach's matchbox, Buffon's needle, two envelopes, derangements, the secretary problem and Simpson's paradox.",
+   "queries": [
+    "birthday problem probability shared birthday number",
+    "Banach match problem Buffon needle pi",
+    "secretary problem optimal stopping 1/e",
+    "Bertrand paradox random chord St Petersburg"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "History of probability and statistics",
+   "scope": "The people, publications, dates and coined terms in the field's development, from Cardano and the Pascal–Fermat correspondence through Huygens, Bernoulli's Ars Conjectandi, de Moivre, Bayes and Price, Laplace and Gauss, to Galton, Pearson, Gosset, Fisher, Neyman and Kolmogorov.",
+   "queries": [
+    "Pascal Fermat correspondence problem of points 1654",
+    "Ars Conjectandi Jacob Bernoulli published",
+    "Gosset Student pseudonym Guinness Biometrika 1908",
+    "Karl Pearson Biometrika founded Galton regression history"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Point estimation and statistical decision theory",
+   "scope": "How estimators are built and what properties they have (maximum likelihood, method of moments, sufficiency and completeness, Fisher information, the Cramér–Rao bound, the Rao–Blackwell, Lehmann–Scheffé and Basu theorems, UMVUE), plus decision-theoretic ideas (loss, risk, admissibility, minimax, James–Stein shrinkage).",
+   "queries": [
+    "Cramer Rao lower bound Fisher information efficiency",
+    "Rao Blackwell theorem Lehmann Scheffe UMVUE",
+    "James Stein estimator inadmissibility dimension three",
+    "Basu theorem ancillary complete sufficient statistic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hypothesis testing framework and likelihood-based tests",
+   "scope": "The theory of significance and hypothesis testing (the Neyman–Pearson lemma, UMP and unbiased tests, Type I and II errors, power, p-values and the debate over interpreting them), likelihood ratio, Wald and score tests, Wilks' theorem, and Wald's sequential probability ratio test.",
+   "queries": [
+    "Neyman Pearson lemma most powerful test",
+    "Wilks theorem likelihood ratio chi squared asymptotic",
+    "Wald test score test Lagrange multiplier comparison",
+    "ASA statement p-values 2016 principles"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Parametric tests for means, variances, normality and outliers",
+   "scope": "Named classical tests with their statistics, degrees of freedom and assumptions: Student's and Welch's t-tests, z-tests, the F-test for variances, Levene, Brown–Forsythe and Bartlett tests, the Shapiro–Wilk, Anderson–Darling, Jarque–Bera and Lilliefors normality tests, and the Grubbs and Dixon outlier tests.",
+   "queries": [
+    "Welch t-test Satterthwaite degrees of freedom",
+    "Shapiro Wilk test normality coefficients",
+    "Levene test Brown Forsythe Bartlett equal variances",
+    "Grubbs test outlier Dixon Q test"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rank-based and distribution-free tests",
+   "scope": "Nonparametric tests and rank statistics: the sign test, Wilcoxon signed-rank and rank-sum, Mann–Whitney U, Kruskal–Wallis, Friedman, Kolmogorov–Smirnov, Cramér–von Mises, runs tests, Jonckheere–Terpstra, and Spearman and Kendall rank correlation.",
+   "queries": [
+    "Mann Whitney U test statistic ties",
+    "Kruskal Wallis H test Friedman test ranks",
+    "Kolmogorov Smirnov two sample statistic critical value",
+    "Wald Wolfowitz runs test Jonckheere Terpstra"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Multiple comparisons and false discovery rate",
+   "scope": "Procedures that control the familywise error rate or false discovery rate (Bonferroni, Šidák, Holm, Hochberg, Hommel, Benjamini–Hochberg, Benjamini–Yekutieli, Storey's q-values) and post hoc comparison methods (Tukey HSD, Scheffé, Dunnett, Dunn, Newman–Keuls).",
+   "queries": [
+    "Benjamini Hochberg procedure false discovery rate",
+    "Holm Bonferroni step down Sidak correction",
+    "Tukey HSD studentized range Dunnett test",
+    "Storey q-value positive false discovery rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Confidence, prediction and tolerance intervals",
+   "scope": "How intervals are built and how well they cover: pivotal quantities, Wald, Wilson score, Clopper–Pearson, Agresti–Coull and Jeffreys intervals for proportions, intervals for Poisson rates, Fieller's theorem for ratios, tolerance and prediction intervals, and fiducial inference.",
+   "queries": [
+    "Wilson score interval binomial proportion",
+    "Clopper Pearson exact interval Agresti Coull",
+    "tolerance interval coverage confidence normal",
+    "Fieller theorem confidence interval ratio"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bayesian inference: priors, conjugacy and Bayes factors",
+   "scope": "Bayesian modeling concepts: conjugate prior families, Jeffreys, reference and improper priors, credible and HPD intervals, Bayes factors and their interpretation scales, posterior predictive checks, empirical Bayes, hierarchical priors and Lindley's paradox.",
+   "queries": [
+    "conjugate prior table likelihood posterior hyperparameters",
+    "Jeffreys prior Fisher information invariance",
+    "Bayes factor interpretation scale Kass Raftery",
+    "Lindley paradox Bayesian frequentist"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Monte Carlo methods, random number generation and MCMC",
+   "scope": "Stochastic simulation: pseudorandom generators (LCG, Mersenne Twister, xorshift, PCG) and randomness test suites, random variate generation (inverse transform, Box–Muller, ziggurat, rejection sampling), variance reduction and quasi-Monte Carlo, and MCMC algorithms (Metropolis–Hastings, Gibbs, Hamiltonian Monte Carlo, NUTS) with their convergence diagnostics.",
+   "queries": [
+    "Mersenne Twister period MT19937",
+    "Box Muller transform ziggurat algorithm normal variates",
+    "Metropolis Hastings acceptance ratio Gibbs sampling",
+    "Gelman Rubin diagnostic potential scale reduction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bootstrap, jackknife and resampling inference",
+   "scope": "Inference by resampling: Efron's bootstrap and its confidence intervals (percentile, BCa, bootstrap-t), parametric, block and wild bootstraps, the Quenouille–Tukey jackknife, permutation and randomization tests, and variants of cross-validation.",
+   "queries": [
+    "Efron bootstrap BCa confidence interval",
+    "jackknife Quenouille Tukey bias variance estimate",
+    "block bootstrap dependent data time series",
+    "permutation test exact randomization test"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Model selection, information criteria and regularization",
+   "scope": "Criteria and methods for choosing between statistical models (AIC, AICc, BIC, DIC, WAIC, MDL, Mallows's Cp, stepwise selection) and penalized estimation (ridge, lasso, elastic net, LARS, SCAD, effective degrees of freedom).",
+   "queries": [
+    "Akaike information criterion AICc small sample correction",
+    "Bayesian information criterion Schwarz derivation",
+    "lasso Tibshirani least angle regression",
+    "WAIC Watanabe widely applicable information criterion"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Robust statistics",
+   "scope": "Estimators and diagnostics that resist outliers and misspecification: breakdown point, influence function, Huber and Tukey biweight M-estimators, trimmed and Winsorized means, median absolute deviation, Hodges–Lehmann, least trimmed squares, Theil–Sen and the minimum covariance determinant.",
+   "queries": [
+    "breakdown point influence function robust estimator",
+    "Huber loss M-estimator Tukey biweight",
+    "median absolute deviation consistency constant 1.4826",
+    "Theil Sen estimator least trimmed squares"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Nonparametric density estimation and smoothing",
+   "scope": "Kernel density estimation (kernel choice, Silverman's and Scott's bandwidth rules, plug-in and cross-validated bandwidths), histogram bin rules (Sturges, Freedman–Diaconis), kernel and local regression (Nadaraya–Watson, LOESS), smoothing splines and wavelet shrinkage.",
+   "queries": [
+    "kernel density estimation bandwidth Silverman rule of thumb",
+    "Freedman Diaconis rule Sturges histogram bins",
+    "Nadaraya Watson kernel regression estimator",
+    "LOESS local regression Cleveland smoothing span"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Linear regression and least-squares diagnostics",
+   "scope": "Theory and diagnostics for ordinary, weighted and generalized least squares: the Gauss–Markov theorem, R-squared and adjusted R-squared, leverage, Cook's distance, studentized residuals, VIF, the Durbin–Watson, Breusch–Pagan and White tests, heteroskedasticity-consistent standard errors and errors-in-variables models.",
+   "queries": [
+    "Gauss Markov theorem BLUE assumptions",
+    "Cook's distance leverage influential observations threshold",
+    "variance inflation factor multicollinearity",
+    "Breusch Pagan White test heteroscedasticity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Generalized linear models",
+   "scope": "The Nelder–Wedderburn GLM framework (exponential families, canonical links, deviance, iteratively reweighted least squares, overdispersion, quasi-likelihood, generalized estimating equations) and its main cases: logistic, probit, Poisson, negative binomial and gamma regression.",
+   "queries": [
+    "generalized linear model canonical link function exponential family",
+    "deviance iteratively reweighted least squares Nelder Wedderburn",
+    "overdispersion quasi-Poisson negative binomial regression",
+    "generalized estimating equations working correlation Liang Zeger"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mixed-effects and multilevel models",
+   "scope": "Models with random effects and variance components: linear and generalized linear mixed models, REML, BLUP and Henderson's mixed model equations, intraclass correlation, Satterthwaite and Kenward–Roger degrees of freedom, hierarchical/multilevel modeling, and software such as lme4 and nlme.",
+   "queries": [
+    "restricted maximum likelihood REML variance components",
+    "best linear unbiased prediction Henderson mixed model equations",
+    "intraclass correlation coefficient Shrout Fleiss",
+    "multilevel model random intercept random slope"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analysis of variance and design of experiments",
+   "scope": "ANOVA decompositions and experimental designs: one- and two-way ANOVA, Type I/II/III sums of squares, randomized blocks, Latin and Graeco-Latin squares, factorial and fractional factorial designs and their resolution, Plackett–Burman, central composite and Box–Behnken response surface designs, Taguchi methods and optimal design criteria.",
+   "queries": [
+    "fractional factorial design resolution aliasing",
+    "Plackett Burman design runs factors",
+    "Box Behnken central composite response surface",
+    "Latin square randomized block design ANOVA"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Time series analysis",
+   "scope": "Models and tests for time-dependent data: ARMA/ARIMA and the Box–Jenkins method, seasonal models, unit-root and stationarity tests (Dickey–Fuller, KPSS, Phillips–Perron), ARCH/GARCH, state-space models and Kalman filtering, spectral analysis, Ljung–Box, Granger causality and cointegration.",
+   "queries": [
+    "Box Jenkins ARIMA model identification",
+    "augmented Dickey Fuller unit root test KPSS",
+    "GARCH Engle Bollerslev volatility model",
+    "Ljung Box test autocorrelation residuals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Survival analysis",
+   "scope": "Methods for censored time-to-event data: the Kaplan–Meier and Nelson–Aalen estimators, Greenwood's formula, log-rank and weighted log-rank tests, Cox proportional hazards with Breslow/Efron tie handling and Schoenfeld residuals, accelerated failure time models, and competing risks with the Fine–Gray model.",
+   "queries": [
+    "Kaplan Meier estimator Greenwood formula variance",
+    "Cox proportional hazards partial likelihood Breslow",
+    "log-rank test Gehan Wilcoxon survival curves",
+    "Fine Gray subdistribution hazard competing risks"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Classical multivariate statistical analysis",
+   "scope": "Hotelling's T-squared, the MANOVA statistics (Wilks' lambda, Pillai's trace, Hotelling–Lawley trace, Roy's largest root), principal component and factor analysis with rotations, canonical correlation, linear and quadratic discriminant analysis, Mahalanobis distance, multidimensional scaling and correspondence analysis.",
+   "queries": [
+    "Hotelling T-squared distribution F relationship",
+    "Wilks lambda Pillai trace Roy largest root MANOVA",
+    "factor analysis varimax rotation Kaiser criterion",
+    "canonical correlation analysis Hotelling 1936"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Categorical data and contingency table analysis",
+   "scope": "Methods for counts and contingency tables: Pearson chi-squared and G-tests, Yates's correction, Fisher's exact, McNemar, Cochran's Q and Cochran–Mantel–Haenszel tests, odds ratios and relative risk, log-linear models, and agreement and association measures (Cramér's V, Goodman–Kruskal gamma, Cohen's kappa).",
+   "queries": [
+    "Fisher exact test hypergeometric contingency table",
+    "McNemar test Cochran Q paired proportions",
+    "Cochran Mantel Haenszel test stratified odds ratio",
+    "Cramer's V Goodman Kruskal gamma association"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Survey sampling and finite-population inference",
+   "scope": "Design-based inference for finite populations: simple random, stratified, cluster, systematic and multistage sampling, Neyman allocation, the Horvitz–Thompson and Hansen–Hurwitz estimators, design effect, finite population correction, ratio and regression estimation, and raking and calibration weights.",
+   "queries": [
+    "Horvitz Thompson estimator inclusion probabilities",
+    "Neyman allocation stratified sampling optimal",
+    "Kish design effect cluster sampling",
+    "raking calibration weighting survey nonresponse"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Causal inference methods",
+   "scope": "Frameworks and estimators for causal effects: Rubin's potential outcomes and SUTVA, Pearl's DAGs, do-calculus and the back-door criterion, propensity score matching, inverse probability weighting, instrumental variables, difference-in-differences, regression discontinuity and synthetic control.",
+   "queries": [
+    "Rubin causal model potential outcomes SUTVA",
+    "propensity score matching Rosenbaum Rubin 1983",
+    "back door criterion do calculus Pearl",
+    "regression discontinuity design difference in differences"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Missing data, EM algorithm and multiple imputation",
+   "scope": "Rubin's missing-data mechanisms (MCAR, MAR, MNAR), Little's MCAR test, the Dempster–Laird–Rubin EM algorithm and its extensions, multiple imputation with Rubin's combining rules, chained equations (MICE), hot-deck imputation, and selection and pattern-mixture models.",
+   "queries": [
+    "missing completely at random MAR MNAR Rubin",
+    "multiple imputation Rubin's rules pooling variance",
+    "expectation maximization algorithm Dempster Laird Rubin",
+    "MICE chained equations imputation hot deck"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical process control and quality engineering",
+   "scope": "Control charts and capability analysis: Shewhart X-bar, R, p and c charts and their constants, the Western Electric and Nelson rules, CUSUM and EWMA charts, average run length, Cp/Cpk capability indices, acceptance sampling plans and Six Sigma conventions.",
+   "queries": [
+    "Shewhart control chart constants A2 D3 D4",
+    "Western Electric rules Nelson rules control chart",
+    "CUSUM EWMA average run length",
+    "process capability index Cpk Six Sigma 3.4"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Meta-analysis and effect sizes",
+   "scope": "Combining results across studies (fixed- and random-effects models, the DerSimonian–Laird estimator, Cochran's Q, I-squared and tau-squared heterogeneity statistics, forest and funnel plots, Egger's test, trim-and-fill) and standardized effect sizes (Cohen's d, Hedges' g, Glass's delta).",
+   "queries": [
+    "DerSimonian Laird random effects meta-analysis",
+    "I squared heterogeneity Higgins Thompson Cochran Q",
+    "funnel plot Egger test publication bias trim and fill",
+    "Cohen's d Hedges g small sample correction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Combinatorial probability and occupancy problems",
+   "scope": "Counting-based probability: urn and occupancy models, inclusion-exclusion, matching and derangement problems, ballot theorems, and the Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac counting schemes used in elementary probability.",
+   "queries": [
+    "occupancy problem balls into bins distribution",
+    "inclusion exclusion principle derangement matching probability",
+    "Bertrand ballot theorem counting paths",
+    "Maxwell Boltzmann Bose Einstein statistics counting arrangements"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Moments, cumulants and the moment problem",
+   "scope": "Moments and their variants (central, factorial, L-moments and probability-weighted moments), how cumulants relate to moments, the Hamburger, Stieltjes and Hausdorff moment problems with determinacy criteria such as Carleman's condition, and moment-based approximations like Cornish-Fisher.",
+   "queries": [
+    "cumulants moments relation formula kurtosis",
+    "Hamburger Stieltjes Hausdorff moment problem determinacy",
+    "Carleman condition lognormal moment indeterminate",
+    "L-moments Hosking probability weighted moments"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Order statistics, spacings and record values",
+   "scope": "Distribution theory of ordered samples: joint and marginal densities of order statistics, sample range and midrange, spacings and the Rényi representation, expected normal order statistics, concomitants, and record values and record times.",
+   "queries": [
+    "order statistics joint density uniform beta distribution",
+    "Rényi representation exponential spacings",
+    "record values record times distribution",
+    "expected normal order statistics sample range"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Stochastic orders and reliability theory",
+   "scope": "Lifetime distribution classes (IFR, DFR, IFRA, NBU, NBUE), stochastic orderings (usual, hazard rate, likelihood ratio, convex), coherent systems and structure functions, k-out-of-n systems, and component importance measures.",
+   "queries": [
+    "increasing failure rate IFR NBU lifetime classes",
+    "hazard rate order likelihood ratio stochastic order",
+    "k-out-of-n system reliability structure function",
+    "Birnbaum importance measure coherent system"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Lévy processes and infinitely divisible distributions",
+   "scope": "Processes with stationary independent increments and the laws behind them: the Lévy-Khintchine formula and characteristic triplet, the Lévy-Itô decomposition, subordinators, stable and tempered stable processes, and examples such as compound Poisson and variance-gamma processes.",
+   "queries": [
+    "Lévy Khintchine formula characteristic exponent triplet",
+    "Levy Ito decomposition subordinator jump measure",
+    "infinitely divisible distribution stable process index",
+    "variance gamma process compound Poisson subordinator"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Gaussian processes, random fields and stationary process theory",
+   "scope": "Theory of second-order stationary processes and Gaussian random fields: covariance kernels (Matérn, squared exponential), Bochner and Wiener-Khinchin theorems, the Karhunen-Loève expansion, sample-path continuity criteria, and level-crossing results such as Rice's formula.",
+   "queries": [
+    "Wiener Khinchin theorem spectral density stationary process",
+    "Karhunen Loeve expansion eigenfunctions covariance",
+    "Matern covariance function smoothness parameter",
+    "Rice formula level crossings Gaussian process"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Interacting particle systems and lattice models",
+   "scope": "Probabilistic models from statistical physics other than percolation: Ising and Potts models, contact and voter processes, exclusion processes such as TASEP, self-avoiding walks, Schramm-Loewner evolution, and KPZ universality.",
+   "queries": [
+    "contact process voter model critical value",
+    "Schramm Loewner evolution SLE kappa",
+    "totally asymmetric simple exclusion process TASEP",
+    "self-avoiding walk connective constant lattice"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Geometric probability and stochastic geometry",
+   "scope": "Probabilities and expectations for random geometric objects: Buffon-type needle problems, Crofton and other integral-geometry formulas, Sylvester's four-point problem, random polygons and polytopes, Boolean models, and Poisson-Voronoi tessellations.",
+   "queries": [
+    "Buffon needle problem Crofton formula",
+    "Sylvester four point problem convex hull probability",
+    "Poisson Voronoi tessellation mean cell volume",
+    "Boolean model coverage stochastic geometry"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Spatial statistics: geostatistics and spatial autocorrelation",
+   "scope": "Analysis of spatially referenced data: semivariogram models and kriging variants, spatial autocorrelation indices (Moran's I, Geary's C, Getis-Ord), point-pattern summaries (Ripley's K and L, pair correlation), and CAR and SAR areal models.",
+   "queries": [
+    "semivariogram nugget sill range kriging",
+    "ordinary kriging universal kriging cokriging",
+    "Moran's I Geary's C spatial autocorrelation",
+    "Ripley's K function point pattern analysis"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Probability metrics, divergences and information measures",
+   "scope": "Distances and information quantities between distributions: total variation, Hellinger, Wasserstein and Lévy-Prokhorov metrics, Kullback-Leibler, Rényi and other f-divergences, and entropy and mutual information as used in probability and statistics.",
+   "queries": [
+    "Kullback Leibler divergence f-divergence properties",
+    "Hellinger distance total variation Pinsker inequality",
+    "Wasserstein distance earth mover optimal transport",
+    "Levy Prokhorov metric weak convergence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Empirical processes and asymptotic statistical theory",
+   "scope": "Large-sample theory of statistics: Glivenko-Cantelli and Donsker theorems for empirical distributions, VC classes and bracketing entropy, the delta method, asymptotics of M- and Z-estimators, and Le Cam's local asymptotic normality and contiguity.",
+   "queries": [
+    "Glivenko Cantelli theorem empirical distribution function",
+    "Donsker theorem empirical process Brownian bridge",
+    "delta method asymptotic variance transformation",
+    "local asymptotic normality Le Cam contiguity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Interpretations of probability, exchangeability and imprecise probability",
+   "scope": "Philosophical and axiomatic foundations: frequentist, subjective, logical and propensity interpretations, de Finetti's representation theorem, coherence and Dutch book arguments, Cox's theorem, and alternatives such as Dempster-Shafer theory and imprecise probabilities.",
+   "queries": [
+    "de Finetti theorem exchangeable sequences",
+    "Dutch book argument coherence subjective probability",
+    "propensity interpretation probability Popper frequency",
+    "Dempster Shafer belief function combination rule"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Descriptive statistics, quantile definitions and exploratory data analysis",
+   "scope": "Summary measures and EDA conventions: the Hyndman-Fan sample quantile types, box-plot whisker and fence rules, stem-and-leaf and letter-value displays, skewness and kurtosis coefficients, and Tukey's EDA terminology.",
+   "queries": [
+    "Hyndman Fan sample quantile definitions types",
+    "box plot whiskers inner fences outliers Tukey",
+    "Pearson Bowley skewness coefficient quartile",
+    "stem and leaf display letter values exploratory"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical learning: trees, ensembles and kernel methods",
+   "scope": "Supervised learning seen from statistics: classification and regression trees (CART, C4.5), bagging, random forests, boosting (AdaBoost, gradient boosting), support vector machines, k-nearest neighbours, and the bias-variance decomposition.",
+   "queries": [
+    "CART Gini impurity cost complexity pruning",
+    "random forest out-of-bag error variable importance",
+    "AdaBoost exponential loss gradient boosting",
+    "support vector machine kernel trick margin"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cluster analysis and finite mixture models",
+   "scope": "Unsupervised grouping: hierarchical linkage methods, k-means and k-medoids algorithms, model-based clustering with Gaussian mixtures, cluster validity indices (silhouette, gap statistic, Calinski-Harabasz, Davies-Bouldin), and the identifiability of mixtures.",
+   "queries": [
+    "hierarchical clustering Ward linkage dendrogram",
+    "k-means Lloyd algorithm k-medoids PAM",
+    "Gaussian mixture model-based clustering BIC",
+    "silhouette gap statistic Calinski Harabasz index"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Probabilistic graphical models and Bayesian networks",
+   "scope": "Graph-based representations of joint distributions: directed acyclic graph models, d-separation, Markov random fields and the Hammersley-Clifford theorem, factor graphs, belief propagation and junction-tree inference, and structure-learning algorithms.",
+   "queries": [
+    "d-separation Bayesian network conditional independence",
+    "Hammersley Clifford theorem Markov random field",
+    "junction tree algorithm belief propagation",
+    "Bayesian network structure learning score search"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Approximate Bayesian computation and variational inference",
+   "scope": "Non-MCMC approximations to posteriors: variational Bayes with mean-field families and the ELBO, expectation propagation, the Laplace approximation and INLA, and approximate Bayesian computation with rejection and SMC schemes.",
+   "queries": [
+    "variational inference evidence lower bound mean field",
+    "approximate Bayesian computation rejection summary statistics",
+    "integrated nested Laplace approximation INLA",
+    "expectation propagation moment matching approximation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bayesian nonparametrics",
+   "scope": "Infinite-dimensional priors and their combinatorial representations: Dirichlet processes and stick-breaking, Chinese restaurant and Indian buffet processes, Pitman-Yor and beta processes, Pólya trees, and posterior consistency results.",
+   "queries": [
+    "Dirichlet process stick-breaking Sethuraman construction",
+    "Chinese restaurant process Pitman Yor discount",
+    "Indian buffet process beta process",
+    "Polya tree prior Bayesian nonparametric"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hidden Markov models, state-space models and filtering",
+   "scope": "Latent-state sequence models and how to infer them: hidden Markov models (forward-backward, Viterbi, Baum-Welch), linear Gaussian state-space models with Kalman filter and smoother variants, and particle filters (sequential Monte Carlo).",
+   "queries": [
+    "hidden Markov model Viterbi forward backward",
+    "Baum Welch algorithm parameter estimation",
+    "Kalman filter gain extended unscented",
+    "particle filter sequential importance resampling degeneracy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Clinical trial design, sample size and sequential analysis",
+   "scope": "Statistical design of comparative trials: power and sample-size formulas, randomization schemes, group sequential boundaries (Pocock, O'Brien-Fleming, alpha spending), Wald's SPRT, adaptive and non-inferiority designs, and phase I dose-finding (3+3, CRM).",
+   "queries": [
+    "O'Brien Fleming boundary alpha spending function",
+    "sequential probability ratio test Wald boundaries",
+    "sample size calculation power two-sample comparison",
+    "continual reassessment method dose finding"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diagnostic test accuracy, ROC analysis and rater agreement",
+   "scope": "Evaluating classifiers and measurement agreement: sensitivity, specificity, predictive values and likelihood ratios, ROC curves and AUC comparisons (DeLong test), the Youden index, Cohen's and Fleiss' kappa, intraclass correlation, and Bland-Altman analysis.",
+   "queries": [
+    "sensitivity specificity positive predictive value likelihood ratio",
+    "ROC curve AUC DeLong test Youden index",
+    "Cohen kappa Fleiss kappa interrater agreement",
+    "Bland Altman limits of agreement intraclass correlation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Psychometrics: item response theory and test reliability",
+   "scope": "Measurement models for tests and scales: classical test theory, reliability coefficients (Cronbach's alpha, KR-20, McDonald's omega, Spearman-Brown), the Rasch model and 1PL/2PL/3PL IRT models, differential item functioning, and computerized adaptive testing.",
+   "queries": [
+    "Cronbach alpha KR-20 reliability coefficient",
+    "Rasch model item response theory 3PL",
+    "Spearman Brown prophecy formula test length",
+    "differential item functioning Mantel Haenszel"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Structural equation modeling and confirmatory factor analysis",
+   "scope": "Latent-variable covariance-structure models: path analysis, confirmatory factor analysis and its identification rules, estimators (ML, WLSMV), fit indices (RMSEA, CFI, TLI, SRMR) with their conventional cutoffs, measurement invariance, and LISREL notation.",
+   "queries": [
+    "RMSEA CFI TLI fit indices cutoff",
+    "confirmatory factor analysis model identification degrees freedom",
+    "LISREL notation path analysis structural model",
+    "measurement invariance configural metric scalar"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Panel data econometrics and GMM estimation",
+   "scope": "Econometric estimation beyond basic regression: fixed and random effects panel models, the Hausman test, dynamic panel estimators (Arellano-Bond, Blundell-Bond), the generalized method of moments with Hansen's J test, and identification of simultaneous equations.",
+   "queries": [
+    "Hausman test fixed effects random effects",
+    "Arellano Bond dynamic panel GMM estimator",
+    "Hansen J test overidentifying restrictions",
+    "simultaneous equations order rank condition identification"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Actuarial risk theory: ruin, credibility and loss models",
+   "scope": "Probability models for insurance: the Cramér-Lundberg ruin model, Lundberg's inequality and the adjustment coefficient, compound aggregate-loss distributions and Panjer recursion, Bühlmann and Bühlmann-Straub credibility, and bonus-malus systems.",
+   "queries": [
+    "Cramér Lundberg model ruin probability adjustment coefficient",
+    "Panjer recursion compound distribution aggregate loss",
+    "Bühlmann credibility factor Straub model",
+    "bonus malus system Markov chain insurance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical genetics and genetic epidemiology",
+   "scope": "Statistical methods for genetic data: Hardy-Weinberg equilibrium tests, linkage analysis and LOD scores, recombination mapping functions (Haldane, Kosambi), linkage disequilibrium measures, GWAS significance thresholds, and heritability estimation.",
+   "queries": [
+    "LOD score linkage analysis threshold",
+    "Haldane Kosambi mapping function recombination",
+    "Hardy Weinberg equilibrium exact test",
+    "linkage disequilibrium D prime r squared"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Capture-recapture and ecological abundance estimation",
+   "scope": "Estimating population size and biodiversity: the Lincoln-Petersen and Chapman estimators, the Schnabel estimator and Jolly-Seber open-population models, Otis closed-population models (M0, Mt, Mb, Mh), distance sampling, occupancy models, and species-richness estimators (Chao1, ACE, rarefaction).",
+   "queries": [
+    "Lincoln Petersen estimator Chapman capture recapture",
+    "Jolly Seber open population model survival",
+    "distance sampling detection function line transect",
+    "Chao1 species richness estimator rarefaction"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Measurement uncertainty and metrological statistics",
+   "scope": "Evaluating and reporting measurement uncertainty: the GUM framework, Type A and Type B evaluation, combined and expanded uncertainty with coverage factors, Welch-Satterthwaite effective degrees of freedom, Monte Carlo propagation (GUM Supplement 1), and ISO 5725 interlaboratory precision.",
+   "queries": [
+    "GUM Type A Type B uncertainty evaluation",
+    "expanded uncertainty coverage factor Welch Satterthwaite",
+    "propagation of uncertainty sensitivity coefficients law",
+    "ISO 5725 repeatability reproducibility interlaboratory study"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Circular and directional statistics",
+   "scope": "Statistics for angular and spherical data: circular mean and mean resultant length, von Mises and wrapped distributions, the von Mises-Fisher and Fisher-Bingham families on the sphere, uniformity tests (Rayleigh, Kuiper, Watson, Rao spacing), and circular-linear correlation.",
+   "queries": [
+    "circular mean resultant length directional statistics",
+    "Rayleigh test uniformity circular data",
+    "von Mises Fisher distribution sphere concentration",
+    "Kuiper test Watson U2 circular"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Statistical software functions, defaults and implementations",
+   "scope": "How statistical methods are implemented and named in major packages (R functions and packages, SAS procedures, Stata commands, SPSS and similar tools), including default options, underlying algorithms, release history and output conventions.",
+   "queries": [
+    "R stats package function arguments default",
+    "SAS PROC MIXED GLIMMIX statement options",
+    "Stata regress command vce robust options",
+    "SPSS UNIANOVA syntax output statistics"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Multi-armed bandits and stochastic approximation",
+   "scope": "Sequential allocation and stochastic optimization procedures: bandit algorithms (UCB, Thompson sampling, the Gittins index), regret lower bounds (Lai-Robbins), Robbins-Monro and Kiefer-Wolfowitz stochastic approximation, and response-adaptive allocation.",
+   "queries": [
+    "Gittins index multi-armed bandit",
+    "upper confidence bound UCB1 regret",
+    "Robbins Monro stochastic approximation step size",
+    "Thompson sampling Lai Robbins lower bound"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

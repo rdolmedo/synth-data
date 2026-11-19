@@ -1,0 +1,1009 @@
+{
+ "pool": "TB-Science-lite pool v2.1 (nonnegative query-classification follow-up, 2026-11-06)",
+ "source": "frozen pool v2 + one versioned verifier patch (build_v2.py --base v2 --pool v2.1)",
+ "tasks": {
+  "acrobot-swingup-effort": {
+   "pr": 557,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "align-blocks-mujoco": {
+   "pr": 2146,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "alphafold-pocket-rescue": {
+   "pr": 2294,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "analytical-hillslope-flow": {
+   "pr": 818,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "anonymous-modular-reconstruction": {
+   "pr": 892,
+   "upstream_review": "final",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "apo-holo-docking": {
+   "pr": 609,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "as-installed-identification": {
+   "pr": 2160,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "asd-brainspan-enrichment": {
+   "pr": 1252,
+   "upstream_review": "none",
+   "class": "excluded",
+   "defect_class": "unsolvable",
+   "reason": "hidden gates pass only near an unexplained reference constant that public validation argues against (upstream reviewer, on our pin); no clean fix"
+  },
+  "asparagine-hydrolysis-smiles": {
+   "pr": 2291,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "verifier-bug",
+   "fix_kind": "test-patch",
+   "reason": "a known-wrong-answer check rejected a correct standard-convention answer inside the tolerance (flagged by both upstream reviewers); removed that one check, the mistake it targets is still caught"
+  },
+  "battery-dfn-gitt": {
+   "pr": 1511,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "bcc-screw-peierls": {
+   "pr": 2239,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "bearing-candidate-curation": {
+   "pr": 1733,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "bosch-drie-control": {
+   "pr": 1026,
+   "upstream_review": "t+d (not lite)",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "bridge-damage-forensics": {
+   "pr": 587,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "c14h14o-afm-identification": {
+   "pr": 2113,
+   "upstream_review": "none",
+   "class": "unclear",
+   "defect_class": "leak",
+   "reason": "documented: a list-order shortcut exists, no clean fix; unchanged"
+  },
+  "calf20-humid-co2": {
+   "pr": 908,
+   "upstream_review": "none",
+   "class": "excluded",
+   "defect_class": "threshold-in-noise",
+   "reason": "the reference passes only by optimizer luck: a lower-loss optimum of its own objective fails the gate; no clean fix"
+  },
+  "calibration-drift-localisation": {
+   "pr": 1840,
+   "upstream_review": "final",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "capsid-rate-inversion": {
+   "pr": 2263,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "test-instruction-mismatch",
+   "fix_kind": "instruction clarification (definition only), matching the pinned reference and the upstream head's wording",
+   "reason": "the grader counted a bond class the instruction never defined; added the definition, as upstream did"
+  },
+  "casemix-discrimination-gap": {
+   "pr": 1913,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "causal-proxy-audit": {
+   "pr": 1042,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": "environment-runtime",
+   "reason": ""
+  },
+  "ccf-top-p": {
+   "pr": 1251,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "cfn-panel-mixture": {
+   "pr": 2312,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "cg-forcefield-audit": {
+   "pr": 2429,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "chatter-stability-lobes": {
+   "pr": 873,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "clockface-rail-timetable": {
+   "pr": 2315,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "coherent-freeze-out": {
+   "pr": 2129,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "concentrated-electrolyte-transport": {
+   "pr": 584,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "connector-press-commissioning": {
+   "pr": 2227,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "conveyor-bottle-interception": {
+   "pr": 2030,
+   "upstream_review": "t",
+   "class": "fixed",
+   "defect_class": "timing",
+   "fix_kind": "patch",
+   "reason": "the formal runner wall budget is mostly physics time and the reference exceeded it on our hardware; budget scaled to keep upstream's margin, consistently in every place it is stated"
+  },
+  "cosco-busan-forensics": {
+   "pr": 521,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "cosco-calibration-forensics": {
+   "pr": 1322,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "coupled-climate-recovery": {
+   "pr": 1318,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "curvature-descriptor-recovery": {
+   "pr": 1726,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "dlpno-ccsd-t0": {
+   "pr": 945,
+   "upstream_review": "t",
+   "class": "unclear",
+   "defect_class": "timing",
+   "reason": "documented: reference runtime close to an unstated internal limit; unchanged"
+  },
+  "dmm-amm-discrimination": {
+   "pr": 622,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "dogma-trimodal-perturbation": {
+   "pr": 2548,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "dqd-transport": {
+   "pr": 933,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "early-crc-pipeline": {
+   "pr": 1274,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "eis-aging-trajectory": {
+   "pr": 709,
+   "upstream_review": "final",
+   "class": "excluded",
+   "defect_class": "reference-irreproducible",
+   "reason": "reference fails reporting reconstruction on 2 of 8 sampled fresh suites; no clean fix established; thresholds and task files unchanged"
+  },
+  "epr-spin-quantitation": {
+   "pr": 2265,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "evidence-route-repair": {
+   "pr": 2318,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "fet-biosensor-design": {
+   "pr": 1624,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "flux-rope-reconstruction": {
+   "pr": 1823,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "fraud-score-recalibration": {
+   "pr": 344,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "friction-tray-transfer": {
+   "pr": 2220,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "full-duplex-recovery": {
+   "pr": 1521,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "gene-partner-census": {
+   "pr": 2084,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "geomagnetic-conjugate-mapping": {
+   "pr": 2126,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "glacier-surface-event": {
+   "pr": 2340,
+   "upstream_review": "d",
+   "class": "fixed",
+   "defect_class": "lenient-grader",
+   "fix_kind": "test tightening (mirrors upstream 4cf9568 test_event_timing)",
+   "reason": "instruction asks for the tightest bracket but any containing window passed; exact match, as upstream"
+  },
+  "glycan-stereo-audit": {
+   "pr": 2256,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "grad-student-descent": {
+   "pr": 568,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "grantfree-collision-recovery": {
+   "pr": 1325,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "gravity-shuttle-docking": {
+   "pr": 2214,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "grothendieck-pseudofunctor": {
+   "pr": 2194,
+   "upstream_review": "none",
+   "class": "excluded",
+   "defect_class": "environment",
+   "reason": "our runtime can't build its verifier image: a build-time `runuser -u verifier -- test ! -w` self-check needs real ids at build time (not supported by harbor_ns builds); task content not audited in depth"
+  },
+  "gwas-meta-finemapping": {
+   "pr": 2258,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "halide-segregation-forecast": {
+   "pr": 1985,
+   "upstream_review": "none",
+   "class": "unclear",
+   "defect_class": "unsolvable",
+   "reason": "documented: an unobservable latent state; the natural reading is the graded one; unchanged"
+  },
+  "heom-exciton-spectra": {
+   "pr": 2119,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "hla-motif-deconvolution": {
+   "pr": 246,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "holter-hrv-recovery": {
+   "pr": 1316,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "interim-alpha-recycling": {
+   "pr": 2190,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "kepler-phase-curves": {
+   "pr": 878,
+   "upstream_review": "final",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "keyed-coupler-assembly": {
+   "pr": 2215,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "landsat-coreg-change": {
+   "pr": 626,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "landslide-spatiotemporal-reconstruction": {
+   "pr": 1781,
+   "upstream_review": "d",
+   "class": "excluded",
+   "defect_class": "test-instruction-mismatch",
+   "reason": "per-frame gates depend on an unstated simulator frame clock (a one-frame shift of the truth fails); fixing it would disclose the approach"
+  },
+  "large-scale-dfo": {
+   "pr": 989,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "layer-aware-influence": {
+   "pr": 1247,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "lns-operator-vrp": {
+   "pr": 874,
+   "upstream_review": "final",
+   "class": "fixed",
+   "defect_class": "verifier-bug",
+   "fix_kind": "tests/test.sh writes reward 0 when the submission is missing or fails to extract/build",
+   "reason": "the verifier wrote no reward for a missing or unbuildable submission (scored as a verifier error instead of 0); now writes 0"
+  },
+  "malaria-fitness": {
+   "pr": 1650,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "microbiome-diffabund": {
+   "pr": 2072,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "mitogenome-cohort-reconstruction": {
+   "pr": 1001,
+   "upstream_review": "final",
+   "class": "fixed",
+   "defect_class": "timing",
+   "fix_kind": "verifier timeout (task.toml) 60 -> 300 s",
+   "reason": "the verifier-only 60 s timeout (dependency install + output checks) timed out once on the reference; raised"
+  },
+  "mixture-distribution-1d": {
+   "pr": 84,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "mossbauer-speciation-kinetics": {
+   "pr": 2266,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "mps-vqe-refinement": {
+   "pr": 628,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "multi-material-wannierisation": {
+   "pr": 1210,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "neuroimaging-evidence-audit": {
+   "pr": 898,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "nonlinear-causal-recovery": {
+   "pr": 2005,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "nonnegative-orthogonal-optimization": {
+   "pr": 706,
+   "upstream_review": "t+d",
+   "class": "fixed",
+   "defect_class": "lenient-grader; verifier-error-classification",
+   "fix_kind": "upstream calibration adoption (v2) + numerical-query failure classification (v2.1)",
+   "reason": "v2 adopted tighter upstream calibration; v2.1 scores submitted-query floating-point range failures as model failures while preserving genuine generated-oracle/worker infrastructure errors"
+  },
+  "nqs-energy-measurement": {
+   "pr": 2074,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "online-cloud-scheduling": {
+   "pr": 2228,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "online-vne": {
+   "pr": 2280,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "oriented-graph-reduction": {
+   "pr": 805,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "orr-somm": {
+   "pr": 395,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "oscillator-gate-design": {
+   "pr": 2068,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "packing-feasibility": {
+   "pr": 2218,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "paired-link-limits": {
+   "pr": 2059,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "pastrel-protection-inference": {
+   "pr": 2211,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "pcasl-cbf-quantifier": {
+   "pr": 142,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "peanut-homeolog-editing": {
+   "pr": 2300,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "peanut-pql-reconstruction": {
+   "pr": 2081,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "phenotype-guided-ranking": {
+   "pr": 1987,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "pipelined-sar-adc": {
+   "pr": 2186,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "plasmid-clone-forensics": {
+   "pr": 2297,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "polymer-constrained-design": {
+   "pr": 910,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "proton-transfer-audit": {
+   "pr": 1311,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "quasar-time-delays": {
+   "pr": 2048,
+   "upstream_review": "t",
+   "class": "unclear",
+   "defect_class": "reference-irreproducible",
+   "reason": "documented: the reference's calibration passes for its seed and fails for another; the band is sound for a calibrated method; unchanged"
+  },
+  "ra-taper-risk": {
+   "pr": 1893,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "recover-enzyme-inhibition": {
+   "pr": 1873,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "refinement-ordered-optimization": {
+   "pr": 1288,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "environment",
+   "fix_kind": "task.toml network policy",
+   "reason": "no-network agent phase (deprecated allow_internet=false) made the agent unable to reach its model; set to the benchmark-required public agent network, as upstream's static check requires"
+  },
+  "replicate-detection-snrna": {
+   "pr": 639,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "leak",
+   "fix_kind": "environment",
+   "reason": "in-place HDF5 scrubbing left the original sample names readable in the data files; files are repacked"
+  },
+  "robust-transmon-gate": {
+   "pr": 453,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "rotor-bar-mcsa": {
+   "pr": 2438,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "rv-activity-disentangling": {
+   "pr": 400,
+   "upstream_review": "t+d (not lite)",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "sar-adc": {
+   "pr": 2479,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "satellite-reservoir-estimation": {
+   "pr": 1239,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "semantic-splat-calibration": {
+   "pr": 1336,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "sensor-rig-calibration": {
+   "pr": 277,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "seven-axis-commissioning": {
+   "pr": 2019,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "side-channel-task": {
+   "pr": 2198,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "sidechannel-recovery": {
+   "pr": 2221,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "leak",
+   "fix_kind": "overlay",
+   "reason": "the hidden key byte was the first byte of the well-known FIPS-197 example key (guessable); data regenerated with a seeded random key"
+  },
+  "sin-grating-coupler": {
+   "pr": 602,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "sky130-multiphase-pll": {
+   "pr": 2384,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "sommerfeld-enhancement": {
+   "pr": 2130,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "southern-ocean-attribution": {
+   "pr": 1653,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "spatial-rna-decontamination": {
+   "pr": 2091,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "specimen-provenance": {
+   "pr": 2560,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "test-instruction-mismatch",
+   "fix_kind": "instruction: state the requirement the test already enforces",
+   "reason": "a test requires an output-file behaviour the instruction never states; stated it"
+  },
+  "specimen-swap-contamination": {
+   "pr": 582,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "splicing-response-transfer": {
+   "pr": 1319,
+   "upstream_review": "t",
+   "class": "excluded",
+   "defect_class": "lenient-grader",
+   "reason": "a model that never reads the required RNA responses passes every gate, and the reference barely beats it; not tightenable"
+  },
+  "spring-clamp-locking": {
+   "pr": 2217,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "sum-diff-exponent": {
+   "pr": 846,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "survival-band-screening": {
+   "pr": 170,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "suspended-load-antisway": {
+   "pr": 2213,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "sv-qtl-coloc": {
+   "pr": 2257,
+   "upstream_review": "none",
+   "class": "fixed",
+   "defect_class": "test-instruction-mismatch",
+   "fix_kind": "upstream-backport (Part-1 answer key only: tests/key_signals.csv, tests/key_sv_rows.csv from head 820d976f)",
+   "reason": "the answer key rejected the verdicts of the same method at other standard credible-set coverages, which the instruction leaves open; backported the author's key fix"
+  },
+  "symplectic-eigenpairs": {
+   "pr": 1598,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "symplectic-rom-nls": {
+   "pr": 2017,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "t1-t2-mapping": {
+   "pr": 1485,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "tandem-repeat-adjudication": {
+   "pr": 2135,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "tautomerization-barrier": {
+   "pr": 1727,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "te5-mode-router": {
+   "pr": 702,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "thermoelectric-imc-growth": {
+   "pr": 2238,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "thin-film-inverse": {
+   "pr": 591,
+   "upstream_review": "t+d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "tp53-regulatory-prioritization": {
+   "pr": 1317,
+   "upstream_review": "final",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "trial-eligibility-matching": {
+   "pr": 985,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "tumor-area-selection": {
+   "pr": 758,
+   "upstream_review": "t+d (not lite)",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "two-bounce-slam": {
+   "pr": 1147,
+   "upstream_review": "d",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "unknown-payload-balancing": {
+   "pr": 2189,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": "environment",
+   "reason": ""
+  },
+  "usct-soundspeed-fwi": {
+   "pr": 387,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "vertecs-astrometry-coaddition": {
+   "pr": 1315,
+   "upstream_review": "t",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "weighted-vaccine-inference": {
+   "pr": 2450,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "wse2-emitter-design": {
+   "pr": 2236,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "xxz-qmc-energy": {
+   "pr": 2104,
+   "upstream_review": "none",
+   "class": "ok",
+   "defect_class": null,
+   "reason": ""
+  },
+  "zak-pulse": {
+   "pr": 570,
+   "upstream_review": "d",
+   "class": "fixed",
+   "defect_class": "threshold-in-noise",
+   "fix_kind": "more-hidden-draws",
+   "reason": "a baseline-relative gate on 96 random channel draws was dominated by draw noise (the reference passed by 1.3%); scored on more draws with the baseline recomputed, same target"
+  }
+ },
+ "patched_this_revision": [
+  "nonnegative-orthogonal-optimization"
+ ]
+}

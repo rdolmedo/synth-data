@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "cache_version": "pi-v2",
+  "manifest": "/data/aai/aa_evals/runtime_packages/pi/v2/manifest.json",
+  "manifest_sha256": "c79f5141d3b42e826dc2057e3bce3abc7ae7343daaecf1cd74ed2d3de0b61bb6",
+  "public_instruction_survey": "/data/aai/aa_evals/audits/pi_runtime_cache/instruction_package_survey.json",
+  "survey_sha256": "a184c1b278e4b908756ea0cf2e37a334114efedd157ceef7edac2085ec2a38e3",
+  "instruction_counts": {
+    "tb21": 89,
+    "tbsci_lite": 135
+  },
+  "cache_task_counts": {
+    "tb21": 9,
+    "tbsci_lite": 0
+  },
+  "generation_base": "b8d8d4c5a52873298578df80102c372b5e9a7c97",
+  "final_source_snapshot": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T164855Z-v2-final-release-proof",
+  "final_source_overlay_sha256": "f76ce99c3319a1bae6424c572dceab1a3393f6cc3096d6700f359c7fef708ea5",
+  "validation": [
+    {
+      "task": "adaptive-rejection-sampler",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T164855Z-v2-final-release-proof/adaptive-r-production-pi/results/receipt.json",
+      "receipt_sha256": "5eaf2d98659d5abc5c51f4e7b1923860305c28f50442d6228655b27edf9f8208",
+      "passed": true,
+      "scope": "production cached Pi -> fake model -> one offline R install tool; agent/grader/background network boundary",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "build-cython-ext",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/build-cython-ext/results/receipt.json",
+      "receipt_sha256": "c488c2729787bd852e38ef5b28b38634ec7d3d3dfbd30faaf5685918d73d2e59",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true,
+      "final_offline_clone_receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T164855Z-v2-final-release-proof/build-cython-ext/results/receipt.json",
+      "final_offline_clone_receipt_sha256": "f0890197357859f21201cd448c9b78088a7c1a0564019878284378f757f0be51"
+    },
+    {
+      "task": "build-pmars",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/build-pmars/results/receipt.json",
+      "receipt_sha256": "f139a5bf3c96f26c7fd133968941ac3955f89ea1be2d2e066fac82cbec41eb91",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "build-pov-ray",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/build-pov-ray/results/receipt.json",
+      "receipt_sha256": "8a782c86f67e087e186167be443c381fc4c98cdd547352e53621e71aa1ed968b",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "caffe-cifar-10",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/caffe-cifar-10/results/receipt.json",
+      "receipt_sha256": "480beb0f74ca70fe069c76f2816b15831952f967ef81fe25946f5a68320c65b0",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true,
+      "final_offline_clone_receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T164855Z-v2-final-release-proof/caffe-cifar-10/results/receipt.json",
+      "final_offline_clone_receipt_sha256": "e9a474e7ebbb1e02a99e0cd737dfb0ab61a7495618c670d7cb2b119a73885c4a"
+    },
+    {
+      "task": "kv-store-grpc",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/kv-store-grpc/results/receipt.json",
+      "receipt_sha256": "79e517cd48c31f1752b10e75910d897233c1be9da229b979bfde3357f14eb303",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "mcmc-sampling-stan",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T164855Z-v2-final-release-proof/mcmc-sampling-stan/results/receipt.json",
+      "receipt_sha256": "3818e3fb5d3e28573c7a69cb14269d99db7036747a67340e6bbfc9fd30a12c5a",
+      "passed": true,
+      "scope": "actual image offline native build requirements install + RStan2.32.7 source install/library load; no Stan task model/data",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "nginx-request-logging",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/nginx-request-logging/results/receipt.json",
+      "receipt_sha256": "4185cfc99a2a598bcc50c355f9df0a510130d015e218d1c4429b35dff054df30",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true
+    },
+    {
+      "task": "rstan-to-pystan",
+      "receipt": "/data/aai/aa_evals/audits/pi_runtime_cache/snapshots/20261106T162248Z-neutral/rstan-to-pystan/results/receipt.json",
+      "receipt_sha256": "d35f4219e3bd6fdc952980d6a91d949be9fb5b64803d9f55267133dc4541bb09",
+      "passed": true,
+      "scope": "actual image offline package install/import or source-project build-dependency resolution; no objective source build",
+      "validated_original_payload_hashes_retained": true
+    }
+  ],
+  "rstan_neutral_host_ram_mb": 32768,
+  "rstan_neutral_cgroup_peak_bytes": 5846925312,
+  "rstan_neutral_oom_kill": 0,
+  "scientific_input_or_reference_used": false,
+  "task_objective_source_built_or_installed_during_setup": false,
+  "live_model_or_gpu_used": false,
+  "preserved_failed_cache_versions": [
+    "v1",
+    "v1r2",
+    "v1draft",
+    "pi/v1"
+  ],
+  "limits": [
+    "Package cache does not supply task-required external model weights, datasets, API responses or leaderboard snapshots.",
+    "Source objectives remain agent configuration/build/install work; neutral proofs do not solve or build those projects.",
+    "Seven unchanged native install/import/dependency-resolution proofs are inherited by byte hashes; final R/RStan and added Git mirrors were revalidated on v2."
+  ]
+}

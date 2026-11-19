@@ -1,0 +1,1179 @@
+{
+ "domain": "Law",
+ "subtopic": "US Corporations Law",
+ "weight": 0.018713999999999998,
+ "leaves": [
+  {
+   "leaf": "Incorporation process, promoters and defective incorporation",
+   "scope": "Forming a corporation: certificates or articles of incorporation, incorporators, promoter liability on contracts signed before incorporation (adoption and novation), and the de facto corporation and corporation-by-estoppel doctrines.",
+   "queries": [
+    "promoter personal liability preincorporation contract novation adoption",
+    "de facto corporation colorable attempt good faith",
+    "corporation by estoppel defective incorporation creditor",
+    "articles of incorporation filed secretary of state incorporator"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corporate powers, charters and the ultra vires doctrine",
+   "scope": "What a corporate charter legally is and what express and implied powers it grants, including the ultra vires doctrine and statutes limiting it, the charter-as-contract rule of Dartmouth College, and reserved power clauses.",
+   "queries": [
+    "ultra vires act beyond corporate charter powers",
+    "Dartmouth College Woodward charter contract clause",
+    "reserved power alter amend repeal corporate charters",
+    "implied powers corporation guaranty ultra vires defense statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Development of state corporation statutes and Delaware's dominance",
+   "scope": "History and comparison of US general incorporation laws, from special legislative charters through the New Jersey and Delaware codes, the Model Business Corporation Act and the Court of Chancery, to state charter competition and reincorporation into Nevada and Texas.",
+   "queries": [
+    "Delaware General Corporation Law history enacted 1899",
+    "Model Business Corporation Act American Bar Association revision",
+    "Delaware Court of Chancery chancellor vice chancellors",
+    "Liggett Lee race to the bottom charter competition"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Internal affairs doctrine, choice of law and foreign corporations",
+   "scope": "Which state's law governs a corporation's internal affairs, outreach statutes such as California Corporations Code section 2115, and the rules for foreign corporations: qualifying to do business, registered agents and door-closing statutes.",
+   "queries": [
+    "internal affairs doctrine law of state of incorporation",
+    "VantagePoint Examen California section 2115 pseudo-foreign",
+    "foreign corporation failure to qualify transacting business",
+    "McDermott Lewis internal affairs Panama corporation voting"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corporate personhood and constitutional rights of corporations",
+   "scope": "The constitutional status of corporations: Fourteenth Amendment personhood, political speech and spending, religious exercise claims, the Fifth Amendment collective entity doctrine and Fourth Amendment protections.",
+   "queries": [
+    "Citizens United corporate independent expenditures First Amendment",
+    "Santa Clara County Southern Pacific corporation person",
+    "collective entity doctrine corporate custodian Fifth Amendment",
+    "Hobby Lobby closely held corporation religious exercise"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Piercing the corporate veil and parent-subsidiary liability",
+   "scope": "When courts disregard the corporate form under alter ego, instrumentality, undercapitalization and enterprise liability theories, including reverse piercing and a parent corporation's liability for its subsidiaries.",
+   "queries": [
+    "pierce corporate veil alter ego undercapitalization commingling",
+    "Walkovszky Carlton taxicab corporations enterprise liability",
+    "reverse veil piercing outsider shareholder debts",
+    "Bestfoods parent corporation operator facility CERCLA subsidiary"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Board of directors structure, elections and removal",
+   "scope": "Statutory rules on board size, qualifications, quorum and voting, classified or staggered boards, removing directors with or without cause, filling vacancies, and majority voting and holdover rules in director elections.",
+   "queries": [
+    "classified board staggered terms directors removal cause",
+    "stockholders remove directors without cause section 141(k)",
+    "board vacancy filled remaining directors quorum",
+    "majority voting director election holdover resignation policy"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corporate officers' authority and officer fiduciary duties",
+   "scope": "How corporate officers (president, CEO, secretary, treasurer) are appointed, their actual and apparent authority to bind the corporation, ratification of acts they had no authority to take, and the fiduciary duties officers owe.",
+   "queries": [
+    "apparent authority corporate president bind corporation contract",
+    "Gantler Stephens officers fiduciary duties same as directors",
+    "corporate secretary certificate board resolution authority",
+    "ratification unauthorized officer act board acquiescence"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Duty of care, business judgment rule and exculpation",
+   "scope": "Directors' duty of care and its gross negligence standard, the business judgment rule presumption and informed decision-making, and charter clauses that exculpate directors and officers under DGCL 102(b)(7) and similar statutes.",
+   "queries": [
+    "Smith Van Gorkom gross negligence informed decision",
+    "business judgment rule presumption directors informed basis",
+    "section 102(b)(7) exculpation monetary damages duty care",
+    "Shlensky Wrigley night baseball business judgment"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Duty of loyalty and interested-director transactions",
+   "scope": "Self-dealing by directors and officers, safe harbors for interested-director transactions such as DGCL 144 and MBCA Subchapter F, and the effect of approval by disinterested directors or stockholders.",
+   "queries": [
+    "interested director transaction section 144 safe harbor",
+    "self-dealing director fairness burden disinterested approval",
+    "Marciano Nakash interested transaction intrinsic fairness",
+    "director conflicting interest transaction Model Act subchapter"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Corporate opportunity doctrine",
+   "scope": "Tests for when a fiduciary takes a business opportunity that belongs to the corporation (line of business, interest or expectancy, ALI disclosure), defenses such as the corporation's financial inability, and charter waivers that renounce opportunities.",
+   "queries": [
+    "corporate opportunity doctrine Guth Loft line of business",
+    "Broz Cellular Information Systems corporate opportunity",
+    "usurped corporate opportunity financial inability defense",
+    "renounce corporate opportunities certificate section 122(17)"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Caremark oversight liability",
+   "scope": "Director and officer liability for failing to oversee the company, either by not implementing compliance and reporting systems or by ignoring red flags, from Caremark and Stone v. Ritter through Marchand and later cases.",
+   "queries": [
+    "Caremark oversight claim red flags bad faith",
+    "Marchand Barnhill mission critical compliance board",
+    "Stone Ritter oversight duty loyalty reporting system",
+    "Boeing derivative 737 MAX board safety oversight"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Executive compensation, corporate waste and good faith",
+   "scope": "Fiduciary review of executive and director pay, the waste doctrine, and the duty of good faith, as developed in the Disney/Ovitz litigation, director self-compensation cases and challenges to CEO pay packages.",
+   "queries": [
+    "Disney Ovitz severance good faith compensation",
+    "corporate waste gift inadequate consideration exchange",
+    "Tornetta Musk compensation plan rescission",
+    "director self-awarded equity compensation Investors Bancorp"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Controlling stockholder transactions, freeze-outs and entire fairness",
+   "scope": "Review of mergers and other transactions with controlling stockholders under entire fairness, including the MFW cleansing conditions, special committees, tender-offer freeze-outs and short-form mergers.",
+   "queries": [
+    "controlling stockholder merger entire fairness Kahn Lynch",
+    "MFW special committee majority of minority condition",
+    "Weinberger UOP fair dealing fair price",
+    "tender offer freeze-out Pure Resources short-form merger"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Sale of control, control premiums and looting",
+   "scope": "Whether a controlling shareholder may keep a control premium, duties not to sell to a looter, resignation of directors when control is transferred, and minority claims to share in the premium.",
+   "queries": [
+    "sale of control premium Perlman Feldmann",
+    "controlling shareholder sold to looter duty investigate purchaser",
+    "Essex Universal Yates resignation directors transfer control",
+    "Jones Ahmanson control premium minority shareholders"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Takeover defenses: Unocal enhanced scrutiny and poison pills",
+   "scope": "Unocal's threat-and-proportionality review of defensive measures, Unitrin's preclusive and coercive tests, and the validity of shareholder rights plans, including flip-in, dead-hand, NOL and just-say-no pills.",
+   "queries": [
+    "Unocal enhanced scrutiny threat proportionality defensive measures",
+    "Moran Household rights plan poison pill",
+    "Airgas Air Products poison pill just say no",
+    "dead hand pill Quickturn Carmody Toll Brothers"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Revlon duties and the sale-of-company process",
+   "scope": "Directors' duty to get the best value reasonably available when control is sold, what counts as a change of control, how the sale process is run, and aiding-and-abetting claims against financial advisors.",
+   "queries": [
+    "Revlon duties auctioneer highest value reasonably available",
+    "Paramount QVC change of control enhanced scrutiny",
+    "Lyondell Ryan bad faith sale process",
+    "RBC Capital Jervis financial advisor aiding abetting"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Merger agreement deal protections and material adverse effect clauses",
+   "scope": "Lockups, termination fees, no-shop, go-shop and matching rights, fiduciary outs, and litigation over material adverse effect clauses and specific performance in signed merger agreements.",
+   "queries": [
+    "Omnicare NCS lockup voting agreements",
+    "termination fee no-shop matching rights merger agreement",
+    "Akorn Fresenius material adverse effect termination",
+    "IBP Tyson material adverse change acquisition"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "State anti-takeover statutes",
+   "scope": "State laws restricting hostile acquisitions, including control share acquisition, business combination (DGCL 203), fair price, disgorgement and constituency statutes, and their constitutional challenges under the Commerce Clause and preemption.",
+   "queries": [
+    "CTS Corp Dynamics control share acquisition statute",
+    "Edgar MITE Illinois takeover statute Commerce Clause",
+    "section 203 business combination interested stockholder",
+    "Pennsylvania antitakeover statute disgorgement constituency"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Williams Act tender offer regulation and Schedule 13D",
+   "scope": "Federal regulation of tender offers and stake-building under Exchange Act sections 13(d), 14(d) and 14(e): beneficial ownership and group filings, the best-price and all-holders rules, and what legally counts as a tender offer.",
+   "queries": [
+    "Williams Act tender offer section 14(e) manipulative",
+    "Schedule 13D beneficial ownership group five percent",
+    "Schreiber Burlington Northern tender offer misrepresentation",
+    "Hanson Trust SCM open market purchases tender offer"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Statutory mergers, asset sales and the de facto merger doctrine",
+   "scope": "The mechanics and voting requirements of statutory, triangular and short-form mergers, sales of substantially all assets under DGCL 271 and similar statutes, and the de facto merger doctrine.",
+   "queries": [
+    "de facto merger doctrine Farris Glen Alden",
+    "sale of substantially all assets section 271",
+    "Gimbel Signal substantially all qualitative quantitative",
+    "triangular merger subsidiary surviving corporation stockholder vote"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Appraisal rights",
+   "scope": "Dissenting shareholders' statutory right to a judicial determination of fair value (DGCL 262, MBCA Chapter 13): eligibility, the market-out exception, and valuation methods, including the weight courts give deal price and market price.",
+   "queries": [
+    "appraisal section 262 fair value deal price",
+    "DFC Global Dell appraisal market efficiency",
+    "appraisal petitioners discounted cash flow valuation Chancery",
+    "dissenters rights market out exception shareholders"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Stockholder voting rights and the stockholder franchise",
+   "scope": "How shareholders vote: cumulative voting, dual-class and high-vote stock, vote buying and empty voting, broker non-votes, and judicial protection of the franchise under Schnell and Blasius.",
+   "queries": [
+    "cumulative voting shareholders election directors statute",
+    "Schreiber Carney vote buying stockholder",
+    "Blasius compelling justification stockholder franchise",
+    "dual class stock high vote shares"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Stockholder meetings, written consent, advance notice bylaws and proxy contests",
+   "scope": "Annual and special meeting requirements, action by written consent, advance notice and nomination bylaws, the conduct of proxy contests, reimbursement of contest expenses, and the universal proxy rule.",
+   "queries": [
+    "advance notice bylaw nomination stockholder meeting",
+    "stockholder action by written consent section 228",
+    "Rosenfeld Fairchild proxy contest expense reimbursement",
+    "universal proxy rule 14a-19 dissident nominees"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Charter and bylaw amendments, forum-selection and fee-shifting provisions",
+   "scope": "The power to amend the charter and bylaws, whether directors may adopt bylaws on their own, and the validity of exclusive-forum, federal-forum and fee-shifting provisions.",
+   "queries": [
+    "forum selection bylaw Boilermakers Chevron board adopted",
+    "ATP Tour fee-shifting bylaw loser pays",
+    "Sciabacucchi federal forum provision Securities Act",
+    "board power amend bylaws stockholders section 109"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal proxy rules and Rule 14a-8 shareholder proposals",
+   "scope": "SEC regulation of proxy solicitation, including grounds for excluding proposals under Rule 14a-8, the Rule 14a-9 antifraud prohibition and its implied private right of action, materiality and causation.",
+   "queries": [
+    "Rule 14a-8 shareholder proposal ordinary business exclusion",
+    "Borak implied private action proxy section 14(a)",
+    "TSC Industries Northway materiality omitted fact proxy",
+    "Virginia Bankshares Sandberg proxy statement causation"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Books-and-records inspection rights",
+   "scope": "Shareholders' statutory and common-law rights to inspect corporate books, records and stockholder lists (DGCL 220, MBCA 16.02), including the proper purpose and credible basis requirements and the scope of what must be produced.",
+   "queries": [
+    "section 220 books records proper purpose",
+    "credible basis wrongdoing stockholder inspection demand",
+    "stockholder list inspection proxy contest",
+    "AmerisourceBergen inspection actionable wrongdoing purpose"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Derivative suits: standing, the direct/derivative distinction and demand futility",
+   "scope": "Prerequisites for a derivative suit: contemporaneous and continuous ownership, double derivative standing, the Tooley test for direct versus derivative claims, and demand futility and director independence under Aronson, Rales and Zuckerberg or universal demand.",
+   "queries": [
+    "demand futility Aronson Rales Zuckerberg independence",
+    "contemporaneous ownership requirement derivative plaintiff",
+    "Tooley direct derivative injury stockholder",
+    "universal demand derivative Rule 23.1 particularity"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Special litigation committees, derivative and merger-litigation settlements and fee awards",
+   "scope": "Board committees formed to end derivative litigation, judicial review of their decisions, approval of settlements (including disclosure-only merger settlements), and attorney fee awards based on the corporate benefit obtained.",
+   "queries": [
+    "special litigation committee Zapata Maldonado motion dismiss",
+    "Auerbach Bennett special committee terminate derivative",
+    "Trulia disclosure-only settlement merger litigation",
+    "Sugarland attorney fees corporate benefit derivative"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Stockholder ratification, Corwin cleansing and fiduciary disclosure duties",
+   "scope": "How a fully informed, uncoerced stockholder vote affects judicial review, the directors' fiduciary duty of disclosure, and liability for material omissions in communications to stockholders.",
+   "queries": [
+    "Corwin KKR fully informed uncoerced stockholder vote",
+    "duty of disclosure material omissions stockholders",
+    "Malone Brincat directors fiduciary disclosure",
+    "stockholder ratification Gantler Stephens"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Close corporations: shareholder oppression, deadlock and judicial dissolution",
+   "scope": "Fiduciary duties among shareholders of closely held corporations, oppression and reasonable-expectations remedies, freeze-out of minority owners, deadlock, custodians and court-ordered dissolution or buyouts.",
+   "queries": [
+    "Donahue Rodd close corporation equal opportunity",
+    "Wilkes Springside legitimate business purpose minority",
+    "shareholder oppression reasonable expectations dissolution",
+    "deadlock custodian judicial dissolution corporation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Shareholder agreements, voting trusts and stock transfer restrictions",
+   "scope": "Validity of pooling and voting agreements, voting trusts, agreements that limit board discretion, statutory close corporation provisions, buy-sell arrangements, and restrictions on transferring shares.",
+   "queries": [
+    "voting trust shareholders pooling agreement validity",
+    "McQuade Stoneham agreement directors discretion",
+    "Galler Galler close corporation shareholder agreement",
+    "restriction transfer shares right of first refusal"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Stock issuance, legal capital, preemptive rights and defective corporate acts",
+   "scope": "Authorizing and issuing shares, par value and watered stock liability, lawful consideration, preemptive rights, stock options, and ratifying or validating defective stock and corporate acts under DGCL 204 and 205.",
+   "queries": [
+    "watered stock par value consideration liability",
+    "preemptive rights shareholders new issue",
+    "section 204 ratification defective corporate act",
+    "stock options board approval section 157 grant"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Dividends, distributions and stock repurchases",
+   "scope": "Legal limits on dividends and distributions (surplus, impairment of capital, insolvency tests), directors' liability for unlawful distributions, discretion over whether to pay dividends, and stock repurchases including greenmail.",
+   "queries": [
+    "Dodge Ford Motor dividends special",
+    "Sinclair Oil Levien subsidiary dividends",
+    "impairment of capital surplus repurchase unlawful",
+    "Cheff Mathes greenmail repurchase"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Preferred stock rights and venture capital financing terms",
+   "scope": "Contract and fiduciary rights of preferred stock: liquidation preferences, redemption, conversion, anti-dilution and class voting, blank-check preferred, and conflicts between preferred and common holders in venture-backed companies.",
+   "queries": [
+    "preferred stock liquidation preference merger",
+    "Trados preferred stockholders common",
+    "Elliott Associates Avatex preferred class",
+    "ThoughtWorks redemption preferred funds legally available"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Indemnification, advancement and D&O insurance",
+   "scope": "Mandatory and permissive indemnification of directors and officers (DGCL 145, MBCA Subchapter E), advancement of legal fees, good faith limits on indemnification, and coverage disputes under directors and officers insurance.",
+   "queries": [
+    "advancement legal fees section 145 officers",
+    "indemnification director successful on merits",
+    "Waltuch Conticommodity indemnification good faith",
+    "directors officers liability insurance policy exclusion"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Fiduciary duties in insolvency, creditor rights, dissolution and successor liability",
+   "scope": "Duties directors owe when the corporation is insolvent or nearly so, creditors' derivative standing, deepening insolvency, statutory dissolution and winding up, and successor liability of companies that buy assets.",
+   "queries": [
+    "Gheewalla creditors derivative insolvent corporation",
+    "Credit Lyonnais zone of insolvency",
+    "deepening insolvency tort",
+    "successor liability asset purchaser mere continuation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Insider trading and Section 16(b) short-swing profits",
+   "scope": "Insider trading liability under Rule 10b-5 (classical, misappropriation and tipper-tippee theories) and state common law, plus strict liability for short-swing profits by officers, directors and 10% holders under Exchange Act section 16(b).",
+   "queries": [
+    "Chiarella Dirks O'Hagan insider trading",
+    "Texas Gulf Sulphur insider",
+    "Section 16(b) short-swing profits",
+    "Brophy Cities Service insider trading corporate"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate purpose, shareholder primacy and benefit corporations",
+   "scope": "The legal debate over whom the corporation serves (shareholder primacy versus stakeholders), corporate charitable giving, constituency statutes, and statutes creating benefit and public benefit corporations, with their adoption by states.",
+   "queries": [
+    "benefit corporation public benefit statute",
+    "eBay Newmark craigslist",
+    "A.P. Smith Barlow charitable",
+    "shareholder primacy stakeholder"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Federal governance mandates: Sarbanes-Oxley, Dodd-Frank and exchange listing standards",
+   "scope": "Federal and stock exchange governance rules: SOX certification, internal controls and audit committee requirements, Dodd-Frank say-on-pay and clawbacks, whistleblower protections, and NYSE and Nasdaq independence and listing standards.",
+   "queries": [
+    "Sarbanes-Oxley section 404 internal controls",
+    "Dodd-Frank say on pay",
+    "SOX whistleblower Lawson FMR",
+    "exchange listing standards independent director"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Personal jurisdiction over corporations, corporate citizenship and director consent statutes",
+   "scope": "General and specific jurisdiction over corporations, consent-by-registration statutes, nerve-center citizenship for diversity jurisdiction, and implied-consent statutes that subject directors and officers to suit in the state of incorporation.",
+   "queries": [
+    "Daimler Goodyear general jurisdiction corporation at home",
+    "Hertz nerve center principal place of business diversity",
+    "consent by registration foreign corporation Mallory Norfolk Southern",
+    "director consent statute 3114 Shaffer Heitner Armstrong"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate criminal liability, deferred prosecution agreements and the responsible corporate officer doctrine",
+   "scope": "How corporations are held criminally liable through respondeat superior and collective knowledge, how DOJ resolves corporate cases with DPAs, NPAs and monitors, and when officers are personally liable under the Park/Dotterweich doctrine.",
+   "queries": [
+    "New York Central Hudson River Railroad corporate criminal liability",
+    "responsible corporate officer doctrine Park Dotterweich",
+    "deferred prosecution agreement corporation independent monitor",
+    "collective knowledge doctrine corporate intent respondeat superior"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate attorney-client privilege, Upjohn and the Garner fiduciary exception",
+   "scope": "Who holds and may waive a corporation's privilege, the Upjohn subject-matter versus control-group tests, privilege and work product in internal investigations, and the Garner v. Wolfinbarger exception for stockholder plaintiffs.",
+   "queries": [
+    "Upjohn corporate attorney-client privilege employees counsel",
+    "Garner Wolfinbarger fiduciary exception stockholders privilege",
+    "control group test corporate privilege",
+    "internal investigation work product Upjohn warning waiver"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Nonprofit and charitable corporations",
+   "scope": "Governance of nonprofit corporations, including directors' duties, members' rights, attorney general enforcement, cy pres and restricted gifts, conversions of nonprofit hospitals, and the Model Nonprofit Corporation Act.",
+   "queries": [
+    "nonprofit corporation directors attorney general standing charitable assets",
+    "Stern Lucy Webb Hayes trustees self-dealing hospital",
+    "cy pres charitable corporation restricted gift",
+    "Model Nonprofit Corporation Act members bylaws"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Professional corporations and the corporate practice doctrines",
+   "scope": "Professional corporation and professional service statutes for licensed professionals, owners' liability for malpractice, and the doctrines barring corporate practice of medicine and nonlawyer ownership of law firms.",
+   "queries": [
+    "corporate practice of medicine doctrine physicians employed",
+    "professional corporation shareholder malpractice personal liability",
+    "professional service corporation act licensed shareholders",
+    "nonlawyer ownership law firm corporation prohibited"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Federally chartered and government-owned corporations",
+   "scope": "Corporations chartered or controlled by Congress or the states, such as Amtrak, TVA, Federal Reserve Banks, Fannie Mae and Freddie Mac, and Title 36 congressional charters, including their legal status, immunities and shareholder rights.",
+   "queries": [
+    "Lebron National Railroad Passenger Corporation government entity",
+    "Government Corporation Control Act wholly owned corporation",
+    "Tennessee Valley Authority sue and be sued clause",
+    "Fannie Mae Freddie Mac conservatorship shareholders net worth sweep"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cooperatives, mutual companies and demutualization",
+   "scope": "Cooperative corporations and patronage dividends, mutual insurance companies and mutual savings banks, and how mutuals convert to stock form and allocate value to members or policyholders.",
+   "queries": [
+    "cooperative corporation patronage dividends members equity",
+    "mutual insurance company demutualization policyholders",
+    "mutual savings bank conversion stock form depositors",
+    "Capper-Volstead agricultural cooperative association"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alaska Native corporations and tribal business corporations",
+   "scope": "Regional and village corporations created under ANCSA, their settlement common stock and Section 7(i) revenue sharing, and tribal corporations chartered under Section 17 of the Indian Reorganization Act or under tribal law.",
+   "queries": [
+    "Alaska Native Claims Settlement Act regional corporations",
+    "ANCSA settlement common stock village corporation shareholders",
+    "Section 7(i) revenue sharing regional corporations",
+    "Section 17 tribal corporation charter sovereign immunity"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Statutory shareholder liability: double liability and wage liability",
+   "scope": "Statutes that make shareholders liable beyond their investment, including historical double liability of bank stockholders, California's former proportionate liability rule, and New York BCL §630 liability of the ten largest shareholders for unpaid wages.",
+   "queries": [
+    "double liability national bank stockholders assessment receiver",
+    "ten largest shareholders liable wages Business Corporation Law 630",
+    "California proportionate stockholder liability corporate debts",
+    "superadded liability stockholders insolvent bank"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Franchise taxes, registered agents, charter forfeiture and revival",
+   "scope": "Ongoing duties to maintain corporate existence, including franchise taxes and annual reports, registered agents and service of process, administrative forfeiture or voiding of charters, and statutory renewal and revival.",
+   "queries": [
+    "charter void nonpayment franchise tax revival renewal",
+    "forfeited corporate charter reinstatement retroactive validation",
+    "registered agent service of process corporation",
+    "Delaware franchise tax authorized shares assumed par value"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Corporate Transparency Act and beneficial ownership reporting",
+   "scope": "The 2021 Corporate Transparency Act and FinCEN's rules on beneficial ownership information: who counts as a reporting company or beneficial owner, the exemptions, deadlines, the constitutional challenges, and the later narrowing to foreign entities.",
+   "queries": [
+    "Corporate Transparency Act beneficial ownership information",
+    "FinCEN beneficial ownership reporting company rule",
+    "National Small Business United Corporate Transparency Act unconstitutional",
+    "reporting company substantial control twenty-five percent ownership"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Limited liability company law and operating agreements",
+   "scope": "Formation and governance of LLCs, member-managed versus manager-managed structures, contractual elimination of fiduciary duties, judicial dissolution, charging orders and series LLCs under the Delaware LLC Act and other states' acts.",
+   "queries": [
+    "limited liability company operating agreement fiduciary duties eliminated",
+    "Delaware Limited Liability Company Act judicial dissolution",
+    "manager-managed member-managed LLC charging order",
+    "series limited liability company Wyoming first LLC statute"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Limited partnerships, master limited partnerships and the implied covenant",
+   "scope": "Limited partnership statutes and agreements, general partner conflict-resolution mechanisms such as special approval and conflicts committees, MLP take-private disputes, and the implied covenant of good faith in alternative entities.",
+   "queries": [
+    "limited partnership agreement general partner conflicts committee special approval",
+    "master limited partnership implied covenant good faith",
+    "Delaware Revised Uniform Limited Partnership Act",
+    "Boardwalk Pipeline call right general partner Gotham Partners"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "General partnerships and limited liability partnerships under UPA and RUPA",
+   "scope": "Formation of partnerships, partners' fiduciary duties, partnership by estoppel, joint and several liability, dissociation, dissolution and buyouts, and the LLP liability shield under the Uniform Partnership Acts.",
+   "queries": [
+    "Meinhard Salmon partner fiduciary duty punctilio",
+    "Revised Uniform Partnership Act dissociation buyout price",
+    "partnership by estoppel partners jointly severally liable",
+    "limited liability partnership registration liability shield"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Decentralized autonomous organizations and blockchain entity wrappers",
+   "scope": "The legal treatment of DAOs, including token holders treated as general partners or members of an unincorporated association, enforcement actions, the 2016 DAO hack and the SEC's DAO Report, and DAO LLC statutes in Wyoming, Tennessee and Utah.",
+   "queries": [
+    "decentralized autonomous organization general partnership token holders",
+    "The DAO Ethereum hack 2016 SEC report",
+    "Ooki DAO CFTC unincorporated association",
+    "Wyoming DAO LLC statute decentralized organization"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Bond indentures, the Trust Indenture Act and bondholder rights",
+   "scope": "Corporate debt contracts and the rights of debenture holders, including indenture covenants, no-action clauses, indenture trustees, successor-obligor clauses, convertible debentures, and Trust Indenture Act §316(b) protection of the right to payment.",
+   "queries": [
+    "Trust Indenture Act 316(b) bondholder right to payment",
+    "indenture trustee no-action clause bondholders",
+    "Metropolitan Life RJR Nabisco implied covenant bonds",
+    "convertible debentures redemption notice successor obligor indenture"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spin-offs, split-offs, carve-outs and tracking stock",
+   "scope": "Separating a business from its parent through spin-off distributions, split-off exchange offers and equity carve-outs, and board duties toward holders of tracking stock or other separate classes of common stock.",
+   "queries": [
+    "spin-off subsidiary shares distributed stockholders dividend",
+    "tracking stock board fiduciary duties classes common",
+    "split-off exchange offer subsidiary shares parent",
+    "Anadarko Panhandle spin-off fiduciary duty"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Entity conversion, domestication and reincorporation transactions",
+   "scope": "How corporations change their state of incorporation or entity form through conversion, domestication and reincorporation mergers, and the litigation over moves from Delaware to Nevada and Texas.",
+   "queries": [
+    "conversion Delaware corporation Nevada reincorporation stockholders",
+    "Maffei Palkon TripAdvisor reincorporation Nevada",
+    "domestication foreign corporation conversion statute",
+    "Tesla reincorporation Texas Business Organizations Code"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Delaware Court of Chancery and specialized business courts",
+   "scope": "The history, judges, jurisdiction and procedure of the Delaware Court of Chancery, including masters, expedited proceedings and injunction standards, along with business courts in Texas, New York and other states.",
+   "queries": [
+    "Delaware Court of Chancery chancellor vice chancellors history",
+    "Texas Business Court jurisdiction 2024",
+    "Court of Chancery magistrate master exceptions",
+    "expedited proceedings colorable claim Court of Chancery"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Financial advisor conflicts, fairness opinions and aiding-and-abetting liability",
+   "scope": "The role of investment banks in M&A, including fairness opinions, contingent fees and staple financing conflicts, disclosure of advisor conflicts, and secondary liability for knowingly participating in directors' fiduciary breaches.",
+   "queries": [
+    "Rural Metro RBC aiding abetting financial advisor",
+    "fairness opinion investment bank conflicts disclosure",
+    "aiding abetting breach fiduciary duty knowing participation",
+    "Del Monte buy-side financing financial advisor"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Private-company M&A contract terms: earnouts, indemnification and sandbagging",
+   "scope": "Contract terms in private acquisitions, including earnout efforts covenants, indemnification baskets, caps and escrows, sandbagging, survival periods, fraud carve-outs from exclusive remedies, and the authority of stockholder representatives.",
+   "queries": [
+    "earnout milestone commercially reasonable efforts merger agreement",
+    "sandbagging indemnification breach representations warranties",
+    "survival clause representations contractual limitations period",
+    "ABRY Partners fraud exclusive remedy provision"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Special purpose acquisition companies and de-SPAC litigation",
+   "scope": "How SPACs are structured, including trust accounts, redemption rights, sponsor promote shares, PIPE financing and blank-check rules, and the fiduciary-duty and disclosure litigation over de-SPAC mergers.",
+   "queries": [
+    "special purpose acquisition company trust redemption rights",
+    "MultiPlan SPAC sponsor entire fairness",
+    "de-SPAC merger PIPE sponsor promote",
+    "blank check company Rule 419 trust account"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Employee stock ownership plans and ESOP transactions",
+   "scope": "ESOP structure and ERISA fiduciary duties in employer stock, leveraged ESOP buyouts and adequate-consideration valuations, stock-drop litigation, and ESOPs used as takeover defenses.",
+   "queries": [
+    "employee stock ownership plan fiduciary ERISA employer stock",
+    "Fifth Third Dudenhoeffer employer stock prudence",
+    "leveraged ESOP valuation adequate consideration",
+    "Polaroid ESOP takeover defense Shamrock"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Remedies in fiduciary litigation: rescissory damages, quasi-appraisal and interest",
+   "scope": "Monetary and equitable remedies for fiduciary breaches, including rescission and rescissory damages, quasi-appraisal, disgorgement, fair-price damages, and the rates and compounding of prejudgment interest.",
+   "queries": [
+    "rescissory damages fiduciary breach merger",
+    "quasi-appraisal damages disclosure violation",
+    "prejudgment interest legal rate compounded Court of Chancery",
+    "disgorgement unjust enrichment fiduciary damages Thorpe"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Statutes of limitations, laches and tolling in corporate litigation",
+   "scope": "Time bars on fiduciary and corporate claims, including analogous statutes of limitations in equity, laches, inquiry notice, fraudulent concealment, equitable tolling and the adverse domination doctrine.",
+   "queries": [
+    "laches analogous statute limitations fiduciary breach three years",
+    "adverse domination doctrine tolling directors",
+    "inquiry notice fraudulent concealment tolling corporation",
+    "equitable tolling self-dealing fiduciary limitations"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Stock ownership infrastructure: certificates, UCC Article 8 and the DTC holding system",
+   "scope": "How shares are held and transferred, including certificated and uncertificated shares, security entitlements under UCC Article 8, the Depository Trust Company and Cede & Co. as record holder, lost certificates, and record versus beneficial ownership.",
+   "queries": [
+    "Cede Depository Trust Company record holder shares",
+    "UCC Article 8 security entitlement uncertificated shares",
+    "lost stolen stock certificate replacement indemnity bond",
+    "beneficial owner record holder Cede appraisal Dell"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Proxy advisory firms, institutional investor voting and broker voting",
+   "scope": "The intermediaries in shareholder voting, including ISS and Glass Lewis and the rules that regulate them, index-fund and institutional stewardship, pass-through voting, and broker discretionary voting and non-votes under NYSE Rule 452.",
+   "queries": [
+    "proxy advisory firm Institutional Shareholder Services Glass Lewis",
+    "broker discretionary voting NYSE Rule 452 non-votes",
+    "index funds institutional investor voting stewardship",
+    "proxy voting advice rule pass-through voting"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Interlocking directorates and Clayton Act Section 8",
+   "scope": "Federal limits on people serving as directors or officers of competing companies, including Clayton Act §8's thresholds and safe harbors, bank management interlock rules, and the cases and enforcement actions that apply them.",
+   "queries": [
+    "Clayton Act Section 8 interlocking directorates competitors",
+    "Depository Institution Management Interlocks Act",
+    "BankAmerica interlocking directors insurance companies",
+    "Protectoseal Barancik interlocking directorate"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Investment company and mutual fund governance",
+   "scope": "The corporate governance of registered funds under the Investment Company Act, including independent director requirements, adviser contract approval, Section 36(b) excessive-fee suits, and activism and control-share fights at closed-end funds.",
+   "queries": [
+    "Investment Company Act Section 36(b) excessive advisory fee",
+    "Jones Harris Gartenberg mutual fund adviser fee",
+    "mutual fund independent directors Investment Company Act",
+    "closed-end fund activist control share acquisition"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bank director and officer liability and FDIC receivership suits",
+   "scope": "Suits by the FDIC, RTC and bank receivers against officers and directors of failed banks, including the FIRREA §1821(k) gross negligence floor, state-law standards, imputation defenses, and federal versus state law in bank governance.",
+   "queries": [
+    "FIRREA 1821(k) gross negligence bank directors",
+    "Atherton FDIC directors officers liability standard",
+    "FDIC receiver suit failed bank officers directors",
+    "O'Melveny Myers FDIC imputation state law"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Rule 10b-5 securities fraud elements: materiality, scienter, reliance and loss causation",
+   "scope": "The elements of private 10b-5 claims against corporations and executives, including materiality, the strong-inference scienter standard, fraud-on-the-market reliance and price impact, and loss causation.",
+   "queries": [
+    "Basic Levinson fraud-on-the-market presumption reliance",
+    "Tellabs strong inference scienter",
+    "Dura Pharmaceuticals loss causation",
+    "Halliburton price impact class certification"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "PSLRA and SLUSA securities class action procedure",
+   "scope": "Procedural rules from the Private Securities Litigation Reform Act and SLUSA, including lead plaintiff appointment, the safe harbor for forward-looking statements, the discovery stay, proportionate liability, and preemption of state-law class actions.",
+   "queries": [
+    "PSLRA lead plaintiff largest financial interest",
+    "safe harbor forward-looking statements meaningful cautionary",
+    "SLUSA covered class action preemption",
+    "Cyan Beaver County state court Securities Act jurisdiction"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Securities Act registration and Section 11 and 12 liability",
+   "scope": "The registration and IPO process under the Securities Act of 1933 and liability for registration statements and prospectuses, including due diligence defenses, opinion statements, tracing in direct listings, and Section 12(a)(2) statutory sellers.",
+   "queries": [
+    "Section 11 registration statement due diligence defense",
+    "Escott BarChris underwriters due diligence",
+    "Omnicare opinion statements registration statement",
+    "Slack Pirani direct listing tracing"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Definition of a security: investment contracts, notes and stock",
+   "scope": "Which instruments count as securities, including the Howey investment-contract test, the Reves family-resemblance test for notes, the rejection of the sale-of-business doctrine for stock, and how these tests apply to crypto assets.",
+   "queries": [
+    "Howey investment contract common enterprise profits",
+    "Reves family resemblance test notes",
+    "Landreth Timber sale of business doctrine stock",
+    "Ripple XRP investment contract institutional sales"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exempt securities offerings and resale restrictions",
+   "scope": "Ways to raise capital without registration, including private placements under Section 4(a)(2) and Regulation D, accredited investor definitions, Regulation A and crowdfunding, and Rule 144 resale limits on restricted and control securities.",
+   "queries": [
+    "Ralston Purina private offering exemption",
+    "Regulation D Rule 506 accredited investor",
+    "Rule 144 restricted securities holding period",
+    "Regulation A crowdfunding JOBS Act offering"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "State blue-sky securities laws",
+   "scope": "State securities regulation, including the origins of blue-sky laws, the Uniform Securities Acts, state registration and merit review, state administrators and antifraud remedies, and NSMIA's preemption of state rules for covered securities.",
+   "queries": [
+    "blue sky law Hall Geiger-Jones",
+    "Uniform Securities Act state registration merit review",
+    "NSMIA covered securities preemption state",
+    "state securities commissioner registration exemption rescission"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Exchange Act periodic reporting and Regulation FD",
+   "scope": "Public companies' ongoing disclosure duties, including Section 12 registration thresholds, Forms 10-K, 10-Q and 8-K, Regulation S-K items such as MD&A, and Regulation FD's limits on selective disclosure.",
+   "queries": [
+    "Form 8-K current report triggering events",
+    "Regulation FD selective disclosure analysts",
+    "Section 12(g) registration holders of record",
+    "Item 303 MD&A known trends Macquarie"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "SEC enforcement remedies against corporations and officers",
+   "scope": "Remedies the SEC can seek, including disgorgement limits, civil money penalties, officer-and-director bars, limitations periods, administrative proceedings versus jury trials, and corporate cooperation credit.",
+   "queries": [
+    "SEC disgorgement Liu net profits",
+    "Kokesh disgorgement penalty statute limitations",
+    "officer director bar unfitness SEC",
+    "Jarkesy civil penalties jury trial administrative proceedings"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foreign Corrupt Practices Act anti-bribery and accounting provisions",
+   "scope": "The FCPA's anti-bribery prohibitions and their elements, the definitions of foreign official and instrumentality, the books-and-records and internal-controls provisions for issuers, and major corporate FCPA resolutions.",
+   "queries": [
+    "Foreign Corrupt Practices Act bribery foreign official",
+    "FCPA books records internal accounting controls",
+    "Kay FCPA obtain retain business",
+    "Esquenazi instrumentality foreign official"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Secondary and control-person liability in securities fraud",
+   "scope": "Who besides the issuer can be liable for securities fraud, including the rejection of private aiding-and-abetting claims, scheme liability, the maker of a statement, dissemination liability, and Section 20(a) control-person liability of officers and directors.",
+   "queries": [
+    "Central Bank Denver aiding abetting 10b-5",
+    "Stoneridge scheme liability third parties",
+    "Janus Capital maker of statement",
+    "control person liability Section 20(a) culpable participation"
+   ],
+   "sources": [
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Business trusts, statutory trusts and joint-stock associations",
+   "scope": "Unincorporated alternatives to the corporate form: Massachusetts business trusts, Delaware and other statutory trusts, REIT trust structures and joint-stock associations, including trustee and beneficiary liability, capacity to sue, diversity citizenship and treatment as associations taxable as corporations.",
+   "queries": [
+    "Massachusetts business trust declaration of trust shareholders personal liability",
+    "Delaware statutory trust beneficial owners trustees",
+    "real estate investment trust citizenship diversity Americold members",
+    "joint stock association taxed as corporation Hecht Malley"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Dual-class stock, nonvoting shares and tenure voting",
+   "scope": "Multi-class common stock with unequal votes: super-voting founder shares, nonvoting share classes and reclassifications, sunset and time-phased (tenure) voting provisions, the SEC's Rule 19c-4 and one-share-one-vote listing debates, and controlled-company exemptions.",
+   "queries": [
+    "dual-class stock founders super-voting shares sunset",
+    "Rule 19c-4 one share one vote Business Roundtable SEC",
+    "nonvoting Class C stock reclassification controller litigation",
+    "tenure voting time-phased voting Williams Geier"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Divisive mergers and Texas two-step mass-tort restructurings",
+   "scope": "Divisive mergers under the Texas Business Organizations Code and state LLC division statutes that split off a company's liabilities, and the use of these 'Texas two-step' deals to put asbestos and talc liabilities into bankruptcy, along with court challenges to their good faith and to the liability funding agreements.",
+   "queries": [
+    "Texas two-step divisive merger talc liabilities",
+    "divisive merger Texas Business Organizations Code allocation liabilities",
+    "LTL Management bankruptcy dismissed good faith financial distress",
+    "Bestwall Georgia-Pacific asbestos divisional merger funding agreement"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Auditor and accountant liability and the in pari delicto defense",
+   "scope": "Civil liability of outside auditors and accounting firms to client corporations, investors and other third parties, including privity tests (Ultramares, Credit Alliance, Restatement section 552, Bily), audit malpractice and deepening-insolvency claims, and in pari delicto and imputation defenses against corporations, trustees and derivative plaintiffs.",
+   "queries": [
+    "accountant liability third parties privity Ultramares Credit Alliance",
+    "auditor negligent misrepresentation Restatement section 552 foreseeable users",
+    "in pari delicto imputation auditor bankruptcy trustee adverse interest",
+    "accounting firm audit failure settlement shareholders"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Restrictions on foreign and corporate ownership: CFIUS, ownership caps and corporate farming laws",
+   "scope": "Federal and state limits on who may own or control a business: CFIUS national-security review of foreign acquisitions under Exon-Florio and FIRRMA, foreign-ownership caps for broadcast licenses, airlines and shipping, and state anti-corporate-farming and alien land ownership laws.",
+   "queries": [
+    "CFIUS review foreign acquisition national security blocked",
+    "Exon-Florio FIRRMA presidential order divestment",
+    "foreign ownership restrictions broadcast license airline citizen United States",
+    "corporate farming law constitutional challenge dormant commerce clause"
+   ],
+   "sources": [
+    "wikipedia",
+    "case_law"
+   ]
+  },
+  {
+   "leaf": "Change-of-control provisions: proxy puts, anti-assignment clauses and golden parachutes",
+   "scope": "Contract and compensation terms that are triggered by a change in corporate control: proxy puts and continuing-director definitions in credit agreements, whether anti-assignment clauses are breached by mergers 'by operation of law', golden parachutes and the Section 280G excise tax, and single- versus double-trigger severance.",
+   "queries": [
+    "proxy put change of control continuing directors credit agreement",
+    "anti-assignment clause reverse triangular merger operation of law",
+    "golden parachute excess parachute payment section 280G",
+    "change in control severance double trigger acceleration"
+   ],
+   "sources": [
+    "case_law",
+    "wikipedia"
+   ]
+  }
+ ]
+}

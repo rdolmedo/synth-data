@@ -1,0 +1,133 @@
+{
+ "partition": "knowledge",
+ "category": "Biology/Medicine",
+ "subject": "broad",
+ "target_leaves": 8,
+ "expected_problems": 90,
+ "leaves": [
+  {
+   "leaf": "Eclectic and Physiomedical Materia Medica Preparations",
+   "scope": "Obscure facts from 19th-century American dispensatories and formularies: tincture and fluid-extract strengths, menstruum alcohol percentages, official doses, and the botanical source of named Eclectic remedies such as Lloyd's specific medicines. A question could ask the solver to compare preparations, convert between dose systems (minims, grains, drachms), or work out how much crude drug a stated dose contains.",
+   "queries": [
+    "King's American Dispensatory",
+    "specific medicines Lloyd",
+    "fluid extract menstruum",
+    "Eclectic materia medica tincture",
+    "Physiomedical botanic remedies"
+   ],
+   "sources": [
+    "project_gutenberg",
+    "pre_1929_books",
+    "library_of_congress"
+   ]
+  },
+  {
+   "leaf": "Insect Vector Transmission Modes of Plant Viruses",
+   "scope": "Documented acquisition, retention and inoculation periods, latent periods, and transmission categories (non-persistent stylet-borne, semipersistent foregut-borne, persistent circulative or propagative) for particular viruses and their aphid, whitefly, leafhopper or thrips vectors. A question could give experimental timing data and ask the solver to classify the mode, or reason about whether a virus survives a vector molt or passes transovarially.",
+   "queries": [
+    "semipersistent foregut-borne transmission",
+    "circulative propagative luteovirus aphid",
+    "Bemisia begomovirus acquisition period",
+    "thrips tospovirus larval acquisition",
+    "helper component potyvirus"
+   ],
+   "sources": [
+    "peS2o",
+    "libretexts",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Digenean Trematode Life Cycles and Hosts",
+   "scope": "Species-specific life-cycle facts for digeneans: the first-intermediate snail genera, cercaria morphotypes (furcocercous, xiphidiocercaria, cotylocercous), metacercarial encystment sites, and definitive hosts, often first reported in early experimental infection studies. A question could trace a multi-host chain, count the hosts or larval stages involved, or infer the cercarial type from a described morphology.",
+   "queries": [
+    "xiphidiocercaria experimental infection",
+    "furcocercous cercaria lymnaeid",
+    "metacercariae second intermediate host",
+    "trematode life cycle elucidated",
+    "rediae sporocysts Planorbidae"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Lichen Secondary Metabolites and Spot Tests",
+   "scope": "Diagnostic chemistry of lichen genera such as Cladonia, Parmotrema, Lepraria and Usnea: K, C, KC and PD spot-test reactions, UV fluorescence, and the depsides, depsidones and dibenzofurans (atranorin, fumarprotocetraric, salazinic and others) that separate chemotypes or sibling species. A question could give a pattern of reactions and ask which compound or species fits, or deduce a reaction from a known metabolite profile.",
+   "queries": [
+    "lichen spot test PD",
+    "fumarprotocetraric acid Cladonia",
+    "salazinic acid medulla",
+    "chemotypes depsidone lichen",
+    "thin-layer chromatography lichen substances"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Conodont Multielement Apparatus and Biozonation",
+   "scope": "Conodont apparatus reconstructions (P1, P2, S0\u2013S4 and M element positions), positional notation schemes, and the index species defining Ordovician to Triassic biozones and GSSP boundaries. A question could ask the solver to assign isolated elements to apparatus positions, or to bracket a stratigraphic interval from the conodont taxa that co-occur in it.",
+   "queries": [
+    "conodont apparatus reconstruction",
+    "P1 element Pa",
+    "conodont biozone GSSP",
+    "Hindeodus parvus boundary",
+    "multielement conodont taxonomy"
+   ],
+   "sources": [
+    "peS2o",
+    "biodiversity_heritage_library",
+    "doab"
+   ]
+  },
+  {
+   "leaf": "Forensic Entomology Blowfly Development Thresholds",
+   "scope": "Published lower developmental thresholds, accumulated degree-hour totals per instar, and succession data for forensically important Calliphoridae and Sarcophagidae such as Lucilia sericata, Chrysomya rufifacies and Calliphora vicina, and how courts have treated this evidence. A question could combine a species' thermal constants with a temperature record to estimate a minimum postmortem interval, or compare estimates across species.",
+   "queries": [
+    "accumulated degree hours Calliphoridae",
+    "postmortem interval blowfly larvae",
+    "Lucilia sericata development temperature",
+    "forensic entomologist testimony",
+    "Chrysomya rufifacies succession"
+   ],
+   "sources": [
+    "peS2o",
+    "caselaw_access_project"
+   ]
+  },
+  {
+   "leaf": "Meristic Characters in Freshwater Fish Descriptions",
+   "scope": "Fin-ray formulas, lateral-line scale counts, gill-raker counts, vertebral counts and pharyngeal tooth formulas recorded in original and revisionary descriptions of cyprinids, characids, darters and killifishes. A question could give a specimen's counts and ask which nominal species it matches, or ask the solver to resolve differences between an older description and a later revision.",
+   "queries": [
+    "pharyngeal teeth formula cyprinid",
+    "lateral line scales darter",
+    "dorsal fin rays new species",
+    "gill rakers meristic counts",
+    "Etheostoma subgenus revision"
+   ],
+   "sources": [
+    "biodiversity_heritage_library",
+    "peS2o"
+   ]
+  },
+  {
+   "leaf": "Nineteenth-Century Epidemic Mortality Reports",
+   "scope": "Case and death counts, ward-level breakdowns, and the period's explanations in municipal and board-of-health reports on cholera, yellow fever and smallpox outbreaks, for example New Orleans in 1853, Memphis in 1878 and London in 1866. A question could have the solver compute case-fatality or attack rates from the tabulated figures, or compare outbreaks or districts using the stated numbers.",
+   "queries": [
+    "yellow fever epidemic 1878 Memphis",
+    "cholera report board of health",
+    "sanitary commission New Orleans 1853",
+    "smallpox mortality ward returns",
+    "epidemic cholera 1866 report"
+   ],
+   "sources": [
+    "library_of_congress",
+    "pre_1929_books",
+    "project_gutenberg"
+   ]
+  }
+ ]
+}

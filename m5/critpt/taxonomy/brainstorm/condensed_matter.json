@@ -1,0 +1,933 @@
+{
+ "subtopics": [
+  {
+   "name": "Frustrated magnets and quantum spin liquids",
+   "scope": "Spin systems frustrated by geometry or competing exchange (triangular, kagome, pyrochlore, J1-J2 lattices) and their spin-liquid, valence-bond and order-by-disorder phases.",
+   "keywords": [
+    "frustrated magnet",
+    "quantum spin liquid",
+    "kagome antiferromagnet",
+    "pyrochlore",
+    "J1-J2 model",
+    "order by disorder",
+    "valence bond solid",
+    "spin ice",
+    "triangular lattice antiferromagnet"
+   ]
+  },
+  {
+   "name": "Kitaev models and bond-dependent exchange",
+   "scope": "Exactly solvable Kitaev-type honeycomb models, their Majorana and vison excitations and extensions, and anisotropic bond-dependent exchange in spin-orbit-coupled Mott insulators.",
+   "keywords": [
+    "Kitaev honeycomb model",
+    "Majorana fermions",
+    "visons",
+    "Kitaev-Heisenberg model",
+    "Gamma interaction",
+    "alpha-RuCl3",
+    "iridates",
+    "bond-dependent exchange",
+    "thermal Hall"
+   ]
+  },
+  {
+   "name": "Hubbard models and the Mott transition",
+   "scope": "Lattice models of strongly correlated electrons and the metal-insulator transition driven by interactions, including the t-J limit, magnetism and doped Mott insulators.",
+   "keywords": [
+    "Hubbard model",
+    "Mott transition",
+    "Mott insulator",
+    "t-J model",
+    "dynamical mean-field theory",
+    "doped antiferromagnet",
+    "Gutzwiller approximation",
+    "Brinkman-Rice",
+    "superexchange"
+   ]
+  },
+  {
+   "name": "Heavy fermions and Kondo lattices",
+   "scope": "Lattices of localized f-moments coupled to conduction electrons, covering hybridization, the competition between Kondo screening and RKKY coupling, and the formation of a heavy Fermi liquid.",
+   "keywords": [
+    "heavy fermion",
+    "Kondo lattice",
+    "periodic Anderson model",
+    "RKKY interaction",
+    "Doniach phase diagram",
+    "hybridization gap",
+    "Kondo insulator",
+    "f-electron",
+    "large Fermi surface"
+   ]
+  },
+  {
+   "name": "Quantum impurity models and Kondo effect",
+   "scope": "One or a few magnetic impurities or quantum dots coupled to fermionic or bosonic baths, including multichannel, pseudogap and Bose-Fermi Kondo problems.",
+   "keywords": [
+    "Kondo effect",
+    "Anderson impurity model",
+    "two-channel Kondo",
+    "numerical renormalization group",
+    "Kondo temperature",
+    "pseudogap Kondo",
+    "Bose-Fermi Kondo",
+    "impurity entropy",
+    "Friedel sum rule"
+   ]
+  },
+  {
+   "name": "Luttinger liquids and one-dimensional electrons",
+   "scope": "Interacting one-dimensional electron, spin and boson systems described by Tomonaga-Luttinger liquid theory, including impurities, edges and spin-charge separation.",
+   "keywords": [
+    "Luttinger liquid",
+    "bosonization",
+    "spin-charge separation",
+    "Luttinger parameter",
+    "quantum wire",
+    "Kane-Fisher impurity",
+    "sine-Gordon model",
+    "spin ladder",
+    "Tomonaga"
+   ]
+  },
+  {
+   "name": "Integrable models and Bethe ansatz",
+   "scope": "Exactly solvable one-dimensional quantum many-body models (XXZ chains, Lieb-Liniger and Yang-Gaudin gases, the Hubbard chain) and their spectra, thermodynamics and correlations.",
+   "keywords": [
+    "Bethe ansatz",
+    "integrable model",
+    "XXZ chain",
+    "Lieb-Liniger",
+    "Yang-Gaudin",
+    "thermodynamic Bethe ansatz",
+    "string hypothesis",
+    "quantum transfer matrix",
+    "form factors"
+   ]
+  },
+  {
+   "name": "Quantum criticality and non-Fermi liquids",
+   "scope": "Metals near quantum phase transitions, and related solvable models such as Hertz-Millis, Ising-nematic and SYK, in which quasiparticles break down.",
+   "keywords": [
+    "quantum critical point",
+    "non-Fermi liquid",
+    "Hertz-Millis theory",
+    "strange metal",
+    "Ising-nematic",
+    "Sachdev-Ye-Kitaev",
+    "linear-in-T resistivity",
+    "marginal Fermi liquid",
+    "Planckian dissipation"
+   ]
+  },
+  {
+   "name": "Fractional quantum Hall states",
+   "scope": "Strongly interacting two-dimensional electrons in partially filled Landau levels and fractional Chern bands, including their trial wavefunctions, anyonic excitations and edge theories.",
+   "keywords": [
+    "fractional quantum Hall",
+    "Laughlin state",
+    "composite fermions",
+    "Moore-Read state",
+    "non-Abelian anyons",
+    "Haldane pseudopotentials",
+    "Landau level projection",
+    "fractional Chern insulator",
+    "Jain sequence"
+   ]
+  },
+  {
+   "name": "Spin-wave theory of ordered magnets",
+   "scope": "Magnon excitations, thermodynamics and quantum corrections in ferromagnets, antiferromagnets and noncollinear magnets with long-range order.",
+   "keywords": [
+    "spin waves",
+    "magnons",
+    "linear spin-wave theory",
+    "Holstein-Primakoff",
+    "magnon dispersion",
+    "Dzyaloshinskii-Moriya interaction",
+    "topological magnons",
+    "1/S corrections",
+    "magnon Hall effect"
+   ]
+  },
+  {
+   "name": "Topological order and emergent gauge theories",
+   "scope": "Long-range-entangled phases and lattice gauge theories and their transitions, including toric-code-type models, fracton phases and deconfined criticality.",
+   "keywords": [
+    "topological order",
+    "toric code",
+    "Z2 gauge theory",
+    "anyons",
+    "string-net model",
+    "fracton",
+    "X-cube model",
+    "deconfined quantum criticality",
+    "ground state degeneracy"
+   ]
+  },
+  {
+   "name": "Symmetry-protected topological phases",
+   "scope": "Short-range-entangled interacting phases protected by symmetry, such as the Haldane chain, together with their classification, edge modes and anomalies.",
+   "keywords": [
+    "symmetry-protected topological phase",
+    "Haldane phase",
+    "AKLT model",
+    "matrix product states",
+    "string order parameter",
+    "group cohomology",
+    "protected edge modes",
+    "Lieb-Schultz-Mattis theorem",
+    "'t Hooft anomaly"
+   ]
+  },
+  {
+   "name": "Charge and spin density waves",
+   "scope": "Instabilities of metals toward periodic charge or spin modulation driven by nesting, electron-phonon coupling or interactions, including Peierls physics and sliding dynamics.",
+   "keywords": [
+    "charge density wave",
+    "spin density wave",
+    "Peierls instability",
+    "Fermi surface nesting",
+    "Kohn anomaly",
+    "incommensurate order",
+    "phason",
+    "Lindhard function",
+    "sliding CDW"
+   ]
+  },
+  {
+   "name": "Interacting electron gas and Fermi liquids",
+   "scope": "Homogeneous interacting electron systems treated with Landau Fermi-liquid theory and RPA, covering screening, plasmons, collective modes and quasiparticle lifetimes.",
+   "keywords": [
+    "Fermi liquid",
+    "electron gas",
+    "Landau parameters",
+    "plasmons",
+    "random phase approximation",
+    "Friedel oscillations",
+    "zero sound",
+    "quasiparticle lifetime",
+    "jellium",
+    "Thomas-Fermi screening"
+   ]
+  },
+  {
+   "name": "Topological band insulators and crystalline topology",
+   "scope": "Noninteracting topological insulators and superconductors, including Chern, Z2 and crystalline-symmetry-protected (higher-order) phases and their boundary states.",
+   "keywords": [
+    "topological insulator",
+    "Chern insulator",
+    "Z2 invariant",
+    "bulk-boundary correspondence",
+    "higher-order topological insulator",
+    "corner states",
+    "topological crystalline insulator",
+    "Wilson loop",
+    "symmetry indicators",
+    "SSH model"
+   ]
+  },
+  {
+   "name": "Weyl and Dirac semimetals",
+   "scope": "Gapless band structures with protected point or line degeneracies, and their surface arcs, anomalies and electromagnetic responses.",
+   "keywords": [
+    "Weyl semimetal",
+    "Dirac semimetal",
+    "nodal line semimetal",
+    "Fermi arcs",
+    "chiral anomaly",
+    "negative magnetoresistance",
+    "type-II Weyl",
+    "multifold fermions",
+    "Berry monopole"
+   ]
+  },
+  {
+   "name": "Graphene and two-dimensional Dirac materials",
+   "scope": "Electronic properties of graphene, its multilayers and related honeycomb crystals, including Landau levels, strain-induced gauge fields and Klein tunneling.",
+   "keywords": [
+    "graphene",
+    "bilayer graphene",
+    "Dirac fermions",
+    "Klein tunneling",
+    "pseudomagnetic field",
+    "trigonal warping",
+    "valley degree of freedom",
+    "zero-energy Landau level",
+    "honeycomb lattice"
+   ]
+  },
+  {
+   "name": "Moir\u00e9 materials and flat bands",
+   "scope": "Twisted or lattice-mismatched van der Waals heterostructures whose moir\u00e9 potentials produce narrow bands and correlated or topological states.",
+   "keywords": [
+    "moir\u00e9 superlattice",
+    "twisted bilayer graphene",
+    "magic angle",
+    "flat bands",
+    "Bistritzer-MacDonald continuum model",
+    "TMD heterobilayer",
+    "chiral limit",
+    "correlated insulator",
+    "twist angle"
+   ]
+  },
+  {
+   "name": "Scattering theory of mesoscopic transport",
+   "scope": "Phase-coherent conduction through nanostructures described by transmission eigenvalues, including conductance, shot noise, thermoelectric response and full counting statistics.",
+   "keywords": [
+    "Landauer-B\u00fcttiker formalism",
+    "conductance quantization",
+    "shot noise",
+    "Fano factor",
+    "full counting statistics",
+    "quantum point contact",
+    "scattering matrix",
+    "Aharonov-Bohm interferometer",
+    "mesoscopic thermoelectric"
+   ]
+  },
+  {
+   "name": "Quantum dots and Coulomb blockade",
+   "scope": "Confined few-electron systems and single-electron devices governed by charging energy, level spacing and tunneling.",
+   "keywords": [
+    "quantum dot",
+    "Coulomb blockade",
+    "single-electron transistor",
+    "charging energy",
+    "cotunneling",
+    "double quantum dot",
+    "spin qubit",
+    "Coulomb diamonds",
+    "orthodox theory"
+   ]
+  },
+  {
+   "name": "Integer quantum Hall effect and edge states",
+   "scope": "Noninteracting two-dimensional electrons in strong magnetic fields, including Landau-level structure, chiral edge channels, Hofstadter spectra and plateau transitions.",
+   "keywords": [
+    "integer quantum Hall effect",
+    "Landau levels",
+    "chiral edge states",
+    "Hofstadter butterfly",
+    "TKNN invariant",
+    "plateau transition",
+    "Chalker-Coddington network",
+    "Hall conductance",
+    "Laughlin gauge argument"
+   ]
+  },
+  {
+   "name": "Spin-orbit coupling and spin transport",
+   "scope": "Generation, transport and relaxation of spin in metals and semiconductors through spin-orbit coupling, including spin Hall effects, spin pumping and spin torques.",
+   "keywords": [
+    "spin Hall effect",
+    "Rashba coupling",
+    "Dresselhaus coupling",
+    "spin relaxation",
+    "Dyakonov-Perel mechanism",
+    "spin pumping",
+    "Edelstein effect",
+    "spin-transfer torque",
+    "persistent spin helix"
+   ]
+  },
+  {
+   "name": "Berry-curvature anomalous and nonlinear transport",
+   "scope": "Transport and optical responses governed by Bloch-band geometry, including anomalous, valley and nonlinear Hall effects, orbital magnetization and bulk photovoltaic currents.",
+   "keywords": [
+    "Berry curvature",
+    "anomalous Hall effect",
+    "nonlinear Hall effect",
+    "Berry curvature dipole",
+    "valley Hall effect",
+    "orbital magnetization",
+    "quantum metric",
+    "shift current",
+    "circular photogalvanic effect"
+   ]
+  },
+  {
+   "name": "Floquet engineering of periodically driven systems",
+   "scope": "Periodically driven quantum systems whose effective Hamiltonians, quasienergy spectra and anomalous topological phases differ from static ones.",
+   "keywords": [
+    "Floquet",
+    "periodic driving",
+    "quasienergy",
+    "Floquet topological insulator",
+    "high-frequency expansion",
+    "anomalous Floquet phase",
+    "discrete time crystal",
+    "dynamical localization",
+    "Floquet heating"
+   ]
+  },
+  {
+   "name": "Non-Hermitian band theory and skin effect",
+   "scope": "Effective non-Hermitian Hamiltonians for gain, loss or nonreciprocity, including exceptional points, generalized Brillouin zones and the skin effect.",
+   "keywords": [
+    "non-Hermitian",
+    "exceptional point",
+    "non-Hermitian skin effect",
+    "generalized Brillouin zone",
+    "PT symmetry",
+    "Hatano-Nelson model",
+    "point gap topology",
+    "biorthogonal bulk-boundary correspondence",
+    "nonreciprocal hopping"
+   ]
+  },
+  {
+   "name": "Majorana modes and topological superconductivity",
+   "scope": "Models and platforms for topological superconductors that host Majorana bound states, such as nanowires, vortices and magnetic chains, and the signatures of those states.",
+   "keywords": [
+    "Majorana zero modes",
+    "topological superconductor",
+    "Kitaev chain",
+    "semiconductor nanowire",
+    "p-wave superconductor",
+    "zero-bias peak",
+    "Fu-Kane proximity",
+    "braiding",
+    "Shiba chain"
+   ]
+  },
+  {
+   "name": "Dissipative and open quantum systems",
+   "scope": "Quantum systems coupled to environments, including spin-boson physics, Lindblad dynamics and nonequilibrium steady states of driven-dissipative many-body systems.",
+   "keywords": [
+    "spin-boson model",
+    "Caldeira-Leggett",
+    "Lindblad master equation",
+    "dissipative phase transition",
+    "decoherence",
+    "nonequilibrium steady state",
+    "Liouvillian gap",
+    "ohmic bath",
+    "driven-dissipative"
+   ]
+  },
+  {
+   "name": "Quantum oscillations and magnetotransport",
+   "scope": "Thermodynamic and transport phenomena in metals that depend on magnetic field, including de Haas-van Alphen and Shubnikov-de Haas oscillations and classical magnetoresistance.",
+   "keywords": [
+    "quantum oscillations",
+    "de Haas-van Alphen",
+    "Shubnikov-de Haas",
+    "Lifshitz-Kosevich formula",
+    "Onsager quantization",
+    "magnetoresistance",
+    "Fermi surface",
+    "magnetic breakdown",
+    "cyclotron mass",
+    "Berry phase"
+   ]
+  },
+  {
+   "name": "Unconventional pairing symmetry and gap structure",
+   "scope": "Superconductors whose order parameters are not s-wave or change sign (d-wave, p-wave, s\u00b1, multiband), and their thermodynamic and spectroscopic signatures.",
+   "keywords": [
+    "unconventional superconductivity",
+    "d-wave pairing",
+    "spin-triplet pairing",
+    "s\u00b1 pairing",
+    "multiband superconductivity",
+    "gap nodes",
+    "spin-fluctuation pairing",
+    "noncentrosymmetric superconductor",
+    "nematic superconductivity",
+    "iron-based superconductors"
+   ]
+  },
+  {
+   "name": "Vortex matter and Ginzburg-Landau theory",
+   "scope": "Mixed-state physics of type-II superconductors, from Ginzburg-Landau theory of vortices and critical fields to vortex lattices, pinning, mesoscopic samples and dynamics.",
+   "keywords": [
+    "Ginzburg-Landau theory",
+    "Abrikosov vortex lattice",
+    "upper critical field",
+    "lower critical field",
+    "vortex pinning",
+    "flux flow",
+    "Caroli-de Gennes-Matricon states",
+    "mesoscopic superconductor",
+    "Little-Parks effect"
+   ]
+  },
+  {
+   "name": "Phonon-mediated and Eliashberg superconductivity",
+   "scope": "Conventional electron-phonon superconductivity treated with BCS and Migdal-Eliashberg theory, including Tc formulas, isotope effects and strong-coupling corrections.",
+   "keywords": [
+    "Eliashberg theory",
+    "electron-phonon coupling",
+    "McMillan formula",
+    "Coulomb pseudopotential",
+    "isotope effect",
+    "BCS theory",
+    "strong-coupling superconductivity",
+    "Migdal theorem",
+    "hydride superconductors"
+   ]
+  },
+  {
+   "name": "Andreev physics and Josephson junctions",
+   "scope": "Superconducting hybrids with normal metals, ferromagnets or semiconductors, covering Andreev reflection, the proximity effect and Josephson current-phase relations.",
+   "keywords": [
+    "Andreev reflection",
+    "proximity effect",
+    "Josephson junction",
+    "Andreev bound states",
+    "current-phase relation",
+    "BTK theory",
+    "pi junction",
+    "Usadel equation",
+    "superconducting diode effect"
+   ]
+  },
+  {
+   "name": "Superconducting fluctuations and thin films",
+   "scope": "Thermal and quantum fluctuations of the superconducting order in low dimensions, including paraconductivity, BKT transitions, phase slips and superconductor-insulator transitions.",
+   "keywords": [
+    "superconducting fluctuations",
+    "Aslamazov-Larkin",
+    "Maki-Thompson",
+    "paraconductivity",
+    "Berezinskii-Kosterlitz-Thouless transition",
+    "superfluid stiffness",
+    "superconductor-insulator transition",
+    "superconducting thin films",
+    "phase slips"
+   ]
+  },
+  {
+   "name": "Weakly interacting Bose-Einstein condensates",
+   "scope": "Dilute Bose gases at the Gross-Pitaevskii and Bogoliubov level, including collective modes, solitons, vortices and beyond-mean-field corrections.",
+   "keywords": [
+    "Bose-Einstein condensate",
+    "Gross-Pitaevskii equation",
+    "Bogoliubov excitations",
+    "dark soliton",
+    "quantized vortex",
+    "Thomas-Fermi approximation",
+    "Lee-Huang-Yang correction",
+    "collective modes",
+    "quantum droplets"
+   ]
+  },
+  {
+   "name": "BCS-BEC crossover and unitary Fermi gases",
+   "scope": "Two-component Fermi gases with attraction tuned across a Feshbach resonance, including universality, contact relations, polarons and imbalanced pairing.",
+   "keywords": [
+    "BCS-BEC crossover",
+    "unitary Fermi gas",
+    "Feshbach resonance",
+    "Tan contact",
+    "Bertsch parameter",
+    "spin-imbalanced Fermi gas",
+    "FFLO state",
+    "Fermi polaron",
+    "pairing pseudogap"
+   ]
+  },
+  {
+   "name": "Bose-Hubbard models and optical lattices",
+   "scope": "Ultracold atoms in optical lattices described by Bose- and Fermi-Hubbard Hamiltonians, including superfluid-Mott transitions, trap effects and engineered lattice geometries.",
+   "keywords": [
+    "optical lattice",
+    "Bose-Hubbard model",
+    "superfluid-Mott insulator transition",
+    "Wannier functions",
+    "quantum gas microscope",
+    "strong-coupling expansion",
+    "harmonic trap",
+    "Fermi-Hubbard simulation",
+    "flat-band lattice"
+   ]
+  },
+  {
+   "name": "Spinor and spin-orbit-coupled quantum gases",
+   "scope": "Multicomponent atomic condensates with internal spin, synthetic gauge fields or Raman-induced spin-orbit coupling, and their unusual ground states.",
+   "keywords": [
+    "spinor condensate",
+    "spin-1 Bose gas",
+    "spin-orbit-coupled BEC",
+    "synthetic gauge field",
+    "stripe phase",
+    "Raman coupling",
+    "quadratic Zeeman effect",
+    "two-component condensate",
+    "polar and ferromagnetic phases"
+   ]
+  },
+  {
+   "name": "Dipolar quantum gases and supersolids",
+   "scope": "Ultracold gases with long-range anisotropic dipolar interactions, including roton softening, self-bound droplets and supersolid phases.",
+   "keywords": [
+    "dipolar Bose gas",
+    "dipole-dipole interaction",
+    "roton softening",
+    "supersolid",
+    "self-bound droplet",
+    "magnetic lanthanide atoms",
+    "polar molecules",
+    "extended Gross-Pitaevskii equation",
+    "anisotropic interactions"
+   ]
+  },
+  {
+   "name": "Few-body physics and Efimov states",
+   "scope": "Problems of two, three or a few particles with short-range interactions, including universal bound states, Efimov physics and scattering in reduced dimensions.",
+   "keywords": [
+    "Efimov effect",
+    "three-body problem",
+    "scattering length",
+    "universal bound states",
+    "confinement-induced resonance",
+    "zero-range model",
+    "three-body recombination",
+    "Skorniakov-Ter-Martirosian equation",
+    "Feshbach dimer"
+   ]
+  },
+  {
+   "name": "Quench dynamics and relaxation in isolated systems",
+   "scope": "Nonequilibrium evolution of closed many-body systems after sudden parameter changes, including thermalization, generalized Gibbs ensembles and light-cone spreading.",
+   "keywords": [
+    "quantum quench",
+    "thermalization",
+    "eigenstate thermalization hypothesis",
+    "generalized Gibbs ensemble",
+    "prethermalization",
+    "Lieb-Robinson bound",
+    "Loschmidt echo",
+    "dynamical quantum phase transition",
+    "generalized hydrodynamics"
+   ]
+  },
+  {
+   "name": "Lattice dynamics and phonon transport",
+   "scope": "Vibrational spectra of crystals, anharmonic effects and phonon heat conduction in bulk, low-dimensional and nanostructured materials.",
+   "keywords": [
+    "phonons",
+    "lattice dynamics",
+    "anharmonicity",
+    "lattice thermal conductivity",
+    "phonon Boltzmann equation",
+    "Umklapp scattering",
+    "Gr\u00fcneisen parameter",
+    "soft mode",
+    "phonon dispersion"
+   ]
+  },
+  {
+   "name": "Polarons and electron-phonon coupling",
+   "scope": "Charge carriers dressed by lattice distortions, from Fr\u00f6hlich and Holstein polarons to bipolarons, and electron-phonon effects on band and transport properties.",
+   "keywords": [
+    "polaron",
+    "Fr\u00f6hlich model",
+    "Holstein model",
+    "electron-phonon coupling",
+    "bipolaron",
+    "effective mass renormalization",
+    "small polaron hopping",
+    "Lee-Low-Pines",
+    "self-trapping"
+   ]
+  },
+  {
+   "name": "Landau theory of ferroic transitions",
+   "scope": "Phenomenological free-energy description of ferroelectric, ferroelastic and multiferroic transitions, including their domains, order-parameter couplings and critical behavior.",
+   "keywords": [
+    "Landau theory",
+    "ferroelectric",
+    "multiferroic",
+    "magnetoelectric coupling",
+    "structural phase transition",
+    "order parameter coupling",
+    "improper ferroelectricity",
+    "ferroelectric domain walls",
+    "Landau-Devonshire"
+   ]
+  },
+  {
+   "name": "Elasticity, dislocations, and crystal defects",
+   "scope": "Continuum and lattice theory of elastic deformation and of point, line and planar defects in crystals.",
+   "keywords": [
+    "dislocation",
+    "elasticity theory",
+    "Peierls-Nabarro model",
+    "point defects",
+    "disclination",
+    "grain boundary",
+    "strain field",
+    "Burgers vector",
+    "stacking fault"
+   ]
+  },
+  {
+   "name": "Micromagnetics, domain walls, and skyrmions",
+   "scope": "Continuum magnetization dynamics in ferromagnets and antiferromagnets, including domain walls, vortices, skyrmions and their motion driven by fields or currents.",
+   "keywords": [
+    "micromagnetics",
+    "Landau-Lifshitz-Gilbert equation",
+    "magnetic domain wall",
+    "magnetic skyrmion",
+    "Thiele equation",
+    "Dzyaloshinskii-Moriya interaction",
+    "Walker breakdown",
+    "spin-orbit torque",
+    "topological charge"
+   ]
+  },
+  {
+   "name": "Excitons and optical response of semiconductors",
+   "scope": "Bound electron-hole pairs and light-matter coupling in bulk, quantum-well and two-dimensional semiconductors, including trions and exciton-polaritons.",
+   "keywords": [
+    "exciton",
+    "Wannier-Mott exciton",
+    "exciton binding energy",
+    "Rytova-Keldysh potential",
+    "transition metal dichalcogenide",
+    "exciton-polariton",
+    "trion",
+    "optical absorption",
+    "dielectric screening"
+   ]
+  },
+  {
+   "name": "Spin glasses and replica theory",
+   "scope": "Disordered magnets and mean-field glassy systems, including the SK and p-spin models, replica symmetry breaking and glassy dynamics.",
+   "keywords": [
+    "spin glass",
+    "Sherrington-Kirkpatrick model",
+    "replica symmetry breaking",
+    "p-spin model",
+    "Edwards-Anderson order parameter",
+    "de Almeida-Thouless line",
+    "TAP equations",
+    "structural glass",
+    "aging"
+   ]
+  },
+  {
+   "name": "Anderson localization and disordered conductors",
+   "scope": "Localization of single particles by disorder or quasiperiodicity, from weak-localization corrections to mobility edges and the Anderson transition.",
+   "keywords": [
+    "Anderson localization",
+    "weak localization",
+    "universal conductance fluctuations",
+    "mobility edge",
+    "localization length",
+    "Aubry-Andr\u00e9 model",
+    "quasiperiodic potential",
+    "multifractality",
+    "Anderson transition"
+   ]
+  },
+  {
+   "name": "Many-body localization and ergodicity breaking",
+   "scope": "Interacting systems that fail to thermalize because of disorder, constraints or kinetic restrictions, including MBL, quantum many-body scars and Hilbert-space fragmentation.",
+   "keywords": [
+    "many-body localization",
+    "local integrals of motion",
+    "quantum many-body scars",
+    "Hilbert space fragmentation",
+    "PXP model",
+    "ergodicity breaking",
+    "Stark many-body localization",
+    "level statistics",
+    "logarithmic entanglement growth"
+   ]
+  },
+  {
+   "name": "Random matrix theory and quantum chaos",
+   "scope": "Spectral and eigenvector statistics of chaotic quantum systems and random Hamiltonians, including level spacings, spectral form factors and operator growth.",
+   "keywords": [
+    "random matrix theory",
+    "level spacing statistics",
+    "Wigner-Dyson",
+    "spectral form factor",
+    "out-of-time-order correlator",
+    "quantum chaos",
+    "Gaussian ensembles",
+    "quantum Lyapunov exponent",
+    "Krylov complexity"
+   ]
+  },
+  {
+   "name": "Statistical mechanics of learning and neural networks",
+   "scope": "Analysis of neural networks, high-dimensional inference and associative memories with the tools of disordered-systems physics.",
+   "keywords": [
+    "Hopfield model",
+    "perceptron",
+    "storage capacity",
+    "teacher-student scenario",
+    "statistical physics of learning",
+    "Gardner volume",
+    "generalization error",
+    "high-dimensional inference",
+    "approximate message passing"
+   ]
+  },
+  {
+   "name": "Percolation and random networks",
+   "scope": "Geometric connectivity transitions on lattices and random graphs, including percolation thresholds, cluster statistics and network robustness.",
+   "keywords": [
+    "percolation",
+    "percolation threshold",
+    "random graphs",
+    "cluster size distribution",
+    "percolation critical exponents",
+    "bond percolation",
+    "site percolation",
+    "Erd\u0151s-R\u00e9nyi graph",
+    "explosive percolation"
+   ]
+  },
+  {
+   "name": "Disorder-driven criticality and strong-disorder RG",
+   "scope": "How quenched randomness changes phase transitions, including the Harris and Imry-Ma criteria, random-field models, infinite-randomness fixed points and Griffiths phases.",
+   "keywords": [
+    "random-field Ising model",
+    "Harris criterion",
+    "Imry-Ma argument",
+    "infinite-randomness fixed point",
+    "Griffiths phase",
+    "strong-disorder renormalization group",
+    "random transverse-field Ising chain",
+    "quenched disorder",
+    "random singlet phase"
+   ]
+  },
+  {
+   "name": "Superfluid helium and quantum fluids",
+   "scope": "Superfluidity in helium-4, helium-3 and related quantum liquids, including two-fluid hydrodynamics, quantized vortices, quantum turbulence and the superfluid phases of helium-3.",
+   "keywords": [
+    "superfluid helium-4",
+    "superfluid helium-3",
+    "two-fluid model",
+    "second sound",
+    "quantized vortices",
+    "roton",
+    "3He-A and 3He-B phases",
+    "Landau criterion",
+    "quantum turbulence"
+   ]
+  },
+  {
+   "name": "Entanglement in quantum many-body systems",
+   "scope": "Quantitative characterization of entanglement in ground and excited states, including area laws, logarithmic scaling at criticality and entanglement spectra.",
+   "keywords": [
+    "entanglement entropy",
+    "area law",
+    "entanglement spectrum",
+    "topological entanglement entropy",
+    "R\u00e9nyi entropy",
+    "conformal field theory",
+    "logarithmic negativity",
+    "matrix product states",
+    "entanglement Hamiltonian"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "name": "Bethe ansatz and integrability methods",
+   "scope": "Solve one-dimensional or impurity models exactly with coordinate or algebraic Bethe ansatz, Yang-Baxter structures or the thermodynamic Bethe ansatz to obtain energies, excitation spectra and thermodynamics."
+  },
+  {
+   "name": "Bosonization and refermionization",
+   "scope": "Map interacting one-dimensional fermions or spins to free bosonic fields (or back to free fermions at special points) to compute scaling exponents, Luttinger parameters and correlation functions."
+  },
+  {
+   "name": "Renormalization-group flows and fixed points",
+   "scope": "Derive beta functions by momentum-shell integration, epsilon expansion, real-space decimation or strong-disorder rules, and extract fixed points, critical exponents and crossover scales."
+  },
+  {
+   "name": "Large-N and saddle-point expansions",
+   "scope": "Extend the number of flavors or the symmetry group to N, then solve the saddle point and its 1/N corrections to obtain phase boundaries, gaps and anomalous dimensions."
+  },
+  {
+   "name": "Self-consistent mean-field and gap equations",
+   "scope": "Decouple interactions with Hartree-Fock, BCS or Hubbard-Stratonovich mean fields and solve the self-consistency equations for gaps, critical temperatures and phase diagrams."
+  },
+  {
+   "name": "Many-body Green's functions and diagrammatics",
+   "scope": "Compute self-energies, susceptibilities and vertex corrections with Matsubara or real-time perturbation theory, RPA and ladder resummations."
+  },
+  {
+   "name": "Kubo linear-response calculations",
+   "scope": "Evaluate correlation-function expressions for conductivities, Hall responses and susceptibilities, including Berry-curvature (TKNN) forms and sum rules."
+  },
+  {
+   "name": "Semiclassical Boltzmann and wave-packet dynamics",
+   "scope": "Solve the Boltzmann transport equation in relaxation-time or exact form, and use wave-packet equations with Berry phases and Onsager quantization, to obtain transport and quantum-oscillation coefficients."
+  },
+  {
+   "name": "Scattering-matrix and Landauer-B\u00fcttiker methods",
+   "scope": "Construct the transmission matrices of mesoscopic devices to obtain conductance, noise, counting statistics and thermoelectric coefficients."
+  },
+  {
+   "name": "Scattering phase shifts and T-matrix",
+   "scope": "Solve two-body or impurity scattering with partial waves, the Lippmann-Schwinger equation or T-matrix, and zero-range boundary conditions to obtain bound states, scattering lengths and Friedel sums."
+  },
+  {
+   "name": "Topological band invariant calculations",
+   "scope": "Compute Chern numbers, Z2 and winding invariants, Wilson-loop spectra and symmetry indicators of Bloch Hamiltonians to predict boundary modes and quantized responses."
+  },
+  {
+   "name": "Group theory and k\u00b7p symmetry analysis",
+   "scope": "Use space-group representations, selection rules and invariant expansions to constrain effective Hamiltonians, degeneracies and allowed response tensors."
+  },
+  {
+   "name": "Holstein-Primakoff spin-wave expansion",
+   "scope": "Expand spin operators in bosons around an ordered state and diagonalize the quadratic Hamiltonian to obtain magnon spectra and the 1/S corrections to order parameters and energies."
+  },
+  {
+   "name": "Parton and slave-particle constructions",
+   "scope": "Fractionalize electrons or spins into partons coupled to emergent gauge fields, then analyze mean-field states and projective symmetry groups to characterize exotic phases."
+  },
+  {
+   "name": "Quadratic Hamiltonian diagonalization techniques",
+   "scope": "Solve free-fermion or free-boson problems exactly with Jordan-Wigner mappings, Bogoliubov or Bogoliubov-de Gennes transformations, and transfer or correlation matrices."
+  },
+  {
+   "name": "Replica and cavity methods",
+   "scope": "Average free energies over quenched disorder with replica or cavity/belief-propagation calculations to obtain thresholds, capacities and glass-transition lines."
+  },
+  {
+   "name": "Random-matrix and nonlinear sigma-model methods",
+   "scope": "Use Gaussian ensembles, Dyson Brownian motion or supersymmetric and replica sigma models to compute level statistics, spectral form factors and localization corrections."
+  },
+  {
+   "name": "Conformal field theory methods",
+   "scope": "Use conformal invariance (central charges, scaling dimensions, boundary CFT, modular invariance) to extract universal critical data and finite-size spectra."
+  },
+  {
+   "name": "Chern-Simons and K-matrix theory",
+   "scope": "Describe topological phases with Chern-Simons effective actions and K-matrices to derive Hall conductances, anyon statistics, edge content and ground-state degeneracies."
+  },
+  {
+   "name": "Ginzburg-Landau and Gross-Pitaevskii functional analysis",
+   "scope": "Minimize or linearize phenomenological or mean-field energy functionals to obtain critical fields, vortex and soliton structures, collective modes and phase boundaries."
+  },
+  {
+   "name": "Effective Hamiltonians via Schrieffer-Wolff and Magnus expansions",
+   "scope": "Eliminate high-energy or fast degrees of freedom with degenerate perturbation theory or the high-frequency Floquet expansion to derive low-energy couplings and exchange constants."
+  },
+  {
+   "name": "Keldysh and Lindblad nonequilibrium methods",
+   "scope": "Treat driven, dissipative or open systems with Keldysh contour field theory or quantum master equations to obtain steady states, decay rates and Liouvillian gaps."
+  }
+ ],
+ "field": "condensed matter",
+ "categories": [
+  "cond-mat.str-el",
+  "cond-mat.mes-hall",
+  "cond-mat.supr-con",
+  "cond-mat.mtrl-sci",
+  "cond-mat.quant-gas",
+  "cond-mat.other",
+  "cond-mat.dis-nn"
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "domain": "Finance",
+ "subtopic": "Banking",
+ "weight": 0.0071565,
+ "leaves": [
+  {
+   "leaf": "Basel capital ratios, buffers and leverage requirements",
+   "scope": "The Basel I/II/III/IV accords' minimum CET1, Tier 1 and total capital ratios, capital conservation and countercyclical buffers, G-SIB/D-SIB surcharges, and the Basel leverage ratio and US supplementary leverage ratio.",
+   "queries": [
+    "Basel III CET1 minimum capital conservation buffer",
+    "countercyclical capital buffer rate jurisdiction announced",
+    "G-SIB surcharge bucket Financial Stability Board list",
+    "supplementary leverage ratio enhanced eSLR holding companies"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Risk-weighted asset methodologies (credit, market and operational risk)",
+   "scope": "How risk-weighted assets are calculated: the standardised and internal ratings-based approaches for credit risk, FRTB market risk, SA-CCR and CVA, the standardised measurement approach for operational risk, and the output floor.",
+   "queries": [
+    "internal ratings based approach PD LGD risk weight",
+    "standardised approach risk weights residential mortgages loan-to-value",
+    "Fundamental Review Trading Book expected shortfall",
+    "operational risk standardised approach business indicator component"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bank liquidity regulation (LCR, NSFR and HQLA)",
+   "scope": "Basel and national liquidity standards: the liquidity coverage ratio, HQLA levels and haircuts, outflow and inflow rates, the net stable funding ratio's ASF/RSF factors, and liquidity disclosures and monitoring tools.",
+   "queries": [
+    "liquidity coverage ratio Level 2B HQLA haircut",
+    "net stable funding ratio available stable funding factors",
+    "LCR outflow rates stable retail deposits",
+    "average HQLA liquidity coverage ratio bank disclosure"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Loss-absorbing capital instruments, TLAC/MREL and bail-in resolution",
+   "scope": "AT1 contingent convertibles, Tier 2 subordinated debt and trust preferred securities, TLAC and MREL requirements, and bail-in resolution regimes such as BRRD, the Single Resolution Board, Orderly Liquidation Authority and living wills.",
+   "queries": [
+    "Additional Tier 1 contingent convertible trigger write-down",
+    "Credit Suisse AT1 bonds written down 2023",
+    "total loss-absorbing capacity minimum TLAC requirement",
+    "Single Resolution Board bail-in Banco Popular"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "FDIC deposit insurance and failed-bank resolution",
+   "scope": "US deposit insurance coverage limits and their history, the Deposit Insurance Fund and its assessments, brokered deposit rules, and FDIC resolution methods (purchase and assumption, bridge banks, loss share, the systemic risk exception), with notable US bank failures.",
+   "queries": [
+    "FDIC deposit insurance coverage limit increased history",
+    "Deposit Insurance Fund designated reserve ratio assessments",
+    "purchase and assumption agreement failed bank FDIC",
+    "bridge bank systemic risk exception Silicon Valley"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "US bank charters, regulators and landmark banking statutes",
+   "scope": "The US dual banking system, national versus state charters, the roles of the OCC, Federal Reserve, FDIC and state regulators, bank and financial holding company rules, industrial loan companies, and statutes from the McFadden Act and Glass-Steagall to Gramm-Leach-Bliley, Dodd-Frank and EGRRCPA.",
+   "queries": [
+    "Glass-Steagall Banking Act 1933 Section 20",
+    "Riegle-Neal Interstate Banking Branching Efficiency Act",
+    "Gramm-Leach-Bliley financial holding company election",
+    "industrial loan company charter Bank Holding Company Act"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bank examination, supervisory ratings and enforcement actions",
+   "scope": "How regulators examine banks: CAMELS, RFI/C(D) and LFI ratings, matters requiring attention, prompt corrective action capital categories, and formal enforcement tools such as consent orders, cease-and-desist orders and civil money penalties.",
+   "queries": [
+    "CAMELS rating components composite rating",
+    "prompt corrective action critically undercapitalized capital categories",
+    "OCC consent order cease and desist bank",
+    "matters requiring attention bank examination findings"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Supervisory stress testing (CCAR, DFAST, EBA and BoE exercises)",
+   "scope": "Supervisory stress tests: the Federal Reserve's CCAR and DFAST, scenario variables and severity, the stress capital buffer, and the EBA EU-wide, Bank of England and other jurisdictions' stress-test exercises and results.",
+   "queries": [
+    "CCAR severely adverse scenario unemployment rate peak",
+    "stress capital buffer requirement Federal Reserve announced",
+    "EBA EU-wide stress test CET1 depletion results",
+    "Bank of England annual cyclical scenario stress test"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "EU prudential framework and Banking Union",
+   "scope": "The EU's CRR/CRD capital rules, the Single Supervisory Mechanism and ECB banking supervision, the Single Resolution Mechanism and Fund, the Deposit Guarantee Schemes Directive, the EDIS proposal and the European Banking Authority.",
+   "queries": [
+    "Single Supervisory Mechanism significant institutions criteria",
+    "Capital Requirements Regulation CRR CRD IV directive",
+    "Deposit Guarantee Schemes Directive 100000 euro coverage",
+    "European Banking Authority relocation London Paris"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "UK bank regulation and ring-fencing",
+   "scope": "UK prudential and conduct regulation of banks: the PRA, FCA and Financial Policy Committee, ring-fencing under the Vickers reforms, the Senior Managers and Certification Regime, the Banking Act 2009 special resolution regime, and FSCS deposit protection.",
+   "queries": [
+    "Independent Commission on Banking Vickers ring-fencing",
+    "Senior Managers and Certification Regime PRA FCA",
+    "Financial Services Compensation Scheme deposit protection limit",
+    "Banking Act 2009 special resolution regime"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anti-money laundering, BSA/KYC and sanctions compliance",
+   "scope": "Banks' AML and sanctions obligations: the Bank Secrecy Act, currency transaction and suspicious activity reports, customer due diligence and beneficial ownership rules, FinCEN, FATF standards and lists, OFAC sanctions, and major AML enforcement cases.",
+   "queries": [
+    "currency transaction report 10000 Bank Secrecy Act",
+    "suspicious activity report filing deadline FinCEN",
+    "FATF grey list mutual evaluation recommendations",
+    "HSBC deferred prosecution agreement money laundering"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "US consumer deposit and payment regulations (Reg E, Z, DD, CC)",
+   "scope": "Federal rules on retail banking products: Regulation E electronic fund transfers, Regulation Z/TILA and the CARD Act, Regulation DD Truth in Savings, Regulation CC funds availability, Regulation D, and CFPB rules on overdraft and NSF fees.",
+   "queries": [
+    "Regulation E unauthorized electronic fund transfer consumer liability",
+    "Regulation CC funds availability next-day deposits",
+    "Truth in Savings Regulation DD annual percentage yield",
+    "CFPB overdraft fee rule large financial institutions"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Fair lending and the Community Reinvestment Act",
+   "scope": "CRA assessment areas, performance tests and ratings, the Equal Credit Opportunity Act and Regulation B, HMDA and Regulation C reporting, the Fair Housing Act, and redlining enforcement against banks.",
+   "queries": [
+    "Community Reinvestment Act performance evaluation rating assessment area",
+    "Equal Credit Opportunity Act Regulation B adverse action",
+    "HMDA Regulation C reportable data points",
+    "redlining settlement Department of Justice bank lending"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Interbank payment systems, identifiers and messaging standards",
+   "scope": "Payment and settlement infrastructure (Fedwire, CHIPS, ACH and Nacha rules, FedNow and RTP, TARGET2/T2, CHAPS, Check 21) plus bank identifiers and messaging standards: ABA routing numbers, MICR, BIC, IBAN, SWIFT MT and ISO 20022.",
+   "queries": [
+    "Fedwire Funds CHIPS large-value payment settlement",
+    "Nacha same day ACH FedNow instant payments",
+    "SWIFT MT103 ISO 20022 migration messages",
+    "ABA routing transit number IBAN check digits"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Payment card networks, issuing and interchange",
+   "scope": "Credit and debit card networks and economics: the history of Visa, Mastercard, American Express and Discover, interchange fees and merchant litigation, the Durbin Amendment and Regulation II, EMV migration, PCI DSS and card-issuing bank operations.",
+   "queries": [
+    "Durbin Amendment Regulation II debit interchange cap",
+    "BankAmericard renamed Visa history",
+    "EMV chip liability shift October 2015",
+    "interchange fee antitrust litigation merchants settlement"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Custody, trust and treasury management services",
+   "scope": "Custody banks and bank trust departments (assets under custody/administration, securities lending, fiduciary powers under OCC Part 9) and corporate treasury and cash management services such as lockbox, sweep accounts and controlled disbursement.",
+   "queries": [
+    "assets under custody and administration trillion",
+    "State Street Northern Trust custody servicing fees",
+    "OCC Part 9 fiduciary activities national banks",
+    "treasury management lockbox sweep account controlled disbursement"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bank financial reporting and performance metrics",
+   "scope": "How banks report and are analyzed: call reports (FFIEC 031/041/051), FR Y-9C, the UBPR, and metrics such as net interest margin, efficiency ratio, ROA/ROE, tangible book value and deposit costs as disclosed in 10-K filings.",
+   "queries": [
+    "net interest margin efficiency ratio bank 10-K",
+    "FFIEC 031 041 call report schedule",
+    "Uniform Bank Performance Report peer group ratios",
+    "FR Y-9C consolidated financial statements holding companies"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Asset-liability management and interest rate risk in the banking book",
+   "scope": "Bank ALM practice: repricing gap, NII simulation and EVE sensitivity, IRRBB standards and rate shocks, deposit beta and duration modeling, funds transfer pricing, and HTM versus AFS securities portfolios and AOCI.",
+   "queries": [
+    "economic value of equity 200 basis point shock",
+    "net interest income simulation rate ramp sensitivity",
+    "funds transfer pricing bank treasury",
+    "held-to-maturity securities unrealized losses AOCI"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Credit loss accounting and asset quality classification",
+   "scope": "Allowance for credit losses under CECL (ASC 326) and IFRS 9 staging, the legacy incurred-loss ALLL, nonaccrual and nonperforming loans, net charge-offs, troubled debt restructurings and loan modifications, and regulatory classifications (special mention, substandard, doubtful, loss).",
+   "queries": [
+    "CECL ASC 326 current expected credit losses adoption",
+    "IFRS 9 stage 2 significant increase credit risk",
+    "nonaccrual loans 90 days past due charge-off",
+    "substandard doubtful loss classified assets special mention"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Commercial, CRE and syndicated lending",
+   "scope": "Bank commercial lending: C&I and commercial real estate loans, revolving credit facilities, syndicated loan roles and LSTA/LMA documentation, financial covenants, interagency leveraged lending and CRE concentration guidance, and Shared National Credit reviews.",
+   "queries": [
+    "syndicated loan administrative agent arranger LSTA",
+    "interagency leveraged lending guidance six times leverage",
+    "Shared National Credit program review results",
+    "commercial real estate concentration guidance 300 percent"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Interbank benchmark rates and the LIBOR transition",
+   "scope": "Reference interest rates: LIBOR's history, panels and manipulation scandal, its cessation and replacement by SOFR, SONIA, €STR and TONA, ARRC and ISDA fallbacks and spread adjustments, EURIBOR reform, and the US prime rate.",
+   "queries": [
+    "LIBOR cessation USD panel June 2023",
+    "SOFR Alternative Reference Rates Committee selected",
+    "LIBOR manipulation fine Barclays 2012",
+    "ISDA fallbacks spread adjustment SONIA euro short-term rate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Mortgage banking, GSEs and the Federal Home Loan Bank system",
+   "scope": "Residential mortgage origination and servicing, Fannie Mae, Freddie Mac and Ginnie Mae, conforming loan limits, Federal Home Loan Bank membership and advances, Qualified Mortgage and ability-to-repay rules, RESPA/TRID, and mortgage servicing rights.",
+   "queries": [
+    "conforming loan limit FHFA baseline announced",
+    "Federal Home Loan Bank advances membership stock",
+    "qualified mortgage ability-to-repay debt-to-income limit",
+    "mortgage servicing rights valuation bank 10-K"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Central bank lending facilities and reserve requirements",
+   "scope": "Central bank operations that serve banks directly: reserve requirements, interest on reserve balances, discount window primary and secondary credit, emergency facilities such as the TAF and Bank Term Funding Program, ECB standing facilities and TLTROs, and lender-of-last-resort doctrine.",
+   "queries": [
+    "discount window primary credit secondary credit rate",
+    "reserve requirement ratios reduced zero March 2020",
+    "Bank Term Funding Program par value collateral",
+    "ECB targeted longer-term refinancing operations TLTRO"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Trade finance instruments and ICC rules",
+   "scope": "Bank trade finance: documentary letters of credit under UCP 600 and eUCP, standby letters of credit under ISP98, demand guarantees under URDG 758, documentary collections under URC 522, banker's acceptances and supply chain finance.",
+   "queries": [
+    "UCP 600 examination of documents banking days",
+    "standby letter of credit ISP98 rules",
+    "URDG 758 demand guarantee rules",
+    "documentary collection URC 522 documents against payment"
+   ],
+   "sources": [
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Islamic banking contracts and standards",
+   "scope": "Islamic banking: the riba and gharar prohibitions, murabaha, ijara, mudarabah, musharakah and sukuk structures, AAOIFI and IFSB standards, Shariah supervisory boards, and the history of institutions such as Mit Ghamr and Dubai Islamic Bank.",
+   "queries": [
+    "murabaha cost-plus financing Islamic bank",
+    "AAOIFI Shariah standard sukuk ijarah",
+    "Islamic Financial Services Board capital adequacy standard",
+    "Mit Ghamr savings bank Dubai Islamic Bank history"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Credit unions, thrifts and cooperative savings institutions",
+   "scope": "Depository institutions other than commercial banks: credit unions, the NCUA and NCUSIF, savings and loans and mutual savings banks, mutual-to-stock conversions, UK building societies and their demutualisation, and European cooperative and savings banks (Raiffeisen, Sparkassen, Crédit Agricole).",
+   "queries": [
+    "National Credit Union Administration field of membership",
+    "mutual savings bank conversion stock holding company",
+    "building society demutualisation UK",
+    "Raiffeisen cooperative bank Sparkassen savings banks Germany"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Banking history before 1914",
+   "scope": "Banking from the Renaissance Italian banks, the Bank of Amsterdam and goldsmith bankers, through the founding of the Riksbank and Bank of England, the First and Second Banks of the United States, the free banking era, the National Banking Acts and the Federal Reserve Act of 1913.",
+   "queries": [
+    "Medici Bank branches Florence fifteenth century",
+    "Second Bank of the United States Biddle",
+    "free banking era wildcat banks state banknotes",
+    "National Bank Act 1863 national banknotes"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Systemic banking crises and government bailouts",
+   "scope": "System-wide banking crises after 1914 and the policy responses: Great Depression bank runs and the 1933 bank holiday, the S&L crisis and Resolution Trust Corporation, the Nordic and Japanese crises, the 2007-09 crisis and TARP, and the Icelandic, Irish and Cypriot banking collapses.",
+   "queries": [
+    "Emergency Banking Act 1933 bank holiday",
+    "Resolution Trust Corporation savings and loan crisis",
+    "Troubled Asset Relief Program Capital Purchase Program",
+    "Swedish banking crisis 1990s Securum bad bank"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Major bank mergers and corporate histories",
+   "scope": "Corporate lineages and landmark mergers of large Western banks (JPMorgan Chase, Citigroup, Bank of America, Wells Fargo, HSBC, Barclays, Deutsche Bank) and the merger approval process under the Bank Merger Act and HHI competitive screens.",
+   "queries": [
+    "Chemical Bank Chase Manhattan merger 1996",
+    "Citicorp Travelers Group merger Citigroup 1998",
+    "NationsBank BankAmerica merger history",
+    "Bank Merger Act competitive factors HHI"
+   ],
+   "sources": [
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Rogue trading losses and bank misconduct scandals",
+   "scope": "Major trading losses and conduct scandals at banks (Barings and Nick Leeson, Daiwa, Société Générale's Kerviel, UBS's Adoboli, JPMorgan's London Whale, Wells Fargo's fake accounts, BCCI) and the fines and operational-risk lessons that followed.",
+   "queries": [
+    "Nick Leeson Barings Bank collapse loss",
+    "Jerome Kerviel Societe Generale trading loss",
+    "London Whale JPMorgan Chase trading loss",
+    "Wells Fargo unauthorized accounts sales practices fine"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Correspondent, offshore and cross-border banking",
+   "scope": "Cross-border banking structures: correspondent banking and nostro/vostro accounts, de-risking, foreign banking organizations in the US (International Banking Act, intermediate holding companies), Edge Act corporations and IBFs, offshore financial centers, Swiss banking secrecy, and FATCA/CRS tax transparency.",
+   "queries": [
+    "nostro vostro accounts correspondent banking",
+    "Edge Act corporation international banking facility",
+    "Swiss Banking Act 1934 Article 47 secrecy",
+    "FATCA foreign financial institution reporting withholding"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Open banking, fintech charters and digital banks",
+   "scope": "Digital change in banking: open banking regimes (PSD2, UK Open Banking, CFPB Section 1033), neobanks and challenger banks, banking-as-a-service sponsor-bank partnerships, OCC fintech and novel charters, and bank crypto-asset custody.",
+   "queries": [
+    "PSD2 strong customer authentication third party providers",
+    "CFPB Section 1033 personal financial data rights",
+    "challenger bank banking licence Monzo Starling",
+    "OCC fintech charter special purpose national bank"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Banking systems of China, Japan and India",
+   "scope": "Major Asian banking systems: China's large state-owned banks, PBOC/NFRA regulation and asset management companies; Japan's megabank consolidation and jusen crisis; and India's RBI regulation, bank nationalisation, priority sector lending and public sector bank mergers.",
+   "queries": [
+    "Industrial and Commercial Bank of China assets",
+    "China Huarong asset management company bad loans",
+    "Mizuho Mitsubishi UFJ megabank merger formation",
+    "India bank nationalisation 1969 priority sector lending"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

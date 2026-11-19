@@ -1,0 +1,773 @@
+{
+ "domain": "Health",
+ "subtopic": "Surgery",
+ "weight": 0.01125,
+ "leaves": [
+  {
+   "leaf": "History of surgery: landmark operations and pioneering surgeons",
+   "scope": "The firsts, dates and people behind landmark operations, the adoption of antisepsis and anesthesia in surgery, and the origins of eponymous procedures from the 19th century onward.",
+   "queries": [
+    "Lister carbolic acid antiseptic surgery history",
+    "Billroth first successful gastrectomy 1881",
+    "Halsted surgical residency rubber gloves history",
+    "first kidney transplant identical twins Murray 1954"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surgical instruments, sutures and needles",
+   "scope": "Named clamps, forceps, scissors and retractors, suture materials and how long they take to absorb, needle point types, and suture sizing conventions.",
+   "queries": [
+    "Kocher Kelly Mayo clamp surgical instrument",
+    "absorbable suture polyglactin polydioxanone tensile strength",
+    "Balfour Deaver Gelpi retractor types",
+    "USP suture size cutting reverse cutting needle"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Electrosurgery, energy devices and surgical staplers",
+   "scope": "How monopolar and bipolar electrosurgery work, ultrasonic and vessel-sealing devices, and linear and circular staplers with their cartridge specifications.",
+   "queries": [
+    "monopolar bipolar electrosurgery return electrode burns",
+    "ultrasonic harmonic scalpel vessel sealing LigaSure",
+    "circular stapler anastomosis staple height cartridge",
+    "argon plasma coagulation electrosurgical unit frequency"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Laparoscopic, robotic and endoscopic surgical platforms",
+   "scope": "The development, equipment and technique of laparoscopy and robotic systems, including pneumoperitoneum, trocar entry methods, single-port surgery and NOTES.",
+   "queries": [
+    "da Vinci surgical system FDA approval history",
+    "pneumoperitoneum insufflation pressure CO2 laparoscopy",
+    "Veress needle Hasson open trocar entry",
+    "natural orifice transluminal endoscopic surgery NOTES"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Perioperative risk scores and complication grading",
+   "scope": "Tools for estimating preoperative risk and systems for grading postoperative complications, such as ASA, RCRI, POSSUM, the NSQIP calculator and Clavien-Dindo.",
+   "queries": [
+    "ASA physical status classification revision",
+    "Clavien-Dindo classification surgical complications grade",
+    "revised cardiac risk index Lee criteria",
+    "P-POSSUM mortality prediction surgical audit"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Surgical site infection and antimicrobial prophylaxis",
+   "scope": "CDC wound classes and SSI definitions, the timing, choice and redosing of prophylactic antibiotics, skin antisepsis, and SSI prevention bundles.",
+   "queries": [
+    "CDC surgical wound classification clean contaminated",
+    "surgical antibiotic prophylaxis cefazolin timing redosing",
+    "chlorhexidine alcohol versus povidone iodine skin preparation",
+    "surgical site infection definition superficial incisional 30 days"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Perioperative care pathways: ERAS, safety checklists and VTE prophylaxis",
+   "scope": "Standard perioperative protocols: enhanced recovery pathways, the WHO Surgical Safety Checklist and Universal Protocol, preoperative fasting rules, and VTE risk scoring for surgical patients.",
+   "queries": [
+    "enhanced recovery after surgery ERAS Society guidelines",
+    "WHO surgical safety checklist Haynes mortality",
+    "preoperative fasting carbohydrate loading clear fluids",
+    "Caprini score venous thromboembolism surgical patients"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Inguinal and femoral hernia repair",
+   "scope": "Groin hernia anatomy and classifications (Nyhus, EHS) and repair techniques including Bassini, Shouldice, Lichtenstein, McVay, TEP and TAPP.",
+   "queries": [
+    "Lichtenstein tension-free mesh inguinal hernia repair",
+    "Shouldice repair recurrence rate technique",
+    "TEP TAPP laparoscopic inguinal hernia comparison",
+    "femoral hernia McVay Cooper ligament repair"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Abdominal incisions, incisional hernia and abdominal wall reconstruction",
+   "scope": "Types of laparotomy incision and fascial closure technique, ventral and incisional hernia classification, mesh planes, and component separation.",
+   "queries": [
+    "small bites abdominal fascial closure STITCH trial",
+    "Rives-Stoppa retromuscular mesh ventral hernia",
+    "transversus abdominis release component separation",
+    "Pfannenstiel Kocher subcostal incision laparotomy types"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Emergency general surgery: appendicitis, obstruction, perforation and diverticulitis",
+   "scope": "Diagnostic scores, classifications and operations for acute abdominal emergencies such as appendicitis, bowel obstruction, perforated ulcer and complicated diverticulitis.",
+   "queries": [
+    "Alvarado score acute appendicitis diagnosis",
+    "Hinchey classification perforated diverticulitis Hartmann procedure",
+    "adhesive small bowel obstruction Gastrografin challenge",
+    "perforated peptic ulcer Graham omental patch"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Esophageal and gastric surgery",
+   "scope": "Operations for reflux, hiatal hernia, achalasia and upper GI cancer, including fundoplication variants, Heller myotomy, esophagectomy approaches, gastrectomy lymphadenectomy and reconstruction.",
+   "queries": [
+    "Nissen Toupet Dor fundoplication comparison",
+    "Heller myotomy POEM achalasia outcomes",
+    "Ivor Lewis McKeown transhiatal esophagectomy",
+    "D2 lymphadenectomy gastrectomy Billroth Roux-en-Y reconstruction"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Bariatric and metabolic surgery",
+   "scope": "Bariatric procedures, eligibility criteria, limb lengths, outcomes and complications for sleeve gastrectomy, Roux-en-Y gastric bypass, BPD-DS, SADI-S and adjustable banding.",
+   "queries": [
+    "Roux-en-Y gastric bypass alimentary limb length",
+    "biliopancreatic diversion duodenal switch Scopinaro",
+    "sleeve gastrectomy staple line leak bougie size",
+    "IFSO ASMBS indications metabolic surgery BMI"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cholecystectomy and biliary tract surgery",
+   "scope": "Gallbladder and bile duct surgery, covering the critical view of safety, bile duct injury classifications (Strasberg, Bismuth), Tokyo cholecystitis grading, choledochal cysts and biliary reconstruction.",
+   "queries": [
+    "critical view of safety laparoscopic cholecystectomy Strasberg",
+    "bile duct injury Bismuth classification hepaticojejunostomy",
+    "Todani classification choledochal cyst excision",
+    "Tokyo guidelines acute cholecystitis severity grading"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hepatic resection surgery",
+   "scope": "Surgical anatomy of the liver and resection technique, including Couinaud segments, Brisbane terminology, inflow occlusion, methods to grow the future liver remnant, and post-hepatectomy liver failure.",
+   "queries": [
+    "Couinaud segments Brisbane 2000 terminology hepatectomy",
+    "Pringle maneuver inflow occlusion duration",
+    "ALPPS portal vein embolization future liver remnant",
+    "post-hepatectomy liver failure ISGLS definition"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pancreatic surgery",
+   "scope": "Resection and drainage operations for pancreatic disease (Whipple and its variants, distal pancreatectomy, Frey, Beger, Puestow), resectability criteria, and complications as defined by ISGPS.",
+   "queries": [
+    "pancreaticoduodenectomy Whipple pylorus-preserving Traverso Longmire",
+    "postoperative pancreatic fistula ISGPS grade B C",
+    "Frey Beger Puestow procedure chronic pancreatitis",
+    "borderline resectable pancreatic cancer NCCN vascular involvement"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Colorectal resection and rectal cancer surgery",
+   "scope": "Colectomy and proctectomy technique, total mesorectal excision, anastomotic leak, stomas and pouch procedures for colorectal cancer and inflammatory bowel disease.",
+   "queries": [
+    "total mesorectal excision Heald local recurrence",
+    "abdominoperineal resection Miles low anterior resection",
+    "ileal pouch anal anastomosis J-pouch ulcerative colitis",
+    "colorectal anastomotic leak rate diverting ileostomy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anorectal surgery: hemorrhoids, fistula, fissure and prolapse",
+   "scope": "Surgery for hemorrhoids, anal fissure, fistula-in-ano, perianal abscess and rectal prolapse, with their classifications and named procedures.",
+   "queries": [
+    "Parks classification fistula-in-ano LIFT procedure",
+    "hemorrhoid Goligher grade stapled hemorrhoidopexy",
+    "lateral internal sphincterotomy chronic anal fissure",
+    "rectal prolapse Delorme Altemeier perineal procedure"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Breast surgery",
+   "scope": "Surgery for breast cancer and benign breast disease: lumpectomy margins, types of mastectomy, sentinel node and axillary dissection trials, and oncoplastic techniques.",
+   "queries": [
+    "ACOSOG Z0011 sentinel node axillary dissection",
+    "nipple-sparing skin-sparing mastectomy outcomes",
+    "SSO ASTRO margin guideline no ink on tumor",
+    "axillary lymph node levels Berg dissection"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thyroid, parathyroid and adrenal surgery",
+   "scope": "Endocrine surgery technique and outcomes, including thyroidectomy, laryngeal nerve anatomy and monitoring, intraoperative parathyroid localization criteria, and approaches to adrenalectomy.",
+   "queries": [
+    "recurrent laryngeal nerve injury thyroidectomy nerve monitoring",
+    "Miami criterion intraoperative parathyroid hormone",
+    "posterior retroperitoneoscopic adrenalectomy Walz",
+    "Zuckerkandl tubercle superior laryngeal nerve Cernea"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Peritoneal, soft-tissue sarcoma and melanoma surgical oncology",
+   "scope": "Surgical oncology outside the organ-specific areas: peritoneal cancer index and HIPEC regimens, pseudomyxoma, retroperitoneal and extremity sarcoma resection, and melanoma excision margins.",
+   "queries": [
+    "peritoneal cancer index Sugarbaker completeness cytoreduction",
+    "HIPEC mitomycin oxaliplatin PRODIGE 7",
+    "retroperitoneal sarcoma compartmental resection",
+    "melanoma wide local excision margin Breslow thickness"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Trauma surgery and damage control",
+   "scope": "Injury assessment and operative trauma care: ATLS, AAST organ injury scales, damage control laparotomy, REBOA, massive transfusion and resuscitative thoracotomy.",
+   "queries": [
+    "AAST organ injury scale spleen liver grade",
+    "damage control laparotomy lethal triad",
+    "REBOA zone aortic occlusion trauma",
+    "resuscitative thoracotomy penetrating survival indications"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Burn surgery",
+   "scope": "Burn assessment and depth classification, resuscitation formulas, excision and grafting, skin substitutes, and burn-specific operations such as escharotomy.",
+   "queries": [
+    "Parkland formula burn fluid resuscitation",
+    "Lund Browder chart total body surface area",
+    "early tangential excision split thickness skin graft",
+    "escharotomy circumferential burn dermal substitute Integra"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Solid organ transplant surgery",
+   "scope": "Surgical technique, selection criteria and complications in kidney, liver, pancreas and intestinal transplantation, including donor organ procurement and perfusion.",
+   "queries": [
+    "Milan criteria liver transplantation hepatocellular carcinoma",
+    "piggyback technique orthotopic liver transplant",
+    "kidney transplant iliac fossa ureteroneocystostomy",
+    "donation after circulatory death normothermic regional perfusion"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Aortic aneurysm and dissection surgery",
+   "scope": "Open and endovascular repair of abdominal and thoracic aortic disease, including size thresholds for repair, EVAR trials, endoleak types and dissection classifications.",
+   "queries": [
+    "EVAR endoleak type II classification",
+    "Stanford DeBakey aortic dissection classification",
+    "abdominal aortic aneurysm repair diameter threshold 5.5",
+    "Crawford thoracoabdominal aneurysm extent"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Carotid and peripheral arterial surgery",
+   "scope": "Carotid endarterectomy and stenting, open and endovascular lower-limb revascularization, limb ischemia classifications, and choice of amputation level.",
+   "queries": [
+    "carotid endarterectomy NASCET stenosis trial",
+    "Rutherford Fontaine classification limb ischemia",
+    "femoropopliteal bypass saphenous vein graft patency",
+    "transmetatarsal below-knee amputation level selection"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Venous surgery and hemodialysis access",
+   "scope": "Open and endovenous treatment of varicose veins and chronic venous disease, CEAP classification, and creation of arteriovenous fistulas and grafts for dialysis.",
+   "queries": [
+    "CEAP classification chronic venous disease",
+    "endovenous laser ablation great saphenous vein",
+    "Brescia-Cimino radiocephalic arteriovenous fistula",
+    "arteriovenous fistula maturation rule of 6s"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Adult cardiac surgery",
+   "scope": "Coronary artery bypass grafting, valve repair and replacement, aortic root operations, cardiopulmonary bypass and cardiac surgical risk scores (EuroSCORE, STS).",
+   "queries": [
+    "coronary artery bypass internal mammary artery patency",
+    "EuroSCORE II cardiac surgery risk",
+    "mitral valve repair Carpentier classification",
+    "Ross procedure Bentall aortic root replacement"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Congenital heart surgery",
+   "scope": "Palliative and corrective operations for congenital heart defects, such as Blalock-Taussig shunt, Norwood, Glenn, Fontan, arterial switch and tetralogy repair.",
+   "queries": [
+    "Norwood procedure hypoplastic left heart syndrome Sano",
+    "Fontan operation extracardiac conduit lateral tunnel",
+    "arterial switch operation Jatene transposition",
+    "modified Blalock-Taussig shunt tetralogy of Fallot"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "General thoracic surgery",
+   "scope": "Lung resection and pleural and mediastinal surgery, including VATS lobectomy, segmentectomy trials, surgery for pneumothorax, thymectomy and lung volume reduction.",
+   "queries": [
+    "VATS lobectomy versus open thoracotomy",
+    "segmentectomy versus lobectomy JCOG0802 CALGB 140503",
+    "pleurodesis talc spontaneous pneumothorax surgery",
+    "lung volume reduction surgery NETT trial"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cranial neurosurgery",
+   "scope": "Brain surgery: aneurysm and AVM grading and treatment, tumor resection, craniotomy approaches, hydrocephalus shunting and decompressive craniectomy.",
+   "queries": [
+    "Spetzler-Martin grading arteriovenous malformation surgery",
+    "Hunt Hess grade aneurysm clipping coiling ISAT",
+    "pterional craniotomy approach skull base",
+    "ventriculoperitoneal shunt endoscopic third ventriculostomy"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Spine surgery",
+   "scope": "Decompression, fusion and instrumentation for degenerative, traumatic and deformity conditions of the spine, with the related classification systems.",
+   "queries": [
+    "anterior cervical discectomy fusion outcomes",
+    "TLIF PLIF lumbar interbody fusion",
+    "Lenke classification adolescent idiopathic scoliosis",
+    "TLICS thoracolumbar injury classification score"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fracture classification and operative fixation",
+   "scope": "Orthopaedic trauma classifications (AO/OTA, Garden, Gustilo-Anderson, Schatzker, Weber) and fixation methods such as ORIF, intramedullary nailing and external fixation.",
+   "queries": [
+    "Gustilo Anderson open fracture classification",
+    "Schatzker tibial plateau fracture classification",
+    "Garden classification femoral neck hemiarthroplasty",
+    "intramedullary nailing reamed tibial shaft fracture"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hip and knee arthroplasty",
+   "scope": "Total and partial hip and knee replacement: surgical approaches, implant designs and bearing surfaces, alignment targets, revision, and criteria for periprosthetic joint infection.",
+   "queries": [
+    "posterior versus direct anterior approach total hip arthroplasty",
+    "unicompartmental knee arthroplasty Oxford",
+    "metal-on-metal hip resurfacing recall",
+    "MSIS criteria periprosthetic joint infection"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Arthroscopic and sports surgery",
+   "scope": "Arthroscopic and reconstructive operations for ligament, meniscus, cartilage and shoulder instability injuries, including graft choices and named lesions and repairs.",
+   "queries": [
+    "ACL reconstruction bone patellar tendon bone hamstring graft",
+    "Bankart Latarjet shoulder instability",
+    "rotator cuff repair double row",
+    "meniscal repair inside-out all-inside technique"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hand surgery and replantation",
+   "scope": "Hand and wrist surgery: flexor and extensor tendon zones and repair, nerve compression releases, Dupuytren disease, scaphoid fractures and digit replantation.",
+   "queries": [
+    "flexor tendon zones repair Kleinert rehabilitation",
+    "Dupuytren contracture fasciectomy collagenase",
+    "carpal tunnel release endoscopic open",
+    "digital replantation indications ischemia time"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reconstructive flaps and microsurgery",
+   "scope": "Flap classification and reconstructive technique, including the reconstructive ladder, Mathes-Nahai and Cormack-Lamberty classifications, perforator flaps (DIEP, ALT), free tissue transfer and flap salvage.",
+   "queries": [
+    "Mathes Nahai classification muscle flap vascular",
+    "DIEP flap breast reconstruction perforator",
+    "anterolateral thigh free flap",
+    "free flap failure venous congestion salvage"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cleft, craniofacial and maxillofacial surgery",
+   "scope": "Cleft lip and palate repair techniques and timing, craniosynostosis surgery, orthognathic procedures, and classification and fixation of facial fractures.",
+   "queries": [
+    "Millard rotation advancement cleft lip repair",
+    "Furlow double opposing Z-plasty palatoplasty",
+    "Le Fort fracture classification maxilla",
+    "sagittal craniosynostosis cranial vault remodeling"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pediatric general surgery",
+   "scope": "Surgical conditions of newborns and children and their named operations, such as pyloromyotomy, Hirschsprung pull-through, Kasai portoenterostomy, and repair of gastroschisis, CDH and anorectal malformations.",
+   "queries": [
+    "Ramstedt pyloromyotomy infantile hypertrophic pyloric stenosis",
+    "Hirschsprung disease Swenson Soave Duhamel pull-through",
+    "Kasai portoenterostomy biliary atresia",
+    "posterior sagittal anorectoplasty Pena anorectal malformation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Urologic surgery",
+   "scope": "Surgery of the kidney, bladder, prostate and urethra: radical and partial nephrectomy, prostatectomy, TURP and its alternatives, cystectomy with urinary diversion, and stone surgery.",
+   "queries": [
+    "radical cystectomy ileal conduit orthotopic neobladder",
+    "robotic radical prostatectomy nerve sparing",
+    "percutaneous nephrolithotomy ureteroscopy stone size",
+    "partial nephrectomy RENAL nephrometry score"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Head and neck surgery",
+   "scope": "Neck dissection levels and types, laryngectomy and transoral surgery, parotidectomy and facial nerve anatomy, tracheostomy, and reconstruction in head and neck cancer.",
+   "queries": [
+    "neck dissection levels modified radical selective",
+    "total laryngectomy tracheoesophageal puncture voice prosthesis",
+    "superficial parotidectomy facial nerve Frey syndrome",
+    "transoral robotic surgery oropharyngeal cancer"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Small bowel surgery, enterocutaneous fistula and intestinal failure",
+   "scope": "Operative management of small intestinal disease, including Crohn's resection and strictureplasty, enterocutaneous fistula care, short bowel syndrome, and autologous intestinal reconstruction and lengthening procedures.",
+   "queries": [
+    "enterocutaneous fistula output sepsis nutrition closure",
+    "short bowel syndrome teduglutide intestinal rehabilitation",
+    "Crohn strictureplasty Heineke-Mikulicz Finney Michelassi",
+    "serial transverse enteroplasty Bianchi bowel lengthening"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Splenectomy and splenic preservation surgery",
+   "scope": "Elective and hematologic splenic surgery, including indications, open, laparoscopic and partial splenectomy, accessory spleens, splenic cysts, and post-splenectomy infection prevention.",
+   "queries": [
+    "laparoscopic splenectomy immune thrombocytopenia accessory spleen",
+    "overwhelming post-splenectomy infection vaccination encapsulated bacteria",
+    "hereditary spherocytosis partial splenectomy children",
+    "massive splenomegaly hand-assisted splenectomy splenic cyst"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mesenteric, visceral and renal artery surgery",
+   "scope": "Surgery and endovascular treatment of mesenteric ischemia, visceral artery aneurysms, renal artery disease and vascular compression syndromes such as median arcuate ligament, SMA and nutcracker syndromes.",
+   "queries": [
+    "acute mesenteric ischemia superior mesenteric artery embolectomy",
+    "median arcuate ligament syndrome celiac artery decompression",
+    "visceral artery aneurysm splenic hepatic rupture repair",
+    "renal artery stenosis aortorenal bypass fibromuscular dysplasia"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Necrotizing soft-tissue infection, pilonidal disease and hidradenitis surgery",
+   "scope": "Surgery for severe and chronic skin and soft-tissue infections, including necrotizing fasciitis and Fournier's gangrene scoring and debridement, pilonidal sinus flap procedures, and excision of hidradenitis suppurativa.",
+   "queries": [
+    "necrotizing fasciitis LRINEC score surgical debridement",
+    "Fournier gangrene severity index mortality",
+    "pilonidal sinus Karydakis Limberg flap cleft lift",
+    "hidradenitis suppurativa Hurley stage wide excision deroofing"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Wound healing, negative pressure wound therapy and pressure injury surgery",
+   "scope": "Biology of wound repair and scarring, plus the surgical management of chronic wounds, including negative pressure wound therapy, pressure injury staging and flap closure, and treatment of keloids and hypertrophic scars.",
+   "queries": [
+    "wound healing phases fibroblast collagen remodeling",
+    "negative pressure wound therapy instillation VAC",
+    "pressure injury stage ischial sacral flap reconstruction",
+    "keloid hypertrophic scar triamcinolone excision"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Limb amputation levels, techniques and osseointegration",
+   "scope": "Upper and lower limb amputation surgery, including named partial-foot and through-joint levels, flap designs, osteomyoplasty, nerve-management techniques against neuroma and phantom pain, and bone-anchored prostheses.",
+   "queries": [
+    "transtibial amputation Burgess long posterior flap Ertl",
+    "Syme Chopart Lisfranc partial foot amputation",
+    "targeted muscle reinnervation regenerative peripheral nerve interface",
+    "transfemoral osseointegration bone-anchored prosthesis OPRA"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Foot and ankle reconstructive surgery",
+   "scope": "Elective foot and ankle surgery, including hallux valgus and hallux rigidus procedures, lesser-toe deformity correction, flatfoot and cavovarus reconstruction, ankle arthrodesis and total ankle arthroplasty.",
+   "queries": [
+    "hallux valgus chevron scarf Lapidus osteotomy",
+    "first metatarsophalangeal arthrodesis hallux rigidus cheilectomy",
+    "total ankle arthroplasty versus ankle arthrodesis outcomes",
+    "adult acquired flatfoot posterior tibial tendon reconstruction"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Pediatric orthopaedic surgery",
+   "scope": "Surgical and casting treatment of childhood musculoskeletal disorders such as clubfoot, developmental dysplasia of the hip, slipped capital femoral epiphysis, Perthes disease and limb-length or angular deformity, along with their classification systems.",
+   "queries": [
+    "Ponseti method clubfoot Achilles tenotomy Pirani score",
+    "developmental dysplasia hip Pavlik harness Salter osteotomy",
+    "slipped capital femoral epiphysis in situ pinning",
+    "Legg-Calve-Perthes lateral pillar Herring classification"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Orthopaedic oncology: bone tumor resection and limb salvage",
+   "scope": "Surgical management of primary bone tumors and skeletal metastases, including staging systems, limb-salvage and endoprosthetic reconstruction, rotationplasty, curettage of benign aggressive lesions, and prophylactic fixation of impending pathological fractures.",
+   "queries": [
+    "osteosarcoma limb salvage endoprosthetic reconstruction",
+    "Enneking staging Musculoskeletal Tumor Society score",
+    "Mirels score prophylactic fixation pathological fracture",
+    "giant cell tumor bone curettage cement denosumab"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Peripheral nerve and brachial plexus surgery",
+   "scope": "Grading of nerve injury and its surgical repair, including direct neurorrhaphy, grafts, conduits and allografts, named nerve transfers, and the reconstruction of adult and obstetric brachial plexus injuries.",
+   "queries": [
+    "Seddon Sunderland nerve injury classification repair",
+    "Oberlin ulnar fascicle transfer biceps elbow flexion",
+    "obstetric brachial plexus palsy Mallet score surgery",
+    "processed nerve allograft conduit gap length"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Functional and stereotactic neurosurgery",
+   "scope": "Neurosurgery for movement disorders, epilepsy, pain and psychiatric disease, including deep brain stimulation targets, resective and disconnective epilepsy surgery, neuromodulation devices, microvascular decompression, and stereotactic radiosurgery and focused ultrasound lesioning.",
+   "queries": [
+    "deep brain stimulation subthalamic nucleus globus pallidus Parkinson",
+    "anterior temporal lobectomy hippocampal sclerosis seizure freedom",
+    "Gamma Knife radiosurgery trigeminal neuralgia dose",
+    "MR-guided focused ultrasound thalamotomy essential tremor"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Aesthetic facial and body contouring surgery",
+   "scope": "Cosmetic plastic surgery of the face and body other than the breast, including rhinoplasty, blepharoplasty, rhytidectomy, fat grafting, liposuction and abdominoplasty, with their named techniques and safety limits.",
+   "queries": [
+    "rhinoplasty open approach tip grafts spreader",
+    "lower blepharoplasty fat transposition canthopexy",
+    "rhytidectomy SMAS plication deep plane facelift",
+    "tumescent liposuction lidocaine dose abdominoplasty"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

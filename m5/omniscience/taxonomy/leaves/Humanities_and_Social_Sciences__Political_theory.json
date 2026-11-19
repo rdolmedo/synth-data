@@ -1,0 +1,987 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Political theory",
+ "weight": 0.015250499999999998,
+ "leaves": [
+  {
+   "leaf": "Plato's political dialogues: Republic, Statesman and Laws",
+   "scope": "Plato's political philosophy across the Republic, Statesman, Laws, Crito, Gorgias and Menexenus, including philosopher-kings, the city-soul analogy, the noble lie, regime decline and the Magnesian constitution.",
+   "queries": [
+    "Plato Republic philosopher kings Kallipolis guardians",
+    "noble lie myth of metals Republic",
+    "Plato Laws Magnesia Nocturnal Council Athenian Stranger",
+    "Plato Statesman royal weaving Eleatic Stranger"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Aristotle's Politics and Greek constitutional typology",
+   "scope": "Aristotle's Politics and the Athenaion Politeia, covering the six-fold classification of regimes, polity and the middle class, natural slavery and the household, citizenship and the causes of revolution.",
+   "queries": [
+    "Aristotle Politics six forms constitution polity",
+    "Aristotle natural slavery household oikos",
+    "Athenaion Politeia Aristotle Athenian Constitution",
+    "Aristotle citizenship definition revolution Book V"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hellenistic and Roman political thought",
+   "scope": "Political ideas from Polybius's mixed constitution and anacyclosis through Cicero's De re publica and De legibus, the Stoic and Epicurean cosmopolis, and imperial-era writers such as Seneca and Marcus Aurelius.",
+   "queries": [
+    "Polybius anacyclosis mixed constitution Book VI",
+    "Cicero De re publica Dream of Scipio",
+    "Cicero De legibus natural law res publica",
+    "Zeno Republic Stoic cosmopolis Seneca De clementia"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Medieval Christian political thought and church-state theory",
+   "scope": "Political thought of Latin Christendom from Augustine and the Gelasian doctrine of two powers through John of Salisbury, Aquinas, Dante, Marsilius of Padua, Ockham and the conciliar movement.",
+   "queries": [
+    "Gelasius two swords doctrine Unam Sanctam",
+    "Marsilius of Padua Defensor pacis",
+    "Aquinas De regno kingship tyranny",
+    "conciliarism Council of Constance Haec Sancta"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Islamic political thought from caliphate theory to Islamism",
+   "scope": "Islamic theories of government, from classical falsafa, caliphate jurisprudence and mirrors for princes (al-Farabi, al-Mawardi, Nizam al-Mulk, Ibn Taymiyya, Ibn Khaldun) to modern reformist and Islamist thinkers (al-Afghani, Abduh, Abd al-Raziq, Mawdudi, Qutb, Khomeini).",
+   "queries": [
+    "al-Farabi virtuous city political regime",
+    "al-Mawardi al-Ahkam al-Sultaniyya caliphate imamate",
+    "Ibn Khaldun Muqaddimah asabiyya dynastic cycle",
+    "Mawdudi Qutb hakimiyya velayat-e faqih"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Chinese political thought: Confucian, Legalist and modern",
+   "scope": "Chinese political philosophy from the Confucian, Mohist, Daoist and Legalist schools (Mencius, Xunzi, Mozi, Shang Yang, Han Feizi) and the Mandate of Heaven to later thinkers such as Dong Zhongshu, Huang Zongxi, Kang Youwei and Sun Yat-sen.",
+   "queries": [
+    "Han Feizi Legalism fa shu shi",
+    "Mencius Mandate of Heaven right rebel",
+    "Shang Yang reforms Book of Lord Shang",
+    "Sun Yat-sen Three Principles of the People"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "South Asian political thought from Kautilya to Ambedkar",
+   "scope": "Political ideas of the Indian subcontinent, from Kautilya's Arthashastra, rajadharma in the epics and Dharmashastras, and Ashokan dhamma to modern thinkers such as Gandhi, Tagore, Ambedkar, Savarkar and M. N. Roy.",
+   "queries": [
+    "Kautilya Arthashastra saptanga mandala theory",
+    "rajadharma Shanti Parva Manusmriti king duties",
+    "Gandhi Hind Swaraj satyagraha swadeshi",
+    "Ambedkar Annihilation of Caste political thought"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Machiavelli and Renaissance and early modern republicanism",
+   "scope": "Machiavelli's Prince, Discourses on Livy and Florentine Histories, together with civic humanism (Bruni, Guicciardini), the myth of Venice, and English classical republicans such as Harrington, Milton, Sidney and Neville.",
+   "queries": [
+    "Machiavelli Prince virtu fortuna Cesare Borgia",
+    "Discourses on Livy Machiavelli republic tumults",
+    "Harrington Oceana agrarian law rotation",
+    "Leonardo Bruni civic humanism Florence republic"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sovereignty, absolutism and resistance theory in early modern Europe",
+   "scope": "Sixteenth- and seventeenth-century debates over sovereignty and the right of resistance, including Bodin's Six Books, divine-right absolutism (James VI and I, Filmer, Bossuet), the Huguenot monarchomachs, Althusius, and the Levellers and Putney Debates.",
+   "queries": [
+    "Bodin Six Books Commonwealth sovereignty",
+    "Vindiciae contra tyrannos monarchomachs Huguenot resistance",
+    "Filmer Patriarcha divine right of kings",
+    "Levellers Agreement of the People Putney Debates"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Early modern natural law and the law of nations",
+   "scope": "Natural law and natural rights theory from the School of Salamanca (Vitoria, Suarez, Molina) through Grotius, Pufendorf, Thomasius, Wolff and Vattel, including dominium, sociability, freedom of the seas and the law of nations.",
+   "queries": [
+    "Grotius De jure belli ac pacis natural law",
+    "School of Salamanca Vitoria De Indis dominium",
+    "Pufendorf De jure naturae et gentium",
+    "Vattel Law of Nations sovereign equality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hobbes's political philosophy",
+   "scope": "Thomas Hobbes's political works (Elements of Law, De Cive, Leviathan, Behemoth) and their doctrines of the state of nature, laws of nature, covenant, authorization and sovereign representation.",
+   "queries": [
+    "Hobbes Leviathan state of nature war",
+    "Hobbes laws of nature covenant Leviathan chapter",
+    "Hobbes De Cive Elements of Law sovereignty",
+    "Hobbes Behemoth Long Parliament civil war"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Locke's Two Treatises and Letter Concerning Toleration",
+   "scope": "John Locke's political writings, namely the Two Treatises of Government, the Letter Concerning Toleration and the Fundamental Constitutions of Carolina, with their theories of consent, property, prerogative and the right of revolution.",
+   "queries": [
+    "Locke Second Treatise property labour proviso",
+    "Letter Concerning Toleration Locke 1689 Popple",
+    "Fundamental Constitutions of Carolina Locke",
+    "Locke tacit consent prerogative right revolution"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rousseau's political philosophy and the general will",
+   "scope": "Jean-Jacques Rousseau's political works (the two Discourses, the Social Contract, Emile, and the constitutional projects for Corsica and Poland), centring on the general will, amour-propre, the lawgiver, civil religion and popular sovereignty.",
+   "queries": [
+    "Rousseau Social Contract general will lawgiver",
+    "Discourse on the Origin of Inequality amour-propre",
+    "Rousseau Considerations Government of Poland Corsica",
+    "Rousseau civil religion Social Contract Book IV"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Montesquieu, Spinoza, Hume and Enlightenment political thought",
+   "scope": "Seventeenth- and eighteenth-century Enlightenment political thought, including Montesquieu's Spirit of the Laws and Persian Letters, Spinoza's political treatises, Hume's political essays, Voltaire and the Encyclopedie, and the Scottish Enlightenment theory of commercial society.",
+   "queries": [
+    "Montesquieu Spirit of the Laws separation powers",
+    "Spinoza Theological-Political Treatise democracy freedom",
+    "Hume Idea of a Perfect Commonwealth essays",
+    "Ferguson Essay History Civil Society Scottish Enlightenment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "American founding political thought: Federalists and Anti-Federalists",
+   "scope": "Political thought of the American Revolution and early republic, including Paine's Common Sense, the Declaration of Independence, The Federalist and the Anti-Federalist papers, Jefferson and Madison, and later theorists such as Calhoun.",
+   "queries": [
+    "Federalist No. 10 Madison factions",
+    "Anti-Federalist Papers Brutus Federal Farmer Cato",
+    "Paine Common Sense 1776 pamphlet",
+    "Calhoun concurrent majority Disquisition on Government"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "French Revolution and nineteenth-century French liberalism",
+   "scope": "French political thought from the Revolution (Sieyes, Condorcet, the Declaration of the Rights of Man, the Jacobins) through post-revolutionary liberals and doctrinaires such as Constant, de Stael, Guizot and Tocqueville.",
+   "queries": [
+    "Sieyes What Is the Third Estate",
+    "Constant liberty of the ancients moderns",
+    "Tocqueville Democracy in America tyranny majority",
+    "Guizot doctrinaires sovereignty of reason"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "German idealist political philosophy: Kant, Fichte and Hegel",
+   "scope": "Political philosophy of Kant (Doctrine of Right, Perpetual Peace, essays on enlightenment and history), Fichte (Foundations of Natural Right, Closed Commercial State, Addresses to the German Nation) and Hegel's Philosophy of Right, including the Young Hegelians.",
+   "queries": [
+    "Kant Perpetual Peace definitive articles republican",
+    "Hegel Philosophy of Right civil society Sittlichkeit",
+    "Fichte Closed Commercial State Addresses German Nation",
+    "Kant Doctrine of Right Metaphysics of Morals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Burke and the conservative tradition",
+   "scope": "Conservative political thought from Burke's Reflections on the Revolution in France and the Counter-Enlightenment of de Maistre and Bonald to Coleridge, Disraeli's one-nation Toryism, Oakeshott, Kirk and Scruton.",
+   "queries": [
+    "Burke Reflections on the Revolution in France",
+    "Joseph de Maistre Considerations on France",
+    "Oakeshott Rationalism in Politics conservative disposition",
+    "Russell Kirk Conservative Mind canons"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Utilitarianism and nineteenth-century British liberalism",
+   "scope": "British political thought from Bentham and James Mill through John Stuart Mill's On Liberty and Representative Government to Sidgwick, T. H. Green and the British idealists, and Hobhouse's new liberalism.",
+   "queries": [
+    "Mill On Liberty harm principle 1859",
+    "Bentham Fragment on Government greatest happiness",
+    "Mill Considerations Representative Government plural voting",
+    "T. H. Green British idealism Hobhouse new liberalism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Marx and Engels's political theory",
+   "scope": "The political theory of Marx and Engels (historical materialism, class struggle, alienation, the state and the dictatorship of the proletariat) across texts such as the Manifesto, German Ideology, Eighteenth Brumaire, Capital and the Critique of the Gotha Programme.",
+   "queries": [
+    "Communist Manifesto 1848 Marx Engels",
+    "Eighteenth Brumaire of Louis Bonaparte Marx",
+    "Critique of the Gotha Programme higher phase",
+    "German Ideology historical materialism base superstructure"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Socialist theory after Marx: revisionism, Fabianism, Leninism and Maoism",
+   "scope": "Debates over socialist theory and strategy after Marx, including Lassalle, Kautsky and Bernstein's revisionism, Fabian and guild socialism, Lenin's vanguard party and theory of imperialism, Luxemburg, Trotsky's permanent revolution and Mao's mass line.",
+   "queries": [
+    "Bernstein Evolutionary Socialism revisionism Kautsky",
+    "Lenin What Is to Be Done vanguard",
+    "Trotsky permanent revolution socialism one country",
+    "Fabian Society Webbs guild socialism Cole"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Western Marxism and Frankfurt School critical theory",
+   "scope": "Western Marxism and Critical Theory, including Lukacs, Korsch, Gramsci's hegemony, the Institute for Social Research (Horkheimer, Adorno, Marcuse, Fromm, Benjamin), Althusser, Habermas's public sphere and Honneth.",
+   "queries": [
+    "Gramsci Prison Notebooks hegemony war of position",
+    "Frankfurt School Institute for Social Research Horkheimer",
+    "Marcuse One-Dimensional Man repressive desublimation",
+    "Althusser ideological state apparatuses interpellation"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Anarchist political thought",
+   "scope": "Anarchist thought from Godwin, Proudhon and Stirner through Bakunin, Kropotkin, Malatesta, Goldman and anarcho-syndicalism to post-war and contemporary social anarchism.",
+   "queries": [
+    "Proudhon What Is Property mutualism",
+    "Kropotkin Mutual Aid Conquest of Bread",
+    "Bakunin Statism and Anarchy First International",
+    "Godwin Enquiry Concerning Political Justice"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Totalitarianism, fascism and Weimar-era political thought",
+   "scope": "Twentieth-century theories of totalitarianism and antiliberal thought, including Arendt's Origins of Totalitarianism and Human Condition, Friedrich and Brzezinski's totalitarian syndrome, Schmitt's decisionism and friend-enemy distinction, Strauss, Sorel, Gentile's fascist doctrine and the Conservative Revolution.",
+   "queries": [
+    "Arendt Origins of Totalitarianism banality evil",
+    "Arendt Human Condition labor work action",
+    "Carl Schmitt Concept of the Political friend enemy",
+    "Gentile Doctrine of Fascism Sorel Reflections Violence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rawls's theory of justice and political liberalism",
+   "scope": "John Rawls's political philosophy (A Theory of Justice, Political Liberalism, The Law of Peoples, Justice as Fairness: A Restatement), including the original position, veil of ignorance, two principles, overlapping consensus and public reason.",
+   "queries": [
+    "Rawls original position veil of ignorance",
+    "difference principle maximin primary goods Rawls",
+    "Political Liberalism overlapping consensus public reason",
+    "Rawls Law of Peoples decent hierarchical peoples"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Libertarianism and classical liberal political philosophy",
+   "scope": "Twentieth-century libertarian and classical liberal theory, including Hayek, Nozick's Anarchy, State, and Utopia, Rothbard, Rand, and left-libertarians such as Steiner, Vallentyne and Otsuka.",
+   "queries": [
+    "Nozick entitlement theory Wilt Chamberlain argument",
+    "Anarchy State and Utopia minimal state protective agency",
+    "Hayek Constitution of Liberty Road to Serfdom",
+    "left-libertarianism Steiner Vallentyne Otsuka self-ownership"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Egalitarianism and post-Rawlsian distributive justice",
+   "scope": "Debates about equality and distributive justice after Rawls, including Dworkin's equality of resources, luck egalitarianism (Arneson, Cohen), relational equality (Anderson), Sen and Nussbaum's capability approach, prioritarianism, sufficientarianism and basic income.",
+   "queries": [
+    "Dworkin equality of resources auction insurance",
+    "luck egalitarianism Arneson Cohen equality opportunity welfare",
+    "Nussbaum central human capabilities list Sen",
+    "prioritarianism sufficientarianism Parfit Frankfurt equality"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Communitarianism, multiculturalism and the politics of recognition",
+   "scope": "Communitarian critiques of liberal individualism (Sandel, MacIntyre, Taylor, Walzer, Etzioni) and theories of multiculturalism, recognition and minority group rights from Kymlicka, Taylor, Parekh and Tully, along with critics such as Barry.",
+   "queries": [
+    "Sandel unencumbered self Liberalism Limits of Justice",
+    "Walzer Spheres of Justice complex equality",
+    "Kymlicka Multicultural Citizenship polyethnic rights",
+    "Taylor Politics of Recognition multiculturalism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Concepts of liberty and neo-republican freedom as non-domination",
+   "scope": "Analytical debates over the concept of freedom, including Berlin's negative and positive liberty, MacCallum's triadic analysis, Taylor's exercise concept, and the neo-republican theory of freedom as non-domination of Pettit and Skinner.",
+   "queries": [
+    "Berlin Two Concepts of Liberty 1958 lecture",
+    "MacCallum triadic relation negative positive freedom",
+    "Pettit freedom as non-domination republicanism",
+    "Skinner Liberty before Liberalism neo-Roman theory"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Normative democratic theory and political representation",
+   "scope": "Normative models of democracy and representation, including deliberative democracy (Habermas, Joshua Cohen, Gutmann and Thompson, Fishkin), participatory and agonistic democracy (Pateman, Barber, Mouffe), epistemic democracy and the Condorcet jury theorem, and theories of representation (Pitkin, Mansbridge).",
+   "queries": [
+    "deliberative democracy Habermas Joshua Cohen ideal procedure",
+    "Fishkin deliberative polling citizens assembly minipublics",
+    "Condorcet jury theorem epistemic democracy Estlund",
+    "Pitkin Concept of Representation descriptive symbolic substantive"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Elite theory, pluralism and theories of power",
+   "scope": "Theories of who rules and how power operates, including classical elite theory (Mosca, Pareto, Michels), Schumpeter's competitive elitism, Mills's power elite, pluralism and polyarchy (Dahl, Truman), the community power debate, Lukes's three dimensions of power and Weber's types of legitimate domination.",
+   "queries": [
+    "Michels iron law of oligarchy Political Parties",
+    "Pareto circulation of elites Mosca ruling class",
+    "Dahl Who Governs polyarchy pluralism New Haven",
+    "Lukes three dimensional view of power"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Social choice and public choice theory",
+   "scope": "Formal theories of collective decision-making, including Condorcet and Borda, Arrow's impossibility theorem, Sen's liberal paradox, May's theorem, the Gibbard-Satterthwaite theorem, Black's median voter theorem, Downs, Olson's logic of collective action and Buchanan and Tullock's constitutional political economy.",
+   "queries": [
+    "Arrow impossibility theorem conditions Social Choice Individual Values",
+    "Gibbard Satterthwaite theorem strategic voting manipulation",
+    "Sen liberal paradox impossibility Paretian liberal",
+    "Buchanan Tullock Calculus of Consent public choice"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Political obligation, authority and civil disobedience",
+   "scope": "Philosophical debates over whether and why citizens must obey the law, covering consent, fair play, gratitude, associative and natural-duty theories, Raz's service conception of authority, philosophical anarchism (Wolff, Simmons), and theories of civil disobedience from Thoreau to King and Rawls.",
+   "queries": [
+    "political obligation consent fair play principle Hart",
+    "Raz normal justification thesis service conception authority",
+    "Wolff In Defense of Anarchism philosophical anarchism Simmons",
+    "Thoreau Civil Disobedience King Letter Birmingham Jail"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Feminist political theory",
+   "scope": "Feminist political thought from Wollstonecraft, Mill and Harriet Taylor, and de Beauvoir to Pateman's Sexual Contract, Okin, Iris Marion Young, MacKinnon, Fraser and the ethics of care.",
+   "queries": [
+    "Wollstonecraft Vindication of the Rights of Woman",
+    "Pateman Sexual Contract fraternal patriarchy",
+    "Iris Marion Young five faces of oppression",
+    "Okin Justice Gender and the Family"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Race, empire and anticolonial political thought",
+   "scope": "The political theory of race and empire, including Du Bois, Garvey, Black Power, Charles Mills's Racial Contract and critical race theory, and anticolonial and postcolonial thinkers such as Cesaire, Fanon, Senghor, Nkrumah, Nyerere, Cabral, Said and Spivak.",
+   "queries": [
+    "Fanon Wretched of the Earth decolonization violence",
+    "Charles Mills Racial Contract domination contract",
+    "Du Bois double consciousness Souls of Black Folk",
+    "Nyerere Ujamaa African socialism Nkrumah Consciencism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of nations and nationalism",
+   "scope": "Theories of nations and nationalism, from Herder, Mazzini and Renan's lecture on what a nation is, through modernist, primordialist and ethno-symbolist accounts (Gellner, Anderson, Hobsbawm, Smith, Hroch), to liberal nationalism (Tamir, Miller).",
+   "queries": [
+    "Gellner Nations and Nationalism modernist theory",
+    "Anderson Imagined Communities print capitalism",
+    "Renan What Is a Nation daily plebiscite",
+    "Anthony Smith ethnosymbolism ethnie Hroch phases"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Global justice, cosmopolitanism and immigration ethics",
+   "scope": "International distributive justice and the ethics of borders, including Singer's famine argument, Beitz and Pogge's cosmopolitanism, Nagel's statism, Miller on national responsibility, Held's cosmopolitan democracy, and the open-borders debate (Carens, Walzer, Abizadeh).",
+   "queries": [
+    "Pogge World Poverty Human Rights global institutional order",
+    "Singer Famine Affluence and Morality drowning child",
+    "Nagel Problem of Global Justice statism",
+    "Carens open borders Aliens and Citizens immigration"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Just war theory and the ethics of war",
+   "scope": "The just war tradition and ethics of war, covering jus ad bellum, jus in bello and jus post bellum criteria from Augustine and Aquinas to Walzer's Just and Unjust Wars, McMahan's revisionism, the doctrine of double effect, pacifism and the Responsibility to Protect.",
+   "queries": [
+    "jus ad bellum criteria just cause last resort",
+    "Walzer Just and Unjust Wars supreme emergency",
+    "McMahan Killing in War moral equality combatants",
+    "Responsibility to Protect ICISS 2001 report"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Foucault, poststructuralist and post-Marxist political theory",
+   "scope": "Continental political theory shaped by poststructuralism, including Foucault's disciplinary power, biopolitics and governmentality, Agamben's homo sacer and state of exception, Laclau and Mouffe's post-Marxist hegemony, Ranciere, Deleuze and Guattari, Hardt and Negri, Esposito and Mbembe's necropolitics.",
+   "queries": [
+    "Foucault biopower governmentality College de France lectures",
+    "Agamben Homo Sacer bare life state exception",
+    "Laclau Mouffe Hegemony Socialist Strategy empty signifier",
+    "Hardt Negri Empire multitude"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Green political theory and environmental political thought",
+   "scope": "Environmental political thought, including ecologism as an ideology (Dobson), deep ecology (Naess), Bookchin's social ecology, ecofeminism, eco-authoritarianism and limits to growth, environmental and intergenerational justice, and ecological citizenship.",
+   "queries": [
+    "Naess deep ecology platform eight points",
+    "Bookchin social ecology libertarian municipalism",
+    "Dobson Green Political Thought ecologism ecological citizenship",
+    "intergenerational justice future generations non-identity problem"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sophists, Thucydides and pre-Platonic Greek political thought",
+   "scope": "Greek political ideas before Plato: the Sophists' nomos-physis debate (Protagoras, Antiphon, Thrasymachus, Callicles), Herodotus' constitutional debate, Thucydides' Melian Dialogue and Funeral Oration, and the ideology of Athenian democracy (isonomia, parrhesia, ostracism).",
+   "queries": [
+    "Sophists nomos physis Protagoras Antiphon Callicles",
+    "Thucydides Melian Dialogue Pericles Funeral Oration",
+    "Herodotus constitutional debate Otanes Megabyzus Darius",
+    "Athenian democracy isonomia ostracism Cleisthenes reforms"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Byzantine political thought and imperial ideology",
+   "scope": "Eastern Roman theories of rulership, from Eusebius of Caesarea's Christian imperial theology through Justinian's Sixth Novella and the symphonia of priesthood and empire, mirrors of princes such as Agapetus' Ekthesis, and debates over caesaropapism.",
+   "queries": [
+    "Eusebius Caesarea Constantine Christian imperial theology",
+    "Justinian Sixth Novella symphonia priesthood empire",
+    "Agapetus Ekthesis Byzantine mirror for princes",
+    "caesaropapism Byzantine emperor patriarch relations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Jewish political thought and the Hebrew republic tradition",
+   "scope": "Political ideas drawn from Jewish sources: biblical covenant and kingship, Maimonides' Laws of Kings, Abravanel's critique of monarchy, kehillah self-government, and early modern Christian Hebraists' Respublica Hebraeorum (Cunaeus, Selden, Sigonio).",
+   "queries": [
+    "Maimonides Laws of Kings messianic political",
+    "Isaac Abravanel critique monarchy Deuteronomy kingship",
+    "Petrus Cunaeus De Republica Hebraeorum Hebraism",
+    "Daniel Elazar covenant tradition Jewish polity"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Levellers, Diggers and English Revolution radicalism",
+   "scope": "Radical political thought of the English Civil War and Interregnum, including the Leveller Agreements of the People, the Putney Debates, Lilburne, Overton and Walwyn, Winstanley's Diggers, the Ranters and the Fifth Monarchists.",
+   "queries": [
+    "Putney Debates Rainsborough Ireton franchise 1647",
+    "Agreement of the People Levellers Lilburne Overton",
+    "Gerrard Winstanley Diggers Law of Freedom",
+    "Fifth Monarchists Ranters English Civil War radicals"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Utopian political thought from More to the utopian socialists",
+   "scope": "Literary and programmatic utopias and their political theory, from More's Utopia, Campanella's City of the Sun and Bacon's New Atlantis to Saint-Simon, Fourier's phalanstère, Owen's New Harmony, Cabet's Icaria and Bellamy's Looking Backward.",
+   "queries": [
+    "Thomas More Utopia 1516 Hythloday island",
+    "Campanella City of the Sun Bacon New Atlantis",
+    "Fourier phalanstery Saint-Simon utopian socialism",
+    "Robert Owen New Harmony Cabet Icarians"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Scottish Enlightenment theories of commercial and civil society",
+   "scope": "Political and social theory of Adam Smith, Adam Ferguson, John Millar, Lord Kames and Dugald Stewart (Hume excluded): the four-stages theory, unintended consequences, Smith's Lectures on Jurisprudence, and debates on commerce, virtue and the Scottish militia.",
+   "queries": [
+    "Adam Ferguson Essay History Civil Society 1767",
+    "four stages theory Smith Millar Kames",
+    "John Millar Origin Distinction of Ranks",
+    "Scottish militia question Poker Club Ferguson"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Russian political thought from the Slavophiles to Eurasianism",
+   "scope": "Russian political ideas of the 19th and early 20th centuries: Chaadaev, the Slavophile-Westernizer debate, Herzen's Russian socialism and the obshchina, Chernyshevsky and the Narodniks, the Vekhi symposium, and the émigré Eurasianists.",
+   "queries": [
+    "Slavophiles Westernizers Khomyakov Kireyevsky Chaadaev",
+    "Alexander Herzen Russian socialism obshchina commune",
+    "Narodniks Land and Liberty Chernyshevsky populism",
+    "Eurasianism Trubetskoy Savitsky emigre movement"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Japanese political thought from Tokugawa Confucianism to Maruyama Masao",
+   "scope": "Japanese political ideas: Ogyū Sorai and Tokugawa Confucianism, Kokugaku and the Mito school's kokutai, Fukuzawa Yukichi and the Meiroku Society, the Freedom and People's Rights Movement, Kita Ikki, the Kyoto School, and Maruyama Masao.",
+   "queries": [
+    "Sorai Tokugawa Confucianism political thought",
+    "Mito school kokutai Aizawa Seishisai Shinron",
+    "Fukuzawa Yukichi Meirokusha Meiji enlightenment",
+    "Maruyama Masao Kita Ikki Japanese ultranationalism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin American political thought from Bolívar to liberation theology",
+   "scope": "Latin American political ideas: Bolívar's Jamaica Letter and Angostura Address, Sarmiento's Facundo and Alberdi's Bases, Martí's Nuestra América, Rodó's Ariel, Mariátegui's Seven Essays, and Gutiérrez's liberation theology.",
+   "queries": [
+    "Bolivar Jamaica Letter Angostura Address",
+    "Sarmiento Facundo civilization barbarism Alberdi",
+    "Jose Marti Nuestra America Rodo Ariel",
+    "Mariategui Seven Interpretive Essays Peruvian Reality"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Postcolonial African political philosophy and African socialism",
+   "scope": "Political ideologies and philosophies of independent African states: Nyerere's Ujamaa and the Arusha Declaration, Nkrumah's Consciencism, Senghor's African socialism, Kaunda's Zambian Humanism, and Wiredu's consensual democracy and Ubuntu.",
+   "queries": [
+    "Nyerere Ujamaa Arusha Declaration 1967",
+    "Nkrumah Consciencism philosophy ideology decolonization",
+    "Kaunda Zambian Humanism Senghor African socialism",
+    "Kwasi Wiredu consensual democracy Ubuntu philosophy"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Indigenous political thought and Indigenous sovereignty",
+   "scope": "Political thought of Indigenous peoples, mainly in North America and Oceania: the Haudenosaunee Great Law of Peace, the Two Row Wampum and treaty federalism, Vine Deloria Jr., Taiaiake Alfred, Glen Coulthard's critique of recognition, and self-determination under UNDRIP.",
+   "queries": [
+    "Haudenosaunee Great Law of Peace Gayanashagowa",
+    "Two Row Wampum treaty Kaswentha",
+    "Glen Coulthard Red Skin White Masks recognition",
+    "Vine Deloria Custer Died for Your Sins"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Catholic social teaching, Christian democracy and distributism",
+   "scope": "Modern Catholic and Christian-democratic political thought: papal social encyclicals from Rerum Novarum to Centesimus Annus, subsidiarity, Maritain's personalism and Integral Humanism, Sturzo's Partito Popolare, and Chesterton-Belloc distributism.",
+   "queries": [
+    "Rerum Novarum Quadragesimo Anno subsidiarity encyclical",
+    "Jacques Maritain Integral Humanism personalism",
+    "Christian democracy Luigi Sturzo Partito Popolare",
+    "distributism Chesterton Belloc Servile State"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "British Idealism and the New Liberalism",
+   "scope": "Hegel-influenced British political philosophy of the late 19th and early 20th centuries: T.H. Green on political obligation and positive freedom, Bradley's My Station and Its Duties, Bosanquet's Philosophical Theory of the State, and the New Liberalism of Hobhouse and Ritchie.",
+   "queries": [
+    "T. H. Green Lectures Principles Political Obligation",
+    "Bernard Bosanquet Philosophical Theory of the State",
+    "Hobhouse Liberalism 1911 New Liberalism",
+    "Bradley My Station and Its Duties"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "American pragmatism and Progressive Era political thought",
+   "scope": "Political ideas of American pragmatists and progressives: Dewey's The Public and Its Problems, the Lippmann-Dewey debate over public opinion, Croly's Promise of American Life, Jane Addams, Mary Parker Follett and Randolph Bourne.",
+   "queries": [
+    "Dewey The Public and Its Problems 1927",
+    "Walter Lippmann Public Opinion Phantom Public",
+    "Herbert Croly Promise of American Life",
+    "Mary Parker Follett New State Jane Addams"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Max Weber's political thought: legitimacy, bureaucracy and leadership",
+   "scope": "Weber's political writings and political sociology: the three types of legitimate domination, the state's monopoly on legitimate violence, Politics as a Vocation, the ethics of conviction and responsibility, bureaucratization, and plebiscitary leader democracy.",
+   "queries": [
+    "Weber Politics as a Vocation 1919 lecture",
+    "three types legitimate domination charismatic traditional",
+    "Weber ethic of conviction ethic of responsibility",
+    "Weber Parliament and Government Reconstructed Germany"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Hannah Arendt's theory of action, revolution and judgment",
+   "scope": "Arendt's political thought beyond her account of totalitarianism: the labor/work/action distinction, natality and plurality in The Human Condition, On Revolution and the council system, Eichmann in Jerusalem and the banality of evil, and her lectures on judgment.",
+   "queries": [
+    "Arendt Human Condition labor work action",
+    "Arendt On Revolution council system",
+    "Eichmann in Jerusalem banality of evil",
+    "Arendt Lectures Kant Political Philosophy judgment"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Leo Strauss, Eric Voegelin and the revival of classical political philosophy",
+   "scope": "Mid-20th-century efforts to recover pre-modern political philosophy: Strauss's Natural Right and History, esoteric writing and the quarrel of ancients and moderns, Voegelin's New Science of Politics and Order and History, and the Straussian schools (Bloom, Jaffa, Claremont).",
+   "queries": [
+    "Leo Strauss Natural Right and History",
+    "Persecution and the Art of Writing esotericism",
+    "Eric Voegelin New Science of Politics gnosticism",
+    "Straussians Allan Bloom Harry Jaffa Claremont"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cold War liberalism and the liberalism of fear",
+   "scope": "Mid-20th-century anti-totalitarian liberalism (Berlin excluded): Popper's Open Society and Its Enemies, Talmon's totalitarian democracy, Aron's Opium of the Intellectuals, Schlesinger's Vital Center, the Congress for Cultural Freedom, and Judith Shklar's liberalism of fear.",
+   "queries": [
+    "Popper Open Society and Its Enemies",
+    "Talmon Origins of Totalitarian Democracy",
+    "Raymond Aron Opium of the Intellectuals",
+    "Judith Shklar liberalism of fear"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Existentialist and phenomenological political thought in postwar France",
+   "scope": "Political writings of Sartre, Camus, Merleau-Ponty and their circle: Les Temps modernes, Merleau-Ponty's Humanism and Terror and Adventures of the Dialectic, Camus's The Rebel and the 1952 Sartre-Camus quarrel, and Sartre's Critique of Dialectical Reason.",
+   "queries": [
+    "Camus The Rebel Sartre quarrel 1952",
+    "Merleau-Ponty Humanism and Terror Adventures Dialectic",
+    "Sartre Critique of Dialectical Reason seriality",
+    "Les Temps modernes engagement Sartre politics"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ordoliberalism and the intellectual history of neoliberalism",
+   "scope": "Origins and doctrines of neoliberal thought: the 1938 Walter Lippmann Colloquium, the Mont Pelerin Society, the Freiburg School ordoliberals (Eucken, Böhm, Röpke, Rüstow), and the social market economy.",
+   "queries": [
+    "Walter Lippmann Colloquium 1938 neoliberalism",
+    "Mont Pelerin Society founding 1947",
+    "Freiburg School ordoliberalism Walter Eucken",
+    "social market economy Erhard Röpke Rüstow"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Analytical Marxism",
+   "scope": "The September Group's 'non-bullshit Marxism': G.A. Cohen's Karl Marx's Theory of History: A Defence and functional explanation, Roemer's general theory of exploitation, Elster's Making Sense of Marx, Erik Olin Wright's class analysis, and market socialism.",
+   "queries": [
+    "Cohen Karl Marx's Theory of History Defence",
+    "September Group analytical Marxism Elster Roemer",
+    "John Roemer general theory exploitation class",
+    "Erik Olin Wright contradictory class locations"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of rights: Hohfeld, will and interest theories, and human rights",
+   "scope": "Analytical and historical theories of rights: Hohfeld's jural relations, the will and interest theories (Hart, Raz), natural rights genealogies (Tierney, Tuck), Dworkin's rights as trumps, and the foundations of human rights (Shue's basic rights, Griffin, Beitz).",
+   "queries": [
+    "Hohfeld jural relations claim privilege power immunity",
+    "will theory interest theory rights Hart Raz",
+    "Henry Shue Basic Rights subsistence security",
+    "Dworkin rights as trumps Tierney natural rights"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Rule of law and constitutionalism theory",
+   "scope": "Theories of legality and constitutional government: Dicey's rule of law, Fuller's eight principles of the inner morality of law, Raz and Hayek on the rule of law, the German Rechtsstaat tradition, and debates over judicial review and political constitutionalism (Waldron, Bellamy).",
+   "queries": [
+    "Lon Fuller eight principles inner morality law",
+    "Dicey rule of law three meanings",
+    "Rechtsstaat concept Mohl German constitutionalism",
+    "Waldron core case against judicial review"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Federalism and consociational power-sharing theory",
+   "scope": "Theories of divided and shared rule: Althusius's Politica and symbiotic consociation, Elazar's and Riker's theories of federalism, Lijphart's consociationalism and consensus democracy, and Horowitz's centripetal alternative.",
+   "queries": [
+    "Althusius Politica federalism consociation symbiotics",
+    "Lijphart consociational democracy grand coalition veto",
+    "Lijphart Patterns of Democracy consensus majoritarian",
+    "Horowitz centripetalism vote pooling ethnic conflict"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Citizenship theory and civic education",
+   "scope": "Theories of citizenship as status, rights and practice: T.H. Marshall's Citizenship and Social Class, liberal and republican accounts of civic virtue, Gutmann's Democratic Education, Galston and Callan on civic education, and cases such as Wisconsin v. Yoder and Mozert v. Hawkins.",
+   "queries": [
+    "T. H. Marshall Citizenship and Social Class",
+    "Amy Gutmann Democratic Education civic virtue",
+    "Mozert v Hawkins Wisconsin v Yoder education",
+    "Kymlicka Norman return of the citizen"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Toleration and freedom of expression theory",
+   "scope": "Arguments for religious toleration and free speech beyond Locke and Mill: Castellio, Milton's Areopagitica, Bayle's Philosophical Commentary, Voltaire's Treatise on Tolerance, Meiklejohn's democratic theory of speech, the marketplace of ideas, and hate-speech debates (Waldron).",
+   "queries": [
+    "Milton Areopagitica 1644 licensing printing",
+    "Pierre Bayle Philosophical Commentary toleration conscience",
+    "Sebastian Castellio Concerning Heretics Servetus toleration",
+    "Meiklejohn marketplace of ideas hate speech"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Deliberative and participatory democratic innovations",
+   "scope": "Theory and practice of democratic innovations: Fishkin's deliberative polling, citizens' assemblies (British Columbia, Ontario, Ireland), consensus conferences and citizens' juries, Dienel's planning cells, Porto Alegre's participatory budgeting, and sortition or lottocracy proposals.",
+   "queries": [
+    "Fishkin deliberative polling first Manchester 1994",
+    "British Columbia Citizens' Assembly electoral reform 2004",
+    "Porto Alegre participatory budgeting 1989",
+    "sortition lottocracy planning cell citizens jury"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Theories of populism",
+   "scope": "Political theory of populism: Mudde's ideational 'thin-centred ideology' approach, Laclau's On Populist Reason, Müller's anti-pluralism thesis, Canovan's redemptive and pragmatic faces of democracy, and historical reference cases such as the US People's Party.",
+   "queries": [
+    "Mudde populism thin-centred ideology",
+    "Laclau On Populist Reason empty signifier",
+    "Margaret Canovan populism two faces democracy",
+    "Omaha Platform People's Party 1892 populism"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Concepts and theories of ideology",
+   "scope": "The concept of ideology and its theorists: Destutt de Tracy's idéologie, Marx's false consciousness, Mannheim's Ideology and Utopia, Althusser's ideological state apparatuses, Bell's end-of-ideology thesis, Fukuyama's end of history, and Freeden's morphological approach.",
+   "queries": [
+    "Destutt de Tracy ideologie ideologues coined",
+    "Mannheim Ideology and Utopia sociology knowledge",
+    "Daniel Bell End of Ideology 1960",
+    "Michael Freeden morphological approach ideologies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cambridge School and methodology in the history of political thought",
+   "scope": "Methods for studying past political ideas: Skinner's 'Meaning and Understanding in the History of Ideas', Pocock's languages of political thought, Laslett and Dunn, Koselleck's Begriffsgeschichte and the Geschichtliche Grundbegriffe, and Lovejoy's history of ideas.",
+   "queries": [
+    "Quentin Skinner Meaning Understanding History Ideas 1969",
+    "Pocock languages of political thought contextualism",
+    "Koselleck Begriffsgeschichte Geschichtliche Grundbegriffe",
+    "Lovejoy Great Chain of Being history ideas"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

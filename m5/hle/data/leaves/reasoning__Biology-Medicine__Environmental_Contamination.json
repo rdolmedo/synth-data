@@ -1,0 +1,152 @@
+{
+ "partition": "reasoning",
+ "category": "Biology/Medicine",
+ "subject": "Environmental Contamination",
+ "target_leaves": 8,
+ "expected_problems": 38,
+ "leaves": [
+  {
+   "leaf": "Aquatic toxicokinetics and dietary bioaccumulation",
+   "scope": "Problems give uptake, elimination, growth and biotransformation rate constants, feeding parameters, or uptake/depuration time-course data for a contaminant in aquatic organisms. They ask for steady-state body burdens, kinetic BCF/BMF/TMF values, times to reach a fraction of steady state, or rate constants back-calculated from data. They are hard because several uptake routes and loss processes must be coupled correctly, and lipid normalization, growth correction and unit conversions are easy places to go wrong.",
+   "techniques": [
+    "Piecewise solution of the one-compartment first-order ODE across exposure and depuration phases",
+    "Treating growth dilution and metabolic biotransformation as additive elimination rate constants, with growth-corrected kinetic BCF",
+    "Gill uptake clearance from ventilation rate and Kow-dependent uptake efficiency (Gobas-type mechanistic model)",
+    "Dietary biomagnification factor as feeding rate \u00d7 assimilation efficiency \u00f7 total elimination rate",
+    "Trophic magnification factor from regressing log lipid-normalized concentration on \u03b415N-derived trophic level"
+   ],
+   "answer_forms": [
+    "decimal number with units",
+    "integer (days)",
+    "dimensionless ratio",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Human reverse dosimetry from biomonitoring data",
+   "scope": "Problems convert measured serum, blood or urinary biomarker levels into daily intakes, or the reverse, using pharmacokinetic reasoning, then compare the results with reference doses. They are hard because they combine half-lives, volumes of distribution, conversion between parent and metabolite molar masses, fractional urinary excretion, and creatinine adjustment. Some cases are not at steady state, such as exposure that has stopped, or lactational transfer of persistent compounds.",
+   "techniques": [
+    "Steady-state intake from clearance and concentration (intake = CL\u00b7Css/F) with half-life-derived elimination constants",
+    "Urinary mass balance using creatinine excretion rate, fractional urinary excretion and conversion from metabolite to parent molar mass",
+    "Estimating half-lives and past exposure from exponential decline in paired serum samples after exposure stops",
+    "Breastfeeding treated as an extra maternal elimination pathway and as an infant body-burden loading term",
+    "Hazard quotient and margin-of-exposure comparisons against RfD/TDI values",
+    "Tissue:blood partition coefficients in simple PBPK-style distribution models"
+   ],
+   "answer_forms": [
+    "decimal number with units",
+    "integer (years or days)",
+    "dimensionless ratio",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Sequential reductive dechlorination kinetics in aquifers",
+   "scope": "Problems model the chain of chlorinated ethenes or ethanes (e.g., PCE\u2192TCE\u2192cis-DCE\u2192VC\u2192ethene) under advection, sorption and microbial transformation. They ask for daughter-product maxima, plume lengths, travel-time-based attenuation, or electron-donor demand. They are hard because the coupled first-order chains with species-specific retardation, or Monod kinetics with inhibition, have to be solved exactly and balanced on a molar basis.",
+   "techniques": [
+    "Bateman-type analytical solution of sequential first-order decay, including the time and size of each daughter's maximum",
+    "Retardation factors from Koc\u00b7foc\u00b7\u03c1b/n and decay along the retarded travel time",
+    "Steady-state 1-D advection\u2013dispersion\u2013reaction plume length (Domenico-type solutions)",
+    "Monod kinetics with competitive inhibition among chlorinated ethenes and electron-donor limitation",
+    "Electron-equivalent and H2 stoichiometry for donor demand (e.g., lactate or propionate fermentation)",
+    "Molar mass balance along the chain, including chloride release"
+   ],
+   "answer_forms": [
+    "decimal number with units",
+    "integer",
+    "closed-form expression",
+    "ordered tuple"
+   ]
+  },
+  {
+   "leaf": "Compound-specific isotope analysis of contaminant degradation",
+   "scope": "Problems use shifts in \u03b413C, \u03b42H, \u03b437Cl or \u03b415N of an organic contaminant to work out the extent of in-situ biodegradation, tell transformation pathways apart, or separate degradation from dilution. They are hard because the Rayleigh equation, the difference between bulk and position-specific isotope effects, and isotope mass balances across parent and daughter compounds all have to be applied rigorously.",
+   "techniques": [
+    "Inverting the Rayleigh equation for fraction remaining and percent biodegraded",
+    "Converting bulk enrichment factors to apparent kinetic isotope effects, with corrections for non-reactive positions and intramolecular competition",
+    "Dual-element isotope slopes (\u039b) to identify the pathway, e.g., oxidative vs reductive transformation",
+    "Isotope mass balance of parent plus daughters along a degradation chain",
+    "Separating isotope-sensitive degradation from isotope-insensitive dilution, sorption and volatilization",
+    "Effect of mixing and heterogeneous flow on apparent enrichment factors"
+   ],
+   "answer_forms": [
+    "decimal number (percent)",
+    "dimensionless ratio",
+    "name of a degradation pathway",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Mixture toxicity and toxic equivalency calculations",
+   "scope": "Problems predict the combined effect of contaminant mixtures from single-chemical dose\u2013response parameters using concentration addition, independent action, or TEF weighting, then judge whether observed effects deviate from the prediction. They are hard because dose\u2013response curves must be inverted nonlinearly, slopes may differ, partial agonists may be present, and the treatment of non-detects matters.",
+   "techniques": [
+    "Concentration addition with toxic-unit sums, solving for mixture ECx under log-logistic/Hill models",
+    "Independent action (response multiplication) and the model deviation ratio as a test for synergism or antagonism",
+    "TEQ summation with congener-specific TEFs, using lower-, middle- and upper-bound handling of non-detects",
+    "Generalized concentration addition for partial agonists with different maximal efficacies",
+    "Isobologram geometry and interaction indices",
+    "Benchmark-dose and BMDL inversion from fitted dose\u2013response models"
+   ],
+   "answer_forms": [
+    "decimal number",
+    "dimensionless ratio",
+    "closed-form expression",
+    "letter for multiple choice"
+   ]
+  },
+  {
+   "leaf": "Quantitative microbial risk assessment for waterborne pathogens",
+   "scope": "Problems chain pathogen concentrations, treatment log-reductions, ingestion volumes and dose\u2013response models to get per-event and annual infection risk or disease burden, or work backwards to the treatment needed to meet a health target. They are hard because they involve nonlinear dose\u2013response models, Poisson variability in dose, aggregation over repeated exposures, and corrections for method recovery and viability.",
+   "techniques": [
+    "Exponential and beta-Poisson (approximate or exact) dose\u2013response models, including N50 reparameterization",
+    "Annualizing risk over repeated exposures with 1\u2212(1\u2212p)^n vs linear approximations",
+    "Back-calculating required log-reduction credits to meet a 10^-4 per person-year or DALY-based target",
+    "Chick\u2013Watson CT disinfection kinetics and Hom-model deviations",
+    "Indicator and pathogen die-off (T90) in recreational or irrigation water",
+    "Poisson and negative-binomial pathogen distributions in sampled volumes, with recovery-efficiency correction"
+   ],
+   "answer_forms": [
+    "decimal number",
+    "integer (log reductions)",
+    "scientific notation",
+    "closed-form expression"
+   ]
+  },
+  {
+   "leaf": "Radioecological transfer and internal radiation dose",
+   "scope": "Problems follow radionuclides from deposition through soil, vegetation, livestock and food to human committed effective dose, or analyze decay-chain ingrowth in contaminated media and organisms. They are hard because physical, biological and ecological half-lives must be combined, daughters may be in transient or secular equilibrium, and intakes must be integrated over time before dose coefficients are applied.",
+   "techniques": [
+    "Effective half-life from combining physical, biological and ecological removal constants",
+    "Bateman equations and time to maximum daughter activity (e.g., 90Sr\u219290Y, 226Ra\u2192222Rn, 137Cs\u2192137mBa)",
+    "Transfer factors (Fm, Ff), concentration ratios and aggregated transfer coefficients (Tag)",
+    "Time-integrated intake under ecological decline, with committed effective dose from ingestion dose coefficients",
+    "Specific activity from half-life and molar mass (A = \u03bbN), and mass\u2013activity conversions",
+    "Radon-progeny equilibrium factor and potential alpha energy (working-level) calculations"
+   ],
+   "answer_forms": [
+    "decimal number with units",
+    "scientific notation",
+    "integer",
+    "name of a nuclide"
+   ]
+  },
+  {
+   "leaf": "Combinatorics of halogenated aromatic congeners",
+   "scope": "Problems count or classify congeners of polyhalogenated aromatic contaminants (PCBs, PCDDs, PCDFs, PBDEs, PCNs, mixed bromo/chloro analogues) under molecular symmetry, or identify which congeners meet toxicologically relevant structural criteria. They are hard because counting that accounts for symmetry has to be combined with substitution-pattern rules such as lateral 2,3,7,8-substitution, ortho-chlorine count for coplanarity, or hindered rotation that produces stable atropisomers.",
+   "techniques": [
+    "Burnside's lemma or P\u00f3lya enumeration over the symmetry group of substitutable positions (dibenzo-p-dioxin, dibenzofuran, biphenyl ring-swap/flip)",
+    "Extracting homolog-group counts as coefficients of the cycle-index generating function",
+    "Applying dioxin-like criteria (non-ortho/mono-ortho PCBs with lateral substitution; 2,3,7,8-substituted PCDD/Fs)",
+    "Counting axially chiral PCBs with three or more ortho halogens and asymmetric ring substitution",
+    "IUPAC/Ballschmiter congener numbering and canonical-name conventions",
+    "Enumerating mixed-halogen congeners with two substituent types"
+   ],
+   "answer_forms": [
+    "integer",
+    "small set of congener numbers",
+    "name of a congener",
+    "ordered tuple"
+   ]
+  }
+ ]
+}

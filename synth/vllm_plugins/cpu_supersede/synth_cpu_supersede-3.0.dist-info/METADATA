@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: synth-cpu-supersede
+Version: 3.0
+Summary: vLLM general plugin: evict an agent's superseded Mamba boundary states from the CPU KV tier first (vLLM 0.32: v2 code; vLLM 0.34: v3)

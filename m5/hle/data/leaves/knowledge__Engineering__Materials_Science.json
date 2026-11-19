@@ -1,0 +1,41 @@
+{
+ "partition": "knowledge",
+ "category": "Engineering",
+ "subject": "Materials Science",
+ "target_leaves": 8,
+ "expected_problems": 71,
+ "leaves": [
+  {
+   "leaf": "Cementation and crucible steelmaking historical practice",
+   "scope": "Documented 18th-to-early-20th-century details of blister steel cementation, Huntsman crucible melting, Sheffield temper numbers, carburizing charges, furnace cycle times and fuel consumption, and the carbon-content grades used for particular tools. A question could combine several recorded process figures, for example to infer a carbon pickup rate or rank steel grades by their stated temper."
+  },
+  {
+   "leaf": "Frank\u2013Kasper and Laves intermetallic phase crystallography",
+   "scope": "Specific Strukturbericht designations, Pearson symbols, Wyckoff site occupancies, coordination polyhedra (CN12\u2013CN16) and prototype compounds for A15, C14, C15, C36, \u03c3, \u03bc and \u03c7 phases, plus reported site preferences in transition-metal systems. A question could ask the solver to derive atoms per cell, average coordination number or a site-occupancy ratio from the documented structure data."
+  },
+  {
+   "leaf": "Bulk metallic glass compositions and glass-forming indices",
+   "scope": "Reported compositions, critical casting diameters and characteristic temperatures (Tg, Tx, Tl) of particular Zr-, Pd-, Cu-, Fe- and Mg-based bulk metallic glasses, as published in the alloy-development literature. A question could have the solver compute indices such as Trg, \u0394Tx or \u03b3 = Tx/(Tg+Tl) from the reported values and rank alloys or check them against the reported critical thickness."
+  },
+  {
+   "leaf": "Portland cement clinker phase chemistry",
+   "scope": "Cement-chemist notation, polymorphs of alite and belite, reported oxide analyses of specific historical or modern clinkers, the coefficients of the Bogue calculation, and the hydration products and their stoichiometry. A question could give a documented oxide analysis and require a Bogue-type phase estimate, or infer how a change in a modulus (LSF, silica ratio) shifts the phase content."
+  },
+  {
+   "leaf": "Halide perovskite compositional engineering and tolerance factors",
+   "scope": "Reported A-site and X-site mixtures (FA/MA/Cs/Rb, I/Br/Cl), the phase-transition temperatures of specific compositions, effective ionic radii used for organic cations, and the bandgaps reported for alloy series. A question could have the solver compute the Goldschmidt tolerance factor or octahedral factor from the documented radii, or interpolate a bandgap, to predict the phase or performance of a stated composition."
+  },
+  {
+   "leaf": "Zirconium alloy fuel cladding and hydride behavior",
+   "scope": "Nominal compositions of Zircaloy-2, Zircaloy-4, ZIRLO, M5 and E110, the terminal solid solubility of hydrogen in zirconium, hydride reorientation thresholds, and the breakaway oxidation and embrittlement criteria reported in the reactor-materials literature. A question could combine composition differences with a documented solubility relation to infer precipitated hydride content, or work out which alloy meets a given criterion."
+  },
+  {
+   "leaf": "Early US Forest Service timber strength tests",
+   "scope": "Tabulated modulus of rupture, crushing strength, specific gravity, shrinkage and moisture-dependence data for named North American wood species, taken from early Forest Products Laboratory and Forest Service bulletins and handbooks. A question could have the solver compare species, adjust a property to a different moisture content using the documented relations, or compute a strength-to-weight ranking."
+  },
+  {
+   "leaf": "Early semi-synthetic and phenolic plastics manufacture",
+   "scope": "Documented formulations and process conditions for celluloid (camphor-to-nitrocellulose ratios), casein-formaldehyde galalith, shellac molding compounds and Bakelite resols and novolacs, including the cure stages (A/B/C), fillers and recorded properties. A question could combine recipe proportions with stoichiometry or stated yields to infer the composition or behavior of a product."
+  }
+ ]
+}

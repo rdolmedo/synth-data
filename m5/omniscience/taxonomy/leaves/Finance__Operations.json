@@ -1,0 +1,621 @@
+{
+ "domain": "Finance",
+ "subtopic": "Operations",
+ "weight": 0.0092805,
+ "leaves": [
+  {
+   "leaf": "Operations strategy, competitive priorities and focused factories",
+   "scope": "Frameworks that align operations with business strategy: Skinner's focused factory and trade-offs, the Hayes-Wheelwright product-process matrix and four stages of manufacturing's strategic role, Hill's order winners and qualifiers, and the Ferdows-De Meyer sand cone model.",
+   "queries": [
+    "Skinner focused factory manufacturing missing link strategy",
+    "Hayes Wheelwright product process matrix stages",
+    "order winners order qualifiers Terry Hill",
+    "sand cone model Ferdows De Meyer capabilities"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Toyota Production System and lean manufacturing principles",
+   "scope": "Where TPS and lean came from and their vocabulary: Ohno and the Toyoda family, just-in-time, jidoka, kanban, heijunka, andon, the seven wastes, SMED, poka-yoke, 5S, kaizen and the Womack-Jones lean thinking principles.",
+   "queries": [
+    "Taiichi Ohno Toyota Production System seven wastes",
+    "Shigeo Shingo SMED single minute exchange die",
+    "kanban jidoka heijunka andon cord",
+    "Womack Jones Lean Thinking five principles"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Six Sigma methodology and DMAIC",
+   "scope": "Six Sigma's history at Motorola and GE, DPMO and sigma-level conversions including the 1.5 sigma shift, the DMAIC and DMADV/DFSS phases, belt roles and Lean Six Sigma certification bodies.",
+   "queries": [
+    "Six Sigma Motorola Bill Smith 3.4 DPMO",
+    "DMAIC define measure analyze improve control phases",
+    "1.5 sigma shift process sigma conversion table",
+    "Jack Welch General Electric Six Sigma Black Belt"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Quality management pioneers and national quality awards",
+   "scope": "The ideas of Shewhart, Deming, Juran, Crosby, Feigenbaum and Ishikawa that shaped TQM, along with the Deming Prize, the Malcolm Baldrige National Quality Award (criteria, categories, recipients) and the EFQM Excellence Model.",
+   "queries": [
+    "Deming fourteen points seven deadly diseases",
+    "Juran trilogy quality planning control improvement",
+    "Malcolm Baldrige National Quality Award recipients criteria",
+    "Crosby zero defects cost of quality Feigenbaum"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Statistical process control and process capability",
+   "scope": "Shewhart control charts for variables and attributes (X-bar/R, X-bar/S, p, np, c, u) plus CUSUM and EWMA, control chart constants, run rules (Western Electric, Nelson), and the capability indices Cp, Cpk, Pp and Ppk.",
+   "queries": [
+    "control chart constants A2 D3 D4 subgroup",
+    "Western Electric rules Nelson rules control chart",
+    "process capability index Cp Cpk Ppk",
+    "p chart c chart u chart attributes"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Acceptance sampling plans and inspection standards",
+   "scope": "Lot acceptance sampling: single, double and sequential plans, AQL and LTPD, producer's and consumer's risk, OC curves, AOQL, Dodge-Romig tables, and the standards MIL-STD-105E, ANSI/ASQ Z1.4 and Z1.9, ISO 2859 and MIL-STD-1916.",
+   "queries": [
+    "ANSI ASQ Z1.4 sample size code letter",
+    "MIL-STD-105E inspection levels tightened reduced",
+    "operating characteristic curve producer's risk LTPD",
+    "Dodge Romig sampling tables AOQL"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Quality management system standards and certification",
+   "scope": "The ISO 9000 family's editions and clause structure (ISO 9001:2015), sector QMS standards such as IATF 16949, AS9100, ISO 13485 and TL 9000, automotive core tools (APQP, PPAP), and certification statistics from the ISO Survey.",
+   "queries": [
+    "ISO 9001:2015 clauses high level structure",
+    "IATF 16949 automotive APQP PPAP requirements",
+    "AS9100 Rev D aerospace quality management",
+    "ISO Survey number of ISO 9001 certificates"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Demand forecasting methods and accuracy measures",
+   "scope": "Operations forecasting techniques: moving averages, exponential smoothing (Brown, Holt, Winters), regression, Box-Jenkins ARIMA and Delphi; error metrics (MAD, MSE, MAPE, tracking signal); and the Makridakis M-competitions.",
+   "queries": [
+    "Holt Winters exponential smoothing seasonal constant",
+    "tracking signal MAD forecast bias control limits",
+    "Makridakis M4 M5 competition forecasting results",
+    "Delphi method RAND Corporation forecasting"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Sales and operations planning and aggregate planning",
+   "scope": "Medium-term planning: chase, level and mixed aggregate strategies, the HMMS linear decision rule, the transportation method of production planning, master production scheduling with time fences and available-to-promise, and S&OP/IBP processes and maturity models.",
+   "queries": [
+    "aggregate planning chase level strategy costs",
+    "sales and operations planning Oliver Wight IBP",
+    "master production schedule available to promise time fences",
+    "Holt Modigliani Muth Simon linear decision rule"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inventory theory: EOQ, newsvendor and reorder-point models",
+   "scope": "Analytical inventory models: the Harris/Wilson EOQ, EPQ and quantity discounts, the newsvendor critical fractile, reorder points and safety stock for cycle service level and fill rate, (Q,r), (s,S) and base-stock policies, and multi-echelon models such as Clark-Scarf.",
+   "queries": [
+    "economic order quantity Ford Harris 1913",
+    "newsvendor model critical ratio overage underage",
+    "safety stock reorder point cycle service level",
+    "base stock policy order-up-to periodic review"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Inventory control practices: ABC classification, cycle counting and record accuracy",
+   "scope": "Day-to-day inventory management: ABC/Pareto, VED and XYZ classification, cycle counting programs and frequencies, record accuracy tolerances, turnover and days-of-supply measures, and handling of obsolete and slow-moving stock.",
+   "queries": [
+    "ABC analysis inventory classification Pareto percentages",
+    "cycle counting program frequency A items",
+    "inventory record accuracy tolerance APICS",
+    "inventory turnover days of supply benchmark"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "MRP, MRP II and ERP systems",
+   "scope": "Dependent-demand planning: Orlicky's MRP, bill-of-materials structures and low-level coding, lot-sizing heuristics (Wagner-Whitin, Silver-Meal, part-period balancing), closed-loop MRP and MRP II, DDMRP, and the history of ERP vendors and releases.",
+   "queries": [
+    "Joseph Orlicky material requirements planning bill of materials",
+    "Wagner Whitin Silver Meal lot sizing",
+    "SAP R/3 ERP history release",
+    "demand driven MRP DDMRP Ptak Smith"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Production scheduling and sequencing rules",
+   "scope": "Short-term scheduling: dispatching rules (FCFS, SPT, EDD, critical ratio, slack), Johnson's rule, the Moore-Hodgson algorithm, Gantt charts, the Hungarian assignment method, input-output control, Graham's three-field notation, and finite-capacity/APS systems.",
+   "queries": [
+    "Johnson's rule two machine flow shop",
+    "dispatching rules shortest processing time earliest due date",
+    "Hungarian method assignment problem Kuhn",
+    "Graham notation scheduling alpha beta gamma"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Theory of Constraints and Critical Chain",
+   "scope": "Goldratt's Theory of Constraints: The Goal, the five focusing steps, drum-buffer-rope, throughput/inventory/operating-expense measures, thinking-process trees, Critical Chain project management and buffer management.",
+   "queries": [
+    "Goldratt The Goal five focusing steps",
+    "drum buffer rope scheduling constraint",
+    "throughput accounting operating expense Goldratt",
+    "critical chain project management buffer Goldratt"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Process analysis, capacity and throughput measures",
+   "scope": "Process flow and capacity analysis: Little's Law, throughput and flow time, utilization and bottlenecks, takt time and cycle time, design versus effective capacity, efficiency, capacity cushions, lead/lag expansion strategies and break-even analysis.",
+   "queries": [
+    "Little's Law inventory throughput flow time",
+    "takt time cycle time bottleneck capacity",
+    "design capacity effective capacity efficiency utilization",
+    "capacity cushion lead lag expansion strategy"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Learning curves and experience effects",
+   "scope": "Wright's 1936 learning curve, the unit (Crawford) and cumulative-average (Wright) models, typical learning rates by industry, learning-curve coefficient tables, the BCG experience curve and related laws such as Swanson's law.",
+   "queries": [
+    "Wright 1936 learning curve airplane 80 percent",
+    "cumulative average versus unit learning curve Crawford",
+    "Boston Consulting Group experience curve Henderson",
+    "learning rate Liberty ships Model T"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Facility layout and assembly line balancing",
+   "scope": "Layout types (process, product, fixed-position, cellular), group technology, systematic layout planning and REL charts, CRAFT/ALDEP/CORELAP algorithms, and line balancing (cycle time, minimum workstations, balance delay, ranked positional weight).",
+   "queries": [
+    "assembly line balancing ranked positional weight",
+    "systematic layout planning Muther relationship chart",
+    "CRAFT computerized relative allocation of facilities",
+    "cellular manufacturing group technology part families"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Facility location models and site selection",
+   "scope": "Quantitative and qualitative location decisions: factor rating, center of gravity, load-distance, locational break-even, the Weber problem and Weiszfeld algorithm, p-median and covering models, and plant location factors.",
+   "queries": [
+    "center of gravity method facility location",
+    "factor rating method location decision weights",
+    "Weber problem Weiszfeld algorithm location",
+    "p-median set covering location model"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Queueing theory and service capacity",
+   "scope": "Kendall notation, Erlang's foundational work, M/M/1, M/M/c, M/D/1 and M/G/1 (Pollaczek-Khinchine) results, the Erlang B and C formulas, square-root staffing for call centers, and Maister's psychology of waiting lines.",
+   "queries": [
+    "Kendall notation M/M/1 queue waiting time",
+    "Erlang C formula call center staffing",
+    "Pollaczek Khinchine formula M/G/1",
+    "Maister psychology of waiting lines"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Service operations design and service process frameworks",
+   "scope": "Operations frameworks specific to services: Chase's customer contact model, Schmenner's service process matrix, Shostack's service blueprinting, the service-profit chain, service recovery, and classic cases such as Shouldice Hospital.",
+   "queries": [
+    "customer contact model Chase high contact",
+    "service blueprint Shostack line of visibility",
+    "Schmenner service process matrix service factory",
+    "Shouldice Hospital hernia operations case"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Revenue management and yield management",
+   "scope": "Capacity-constrained pricing in airlines, hotels and car rental: American Airlines' yield management and DINAMO, Littlewood's rule, Belobaba's EMSR heuristics, nested booking limits, overbooking models, and RevPAR and RASM metrics.",
+   "queries": [
+    "Littlewood's rule two fare class booking limit",
+    "American Airlines yield management DINAMO Crandall",
+    "EMSR-b Belobaba expected marginal seat revenue",
+    "overbooking model denied boarding airline hotel"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Project scheduling: CPM, PERT and earned value",
+   "scope": "Network project scheduling: CPM (DuPont/Remington Rand, 1957), PERT (Polaris) three-time estimates, critical path and float, crashing, resource leveling, earned value management (CPI, SPI, EAC), and PMBOK Guide editions and PMI knowledge areas.",
+   "queries": [
+    "PERT Polaris three time estimates beta",
+    "critical path method Kelley Walker DuPont",
+    "earned value management CPI SPI EAC",
+    "PMBOK Guide edition Project Management Institute"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supply chain coordination, bullwhip effect and supply contracts",
+   "scope": "Information distortion and coordination: the bullwhip effect (Forrester, Lee-Padmanabhan-Whang), the MIT Beer Game, VMI, CPFR, ECR and quick response, risk pooling and postponement, and coordinating contracts (buyback, revenue sharing, quantity flexibility).",
+   "queries": [
+    "bullwhip effect Lee Padmanabhan Whang causes",
+    "MIT beer distribution game Sterman",
+    "collaborative planning forecasting replenishment CPFR VICS",
+    "revenue sharing contract Blockbuster supply chain"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supply chain performance metrics, SCOR model and rankings",
+   "scope": "The SCOR model (Supply Chain Council/ASCM, versions, Plan-Source-Make-Deliver-Return-Enable, SCOR Digital Standard), Level 1 metrics such as perfect order fulfillment, OTIF and cash-to-cash cycle time, the Gartner Supply Chain Top 25, and ASCM certifications.",
+   "queries": [
+    "SCOR model plan source make deliver return",
+    "perfect order fulfillment cash-to-cash cycle time",
+    "Gartner Supply Chain Top 25 Masters ranking",
+    "OTIF on time in full supplier fines"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Strategic sourcing and purchasing management",
+   "scope": "Procurement processes and tools: the Kraljic portfolio matrix, total cost of ownership, make-or-buy analysis, supplier selection and scorecards, e-sourcing and reverse auctions, single versus multiple sourcing, and the ISM and CIPS professional bodies.",
+   "queries": [
+    "Kraljic matrix purchasing portfolio leverage bottleneck",
+    "total cost of ownership supplier selection",
+    "reverse auction e-sourcing procurement savings",
+    "Institute for Supply Management CPSM CIPS"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Outsourcing, contract manufacturing and global production networks",
+   "scope": "Offshoring, nearshoring and reshoring decisions, EMS and ODM providers (Foxconn, Jabil, Flex, Pegatron), the foundry model, maquiladoras and IMMEX, China-plus-one strategies, and supplier-concentration disclosures in annual reports.",
+   "queries": [
+    "electronics manufacturing services Foxconn Jabil Flex",
+    "maquiladora IMMEX program Mexico nearshoring",
+    "sole source contract manufacturer dependence risk",
+    "Kearney reshoring index manufacturing imports"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Supply chain disruption, risk and resilience",
+   "scope": "Major supply chain disruptions and resilience practices: the 2011 Tohoku earthquake and Thai floods, the Renesas fire, the Ever Given Suez blockage, the COVID-era chip shortage, Red Sea diversions, time-to-recover/time-to-survive metrics, and buffering and multi-sourcing strategies.",
+   "queries": [
+    "Ever Given Suez Canal blockage 2021",
+    "2011 Thailand floods hard disk drive shortage",
+    "time to recover time to survive Simchi-Levi",
+    "Renesas fire semiconductor shortage automotive production"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Warehousing and distribution center operations",
+   "scope": "Warehouse design and processes: receiving, putaway, slotting, order picking methods (discrete, batch, zone, wave), pick-to-light, AS/RS, cross-docking, WMS, warehouse KPIs, and robotics such as Kiva/Amazon Robotics and AutoStore.",
+   "queries": [
+    "order picking batch zone wave picking",
+    "cross docking Walmart distribution centers",
+    "Amazon Robotics Kiva Systems acquisition",
+    "automated storage retrieval system AutoStore grid"
+   ],
+   "sources": [
+    "web_edu",
+    "sec_filings",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ocean container shipping and port operations",
+   "scope": "Containerization history (McLean, the Ideal X, ISO container standards), TEU/FEU, ship size classes (Panamax, Neopanamax, ULCV), carrier alliances, the largest carriers and ports by throughput, canal transits and freight rate indices.",
+   "queries": [
+    "Malcom McLean Ideal X 1956 container",
+    "largest container ship TEU capacity",
+    "busiest container ports TEU throughput ranking",
+    "shipping alliance Gemini Cooperation Ocean Alliance"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Trucking and road freight operations",
+   "scope": "Truckload, LTL and drayage operations: FMCSA hours-of-service limits, the ELD mandate, NMFC freight classes, operating ratio, driver turnover, freight brokerage, and carriers' 10-K operating statistics (terminals, tractors, shipments).",
+   "queries": [
+    "FMCSA hours of service 11-hour driving",
+    "less-than-truckload operating ratio service centers",
+    "NMFC freight class density LTL",
+    "electronic logging device mandate compliance date"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Rail freight operations",
+   "scope": "Freight railroad operations: the US Class I revenue threshold and carriers, precision scheduled railroading, operating ratio, carloads and intermodal units, unit trains, positive train control, and Surface Transportation Board oversight.",
+   "queries": [
+    "precision scheduled railroading Hunter Harrison",
+    "Class I railroad revenue threshold Surface Transportation Board",
+    "intermodal units carloads revenue ton-miles",
+    "positive train control implementation deadline"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Air cargo, express parcel and last-mile delivery networks",
+   "scope": "Hub-and-spoke express networks (FedEx Memphis, UPS Worldport, DHL Leipzig), air cargo operations (ULDs, belly versus freighter capacity, top cargo airports), parcel volumes, and last-mile delivery models such as Amazon's Delivery Service Partners and parcel lockers.",
+   "queries": [
+    "UPS Worldport Louisville packages per hour",
+    "FedEx Memphis World Hub sorting",
+    "busiest cargo airports tonnes",
+    "Amazon delivery service partner last mile"
+   ],
+   "sources": [
+    "sec_filings",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Transportation and vehicle routing optimization",
+   "scope": "Network models for logistics: the transportation problem (Hitchcock, northwest corner, Vogel's approximation, MODI), transshipment, shortest path, TSP and VRP, Clarke-Wright savings and sweep algorithms, and routing systems such as UPS ORION.",
+   "queries": [
+    "Vogel's approximation method transportation problem",
+    "Clarke Wright savings algorithm vehicle routing",
+    "traveling salesman problem Concorde solved instance",
+    "UPS ORION route optimization miles saved"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Freight forwarding, customs clearance and Incoterms in logistics",
+   "scope": "International logistics intermediaries and documents: freight forwarders, NVOCCs and customs brokers, bills of lading and air waybills, Incoterms 2020 rules, Harmonized System classification, ISF 10+2, and the C-TPAT and AEO programs.",
+   "queries": [
+    "Incoterms 2020 FCA DPU changes",
+    "Importer Security Filing 10+2 data elements",
+    "C-TPAT Authorized Economic Operator mutual recognition",
+    "Harmonized System six-digit WCO chapters"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Maintenance management and equipment reliability",
+   "scope": "Maintenance strategy and reliability: TPM (Nakajima, JIPM, eight pillars, six big losses), OEE and world-class benchmarks, reliability-centered maintenance (Nowlan-Heap), MTBF/MTTR and availability, the bathtub curve and Weibull analysis, and predictive maintenance and CMMS.",
+   "queries": [
+    "total productive maintenance Nakajima eight pillars",
+    "overall equipment effectiveness world class 85",
+    "reliability centered maintenance Nowlan Heap",
+    "MTBF MTTR availability bathtub curve Weibull"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Work measurement, job design and scientific management",
+   "scope": "Methods engineering and work measurement: Taylor's scientific management, the Gilbreths' motion study and therbligs, time study (normal time, allowances, standard time), work sampling, predetermined time systems (MTM, MOST), the Hawthorne studies and job enrichment.",
+   "queries": [
+    "Frederick Taylor Principles of Scientific Management",
+    "Gilbreth therbligs motion study",
+    "methods time measurement MTM TMU",
+    "standard time normal time allowance factor"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Product and process design for quality and manufacturability",
+   "scope": "Design-stage operations tools: QFD and the house of quality, the Taguchi loss function and robust design, Boothroyd-Dewhurst DFM/DFA, concurrent engineering, the stage-gate process, FMEA (RPN and AIAG-VDA action priority) and value analysis.",
+   "queries": [
+    "quality function deployment house of quality Akao",
+    "Taguchi loss function robust parameter design",
+    "Boothroyd Dewhurst design for assembly",
+    "FMEA risk priority number AIAG VDA"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Manufacturing automation, robotics and Industry 4.0",
+   "scope": "Manufacturing process technology: CNC, FMS and CIM, industrial robots (Unimate, IFR robot density statistics), additive manufacturing, Industrie 4.0, digital twins, lights-out factories, and MES and the ISA-95 hierarchy.",
+   "queries": [
+    "Unimate first industrial robot General Motors",
+    "IFR World Robotics robot density",
+    "Industrie 4.0 Hannover Messe 2011",
+    "ISA-95 manufacturing execution system levels"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Sustainable operations, reverse logistics and closed-loop supply chains",
+   "scope": "The environmental side of operations: reverse logistics and returns processing, remanufacturing and closed-loop supply chains, the circular economy, ISO 14001, Scope 3 supply chain emission categories, and logistics emissions accounting under the GLEC Framework and ISO 14083.",
+   "queries": [
+    "reverse logistics returns remanufacturing closed loop",
+    "ISO 14001:2015 environmental management system",
+    "Scope 3 categories upstream transportation purchased goods",
+    "GLEC framework ISO 14083 logistics emissions"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "sec_filings"
+   ]
+  },
+  {
+   "leaf": "Automatic identification: barcodes, RFID and GS1 standards",
+   "scope": "Item identification and data capture: UPC/EAN history, GS1 identification keys (GTIN, SSCC, GLN), barcode symbologies (Code 128, Data Matrix, QR, GS1 DataBar), RFID and EPC Gen2, and retailer RFID mandates.",
+   "queries": [
+    "Universal Product Code first scan 1974",
+    "GS1 GTIN SSCC GLN identification keys",
+    "EPC Gen2 UHF RFID ISO 18000-63",
+    "Walmart RFID mandate suppliers"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cold chain and temperature-controlled logistics",
+   "scope": "Storing, transporting and monitoring perishable and temperature-sensitive goods (food, vaccines, biologics), covering refrigerated warehouses, reefer equipment, temperature ranges, excursion monitoring and Good Distribution Practice requirements.",
+   "queries": [
+    "cold chain pharmaceutical temperature controlled distribution",
+    "temperature-controlled warehouse cubic feet pallet positions",
+    "reefer container temperature monitoring excursion",
+    "vaccine cold chain storage 2 to 8 degrees"
+   ],
+   "sources": [
+    "sec_filings",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Business process reengineering, BPM and BPMN notation",
+   "scope": "Redesigning and managing end-to-end business processes, covering the Hammer-Champy reengineering movement, BPM lifecycles and maturity models, BPMN 2.0 modeling elements, and process mining of event logs.",
+   "queries": [
+    "business process reengineering Hammer Champy radical redesign",
+    "BPMN 2.0 notation gateway event task",
+    "business process management lifecycle maturity model",
+    "process mining event log alpha algorithm"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Workforce scheduling, staff rostering and crew planning",
+   "scope": "Planning and scheduling labor to meet demand, covering call-center workforce management (shrinkage, adherence, occupancy), nurse and shift rostering problems, airline crew pairing and rostering, and labor rules that limit schedules.",
+   "queries": [
+    "call center workforce management shrinkage schedule adherence",
+    "airline crew pairing rostering optimization",
+    "nurse rostering shift scheduling problem",
+    "employee shift scheduling labor demand days off"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "domain": "Humanities and Social Sciences",
+ "subtopic": "Medieval modern history",
+ "weight": 0.0064995,
+ "leaves": [
+  {
+   "leaf": "Byzantine Empire dynasties, court and administration (527-1453)",
+   "scope": "Byzantine emperors and dynasties from Justinian I to the fall of Constantinople, including the theme system, court titles, Iconoclasm, legal codes and the Komnenian and Palaiologan restorations.",
+   "queries": [
+    "Byzantine emperor Macedonian dynasty reign",
+    "theme system Byzantine administration strategos",
+    "Byzantine Iconoclasm Second Council of Nicaea 787",
+    "Palaiologan dynasty Michael VIII recapture Constantinople 1261"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Merovingian and Carolingian Francia (481-987)",
+   "scope": "The Frankish kingdoms from Clovis I through the Carolingian dynasty, including mayors of the palace, Charlemagne's imperial coronation, capitularies and missi dominici, and the partition treaties of Verdun and Meerssen.",
+   "queries": [
+    "Clovis baptism Merovingian kings Franks",
+    "Charlemagne coronation emperor 800 Pope Leo III",
+    "Treaty of Verdun 843 partition Carolingian",
+    "Pepin the Short mayor of palace capitularies"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Viking Age Scandinavia and the Norse North Atlantic (793-1100)",
+   "scope": "Scandinavian kingdoms and kings of the Viking Age and Norse expansion to the west, including the early raids, the settlement of Iceland and the Althing, Greenland and Vinland, rune stones and Cnut's North Sea Empire.",
+   "queries": [
+    "Lindisfarne raid 793 Viking Age",
+    "settlement of Iceland Landnámabók Althing founded",
+    "Erik the Red Greenland Vinland L'Anse aux Meadows",
+    "Harald Hardrada Cnut the Great North Sea Empire"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Anglo-Saxon kingdoms and Anglo-Norman England (c. 600-1216)",
+   "scope": "England from the Heptarchy and Alfred the Great's Wessex through the Norman Conquest, the Domesday survey and the Angevin kings, up to Magna Carta.",
+   "queries": [
+    "Heptarchy Mercia Offa Northumbria kingdom",
+    "Alfred the Great Wessex Danelaw treaty Guthrum",
+    "Domesday Book 1086 survey William the Conqueror",
+    "Magna Carta 1215 clauses King John barons"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Holy Roman Empire and the medieval papacy (962-1417)",
+   "scope": "Relations between emperors and popes from Otto I to the end of the Western Schism, including the Investiture Controversy, the Hohenstaufen emperors, the Avignon papacy, antipopes and the Golden Bull of 1356.",
+   "queries": [
+    "Investiture Controversy Concordat of Worms 1122",
+    "Hohenstaufen Frederick Barbarossa Frederick II emperor",
+    "Avignon papacy Clement V Western Schism antipope",
+    "Golden Bull 1356 prince-electors Charles IV"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Crusades, crusader states and military orders (1095-1291)",
+   "scope": "The numbered and lesser crusades seen politically: how they were proclaimed, the Kingdom of Jerusalem and the other crusader states with their rulers and laws, Ayyubid counterparts, and the founding and fate of the Templars, Hospitallers and Teutonic Knights.",
+   "queries": [
+    "Council of Clermont Urban II First Crusade",
+    "Kingdom of Jerusalem kings Baldwin Assizes",
+    "Knights Templar founding Hugues de Payens suppression 1312",
+    "Saladin Ayyubid Third Crusade Treaty of Jaffa"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Umayyad, Abbasid and Fatimid caliphates (661-1171)",
+   "scope": "Political and institutional history of the classical caliphates, including caliphal successions, the Abbasid revolution and the founding of Baghdad, Samarra, Buyid and Seljuk domination, and the Fatimid caliphate in Cairo.",
+   "queries": [
+    "Umayyad caliph Abd al-Malik Dome of the Rock",
+    "Abbasid revolution 750 Baghdad founded al-Mansur",
+    "Fatimid caliphate Cairo founded al-Muizz",
+    "Seljuk sultan Tughril Beg Baghdad 1055 Buyid"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Mongol Empire, successor khanates and the Timurids (1206-1507)",
+   "scope": "Genghis Khan and the Great Khans, kurultai elections and the Yassa, and the successor states (Yuan, Ilkhanate, Chagatai Khanate, Golden Horde) and Timur's empire, with their rulers, capitals and administration.",
+   "queries": [
+    "Genghis Khan kurultai 1206 Yassa",
+    "Ögedei Möngke Great Khan succession Karakorum",
+    "Ilkhanate Hulagu Ghazan conversion Islam",
+    "Golden Horde khan Uzbeg Sarai tribute"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Late medieval England and France: Black Death, revolts, Hundred Years' War politics and Wars of the Roses",
+   "scope": "The crises of fourteenth- and fifteenth-century England and France: plague mortality and the labour laws that followed, the Jacquerie and Peasants' Revolt, the dynastic claims and treaties of the Hundred Years' War, and the Lancaster-York struggle to 1485.",
+   "queries": [
+    "Black Death 1348 England mortality Statute of Labourers",
+    "Peasants' Revolt 1381 Wat Tyler poll tax",
+    "Treaty of Brétigny Troyes Hundred Years' War",
+    "Wars of the Roses Edward IV Bosworth"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Al-Andalus and the medieval Iberian kingdoms (711-1492)",
+   "scope": "Muslim Iberia from the Umayyad emirate and caliphate of Córdoba through the taifas, Almoravids, Almohads and Nasrid Granada, alongside the Christian kingdoms of Asturias, León, Castile, Aragon, Navarre and Portugal.",
+   "queries": [
+    "Caliphate of Córdoba Abd al-Rahman III",
+    "taifa kingdoms Almoravid Almohad al-Andalus",
+    "Nasrid Granada surrender 1492 Muhammad XII",
+    "Crown of Aragon Castile union Ferdinand Isabella Reconquista"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Medieval east-central Europe: Kievan Rus', Poland-Lithuania, Bohemia and Hungary (c. 880-1569)",
+   "scope": "Medieval east-central European states up to the Union of Lublin, including the Kievan Rus' princes, the Piast and Jagiellonian dynasties, the Grand Duchy of Lithuania, Přemyslid and Luxembourg Bohemia and the Hussites, and Árpád and Angevin Hungary.",
+   "queries": [
+    "Kievan Rus Vladimir baptism 988 Yaroslav the Wise",
+    "Union of Krewo Jogaila Grand Duchy Lithuania",
+    "Árpád dynasty Hungary Golden Bull 1222",
+    "Hussite Wars Jan Žižka Four Articles Prague"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Muscovy and Romanov Russia (1283-1917)",
+   "scope": "The grand princes of Moscow and the tsars from Ivan III to Nicholas II, including the oprichnina, the Time of Troubles, Peter the Great's reforms and Table of Ranks, Catherine II, the emancipation of the serfs, the zemstvos and the 1905 Duma.",
+   "queries": [
+    "Ivan the Terrible oprichnina Zemsky Sobor",
+    "Time of Troubles Michael Romanov 1613 elected",
+    "Peter the Great Table of Ranks Senate reforms",
+    "Emancipation reform 1861 Alexander II zemstvo"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Precolonial sub-Saharan African states (c. 700-1880)",
+   "scope": "Rulers, capitals and institutions of Ghana, Mali, Songhai, Kanem-Bornu, the Hausa and Yoruba states, Benin, Asante, Kongo, Solomonic Ethiopia, the Swahili coast, Great Zimbabwe and the Zulu kingdom.",
+   "queries": [
+    "Mansa Musa Mali Empire pilgrimage 1324",
+    "Songhai Askia Muhammad Timbuktu Gao",
+    "Solomonic dynasty Ethiopia emperor Zara Yaqob",
+    "Asante Empire Osei Tutu Golden Stool Kumasi"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Ming and Qing China: emperors, institutions and reforms (1368-1912)",
+   "scope": "Late imperial Chinese political history, including Ming and Qing emperors and their era names, the Grand Secretariat and Grand Council, the examination system, Zheng He's voyages, the Eight Banners, the Taiping Rebellion, Self-Strengthening and the 1911 Revolution.",
+   "queries": [
+    "Hongwu Emperor Ming dynasty founded 1368 era name",
+    "Zheng He treasure voyages Yongle Emperor",
+    "Qing Eight Banners Kangxi Qianlong Grand Council",
+    "Taiping Rebellion Hong Xiuquan Self-Strengthening Movement"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Shogunal and Meiji Japan (1185-1912)",
+   "scope": "Japanese political history from the Kamakura and Ashikaga shogunates through Sengoku unification and the Tokugawa bakufu to the Meiji Restoration, including regencies, daimyo institutions, the sakoku edicts and the Meiji constitutional reforms.",
+   "queries": [
+    "Kamakura shogunate Hōjō regent shikken",
+    "Ashikaga shogunate Ōnin War Muromachi",
+    "Tokugawa sankin-kōtai sakoku edicts daimyo",
+    "Meiji Restoration Charter Oath 1889 constitution"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Delhi Sultanate, Vijayanagara and the Mughal Empire (1206-1857)",
+   "scope": "Indian states from the Mamluk, Khalji, Tughlaq, Sayyid and Lodi dynasties of Delhi to the Mughal emperors and their mansabdari administration, plus the rival Vijayanagara Empire and the Maratha state.",
+   "queries": [
+    "Delhi Sultanate Iltutmish Alauddin Khalji Tughlaq",
+    "Akbar mansabdari Din-i Ilahi Fatehpur Sikri",
+    "Mughal emperor Aurangzeb Shah Jahan succession",
+    "Vijayanagara Empire Krishnadevaraya Hampi Tuluva dynasty"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Ottoman and Safavid empires: sultans, shahs and institutions",
+   "scope": "Political and institutional history of the Ottoman Empire from Osman I to 1922 and of Safavid Iran (1501-1736), including succession practice, the devshirme and Janissaries, the millet system, the Tanzimat reforms, the Qizilbash and the Ottoman-Safavid treaties.",
+   "queries": [
+    "Ottoman sultan succession Mehmed II Kanunname",
+    "devshirme Janissary corps abolished 1826",
+    "Tanzimat Edict of Gülhane 1839 reforms",
+    "Safavid Ismail I Abbas the Great Isfahan Qizilbash"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Italian Renaissance states and the Italian Wars (1300-1559)",
+   "scope": "Politics of Florence, Venice, Milan, Naples and the Papal States, including the Medici, Visconti and Sforza, the Venetian doge and Council of Ten, the Peace of Lodi, Savonarola, and the Italian Wars up to Cateau-Cambrésis.",
+   "queries": [
+    "Medici bank Cosimo Lorenzo Florence Signoria",
+    "Republic of Venice doge Council of Ten",
+    "Peace of Lodi 1454 Sforza Milan",
+    "Savonarola Florence Italian Wars Charles VIII 1494"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Protestant and Catholic Reformations and the Wars of Religion (1517-1648)",
+   "scope": "The Lutheran, Reformed, Anabaptist and Catholic reform movements as political and social events, including the Diet of Worms, the Peace of Augsburg, the Council of Trent and the Jesuits, the French Wars of Religion and the Edict of Nantes, and the Peace of Westphalia.",
+   "queries": [
+    "Ninety-five Theses Diet of Worms 1521 Luther",
+    "Peace of Augsburg cuius regio eius religio",
+    "Council of Trent sessions Jesuits founded 1540",
+    "St. Bartholomew's Day massacre Edict of Nantes 1598"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Iberian exploration and the Spanish and Portuguese colonial empires (1415-1800)",
+   "scope": "Portuguese and Spanish voyages and the conquest of the Aztec and Inca empires, plus how the colonies were run: the Treaty of Tordesillas, viceroyalties, encomienda, the Council of the Indies, the Manila galleons, and Portuguese India and Brazil.",
+   "queries": [
+    "Treaty of Tordesillas 1494 line demarcation",
+    "Vasco da Gama voyage Calicut 1498",
+    "Hernán Cortés Tenochtitlan Moctezuma 1521",
+    "Viceroyalty of Peru encomienda Council of the Indies"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Tudor and Stuart Britain: politics and constitution (1485-1714)",
+   "scope": "English and Scottish political history from Henry VII to Queen Anne, including Henry VIII's break with Rome, the Elizabethan settlement, the Gunpowder Plot, the Civil Wars, the Commonwealth and Protectorate, the Restoration, the Glorious Revolution, the Bill of Rights and the Acts of Union.",
+   "queries": [
+    "Act of Supremacy 1534 Henry VIII dissolution monasteries",
+    "Gunpowder Plot 1605 James I",
+    "Rump Parliament Cromwell Protectorate Instrument of Government",
+    "Bill of Rights 1689 Glorious Revolution William III"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Age of absolutism and dynastic succession in Europe (1648-1789)",
+   "scope": "The monarchies and dynastic politics of Bourbon France, Habsburg Austria and Spain, Hohenzollern Prussia, Sweden and the Dutch Republic, including Louis XIV's court, succession crises, the Pragmatic Sanction, the Treaty of Utrecht and enlightened absolutism.",
+   "queries": [
+    "Louis XIV Versailles Colbert Edict of Fontainebleau",
+    "Pragmatic Sanction 1713 Maria Theresa succession",
+    "Treaty of Utrecht 1713 Spanish succession Philip V",
+    "Frederick the Great Prussia enlightened absolutism reforms"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Atlantic slave trade, Caribbean plantation colonies and abolition",
+   "scope": "The transatlantic slave trade's companies, routes, ports, volumes and voyages, the Caribbean sugar colonies, the Haitian Revolution, and the British, French and other abolition and emancipation laws.",
+   "queries": [
+    "transatlantic slave trade voyages database embarked",
+    "Royal African Company asiento slave trade",
+    "Haitian Revolution Toussaint Louverture 1804 independence",
+    "Slave Trade Act 1807 Slavery Abolition Act 1833"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "United States from the Revolution to Reconstruction (1763-1877)",
+   "scope": "American political history from the Stamp Act and the Revolution through the Articles of Confederation, the Constitutional Convention, early presidencies, the Louisiana Purchase, the sectional compromises, the politics of the Civil War, and Reconstruction's amendments and acts.",
+   "queries": [
+    "Stamp Act 1765 Townshend Acts colonial protest",
+    "Constitutional Convention 1787 Philadelphia delegates compromise",
+    "Missouri Compromise 1820 Kansas-Nebraska Act",
+    "Reconstruction Acts Freedmen's Bureau Compromise of 1877"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "French Revolution and Napoleonic France (1789-1815)",
+   "scope": "French political history from the Estates-General to the Bourbon Restoration, including the revolutionary assemblies, the constitutions of 1791, 1793 and Year III, the Terror and the Committee of Public Safety, the Directory, the Consulate, the Concordat, the Napoleonic Code and the imperial institutions.",
+   "queries": [
+    "Estates-General 1789 Tennis Court Oath National Assembly",
+    "Committee of Public Safety Reign of Terror Robespierre",
+    "French Republican calendar Thermidor Directory Year III",
+    "Napoleonic Code Concordat 1801 Consulate"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Latin American independence and nineteenth-century nation-building",
+   "scope": "The Spanish American and Brazilian independence movements with their leaders, congresses and declarations, then Gran Colombia, Mexico's Reform era and the French intervention, caudillo regimes, and post-independence constitutions to about 1910.",
+   "queries": [
+    "Simón Bolívar Gran Colombia Congress of Angostura",
+    "Mexican War of Independence Hidalgo Grito de Dolores",
+    "Brazil independence Pedro I 1822 empire",
+    "Benito Juárez La Reforma Porfiriato Díaz"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Industrial Revolution: inventions, industries and labour reform (1760-1900)",
+   "scope": "British and European industrialization: the key textile, steam, iron and railway inventions with their inventors, patents and dates, the factory and mines acts, trade unions, Chartism and the repeal of the Corn Laws.",
+   "queries": [
+    "spinning jenny water frame Arkwright patent",
+    "Watt steam engine Boulton separate condenser patent",
+    "Factory Act 1833 child labour inspectors",
+    "Chartism People's Charter Corn Laws repeal 1846"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Restoration Europe, the revolutions of 1848 and national unifications (1815-1871)",
+   "scope": "The Congress of Vienna settlement, the July Revolution, the revolutions of 1848 and the Frankfurt Parliament, the Second French Empire, and the unification of Italy and Germany under Cavour, Garibaldi and Bismarck.",
+   "queries": [
+    "Congress of Vienna 1815 Metternich Final Act",
+    "Frankfurt Parliament 1848 revolutions constitution",
+    "Risorgimento Cavour Garibaldi Expedition of the Thousand",
+    "Bismarck North German Confederation proclamation German Empire 1871"
+   ],
+   "sources": [
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "European colonial empires in Africa and Asia and decolonization (1858-1975)",
+   "scope": "How colonial rule was set up, run and ended: the Berlin Conference and the Scramble for Africa, the British Raj and the Indian independence movement, French Indochina, the Dutch East Indies, the Congo Free State, and the independence dates and leaders of African and Asian states.",
+   "queries": [
+    "Berlin Conference 1884 Scramble for Africa",
+    "British Raj viceroy Government of India Act 1935",
+    "Indian National Congress Salt March partition 1947",
+    "Congo Free State Leopold II Belgian Congo independence"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Russian Revolution, Soviet state and interwar European dictatorships (1917-1953)",
+   "scope": "The February and October Revolutions, Bolshevik and Stalinist domestic policy, Weimar Germany, Fascist Italy, Nazi Germany's institutions and laws, and Franco's rise, covering parties, decrees, plans and officials rather than military campaigns.",
+   "queries": [
+    "October Revolution 1917 Bolsheviks Sovnarkom decree",
+    "Five-Year Plan collectivization Great Purge Stalin",
+    "March on Rome Mussolini Lateran Treaty Acerbo Law",
+    "Enabling Act 1933 Nuremberg Laws Nazi Germany"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  }
+ ]
+}

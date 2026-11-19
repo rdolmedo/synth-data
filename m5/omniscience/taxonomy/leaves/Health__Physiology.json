@@ -1,0 +1,801 @@
+{
+ "domain": "Health",
+ "subtopic": "Physiology",
+ "weight": 0.0117495,
+ "leaves": [
+  {
+   "leaf": "Cardiac myocyte electrophysiology and the conduction system",
+   "scope": "Ionic currents behind atrial, ventricular and nodal action potentials, how pacemaker cells fire on their own, and how impulses travel through the SA node, AV node and His-Purkinje system, including what ECG intervals reflect.",
+   "queries": [
+    "funny current HCN4 sinoatrial node pacemaker",
+    "ventricular action potential phases IKr IKs L-type calcium",
+    "atrioventricular node conduction delay Purkinje fiber velocity",
+    "cardiac refractory period connexin 43 gap junction conduction"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Cardiac cycle, ventricular mechanics and cardiac output",
+   "scope": "Pressure-volume relations of the ventricles, the Frank-Starling mechanism, preload, afterload and measures of contractility, timing of the cardiac cycle and heart sounds, and what sets stroke volume and cardiac output.",
+   "queries": [
+    "Frank-Starling mechanism length-dependent activation sarcomere",
+    "pressure-volume loop end-systolic elastance contractility",
+    "cardiac cycle isovolumetric contraction heart sounds Wiggers diagram",
+    "stroke volume preload afterload ejection fraction"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Hemodynamics and endothelial control of vascular tone",
+   "scope": "Physical laws of blood flow (Poiseuille, Laplace, Reynolds), vascular resistance and arterial compliance, the myogenic response, and endothelial mediators such as nitric oxide, prostacyclin, endothelin and EDHF.",
+   "queries": [
+    "Poiseuille law vascular resistance blood viscosity",
+    "endothelium-derived relaxing factor nitric oxide Furchgott",
+    "Bayliss myogenic response arteriolar pressure",
+    "arterial compliance pulse wave velocity Windkessel"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Microcirculation, capillary fluid exchange and lymph",
+   "scope": "Starling forces and the revised glycocalyx model of fluid filtration across capillaries, routes of capillary permeability, oncotic pressure, interstitial fluid dynamics and lymph flow.",
+   "queries": [
+    "Starling forces capillary filtration oncotic pressure",
+    "endothelial glycocalyx revised Starling principle",
+    "capillary filtration coefficient permeability small pore theory",
+    "lymph flow rate thoracic duct interstitial fluid pressure"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Reflex control of arterial blood pressure",
+   "scope": "The arterial baroreflex, cardiopulmonary receptors, effects of the chemoreflex on the circulation, medullary cardiovascular centers, and eponymous reflexes such as Bezold-Jarisch, Bainbridge and Cushing.",
+   "queries": [
+    "carotid sinus baroreceptor reflex nucleus tractus solitarius",
+    "baroreflex sensitivity heart rate blood pressure",
+    "Bezold-Jarisch reflex cardiopulmonary vagal afferents",
+    "Bainbridge reflex atrial stretch heart rate"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Coronary, cerebral, splanchnic, cutaneous and skeletal muscle circulations",
+   "scope": "Special features and local regulation of the main systemic vascular beds, including autoregulation ranges, resting flow values, metabolic vasodilators and neurovascular coupling.",
+   "queries": [
+    "coronary blood flow autoregulation adenosine myocardial oxygen extraction",
+    "cerebral autoregulation blood flow carbon dioxide reactivity",
+    "splanchnic circulation hepatic arterial buffer response",
+    "cutaneous blood flow arteriovenous anastomoses active vasodilation"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lung mechanics, surfactant and pulmonary function testing",
+   "scope": "Compliance of the lung and chest wall, surface tension and surfactant, airway resistance and work of breathing, lung volumes and capacities, and how spirometry and plethysmography measure them.",
+   "queries": [
+    "pulmonary surfactant proteins surface tension alveoli",
+    "lung compliance chest wall elastic recoil pressure",
+    "spirometry FEV1 FVC reference equations",
+    "functional residual capacity body plethysmography lung volumes"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Alveolar gas exchange, ventilation-perfusion matching and pulmonary circulation",
+   "scope": "The alveolar gas equation and A-a gradient, diffusing capacity, V/Q matching, shunt and dead space, West zones, and pulmonary vascular physiology including hypoxic pulmonary vasoconstriction.",
+   "queries": [
+    "alveolar gas equation alveolar-arterial oxygen gradient",
+    "ventilation perfusion ratio shunt physiological dead space",
+    "diffusing capacity carbon monoxide DLCO membrane component",
+    "hypoxic pulmonary vasoconstriction pulmonary vascular resistance West zones"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Blood oxygen and carbon dioxide transport",
+   "scope": "How hemoglobin binds oxygen and the dissociation curve, P50, the Bohr and Haldane effects, 2,3-BPG, oxygen content calculations, carbonic anhydrase and the chloride shift.",
+   "queries": [
+    "oxyhemoglobin dissociation curve P50 2,3-bisphosphoglycerate",
+    "Bohr effect Haldane effect carbon dioxide transport",
+    "chloride shift band 3 carbonic anhydrase erythrocyte",
+    "oxygen content equation hemoglobin binding capacity Hufner"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Neural and chemical control of breathing",
+   "scope": "How the brainstem generates respiratory rhythm, central and peripheral chemoreceptors, ventilatory responses to CO2 and hypoxia, and mechanoreceptor reflexes such as Hering-Breuer.",
+   "queries": [
+    "preBötzinger complex respiratory rhythm generation brainstem",
+    "carotid body glomus cells oxygen sensing",
+    "retrotrapezoid nucleus central chemoreceptors CO2",
+    "Hering-Breuer inflation reflex pulmonary stretch receptors"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "High-altitude, aviation and spaceflight physiology",
+   "scope": "Responses to low-pressure hypoxia and acclimatization, genetic adaptation in highland populations, tolerance of acceleration and G-forces, and the effects of microgravity on fluid distribution, bone, muscle and the cardiovascular system.",
+   "queries": [
+    "high altitude acclimatization hypoxic ventilatory response",
+    "Tibetan highlanders EPAS1 hemoglobin adaptation",
+    "microgravity spaceflight bone loss cardiovascular deconditioning",
+    "G-induced loss of consciousness acceleration tolerance"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Diving and hyperbaric physiology",
+   "scope": "Effects of raised ambient pressure: gas laws applied to diving, inert gas narcosis, oxygen toxicity thresholds, decompression theory and bubble formation, breath-hold diving and the diving reflex.",
+   "queries": [
+    "decompression sickness inert gas bubble formation",
+    "nitrogen narcosis depth hyperbaric air",
+    "central nervous system oxygen toxicity partial pressure seizures",
+    "breath-hold diving reflex bradycardia apnea"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Glomerular filtration, renal blood flow and clearance",
+   "scope": "The glomerular filtration barrier and glomerular Starling forces, renal autoregulation by myogenic and tubuloglomerular feedback, renal plasma flow, filtration fraction and the markers used to measure clearance.",
+   "queries": [
+    "glomerular filtration rate inulin clearance measurement",
+    "tubuloglomerular feedback macula densa adenosine",
+    "renal autoregulation myogenic afferent arteriole",
+    "para-aminohippurate renal plasma flow filtration fraction"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Renal tubular transport and urinary concentration",
+   "scope": "Reabsorption and secretion in each nephron segment from the proximal tubule to the collecting duct, the key transporters, potassium handling, and countercurrent multiplication with urea recycling to concentrate urine.",
+   "queries": [
+    "proximal tubule sodium reabsorption NHE3 glucose transport maximum",
+    "thick ascending limb NKCC2 ROMK",
+    "countercurrent multiplier medullary urea recycling",
+    "collecting duct principal cells ENaC potassium secretion"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Body fluid compartments, osmoregulation and water balance",
+   "scope": "How total body water splits between compartments, indicator-dilution measurement of those volumes, and control of plasma osmolality by vasopressin, aquaporins and thirst.",
+   "queries": [
+    "total body water intracellular extracellular fluid volume",
+    "vasopressin release plasma osmolality threshold",
+    "aquaporin-2 collecting duct water reabsorption",
+    "thirst osmoreceptors subfornical organ OVLT"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Acid-base physiology",
+   "scope": "The Henderson-Hasselbalch and Stewart physicochemical approaches, the body's buffer systems, renal bicarbonate reclamation, acid excretion and ammoniagenesis, the anion gap and compensation formulas.",
+   "queries": [
+    "Henderson-Hasselbalch bicarbonate buffer pKa",
+    "Stewart strong ion difference acid-base",
+    "renal ammoniagenesis net acid excretion",
+    "anion gap metabolic acidosis Winters formula compensation"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Calcium, phosphate and magnesium homeostasis",
+   "scope": "Hormonal and organ-level control of mineral ions by parathyroid hormone, calcitriol, calcitonin, FGF23 and klotho, acting on gut, kidney and bone.",
+   "queries": [
+    "parathyroid hormone calcium-sensing receptor secretion",
+    "FGF23 klotho renal phosphate excretion",
+    "1,25-dihydroxyvitamin D intestinal calcium absorption",
+    "magnesium reabsorption thick ascending limb claudin-16"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Renin-angiotensin-aldosterone system and natriuretic peptides",
+   "scope": "Control of renin release, how angiotensin peptides are generated and act on their receptors (including the ACE2 axis), aldosterone actions, and atrial and brain natriuretic peptides in sodium and volume regulation.",
+   "queries": [
+    "juxtaglomerular cells renin secretion regulation",
+    "angiotensin II AT1 receptor aldosterone secretion",
+    "ACE2 angiotensin-(1-7) Mas receptor",
+    "atrial natriuretic peptide natriuresis guanylyl cyclase"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gastrointestinal motility and the enteric nervous system",
+   "scope": "Slow waves and interstitial cells of Cajal, the peristaltic reflex and enteric plexuses, swallowing, gastric emptying, the migrating motor complex and colonic motility.",
+   "queries": [
+    "interstitial cells of Cajal slow wave frequency",
+    "migrating motor complex motilin fasting",
+    "myenteric plexus peristaltic reflex enteric neurons",
+    "gastric emptying rate liquids solids"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gastric, pancreatic and biliary secretion",
+   "scope": "Acid and pepsinogen secretion by parietal and chief cells and the phases of gastric secretion, pancreatic enzyme and bicarbonate secretion under secretin and CCK, and bile formation, bile acids and bilirubin excretion.",
+   "queries": [
+    "parietal cell proton pump gastrin histamine acid secretion",
+    "pancreatic duct bicarbonate secretion secretin CFTR",
+    "cholecystokinin gallbladder contraction sphincter of Oddi",
+    "bile acid synthesis enterohepatic circulation bilirubin conjugation"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Intestinal digestion and nutrient absorption",
+   "scope": "Digestion in the lumen and at the brush border, and epithelial absorption of carbohydrates, peptides, lipids, vitamins, iron, water and electrolytes in the small intestine and colon.",
+   "queries": [
+    "SGLT1 GLUT5 intestinal glucose fructose absorption",
+    "micelles chylomicron formation dietary fat absorption",
+    "duodenal iron absorption DMT1 ferroportin hepcidin",
+    "vitamin B12 intrinsic factor ileal absorption cubilin"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Gut hormones, adipokines and appetite regulation",
+   "scope": "Enteroendocrine hormones such as ghrelin, CCK, PYY and GLP-1, leptin, and the hypothalamic circuits (arcuate POMC and AgRP neurons) that control hunger, satiety and energy balance.",
+   "queries": [
+    "ghrelin hunger hormone stomach secretion",
+    "GLP-1 PYY L cells satiety",
+    "leptin arcuate nucleus POMC AgRP neurons",
+    "enteroendocrine cells nutrient sensing hormone secretion"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hypothalamic-pituitary axes, growth hormone and prolactin",
+   "scope": "Hypothalamic releasing and inhibiting hormones, the hypophyseal portal system, anterior pituitary cell types and secretion patterns, the GH/IGF-1 axis and dopaminergic control of prolactin.",
+   "queries": [
+    "growth hormone pulsatile secretion IGF-1 somatostatin",
+    "prolactin dopamine inhibition lactotrophs",
+    "hypophyseal portal system hypothalamic releasing hormones",
+    "anterior pituitary somatotrophs corticotrophs gonadotrophs"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thyroid hormone physiology",
+   "scope": "Thyroid hormone synthesis (iodide trapping, thyroperoxidase, thyroglobulin), binding proteins in plasma, activation and inactivation by deiodinases, feedback in the HPT axis, and metabolic actions.",
+   "queries": [
+    "sodium iodide symporter thyroid peroxidase thyroglobulin",
+    "deiodinase type 2 T4 to T3 conversion",
+    "thyroxine-binding globulin transthyretin free T4",
+    "TRH TSH negative feedback thyroid hormone"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Adrenal and stress hormone physiology",
+   "scope": "Steroidogenesis in the adrenal cortex zones, the HPA axis and daily cortisol rhythm, glucocorticoid actions and prereceptor metabolism, catecholamine synthesis in the adrenal medulla, and the stress response.",
+   "queries": [
+    "adrenal cortex zona fasciculata steroidogenesis CYP11B1",
+    "cortisol diurnal rhythm HPA axis ACTH",
+    "chromaffin cells catecholamine synthesis PNMT epinephrine",
+    "11beta-hydroxysteroid dehydrogenase type 2 cortisol inactivation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Endocrine pancreas and glucose homeostasis",
+   "scope": "Islet cell types, the mechanisms of glucose-stimulated insulin secretion, glucagon and somatostatin, the incretin effect, insulin signaling, and hepatic glucose output in fed and fasting states.",
+   "queries": [
+    "glucose-stimulated insulin secretion KATP channel beta cell",
+    "glucagon secretion alpha cell hypoglycemia counterregulation",
+    "incretin effect GIP GLP-1 insulin response",
+    "hepatic gluconeogenesis glycogenolysis fasting"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hypothalamic-pituitary-gonadal axis and reproductive physiology",
+   "scope": "GnRH pulsatility and kisspeptin, actions of the gonadotropins, spermatogenesis and Sertoli/Leydig cell function, ovarian follicle development, the menstrual cycle and ovulation.",
+   "queries": [
+    "kisspeptin GnRH pulse generator",
+    "spermatogenesis Sertoli cells Leydig cells testosterone",
+    "LH surge ovulation estradiol positive feedback",
+    "inhibin B FSH antral follicle development"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Pregnancy, placental and lactation physiology",
+   "scope": "Maternal adaptations to pregnancy, placental transport and hormones (hCG, hPL, progesterone), the mechanisms of parturition, lactogenesis and the milk ejection reflex.",
+   "queries": [
+    "maternal cardiovascular adaptations pregnancy plasma volume",
+    "human chorionic gonadotropin placental lactogen secretion",
+    "parturition oxytocin receptors myometrium prostaglandins",
+    "lactogenesis prolactin milk ejection reflex"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Fetal circulation and neonatal transition",
+   "scope": "Fetal circulatory shunts and oxygenation, fetal hemoglobin, clearance of lung fluid and the first breath, closure of the ductus arteriosus and foramen ovale, and how neonates adapt their temperature control and glucose supply.",
+   "queries": [
+    "fetal circulation ductus venosus foramen ovale",
+    "ductus arteriosus closure prostaglandin E2 oxygen",
+    "fetal lung fluid clearance at birth",
+    "fetal hemoglobin oxygen affinity umbilical vein"
+   ],
+   "sources": [
+    "web_edu",
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Membrane potentials and ion transport",
+   "scope": "The Nernst and Goldman-Hodgkin-Katz equations, the resting membrane potential, Na+/K+-ATPase and other pumps, cotransporters and exchangers, osmosis, and regulation of cell volume.",
+   "queries": [
+    "Goldman-Hodgkin-Katz equation resting membrane potential",
+    "sodium potassium ATPase stoichiometry ouabain",
+    "Nernst equilibrium potential potassium concentration",
+    "regulatory volume decrease cell swelling osmolytes"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Neuronal excitability and synaptic transmission",
+   "scope": "How action potentials are generated and propagated, the Hodgkin-Huxley model, myelination and saltatory conduction, classification of nerve fibers, quantal neurotransmitter release and transmission at the neuromuscular junction.",
+   "queries": [
+    "Hodgkin Huxley squid giant axon sodium conductance",
+    "saltatory conduction nodes of Ranvier conduction velocity",
+    "Erlanger Gasser nerve fiber classification diameter",
+    "quantal release neuromuscular junction end-plate potential Katz"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Skeletal and smooth muscle contraction",
+   "scope": "Sarcomere structure, sliding filaments and cross-bridge cycling, excitation-contraction coupling via DHPR and RyR1, fiber types, length-tension and force-velocity relations, and smooth muscle MLCK and the latch state.",
+   "queries": [
+    "excitation-contraction coupling dihydropyridine receptor ryanodine receptor",
+    "sliding filament theory cross-bridge cycle Huxley",
+    "skeletal muscle fiber types myosin heavy chain isoforms",
+    "smooth muscle myosin light chain kinase latch state"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Somatosensation and pain physiology",
+   "scope": "Cutaneous mechanoreceptors, thermoreceptors and nociceptors with their transduction channels (Piezo, TRP), the dorsal column and spinothalamic pathways, and pain modulation by gate control and descending inhibition.",
+   "queries": [
+    "Meissner Pacinian Merkel Ruffini mechanoreceptors",
+    "TRPV1 TRPM8 thermoreceptors nociception",
+    "Piezo2 touch proprioception mechanotransduction",
+    "gate control theory descending pain modulation periaqueductal gray"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Visual physiology",
+   "scope": "Ocular optics and accommodation, phototransduction in rods and cones, photopigments and spectral sensitivity, dark adaptation, retinal processing, color vision and non-image-forming photoreception.",
+   "queries": [
+    "rod phototransduction rhodopsin transducin cGMP",
+    "cone photopigments spectral sensitivity peak wavelength",
+    "dark adaptation curve rod cone break",
+    "intrinsically photosensitive retinal ganglion cells melanopsin"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Auditory and vestibular physiology",
+   "scope": "Impedance matching in the middle ear, cochlear mechanics and the endocochlear potential, mechanotransduction in hair cells, outer hair cell electromotility, otoacoustic emissions, and semicircular canal and otolith function.",
+   "queries": [
+    "outer hair cell electromotility prestin cochlear amplifier",
+    "endocochlear potential stria vascularis potassium",
+    "otoacoustic emissions basilar membrane cochlear mechanics",
+    "semicircular canals otolith organs vestibulo-ocular reflex"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Motor control physiology",
+   "scope": "Motor units and recruitment by the Henneman size principle, muscle spindles and Golgi tendon organs, spinal reflex circuits, and the roles of the motor cortex, cerebellum and basal ganglia in movement.",
+   "queries": [
+    "muscle spindle gamma motor neurons stretch reflex",
+    "Henneman size principle motor unit recruitment",
+    "Golgi tendon organ Ib autogenic inhibition",
+    "cerebellum Purkinje cells climbing fibers motor learning"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Autonomic nervous system physiology",
+   "scope": "Organization of the sympathetic and parasympathetic divisions, ganglionic and postganglionic transmitters and receptor subtypes, cotransmission, and autonomic effects on target organs.",
+   "queries": [
+    "sympathetic preganglionic neurons intermediolateral cell column",
+    "muscarinic receptor subtypes M2 M3 parasympathetic effects",
+    "adrenergic receptor alpha1 beta2 effects organs",
+    "autonomic cotransmission ATP neuropeptide Y"
+   ],
+   "sources": [
+    "web_edu",
+    "wikipedia",
+    "pubmed"
+   ]
+  },
+  {
+   "leaf": "Sleep and circadian physiology",
+   "scope": "The clock in the suprachiasmatic nucleus and the molecular clock genes, light entrainment and melatonin secretion, sleep stages and architecture, homeostatic sleep pressure, and orexin/hypocretin wake circuits.",
+   "queries": [
+    "suprachiasmatic nucleus circadian clock genes CLOCK BMAL1",
+    "melatonin secretion pineal gland light suppression",
+    "sleep stages NREM REM sleep architecture",
+    "orexin hypocretin wakefulness lateral hypothalamus"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Thermoregulation and fever",
+   "scope": "Thermoregulatory control in the hypothalamus, heat production by shivering and UCP1-mediated brown fat thermogenesis, heat loss by sweating and skin vasodilation, fever via pyrogens and PGE2, and torpor and hibernation.",
+   "queries": [
+    "brown adipose tissue UCP1 thermogenesis",
+    "preoptic area hypothalamus thermoregulation warm-sensitive neurons",
+    "fever prostaglandin E2 pyrogens EP3 receptor",
+    "eccrine sweat rate heat acclimation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Exercise physiology and energy expenditure",
+   "scope": "Energy systems (phosphocreatine, glycolytic, oxidative), VO2max and lactate threshold, cardiorespiratory responses to exercise, training adaptations, EPOC, basal metabolic rate and indirect calorimetry.",
+   "queries": [
+    "VO2max determinants cardiac output endurance athletes",
+    "lactate threshold blood lactate exercise intensity",
+    "excess post-exercise oxygen consumption phosphocreatine recovery",
+    "respiratory quotient indirect calorimetry basal metabolic rate"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hemostasis, platelet function and fibrinolysis",
+   "scope": "Platelet adhesion, activation and aggregation, the coagulation factor cascade and cell-based model of thrombin generation, natural anticoagulants, and plasmin-mediated clot dissolution.",
+   "queries": [
+    "von Willebrand factor platelet adhesion glycoprotein Ib",
+    "tissue factor coagulation cascade thrombin generation",
+    "plasminogen activator fibrinolysis D-dimer",
+    "protein C antithrombin natural anticoagulants"
+   ],
+   "sources": [
+    "wikipedia",
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Erythropoiesis, red cell lifespan and iron homeostasis",
+   "scope": "Regulation of red cell production by erythropoietin, reticulocyte maturation, erythrocyte senescence and splenic clearance, and systemic iron balance through hepcidin, ferroportin and transferrin.",
+   "queries": [
+    "erythropoietin production hypoxia inducible factor kidney",
+    "hepcidin ferroportin iron absorption regulation",
+    "reticulocyte maturation red cell lifespan",
+    "transferrin receptor iron recycling macrophages spleen"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Taste and olfaction physiology",
+   "scope": "Gustatory and olfactory receptor cells, receptor gene families and transduction mechanisms for each taste quality and odorants, and central processing in the olfactory bulb and gustatory pathways.",
+   "queries": [
+    "taste receptor cells T1R T2R sweet bitter",
+    "olfactory receptor neurons odorant receptor genes",
+    "olfactory bulb glomeruli mitral cells",
+    "sour salty taste transduction ENaC OTOP1"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Cerebrospinal fluid, blood-brain barrier and intracranial pressure",
+   "scope": "CSF secretion by the choroid plexus, its flow and absorption, glymphatic clearance, blood-brain barrier structure and transporters, and intracranial pressure-volume relationships.",
+   "queries": [
+    "cerebrospinal fluid production choroid plexus rate",
+    "blood-brain barrier tight junctions endothelial transporters",
+    "glymphatic system aquaporin-4 clearance",
+    "intracranial pressure Monro-Kellie doctrine compliance"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Bone remodeling and skeletal mechanobiology",
+   "scope": "Osteoblast, osteoclast and osteocyte biology, the basic multicellular unit remodeling cycle, RANKL/OPG and Wnt/sclerostin signaling, matrix mineralization, and bone adaptation to mechanical load.",
+   "queries": [
+    "RANKL osteoprotegerin osteoclast differentiation",
+    "osteocyte sclerostin mechanotransduction bone formation",
+    "bone remodeling cycle basic multicellular unit",
+    "osteoblast Runx2 osterix matrix mineralization"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Hepatic metabolic functions, zonation and plasma protein synthesis",
+   "scope": "Liver acinus zonation, ammonia detoxification via the urea cycle, synthesis and half-lives of albumin and other plasma proteins, hepatic xenobiotic handling, and bilirubin conjugation.",
+   "queries": [
+    "hepatic lobule zonation periportal pericentral hepatocytes",
+    "urea cycle ammonia detoxification liver",
+    "albumin synthesis liver plasma proteins half-life",
+    "bilirubin conjugation UDP-glucuronosyltransferase hepatocyte"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Skin barrier and cutaneous physiology",
+   "scope": "Epidermal structure and keratinocyte differentiation, stratum corneum barrier and transepidermal water loss, skin appendage secretion, melanogenesis, and cutaneous vitamin D synthesis.",
+   "queries": [
+    "stratum corneum barrier transepidermal water loss",
+    "keratinocyte differentiation filaggrin cornified envelope",
+    "sebaceous gland sebum secretion composition",
+    "melanocyte melanogenesis ultraviolet skin pigmentation"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Micturition and lower urinary tract physiology",
+   "scope": "Bladder filling and storage, detrusor and sphincter innervation and receptors, spinal and pontine control of the micturition reflex, and urodynamic parameters of normal voiding.",
+   "queries": [
+    "micturition reflex pontine micturition center",
+    "detrusor muscle muscarinic M3 bladder contraction",
+    "bladder capacity cystometry urodynamics filling",
+    "external urethral sphincter Onuf nucleus pudendal"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Lipoprotein metabolism and lipid transport",
+   "scope": "Exogenous and endogenous lipoprotein pathways, apolipoprotein functions, lipoprotein lipase and hepatic uptake, LDL receptor regulation, and HDL-mediated reverse cholesterol transport.",
+   "queries": [
+    "chylomicron VLDL lipoprotein lipase triglyceride",
+    "LDL receptor PCSK9 cholesterol uptake",
+    "HDL reverse cholesterol transport ABCA1 LCAT",
+    "apolipoprotein B-100 B-48 apoE function"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "EEG, evoked potentials and clinical neurophysiology",
+   "scope": "Generation and frequency bands of EEG rhythms, sensory and event-related evoked potential components and latencies, and nerve conduction and late-response measures such as F-waves and H-reflexes.",
+   "queries": [
+    "EEG alpha rhythm frequency bands generation",
+    "P300 event-related potential latency amplitude",
+    "visual evoked potential P100 latency",
+    "nerve conduction velocity F-wave H-reflex"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Synaptic plasticity, learning and memory systems",
+   "scope": "Long-term potentiation and depression, spike-timing-dependent plasticity, hippocampal and entorhinal spatial coding, and systems-level memory consolidation mechanisms.",
+   "queries": [
+    "long-term potentiation hippocampus NMDA receptor CA1",
+    "place cells grid cells entorhinal cortex",
+    "memory consolidation hippocampal sharp wave ripples",
+    "spike-timing-dependent plasticity synaptic learning"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  },
+  {
+   "leaf": "Physiology of aging across organ systems",
+   "scope": "Measurable age-related changes in renal, cardiovascular, pulmonary, musculoskeletal and sensory function in healthy older adults, including typical rates of decline per decade.",
+   "queries": [
+    "aging glomerular filtration rate decline per decade",
+    "sarcopenia skeletal muscle mass loss aging",
+    "arterial stiffness baroreflex sensitivity older adults",
+    "presbyopia presbycusis age-related sensory decline"
+   ],
+   "sources": [
+    "pubmed",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Landmark experiments and history of physiology",
+   "scope": "Classic discoveries, eponymous laws and Nobel Prize-winning work in physiology, with their discoverers, dates, experimental preparations and original concepts such as the milieu intérieur and homeostasis.",
+   "queries": [
+    "Nobel Prize Physiology or Medicine discovery history",
+    "Claude Bernard milieu interieur Cannon homeostasis",
+    "Bayliss Starling secretin discovery 1902",
+    "William Harvey circulation of blood experiments"
+   ],
+   "sources": [
+    "wikipedia",
+    "web_edu"
+   ]
+  },
+  {
+   "leaf": "Sexual response, erection and ejaculation physiology",
+   "scope": "Neurovascular mechanisms of penile and clitoral erection, nitric oxide-cGMP signaling, spinal control of emission and ejaculation, and models of the human sexual response cycle.",
+   "queries": [
+    "penile erection nitric oxide cGMP corpus cavernosum",
+    "ejaculation emission spinal ejaculation generator",
+    "Masters Johnson sexual response cycle phases",
+    "female sexual arousal clitoral vaginal blood flow"
+   ],
+   "sources": [
+    "pubmed",
+    "wikipedia"
+   ]
+  }
+ ]
+}
